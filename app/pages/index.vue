@@ -1,13 +1,6 @@
 <template>
-  <div class="flex items-center justify-center">
-    <NuxtWelcome />
-  </div>
+  <SiteHero />
 </template>
 
-<script setup lang="ts">
-
+<script lang="ts" setup>
 </script>
-
-<style scoped>
-
-</style>
