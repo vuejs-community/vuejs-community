@@ -40,6 +40,7 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-page: var(--page);
 }
 
 :root {
@@ -76,6 +77,7 @@
   --sidebar-ring: oklch(0.708 0 0);
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
+  --page: oklch(0.9736 0.0017 67.8);
 }
 
 .dark {
@@ -117,11 +119,12 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply antialiased flex h-full text-base text-foreground bg-background;
   }
 
-  #__nuxt{
+  #__nuxt {
     @apply flex grow flex-col;
   }
 }
