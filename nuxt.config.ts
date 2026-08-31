@@ -32,7 +32,7 @@ export default defineNuxtConfig({
     css: [
         '~/assets/css/main.css',
     ],
-    compatibilityDate: '2025-07-15',
+    compatibilityDate: '2026-08-31',
 
     vite: {
         plugins: [
