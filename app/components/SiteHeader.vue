@@ -1,7 +1,7 @@
 <template>
   <!-- Header -->
-  <header class="h-14 border-b border-dashed">
-    <div class="mx-auto flex h-full max-w-7xl items-center justify-between px-4">
+  <header class="border-b border-dashed">
+    <div class="mx-auto flex h-full max-w-7xl items-center justify-between px-4 py-2">
       <!-- Left -->
       <div class="flex min-w-0 items-center gap-8">
         <NuxtLink
