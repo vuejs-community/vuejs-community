@@ -6,6 +6,7 @@ allowBuilds:
   esbuild: true
   simple-git-hooks: true
   unrs-resolver: true
+  vue-demi: true
 
 trustPolicyExclude:
   - semver
