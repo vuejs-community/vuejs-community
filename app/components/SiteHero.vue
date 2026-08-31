@@ -36,7 +36,7 @@
       </Button>
       <div class="flex gap-4">
         <Button class="h-auto rounded-full font-medium md:px-5 md:py-3 md:text-base" variant="outline">
-          Contribute
+          Contributing
         </Button>
         <svg fill="none" height="36" viewBox="0 0 83 36" width="83" xmlns="http://www.w3.org/2000/svg">
           <path

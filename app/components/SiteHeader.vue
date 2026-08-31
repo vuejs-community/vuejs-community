@@ -38,7 +38,7 @@
       <!-- Right -->
       <div class="flex shrink-0 items-center gap-2">
         <Button class="hidden sm:inline-flex" variant="outline">
-          Submit Data
+          Contributing
         </Button>
 
         <Button size="icon" variant="ghost">
