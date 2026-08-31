@@ -1,7 +1,7 @@
 {
     "name": "pkg-placeholder",
     "type": "module",
-    "packageManager": "pnpm@10.33.0",
+    "packageManager": "pnpm@11.24.0",
     "description": "_description_",
     "license": "MIT",
     "homepage": "https://github.com/lonewolfyx/pkg-placeholder",
