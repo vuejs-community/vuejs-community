@@ -14,6 +14,10 @@ export default defineNuxtConfig({
     enabled: true,
   },
 
+  icon: {
+    size: '16px',
+  },
+
   app: {
     head: {
       viewport: 'width=device-width,initial-scale=1',
