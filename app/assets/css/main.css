@@ -121,7 +121,7 @@
   }
 
   body {
-    @apply antialiased flex h-full text-base text-foreground bg-page;
+    @apply antialiased flex h-full text-base text-foreground bg-muted;
   }
 
   #__nuxt {
