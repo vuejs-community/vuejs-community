@@ -1,11 +1,10 @@
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
 
-<script setup>
+<script setup lang="ts">
 useHead({
   htmlAttrs: {
     class: ['h-full'],
