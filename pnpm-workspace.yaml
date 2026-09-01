@@ -10,3 +10,7 @@ allowBuilds:
 
 trustPolicyExclude:
   - semver
+
+packages:
+  - .
+  - packages/*
