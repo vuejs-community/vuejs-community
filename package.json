@@ -12,8 +12,6 @@
   "scripts": {
     "build": "nuxt build",
     "docs:dev": "nuxt dev",
-    "schema:dev": "pnpm -F @vue-community/schema run dev",
-    "schema:build": "pnpm -F @vue-community/schema run build",
     "schared:dev": "pnpm -F @vue-community/shared run dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
@@ -21,7 +19,7 @@
     "typecheck": "nuxt typecheck",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
-    "prepare": "simple-git-hooks && pnpm schema:build"
+    "prepare": "simple-git-hooks"
   },
   "dependencies": {
     "@lucide/vue": "^1.37.0",
