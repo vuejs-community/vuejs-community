@@ -114,6 +114,24 @@ importers:
       '@types/node':
         specifier: ^26.4.0
         version: 26.4.0
+      '@vue-community/schema':
+        specifier: workspace:*
+        version: link:../schema
+      tsdown:
+        specifier: ^0.22.14
+        version: 0.22.14(typescript@6.0.3)
+      typescript:
+        specifier: ^6.0.3
+        version: 6.0.3
+
+  packages/data-plugins:
+    devDependencies:
+      '@lonewolfyx/tsconfig':
+        specifier: ^0.0.6
+        version: 0.0.6(typescript@6.0.3)
+      '@types/node':
+        specifier: ^26.4.0
+        version: 26.4.0
       tsdown:
         specifier: ^0.22.14
         version: 0.22.14(typescript@6.0.3)
