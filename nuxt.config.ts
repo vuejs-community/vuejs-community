@@ -1,3 +1,4 @@
+import { resolve } from 'node:path'
 import tailwindcss from '@tailwindcss/vite'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
@@ -16,6 +17,12 @@ export default defineNuxtConfig({
 
   icon: {
     size: '16px',
+    customCollections: [
+      {
+        prefix: 'icon',
+        dir: resolve('./app/assets/icon'),
+      },
+    ],
   },
 
   app: {
