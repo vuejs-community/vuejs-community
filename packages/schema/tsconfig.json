@@ -9,8 +9,8 @@
     },
     "resolveJsonModule": true,
     "types": [
-      "nodes",
-      "tsdow/client"
+      "node",
+      "tsdown/client"
     ]
   }
 }
