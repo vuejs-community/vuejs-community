@@ -3,6 +3,9 @@
   <SiteSection>
     <HeroEcoSystem />
   </SiteSection>
+  <SiteSection>
+    <HeroStats />
+  </SiteSection>
 </template>
 
 <script lang="ts" setup>
