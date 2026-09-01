@@ -91,6 +91,96 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
 
+  packages/data-hooks:
+    devDependencies:
+      '@lonewolfyx/tsconfig':
+        specifier: ^0.0.6
+        version: 0.0.6(typescript@6.0.3)
+      '@types/node':
+        specifier: ^26.4.0
+        version: 26.4.0
+      tsdown:
+        specifier: ^0.22.14
+        version: 0.22.14(typescript@6.0.3)
+      typescript:
+        specifier: ^6.0.3
+        version: 6.0.3
+
+  packages/data-nuxt:
+    devDependencies:
+      '@lonewolfyx/tsconfig':
+        specifier: ^0.0.6
+        version: 0.0.6(typescript@6.0.3)
+      '@types/node':
+        specifier: ^26.4.0
+        version: 26.4.0
+      tsdown:
+        specifier: ^0.22.14
+        version: 0.22.14(typescript@6.0.3)
+      typescript:
+        specifier: ^6.0.3
+        version: 6.0.3
+
+  packages/data-ui:
+    devDependencies:
+      '@lonewolfyx/tsconfig':
+        specifier: ^0.0.6
+        version: 0.0.6(typescript@6.0.3)
+      '@types/node':
+        specifier: ^26.4.0
+        version: 26.4.0
+      tsdown:
+        specifier: ^0.22.14
+        version: 0.22.14(typescript@6.0.3)
+      typescript:
+        specifier: ^6.0.3
+        version: 6.0.3
+
+  packages/data-vite:
+    devDependencies:
+      '@lonewolfyx/tsconfig':
+        specifier: ^0.0.6
+        version: 0.0.6(typescript@6.0.3)
+      '@types/node':
+        specifier: ^26.4.0
+        version: 26.4.0
+      tsdown:
+        specifier: ^0.22.14
+        version: 0.22.14(typescript@6.0.3)
+      typescript:
+        specifier: ^6.0.3
+        version: 6.0.3
+
+  packages/query:
+    devDependencies:
+      '@lonewolfyx/tsconfig':
+        specifier: ^0.0.6
+        version: 0.0.6(typescript@6.0.3)
+      '@types/node':
+        specifier: ^26.4.0
+        version: 26.4.0
+      tsdown:
+        specifier: ^0.22.14
+        version: 0.22.14(typescript@6.0.3)
+      typescript:
+        specifier: ^6.0.3
+        version: 6.0.3
+
+  packages/registry:
+    devDependencies:
+      '@lonewolfyx/tsconfig':
+        specifier: ^0.0.6
+        version: 0.0.6(typescript@6.0.3)
+      '@types/node':
+        specifier: ^26.4.0
+        version: 26.4.0
+      tsdown:
+        specifier: ^0.22.14
+        version: 0.22.14(typescript@6.0.3)
+      typescript:
+        specifier: ^6.0.3
+        version: 6.0.3
+
   packages/schema:
     devDependencies:
       '@lonewolfyx/tsconfig':
