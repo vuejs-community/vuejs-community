@@ -4,7 +4,7 @@
 
     <!-- Main -->
     <!-- border-x border-dashed -->
-    <main class="mx-auto w-full max-w-7xl flex-1">
+    <main class="flex-1">
       <slot />
     </main>
 
