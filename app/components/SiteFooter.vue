@@ -1,5 +1,5 @@
 <template>
-  <footer class="pt-32 w-full border-t">
+  <footer class="pt-32 w-full">
     <div
       :class="cn([
         'mx-auto max-w-7xl',
