@@ -71,9 +71,8 @@
 
     <!-- Vite core -->
     <div class="absolute left-1/2 top-[55%] z-20 flex aspect-square w-[27%] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-white bg-white/[0.96] shadow-[0_18px_45px_rgba(15,23,42,0.1),0_0_0_1px_rgba(226,232,240,0.65),inset_0_0_24px_rgba(99,102,241,0.035)]">
-      <div class="relative h-[48%] w-[34%] drop-shadow-[0_5px_7px_rgba(250,204,21,0.28)]">
-        <div class="absolute inset-0 bg-gradient-to-b from-yellow-300 via-amber-400 to-yellow-500 [clip-path:polygon(30%_0,100%_0,70%_38%,95%_38%,18%_100%,37%_55%,0_55%)]" />
-        <div class="absolute left-[29%] top-[7%] h-[52%] w-[45%] bg-white/30 blur-[2px] [clip-path:polygon(0_0,100%_0,55%_100%,18%_100%)]" />
+      <div class="relative flex items-center h-[48%] w-[50%] drop-shadow-[0_5px_7px_rgba(250,204,21,0.28)]">
+        <Icon name="logos:vite" size="128" />
       </div>
     </div>
 
