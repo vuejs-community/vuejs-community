@@ -1,4 +1,4 @@
-import type { CommunityProject } from '@/types.ts'
+import type { CommunityProject } from './types.ts'
 
 export type { CommunityProject } from './types'
 
