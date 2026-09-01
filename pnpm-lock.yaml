@@ -129,6 +129,9 @@ importers:
       '@types/node':
         specifier: ^26.4.0
         version: 26.4.0
+      '@vue-community/schema':
+        specifier: workspace:*
+        version: link:../schema
       tsdown:
         specifier: ^0.22.14
         version: 0.22.14(typescript@6.0.3)
