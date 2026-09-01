@@ -1,5 +1,5 @@
 <template>
-  <div class="relative border-y border-foreground/20">
+  <div class="relative">
     <slot />
   </div>
 </template>
