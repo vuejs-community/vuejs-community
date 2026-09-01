@@ -1,5 +1,5 @@
 {
-  "name": "@vue-community/data-vite",
+  "name": "@vue-community/data-plugins",
   "type": "module",
   "version": "0.0.0",
   "private": true,
