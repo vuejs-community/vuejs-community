@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@lucide/vue": "^1.37.0",
+    "@number-flow/vue": "^0.5.2",
     "@vueuse/core": "^14.4.0",
     "motion-v": "^2.4.0",
     "reka-ui": "^2.10.4",

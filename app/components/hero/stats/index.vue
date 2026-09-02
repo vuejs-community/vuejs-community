@@ -15,7 +15,7 @@
             <div class="mt-12 flex justify-center gap-7 lg:justify-start">
               <div class="flex flex-col gap-1.5">
                 <p class="text-2xl font-bold text-foreground sm:text-3xl">
-                  18
+                  <NumberFlow :value="categoryTotal" />
                 </p>
                 <p class="text-muted-foreground">
                   Explore every corner of Vue.
@@ -24,7 +24,7 @@
               <Separator orientation="vertical" />
               <div class="flex flex-col gap-1.5">
                 <p class="text-2xl font-bold text-foreground sm:text-3xl">
-                  10+
+                  <NumberFlow :value="categoryTotal" />+
                 </p>
                 <p class="text-muted-foreground">
                   Built by teams across open source.
@@ -82,9 +82,16 @@
 </template>
 
 <script lang="ts" setup>
+import NumberFlow from '@number-flow/vue'
 import { Separator } from '~/components/ui/separator'
 
 defineOptions({
   name: 'HeroStats',
+})
+
+const categoryTotal = ref<number>(0)
+
+onMounted(() => {
+  categoryTotal.value = 100
 })
 </script>
