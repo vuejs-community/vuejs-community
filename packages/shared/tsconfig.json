@@ -1,16 +1,3 @@
 {
-  "extends": ["@lonewolfyx/tsconfig/tsconfig.lib.json"],
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": [
-        "./src/*"
-      ]
-    },
-    "resolveJsonModule": true,
-    "types": [
-      "node",
-      "tsdown/client"
-    ]
-  }
+  "extends": ["@vue-community/tsconfig/base.json"]
 }

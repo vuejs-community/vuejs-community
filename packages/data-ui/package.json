@@ -12,9 +12,9 @@
     "dev": "tsdown --watch"
   },
   "devDependencies": {
-    "@lonewolfyx/tsconfig": "^0.0.6",
     "@types/node": "^26.4.0",
     "@vue-community/schema": "workspace:*",
+    "@vue-community/tsconfig": "workspace:*",
     "tsdown": "^0.22.14",
     "typescript": "^6.0.3"
   }
