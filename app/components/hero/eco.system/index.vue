@@ -139,11 +139,11 @@
             <div
               class=""
               :class="cn([
-                'relative min-h-[480px]',
+                'relative h-[620px]',
                 'flex items-center justify-center overflow-hidden',
                 'border border-neutral-300 rounded-sm',
                 'bg-gradient-to-br from-white via-neutral-50 to-neutral-100',
-                'p-6 backdrop-blur-xl md:min-h-[620px] md:p-10',
+                'p-6 backdrop-blur-xl md:p-10',
               ])"
             >
               <!--              <div -->
