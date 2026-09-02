@@ -7,11 +7,11 @@
             <span class="font-semibold">Discover the</span>
             <span class="font-playfair italic">Vue Ecosystem</span>
           </span>
-          <span class="font-semibold text-4xl tracking-tight">探索、连接并构建属于 Vue 的开放生态。</span>
+          <span class="font-semibold text-4xl tracking-tight">Explore, connect, and build the open ecosystem of Vue.<!-- 探索、连接并构建属于 Vue 的开放生态。 --></span>
         </h1>
 
         <div class="mt-8 flex flex-wrap justify-center items-center gap-3 tracking-tight md:text-xl">
-          <span>从</span>
+          <span>From<!-- 从 --></span>
           <DefineTemplate v-slot="{ icon, title }">
             <div class="flex items-center">
               <div class="flex size-8 rotate-14 items-center justify-center rounded-lg bg-foreground shadow-xl">
