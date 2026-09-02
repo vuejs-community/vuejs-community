@@ -137,24 +137,38 @@
         >
           <div class="sticky top-24">
             <div
-              class="relative flex min-h-[480px] items-center justify-center overflow-hidden border border-neutral-300 bg-gradient-to-br from-white via-neutral-50 to-neutral-100 p-6 backdrop-blur-xl md:min-h-[620px] md:p-10"
+              class=""
+              :class="cn([
+                'relative min-h-[480px]',
+                'flex items-center justify-center overflow-hidden',
+                'border border-neutral-300 rounded-sm',
+                'bg-gradient-to-br from-white via-neutral-50 to-neutral-100',
+                'p-6 backdrop-blur-xl md:min-h-[620px] md:p-10',
+              ])"
             >
-              <div
-                :class="cn([
-                  'pointer-events-none',
-                  'absolute inset-0',
-                  'bg-[radial-gradient(ellipse_at_30%_10%,rgba(0,0,0,0.08),transparent_60%)]',
-                ])"
-              />
-              <div
-                :class="cn([
-                  'pointer-events-none',
-                  'absolute inset-0 opacity-[0.05] mix-blend-overlay',
-                  'bg-[repeating-conic-gradient(from_0deg_at_50%_50%,transparent_0deg_0.5deg,currentColor_0.5deg_1deg)]',
-                  '[background-size:3px_3px]',
-                ])"
-              />
+              <!--              <div -->
+              <!--                :class="cn([ -->
+              <!--                  'pointer-events-none', -->
+              <!--                  'absolute inset-0', -->
+              <!--                  'bg-[radial-gradient(ellipse_at_30%_10%,rgba(0,0,0,0.08),transparent_60%)]', -->
+              <!--                ])" -->
+              <!--              /> -->
+              <!--              <div -->
+              <!--                :class="cn([ -->
+              <!--                  'pointer-events-none', -->
+              <!--                  'absolute inset-0 opacity-[0.05] mix-blend-overlay', -->
+              <!--                  'bg-[repeating-conic-gradient(from_0deg_at_50%_50%,transparent_0deg_0.5deg,currentColor_0.5deg_1deg)]', -->
+              <!--                  '[background-size:3px_3px]', -->
+              <!--                ])" -->
+              <!--              /> -->
 
+              <span
+                :class="cn([
+                  'pointer-events-none absolute inset-0 z-auto',
+                  'bg-[radial-gradient(var(--foreground)_1px,transparent_1px)] bg-size-[5px_5px]',
+                  'opacity-[0.06]',
+                ])"
+              />
               <div class="relative flex w-full self-stretch items-center justify-center">
                 <AnimatePresence mode="wait">
                   <Motion
