@@ -144,3 +144,7 @@
     cursor: pointer;
   }
 }
+
+@utility container {
+  @apply mx-auto px-6;
+}
