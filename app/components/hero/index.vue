@@ -1,5 +1,5 @@
 <template>
-  <section class="container isolate w-full h-full">
+  <section class="relative container isolate w-full h-full">
     <div class="px-8 py-32">
       <div class="flex flex-col items-center">
         <h1 class="flex flex-col items-center text-5xl leading-tight tracking-tighter md:text-7xl">
