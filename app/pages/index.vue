@@ -19,4 +19,14 @@
 import HeroIndex from '~/components/hero/index.vue'
 import SiteCta from '~/components/SiteCta.vue'
 import SiteSection from '~/SiteSection.vue'
+
+useHead({
+  title: 'Vue Community — Discover the Vue Ecosystem',
+  meta: [
+    {
+      name: 'description',
+      content: 'Discover Vue libraries, UI components, composables, Nuxt modules, Vite plugins, and developer tools in one open, community-driven ecosystem.',
+    },
+  ],
+})
 </script>
