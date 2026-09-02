@@ -1,5 +1,5 @@
 <template>
-  <section class="relative container isolate flex w-full flex-1 flex-col px-8 py-32">
+  <section class="relative container isolate flex w-full flex-1 flex-col px-8 pt-32 pb-4">
     <div class="flex-1 flex flex-col justify-between">
       <div class="flex flex-col items-center">
         <h1 class="flex flex-col items-center text-5xl leading-tight tracking-tighter md:text-7xl">
