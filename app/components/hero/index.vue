@@ -1,6 +1,6 @@
 <template>
-  <section class="relative container isolate w-full h-full">
-    <div class="px-8 py-32">
+  <section class="relative container isolate flex w-full flex-1 flex-col px-8 py-32">
+    <div class="flex-1 flex flex-col justify-between">
       <div class="flex flex-col items-center">
         <h1 class="flex flex-col items-center text-5xl leading-tight tracking-tighter md:text-7xl">
           <span class="flex items-center gap-4">
@@ -49,6 +49,32 @@
           </div>
         </div>
       </div>
+      <div class="relative">
+        <ClientOnly>
+          <Vue3Marquee
+            :duration="60"
+            :pause-on-hover="true"
+            class="py-4 pt-8 overflow-hidden"
+          >
+            <ul class="relative flex items-center overflow-hidden w-full">
+              <li
+                v-for="item in items"
+                :key="item.label"
+                class="relative mx-8 flex-1 w-20"
+              >
+                <div class="flex flex-col items-center gap-3">
+                  <Icon :name="item.icon" size="40" />
+                  <!--                  <span class="font-semibold text-sm whitespace-nowrap">{{ item.name }}</span> -->
+                </div>
+              </li>
+            </ul>
+          </Vue3Marquee>
+        </ClientOnly>
+        <div class="bg-linear-to-r from-page absolute inset-y-0 left-0 w-12 to-transparent" />
+        <div class="bg-linear-to-l from-page absolute inset-y-0 right-0 w-12 to-transparent" />
+      </div>
+
+      <!-- -->
     </div>
   </section>
 </template>
@@ -59,4 +85,59 @@ defineOptions({
 })
 
 const [DefineTemplate, ReuseTemplate] = createReusableTemplate()
+
+const items = [
+  {
+    label: 'vue',
+    icon: 'logos:vue',
+  },
+  {
+    label: 'element-plus',
+    icon: 'icon:element-plus',
+  },
+  {
+    label: 'naiveui',
+    icon: 'icon:naiveui',
+  },
+  {
+    label: 'ant-design',
+    icon: 'logos:ant-design',
+  },
+  {
+    label: 'vueuse',
+    icon: 'logos:vueuse',
+  },
+  {
+    label: 'nuxt',
+    icon: 'logos:nuxt-icon',
+  },
+  {
+    label: 'ant-design-vue',
+    icon: 'icon:ant-design-vue',
+  },
+  {
+    label: 'reka-ui',
+    icon: 'icon:reka-ui',
+  },
+  {
+    label: 'arco-vue',
+    icon: 'icon:arco',
+  },
+  {
+    label: 'daisyui',
+    icon: 'icon:daisyui',
+  },
+  {
+    label: 'vite',
+    icon: 'logos:vite-icon',
+  },
+  {
+    label: 'vite-devtools',
+    icon: 'icon:vite-devtools',
+  },
+  {
+    label: 'vue-pinia',
+    icon: 'logos:pinia',
+  },
+]
 </script>
