@@ -9,9 +9,14 @@
   <SiteSection>
     <HeroEcoSystem />
   </SiteSection>
+  <SiteSection class="bg-white border-t border-foreground/20">
+    <DotPattern />
+    <SiteCta />
+  </SiteSection>
 </template>
 
 <script lang="ts" setup>
 import HeroIndex from '~/components/hero/index.vue'
+import SiteCta from '~/components/SiteCta.vue'
 import SiteSection from '~/SiteSection.vue'
 </script>
