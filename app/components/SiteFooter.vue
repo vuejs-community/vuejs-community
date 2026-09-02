@@ -1,9 +1,9 @@
 <template>
-  <footer class="pt-32 w-full">
+  <footer class="relative flex min-h-dvh w-full flex-col pt-32">
     <div
       :class="cn([
         'container',
-        'flex flex-col items-center justify-center gap-8',
+        'flex flex-1 flex-col items-center justify-center gap-8',
         'text-center sm:px-6 lg:px-8 px-4 py-8',
       ])"
     >
@@ -36,7 +36,7 @@
       </p>
     </div>
 
-    <div class="relative flex items-end justify-center overflow-hidden px-6 pt-6 sm:pt-8 md:pt-14 text-zinc-950">
+    <div class="relative flex shrink-0 items-end justify-center overflow-hidden px-6 pt-6 text-zinc-950 sm:pt-8 md:pt-14">
       <p class="text-center font-sans font-bold tracking-tighter select-none text-shadow-xs md:translate-y-8 text-[12vw] text-zinc-950 pointer-events-none leading-none opacity-5">
         Vue.Community
       </p>
