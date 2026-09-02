@@ -1,5 +1,18 @@
 <template>
-  <footer class="relative flex min-h-dvh w-full flex-col pt-32">
+  <footer class="relative flex min-h-dvh w-full flex-col">
+    <div class="relative isolate overflow-hidden bg-white">
+      <DotPattern />
+      <div
+        :class="cn([
+          'container',
+          'text-[0.625rem] tracking-wide',
+          'flex flex-wrap items-center gap-4 py-4 md:py-5',
+        ])"
+      >
+        <span class="flex flex-1 items-center gap-2 text-foreground">&copy; 2026 Vue.Community</span>
+        <span class="flex-1 text-end text-muted-foreground">made with ❤️‍🔥 by lonewolfyx</span>
+      </div>
+    </div>
     <div
       :class="cn([
         'container',
@@ -32,11 +45,11 @@
         <a href="#" class="hover:text-foreground transition-colors capitalize">Github</a>
       </nav>
       <p class="text-muted-foreground w-full border-t pt-6 text-xs font-normal">
-        &copy; 2026 Vue.Community Inc. All rights reserved. Constructed based on Shadcn/Vue & Tailwindcss
+        Constructed based on Shadcn/Vue & Tailwindcss
       </p>
     </div>
 
-    <div class="relative flex shrink-0 items-end justify-center overflow-hidden px-6 pt-6 text-zinc-950 sm:pt-8 md:pt-14">
+    <div class="relative flex shrink-0 items-end justify-center overflow-hidden px-6 pt-6 text-zinc-950 sm:pt-8 md:pt-32">
       <p class="text-center font-sans font-bold tracking-tighter select-none text-shadow-xs md:translate-y-8 text-[12vw] text-zinc-950 pointer-events-none leading-none opacity-5">
         Vue.Community
       </p>
