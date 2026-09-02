@@ -58,7 +58,7 @@ defineOptions({
 
 const navs = [
   {
-    label: 'ui',
+    label: 'UI',
     to: '/ui',
   },
   {
