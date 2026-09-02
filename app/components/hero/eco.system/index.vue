@@ -10,7 +10,7 @@
     initial="hidden"
     while-in-view="visible"
   >
-    <div class="container mx-auto py-16 md:py-24 lg:py-32">
+    <div class="container py-16 md:py-24 lg:py-32">
       <div class="w-full">
         <Motion
           as="span"

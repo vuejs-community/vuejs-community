@@ -3,7 +3,7 @@
     <DotPattern />
     <div
       :class="cn([
-        'container mx-auto px-6',
+        'container',
         'text-[0.625rem] uppercase tracking-wide',
         'flex flex-wrap items-center gap-4 py-4 md:py-5',
       ])"
@@ -12,7 +12,7 @@
       <span class="flex-1 text-end text-muted-foreground">VUE ECOSYSTEM · {{ year }}</span>
     </div>
   </div>
-  <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-12">
+  <div class="container grid grid-cols-1 md:grid-cols-12">
     <div
       :class="cn([
         'flex flex-col',
