@@ -43,8 +43,16 @@
           </div>
         </GradientButton>
 
-        <Button size="icon" variant="ghost">
-          <Icon name="codicon:github-alt" />
+        <Button size="icon" variant="ghost" as-child>
+          <NuxtLink target="_blank" :to="app.github">
+            <Icon name="codicon:github-alt" />
+          </NuxtLink>
+        </Button>
+
+        <Button size="icon" variant="ghost" as-child>
+          <NuxtLink target="_blank" :to="app.discord">
+            <Icon name="akar-icons:discord-fill" />
+          </NuxtLink>
         </Button>
       </div>
     </div>
@@ -78,4 +86,6 @@ const navs = [
     to: '/module',
   },
 ]
+
+const { app } = useAppConfig()
 </script>
