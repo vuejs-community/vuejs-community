@@ -23,13 +23,13 @@
         Explore, connect, and build the open ecosystem of Vue.
       </span>
       <nav class="text-muted-foreground flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm font-medium">
-        <a href="#" class="hover:text-foreground transition-colors">Product</a>
-        <a href="#" class="hover:text-foreground transition-colors">Features</a>
-        <a href="#" class="hover:text-foreground transition-colors">Solutions</a>
-        <a href="#" class="hover:text-foreground transition-colors">Pricing</a>
-        <a href="#" class="hover:text-foreground transition-colors">Resources</a>
+        <a href="#" class="hover:text-foreground transition-colors">Ui Library</a>
         <a href="#" class="hover:text-foreground transition-colors">Company</a>
-        <a href="#" class="hover:text-foreground transition-colors">Contact</a>
+        <a href="#" class="hover:text-foreground transition-colors">Features</a>
+        <a href="#" class="hover:text-foreground transition-colors">Modules</a>
+        <a href="#" class="hover:text-foreground transition-colors">Vite</a>
+        <a href="#" class="hover:text-foreground transition-colors">Plugin</a>
+        <a href="#" class="hover:text-foreground transition-colors">Github</a>
       </nav>
       <p class="text-muted-foreground w-full border-t pt-6 text-xs font-normal">
         &copy; 2026 Vue.Community Inc. All rights reserved. Constructed based on Shadcn/Vue & Tailwindcss
