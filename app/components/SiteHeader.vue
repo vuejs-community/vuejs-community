@@ -1,6 +1,6 @@
 <template>
   <!-- Header -->
-  <header class="border-b border-dashed">
+  <header class="border-b border-foreground/20">
     <div class="flex container h-full items-center justify-between py-2">
       <!-- Left -->
       <div class="flex min-w-0 items-center gap-8">
