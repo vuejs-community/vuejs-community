@@ -100,6 +100,24 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
 
+  packages/data-component:
+    devDependencies:
+      '@types/node':
+        specifier: ^26.4.0
+        version: 26.4.0
+      '@vue-community/schema':
+        specifier: workspace:*
+        version: link:../schema
+      '@vue-community/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
+      tsdown:
+        specifier: ^0.22.14
+        version: 0.22.14(typescript@6.0.3)
+      typescript:
+        specifier: ^6.0.3
+        version: 6.0.3
+
   packages/data-hooks:
     devDependencies:
       '@types/node':
@@ -197,21 +215,6 @@ importers:
         version: 6.0.3
 
   packages/schema:
-    devDependencies:
-      '@types/node':
-        specifier: ^26.4.0
-        version: 26.4.0
-      '@vue-community/tsconfig':
-        specifier: workspace:*
-        version: link:../tsconfig
-      tsdown:
-        specifier: ^0.22.14
-        version: 0.22.14(typescript@6.0.3)
-      typescript:
-        specifier: ^6.0.3
-        version: 6.0.3
-
-  packages/shared:
     devDependencies:
       '@types/node':
         specifier: ^26.4.0

@@ -1,0 +1,19 @@
+import { defineProjectMeta } from '@vue-community/schema'
+
+export default defineProjectMeta({
+  name: 'number-flow',
+  description: 'An animated number component for React, Vue, Svelte, and TS/JS.',
+  category: 'component',
+  types: ['component-library'],
+  tags: ['animation'],
+
+  source: {
+    github: 'barvian/number-flow',
+    npm: '@number-flow/vue',
+  },
+
+  links: {
+    github: 'https://github.com/barvian/number-flow',
+    npm: 'https://www.npmjs.com/package/@number-flow/vue',
+  },
+})

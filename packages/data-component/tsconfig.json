@@ -1,0 +1,3 @@
+{
+  "extends": ["@vue-community/tsconfig/base.json"]
+}

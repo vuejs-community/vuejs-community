@@ -7,6 +7,7 @@ export type ProjectCategory
     | 'utilities'
     | 'library'
     | 'tool'
+    | 'component'
 
 export type ProjectType
 // UI
