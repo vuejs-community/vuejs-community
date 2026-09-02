@@ -23,13 +23,13 @@
         Explore, connect, and build the open ecosystem of Vue.
       </span>
       <nav class="text-muted-foreground flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm font-medium">
-        <a href="#" class="hover:text-foreground transition-colors">Ui Library</a>
-        <a href="#" class="hover:text-foreground transition-colors">Company</a>
-        <a href="#" class="hover:text-foreground transition-colors">Features</a>
-        <a href="#" class="hover:text-foreground transition-colors">Modules</a>
-        <a href="#" class="hover:text-foreground transition-colors">Vite</a>
-        <a href="#" class="hover:text-foreground transition-colors">Plugin</a>
-        <a href="#" class="hover:text-foreground transition-colors">Github</a>
+        <a href="#" class="hover:text-foreground transition-colors capitalize">UI Library</a>
+        <a href="#" class="hover:text-foreground transition-colors capitalize">Company</a>
+        <a href="#" class="hover:text-foreground transition-colors capitalize">Features</a>
+        <a href="#" class="hover:text-foreground transition-colors capitalize">Modules</a>
+        <a href="#" class="hover:text-foreground transition-colors capitalize">Vite</a>
+        <a href="#" class="hover:text-foreground transition-colors capitalize">Plugin</a>
+        <a href="#" class="hover:text-foreground transition-colors capitalize">Github</a>
       </nav>
       <p class="text-muted-foreground w-full border-t pt-6 text-xs font-normal">
         &copy; 2026 Vue.Community Inc. All rights reserved. Constructed based on Shadcn/Vue & Tailwindcss
