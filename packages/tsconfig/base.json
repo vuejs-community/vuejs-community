@@ -1,0 +1,10 @@
+{
+  "extends": ["@lonewolfyx/tsconfig/tsconfig.lib.json"],
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "types": [
+      "node",
+      "tsdown/client"
+    ]
+  }
+}
