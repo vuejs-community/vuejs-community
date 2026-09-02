@@ -24,7 +24,7 @@
       </span>
       <nav class="text-muted-foreground flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm font-medium">
         <a href="#" class="hover:text-foreground transition-colors capitalize">UI Library</a>
-        <a href="#" class="hover:text-foreground transition-colors capitalize">Company</a>
+        <a href="#" class="hover:text-foreground transition-colors capitalize">Component</a>
         <a href="#" class="hover:text-foreground transition-colors capitalize">Features</a>
         <a href="#" class="hover:text-foreground transition-colors capitalize">Modules</a>
         <a href="#" class="hover:text-foreground transition-colors capitalize">Vite</a>
