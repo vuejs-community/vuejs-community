@@ -1,10 +1,10 @@
 <template>
   <SiteHero />
-  <SiteSection>
-    <HeroEcoSystem />
+  <SiteSection class="border-y border-foreground/20">
+    <HeroStats />
   </SiteSection>
   <SiteSection>
-    <HeroStats />
+    <HeroEcoSystem />
   </SiteSection>
 </template>
 
