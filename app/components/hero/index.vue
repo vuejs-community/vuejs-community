@@ -139,5 +139,9 @@ const items = [
     label: 'vue-pinia',
     icon: 'logos:pinia',
   },
+  {
+    label: 'inspira-ui',
+    icon: 'icon:inspira-ui',
+  },
 ]
 </script>
