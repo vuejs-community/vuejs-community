@@ -45,7 +45,7 @@
         <a href="#" class="hover:text-foreground transition-colors capitalize">Github</a>
       </nav>
       <p class="text-muted-foreground w-full border-t pt-6 text-xs font-normal">
-        Constructed based on Shadcn/Vue & Tailwindcss
+        Constructed based on Nuxt & Shadcn/Vue & Tailwindcss
       </p>
     </div>
 
