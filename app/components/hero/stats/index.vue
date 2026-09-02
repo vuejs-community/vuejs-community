@@ -1,5 +1,5 @@
 <template>
-  <div class="relative isolate overflow-hidden border-b border-foreground/20" style="opacity: 1; transform: none;">
+  <div class="relative isolate overflow-hidden bg-white border-b border-foreground/20" style="opacity: 1; transform: none;">
     <DotPattern />
     <div
       :class="cn([
