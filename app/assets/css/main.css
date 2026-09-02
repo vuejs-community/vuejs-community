@@ -121,16 +121,20 @@
   }
 
   html {
-    @apply overflow-hidden scroll-smooth antialiased motion-safe:scroll-smooth;
-  }
-
-  body {
-    @apply antialiased flex h-full overflow-x-hidden overflow-y-auto text-base text-foreground bg-muted scrollbar-none;
+    @apply scroll-smooth antialiased motion-safe:scroll-smooth;
+    scrollbar-width: none;
     -ms-overflow-style: none;
   }
 
+  body {
+    @apply antialiased flex min-h-full overflow-x-clip text-base text-foreground bg-muted;
+    scrollbar-width: none;
+  }
+
+  html::-webkit-scrollbar,
   body::-webkit-scrollbar {
-    @apply hidden;
+    width: 0;
+    height: 0;
   }
 
   #__nuxt {
