@@ -120,8 +120,17 @@
     @apply border-border outline-ring/50;
   }
 
+  html {
+    @apply overflow-hidden scroll-smooth antialiased motion-safe:scroll-smooth;
+  }
+
   body {
-    @apply antialiased flex h-full text-base text-foreground bg-muted;
+    @apply antialiased flex h-full overflow-x-hidden overflow-y-auto text-base text-foreground bg-muted scrollbar-none;
+    -ms-overflow-style: none;
+  }
+
+  body::-webkit-scrollbar {
+    @apply hidden;
   }
 
   #__nuxt {
