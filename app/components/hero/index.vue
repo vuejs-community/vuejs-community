@@ -29,12 +29,12 @@
         </div>
 
         <div class="mt-10 flex flex-col items-start gap-3 md:flex-row">
-          <Button class="flex h-auto gap-3 rounded-full font-medium md:py-3 md:text-base">
+          <Button class="flex h-auto gap-3 rounded-none font-medium md:py-3 md:text-base">
             Explore Ecosystem
             <Icon name="lucide:chevron-right" />
           </Button>
           <div class="flex gap-4">
-            <Button class="h-auto rounded-full font-medium md:px-5 md:py-3 md:text-base" variant="outline">
+            <Button class="flex h-auto gap-3 rounded-none font-medium md:px-5 md:py-3 md:text-base" variant="outline">
               Contributing
             </Button>
             <svg fill="none" height="36" viewBox="0 0 83 36" width="83" xmlns="http://www.w3.org/2000/svg">
