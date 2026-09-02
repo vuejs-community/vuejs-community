@@ -16,30 +16,32 @@
           >
         </NuxtLink>
 
-        <nav class="hidden items-center gap-6 md:flex">
-          <NuxtLink to="/">
-            Home
-          </NuxtLink>
-
-          <NuxtLink to="/ui">
-            UI
-          </NuxtLink>
-
-          <NuxtLink to="/vite">
-            Vite Plugin
-          </NuxtLink>
-
-          <NuxtLink to="/nuxt">
-            Nuxt
-          </NuxtLink>
-        </nav>
+        <NavigationMenu>
+          <NavigationMenuList>
+            <NavigationMenuItem v-for="nav in navs" :key="nav.label">
+              <NavigationMenuLink as-child>
+                <a href="/" class="text-foreground text-sm font-medium capitalize">{{ nav.label }}</a>
+              </NavigationMenuLink>
+            </NavigationMenuItem>
+          </NavigationMenuList>
+        </NavigationMenu>
       </div>
 
       <!-- Right -->
       <div class="flex shrink-0 items-center gap-2">
-        <Button class="hidden sm:inline-flex" variant="outline">
-          Contributing
-        </Button>
+        <GradientButton
+          :duration="2900"
+          :border-radius="50"
+          :border-width="1.5"
+          :blur="2"
+          bg-color="#302121"
+          class="text-muted [&_span]:px-4 [&_span]:py-1"
+        >
+          <div class="flex items-center gap-3">
+            <span class="p-0!">🎉</span>
+            <span class="p-0!">Contributing</span>
+          </div>
+        </GradientButton>
 
         <Button size="icon" variant="ghost">
           <Icon name="codicon:github-alt" />
@@ -53,8 +55,27 @@
 defineOptions({
   name: 'SiteHeader',
 })
+
+const navs = [
+  {
+    label: 'ui',
+    to: '/ui',
+  },
+  {
+    label: 'component',
+    to: '/component',
+  },
+  {
+    label: 'vite',
+    to: '/vite',
+  },
+  {
+    label: 'plugin',
+    to: '/plugin',
+  },
+  {
+    label: 'module',
+    to: '/module',
+  },
+]
 </script>
-
-<style scoped>
-
-</style>
