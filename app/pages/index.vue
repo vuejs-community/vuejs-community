@@ -20,8 +20,4 @@ useHead({
     },
   ],
 })
-
-definePageMeta({
-  layout: 'custom',
-})
 </script>

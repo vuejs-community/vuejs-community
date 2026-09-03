@@ -1,11 +1,11 @@
 <template>
   <div class="flex min-h-screen flex-col">
-    <!-- Main -->
-    <!-- border-x border-dashed -->
+    <SiteHeader />
     <main class="flex-1">
-      <slot />
+      <div class="overflow-hidden">
+        <slot />
+      </div>
     </main>
-
     <SiteFooter />
   </div>
 </template>
