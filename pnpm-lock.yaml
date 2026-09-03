@@ -57,6 +57,9 @@ importers:
       '@types/node':
         specifier: ^26.4.0
         version: 26.4.0
+      '@vue-community/schema':
+        specifier: workspace:*
+        version: link:packages/schema
       '@vueuse/nuxt':
         specifier: ^14.3.0
         version: 14.4.0(5c2ea6a32d356c62898d433aa4a1eb52)
