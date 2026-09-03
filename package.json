@@ -1,13 +1,13 @@
 {
-  "name": "pkg-placeholder",
+  "name": "vuejs-community",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@11.24.0",
   "description": "_description_",
   "license": "MIT",
-  "homepage": "https://github.com/lonewolfyx/pkg-placeholder",
+  "homepage": "https://github.com/vuejs-community/vuejs-community",
   "bugs": {
-    "url": "https://github.com/lonewolfyx/pkg-placeholder/issues"
+    "url": "https://github.com/vuejs-community/vuejs-community/issues"
   },
   "scripts": {
     "build": "nuxt build",
