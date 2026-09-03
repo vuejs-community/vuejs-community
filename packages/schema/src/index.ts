@@ -6,7 +6,7 @@ export function defineProjectMeta<T extends CommunityProject>(project: T): T {
   return project
 }
 
-export const componentFilters = [
+export const metaDataSchemaFilters = [
   {
     id: 'Styled',
     label: 'Styled',
@@ -142,4 +142,4 @@ export const componentFilters = [
     icon: 'material-symbols:dynamic-form-outline',
     help: 'Provided tools or examples for integration with form management libraries (Vee-Validate, Zod, Yup, etc.)',
   },
-]
+] as const
