@@ -1,15 +1,13 @@
 <template>
   <SiteSection>
-    <HeroIndex />
-    <FeatureHome />
+    <Hero />
+    <FeaturesHome />
     <SiteCta class="border-x" />
   </SiteSection>
 </template>
 
 <script lang="ts" setup>
-import FeatureHome from '~/components/features/home.vue'
-import HeroIndex from '~/components/hero/index.vue'
-import SiteSection from '~/SiteSection.vue'
+import SiteSection from '~/components/SiteSection.vue'
 
 useHead({
   title: 'Vue Community — Discover the Vue Ecosystem',
