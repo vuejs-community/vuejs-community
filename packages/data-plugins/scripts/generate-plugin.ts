@@ -7,12 +7,13 @@ import PQueue from 'p-queue'
 
 const NPM_SEARCH_ENDPOINT = 'https://registry.npmjs.org/-/v1/search'
 const PAGE_SIZE = 250
-const MAX_RETRIES = 5
+const MAX_RETRIES = 10
 const REQUEST_TIMEOUT = 30_000
 
 interface PluginDefinition {
   keyword: string
   directory: string
+  packageNamePrefix: string
   type: 'vite-plugin' | 'rollup-plugin' | 'rolldown-plugin' | 'unplugin'
 }
 
@@ -50,26 +51,31 @@ const pluginDefinitions: PluginDefinition[] = [
   {
     keyword: 'vite-plugin',
     directory: 'vite',
+    packageNamePrefix: 'vite-plugin',
     type: 'vite-plugin',
   },
   {
     keyword: 'rollup-plugin',
     directory: 'rollup',
+    packageNamePrefix: 'rollup-plugin',
     type: 'rollup-plugin',
   },
   {
     keyword: 'rolldown-plugin',
     directory: 'rolldown',
+    packageNamePrefix: 'rolldown-plugin',
     type: 'rolldown-plugin',
   },
   {
     keyword: 'unplugin',
     directory: 'unplugin',
+    packageNamePrefix: 'unplugin',
     type: 'unplugin',
   },
   {
     keyword: '@rollup/plugin-',
     directory: 'rollup',
+    packageNamePrefix: '@rollup/plugin-',
     type: 'rollup-plugin',
   },
 ]
@@ -179,6 +185,13 @@ async function writeSearchObjects(
 
     if (!packageName) {
       console.warn(`[${definition.keyword}] Skipped a result without a package name.`)
+      continue
+    }
+
+    if (!packageName.startsWith(definition.type)) {
+      console.log(
+        `[${definition.keyword}] -「${packageName}」 skipped because its name does not start with "${definition.type}"`,
+      )
       continue
     }
 
