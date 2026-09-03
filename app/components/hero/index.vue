@@ -85,20 +85,20 @@
     <div class="pointer-events-none absolute top-0 left-full hidden h-[calc(100%+1px)] w-screen overflow-hidden border-b text-start select-none lg:block">
       <!-- eslint-disable vue/html-indent -->
       <pre class="m-0 p-4 whitespace-pre opacity-20">defineProjectMeta({
-  name: 'shadcn-vue',
-  description: '',
-  category: 'ui',
-  types: ['headless-ui'],
-  tags: ['ui', 'headless-ui', 'shadcn'],
+  name: 'Vue Community — Discover the Vue Ecosystem',
+  description: 'Discover Vue libraries, UI components, composables, Nuxt modules, Vite plugins, and developer tools in one open, community-driven ecosystem.',
+  category: 'vuejs-community',
+  types: ['ui', 'composables', 'modules', 'plugins', 'tools'],
+  tags: ['vue', 'ui', 'composables', 'modules', 'plugins', 'tools'],
 
   source: {
-    github: 'unovue/shadcn-vue',
-    npm: 'shadcn-vue',
+    github: 'vuejs-community/vuejs-community',
+    npm: 'vuejs-community',
   },
 
   links: {
-    github: 'https://github.com/unovue/shadcn-vue',
-    npm: 'https://www.npmjs.com/package/shadcn-vue',
+    github: 'https://github.com/vuejs-community/vuejs-community',
+    npm: 'https://www.npmjs.com/package/vuejs-community',
   },
 })
       </pre>
