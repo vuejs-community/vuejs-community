@@ -25,7 +25,7 @@
           <ReuseTemplate icon="logos:nuxt-icon" title="Modules" />
           <ReuseTemplate icon="material-icon-theme:vite" title="Vite" />
           <ReuseTemplate icon="icon:dark-unplugin" title="Unplugin" />
-          <span class="text-muted-foreground">Vue Community reconnects the fragmented Vue ecosystem and provides developers with an ever-growing entry point for technology discovery.<!-- Vue Community 将分散的 Vue 生态重新连接起来，为开发者提供一个持续生长的技术发现入口。 --></span>
+          <span class="text-center text-muted-foreground">Vue Community reconnects the fragmented Vue ecosystem and provides developers with an ever-growing entry point for technology discovery.<!-- Vue Community 将分散的 Vue 生态重新连接起来，为开发者提供一个持续生长的技术发现入口。 --></span>
         </div>
 
         <div class="relative mt-10 flex flex-col items-start gap-3 md:flex-row">
