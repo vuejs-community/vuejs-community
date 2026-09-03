@@ -99,8 +99,8 @@ export interface CommunityProject {
 
   filter?: (typeof metaDataSchemaFilters)[number]['id'][]
 
-  links: {
-    github: string
+  links?: {
+    github?: string
     npm?: string
     website?: string
   }
