@@ -152,3 +152,7 @@
 @utility container {
   @apply mx-auto px-6;
 }
+
+@utility section-padding{
+  @apply p-6 md:p-8 lg:p-10;
+}
