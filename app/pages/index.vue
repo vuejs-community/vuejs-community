@@ -7,8 +7,6 @@
 </template>
 
 <script lang="ts" setup>
-import SiteSection from '~/components/SiteSection.vue'
-
 useHead({
   title: 'Vue Community — Discover the Vue Ecosystem',
   meta: [
