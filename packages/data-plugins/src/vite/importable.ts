@@ -1,0 +1,52 @@
+import { defineProjectMeta } from '@vue-community/schema'
+
+export default defineProjectMeta({
+  name: 'importable',
+  description: 'Import files with strong typing based on import attributes',
+  version: '0.1.0',
+  category: 'plugin',
+  tags: [
+    'assert',
+    'asserts',
+    'assertions',
+    'attribute',
+    'attributes',
+    'file',
+    'files',
+    'import',
+    'importable',
+    'imports',
+    'imports',
+    'plugin',
+    'javascript',
+    'js',
+    'jsconfig',
+    'rollup',
+    'rollup-plugin',
+    'strong',
+    'ts',
+    'tsconfig',
+    'type',
+    'typed',
+    'types',
+    'typescript',
+    'typescript-plugin',
+    'typing',
+    'vite',
+    'vite-plugin',
+    'with',
+  ],
+  types: [
+    'vite-plugin',
+  ],
+  links: {
+    github: 'https://github.com/importables/importable',
+    npm: 'https://www.npmjs.com/package/importable',
+  },
+  stats: {
+    downloads: {
+      monthly: 64,
+      weekly: 40,
+    },
+  },
+})

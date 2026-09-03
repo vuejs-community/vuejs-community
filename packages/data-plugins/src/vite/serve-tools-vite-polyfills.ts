@@ -1,0 +1,50 @@
+import { defineProjectMeta } from '@vue-community/schema'
+
+export default defineProjectMeta({
+  name: '@serve-tools/vite-polyfills',
+  description: 'Detects and injects polyfills for unsupported JavaScript features in Vite',
+  version: '0.2.3',
+  category: 'plugin',
+  tags: [
+    'browser-compatibility',
+    'cancel-idle-callback',
+    'explicit-resource-management',
+    'feature-detection',
+    'get-or-insert',
+    'get-or-insert-computed',
+    'getorinsert',
+    'getorinsertcomputed',
+    'map-upsert',
+    'polyfill',
+    'polyfill-injection',
+    'prioritized-task-scheduling',
+    'request-idle-callback',
+    'scheduler',
+    'scheduler-post-task',
+    'scheduler-yield',
+    'scheduling',
+    'symbol-metadata',
+    'task-controller',
+    'task-priority-change-event',
+    'task-signal',
+    'typescript',
+    'upsert',
+    'urlpattern',
+    'vite',
+    'vite-plugin',
+    'web-platform',
+  ],
+  types: [
+    'vite-plugin',
+  ],
+  links: {
+    github: 'https://github.com/serve-tools/web-tools',
+    npm: 'https://www.npmjs.com/package/@serve-tools/vite-polyfills',
+  },
+  stats: {
+    downloads: {
+      monthly: 1034,
+      weekly: 495,
+    },
+  },
+})

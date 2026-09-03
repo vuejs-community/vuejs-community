@@ -1,0 +1,51 @@
+import { defineProjectMeta } from '@vue-community/schema'
+
+export default defineProjectMeta({
+  name: 'squeezit',
+  description: 'Lossless image optimizer CLI, JS/TS API, and bundler plugins for PNG, JPEG, GIF, WebP, SVG, AVIF, HEIC, JXL, ICO, BMP, and more.',
+  version: '2.4.3',
+  category: 'plugin',
+  tags: [
+    'squeezit',
+    'image',
+    'images',
+    'image-compression',
+    'image-optimizer',
+    'image-optimization',
+    'lossless',
+    'lossless-compression',
+    'compress-images',
+    'optimize-images',
+    'cli',
+    'javascript',
+    'typescript',
+    'vite-plugin',
+    'webpack-plugin',
+    'rollup-plugin',
+    'parcel-plugin',
+    'astro-integration',
+    'esbuild-plugin',
+    'gulp-plugin',
+    'grunt-plugin',
+    'nextjs',
+    'png',
+    'jpeg',
+    'webp',
+    'avif',
+    'heic',
+    'svg',
+  ],
+  types: [
+    'rollup-plugin',
+  ],
+  links: {
+    github: 'https://github.com/ghaschel/squeezit',
+    npm: 'https://www.npmjs.com/package/squeezit',
+  },
+  stats: {
+    downloads: {
+      monthly: 736,
+      weekly: 53,
+    },
+  },
+})
