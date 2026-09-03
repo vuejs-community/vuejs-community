@@ -84,7 +84,10 @@ export interface Source {
 
 export interface Stats {
   stars?: number
-  downloads?: number
+  downloads?: {
+    monthly: number
+    weekly: number
+  }
 }
 
 export interface CommunityProject {
