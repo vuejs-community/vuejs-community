@@ -1,11 +1,11 @@
 <template>
   <div class="relative border-b">
-    <div class="relative w-full container px-0 border-x border-t">
+    <div class="relative w-full container bg-foreground px-0 border-x border-t">
       <DotPattern />
       <div class="relative px-6 py-14 sm:py-28">
         <div class="flex justify-center flex-col items-center">
-          <span class="font-medium text-3xl text-foreground tracking-tight sm:text-4xl md:text-5xl">Built for the Vue Ecosystem</span>
-          <p class="text-muted-foreground text-2xl leading-relaxed">
+          <span class="font-medium text-3xl text-muted tracking-tight sm:text-4xl md:text-5xl">Built for the Vue Ecosystem</span>
+          <p class="text-muted/50 text-2xl leading-relaxed">
             Everything you need to discover, explore, and navigate the Vue ecosystem — all in one place
           </p>
         </div>
