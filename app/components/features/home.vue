@@ -32,7 +32,7 @@
                 '[&amp;_svg]:size-5 [&amp;_svg]:text-primary',
               ])"
             >
-              <Icon :name="icon" size="24" />
+              <Icon :name="icon" size="32" />
             </div>
             <div class="relative z-10 space-y-2">
               <span class="font-medium text-foreground text-lg">{{ title }}</span>
