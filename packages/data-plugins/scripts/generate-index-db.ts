@@ -12,6 +12,7 @@ interface NormalizedProject {
   description: string
   category: string
   source: string
+  types: string[]
   tags: string[]
   filter: string[]
   github: string
@@ -58,6 +59,7 @@ function normalizeProject(project: CommunityProject, source: string): Normalized
     description: project.description ?? '',
     category: project.category,
     source,
+    types: project.types,
     tags: project.tags,
     filter: project.filter ?? [],
     github: project.links?.github || '',
@@ -139,7 +141,7 @@ async function createSchema(database: Database): Promise<void> {
     CREATE TABLE IF NOT EXISTS "project-meta" (
       name TEXT NOT NULL,
       "values" TEXT NOT NULL,
-      type TEXT NOT NULL CHECK (type IN ('category', 'tags', 'filter')),
+      type TEXT NOT NULL CHECK (type IN ('category', 'types', 'tags', 'filter')),
       PRIMARY KEY (name, type, "values"),
       FOREIGN KEY (name) REFERENCES projects(name) ON DELETE CASCADE
     ) STRICT;
@@ -154,6 +156,41 @@ async function createSchema(database: Database): Promise<void> {
 
   if (!columns.some(column => column.name === 'source'))
     await database.exec(`ALTER TABLE projects ADD COLUMN source TEXT NOT NULL DEFAULT ''`)
+
+  const projectMetaSchema = await database
+    .prepare(`SELECT sql FROM sqlite_master WHERE type = 'table' AND name = 'project-meta'`)
+    .get() as { sql?: string }
+
+  if (projectMetaSchema.sql && !projectMetaSchema.sql.includes('\'types\'')) {
+    await database.exec('BEGIN IMMEDIATE')
+
+    try {
+      await database.exec(`ALTER TABLE "project-meta" RENAME TO "project-meta-legacy"`)
+      await database.exec(`
+        CREATE TABLE "project-meta" (
+          name TEXT NOT NULL,
+          "values" TEXT NOT NULL,
+          type TEXT NOT NULL CHECK (type IN ('category', 'types', 'tags', 'filter')),
+          PRIMARY KEY (name, type, "values"),
+          FOREIGN KEY (name) REFERENCES projects(name) ON DELETE CASCADE
+        ) STRICT
+      `)
+      await database.exec(`
+        INSERT INTO "project-meta" (name, "values", type)
+        SELECT name, "values", type FROM "project-meta-legacy"
+      `)
+      await database.exec(`DROP TABLE "project-meta-legacy"`)
+      await database.exec(`
+        CREATE INDEX project_meta_type_values_idx
+          ON "project-meta" (type, "values")
+      `)
+      await database.exec('COMMIT')
+    }
+    catch (error) {
+      await database.exec('ROLLBACK')
+      throw error
+    }
+  }
 }
 
 async function insertProjects(database: Database, projects: NormalizedProject[]): Promise<void> {
@@ -211,6 +248,9 @@ async function insertProjects(database: Database, projects: NormalizedProject[])
       await deleteMeta.run(project.name)
       await insertMeta.run(project.name, project.category, 'category')
 
+      for (const type of project.types)
+        await insertMeta.run(project.name, type, 'types')
+
       for (const tag of project.tags)
         await insertMeta.run(project.name, tag, 'tags')
 
@@ -238,6 +278,16 @@ async function verifyDatabase(database: Database, expectedProjects: number): Pro
   const metadataCount = await database
     .prepare('SELECT COUNT(*) AS count FROM "project-meta"')
     .get() as { count: number }
+  const missingTypes = await database.prepare(`
+    SELECT COUNT(*) AS count
+    FROM projects
+    WHERE NOT EXISTS (
+      SELECT 1
+      FROM "project-meta"
+      WHERE "project-meta".name = projects.name
+        AND "project-meta".type = 'types'
+    )
+  `).get() as { count: number }
 
   if (integrity.integrity_check !== 'ok')
     throw new Error(`SQLite integrity check failed: ${JSON.stringify(integrity)}`)
@@ -250,6 +300,9 @@ async function verifyDatabase(database: Database, expectedProjects: number): Pro
       `Expected ${expectedProjects} projects, but wrote ${projectCount.count}.`,
     )
   }
+
+  if (missingTypes.count > 0)
+    throw new Error(`${missingTypes.count} projects are missing required types metadata.`)
 
   return {
     projects: projectCount.count,
