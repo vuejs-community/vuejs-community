@@ -58,15 +58,6 @@ export default defineNuxtConfig({
     ],
   },
 
-  nitro: {
-    serverAssets: [
-      {
-        baseName: 'public',
-        dir: './public',
-      },
-    ],
-  },
-
   eslint: {
     config: {
       stylistic: {

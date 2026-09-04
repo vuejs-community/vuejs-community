@@ -14,7 +14,7 @@ async function resolveDatabasePath() {
     return path
   }
 
-  const source = await useStorage('assets:public').getItemRaw('index.db')
+  const source = await useStorage('assets:server').getItemRaw('index.db')
   if (!source)
     throw new Error('SQLite database asset not found')
 
