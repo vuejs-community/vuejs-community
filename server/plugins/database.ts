@@ -4,7 +4,7 @@ import { createDatabase } from 'db0'
 import nodeSqliteConnector from 'db0/connectors/node-sqlite'
 
 export default defineNitroPlugin(async (nitroApp) => {
-  const databasePath = resolve(process.cwd(), 'public/index.db')
+  const databasePath = resolve(process.cwd(), 'server/assets/index.db')
 
   if (!existsSync(databasePath))
     throw new Error(`SQLite database not found at ${databasePath}`)
