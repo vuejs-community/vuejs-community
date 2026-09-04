@@ -72,6 +72,9 @@ importers:
       eslint:
         specifier: ^10.5.0
         version: 10.9.1(jiti@2.7.0)(supports-color@10.2.2)
+      glob:
+        specifier: ^13.0.6
+        version: 13.0.6
       jiti:
         specifier: ^2.7.0
         version: 2.7.0
