@@ -1,9 +1,7 @@
 {
   "name": "@vue-community/schema",
   "type": "module",
-  "version": "0.0.0",
   "private": true,
-  "license": "MIT",
   "exports": {
     ".": "./src/index.ts",
     "./package.json": "./package.json"
@@ -16,11 +14,9 @@
       ]
     }
   },
-  "scripts": {},
   "devDependencies": {
     "@types/node": "^26.4.0",
     "@vue-community/tsconfig": "workspace:*",
-    "tsdown": "^0.22.14",
     "typescript": "^6.0.3"
   }
 }
