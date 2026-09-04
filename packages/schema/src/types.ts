@@ -1,5 +1,3 @@
-import type { metaDataSchemaFilters } from './index.ts'
-
 export type ProjectCategory
   = | 'ui'
     | 'hooks'
@@ -96,11 +94,11 @@ export interface CommunityProject {
 
   category: ProjectCategory
 
-  types: ProjectType[]
+  types: string[]
 
   tags: string[]
 
-  filter?: (typeof metaDataSchemaFilters)[number]['id'][]
+  filter?: string[]
 
   links?: {
     github?: string
