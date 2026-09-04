@@ -156,41 +156,6 @@ async function createSchema(database: Database): Promise<void> {
 
   if (!columns.some(column => column.name === 'source'))
     await database.exec(`ALTER TABLE projects ADD COLUMN source TEXT NOT NULL DEFAULT ''`)
-
-  const projectMetaSchema = await database
-    .prepare(`SELECT sql FROM sqlite_master WHERE type = 'table' AND name = 'project-meta'`)
-    .get() as { sql?: string }
-
-  if (projectMetaSchema.sql && !projectMetaSchema.sql.includes('\'types\'')) {
-    await database.exec('BEGIN IMMEDIATE')
-
-    try {
-      await database.exec(`ALTER TABLE "project-meta" RENAME TO "project-meta-legacy"`)
-      await database.exec(`
-        CREATE TABLE "project-meta" (
-          name TEXT NOT NULL,
-          "values" TEXT NOT NULL,
-          type TEXT NOT NULL CHECK (type IN ('category', 'types', 'tags', 'filter')),
-          PRIMARY KEY (name, type, "values"),
-          FOREIGN KEY (name) REFERENCES projects(name) ON DELETE CASCADE
-        ) STRICT
-      `)
-      await database.exec(`
-        INSERT INTO "project-meta" (name, "values", type)
-        SELECT name, "values", type FROM "project-meta-legacy"
-      `)
-      await database.exec(`DROP TABLE "project-meta-legacy"`)
-      await database.exec(`
-        CREATE INDEX project_meta_type_values_idx
-          ON "project-meta" (type, "values")
-      `)
-      await database.exec('COMMIT')
-    }
-    catch (error) {
-      await database.exec('ROLLBACK')
-      throw error
-    }
-  }
 }
 
 async function insertProjects(database: Database, projects: NormalizedProject[]): Promise<void> {
