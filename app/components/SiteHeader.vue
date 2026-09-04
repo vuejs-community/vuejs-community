@@ -29,27 +29,13 @@
 
       <!-- Right -->
       <div class="flex shrink-0 items-center gap-2">
-        <GradientButton
-          :duration="2900"
-          :border-radius="50"
-          :border-width="1.5"
-          :blur="2"
-          bg-color="#302121"
-          class="text-muted [&_span]:px-4 [&_span]:py-1"
-        >
-          <div class="flex items-center gap-3">
-            <span class="p-0!">🎉</span>
-            <span class="p-0!">Contributing</span>
-          </div>
-        </GradientButton>
-
-        <Button size="icon" variant="ghost" as-child>
+        <Button size="icon-sm" variant="ghost" as-child>
           <NuxtLink target="_blank" :to="app.github">
             <Icon name="codicon:github-alt" />
           </NuxtLink>
         </Button>
 
-        <Button size="icon" variant="ghost" as-child>
+        <Button size="icon-sm" variant="ghost" as-child>
           <NuxtLink target="_blank" :to="app.discord">
             <Icon name="akar-icons:discord-fill" />
           </NuxtLink>
