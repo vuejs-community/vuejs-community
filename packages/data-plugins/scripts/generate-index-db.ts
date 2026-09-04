@@ -1,9 +1,10 @@
 import type { CommunityProject } from '@vue-community/schema'
-import { mkdirSync, renameSync, rmSync } from 'node:fs'
-import { basename, dirname, join, resolve } from 'node:path'
-import * as process from 'node:process'
-import { DatabaseSync } from 'node:sqlite'
+import type { Database } from 'db0'
+import { existsSync, mkdirSync, writeFileSync } from 'node:fs'
+import { dirname, resolve } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
+import { createDatabase } from 'db0'
+import nodeSqliteConnector from 'db0/connectors/node-sqlite'
 import { glob } from 'glob'
 
 interface NormalizedProject {
@@ -53,7 +54,7 @@ function readOptions(): BuildOptions {
 function normalizeProject(project: CommunityProject): NormalizedProject {
   return {
     name: project.name,
-    description: project.description,
+    description: project.description ?? '',
     category: project.category,
     tags: project.tags,
     filter: project.filter ?? [],
@@ -108,13 +109,13 @@ async function loadProjects(sourceRoots: string[]): Promise<ResolvedProject> {
   return { projects, sourceCounts, warnings }
 }
 
-function createSchema(database: DatabaseSync): void {
-  database.exec(`
+async function createSchema(database: Database): Promise<void> {
+  await database.exec(`
     PRAGMA foreign_keys = ON;
     PRAGMA journal_mode = DELETE;
     PRAGMA synchronous = FULL;
 
-    CREATE TABLE projects (
+    CREATE TABLE IF NOT EXISTS projects (
       name TEXT PRIMARY KEY NOT NULL,
       description TEXT NOT NULL,
       category TEXT NOT NULL,
@@ -128,7 +129,10 @@ function createSchema(database: DatabaseSync): void {
       stars INTEGER CHECK (stars IS NULL OR stars >= 0)
     ) STRICT;
 
-    CREATE TABLE "project-meta" (
+    CREATE UNIQUE INDEX IF NOT EXISTS projects_name_idx
+      ON projects (name);
+
+    CREATE TABLE IF NOT EXISTS "project-meta" (
       name TEXT NOT NULL,
       "values" TEXT NOT NULL,
       type TEXT NOT NULL CHECK (type IN ('category', 'tags', 'filter')),
@@ -136,12 +140,12 @@ function createSchema(database: DatabaseSync): void {
       FOREIGN KEY (name) REFERENCES projects(name) ON DELETE CASCADE
     ) STRICT;
 
-    CREATE INDEX project_meta_type_values_idx
+    CREATE INDEX IF NOT EXISTS project_meta_type_values_idx
       ON "project-meta" (type, "values");
   `)
 }
 
-function insertProjects(database: DatabaseSync, projects: NormalizedProject[]): void {
+async function insertProjects(database: Database, projects: NormalizedProject[]): Promise<void> {
   const insertProject = database.prepare(`
     INSERT INTO projects (
       name,
@@ -154,17 +158,31 @@ function insertProjects(database: DatabaseSync, projects: NormalizedProject[]): 
       downloads_weekly,
       stars
     ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ON CONFLICT(name) DO UPDATE SET
+      description = excluded.description,
+      category = excluded.category,
+      github = excluded.github,
+      npm = excluded.npm,
+      website = excluded.website,
+      downloads_monthly = excluded.downloads_monthly,
+      downloads_weekly = excluded.downloads_weekly,
+      stars = excluded.stars
+  `)
+  const deleteMeta = database.prepare(`
+    DELETE FROM "project-meta"
+    WHERE name = ?
   `)
   const insertMeta = database.prepare(`
     INSERT INTO "project-meta" (name, "values", type)
     VALUES (?, ?, ?)
+    ON CONFLICT(name, type, "values") DO NOTHING
   `)
 
-  database.exec('BEGIN IMMEDIATE')
+  await database.exec('BEGIN IMMEDIATE')
 
   try {
     for (const project of projects) {
-      insertProject.run(
+      await insertProject.run(
         project.name,
         project.description,
         project.category,
@@ -176,33 +194,34 @@ function insertProjects(database: DatabaseSync, projects: NormalizedProject[]): 
         project.stars,
       )
 
-      insertMeta.run(project.name, project.category, 'category')
+      await deleteMeta.run(project.name)
+      await insertMeta.run(project.name, project.category, 'category')
 
       for (const tag of project.tags)
-        insertMeta.run(project.name, tag, 'tags')
+        await insertMeta.run(project.name, tag, 'tags')
 
       for (const filter of project.filter)
-        insertMeta.run(project.name, filter, 'filter')
+        await insertMeta.run(project.name, filter, 'filter')
     }
 
-    database.exec('COMMIT')
+    await database.exec('COMMIT')
   }
   catch (error) {
-    database.exec('ROLLBACK')
+    await database.exec('ROLLBACK')
     throw error
   }
 }
 
-function verifyDatabase(database: DatabaseSync, expectedProjects: number): {
+async function verifyDatabase(database: Database, expectedProjects: number): Promise<{
   metadata: number
   projects: number
-} {
-  const integrity = database.prepare('PRAGMA integrity_check').get() as Record<string, unknown>
-  const foreignKeyErrors = database.prepare('PRAGMA foreign_key_check').all()
-  const projectCount = database.prepare('SELECT COUNT(*) AS count FROM projects').get() as {
+}> {
+  const integrity = await database.prepare('PRAGMA integrity_check').get() as Record<string, unknown>
+  const foreignKeyErrors = await database.prepare('PRAGMA foreign_key_check').all()
+  const projectCount = await database.prepare('SELECT COUNT(*) AS count FROM projects').get() as {
     count: number
   }
-  const metadataCount = database
+  const metadataCount = await database
     .prepare('SELECT COUNT(*) AS count FROM "project-meta"')
     .get() as { count: number }
 
@@ -225,29 +244,20 @@ function verifyDatabase(database: DatabaseSync, expectedProjects: number): {
 }
 
 async function buildDatabase(options: BuildOptions): Promise<void> {
-  const { projects, sourceCounts, warnings } = await loadProjects(options.sourceRoots)
-
-  const temporaryPath = join(
-    dirname(options.outputPath),
-    `.${basename(options.outputPath)}.${process.pid}.tmp`,
-  )
-
   mkdirSync(dirname(options.outputPath), { recursive: true })
-  rmSync(temporaryPath, { force: true })
 
-  let database: DatabaseSync | undefined
+  if (!existsSync(options.outputPath))
+    writeFileSync(options.outputPath, '')
+
+  const { projects, sourceCounts, warnings } = await loadProjects(options.sourceRoots)
+  const database = createDatabase(nodeSqliteConnector({ path: options.outputPath }))
 
   try {
-    database = new DatabaseSync(temporaryPath)
-    createSchema(database)
-    insertProjects(database, projects)
-    const counts = verifyDatabase(database, projects.length)
+    await createSchema(database)
+    await insertProjects(database, projects)
+    const counts = await verifyDatabase(database, projects.length)
 
-    database.exec('PRAGMA optimize')
-    database.close()
-    database = undefined
-
-    renameSync(temporaryPath, options.outputPath)
+    await database.exec('PRAGMA optimize')
 
     for (const [sourceRoot, count] of sourceCounts) {
       const relativeRoot = sourceRoot.replace(`${repositoryRoot}/`, '')
@@ -260,18 +270,9 @@ async function buildDatabase(options: BuildOptions): Promise<void> {
     console.log(`Wrote ${counts.projects} projects and ${counts.metadata} metadata rows.`)
     console.log(`Database: ${options.outputPath}`)
   }
-  catch (error) {
-    database?.close()
-    rmSync(temporaryPath, { force: true })
-    throw error
+  finally {
+    await database.dispose()
   }
 }
 
-// buildDatabase(readOptions(process.argv.slice(2))).then(() => {
-//   process.exit(0)
-// }).catch((error) => {
-//   console.error(error)
-//   process.exit(1)
-// })
-
-console.log(await buildDatabase(readOptions()))
+await buildDatabase(readOptions())
