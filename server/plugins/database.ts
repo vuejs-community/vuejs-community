@@ -6,7 +6,6 @@ import { createDatabase } from 'db0'
 import nodeSqliteConnector from 'db0/connectors/node-sqlite'
 
 async function resolveDatabasePath() {
-  // 本地开发：直接读取 public/index.db
   if (!process.env.VERCEL) {
     const path = resolve(process.cwd(), 'public/index.db')
 
@@ -16,8 +15,12 @@ async function resolveDatabasePath() {
     return path
   }
 
-  // Vercel：复制到可写的 /tmp
   const path = join(tmpdir(), 'vue-community', 'index.db')
+
+  console.log('[database]', {
+    vercel: process.env.VERCEL,
+    path,
+  })
 
   if (existsSync(path))
     return path
