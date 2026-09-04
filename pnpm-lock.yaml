@@ -120,6 +120,9 @@ importers:
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
+      verify-git-commit:
+        specifier: ^0.0.1
+        version: 0.0.1
 
   packages/data-component:
     devDependencies:
@@ -198,36 +201,6 @@ importers:
       '@vue-community/schema':
         specifier: workspace:*
         version: link:../schema
-      '@vue-community/tsconfig':
-        specifier: workspace:*
-        version: link:../tsconfig
-      tsdown:
-        specifier: ^0.22.14
-        version: 0.22.14(tsx@4.23.13)(typescript@6.0.3)
-      typescript:
-        specifier: ^6.0.3
-        version: 6.0.3
-
-  packages/query:
-    devDependencies:
-      '@types/node':
-        specifier: ^26.4.0
-        version: 26.4.0
-      '@vue-community/tsconfig':
-        specifier: workspace:*
-        version: link:../tsconfig
-      tsdown:
-        specifier: ^0.22.14
-        version: 0.22.14(tsx@4.23.13)(typescript@6.0.3)
-      typescript:
-        specifier: ^6.0.3
-        version: 6.0.3
-
-  packages/registry:
-    devDependencies:
-      '@types/node':
-        specifier: ^26.4.0
-        version: 26.4.0
       '@vue-community/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
@@ -5721,6 +5694,10 @@ packages:
   vary@1.1.2:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
+
+  verify-git-commit@0.0.1:
+    resolution: {integrity: sha512-+kXxFOv8RmpQS0a5r34OXdvA5Zgfqa6gzVgFRVY9hvb7Q5i1Q3xF7vHaok7a86jYCYEUKg0P6jYTY/PVeb9SZA==}
+    hasBin: true
 
   verkit@0.3.2:
     resolution: {integrity: sha512-zj/ob3UsvJGN0whEAKFp53REA5X66hvffVqoCtVQAakJKnKlH+/PcOfMoFwIG/o4rElqLv/ycAFlx8ZlXUorCg==}
@@ -12140,6 +12117,8 @@ snapshots:
   validate-npm-package-name@8.0.0: {}
 
   vary@1.1.2: {}
+
+  verify-git-commit@0.0.1: {}
 
   verkit@0.3.2: {}
 
