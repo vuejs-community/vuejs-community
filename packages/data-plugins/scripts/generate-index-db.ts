@@ -1,28 +1,10 @@
-import { existsSync, globSync, mkdirSync, renameSync, rmSync } from 'node:fs'
+import type { CommunityProject } from '@vue-community/schema'
+import { renameSync, rmSync } from 'node:fs'
 import { basename, dirname, join, resolve } from 'node:path'
 import * as process from 'node:process'
 import { DatabaseSync } from 'node:sqlite'
 import { fileURLToPath, pathToFileURL } from 'node:url'
-
-interface CommunityProjectRecord {
-  name?: unknown
-  description?: unknown
-  category?: unknown
-  tags?: unknown
-  filter?: unknown
-  links?: {
-    github?: unknown
-    npm?: unknown
-    website?: unknown
-  }
-  stats?: {
-    downloads?: {
-      monthly?: unknown
-      weekly?: unknown
-    }
-    stars?: unknown
-  }
-}
+import { glob } from 'glob'
 
 interface NormalizedProject {
   name: string
@@ -30,12 +12,12 @@ interface NormalizedProject {
   category: string
   tags: string[]
   filter: string[]
-  github: string | null
-  npm: string | null
-  website: string | null
-  downloadsMonthly: number | null
-  downloadsWeekly: number | null
-  stars: number | null
+  github: string
+  npm: string
+  website: string
+  downloadsMonthly: number
+  downloadsWeekly: number
+  stars: number
 }
 
 interface BuildOptions {
@@ -44,12 +26,13 @@ interface BuildOptions {
 }
 
 const scriptDirectory = dirname(fileURLToPath(import.meta.url))
-const repositoryRoot = resolve(scriptDirectory, '..')
+const repositoryRoot = resolve(scriptDirectory, '../../../')
 const defaultSourceRoots = [
   'packages/data-ui/src',
   'packages/data-plugins/src',
   'packages/data-component/src',
   'packages/data-hooks/src',
+  'packages/data-nuxt/src',
 ]
 
 function readOptions(): BuildOptions {
@@ -61,84 +44,20 @@ function readOptions(): BuildOptions {
   }
 }
 
-function requireNonEmptyString(value: unknown, field: string, sourceFile: string): string {
-  if (typeof value !== 'string' || value.length === 0)
-    throw new TypeError(`${sourceFile}: ${field} must be a non-empty string.`)
-
-  return value
-}
-
-function optionalString(value: unknown, field: string, sourceFile: string): string | null {
-  if (value === undefined || value === null)
-    return null
-
-  if (typeof value !== 'string')
-    throw new TypeError(`${sourceFile}: ${field} must be a string when provided.`)
-
-  return value
-}
-
-function stringArray(value: unknown, field: string, sourceFile: string): string[] {
-  if (value === undefined)
-    return []
-
-  if (!Array.isArray(value) || value.some(item => typeof item !== 'string'))
-    throw new TypeError(`${sourceFile}: ${field} must be an array of strings.`)
-
-  return [...new Set(value)]
-}
-
-function optionalNonNegativeInteger(
-  value: unknown,
-  field: string,
-  sourceFile: string,
-): number | null {
-  if (value === undefined || value === null)
-    return null
-
-  if (!Number.isSafeInteger(value) || (value as number) < 0)
-    throw new TypeError(`${sourceFile}: ${field} must be a non-negative safe integer.`)
-
-  return value as number
-}
-
-function normalizeProject(
-  project: CommunityProjectRecord,
-  sourceFile: string,
-  warnings: string[],
-): NormalizedProject {
-  const name = requireNonEmptyString(project.name, 'name', sourceFile)
-  const category = requireNonEmptyString(project.category, 'category', sourceFile)
-  let description: string
-
-  if (project.description === undefined || project.description === null) {
-    description = ''
-    warnings.push(`${sourceFile}: missing description was stored as an empty string.`)
-  }
-  else {
-    description = optionalString(project.description, 'description', sourceFile) ?? ''
-  }
-
+function normalizeProject(project: CommunityProject): NormalizedProject {
+  console.log(project)
   return {
-    name,
-    description,
-    category,
-    tags: stringArray(project.tags, 'tags', sourceFile),
-    filter: stringArray(project.filter, 'filter', sourceFile),
-    github: optionalString(project.links?.github, 'links.github', sourceFile),
-    npm: optionalString(project.links?.npm, 'links.npm', sourceFile),
-    website: optionalString(project.links?.website, 'links.website', sourceFile),
-    downloadsMonthly: optionalNonNegativeInteger(
-      project.stats?.downloads?.monthly,
-      'stats.downloads.monthly',
-      sourceFile,
-    ),
-    downloadsWeekly: optionalNonNegativeInteger(
-      project.stats?.downloads?.weekly,
-      'stats.downloads.weekly',
-      sourceFile,
-    ),
-    stars: optionalNonNegativeInteger(project.stats?.stars, 'stats.stars', sourceFile),
+    name: project.name,
+    description: project.description,
+    category: project.category,
+    tags: project.tags,
+    filter: project.filter ?? [],
+    github: project.links?.github || '',
+    npm: project.links?.npm || '',
+    website: project.links?.website || '',
+    downloadsMonthly: project.stats?.downloads?.monthly || 0,
+    downloadsWeekly: project.stats?.downloads?.weekly || 0,
+    stars: project.stats?.stars ?? 0,
   }
 }
 
@@ -150,33 +69,30 @@ async function loadProjects(sourceRoots: string[]): Promise<{
   console.log('source', sourceRoots)
   const sourceCounts = new Map<string, number>()
   const warnings: string[] = []
-  const sourceFiles = sourceRoots
-    .flatMap((sourceRoot) => {
-      const files = existsSync(sourceRoot)
-        ? globSync('**/*.ts', { cwd: sourceRoot })
-            .filter(file => !file.endsWith('.d.ts'))
-            .map(file => resolve(sourceRoot, file))
-        : []
+  const sourceFiles: string[] = []
 
-      sourceCounts.set(sourceRoot, files.length)
-      return files
-    })
-    .sort((left, right) => left.localeCompare(right))
+  for (const sourceRoot of sourceRoots) {
+    const files = (await glob('**/*.ts', {
+      cwd: sourceRoot,
+      nodir: true,
+    }))
+      .filter(file => !file.endsWith('.d.ts'))
+      .map(file => resolve(sourceRoot, file))
 
-  if (sourceFiles.length === 0)
-    throw new Error('No TypeScript project metadata files were found.')
+    sourceCounts.set(sourceRoot, files.length)
+    sourceFiles.push(...files)
+  }
+
+  sourceFiles.sort((left, right) => left.localeCompare(right))
 
   const projects: NormalizedProject[] = []
   const projectSources = new Map<string, string>()
 
   for (const sourceFile of sourceFiles) {
     const importedModule = await import(pathToFileURL(sourceFile).href)
-    const rawProject = importedModule.default as CommunityProjectRecord | undefined
+    const rawProject = importedModule.default as CommunityProject
 
-    if (!rawProject || typeof rawProject !== 'object')
-      throw new TypeError(`${sourceFile}: the default export must be a project object.`)
-
-    const project = normalizeProject(rawProject, sourceFile, warnings)
+    const project = normalizeProject(rawProject)
     const existingSource = projectSources.get(project.name)
 
     if (existingSource) {
@@ -309,16 +225,12 @@ function verifyDatabase(database: DatabaseSync, expectedProjects: number): {
 }
 
 async function buildDatabase(options: BuildOptions): Promise<void> {
-  console.log(await loadProjects(options.sourceRoots))
-  process.exit(0)
   const { projects, sourceCounts, warnings } = await loadProjects(options.sourceRoots)
+
   const temporaryPath = join(
     dirname(options.outputPath),
     `.${basename(options.outputPath)}.${process.pid}.tmp`,
   )
-
-  mkdirSync(dirname(options.outputPath), { recursive: true })
-  rmSync(temporaryPath, { force: true })
 
   let database: DatabaseSync | undefined
 
