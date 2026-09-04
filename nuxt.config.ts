@@ -1,6 +1,8 @@
 import { resolve } from 'node:path'
 import tailwindcss from '@tailwindcss/vite'
 
+const vercelOutputPath = resolve(process.cwd(), '.vercel/output')
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
@@ -56,13 +58,20 @@ export default defineNuxtConfig({
     ],
   },
 
-  nitro: {
-    externals: {
-      traceInclude: [
-        resolve('./public/index.db'),
-      ],
+  runtimeConfig: {
+    public: {
+      vercelOutputPath,
     },
   },
+
+  //
+  // nitro: {
+  //   externals: {
+  //     traceInclude: [
+  //       resolve('./public/index.db'),
+  //     ],
+  //   },
+  // },
 
   eslint: {
     config: {

@@ -3,9 +3,10 @@ import { createDatabase } from 'db0'
 import nodeSqliteConnector from 'db0/connectors/node-sqlite'
 
 export default defineNitroPlugin(async (nitroApp) => {
-  const runtimeDir = useRuntimeConfig().nitro!.workspaceDir!
+  const runtime = useRuntimeConfig()
+  console.log('111111', runtime)
 
-  const databasePath = process.env.VERCEL ? resolve(runtimeDir, 'index.db') : resolve(process.cwd(), 'public/index.db')
+  const databasePath = process.env.VERCEL ? resolve(runtime.public, 'index.db') : resolve(process.cwd(), 'public/index.db')
 
   const database = createDatabase(nodeSqliteConnector({ path: databasePath }))
 
