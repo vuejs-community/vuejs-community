@@ -1,9 +1,11 @@
 <template>
   <button
-    :class="cn(
-      `animate-rainbow rainbow-btn relative flex min-h-10 min-w-28 items-center justify-center overflow-hidden before:absolute before:-inset-[200%]`,
-      props.class,
-    )"
+    :class="
+      cn(
+        `animate-rainbow rainbow-btn relative flex min-h-10 min-w-28 items-center justify-center overflow-hidden before:absolute before:-inset-[200%]`,
+        props.class,
+      )
+    "
   >
     <span class="btn-content inline-flex size-full items-center justify-center px-4 py-2">
       <slot />
@@ -52,30 +54,30 @@ const blurPx = computed(() => `${props.blur}px`)
 
 <style scoped>
 .animate-rainbow::before {
-  content: "";
-  background: conic-gradient(v-bind(allColors));
-  animation: rotate-rainbow v-bind(durationInMilliseconds) linear infinite;
-  filter: blur(v-bind(blurPx));
-  padding: v-bind(borderWidthInPx);
+    content: "";
+    background: conic-gradient(v-bind(allColors));
+    animation: rotate-rainbow v-bind(durationInMilliseconds) linear infinite;
+    filter: blur(v-bind(blurPx));
+    padding: v-bind(borderWidthInPx);
 }
 
 .rainbow-btn {
-  padding: v-bind(borderWidthInPx);
-  border-radius: v-bind(borderRadiusInPx);
+    padding: v-bind(borderWidthInPx);
+    border-radius: v-bind(borderRadiusInPx);
 }
 
 .btn-content {
-  border-radius: v-bind(borderRadiusInPx);
-  background-color: v-bind(bgColor);
-  z-index: 0;
+    border-radius: v-bind(borderRadiusInPx);
+    background-color: v-bind(bgColor);
+    z-index: 0;
 }
 
 @keyframes rotate-rainbow {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 </style>
