@@ -6,7 +6,7 @@ export default defineNitroPlugin(async (nitroApp) => {
   const runtime = useRuntimeConfig()
   console.log('111111', runtime)
 
-  const databasePath = process.env.VERCEL ? resolve(runtime.public, 'index.db') : resolve(process.cwd(), 'public/index.db')
+  const databasePath = process.env.VERCEL ? resolve(runtime.public.vercelOutputPath, 'index.db') : resolve(process.cwd(), 'public/index.db')
 
   const database = createDatabase(nodeSqliteConnector({ path: databasePath }))
 
