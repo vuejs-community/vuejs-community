@@ -96,7 +96,7 @@ export interface CommunityProject {
 
   types: string[]
 
-  tags: string[]
+  tags?: string[]
 
   filter?: string[]
 
