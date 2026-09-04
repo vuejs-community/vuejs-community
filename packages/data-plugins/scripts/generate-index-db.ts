@@ -1,7 +1,7 @@
 import type { CommunityProject } from '@vue-community/schema'
 import type { Database } from 'db0'
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs'
-import { dirname, resolve } from 'node:path'
+import { basename, dirname, resolve } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { createDatabase } from 'db0'
 import nodeSqliteConnector from 'db0/connectors/node-sqlite'
@@ -11,6 +11,7 @@ interface NormalizedProject {
   name: string
   description: string
   category: string
+  source: string
   tags: string[]
   filter: string[]
   github: string
@@ -51,11 +52,12 @@ function readOptions(): BuildOptions {
   }
 }
 
-function normalizeProject(project: CommunityProject): NormalizedProject {
+function normalizeProject(project: CommunityProject, source: string): NormalizedProject {
   return {
     name: project.name,
     description: project.description ?? '',
     category: project.category,
+    source,
     tags: project.tags,
     filter: project.filter ?? [],
     github: project.links?.github || '',
@@ -70,9 +72,10 @@ function normalizeProject(project: CommunityProject): NormalizedProject {
 async function loadProjects(sourceRoots: string[]): Promise<ResolvedProject> {
   const sourceCounts = new Map<string, number>()
   const warnings: string[] = []
-  const sourceFiles: string[] = []
+  const sourceFiles: Array<{ path: string, source: string }> = []
 
   for (const sourceRoot of sourceRoots) {
+    const source = basename(dirname(sourceRoot)) as string
     const files = (await glob('**/*.ts', {
       cwd: sourceRoot,
       nodir: true,
@@ -81,19 +84,19 @@ async function loadProjects(sourceRoots: string[]): Promise<ResolvedProject> {
       .map(file => resolve(sourceRoot, file))
 
     sourceCounts.set(sourceRoot, files.length)
-    sourceFiles.push(...files)
+    sourceFiles.push(...files.map(path => ({ path, source })))
   }
 
-  sourceFiles.sort((left, right) => left.localeCompare(right))
+  sourceFiles.sort((left, right) => left.path.localeCompare(right.path))
 
   const projects: NormalizedProject[] = []
   const projectSources = new Map<string, string>()
 
-  for (const sourceFile of sourceFiles) {
+  for (const { path: sourceFile, source } of sourceFiles) {
     const importedModule = await import(pathToFileURL(sourceFile).href)
     const rawProject = importedModule.default as CommunityProject
 
-    const project = normalizeProject(rawProject)
+    const project = normalizeProject(rawProject, source)
     const existingSource = projectSources.get(project.name)
 
     if (existingSource) {
@@ -119,6 +122,7 @@ async function createSchema(database: Database): Promise<void> {
       name TEXT PRIMARY KEY NOT NULL,
       description TEXT NOT NULL,
       category TEXT NOT NULL,
+      source TEXT NOT NULL,
       github TEXT,
       npm TEXT,
       website TEXT,
@@ -143,6 +147,13 @@ async function createSchema(database: Database): Promise<void> {
     CREATE INDEX IF NOT EXISTS project_meta_type_values_idx
       ON "project-meta" (type, "values");
   `)
+
+  const columns = await database.prepare('PRAGMA table_info(projects)').all() as Array<{
+    name: string
+  }>
+
+  if (!columns.some(column => column.name === 'source'))
+    await database.exec(`ALTER TABLE projects ADD COLUMN source TEXT NOT NULL DEFAULT ''`)
 }
 
 async function insertProjects(database: Database, projects: NormalizedProject[]): Promise<void> {
@@ -151,16 +162,18 @@ async function insertProjects(database: Database, projects: NormalizedProject[])
       name,
       description,
       category,
+      source,
       github,
       npm,
       website,
       downloads_monthly,
       downloads_weekly,
       stars
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     ON CONFLICT(name) DO UPDATE SET
       description = excluded.description,
       category = excluded.category,
+      source = excluded.source,
       github = excluded.github,
       npm = excluded.npm,
       website = excluded.website,
@@ -186,6 +199,7 @@ async function insertProjects(database: Database, projects: NormalizedProject[])
         project.name,
         project.description,
         project.category,
+        project.source,
         project.github,
         project.npm,
         project.website,
