@@ -16,7 +16,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "generate:db": "node --no-warnings --import tsx ./scripts/generate-index-db.ts",
+    "generate:db": "node --no-warnings --import tsx packages/data-plugins/scripts/generate-index-db.ts",
     "typecheck": "nuxt typecheck",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
