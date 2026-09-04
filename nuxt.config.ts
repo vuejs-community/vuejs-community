@@ -57,13 +57,11 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    serverAssets: [
-      {
-        baseName: 'database',
-        dir: './public',
-        pattern: 'index.db',
-      },
-    ],
+    externals: {
+      traceInclude: [
+        resolve('./public/index.db'),
+      ],
+    },
   },
 
   eslint: {
