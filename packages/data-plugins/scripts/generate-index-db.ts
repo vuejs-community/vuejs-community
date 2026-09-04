@@ -1,5 +1,5 @@
 import type { CommunityProject } from '@vue-community/schema'
-import { renameSync, rmSync } from 'node:fs'
+import { mkdirSync, renameSync, rmSync } from 'node:fs'
 import { basename, dirname, join, resolve } from 'node:path'
 import * as process from 'node:process'
 import { DatabaseSync } from 'node:sqlite'
@@ -45,7 +45,6 @@ function readOptions(): BuildOptions {
 }
 
 function normalizeProject(project: CommunityProject): NormalizedProject {
-  console.log(project)
   return {
     name: project.name,
     description: project.description,
@@ -231,6 +230,9 @@ async function buildDatabase(options: BuildOptions): Promise<void> {
     dirname(options.outputPath),
     `.${basename(options.outputPath)}.${process.pid}.tmp`,
   )
+
+  mkdirSync(dirname(options.outputPath), { recursive: true })
+  rmSync(temporaryPath, { force: true })
 
   let database: DatabaseSync | undefined
 
