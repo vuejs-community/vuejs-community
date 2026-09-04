@@ -58,20 +58,14 @@ export default defineNuxtConfig({
     ],
   },
 
-  runtimeConfig: {
-    public: {
-      vercelOutputPath,
-    },
+  nitro: {
+    serverAssets: [
+      {
+        baseName: 'public',
+        dir: './public',
+      },
+    ],
   },
-
-  //
-  // nitro: {
-  //   externals: {
-  //     traceInclude: [
-  //       resolve('./public/index.db'),
-  //     ],
-  //   },
-  // },
 
   eslint: {
     config: {
