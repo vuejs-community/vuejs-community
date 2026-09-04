@@ -25,6 +25,12 @@ interface BuildOptions {
   sourceRoots: string[]
 }
 
+interface ResolvedProject {
+  projects: NormalizedProject[]
+  sourceCounts: Map<string, number>
+  warnings: string[]
+}
+
 const scriptDirectory = dirname(fileURLToPath(import.meta.url))
 const repositoryRoot = resolve(scriptDirectory, '../../../')
 const defaultSourceRoots = [
@@ -60,12 +66,7 @@ function normalizeProject(project: CommunityProject): NormalizedProject {
   }
 }
 
-async function loadProjects(sourceRoots: string[]): Promise<{
-  projects: NormalizedProject[]
-  sourceCounts: Map<string, number>
-  warnings: string[]
-}> {
-  console.log('source', sourceRoots)
+async function loadProjects(sourceRoots: string[]): Promise<ResolvedProject> {
   const sourceCounts = new Map<string, number>()
   const warnings: string[] = []
   const sourceFiles: string[] = []
