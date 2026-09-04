@@ -141,7 +141,7 @@ async function createSchema(database: Database): Promise<void> {
     CREATE TABLE IF NOT EXISTS "project-meta" (
       name TEXT NOT NULL,
       "values" TEXT NOT NULL,
-      type TEXT NOT NULL CHECK (type IN ('category', 'types', 'tags', 'filter')),
+      type TEXT NOT NULL CHECK (type IN ('types', 'tags', 'filter')),
       PRIMARY KEY (name, type, "values"),
       FOREIGN KEY (name) REFERENCES projects(name) ON DELETE CASCADE
     ) STRICT;
@@ -211,7 +211,6 @@ async function insertProjects(database: Database, projects: NormalizedProject[])
       )
 
       await deleteMeta.run(project.name)
-      await insertMeta.run(project.name, project.category, 'category')
 
       for (const type of project.types)
         await insertMeta.run(project.name, type, 'types')
