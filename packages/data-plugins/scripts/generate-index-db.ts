@@ -45,7 +45,7 @@ const defaultSourceRoots = [
 ]
 
 function readOptions(): BuildOptions {
-  const outputPath = resolve(repositoryRoot, 'public/index.db')
+  const outputPath = resolve(repositoryRoot, 'server/assets/index.db')
 
   return {
     outputPath,
