@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: '@nuxtjs/color-mode',
   },
   stats: {
-    stars: 1225,
+    stars: 1226,
     downloads: {
       monthly: 2462110,
       weekly: 640091,

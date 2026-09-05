@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: 'shadcn-nuxt',
   },
   stats: {
-    stars: 10555,
+    stars: 10548,
     downloads: {
       monthly: 372900,
       weekly: 106833,

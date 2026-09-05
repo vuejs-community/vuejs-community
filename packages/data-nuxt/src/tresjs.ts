@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: '@tresjs/nuxt',
   },
   stats: {
-    stars: 3695,
+    stars: 3694,
     downloads: {
       monthly: 47953,
       weekly: 11814,

@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: '@vuestic/nuxt',
   },
   stats: {
-    stars: 3748,
+    stars: 3747,
     downloads: {
       monthly: 1237,
       weekly: 350,
