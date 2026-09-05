@@ -1,5 +1,5 @@
 import { defineComponent, h } from 'vue'
-import { cn } from '@/lib/utils' // 根据你的项目路径调整
+import { cn } from '@/lib/utils'
 
 export default defineComponent({
   name: 'DotPattern',
