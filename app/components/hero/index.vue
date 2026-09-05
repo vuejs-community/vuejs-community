@@ -7,11 +7,11 @@
             <span class="font-semibold">Discover the</span>
             <span class="font-playfair italic">Vue Ecosystem</span>
           </span>
-          <span class="font-semibold text-4xl tracking-tight">Explore, connect, and build the open ecosystem of Vue.<!-- 探索、连接并构建属于 Vue 的开放生态。 --></span>
+          <span class="font-semibold text-4xl tracking-tight">Explore, connect, and build the open ecosystem of Vue.</span>
         </h1>
 
         <div class="mt-8 flex flex-wrap justify-center items-center gap-3 tracking-tight md:text-xl w-3xl">
-          <span>From<!-- 从 --></span>
+          <span>From</span>
           <DefineTemplate v-slot="{ icon, title }">
             <div class="flex items-center">
               <div class="flex size-8 rotate-14 items-center justify-center rounded-lg bg-foreground shadow-xl">
@@ -25,7 +25,7 @@
           <ReuseTemplate icon="logos:nuxt-icon" title="Modules" />
           <ReuseTemplate icon="material-icon-theme:vite" title="Vite" />
           <ReuseTemplate icon="icon:dark-unplugin" title="Unplugin" />
-          <span class="text-center text-muted-foreground">Vue Community reconnects the fragmented Vue ecosystem and provides developers with an ever-growing entry point for technology discovery.<!-- Vue Community 将分散的 Vue 生态重新连接起来，为开发者提供一个持续生长的技术发现入口。 --></span>
+          <span class="text-center text-muted-foreground">Vue Community reconnects the fragmented Vue ecosystem and provides developers with an ever-growing entry point for technology discovery.</span>
         </div>
 
         <div class="relative mt-10 flex flex-col items-start gap-3 md:flex-row">
