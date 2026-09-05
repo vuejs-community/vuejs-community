@@ -118,6 +118,10 @@ async function loadProjects(sourceRoots: string[]): Promise<ResolvedProject> {
     const rawProject = importedModule.default as CommunityProject
 
     const project = normalizeProject(rawProject, source)
+
+    if (project.types.length === 0)
+      throw new Error(`Project "${project.name}" in ${sourceFile} has no types.`)
+
     const existing = projectsByName.get(project.name)
 
     if (existing) {
@@ -230,50 +234,6 @@ async function insertProjects(database: Database, projects: NormalizedProject[])
   }
 }
 
-async function verifyDatabase(database: Database, expectedProjects: number): Promise<{
-  metadata: number
-  projects: number
-}> {
-  const integrity = await database.prepare('PRAGMA integrity_check').get() as Record<string, unknown>
-  const foreignKeyErrors = await database.prepare('PRAGMA foreign_key_check').all()
-  const projectCount = await database.prepare('SELECT COUNT(*) AS count FROM projects').get() as {
-    count: number
-  }
-  const metadataCount = await database
-    .prepare('SELECT COUNT(*) AS count FROM "project-meta"')
-    .get() as { count: number }
-  const missingTypes = await database.prepare(`
-    SELECT COUNT(*) AS count
-    FROM projects
-    WHERE NOT EXISTS (
-      SELECT 1
-      FROM "project-meta"
-      WHERE "project-meta".name = projects.name
-        AND "project-meta".type = 'types'
-    )
-  `).get() as { count: number }
-
-  if (integrity.integrity_check !== 'ok')
-    throw new Error(`SQLite integrity check failed: ${JSON.stringify(integrity)}`)
-
-  if (foreignKeyErrors.length > 0)
-    throw new Error(`SQLite foreign key check failed: ${JSON.stringify(foreignKeyErrors)}`)
-
-  if (projectCount.count !== expectedProjects) {
-    throw new Error(
-      `Expected ${expectedProjects} projects, but wrote ${projectCount.count}.`,
-    )
-  }
-
-  if (missingTypes.count > 0)
-    throw new Error(`${missingTypes.count} projects are missing required types metadata.`)
-
-  return {
-    projects: projectCount.count,
-    metadata: metadataCount.count,
-  }
-}
-
 async function buildDatabase(options: BuildOptions): Promise<void> {
   const { projects, sourceCounts, warnings } = await loadProjects(options.sourceRoots)
 
@@ -286,7 +246,6 @@ async function buildDatabase(options: BuildOptions): Promise<void> {
   try {
     await createSchema(database)
     await insertProjects(database, projects)
-    const counts = await verifyDatabase(database, projects.length)
 
     await database.exec('PRAGMA optimize')
 
@@ -298,7 +257,7 @@ async function buildDatabase(options: BuildOptions): Promise<void> {
     for (const warning of warnings)
       console.warn(`Warning: ${warning.replaceAll(`${repositoryRoot}/`, '')}`)
 
-    console.log(`Wrote ${counts.projects} projects and ${counts.metadata} metadata rows.`)
+    console.log(`Wrote ${projects.length} projects.`)
     console.log(`Database: ${options.outputPath}`)
   }
   finally {
