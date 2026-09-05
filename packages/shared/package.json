@@ -6,7 +6,6 @@
     ".": "./src/index.ts",
     "./package.json": "./package.json"
   },
-  "types": "./src/types.ts",
   "devDependencies": {
     "@types/node": "^26.4.0",
     "@vuejs-community/tsconfig": "workspace:*",
