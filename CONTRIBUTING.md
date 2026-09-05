@@ -48,8 +48,7 @@ pnpm docs:dev
 │   └── assets/icon/         # 本地自定义图标（@nuxt/icon 自定义集合）
 ├── server/                  # Nitro 服务端
 │   ├── api/                 # API 路由
-│   ├── assets/              # 生成的 index.db 所在位置
-│   └── generate-index-db.ts # SQLite 索引数据库生成脚本
+│   └── assets/              # 生成的 index.db 所在位置
 ├── packages/
 │   ├── data-component/      # Vue 组件库数据
 │   ├── data-hooks/          # Composables 数据
