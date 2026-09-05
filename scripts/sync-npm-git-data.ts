@@ -33,16 +33,24 @@ interface SyncTarget {
   githubRepo?: string
 }
 
-function buildStatsBlock(stars: number, monthly: number, weekly: number): string {
-  return [
+/** 没有 npm 包名的项目（如 data-admin 收录的管理端模板）不发布到 npm，只回填 stars，不写 downloads。 */
+function buildStatsBlock(stars: number, downloads?: { monthly: number, weekly: number }): string {
+  const lines = [
     '  stats: {',
     `    stars: ${stars},`,
-    '    downloads: {',
-    `      monthly: ${monthly},`,
-    `      weekly: ${weekly},`,
-    '    },',
-    '  },',
-  ].join('\n')
+  ]
+
+  if (downloads) {
+    lines.push(
+      '    downloads: {',
+      `      monthly: ${downloads.monthly},`,
+      `      weekly: ${downloads.weekly},`,
+      '    },',
+    )
+  }
+
+  lines.push('  },')
+  return lines.join('\n')
 }
 
 /** 定位对象字面量里顶层 `  key: { ... }` 块的字节范围（含闭合花括号）。数据文件的值都是字符串/数字/数组，不含花括号字符，可以放心用括号计数。 */
@@ -147,26 +155,30 @@ async function syncTarget(
   // 抓取失败的值回退到文件里已存的旧值（地图中缺失 ≠ 0），避免用 0 覆盖好数据。
   const existing = project.stats
   const stars = githubRepo ? stats.stars.get(githubRepo) ?? existing?.stars ?? 0 : 0
-  const monthly = npmName ? stats.downloads.monthly.get(npmName) ?? existing?.downloads?.monthly ?? 0 : 0
-  const weekly = npmName ? stats.downloads.weekly.get(npmName) ?? existing?.downloads?.weekly ?? 0 : 0
+  const downloads = npmName
+    ? {
+        monthly: stats.downloads.monthly.get(npmName) ?? existing?.downloads?.monthly ?? 0,
+        weekly: stats.downloads.weekly.get(npmName) ?? existing?.downloads?.weekly ?? 0,
+      }
+    : undefined
 
   if (existing?.stars === stars
-    && existing?.downloads?.monthly === monthly
-    && existing?.downloads?.weekly === weekly) {
+    && existing?.downloads?.monthly === downloads?.monthly
+    && existing?.downloads?.weekly === downloads?.weekly) {
     console.log(`[unchanged] ${relativePath}`)
     results.unchanged++
     return
   }
 
   const content = await readFile(target.filePath, 'utf-8')
-  const updated = applyStats(content, buildStatsBlock(stars, monthly, weekly))
+  const updated = applyStats(content, buildStatsBlock(stars, downloads))
 
   if (dryRun) {
     console.log(`[dry-run] ${relativePath}:\n${updated}\n`)
   }
   else {
     await writeFile(target.filePath, updated)
-    console.log(`[updated] ${relativePath}: stars ${stars}, monthly ${monthly}, weekly ${weekly}`)
+    console.log(`[updated] ${relativePath}: stars ${stars}${downloads ? `, monthly ${downloads.monthly}, weekly ${downloads.weekly}` : ''}`)
   }
   results.updated++
 }
