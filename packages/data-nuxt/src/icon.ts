@@ -1,13 +1,29 @@
 import { defineProjectMeta } from '@vue-community/schema'
 
 export default defineProjectMeta({
-  name: '@nuxt/icon',
-  description: 'The <Icon> component, supporting Iconify, Emojis and custom components.',
+  name: 'icon',
+  description: 'Icon module for Nuxt with 200,000+ ready to use icons from Iconify.',
   category: 'nuxt',
-  tags: ['nuxt', 'icon'],
-  types: ['nuxt-module'],
+  types: [
+    'UI',
+  ],
+  filter: [
+    'official',
+  ],
   links: {
     github: 'https://github.com/nuxt/icon',
-    npm: 'https://www.npmjs.com/package/@nuxt/icon',
+    npm: 'https://npmjs.com/package/@nuxt/icon',
+    website: 'https://github.com/nuxt/icon',
+  },
+  source: {
+    github: 'nuxt/icon',
+    npm: '@nuxt/icon',
+  },
+  stats: {
+    stars: 1196,
+    downloads: {
+      monthly: 2844022,
+      weekly: 735208,
+    },
   },
 })

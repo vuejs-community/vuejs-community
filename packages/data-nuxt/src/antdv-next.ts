@@ -1,13 +1,29 @@
 import { defineProjectMeta } from '@vue-community/schema'
 
 export default defineProjectMeta({
-  name: '@antdv-next/nuxt',
-  description: 'Antdv Next Nuxt module.',
+  name: 'antdv-next',
+  description: 'Ant Design for Vue',
   category: 'nuxt',
-  tags: ['nuxt', 'ui', 'component'],
-  types: ['nuxt-module'],
+  types: [
+    'UI',
+  ],
+  filter: [
+    '3rd-party',
+  ],
   links: {
     github: 'https://github.com/antdv-next/nuxt',
+    npm: 'https://npmjs.com/package/@antdv-next/nuxt',
+    website: 'https://www.antdv-next.com',
+  },
+  source: {
+    github: 'antdv-next/nuxt',
     npm: '@antdv-next/nuxt',
+  },
+  stats: {
+    stars: 6,
+    downloads: {
+      monthly: 293,
+      weekly: 39,
+    },
   },
 })
