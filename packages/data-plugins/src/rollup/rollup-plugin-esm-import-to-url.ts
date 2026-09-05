@@ -1,4 +1,4 @@
-import { defineProjectMeta } from '@vue-community/schema'
+import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'rollup-plugin-esm-import-to-url',

@@ -60,7 +60,7 @@ index.db 生成脚本在条目缺少 tags 字段时会直接报错，导致数�
 ### 改动内容
 
 - 生成前对 tags 做空值兜底，缺失时按空数组处理
-- 同步调整 `@vue-community/schema` 中 tags 的类型定义为可选
+- 同步调整 `@vuejs-community/schema` 中 tags 的类型定义为可选
 
 ### 关联 Issue
 

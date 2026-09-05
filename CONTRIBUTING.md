@@ -56,7 +56,7 @@ pnpm docs:dev
 │   ├── data-nuxt/           # Nuxt 模块数据
 │   ├── data-plugins/        # Vite / Rollup / Rolldown / Unplugin 插件数据
 │   ├── data-ui/             # UI 组件库数据
-│   ├── schema/              # @vue-community/schema 数据类型定义
+│   ├── schema/              # @vuejs-community/schema 数据类型定义
 │   ├── shared/              # @vuejs-community/shared 共享工具函数
 │   └── tsconfig/            # 共享 TypeScript 配置
 ├── scripts/                 # 仓库级数据同步脚本
@@ -85,13 +85,13 @@ pnpm docs:dev
 
 ### 收录新项目 / 修正数据
 
-站点数据以 TypeScript 文件形式存放在 `packages/data-*` 下，每个项目一个文件，使用 `@vue-community/schema` 提供的 `defineProjectMeta` 定义：
+站点数据以 TypeScript 文件形式存放在 `packages/data-*` 下，每个项目一个文件，使用 `@vuejs-community/schema` 提供的 `defineProjectMeta` 定义：
 
 - Nuxt 模块：`packages/data-nuxt/src/<module-name>.ts`
 - 插件：`packages/data-plugins/src/<vite|rollup|rolldown|unplugin>/<plugin-name>.ts`
 
 ```ts
-import { defineProjectMeta } from '@vue-community/schema'
+import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'my-awesome-plugin',
@@ -118,7 +118,7 @@ export default defineProjectMeta({
 - 站点代码位于 `app/`，服务端接口位于 `server/api/`。
 - UI 组件基于 shadcn-vue + Tailwind CSS v4，新增基础组件时请使用 shadcn-vue CLI 生成到 `app/components/ui/`。
 - 图标使用 `@nuxt/icon`，本地自定义图标放在 `app/assets/icon/`。
-- 数据类型统一从 `@vue-community/schema` 引入，如需新增字段请先更新 schema。
+- 数据类型统一从 `@vuejs-community/schema` 引入，如需新增字段请先更新 schema。
 
 ### 报告问题
 

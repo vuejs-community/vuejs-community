@@ -1,4 +1,4 @@
-import type { CommunityProject } from '@vue-community/schema'
+import type { CommunityProject } from '@vuejs-community/schema'
 import { existsSync } from 'node:fs'
 import { readFile, writeFile } from 'node:fs/promises'
 import { dirname, resolve } from 'node:path'

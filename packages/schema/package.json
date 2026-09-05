@@ -1,5 +1,5 @@
 {
-  "name": "@vue-community/schema",
+  "name": "@vuejs-community/schema",
   "type": "module",
   "private": true,
   "exports": {
@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@types/node": "^26.4.0",
-    "@vue-community/tsconfig": "workspace:*",
+    "@vuejs-community/tsconfig": "workspace:*",
     "typescript": "^6.0.3"
   }
 }

@@ -12,7 +12,7 @@
   "scripts": {
     "build": "nuxt build",
     "docs:dev": "nuxt dev",
-    "schared:dev": "pnpm -F @vue-community/shared run dev",
+    "schared:dev": "pnpm -F @vuejs-community/shared run dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
@@ -44,7 +44,7 @@
     "@nuxt/icon": "^2.2.4",
     "@tailwindcss/vite": "^4.3.1",
     "@types/node": "^26.4.0",
-    "@vue-community/schema": "workspace:*",
+    "@vuejs-community/schema": "workspace:*",
     "@vuejs-community/shared": "workspace:*",
     "@vueuse/nuxt": "^14.3.0",
     "class-variance-authority": "^0.7.1",

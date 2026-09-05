@@ -57,7 +57,7 @@ importers:
       '@types/node':
         specifier: ^26.4.0
         version: 26.4.0
-      '@vue-community/schema':
+      '@vuejs-community/schema':
         specifier: workspace:*
         version: link:packages/schema
       '@vuejs-community/shared':
@@ -132,10 +132,10 @@ importers:
       '@types/node':
         specifier: ^26.4.0
         version: 26.4.0
-      '@vue-community/schema':
+      '@vuejs-community/schema':
         specifier: workspace:*
         version: link:../schema
-      '@vue-community/tsconfig':
+      '@vuejs-community/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       typescript:
@@ -147,7 +147,7 @@ importers:
       '@types/node':
         specifier: ^26.4.0
         version: 26.4.0
-      '@vue-community/tsconfig':
+      '@vuejs-community/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       typescript:
@@ -159,10 +159,10 @@ importers:
       '@types/node':
         specifier: ^26.4.0
         version: 26.4.0
-      '@vue-community/schema':
+      '@vuejs-community/schema':
         specifier: workspace:*
         version: link:../schema
-      '@vue-community/tsconfig':
+      '@vuejs-community/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       '@vuejs-community/shared':
@@ -186,7 +186,7 @@ importers:
       '@types/node':
         specifier: ^26.4.0
         version: 26.4.0
-      '@vue-community/tsconfig':
+      '@vuejs-community/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       p-queue:
@@ -201,10 +201,10 @@ importers:
       '@types/node':
         specifier: ^26.4.0
         version: 26.4.0
-      '@vue-community/schema':
+      '@vuejs-community/schema':
         specifier: workspace:*
         version: link:../schema
-      '@vue-community/tsconfig':
+      '@vuejs-community/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       typescript:
@@ -216,7 +216,7 @@ importers:
       '@types/node':
         specifier: ^26.4.0
         version: 26.4.0
-      '@vue-community/tsconfig':
+      '@vuejs-community/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       typescript:
@@ -228,7 +228,7 @@ importers:
       '@types/node':
         specifier: ^26.4.0
         version: 26.4.0
-      '@vue-community/tsconfig':
+      '@vuejs-community/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       ofetch:

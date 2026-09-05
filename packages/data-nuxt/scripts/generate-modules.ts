@@ -57,7 +57,7 @@ async function resolveModuleContent(module: NuxtModule): Promise<string> {
       },
     },
   }, null, 2)
-  return `import { defineProjectMeta } from '@vue-community/schema'
+  return `import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta(${pkg})`
 }

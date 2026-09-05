@@ -119,7 +119,7 @@ function createProjectSource(data: NpmSearchObject, type: PluginDefinition['type
       downloads: data.downloads,
     },
   }
-  return `import { defineProjectMeta } from '@vue-community/schema'
+  return `import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta(${JSON.stringify(metaData, null, 2)})
 `

@@ -1,11 +1,11 @@
 {
-  "name": "@vue-community/data-ui",
+  "name": "@vuejs-community/data-ui",
   "type": "module",
   "private": true,
   "devDependencies": {
     "@types/node": "^26.4.0",
-    "@vue-community/schema": "workspace:*",
-    "@vue-community/tsconfig": "workspace:*",
+    "@vuejs-community/schema": "workspace:*",
+    "@vuejs-community/tsconfig": "workspace:*",
     "typescript": "^6.0.3"
   }
 }

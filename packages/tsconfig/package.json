@@ -1,5 +1,5 @@
 {
-  "name": "@vue-community/tsconfig",
+  "name": "@vuejs-community/tsconfig",
   "type": "module",
   "private": true,
   "devDependencies": {
