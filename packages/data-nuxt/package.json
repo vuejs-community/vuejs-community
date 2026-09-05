@@ -6,6 +6,10 @@
     "@types/node": "^26.4.0",
     "@vue-community/schema": "workspace:*",
     "@vue-community/tsconfig": "workspace:*",
-    "typescript": "^6.0.3"
+    "@vuejs-community/shared": "workspace:*",
+    "giget": "^3.3.1",
+    "glob": "^13.0.6",
+    "typescript": "^6.0.3",
+    "yaml": "^2.9.0"
   }
 }

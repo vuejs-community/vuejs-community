@@ -162,9 +162,21 @@ importers:
       '@vue-community/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
+      '@vuejs-community/shared':
+        specifier: workspace:*
+        version: link:../shared
+      giget:
+        specifier: ^3.3.1
+        version: 3.3.1
+      glob:
+        specifier: ^13.0.6
+        version: 13.0.6
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
+      yaml:
+        specifier: ^2.9.0
+        version: 2.9.0
 
   packages/data-plugins:
     devDependencies:
@@ -204,6 +216,21 @@ importers:
       '@vue-community/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
+      typescript:
+        specifier: ^6.0.3
+        version: 6.0.3
+
+  packages/shared:
+    devDependencies:
+      '@types/node':
+        specifier: ^26.4.0
+        version: 26.4.0
+      '@vue-community/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
+      ofetch:
+        specifier: ^1.5.1
+        version: 1.5.1
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
