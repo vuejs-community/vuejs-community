@@ -16,4 +16,11 @@ export default defineProjectMeta({
     github: 'https://github.com/barvian/number-flow',
     npm: 'https://www.npmjs.com/package/@number-flow/vue',
   },
+  stats: {
+    stars: 7674,
+    downloads: {
+      monthly: 188944,
+      weekly: 49075,
+    },
+  },
 })
