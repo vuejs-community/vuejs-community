@@ -29,7 +29,7 @@ description: 为 vuejs-community 目录站创建项目数据条目（project met
 
 ## 文件模板
 
-模板中的中文均为字段说明，创建时替换为真实值；无数据的可选字段（`tags`、`filter`、`website` 等）可省略，但 `stats` 必须完整写入（见下一节）。
+模板中的中文均为字段说明，创建时替换为真实值；无数据的可选字段（`tags`、`filter`、`website` 等）可省略，但 `stats` 必须完整写入（`data-admin` 例外，见下一节）。
 
 ```ts
 import { defineProjectMeta } from '@vuejs-community/schema'
@@ -68,11 +68,19 @@ export default defineProjectMeta({
 
 ## stats 数据要求
 
-使用本技能创建文件时，`stats` 下的数据必须全部明确写出——不得省略、不得填 0、不得编造——创建时从以下接口实时获取：
+使用本技能创建文件时，`stats` 下的数据若收项目无npm，那么它对应的 stats.download 默认是0即可。若git repo 有仓库则必须明确写出——不得省略、不得填 0、不得编造——创建时从以下接口实时获取：
 
 - `stars`：请求 `https://api.github.com/repos/{owner}/{repo}`，取响应中的 `stargazers_count`；若接口限流或无法访问，改用 `https://ungh.cc/repos/{owner}/{repo}`，取响应中的 `repo.stars`。
 - `downloads.monthly`：请求 `https://api.npmjs.org/downloads/point/last-month/{包名}`，取响应中的 `downloads`。
 - `downloads.weekly`：请求 `https://api.npmjs.org/downloads/point/last-week/{包名}`，取响应中的 `downloads`。
+
+例外：`data-admin` 收录的管理端模板/系统不发布到 npm，不存在下载数据——其 `stats` 只写 `stars`（仍从 GitHub 接口实时获取），整个 `downloads` 字段省略、不要填 0：
+
+```ts
+stats: {
+  stars: 项目在 GitHub 上的 star 数,
+}
+```
 
 ## 完成后校验
 
