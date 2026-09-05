@@ -110,7 +110,7 @@ async function collectTargets(results: SyncResult): Promise<SyncTarget[]> {
         filePath: file,
         relativePath: file.replace(`${repositoryRoot}/`, ''),
         project,
-        npmName: project.source?.npm,
+        npmName: project.source?.npm || '',
         githubRepo: project.source?.github?.split('#')[0],
       })
     }
@@ -180,12 +180,12 @@ async function main(): Promise<void> {
   const results: SyncResult = { updated: 0, unchanged: 0, skipped: 0 }
 
   const targets = await collectTargets(results)
-  // const stats = await fetchStats(targets)
-  //
-  // for (const target of targets)
-  //   await syncTarget(target, stats, results)
-  //
-  // console.log(`\nDone. files: ${targets.length}, updated: ${results.updated}, unchanged: ${results.unchanged}, skipped: ${results.skipped}${dryRun ? ' (dry-run, nothing written)' : ''}`)
+  const stats = await fetchStats(targets)
+
+  for (const target of targets)
+    await syncTarget(target, stats, results)
+
+  console.log(`\nDone. files: ${targets.length}, updated: ${results.updated}, unchanged: ${results.unchanged}, skipped: ${results.skipped}${dryRun ? ' (dry-run, nothing written)' : ''}`)
 }
 
 main().catch((error) => {
