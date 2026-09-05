@@ -44,10 +44,10 @@ function buildStatsBlock(stars: number, monthly: number, weekly: number): string
 }
 
 /** 定位对象字面量里顶层 `  key: { ... }` 块的字节范围（含闭合花括号）。数据文件的值都是字符串/数字/数组，不含花括号字符，可以放心用括号计数。 */
-function findBlockRange(content: string, key: string): [start: number, end: number] | undefined {
+function findBlockRange(content: string, key: string): [start: number, end: number] | null {
   const opening = new RegExp(`^ {2}${key}: \\{`, 'm').exec(content)
   if (!opening)
-    return undefined
+    return null
 
   let depth = 0
   for (let i = opening.index + opening[0].length - 1; i < content.length; i++) {
@@ -60,7 +60,7 @@ function findBlockRange(content: string, key: string): [start: number, end: numb
         return [opening.index, i + 1]
     }
   }
-  return undefined
+  return null
 }
 
 function applyStats(content: string, statsBlock: string): string {
