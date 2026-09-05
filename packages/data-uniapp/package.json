@@ -1,0 +1,11 @@
+{
+  "name": "@vuejs-community/data-uniapp",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^26.4.0",
+    "@vuejs-community/schema": "workspace:*",
+    "@vuejs-community/tsconfig": "workspace:*",
+    "typescript": "^6.0.3"
+  }
+}

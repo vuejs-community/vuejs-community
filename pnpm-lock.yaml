@@ -235,6 +235,21 @@ importers:
         specifier: ^6.0.3
         version: 6.0.3
 
+  packages/data-uniapp:
+    devDependencies:
+      '@types/node':
+        specifier: ^26.4.0
+        version: 26.4.0
+      '@vuejs-community/schema':
+        specifier: workspace:*
+        version: link:../schema
+      '@vuejs-community/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
+      typescript:
+        specifier: ^6.0.3
+        version: 6.0.3
+
   packages/schema:
     devDependencies:
       '@types/node':
