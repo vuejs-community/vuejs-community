@@ -9,6 +9,7 @@ export type ProjectCategory
     | 'tool'
     | 'component'
     | 'uniapp'
+    | 'admin'
 
 export type ProjectType
 // UI

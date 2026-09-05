@@ -1,13 +1,13 @@
 ---
 name: add-project-meta
-description: 为 vuejs-community 目录站创建项目数据条目（project meta 文件）。仅适用于在 packages/data-ui、packages/data-component、packages/data-hooks、packages/data-plugins、packages/data-nuxt、packages/data-uniapp 这 6 个包的 src 目录下创建文件，使用 @vuejs-community/schema 的 defineProjectMeta。当用户要求收录、新增、添加 UI 库、组件库、hooks/composable 库、Nuxt 模块、vite/rollup/rolldown/unplugin 插件或 uni-app 生态项目（uniapp 组件库、模板、插件等）到数据包时使用——例如"收录 X"、"新增一个项目"、"为 X 创建 meta 文件"、"add X to the catalog"，即使用户没有提到 defineProjectMeta 也要使用本技能。
+description: 为 vuejs-community 目录站创建项目数据条目（project meta 文件）。仅适用于在 packages/data-ui、packages/data-component、packages/data-hooks、packages/data-plugins、packages/data-nuxt、packages/data-uniapp、packages/data-admin 这 7 个包的 src 目录下创建文件，使用 @vuejs-community/schema 的 defineProjectMeta。当用户要求收录、新增、添加 UI 库、组件库、hooks/composable 库、Nuxt 模块、vite/rollup/rolldown/unplugin 插件、uni-app 生态项目（uniapp 组件库、模板、插件等）或后台管理系统/管理端模板到数据包时使用——例如"收录 X"、"新增一个项目"、"为 X 创建 meta 文件"、"add X to the catalog"，即使用户没有提到 defineProjectMeta 也要使用本技能。
 ---
 
 # 新增项目数据条目
 
 ## 适用范围
 
-本技能仅在以下 6 个包的 `src/` 下创建数据文件时有效，其他位置不使用：
+本技能仅在以下 7 个包的 `src/` 下创建数据文件时有效，其他位置不使用：
 
 | 数据包 | `category` 固定取值 |
 | --- | --- |
@@ -17,6 +17,7 @@ description: 为 vuejs-community 目录站创建项目数据条目（project met
 | `packages/data-nuxt/src` | `'nuxt'` |
 | `packages/data-plugins/src` | `'plugin'` |
 | `packages/data-uniapp/src` | `'uniapp'` |
+| `packages/data-admin/src` | `'admin'` |
 
 ## 核心规则
 
@@ -24,7 +25,7 @@ description: 为 vuejs-community 目录站创建项目数据条目（project met
 2. `defineProjectMeta` 传递的参数完全遵照 `CommunityProject` 类型定义（`packages/schema/src/types.ts`），不得添加类型之外的字段。
 3. 文件名称必须与 `name` 一致（kebab-case）；`data-plugins` 的文件需放入 `src/vite|rollup|rolldown|unplugin/` 对应类型的子目录，其余包（含 `data-uniapp`）的文件直接放在 `src/` 下。
 4. 注意：`data-nuxt/src` 下的文件由 `pnpm run generate:nuxt:modules` 从官方 nuxt/modules 列表自动生成，不要手动修改已有文件，仅官方列表中不存在的模块才手动创建。
-5. `data-uniapp` 收录 uni-app 生态项目（组件库、模板、插件、工具等），`category` 固定为 `'uniapp'`，`types` 从 `ProjectType` 中按项目实际形态选取（如 `component-library`、`mobile-ui`、`template`）。
+5. `data-uniapp` 收录 uni-app 生态项目（组件库、模板、插件、工具等，`types` 如 `component-library`、`mobile-ui`、`template`）；`data-admin` 收录后台管理系统与管理端模板（`types` 如 `admin-template`、`fullstack-template`、`template`）。`types` 一律从 `ProjectType` 中按项目实际形态选取。
 
 ## 文件模板
 

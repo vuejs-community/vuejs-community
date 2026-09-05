@@ -43,6 +43,7 @@ const defaultSourceRoots = [
   'packages/data-hooks/src',
   'packages/data-nuxt/src',
   'packages/data-uniapp/src',
+  'packages/data-admin/src',
 ]
 
 function readOptions(): BuildOptions {

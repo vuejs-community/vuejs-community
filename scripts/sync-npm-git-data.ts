@@ -14,6 +14,7 @@ const targetRoots = [
   'packages/data-hooks/src',
   'packages/data-component/src',
   'packages/data-uniapp/src',
+  'packages/data-admin/src',
 ].map(root => resolve(repositoryRoot, root))
 
 const dryRun = process.argv.includes('--dry-run')
