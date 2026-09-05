@@ -87,11 +87,13 @@ export async function getNpmPackageDownload(name: string, type: PackageTimeGranu
   return await fetchNpmDownload(name, type) ?? 0
 }
 
+/** Returns 0 when the lookup fails, so callers can tell "no data" apart from a real 0. */
 async function fetchNpmDownload(name: string, type: PackageTimeGranularity): Promise<number> {
   const result = await fetchWithRetry(
     () => ofetch<NpmDownloadEntry>(`https://api.npmjs.org/downloads/point/last-${type}/${name}`, { retry: 0 }),
     { initialBackoffMs: 5000 },
   )
+  console.log(result ? `[npm] last-${type} ${name} -> ${result.downloads}` : `[npm] last-${type} ${name} -> failed`)
   return result?.downloads ?? 0
 }
 
@@ -137,12 +139,14 @@ export async function getNpmDownloads(names: string[]): Promise<NpmDownloadsResu
         () => ofetch<NpmBulkDownloads>(`https://api.npmjs.org/downloads/point/last-${type}/${batch.join(',')}`, { retry: 0 }),
         { initialBackoffMs: 2000 },
       )
-      if (!result)
+      if (!result) {
+        console.log(`[npm] last-${type} bulk request failed: ${batch.join(', ')}`)
         return
-      for (const [name, entry] of Object.entries(result)) {
-        if (entry)
-          store(type, name, entry.downloads)
       }
+      const found = Object.entries(result).filter(([, entry]) => entry)
+      console.log(`[npm] last-${type} bulk request -> ${found.length}/${batch.length} packages`)
+      for (const [name, entry] of found)
+        store(type, name, entry.downloads)
     }),
   ))
 
@@ -166,7 +170,9 @@ export async function getNpmDownloads(names: string[]): Promise<NpmDownloadsResu
 
 export async function getGithubStar(repo: string): Promise<number> {
   const result = await fetchWithRetry(() => ofetch<GithubInfo>(`https://ungh.cc/repos/${repo}`, { retry: 0 }))
-  return result?.repo?.stars ?? 0
+  const stars = result?.repo?.stars ?? 0
+  console.log(result ? `[github] ${repo} -> ${stars} stars` : `[github] ${repo} -> failed`)
+  return stars
 }
 
 /** Fetch stars for many repos with bounded concurrency. Repos that fail are recorded as 0. */
