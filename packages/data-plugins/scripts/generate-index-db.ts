@@ -60,7 +60,7 @@ function normalizeProject(project: CommunityProject, source: string): Normalized
     category: project.category,
     source,
     types: project.types,
-    tags: project.tags,
+    tags: project?.tags || [],
     filter: project.filter ?? [],
     github: project.links?.github || '',
     npm: project.links?.npm || '',
