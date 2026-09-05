@@ -2,8 +2,8 @@ import type { CommunityProject } from '@vuejs-community/schema'
 import { existsSync } from 'node:fs'
 import { readFile, writeFile } from 'node:fs/promises'
 import { dirname, resolve } from 'node:path'
-import { fileURLToPath, pathToFileURL } from 'node:url'
-import { getGithubStars, getNpmDownloads } from '@vuejs-community/shared'
+import { fileURLToPath } from 'node:url'
+import { getGithubStars, getNpmDownloads, readProjectMeta } from '@vuejs-community/shared'
 import { glob } from 'glob'
 
 const scriptDirectory = dirname(fileURLToPath(import.meta.url))
@@ -105,21 +105,14 @@ async function collectTargets(results: SyncResult): Promise<SyncTarget[]> {
       .map(file => resolve(root, file))
 
     for (const file of files) {
-      try {
-        const imported = await import(pathToFileURL(file).href)
-        const project = imported.default as CommunityProject
-        targets.push({
-          filePath: file,
-          relativePath: file.replace(`${repositoryRoot}/`, ''),
-          project,
-          npmName: project.source?.npm,
-          githubRepo: project.source?.github?.split('#')[0],
-        })
-      }
-      catch (error) {
-        console.error(`[error] ${file.replace(`${repositoryRoot}/`, '')}`, error)
-        results.skipped++
-      }
+      const project = await readProjectMeta(file)
+      targets.push({
+        filePath: file,
+        relativePath: file.replace(`${repositoryRoot}/`, ''),
+        project,
+        npmName: project.source?.npm,
+        githubRepo: project.source?.github?.split('#')[0],
+      })
     }
   }
 
@@ -187,12 +180,12 @@ async function main(): Promise<void> {
   const results: SyncResult = { updated: 0, unchanged: 0, skipped: 0 }
 
   const targets = await collectTargets(results)
-  const stats = await fetchStats(targets)
-
-  for (const target of targets)
-    await syncTarget(target, stats, results)
-
-  console.log(`\nDone. files: ${targets.length}, updated: ${results.updated}, unchanged: ${results.unchanged}, skipped: ${results.skipped}${dryRun ? ' (dry-run, nothing written)' : ''}`)
+  // const stats = await fetchStats(targets)
+  //
+  // for (const target of targets)
+  //   await syncTarget(target, stats, results)
+  //
+  // console.log(`\nDone. files: ${targets.length}, updated: ${results.updated}, unchanged: ${results.unchanged}, skipped: ${results.skipped}${dryRun ? ' (dry-run, nothing written)' : ''}`)
 }
 
 main().catch((error) => {
