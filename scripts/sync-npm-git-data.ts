@@ -129,9 +129,6 @@ async function fetchStats(targets: SyncTarget[]) {
     getNpmDownloads(npmNames),
   ])
 
-  console.log(`[fetched] github stars (${stars.size}): ${JSON.stringify(Object.fromEntries(stars))}`)
-  console.log(`[fetched] npm downloads (${downloads.monthly.size}): ${JSON.stringify({ monthly: Object.fromEntries(downloads.monthly), weekly: Object.fromEntries(downloads.weekly) })}`)
-
   return { stars, downloads }
 }
 
