@@ -1,9 +1,9 @@
 import type { CommunityProject } from '@vuejs-community/schema'
 import { existsSync } from 'node:fs'
-import { readFile, rm, writeFile } from 'node:fs/promises'
+import { readFile, rm } from 'node:fs/promises'
 import { dirname, parse as ParseFile, resolve } from 'node:path'
-import { fileURLToPath, pathToFileURL } from 'node:url'
-import { getGithubStars, getNpmDownloads, stableStringify } from '@vuejs-community/shared'
+import { fileURLToPath } from 'node:url'
+import { getGithubStars, getNpmDownloads, readProjectMeta, writeProjectMetaIfChanged } from '@vuejs-community/shared'
 import { downloadTemplate } from 'giget'
 import { glob } from 'glob'
 import { parse } from 'yaml'
@@ -19,8 +19,6 @@ interface NuxtModule {
   learn_more: string
   category: string
   type: string
-  maintainers: Record<string, string>[]
-  compatibility: Record<string, unknown>[]
 }
 
 interface ModuleStats {
@@ -63,27 +61,6 @@ function buildModuleProject(module: NuxtModule, stats: ModuleStats): CommunityPr
         weekly: stats.weekly,
       },
     },
-  }
-}
-
-function resolveModuleContent(project: CommunityProject): string {
-  const pkg = JSON.stringify(project, null, 2)
-  return `import { defineProjectMeta } from '@vuejs-community/schema'
-
-export default defineProjectMeta(${pkg})
-`
-}
-
-/** Existing files may have been reformatted by eslint, so equality is decided on the parsed project object instead of raw text. */
-async function readExistingProject(modulePath: string): Promise<CommunityProject | undefined> {
-  if (!existsSync(modulePath))
-    return undefined
-  try {
-    const imported = await import(pathToFileURL(modulePath).href)
-    return imported.default as CommunityProject
-  }
-  catch {
-    return undefined
   }
 }
 
@@ -131,7 +108,7 @@ async function writeModules(entries: ModuleEntry[], stats: Awaited<ReturnType<ty
 
     try {
       // 抓取失败的值回退到已存文件的旧值（地图中缺失 ≠ 0），避免用 0 覆盖好数据。
-      const existingProject = await readExistingProject(modulePath)
+      const existingProject = existsSync(modulePath) ? await readProjectMeta(modulePath) : null
       const fallback = existingProject?.stats
       const project = buildModuleProject(module, {
         stars: module.repo ? stats.stars.get(module.repo) ?? fallback?.stars ?? 0 : 0,
@@ -139,13 +116,13 @@ async function writeModules(entries: ModuleEntry[], stats: Awaited<ReturnType<ty
         weekly: module.npm ? stats.downloads.weekly.get(module.npm) ?? fallback?.downloads?.weekly ?? 0 : 0,
       })
 
-      if (existingProject && stableStringify(existingProject) === stableStringify(project)) {
+      const result = await writeProjectMetaIfChanged(modulePath, project)
+      if (result === 'unchanged') {
         results.unchanged++
         continue
       }
 
-      await writeFile(modulePath, resolveModuleContent(project))
-      console.log(`[updated] ${fileName}.ts`)
+      console.log(`[${result}] ${fileName}.ts`)
       results.updated++
     }
     catch (error) {

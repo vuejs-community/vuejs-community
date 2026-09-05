@@ -210,6 +210,9 @@ importers:
       '@vuejs-community/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
+      ofetch:
+        specifier: ^1.5.1
+        version: 1.5.1
       p-queue:
         specifier: ^9.3.3
         version: 9.3.3
@@ -249,6 +252,9 @@ importers:
       '@types/node':
         specifier: ^26.4.0
         version: 26.4.0
+      '@vuejs-community/schema':
+        specifier: workspace:*
+        version: link:../schema
       '@vuejs-community/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig

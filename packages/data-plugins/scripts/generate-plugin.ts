@@ -1,16 +1,16 @@
 // @env node
 
 import type { CommunityProject } from '@vuejs-community/schema'
-import { writeFile } from 'node:fs/promises'
 import { dirname, resolve } from 'node:path'
-import { fileURLToPath, pathToFileURL } from 'node:url'
-import { stableStringify } from '@vuejs-community/shared'
+import { fileURLToPath } from 'node:url'
+import { fetchWithRetry, writeProjectMetaIfChanged } from '@vuejs-community/shared'
+import { ofetch } from 'ofetch'
 import PQueue from 'p-queue'
 
 const NPM_SEARCH_ENDPOINT = 'https://registry.npmjs.org/-/v1/search'
 const PAGE_SIZE = 250
 /** Total attempts per page request (1 initial + retries). Only transient failures retry. */
-const MAX_RETRIES = 3
+const MAX_ATTEMPTS = 4
 const REQUEST_TIMEOUT = 30_000
 
 interface PluginDefinition {
@@ -134,78 +134,27 @@ function createProjectData(data: NpmSearchObject, type: PluginDefinition['type']
   }
 }
 
-function createProjectSource(project: ProjectWithVersion): string {
-  return `import { defineProjectMeta } from '@vuejs-community/schema'
-
-export default defineProjectMeta(${JSON.stringify(project, null, 2)})
-`
-}
-
-function createSearchUrl(task: SearchTask): URL {
+function createSearchUrl(task: SearchTask): string {
   const url = new URL(NPM_SEARCH_ENDPOINT)
   url.searchParams.set('text', `keywords:${task.definition.keyword}`)
   url.searchParams.set('size', String(PAGE_SIZE))
   url.searchParams.set('from', String(task.from))
-  return url
-}
-
-function retryDelay(attempt: number): number {
-  return Math.min(1000 * 2 ** attempt, 10_000)
-}
-
-async function wait(milliseconds: number): Promise<void> {
-  await new Promise(resolve => setTimeout(resolve, milliseconds))
-}
-
-/** Only transient failures (network errors, 429, 5xx) are worth retrying; other 4xx are permanent. */
-function isTransientError(error: unknown): boolean {
-  const status = (error as { statusCode?: number } | null)?.statusCode
-  return status === undefined || status === 429 || status >= 500
+  return url.toString()
 }
 
 async function requestSearchPage(task: SearchTask): Promise<NpmSearchResponse> {
-  const url = createSearchUrl(task)
+  const result = await fetchWithRetry(async () => {
+    // ofetch throws on non-2xx with a statusCode attached, which is what the shared
+    // retry logic uses to tell transient failures from permanent ones.
+    const data = await ofetch<NpmSearchResponse>(createSearchUrl(task), { retry: 0, timeout: REQUEST_TIMEOUT })
+    if (!data.objects)
+      throw new Error(`invalid search payload at from=${task.from}`)
+    return data
+  }, { attempts: MAX_ATTEMPTS, initialBackoffMs: 1000 })
 
-  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
-    try {
-      const response = await fetch(url, {
-        headers: {
-          accept: 'application/json',
-        },
-        signal: AbortSignal.timeout(REQUEST_TIMEOUT),
-      })
-
-      if (!response.ok) {
-        throw Object.assign(new Error(`npm search request failed with status ${response.status}`), {
-          statusCode: response.status,
-        })
-      }
-
-      return await response.json() as NpmSearchResponse
-    }
-    catch (error) {
-      if (attempt === MAX_RETRIES || !isTransientError(error))
-        throw error
-
-      console.warn(
-        `[${task.definition.keyword}] Request from=${task.from} failed. Retrying ${attempt + 1}/${MAX_RETRIES}.`,
-      )
-      await wait(retryDelay(attempt))
-    }
-  }
-
-  throw new Error('Unreachable npm search retry state')
-}
-
-/** Existing files may have been reformatted, so equality is decided on the parsed project object instead of raw text. */
-async function readExistingProject(filePath: string): Promise<CommunityProject | undefined> {
-  try {
-    const imported = await import(pathToFileURL(filePath).href)
-    return imported.default as CommunityProject
-  }
-  catch {
-    return undefined
-  }
+  if (!result)
+    throw new Error(`npm search request failed at from=${task.from} after ${MAX_ATTEMPTS} attempts`)
+  return result
 }
 
 async function writeSearchObjects(
@@ -238,23 +187,18 @@ async function writeSearchObjects(
       continue
 
     const project = createProjectData(data, definition.type)
-    const existing = await readExistingProject(filePath)
+    const result = await writeProjectMetaIfChanged(filePath, project)
+    writtenFiles.add(filePath)
 
-    if (existing && stableStringify(existing) === stableStringify(project)) {
-      writtenFiles.add(filePath)
+    if (result === 'unchanged') {
       counts.unchanged++
       continue
     }
 
     console.log(
-      `[${definition.keyword}] -「${packageName}」 ${existing ? 'updated' : 'created'}`,
+      `[${definition.keyword}] -「${packageName}」 ${result}`,
     )
-    await writeFile(filePath, createProjectSource(project), 'utf8')
-    writtenFiles.add(filePath)
-    if (existing)
-      counts.updated++
-    else
-      counts.created++
+    counts[result]++
   }
 
   return counts

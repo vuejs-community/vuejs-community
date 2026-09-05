@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@types/node": "^26.4.0",
+    "@vuejs-community/schema": "workspace:*",
     "@vuejs-community/tsconfig": "workspace:*",
     "ofetch": "^1.5.1",
     "typescript": "^6.0.3"
