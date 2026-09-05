@@ -33,7 +33,7 @@ interface SyncTarget {
   githubRepo?: string
 }
 
-/** 没有 npm 包名的项目（如 data-admin 收录的管理端模板）不发布到 npm，只回填 stars，不写 downloads。 */
+/** Projects without an npm package name (e.g. the admin templates collected in data-admin) are not published to npm; only stars are backfilled, downloads are omitted. */
 function buildStatsBlock(stars: number, downloads?: { monthly: number, weekly: number }): string {
   const lines = [
     '  stats: {',
@@ -53,7 +53,7 @@ function buildStatsBlock(stars: number, downloads?: { monthly: number, weekly: n
   return lines.join('\n')
 }
 
-/** 定位对象字面量里顶层 `  key: { ... }` 块的字节范围（含闭合花括号）。数据文件的值都是字符串/数字/数组，不含花括号字符，可以放心用括号计数。 */
+/** Locate the byte range of a top-level `  key: { ... }` block (including its closing brace) in an object literal. Values in data files are strings/numbers/arrays and never contain braces, so brace counting is safe. */
 function findBlockRange(content: string, key: string): [start: number, end: number] | null {
   const opening = new RegExp(`^ {2}${key}: \\{`, 'm').exec(content)
   if (!opening)
@@ -119,7 +119,7 @@ async function collectTargets(results: SyncResult): Promise<SyncTarget[]> {
   return targets
 }
 
-/** 整批统计一次性抓取：npm 下载量走批量端点 + scoped 串行车池，star 共享一个小并发池。 */
+/** Fetch all stats in a single batch: npm downloads go through the bulk endpoint with a serial lane for scoped packages; stars share a small concurrency pool. */
 async function fetchStats(targets: SyncTarget[]) {
   const npmNames = targets.map(target => target.npmName).filter((name): name is string => Boolean(name))
   const repos = targets.map(target => target.githubRepo).filter((repo): repo is string => Boolean(repo))
@@ -145,7 +145,7 @@ async function syncTarget(
     return
   }
 
-  // 抓取失败的值回退到文件里已存的旧值（地图中缺失 ≠ 0），避免用 0 覆盖好数据。
+  // Fall back to the old values already stored in the file when a fetch failed (missing from the map ≠ 0) so good data is never overwritten with 0.
   const existing = project.stats
   const stars = githubRepo ? stats.stars.get(githubRepo) ?? existing?.stars ?? 0 : 0
   const downloads = npmName
