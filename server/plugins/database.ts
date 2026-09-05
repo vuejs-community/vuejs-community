@@ -6,7 +6,7 @@ import nodeSqliteConnector from 'db0/connectors/node-sqlite'
 
 async function resolveDatabasePath() {
   if (!process.env.VERCEL) {
-    const path = resolve(process.cwd(), 'public/index.db')
+    const path = resolve(process.cwd(), 'server/assets/index.db')
 
     if (!existsSync(path))
       throw new Error(`SQLite database not found at ${path}`)
