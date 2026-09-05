@@ -1,108 +1,108 @@
-# PR 写法补充说明与示例
+# PR Writing Notes and Examples
 
-## 类型判断补充说明
+## Type Determination Notes
 
-不要因为 diff 里包含逻辑代码就直接判成 `fix`。先看"最终在修什么"。
+Don't classify as `fix` just because the diff contains logic code. First look at "what is actually being fixed".
 
-优先判断：
+Decision priority:
 
-1. **docs / ci / build / chore 优先于 fix**
-   - 若主要改的是文档、脚本、workflow、数据生成流程，即使涉及一些逻辑代码，也通常不该写成 `fix`
-2. **fix 只用于真实缺陷修复**
-   - 站点行为异常、渲染错误、交互不符合预期、数据生成报错、接口返回错误，才优先用 `fix`
-3. **feat 只用于对外新增能力**
-   - 不是"内部代码变多了"就算 feat，而是站点/使用者真的获得了新能力
-4. **数据条目改动用 data-* scope 表达**
-   - 新收录 -> `feat(data-plugins)` / `feat(data-nuxt)`
-   - 修正条目元信息 -> `fix(data-*)` 或 `chore(data-*)`
-   - 仅更新统计数据 -> 通常由每日同步工作流自动完成，不需要单独提 PR
+1. **docs / ci / build / chore take precedence over fix**
+   - If the change is mainly docs, scripts, workflows, or the data generation pipeline, it usually should not be `fix` even if some logic code is involved
+2. **fix is only for genuine defect fixes**
+   - Use `fix` first when site behavior is broken, rendering is wrong, interactions don't match expectations, data generation errors out, or APIs return errors
+3. **feat is only for externally visible new capability**
+   - It's not a feat just because "internal code grew"; the site/users must actually gain new capability
+4. **Data entry changes use a data-* scope**
+   - New entry -> `feat(data-plugins)` / `feat(data-nuxt)`
+   - Correcting entry metadata -> `fix(data-*)` or `chore(data-*)`
+   - Stats-only updates -> usually handled automatically by the daily sync workflow; no separate PR needed
 
-示例：
+Examples:
 
-- 修文档描述错误 -> `docs: ...`
-- 新增一个 Nuxt 模块收录 -> `feat(data-nuxt): add radash module`
-- 修 index.db 生成时 tags 缺失报错 -> `fix(db): handle undefined project tags`
-- 数据类型定义调整 -> `refactor(schema): make tags property optional`
-- 修 GitHub Actions 校验 -> `ci: ...`
-- 修依赖版本问题 -> `chore(deps): ...`
-- 修站点首页组件真实 bug -> `fix(ui): ...`
+- Fix a docs description error -> `docs: ...`
+- Add a new Nuxt module entry -> `feat(data-nuxt): add radash module`
+- Fix a missing-tags error in index.db generation -> `fix(db): handle undefined project tags`
+- Adjust data type definitions -> `refactor(schema): make tags property optional`
+- Fix GitHub Actions validation -> `ci: ...`
+- Fix a dependency version issue -> `chore(deps): ...`
+- Fix a real bug in a homepage component -> `fix(ui): ...`
 
-## Related Issues 写法
+## Related Issues Wording
 
-有明确 issue 时：
+When there is a clear issue:
 
 - `close #12345`
 - `fix #12345`
 - `ref #12345`
 
-没有 issue 时：
+When there is no issue:
 
-- 简单写需求来源
-- 若确实没有，写 `None`
+- Briefly state where the requirement came from
+- If there really is none, write `None`
 
-不要编造 issue 编号。
+Never invent issue numbers.
 
-## 背景与改动内容写法
+## Background and Changes Wording
 
-背景控制在 2 到 5 行，回答这几件事：
+Keep the background to 2–5 lines, answering:
 
-1. 原先哪里有问题（或为什么要新增）
-2. 这次怎么改
-3. 是否有站点交互、数据展示或生成产物的变化
+1. What was wrong before (or why the addition was needed)
+2. How it was changed this time
+3. Whether site interactions, data display, or generated artifacts changed
 
-示例：
+Example:
 
 ```markdown
-### 背景
+### Background
 
-index.db 生成脚本在条目缺少 tags 字段时会直接报错，导致数据库无法重建。
+The index.db generation script crashes when an entry is missing the tags field, so the database cannot be rebuilt.
 
-### 改动内容
+### Changes
 
-- 生成前对 tags 做空值兜底，缺失时按空数组处理
-- 同步调整 `@vuejs-community/schema` 中 tags 的类型定义为可选
+- Added a null guard for tags before generation; missing tags are treated as an empty array
+- Updated the tags type definition in `@vuejs-community/schema` to be optional
 
-### 关联 Issue
+### Related Issues
 
 None
 
-### 验证方式
+### Verification
 
-- `pnpm lint` / `pnpm typecheck` 通过
-- 已运行 `pnpm generate:db`，index.db 正常生成且站点数据展示正确
+- `pnpm lint` / `pnpm typecheck` pass
+- Ran `pnpm generate:db`; index.db generates correctly and site data displays correctly
 ```
 
-数据类 PR 在"改动内容"里注明影响的条目：
+For data PRs, note the affected entries under "Changes":
 
 ```markdown
-### 改动内容
+### Changes
 
-- 新收录 Vite 插件：vite-plugin-11th-server、vite-plugin-abbrlink
+- Added new Vite plugin entries: vite-plugin-11th-server, vite-plugin-abbrlink
 ```
 
-## 验证方式写法
+## Verification Wording
 
-按改动类型选择对应内容：
+Choose content based on the change type:
 
-- 通用：`pnpm lint`、`pnpm typecheck`
-- 数据类：`pnpm generate:db`，确认 `server/assets` 下 index.db 已更新
-- 数据同步脚本改动：说明模拟运行的结果
-- UI 改动：手动验证步骤 + 截图或 GIF
-- 服务端接口改动：接口的请求方式与返回示例
+- General: `pnpm lint`, `pnpm typecheck`
+- Data changes: `pnpm generate:db`, confirming the index.db under `server/assets` was updated
+- Data sync script changes: describe the result of a simulated run
+- UI changes: manual verification steps + screenshot or GIF
+- Server API changes: the request format and a sample response
 
-## 基线分支判断建议
+## Baseline Branch Tips
 
-目标是尽量推断"当前分支实际从哪里切出来"，而不是拍脑袋默认 `master`。
+The goal is to infer where the current branch was actually cut from, rather than blindly defaulting to `master`.
 
-建议顺序：
+Suggested order:
 
-1. 用户明确指定了 `base branch` -> 直接使用
-2. 查看当前分支是否能从 `reflog` 看出 checkout 来源
-3. 查看 `git branch -vv` 的 tracking / upstream 作为辅助线索
-4. 必要时结合 `merge-base` 比较候选分支
-5. 若仍无法确定，再退回仓库默认分支 `master`
+1. The user explicitly specified a `base branch` -> use it directly
+2. Check whether the checkout origin is visible in the `reflog`
+3. Check `git branch -vv` tracking / upstream as supporting clues
+4. If needed, compare candidate branches with `merge-base`
+5. If still undetermined, fall back to the repository's default branch `master`
 
-建议命令：
+Suggested commands:
 
 ```bash
 git branch --show-current
@@ -112,50 +112,50 @@ git remote show origin
 git merge-base HEAD <candidate-branch>
 ```
 
-注意：
+Notes:
 
-- upstream 不是绝对父分支，只是候选线索
-- `reflog` 最接近真实答案，但不一定一直存在
-- 不确定时要明确告诉用户"这是推断值"
+- upstream is not guaranteed to be the parent branch; it's only a candidate clue
+- `reflog` is closest to the real answer but may not always exist
+- When uncertain, clearly tell the user "this is an inferred value"
 
-## 创建 PR 前确认话术建议
+## Confirmation Phrasing Before Creating the PR
 
-在真正执行 `gh pr create` 之前，应该先给用户一个确认版草稿，例如：
+Before actually running `gh pr create`, give the user a draft for confirmation, e.g.:
 
 ```markdown
-我先整理了一版待提交的 PR 草稿，请你确认：
+I've prepared a draft PR for your confirmation:
 
 - Base branch: `master`
 - PR title: `fix(db): handle undefined project tags in index db generation`
 - PR body:
 
-  ### 背景
-  index.db 生成脚本在条目缺少 tags 字段时会直接报错……
+  ### Background
+  The index.db generation script crashes when an entry is missing the tags field...
 
-  ### 改动内容
-  - ……
+  ### Changes
+  - ...
 
-  ### 关联 Issue
+  ### Related Issues
   None
 
-  ### 验证方式
-  ……
+  ### Verification
+  ...
 
-- 待确认：是否需要关联已有 issue
+- To confirm: whether a related issue should be linked
 
-如果没问题，我再继续创建 PR；如果你想改 title、base 或正文，我先帮你改。
+If this looks good, I'll create the PR; if you'd like to change the title, base, or body, I'll revise it first.
 ```
 
-## PR 标题示例
+## PR Title Examples
 
-`vuejs-community` 的 PR 标题应固定使用英文，并遵循 Conventional Commits：
+`vuejs-community` PR titles are always in English and follow Conventional Commits:
 
 - `<type>: <subject>`
 - `<type>(<scope>): <subject>`
 
-常用 `type`：`feat`、`fix`、`docs`、`style`、`refactor`、`perf`、`test`、`build`、`ci`、`chore`、`revert`
+Common `type`s: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore`, `revert`
 
-英文示例：
+English examples:
 
 - `feat(shared): add npm package download and github star utilities`
 - `feat(data-nuxt): add comprehensive collection of Nuxt modules`
@@ -167,9 +167,9 @@ git merge-base HEAD <candidate-branch>
 - `ci: add generate-plugin-data workflow`
 - `chore(deps): update nuxt and tailwindcss`
 
-不要这样写：
+Don't write titles like these:
 
-- `修复 index.db 生成报错`（标题必须英文）
-- `update`（type 缺失，且是空话）
-- `fix issues`（没说清修了什么）
+- A non-English title, e.g. writing the subject in another language (titles must be in English)
+- `update` (missing type, and it's a filler word)
+- `fix issues` (doesn't say what was fixed)
 - `some improvements`

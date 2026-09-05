@@ -1,117 +1,116 @@
 ---
 name: create-pr
-description: Create pull requests for vuejs-community following the repository's Conventional Commits style and PR body conventions. MUST be used immediately when the user says "创建 PR"、"提交 PR"、"开个 PR"、"提个 PR"、"帮我发起 PR"、"create a PR"、"open a PR"、"make a PR"、"submit a PR" or any similar phrasing — do not re-confirm intent, do not answer with PR theory, enter this skill's workflow directly. Also use it when drafting PR title/body, summarizing branch changes for a PR, or otherwise preparing PR content. Only skip it when the user is discussing PR concepts without requesting an action.
+description: Create pull requests for vuejs-community following the repository's Conventional Commits style and PR body conventions. MUST be used immediately when the user says "create a PR", "open a PR", "make a PR", "submit a PR", "raise a PR for me", "send the changes up", "ready for review" or any similar phrasing — do not re-confirm intent, do not answer with PR theory, enter this skill's workflow directly. Also use it when drafting PR title/body, summarizing branch changes for a PR, or otherwise preparing PR content. Only skip it when the user is discussing PR concepts without requesting an action.
 ---
 
-# Vue Community PR 创建规范
+# Vue Community PR Creation Guide
 
-## 目标
+## Goals
 
-一、基于当前分支相对基线分支的全部改动生成 PR，不只看最后一个 commit。
+1. Generate the PR from all changes on the current branch relative to the baseline branch, not just the last commit.
 
-二、仓库 `.github/` 下目前没有 PR 模板，PR 正文遵循本文档约定的固定结构（背景、改动内容、关联 Issue、验证方式），不要自行发明更复杂的结构。
+2. There is currently no PR template under the repository's `.github/`. The PR body follows the fixed structure defined in this document (Background, Changes, Related Issues, Verification) — do not invent a more complex structure.
 
-三、PR 标题始终使用英文，并遵循仓库的 Conventional Commits 规范（与 `CONTRIBUTING.md` 一致；commit message 由 `verify-git-commit` 钩子校验，PR 标题保持同一风格）。
+3. PR titles are always in English and follow the repository's Conventional Commits convention (consistent with `CONTRIBUTING.md`; commit messages are validated by the `verify-git-commit` hook, and PR titles keep the same style).
 
-四、真正执行 `gh pr create` 之前，必须先把 `base`、`title`、`body` 给用户确认，确认后才能创建 PR。
+4. Before actually running `gh pr create`, you must first show the `base`, `title`, and `body` to the user for confirmation. Only create the PR after confirmation.
 
-## 基本规则
+## Ground Rules
 
-### 一、按意图触发，命中话术直接进入工作流
+### 1. Trigger by intent — enter the workflow as soon as the phrasing matches
 
-只要能判断用户是在请求创建 PR，或为创建 PR 做准备，就应使用本 skill。
+As soon as you can tell the user is requesting a PR, or preparing for one, use this skill.
 
-以下话术（含近似表达）出现时，**直接进入本 skill 的工作流**，不要追问"你是想创建 PR 吗"，也不要回答 PR 概念说明：
+When any of the following phrasings (or close variants) appear, **enter this skill's workflow directly** — do not ask "do you want to create a PR?", and do not reply with a PR concept explainer:
 
-- 中文：「创建 PR」「提交 PR」「开个 PR」「提个 PR」「帮我发起 PR」「把改动提上去」「准备好提交审查」
-- 英文：「create a PR」「open a PR」「make a PR」「submit a PR」「prepare a pull request」
+- "create a PR", "open a PR", "make a PR", "submit a PR", "raise a PR for me", "send the changes up", "ready for review"
 
-不要把触发限制成固定说法。即使用户表达很短、很口语，或要求不完整（例如只说"提个 PR"而不说分支名），只要不是在单纯讨论 PR 概念，也应进入本 skill 的工作流；缺失的信息按"信息不足时不要硬写"的规则处理。
+Do not limit triggering to fixed wording. Even if the user's request is very short, informal, or incomplete (e.g. they only say "submit a PR" without naming a branch), enter this skill's workflow as long as they are not merely discussing PR concepts; handle missing information per rule 7 below ("don't fabricate when information is missing").
 
-### 二、PR 正文遵循固定结构
+### 2. The PR body follows a fixed structure
 
-仓库没有 PR 模板，正文统一使用以下结构：
+The repository has no PR template; always use the following structure for the body:
 
 ```markdown
-### 背景
+### Background
 
-为什么做这个改动。
+Why this change was made.
 
-### 改动内容
+### Changes
 
-改了什么，关键取舍。
+What was changed and the key trade-offs.
 
-### 关联 Issue
+### Related Issues
 
 close #xxxx / None
 
-### 验证方式
+### Verification
 
-如何验证本次改动（lint、typecheck、运行了哪些生成脚本、手动验证步骤等）。
+How the change was verified (lint, typecheck, which generation scripts were run, manual steps, etc.).
 ```
 
-不要自创 section，也不要删掉上述主结构。可按 PR 类型精简内容：纯数据类 PR 无 UI 变化时，"验证方式"写运行了哪些生成脚本即可。
+Do not invent extra sections and do not remove the main structure above. You may trim content by PR type: for pure data PRs with no UI changes, "Verification" only needs to state which generation scripts were run.
 
-### 三、标题固定英文，遵循 Conventional Commits
+### 3. Titles are always English, following Conventional Commits
 
-按以下顺序判断正文语言：
+Determine the body language in this order:
 
-1. 用户当前请求主要是中文 -> 正文用中文
-2. 用户当前请求主要是英文 -> 正文用英文
-3. 若当前请求混合，但历史上下文明显偏中文 -> 正文用中文
-4. 若无法判断，再询问用户，不要猜
+1. The user's current request is mostly Chinese -> body in Chinese
+2. The user's current request is mostly English -> body in English
+3. The request is mixed but the conversation history is clearly Chinese-leaning -> body in Chinese
+4. If you still can't tell, ask the user — don't guess
 
-但无论正文选中文还是英文：
+But regardless of the body language:
 
-- `PR title` 都必须是英文
-- `PR title` 要符合本文档的标题规范（Conventional Commits）
-- `PR body` 跟随用户语言习惯
+- The `PR title` must always be in English
+- The `PR title` must follow the title conventions in this document (Conventional Commits)
+- The `PR body` follows the user's language
 
-### 四、先分析分支，再写 PR
+### 4. Analyze the branch first, then write the PR
 
-创建 PR 前，必须先看：
+Before creating a PR, always look at:
 
-- 当前分支名
-- 基线分支
-- 当前分支相对基线分支的 commit 列表
-- `base...HEAD` 的完整 diff
+- The current branch name
+- The baseline branch
+- The commit list of the current branch relative to the baseline branch
+- The full diff of `base...HEAD`
 
-不要只根据工作区未提交内容写 PR，也不要只根据最近一个 commit 写 PR。
+Do not write the PR based only on uncommitted working-tree changes, and do not write it based only on the most recent commit.
 
-### 五、先给草稿，后创建 PR
+### 5. Draft first, create the PR later
 
-无论用户是否说"直接帮我创建 PR"，都要先完成以下步骤：
+Whether or not the user says "just create the PR for me", always complete these steps first:
 
-1. 生成 `base`、`title`、`body` 草稿
-2. 明确告诉用户：这是准备提交的 PR 内容
-3. 让用户确认是否继续创建，或先修改
-4. 只有用户明确确认后，才能真正执行 `gh pr create`
+1. Produce a draft of `base`, `title`, and `body`
+2. Clearly tell the user: this is the PR content about to be submitted
+3. Ask the user to confirm whether to proceed or revise first
+4. Only after the user explicitly confirms may you actually run `gh pr create`
 
-若用户中途要求修改标题、类型、目标分支等，应先更新草稿，再次确认。
+If the user asks to change the title, type, target branch, etc. midway, update the draft first and confirm again.
 
-### 六、标题和正文要分工明确
+### 6. Clear division of labor between title and body
 
-- PR 标题：用英文一句话概括本分支最主要的变动
-- PR 正文：说明背景、改法、关联 issue、验证方式
+- PR title: one English sentence summarizing the branch's most important change
+- PR body: explains the background, the approach, related issues, and verification
 
-正文不是逐文件流水账。要归纳"为什么改"和"改完后对开发者/用户有什么影响"。
+The body is not a per-file ledger. Summarize "why it changed" and "what impact it has on developers/users after the change".
 
-### 七、信息不足时不要硬写
+### 7. Don't fabricate when information is missing
 
-若以下内容缺失且无法从分支改动中可靠推断：
+If any of the following is missing and cannot be reliably inferred from the branch's changes:
 
-- 基线分支
-- 关联 issue
-- 变动性质
-- 测试或验证方式
+- Baseline branch
+- Related issue
+- Nature of the change
+- Tests or verification method
 
-可以先给出草稿，并把无法确认的地方保留为待补充项；若用户要求直接创建 PR，也必须先说明缺失项并等待确认。
+You may still produce a draft, keeping unverifiable parts as explicit to-be-confirmed items; if the user asks to create the PR immediately, you must still call out the missing items and wait for confirmation.
 
-## 执行步骤
+## Workflow
 
-### 1. 检查仓库和 PR 环境
+### 1. Check the repository and PR environment
 
-建议先确认：
+Start by confirming:
 
 ```bash
 git status --short
@@ -120,21 +119,21 @@ git remote -v
 gh auth status
 ```
 
-若 `gh` 不可用、未登录、当前不在 git 仓库、或当前分支不适合提 PR，应先说明问题，不要继续伪造结果。
+If `gh` is unavailable or not logged in, the current directory is not a git repository, or the current branch is not suitable for a PR, explain the problem first — do not fabricate results and continue.
 
-### 2. 确定基线分支
+### 2. Determine the baseline branch
 
-不要默认就用 `master`，但要记住 `master` 是本仓库的默认分支，是最终兜底选项。按以下顺序判断：
+Do not default to `master` blindly, but remember `master` is this repository's default branch and the final fallback. Determine it in this order:
 
-1. 用户明确指定了 `base branch` -> 直接使用
-2. 若当前分支存在可用的"来源线索"，优先根据真实 Git 信息推断：
-   - `git branch -vv` 查看 tracking / upstream
-   - `git reflog show <current-branch>` 查看是否能看出"从哪条分支 checkout 出来"
-   - 必要时结合 `git merge-base HEAD <candidate-branch>` 比较分叉点
-3. 若能较可靠判断"当前分支是从某条分支切出来的"，优先使用该分支作为 `base`
-4. 若无法可靠推断，再退回 `master`
+1. The user explicitly specified a `base branch` -> use it directly
+2. If the current branch has usable "origin clues", prefer inferring from real Git information:
+   - `git branch -vv` to see tracking / upstream
+   - `git reflog show <current-branch>` to see which branch it was checked out from
+   - If needed, combine with `git merge-base HEAD <candidate-branch>` to compare fork points
+3. If you can determine with reasonable confidence that the current branch was cut from a certain branch, prefer that branch as `base`
+4. If it cannot be reliably inferred, fall back to `master`
 
-建议查看：
+Suggested commands:
 
 ```bash
 git branch --show-current
@@ -143,21 +142,21 @@ git reflog show --date=local $(git branch --show-current)
 git remote show origin
 ```
 
-注意：
+Notes:
 
-- tracking / upstream 只能作为线索，不等于绝对正确的"父分支"
-- `reflog` 若已清理，可能无法得到结果
-- 若推断结果不够确定，要在草稿中明确标注为"推断值"
+- tracking / upstream is only a clue, not guaranteed to be the "parent branch"
+- `reflog` may yield nothing if it has been cleaned up
+- If the inference is not confident enough, mark it explicitly as an "inferred value" in the draft
 
-#### 新功能分支的额外提醒
+#### Extra reminder for feature branches
 
-如果改动性质判断为 `feat` / 新功能，应提醒用户确认改动意图与目标分支是否匹配（例如本应只修正某个数据条目，却改动了站点逻辑）。
+If the nature of the change is `feat` / a new feature, remind the user to confirm that the change intent matches the target branch (e.g. they meant to fix a single data entry but also changed site logic).
 
-此提醒只用于确认工作流，不要擅自改 base。
+This reminder is only for confirming the workflow — do not change the base on your own.
 
-### 3. 收集本分支全部改动
+### 3. Collect all changes on this branch
 
-至少查看：
+At minimum, review:
 
 ```bash
 git log --oneline <base>..HEAD
@@ -165,110 +164,110 @@ git diff --stat <base>...HEAD
 git diff <base>...HEAD
 ```
 
-必要时再看：
+When needed, also check:
 
 ```bash
 git diff --name-only <base>...HEAD
 ```
 
-归纳时要覆盖该分支会进入 PR 的全部提交，而不是只写最后一次改动。
+Your summary must cover every commit that will go into the PR from this branch, not just the last change.
 
-### 4. 判断 PR 类型
+### 4. Determine the PR type
 
-必须根据"主目的"判断，不要仅因为改动里包含逻辑变更就默认写成 `fix`。
+Judge by the "primary purpose" — do not default to `fix` just because the diff contains logic changes.
 
-优先判断顺序：
+Decision order:
 
-1. 是否主要是文档、说明文本改动（`CONTRIBUTING.md`、README、注释）
-   - 是：优先考虑 `docs`
-2. 是否主要是 CI、workflow、脚本、数据同步、生成流程等改动
-   - 是：优先考虑 `ci` / `build` / `chore`
-3. 是否主要是数据收录与修正（`packages/data-*` 下的条目）
-   - 是：考虑 `feat(data-*)` / `fix(data-*)` / `chore(data-*)`
-4. 是否主要是站点 UI 或服务端接口的真实缺陷修复
-   - 是：考虑 `fix`
-5. 是否主要是站点新增能力
-   - 是：考虑 `feat`
-6. 是否主要是重构、类型、性能等专项改动
-   - 是：使用 `refactor` / `perf`
+1. Is it mainly documentation / explanatory text changes (`CONTRIBUTING.md`, README, comments)?
+   - Yes: prefer `docs`
+2. Is it mainly CI, workflow, scripts, data sync, generation pipeline changes?
+   - Yes: prefer `ci` / `build` / `chore`
+3. Is it mainly data entries added or corrected (items under `packages/data-*`)?
+   - Yes: consider `feat(data-*)` / `fix(data-*)` / `chore(data-*)`
+4. Is it mainly fixing a genuine defect in site UI or server APIs?
+   - Yes: consider `fix`
+5. Is it mainly adding new site capability?
+   - Yes: consider `feat`
+6. Is it mainly refactoring, typing, performance, or another specialized change?
+   - Yes: use `refactor` / `perf`
 
-判断时以"用户感知的主结果"为准，不要被单个文件或单个 commit 干扰。
+Judge by "the user-visible primary result"; don't be distracted by a single file or a single commit.
 
-例如：
+Examples:
 
-- 新增/修正一个 Vite 插件收录条目 -> `feat(data-plugins)` / `fix(data-plugins)`
-- 修 index.db 生成逻辑 -> `fix(db)`
-- 数据类型定义调整 -> `refactor(schema)`
-- 官网页面样式或交互问题 -> `fix(ui)`
-- workflow / action 调整 -> `ci`
-- 依赖升级 -> `chore(deps)`
+- Add/correct a Vite plugin data entry -> `feat(data-plugins)` / `fix(data-plugins)`
+- Fix index.db generation logic -> `fix(db)`
+- Adjust data type definitions -> `refactor(schema)`
+- Homepage style or interaction issues -> `fix(ui)`
+- Workflow / action adjustments -> `ci`
+- Dependency upgrades -> `chore(deps)`
 
-### 5. 归纳 PR 的核心信息
+### 5. Summarize the PR's core information
 
-至少整理出：
+At minimum, gather:
 
-- 变动性质：用标题的 `type(scope)` 表达
-- 关联 Issue：填 issue 链接或 `close #xxxx` / `fix #xxxx`
-- 背景：说明问题背景与处理方式
-- 验证方式：说明如何确认改动生效
+- Nature of the change: expressed as `type(scope)` in the title
+- Related issue: an issue link or `close #xxxx` / `fix #xxxx`
+- Background: the problem context and the approach taken
+- Verification: how the change was confirmed to work
 
-### 6. 检查本地验证
+### 6. Check local verification
 
-生成草稿前建议确认本地已通过：
+Before producing the draft, confirm that the following pass locally:
 
 ```bash
 pnpm lint
 pnpm typecheck
 ```
 
-数据类改动还需确认已运行 `pnpm generate:db` 且 `server/assets` 下的 index.db 已更新。
+For data changes, also confirm `pnpm generate:db` was run and the index.db under `server/assets` was updated.
 
-另外注意仓库的 Git 钩子：
+Also note the repository's Git hooks:
 
-- **pre-commit** 的 `lint-staged` 会对暂存文件自动执行 `eslint --fix`
-- **commit-msg** 的 `verify-git-commit` 会校验提交信息格式
+- The **pre-commit** `lint-staged` hook runs `eslint --fix` on staged files automatically
+- The **commit-msg** `verify-git-commit` hook validates commit message format
 
-若分支上存在不符合 Conventional Commits 的历史提交，无法逐个重写时，PR 标题也应保持规范，不要跟随坏提交的风格。
+If the branch contains historical commits that don't follow Conventional Commits and they can't be rewritten one by one, the PR title should still follow the convention — don't follow the style of bad commits.
 
-### 7. 生成 PR 标题
+### 7. Generate the PR title
 
-标题要求：
+Title requirements:
 
-- 按下方"写法要求 -> 标题"生成
-- 覆盖整条分支的主要目标
-- 不要照搬单个 commit message
-- `type` 要与第 4 步判断一致
+- Generate per "Writing Requirements -> Title" below
+- Cover the branch's overall main goal
+- Do not copy a single commit message
+- `type` must match the determination from step 4
 
-### 8. 按固定结构产出 PR 正文草稿
+### 8. Produce the PR body draft in the fixed structure
 
-填写时遵守：
+When filling it in:
 
-- 保留"背景 / 改动内容 / 关联 Issue / 验证方式"四个 section
-- 内容尽量具体，但不要写成长篇说明
-- 若涉及 UI 变化，提醒可补截图或 GIF
-- 若某信息尚未确认，要显式标出来，不要假装确定
+- Keep the four sections "Background / Changes / Related Issues / Verification"
+- Be as specific as possible, but don't write a long essay
+- If UI changes are involved, remind the user that screenshots or GIFs can be added
+- If some information is not yet confirmed, flag it explicitly — don't pretend certainty
 
-### 9. 先给用户确认
+### 9. Show the draft to the user first
 
-输出时至少包含：
+Your output must include at least:
 
 - `Base branch`
 - `PR title`
 - `PR body`
-- 需要用户补充或确认的点
+- Points the user needs to supply or confirm
 
-明确询问用户是否：
+Explicitly ask the user whether to:
 
-- 直接创建 PR
-- 先修改后再创建
+- Create the PR directly
+- Revise first, then create
 
-没有明确确认前，不得执行 `gh pr create`。
+Do not run `gh pr create` without explicit confirmation.
 
-### 10. 创建 PR
+### 10. Create the PR
 
-只有在用户明确确认后，才执行。
+Only run this after the user explicitly confirms.
 
-执行前再次检查：
+Before executing, re-check:
 
 ```bash
 git branch -vv
@@ -276,21 +275,21 @@ git remote -v
 gh repo view --json nameWithOwner
 ```
 
-要求：
+Requirements:
 
-1. 确认当前分支的 tracking remote 和远端分支正确
-2. 确认 PR 的目标仓库是 `vuejs-community/vuejs-community`，不要依赖 `gh` 默认推断
-3. 若 tracking remote 缺失、指向不明确、或不是预期 fork，先向用户确认，不要默认推送
-4. 只有在推送目标 remote 明确无误时，才推送当前分支
-5. 使用已确认过的标题和正文执行 `gh pr create`
+1. Confirm the current branch's tracking remote and remote branch are correct
+2. Confirm the PR's target repository is `vuejs-community/vuejs-community` — don't rely on `gh`'s default inference
+3. If the tracking remote is missing, ambiguous, or not the expected fork, confirm with the user first — don't push by default
+4. Only push the current branch when the push target remote is unambiguous
+5. Run `gh pr create` with the confirmed title and body
 
-若需要推送，优先使用明确的远端与分支名，例如：
+If a push is needed, prefer an explicit remote and branch name, e.g.:
 
 ```bash
 git push -u <remote> HEAD
 ```
 
-建议形式：
+Recommended form:
 
 ```bash
 gh pr create --repo vuejs-community/vuejs-community --base <base> --title "<title>" --body "$(cat <<'EOF'
@@ -299,60 +298,60 @@ EOF
 )"
 ```
 
-创建成功后，返回 PR 链接，并提醒用户：
+After the PR is created, return the PR link and remind the user:
 
-- CI 会自动执行 `pnpm lint`；autofix 机器人若发现可修复项会直接提交到 PR，无需为 lint 报错反复手动修改
-- 数据类 PR 可能与每日数据同步工作流（github-actions[bot] 的自动提交）冲突，合并前注意 rebase
+- CI runs `pnpm lint` automatically; if the autofix bot finds fixable issues it commits them to the PR directly, so there is no need to fix lint errors manually over and over
+- Data PRs may conflict with the daily data sync workflow (automated commits from github-actions[bot]); rebase before merging
 
-## 写法要求
+## Writing Requirements
 
-### 标题
+### Title
 
-- 必须是英文
-- 默认先判断 `type`，再决定是否需要 `scope`
-- 优先使用 `type: subject` 或 `type(scope): subject`
-- 优先写结果，不写过程
-- 避免 `update`, `fix issues`, `misc changes` 这类空话
-- 若分支包含多类小改动，提炼一个更高层概括
+- Must be in English
+- Decide `type` first, then whether a `scope` is needed
+- Prefer `type: subject` or `type(scope): subject`
+- Prefer outcomes over process
+- Avoid empty phrases like `update`, `fix issues`, `misc changes`
+- If the branch contains many small unrelated changes, distill a higher-level summary
 
-常用 `type` 参考（与 `CONTRIBUTING.md` 提交规范一致）：
+Common `type` reference (consistent with the commit convention in `CONTRIBUTING.md`):
 
-- `feat`：新增能力
-- `fix`：修复问题
-- `docs`：文档或说明
-- `style`：格式调整
-- `refactor`：重构
-- `perf`：性能优化
-- `test`：测试改动
-- `build`：构建或生成流程
-- `ci`：CI 或 workflow
-- `chore`：杂项维护
-- `revert`：回滚
+- `feat`: new capability
+- `fix`: bug fix
+- `docs`: documentation or explanations
+- `style`: formatting
+- `refactor`: refactoring
+- `perf`: performance
+- `test`: tests
+- `build`: build or generation pipeline
+- `ci`: CI or workflow
+- `chore`: maintenance
+- `revert`: revert
 
-`scope` 使用规则：
+`scope` rules:
 
-- 改动集中在单个包或模块时再加，如 `feat(data-nuxt): ...`
-- 常用 `scope`：`db`、`data-nuxt`、`data-plugins`、`data-component`、`data-hooks`、`data-ui`、`schema`、`shared`、`ui`、`deps`
-- 若没有明显聚焦对象，就不要硬加 `scope`
-- 不要把目录名机械塞进 `scope`
+- Add it only when changes are concentrated in a single package or module, e.g. `feat(data-nuxt): ...`
+- Common `scope`s: `db`, `data-nuxt`, `data-plugins`, `data-component`, `data-hooks`, `data-ui`, `schema`, `shared`, `ui`, `deps`
+- If there is no clear focus, don't force a `scope`
+- Don't mechanically stuff directory names into `scope`
 
-### 背景
+### Background
 
-- 先写要解决的问题
-- 再写采用了什么方案
-- 若涉及站点交互、数据展示或生成产物的变化，点明外部可感知差异
+- State the problem being solved first
+- Then the approach taken
+- If site interactions, data display, or generated artifacts change, call out the externally visible difference
 
-### 改动内容
+### Changes
 
-- 归纳为条目，不逐文件流水账
-- 数据类 PR 注明影响的条目（新增/修正了哪些收录项）
+- Summarize as items, not a per-file ledger
+- For data PRs, note the affected entries (which items were added/corrected)
 
-### 验证方式
+### Verification
 
-- 说明已运行 `pnpm lint`、`pnpm typecheck`
-- 数据类改动说明是否运行了 `pnpm generate:db`
-- UI 改动建议附截图或 GIF
+- State that `pnpm lint` and `pnpm typecheck` were run
+- For data changes, state whether `pnpm generate:db` was run
+- For UI changes, attach screenshots or GIFs
 
-## 参考
+## Reference
 
-更多类型判断、基线分支建议、确认话术与标题示例见 `references/notes-and-examples.md`。
+For more type determination guidance, baseline branch tips, confirmation phrasing, and title examples, see `references/notes-and-examples.md`.
