@@ -1,7 +1,9 @@
+import type { CommunityProject } from '@vuejs-community/schema'
+import { existsSync } from 'node:fs'
 import { readFile, rm, writeFile } from 'node:fs/promises'
 import { dirname, parse as ParseFile, resolve } from 'node:path'
-import { fileURLToPath } from 'node:url'
-import { getGithubStar, getNpmPackageDownload, sleep } from '@vuejs-community/shared'
+import { fileURLToPath, pathToFileURL } from 'node:url'
+import { getGithubStars, getNpmDownloads, stableStringify } from '@vuejs-community/shared'
 import { downloadTemplate } from 'giget'
 import { glob } from 'glob'
 import { parse } from 'yaml'
@@ -21,16 +23,21 @@ interface NuxtModule {
   compatibility: Record<string, unknown>[]
 }
 
+interface ModuleStats {
+  stars: number
+  monthly: number
+  weekly: number
+}
+
+interface ModuleEntry {
+  fileName: string
+  module: NuxtModule
+}
+
 const packageRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 
-async function resolveModuleContent(module: NuxtModule): Promise<string> {
-  const stars = await getGithubStar(module.repo)
-  const [month, week] = await Promise.all([
-    getNpmPackageDownload(module.npm, 'month'),
-    getNpmPackageDownload(module.npm, 'week'),
-  ])
-
-  const pkg = JSON.stringify({
+function buildModuleProject(module: NuxtModule, stats: ModuleStats): CommunityProject {
+  return {
     name: module.name,
     description: module.description,
     category: 'nuxt',
@@ -50,16 +57,104 @@ async function resolveModuleContent(module: NuxtModule): Promise<string> {
     },
 
     stats: {
-      stars,
+      stars: stats.stars,
       downloads: {
-        monthly: month,
-        weekly: week,
+        monthly: stats.monthly,
+        weekly: stats.weekly,
       },
     },
-  }, null, 2)
+  }
+}
+
+function resolveModuleContent(project: CommunityProject): string {
+  const pkg = JSON.stringify(project, null, 2)
   return `import { defineProjectMeta } from '@vuejs-community/schema'
 
-export default defineProjectMeta(${pkg})`
+export default defineProjectMeta(${pkg})
+`
+}
+
+/** Existing files may have been reformatted by eslint, so equality is decided on the parsed project object instead of raw text. */
+async function readExistingProject(modulePath: string): Promise<CommunityProject | undefined> {
+  if (!existsSync(modulePath))
+    return undefined
+  try {
+    const imported = await import(pathToFileURL(modulePath).href)
+    return imported.default as CommunityProject
+  }
+  catch {
+    return undefined
+  }
+}
+
+async function collectModules(dir: string): Promise<ModuleEntry[]> {
+  const ymlFiles = await glob('modules/*.yml', {
+    cwd: dir,
+    absolute: true,
+  })
+
+  console.log(`Found ${ymlFiles.length} yml files`)
+
+  const entries: ModuleEntry[] = []
+  for (const filePath of ymlFiles) {
+    try {
+      const content = await readFile(filePath, 'utf-8')
+      const fileName = ParseFile(filePath).name
+      const module = parse(content) as NuxtModule
+      entries.push({ fileName, module })
+    }
+    catch (err) {
+      console.error(`Failed to parse: ${filePath}`, err)
+    }
+  }
+  return entries
+}
+
+/** Stats for all modules are fetched up front: npm downloads go through the bulk endpoint (scoped names over a serialized lane), stars share a small concurrency pool. */
+async function fetchModuleStats(entries: ModuleEntry[]) {
+  const npmNames = entries.map(({ module }) => module.npm).filter(Boolean)
+  const repos = entries.map(({ module }) => module.repo).filter(Boolean)
+
+  const [stars, downloads] = await Promise.all([
+    getGithubStars(repos),
+    getNpmDownloads(npmNames),
+  ])
+
+  return { stars, downloads }
+}
+
+async function writeModules(entries: ModuleEntry[], stats: Awaited<ReturnType<typeof fetchModuleStats>>) {
+  const results = { updated: 0, unchanged: 0, failed: 0 }
+
+  for (const { fileName, module } of entries) {
+    const modulePath = resolve(packageRoot, `src/${fileName}.ts`)
+
+    try {
+      // 抓取失败的值回退到已存文件的旧值（地图中缺失 ≠ 0），避免用 0 覆盖好数据。
+      const existingProject = await readExistingProject(modulePath)
+      const fallback = existingProject?.stats
+      const project = buildModuleProject(module, {
+        stars: module.repo ? stats.stars.get(module.repo) ?? fallback?.stars ?? 0 : 0,
+        monthly: module.npm ? stats.downloads.monthly.get(module.npm) ?? fallback?.downloads?.monthly ?? 0 : 0,
+        weekly: module.npm ? stats.downloads.weekly.get(module.npm) ?? fallback?.downloads?.weekly ?? 0 : 0,
+      })
+
+      if (existingProject && stableStringify(existingProject) === stableStringify(project)) {
+        results.unchanged++
+        continue
+      }
+
+      await writeFile(modulePath, resolveModuleContent(project))
+      console.log(`[updated] ${fileName}.ts`)
+      results.updated++
+    }
+    catch (error) {
+      console.error(`[error] ${fileName}`, error)
+      results.failed++
+    }
+  }
+
+  return results
 }
 
 async function generateModules() {
@@ -73,36 +168,14 @@ async function generateModules() {
     forceClean: true,
   })
 
-  console.log(dir)
-
   console.log(`Repository downloaded to: ${dir}`)
 
   try {
-    const ymlFiles = await glob('modules/*.yml', {
-      cwd: dir,
-      absolute: true,
-    })
+    const entries = await collectModules(dir)
+    const stats = await fetchModuleStats(entries)
+    const results = await writeModules(entries, stats)
 
-    console.log(`Found ${ymlFiles.length} yml files\n`)
-
-    for (const filePath of ymlFiles) {
-      try {
-        const content = await readFile(filePath, 'utf-8')
-        const name = ParseFile(filePath).name
-        const data = parse(content)
-        console.log('moduleName', name)
-        console.log(`File: ${filePath}`)
-        console.log()
-        const modulePath = resolve(packageRoot, `src/${name}.ts`)
-        await writeFile(modulePath, await resolveModuleContent(data))
-        await sleep(200)
-      }
-      catch (err) {
-        console.error(`Failed to parse: ${filePath}`, err)
-      }
-    }
-
-    console.log('All done!')
+    console.log(`All done! modules: ${entries.length}, updated: ${results.updated}, unchanged: ${results.unchanged}, failed: ${results.failed}`)
   }
   finally {
     console.log(`Deleting temporary directory: ${dir}`)
