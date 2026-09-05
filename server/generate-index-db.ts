@@ -1,5 +1,5 @@
-import type { CommunityProject } from '@vue-community/schema'
 import type { Database } from 'db0'
+import type { CommunityProject } from '~~/packages/schema'
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs'
 import { basename, dirname, resolve } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
@@ -35,7 +35,7 @@ interface ResolvedProject {
 }
 
 const scriptDirectory = dirname(fileURLToPath(import.meta.url))
-const repositoryRoot = resolve(scriptDirectory, '../../../')
+const repositoryRoot = resolve(scriptDirectory, '../')
 const defaultSourceRoots = [
   'packages/data-ui/src',
   'packages/data-plugins/src',
@@ -306,4 +306,5 @@ async function buildDatabase(options: BuildOptions): Promise<void> {
   }
 }
 
+// eslint-disable-next-line antfu/no-top-level-await
 await buildDatabase(readOptions())
