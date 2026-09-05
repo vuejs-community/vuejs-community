@@ -16,12 +16,13 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "generate:db": "node --no-warnings --import tsx packages/data-plugins/scripts/generate-index-db.ts",
     "typecheck": "nuxt typecheck",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
     "prepare": "simple-git-hooks",
-    "generate:plugins": "tsx ./packages/data-plugins/scripts/generate-plugin.ts"
+    "generate:plugins": "tsx ./packages/data-plugins/scripts/generate-plugin.ts",
+    "generate:db": "tsx packages/data-plugins/scripts/generate-index-db.ts",
+    "generate:nuxt:modules": "tsx packages/data-nuxt/scripts/generate-modules.ts"
   },
   "dependencies": {
     "@lucide/vue": "^1.37.0",
