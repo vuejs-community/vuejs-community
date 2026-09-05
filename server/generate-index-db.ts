@@ -1,6 +1,6 @@
 import type { Database } from 'db0'
 import type { CommunityProject } from '~~/packages/schema'
-import { existsSync, mkdirSync, writeFileSync } from 'node:fs'
+import { mkdirSync, rmSync, writeFileSync } from 'node:fs'
 import { basename, dirname, resolve } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { createDatabase } from 'db0'
@@ -59,9 +59,9 @@ function normalizeProject(project: CommunityProject, source: string): Normalized
     description: project.description ?? '',
     category: project.category,
     source,
-    types: project.types,
-    tags: project?.tags || [],
-    filter: project.filter ?? [],
+    types: [...new Set(project.types)],
+    tags: [...new Set(project?.tags || [])],
+    filter: [...new Set(project.filter ?? [])],
     github: project.links?.github || '',
     npm: project.links?.npm || '',
     website: project.links?.website || '',
@@ -69,6 +69,25 @@ function normalizeProject(project: CommunityProject, source: string): Normalized
     downloadsWeekly: project.stats?.downloads?.weekly || 0,
     stars: project.stats?.stars ?? 0,
   }
+}
+
+function mergeProject(target: NormalizedProject, incoming: NormalizedProject): void {
+  target.types = [...new Set([...target.types, ...incoming.types])]
+  target.tags = [...new Set([...target.tags, ...incoming.tags])]
+  target.filter = [...new Set([...target.filter, ...incoming.filter])]
+
+  if (!target.description)
+    target.description = incoming.description
+  if (!target.github)
+    target.github = incoming.github
+  if (!target.npm)
+    target.npm = incoming.npm
+  if (!target.website)
+    target.website = incoming.website
+
+  target.downloadsMonthly = Math.max(target.downloadsMonthly, incoming.downloadsMonthly)
+  target.downloadsWeekly = Math.max(target.downloadsWeekly, incoming.downloadsWeekly)
+  target.stars = Math.max(target.stars, incoming.stars)
 }
 
 async function loadProjects(sourceRoots: string[]): Promise<ResolvedProject> {
@@ -91,27 +110,32 @@ async function loadProjects(sourceRoots: string[]): Promise<ResolvedProject> {
 
   sourceFiles.sort((left, right) => left.path.localeCompare(right.path))
 
-  const projects: NormalizedProject[] = []
-  const projectSources = new Map<string, string>()
+  const projectsByName = new Map<string, NormalizedProject>()
+  const projectNameFiles = new Map<string, string[]>()
 
   for (const { path: sourceFile, source } of sourceFiles) {
     const importedModule = await import(pathToFileURL(sourceFile).href)
     const rawProject = importedModule.default as CommunityProject
 
     const project = normalizeProject(rawProject, source)
-    const existingSource = projectSources.get(project.name)
+    const existing = projectsByName.get(project.name)
 
-    if (existingSource) {
-      throw new Error(
-        `Duplicate project name "${project.name}" in ${existingSource} and ${sourceFile}.`,
-      )
+    if (existing) {
+      mergeProject(existing, project)
+      projectNameFiles.get(project.name)?.push(sourceFile)
+      continue
     }
 
-    projectSources.set(project.name, sourceFile)
-    projects.push(project)
+    projectsByName.set(project.name, project)
+    projectNameFiles.set(project.name, [sourceFile])
   }
 
-  return { projects, sourceCounts, warnings }
+  for (const [name, files] of projectNameFiles) {
+    if (files.length > 1)
+      warnings.push(`Duplicate project name "${name}" merged from ${files.join(', ')}.`)
+  }
+
+  return { projects: [...projectsByName.values()], sourceCounts, warnings }
 }
 
 async function createSchema(database: Database): Promise<void> {
@@ -149,13 +173,6 @@ async function createSchema(database: Database): Promise<void> {
     CREATE INDEX IF NOT EXISTS project_meta_type_values_idx
       ON "project-meta" (type, "values");
   `)
-
-  const columns = await database.prepare('PRAGMA table_info(projects)').all() as Array<{
-    name: string
-  }>
-
-  if (!columns.some(column => column.name === 'source'))
-    await database.exec(`ALTER TABLE projects ADD COLUMN source TEXT NOT NULL DEFAULT ''`)
 }
 
 async function insertProjects(database: Database, projects: NormalizedProject[]): Promise<void> {
@@ -172,25 +189,10 @@ async function insertProjects(database: Database, projects: NormalizedProject[])
       downloads_weekly,
       stars
     ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    ON CONFLICT(name) DO UPDATE SET
-      description = excluded.description,
-      category = excluded.category,
-      source = excluded.source,
-      github = excluded.github,
-      npm = excluded.npm,
-      website = excluded.website,
-      downloads_monthly = excluded.downloads_monthly,
-      downloads_weekly = excluded.downloads_weekly,
-      stars = excluded.stars
-  `)
-  const deleteMeta = database.prepare(`
-    DELETE FROM "project-meta"
-    WHERE name = ?
   `)
   const insertMeta = database.prepare(`
     INSERT INTO "project-meta" (name, "values", type)
     VALUES (?, ?, ?)
-    ON CONFLICT(name, type, "values") DO NOTHING
   `)
 
   await database.exec('BEGIN IMMEDIATE')
@@ -209,8 +211,6 @@ async function insertProjects(database: Database, projects: NormalizedProject[])
         project.downloadsWeekly,
         project.stars,
       )
-
-      await deleteMeta.run(project.name)
 
       for (const type of project.types)
         await insertMeta.run(project.name, type, 'types')
@@ -275,12 +275,12 @@ async function verifyDatabase(database: Database, expectedProjects: number): Pro
 }
 
 async function buildDatabase(options: BuildOptions): Promise<void> {
-  mkdirSync(dirname(options.outputPath), { recursive: true })
-
-  if (!existsSync(options.outputPath))
-    writeFileSync(options.outputPath, '')
-
   const { projects, sourceCounts, warnings } = await loadProjects(options.sourceRoots)
+
+  mkdirSync(dirname(options.outputPath), { recursive: true })
+  rmSync(options.outputPath, { force: true })
+  writeFileSync(options.outputPath, '')
+
   const database = createDatabase(nodeSqliteConnector({ path: options.outputPath }))
 
   try {
@@ -296,7 +296,7 @@ async function buildDatabase(options: BuildOptions): Promise<void> {
     }
 
     for (const warning of warnings)
-      console.warn(`Warning: ${warning.replace(`${repositoryRoot}/`, '')}`)
+      console.warn(`Warning: ${warning.replaceAll(`${repositoryRoot}/`, '')}`)
 
     console.log(`Wrote ${counts.projects} projects and ${counts.metadata} metadata rows.`)
     console.log(`Database: ${options.outputPath}`)
