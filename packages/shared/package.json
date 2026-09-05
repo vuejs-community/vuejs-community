@@ -1,0 +1,16 @@
+{
+  "name": "@vuejs-community/shared",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./package.json": "./package.json"
+  },
+  "types": "./src/types.ts",
+  "devDependencies": {
+    "@types/node": "^26.4.0",
+    "@vue-community/tsconfig": "workspace:*",
+    "ofetch": "^1.5.1",
+    "typescript": "^6.0.3"
+  }
+}
