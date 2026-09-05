@@ -39,6 +39,11 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^8.3.0",
+    "@iconify-json/akar-icons": "^1.2.7",
+    "@iconify-json/codicon": "^1.2.72",
+    "@iconify-json/logos": "^1.2.13",
+    "@iconify-json/lucide": "^1.2.129",
+    "@iconify-json/material-icon-theme": "^1.2.70",
     "@inspira-ui/plugins": "^0.0.2",
     "@nuxt/eslint": "^1.16.0",
     "@nuxt/icon": "^2.2.4",

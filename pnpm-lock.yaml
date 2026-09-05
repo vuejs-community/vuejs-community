@@ -42,6 +42,21 @@ importers:
       '@antfu/eslint-config':
         specifier: ^8.3.0
         version: 8.3.0(@typescript-eslint/typescript-estree@8.68.0(supports-color@10.2.2)(typescript@5.9.3))(@typescript-eslint/utils@8.68.0(eslint@10.9.1(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3))(@vue/compiler-sfc@3.5.42)(eslint@10.9.1(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@5.9.3)
+      '@iconify-json/akar-icons':
+        specifier: ^1.2.7
+        version: 1.2.7
+      '@iconify-json/codicon':
+        specifier: ^1.2.72
+        version: 1.2.72
+      '@iconify-json/logos':
+        specifier: ^1.2.13
+        version: 1.2.13
+      '@iconify-json/lucide':
+        specifier: ^1.2.129
+        version: 1.2.129
+      '@iconify-json/material-icon-theme':
+        specifier: ^1.2.70
+        version: 1.2.70
       '@inspira-ui/plugins':
         specifier: ^0.0.2
         version: 0.0.2
@@ -162,12 +177,12 @@ importers:
       '@vuejs-community/schema':
         specifier: workspace:*
         version: link:../schema
-      '@vuejs-community/tsconfig':
-        specifier: workspace:*
-        version: link:../tsconfig
       '@vuejs-community/shared':
         specifier: workspace:*
         version: link:../shared
+      '@vuejs-community/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
       giget:
         specifier: ^3.3.1
         version: 3.3.1
@@ -804,6 +819,21 @@ packages:
   '@humanwhocodes/retry@0.4.3':
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
+
+  '@iconify-json/akar-icons@1.2.7':
+    resolution: {integrity: sha512-cw44dCnZgGhm6Tywxm0WALAnDB9AyGkDk7kiLMo2B/Ayt7duZu/uyrsqb55weWUN8Ge2sQAOl8MRtT6bFcLzPg==}
+
+  '@iconify-json/codicon@1.2.72':
+    resolution: {integrity: sha512-hfsgSxfEDlZ78SCma9c9Ix/rc5r+LC3VrInj4gq2/AR2QA3j6bsR8cLh2vKsPKQ8rl2SQuhNe7aoR8o/nBVjxw==}
+
+  '@iconify-json/logos@1.2.13':
+    resolution: {integrity: sha512-Up54ZnIuiuBgGAsuzhR1nvKqwq8VE6YM3XLwVB6IgY+7NAasz6WKu9Ay5hGfAkfuOKowodfwDC8ozReEBYrWRg==}
+
+  '@iconify-json/lucide@1.2.129':
+    resolution: {integrity: sha512-pa0ufllJOXTDIH2BxE/BtWQEf/x46/lINDWcmncICV1/52veZ7KSBzQaVh9xDpmjDs8QN4j2Ex/LWlSSveL3yw==}
+
+  '@iconify-json/material-icon-theme@1.2.70':
+    resolution: {integrity: sha512-pctYpp6/3f0TfNoX+yqiC1HRBDxL7+ybOe70MrdyvUa4KcGdtpbsyc4E1qHQTkPIkpU7+0kfP2MYU2C7BfmNrw==}
 
   '@iconify/collections@1.0.730':
     resolution: {integrity: sha512-vuSS1r5FVWH5Oo6vEnAYvCd4u13sr95s0uDjfOaSFdF15EvLAaUKA2yDpufc5KbFLBVvwzE5pIFt0dIM2kjYWA==}
@@ -6588,6 +6618,26 @@ snapshots:
   '@humanwhocodes/module-importer@1.0.1': {}
 
   '@humanwhocodes/retry@0.4.3': {}
+
+  '@iconify-json/akar-icons@1.2.7':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/codicon@1.2.72':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/logos@1.2.13':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/lucide@1.2.129':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/material-icon-theme@1.2.70':
+    dependencies:
+      '@iconify/types': 2.0.0
 
   '@iconify/collections@1.0.730':
     dependencies:
