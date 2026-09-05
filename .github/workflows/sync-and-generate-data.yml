@@ -1,0 +1,55 @@
+name: Sync Data And Generate data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 2 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-plugin-data
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: lts/*
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Sync UI Component Hooks stats data
+        run: pnpm run sync:npm-git-data
+
+      - name: Sync Vite、Rolldown、Rollup and Unplugin plugins data
+        run: pnpm run generate:plugins
+
+      - name: Sync Nuxt Modules Data
+        run: pnpm run generate:nuxt:modules
+
+      - name: build sync database
+        run: pnpm run generate:db
+
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v10
+        with:
+          author_name: github-actions[bot]
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: 'chore: sync data and regenerate db'
+          add: '["packages", "server/assets/index.db"]'
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
