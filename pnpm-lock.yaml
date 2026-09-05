@@ -60,6 +60,9 @@ importers:
       '@vue-community/schema':
         specifier: workspace:*
         version: link:packages/schema
+      '@vuejs-community/shared':
+        specifier: workspace:*
+        version: link:packages/shared
       '@vueuse/nuxt':
         specifier: ^14.3.0
         version: 14.4.0(4f72b391b72cba1599c34271007ab62e)
