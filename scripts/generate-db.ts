@@ -42,6 +42,7 @@ const defaultSourceRoots = [
   'packages/data-component/src',
   'packages/data-hooks/src',
   'packages/data-nuxt/src',
+  'packages/data-uniapp/src',
 ]
 
 function readOptions(): BuildOptions {

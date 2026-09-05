@@ -8,6 +8,7 @@ export type ProjectCategory
     | 'library'
     | 'tool'
     | 'component'
+    | 'uniapp'
 
 export type ProjectType
 // UI
