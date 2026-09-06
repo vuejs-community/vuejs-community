@@ -17,7 +17,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@number-flow/vue',
   },
   stats: {
-    stars: 7674,
+    stars: 7675,
     downloads: {
       monthly: 188944,
       weekly: 49075,

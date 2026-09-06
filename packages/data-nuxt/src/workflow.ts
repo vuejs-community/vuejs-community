@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: 'workflow',
   },
   stats: {
-    stars: 2373,
+    stars: 2375,
     downloads: {
       monthly: 3929175,
       weekly: 1054894,

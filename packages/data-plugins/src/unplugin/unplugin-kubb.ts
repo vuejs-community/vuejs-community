@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-kubb',
   description: 'Integration of Kubb for Vite, Webpack, Rollup, esbuild, Rspack, Nuxt, and Astro.',
-  version: '5.0.35',
+  version: '5.1.0',
   category: 'plugin',
   tags: [
     'astro',

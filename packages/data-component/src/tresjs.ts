@@ -17,7 +17,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@tresjs/core',
   },
   stats: {
-    stars: 3695,
+    stars: 3694,
     downloads: {
       monthly: 193098,
       weekly: 43068,

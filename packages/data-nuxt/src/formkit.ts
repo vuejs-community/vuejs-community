@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: '@formkit/nuxt',
   },
   stats: {
-    stars: 4755,
+    stars: 4757,
     downloads: {
       monthly: 103340,
       weekly: 23547,

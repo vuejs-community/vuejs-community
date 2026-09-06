@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-request-logger',
   description: 'A robust, Morgan-like HTTP request logger plugin for Vite supporting Vite 5, 6, 7, 8+ with body logging and TypeScript support.',
-  version: '1.0.0',
+  version: '1.2.0',
   category: 'plugin',
   tags: [
     'vite',
@@ -25,7 +25,7 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   links: {
-    github: 'https://github.com/',
+    github: 'https://github.com/EyalShapiro/vite-plugin-request-logger',
     npm: 'https://www.npmjs.com/package/vite-plugin-request-logger',
   },
   stats: {

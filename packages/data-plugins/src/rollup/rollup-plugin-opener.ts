@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-opener',
   description: 'Serve rollup bundle and open in browser',
-  version: '0.2.3',
+  version: '0.2.4',
   category: 'plugin',
   tags: [
     'rollup',

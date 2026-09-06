@@ -17,7 +17,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/equal-vue',
   },
   stats: {
-    stars: 1262,
+    stars: 1261,
     downloads: {
       monthly: 520,
       weekly: 62,

@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: 'nuxt-authorization',
   },
   stats: {
-    stars: 358,
+    stars: 359,
     downloads: {
       monthly: 17114,
       weekly: 3929,

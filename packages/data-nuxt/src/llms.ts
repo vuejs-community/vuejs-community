@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: 'nuxt-llms',
   },
   stats: {
-    stars: 169,
+    stars: 170,
     downloads: {
       monthly: 146473,
       weekly: 38834,

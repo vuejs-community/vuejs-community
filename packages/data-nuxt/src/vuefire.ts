@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: 'nuxt-vuefire',
   },
   stats: {
-    stars: 3909,
+    stars: 3908,
     downloads: {
       monthly: 42948,
       weekly: 11442,

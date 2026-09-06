@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: '@clerk/nuxt',
   },
   stats: {
-    stars: 1749,
+    stars: 1750,
     downloads: {
       monthly: 105007,
       weekly: 16664,

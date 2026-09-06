@@ -17,7 +17,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@zag-js/vue',
   },
   stats: {
-    stars: 5202,
+    stars: 5203,
     downloads: {
       monthly: 178098,
       weekly: 43674,

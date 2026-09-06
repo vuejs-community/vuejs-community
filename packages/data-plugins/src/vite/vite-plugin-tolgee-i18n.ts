@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tolgee-i18n',
   description: 'Vite plugin for Tolgee translation integration with i18n inspector devtools',
-  version: '0.1.17',
+  version: '0.1.18',
   category: 'plugin',
   tags: [
     'vite-plugin',

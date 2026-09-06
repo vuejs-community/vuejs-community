@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-layouts-next',
   description: 'Router based layout plugin for Vite 8, Vue 3 and Vue Router 5.',
-  version: '2.1.0',
+  version: '3.0.0',
   category: 'plugin',
   tags: [
     'typescript',

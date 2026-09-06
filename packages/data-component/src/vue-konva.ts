@@ -17,7 +17,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue-konva',
   },
   stats: {
-    stars: 1356,
+    stars: 1355,
     downloads: {
       monthly: 276043,
       weekly: 83934,

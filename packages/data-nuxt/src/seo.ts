@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: '@nuxtjs/seo',
   },
   stats: {
-    stars: 1434,
+    stars: 1435,
     downloads: {
       monthly: 372676,
       weekly: 104942,
