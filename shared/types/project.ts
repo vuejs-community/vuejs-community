@@ -11,6 +11,11 @@ export interface ProjectRecord {
   stars: number
 }
 
+export interface CategoryCount {
+  category: string
+  count: number
+}
+
 export interface ProjectFilters {
   category?: string
   source?: string
