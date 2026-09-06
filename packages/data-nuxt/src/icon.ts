@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: '@nuxt/icon',
   },
   stats: {
-    stars: 1196,
+    stars: 1197,
     downloads: {
       monthly: 2844022,
       weekly: 735208,

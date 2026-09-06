@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: 'vuetify-nuxt-module',
   },
   stats: {
-    stars: 286,
+    stars: 285,
     downloads: {
       monthly: 195661,
       weekly: 47981,

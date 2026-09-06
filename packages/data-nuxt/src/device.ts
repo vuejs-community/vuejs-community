@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: '@nuxtjs/device',
   },
   stats: {
-    stars: 1003,
+    stars: 1004,
     downloads: {
       monthly: 441372,
       weekly: 122613,

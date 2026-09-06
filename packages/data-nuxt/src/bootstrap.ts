@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: 'bootstrap-vue',
   },
   stats: {
-    stars: 14428,
+    stars: 14427,
     downloads: {
       monthly: 815408,
       weekly: 212570,

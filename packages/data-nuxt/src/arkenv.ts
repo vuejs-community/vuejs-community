@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: '@arkenv/nuxt',
   },
   stats: {
-    stars: 140,
+    stars: 141,
     downloads: {
       monthly: 957,
       weekly: 574,

@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: '@pinia/nuxt',
   },
   stats: {
-    stars: 14714,
+    stars: 14717,
     downloads: {
       monthly: 3258386,
       weekly: 864086,

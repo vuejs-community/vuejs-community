@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: '@tdesign-vue-next/nuxt',
   },
   stats: {
-    stars: 2176,
+    stars: 2177,
     downloads: {
       monthly: 955,
       weekly: 238,

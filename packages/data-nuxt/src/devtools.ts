@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: '@nuxt/devtools',
   },
   stats: {
-    stars: 3297,
+    stars: 3298,
     downloads: {
       monthly: 7204423,
       weekly: 1916256,

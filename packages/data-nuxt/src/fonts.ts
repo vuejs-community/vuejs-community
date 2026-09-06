@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: '@nuxt/fonts',
   },
   stats: {
-    stars: 599,
+    stars: 600,
     downloads: {
       monthly: 2717065,
       weekly: 715089,

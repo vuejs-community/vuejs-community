@@ -20,7 +20,7 @@ export default defineProjectMeta({
     npm: '@nuxtjs/ionic',
   },
   stats: {
-    stars: 456,
+    stars: 457,
     downloads: {
       monthly: 8812,
       weekly: 2726,

@@ -17,7 +17,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue-sonner',
   },
   stats: {
-    stars: 1462,
+    stars: 1461,
     downloads: {
       monthly: 5395279,
       weekly: 1447214,
