@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-graphql-parse',
   description: 'Parse GraphQL SDL files to DocumentNode AST objects. This is useful for passing it to Graphql Servers, for example.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

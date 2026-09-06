@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-php',
   description: 'Process PHP-files with the speed and tools of Vite',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

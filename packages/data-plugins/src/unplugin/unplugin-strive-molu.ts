@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-strive-molu',
   description: '在strive-molu使用组件时自动导入样式',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

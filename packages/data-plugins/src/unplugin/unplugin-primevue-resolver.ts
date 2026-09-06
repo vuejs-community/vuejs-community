@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-primevue-resolver',
   description: 'This is a custom resolver for unplugin, with an up-to-date list of PrimeVue components.',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

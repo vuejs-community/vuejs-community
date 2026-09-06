@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-git-info',
   description: 'Rollup plugin to export git/build information',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-set-initial-cookie',
   description: 'Vite plugin for set initial cookie',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-replace-html-vars',
   description: 'A rollup.js plugin to replace variables in html files',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

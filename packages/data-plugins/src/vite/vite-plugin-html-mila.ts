@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-mila',
   description: 'Vite plugin to copy and minify HTML',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

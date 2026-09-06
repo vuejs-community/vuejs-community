@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-cz-v3',
   description: '<p align="center">   <a href="https://www.npmjs.org/package/unplugin-cz-v3">     <img src="https://img.shields.io/npm/v/unplugin-cz-v3.svg">   </a>   <a href="https://npmcharts.com/compare/unplugin-cz-v3?minimal=true">     <img src="http://img.shields.io/',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

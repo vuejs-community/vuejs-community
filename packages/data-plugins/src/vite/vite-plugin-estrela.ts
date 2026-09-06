@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-estrela',
   description: 'A vite plugin to pre-process estrela jsx/tsx files',
+  icon: '',
   version: '0.12.1',
   category: 'plugin',
   tags: [

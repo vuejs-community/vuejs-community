@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-override-deps',
   description: '> 🧩 Intercept and override dependencies at build-time with Vite.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

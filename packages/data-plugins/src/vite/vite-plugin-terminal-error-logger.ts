@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-terminal-error-logger',
   description: 'A universal Vite plugin to log browser runtime errors to the Vite terminal with sourcemap and Error Overlay support.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

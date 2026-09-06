@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-use-model',
   description: 'Data flow solution based on vite plugin inspired by @umijs/plugin-model.',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

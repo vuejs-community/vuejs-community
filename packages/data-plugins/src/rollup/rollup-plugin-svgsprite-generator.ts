@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-svgsprite-generator',
   description: 'Create external svg sprite',
+  icon: '',
   version: '1.1.1',
   category: 'plugin',
   tags: [

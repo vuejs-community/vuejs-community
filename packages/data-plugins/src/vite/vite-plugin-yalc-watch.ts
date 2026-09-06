@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-yalc-watch',
   description: '监听 yalc add 之后包的变化，自动重启 vite dev server',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

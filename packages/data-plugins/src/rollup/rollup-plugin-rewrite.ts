@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-rewrite',
   description: 'rewrite code using renderChunk',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

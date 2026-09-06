@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-windicss-elements-apply',
   description: 'Windicss/unocss @apply for elements',
+  icon: '',
   version: '0.0.7',
   category: 'plugin',
   tags: [

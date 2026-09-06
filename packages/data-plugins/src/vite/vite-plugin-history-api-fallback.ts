@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-history-api-fallback',
   description: 'vite-history-api-fallback',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

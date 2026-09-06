@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-ng-cache',
   description: 'Puts HTML partials in the Angular\'s $templateCache.',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

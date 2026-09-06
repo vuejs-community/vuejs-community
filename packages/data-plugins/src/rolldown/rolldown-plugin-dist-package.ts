@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rolldown-plugin-dist-package',
   description: 'A Rolldown/Rollup/Vite/Tsdown/Tsup plugin to prepare package.json for distribution',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

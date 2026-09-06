@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-unocss-legacy',
   description: 'The Vite plugin for UnoCSS',
+  icon: '',
   version: '0.58.3',
   category: 'plugin',
   tags: [

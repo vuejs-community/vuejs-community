@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'keen-slider',
   description: 'Best, lightweight Keen Slider for best web performance',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

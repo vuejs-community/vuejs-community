@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'separate-env',
   description: 'Separated environment variables for server and client builds',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

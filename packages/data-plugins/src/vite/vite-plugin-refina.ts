@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-refina',
   description: 'The vite plugin for Refina framework.',
+  icon: '',
   version: '0.6.0',
   category: 'plugin',
   tags: [

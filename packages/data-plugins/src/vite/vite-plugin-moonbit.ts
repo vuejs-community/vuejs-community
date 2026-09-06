@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-moonbit',
   description: 'Vite plugin for MoonBit - import MoonBit modules with mbt: prefix',
+  icon: '',
   version: '0.5.1',
   category: 'plugin',
   tags: [

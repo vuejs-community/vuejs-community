@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cy-debug-eruda',
   description: 'vite 自动引入 eruda',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

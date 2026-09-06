@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-format',
   description: 'Format code and assets using Prettier',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

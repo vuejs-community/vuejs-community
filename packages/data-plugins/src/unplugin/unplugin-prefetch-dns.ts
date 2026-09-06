@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-prefetch-dns',
   description: 'Automatically collect the domain name in the code and insert it into the head of html',
+  icon: '',
   version: '0.1.5',
   category: 'plugin',
   tags: [

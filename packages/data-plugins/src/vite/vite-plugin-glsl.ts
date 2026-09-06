@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-glsl',
   description: 'Import, inline (and minify) GLSL/WGSL/Slang shader files',
+  icon: '',
   version: '1.6.1',
   category: 'plugin',
   tags: [

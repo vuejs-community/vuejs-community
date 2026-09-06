@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-markdown-vue',
   description: '把 markdown 文档导出 vue 组件使用',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

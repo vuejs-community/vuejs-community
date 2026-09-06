@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-fest',
   description: 'Rollup plugin to compile fest templates',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

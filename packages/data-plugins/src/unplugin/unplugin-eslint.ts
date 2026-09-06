@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-eslint',
   description: 'A universal bundler plugin to lint entry points and all imported files with ESLint.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

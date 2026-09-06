@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-todos',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-todos)](https://www.npmjs.com/package/unplugin-todos)',
+  icon: '',
   version: '0.2.2',
   category: 'plugin',
   tags: [

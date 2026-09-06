@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-viacep',
   description: 'Plugin Vite para consultar CEP e endereco no Web Service ViaCEP via modulo virtual.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

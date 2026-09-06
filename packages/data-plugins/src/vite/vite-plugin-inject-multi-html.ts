@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-inject-multi-html',
   description: 'Vite plugin for injecting variables into HTML templates using {{key}} placeholders, and craeting multiple html output files from index.html',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

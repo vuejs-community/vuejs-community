@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-conditional-compile',
   description: '<h2 align=\'center\'>vite-plugin-conditional-compile</h2>',
+  icon: '',
   version: '1.4.5',
   category: 'plugin',
   tags: [

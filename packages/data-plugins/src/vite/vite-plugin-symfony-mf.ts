@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-symfony-mf',
   description: 'A Vite plugin to integrate easily Vite in your Symfony application..',
+  icon: '',
   version: '4.0.1',
   category: 'plugin',
   tags: [

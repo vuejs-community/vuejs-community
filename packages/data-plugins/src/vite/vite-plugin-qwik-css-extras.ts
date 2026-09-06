@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-qwik-css-extras',
   description: 'Vite plugin with utilities for working with CSS in Qwik',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

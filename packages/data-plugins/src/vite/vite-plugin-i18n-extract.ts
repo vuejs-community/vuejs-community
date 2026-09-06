@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18n-extract',
   description: 'Vite 插件：自动收集中文并翻译为多语言',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

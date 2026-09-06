@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-konva',
   description: 'Konva 2D Canvas 的 Vue 组件封装，适合图形编辑器与交互式画布',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['canvas', '2d'],

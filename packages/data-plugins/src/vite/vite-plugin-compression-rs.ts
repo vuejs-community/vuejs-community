@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-compression-rs',
   description: 'Use gzip or brotli to compress resources.',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tsx-auto-props',
   description: 'this is a vite plugin for auto props in tsx',
+  icon: '',
   version: '0.0.8',
   category: 'plugin',
   tags: [

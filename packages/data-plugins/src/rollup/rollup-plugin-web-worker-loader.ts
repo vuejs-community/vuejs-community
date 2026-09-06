@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-web-worker-loader',
   description: 'Rollup plugin to handle Web Workers',
+  icon: '',
   version: '1.7.0',
   category: 'plugin',
   tags: [

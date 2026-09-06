@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-ng-annotate2',
   description: 'Rollup Plugin for angularjs - annotate dependency injection',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

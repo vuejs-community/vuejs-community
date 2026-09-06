@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-effcss',
   description: 'Vite plugin for EffCSS — captures CSS via Vite SSR pipeline, injects into HTML',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

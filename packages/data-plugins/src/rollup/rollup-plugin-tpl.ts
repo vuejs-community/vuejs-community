@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-tpl',
   description: 'Import text files as tpls',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

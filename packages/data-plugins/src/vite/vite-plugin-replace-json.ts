@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-replace-json',
   description: '替换JSON文件内容的vite插件',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

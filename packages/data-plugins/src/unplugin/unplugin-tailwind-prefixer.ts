@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-tailwind-prefixer',
   description: 'Prefix Tailwind classes in your source code at build time using any bundler compatible with Unplugin.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

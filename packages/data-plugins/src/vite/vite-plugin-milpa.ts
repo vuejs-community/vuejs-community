@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-milpa',
   description: 'El toolkit frontend del framework milpa (FastAPI + Jinja), estilo laravel-vite-plugin: hot-file para HMR, manifest para el helper vite() de Jinja, multi-app (surcos/), PWA opcional con Serwist, ASSET_URL para deploy bajo sub-ruta/CDN — y file-based routin',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'zendesk',
   description: 'Nuxt module for Zendesk',
+  icon: '',
   category: 'nuxt',
   types: [
     'Ecommerce',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-setup-inherit-attrs',
   description: 'Extend vue script setup syntactic sugar to support inherit-attrs',
+  icon: '',
   version: '1.0.10',
   category: 'plugin',
   tags: [

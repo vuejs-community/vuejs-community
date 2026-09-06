@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-fork-ts-checker',
   description: 'Runs typescript type checker and linter on separate process.',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

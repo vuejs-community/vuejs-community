@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-email-renderer',
   description: 'A Nuxt module that provides high-quality, unstyled components & utils for creating emails using Vue and TypeScript.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

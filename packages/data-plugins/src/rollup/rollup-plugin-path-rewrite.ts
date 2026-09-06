@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-path-rewrite',
   description: 'Rollup plugin for rewriting the output file/directory path',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

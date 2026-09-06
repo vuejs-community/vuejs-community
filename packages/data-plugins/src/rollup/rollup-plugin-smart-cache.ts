@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-smart-cache',
   description: 'Rollup plugin with persistent hash-based cache that skips bundling when inputs haven\'t changed',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

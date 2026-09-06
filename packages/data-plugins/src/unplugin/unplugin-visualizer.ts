@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-visualizer',
   description: 'a bundle visulizer for vite/webpack/rollup',
+  icon: '',
   version: '0.0.7',
   category: 'plugin',
   tags: [

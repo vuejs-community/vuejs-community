@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cy-zip',
   description: 'vite zip打包产物',
+  icon: '',
   version: '0.0.8',
   category: 'plugin',
   tags: [

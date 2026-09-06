@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-drupal-twig-hmr',
   description: 'A Vite plugin that make Drupal Twig HMR happen.',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

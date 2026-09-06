@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tanstack-router-sitemap',
   description: 'Vite plugin to generate sitemaps from TanStack Router route trees',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

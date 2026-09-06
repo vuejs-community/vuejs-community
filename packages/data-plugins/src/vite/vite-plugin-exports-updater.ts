@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-exports-updater',
   description: 'A Vite plugin that automatically updates your package.json exports map after a build.',
+  icon: '',
   version: '2.2.0',
   category: 'plugin',
   tags: [

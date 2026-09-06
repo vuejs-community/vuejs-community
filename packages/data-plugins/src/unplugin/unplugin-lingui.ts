@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-lingui',
   description: 'unplugin for lingui',
+  icon: '',
   version: '0.0.8',
   category: 'plugin',
   tags: [

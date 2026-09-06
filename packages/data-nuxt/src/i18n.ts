@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'i18n',
   description: 'i18n features for your Nuxt project so you can easily add internationalization.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

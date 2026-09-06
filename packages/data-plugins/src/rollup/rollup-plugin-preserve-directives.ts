@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-preserve-directives',
   description: 'A Rollup plugin to preserve directives like "use client" when preserveModules is true.',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

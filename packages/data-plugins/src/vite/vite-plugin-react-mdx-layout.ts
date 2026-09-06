@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-mdx-layout',
   description: 'Mdx plugin with React for Vite',
+  icon: '',
   version: '0.0.0',
   category: 'plugin',
   tags: [

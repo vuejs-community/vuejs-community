@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-properties',
   description: '[![npm](https://img.shields.io/npm/v/unplugin-properties)](https://www.npmjs.com/package/unplugin-properties)',
+  icon: '',
   version: '0.4.1',
   category: 'plugin',
   tags: [

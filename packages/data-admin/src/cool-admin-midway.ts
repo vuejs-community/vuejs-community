@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'cool-admin-midway',
   description: 'Node.js（Midway.js）+ Vue3 的 AI 编码后台框架，插件化、流程编排',
+  icon: '',
   category: 'admin',
 
   types: ['fullstack-template'],

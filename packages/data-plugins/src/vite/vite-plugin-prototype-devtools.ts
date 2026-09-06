@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-prototype-devtools',
   description: '> `vite-plugin-prototype-devtools` is a `Vite` plugin designed to enhance the `Prototype` developer experience.',
+  icon: '',
   version: '1.0.8',
   category: 'plugin',
   tags: [

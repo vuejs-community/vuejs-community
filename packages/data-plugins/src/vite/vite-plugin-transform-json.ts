@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-transform-json',
   description: 'Vite plugin to copy and transform JSON file during build',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-setting-css-module-plus',
   description: '------- 实现vite项目css模块化',
+  icon: '',
   version: '1.1.3',
   category: 'plugin',
   tags: [

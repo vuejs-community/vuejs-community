@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-copy',
   description: 'Vitejs plguin: copy files and folders',
+  icon: '',
   version: '0.1.6',
   category: 'plugin',
   tags: [

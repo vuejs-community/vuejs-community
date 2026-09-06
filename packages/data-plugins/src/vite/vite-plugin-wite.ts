@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-wite',
   description: 'Vite plugin for importing .wasm files built with wite',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

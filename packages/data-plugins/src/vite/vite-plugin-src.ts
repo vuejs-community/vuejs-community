@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-src',
   description: 'set vite root directory to src and fix other directory',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-google-apps-script',
   description: 'Rollup plugin for Google Apps Script.',
+  icon: '',
   version: '2.0.2',
   category: 'plugin',
   tags: [

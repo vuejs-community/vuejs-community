@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-mjml',
   description: 'Compile MJML templates with Rollup',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

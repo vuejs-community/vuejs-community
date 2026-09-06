@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-mdsfc',
   description: 'Language: [简体中文](https://github.com/hileez/vite-plugin-vue-mdsfc/blob/main/docs/zh.md) | English',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-remix-router',
   description: 'Remix style file-system routing for React and Vite',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

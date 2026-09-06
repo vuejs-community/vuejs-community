@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cdn-link',
   description: 'vite public静态资源使用cdn地址',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

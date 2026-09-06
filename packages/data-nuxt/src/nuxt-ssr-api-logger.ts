@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-ssr-api-logger',
   description: 'A small module that helps you see when your Nuxt application sends any API request via SSR.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

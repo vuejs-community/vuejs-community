@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-httpfile',
   description: 'Rollup httpfile plugin to support import http file for HTTP Request/GraphQL request',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

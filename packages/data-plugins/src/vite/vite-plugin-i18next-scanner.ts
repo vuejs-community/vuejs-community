@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18next-scanner',
   description: 'Automatically find and export translation keys when editing.',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

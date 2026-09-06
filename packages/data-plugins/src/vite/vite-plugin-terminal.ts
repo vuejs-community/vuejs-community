@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-terminal',
   description: 'Log in the node terminal from the browser',
+  icon: '',
   version: '1.4.0',
   category: 'plugin',
   tags: [

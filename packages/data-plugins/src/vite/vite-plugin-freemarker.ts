@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-freemarker',
   description: '[Vite](https://github.com/vitejs/vite) plugin for [freemarker](https://freemarker.apache.org/).',
+  icon: '',
   version: '1.2.0',
   category: 'plugin',
   tags: [

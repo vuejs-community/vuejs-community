@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-workers-rs-unofficial',
   description: 'Vite plugin that integrates Rust worker-build with @cloudflare/vite-plugin',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-watch-and-run',
   description: 'vite-plugin that will watch some files and run a package.json script on change',
+  icon: '',
   version: '1.8.2',
   category: 'plugin',
   tags: [

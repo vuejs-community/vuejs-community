@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18n-dev',
   description: 'Vite plugin for i18n development, help you to change locale file and see the change effect in real time.',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

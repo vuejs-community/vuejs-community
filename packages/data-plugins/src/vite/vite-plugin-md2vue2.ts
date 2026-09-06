@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-md2vue2',
   description: 'Vite plugin for transforming markdown files to vue2 render functions.',
+  icon: '',
   version: '2.0.9',
   category: 'plugin',
   tags: [

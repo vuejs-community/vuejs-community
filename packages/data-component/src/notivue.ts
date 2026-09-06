@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'notivue',
   description: '零依赖、高度可定制的 toast 通知系统',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['toast', 'notification'],

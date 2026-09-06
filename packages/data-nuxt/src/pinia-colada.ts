@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'pinia-colada',
   description: 'The smart data fetching layer for Pinia',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

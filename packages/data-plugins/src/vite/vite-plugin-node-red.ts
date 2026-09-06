@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-node-red',
   description: 'Vite plugin for compiling Node-RED nodes',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

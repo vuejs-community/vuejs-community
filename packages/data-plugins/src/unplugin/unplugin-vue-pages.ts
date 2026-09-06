@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-pages',
   description: 'Register global imports on demand for Vite and Webpack',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

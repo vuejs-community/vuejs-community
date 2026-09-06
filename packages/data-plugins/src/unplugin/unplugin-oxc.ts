@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-oxc',
   description: 'Oxc integration for unplugin.',
+  icon: '',
   version: '0.6.1',
   category: 'plugin',
   tags: [

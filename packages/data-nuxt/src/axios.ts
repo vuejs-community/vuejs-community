@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'axios',
   description: 'Secure and easy Axios module with Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Request',

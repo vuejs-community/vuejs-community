@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-kdu',
   description: 'Roll .kdu files',
+  icon: '',
   version: '5.1.6',
   category: 'plugin',
   tags: [

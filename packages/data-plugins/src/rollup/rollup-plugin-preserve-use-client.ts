@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-preserve-use-client',
   description: 'A Rollup plugin to preserve \'use client\' directives for React 18 components.',
+  icon: '',
   version: '3.0.1',
   category: 'plugin',
   tags: [

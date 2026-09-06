@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-splice',
   description: 'Trim web fonts to only the glyphs your site actually renders. Vite-integrated, no Python toolchain, no headless browser, watch-aware.',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

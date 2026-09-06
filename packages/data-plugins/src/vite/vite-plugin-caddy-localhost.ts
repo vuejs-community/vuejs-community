@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-caddy-localhost',
   description: '用 Caddy 把本地的开发服务映射到 https://xxx.localhost',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

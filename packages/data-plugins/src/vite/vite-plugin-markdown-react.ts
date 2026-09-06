@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-markdown-react',
   description: 'Vite plugin to handle react code in markdown（.md）.',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

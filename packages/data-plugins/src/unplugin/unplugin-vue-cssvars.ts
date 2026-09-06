@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-cssvars',
   description: '🌀 A vue plugin that allows you to use vue\'s CSSVars feature in css files',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

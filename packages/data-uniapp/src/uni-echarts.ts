@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'uni-echarts',
   description: '适用于 uni-app 的 Apache ECharts 组件（仅支持 Vue3），多端 Canvas 渲染',
+  icon: '',
   category: 'uniapp',
   types: ['visualization'],
   tags: ['uni-app', 'vue3', 'echarts', 'charts', 'visualization'],

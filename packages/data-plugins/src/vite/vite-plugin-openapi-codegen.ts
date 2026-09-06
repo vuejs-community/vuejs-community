@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-openapi-codegen',
   description: 'Vite plugin that generates typed API clients and route builders from OpenAPI specs',
+  icon: '',
   version: '5.0.2',
   category: 'plugin',
   tags: [

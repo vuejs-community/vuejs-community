@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-typenv',
   description: 'A Vite plugin to use JS/TS files for environment variables instead of .env files',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

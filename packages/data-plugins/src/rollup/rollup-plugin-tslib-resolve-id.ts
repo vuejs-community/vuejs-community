@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-tslib-resolve-id',
   description: 'Aliases tslib module ids',
+  icon: '',
   version: '0.0.0',
   category: 'plugin',
   tags: [

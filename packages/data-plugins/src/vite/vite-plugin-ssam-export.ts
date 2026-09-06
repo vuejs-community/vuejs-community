@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ssam-export',
   description: 'Image export plugin for Ssam',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-cheetah-grid-icon-svg',
   description: 'Unplugin that loads the icon module for Cheetah Grid from SVG.',
+  icon: '',
   version: '2.1.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dlight-js',
   description: 'DLight decorator resolver for js as vite plugin',
+  icon: '',
   version: '1.0.0-alpha.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-commit-hash',
   description: 'Exposes the current commit hash to the codebase',
+  icon: '',
   version: '1.0.8',
   category: 'plugin',
   tags: [

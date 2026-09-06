@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-define-options-name',
   description: 'A Vite plugin that injects/fills defineOptions({ name }) for Vue SFC <script setup> based on the file path.',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-legacy',
   description: 'A universal bundler plugin which adds export declarations to legacy non-module scripts.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

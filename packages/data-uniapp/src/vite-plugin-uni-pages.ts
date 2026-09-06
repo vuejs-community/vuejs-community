@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-uni-pages',
   description: 'uni-helper 出品的 Vite 插件，为 uni-app 提供基于文件系统的路由',
+  icon: '',
   category: 'uniapp',
   types: ['vite-plugin'],
   tags: ['uni-app', 'vue3', 'vite', 'router', 'file-based-routing'],

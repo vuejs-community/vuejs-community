@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-rustify',
   description: 'Build-time site injection for rustify-ts traces: Vite, Rollup, webpack, esbuild, rspack and Metro.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

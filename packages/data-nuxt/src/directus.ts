@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'directus',
   description: 'Easily connect your Nuxt application to your directus server.',
+  icon: '',
   category: 'nuxt',
   types: [
     'CMS',

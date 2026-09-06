@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-upload',
   description: 'A Vite plugin for uploading build artifacts.',
+  icon: '',
   version: '0.4.3',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-output-version-file',
   description: 'Vite 插件：自动生成版本信息文件到构建输出目录',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

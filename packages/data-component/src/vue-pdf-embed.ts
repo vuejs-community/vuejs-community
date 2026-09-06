@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-pdf-embed',
   description: 'PDF 嵌入预览组件，Vue 2/3 通用',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['pdf', 'preview'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-qwer',
   description: 'JUST YOU CODE',
+  icon: '',
   version: '0.0.7',
   category: 'plugin',
   tags: [

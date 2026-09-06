@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rolldown-plugin-prettier',
   description: 'Rolldown plugin for code formatting using Prettier',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

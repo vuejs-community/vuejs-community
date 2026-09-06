@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-px-to-rem',
   description: 'transform px to rem',
+  icon: '',
   version: '0.1.5',
   category: 'plugin',
   tags: [

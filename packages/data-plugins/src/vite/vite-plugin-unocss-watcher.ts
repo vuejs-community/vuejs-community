@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-unocss-watcher',
   description: 'A Vite plugin to reload UnoCSS config when files changed',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

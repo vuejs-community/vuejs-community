@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-serve-static',
   description: 'A Vite plugin for serving static files during local development',
+  icon: '',
   version: '2.2.1',
   category: 'plugin',
   tags: [

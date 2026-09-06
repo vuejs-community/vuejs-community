@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'varlet',
   description: 'A Material design mobile component library developed based on Vue3',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

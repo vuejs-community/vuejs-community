@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-proposal-decorators',
   description: 'A Vite plugin for @babel/plugin-proposal-decorators',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-svg-store',
   description: 'Bundles all SVG icons from a directory into a single SVG file.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

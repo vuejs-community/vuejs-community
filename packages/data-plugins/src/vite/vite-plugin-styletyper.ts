@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-styletyper',
   description: 'Vite plugin that writes a per-class TypeScript declaration (.d.ts + .d.ts.map) next to every *.module.{scss,css,sass} on save and build. Native-speed toolchain (Dart Sass via sass-embedded + Lightning CSS). Powered by styletyper.',
+  icon: '',
   version: '0.2.2',
   category: 'plugin',
   tags: [

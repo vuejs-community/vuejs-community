@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-add-banner',
   description: 'A Rollup plugin that adds banner comments to the output bundle.',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

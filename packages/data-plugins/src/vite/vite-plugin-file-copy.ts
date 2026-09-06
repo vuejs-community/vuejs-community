@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-file-copy',
   description: '一个vite插件，复制静态资源',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

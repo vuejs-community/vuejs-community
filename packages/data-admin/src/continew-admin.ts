@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'continew-admin',
   description: '页面现代美观的多租户中后台框架，SpringBoot 3 + Vue3',
+  icon: '',
   category: 'admin',
 
   types: ['fullstack-template'],

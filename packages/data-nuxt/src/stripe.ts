@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'stripe',
   description: 'Import the StripeJS client script to accept payments, send payouts, and manage your businesses online.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Payment',

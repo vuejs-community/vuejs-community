@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-package',
   description: 'Bundler plugins for copying manifest files into output.',
+  icon: '',
   version: '1.3.0',
   category: 'plugin',
   tags: [

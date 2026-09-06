@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-vault',
   description: 'Encrypts text to be decrypted at runtime',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

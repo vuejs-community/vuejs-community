@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'pinia-colada',
   description: 'Vue 官方团队成员（posva）打造的智能数据请求层，基于 Pinia 提供 useQuery / useMutation',
+  icon: '',
   category: 'hooks',
   types: ['data-fetching', 'composable-library'],
   tags: ['hooks', 'composables', 'data-fetching', 'query', 'pinia', 'vue3'],

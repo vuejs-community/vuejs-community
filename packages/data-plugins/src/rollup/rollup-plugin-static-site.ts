@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-static-site',
   description: 'generate html out of thin air (or with any templating engine) for your static site bundle',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

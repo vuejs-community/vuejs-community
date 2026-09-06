@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-uniapp-pages-json',
   description: '> uniapp pages.json 模块化 插件',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

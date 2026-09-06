@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-windmill',
   description: 'Vite plugin and deploy tooling for Windmill raw apps.',
+  icon: '',
   version: '1.804.0',
   category: 'plugin',
   tags: [

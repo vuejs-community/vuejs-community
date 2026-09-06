@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-module-script',
   description: 'A vite plugin for dynamic creating a module script tag.',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

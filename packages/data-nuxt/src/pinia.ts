@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'pinia',
   description: 'The Vue Store that you will enjoy using',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-optimize-js',
   description: 'Rollup plugin to easily run your bundles through optimize-js, post minifying',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

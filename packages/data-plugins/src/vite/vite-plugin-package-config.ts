@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-package-config',
   description: 'Extend Vite config from package.json field',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

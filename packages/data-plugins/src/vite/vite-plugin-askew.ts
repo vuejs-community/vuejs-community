@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-askew',
   description: 'WebMCP-native live UI debugging for React, Vite, and Tailwind.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

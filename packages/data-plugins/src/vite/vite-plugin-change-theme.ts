@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-change-theme',
   description: 'css theme preprocessor plugin for vite',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

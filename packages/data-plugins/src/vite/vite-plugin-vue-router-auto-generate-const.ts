@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-router-auto-generate-const',
   description: '一个简单的 Vue Router 路由名称枚举类型生成插件',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

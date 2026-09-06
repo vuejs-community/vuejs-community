@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'precompress',
   description: 'Precompress files to gzip and brotli and serve them automatically',
+  icon: '',
   category: 'nuxt',
   types: [
     'Performance',

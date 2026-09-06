@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-monk',
   description: 'Allows for compiling monkberry templates.',
+  icon: '',
   version: '1.1.5',
   category: 'plugin',
   tags: [

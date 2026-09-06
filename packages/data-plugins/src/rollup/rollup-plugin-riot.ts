@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-riot',
   description: 'Rollup plugin for Riot.js',
+  icon: '',
   version: '10.0.0',
   category: 'plugin',
   tags: [

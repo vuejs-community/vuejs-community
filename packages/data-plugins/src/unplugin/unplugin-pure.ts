@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-pure',
   description: 'Annotate functions as pure for Rollup, Vite, esbuild, and rspack',
+  icon: '',
   version: '0.3.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-generate-package-json',
   description: 'Generate package.json file with packages from your bundle using Rollup',
+  icon: '',
   version: '3.2.0',
   category: 'plugin',
   tags: [

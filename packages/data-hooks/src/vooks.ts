@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vooks',
   description: 'Naive UI 作者出品的 Vue composables 工具集',
+  icon: '',
   category: 'hooks',
   types: ['composable-library'],
   tags: ['hooks', 'composables', 'vue3'],

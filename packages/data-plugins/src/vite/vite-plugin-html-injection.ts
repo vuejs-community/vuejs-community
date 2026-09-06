@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-injection',
   description: 'Vite plugin for injecting html, js, css code snippets into index.html',
+  icon: '',
   version: '1.5.2',
   category: 'plugin',
   tags: [

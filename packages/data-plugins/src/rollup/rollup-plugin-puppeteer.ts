@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-puppeteer',
   description: 'Rollup plugin for integrating puppeteer with rollup.',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

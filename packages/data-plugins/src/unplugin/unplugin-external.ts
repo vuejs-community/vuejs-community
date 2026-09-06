@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-external',
   description: 'External dependencies when building',
+  icon: '',
   version: '0.1.0-beta.3',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lib-types',
   description: 'Generate dts file while building library, supports vue file',
+  icon: '',
   version: '3.1.2',
   category: 'plugin',
   tags: [

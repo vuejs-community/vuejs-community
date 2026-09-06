@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'typo3',
   description: 'TYPO3 Headless Frontend Rendering module',
+  icon: '',
   category: 'nuxt',
   types: [
     'CMS',

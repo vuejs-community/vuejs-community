@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-web-build-events',
   description: 'Live reloading for Rollup-based projects',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-stylex',
   description: 'Unplugin for stylex',
+  icon: '',
   version: '0.6.3',
   category: 'plugin',
   tags: [

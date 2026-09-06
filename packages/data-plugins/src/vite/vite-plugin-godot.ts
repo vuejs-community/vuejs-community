@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-godot',
   description: 'Embed and bundle Godot 4.x games using Vite',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

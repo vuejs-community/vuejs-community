@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-import',
   description: 'Vite plugin to load SVG files as Vue components, URLs or raw strings',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

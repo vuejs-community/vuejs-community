@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-compress-dist',
   description: 'A Vite plugin to compress the dist folder after build',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

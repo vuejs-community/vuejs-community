@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-qrcode',
   description: 'Show QR code on server start',
+  icon: '',
   version: '0.4.1',
   category: 'plugin',
   tags: [

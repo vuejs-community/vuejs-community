@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-xszs-mock',
   description: 'Vite plugin for xszs mock',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

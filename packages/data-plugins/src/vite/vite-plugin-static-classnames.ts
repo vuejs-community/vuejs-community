@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-static-classnames',
   description: 'Vite plugin that collapses class name templates at build time, so wrapped class lists never ship to the browser.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

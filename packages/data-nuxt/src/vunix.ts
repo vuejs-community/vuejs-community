@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vunix',
   description: 'Comprehensive UI toolkit for Vue.js and Nuxt that empowers you to build amazing user interfaces with ease. With Vunix, you can leverage the power of popular utility-first CSS frameworks like Tailwind CSS, Unocss, WindiCss, or use your own custom CSS classes.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

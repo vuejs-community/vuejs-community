@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-sentry',
   description: 'Official vite plugin for Sentry',
+  icon: '',
   version: '1.0.5',
   category: 'plugin',
   tags: [

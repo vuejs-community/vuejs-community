@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-react-router-dom',
   description: 'File-based routing for React + react-router-dom. Works with Vite, webpack, Rspack, Rollup and esbuild via unplugin.',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

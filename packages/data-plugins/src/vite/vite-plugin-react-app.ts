@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-app',
   description: 'A Vite plugin for running file system routing react application',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

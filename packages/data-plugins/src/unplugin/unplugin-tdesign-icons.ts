@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-tdesign-icons',
   description: 'An unplugin for on-demand importing TDesign icons (vue / vue-next / react / web-components). Auto rewrites `import { XxxIcon } from \'tdesign-icons-xxx\'` to the exact icon module, avoiding bundling all 2000+ icons.',
+  icon: '',
   version: '0.2.2',
   category: 'plugin',
   tags: [

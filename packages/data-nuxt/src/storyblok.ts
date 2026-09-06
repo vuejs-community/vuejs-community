@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'storyblok',
   description: 'Storyblok Nuxt module',
+  icon: '',
   category: 'nuxt',
   types: [
     'CMS',

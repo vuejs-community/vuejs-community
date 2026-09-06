@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dusk',
   description: 'Vite plugin for Dusk SDK',
+  icon: '',
   version: '1.0.7',
   category: 'plugin',
   tags: [

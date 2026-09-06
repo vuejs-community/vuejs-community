@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cooked',
   description: 'Vite\'s ?raw gives you uncooked source. This gives you the cooked version — compiled, bundled, and tree-shaken.',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

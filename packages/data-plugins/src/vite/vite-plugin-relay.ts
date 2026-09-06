@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-relay',
   description: 'A vite plugin for relay',
+  icon: '',
   version: '2.1.0',
   category: 'plugin',
   tags: [

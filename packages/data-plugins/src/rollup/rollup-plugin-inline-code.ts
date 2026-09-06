@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-inline-code',
   description: 'Rollup plugin for loading scripts as a text',
+  icon: '',
   version: '1.2.7',
   category: 'plugin',
   tags: [

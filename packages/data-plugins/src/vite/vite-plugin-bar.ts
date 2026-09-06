@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-bar',
   description: 'vite-plugin',
+  icon: '',
   version: '1.0.44',
   category: 'plugin',
   tags: [

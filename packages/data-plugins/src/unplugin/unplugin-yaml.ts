@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-yaml',
   description: 'Allow importing YAML files as JSON or Strings',
+  icon: '',
   version: '4.2.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-windicss',
   description: 'Windi CSS for Rollup',
+  icon: '',
   version: '1.9.4',
   category: 'plugin',
   tags: [

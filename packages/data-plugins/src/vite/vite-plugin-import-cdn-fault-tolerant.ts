@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-import-cdn-fault-tolerant',
   description: 'vite插件 引入cdn的包时，可配置容错路径/、本地路径',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

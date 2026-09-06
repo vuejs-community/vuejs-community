@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-version-date-mark',
   description: 'Automatically insert the version or git_commit_sha in your Vite/Nuxt project.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

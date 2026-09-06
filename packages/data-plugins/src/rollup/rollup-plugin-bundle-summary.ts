@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-bundle-summary',
   description: 'Output the bundle size of your build',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

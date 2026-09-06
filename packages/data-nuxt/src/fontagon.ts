@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'fontagon',
   description: 'Easy convert SVG from nuxt to icon font.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

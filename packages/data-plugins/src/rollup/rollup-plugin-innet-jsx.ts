@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-innet-jsx',
   description: 'A Rollup plugin which converts jsx to object (JSXElement of innet)',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

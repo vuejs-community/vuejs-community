@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'smart-admin',
   description: '以「高质量代码」为核心的 SpringBoot + Vue3 快速开发平台',
+  icon: '',
   category: 'admin',
 
   types: ['fullstack-template'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-template-cleaner',
   description: 'HTML string template cleaner for Vite',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

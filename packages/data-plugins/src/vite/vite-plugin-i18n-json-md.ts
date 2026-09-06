@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18n-json-md',
   description: 'Vite plugin for processing markdown in JSON/JSON5 files for i18n',
+  icon: '',
   version: '0.8.9',
   category: 'plugin',
   tags: [

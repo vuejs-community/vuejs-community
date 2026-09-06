@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-asset-sync',
   description: 'Asset files synchronization for rollup',
+  icon: '',
   version: '0.0.7',
   category: 'plugin',
   tags: [

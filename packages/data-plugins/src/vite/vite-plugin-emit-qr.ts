@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-emit-qr',
   description: 'Vite plugin for embedding your app in a QR code',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

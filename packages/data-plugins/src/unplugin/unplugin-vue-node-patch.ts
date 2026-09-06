@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-node-patch',
   description: 'Monkey patching node in vue template or jsx',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

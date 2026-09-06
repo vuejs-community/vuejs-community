@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-i18never',
   description: 'A rollup plugin based on i18never',
+  icon: '',
   version: '1.1.16',
   category: 'plugin',
   tags: [

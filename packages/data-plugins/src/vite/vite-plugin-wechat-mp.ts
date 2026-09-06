@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-wechat-mp',
   description: 'vite-plugin-wechat-mp 使用 Vite 编译微信小程序',
+  icon: '',
   version: '1.1.16',
   category: 'plugin',
   tags: [

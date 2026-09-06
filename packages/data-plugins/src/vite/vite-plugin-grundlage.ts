@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-grundlage',
   description: 'Vite plugin that prerenders grundlage web components to declarative shadow DOM at build time.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

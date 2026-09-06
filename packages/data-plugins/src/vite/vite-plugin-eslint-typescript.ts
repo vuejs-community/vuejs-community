@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-eslint-typescript',
   description: 'Vite plugin that runs ESLint and TypeScript type-checking in background workers with an in-browser error overlay, clickable file paths, and AI-powered auto-fix via Cursor',
+  icon: '',
   version: '1.2.0',
   category: 'plugin',
   tags: [

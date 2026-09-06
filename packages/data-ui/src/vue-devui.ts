@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-devui',
   description: '华为 DevUI 设计体系的 Vue 3 实现',
+  icon: '',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui', 'devui'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-garfish-mf',
   description: 'A vite plugin for running Micro frontend applications using garfish',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-http2-proxy',
   description: 'Vite proxy with HTTP2 support',
+  icon: '',
   version: '0.5.1',
   category: 'plugin',
   tags: [

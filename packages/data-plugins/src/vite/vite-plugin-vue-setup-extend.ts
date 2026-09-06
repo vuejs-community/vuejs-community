@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-setup-extend',
   description: 'Extending the vue script setup syntactic sugar',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

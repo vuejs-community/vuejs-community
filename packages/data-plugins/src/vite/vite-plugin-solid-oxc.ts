@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-solid-oxc',
   description: 'Vite plugin for SolidJS using OXC-based compiler',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'google-gtag',
   description: 'Google GTag for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Analytics',

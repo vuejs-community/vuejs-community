@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-lottie',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-lottie?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-lottie)',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

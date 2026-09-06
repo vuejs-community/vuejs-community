@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'eslint-module',
   description: 'ESLint module for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-spx',
   description: 'Vite plugin to enable its use with SPX Graphics Controller',
+  icon: '',
   version: '1.1.1',
   category: 'plugin',
   tags: [

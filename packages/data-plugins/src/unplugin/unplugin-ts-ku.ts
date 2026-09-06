@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-ts-ku',
   description: 'a tool to generate ts string literal union type from files',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

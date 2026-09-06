@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-filesize',
   description: 'A rollup plugin to show filesize in the cli',
+  icon: '',
   version: '10.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'module-feed',
   description: 'Feed module enables everyone to have RSS, Atom and JSON.',
+  icon: '',
   category: 'nuxt',
   types: [
     'SEO',

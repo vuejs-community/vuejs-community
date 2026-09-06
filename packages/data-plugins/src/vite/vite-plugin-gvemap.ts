@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-gvemap',
   description: 'gvemap library plugin for Vite',
+  icon: '',
   version: '1.1.15',
   category: 'plugin',
   tags: [

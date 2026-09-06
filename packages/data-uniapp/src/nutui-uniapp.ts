@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nutui-uniapp',
   description: '京东风格 NutUI 的 uni-app + Vue3 社区版，轻量级移动端组件库，支持暗黑模式与按需引入',
+  icon: '',
   category: 'uniapp',
   types: ['ui-library', 'mobile-ui'],
   tags: ['uni-app', 'vue3', 'ui', 'mobile', 'nutui'],

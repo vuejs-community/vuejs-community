@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-themeplate',
   description: 'Straight-forward Vite integration for WordPress',
+  icon: '',
   version: '1.11.0',
   category: 'plugin',
   tags: [

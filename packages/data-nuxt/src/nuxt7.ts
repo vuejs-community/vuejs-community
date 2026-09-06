@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt7',
   description: 'Full Featured iOS & Android PWA Apps with Nuxt and Framework7',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

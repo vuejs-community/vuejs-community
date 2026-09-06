@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tw-auto-reference',
   description: 'Vite plugin that automatically inserts Tailwind CSS @reference directives in CSS files using @apply',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

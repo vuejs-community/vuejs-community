@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-deps-cache',
   description: 'Cache optimized dependencies continuously',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

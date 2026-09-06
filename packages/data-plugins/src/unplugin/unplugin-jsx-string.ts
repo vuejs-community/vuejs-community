@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-jsx-string',
   description: 'Converts JSX to HTML strings at compile time.',
+  icon: '',
   version: '0.10.0',
   category: 'plugin',
   tags: [

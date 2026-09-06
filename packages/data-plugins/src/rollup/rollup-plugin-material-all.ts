@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-material-all',
   description: 'Develop with @material/web/all.js - Build what\'s needed.',
+  icon: '',
   version: '1.2.3',
   category: 'plugin',
   tags: [

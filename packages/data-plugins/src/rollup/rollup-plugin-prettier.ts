@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-prettier',
   description: 'Run prettier formatter with rollup',
+  icon: '',
   version: '4.2.0',
   category: 'plugin',
   tags: [

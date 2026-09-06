@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'ucharts-v3',
   description: 'uCharts v3，TypeScript 重写的跨平台图表库，支持鸿蒙 / 小程序 / uniapp（uCharts 2.x 主仓库在 Gitee）',
+  icon: '',
   category: 'uniapp',
   types: ['visualization'],
   tags: ['uni-app', 'charts', 'visualization', 'typescript'],

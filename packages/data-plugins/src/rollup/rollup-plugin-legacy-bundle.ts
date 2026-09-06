@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-legacy-bundle',
   description: 'Rollup plugin to generate legacy bundle for old browsers',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

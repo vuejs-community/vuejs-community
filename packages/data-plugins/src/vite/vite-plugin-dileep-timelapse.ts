@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dileep-timelapse',
   description: 'Export a Canvas image at each file save. Use it with Ssam or any HTML Canvas',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

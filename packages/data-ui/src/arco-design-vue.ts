@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'arco-design-vue',
   description: '字节跳动 Arco Design 的 Vue 3 实现',
+  icon: '',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui', 'arco-design'],

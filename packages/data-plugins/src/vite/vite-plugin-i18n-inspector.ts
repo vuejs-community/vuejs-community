@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18n-inspector',
   description: 'A Vite plugin to enhance i18n development experience in Vue applications',
+  icon: '',
   version: '1.1.1',
   category: 'plugin',
   tags: [

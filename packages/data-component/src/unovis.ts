@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unovis',
   description: '模块化数据可视化框架，图表 / 地图 / 时间线一体',
+  icon: '',
   category: 'component',
   types: ['visualization'],
   tags: ['chart', 'map'],

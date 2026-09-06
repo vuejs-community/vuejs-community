@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-data',
   description: 'Resolve and bundle data loader file exports at build-time.',
+  icon: '',
   version: '0.2.5',
   category: 'plugin',
   tags: [

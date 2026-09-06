@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'proxy',
   description: 'The one-liner node.js http-proxy middleware solution for Nuxt using http-proxy-middleware',
+  icon: '',
   category: 'nuxt',
   types: [
     'Request',

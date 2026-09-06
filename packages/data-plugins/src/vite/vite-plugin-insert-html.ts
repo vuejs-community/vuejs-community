@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-insert-html',
   description: 'Super simple Vite plugin to insert HTML into the head or body of your HTML entrypoints',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

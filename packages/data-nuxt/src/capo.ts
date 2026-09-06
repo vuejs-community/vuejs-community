@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'capo',
   description: 'Capo.js implementation for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Performance',

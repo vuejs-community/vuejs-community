@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-flow-defs',
   description: 'Quickly add flow defs to your bundles',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

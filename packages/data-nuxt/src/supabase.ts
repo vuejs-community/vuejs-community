@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'supabase',
   description: 'First class integration with Supabase',
+  icon: '',
   category: 'nuxt',
   types: [
     'Database',

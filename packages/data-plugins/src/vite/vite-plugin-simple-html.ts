@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-simple-html',
   description: 'Vite plugin for HTML processing and minification',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

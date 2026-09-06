@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-node-externals',
   description: 'Automatically declare NodeJS built-in modules and npm dependencies as \'external\' in Rollup/Vite config',
+  icon: '',
   version: '9.0.1',
   category: 'plugin',
   tags: [

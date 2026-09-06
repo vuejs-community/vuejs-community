@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-build-types',
   description: 'Vite开发的Vue项目编译类型声明文件*.d.ts',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

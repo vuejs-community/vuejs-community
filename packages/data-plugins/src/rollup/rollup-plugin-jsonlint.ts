@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-jsonlint',
   description: 'Converts .json (JSON/CJSON/JSON5) files to ES6 modules.',
+  icon: '',
   version: '2.1.0',
   category: 'plugin',
   tags: [

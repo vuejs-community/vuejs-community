@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'critters',
   description: 'CSS optimization using beasties (formerly critters) for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Performance',

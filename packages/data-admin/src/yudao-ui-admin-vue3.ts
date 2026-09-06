@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'yudao-ui-admin-vue3',
   description: '芋道管理后台前端，支持多租户、工作流、支付、商城、CRM 等业务模块',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-deny-imports',
   description: 'Deny imports with full import trace support for Vite, Bun, Rollup, webpack, and esbuild',
+  icon: '',
   version: '0.1.5',
   category: 'plugin',
   tags: [

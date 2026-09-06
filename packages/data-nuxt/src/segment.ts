@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'segment',
   description: 'Nuxt module for Segment Analytics.js',
+  icon: '',
   category: 'nuxt',
   types: [
     'Analytics',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'wangeditor',
   description: '国产开源富文本编辑器，作者已停止积极维护',
+  icon: '',
   category: 'component',
   types: ['editor'],
   tags: ['rich-text'],

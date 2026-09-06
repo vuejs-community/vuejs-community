@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-assets-replace',
   description: 'Rollup plugin which replaces assets',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

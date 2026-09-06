@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-tracer',
   description: 'Tracer for the source code of elements and vdoms in Vue SFC',
+  icon: '',
   version: '1.5.0',
   category: 'plugin',
   tags: [

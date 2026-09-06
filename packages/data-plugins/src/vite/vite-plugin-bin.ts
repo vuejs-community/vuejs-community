@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-bin',
   description: 'Use Vite to bundle executable scripts.',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

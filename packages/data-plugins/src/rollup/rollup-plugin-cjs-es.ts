@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-cjs-es',
   description: 'Convert CommonJS module into ES module',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

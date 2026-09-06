@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-inline-multipage',
   description: 'A Vite plugin that inlines multi-paged applications (like in svelte) to multiple html files',
+  icon: '',
   version: '1.0.20',
   category: 'plugin',
   tags: [

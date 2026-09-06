@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-entry-shaking-debugger',
   description: 'Debugger for vite-plugin-entry-shaking',
+  icon: '',
   version: '2.0.2',
   category: 'plugin',
   tags: [

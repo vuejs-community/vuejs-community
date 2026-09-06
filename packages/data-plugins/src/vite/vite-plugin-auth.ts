@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auth',
   description: 'Password-based authentication plugin for Vite. Protects dev servers, preview deployments, and internal tools with a login form, session persistence, and IP allowlisting.',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

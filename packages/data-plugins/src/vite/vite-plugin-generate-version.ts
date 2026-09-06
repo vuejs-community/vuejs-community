@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-generate-version',
   description: 'A powerful Vite plugin that automatically generates comprehensive version information files based on Git repository data with TypeScript support',
+  icon: '',
   version: '1.0.9',
   category: 'plugin',
   tags: [

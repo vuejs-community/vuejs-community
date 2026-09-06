@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'shopware',
   description: 'Nuxt module that allows you to set up a Nuxt 3 project with Shopware Frontends.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Ecommerce',

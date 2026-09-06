@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-bundle-fonts',
   description: 'Rollup plugin to download http fonts referenced in css files',
+  icon: '',
   version: '1.2.1',
   category: 'plugin',
   tags: [

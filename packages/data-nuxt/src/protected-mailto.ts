@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'protected-mailto',
   description: 'Nuxt component to generate encoded mailto links',
+  icon: '',
   category: 'nuxt',
   types: [
     'Security',

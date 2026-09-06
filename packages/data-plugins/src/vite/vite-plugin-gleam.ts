@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-gleam',
   description: 'Gleam plugin to vite runtime.',
+  icon: '',
   version: '0.1.8',
   category: 'plugin',
   tags: [

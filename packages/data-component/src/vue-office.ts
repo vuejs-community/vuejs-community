@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-office',
   description: 'docx / xlsx / pdf / pptx 文件预览组件集合，Vue 2/3 通吃',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['preview', 'office'],

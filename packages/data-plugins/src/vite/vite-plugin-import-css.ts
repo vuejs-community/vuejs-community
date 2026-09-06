@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-import-css',
   description: 'Help your lib import css files through vite plugin',
+  icon: '',
   version: '0.1.5',
   category: 'plugin',
   tags: [

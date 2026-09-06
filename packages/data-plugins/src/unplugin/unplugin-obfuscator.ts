@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-obfuscator',
   description: 'Universal unplugin-based JavaScript/TypeScript obfuscation plugin for Vite, Rollup, Rolldown, Webpack, Rspack, and esbuild.',
+  icon: '',
   version: '0.0.0',
   category: 'plugin',
   tags: [

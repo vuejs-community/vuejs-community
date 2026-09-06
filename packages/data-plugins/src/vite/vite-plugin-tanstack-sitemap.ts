@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tanstack-sitemap',
   description: 'Vite plugin to generate a `sitemap.xml` from your TanStack Start route manifest',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

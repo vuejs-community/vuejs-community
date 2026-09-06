@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-supericon',
   description: 'vite plugin of auto generate iconfont from svg',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

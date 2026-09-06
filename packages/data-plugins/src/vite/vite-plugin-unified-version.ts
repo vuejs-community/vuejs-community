@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-unified-version',
   description: 'A Vite plugin to inject Git commit ID and build time into HTML meta tags and window object',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

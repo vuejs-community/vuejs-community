@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-office-addin-bun',
   description: 'Office Add-ins development using Vite with Bun and Node.js support. Based on vite-plugin-office-addin by Jozef Izso.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

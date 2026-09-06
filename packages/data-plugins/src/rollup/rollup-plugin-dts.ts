@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-dts',
   description: 'A rollup plugin that will bundle up your .d.ts definition files.',
+  icon: '',
   version: '6.5.1',
   category: 'plugin',
   tags: [

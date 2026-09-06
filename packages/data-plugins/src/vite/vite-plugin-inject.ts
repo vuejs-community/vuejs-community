@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-inject',
   description: 'Inject files into Vite output',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

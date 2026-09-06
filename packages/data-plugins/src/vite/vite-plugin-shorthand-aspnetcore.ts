@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-shorthand-aspnetcore',
   description: 'A Vite plugin that sets up some basic settings for use with Shorthand.Vite NuGet package.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

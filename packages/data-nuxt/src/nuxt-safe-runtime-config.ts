@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-safe-runtime-config',
   description: 'Validate Nuxt runtime config with Standard Schema at build time',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

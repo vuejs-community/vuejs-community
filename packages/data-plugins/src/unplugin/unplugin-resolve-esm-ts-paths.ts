@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-resolve-esm-ts-paths',
   description: 'Resolve `import` and `export` expressions using the TSConfig `paths` and `baseUrl`. This was made to be used on Node environments where you need to have relative imports and most transpile tools (even `tsc` itself) doesn\'t change imports.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

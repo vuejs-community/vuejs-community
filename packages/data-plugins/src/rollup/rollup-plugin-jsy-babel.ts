@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-jsy-babel',
   description: 'Babel configuration for using JSY in rollup',
+  icon: '',
   version: '2.3.0',
   category: 'plugin',
   tags: [

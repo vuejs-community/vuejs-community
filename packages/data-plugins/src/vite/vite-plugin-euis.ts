@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-euis',
   description: 'Vite plugin for Euis (Euis) with Tailwind CSS compatibility - compile Euis to CSS with WebAssembly. Works in cloud environments like Lovable, StackBlitz, and CodeSandbox.',
+  icon: '',
   version: '0.7.0',
   category: 'plugin',
   tags: [

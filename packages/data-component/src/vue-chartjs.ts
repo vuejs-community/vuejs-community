@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-chartjs',
   description: 'Chart.js 的 Vue 封装，轻量易上手',
+  icon: '',
   category: 'component',
   types: ['visualization'],
   tags: ['chartjs', 'chart'],

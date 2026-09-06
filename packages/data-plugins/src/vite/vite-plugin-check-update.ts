@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-check-update',
   description: 'A Vite plugin that monitors dist bundle updates at runtime and prompts users to refresh when new versions are deployed',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

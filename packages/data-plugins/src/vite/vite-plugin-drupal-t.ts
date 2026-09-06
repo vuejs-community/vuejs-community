@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-drupal-t',
   description: 'A Vite plugin that automatically extracts Drupal.t() and Drupal.formatPlural() translation calls for seamless internationalization',
+  icon: '',
   version: '1.0.8',
   category: 'plugin',
   tags: [

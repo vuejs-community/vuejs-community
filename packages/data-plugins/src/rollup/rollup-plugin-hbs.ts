@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-hbs',
   description: 'Handlebars template bundle rollup plugin',
+  icon: '',
   version: '1.2.6',
   category: 'plugin',
   tags: [

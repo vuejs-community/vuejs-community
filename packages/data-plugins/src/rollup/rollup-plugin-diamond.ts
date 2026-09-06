@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-diamond',
   description: 'Plugin to run diamond compiler as part of rollup build',
+  icon: '',
   version: '0.0.20',
   category: 'plugin',
   tags: [

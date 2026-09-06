@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-use-golang',
   description: 'Write Go code in JavaScript files. Compiles to WebAssembly. Actually works.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

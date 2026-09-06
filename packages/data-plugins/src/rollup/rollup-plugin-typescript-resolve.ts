@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-typescript-resolve',
   description: 'Rollup Plugin to resolve imports using TypeScript resolution algorithm',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

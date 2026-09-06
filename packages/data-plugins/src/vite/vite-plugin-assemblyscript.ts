@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-assemblyscript',
   description: 'Support bulding and using assemblyscript with vitejs',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

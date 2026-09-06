@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-html-string',
   description: 'Rollup plugin to import HTML files as string',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

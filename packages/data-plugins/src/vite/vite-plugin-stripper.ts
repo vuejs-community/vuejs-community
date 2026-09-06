@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-stripper',
   description: 'vite-plugin that will strip out some function of your browser bundle',
+  icon: '',
   version: '0.10.4',
   category: 'plugin',
   tags: [

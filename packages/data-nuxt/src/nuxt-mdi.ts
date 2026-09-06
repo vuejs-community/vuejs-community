@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-mdi',
   description: 'Add 7,000+ icons to your Nuxt application, from Material Design Icons.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

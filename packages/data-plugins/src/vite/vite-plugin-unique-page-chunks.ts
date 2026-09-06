@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-unique-page-chunks',
   description: 'A Vite plugin to generate unique chunks for pages with same-named components',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

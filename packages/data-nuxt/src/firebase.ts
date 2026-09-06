@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'firebase',
   description: 'Integrate Firebase into your Nuxt project.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Database',

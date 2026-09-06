@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-admin-better',
   description: '同时支持 Vue2 / Vue3 的后台模板集合，组件化程度高，提供收费 Pro 版',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

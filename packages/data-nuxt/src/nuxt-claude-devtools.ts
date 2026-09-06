@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-claude-devtools',
   description: 'Nuxt DevTools integration for Claude Code AI assistant',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

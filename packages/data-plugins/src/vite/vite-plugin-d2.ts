@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-d2',
   description: 'A Vite plugin to convert D2 diagrams to SVG during build.',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

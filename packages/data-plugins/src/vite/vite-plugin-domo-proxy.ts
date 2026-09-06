@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-domo-proxy',
   description: 'Native vite plugin to proxy requests through the vite-dev-server to domo',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

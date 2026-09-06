@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vuex-router-sync',
   description: 'vuex-router-sync module for Nuxt to effortlessly keep vue-router and vuex store in sync.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

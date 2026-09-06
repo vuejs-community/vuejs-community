@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-jsx-vapor',
   description: 'Convert Vue JSX to Vapor',
+  icon: '',
   version: '1.7.0',
   category: 'plugin',
   tags: [

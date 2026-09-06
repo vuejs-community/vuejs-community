@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'storybook',
   description: 'Easily integrate Storybook in your Nuxt application to design, build, and test your UI components in isolation.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

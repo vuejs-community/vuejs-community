@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-volcano',
   description: 'A Nuxt module for Volcano Agent SDK - build AI agents with LLM reasoning and MCP tools',
+  icon: '',
   category: 'nuxt',
   types: [
     'AI',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-external-cdn',
   description: 'A vite plugin to import dependencies as a CDN.',
+  icon: '',
   version: '1.1.1',
   category: 'plugin',
   tags: [

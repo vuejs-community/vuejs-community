@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vexip-ui',
   description: 'A Vue 3 UI library, Highly customizability, full TypeScript, performance pretty good',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

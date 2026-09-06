@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-node-polyfills2',
   description: 'fork from rollup-plugin-node-polyfills ===',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

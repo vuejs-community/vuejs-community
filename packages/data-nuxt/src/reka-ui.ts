@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'reka-ui',
   description: 'Vue port of Radix UI Primitives. An open-source UI component library for building high-quality, accessible design systems and web apps.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

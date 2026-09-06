@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-warehouse',
   description: 'A Cross-browser storage for Vue.js and Nuxt, with plugins support and easy extensibility based on Store.js',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

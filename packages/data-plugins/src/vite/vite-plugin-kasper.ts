@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-kasper',
   description: 'Vite plugin for Kasper.js single-file components',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

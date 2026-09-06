@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-yaml-locales',
   description: 'Converts a single YAML file to multiple messages.json locale files',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'uv-ui',
   description: '基于 uView2.x 二次开发的多端组件库，兼容 Vue2 + Vue3 与 app / h5 / 小程序全端，支持按需单独导入（已停止更新）',
+  icon: '',
   category: 'uniapp',
   types: ['ui-library', 'mobile-ui'],
   tags: ['uni-app', 'vue3', 'ui', 'mobile'],

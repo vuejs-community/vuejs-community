@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-preprocess-debug-info',
   description: 'Preprocess files and replace __LINE__ __FILE__ in C style',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

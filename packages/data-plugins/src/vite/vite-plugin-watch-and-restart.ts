@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-watch-and-restart',
   description: 'Watch the file of folder change and force restart Vite server',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

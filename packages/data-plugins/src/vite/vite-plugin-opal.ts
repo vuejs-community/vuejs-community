@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-opal',
   description: 'Vite plugin for Opal - Compile Ruby to JavaScript',
+  icon: '',
   version: '0.3.15',
   category: 'plugin',
   tags: [

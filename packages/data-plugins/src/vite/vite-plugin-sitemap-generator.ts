@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sitemap-generator',
   description: 'Generate sitemap for client site rendered web applications.',
+  icon: '',
   version: '1.1.4',
   category: 'plugin',
   tags: [

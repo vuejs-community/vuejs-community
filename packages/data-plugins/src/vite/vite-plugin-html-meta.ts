@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-meta',
   description: 'Generate meta tags to html files according to configuration',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

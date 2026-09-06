@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-reuse-template',
   description: 'An simple template reuse in Vue3',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

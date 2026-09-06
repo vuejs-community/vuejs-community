@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-openapi-gen-ts',
   description: 'OpenAPI rules generated typescript code for unplugin',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

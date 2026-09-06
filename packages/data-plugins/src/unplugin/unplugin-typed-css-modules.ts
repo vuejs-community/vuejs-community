@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-typed-css-modules',
   description: 'Vite/Webpack/Rspack plugin to generate TypeScript definitions for CSS/SCSS modules.',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

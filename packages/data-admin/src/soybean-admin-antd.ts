@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'soybean-admin-antd',
   description: 'Soybean Admin 的 Ant Design Vue 版本',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-legacy-dev',
   description: 'Vite plugin-legacy for development env.',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

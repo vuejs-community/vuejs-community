@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svelte-anywhere',
   description: 'Use Svelte components anywhere',
+  icon: '',
   version: '2.3.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-stylup',
   description: 'A Rollup.js plugin to compile Stylus files',
+  icon: '',
   version: '1.3.4',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-njk-frontmatter',
   description: 'Powerful Nunjucks and Frontmatter integration for Vite with smart data merging',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

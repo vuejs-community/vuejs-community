@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'chiffre',
   description: 'Privacy-first, end-to-end encrypted analytics',
+  icon: '',
   category: 'nuxt',
   types: [
     'Analytics',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-zopfli',
   description: 'Use `zopfli` to compress resources.',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

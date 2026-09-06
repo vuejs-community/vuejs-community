@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-object-3d',
   description: 'Import 3d objects with obj, mtl and textures whilte importing .obj file',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

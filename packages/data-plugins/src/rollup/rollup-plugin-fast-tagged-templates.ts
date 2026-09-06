@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-fast-tagged-templates',
   description: 'Minify and transform FAST HTML and CSS tagged templates',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

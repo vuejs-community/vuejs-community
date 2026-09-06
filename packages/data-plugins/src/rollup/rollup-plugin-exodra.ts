@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-exodra',
   description: 'Rollup plugin that compiles Exodra JSX (delegates to the canonical Babel pipeline)',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

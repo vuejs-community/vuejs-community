@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'typed-router',
   description: 'Provide autocompletion for pages route names and params',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

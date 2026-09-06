@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-devtools-outline',
   description: 'A Vite plugin that adds a shortcut to show every element outline',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

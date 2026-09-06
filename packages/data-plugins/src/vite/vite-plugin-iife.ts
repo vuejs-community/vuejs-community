@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-iife',
   description: 'Vite plugin for simple IIFE-compiled script imports.',
+  icon: '',
   version: '2.1.2',
   category: 'plugin',
   tags: [

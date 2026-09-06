@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18n-types',
   description: 'Vite plugin to generate TypeScript types from localization-like JSON files (e.g., i18n keys).',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

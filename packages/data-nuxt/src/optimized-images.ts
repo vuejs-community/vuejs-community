@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'optimized-images',
   description: 'Automatically optimizes images used in Nuxt projects (jpeg, png, svg, webp and gif).',
+  icon: '',
   category: 'nuxt',
   types: [
     'Images',

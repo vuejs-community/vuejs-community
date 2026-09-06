@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'grid-layout-plus',
   description: '可拖拽可缩放的网格布局，vue-grid-layout 的 Vue 3 继任者',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['layout', 'drag-drop'],

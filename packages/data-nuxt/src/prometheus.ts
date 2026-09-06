@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'prometheus',
   description: 'Allows you to better understand what\'s going on with your application and how to optimize performance and other things in production',
+  icon: '',
   category: 'nuxt',
   types: [
     'Monitoring',

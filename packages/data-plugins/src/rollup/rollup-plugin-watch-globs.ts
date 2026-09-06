@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-watch-globs',
   description: 'A Rollup plugin that allows you to watch arbitrary files for changes (like static assets and stylesheets)',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

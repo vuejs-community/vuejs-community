@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'luch-request',
   description: '基于 Promise 的 uni-app 跨平台请求库，拦截器 / 上传下载 / 全局配置，uni-app 生态使用最广',
+  icon: '',
   category: 'uniapp',
   types: ['data-fetching'],
   tags: ['uni-app', 'request', 'http', 'ajax'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-icons-next',
   description: 'Vite Plugin for fast creating SVG sprites.',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

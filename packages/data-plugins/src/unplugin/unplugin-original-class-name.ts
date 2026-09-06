@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-original-class-name',
   description: 'Add original class names to the dist code',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

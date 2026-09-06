@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-prebundle-workers',
   description: 'Bundle classic Vite web workers during development.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

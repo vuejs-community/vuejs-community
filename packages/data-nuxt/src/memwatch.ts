@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'memwatch',
   description: 'Quickly watch real-time memory stats of your nuxt app',
+  icon: '',
   category: 'nuxt',
   types: [
     'Monitoring',

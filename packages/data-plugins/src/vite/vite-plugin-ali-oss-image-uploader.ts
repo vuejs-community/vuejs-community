@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ali-oss-image-uploader',
   description: 'A vite plugin about upload image to ali oss.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

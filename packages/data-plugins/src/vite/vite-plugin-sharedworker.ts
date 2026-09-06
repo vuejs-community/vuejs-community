@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sharedworker',
   description: 'Make SharedWorker works like Remote Procedure Call easily',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

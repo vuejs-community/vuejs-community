@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'netlify',
   description: 'Local emulation of the Netlify platform in development',
+  icon: '',
   category: 'nuxt',
   types: [
     'Deployment',

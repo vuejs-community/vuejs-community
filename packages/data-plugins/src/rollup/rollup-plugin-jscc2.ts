@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-jscc2',
   description: 'Conditional comments and variable replacement for rollup, based on jscc',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue3-define-reactive',
   description: 'macro for vue3 sfc',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

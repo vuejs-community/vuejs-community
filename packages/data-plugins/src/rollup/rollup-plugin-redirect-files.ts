@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-redirect-files',
   description: 'Redirect file imports using Rollup',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

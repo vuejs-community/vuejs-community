@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-hot-export',
   description: '',
+  icon: '',
   version: '0.5.9',
   category: 'plugin',
   tags: [

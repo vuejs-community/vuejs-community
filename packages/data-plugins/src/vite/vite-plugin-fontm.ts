@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-fontm',
   description: 'A Vite plugin for font subsetting and minification using Fontmin',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

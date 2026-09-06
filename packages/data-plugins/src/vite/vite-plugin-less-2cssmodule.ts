@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-less-2cssmodule',
   description: '可以在vite中使用*.less启用CSS Module功能',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

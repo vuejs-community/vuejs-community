@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'admin3',
   description: 'Java 21 + SpringBoot 3.2 + Vue3 + Element Plus 的轻巧后台框架',
+  icon: '',
   category: 'admin',
 
   types: ['fullstack-template'],

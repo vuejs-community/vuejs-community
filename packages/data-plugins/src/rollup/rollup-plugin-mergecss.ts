@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-mergecss',
   description: 'A plugin to combine all your CSS files into one and optionally remove the references to the old files from your HTML pages.',
+  icon: '',
   version: '0.1.20',
   category: 'plugin',
   tags: [

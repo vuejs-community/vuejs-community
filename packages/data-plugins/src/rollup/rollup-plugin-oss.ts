@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-oss',
   description: 'A rollup plugin to list dependency licenses and zip source files',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

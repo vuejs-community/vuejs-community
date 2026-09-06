@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-version-watcher',
   description: 'Vite 插件：自动检测前端版本更新并提示用户刷新页面',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

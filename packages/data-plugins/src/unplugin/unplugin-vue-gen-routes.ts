@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-gen-routes',
   description: 'A powerful route generator plugin for Vue.js applications using [unplugin](https://unplugin.unjs.io/). This plugin automatically generates Vue Router routes based on your file-based routing structure.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-charts',
   description: 'Nuxt module for vue-chrts',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

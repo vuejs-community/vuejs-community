@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-fervid',
   description: 'Transform Vue 3 SFC to JavaScript written in Rust.',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

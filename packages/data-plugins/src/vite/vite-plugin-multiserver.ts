@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-multiserver',
   description: 'A Vite plugin to launch multiple servers for the same app',
+  icon: '',
   version: '0.4.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'onu-ui',
   description: '轻量、有主见的 UnoCSS Vue 3 UI 库',
+  icon: '',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui', 'unocss'],

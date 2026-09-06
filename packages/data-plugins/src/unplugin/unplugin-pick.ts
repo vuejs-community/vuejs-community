@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-pick',
   description: 'Selective imports via `?pick`/`?drop` queries for server/client bundle splitting',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

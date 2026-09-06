@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-turbosnap',
   description: 'Enables the use of Chromatic Turbosnap in vite storybook projects',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

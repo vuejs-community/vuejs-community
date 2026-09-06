@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-command',
   description: 'Vite plugin to run custom commands on file changes',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-page-translate',
   description: 'A Vite plugin for immersive page translation',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

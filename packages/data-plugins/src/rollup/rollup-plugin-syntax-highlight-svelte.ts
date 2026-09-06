@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-syntax-highlight-svelte',
   description: 'A plugin for Vite and Rollup that creates Svelte components with highlighted code directly from files using Shiki',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

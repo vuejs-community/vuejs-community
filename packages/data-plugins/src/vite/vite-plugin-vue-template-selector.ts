@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-template-selector',
   description: 'A Vite plugin for Vue.js that allows dynamic template selection at build time.',
+  icon: '',
   version: '1.0.0-beta.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'oruga',
   description: '不绑定任何 CSS 框架的轻量 Vue 组件库',
+  icon: '',
   category: 'ui',
   types: ['ui-library', 'headless-ui'],
   tags: ['ui', 'css-agnostic'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-env',
   description: 'Provide VUE_APP_ env variables to VITE app',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-env-comparison',
   description: 'Plugin is used for synchronization environment variables from sample file to another one',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

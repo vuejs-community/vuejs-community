@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-spl',
   description: 'A Rollup plugin for Software Product Lines',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

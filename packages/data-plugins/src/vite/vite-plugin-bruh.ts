@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-bruh',
   description: 'A vite plugin to integrate with bruh',
+  icon: '',
   version: '0.6.0',
   category: 'plugin',
   tags: [

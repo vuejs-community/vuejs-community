@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-lwc-bundle',
   description: 'Generate a lightning web component JS bundle',
+  icon: '',
   version: '1.4.0',
   category: 'plugin',
   tags: [

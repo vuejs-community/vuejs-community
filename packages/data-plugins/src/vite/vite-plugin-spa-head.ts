@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-spa-head',
   description: 'Inject SEO / Open Graph / Twitter head tags into a SPA index.html at build time.',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

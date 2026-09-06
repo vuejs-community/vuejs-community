@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-bundle-styles',
   description: 'Bundles and compresses all CSS files into a single optimized CSS file.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

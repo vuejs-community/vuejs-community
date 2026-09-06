@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-react-svg',
   description: 'Optimize svg and load it as a React Component',
+  icon: '',
   version: '3.0.3',
   category: 'plugin',
   tags: [

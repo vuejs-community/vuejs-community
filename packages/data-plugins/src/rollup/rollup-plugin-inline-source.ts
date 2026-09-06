@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-inline-source',
   description: 'A rollup plugin for the npm inline-source tool that inlines flagged js, css, and img sources in html',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

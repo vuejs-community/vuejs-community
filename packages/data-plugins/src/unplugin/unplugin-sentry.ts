@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-sentry',
   description: 'Sentry plugin for webpack, vite, rollup, nuxt .etc.',
+  icon: '',
   version: '1.1.2',
   category: 'plugin',
   tags: [

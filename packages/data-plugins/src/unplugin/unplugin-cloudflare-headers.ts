@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-cloudflare-headers',
   description: 'Generates cloudflare compatible headers with _headers file',
+  icon: '',
   version: '0.3.3',
   category: 'plugin',
   tags: [

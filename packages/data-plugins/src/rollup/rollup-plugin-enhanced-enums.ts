@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-enhanced-enums',
   description: 'WIP: Rollup plugin that enhances the way TypeScript enums are processed',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

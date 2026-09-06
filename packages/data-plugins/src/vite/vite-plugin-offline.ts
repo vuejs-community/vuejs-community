@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-offline',
   description: 'Zero-config offline support and update awareness for Vite apps',
+  icon: '',
   version: '0.0.0',
   category: 'plugin',
   tags: [

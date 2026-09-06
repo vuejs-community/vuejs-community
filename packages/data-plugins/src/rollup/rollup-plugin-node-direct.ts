@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-node-direct',
   description: 'Bundle third-party dependencies in given directories',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

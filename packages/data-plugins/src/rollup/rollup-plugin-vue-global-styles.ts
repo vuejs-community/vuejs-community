@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-vue-global-styles',
   description: 'Inject global code into your styles',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

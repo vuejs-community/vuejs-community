@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svgr',
   description: 'Vite plugin to transform SVGs into React components',
+  icon: '',
   version: '5.2.0',
   category: 'plugin',
   tags: [

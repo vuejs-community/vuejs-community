@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-file-content-replace',
   description: 'Rollup plugin that replaces the content of a file with the content specified in another file',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

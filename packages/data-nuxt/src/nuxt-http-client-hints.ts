@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-http-client-hints',
   description: 'Nuxt HTTP Client Hints',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

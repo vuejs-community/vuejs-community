@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-copy2',
   description: 'Vite plugin: supports copying single and multiple files',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

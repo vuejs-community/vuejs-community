@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ssinc',
   description: 'The plugin for including SSI-like includes in Vite.',
+  icon: '',
   version: '1.0.11',
   category: 'plugin',
   tags: [

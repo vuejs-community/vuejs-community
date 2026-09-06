@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-polyfills',
   description: 'vite-plugin-polyfills',
+  icon: '',
   version: '0.0.0',
   category: 'plugin',
   tags: [

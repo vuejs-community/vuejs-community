@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-inline-svg',
   description: 'Support for inlining SVG files for Rollup',
+  icon: '',
   version: '3.0.3',
   category: 'plugin',
   tags: [

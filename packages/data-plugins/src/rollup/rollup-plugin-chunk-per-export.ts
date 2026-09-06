@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-chunk-per-export',
   description: 'Rollup plugin that ensures different exports are in different files for optimal tree-shaking',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

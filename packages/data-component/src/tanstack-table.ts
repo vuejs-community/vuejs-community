@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'tanstack-table',
   description: 'Headless 表格逻辑库，排序 / 筛选 / 分组自由组装 UI',
+  icon: '',
   category: 'component',
   types: ['table-library'],
   tags: ['headless', 'table'],

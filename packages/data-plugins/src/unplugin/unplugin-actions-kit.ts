@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-actions-kit',
   description: 'A toolkit for GitHub Actions',
+  icon: '',
   version: '0.3.2',
   category: 'plugin',
   tags: [

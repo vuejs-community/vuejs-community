@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-generate-file',
   description: 'Generate extra file to dist folder.',
+  icon: '',
   version: '0.3.1',
   category: 'plugin',
   tags: [

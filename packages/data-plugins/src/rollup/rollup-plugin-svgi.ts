@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-svgi',
   description: 'Import SVG files as JSX components',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

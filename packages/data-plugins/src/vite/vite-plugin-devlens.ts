@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-devlens',
   description: 'AI-powered error explainer and Lighthouse auditor for Vite dev servers. Shared daemon handles concurrency across multiple projects.',
+  icon: '',
   version: '0.2.2',
   category: 'plugin',
   tags: [

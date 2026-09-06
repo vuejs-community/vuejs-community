@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-clear',
   description: 'Rollup clean plugin',
+  icon: '',
   version: '2.0.7',
   category: 'plugin',
   tags: [

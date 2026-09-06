@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-inject-process-env',
   description: 'Inject environment variables in process.env with Rollup',
+  icon: '',
   version: '1.3.1',
   category: 'plugin',
   tags: [

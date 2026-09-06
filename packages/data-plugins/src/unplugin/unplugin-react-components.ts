@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-react-components',
   description: 'On-demand components auto importing for React',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

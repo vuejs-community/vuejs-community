@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-magical-svg',
   description: 'An all-in-one Vite plugin that magically makes working with SVGs and bundling them a breeze',
+  icon: '',
   version: '1.10.3',
   category: 'plugin',
   tags: [

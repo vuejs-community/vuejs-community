@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-json-schema-generator',
   description: 'Vite plugin to generate a JSON schema from a TypeScript type definition',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

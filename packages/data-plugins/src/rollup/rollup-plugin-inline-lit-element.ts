@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-inline-lit-element',
   description: 'Rollup plugin to inline external styles in lit-element',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

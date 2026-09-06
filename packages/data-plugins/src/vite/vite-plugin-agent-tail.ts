@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-agent-tail',
   description: 'Vite plugin for agent-tail — pipes browser console logs to files on disk during development.',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

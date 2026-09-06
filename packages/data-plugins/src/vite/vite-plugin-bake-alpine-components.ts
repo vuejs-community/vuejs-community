@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-bake-alpine-components',
   description: 'Vite plugin that bakes Alpine.js components and directives into static HTML at build time',
+  icon: '',
   version: '0.3.2',
   category: 'plugin',
   tags: [

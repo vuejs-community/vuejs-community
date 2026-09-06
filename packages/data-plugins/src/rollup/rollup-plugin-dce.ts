@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-dce',
   description: 'A rollup plugin that fails when you have dead code anywhere',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

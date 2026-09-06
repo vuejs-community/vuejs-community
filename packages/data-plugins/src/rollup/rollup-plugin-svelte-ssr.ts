@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-svelte-ssr',
   description: 'Server-side rendering of Svelte app at build-time using Rollup plugin',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

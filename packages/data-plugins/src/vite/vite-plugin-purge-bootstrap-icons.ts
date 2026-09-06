@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-purge-bootstrap-icons',
   description: 'Vite plugin to remove unused Bootstrap Icons from your bundle',
+  icon: '',
   version: '1.0.5',
   category: 'plugin',
   tags: [

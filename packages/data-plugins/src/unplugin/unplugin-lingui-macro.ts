@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-lingui-macro',
   description: 'Bundler plugin for compiling Lingui macros in plain JavaScript and TypeScript modules.',
+  icon: '',
   version: '0.4.1',
   category: 'plugin',
   tags: [

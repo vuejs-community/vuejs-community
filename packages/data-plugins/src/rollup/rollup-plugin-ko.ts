@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-ko',
   description: 'Roll .ko files',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

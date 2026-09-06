@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-html-input',
   description: 'Rollup plugin to use HTML files as input',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

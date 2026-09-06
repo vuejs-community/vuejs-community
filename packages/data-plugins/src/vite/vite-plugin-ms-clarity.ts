@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ms-clarity',
   description: 'Vite plugin for Microsoft Clarity.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

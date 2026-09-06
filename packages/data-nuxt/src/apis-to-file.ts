@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'apis-to-file',
   description: 'Build module to merge and transform multiple API and GraphQL requests into a single one and loaded only when needed, like a payload extractor',
+  icon: '',
   category: 'nuxt',
   types: [
     'Performance',

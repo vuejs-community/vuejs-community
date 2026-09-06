@@ -2,6 +2,8 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-graphql-playground',
+  description: '',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

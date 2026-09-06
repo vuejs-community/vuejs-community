@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-stylus4sapper',
   description: 'A rollup plugin to compile stylus for sapper',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

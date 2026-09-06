@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-node-mock-server',
   description: 'Rollup plugin to run node-mock-server both as server and as mock api',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

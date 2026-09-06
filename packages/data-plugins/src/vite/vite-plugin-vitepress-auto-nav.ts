@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vitepress-auto-nav',
   description: 'Auto-generate VitePress default-theme nav and sidebar from runtime pages',
+  icon: '',
   version: '4.0.0',
   category: 'plugin',
   tags: [

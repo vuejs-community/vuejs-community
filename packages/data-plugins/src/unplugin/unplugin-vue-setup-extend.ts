@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-setup-extend',
   description: 'vue setup extend options name',
+  icon: '',
   version: '0.3.5',
   category: 'plugin',
   tags: [

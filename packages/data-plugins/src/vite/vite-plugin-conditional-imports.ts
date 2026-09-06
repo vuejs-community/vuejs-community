@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-conditional-imports',
   description: 'Strip conditional imports in production builds and warn on leftover references',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sveltekit-telephone-dev',
   description: 'Telephone: Simple RPC for Sveltekit',
+  icon: '',
   version: '0.3.0-d1',
   category: 'plugin',
   tags: [

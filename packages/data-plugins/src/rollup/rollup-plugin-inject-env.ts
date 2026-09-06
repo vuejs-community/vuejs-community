@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-inject-env',
   description: 'Statically inject environment variables from the dotenv file.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

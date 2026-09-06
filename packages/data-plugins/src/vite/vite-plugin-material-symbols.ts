@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-material-symbols',
   description: 'Selective loading of Material Symbols for production',
+  icon: '',
   version: '0.10.0',
   category: 'plugin',
   tags: [

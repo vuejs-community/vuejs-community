@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'solar-icons',
   description: 'Nuxt module that provides seamless integration of Solar Icons with auto-import, global configuration, and reactive controls.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

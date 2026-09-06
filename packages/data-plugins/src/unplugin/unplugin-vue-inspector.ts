@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-inspector',
   description: 'jump to local IDE source code while click the element of browser automatically.',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

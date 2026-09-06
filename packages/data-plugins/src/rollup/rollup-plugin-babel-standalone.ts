@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-babel-standalone',
   description: 'Seamless integration between Rollup and Babel.',
+  icon: '',
   version: '2.7.2',
   category: 'plugin',
   tags: [

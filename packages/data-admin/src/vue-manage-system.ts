@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-manage-system',
   description: 'Vue3 + Element Plus + TypeScript 的经典后台管理系统',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

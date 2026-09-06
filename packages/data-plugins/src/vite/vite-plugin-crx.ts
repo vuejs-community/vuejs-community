@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-crx',
   description: 'Vite plugin for Chrome Extensions',
+  icon: '',
   version: '0.0.0-beta.0',
   category: 'plugin',
   tags: [

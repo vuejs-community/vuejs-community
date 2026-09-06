@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-icons-icker',
   description: 'Vite Plugin for fast creating SVG sprites.',
+  icon: '',
   version: '2.0.3',
   category: 'plugin',
   tags: [

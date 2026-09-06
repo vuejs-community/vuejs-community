@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-meta-pixel',
   description: 'Meta (Facebook) pixel integration for Nuxt. Multi-pixel, auto page view and more.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Analytics',

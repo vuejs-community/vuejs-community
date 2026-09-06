@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-maplibre-gl',
   description: 'MapLibre GL JS 的 Vue 3 插件',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['map'],

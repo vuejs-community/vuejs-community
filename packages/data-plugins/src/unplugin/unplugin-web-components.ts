@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-web-components',
   description: 'Building vue3 components to webComponents on vite',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

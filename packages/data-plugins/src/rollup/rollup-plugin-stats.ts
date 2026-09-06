@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-stats',
   description: 'Vite/Rolldown/Rollup plugin to generate bundle stats JSON file',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-portless',
   description: 'Out of the box support for Vite + Portless',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

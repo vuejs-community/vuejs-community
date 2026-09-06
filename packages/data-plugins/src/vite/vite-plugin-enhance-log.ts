@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-enhance-log',
   description: 'A vite plugin to log filename, log line, log argument name and separator',
+  icon: '',
   version: '0.6.2',
   category: 'plugin',
   tags: [

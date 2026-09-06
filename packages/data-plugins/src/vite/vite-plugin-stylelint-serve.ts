@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-stylelint-serve',
   description: 'Stylelint plugin for vite serve.',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

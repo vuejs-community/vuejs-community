@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-auto-vconsole',
   description: 'Use vconsole as needed in Vite and Webpack',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

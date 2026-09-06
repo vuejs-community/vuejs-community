@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-inject-css',
   description: '自动注入对应的 Style 文件及 UI 库组件样式，无需关心样式引入问题，助力于组件库开发 💪',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vuestic-ui',
   description: '注重可访问性与快速开发的 Vue 3 组件库',
+  icon: '',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui', 'accessibility'],

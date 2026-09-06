@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-routes',
   description: 'A vite plugin support setup React Router by JSON config file.',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

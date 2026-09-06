@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-whistle-proxy',
   description: 'A proxy plugin for build tools implemented by whistle.',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

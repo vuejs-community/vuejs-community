@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dileep-export',
   description: 'Image export plugin for Ssam',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

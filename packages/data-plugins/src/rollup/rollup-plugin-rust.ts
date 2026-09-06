@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-rust',
   description: 'A rollup plugin that that compile Rust code into WebAssembly modules',
+  icon: '',
   version: '1.2.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ant-design-icons-svg-replace',
   description: 'Replace Ant Design Icons SVG with custom SVG',
+  icon: '',
   version: '1.3.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mdicon2svg',
   description: 'Vite plugin to transform md-icon to svgs',
+  icon: '',
   version: '0.2.4',
   category: 'plugin',
   tags: [

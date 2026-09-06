@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'netlify-files',
   description: 'Nuxt module to create new _headers, _redirects and netlify.toml files for Netlify or to use existing ones',
+  icon: '',
   category: 'nuxt',
   types: [
     'Deployment',

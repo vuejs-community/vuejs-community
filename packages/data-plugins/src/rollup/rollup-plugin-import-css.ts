@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-import-css',
   description: 'A Rollup plugin to import CSS into JavaScript',
+  icon: '',
   version: '4.2.1',
   category: 'plugin',
   tags: [

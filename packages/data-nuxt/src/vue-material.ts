@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-material',
   description: 'Module to join nuxt and vue-material framework so you can build well-designed apps with dynamic themes and components with an ease-to-use API.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

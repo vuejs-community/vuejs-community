@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue3-notification',
   description: 'vue-notification 的 Vue 3 版本',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['notification'],

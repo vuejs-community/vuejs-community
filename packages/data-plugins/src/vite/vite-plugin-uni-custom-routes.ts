@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-uni-custom-routes',
   description: 'Custom short routes for uni-app H5 pages',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

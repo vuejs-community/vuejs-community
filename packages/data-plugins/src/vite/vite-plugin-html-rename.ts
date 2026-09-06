@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-rename',
   description: 'A Vite plugin that automatically renames HTML files based on entry names during the build process',
+  icon: '',
   version: '1.1.2',
   category: 'plugin',
   tags: [

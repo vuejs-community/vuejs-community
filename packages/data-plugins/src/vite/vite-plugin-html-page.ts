@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-page',
   description: 'Vite plugin to support multiple pages with single HTML',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

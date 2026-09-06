@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-ascii',
   description: 'Rewrite JavaScript to escape any non-ASCII characters in string literals.',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

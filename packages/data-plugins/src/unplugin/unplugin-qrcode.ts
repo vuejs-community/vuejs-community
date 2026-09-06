@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-qrcode',
   description: 'Print the QR code of the server address of Vite or Webpack in the console.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-spoon',
   description: 'Visual UI editor that writes changes back into real source files. Click any element in the browser, edit it, and watch the actual code bend.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

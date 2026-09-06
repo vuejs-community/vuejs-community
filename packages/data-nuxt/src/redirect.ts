@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'redirect',
   description: 'Nuxt module to dynamically redirect initial requests',
+  icon: '',
   category: 'nuxt',
   types: [
     'SEO',

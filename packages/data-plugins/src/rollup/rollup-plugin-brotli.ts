@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-brotli',
   description: 'Compress your Rollup bundle with Brotli',
+  icon: '',
   version: '3.1.0',
   category: 'plugin',
   tags: [

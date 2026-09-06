@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-preserve-css',
   description: 'a rollup plugin to process css. It will preserve the import statement of css and css files in the output bundle when preserveModule is true',
+  icon: '',
   version: '0.0.1-alpha.1',
   category: 'plugin',
   tags: [

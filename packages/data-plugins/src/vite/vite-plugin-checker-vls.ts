@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-checker-vls',
   description: 'VLS preset for vite-plugin-ts',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

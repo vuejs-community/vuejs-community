@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unocss-preset-uni',
   description: 'uni-helper 出品的 UnoCSS 预设，专为 uni-app 多端兼容打造',
+  icon: '',
   category: 'uniapp',
   types: ['utility-library'],
   tags: ['uni-app', 'vue3', 'unocss', 'css'],

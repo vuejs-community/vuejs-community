@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-data-files',
   description: 'Bundle web workers that work in nodejs and the browser, without a separate build target.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

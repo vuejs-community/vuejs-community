@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-server',
   description: 'Vite plugin for React Server Components (RSC)',
+  icon: '',
   version: '4.1.0',
   category: 'plugin',
   tags: [

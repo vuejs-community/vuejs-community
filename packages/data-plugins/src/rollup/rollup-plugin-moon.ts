@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-moon',
   description: 'Rollup plugin for Moon',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

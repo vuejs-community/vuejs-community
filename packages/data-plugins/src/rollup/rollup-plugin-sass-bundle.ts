@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-sass-bundle',
   description: 'A simple rollup plugin for transpile sass and bundle and output a single file',
+  icon: '',
   version: '1.2.0',
   category: 'plugin',
   tags: [

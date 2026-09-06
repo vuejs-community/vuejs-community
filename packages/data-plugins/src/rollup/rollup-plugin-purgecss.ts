@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-purgecss',
   description: 'Rollup plugin for purgecss',
+  icon: '',
   version: '8.0.0',
   category: 'plugin',
   tags: [

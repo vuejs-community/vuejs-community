@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-image-options',
   description: '{{description}}',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

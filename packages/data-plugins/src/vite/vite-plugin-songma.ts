@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-songma',
   description: 'Vite plugin to transpile and bundle SongMa (.smjs / .smts / .smjx / .smtx) files in React, Vue, Svelte and Vanilla projects',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

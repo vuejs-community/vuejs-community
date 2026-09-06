@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-virtual-html',
   description: 'Vite plugin to load html anywhere',
+  icon: '',
   version: '1.2.7',
   category: 'plugin',
   tags: [

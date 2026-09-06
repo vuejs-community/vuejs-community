@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-web-extension-support-inject',
   description: 'A vite plugin for generating cross browser platform, ES module based web extensions',
+  icon: '',
   version: '5.0.0',
   category: 'plugin',
   tags: [

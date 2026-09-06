@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-slim',
   description: 'Detect unused dependencies and source files',
+  icon: '',
   version: '0.2.3',
   category: 'plugin',
   tags: [

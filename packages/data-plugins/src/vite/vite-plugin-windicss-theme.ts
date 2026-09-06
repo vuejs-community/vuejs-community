@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-windicss-theme',
   description: 'Access your WindiCSS theme and colors objects from a vite app.',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

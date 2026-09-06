@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vueuse',
   description: 'Collection of essential Vue Composition Utilities for Vue 2 and 3',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-uniapp-root',
   description: 'Injecting a root component for uni-app pages',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

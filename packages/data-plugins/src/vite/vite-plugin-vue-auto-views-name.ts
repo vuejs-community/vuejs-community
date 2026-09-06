@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-auto-views-name',
   description: 'A Vite plugin that allows customization of Vue component name.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

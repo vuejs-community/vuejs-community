@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-opmage',
   description: 'A Vite plugin for optimizing images.',
+  icon: '',
   version: '1.0.0-alpha',
   category: 'plugin',
   tags: [

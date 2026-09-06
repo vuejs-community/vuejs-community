@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-twind',
   description: 'Generates tailwind CSS from Vue component class names, and injects them into the component or emits them. Useful for Vue web components',
+  icon: '',
   version: '0.1.5',
   category: 'plugin',
   tags: [

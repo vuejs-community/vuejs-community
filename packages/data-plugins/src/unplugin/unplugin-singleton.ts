@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-singleton',
   description: 'Unplugin: 单例 dev/preview，就绪后写入锁文件供 E2E、脚本读取',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

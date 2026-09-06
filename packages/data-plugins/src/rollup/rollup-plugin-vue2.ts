@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-vue2',
   description: 'Rollup plugin for Vue 2.0 components',
+  icon: '',
   version: '0.8.1',
   category: 'plugin',
   tags: [

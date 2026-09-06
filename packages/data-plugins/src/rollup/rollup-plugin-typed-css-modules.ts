@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-typed-css-modules',
   description: 'a rollup plugin to create css modules typescript declaration files',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

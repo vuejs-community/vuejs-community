@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-virtual-modules',
   description: 'Vite plugin to load customize virtual modules',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

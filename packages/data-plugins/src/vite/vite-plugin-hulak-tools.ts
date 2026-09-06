@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-hulak-tools',
   description: 'Vite plugins that bridge vite-plugin-handlebars to JavaScript: import HTML templates as functions with partials, conditionals, and zero runtime dependencies.',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

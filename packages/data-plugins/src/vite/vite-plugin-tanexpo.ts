@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tanexpo',
   description: 'Vite plugin for TanExpo web app',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

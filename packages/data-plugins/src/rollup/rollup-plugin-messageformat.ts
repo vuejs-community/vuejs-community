@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-messageformat',
   description: 'Rollup plugin for MessageFormat',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

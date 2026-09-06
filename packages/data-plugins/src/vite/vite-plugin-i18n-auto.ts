@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18n-auto',
   description: 'Help front-end development to quickly implement i18n',
+  icon: '',
   version: '1.0.10',
   category: 'plugin',
   tags: [

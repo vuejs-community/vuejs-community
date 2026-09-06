@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-react-auto-components',
   description: 'On-demand React components auto-import for Vite / Webpack / Rollup',
+  icon: '',
   version: '0.2.8',
   category: 'plugin',
   tags: [

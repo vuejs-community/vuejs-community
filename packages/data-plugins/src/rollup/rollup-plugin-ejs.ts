@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-ejs',
   description: 'ejs loader plugin for rollup.js',
+  icon: '',
   version: '4.0.1',
   category: 'plugin',
   tags: [

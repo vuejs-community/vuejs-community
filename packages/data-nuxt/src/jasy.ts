@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'jasy',
   description: 'Author PDFs as Vue components in Nuxt - client or server, zero-config. ZUGFeRD/XRechnung ready.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

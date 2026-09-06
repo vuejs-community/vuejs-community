@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-pug',
   description: 'Vite plugin for transform Pug templates into HTML',
+  icon: '',
   version: '0.4.1',
   category: 'plugin',
   tags: [

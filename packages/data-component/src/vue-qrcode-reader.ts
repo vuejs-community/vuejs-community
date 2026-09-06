@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-qrcode-reader',
   description: '摄像头二维码扫描识别组件',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['qrcode', 'camera'],

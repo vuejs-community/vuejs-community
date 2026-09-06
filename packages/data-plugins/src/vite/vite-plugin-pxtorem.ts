@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-pxtorem',
   description: 'A vite plugin use to transform px of inline style to rem',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lazy-ssr',
   description: 'Vite Plugin to lazilly produce Server-Side Rendered pages using Puppeteer',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

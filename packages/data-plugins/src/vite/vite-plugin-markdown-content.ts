@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-markdown-content',
   description: 'A Vite plugin that generates a website context from Markdown files',
+  icon: '',
   version: '0.0.3-alpha2',
   category: 'plugin',
   tags: [

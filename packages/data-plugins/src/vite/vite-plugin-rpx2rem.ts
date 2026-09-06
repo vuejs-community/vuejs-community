@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-rpx2rem',
   description: 'A Vite plugin for converts px(rpx) to rem in css/less/js/jsx files',
+  icon: '',
   version: '1.0.5',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-componentsbook-module',
   description: 'Storybook-like experience for Nuxt components',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-index',
   description: 'Rollup plugin to inject script and link tags into a HTML template.',
+  icon: '',
   version: '1.1.4',
   category: 'plugin',
   tags: [

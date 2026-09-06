@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rolldown-plugin-dts',
   description: 'A Rolldown plugin to generate and bundle dts files.',
+  icon: '',
   version: '0.28.5',
   category: 'plugin',
   tags: [

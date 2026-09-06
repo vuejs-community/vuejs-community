@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'alias',
   description: 'It automatically creates an alias for the components and page of the path',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

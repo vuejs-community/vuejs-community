@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-import-shaking',
   description: 'Import modules as needed',
+  icon: '',
   version: '1.2.0',
   category: 'plugin',
   tags: [

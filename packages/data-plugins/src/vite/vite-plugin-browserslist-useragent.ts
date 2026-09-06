@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-browserslist-useragent',
   description: 'A utility vite plugin to compile browserslist query to a RegExp to test browser useragent.',
+  icon: '',
   version: '0.7.0',
   category: 'plugin',
   tags: [

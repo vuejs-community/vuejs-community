@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-iconify',
   description: 'Unplugin for iconify.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

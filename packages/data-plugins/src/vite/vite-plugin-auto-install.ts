@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-install',
   description: 'auto install dependencies when you exec `npm run dev`',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

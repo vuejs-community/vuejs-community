@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-dev-proxy',
   description: '🛰 Dev proxy enhanced with transform response json data to ts, mock data, identity auth, etc. Currently only vite is supported',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

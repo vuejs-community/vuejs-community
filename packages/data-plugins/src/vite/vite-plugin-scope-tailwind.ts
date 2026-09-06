@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-scope-tailwind',
   description: 'A vite-plugin to encapsulate and scope your TailwindCSS styles to your library and prevent them affecting styles outside',
+  icon: '',
   version: '2.0.2',
   category: 'plugin',
   tags: [

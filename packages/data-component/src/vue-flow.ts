@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-flow',
   description: 'Vue 3 流程图组件，缩放平移、小地图、节点连线开箱即用',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['flow', 'diagram'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-image-minify',
   description: 'Vite plugin to minify images.',
+  icon: '',
   version: '0.0.9',
   category: 'plugin',
   tags: [

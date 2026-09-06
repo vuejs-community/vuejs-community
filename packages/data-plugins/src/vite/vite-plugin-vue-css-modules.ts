@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-css-modules',
   description: '✨ Ultimate solution for using CSS modules without any hassle. Automatic replacement for Vue templates and scripts',
+  icon: '',
   version: '4.0.1',
   category: 'plugin',
   tags: [

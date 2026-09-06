@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-switch-hosts',
   description: 'switch hosts by service worker for each origin in browser without modify system hosts file',
+  icon: '',
   version: '0.0.8',
   category: 'plugin',
   tags: [

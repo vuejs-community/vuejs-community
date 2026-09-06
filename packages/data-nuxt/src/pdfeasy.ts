@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'pdfeasy',
   description: 'A JavaScript Client/Server Side PDF-Generator based in PDFKit',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

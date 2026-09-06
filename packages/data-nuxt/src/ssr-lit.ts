@@ -2,6 +2,8 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'ssr-lit',
+  description: '',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sleep',
   description: 'vite plugin you never need',
+  icon: '',
   version: '0.0.1-never.1',
   category: 'plugin',
   tags: [

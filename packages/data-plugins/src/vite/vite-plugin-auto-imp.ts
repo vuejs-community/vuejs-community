@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-imp',
   description: '#### 介绍 vite 样式按需加载',
+  icon: '',
   version: '1.0.8',
   category: 'plugin',
   tags: [

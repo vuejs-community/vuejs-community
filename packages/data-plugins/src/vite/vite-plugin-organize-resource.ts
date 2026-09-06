@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-organize-resource',
   description: 'Organize resource files and register them in window',
+  icon: '',
   version: '1.1.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-inject-template',
   description: 'Inject html templates as innerHTML',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

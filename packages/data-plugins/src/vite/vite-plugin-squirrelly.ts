@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-squirrelly',
   description: 'A Vite plugin to render files with SquirrellyJS',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

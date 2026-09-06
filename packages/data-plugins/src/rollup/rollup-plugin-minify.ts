@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-minify',
   description: 'Rollup plugin to minify generated format into new minified file, with source maps, using uglify-js.',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

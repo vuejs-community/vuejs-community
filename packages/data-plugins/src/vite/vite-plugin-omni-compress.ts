@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-omni-compress',
   description: 'Vite plugin to compress image and audio assets at build time using omni-compress',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

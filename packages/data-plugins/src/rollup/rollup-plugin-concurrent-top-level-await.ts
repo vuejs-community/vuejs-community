@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-concurrent-top-level-await',
   description: 'Rollup (and Vite) plugin enabling concurrent execution of modules that contain top level await.',
+  icon: '',
   version: '0.4.3',
   category: 'plugin',
   tags: [

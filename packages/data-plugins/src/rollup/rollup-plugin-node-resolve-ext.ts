@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-node-resolve-ext',
   description: 'Bundle third-party dependencies in node_modules',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

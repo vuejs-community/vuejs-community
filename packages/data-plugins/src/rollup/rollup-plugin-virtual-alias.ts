@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-virtual-alias',
   description: 'Alias dependencies using virtual modules. (Such as \'react\' to \'preact-compat\')',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

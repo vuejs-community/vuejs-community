@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'mcp',
   description: 'Create MCP servers directly in your Nuxt application with zero configuration.',
+  icon: '',
   category: 'nuxt',
   types: [
     'AI',

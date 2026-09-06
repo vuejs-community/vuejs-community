@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-restart',
   description: 'Custom files/globs to restart Vite server',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

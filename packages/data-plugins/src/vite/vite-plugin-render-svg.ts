@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-render-svg',
   description: 'Vite plugin to render SVG files to PNG',
+  icon: '',
   version: '1.2.1',
   category: 'plugin',
   tags: [

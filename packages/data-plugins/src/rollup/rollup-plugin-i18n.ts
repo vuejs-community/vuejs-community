@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-i18n',
   description: 'Embed localization in your bundle',
+  icon: '',
   version: '0.3.1',
   category: 'plugin',
   tags: [

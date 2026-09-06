@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-simple-json-server',
   description: 'Provide a file-based mock API for Vite in dev mode',
+  icon: '',
   version: '0.6.2',
   category: 'plugin',
   tags: [

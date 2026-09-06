@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-compat',
   description: 'A plugin for legacy environments',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

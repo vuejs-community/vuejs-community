@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-import-css',
   description: 'Used to resolve that css modules loaded in vite react projects must write style references in the tag attribute className',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

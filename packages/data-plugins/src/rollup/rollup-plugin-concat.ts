@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-concat',
   description: 'A Rollup plugin to concatenate files',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'compodium',
   description: 'A plug an play component playground for Nuxt.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

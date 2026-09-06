@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vee-validate',
   description: '表单状态与校验库，v4 全面支持 Vue 3，schema 驱动',
+  icon: '',
   category: 'component',
   types: ['validation', 'form'],
   tags: ['form'],

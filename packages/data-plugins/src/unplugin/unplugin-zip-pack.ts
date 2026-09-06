@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-zip-pack',
   description: 'Zip your build files with JSZip, powered by unplugin',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

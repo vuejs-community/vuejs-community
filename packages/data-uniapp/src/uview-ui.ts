@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'uview-ui',
   description: 'uView 2.0，老牌 uni-app 生态框架，全面兼容 nvue；主要沉淀在 Vue2 项目，Vue3 项目建议使用 uview-plus',
+  icon: '',
   category: 'uniapp',
   types: ['ui-library', 'mobile-ui'],
   tags: ['uni-app', 'ui', 'mobile', 'nvue'],

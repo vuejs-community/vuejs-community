@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-antd-dayjs',
   description: 'vite plugin for replacing moment.js with Day.js',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

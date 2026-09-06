@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-async-define',
   description: 'A rollup plugin for async-define, a simple amd runner',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

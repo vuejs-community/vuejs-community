@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-json-dts',
   description: 'Automatically generate better typings for json files. Supports json modules',
+  icon: '',
   version: '1.3.2',
   category: 'plugin',
   tags: [

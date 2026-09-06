@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-image-to-webp',
   description: 'A vite plugin which will, when building, find all .jpeg, .jpg, and .png images, convert them to .webp and then adjust the image urls accordingly.',
+  icon: '',
   version: '1.0.14',
   category: 'plugin',
   tags: [

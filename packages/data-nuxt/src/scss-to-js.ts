@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'scss-to-js',
   description: 'Load SCSS Variables into Nuxt instance for use in Templates/Scripts.',
+  icon: '',
   category: 'nuxt',
   types: [
     'CSS',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sharp',
   description: 'A Vite plugin for image compression using sharp and svgo',
+  icon: '',
   version: '1.7.0',
   category: 'plugin',
   tags: [

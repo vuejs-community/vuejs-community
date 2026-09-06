@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-port',
   description: 'A Vite plugin that automatically finds and uses the next available port when the default port is occupied',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-netlify-optimize',
   description: 'Optimizes a single-page-application for hosting on netlify. Pre-renders pages with skeleton html',
+  icon: '',
   version: '0.0.12',
   category: 'plugin',
   tags: [

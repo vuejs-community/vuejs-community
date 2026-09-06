@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'localforage',
   description: 'LocalForage is a fast and simple storage library for JavaScript',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

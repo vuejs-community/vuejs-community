@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-svgo-loader',
   description: 'Nuxt module to load SVG files as Vue components, using SVGO for optimization.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Images',

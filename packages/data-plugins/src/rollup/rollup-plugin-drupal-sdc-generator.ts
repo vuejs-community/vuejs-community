@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-drupal-sdc-generator',
   description: 'This is a [Rollup](https://rollupjs.org) plugin that creates [single directory components](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components) for embedding your app in a [Drupal](https://www.drupal.org) module or theme.',
+  icon: '',
   version: '1.2.23',
   category: 'plugin',
   tags: [

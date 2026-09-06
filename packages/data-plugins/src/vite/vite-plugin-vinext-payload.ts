@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vinext-payload',
   description: 'Vite plugin for running Payload CMS with vinext',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

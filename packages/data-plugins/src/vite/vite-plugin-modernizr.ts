@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-modernizr',
   description: 'A Vite plugin to generate and use a custom Modernizr build based on a JSON config.',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

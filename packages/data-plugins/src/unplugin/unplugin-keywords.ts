@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-keywords',
   description: 'A build plugin for structural string literal minification and obfuscation (property mangling alternative)',
+  icon: '',
   version: '2.18.0',
   category: 'plugin',
   tags: [

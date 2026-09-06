@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-import-folder',
   description: 'A Rollup plugin to resolve modules using the folder name',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

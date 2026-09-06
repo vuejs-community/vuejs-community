@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue3-google-map',
   description: 'Google Maps 的 Vue 3 组合式组件',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['map'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'formkit',
   description: '表单框架，schema 生成表单、40+ 输入类型',
+  icon: '',
   category: 'component',
   types: ['form-library'],
   tags: ['schema'],

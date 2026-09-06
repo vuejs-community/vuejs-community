@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-style-dictionary',
   description: 'Vite plugin that runs Style Dictionary using Vite\'s module graph.',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

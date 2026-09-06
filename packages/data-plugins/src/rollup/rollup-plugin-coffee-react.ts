@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-coffee-react',
   description: 'Rollup plugin to transpile .coffee and .cjsx files',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

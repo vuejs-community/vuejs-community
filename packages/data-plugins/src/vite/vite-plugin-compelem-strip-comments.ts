@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-compelem-strip-comments',
   description: 'Vite plugin that strips HTML comments inside compelem h`` templates from TS/TSX sources at compile time.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-jsx',
   description: 'Import SVG files as JSX components',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

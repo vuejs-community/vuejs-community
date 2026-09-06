@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-cleaner',
   description: 'A rollup plugin to clean directories before rebuilding.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

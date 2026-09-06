@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-detect-duplicated-deps',
   description: 'Detect duplicate packaged dependencies',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

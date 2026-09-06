@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-inject',
   description: 'Split your index.html into multiple files and inject them where ever you want!',
+  icon: '',
   version: '1.1.2',
   category: 'plugin',
   tags: [

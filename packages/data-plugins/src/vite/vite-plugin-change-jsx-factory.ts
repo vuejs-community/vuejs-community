@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-change-jsx-factory',
   description: 'A vite plugin to change the jsx factory',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

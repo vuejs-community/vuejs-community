@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-eink-devtools',
   description: 'A Vite plugin for integrating DevTools for Eink displays',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

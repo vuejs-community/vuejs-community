@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-11th-server',
   description: 'A vite plugin that fast build server',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

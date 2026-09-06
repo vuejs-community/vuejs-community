@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ziggy',
   description: 'Vite plugin for Ziggy',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

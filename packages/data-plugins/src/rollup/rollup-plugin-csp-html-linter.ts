@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-csp-html-linter',
   description: 'A Rollup plugin to lint your HTML for Content Security Policy Violations.',
+  icon: '',
   version: '1.0.5',
   category: 'plugin',
   tags: [

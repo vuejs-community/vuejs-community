@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-generate-ts-service',
   description: '根据api文件夹自动生成api的ts类型',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

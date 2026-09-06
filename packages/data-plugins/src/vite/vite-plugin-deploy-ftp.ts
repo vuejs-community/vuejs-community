@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-deploy-ftp',
   description: '将dist目录下的文件上传到ftp服务器',
+  icon: '',
   version: '3.4.1',
   category: 'plugin',
   tags: [

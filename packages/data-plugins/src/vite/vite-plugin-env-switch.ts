@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-env-switch',
   description: 'change your env easily',
+  icon: '',
   version: '1.5.1',
   category: 'plugin',
   tags: [

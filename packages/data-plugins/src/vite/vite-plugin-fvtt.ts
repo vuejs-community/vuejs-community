@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-fvtt',
   description: 'A Vite plugin for module and system development for Foundry VTT',
+  icon: '',
   version: '0.2.12',
   category: 'plugin',
   tags: [

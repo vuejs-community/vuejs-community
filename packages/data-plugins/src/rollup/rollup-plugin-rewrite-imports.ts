@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-rewrite-imports',
   description: 'Append a string to esm import paths in rollup.',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-jso-obfuscator',
   description: 'Obfuscate and protect your Vite build output with JavaScript Obfuscator. Official Vite plugin for javascriptobfuscator.com: string encryption, control-flow flattening, member renaming.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

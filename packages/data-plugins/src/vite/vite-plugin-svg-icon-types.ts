@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-icon-types',
   description: 'Vite plugin that generates typed svg icon names and a preview page.',
+  icon: '',
   version: '0.2.4',
   category: 'plugin',
   tags: [

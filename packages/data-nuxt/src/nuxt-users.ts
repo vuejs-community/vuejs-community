@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-users',
   description: 'A comprehensive user management module for Nuxt 3 and Nuxt 4 applications with authentication, authorization, database support, and CLI tools',
+  icon: '',
   category: 'nuxt',
   types: [
     'Security',

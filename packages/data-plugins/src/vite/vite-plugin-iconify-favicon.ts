@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-iconify-favicon',
   description: 'Vite 插件：从本地 @iconify-json 图标集提取图标，生成支持深色模式的 SVG favicon',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

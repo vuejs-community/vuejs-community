@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-monaco-editor-i18n',
   description: '为 Monaco Editor 提供多语言支持的 Vite 插件',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

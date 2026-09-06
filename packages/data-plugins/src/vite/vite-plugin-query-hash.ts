@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-query-hash',
   description: 'Vite plugin that adds a query param hash to assets via the manifest',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

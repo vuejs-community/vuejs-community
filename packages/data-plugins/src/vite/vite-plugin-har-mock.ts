@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-har-mock',
   description: 'A Vite plugin for mocking API requests using chrome HAR files',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

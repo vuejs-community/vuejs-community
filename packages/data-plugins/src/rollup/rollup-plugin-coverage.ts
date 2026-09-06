@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-coverage',
   description: 'Istanbul unit test coverage plugin for Rollup.',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

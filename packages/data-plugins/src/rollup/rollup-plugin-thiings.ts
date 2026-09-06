@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-thiings',
   description: 'Seamless integration between Rollup and Thiings ',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

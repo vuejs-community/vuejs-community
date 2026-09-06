@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-404-redirect',
   description: '解决 vite 项目单页面 history 路由中 404 页面跳转问题。',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

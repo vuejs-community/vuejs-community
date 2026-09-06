@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-useless-blobs',
   description: 'An easier way of using useless-blobs in your Nuxt project!',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

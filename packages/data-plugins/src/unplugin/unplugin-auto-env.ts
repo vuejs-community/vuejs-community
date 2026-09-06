@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-auto-env',
   description: 'Automatically generate env type',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

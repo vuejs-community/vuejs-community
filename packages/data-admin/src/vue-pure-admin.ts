@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-pure-admin',
   description: '全面 ESM + Vue3 + Vite + Element Plus + TS 的后台管理系统，兼容移动端，另有官方精简版 pure-admin-thin',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

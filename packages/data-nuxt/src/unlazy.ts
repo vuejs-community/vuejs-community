@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unlazy',
   description: 'Lazy loading library for placeholder images',
+  icon: '',
   category: 'nuxt',
   types: [
     'Images',

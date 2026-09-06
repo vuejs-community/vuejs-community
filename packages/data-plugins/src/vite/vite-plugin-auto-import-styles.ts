@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-import-styles',
   description: 'Auto import css/sass/less for your code',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

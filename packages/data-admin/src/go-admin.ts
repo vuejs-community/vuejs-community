@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'go-admin',
   description: 'Gin + Vue 的前后端分离权限管理脚手架，支持多套 UI 与多租户',
+  icon: '',
   category: 'admin',
 
   types: ['fullstack-template'],

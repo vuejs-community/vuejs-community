@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-add-gitinfo',
   description: 'Include git information in your vite build',
+  icon: '',
   version: '0.3.4',
   category: 'plugin',
   tags: [

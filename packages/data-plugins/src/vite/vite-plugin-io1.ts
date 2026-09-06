@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-io1',
   description: 'Publish your Vite dev server to the public internet over a bitmot io1 relay, with the CLI auto-managed.',
+  icon: '',
   version: '0.1.8',
   category: 'plugin',
   tags: [

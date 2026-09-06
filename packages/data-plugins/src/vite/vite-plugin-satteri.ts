@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-satteri',
   description: 'Vite plugin for processing Markdown and MDX with Sätteri',
+  icon: '',
   version: '0.3.5',
   category: 'plugin',
   tags: [

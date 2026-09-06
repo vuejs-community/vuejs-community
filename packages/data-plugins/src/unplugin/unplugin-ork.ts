@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-ork',
   description: 'Provides virtual modules for .ork imports.',
+  icon: '',
   version: '0.0.1-alpha.1',
   category: 'plugin',
   tags: [

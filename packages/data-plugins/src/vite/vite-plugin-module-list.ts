@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-module-list',
   description: 'Vite plugin that writes a module that dynamically imports modules found in a folder.',
+  icon: '',
   version: '2.6.0',
   category: 'plugin',
   tags: [

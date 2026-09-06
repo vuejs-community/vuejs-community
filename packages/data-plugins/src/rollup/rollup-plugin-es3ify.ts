@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-es3ify',
   description: 'Rollup plugin to es3ify generated bundle',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

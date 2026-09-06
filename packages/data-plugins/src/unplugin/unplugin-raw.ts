@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-raw',
   description: 'Transform file to a default-export string.',
+  icon: '',
   version: '0.8.0',
   category: 'plugin',
   tags: [

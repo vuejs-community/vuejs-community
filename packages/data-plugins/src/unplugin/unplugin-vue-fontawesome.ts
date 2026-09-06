@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-fontawesome',
   description: 'Register global imports on demand for Vite and Webpack',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

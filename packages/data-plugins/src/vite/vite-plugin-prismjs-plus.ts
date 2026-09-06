@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-prismjs-plus',
   description: 'Vite plugin for PrismJS — load languages, plugins, and themes on demand via a virtual module.',
+  icon: '',
   version: '1.1.2',
   category: 'plugin',
   tags: [

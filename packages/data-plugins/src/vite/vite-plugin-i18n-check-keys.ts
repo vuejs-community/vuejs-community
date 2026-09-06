@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18n-check-keys',
   description: 'vite-plugin for i18n-check-keys ',
+  icon: '',
   version: '0.1.12',
   category: 'plugin',
   tags: [

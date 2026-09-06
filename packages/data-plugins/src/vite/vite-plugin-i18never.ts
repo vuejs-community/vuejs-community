@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18never',
   description: 'i18never plugin for vite',
+  icon: '',
   version: '1.1.16',
   category: 'plugin',
   tags: [

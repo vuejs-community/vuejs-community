@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-react-scoped-css',
   description: 'Bring scoped CSS to React with Vite & Rollup. Lightweight component-level style isolation similar to Vue and Angular.',
+  icon: '',
   version: '1.2.3',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-kontra',
   description: 'Rollup plugin for Kontra.js to remove unused code from Classes',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

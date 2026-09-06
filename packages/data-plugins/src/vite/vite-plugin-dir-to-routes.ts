@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dir-to-routes',
   description: 'A Vite plugin to convert directory structure to route config JSON',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

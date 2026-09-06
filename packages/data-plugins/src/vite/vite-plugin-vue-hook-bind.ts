@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-hook-bind',
   description: 'Vite plugin for enhancing Vue component hook binding',
+  icon: '',
   version: '1.1.6',
   category: 'plugin',
   tags: [

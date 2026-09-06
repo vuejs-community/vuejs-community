@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-node-resolve-magic',
   description: 'Rollup.js plugin which resolves third-party dependencies in node_modules',
+  icon: '',
   version: '0.2.11',
   category: 'plugin',
   tags: [

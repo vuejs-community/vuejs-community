@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-oidc-auth',
   description: 'A Vite plugin for OIDC authentication during development (dev mode only)',
+  icon: '',
   version: '0.4.1',
   category: 'plugin',
   tags: [

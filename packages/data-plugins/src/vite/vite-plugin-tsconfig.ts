@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tsconfig',
   description: 'Vite plugin that allows you to use alternate tsconfig files.',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

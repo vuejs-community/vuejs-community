@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-monaco-editor-new',
   description: 'A vite plugin for the Monaco Editor',
+  icon: '',
   version: '1.1.3',
   category: 'plugin',
   tags: [

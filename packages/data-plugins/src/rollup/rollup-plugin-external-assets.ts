@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-external-assets',
   description: 'A rollup plugin to make assets external but include them in the output.',
+  icon: '',
   version: '4.1.1',
   category: 'plugin',
   tags: [

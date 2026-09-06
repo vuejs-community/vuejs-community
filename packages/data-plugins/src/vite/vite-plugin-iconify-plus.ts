@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-iconify-plus',
   description: 'A vite plugin that loads iconify icons from projects on demand to support iconify icons for use in environments where the public network is not accessible',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-jsx-plus',
   description: 'Vue JSX plugin for both Vue 2 and 3.',
+  icon: '',
   version: '0.6.2',
   category: 'plugin',
   tags: [

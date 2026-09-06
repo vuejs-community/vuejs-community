@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'darkmode.js',
   description: 'Add darkmode / nightmode to your Nuxt project in a few seconds',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

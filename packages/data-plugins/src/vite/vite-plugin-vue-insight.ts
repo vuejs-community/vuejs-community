@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-insight',
   description: '点击定位源码、高亮 DOM、查看组件状态、分享链接 — Vue 3 + Vite 调试助手',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

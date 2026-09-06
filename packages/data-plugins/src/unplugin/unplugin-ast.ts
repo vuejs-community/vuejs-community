@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-ast',
   description: 'Manipulate the AST to transform your code.',
+  icon: '',
   version: '0.19.0',
   category: 'plugin',
   tags: [

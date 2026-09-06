@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-showprogress',
   description: 'Rollup plugin to show a progress bar',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'auth',
   description: 'Zero-boilerplate authentication support for Nuxt.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Security',

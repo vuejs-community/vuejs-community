@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mpg',
   description: 'vite multi pages plugin',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

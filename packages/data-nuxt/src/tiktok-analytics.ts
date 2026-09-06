@@ -2,6 +2,8 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'tiktok-analytics',
+  description: '',
+  icon: '',
   category: 'nuxt',
   types: [
     'Analytics',

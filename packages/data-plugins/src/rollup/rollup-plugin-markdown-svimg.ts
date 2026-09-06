@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-markdown-svimg',
   description: 'A rollup plugin for preprocessing images in markdown files with svimg',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-devtools-pack',
   description: 'Vite 插件：把 TanStack Query / Router、Jotai、Solid Devtools 收进 Vite DevTools 的 dock 面板，按需启用，不再各占一个页面悬浮入口',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

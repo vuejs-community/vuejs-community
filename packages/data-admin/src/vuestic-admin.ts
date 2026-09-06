@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vuestic-admin',
   description: 'Vuestic UI 官方后台模板，50+ 组件，国际化程度高',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

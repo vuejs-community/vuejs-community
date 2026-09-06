@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-appsignal',
   description: 'The unofficial Appsignal plugin for Vite ⚡️',
+  icon: '',
   version: '0.8.0',
   category: 'plugin',
   tags: [

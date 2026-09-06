@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-node-resolve-with-sham-ui-macro',
   description: 'Rollup plugin for compile sham-ui macro in third-party packages',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

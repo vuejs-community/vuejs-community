@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-shortcuts',
   description: 'plugin shortcuts into Vite dev server',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

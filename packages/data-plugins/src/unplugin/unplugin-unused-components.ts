@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-unused-components',
   description: 'Unplugin to detect unused components in your project',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

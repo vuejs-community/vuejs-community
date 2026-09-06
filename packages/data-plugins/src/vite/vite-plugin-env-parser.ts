@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-env-parser',
   description: 'vite plugin for env variables type parse.',
+  icon: '',
   version: '0.4.1',
   category: 'plugin',
   tags: [

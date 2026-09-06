@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-string-to-audio',
   description: '在打包过程中自动将字符串转换为语音文件并添加到最终的打包文件里面, 支持Vite and Webpack',
+  icon: '',
   version: '2.1.7',
   category: 'plugin',
   tags: [

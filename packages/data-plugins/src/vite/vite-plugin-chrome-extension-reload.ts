@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-chrome-extension-reload',
   description: 'Vite plugin for Chrome Extension auto reload with Manifest V3 support',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

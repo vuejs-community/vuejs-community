@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'client-init',
   description: 'Provide client version of `nuxtServerInit`.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

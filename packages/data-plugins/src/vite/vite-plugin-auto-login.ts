@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-login',
   description: 'Vite plugin for automatic login during development',
+  icon: '',
   version: '4.2.0',
   category: 'plugin',
   tags: [

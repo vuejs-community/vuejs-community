@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-file-router',
   description: 'Vite plugin: scan pages/ to generate routes.ts or routes.js for React Router / Vue Router. TypeScript and JavaScript projects supported; hand-edits preserved on regen.',
+  icon: '',
   version: '2.2.1',
   category: 'plugin',
   tags: [

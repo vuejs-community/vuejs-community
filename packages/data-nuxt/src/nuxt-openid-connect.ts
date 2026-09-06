@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-openid-connect',
   description: 'OpenID-Connect(OIDC) integration module for nuxt 3.0.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Security',

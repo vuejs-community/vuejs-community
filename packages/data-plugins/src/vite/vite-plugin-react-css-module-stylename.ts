@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-css-module-stylename',
   description: 'Quick use of styleName to introduce CSS module plugin',
+  icon: '',
   version: '1.2.0',
   category: 'plugin',
   tags: [

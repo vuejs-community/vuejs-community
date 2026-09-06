@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-brotli',
   description: 'compress your Vite html, css and js files with brotli',
+  icon: '',
   version: '2.1.0',
   category: 'plugin',
   tags: [

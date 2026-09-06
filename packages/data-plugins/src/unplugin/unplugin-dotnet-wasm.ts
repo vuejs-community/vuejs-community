@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-dotnet-wasm',
   description: 'Mount .NET WebAssembly output as virtual modules for Vite, Webpack, Rollup, esbuild, Rspack, Rsbuild, Rolldown, Farm, and Bun.',
+  icon: '',
   version: '1.5.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'cloudinary',
   description: 'Optimize images and videos in your Nuxt application',
+  icon: '',
   category: 'nuxt',
   types: [
     'Images',

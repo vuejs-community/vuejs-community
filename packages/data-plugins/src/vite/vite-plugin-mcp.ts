@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mcp',
   description: 'MCP server helping models to understand your Vite app better.',
+  icon: '',
   version: '0.3.2',
   category: 'plugin',
   tags: [

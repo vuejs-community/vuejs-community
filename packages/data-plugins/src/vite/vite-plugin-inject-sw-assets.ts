@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-inject-sw-assets',
   description: 'A Vite plugin that injects static assets into a custom service worker for use with injectManifest (ideal for Workbox + vite-plugin-pwa setups).',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

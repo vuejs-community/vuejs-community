@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-mqtt',
   description: 'A Nuxt module for real-time MQTT communication using mqtt.js',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

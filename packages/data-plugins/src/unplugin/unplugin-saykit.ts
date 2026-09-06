@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-saykit',
   description: 'Universal build tool plugin for saykit (Vite, Rollup, Webpack, esbuild)',
+  icon: '',
   version: '0.10.0',
   category: 'plugin',
   tags: [

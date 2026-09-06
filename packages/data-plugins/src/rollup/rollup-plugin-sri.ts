@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-sri',
   description: 'Add subresource integrity tags to all your html files 🔒',
+  icon: '',
   version: '1.3.4',
   category: 'plugin',
   tags: [

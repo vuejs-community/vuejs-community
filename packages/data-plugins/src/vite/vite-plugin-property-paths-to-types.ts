@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-property-paths-to-types',
   description: 'Vite 插件：自动生成属性路径对应的类型定义',
+  icon: '',
   version: '1.3.0',
   category: 'plugin',
   tags: [

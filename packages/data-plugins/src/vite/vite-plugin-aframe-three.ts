@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-aframe-three',
   description: 'Vite plugin to automatically alias three to A-Frame\'s super-three ',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

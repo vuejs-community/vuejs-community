@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-bezier',
   description: 'Reusable transition components',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

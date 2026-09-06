@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cpp-loader',
   description: 'Vite plugin — import .cpp files as typed ES modules compiled to WebAssembly via Emscripten',
+  icon: '',
   version: '2.0.3',
   category: 'plugin',
   tags: [

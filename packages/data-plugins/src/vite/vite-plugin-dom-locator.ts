@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dom-locator',
   description: 'A Vite plugin for DOM element source location tracking',
+  icon: '',
   version: '1.0.13',
   category: 'plugin',
   tags: [

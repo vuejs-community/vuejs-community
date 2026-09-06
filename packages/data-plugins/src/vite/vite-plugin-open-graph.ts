@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-open-graph',
   description: 'Generate open graph meta tags for your vite app.',
+  icon: '',
   version: '2.2.0',
   category: 'plugin',
   tags: [

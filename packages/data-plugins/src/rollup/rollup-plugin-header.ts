@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-header',
   description: 'Rollup plugin to append content before or after js bundle',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-tailwindcss',
   description: 'Bundle Tailwind CSS stylesheet as a Rollup asset',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mockjs-server',
   description: '用于vite dev时，进行模拟 api',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

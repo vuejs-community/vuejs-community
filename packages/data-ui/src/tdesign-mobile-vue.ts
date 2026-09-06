@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'tdesign-mobile-vue',
   description: '腾讯 TDesign 的 Vue 3 移动端组件库',
+  icon: '',
   category: 'ui',
   types: ['mobile-ui'],
   tags: ['ui', 'mobile', 'tdesign'],

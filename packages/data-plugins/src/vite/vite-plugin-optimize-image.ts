@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-optimize-image',
   description: 'Optimize image plugin in vite',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-force-binding',
   description: 'Force RollupJS to use an existing import rather than create a new binding.',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

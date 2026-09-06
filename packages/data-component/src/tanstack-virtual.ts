@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'tanstack-virtual',
   description: 'Headless 虚拟滚动库，列表 / 网格通吃',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['virtual-scroll', 'headless'],

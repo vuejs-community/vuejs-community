@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-handlebars-compiler',
   description: 'Rollup plugin to compile Handlebars templates to JavaScript with partials, helpers, assets, and Handlebars compile options.',
+  icon: '',
   version: '1.2.1',
   category: 'plugin',
   tags: [

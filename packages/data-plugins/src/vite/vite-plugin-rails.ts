@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-rails',
   description: 'Convention over configuration for using Vite in Rails apps',
+  icon: '',
   version: '0.6.0',
   category: 'plugin',
   tags: [

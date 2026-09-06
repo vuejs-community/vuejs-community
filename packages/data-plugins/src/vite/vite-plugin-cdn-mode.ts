@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cdn-mode',
   description: 'Vite Plugin for Inject CDN to Html',
+  icon: '',
   version: '1.0.12',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-dts',
   description: '<h1 align="center">unplugin-dts</h1>',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

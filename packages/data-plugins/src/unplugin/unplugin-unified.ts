@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-unified',
   description: 'unified pipeline for Vite, Webpack, Rollup, and more',
+  icon: '',
   version: '0.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-essor',
   description: '',
+  icon: '',
   version: '0.0.18-beta.1',
   category: 'plugin',
   tags: [

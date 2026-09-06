@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-execute',
   description: 'Execute your script after build',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

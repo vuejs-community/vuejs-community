@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-moment-to-dayjs',
   description: 'Register global imports on demand for Vite and Webpack',
+  icon: '',
   version: '0.5.0',
   category: 'plugin',
   tags: [

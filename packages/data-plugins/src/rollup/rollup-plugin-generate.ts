@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-generate',
   description: 'Generate files on the fly with Rollup.',
+  icon: '',
   version: '1.3.0',
   category: 'plugin',
   tags: [

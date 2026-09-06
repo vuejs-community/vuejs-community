@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-mapbox',
   description: 'Elegant Mapbox integration with Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

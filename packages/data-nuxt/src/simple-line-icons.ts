@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'simple-line-icons',
   description: 'Nuxt module to add simple-line-icons ',
+  icon: '',
   category: 'nuxt',
   types: [
     'Fonts',

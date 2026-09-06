@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-json-cmd',
   description: 'execute command in json',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

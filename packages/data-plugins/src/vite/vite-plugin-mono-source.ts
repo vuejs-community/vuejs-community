@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mono-source',
   description: 'Using package\'s source code in monorepo with Vite, Seamless.',
+  icon: '',
   version: '0.0.0-beta-20230905193120',
   category: 'plugin',
   tags: [

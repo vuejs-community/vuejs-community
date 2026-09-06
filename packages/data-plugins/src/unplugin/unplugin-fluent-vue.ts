@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-fluent-vue',
   description: 'unplugin for fluent-vue. Adds support for custom blocks in Vue SFC and external ftl files.',
+  icon: '',
   version: '1.4.1',
   category: 'plugin',
   tags: [

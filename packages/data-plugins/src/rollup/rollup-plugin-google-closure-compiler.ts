@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-google-closure-compiler',
   description: 'Rollup plugin for invoking the Google Closure Compiler with Java.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

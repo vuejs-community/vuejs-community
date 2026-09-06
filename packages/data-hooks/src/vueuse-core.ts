@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vueuse-core',
   description: '事实标准级的 Vue 组合式工具集，300+ 开箱即用的 composables，并提供 router / rxjs / integrations 等官方子包',
+  icon: '',
   category: 'hooks',
   types: ['composable-library'],
   tags: ['hooks', 'composables', 'vue3', 'vueuse'],

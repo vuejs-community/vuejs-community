@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-nudo',
   description: 'Vite plugin for build-time JavaScript type inference with Nudo',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'hanko',
   description: 'Hanko integration for Nuxt for passwordless authentication',
+  icon: '',
   category: 'nuxt',
   types: [
     'Security',

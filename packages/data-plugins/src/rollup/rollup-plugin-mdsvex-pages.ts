@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-mdsvex-pages',
   description: 'Markdown-based documentation/blog generator built with MDsveX.',
+  icon: '',
   version: '1.2.22',
   category: 'plugin',
   tags: [

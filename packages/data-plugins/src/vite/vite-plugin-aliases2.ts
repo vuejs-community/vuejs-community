@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-aliases2',
   description: 'A vite plugin that automatically generates file aliases',
+  icon: '',
   version: '0.0.14',
   category: 'plugin',
   tags: [

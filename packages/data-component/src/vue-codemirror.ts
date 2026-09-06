@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-codemirror',
   description: 'CodeMirror 6 的 Vue 封装',
+  icon: '',
   category: 'component',
   types: ['editor'],
   tags: ['code'],

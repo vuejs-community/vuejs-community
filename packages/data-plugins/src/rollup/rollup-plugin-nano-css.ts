@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-nano-css',
   description: 'Enables support for Nano-CSS extraction when using Rollup',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

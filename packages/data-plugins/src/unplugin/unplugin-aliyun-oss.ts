@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-aliyun-oss',
   description: 'Aliyun OSS plugin powered by unplugin.',
+  icon: '',
   version: '1.1.1',
   category: 'plugin',
   tags: [

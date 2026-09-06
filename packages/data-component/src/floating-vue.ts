@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'floating-vue',
   description: 'Tooltip / Popover / Dropdown / Menu，指令 + 组件两种用法',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['tooltip', 'popover'],

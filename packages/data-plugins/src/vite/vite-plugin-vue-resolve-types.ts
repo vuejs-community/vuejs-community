@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-resolve-types',
   description: 'Resolve script setup defineProps types to runtime props in Vue SFC',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

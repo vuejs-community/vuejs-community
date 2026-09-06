@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-inspect',
   description: 'jump to local IDE source code while click the element of browser automatically.',
+  icon: '',
   version: '3.6.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-lit-html',
   description: 'Use plain HTML files as lit-html templates',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

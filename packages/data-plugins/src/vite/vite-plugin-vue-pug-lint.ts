@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-pug-lint',
   description: 'vite pug-lint plugin for vue single file components',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

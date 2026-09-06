@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-retrying-dynamic-import',
   description: 'retrying dynamic import',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

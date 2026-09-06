@@ -2,6 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-multi-page-css',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

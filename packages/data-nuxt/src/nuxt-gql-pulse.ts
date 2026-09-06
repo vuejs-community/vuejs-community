@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-gql-pulse',
   description: 'A Nuxt module for making GraphQL requests with ease, leveraging the power of Nuxt\'s composables.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Request',

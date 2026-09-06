@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-name',
   description: '```npm npm install vite-plugin-auto-name ``` ### 使用 #### vite.config.ts 中如下： ```ts import { defineConfig } from \'vite\' import vue from \'@vitejs/plugin-vue\' // 插件 import autoName from \'vite-plugin-auto-name\'',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

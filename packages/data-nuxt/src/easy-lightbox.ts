@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'easy-lightbox',
   description: 'A plugin for simple Vue 3 Image Lightbox component with Zoom / Drag / Rotate / Switch.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

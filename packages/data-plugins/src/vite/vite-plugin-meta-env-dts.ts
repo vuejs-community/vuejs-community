@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-meta-env-dts',
   description: 'Automatically generate type declarations based on env.* files.',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

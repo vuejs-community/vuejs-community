@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vuestic',
   description: 'Vuestic UI module for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

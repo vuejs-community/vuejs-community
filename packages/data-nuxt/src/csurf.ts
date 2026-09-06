@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'csurf',
   description: 'Cross-Site Request Forgery (CSRF) Prevention for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Security',

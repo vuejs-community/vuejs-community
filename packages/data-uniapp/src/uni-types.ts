@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'uni-types',
   description: 'uni-helper 出品，为 uni-app、uni-cloud 和 uni-ui 组件提供 TypeScript 类型支持',
+  icon: '',
   category: 'uniapp',
   types: ['utility-library'],
   tags: ['uni-app', 'vue3', 'typescript', 'types'],

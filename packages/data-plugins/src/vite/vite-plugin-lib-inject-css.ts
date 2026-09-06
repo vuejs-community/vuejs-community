@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lib-inject-css',
   description: 'Inject css at the top of chunk file in lib mode using `import` statement, support multiple entries.',
+  icon: '',
   version: '2.2.2',
   category: 'plugin',
   tags: [

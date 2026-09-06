@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-uni-api-checker',
   description: '<h1 align="center">unplugin-uni-api-checker</h1>',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

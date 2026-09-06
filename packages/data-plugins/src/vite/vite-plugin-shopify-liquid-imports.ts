@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-shopify-liquid-imports',
   description: 'Post-build companion to vite-plugin-shopify that enables native-ESM code splitting on Shopify themes via a classic bootstrap and Blob module graph — no import maps or .js.liquid chunk rewriting.',
+  icon: '',
   version: '0.2.6',
   category: 'plugin',
   tags: [

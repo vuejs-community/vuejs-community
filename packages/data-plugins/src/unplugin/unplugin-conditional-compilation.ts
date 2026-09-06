@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-conditional-compilation',
   description: 'Similar to taro framework conditional compilation',
+  icon: '',
   version: '0.1.7',
   category: 'plugin',
   tags: [

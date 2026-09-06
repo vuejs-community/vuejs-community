@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tailwind',
   description: 'vite tailwind plugin with jit compiler enabled',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tinyfy',
   description: '#### 介绍 vite tinyfy 图像压缩处理',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

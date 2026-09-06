@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-turbo-reload',
   description: 'Reload the page when files are modified via Hotwire Turbo',
+  icon: '',
   version: '2.1.0',
   category: 'plugin',
   tags: [

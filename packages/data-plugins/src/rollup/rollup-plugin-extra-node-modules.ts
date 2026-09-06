@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-extra-node-modules',
   description: 'A Rollup plugin to extra node modules from your project.',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

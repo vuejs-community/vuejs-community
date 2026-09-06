@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'translation-manager',
   description: 'Simple and easy to use translation manager for Nuxt and Nuxt-i18n that allows translation management from a single CSV file.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

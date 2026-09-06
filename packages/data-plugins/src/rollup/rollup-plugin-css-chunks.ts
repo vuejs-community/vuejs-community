@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-css-chunks',
   description: 'Rollup plugin to extract CSS into chunks',
+  icon: '',
   version: '2.0.3',
   category: 'plugin',
   tags: [

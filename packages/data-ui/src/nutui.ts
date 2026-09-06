@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nutui',
   description: '京东风格的移动端组件库，支持多端小程序',
+  icon: '',
   category: 'ui',
   types: ['mobile-ui'],
   tags: ['ui', 'mobile', 'miniprogram'],

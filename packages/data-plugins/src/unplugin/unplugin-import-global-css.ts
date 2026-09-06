@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-import-global-css',
   description: 'Global CSS auto import for vue',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

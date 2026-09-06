@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-unocss-transform',
   description: 'This library is to convert CSS in Vue to UnoCss.',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'uni-promises',
   description: 'uni-helper 出品的 uni-app API Promise 化封装，配合 async / await 使用',
+  icon: '',
   category: 'uniapp',
   types: ['utility-library'],
   tags: ['uni-app', 'vue3', 'promise', 'api'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-wave-extension',
   description: 'A plugin for building Chrome extensions!',
+  icon: '',
   version: '0.0.11',
   category: 'plugin',
   tags: [

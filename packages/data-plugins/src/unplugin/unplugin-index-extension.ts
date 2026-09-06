@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-index-extension',
   description: 'Auto import \'./package/index.vue\' by \'./package\', just like \'./package/index.js\'',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

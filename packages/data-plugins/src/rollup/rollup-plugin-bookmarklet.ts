@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-bookmarklet',
   description: 'Rollup plugin for bookmarklet',
+  icon: '',
   version: '5.0.12',
   category: 'plugin',
   tags: [

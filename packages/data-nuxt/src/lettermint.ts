@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'lettermint',
   description: 'Nuxt module for sending emails with Lettermint',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

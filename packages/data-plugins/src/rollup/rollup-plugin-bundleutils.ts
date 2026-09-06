@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-bundleutils',
   description: 'A set of functions commonly used after tree shaking',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

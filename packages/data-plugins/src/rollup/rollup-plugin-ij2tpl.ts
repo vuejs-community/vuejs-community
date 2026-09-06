@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-ij2tpl',
   description: 'A simple IJ2TPL loader for rollupjs',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

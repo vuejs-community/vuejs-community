@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-publish-push',
   description: 'push to server after vite build',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

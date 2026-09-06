@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-deployer',
   description: '[English Documentation](https://gitee.com/qq_1326632/vite-plugin-auto-deployer/blob/master/readme.md) | [中文文档](https://gitee.com/qq_1326632/vite-plugin-auto-deployer/blob/master/README.zh-CN.md)',
+  icon: '',
   version: '2.1.0',
   category: 'plugin',
   tags: [

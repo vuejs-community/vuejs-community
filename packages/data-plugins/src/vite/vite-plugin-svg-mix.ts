@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-mix',
   description: 'Vite SVG Sprite 插件，不限制语言，React/Vue都可使用',
+  icon: '',
   version: '0.3.1',
   category: 'plugin',
   tags: [

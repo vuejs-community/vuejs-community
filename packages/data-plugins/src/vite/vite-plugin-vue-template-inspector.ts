@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-template-inspector',
   description: 'Vite plugin: Alt+click Vue template elements to copy the source path or open it in your editor.',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

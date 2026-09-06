@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-react-sfc',
   description: 'a rollup plugin for react sfcs',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

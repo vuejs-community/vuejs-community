@@ -29,7 +29,7 @@ This skill only applies when creating data files under `src/` of the following 7
 
 ## File Template
 
-The Chinese text in the template are field descriptions; replace them with real values when creating a file. Optional fields without data (`tags`, `filter`, `website`, etc.) may be omitted, but `stats` must be written in full (except for `data-admin`, see the next section).
+The Chinese text in the template are field descriptions; replace them with real values when creating a file. `icon` is required in every file: write the local icon name when an icon exists, otherwise write an empty string. Optional fields without data (`tags`, `filter`, `website`, etc.) may be omitted, but `stats` must be written in full (except for `data-admin`, see the next section).
 
 ```ts
 import { defineProjectMeta } from '@vuejs-community/schema'
@@ -37,6 +37,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'Project name',
   description: 'Project description',
+  icon: "Local icon name in the format 'icon:xxx' where app/assets/icon/xxx.svg exists, without the .svg extension; write '' when there is no icon",
   category: 'The data category this project belongs to; see the ProjectCategory type definition',
 
   types: ['Types the project can be assigned; see the ProjectType type definition'],

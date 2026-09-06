@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-png-to-ico',
   description: 'Nuxt module for auto generating favicons',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

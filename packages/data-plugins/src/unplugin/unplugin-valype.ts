@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-valype',
   description: '',
+  icon: '',
   version: '0.1.0-beta.1',
   category: 'plugin',
   tags: [

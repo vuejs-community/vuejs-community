@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-setup-path-extend',
   description: '扩展vue3语法糖name属性为组件名',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-macros',
   description: 'Explore more macros and syntax sugar to Vue.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

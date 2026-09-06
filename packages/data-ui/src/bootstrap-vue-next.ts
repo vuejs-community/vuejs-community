@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'bootstrap-vue-next',
   description: 'Vue 3 + Bootstrap 5 + TypeScript 组件库',
+  icon: '',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui', 'bootstrap'],

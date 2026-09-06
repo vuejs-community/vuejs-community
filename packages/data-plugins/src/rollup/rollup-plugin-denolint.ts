@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-denolint',
   description: 'A Rollup plugin to lint entry points and all imported files with denolint.',
+  icon: '',
   version: '1.2.4',
   category: 'plugin',
   tags: [

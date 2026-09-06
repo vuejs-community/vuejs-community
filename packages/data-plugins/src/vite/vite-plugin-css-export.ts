@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-css-export',
   description: 'A Vite plugin for sharing variables between Javascript and CSS (or Sass, Less, etc.)',
+  icon: '',
   version: '3.1.0',
   category: 'plugin',
   tags: [

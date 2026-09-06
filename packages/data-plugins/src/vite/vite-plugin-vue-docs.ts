@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-docs',
   description: 'vite plugin auto document generation for vue',
+  icon: '',
   version: '0.1.15',
   category: 'plugin',
   tags: [

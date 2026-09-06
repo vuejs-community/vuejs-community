@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-crx3',
   description: '本Vite插件用于使用vite2+vue3开发chrome拓展（manifest v3），且支持开发过程中插件热重载.',
+  icon: '',
   version: '1.0.8',
   category: 'plugin',
   tags: [

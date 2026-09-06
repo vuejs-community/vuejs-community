@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'emotion',
   description: 'The Next Generation of CSS-in-JS for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-pwa-mg',
   description: 'Zero-config PWA for Vite',
+  icon: '',
   version: '0.0.7',
   category: 'plugin',
   tags: [

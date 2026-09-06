@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-build-time',
   description: 'vite项目记录下本次打包的时间，供生产环境使用',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

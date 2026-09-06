@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-zip-pack',
   description: 'Vite plugin for packing distribution/build folder into a zip file.',
+  icon: '',
   version: '1.2.4',
   category: 'plugin',
   tags: [

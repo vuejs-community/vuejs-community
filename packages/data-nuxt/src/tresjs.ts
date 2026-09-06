@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'tresjs',
   description: 'Create 3D experiences in your Nuxt application using TresJS.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

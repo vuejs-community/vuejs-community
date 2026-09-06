@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-bubble',
   description: 'A universal bundler plugin which converts ES2015+ code with the Bublé compiler.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

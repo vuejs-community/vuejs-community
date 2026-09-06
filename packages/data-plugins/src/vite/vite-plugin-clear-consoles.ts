@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-clear-consoles',
   description: 'A Vite plugin for clearing the consoles',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

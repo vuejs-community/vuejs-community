@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-inline-style',
   description: 'Vite plugin to optimize JSX inline styling.',
+  icon: '',
   version: '0.0.0',
   category: 'plugin',
   tags: [

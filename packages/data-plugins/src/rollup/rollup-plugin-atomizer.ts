@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-atomizer',
   description: 'Acss-io\'s atomizer bindings for rollup.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

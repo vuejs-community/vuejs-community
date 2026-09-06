@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-node-builtins',
   description: 'use node builtins in browser with rollup',
+  icon: '',
   version: '2.1.2',
   category: 'plugin',
   tags: [

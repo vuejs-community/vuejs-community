@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'toast',
   description: 'Responsive Touch Compatible Toast plugin for Nuxt using vue-toasted',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-zipdir',
   description: 'Rollup plugin to zip the entire output directory',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

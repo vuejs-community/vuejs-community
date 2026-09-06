@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'universal-storage',
   description: 'Universal Storage Utilities for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

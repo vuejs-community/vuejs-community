@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-webp-generator',
   description: 'WEBP image generator for Vite.js apps.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

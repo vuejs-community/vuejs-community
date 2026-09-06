@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-draggable-resizable',
   description: '可拖拽 + 可缩放元素组件',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['drag-drop', 'resizable'],

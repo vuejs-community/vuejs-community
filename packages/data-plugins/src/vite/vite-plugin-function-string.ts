@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-function-string',
   description: 'A Vite plugin to convert function.toString() at compile time',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

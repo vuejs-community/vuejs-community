@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue2-css-vars',
   description: 'A vite plugin that can allows you to use the CSS variable injection feature in Vue 2.x version.',
+  icon: '',
   version: '0.2.3',
   category: 'plugin',
   tags: [

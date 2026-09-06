@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-sucrase',
   description: 'A universal bundler plugin which compiles TypeScript, Flow, JSX, etc with Sucrase.',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

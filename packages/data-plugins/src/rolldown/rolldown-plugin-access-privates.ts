@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rolldown-plugin-access-privates',
   description: 'Rolldown Plugin to add accessors for class Private Fields',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

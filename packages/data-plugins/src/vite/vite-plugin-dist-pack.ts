@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dist-pack',
   description: 'Vite plugin for packing build folder.',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

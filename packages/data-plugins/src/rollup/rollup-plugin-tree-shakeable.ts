@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-tree-shakeable',
   description: 'A Rollup plugin that automatically annotates your module as tree shakeable.',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lazy-pages',
   description: 'React file based routing for Vite',
+  icon: '',
   version: '0.2.6',
   category: 'plugin',
   tags: [

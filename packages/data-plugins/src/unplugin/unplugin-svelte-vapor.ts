@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-svelte-vapor',
   description: 'unplugin for svelte-vapor',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

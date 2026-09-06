@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svelte-tailwind-auto-reference',
   description: 'A Vite plugin that automatically adds @reference directives to Svelte component style blocks for Tailwind CSS @apply support',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

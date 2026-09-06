@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-iife',
   description: 'Convert ES modules into IIFEs.',
+  icon: '',
   version: '0.8.0',
   category: 'plugin',
   tags: [

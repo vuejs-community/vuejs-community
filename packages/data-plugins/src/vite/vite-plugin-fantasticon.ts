@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-fantasticon',
   description: 'build icon fonts with fantasticon for vite',
+  icon: '',
   version: '1.4.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-wasm-pack-2',
   description: 'Vite plugin for rust using wasm-pack 🦀',
+  icon: '',
   version: '0.1.13',
   category: 'plugin',
   tags: [

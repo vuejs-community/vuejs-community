@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-purgecss-extended',
   description: 'Purges CSS based on HTML output',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

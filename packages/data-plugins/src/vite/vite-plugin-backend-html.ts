@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-backend-html',
   description: '[![NPM Version][npm-image]][npm-url]   [![NPM Downloads][downloads-image]][downloads-url]   [![Node.js CI](https://github.com/doberkofler/vite-plugin-backend-html/actions/workflows/node.js.yml/badge.svg)](https://github.com/doberkofler/vite-plugin-backend',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

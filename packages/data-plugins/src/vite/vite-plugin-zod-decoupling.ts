@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-zod-decoupling',
   description: '`vite-plugin-zod-decoupling` is a Vite plugin designed to transform Zod schemas into JSON schemas and back into Zod schemas.',
+  icon: '',
   version: '0.0.1-0',
   category: 'plugin',
   tags: [

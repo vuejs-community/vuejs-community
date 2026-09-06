@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-jso-obfuscator',
   description: 'Obfuscate and protect your Rollup bundle with JavaScript Obfuscator. Official Rollup plugin for javascriptobfuscator.com: string encryption, control-flow flattening, member renaming.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-minissg',
   description: 'Minimum-sized static site generator as a Vite plugin',
+  icon: '',
   version: '5.1.1',
   category: 'plugin',
   tags: [

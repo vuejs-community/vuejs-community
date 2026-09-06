@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-drupal-interface-translations',
   description: 'This is a [Rollup](https://rollupjs.org) plugin that helps you to [translation strings in JavaScript](https://www.drupal.org/docs/8/api/translation-api/overview#s-translation-in-javascript-files) that are used in [Drupal](https://www.drupal.org) websites.',
+  icon: '',
   version: '1.1.22',
   category: 'plugin',
   tags: [

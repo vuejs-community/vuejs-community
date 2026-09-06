@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-externals-extension',
   description: 'English | [简体中文](./README-zh.md)',
+  icon: '',
   version: '0.0.7',
   category: 'plugin',
   tags: [

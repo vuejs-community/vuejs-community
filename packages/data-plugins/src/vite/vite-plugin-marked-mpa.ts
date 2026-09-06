@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-marked-mpa',
   description: 'A Vite plugin for rendering Markdown files to HTML for Multi-Page Applications',
+  icon: '',
   version: '1.5.2',
   category: 'plugin',
   tags: [

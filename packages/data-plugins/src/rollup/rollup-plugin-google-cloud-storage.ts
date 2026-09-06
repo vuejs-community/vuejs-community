@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-google-cloud-storage',
   description: 'Uploads build assets to a bucket on Google Cloud Storage',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

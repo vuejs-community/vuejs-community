@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-alpine-components',
   description: 'Vite plugin for alpine-components: serves, minifies, and injects loading states',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

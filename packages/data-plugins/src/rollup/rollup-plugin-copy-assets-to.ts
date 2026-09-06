@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-copy-assets-to',
   description: 'Copy additional assets into a directory you choose.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

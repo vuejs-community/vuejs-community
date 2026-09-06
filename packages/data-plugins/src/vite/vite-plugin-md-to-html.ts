@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-md-to-html',
   description: 'Vite Plugin to load markdown files as plain HTML',
+  icon: '',
   version: '0.0.18',
   category: 'plugin',
   tags: [

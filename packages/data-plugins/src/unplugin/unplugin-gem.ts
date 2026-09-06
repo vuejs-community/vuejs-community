@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-gem',
   description: 'Universal plugin for Gem element transformations (Vite/Webpack/Rollup/esbuild)',
+  icon: '',
   version: '0.1.7',
   category: 'plugin',
   tags: [

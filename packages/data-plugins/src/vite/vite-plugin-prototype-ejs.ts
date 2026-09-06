@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-prototype-ejs',
   description: '```html <% if (user) { %>   <h2><%= user.name %></h2> <% } %> ```',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

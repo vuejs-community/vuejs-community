@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-nameof-ts5',
   description: 'Give Vite the ability to resolve \'nameof\' calls in TypeScript',
+  icon: '',
   version: '0.0.9',
   category: 'plugin',
   tags: [

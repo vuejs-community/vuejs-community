@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vuetify',
   description: 'Material Design 组件框架，v3 全面支持 Vue 3',
+  icon: '',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui', 'material-design'],

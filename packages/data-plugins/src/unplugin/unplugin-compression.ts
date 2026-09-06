@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-compression',
   description: 'Compress dist to `zip`, `tar`, `taz`.',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

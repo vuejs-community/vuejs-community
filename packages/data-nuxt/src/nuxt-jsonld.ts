@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-jsonld',
   description: 'Manage JSON-LD in Vue component.',
+  icon: '',
   category: 'nuxt',
   types: [
     'SEO',

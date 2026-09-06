@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-version-injector',
   description: 'A universal plugin to inject version and build time into HTML (supports Vite, Webpack, Rspack, Rollup, Rolldown)',
+  icon: '',
   version: '2.3.1',
   category: 'plugin',
   tags: [

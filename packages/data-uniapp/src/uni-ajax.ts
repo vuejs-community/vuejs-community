@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'uni-ajax',
   description: '轻量级 uni-app HTTP 客户端，拦截器与全局配置友好',
+  icon: '',
   category: 'uniapp',
   types: ['data-fetching'],
   tags: ['uni-app', 'request', 'http', 'ajax'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-app-update',
   description: 'App deployment user notification. Support webpack vite. Unrestricted framework, React, Vue, Angular can all be used',
+  icon: '',
   version: '1.3.1',
   category: 'plugin',
   tags: [

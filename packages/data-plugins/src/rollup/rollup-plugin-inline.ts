@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-inline',
   description: 'plugin for processing and including static assets via imports using rollup',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

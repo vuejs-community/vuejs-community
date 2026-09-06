@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-iconify-svg',
   description: 'A rollup plugin to autogenerate svg markup from iconify references in your svelte project',
+  icon: '',
   version: '2.2.4',
   category: 'plugin',
   tags: [

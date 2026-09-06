@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-realm-uri',
   description: 'Import deduplicated references to intrinsic values using realm: scheme URIs',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

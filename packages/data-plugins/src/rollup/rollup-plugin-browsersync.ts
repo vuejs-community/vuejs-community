@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-browsersync',
   description: 'Serve your rolled up bundle via browsersync',
+  icon: '',
   version: '1.3.3',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-sprite-smart',
   description: 'Smart SVG sprite generator with directory support and auto injection',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

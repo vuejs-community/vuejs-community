@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'markdownit',
   description: 'Use Markdown in your Nuxt application with the markdownit-loader',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

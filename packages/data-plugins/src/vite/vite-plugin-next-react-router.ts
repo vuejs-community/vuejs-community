@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-next-react-router',
   description: '![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/zoubingwu/vite-plugin-next-react-router/test.yaml) ![npm](https://img.shields.io/npm/v/vite-plugin-next-react-router)',
+  icon: '',
   version: '0.7.1',
   category: 'plugin',
   tags: [

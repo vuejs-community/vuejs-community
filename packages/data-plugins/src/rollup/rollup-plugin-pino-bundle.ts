@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-pino-bundle',
   description: 'Rollup plugin for bundling PinoJS logger with transports',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

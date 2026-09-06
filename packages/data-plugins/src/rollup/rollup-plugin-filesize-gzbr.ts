@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-filesize-gzbr',
   description: 'A Rollup plugin for calculating and displaying file sizes of generated bundles during the build process',
+  icon: '',
   version: '1.2.1',
   category: 'plugin',
   tags: [

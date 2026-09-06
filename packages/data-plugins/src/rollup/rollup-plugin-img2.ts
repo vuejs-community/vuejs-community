@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-img2',
   description: 'Import image files with rollup. Let you import images just like what you do with webpack in your React code!',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

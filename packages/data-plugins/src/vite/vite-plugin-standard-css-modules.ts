@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-standard-css-modules',
   description: 'Use import attributes to get a CSSStyleSheet or a Lit CSSResult from your CSS files in Vite',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

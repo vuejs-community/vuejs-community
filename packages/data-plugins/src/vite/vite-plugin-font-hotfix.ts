@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-font-hotfix',
   description: 'An automatic Web Font optimization plugin that supports many platforms such as Vite, Next, Nuxt, and more.',
+  icon: '',
   version: '5.1.2',
   category: 'plugin',
   tags: [

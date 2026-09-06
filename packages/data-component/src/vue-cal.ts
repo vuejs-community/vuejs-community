@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-cal',
   description: '无依赖的 Vue 日历组件，v4+ 支持 Vue 3',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['calendar'],

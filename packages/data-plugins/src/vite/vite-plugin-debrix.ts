@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-debrix',
   description: 'Offical debrix vite plugin.',
+  icon: '',
   version: '0.1.0-alpha.1',
   category: 'plugin',
   tags: [

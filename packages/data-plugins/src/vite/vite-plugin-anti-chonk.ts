@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-anti-chonk',
   description: 'A template for creating npm packages using TypeScript and VSCode',
+  icon: '',
   version: '2.1.0',
   category: 'plugin',
   tags: [

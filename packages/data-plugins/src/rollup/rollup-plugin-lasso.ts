@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-lasso',
   description: 'Custom JS Dependency for Lasso.js to pipe outputs from Rollup into Lasso\'s build lifecycle',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

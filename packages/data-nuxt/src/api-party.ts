@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'api-party',
   description: 'Securely connect to any API with a server proxy and dynamic composables',
+  icon: '',
   category: 'nuxt',
   types: [
     'Request',

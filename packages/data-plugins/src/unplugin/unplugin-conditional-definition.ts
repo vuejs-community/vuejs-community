@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-conditional-definition',
   description: 'A plugin that selectively compiles code based on environmental variables,for Vite & Webpack & Esbuild & Rollup',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

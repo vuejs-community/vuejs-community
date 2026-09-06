@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-font-carrier',
   description: 'Compress font on demand.',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

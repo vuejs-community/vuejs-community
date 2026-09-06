@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-i18n-types',
   description: 'Type-safe Vue i18n translations. Auto-generates TypeScript types from JSON locale files. Catch translation errors at compile time with full IDE autocomplete.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

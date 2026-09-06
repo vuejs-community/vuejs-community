@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-css-url',
   description: 'Make ?url imports work for css in vite',
+  icon: '',
   version: '0.1.6',
   category: 'plugin',
   tags: [

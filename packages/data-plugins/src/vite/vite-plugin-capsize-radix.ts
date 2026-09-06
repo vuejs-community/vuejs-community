@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-capsize-radix',
   description: 'Great Typography with Radix & Capsize',
+  icon: '',
   version: '0.2.4',
   category: 'plugin',
   tags: [

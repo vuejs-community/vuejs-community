@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-simple-drupal',
   description: 'simple way to use vite with drupal',
+  icon: '',
   version: '1.0.12',
   category: 'plugin',
   tags: [

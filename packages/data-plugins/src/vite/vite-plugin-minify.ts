@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-minify',
   description: 'Minify html in production',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

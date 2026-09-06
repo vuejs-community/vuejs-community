@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-setup-attributes',
   description: 'Extend vue script setup syntax,make it support the name and inheritAttrs attribute.',
+  icon: '',
   version: '0.1.13',
   category: 'plugin',
   tags: [

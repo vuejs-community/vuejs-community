@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-naive-admin',
   description: '轻量级后台模板，Vue3 + Pinia + UnoCSS + Naive UI',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

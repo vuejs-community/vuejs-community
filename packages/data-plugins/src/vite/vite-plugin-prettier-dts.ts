@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-prettier-dts',
   description: 'Auto-format auto-generated .d.ts files with Prettier in Vite projects',
+  icon: '',
   version: '0.1.13',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-agent-quiet',
   description: 'Pause Vite\'s HMR during AI-agent edit bursts. Coalesce many edits into one reload.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

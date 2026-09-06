@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-license',
   description: 'Collect OSS licenses from bundled files and output third party licenses',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

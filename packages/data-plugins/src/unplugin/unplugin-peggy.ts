@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-peggy',
   description: 'The unplugin for Peggy (aka PEG.js). ',
+  icon: '',
   version: '1.0.0-1',
   category: 'plugin',
   tags: [

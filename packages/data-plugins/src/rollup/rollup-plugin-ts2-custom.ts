@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-ts2-custom',
   description: 'Seamless integration between Rollup and TypeScript. Now with errors.',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

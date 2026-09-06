@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dev-server-gateway',
   description: 'Run many Vite dev servers at once, behind one origin, with a live index of every preview.',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

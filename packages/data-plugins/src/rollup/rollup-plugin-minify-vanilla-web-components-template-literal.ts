@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-minify-vanilla-web-components-template-literal',
   description: 'Rollup/Vite plugin to Minify HTML template literal strings for Vanilla Web Components',
+  icon: '',
   version: '2.0.10',
   category: 'plugin',
   tags: [

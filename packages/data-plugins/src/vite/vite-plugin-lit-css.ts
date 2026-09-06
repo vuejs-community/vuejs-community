@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lit-css',
   description: 'Plugin to get all the power of Vite styles with lit tagged-template ⚡',
+  icon: '',
   version: '3.1.0',
   category: 'plugin',
   tags: [

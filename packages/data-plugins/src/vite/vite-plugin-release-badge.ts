@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-release-badge',
   description: 'Vite plugin that surfaces build/release info in the browser: console print, window global, HTML meta, hotkey panel and version.json polling.',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

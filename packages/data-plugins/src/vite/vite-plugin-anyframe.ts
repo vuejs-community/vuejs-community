@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-anyframe',
   description: 'AnyFrame integration vite.',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

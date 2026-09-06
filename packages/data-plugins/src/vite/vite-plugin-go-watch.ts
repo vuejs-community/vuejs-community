@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-go-watch',
   description: 'A Vite plugin to watch Go files, rebuild the Go application on changes, and trigger Vite dev server refresh',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

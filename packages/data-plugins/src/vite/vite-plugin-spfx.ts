@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-spfx',
   description: 'Turn any Vite project into a SharePoint Framework component — AMD bundle, manifest and .sppkg, without Heft or webpack.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

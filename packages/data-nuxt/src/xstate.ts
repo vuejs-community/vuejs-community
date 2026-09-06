@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'xstate',
   description: 'XState integration for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

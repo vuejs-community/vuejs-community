@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-imagemin-vv',
   description: '[![npm][npm-img]][npm-url]',
+  icon: '',
   version: '1.1.4',
   category: 'plugin',
   tags: [

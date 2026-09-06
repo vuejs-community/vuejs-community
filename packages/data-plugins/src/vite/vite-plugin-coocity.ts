@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-coocity',
   description: 'Vite plugin for COOCITY-SDK',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

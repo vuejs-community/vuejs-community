@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-scss',
   description: 'Rollup multiple .scss, .sass and .css imports',
+  icon: '',
   version: '4.0.1',
   category: 'plugin',
   tags: [

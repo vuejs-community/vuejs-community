@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'zhontai-admin',
   description: '.NET + Vue3 + Element Plus 的前后端分离中台权限管理系统',
+  icon: '',
   category: 'admin',
 
   types: ['fullstack-template'],

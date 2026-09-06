@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'matomo',
   description: 'Add Matomo analytics to your nuxt.js application. This plugin automatically sends first page and route change events to matomo',
+  icon: '',
   category: 'nuxt',
   types: [
     'Analytics',

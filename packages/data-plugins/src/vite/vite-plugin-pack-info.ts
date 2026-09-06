@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-pack-info',
   description: 'Vite plugin generates an information file or fingerprint of a package after the construction is complete',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

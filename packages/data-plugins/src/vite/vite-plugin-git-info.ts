@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-git-info',
   description: 'Automatically put the git info file in your project dist folder',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

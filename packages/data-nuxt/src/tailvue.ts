@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'tailvue',
   description: 'Vue components built for Vue3 powered by Windi CSS or tailwindcss',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

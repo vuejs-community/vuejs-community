@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cy-pxrem',
   description: 'vite 自定义 px 转 rem',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

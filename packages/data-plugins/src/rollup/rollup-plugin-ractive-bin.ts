@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-ractive-bin',
   description: 'build Ractive.js components using rollup and the library behind the ractive bin',
+  icon: '',
   version: '2.0.0-alpha-3',
   category: 'plugin',
   tags: [

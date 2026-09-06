@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-static-copy-modules',
   description: 'Use vite-plugin-static-copy to copy node_modules files for serving',
+  icon: '',
   version: '2.0.2',
   category: 'plugin',
   tags: [

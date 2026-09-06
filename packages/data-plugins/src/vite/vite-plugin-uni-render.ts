@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-uni-render',
   description: 'Vite 插件 - 让 UniApp 支持 Vue render 函数开发，兼容 H5 和小程序',
+  icon: '',
   version: '0.0.1-alpha.10',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-page-to-editor',
   description: 'shift + left-click to show code in your editor(WIP)',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

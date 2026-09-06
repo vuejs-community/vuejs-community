@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-sri',
   description: 'A Vite plugin that enables Subresource Integrity (SRI) by adding integrity attributes to JavaScript and CSS assets',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

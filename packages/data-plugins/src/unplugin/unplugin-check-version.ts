@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-check-version',
   description: '',
+  icon: '',
   version: '0.0.0',
   category: 'plugin',
   tags: [

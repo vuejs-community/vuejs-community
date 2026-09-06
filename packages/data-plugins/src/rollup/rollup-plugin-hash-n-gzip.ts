@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-hash-n-gzip',
   description: 'Hash and gzip output files',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

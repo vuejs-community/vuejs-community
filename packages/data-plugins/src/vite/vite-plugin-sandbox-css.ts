@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sandbox-css',
   description: 'Vite plugin that adds CSS namespace prefixes with overlay support',
+  icon: '',
   version: '2.0.3',
   category: 'plugin',
   tags: [

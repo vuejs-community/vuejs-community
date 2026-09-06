@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-unpkg',
   description: 'A rollup plugin to convert ES imports to UNPKG urls.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

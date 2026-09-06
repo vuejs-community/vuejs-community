@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-injection',
   description: 'A vite plugin for injection the build time to the index html.',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

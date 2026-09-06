@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-go-template',
   description: 'Vite plugin for Go template integration',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

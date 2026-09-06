@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-data-url',
   description: 'Extend vite import query to add data-url import. You can talk about importing the data-url encoding of a resource directly.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-refresh',
   description: 'Enhances the Vite dev server by adding dependencies to the watcher, and optionally doing full page reloads on changes.',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

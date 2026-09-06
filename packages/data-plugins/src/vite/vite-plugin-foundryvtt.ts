@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-foundryvtt',
   description: 'Plugin for building for foundryvtt. Enables hmr and manifest substitution.',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

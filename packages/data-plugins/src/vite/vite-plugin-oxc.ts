@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-oxc',
   description: 'Oxc integration for Vite',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

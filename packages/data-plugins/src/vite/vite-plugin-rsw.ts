@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-rsw',
   description: 'wasm-pack plugin for Vite',
+  icon: '',
   version: '2.0.11',
   category: 'plugin',
   tags: [

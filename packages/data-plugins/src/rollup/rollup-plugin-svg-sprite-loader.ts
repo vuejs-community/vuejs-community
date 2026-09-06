@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-svg-sprite-loader',
   description: 'A rollup plugin to create and bundle inline/external svg sprite file.',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

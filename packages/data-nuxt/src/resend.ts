@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'resend',
   description: 'Resend integration for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

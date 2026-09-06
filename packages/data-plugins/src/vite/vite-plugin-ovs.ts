@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ovs',
   description: 'Vite plugin for OVS - A declarative UI syntax similar to Flutter and SwiftUI',
+  icon: '',
   version: '0.2.2',
   category: 'plugin',
   tags: [

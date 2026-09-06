@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-workbox-inject',
   description: 'Injects a Workbox precache manifest into a Rollup-compiled service worker.',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

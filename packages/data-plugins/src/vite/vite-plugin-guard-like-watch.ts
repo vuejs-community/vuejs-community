@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-guard-like-watch',
   description: 'A Vite plugin inspired by Ruby Guard\'s watch feature',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

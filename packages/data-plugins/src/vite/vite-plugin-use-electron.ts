@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-use-electron',
   description: 'A Vite plugin to simplify using Electron APIs in the renderer process',
+  icon: '',
   version: '0.2.12',
   category: 'plugin',
   tags: [

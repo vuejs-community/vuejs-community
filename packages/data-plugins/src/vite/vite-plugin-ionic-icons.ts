@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ionic-icons',
   description: 'Vite plugin that auto-detects and bundles only the Ionic icons your project uses — icon tree-shaking with zero config.',
+  icon: '',
   version: '1.1.1',
   category: 'plugin',
   tags: [

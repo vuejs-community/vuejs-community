@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-swc-transform',
   description: 'Vite plugin for transforming source files with SWC.',
+  icon: '',
   version: '1.1.1',
   category: 'plugin',
   tags: [

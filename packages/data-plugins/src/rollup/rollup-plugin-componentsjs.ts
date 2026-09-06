@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-componentsjs',
   description: 'Transform wechat mini app components\'s js',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

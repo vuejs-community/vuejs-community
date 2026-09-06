@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-click-to-component',
   description: 'Option+Right Click in your browser to open the source in your editor',
+  icon: '',
   version: '4.2.3',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lint-overlay',
   description: 'Dev-server overlay for ESLint and TypeScript errors.',
+  icon: '',
   version: '1.1.2',
   category: 'plugin',
   tags: [

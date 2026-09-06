@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-import-map-resolve',
   description: 'Resolve import specifiers against import maps.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-tsx-admin',
   description: '基于 Vue3 + TSX 的灵活后台方案',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

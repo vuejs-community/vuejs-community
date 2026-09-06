@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-version',
   description: 'Auto generate project version when vite build',
+  icon: '',
   version: '1.0.7',
   category: 'plugin',
   tags: [

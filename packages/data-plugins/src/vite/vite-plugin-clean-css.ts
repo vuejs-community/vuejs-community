@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-clean-css',
   description: 'Optimize CSS for production using clean-css',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

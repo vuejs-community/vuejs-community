@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-unisonjs',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-unisonjs?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-unisonjs)',
+  icon: '',
   version: '0.1.10',
   category: 'plugin',
   tags: [

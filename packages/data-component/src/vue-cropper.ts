@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-cropper',
   description: '图片裁剪组件，v1 起支持 Vue 3',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['image', 'crop'],

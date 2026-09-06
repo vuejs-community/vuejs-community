@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-attributify-to-class',
   description: 'css attributify mode to class, support use in vite, rollup, webpack',
+  icon: '',
   version: '0.2.5',
   category: 'plugin',
   tags: [

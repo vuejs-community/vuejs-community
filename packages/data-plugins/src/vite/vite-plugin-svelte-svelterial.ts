@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svelte-svelterial',
   description: 'A plugin for integration with Vite and SvelteKit.',
+  icon: '',
   version: '0.0.11',
   category: 'plugin',
   tags: [

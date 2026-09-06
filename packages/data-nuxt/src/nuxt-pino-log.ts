@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-pino-log',
   description: 'Structured logs for nuxt apps using pino',
+  icon: '',
   category: 'nuxt',
   types: [
     'Monitoring',

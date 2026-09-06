@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-op-overloading',
   description: 'Operator Overloading for JavaScript and TypeScript',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

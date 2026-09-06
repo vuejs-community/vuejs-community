@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-agent',
   description: 'Vite plugin that exposes a structured MCP runtime for AI coding agents (toolchain diagnostics, module graph, HMR, build).',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

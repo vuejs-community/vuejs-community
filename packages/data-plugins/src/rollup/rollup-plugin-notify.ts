@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-notify',
   description: '📟 Displays rollup errors as system notifications.',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

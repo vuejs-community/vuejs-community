@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'konsta',
   description: '基于 Tailwind CSS 的移动端（iOS / Material）组件',
+  icon: '',
   category: 'ui',
   types: ['mobile-ui'],
   tags: ['ui', 'mobile', 'tailwindcss'],

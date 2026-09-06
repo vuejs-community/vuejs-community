@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-google-apps-script',
   description: 'Vite plugin for HtmlService on GoogleAppsScript via @google/clasp',
+  icon: '',
   version: '0.4.1',
   category: 'plugin',
   tags: [

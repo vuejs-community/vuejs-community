@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'notion',
   description: 'Vue renderer for Notion pages',
+  icon: '',
   category: 'nuxt',
   types: [
     'CMS',

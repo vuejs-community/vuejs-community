@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'devtools',
   description: 'Visual tools that help you to know your Nuxt application better.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

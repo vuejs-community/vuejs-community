@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-graphql-minify-schema',
   description: 'Minifies your GraphQL Schema JSON in Rollup',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

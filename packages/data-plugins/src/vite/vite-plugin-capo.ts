@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-capo',
   description: 'Reorders HTML <head> elements in Vite projects at build time using capo.js guidelines to improve page load performance.',
+  icon: '',
   version: '1.1.1',
   category: 'plugin',
   tags: [

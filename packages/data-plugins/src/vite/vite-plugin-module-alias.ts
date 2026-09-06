@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-module-alias',
   description: 'A simple and flexible Vite plugin to inject and watch import maps with support for JSON files. Supports inline definitions and external configuration.',
+  icon: '',
   version: '1.3.5',
   category: 'plugin',
   tags: [

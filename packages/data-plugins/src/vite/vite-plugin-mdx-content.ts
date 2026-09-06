@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mdx-content',
   description: 'Vite plugin that scans MDX content directories and generates a manifest file with frontmatter metadata and dynamic imports',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

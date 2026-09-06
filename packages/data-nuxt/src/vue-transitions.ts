@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-transitions',
   description: 'Reusable interface transitions with no CSS needed ❤️',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

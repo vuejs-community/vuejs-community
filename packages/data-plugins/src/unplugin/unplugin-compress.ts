@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-compress',
   description: 'A common compress plugin for Vite/Webpack/Rollup(etc...) powered by Unplugin',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

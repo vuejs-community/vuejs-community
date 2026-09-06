@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vercel-adapter',
   description: 'A Vite plugin for Vercel Build Output API v3',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

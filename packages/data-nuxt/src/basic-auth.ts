@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'basic-auth',
   description: 'Provide basic authentication to your Nuxt application',
+  icon: '',
   category: 'nuxt',
   types: [
     'Security',

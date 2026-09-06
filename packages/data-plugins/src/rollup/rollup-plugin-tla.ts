@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-tla',
   description: 'A rollup plugin to add top level await support for iife/umd',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

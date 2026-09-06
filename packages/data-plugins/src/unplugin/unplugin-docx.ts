@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-docx',
   description: 'Register global imports on demand for Vite and Webpack',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'google-analytics',
   description: 'Google analytics Module for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Analytics',

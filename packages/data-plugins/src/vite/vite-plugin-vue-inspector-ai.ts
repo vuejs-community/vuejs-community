@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-inspector-ai',
   description: 'Vue Inspector with enhanced features - supports end line and clipboard copy',
+  icon: '',
   version: '1.0.31',
   category: 'plugin',
   tags: [

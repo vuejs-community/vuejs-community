@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-bevy-wasm',
   description: 'Vite plugin to build bevy wasms',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

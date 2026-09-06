@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-excel-to-i18n',
   description: 'Vite plugin to convert Excel files to i18n JSON files',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

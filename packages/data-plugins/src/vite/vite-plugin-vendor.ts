@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vendor',
   description: 'Generates vendor bundles based on the specified options',
+  icon: '',
   version: '1.3.3',
   category: 'plugin',
   tags: [

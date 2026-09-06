@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-content',
   description: 'Rollup plugin to generate content and its summaries for i18n static sites',
+  icon: '',
   version: '0.8.3',
   category: 'plugin',
   tags: [

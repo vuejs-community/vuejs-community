@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mettle',
   description: 'Mettle.js integration plugin for vite',
+  icon: '',
   version: '1.9.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-turbo-console',
   description: 'Improve the Developer Experience of console',
+  icon: '',
   version: '2.3.3',
   category: 'plugin',
   tags: [

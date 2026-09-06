@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tanstack-start-zephyr',
   description: 'Vite plugin for Zephyr with TanStack Start support',
+  icon: '',
   version: '1.2.4',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'algolia',
   description: 'Algolia Search Module for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

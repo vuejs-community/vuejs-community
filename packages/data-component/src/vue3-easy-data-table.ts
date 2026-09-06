@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue3-easy-data-table',
   description: '易用的数据表格组件',
+  icon: '',
   category: 'component',
   types: ['table-library'],
   tags: ['table'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vars-modifier',
   description: 'A vite plugin for transform variables to config',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

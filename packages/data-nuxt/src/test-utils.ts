@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'test-utils',
   description: 'Test utilities for Nuxt.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-wrapper',
   description: 'A Vite plugin for transparently wrapping matched modules with custom implementations.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

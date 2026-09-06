@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lib-emit-assets',
   description: 'Vite 插件：提取 lib 构建模式下引用到的资源文件，取代 base64 内联形式',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

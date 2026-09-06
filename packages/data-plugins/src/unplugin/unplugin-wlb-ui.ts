@@ -2,6 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'unplugin-wlb-ui',
+  icon: '',
   version: '0.8.2',
   category: 'plugin',
   tags: [

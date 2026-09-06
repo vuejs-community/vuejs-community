@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-virtualized',
   description: 'Fixed import react-virtualized unused code error',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

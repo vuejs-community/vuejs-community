@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-type-as-json-schema',
   description: 'A rollup plugin to load a ts type as json schema object.',
+  icon: '',
   version: '0.2.6',
   category: 'plugin',
   tags: [

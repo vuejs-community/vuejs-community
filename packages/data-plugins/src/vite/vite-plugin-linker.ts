@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-linker',
   description: 'Build and update a WIP module into the current running project',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

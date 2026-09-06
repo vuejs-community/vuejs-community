@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-modify',
   description: 'Modify rollup output with find / replace dynamically',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

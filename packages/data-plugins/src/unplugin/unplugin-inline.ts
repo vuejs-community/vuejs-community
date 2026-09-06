@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-inline',
   description: 'An unplugin to inline pure function calls.',
+  icon: '',
   version: '1.16.0',
   category: 'plugin',
   tags: [

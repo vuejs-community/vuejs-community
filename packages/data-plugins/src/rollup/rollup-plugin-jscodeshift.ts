@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-jscodeshift',
   description: 'Modify rollup output with jscodeshift transforms',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

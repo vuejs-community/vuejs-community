@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'html-validator',
   description: 'Automatically validate Nuxt server-rendered HTML html',
+  icon: '',
   category: 'nuxt',
   types: [
     'Performance',

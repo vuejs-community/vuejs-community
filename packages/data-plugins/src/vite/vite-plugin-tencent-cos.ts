@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tencent-cos',
   description: 'vite-plugin-tencent-cos upload assets to tencent cos server',
+  icon: '',
   version: '1.0.8',
   category: 'plugin',
   tags: [

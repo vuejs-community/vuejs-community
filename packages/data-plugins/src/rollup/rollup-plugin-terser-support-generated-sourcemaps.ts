@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-terser-support-generated-sourcemaps',
   description: 'Rollup plugin to minify generated es bundle',
+  icon: '',
   version: '4.0.4-2',
   category: 'plugin',
   tags: [

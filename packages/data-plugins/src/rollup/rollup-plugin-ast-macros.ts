@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-ast-macros',
   description: 'Apply AST-based macros at build-time',
+  icon: '',
   version: '0.8.0',
   category: 'plugin',
   tags: [

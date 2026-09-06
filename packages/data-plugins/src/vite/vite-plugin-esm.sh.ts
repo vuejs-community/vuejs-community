@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-esm.sh',
   description: 'Rewrite imports with esm.sh at build time',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-bundle-manifest',
   description: 'A rollup plugin to generate a manifest file for the bundle.',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

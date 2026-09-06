@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue3-carousel',
   description: '高度可定制的轻量 Vue 3 轮播组件',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['carousel'],

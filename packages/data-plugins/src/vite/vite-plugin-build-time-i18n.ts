@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-build-time-i18n',
   description: 'Vite plugin for build-time i18n with static translation replacement and ICU message precompilation.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

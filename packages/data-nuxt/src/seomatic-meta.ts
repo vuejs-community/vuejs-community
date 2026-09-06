@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'seomatic-meta',
   description: 'A Nuxt module connecting Nuxt to the Craft CMS SEOmatic plugin',
+  icon: '',
   category: 'nuxt',
   types: [
     'CMS',

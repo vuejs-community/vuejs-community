@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-import-checker',
   description: 'A Rollup plugin that warns or throws an error when a specific import is found',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

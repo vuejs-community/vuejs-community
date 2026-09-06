@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-replace',
   description: 'A universal bundler plugin which replaces targeted strings in files.',
+  icon: '',
   version: '0.9.0',
   category: 'plugin',
   tags: [

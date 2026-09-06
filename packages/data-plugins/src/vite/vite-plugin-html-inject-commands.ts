@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-inject-commands',
   description: 'Inject commands result into index.html meta tag.',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

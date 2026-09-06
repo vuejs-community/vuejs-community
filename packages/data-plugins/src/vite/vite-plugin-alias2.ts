@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-alias2',
   description: 'During the development process, there are a small number of special cases where the path substitution of Vite\'s native alis is not enough to meet the development needs.So this is again an enhanced version of the foundation, and the plugin is compatible wi',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

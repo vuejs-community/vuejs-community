@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-base-output',
   description: 'Vite 插件：根据 base 配置将构建产物输出到 dist/<base>/ 目录，便于子路径部署',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue2-pages',
   description: 'File-based routing plugin for Vue 2',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

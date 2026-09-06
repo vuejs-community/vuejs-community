@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'pinia-orm',
   description: 'The Pinia plugin to enable Object-Relational Mapping access to the Pinia Store.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

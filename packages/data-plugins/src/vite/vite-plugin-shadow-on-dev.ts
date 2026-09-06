@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-shadow-on-dev',
   description: 'Vite plugin that syncs a folder with another folder in your output dir',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

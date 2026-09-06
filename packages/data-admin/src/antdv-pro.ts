@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'antdv-pro',
   description: '基于 Ant Design Vue 的中后台管理系统',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

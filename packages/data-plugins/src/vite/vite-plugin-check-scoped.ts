@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-check-scoped',
   description: 'A vite plugin for check style scoped',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

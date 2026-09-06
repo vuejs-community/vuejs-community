@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-semi-theming',
   description: 'A Vite plugin for semi theming',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

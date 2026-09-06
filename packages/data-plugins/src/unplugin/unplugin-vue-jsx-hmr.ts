@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-jsx-hmr',
   description: 'Provides Vue 2/3 JSX & TSX support with HMR.',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

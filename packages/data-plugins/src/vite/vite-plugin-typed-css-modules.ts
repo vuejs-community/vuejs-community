@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-typed-css-modules',
   description: 'Generate type definition files for css modules',
+  icon: '',
   version: '0.5.3',
   category: 'plugin',
   tags: [

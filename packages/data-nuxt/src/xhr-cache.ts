@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'xhr-cache',
   description: 'Cache api resources and serve it as static resource',
+  icon: '',
   category: 'nuxt',
   types: [
     'Performance',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-legacy',
   description: 'A Nuxt module for supporting legacy browsers.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Performance',

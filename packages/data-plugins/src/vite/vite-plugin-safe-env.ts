@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-safe-env',
   description: 'A Vite plugin that prevents server-only environment variables from leaking into client-side bundles.',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

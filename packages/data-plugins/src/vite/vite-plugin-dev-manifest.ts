@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dev-manifest',
   description: 'Vite plugin for generating manifest during dev server',
+  icon: '',
   version: '1.5.0',
   category: 'plugin',
   tags: [

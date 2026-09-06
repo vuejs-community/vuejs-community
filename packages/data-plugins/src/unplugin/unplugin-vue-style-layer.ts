@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-style-layer',
   description: 'Unplugin for add css layer to vue style',
+  icon: '',
   version: '0.3.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-require-transform',
   description: 'transform require into import',
+  icon: '',
   version: '0.0.8',
   category: 'plugin',
   tags: [

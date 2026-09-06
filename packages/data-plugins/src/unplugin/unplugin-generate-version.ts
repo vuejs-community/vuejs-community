@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-generate-version',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-generate-version?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-generate-version)',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

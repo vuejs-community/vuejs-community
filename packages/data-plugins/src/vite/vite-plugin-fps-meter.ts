@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-fps-meter',
   description: 'vite-plugin-fps-meter is a tiny Vite plugin that overlays a live FPS / ms badge (with p95/p99 and Long Task %) on your app. It can auto-inject in dev or build, toggles via URL/localStorage, adapts to Vite\'s error overlay, and exposes a simple runtime API.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

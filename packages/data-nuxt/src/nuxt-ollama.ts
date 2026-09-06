@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-ollama',
   description: 'Simple integration of the official Ollama JavaScript Library for your Nuxt application.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

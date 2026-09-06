@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-favicon',
   description: 'Create and manage favicons for vite bundles, mostily compatible with the config of favicons-webpack-plugin',
+  icon: '',
   version: '1.0.8',
   category: 'plugin',
   tags: [

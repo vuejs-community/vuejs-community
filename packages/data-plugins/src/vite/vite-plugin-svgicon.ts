@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svgicon',
   description: 'vite plugin for @yzfe/svgicon',
+  icon: '',
   version: '2.1.2',
   category: 'plugin',
   tags: [

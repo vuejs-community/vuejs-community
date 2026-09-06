@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-devtools-columns',
   description: 'A Vite plugin that adds a shortcut to show vertical columns as a dev tool.',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

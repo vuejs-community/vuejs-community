@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-jsx-remove-attributes',
   description: 'rollup &amp; vite plugin to remove jsx attributes',
+  icon: '',
   version: '3.1.2',
   category: 'plugin',
   tags: [

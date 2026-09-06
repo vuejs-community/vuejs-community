@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-uni-tailwind-no-pnpm',
   description: '支持在 uni-app 中使用 TailwindCSS@3 原有语法开发',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

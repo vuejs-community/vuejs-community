@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dtsbom',
   description: 'Vite plugin for generating SBOM (Software Bill of Materials) in SPDX and CycloneDX formats',
+  icon: '',
   version: '1.0.7',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'pwa',
   description: 'Easily build a Progressive Web App for your Nuxt application to improve your app\'s performance.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Performance',

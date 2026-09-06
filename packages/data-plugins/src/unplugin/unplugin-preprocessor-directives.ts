@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-preprocessor-directives',
   description: '<img src="assets/logo.svg" alt="logo" width="100" height="100" align="right" />',
+  icon: '',
   version: '1.2.0',
   category: 'plugin',
   tags: [

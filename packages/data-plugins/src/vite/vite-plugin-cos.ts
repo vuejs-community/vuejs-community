@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cos',
   description: 'A vite plugin for upload dist files to tencent cloud cos',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

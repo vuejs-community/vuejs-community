@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-injs-jsx',
   description: 'convert JSX code in JS file, The default is Vue JSX. Parameters can be passed in and configured as react JSX',
+  icon: '',
   version: '1.0.5',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-rollbar-sourcemap',
   description: 'This is a Vite plugin for uploading Vite-generated Sourcemaps to Rolbar.',
+  icon: '',
   version: '0.0.13',
   category: 'plugin',
   tags: [

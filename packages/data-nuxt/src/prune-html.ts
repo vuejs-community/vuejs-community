@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'prune-html',
   description: 'Nuxt module to prune html before sending it to the browser for boosting performance.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Performance',

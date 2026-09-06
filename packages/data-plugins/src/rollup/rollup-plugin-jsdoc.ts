@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-jsdoc',
   description: 'Rollup plugin for jsdoc',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

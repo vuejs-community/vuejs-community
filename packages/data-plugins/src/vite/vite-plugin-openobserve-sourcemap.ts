@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-openobserve-sourcemap',
   description: 'Vite plugin that uploads source maps to OpenObserve RUM after build and removes them from the output directory',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-atscript',
   description: 'Atscript: Configuration and build plugins.',
+  icon: '',
   version: '0.1.89',
   category: 'plugin',
   tags: [

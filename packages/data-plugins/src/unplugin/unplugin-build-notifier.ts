@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-build-notifier',
   description: 'System notification of build results',
+  icon: '',
   version: '0.1.5',
   category: 'plugin',
   tags: [

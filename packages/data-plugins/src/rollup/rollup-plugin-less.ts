@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-less',
   description: 'a rollup plugin for less files',
+  icon: '',
   version: '1.1.3',
   category: 'plugin',
   tags: [

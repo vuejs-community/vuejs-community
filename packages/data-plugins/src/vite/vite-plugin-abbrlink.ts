@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-abbrlink',
   description: '> A Vite plugin to generate unique abbreviated links for Markdown files',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

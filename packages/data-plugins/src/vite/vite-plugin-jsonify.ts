@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-jsonify',
   description: 'Emits any JS/TS file exports as a JSON asset while preserving all bundling features including content hash',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

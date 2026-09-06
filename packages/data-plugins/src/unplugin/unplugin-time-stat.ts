@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-time-stat',
   description: 'Build time stat reporting for unplugin',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

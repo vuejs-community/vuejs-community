@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-comp-name-route',
   description: 'A Vite plugin for filtering Vue components based on route configuration',
+  icon: '',
   version: '0.0.30',
   category: 'plugin',
   tags: [

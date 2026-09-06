@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-ignore-import',
   description: 'Ignore import rollup plugin',
+  icon: '',
   version: '1.3.2',
   category: 'plugin',
   tags: [

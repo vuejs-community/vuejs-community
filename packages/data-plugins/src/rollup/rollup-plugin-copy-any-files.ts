@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-copy-any-files',
   description: 'Rollup copy any files.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

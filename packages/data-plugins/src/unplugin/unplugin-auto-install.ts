@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-auto-install',
   description: 'A universal bundler plugin which automatically installs dependencies that are imported by a bundle, even if not yet in `package.json`.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

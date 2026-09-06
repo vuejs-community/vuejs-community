@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-import-defer',
   description: 'Transform import defer syntax to dynamic import()',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

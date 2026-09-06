@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-data-uri',
   description: 'A universal bundler plugin which imports modules from Data URIs.',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

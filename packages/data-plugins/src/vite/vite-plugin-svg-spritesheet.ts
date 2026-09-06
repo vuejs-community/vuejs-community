@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-spritesheet',
   description: 'Vite plugin for SVG spritesheets with SVGO',
+  icon: '',
   version: '0.8.1',
   category: 'plugin',
   tags: [

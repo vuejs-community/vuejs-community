@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-workbox-build',
   description: 'Rollup plugin that builds a service worker with workbox-build',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

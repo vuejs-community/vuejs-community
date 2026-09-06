@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'fontaine',
   description: 'Automatically optimized font fallback based on font metrics',
+  icon: '',
   category: 'nuxt',
   types: [
     'Performance',

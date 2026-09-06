@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-inject-preload',
   description: 'Inject <link rel=\'preload\'> for Webpack/ViteJS',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

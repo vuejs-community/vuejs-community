@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-css2',
   description: 'CSS transformer plugin for Rollup',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

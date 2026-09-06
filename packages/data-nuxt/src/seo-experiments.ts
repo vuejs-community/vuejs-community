@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'seo-experiments',
   description: 'Powerful SEO DX improvements.',
+  icon: '',
   category: 'nuxt',
   types: [
     'SEO',

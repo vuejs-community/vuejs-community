@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-nomatter',
   description: 'Vite plugin that derives frontmatter from Markdown content, removing the need to write frontmatter.',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

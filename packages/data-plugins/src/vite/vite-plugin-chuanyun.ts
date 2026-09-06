@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-chuanyun',
   description: 'Expose a Vite dev server through a chuanyun tunnel: registers the port, allows the host, prints the public URL',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

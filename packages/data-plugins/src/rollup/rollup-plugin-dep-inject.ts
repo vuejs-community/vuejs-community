@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-dep-inject',
   description: 'A rollup plugin that uses your externally defined modules and injects their unpkg cdn equivalent into an index entry file.',
+  icon: '',
   version: '0.2.6',
   category: 'plugin',
   tags: [

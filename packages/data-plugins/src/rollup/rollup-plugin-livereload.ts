@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-livereload',
   description: 'Rollup plugin for LiveReload that watches the bundle and reloads the page on change',
+  icon: '',
   version: '2.0.5',
   category: 'plugin',
   tags: [

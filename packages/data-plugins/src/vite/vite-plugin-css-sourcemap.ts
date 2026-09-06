@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-css-sourcemap',
   description: 'A Vite plugin to generate CSS sourcemaps',
+  icon: '',
   version: '1.0.5',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-electron-run',
   description: 'Vite and Rollup plugins that build and live-reload Electron with reliable process shutdown.',
+  icon: '',
   version: '0.4.1',
   category: 'plugin',
   tags: [

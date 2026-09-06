@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-component-override',
   description: 'Make Vue component can be override at runtime.',
+  icon: '',
   version: '0.1.5',
   category: 'plugin',
   tags: [

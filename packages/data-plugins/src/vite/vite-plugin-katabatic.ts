@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-katabatic',
   description: 'vite plugin for [Katabatic](https://github.com/katabatic-js/katabatic)',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

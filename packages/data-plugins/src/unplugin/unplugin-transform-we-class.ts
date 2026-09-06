@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-transform-we-class',
   description: '转换微信小程序中带有转义字符的class',
+  icon: '',
   version: '0.1.19',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-filter-dep-graph',
   description: 'Filter and visualize the dependency graph.',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-vue-ssr',
   description: 'vite插件，处理vue ssr渲染',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

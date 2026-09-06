@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-tagged-template-postcss',
   description: 'Process contents of tagged template literals with PostCSS during Rollup build.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

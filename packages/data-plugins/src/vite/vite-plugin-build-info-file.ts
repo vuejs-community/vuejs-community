@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-build-info-file',
   description: 'Vite plugin that generates build information and outputs it as a json file',
+  icon: '',
   version: '0.6.0',
   category: 'plugin',
   tags: [

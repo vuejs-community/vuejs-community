@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-version',
   description: 'Automatically put the version file in your project dist folder',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

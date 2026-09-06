@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-file-create',
   description: '一个vite插件, 在vite打包时创建文件并保存至输出目录',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

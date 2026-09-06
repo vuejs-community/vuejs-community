@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vendor',
   description: 'directly serve node_modules',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

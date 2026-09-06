@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-dedent',
   description: 'A Rollup plugin to dedent multi-line string during build time',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

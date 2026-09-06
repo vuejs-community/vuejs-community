@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'tiptap',
   description: 'Headless 富文本编辑器框架',
+  icon: '',
   category: 'component',
   types: ['editor'],
   tags: ['rich-text', 'headless'],

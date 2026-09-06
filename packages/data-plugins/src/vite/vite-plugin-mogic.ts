@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mogic',
   description: 'vite plugin for mogic',
+  icon: '',
   version: '0.9.5',
   category: 'plugin',
   tags: [

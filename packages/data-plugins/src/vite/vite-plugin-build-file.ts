@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-build-file',
   description: 'A Vite plugin to download remote assets or copy local files into the dist directory during build.',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

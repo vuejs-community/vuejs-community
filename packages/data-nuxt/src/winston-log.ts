@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'winston-log',
   description: 'Nuxt module for logging SSR errors + client-side Vue errors using winston',
+  icon: '',
   category: 'nuxt',
   types: [
     'Monitoring',

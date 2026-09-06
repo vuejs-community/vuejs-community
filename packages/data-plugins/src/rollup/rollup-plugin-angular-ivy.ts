@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-angular-ivy',
   description: 'Angular9 styles inliner',
+  icon: '',
   version: '0.6.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-upload-to-hubspot',
   description: 'Upload files to HubSpot — as a Vite plugin or standalone',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

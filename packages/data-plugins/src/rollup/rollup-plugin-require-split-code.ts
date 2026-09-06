@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-require-split-code',
   description: 'Enable code splitting with require()',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

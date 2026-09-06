@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-bugsnag',
   description: 'Report builds and upload source maps to Bugsnag',
+  icon: '',
   version: '2.0.2',
   category: 'plugin',
   tags: [

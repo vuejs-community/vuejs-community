@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'view-ui-plus',
   description: 'iView（View UI）的 Vue 3 企业级版本',
+  icon: '',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui', 'iview'],

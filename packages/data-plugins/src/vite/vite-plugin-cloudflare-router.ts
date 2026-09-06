@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cloudflare-router',
   description: 'A file-based router for Cloudflare Workers',
+  icon: '',
   version: '0.2.2',
   category: 'plugin',
   tags: [

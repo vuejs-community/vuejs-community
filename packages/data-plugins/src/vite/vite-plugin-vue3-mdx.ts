@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue3-mdx',
   description: '[![NPM version](https://img.shields.io/npm/v/vite-plugin-vue3-mdx?color=a1b858&label=)](https://www.npmjs.com/package/vite-plugin-vue3-mdx)',
+  icon: '',
   version: '0.0.8',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-baked-env',
   description: 'Import process.env as a module for baking environment variables inside your bundle at build time.',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

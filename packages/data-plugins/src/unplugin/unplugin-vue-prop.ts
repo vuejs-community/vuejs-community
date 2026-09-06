@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-prop',
   description: 'Add import define props type support for Vue3 script-setup and lang is typescript',
+  icon: '',
   version: '0.0.10',
   category: 'plugin',
   tags: [

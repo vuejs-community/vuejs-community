@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-include',
   description: 'Includes a file into a source, with optional assigning it to a variable',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

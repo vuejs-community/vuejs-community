@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'browserconfig',
   description: 'Adds XML browser configuration support',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

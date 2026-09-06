@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-views',
   description: 'A vite plugin based on File System for creating routes automatically.',
+  icon: '',
   version: '2.2.0',
   category: 'plugin',
   tags: [

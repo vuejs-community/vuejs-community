@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-skip',
   description: 'Skip all content that has been compiled once',
+  icon: '',
   version: '0.0.11',
   category: 'plugin',
   tags: [

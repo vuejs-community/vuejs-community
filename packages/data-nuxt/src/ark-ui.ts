@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'ark-ui',
   description: 'A headless library for building reusable, scalable design systems that works for a wide range of JS frameworks.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',
