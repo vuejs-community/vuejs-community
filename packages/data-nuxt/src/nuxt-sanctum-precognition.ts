@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-sanctum-precognition',
   description: 'Nuxt module for Laravel Precognition integration',
-  icon: '',
+  icon: 'icon:laravel',
   category: 'nuxt',
   types: [
     'Libraries',

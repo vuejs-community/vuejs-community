@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'query-api',
   description: 'Provides simple ways to query data from Craft CMS.',
-  icon: '',
+  icon: 'icon:query-api',
   category: 'nuxt',
   types: [
     'CMS',

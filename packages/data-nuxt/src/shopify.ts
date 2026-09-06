@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@nuxtjs/shopify',
   },
   stats: {
-    stars: 167,
+    stars: 168,
     downloads: {
       monthly: 3365,
       weekly: 692,

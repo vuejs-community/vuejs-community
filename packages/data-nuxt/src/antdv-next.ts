@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'antdv-next',
   description: 'Ant Design for Vue',
-  icon: '',
+  icon: 'icon:antdv-next',
   category: 'nuxt',
   types: [
     'UI',

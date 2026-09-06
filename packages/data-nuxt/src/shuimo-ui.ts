@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'shuimo-ui',
   description: 'A Chinese Shuimo style component library.',
-  icon: '',
+  icon: 'icon:shuimo-ui',
   category: 'nuxt',
   types: [
     'UI',

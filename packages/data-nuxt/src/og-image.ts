@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'og-image',
   description: 'Enlightened runtime images generated with Vue templates.',
-  icon: '',
+  icon: 'icon:og-image',
   category: 'nuxt',
   types: [
     'SEO',

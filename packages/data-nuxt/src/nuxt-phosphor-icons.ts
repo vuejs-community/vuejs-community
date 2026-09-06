@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-phosphor-icons',
   description: 'Just a simple integration for @phosphor-icons in Nuxt',
-  icon: '',
+  icon: 'icon:phosphor-icons',
   category: 'nuxt',
   types: [
     'UI',

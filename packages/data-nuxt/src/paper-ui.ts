@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'paper-ui',
   description: 'A ui kit for nuxt',
-  icon: '',
+  icon: 'icon:paper-ui',
   category: 'nuxt',
   types: [
     'UI',

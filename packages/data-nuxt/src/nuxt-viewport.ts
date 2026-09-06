@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-viewport',
   description: 'Define custom viewports for your Nuxt project',
-  icon: '',
+  icon: 'icon:nuxt-viewport',
   category: 'nuxt',
   types: [
     'Extensions',

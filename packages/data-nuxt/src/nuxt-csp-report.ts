@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-csp-report',
   description: 'A Nuxt module for collecting, normalizing, and persisting Content Security Policy (CSP) reports.',
-  icon: '',
+  icon: 'icon:nuxt-csp-report',
   category: 'nuxt',
   types: [
     'Security',

@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@nuxtjs/i18n',
   },
   stats: {
-    stars: 2084,
+    stars: 2085,
     downloads: {
       monthly: 2541884,
       weekly: 652882,

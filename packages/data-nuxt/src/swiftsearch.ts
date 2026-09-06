@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'swiftsearch',
   description: 'Nuxt module for a typesafe, SSR first algolia instantsearch experience',
-  icon: '',
+  icon: 'icon:nuxt-swiftsearch',
   category: 'nuxt',
   types: [
     'Libraries',

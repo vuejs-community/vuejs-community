@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'webpack-optimisations',
   description: 'Nuxt v2 module to automatically make your builds faster.',
-  icon: '',
+  icon: 'icon:build-optimisations',
   category: 'nuxt',
   types: [
     'Devtools',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'edgedb',
   description: 'Integrate Nuxt 3 with EdgeDB effortlessly, adding a robust database layer to your app with minimal configuration.',
-  icon: '',
+  icon: 'icon:edgedb',
   category: 'nuxt',
   types: [
     'Database',

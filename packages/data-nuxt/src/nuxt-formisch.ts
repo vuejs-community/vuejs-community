@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-formisch',
   description: 'Formisch integration for Nuxt - schema-based, headless form library',
-  icon: '',
+  icon: 'icon:nuxt-formisch',
   category: 'nuxt',
   types: [
     'Libraries',

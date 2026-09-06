@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'kongponents',
   description: 'Kong Component library',
-  icon: '',
+  icon: 'icon:kong',
   category: 'nuxt',
   types: [
     'UI',

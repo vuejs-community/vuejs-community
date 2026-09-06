@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'twemoji',
   description: 'Twemoji module for Nuxt. Render emojis as SVG elements or PNG images.',
-  icon: '',
+  icon: 'icon:twemoji',
   category: 'nuxt',
   types: [
     'UI',

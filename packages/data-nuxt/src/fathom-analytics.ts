@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'fathom-analytics',
   description: 'Fathom analytics integration for Nuxt',
-  icon: '',
+  icon: 'icon:fathom-analytics',
   category: 'nuxt',
   types: [
     'Analytics',

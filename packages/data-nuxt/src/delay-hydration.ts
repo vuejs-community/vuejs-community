@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'delay-hydration',
   description: 'Improve your Nuxt v2 Google Lighthouse score by delaying hydration.',
-  icon: '',
+  icon: 'icon:lighthouse',
   category: 'nuxt',
   types: [
     'Performance',

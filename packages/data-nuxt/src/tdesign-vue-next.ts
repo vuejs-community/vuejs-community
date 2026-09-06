@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'tdesign-vue-next',
   description: 'A Vue3.x UI components lib for TDesign.',
-  icon: '',
+  icon: 'icon:tdesign',
   category: 'nuxt',
   types: [
     'UI',

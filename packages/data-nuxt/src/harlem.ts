@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'harlem',
   description: 'Harlem is a simple, unopinionated, lightweight and extensible state management solution for Vue 3.',
-  icon: '',
+  icon: 'icon:harlem',
   category: 'nuxt',
   types: [
     'Extensions',

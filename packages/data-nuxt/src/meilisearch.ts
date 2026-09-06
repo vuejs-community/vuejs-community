@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'meilisearch',
   description: 'Meilisearch Instant Search module for Nuxt',
-  icon: '',
+  icon: 'icon:meilisearch',
   category: 'nuxt',
   types: [
     'Libraries',

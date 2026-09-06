@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'schema-org',
   description: 'Quick and easy Schema.org graphs.',
-  icon: '',
+  icon: 'icon:schema-org',
   category: 'nuxt',
   types: [
     'SEO',

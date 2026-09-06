@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vuefire',
   description: 'Idiomatic composables for the Firebase SDK',
-  icon: '',
+  icon: 'icon:vuefire',
   category: 'nuxt',
   types: [
     'Database',

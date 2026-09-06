@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'polar',
   description: 'Polar.sh integration for Nuxt',
-  icon: '',
+  icon: 'icon:polar',
   category: 'nuxt',
   types: [
     'Payment',

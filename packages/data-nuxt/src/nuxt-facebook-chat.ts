@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-facebook-chat',
   description: 'nuxt-plotly module is thin Nuxt wrapper for Facebook\'s Customer Chat SDK',
-  icon: '',
+  icon: 'icon:nuxt-facebook-chat',
   category: 'nuxt',
   types: [
     'Libraries',

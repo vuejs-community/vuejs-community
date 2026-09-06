@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-pwa-nuxt',
   description: 'Zero-config PWA Plugin for Nuxt',
-  icon: '',
+  icon: 'icon:vite-pwa-nuxt',
   category: 'nuxt',
   types: [
     'Performance',
@@ -23,8 +23,8 @@ export default defineProjectMeta({
   stats: {
     stars: 582,
     downloads: {
-      monthly: 559905,
-      weekly: 156881,
+      monthly: 0,
+      weekly: 0,
     },
   },
 })

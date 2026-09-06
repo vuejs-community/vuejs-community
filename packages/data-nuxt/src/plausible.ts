@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'plausible',
   description: 'Nuxt module to natively integrate Plausible analytics',
-  icon: '',
+  icon: 'icon:plausible',
   category: 'nuxt',
   types: [
     'Analytics',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-query',
   description: '0 config lightweight Nuxt module for @tanstack/vue-query.',
-  icon: '',
+  icon: 'icon:vue-query',
   category: 'nuxt',
   types: [
     'Request',

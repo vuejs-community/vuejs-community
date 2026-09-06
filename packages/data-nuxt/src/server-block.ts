@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'server-block',
   description: 'Use <server> tags in your Nuxt pages components.',
-  icon: '',
+  icon: 'icon:server-block',
   category: 'nuxt',
   types: [
     'Extensions',

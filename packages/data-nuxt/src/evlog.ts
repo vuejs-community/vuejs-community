@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'evlog',
   description: 'Wide events and structured errors for TypeScript. One log per request. Full context.',
-  icon: '',
+  icon: 'icon:evlog',
   category: 'nuxt',
   types: [
     'Monitoring',
@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: 'evlog',
   },
   stats: {
-    stars: 1843,
+    stars: 1844,
     downloads: {
       monthly: 1033317,
       weekly: 252778,

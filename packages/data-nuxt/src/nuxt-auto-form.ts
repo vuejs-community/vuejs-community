@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-auto-form',
   description: 'Auto-generate Nuxt UI forms from Zod 4 schemas',
-  icon: '',
+  icon: 'icon:nuxt-auto-form',
   category: 'nuxt',
   types: [
     'Libraries',

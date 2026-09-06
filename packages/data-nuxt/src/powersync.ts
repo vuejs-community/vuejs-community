@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'powersync',
   description: 'Offline-first sync with native Nuxt integration — auto-imported composables, built-in diagnostics, Nuxt DevTools integration, and optional Kysely for type-safe queries',
-  icon: '',
+  icon: 'icon:powersync',
   category: 'nuxt',
   types: [
     'Database',
@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@powersync/nuxt',
   },
   stats: {
-    stars: 720,
+    stars: 721,
     downloads: {
       monthly: 480,
       weekly: 161,

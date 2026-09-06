@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'persian-datepicker',
   description: 'A datepicker component for select date. (single and range selection, select date and time, select with keyboard, customizable style, localization)',
-  icon: '',
+  icon: 'icon:persian-datepicker',
   category: 'nuxt',
   types: [
     'Date',

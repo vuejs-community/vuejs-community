@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'electron',
   description: 'Integrate Nuxt and Electron.',
-  icon: '',
+  icon: 'icon:electron',
   category: 'nuxt',
   types: [
     'Extensions',
