@@ -79,8 +79,5 @@
   },
   "lint-staged": {
     "*": "eslint --fix"
-  },
-  "workspaces": [
-    "packages/shared"
-  ]
+  }
 }
