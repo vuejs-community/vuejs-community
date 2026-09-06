@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-qk-icon',
   description: '在vite中使用svg文件时更方便。支持热更新。',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mp',
   description: 'Configure multi-pages applications and code splitting',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

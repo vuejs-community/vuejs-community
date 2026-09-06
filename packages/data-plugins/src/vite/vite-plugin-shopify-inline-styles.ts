@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-shopify-inline-styles',
   description: 'Vite plugin for Shopify themes: render each section/snippet\'s built CSS as an inline <style> tag via inline_asset_content',
+  icon: '',
   version: '0.8.0',
   category: 'plugin',
   tags: [

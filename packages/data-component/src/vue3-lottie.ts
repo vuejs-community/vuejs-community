@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue3-lottie',
   description: 'Lottie 动画的 Vue 3 组件封装',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['animation', 'lottie'],

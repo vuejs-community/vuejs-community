@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-civet',
   description: 'Vite plugin for civet',
+  icon: '',
   version: '0.2.8',
   category: 'plugin',
   tags: [

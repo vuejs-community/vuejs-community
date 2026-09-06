@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'icon-font',
   description: 'Automatically generates fonts and custom properties (variables) from a specified folder containing SVG icons, injecting them into pages with live monitoring.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-precise-arithmetic',
   description: '- 一个 vite 插件，作为浮点数计算精度问题的解决方案',
+  icon: '',
   version: '1.0.7',
   category: 'plugin',
   tags: [

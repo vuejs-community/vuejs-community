@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-pages-defname',
   description: '定义组件名称, 便于 vue-route + keep-alive 动态更新',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

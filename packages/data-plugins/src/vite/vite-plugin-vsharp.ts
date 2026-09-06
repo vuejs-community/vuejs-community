@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vsharp',
   description: 'A Vite plugin that compresses static images after each builds by using sharp.js',
+  icon: '',
   version: '1.9.1',
   category: 'plugin',
   tags: [

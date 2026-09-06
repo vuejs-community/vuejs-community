@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-generate-component-name',
   description: 'A plugin for auto generate vue component name.',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

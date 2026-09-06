@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-input-with-css',
   description: 'A Rollup JS plugin for using CSS or SCSS (SASS) files as inputs and output filenames',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

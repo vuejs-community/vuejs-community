@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ai-annotator',
   description: 'AI-powered element annotator for Vite - Pick elements and get instant AI code modifications',
+  icon: '',
   version: '3.2.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-sfc-in-js',
   description: 'Vue SFC in JS files',
+  icon: '',
   version: '0.2.2',
   category: 'plugin',
   tags: [

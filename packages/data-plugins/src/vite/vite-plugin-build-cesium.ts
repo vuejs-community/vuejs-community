@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-build-cesium',
   description: 'Cesium library plugin for Vite',
+  icon: '',
   version: '0.1.5',
   category: 'plugin',
   tags: [

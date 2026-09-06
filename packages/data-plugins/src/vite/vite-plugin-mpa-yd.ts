@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mpa-yd',
   description: 'Configure multiple pages for exporting a template',
+  icon: '',
   version: '0.0.10',
   category: 'plugin',
   tags: [

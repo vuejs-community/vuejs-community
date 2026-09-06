@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-php-components',
   description: 'Transpile PHP-Components to PHP calls',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

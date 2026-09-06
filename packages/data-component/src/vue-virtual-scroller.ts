@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-virtual-scroller',
   description: '老牌虚拟滚动组件，v3 版本支持 Vue 3',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['virtual-scroll'],

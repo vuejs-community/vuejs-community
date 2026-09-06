@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cp',
   description: 'A powerful Vite plugin for copying files/directories with advanced transformation and renaming capabilities.',
+  icon: '',
   version: '8.0.1',
   category: 'plugin',
   tags: [

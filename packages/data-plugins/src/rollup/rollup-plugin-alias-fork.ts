@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-alias-fork',
   description: 'Resolves aliases with Rollup',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

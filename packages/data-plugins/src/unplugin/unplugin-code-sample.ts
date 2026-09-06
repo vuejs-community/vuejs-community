@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-code-sample',
   description: 'Help you display code examples of the current page, support multiple packers, powered by unplugin',
+  icon: '',
   version: '0.1.10',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-three-minify',
   description: 'Minify Three.js shader code, and remove redundant code',
+  icon: '',
   version: '3.0.1',
   category: 'plugin',
   tags: [

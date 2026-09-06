@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-effect',
   description: 'Vite plugin for Effect v4 — type-safe backend API & RPC gateway with virtual client module',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

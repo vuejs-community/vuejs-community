@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-final-modal',
   description: 'Renderless 弹窗组件，移动端友好',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['modal'],

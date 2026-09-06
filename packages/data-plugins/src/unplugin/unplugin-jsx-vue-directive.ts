@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-jsx-vue-directive',
   description: 'Description.',
+  icon: '',
   version: '0.1.5',
   category: 'plugin',
   tags: [

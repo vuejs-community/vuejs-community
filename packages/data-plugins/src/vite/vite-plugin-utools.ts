@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-utools',
   description: 'Utools for Vite',
+  icon: '',
   version: '0.5.5-beta.0',
   category: 'plugin',
   tags: [

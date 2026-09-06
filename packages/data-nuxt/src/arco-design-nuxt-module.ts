@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'arco-design-nuxt-module',
   description: 'Nuxt Module for Arco Design Vue. Automatically import components, icons and more.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-goodscript',
   description: 'Vite plugin for GoodScript - compile -gs.ts files on-the-fly with full HMR support',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

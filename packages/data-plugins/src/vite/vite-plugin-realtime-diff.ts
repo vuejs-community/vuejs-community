@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-realtime-diff',
   description: 'Compare two websites and see the difference directly in your browser realtime.',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

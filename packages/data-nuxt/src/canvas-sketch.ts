@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'canvas-sketch',
   description: 'Nuxt module for making generative and 3D artwork with canvas-sketch in JavaScript',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-entry-dag',
   description: 'Vite 插件：从入口路由生成依赖树并记录模块发现顺序',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

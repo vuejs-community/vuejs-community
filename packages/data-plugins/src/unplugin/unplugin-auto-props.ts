@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-auto-props',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-auto-props?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-auto-props)',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-make-offline',
   description: 'Make your built index.html offline.',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

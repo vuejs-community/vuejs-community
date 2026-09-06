@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-sham-ui-templates',
   description: 'Rollup plugin for compile sham-ui templates',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-loco',
   description: 'A localise.biz module to synth locale with Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

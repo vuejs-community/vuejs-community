@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-global-const',
   description: 'Define constants for your project to facilitate reuse of your code across multiple products',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-bundle-babel',
   description: 'Bundle required babel-runtime in Rollup',
+  icon: '',
   version: '2.0.6',
   category: 'plugin',
   tags: [

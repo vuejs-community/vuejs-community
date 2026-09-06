@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-leader-line',
   description: 'A Vite plugin for LeaderLine',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

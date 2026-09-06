@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-antdv-no-cssinjs',
   description: 'close antdv css-in-js and generate css file',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

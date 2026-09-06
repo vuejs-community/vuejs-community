@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-manage',
   description: 'Easy to manage assets SVG',
+  icon: '',
   version: '1.0.8',
   category: 'plugin',
   tags: [

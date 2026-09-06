@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-webworkify',
   description: 'Bundles web worker alongside your main.',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

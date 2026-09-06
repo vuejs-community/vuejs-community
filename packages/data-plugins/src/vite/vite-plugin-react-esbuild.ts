@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-esbuild',
   description: 'vite-plugin-vite-plugin-react-esbuild',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

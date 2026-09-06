@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-django',
   description: 'A vite plugin that generates html and assets for django templates',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

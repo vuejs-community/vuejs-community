@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lingo',
   description: 'Visual translation editor for .po files in Vite projects',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

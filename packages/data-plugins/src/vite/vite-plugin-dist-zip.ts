@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dist-zip',
   description: '用于在构建后将文件打入压缩包',
+  icon: '',
   version: '1.0.5',
   category: 'plugin',
   tags: [

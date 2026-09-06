@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-reload-on-rebuild',
   description: 'Reloads page when current html file changes (on rebuild; without dev server)',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

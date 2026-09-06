@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sfce',
   description: 'Single-file custom elements with vite',
+  icon: '',
   version: '0.2.4',
   category: 'plugin',
   tags: [

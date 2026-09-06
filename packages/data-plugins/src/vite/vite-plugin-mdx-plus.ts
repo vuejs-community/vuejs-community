@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mdx-plus',
   description: 'A vite plugin to use mdx with more opinionated features. It\'s plus!',
+  icon: '',
   version: '2.1.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-resolve-url-objects',
   description: 'Resolve and bundle the contents of a string in new URL().',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

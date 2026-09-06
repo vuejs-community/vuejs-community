@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-origin',
   description: 'Vite plugin that configures origin url for dev server automatically',
+  icon: '',
   version: '2.0.2',
   category: 'plugin',
   tags: [

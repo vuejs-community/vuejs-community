@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-native-sw',
   description: 'A Vite plugin for Service Worker of native support.',
+  icon: '',
   version: '1.2.1',
   category: 'plugin',
   tags: [

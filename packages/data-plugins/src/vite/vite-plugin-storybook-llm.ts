@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-storybook-llm',
   description: 'Vite plugin to convert Storybook stories into LLM-friendly Markdown documentation',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

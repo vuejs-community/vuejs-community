@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tm-userscript',
   description: 'A vite plugin to build userscripts mainly for Tampermonkey.',
+  icon: '',
   version: '1.2.1',
   category: 'plugin',
   tags: [

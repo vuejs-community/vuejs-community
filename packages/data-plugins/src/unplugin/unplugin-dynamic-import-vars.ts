@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-dynamic-import-vars',
   description: 'A universal bundler plugin to support variables in dynamic imports in Bundler.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

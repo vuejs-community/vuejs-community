@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'well-known',
   description: 'A Nuxt module to add well-known URIs using middlewares',
+  icon: '',
   category: 'nuxt',
   types: [
     'SEO',

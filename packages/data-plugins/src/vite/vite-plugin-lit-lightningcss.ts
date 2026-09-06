@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lit-lightningcss',
   description: 'Vite plugin that transforms Lit CSS template literals using Lightning CSS.',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

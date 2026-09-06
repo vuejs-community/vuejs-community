@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-html-scaffold',
   description: 'HTML template for Rollup',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-nodecg',
   description: 'Vite plugin to enable its use with NodeCG',
+  icon: '',
   version: '2.1.0',
   category: 'plugin',
   tags: [

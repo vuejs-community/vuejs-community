@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-devtools-cn',
   description: 'A vite plugin for Vue DevTools in chinese',
+  icon: '',
   version: '7.5.4',
   category: 'plugin',
   tags: [

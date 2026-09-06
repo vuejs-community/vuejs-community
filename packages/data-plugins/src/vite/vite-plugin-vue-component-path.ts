@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-component-path',
   description: 'A Vite plugin that show where the vue component path is on browser devtools',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

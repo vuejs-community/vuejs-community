@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-gulp',
   description: 'allows gulp plugins to be used as Rollup transforms',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

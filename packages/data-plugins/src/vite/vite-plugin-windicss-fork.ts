@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-windicss-fork',
   description: 'Windi CSS for Vite, it\'s fast!',
+  icon: '',
   version: '0.9.12',
   category: 'plugin',
   tags: [

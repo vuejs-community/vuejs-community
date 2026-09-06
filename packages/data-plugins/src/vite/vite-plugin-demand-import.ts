@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-demand-import',
   description: 'Demand import for the library that has side effects',
+  icon: '',
   version: '1.1.1',
   category: 'plugin',
   tags: [

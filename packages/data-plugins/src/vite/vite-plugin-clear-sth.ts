@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-clear-sth',
   description: 'Access to clear sth what you want when your project is building',
+  icon: '',
   version: '0.0.8',
   category: 'plugin',
   tags: [

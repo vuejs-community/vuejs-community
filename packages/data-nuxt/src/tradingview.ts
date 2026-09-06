@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'tradingview',
   description: 'Use the TradingView Widgets in your Nuxt Application',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'oku-ui',
   description: 'Radix UI Primitives 的 Vue 1:1 移植',
+  icon: '',
   category: 'ui',
   types: ['headless-ui'],
   tags: ['ui', 'headless-ui', 'radix'],

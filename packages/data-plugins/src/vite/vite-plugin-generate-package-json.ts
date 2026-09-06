@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-generate-package-json',
   description: 'Generate package.json file with packages from your Vite bundle',
+  icon: '',
   version: '1.4.0',
   category: 'plugin',
   tags: [

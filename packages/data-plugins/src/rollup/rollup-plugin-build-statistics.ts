@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-build-statistics',
   description: 'Rollup plugin for collecting statistics about your builds',
+  icon: '',
   version: '0.0.19',
   category: 'plugin',
   tags: [

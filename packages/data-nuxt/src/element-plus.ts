@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'element-plus',
   description: 'A Vue 3 based component library for designers and developers',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

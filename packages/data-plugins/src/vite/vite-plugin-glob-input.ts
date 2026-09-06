@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-glob-input',
   description: 'Vite plugin to add files to build.rollupOptions.input using fast-glob',
+  icon: '',
   version: '0.4.1',
   category: 'plugin',
   tags: [

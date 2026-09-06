@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-env-runtime',
   description: 'Configure environment variables on runtime.',
+  icon: '',
   version: '0.3.7',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-solid',
   description: 'Transform Solid.js code in various bundlers powered by unplugin',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

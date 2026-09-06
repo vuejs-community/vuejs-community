@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-prefix-localstorage',
   description: 'Add a custom prefix to the `setItem`, `getItem`, and `removeItem` methods of `localStorage` to avoid naming collisions.',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

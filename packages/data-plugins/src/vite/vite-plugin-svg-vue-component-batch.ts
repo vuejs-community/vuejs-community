@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-vue-component-batch',
   description: 'Vite plugin for importing svg vue components from a directory.',
+  icon: '',
   version: '0.0.7',
   category: 'plugin',
   tags: [

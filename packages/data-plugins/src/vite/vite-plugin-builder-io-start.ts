@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-builder-io-start',
   description: 'Wraps TanStack Start\'s Vite plugin with Builder.io CMS-driven prerendering and spec-compliant sitemap generation.',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

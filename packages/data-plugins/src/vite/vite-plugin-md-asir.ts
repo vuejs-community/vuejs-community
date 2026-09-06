@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-md-asir',
   description: 'Markdown for Vite',
+  icon: '',
   version: '0.23.7',
   category: 'plugin',
   tags: [

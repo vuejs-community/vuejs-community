@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-api-mocks',
   description: 'Vite plugin for API mocking',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

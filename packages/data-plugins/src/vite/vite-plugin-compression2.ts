@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-compression2',
   description: 'a fast vite compression plugin',
+  icon: '',
   version: '2.5.3',
   category: 'plugin',
   tags: [

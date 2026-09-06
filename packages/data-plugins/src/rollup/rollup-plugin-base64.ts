@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-base64',
   description: 'Converts files to base64',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

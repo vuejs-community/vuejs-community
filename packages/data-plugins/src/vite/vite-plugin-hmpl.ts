@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-hmpl',
   description: 'Plugin for files with .hmpl extension for Vite',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

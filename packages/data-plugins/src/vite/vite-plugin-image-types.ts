@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-image-types',
   description: 'This [vite](https://vitejs.dev/) plugin generates a type file for the image paths in the `public` directory.',
+  icon: '',
   version: '1.5.5',
   category: 'plugin',
   tags: [

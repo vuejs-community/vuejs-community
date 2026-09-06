@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-uni-subpackage-copy',
   description: '一个帮助你将 uni-app 项目的分包内容自动同步到原生微信小程序项目中的混合开发插件',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

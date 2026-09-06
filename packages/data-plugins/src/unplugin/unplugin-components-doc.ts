@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-components-doc',
   description: 'A plugin for visualizing component library documentation',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

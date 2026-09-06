@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-tailwindcss-multiple-classes',
   description: '<div align="center"> <h1>vite-rollup-tailwind-multiple-classes</h1>',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

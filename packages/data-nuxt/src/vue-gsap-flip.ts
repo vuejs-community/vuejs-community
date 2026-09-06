@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-gsap-flip',
   description: 'A powerful Vue 3 library for creating stunning flip animations using GSAP\'s Flip plugin. Modular, extensible, and easy to use.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

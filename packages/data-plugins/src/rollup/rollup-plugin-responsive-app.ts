@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-responsive-app',
   description: 'A Rollup plugin to handle your app responsiveness automatically',
+  icon: '',
   version: '1.0.14-beta.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-style-to-vw',
   description: '一个可以将签内样式px转换vw的plugin',
+  icon: '',
   version: '1.8.11',
   category: 'plugin',
   tags: [

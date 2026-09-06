@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-hot-sw',
   description: 'Isolate build for service-worker',
+  icon: '',
   version: '2.4.8',
   category: 'plugin',
   tags: [

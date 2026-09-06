@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'motion-vue',
   description: 'Motion for Vue，Vue 3 动效 / 动画组件方案',
+  icon: '',
   category: 'component',
   types: ['animation'],
   tags: ['animation'],

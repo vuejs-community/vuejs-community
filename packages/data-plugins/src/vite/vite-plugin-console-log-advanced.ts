@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-console-log-advanced',
   description: 'Zero-dependency Vite plugin for advanced dev logging. Pretty grouped console output, auto caller info, silent in production.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

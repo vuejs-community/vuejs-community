@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-kapar',
   description: 'Screen recording and screenshot taking via the HTML-in-Canvas API (Vite Plugin)',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-prerender',
   description: 'Vite.js plugin for pre-rendering html for SPAs.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

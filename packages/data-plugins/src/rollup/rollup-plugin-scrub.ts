@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-scrub',
   description: 'Remove lines or sections of code based on custom-defined tags.',
+  icon: '',
   version: '1.0.12',
   category: 'plugin',
   tags: [

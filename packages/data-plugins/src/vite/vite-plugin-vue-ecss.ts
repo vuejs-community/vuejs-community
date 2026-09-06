@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-ecss',
   description: '可根据类名快速生成样式代码的vite-vue插件',
+  icon: '',
   version: '3.1.75',
   category: 'plugin',
   tags: [

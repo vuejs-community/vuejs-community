@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tsmigrate',
   description: 'A minimal, well-structured Vite 8 plugin (hello world) built with Vite+.',
+  icon: '',
   version: '0.3.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-rsc',
   description: 'An unplugin for framework authors to implement RSC on top of.',
+  icon: '',
   version: '0.0.11',
   category: 'plugin',
   tags: [

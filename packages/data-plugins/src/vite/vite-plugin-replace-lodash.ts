@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-replace-lodash',
   description: 'Replacing the import of lodash with lodash-es is more beneficial to tree-shaking',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-component-source',
   description: 'A Vite plugin that adds source file location (path:line:column) as data-component attributes to React JSX elements for easier debugging',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

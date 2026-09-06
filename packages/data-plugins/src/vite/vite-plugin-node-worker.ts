@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-node-worker',
   description: 'Vite plugin for Node.js worker threads. Supports DEV and BUILD modes.',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

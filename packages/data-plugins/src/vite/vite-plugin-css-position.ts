@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-css-position',
   description: 'Custom position of vite styles within a vite react app',
+  icon: '',
   version: '3.0.1',
   category: 'plugin',
   tags: [

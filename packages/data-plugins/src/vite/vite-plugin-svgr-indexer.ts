@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svgr-indexer',
   description: 'Vite plugin to automatically generate index.ts for SVG icons',
+  icon: '',
   version: '0.2.2',
   category: 'plugin',
   tags: [

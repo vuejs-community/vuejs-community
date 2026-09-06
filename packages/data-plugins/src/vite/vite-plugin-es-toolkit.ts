@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-es-toolkit',
   description: 'Vite plugin for replacing Lodash with es-toolkit',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

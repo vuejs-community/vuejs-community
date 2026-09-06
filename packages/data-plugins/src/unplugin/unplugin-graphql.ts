@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-graphql',
   description: 'A universal bundler plugin which Converts .gql/.graphql(s) files to ES6 modules.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

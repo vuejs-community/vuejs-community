@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-spyglass',
   description: 'Capture browser and server logs in one correlated place — and let your AI agent read them over MCP',
+  icon: '',
   category: 'nuxt',
   types: [
     'AI',

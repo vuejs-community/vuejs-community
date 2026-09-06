@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-dts-minify',
   description: 'Small Rollup plugin that runs `dts-minify` on `.d.ts` declarations',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

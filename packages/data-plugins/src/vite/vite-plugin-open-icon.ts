@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-open-icon',
   description: 'Vite plugin that applies open-icon SVG transforms at import time.',
+  icon: '',
   version: '0.1.9',
   category: 'plugin',
   tags: [

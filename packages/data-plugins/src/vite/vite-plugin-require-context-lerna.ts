@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-require-context-lerna',
   description: 'A vite plugin that support require.context in vite and support lerna cross-project scenarios',
+  icon: '',
   version: '1.0.10',
   category: 'plugin',
   tags: [

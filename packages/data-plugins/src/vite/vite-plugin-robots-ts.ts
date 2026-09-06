@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-robots-ts',
   description: 'Vite plugin to generate robots.txt. Supports AI blocking and works in dev mode.',
+  icon: '',
   version: '2.1.6',
   category: 'plugin',
   tags: [

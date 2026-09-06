@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dbg',
   description: '```js dbg(); dbg("hello"); dbg(1 + 1, () => {}, Symbol()); /** */ dbg(undefined); ```',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

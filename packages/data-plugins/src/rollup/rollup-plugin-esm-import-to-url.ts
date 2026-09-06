@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-esm-import-to-url',
   description: 'Rollup plugin to transform bare import specifiers to absolute URLs in ES modules',
+  icon: '',
   version: '2.1.0',
   category: 'plugin',
   tags: [

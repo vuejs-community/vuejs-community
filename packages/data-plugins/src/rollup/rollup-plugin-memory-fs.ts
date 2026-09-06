@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-memory-fs',
   description: 'Rollup plugin for storing build artifacts in memory, rather than FS.',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

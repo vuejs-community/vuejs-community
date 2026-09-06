@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-include-sourcemaps',
   description: 'Rollup plugin for grabbing source maps from sourceMappingURLs',
+  icon: '',
   version: '0.7.0',
   category: 'plugin',
   tags: [

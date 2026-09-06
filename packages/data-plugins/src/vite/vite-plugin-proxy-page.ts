@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-proxy-page',
   description: 'A Vite plugin for developing an application in the context of a remote page.',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

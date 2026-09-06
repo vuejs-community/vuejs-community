@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-entry-shaking',
   description: 'Mimic tree-shaking behaviour when importing code from an entry file in development mode.',
+  icon: '',
   version: '0.5.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-remote-assets',
   description: 'Bundles your assets from remote urls with your app',
+  icon: '',
   version: '2.1.0',
   category: 'plugin',
   tags: [

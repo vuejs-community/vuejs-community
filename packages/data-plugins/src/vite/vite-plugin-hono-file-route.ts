@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-hono-file-route',
   description: 'Vite 插件：按文件名约定生成 Hono 路由，支持 [id] 参数、路由组、构建期校验与 HMR',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ajv-compile',
   description: 'Vite plugin to compile AJV validators as virtual modules',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

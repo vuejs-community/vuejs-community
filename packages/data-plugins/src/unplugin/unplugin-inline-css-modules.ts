@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-inline-css-modules',
   description: 'Zero-runtime scoped CSS for any JS framework — write CSS modules inline as tagged templates',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-interpolation',
   description: 'Directive for binding every link to catch the click event, and if it\'s a relative link  router will push.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

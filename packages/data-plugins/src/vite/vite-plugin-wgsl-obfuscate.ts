@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-wgsl-obfuscate',
   description: 'Vite plugin to obfuscate WGSL shader source in production builds',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

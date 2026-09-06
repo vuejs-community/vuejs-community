@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-shader-languages',
   description: 'Shader languages for Vite. GLSL and WGSL imports with #include resolution, hot reload, minification and end-to-end type safety.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

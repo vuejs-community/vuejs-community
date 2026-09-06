@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-iconfont-auto',
   description: 'This plugin is for auto download iconfont symbol js css and font file',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

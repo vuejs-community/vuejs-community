@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-obfuscate-glsl',
   description: 'Vite plugin to obfuscate GLSL shaders using laurentlb/Shader_Minifier',
+  icon: '',
   version: '1.0.5',
   category: 'plugin',
   tags: [

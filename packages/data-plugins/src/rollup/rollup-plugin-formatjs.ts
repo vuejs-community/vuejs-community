@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-formatjs',
   description: 'Applies formatjs transforms to your JS in Rollup',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

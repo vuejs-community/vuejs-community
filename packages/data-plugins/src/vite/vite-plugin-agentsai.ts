@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-agentsai',
   description: 'Vite plugin for AgentsAI Analytics',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

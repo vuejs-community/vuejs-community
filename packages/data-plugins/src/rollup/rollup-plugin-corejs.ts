@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-corejs',
   description: '⚡ include core-js polyfills when bundling with rollup',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

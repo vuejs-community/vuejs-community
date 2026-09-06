@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-pkl',
   description: 'Import .pkl files as Javascript objects in Vite',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

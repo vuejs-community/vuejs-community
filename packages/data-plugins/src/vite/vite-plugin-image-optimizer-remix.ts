@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-image-optimizer-remix',
   description: 'A Vite plugin to optimize your image assets using Sharp.js and SVGO',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

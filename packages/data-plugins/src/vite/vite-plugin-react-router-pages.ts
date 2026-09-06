@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-router-pages',
   description: '基于文件的约定式路由插件。',
+  icon: '',
   version: '1.2.1',
   category: 'plugin',
   tags: [

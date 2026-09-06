@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-export-collector',
   description: 'Recursively get all named export from a file and out-of-the-box support unplugin-auto-import',
+  icon: '',
   version: '0.6.0',
   category: 'plugin',
   tags: [

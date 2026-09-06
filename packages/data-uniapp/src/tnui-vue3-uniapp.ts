@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'tnui-vue3-uniapp',
   description: '图鸟 UI 的 Vue3 + uni-app 版本组件库源码（更新较少）',
+  icon: '',
   category: 'uniapp',
   types: ['ui-library', 'mobile-ui'],
   tags: ['uni-app', 'vue3', 'ui', 'mobile', 'tuniao'],

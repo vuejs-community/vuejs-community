@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-firebase-config',
   description: 'A Vite plugin to automatically sync Firebase configuration from environment variables to static files',
+  icon: '',
   version: '0.2.3',
   category: 'plugin',
   tags: [

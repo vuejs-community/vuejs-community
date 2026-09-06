@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-auto-reload',
   description: 'Rollup plugin to automatically reload pages and bundles when changes are made',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

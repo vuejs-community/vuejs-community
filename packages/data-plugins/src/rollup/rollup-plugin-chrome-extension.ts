@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-chrome-extension',
   description: 'Build Chrome Extensions with this Rollup plugin.',
+  icon: '',
   version: '3.6.15',
   category: 'plugin',
   tags: [

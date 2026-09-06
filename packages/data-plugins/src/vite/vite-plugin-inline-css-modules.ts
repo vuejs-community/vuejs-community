@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-inline-css-modules',
   description: 'Write CSS modules without leaving your javascript!',
+  icon: '',
   version: '0.0.8',
   category: 'plugin',
   tags: [

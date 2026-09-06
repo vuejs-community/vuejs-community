@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-imagemin',
   description: '📦 📦 unplugin compression Image Compression plugin based on squoosh and svgo',
+  icon: '',
   version: '0.7.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-isolated-decl',
   description: 'A blazing-fast tool for generating isolated declarations.',
+  icon: '',
   version: '0.17.0',
   category: 'plugin',
   tags: [

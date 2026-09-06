@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-modular-tailwindcss',
   description: 'This project provides a Vite plugin for integrating TailwindCSS in a modular fashion, suitable for creating web components and UI libraries.',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

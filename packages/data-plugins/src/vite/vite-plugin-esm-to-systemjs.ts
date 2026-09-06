@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-esm-to-systemjs',
   description: 'Vite plugin that transforms ESM output to SystemJS format using Babel',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-devtools',
   description: 'Vite plugin to add devtools',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-toml',
   description: 'Allow importing TOML files as JSON or Strings',
+  icon: '',
   version: '2.3.0',
   category: 'plugin',
   tags: [

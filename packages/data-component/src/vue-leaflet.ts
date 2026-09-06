@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-leaflet',
   description: 'Leaflet 的 Vue 3 组件',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['map'],

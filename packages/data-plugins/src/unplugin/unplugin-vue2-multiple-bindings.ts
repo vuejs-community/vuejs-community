@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue2-multiple-bindings',
   description: 'support multiple `v-model` bindings in vue2',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

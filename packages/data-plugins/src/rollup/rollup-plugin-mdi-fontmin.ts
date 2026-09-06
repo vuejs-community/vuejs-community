@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-mdi-fontmin',
   description: 'Rollup plugin for subsetting Material Design Icons (MDI) font files.',
+  icon: '',
   version: '1.2.7',
   category: 'plugin',
   tags: [

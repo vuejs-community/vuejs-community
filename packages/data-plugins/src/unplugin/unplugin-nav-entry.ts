@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-nav-entry',
   description: 'Provide a nav entry page for MPA',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

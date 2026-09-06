@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-browser-env',
   description: 'A Vite plugin to inject environment variables into the browser runtime',
+  icon: '',
   version: '1.2.3',
   category: 'plugin',
   tags: [

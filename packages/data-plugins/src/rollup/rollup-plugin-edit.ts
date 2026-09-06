@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-edit',
   description: 'A Rollup plugin to edit generated file contents.',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

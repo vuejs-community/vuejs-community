@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-refresh',
   description: 'Provide enhancements for @vitejs/plugin-react-refresh.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

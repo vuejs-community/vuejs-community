@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-pre-inject',
   description: 'plugin to prepends bundles with custom code (can be used to inject anything)',
+  icon: '',
   version: '4.0.0',
   category: 'plugin',
   tags: [

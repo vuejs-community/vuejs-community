@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-style-dictionary-utils',
   description: '## Vite',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

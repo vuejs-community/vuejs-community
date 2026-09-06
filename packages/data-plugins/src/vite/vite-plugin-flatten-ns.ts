@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-flatten-ns',
   description: 'Flatten namespace re-exports (export * as) into individual named exports for RSC compatibility',
+  icon: '',
   version: '0.2.2',
   category: 'plugin',
   tags: [

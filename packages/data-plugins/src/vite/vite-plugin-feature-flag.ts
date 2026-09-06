@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-feature-flag',
   description: 'A Vite plugin for managing feature flags in your code',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

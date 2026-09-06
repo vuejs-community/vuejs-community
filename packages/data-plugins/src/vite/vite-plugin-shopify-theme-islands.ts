@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-shopify-theme-islands',
   description: 'Vite plugin for island architecture in Shopify themes',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

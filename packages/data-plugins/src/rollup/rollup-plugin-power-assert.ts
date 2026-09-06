@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-power-assert',
   description: 'power-assert rollup plugin',
+  icon: '',
   version: '0.2.2',
   category: 'plugin',
   tags: [

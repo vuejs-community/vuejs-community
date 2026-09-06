@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dev-guides',
   description: 'A Vite plugin with small useful guides.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

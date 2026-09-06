@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-fast-react-svg',
   description: 'Turn SVG into React components, without Babel',
+  icon: '',
   version: '0.6.2',
   category: 'plugin',
   tags: [

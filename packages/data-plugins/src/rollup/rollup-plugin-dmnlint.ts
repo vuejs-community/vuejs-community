@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-dmnlint',
   description: 'Convert dmnlint config files to consumable modules',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

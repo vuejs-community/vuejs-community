@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mecss',
   description: 'css样式属性化的vite插件',
+  icon: '',
   version: '0.1.7',
   category: 'plugin',
   tags: [

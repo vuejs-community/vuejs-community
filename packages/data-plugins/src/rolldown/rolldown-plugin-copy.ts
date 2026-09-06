@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rolldown-plugin-copy',
   description: 'A utility to copy files and directories',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

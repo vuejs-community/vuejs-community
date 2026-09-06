@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-strip-code',
   description: 'A vite plugin that strips marked blocks from any code processed by vite.',
+  icon: '',
   version: '2.2.0',
   category: 'plugin',
   tags: [

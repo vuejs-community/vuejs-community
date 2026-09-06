@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-proxy-directories',
   description: 'creates proxy directories for libraries without configuration to make direct imports easier.',
+  icon: '',
   version: '1.2.0',
   category: 'plugin',
   tags: [

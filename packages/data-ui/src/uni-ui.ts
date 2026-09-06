@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'uni-ui',
   description: 'uni-app 官方全端兼容的高性能 UI 框架',
+  icon: '',
   category: 'ui',
   types: ['mobile-ui'],
   tags: ['ui', 'mobile', 'uni-app'],

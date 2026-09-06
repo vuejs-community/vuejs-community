@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-bib',
   description: 'Import .bib files as strings 🧵 in Vite, Rollup, Webpack + more',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-inspect-config',
   description: 'inspect vite resolved config with infinite object level',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

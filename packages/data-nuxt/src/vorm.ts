@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vorm',
   description: 'Intuitive form engine for Vue 3 — dynamic, schema-driven, and fully validated',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

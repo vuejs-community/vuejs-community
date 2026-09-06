@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-contentstack',
   description: 'Create a Contentstack custom field without the SDK.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

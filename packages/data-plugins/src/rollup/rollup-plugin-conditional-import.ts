@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-conditional-import',
   description: 'A Rollup plugin that allows you to conditionally import modules (CJS) based on environment variable',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

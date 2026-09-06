@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-compress-image',
   description: 'A image compression plugin for Vite and Webpack that compresses your image assets using jsquash, tinpng, and SVGO, with support for custom compressors',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

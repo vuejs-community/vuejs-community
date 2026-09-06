@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-glob',
   description: 'Imports or exports files using glob match for ES Module.',
+  icon: '',
   version: '0.3.3',
   category: 'plugin',
   tags: [

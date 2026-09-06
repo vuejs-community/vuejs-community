@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'google-fonts',
   description: 'Google Fonts module for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Fonts',

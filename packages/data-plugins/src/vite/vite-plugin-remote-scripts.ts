@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-remote-scripts',
   description: 'Bundles your styles or scripts from remote urls with your app',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

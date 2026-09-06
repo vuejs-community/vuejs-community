@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-twig-builder',
   description: 'Vite plugin to render Twig templates into static HTML pages during development and build',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

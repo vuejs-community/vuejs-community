@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-nunjucks',
   description: 'Vite plugin for Nunjucks',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

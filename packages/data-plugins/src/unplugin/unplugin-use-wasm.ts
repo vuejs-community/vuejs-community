@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-use-wasm',
   description: 'Support to "use wasm" directive to compile to WebAssembly',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

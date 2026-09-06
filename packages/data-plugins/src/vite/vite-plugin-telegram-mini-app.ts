@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-telegram-mini-app',
   description: 'Telegram Mini App dev tooling for Vite: real signed initData in a plain browser, a WebApp mock and a debug panel that doubles as an inspector inside Telegram.',
+  icon: '',
   version: '0.3.1',
   category: 'plugin',
   tags: [

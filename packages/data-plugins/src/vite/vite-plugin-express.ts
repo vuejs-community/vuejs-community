@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-express',
   description: '> A [vite](https://vitejs.dev/) plugin to integrate the express server into vite dev server.',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

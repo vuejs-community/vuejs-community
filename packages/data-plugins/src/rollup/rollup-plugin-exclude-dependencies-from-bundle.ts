@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-exclude-dependencies-from-bundle',
   description: 'Rollup plugin to automatically add a library\'s peerDependencies and Dependencies to its bundle\'s external config.',
+  icon: '',
   version: '1.1.24',
   category: 'plugin',
   tags: [

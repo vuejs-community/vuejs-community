@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-keep-css-imports',
   description: 'Rollup plugin that allows to maintain the original structure of style imports without altering them during the bundling process',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

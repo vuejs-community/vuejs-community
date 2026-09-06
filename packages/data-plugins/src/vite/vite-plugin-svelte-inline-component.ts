@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svelte-inline-component',
   description: 'Vite plugin that allows you to define components right inside your tests',
+  icon: '',
   version: '0.0.8',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-compelem-css',
   description: 'Vite plugin that compiles SCSS/CSS into a compelem CssTemplate via the ?tmpl query.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

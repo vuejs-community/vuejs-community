@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-entry-banner',
   description: 'A simple rollup plugin to prepend content to entry chunk',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

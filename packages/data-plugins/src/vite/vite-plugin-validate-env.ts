@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-validate-env',
   description: 'Vite plugin to validate environment variables against any standard schema library (Zod, Valibot, ArkType).',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

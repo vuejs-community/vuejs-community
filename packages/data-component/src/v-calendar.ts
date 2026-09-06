@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'v-calendar',
   description: '日历 + 日期选择器，v3 支持 Vue 3',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['calendar', 'datepicker'],

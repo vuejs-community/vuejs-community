@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'neo4j',
   description: 'Effortlessly integrate Neo4j\'s powerful graph database into your Nuxt applications!',
+  icon: '',
   category: 'nuxt',
   types: [
     'Database',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-caddy-localhost',
   description: 'Unplugin: 用 Caddy 把 dev 映射到 https://xxx.localhost',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

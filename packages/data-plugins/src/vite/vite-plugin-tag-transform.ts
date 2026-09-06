@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tag-transform',
   description: 'A Vite plugin for transforming HTML tags in Vue3 projects',
+  icon: '',
   version: '1.0.7',
   category: 'plugin',
   tags: [

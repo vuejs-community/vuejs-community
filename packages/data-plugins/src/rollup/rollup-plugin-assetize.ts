@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-assetize',
   description: 'A small rollup plugin for put assets in place.',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

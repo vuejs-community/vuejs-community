@@ -2,6 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-svelte-sveltotron',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

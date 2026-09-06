@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-typedotenv',
   description: 'typedotenv plugin for webpack/vite (dotenv utility for TypeScript)',
+  icon: '',
   version: '0.2.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-shopify',
   description: 'Easy Shopify Buy client module with Nuxt for ecommerce websites.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Ecommerce',

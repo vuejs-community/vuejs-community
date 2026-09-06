@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'logto',
   description: 'The better Nuxt auth module for developers.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Security',

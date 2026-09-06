@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-import-stylesheet',
   description: 'Rollup plugin for importing CSS sources as constructible stylesheets.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-fable',
   description: 'Compile F# with Fable from inside Vite, so a .fs file is just another module Vite can import.',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

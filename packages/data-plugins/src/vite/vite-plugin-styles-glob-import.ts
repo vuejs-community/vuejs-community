@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-styles-glob-import',
   description: 'Use glob syntax for imports in css, sass, scss and less files',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

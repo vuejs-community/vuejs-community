@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'prisma',
   description: 'Integrate Nuxt with Prisma ORM to simplify database access!',
+  icon: '',
   category: 'nuxt',
   types: [
     'Database',

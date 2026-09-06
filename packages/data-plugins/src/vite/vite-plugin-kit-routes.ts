@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-kit-routes',
   description: 'vite-plugin that will help you maintain your routes in a single file',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

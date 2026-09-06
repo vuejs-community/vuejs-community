@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-remix-i18n',
   description: '',
+  icon: '',
   version: '0.0.0',
   category: 'plugin',
   tags: [

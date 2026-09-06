@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-eslint2',
   description: 'ESLint plugin for Vite.',
+  icon: '',
   version: '5.3.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-unassert',
   description: 'RollupJS plugin to remove assertion calls via Unassert',
+  icon: '',
   version: '0.6.0',
   category: 'plugin',
   tags: [

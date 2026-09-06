@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-class-context-binding',
   description: 'A Vite plugin to solve class member context binding problem.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

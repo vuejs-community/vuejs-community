@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-typed-gql',
   description: 'Simple, unobtrusive and fully type safe GraphQL plugin.',
+  icon: '',
   version: '0.5.1',
   category: 'plugin',
   tags: [

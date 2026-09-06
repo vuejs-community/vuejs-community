@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-qiniu-cdn',
   description: 'vite 打包完成后上传七牛插件',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

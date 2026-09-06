@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-url-copy',
   description: 'Auto copy the Vite server URL and generate a QR code for easy access during dev or preview',
+  icon: '',
   version: '1.1.4',
   category: 'plugin',
   tags: [

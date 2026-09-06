@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-ca-plus',
   description: '',
+  icon: '',
   version: '0.8.1',
   category: 'plugin',
   tags: [

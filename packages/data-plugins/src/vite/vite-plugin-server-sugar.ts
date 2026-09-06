@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-server-sugar',
   description: 'Vite-first plugin that turns $server() calls into type-safe API endpoints bundled with Bun, with build-only Rollup and Rolldown entrypoints.',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

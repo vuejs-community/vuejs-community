@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-storybook-nextjs',
   description: 'Vite plugin that enables Next.js features in Vite and Storybook',
+  icon: '',
   version: '10.6.0',
   category: 'plugin',
   tags: [

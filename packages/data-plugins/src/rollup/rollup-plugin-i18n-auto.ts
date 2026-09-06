@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-i18n-auto',
   description: 'This is a tools to help you work i18n automatically in rollup or vite.',
+  icon: '',
   version: '0.1.6',
   category: 'plugin',
   tags: [

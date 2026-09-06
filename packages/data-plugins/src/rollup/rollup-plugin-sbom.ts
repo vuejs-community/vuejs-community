@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-sbom',
   description: 'A rollup, rolldown and vite plugin to generate SBOMs for your application',
+  icon: '',
   version: '4.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-jison',
   description: 'Import Jison grammars as parsers directly in your code',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-static-sync',
   description: 'Sync static files during Vite development with file watching and full-page reloads.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

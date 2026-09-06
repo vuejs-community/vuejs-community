@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-macro',
   description: 'Brings macro capabilities to Vite based projects.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

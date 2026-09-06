@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-node-ssh',
   description: 'vite plugin power by node-ssh',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

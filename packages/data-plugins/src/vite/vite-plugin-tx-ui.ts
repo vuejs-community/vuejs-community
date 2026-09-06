@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tx-ui',
   description: 'Vite plugin for tx-ui component library - UniApp X + Vue3 + UTS',
+  icon: '',
   version: '1.1.3',
   category: 'plugin',
   tags: [

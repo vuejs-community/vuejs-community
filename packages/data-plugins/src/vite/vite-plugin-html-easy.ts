@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-easy',
   description: 'A plugin for vite to Minimize index.html and use lodash.template template syntax in index.html',
+  icon: '',
   version: '3.2.0',
   category: 'plugin',
   tags: [

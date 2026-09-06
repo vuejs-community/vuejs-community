@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-gas-react',
   description: 'Vite plugin that deploys React apps to Google Apps Script with automatic code splitting',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ts-types-to-json',
   description: 'Vite plugin and CLI to generate JSON field maps from exported TypeScript types and interfaces',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

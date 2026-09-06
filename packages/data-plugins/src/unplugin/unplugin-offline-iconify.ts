@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-offline-iconify',
   description: 'Bundle only the Iconify icons used by your app, with sprite and Iconify runtime modes.',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

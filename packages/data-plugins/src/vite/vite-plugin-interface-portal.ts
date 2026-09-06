@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-interface-portal',
   description: 'use hmr hook to update swagger api & interface',
+  icon: '',
   version: '0.1.9',
   category: 'plugin',
   tags: [

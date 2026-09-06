@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-pdfjs-viewer',
   description: 'Add PDF.JS Viewer Application to Vite Bundle.',
+  icon: '',
   version: '0.5.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'geeker-admin',
   description: '基于 Vue3.4 + Vite5 + Pinia + Element Plus 的功能完整中后台框架',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sveltekit-api-generator',
   description: 'Generates a Swagger UI and API client based on your SvelteKit API endpoints defined in +server.ts files',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

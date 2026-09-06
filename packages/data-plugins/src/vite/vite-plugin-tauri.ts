@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tauri',
   description: 'Integrate Tauri in a Vite project to build cross-platform apps.',
+  icon: '',
   version: '4.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dependency-watcher',
   description: 'Allows watching node_modules packages and reload page and resetting the cache',
+  icon: '',
   version: '0.5.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-eleventy',
   description: 'A Vite plugin to build your site with 11ty',
+  icon: '',
   version: '0.3.1',
   category: 'plugin',
   tags: [

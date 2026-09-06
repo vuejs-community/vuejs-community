@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-stylewright',
   description: 'Edit a Svelte component\'s CSS live in the browser and save it straight back into the .svelte <style> block. A dev-only Vite plugin.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

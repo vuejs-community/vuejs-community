@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-jsx-plus',
   description: 'Vite Plugin that simplifies usage of jsx-plus',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

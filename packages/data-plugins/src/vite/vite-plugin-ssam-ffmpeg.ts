@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ssam-ffmpeg',
   description: 'Ffmpeg plugin for Ssam',
+  icon: '',
   version: '0.2.5',
   category: 'plugin',
   tags: [

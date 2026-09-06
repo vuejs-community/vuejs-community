@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-crypto-key',
   description: '🔑 A Rollup plugin for key management',
+  icon: '',
   version: '0.5.0',
   category: 'plugin',
   tags: [

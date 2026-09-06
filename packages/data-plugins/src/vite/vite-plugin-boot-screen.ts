@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-boot-screen',
   description: 'A Vite plugin for boot screen',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-config',
   description: 'Plugin for Rollup to replace variables with values from configuration object (great to use with node-config)',
+  icon: '',
   version: '1.3.0',
   category: 'plugin',
   tags: [

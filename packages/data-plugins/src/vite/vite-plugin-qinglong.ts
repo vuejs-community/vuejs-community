@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-qinglong',
   description: 'A vite plugin for qinglong',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-codetofile',
   description: 'jump to local IDE source code while click the element of browser automatically.',
+  icon: '',
   version: '1.0.8',
   category: 'plugin',
   tags: [

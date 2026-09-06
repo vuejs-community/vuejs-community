@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-static-filehash',
   description: 'A Vite plugin that tries to keep the hash of a single file unchanged',
+  icon: '',
   version: '0.0.8-alpha.2',
   category: 'plugin',
   tags: [

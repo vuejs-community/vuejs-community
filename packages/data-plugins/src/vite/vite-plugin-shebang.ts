@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-shebang',
   description: 'Vite plugin to prepend a shebang to output flies.',
+  icon: '',
   version: '0.1.6',
   category: 'plugin',
   tags: [

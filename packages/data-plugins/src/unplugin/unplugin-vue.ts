@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue',
   description: 'Transform Vue 3 SFC to JavaScript.',
+  icon: '',
   version: '7.2.0',
   category: 'plugin',
   tags: [

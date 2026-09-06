@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-twneat',
   description: 'Vite plugin that organizes Tailwind responsive prefixes into something neat and readable.',
+  icon: '',
   version: '0.1.6',
   category: 'plugin',
   tags: [

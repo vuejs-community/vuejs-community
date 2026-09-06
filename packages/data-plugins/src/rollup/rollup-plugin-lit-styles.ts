@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-lit-styles',
   description: 'pluginDescription',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

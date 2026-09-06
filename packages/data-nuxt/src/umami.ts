@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'umami',
   description: 'Embed the Umami analytics library into Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Analytics',

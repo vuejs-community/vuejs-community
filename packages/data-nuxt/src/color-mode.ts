@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'color-mode',
   description: 'Dark and Light mode for Nuxt with auto detection',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

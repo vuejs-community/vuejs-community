@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-fresh',
   description: 'Remove all files or targeted files from a chosen directory at build time',
+  icon: '',
   version: '2.6.3',
   category: 'plugin',
   tags: [

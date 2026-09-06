@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-set-env',
   description: '用于便捷设置vite的环境变量',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

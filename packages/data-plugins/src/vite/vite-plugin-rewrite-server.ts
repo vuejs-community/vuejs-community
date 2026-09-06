@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-rewrite-server',
   description: 'rewrite request plugn for Vite.\r work server and preview mode.',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

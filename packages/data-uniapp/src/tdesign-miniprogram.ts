@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'tdesign-miniprogram',
   description: '腾讯 TDesign 的微信小程序组件库，同时适配 uni-app，企业级设计体系',
+  icon: '',
   category: 'uniapp',
   types: ['ui-library', 'mobile-ui'],
   tags: ['uni-app', 'miniprogram', 'ui', 'mobile', 'tdesign'],

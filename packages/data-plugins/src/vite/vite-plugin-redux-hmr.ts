@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-redux-hmr',
   description: 'A Vite plugin which enables HMR for Redux when possible',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

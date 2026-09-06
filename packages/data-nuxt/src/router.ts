@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'router',
   description: 'Nuxt module to use router.js instead of pages/ directory',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

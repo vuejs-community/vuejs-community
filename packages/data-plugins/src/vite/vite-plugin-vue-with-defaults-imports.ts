@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-with-defaults-imports',
   description: 'Import defaults in Vue SFC for withDefaults',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

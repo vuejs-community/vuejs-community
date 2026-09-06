@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-include',
   description: 'A Vite plugin to include HTML and SVG partials with variable interpolation and slot support.',
+  icon: '',
   version: '1.5.2',
   category: 'plugin',
   tags: [

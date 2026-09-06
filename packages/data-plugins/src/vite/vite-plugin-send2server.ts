@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-send2server',
   description: 'Send the builded files to the server.',
+  icon: '',
   version: '0.2.4',
   category: 'plugin',
   tags: [

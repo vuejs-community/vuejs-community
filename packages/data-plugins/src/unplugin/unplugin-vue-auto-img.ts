@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-auto-img',
   description: 'Automatically import images into the vue project',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

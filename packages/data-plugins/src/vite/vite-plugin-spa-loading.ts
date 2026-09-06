@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-spa-loading',
   description: 'Spa application first screen loading placeholder plugin',
+  icon: '',
   version: '1.2.2',
   category: 'plugin',
   tags: [

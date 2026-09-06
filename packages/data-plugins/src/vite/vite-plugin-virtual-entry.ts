@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-virtual-entry',
   description: 'vite\'s [MPA](https://vitejs.dev/guide/build.html#multi-page-app) needs html file for every entry which makes your project\'s looks chaotic.',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

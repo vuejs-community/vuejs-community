@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-bundle-ejs',
   description: 'create html with the bundle file',
+  icon: '',
   version: '0.1.5',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'ruoyi-plus-soybean',
   description: 'RuoYi-Vue-Plus 后端 + Soybean Admin 前端的企业级多租户方案',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

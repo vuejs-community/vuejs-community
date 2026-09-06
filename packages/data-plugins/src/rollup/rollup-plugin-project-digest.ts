@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-project-digest',
   description: '[![npm](https://img.shields.io/npm/v/rollup-plugin-project-digest?style=for-the-badge)](https://www.npmjs.com/package/rollup-plugin-project-digest)',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

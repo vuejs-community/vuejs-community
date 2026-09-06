@@ -87,6 +87,7 @@
       <pre class="m-0 p-4 whitespace-pre opacity-20">defineProjectMeta({
   name: 'Vue Community — Discover the Vue Ecosystem',
   description: 'Discover Vue libraries, UI components, composables, Nuxt modules, Vite plugins, and developer tools in one open, community-driven ecosystem.',
+  icon: 'icon:vuejs-community',
   category: 'vuejs-community',
   types: ['ui', 'composables', 'modules', 'plugins', 'tools'],
   tags: ['vue', 'ui', 'composables', 'modules', 'plugins', 'tools'],

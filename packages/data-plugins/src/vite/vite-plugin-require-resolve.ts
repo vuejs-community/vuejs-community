@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-require-resolve',
   description: 'A vite plugin deals with require.resolve() assets, for node-browser mixed-context environment like nw.js etc',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

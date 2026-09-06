@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ai-fixer',
   description: 'Vite plugin that captures build errors and provides AI-powered solutions',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

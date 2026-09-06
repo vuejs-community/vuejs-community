@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-multip',
   description: 'Build real multi page application with vite',
+  icon: '',
   version: '1.1.7',
   category: 'plugin',
   tags: [

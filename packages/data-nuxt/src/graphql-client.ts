@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'graphql-client',
   description: 'Minimal GraphQL Client + Code Generation for Nuxt. Auto imports GraphQL Operations for easy execution.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Request',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-eslint-bundle',
   description: 'Rollup plugin to verify (and fix) bundled code with ESLint',
+  icon: '',
   version: '9.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-wasm-esm',
   description: 'ESM integration of wasm-pack generated modules with SSR support',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

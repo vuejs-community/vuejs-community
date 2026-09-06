@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'ant-design-x-vue',
   description: 'Ant Design X 的 Vue 实现，AI 聊天界面组件',
+  icon: '',
   category: 'component',
   types: ['component-collection'],
   tags: ['ai', 'chat'],

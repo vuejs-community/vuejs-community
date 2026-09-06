@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-markdownify',
   description: 'Converts markdown files to static html files using an html template and outputs them to a folder.',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

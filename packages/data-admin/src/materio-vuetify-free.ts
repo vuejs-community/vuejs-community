@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'materio-vuetify-free',
   description: 'ThemeSelection 出品的 Vuetify 免费后台模板，另有付费 Pro 版',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

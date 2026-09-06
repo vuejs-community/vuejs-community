@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nova-admin',
   description: '简洁灵活的 Vue3 + Vite + TypeScript + Naive UI 后台模板',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

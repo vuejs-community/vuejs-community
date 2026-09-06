@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'gtm',
   description: 'Google Tag Manager Module for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Analytics',

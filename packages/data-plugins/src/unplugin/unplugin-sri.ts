@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-sri',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-sri?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-sri)',
+  icon: '',
   version: '0.0.11',
   category: 'plugin',
   tags: [

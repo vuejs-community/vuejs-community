@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'appwrite',
   description: 'Appwrite module for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Database',

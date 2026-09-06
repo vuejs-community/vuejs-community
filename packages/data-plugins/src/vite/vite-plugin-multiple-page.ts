@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-multiple-page',
   description: 'More flexible MPA (multipage application) supports html template',
+  icon: '',
   version: '0.4.3',
   category: 'plugin',
   tags: [

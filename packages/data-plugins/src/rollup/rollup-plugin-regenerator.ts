@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-regenerator',
   description: 'A Rollup.js plugin to transform ECMAScript 6 generator and async functions',
+  icon: '',
   version: '0.6.0',
   category: 'plugin',
   tags: [

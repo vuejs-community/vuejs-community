@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-icons-helper',
   description: 'unplugin-icons customCollections helper',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-graphql-import',
   description: 'Rollup plugin to import graphql schema definitions',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

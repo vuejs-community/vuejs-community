@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-render',
   description: 'Vite plugin to render any file to a component',
+  icon: '',
   version: '0.6.0',
   category: 'plugin',
   tags: [

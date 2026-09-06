@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-static-sfc',
   description: 'Serve ".vue" files as static assets',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

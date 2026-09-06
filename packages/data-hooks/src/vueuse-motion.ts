@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vueuse-motion',
   description: 'Vue 组合式动画库，提供 v-motion 指令与 composables 驱动组件动效',
+  icon: '',
   category: 'hooks',
   types: ['animation', 'composable-library'],
   tags: ['hooks', 'composables', 'animation', 'motion', 'vue3'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-auto-export',
   description: 'Automates the maintenance of export statements in the index.ts file.',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

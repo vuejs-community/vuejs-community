@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-phecda-server',
   description: 'unplugin that use phecda-server loader in bundler',
+  icon: '',
   version: '1.0.8',
   category: 'plugin',
   tags: [

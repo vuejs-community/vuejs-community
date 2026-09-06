@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'fullcalendar',
   description: '全功能日历组件，官方 @fullcalendar/vue3 适配',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['calendar'],

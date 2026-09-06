@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-require-esm',
   description: 'An interesting Unplugin that does its best to make your code run only in an ES Modules.',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

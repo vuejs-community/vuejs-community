@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-embed',
   description: 'embeds any file as a base64 string into the source code',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

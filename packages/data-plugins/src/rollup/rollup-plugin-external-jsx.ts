@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-external-jsx',
   description: 'Converts JSX files to modules',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

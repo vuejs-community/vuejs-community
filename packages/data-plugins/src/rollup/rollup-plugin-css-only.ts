@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-css-only',
   description: 'Rollup plugin that bundles imported css',
+  icon: '',
   version: '4.5.5',
   category: 'plugin',
   tags: [

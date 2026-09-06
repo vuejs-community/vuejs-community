@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-merge-and-inject-css',
   description: 'A rollup plugin to merge all css files and inject them to top of the styles blocks',
+  icon: '',
   version: '1.1.4',
   category: 'plugin',
   tags: [

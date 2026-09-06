@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-magic-preloader',
   description: 'A Vite plugin for preloading and prefetching',
+  icon: '',
   version: '1.2.1',
   category: 'plugin',
   tags: [

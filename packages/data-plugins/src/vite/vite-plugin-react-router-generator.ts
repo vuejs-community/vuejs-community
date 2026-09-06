@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-router-generator',
   description: 'A vitejs plugin to use generator react-router',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

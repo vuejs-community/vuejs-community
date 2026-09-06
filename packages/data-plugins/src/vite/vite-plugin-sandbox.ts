@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sandbox',
   description: 'Vite plugin for JavaScript runtime isolation via proxy sandbox',
+  icon: '',
   version: '2.0.3',
   category: 'plugin',
   tags: [

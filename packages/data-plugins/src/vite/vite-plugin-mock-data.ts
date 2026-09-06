@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mock-data',
   description: 'Provides a simple way to mock data.',
+  icon: '',
   version: '8.1.1',
   category: 'plugin',
   tags: [

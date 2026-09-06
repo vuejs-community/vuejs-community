@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-zip-pack-svelte',
   description: 'Vite plugin for packing distribution/build folder into a zip file.',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

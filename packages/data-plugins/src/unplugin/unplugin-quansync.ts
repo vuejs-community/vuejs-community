@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-quansync',
   description: 'Write async functions, get both async and sync functions',
+  icon: '',
   version: '0.6.0',
   category: 'plugin',
   tags: [

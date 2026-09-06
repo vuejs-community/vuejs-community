@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-legacy-dual-track',
   description: 'Vite 浏览器双轨兼容插件：构建现代包与 legacy 包，并按运行时探测分流加载',
+  icon: '',
   version: '1.1.6',
   category: 'plugin',
   tags: [

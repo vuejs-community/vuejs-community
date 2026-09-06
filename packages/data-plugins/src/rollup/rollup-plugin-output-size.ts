@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-output-size',
   description: 'A Rollup plugin that displays output bundle sizes.',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

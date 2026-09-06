@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ink',
   description: 'A Vite plugin to compile and hot-reload Inkle\'s ink files',
+  icon: '',
   version: '0.3.5',
   category: 'plugin',
   tags: [

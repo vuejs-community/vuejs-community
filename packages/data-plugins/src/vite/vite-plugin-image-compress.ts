@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-image-compress',
   description: 'You can add it as a dev dependency to any of the package managers (NPM, Yarn, PNPM)',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-minify-lit-templates',
   description: '📦 A Vite plugin to minify Lit HTML and CSS templates for smaller bundle size.',
+  icon: '',
   version: '0.0.0',
   category: 'plugin',
   tags: [

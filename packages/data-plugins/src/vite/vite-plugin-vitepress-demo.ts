@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vitepress-demo',
   description: 'A vite plugin for vitepress code block demo.',
+  icon: '',
   version: '2.2.1',
   category: 'plugin',
   tags: [

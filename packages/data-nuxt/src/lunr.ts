@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'lunr',
   description: 'Full-text search with pre-build indexes for Nuxt using lunr.js',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

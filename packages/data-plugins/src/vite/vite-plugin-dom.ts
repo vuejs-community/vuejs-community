@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dom',
   description: 'Enables DOM manipulation and comment injection during the build process',
+  icon: '',
   version: '1.0.5',
   category: 'plugin',
   tags: [

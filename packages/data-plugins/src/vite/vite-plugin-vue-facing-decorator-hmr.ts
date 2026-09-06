@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-facing-decorator-hmr',
   description: 'Fix HMR support for Vue components with vue-facing-decorator',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

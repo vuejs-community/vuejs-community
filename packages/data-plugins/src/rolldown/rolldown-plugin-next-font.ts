@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rolldown-plugin-next-font',
   description: 'Use Next.js\'s Font API in Rolldown environments.',
+  icon: '',
   version: '1.0.0-beta.1',
   category: 'plugin',
   tags: [

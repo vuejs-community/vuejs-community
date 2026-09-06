@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-shebang-bin',
   description: 'Richly configurable rollup plugin for preserving or inserting shebang (hashbang) and making scripts executable.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

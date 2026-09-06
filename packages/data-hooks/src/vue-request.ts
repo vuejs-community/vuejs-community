@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-request',
   description: '请求状态管理库，支持 SWR、轮询、错误重试、缓存、分页等，中文文档完善',
+  icon: '',
   category: 'hooks',
   types: ['data-fetching', 'composable-library'],
   tags: ['hooks', 'composables', 'data-fetching', 'swr', 'vue3'],

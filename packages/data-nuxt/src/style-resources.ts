@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'style-resources',
   description: 'Nuxt Style Resources - Share variables, mixins, functions across all style files (no @import needed)',
+  icon: '',
   category: 'nuxt',
   types: [
     'CSS',

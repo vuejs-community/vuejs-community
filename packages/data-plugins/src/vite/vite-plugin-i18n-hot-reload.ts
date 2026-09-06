@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18n-hot-reload',
   description: 'I18n hot reload plugin for vite. this package was developed by José Silva Oliveira, this is just a republish',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

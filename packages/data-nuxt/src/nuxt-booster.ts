@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-booster',
   description: 'nuxt-booster will help you to improve the lighthouse performance score (100/100) of your website.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Performance',

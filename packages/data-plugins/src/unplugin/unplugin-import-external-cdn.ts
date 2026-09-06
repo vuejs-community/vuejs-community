@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-import-external-cdn',
   description: '[![npm version][npm-version-src]][npm-version-href] [![npm downloads][npm-downloads-src]][npm-downloads-href]',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

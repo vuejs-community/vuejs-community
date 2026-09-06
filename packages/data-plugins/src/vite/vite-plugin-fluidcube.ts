@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-fluidcube',
   description: '',
+  icon: '',
   version: '1.0.5',
   category: 'plugin',
   tags: [

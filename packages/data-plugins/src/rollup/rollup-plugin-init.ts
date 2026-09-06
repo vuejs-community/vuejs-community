@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-init',
   description: 'rollup plugin to be able to invoke your bundled js when you want',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

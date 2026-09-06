@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mobile',
   description: 'Generate a mobile bundle',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

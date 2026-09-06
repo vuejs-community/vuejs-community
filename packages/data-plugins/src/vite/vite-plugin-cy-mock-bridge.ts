@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cy-mock-bridge',
   description: 'vite 自动引入 测试数据',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

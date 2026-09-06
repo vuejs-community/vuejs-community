@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-openfl',
   description: 'Vite plugin for OpenFL',
+  icon: '',
   version: '2.0.3',
   category: 'plugin',
   tags: [

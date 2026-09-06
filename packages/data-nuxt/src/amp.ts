@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'amp',
   description: 'AMP (Accelerated Mobile Pages) module for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Performance',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-virtual-mpa',
   description: 'Out-of-box MPA plugin for Vite, with html template engine and virtual files support.',
+  icon: '',
   version: '1.12.1',
   category: 'plugin',
   tags: [

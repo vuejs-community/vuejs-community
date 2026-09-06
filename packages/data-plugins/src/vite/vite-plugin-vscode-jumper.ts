@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vscode-jumper',
   description: 'A Vite plugin to enable element picker and jump to Vue SFC source files in VSCode via shortcut',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

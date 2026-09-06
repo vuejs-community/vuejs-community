@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'social-meta',
   description: 'Nuxt module generate meta-tags for social networks - Facebook, Twitter and LinkedIn (and the rest uses OG tags, such as Discord etc.).',
+  icon: '',
   category: 'nuxt',
   types: [
     'SEO',

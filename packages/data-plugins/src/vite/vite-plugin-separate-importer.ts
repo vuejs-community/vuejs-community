@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-separate-importer',
   description: 'Transform bulk imports from a single source module into individual file imports from the source module.',
+  icon: '',
   version: '8.0.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'mdc',
   description: 'MDC supercharges regular Markdown to write documents interacting deeply with any Vue component.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

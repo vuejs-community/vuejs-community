@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-watcher-amstramgram',
   description: 'Rollup plugin to watch everything you want',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

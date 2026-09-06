@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-unused',
   description: 'Check unused dependencies.',
+  icon: '',
   version: '0.6.0',
   category: 'plugin',
   tags: [

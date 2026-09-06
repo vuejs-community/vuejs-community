@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-color-picker',
   description: 'A module that adds a convenient, customizable ColorPicker component to select colors in your application.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

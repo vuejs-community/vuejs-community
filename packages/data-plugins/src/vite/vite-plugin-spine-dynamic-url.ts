@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-spine-dynamic-url',
   description: 'Automatically corrects the image path in specified spine atlas files',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

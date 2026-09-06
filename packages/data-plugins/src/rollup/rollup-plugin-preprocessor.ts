@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-preprocessor',
   description: 'A Rollup plugin that adds a C-like preprocessor to Javascript.',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

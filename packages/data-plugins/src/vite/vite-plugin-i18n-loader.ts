@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18n-loader',
   description: 'Vite plugin for loading .yaml files as i18n messages.',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-manifest-sri',
   description: 'Subresource Integrity hashes for the Vite.js manifest.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

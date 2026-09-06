@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'kentico-kontent',
   description: 'Add Kentico Kontent super power to your nuxt app',
+  icon: '',
   category: 'nuxt',
   types: [
     'CMS',

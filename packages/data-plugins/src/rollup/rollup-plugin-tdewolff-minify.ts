@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-tdewolff-minify',
   description: 'Rollup plugin to minify generated es bundle using tdewolff minifier',
+  icon: '',
   version: '4.0.0',
   category: 'plugin',
   tags: [

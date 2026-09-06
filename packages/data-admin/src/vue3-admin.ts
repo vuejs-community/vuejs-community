@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue3-admin',
   description: '新蜂商城后台管理系统，Vue3 + Vite + Element Plus',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

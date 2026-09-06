@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-typegpu',
   description: 'Build plugins for TypeGPU, enabling seamless JavaScript -> WGSL transpilation and improved debugging.',
+  icon: '',
   version: '0.12.3',
   category: 'plugin',
   tags: [

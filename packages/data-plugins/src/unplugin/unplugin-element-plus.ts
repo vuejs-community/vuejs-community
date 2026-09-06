@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-element-plus',
   description: 'Import Element Plus on demand. Support Vite, Webpack, Vue CLI, Rollup and esbuild.',
+  icon: '',
   version: '0.11.2',
   category: 'plugin',
   tags: [

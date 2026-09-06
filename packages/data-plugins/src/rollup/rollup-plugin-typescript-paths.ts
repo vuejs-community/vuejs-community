@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-typescript-paths',
   description: 'Rollup plugin to automatically resolve TypeScript path aliases.',
+  icon: '',
   version: '1.5.0',
   category: 'plugin',
   tags: [

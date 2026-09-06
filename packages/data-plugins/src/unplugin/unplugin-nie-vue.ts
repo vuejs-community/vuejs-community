@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-nie-vue',
   description: '在nie-vue使用组件时自动导入样式',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

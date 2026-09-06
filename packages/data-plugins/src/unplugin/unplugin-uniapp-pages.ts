@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-uniapp-pages',
   description: '使用 unplugin 构建的自动生成 uni-app 页面配置的插件',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-indexer',
   description: 'Package to automate indexing before bundling of files in rollup.',
+  icon: '',
   version: '3.1.2',
   category: 'plugin',
   tags: [

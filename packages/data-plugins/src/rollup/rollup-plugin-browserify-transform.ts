@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-browserify-transform',
   description: 'Use Browserify transforms with Rollup',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

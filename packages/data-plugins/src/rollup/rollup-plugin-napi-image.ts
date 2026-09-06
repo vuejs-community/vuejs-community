@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-napi-image',
   description: 'Rollup plugin for optimizing images powered by @napi-rs/image',
+  icon: '',
   version: '0.6.1',
   category: 'plugin',
   tags: [

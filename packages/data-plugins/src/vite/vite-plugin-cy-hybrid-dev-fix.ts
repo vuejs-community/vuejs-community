@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cy-hybrid-dev-fix',
   description: 'vite 套壳开发方式下页面加载两次/白屏的问题',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

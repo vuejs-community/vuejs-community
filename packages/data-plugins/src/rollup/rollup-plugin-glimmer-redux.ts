@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-glimmer-redux',
   description: 'rollup plugin for glimmer redux',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

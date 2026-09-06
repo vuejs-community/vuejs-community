@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-ecma-version-validator',
   description: 'A rollup plugin to verify ECMAScript version for bundle files',
+  icon: '',
   version: '0.2.13',
   category: 'plugin',
   tags: [

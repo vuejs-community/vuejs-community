@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-strip-banner',
   description: 'Rollup plugin that can be used to remove banner on modules',
+  icon: '',
   version: '3.1.0',
   category: 'plugin',
   tags: [

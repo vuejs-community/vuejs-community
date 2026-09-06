@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'number-flow',
   description: 'An animated number component for React, Vue, Svelte, and TS/JS.',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['animation'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-lightningcss',
   description: 'Lightning CSS integration for Vite, Rollup, esbuild, Webpack, Vue CLI, and more.',
+  icon: '',
   version: '0.5.0',
   category: 'plugin',
   tags: [

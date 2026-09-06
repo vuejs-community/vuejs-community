@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-codefilter',
   description: 'A plugin for rollup/vite to filter code by dotenv variables',
+  icon: '',
   version: '1.0.0-beta',
   category: 'plugin',
   tags: [

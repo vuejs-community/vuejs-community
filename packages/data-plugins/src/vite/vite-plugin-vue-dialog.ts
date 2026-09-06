@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-dialog',
   description: '```\r yarn add vite-plugin-vue-dialog',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'bootstrap',
   description: 'Add Bootstrap to your Nuxt app in seconds.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

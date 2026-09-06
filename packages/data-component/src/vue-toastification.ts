@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-toastification',
   description: '经典 toast 通知组件',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['toast', 'notification'],

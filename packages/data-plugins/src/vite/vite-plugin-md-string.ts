@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-md-string',
   description: 'get markdown string from *.md',
+  icon: '',
   version: '1.0.7',
   category: 'plugin',
   tags: [

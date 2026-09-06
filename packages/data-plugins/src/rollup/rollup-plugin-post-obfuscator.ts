@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-post-obfuscator',
   description: 'The Rollup plugin post obfuscates JavaScript',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

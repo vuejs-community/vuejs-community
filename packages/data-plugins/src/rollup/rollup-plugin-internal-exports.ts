@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-internal-exports',
   description: 'A rollup plugin for excluding specific exports in the final bundle when using format iife',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

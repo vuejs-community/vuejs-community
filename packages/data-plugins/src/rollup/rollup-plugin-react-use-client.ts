@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-react-use-client',
   description: 'Rollup plugin to transform use client directives following react specs.',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

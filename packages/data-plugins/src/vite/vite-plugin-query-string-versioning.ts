@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-query-string-versioning',
   description: 'Use file hashes in query strings instead of file name',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

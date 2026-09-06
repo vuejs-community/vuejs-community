@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-uni-app-vue3-data-log',
   description: 'Register global imports on demand for Vite and Webpack',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

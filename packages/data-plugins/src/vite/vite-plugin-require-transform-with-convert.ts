@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-require-transform-with-convert',
   description: 'A plugin for vite that convert from require syntax to import that compat for es module.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

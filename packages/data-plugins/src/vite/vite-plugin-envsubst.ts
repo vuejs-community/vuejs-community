@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-envsubst',
   description: 'Vite plugin that transforms environmental variables into a global statement that can be replaced with `envsubst` or Caddy\'s templating engine.',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

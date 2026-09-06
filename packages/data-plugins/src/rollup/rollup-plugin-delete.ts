@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-delete',
   description: 'Delete files and folders using Rollup',
+  icon: '',
   version: '3.0.2',
   category: 'plugin',
   tags: [

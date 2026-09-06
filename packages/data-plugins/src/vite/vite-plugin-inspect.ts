@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-inspect',
   description: 'Inspect the intermediate state of Vite plugins',
+  icon: '',
   version: '12.0.2',
   category: 'plugin',
   tags: [

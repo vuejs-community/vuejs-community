@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-env-command',
   description: '获取package.json中scripts里指令上的参数(build:test->test)添加到环境变量中',
+  icon: '',
   version: '1.0.8',
   category: 'plugin',
   tags: [

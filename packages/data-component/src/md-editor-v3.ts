@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'md-editor-v3',
   description: 'Vue 3 Markdown 编辑器，暗色主题、图片粘贴上传、文章直接渲染',
+  icon: '',
   category: 'component',
   types: ['editor'],
   tags: ['markdown'],

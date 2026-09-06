@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-auto-tailwind-reference',
   description: 'Automatically adds `@reference` directive to Vue SFC `<style>` blocks',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

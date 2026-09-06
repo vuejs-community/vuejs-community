@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-native',
   description: 'Vite plugin for React Native web compatibility',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

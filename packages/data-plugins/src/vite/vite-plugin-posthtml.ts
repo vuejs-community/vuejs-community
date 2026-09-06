@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-posthtml',
   description: 'A Vite plugin for PostHTML',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

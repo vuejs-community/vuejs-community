@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-auto-git-info',
   description: 'Unplugin for automatically generating Git information (repo, branch, commit, etc.) in multiple output formats.',
+  icon: '',
   version: '2.0.8',
   category: 'plugin',
   tags: [

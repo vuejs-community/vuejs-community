@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-elm-symfony-bridge',
   description: 'Vite plugin exposing symfony\'s translations and routing to elm.',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

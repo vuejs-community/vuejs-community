@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'bundle-buddy',
   description: 'Don\'t fight your webpack bundle, become friends!',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

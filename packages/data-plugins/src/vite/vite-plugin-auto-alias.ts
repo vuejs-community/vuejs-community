@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-alias',
   description: 'automatically generate alias based on path',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

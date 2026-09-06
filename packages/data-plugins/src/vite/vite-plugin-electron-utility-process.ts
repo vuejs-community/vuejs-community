@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-electron-utility-process',
   description: 'Vite plugin for ?utilityProcess imports — emits Electron UtilityProcess entry chunks with a fork() factory',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-transform__require-to-import',
   description: 'Replace the __require methods inside a third-party component',
+  icon: '',
   version: '1.1.6',
   category: 'plugin',
   tags: [

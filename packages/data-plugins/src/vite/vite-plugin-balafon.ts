@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-balafon',
   description: 'balafon+vite plugin helper',
+  icon: '',
   version: '1.0.30',
   category: 'plugin',
   tags: [

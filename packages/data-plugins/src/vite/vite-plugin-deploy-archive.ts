@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-deploy-archive',
   description: 'Deploy Vite build output to an SSH server with timestamped remote backups.',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

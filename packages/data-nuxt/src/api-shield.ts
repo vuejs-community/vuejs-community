@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'api-shield',
   description: 'Nuxt API Shield - Rate Limiting',
+  icon: '',
   category: 'nuxt',
   types: [
     'Security',

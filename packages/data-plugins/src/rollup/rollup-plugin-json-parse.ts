@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-json-parse',
   description: 'A rollup plugin that wraps compatible objects with JSON.parse() to improve performance.',
+  icon: '',
   version: '1.1.5',
   category: 'plugin',
   tags: [

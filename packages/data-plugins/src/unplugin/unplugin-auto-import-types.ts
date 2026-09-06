@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-auto-import-types',
   description: 'for own use',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

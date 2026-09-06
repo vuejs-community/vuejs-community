@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-polish-tagged-templates',
   description: 'Remove unnecessary tagged templates at compile time.',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

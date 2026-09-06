@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-simple-tsconfig-alias',
   description: 'A simple Vite plugin to resolve tsconfig paths as aliases.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

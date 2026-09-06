@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cy-rem',
   description: 'vite 自动引入引入 cy-plugin-rem 插件',
+  icon: '',
   version: '0.0.9',
   category: 'plugin',
   tags: [

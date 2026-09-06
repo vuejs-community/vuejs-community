@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-formatjs',
   description: 'A Vite plugin that integrates FormatJS for message extraction, compilation, and build-time code transformation with hot reload support',
+  icon: '',
   version: '1.1.3',
   category: 'plugin',
   tags: [

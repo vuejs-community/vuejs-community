@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ngrok',
   description: 'A Vite plugin for seamless integration with ngrok, allowing you to easily share your local development server with anyone, anywhere.',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

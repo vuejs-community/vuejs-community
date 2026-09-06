@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-fse-copy',
   description: 'Simple rollup plugin to copy static assets over to you public directory. Forker from https://github.com/meuter/rollup-plugin-copy',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

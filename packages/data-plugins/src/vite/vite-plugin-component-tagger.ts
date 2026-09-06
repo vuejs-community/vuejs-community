@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-component-tagger',
   description: 'A Vite plugin for tagging components with metadata attributes for debugging and development',
+  icon: '',
   version: '0.2.6',
   category: 'plugin',
   tags: [

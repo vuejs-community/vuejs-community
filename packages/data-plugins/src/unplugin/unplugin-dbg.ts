@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-dbg',
   description: 'Rust\'s `dbg!` for JavaScript, logging values with context effortlessly.',
+  icon: '',
   version: '0.1.0-rc.1',
   category: 'plugin',
   tags: [

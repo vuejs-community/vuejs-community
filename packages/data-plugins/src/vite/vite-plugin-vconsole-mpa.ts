@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vconsole-mpa',
   description: 'vite plugin vconsole',
+  icon: '',
   version: '0.0.8',
   category: 'plugin',
   tags: [

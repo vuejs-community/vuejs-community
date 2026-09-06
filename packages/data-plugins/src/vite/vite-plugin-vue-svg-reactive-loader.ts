@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-svg-reactive-loader',
   description: 'Vite 2.x plugin, loads SVG files as Vue components, and automatically adds the viewBox attribute to the svg, so that the svg can be adaptively zoomed.',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

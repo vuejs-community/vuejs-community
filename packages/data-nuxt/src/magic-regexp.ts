@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'magic-regexp',
   description: 'A compiled-away, type-safe, readable RegExp alternative',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

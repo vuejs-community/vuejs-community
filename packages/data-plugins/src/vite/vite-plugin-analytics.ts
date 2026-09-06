@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-analytics',
   description: 'Universal Analytics Engines Integration',
+  icon: '',
   version: '0.0.13',
   category: 'plugin',
   tags: [

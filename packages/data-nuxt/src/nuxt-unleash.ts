@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-unleash',
   description: 'Nuxt module to use Unleash toggle feature services',
+  icon: '',
   category: 'nuxt',
   types: [
     'Deployment',

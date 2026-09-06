@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-svelte-comps',
   description: 'On-demand Svelte 5 components auto-importing',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

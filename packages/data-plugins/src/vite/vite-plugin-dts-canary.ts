@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dts-canary',
   description: '<h1 align="center">vite-plugin-dts</h1>',
+  icon: '',
   version: '4.2.3-beta.2',
   category: 'plugin',
   tags: [

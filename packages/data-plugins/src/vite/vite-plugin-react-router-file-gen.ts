@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-router-file-gen',
   description: 'React Router (Declarative Mode) file based routing.',
+  icon: '',
   version: '1.1.1',
   category: 'plugin',
   tags: [

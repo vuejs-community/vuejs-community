@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-define',
   description: 'Replace variables in code with other values or expressions.Supports Vite, Rollup, Webpack, Rspack and more.',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'baklavajs',
   description: '浏览器端节点编辑器，适合可视化编程 / 数据流场景',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['node-editor', 'diagram'],

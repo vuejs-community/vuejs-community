@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'uni-use',
   description: 'uni-helper 出品的 uni-app (Vue3) 组合式工具集，生态内的「VueUse」，含 useStorage / useNetwork 等',
+  icon: '',
   category: 'uniapp',
   types: ['composable-library'],
   tags: ['uni-app', 'vue3', 'hooks', 'composables'],

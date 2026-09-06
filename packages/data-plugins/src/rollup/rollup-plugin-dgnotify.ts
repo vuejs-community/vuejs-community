@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-dgnotify',
   description: 'Send rollup build notifications via datagram to a UDP port',
+  icon: '',
   version: '0.1.8',
   category: 'plugin',
   tags: [

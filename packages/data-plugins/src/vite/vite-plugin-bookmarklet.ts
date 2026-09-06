@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-bookmarklet',
   description: 'A Vite plugin to import scripts as bookmarklets',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

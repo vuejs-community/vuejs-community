@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-compression-sync',
   description: 'Use gzip or brotli to compress resources. Base of vben/vite-plugin-compression@0.5.1 change to sync version',
+  icon: '',
   version: '0.5.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-strip-attrs',
   description: 'Strip test-related attributes like data-testid and data-cy from JSX, Vue, Svelte, and HTML at build time.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

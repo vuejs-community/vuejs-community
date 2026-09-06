@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-mantine-autoload-css',
   description: 'Unplugin for Mantine to autoload CSS for used components',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

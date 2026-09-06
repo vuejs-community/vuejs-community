@@ -2,6 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-sentry-upload',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

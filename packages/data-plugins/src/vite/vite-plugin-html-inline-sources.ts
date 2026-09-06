@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-inline-sources',
   description: 'Vite plugin for inlining JS, CSS and SVG into index.html with a declarative vite-inline attribute',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-graphql-loader',
   description: 'A Vite plugin for loading GraphQL files.',
+  icon: '',
   version: '5.1.1',
   category: 'plugin',
   tags: [

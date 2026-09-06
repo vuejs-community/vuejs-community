@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-client-error-logger',
   description: 'Vite 插件：在开发模式下收集浏览器运行时错误并写入本地日志',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vitalizer',
   description: 'Instantly better LCP scores in Google Lighthouse',
+  icon: '',
   category: 'nuxt',
   types: [
     'SEO',

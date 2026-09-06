@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'localtunnel',
   description: 'exposes your localhost to the world for easy testing and sharing',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

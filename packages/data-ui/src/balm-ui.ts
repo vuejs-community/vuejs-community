@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'balm-ui',
   description: '基于 Material Design 的模块化 Vue 3 UI 库',
+  icon: '',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui', 'material-design'],

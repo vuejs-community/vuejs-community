@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-meta-tags',
   description: 'A Vite plug-in to automatically inject meta tags into your index.html',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

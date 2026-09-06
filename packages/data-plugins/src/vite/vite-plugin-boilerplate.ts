@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-boilerplate',
   description: 'A Vite plugin that automatically writes component boilerplate when you create a new .tsx, .jsx, or .vue file.',
+  icon: '',
   version: '0.3.3',
   category: 'plugin',
   tags: [

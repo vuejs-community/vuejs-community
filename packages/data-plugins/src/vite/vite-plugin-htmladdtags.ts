@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-htmladdtags',
   description: 'a vite plugin for add tags in index.html',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

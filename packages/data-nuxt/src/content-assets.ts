@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'content-assets',
   description: 'Enable locally-located assets in Nuxt Content',
+  icon: '',
   category: 'nuxt',
   types: [
     'Images',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18n-autoimport',
   description: '## plugin options',
+  icon: '',
   version: '1.2.0',
   category: 'plugin',
   tags: [

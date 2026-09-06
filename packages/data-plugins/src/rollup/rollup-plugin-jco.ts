@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-jco',
   description: 'Rollup plugin for generating bindings from WebAssembly System Interface (WASI) Components',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

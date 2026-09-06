@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-css-style-inject',
   description: 'A Vite plugin designed to inject CSS directly into JavaScript files, preventing the generation of separate CSS files. This is particularly useful for packaging libraries with minimal styles, ensuring users don’t need to import an additional CSS file manua',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

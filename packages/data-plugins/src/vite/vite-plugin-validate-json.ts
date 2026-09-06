@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-validate-json',
   description: 'A Vite plugin to validate a set of paths to JSON files.',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

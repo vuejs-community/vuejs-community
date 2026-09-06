@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-inline-vue-styles',
   description: 'Inline vue styles into corresponding JS file in build mode',
+  icon: '',
   version: '1.0.8',
   category: 'plugin',
   tags: [

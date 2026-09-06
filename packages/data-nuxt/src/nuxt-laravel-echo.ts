@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-laravel-echo',
   description: 'Nuxt module for Laravel Echo integration',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-require',
   description: 'can let vite(react) projects to support require',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

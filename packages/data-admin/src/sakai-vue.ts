@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'sakai-vue',
   description: 'PrimeVue 官方免费后台模板，设计现代',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

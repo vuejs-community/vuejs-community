@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-aseprite-live-sync',
   description: 'Vite plugin that watches Aseprite files and auto-exports PNG/JSON via Aseprite CLI during development.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

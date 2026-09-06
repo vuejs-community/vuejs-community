@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-critical-css',
   description: 'Extract <style critical> blocks from Vue 3 SFCs into a single inline-able payload. Per-route splitting, scoped-style aware, dev HMR, SSR-friendly. Drops your Speed Index and LCP without adding a headless browser to your build.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

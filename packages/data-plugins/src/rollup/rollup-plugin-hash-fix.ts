@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-hash-fix',
   description: 'Rollup plugin to add a checksum to your destination filename',
+  icon: '',
   version: '1.2.2',
   category: 'plugin',
   tags: [

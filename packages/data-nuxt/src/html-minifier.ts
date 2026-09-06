@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'html-minifier',
   description: 'Minify the html for each request served by nuxt server (nuxt start)',
+  icon: '',
   category: 'nuxt',
   types: [
     'Performance',

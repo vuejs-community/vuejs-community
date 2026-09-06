@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-license',
   description: 'Rollup plugin to add license banner to the final bundle and output third party licenses',
+  icon: '',
   version: '3.7.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ejs-engine',
   description: 'Vite plugin for supporting ejs templates',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

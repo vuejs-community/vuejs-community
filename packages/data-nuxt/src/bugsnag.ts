@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'bugsnag',
   description: 'Bugsnag integration for nuxt.js. Makes it easy to add bugsnag to your Project. Supports uploading source maps.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Monitoring',

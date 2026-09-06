@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'sanity',
   description: 'Access text, images, and other media with Nuxt and the Sanity headless CMS.',
+  icon: '',
   category: 'nuxt',
   types: [
     'CMS',

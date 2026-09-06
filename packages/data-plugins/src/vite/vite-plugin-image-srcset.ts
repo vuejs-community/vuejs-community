@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-image-srcset',
   description: 'Simple Vite plugin to generate srcset attributes for images',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

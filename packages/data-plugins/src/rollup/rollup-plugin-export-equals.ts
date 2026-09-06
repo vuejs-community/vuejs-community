@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-export-equals',
   description: 'Transforms export default x or export { x as default } to export = x for CommonJS module type declaration export',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

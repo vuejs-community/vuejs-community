@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-peggy',
   description: 'Import PEG.js grammars as parsers directly in your code via Peggy, the PEG.js successor',
+  icon: '',
   version: '6.2.0',
   category: 'plugin',
   tags: [

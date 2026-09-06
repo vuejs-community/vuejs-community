@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-url-import',
   description: 'Rollup plugin that resolves url imports',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

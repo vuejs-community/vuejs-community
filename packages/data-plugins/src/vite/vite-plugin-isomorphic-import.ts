@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-isomorphic-import',
   description: 'A vite plugin that allows you to configure whether to import modules in the server-side or client-side.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

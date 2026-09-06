@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cloudflare-tunnel',
   description: 'A Vite plugin that automatically creates and manages Cloudflare tunnels for local development',
+  icon: '',
   version: '1.0.12',
   category: 'plugin',
   tags: [

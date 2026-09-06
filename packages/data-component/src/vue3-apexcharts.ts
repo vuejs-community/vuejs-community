@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue3-apexcharts',
   description: 'ApexCharts 官方 Vue 3 组件',
+  icon: '',
   category: 'component',
   types: ['visualization'],
   tags: ['chart'],

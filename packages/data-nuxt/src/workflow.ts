@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'workflow',
   description: 'Workflow DevKit - Build durable, resilient, and observable workflows',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-sizeme',
   description: 'display brotli and gzip sizes for rollup assets.',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

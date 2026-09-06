@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'webhook-validators',
   description: 'Nuxt module that works on the edge to easily validate incoming webhooks from different services.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Security',

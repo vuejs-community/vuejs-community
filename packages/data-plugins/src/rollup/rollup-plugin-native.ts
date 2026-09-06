@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-native',
   description: 'Import native code with Rollup',
+  icon: '',
   version: '1.2.16',
   category: 'plugin',
   tags: [

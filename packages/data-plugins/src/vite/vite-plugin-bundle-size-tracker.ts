@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-bundle-size-tracker',
   description: 'A Vite plugin that tracks bundle sizes and compares with historical averages',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

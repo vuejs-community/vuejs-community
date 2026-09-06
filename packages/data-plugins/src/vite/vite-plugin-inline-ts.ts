@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-inline-ts',
   description: 'A Vite plugin to process TypeScript code inside <script lang="ts"> tags.',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

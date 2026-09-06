@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-anime',
   description: 'Nuxt module for Anime.js',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

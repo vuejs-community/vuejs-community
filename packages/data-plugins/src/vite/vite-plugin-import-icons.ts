@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-import-icons',
   description: '用于引入 SVG 图标的 Vite 插件，支持自动引入和热更新。',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

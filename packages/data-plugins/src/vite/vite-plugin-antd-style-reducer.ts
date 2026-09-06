@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-antd-style-reducer',
   description: 'a vite plugin that reduce unused antd components\' style codes.',
+  icon: '',
   version: '0.0.13',
   category: 'plugin',
   tags: [

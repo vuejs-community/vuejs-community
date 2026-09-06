@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-partial',
   description: 'Use partials in your html files for easy html reuse',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

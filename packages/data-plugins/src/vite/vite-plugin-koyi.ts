@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-koyi',
   description: 'Vite plugin for AI-assisted frontend development — live DOM context picker + Claude Code / Anthropic API integration',
+  icon: '',
   version: '0.1.7',
   category: 'plugin',
   tags: [

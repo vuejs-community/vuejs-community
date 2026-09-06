@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-scss-color-palettes',
   description: 'Vite plugin for generating color palettes in scss.',
+  icon: '',
   version: '1.0.9',
   category: 'plugin',
   tags: [

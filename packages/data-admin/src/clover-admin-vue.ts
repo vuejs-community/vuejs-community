@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'clover-admin-vue',
   description: 'Vue3 + Pinia + UnoCSS + Element Plus 的后台模板',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

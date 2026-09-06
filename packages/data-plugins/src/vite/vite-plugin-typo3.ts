@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-typo3',
   description: 'Vite plugin to collect assets from TYPO3 extensions',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

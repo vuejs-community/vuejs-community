@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-node-globals',
   description: 'insert the same globals browserify does',
+  icon: '',
   version: '1.4.0',
   category: 'plugin',
   tags: [

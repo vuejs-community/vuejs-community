@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vant',
   description: 'A lightweight, customizable Vue UI library for mobile web apps.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

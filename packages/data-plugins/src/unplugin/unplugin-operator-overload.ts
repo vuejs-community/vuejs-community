@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-operator-overload',
   description: 'Add operator overload syntax to TypeScript',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

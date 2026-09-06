@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-structure-graph',
   description: 'A vite plugin to generate project structure graph',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-livescript',
   description: 'A Vite plugin for your LiveScript projects',
+  icon: '',
   version: '4.0.0',
   category: 'plugin',
   tags: [

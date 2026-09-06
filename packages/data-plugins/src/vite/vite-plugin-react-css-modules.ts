@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-css-modules',
   description: 'A vitejs plugin to use babel-plugin-react-css-modules',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

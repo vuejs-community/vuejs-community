@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-clean-pattern',
   description: 'A vite plugin to remove/clean your build folder(s) using regex patterns to match specific files.',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-sonner',
   description: 'sonner 风格的 toast 组件，支持 Vue / Nuxt',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['toast', 'notification'],

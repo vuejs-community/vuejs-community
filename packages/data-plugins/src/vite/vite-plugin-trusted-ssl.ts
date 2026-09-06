@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-trusted-ssl',
   description: 'Locally-trusted HTTPS for Vite: local CA + reverse proxy (Vite stays on HTTP)',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'betterstack',
   description: 'A Nuxt module for integrating BetterStack into your Nuxt application',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

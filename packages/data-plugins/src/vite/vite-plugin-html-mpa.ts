@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-mpa',
   description: 'html mpa for vite',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'comark',
   description: 'Components in Markdown (Comark) parser with streaming support.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

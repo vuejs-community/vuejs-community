@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'disqus',
   description: 'Disqus Comments Module for Nuxt - Instantly add a comment widget to your app',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

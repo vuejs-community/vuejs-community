@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-tailwindcss-shortener',
   description: 'Shorten the classes of Tailwind CSS',
+  icon: '',
   version: '0.4.1',
   category: 'plugin',
   tags: [

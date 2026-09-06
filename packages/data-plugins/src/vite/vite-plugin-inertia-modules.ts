@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-inertia-modules',
   description: 'Serve Inertia pages from Composer packages. Build modular Laravel apps where each module ships its own frontend.',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nupolyon',
   description: 'Inject polyfill from polyfill.io to nuxt project, auto detect based on browserslist config',
+  icon: '',
   category: 'nuxt',
   types: [
     'Performance',

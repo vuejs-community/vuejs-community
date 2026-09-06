@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-livereload-client',
   description: 'Add the LiveReload client for use during development',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

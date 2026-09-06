@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-s3',
   description: 'This plugin will upload all built assets to s3',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'mailchannels',
   description: 'Simple MailChannels Email API integration for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

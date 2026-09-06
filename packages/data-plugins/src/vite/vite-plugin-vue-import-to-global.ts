@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-import-to-global',
   description: 'Use Vue from window.Vue instead of bundling it',
+  icon: '',
   version: '1.0.61',
   category: 'plugin',
   tags: [

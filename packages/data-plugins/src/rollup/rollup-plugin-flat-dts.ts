@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-flat-dts',
   description: '.d.ts files flattener and Rollup plugin',
+  icon: '',
   version: '2.9.0',
   category: 'plugin',
   tags: [

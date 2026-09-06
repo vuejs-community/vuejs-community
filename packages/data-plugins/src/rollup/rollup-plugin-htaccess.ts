@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-htaccess',
   description: 'A rolldown/rollup/vite plugin to generate .htaccess files',
+  icon: '',
   version: '0.13.2',
   category: 'plugin',
   tags: [

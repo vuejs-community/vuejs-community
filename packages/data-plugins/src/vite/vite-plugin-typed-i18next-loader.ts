@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-typed-i18next-loader',
   description: 'Generate a virtual module for resources and type definitions for i18next.',
+  icon: '',
   version: '2.0.4',
   category: 'plugin',
   tags: [

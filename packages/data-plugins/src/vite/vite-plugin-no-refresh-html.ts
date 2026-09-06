@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-no-refresh-html',
   description: 'Vite plugin that hot-updates JS files without refreshing the HTML page, preserving user inputs',
+  icon: '',
   version: '1.0.9',
   category: 'plugin',
   tags: [

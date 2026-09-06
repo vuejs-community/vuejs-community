@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-zod-to-mini',
   description: 'Transform Zod schemas to Zod/mini at build time',
+  icon: '',
   version: '0.1.6',
   category: 'plugin',
   tags: [

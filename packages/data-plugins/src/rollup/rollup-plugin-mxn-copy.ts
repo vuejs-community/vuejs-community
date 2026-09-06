@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-mxn-copy',
   description: 'Rollup plugin for copying assets into the output directory of your bundle',
+  icon: '',
   version: '0.5.1',
   category: 'plugin',
   tags: [

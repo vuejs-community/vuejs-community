@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-aws3',
   description: 'This plugin will deploy assets to AWS (S3 & Cloudfront)',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-angular-aot-decorators',
   description: 'Remove TypeScript decorators when compiling Angular with Ahead-Of-Time compilation',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

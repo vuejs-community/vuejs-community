@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-bundle-scss-postcss',
   description: 'Rollup .scss imports into one bundled .scss file. Also supports PostCSS.',
+  icon: '',
   version: '0.1.7',
   category: 'plugin',
   tags: [

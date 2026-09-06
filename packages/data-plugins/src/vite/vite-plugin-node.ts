@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-node',
   description: 'Vite plugin to enable your node server HMR',
+  icon: '',
   version: '8.0.0',
   category: 'plugin',
   tags: [

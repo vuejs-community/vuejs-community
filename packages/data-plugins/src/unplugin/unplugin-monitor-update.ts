@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-monitor-update',
   description: '[English](./README.md) | 简体中文',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

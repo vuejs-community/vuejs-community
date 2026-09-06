@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-prerender-static',
   description: 'Static prerendering plugin for Vite with SEO, meta tags, and multi-route support.',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

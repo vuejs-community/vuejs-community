@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-tampermonkey-append-meta',
   description: 'append meta to user script of tampermonkey.',
+  icon: '',
   version: '1.1.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-cli',
   description: 'transform vue.config.js options to vite.config.ts options',
+  icon: '',
   version: '1.4.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-devtools-json',
   description: 'Vite plugin for generating `com.chrome.devtools.json` on the fly in the devserver.',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

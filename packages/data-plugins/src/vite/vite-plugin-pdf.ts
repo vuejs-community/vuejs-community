@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-pdf',
   description: 'Export PDF bundled by Vite',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

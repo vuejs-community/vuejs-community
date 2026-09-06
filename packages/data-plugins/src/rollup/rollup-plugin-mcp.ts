@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-mcp',
   description: 'A plugin for developers integrating MCP servers into Rollup.',
+  icon: '',
   version: '0.0.12',
   category: 'plugin',
   tags: [

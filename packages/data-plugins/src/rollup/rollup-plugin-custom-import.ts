@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-custom-import',
   description: 'Customize the content of the imported module - not just the text',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

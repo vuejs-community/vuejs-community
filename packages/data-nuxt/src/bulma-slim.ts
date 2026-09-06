@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'bulma-slim',
   description: 'Nuxt module to automatically make a slim Bulma build of used features with Purgecss',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

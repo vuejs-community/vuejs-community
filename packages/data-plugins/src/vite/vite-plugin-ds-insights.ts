@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ds-insights',
   description: 'Vite plugin: design system usage, deprecated API, and bundle insights reports',
+  icon: '',
   version: '2.0.4',
   category: 'plugin',
   tags: [

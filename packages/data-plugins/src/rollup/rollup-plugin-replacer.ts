@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-replacer',
   description: 'a rollup plugin to replace strings in generated bundles',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-appsettings',
   description: 'Runtime environment for Vite. Serves an appsettings.json next to your bundle and honors Vite\'s .env convention — configure without rebuilding.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'tresjs',
   description: '声明式 Three.js，用 Vue 组件构建 3D 场景',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['threejs', '3d'],

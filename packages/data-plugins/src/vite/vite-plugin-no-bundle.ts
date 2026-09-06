@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-no-bundle',
   description: 'Use Vite for building without the bundling part.',
+  icon: '',
   version: '4.0.0',
   category: 'plugin',
   tags: [

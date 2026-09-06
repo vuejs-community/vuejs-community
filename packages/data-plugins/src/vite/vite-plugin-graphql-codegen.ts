@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-graphql-codegen',
   description: 'Zero-config vite plugin that uses the vite file watcher to run graphql codegen programmatically without needing to start a separate watcher',
+  icon: '',
   version: '4.0.1',
   category: 'plugin',
   tags: [

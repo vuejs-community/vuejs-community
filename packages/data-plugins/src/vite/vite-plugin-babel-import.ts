@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-babel-import',
   description: 'A vite import plugin for babel.',
+  icon: '',
   version: '2.0.5',
   category: 'plugin',
   tags: [

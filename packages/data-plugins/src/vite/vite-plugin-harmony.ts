@@ -2,6 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-harmony',
+  icon: '',
   version: '0.1.10',
   category: 'plugin',
   tags: [

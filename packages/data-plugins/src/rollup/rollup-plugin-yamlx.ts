@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-yamlx',
   description: ' An enhanced Rollup/Vite plugin which converts YAML files to ES6 modules.',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

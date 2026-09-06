@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-type-auto-imports',
   description: 'type-auto-imports is a vite plugin that allows all defined types(interfaces, classes & types) to be globally available',
+  icon: '',
   version: '0.0.61',
   category: 'plugin',
   tags: [

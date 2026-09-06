@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'arkenv',
   description: 'Environment variable validation from editor to runtime',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

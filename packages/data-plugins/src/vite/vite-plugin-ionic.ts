@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ionic',
   description: 'Vite plugin that integrates @ionic/core — handles static file serving (dev + build), optimizeDeps, externals, and LightningCSS warning suppression.',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

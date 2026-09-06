@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-port-checker',
   description: 'A Vite plugin that warns if the dev server is running on a browser-restricted port.',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

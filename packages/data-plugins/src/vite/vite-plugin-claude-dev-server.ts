@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-claude-dev-server',
   description: 'Vite plugin that adds a Claude Code AI assistant panel to your dev server',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

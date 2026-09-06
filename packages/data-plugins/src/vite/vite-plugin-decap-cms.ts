@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-decap-cms',
   description: 'Simplify the configuration of Decap cms for Vite projects',
+  icon: '',
   version: '0.5.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vinext-zephyr',
   description: 'Vite plugin for deploying Vinext applications with Zephyr',
+  icon: '',
   version: '1.2.4',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-global-types',
   description: 'Vite plugin that collects exported types and interfaces into a generated global.d.ts, so you can use them without importing.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

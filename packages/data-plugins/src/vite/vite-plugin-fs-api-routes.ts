@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-fs-api-routes',
   description: 'File-system API routes for clean Vite apps without Express.',
+  icon: '',
   version: '1.3.0-beta2',
   category: 'plugin',
   tags: [

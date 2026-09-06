@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tsgo-checker',
   description: 'Vite plugin that runs TypeScript type checking using the native Go TypeScript compiler (tsgo) in a separate thread.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

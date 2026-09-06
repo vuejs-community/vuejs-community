@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-imba1',
   description: 'Vite plugin for Imba 1.x with HMR support',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

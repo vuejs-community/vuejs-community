@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-copy',
   description: 'Copy files and folders, with glob support.',
+  icon: '',
   version: '4.0.1',
   category: 'plugin',
   tags: [

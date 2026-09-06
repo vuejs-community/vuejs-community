@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dpimap',
   description: 'dpimap library plugin for Vite',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

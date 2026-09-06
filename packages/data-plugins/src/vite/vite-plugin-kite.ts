@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-kite',
   description: 'Import .kite files from a Vite project. The compiler is WebAssembly, so nothing is installed.',
+  icon: '',
   version: '0.1.9',
   category: 'plugin',
   tags: [

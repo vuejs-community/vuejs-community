@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-diff-compiler',
   description: 'Register global imports on demand for Vite and Webpack',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

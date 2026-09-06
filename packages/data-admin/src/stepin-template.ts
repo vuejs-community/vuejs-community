@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'stepin-template',
   description: 'Ant Design Vue + Tailwind CSS 构建的后台模板',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

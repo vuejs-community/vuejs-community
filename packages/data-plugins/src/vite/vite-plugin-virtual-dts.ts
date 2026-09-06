@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-virtual-dts',
   description: 'Generate declaration files for virtual module',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

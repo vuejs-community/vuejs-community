@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unocss',
   description: 'The instant on-demand atomic CSS engine.',
+  icon: '',
   category: 'nuxt',
   types: [
     'CSS',

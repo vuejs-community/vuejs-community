@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-css-lit',
   description: 'Rollup plugin for importing CSS sources as constructable stylesheets to projects using lit (lit-html and lit-element) or fast-element.',
+  icon: '',
   version: '2.1.0',
   category: 'plugin',
   tags: [

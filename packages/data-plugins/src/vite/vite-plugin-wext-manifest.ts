@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-wext-manifest',
   description: 'Vite plugin that lets you specify `manifest.json` properties to appear only in specific browsers.',
+  icon: '',
   version: '1.2.2',
   category: 'plugin',
   tags: [

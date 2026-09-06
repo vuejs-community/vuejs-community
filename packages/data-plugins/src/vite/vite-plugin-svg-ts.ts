@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-ts',
   description: 'Vite Plugin for loading all svg files inside a folder with types.',
+  icon: '',
   version: '0.0.7',
   category: 'plugin',
   tags: [

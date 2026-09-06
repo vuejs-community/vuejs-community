@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-image-assets',
   description: 'Like rollup-plugin-image, but copy image files to dest instead of inlining base64.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cy-env-dts',
   description: 'vite 自定义引入环境变量 dts 类型定义',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ng-comp-fn',
   description: 'Vite Plugin for Angular Function components',
+  icon: '',
   version: '0.0.1-alpha.1',
   category: 'plugin',
   tags: [

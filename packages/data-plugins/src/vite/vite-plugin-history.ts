@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-history',
   description: '`Vite` 功能增强插件，对 `connect-history-api-fallback` 的二次封装。主要解决路径访问 `url` 重写等问题。',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

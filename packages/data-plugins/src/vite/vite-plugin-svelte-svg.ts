@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svelte-svg',
   description: 'Vite 4.x plugin to load SVG files as Svelte components',
+  icon: '',
   version: '2.3.0',
   category: 'plugin',
   tags: [

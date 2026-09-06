@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vitepress-bar',
   description: '为 vitepress 自动生成 nav 和 sidebar',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

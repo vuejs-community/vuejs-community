@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nodemailer',
   description: 'Nuxt integration for nodemailer',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

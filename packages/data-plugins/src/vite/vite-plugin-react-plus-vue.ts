@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-plus-vue',
   description: 'A vite plugin to enable some vue features in react',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

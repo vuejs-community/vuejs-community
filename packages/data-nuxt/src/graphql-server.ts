@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'graphql-server',
   description: 'Easy GraphQL server implementation with Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Request',

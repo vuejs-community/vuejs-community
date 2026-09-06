@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-travelm-agency',
   description: 'vite plugin to automatically run travelm-agency on build and watch',
+  icon: '',
   version: '2.10.0',
   category: 'plugin',
   tags: [

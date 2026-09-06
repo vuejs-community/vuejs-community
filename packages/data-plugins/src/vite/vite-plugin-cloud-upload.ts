@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cloud-upload',
   description: 'A Vite plugin to automatically upload build assets to cloud storage (Tencent Cloud COS & Aliyun OSS).',
+  icon: '',
   version: '1.0.8',
   category: 'plugin',
   tags: [

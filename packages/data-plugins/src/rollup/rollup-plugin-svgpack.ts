@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-svgpack',
   description: 'A Rollup plugin for minifying and compressing all SVG files in a specified folder and combining them into an SVG symbol.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

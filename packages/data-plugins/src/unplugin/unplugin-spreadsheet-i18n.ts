@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-spreadsheet-i18n',
   description: 'Enhance internationalization (i18n) workflows with spreadsheets',
+  icon: '',
   version: '0.3.5',
   category: 'plugin',
   tags: [

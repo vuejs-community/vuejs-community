@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-image-duplicates',
   description: '查找项目中是否有重复图片',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

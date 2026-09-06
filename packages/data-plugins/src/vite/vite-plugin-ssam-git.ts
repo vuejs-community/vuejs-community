@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ssam-git',
   description: 'Create a Git commit through Vite dev server',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

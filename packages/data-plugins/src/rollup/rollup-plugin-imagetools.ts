@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-imagetools',
   description: '<!-- badges -->',
+  icon: '',
   version: '3.0.18',
   category: 'plugin',
   tags: [

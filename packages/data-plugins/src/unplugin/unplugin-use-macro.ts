@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-use-macro',
   description: 'Register macro and use',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

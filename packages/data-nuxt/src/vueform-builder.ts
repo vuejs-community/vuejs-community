@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vueform-builder',
   description: 'Official Vueform Builder module for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-storm',
   description: 'WebStorm & PHPStorm support for Nuxt components',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

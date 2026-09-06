@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-conditions-compile',
   description: 'Conditional compilation plugin based on rollup',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

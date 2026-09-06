@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-css-generator',
   description: 'css file generator only write class name',
+  icon: '',
   version: '2.5.8',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-remix',
   description: 'A Vite plugin for integrating the Remix framework while maintaining Vite\'s functionalities.',
+  icon: '',
   version: '0.2.6',
   category: 'plugin',
   tags: [

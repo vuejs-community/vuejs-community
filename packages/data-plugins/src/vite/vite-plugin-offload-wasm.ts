@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-offload-wasm',
   description: 'Serve WASM from a CDN or any remote location, bypassing the local server entirely',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

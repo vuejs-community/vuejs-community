@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-specifier',
   description: 'Vite plugin to update your ESM and CJS specifiers.',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

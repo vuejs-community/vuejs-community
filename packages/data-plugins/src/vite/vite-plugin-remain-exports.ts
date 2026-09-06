@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-remain-exports',
   description: 'vite plugin that remain exports from html-entry-script',
+  icon: '',
   version: '1.2.4',
   category: 'plugin',
   tags: [

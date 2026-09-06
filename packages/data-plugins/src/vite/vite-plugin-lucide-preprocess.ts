@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lucide-preprocess',
   description: 'A Vite plugin to tree-shake your Lucide icons.',
+  icon: '',
   version: '1.5.4',
   category: 'plugin',
   tags: [

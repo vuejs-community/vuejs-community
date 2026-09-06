@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'tgauth',
   description: 'Extremely simple "Login with Telegram" button',
+  icon: '',
   category: 'nuxt',
   types: [
     'Security',

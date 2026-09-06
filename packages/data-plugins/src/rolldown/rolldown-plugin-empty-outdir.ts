@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rolldown-plugin-empty-outdir',
   description: 'A plugin to empty output directory for all rolldown outputs.',
+  icon: '',
   version: '2.0.2',
   category: 'plugin',
   tags: [

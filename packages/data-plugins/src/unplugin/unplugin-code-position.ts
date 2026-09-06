@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-code-position',
   description: 'Click on an element on the page to find its corresponding position in the code',
+  icon: '',
   version: '0.1.11',
   category: 'plugin',
   tags: [

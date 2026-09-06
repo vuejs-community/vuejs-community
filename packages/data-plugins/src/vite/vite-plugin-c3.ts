@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-c3',
   description: 'Plugin for automatic C3 to WASM compilation and site reloading in Vite. ⚡',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

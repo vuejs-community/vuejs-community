@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ignore-public',
   description: 'Ignore public directories at build time',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

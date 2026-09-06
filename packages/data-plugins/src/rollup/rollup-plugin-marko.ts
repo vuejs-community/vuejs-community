@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-marko',
   description: 'Marko transform/plugin for Rollup',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

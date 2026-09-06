@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-freeze-deps',
   description: 'Vite plugin that prevents split optimization batches by persisting the discovered dependency list across dev server restarts',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

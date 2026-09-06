@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'humans-txt',
   description: 'An initiative for knowing the people behind a website. It is a Nuxt buildModules that add a TXT file containing information about the different people who have contributed to building the website.',
+  icon: '',
   category: 'nuxt',
   types: [
     'SEO',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-prettyuglify',
   description: 'Rollup plugin to minify generated bundle into the shape of an SVG\'s paths',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

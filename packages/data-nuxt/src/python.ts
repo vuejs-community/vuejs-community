@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'python',
   description: 'Write Nuxt applications using Python',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mapbox-gl-offline',
   description: 'Vite plugin to make mapbox-gl run offline',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

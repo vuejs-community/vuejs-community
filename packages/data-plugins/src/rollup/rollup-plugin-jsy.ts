@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-jsy',
   description: 'Rollup JSY syntax transpiler to standard JavaScript',
+  icon: '',
   version: '1.9.4',
   category: 'plugin',
   tags: [

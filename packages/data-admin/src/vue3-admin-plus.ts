@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue3-admin-plus',
   description: 'jzfai 出品的增强版极简后台框架，开箱即用',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

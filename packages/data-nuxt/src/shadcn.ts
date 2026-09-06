@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'shadcn',
   description: 'Re-usable components built with Radix Vue and Tailwind CSS.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

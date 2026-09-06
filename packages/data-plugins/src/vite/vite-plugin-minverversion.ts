@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-minverversion',
   description: 'Automatically gets the `minver` version of the project and adds to Vite\'s define',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-env',
   description: 'A vite plugin for rewriting html',
+  icon: '',
   version: '1.2.8',
   category: 'plugin',
   tags: [

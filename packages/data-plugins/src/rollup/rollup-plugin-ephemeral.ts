@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-ephemeral',
   description: 'Like `@rollup/plugin-virtual` but sometimes you need virtual modules to behave like real files.',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

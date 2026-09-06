@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue3-antdv-admin',
   description: 'RBAC 权限系统、JSON Schema 动态表单 / 表格的 Ant Design Vue 后台',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

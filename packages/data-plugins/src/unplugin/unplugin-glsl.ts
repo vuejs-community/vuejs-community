@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-glsl',
   description: 'Import, inline (and compress) GLSL shader files by unified plugin system.',
+  icon: '',
   version: '0.1.9',
   category: 'plugin',
   tags: [

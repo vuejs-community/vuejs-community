@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-env-inject',
   description: 'Vite plugin for runtime environment variable injection in browser builds and Docker deployments',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

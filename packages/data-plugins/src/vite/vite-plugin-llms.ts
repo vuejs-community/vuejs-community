@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-llms',
   description: 'Vite plugin for llms.txt specification support',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

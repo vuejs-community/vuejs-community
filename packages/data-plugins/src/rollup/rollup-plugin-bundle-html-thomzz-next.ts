@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-bundle-html-thomzz-next',
   description: 'create html with the bundle file',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

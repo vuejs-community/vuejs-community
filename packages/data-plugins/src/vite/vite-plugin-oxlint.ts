@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-oxlint',
   description: 'Oxlint plugin for vite.',
+  icon: '',
   version: '2.2.0',
   category: 'plugin',
   tags: [

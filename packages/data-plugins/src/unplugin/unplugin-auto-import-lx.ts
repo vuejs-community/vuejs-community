@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-auto-import-lx',
   description: 'Register global imports on demand for Vite and Webpack',
+  icon: '',
   version: '0.11.2-dev.1',
   category: 'plugin',
   tags: [

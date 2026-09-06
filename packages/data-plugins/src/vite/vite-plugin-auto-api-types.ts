@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-api-types',
   description: 'A Vite plugin to automatically generate API types',
+  icon: '',
   version: '1.1.3',
   category: 'plugin',
   tags: [

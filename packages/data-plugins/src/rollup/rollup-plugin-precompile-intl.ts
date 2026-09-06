@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-precompile-intl',
   description: 'Compile translations in ICU message format to invocable functions at build time',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

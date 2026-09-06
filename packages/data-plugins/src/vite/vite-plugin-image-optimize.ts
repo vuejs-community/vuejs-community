@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-image-optimize',
   description: 'Vite plugin that generates AVIF and WebP images and optimizes all image assets during the build process for better performance.',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

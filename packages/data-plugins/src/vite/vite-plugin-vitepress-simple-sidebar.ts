@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vitepress-simple-sidebar',
   description: '自动生成 vitepress 侧边栏目录的插件',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

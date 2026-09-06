@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-fluent',
   description: 'Vite plugin for type-safe function code generation for Fluent Translation files',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

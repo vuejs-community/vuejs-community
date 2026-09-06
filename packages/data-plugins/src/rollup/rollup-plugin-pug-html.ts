@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-pug-html',
   description: 'Rollup plugin that transforms pug (jade) templates in es6 modules.',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-shopify-ayue',
   description: '',
+  icon: '',
   version: '0.1.7',
   category: 'plugin',
   tags: [

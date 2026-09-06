@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'precognition',
   description: 'Nuxt module implementing Laravel Precognition protocol in Nitro',
+  icon: '',
   category: 'nuxt',
   types: [
     'Security',

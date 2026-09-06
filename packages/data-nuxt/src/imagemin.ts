@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'imagemin',
   description: 'Automatically optimize (compress) all images used in Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Images',

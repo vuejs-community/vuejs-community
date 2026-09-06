@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rolldown-plugin-dom-expressions-compiler',
   description: 'Rolldown transform plugin for the native DOM Expressions compiler.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-treat-umd-as-commonjs',
   description: 'resolve some edge cases when using requireJS/amd  in browser with vite',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

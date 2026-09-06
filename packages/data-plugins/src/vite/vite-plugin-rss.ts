@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-rss',
   description: 'Create an RSS feed from an SPA at bundle time.',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

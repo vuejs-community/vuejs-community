@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-string',
   description: 'Converts text files to modules',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

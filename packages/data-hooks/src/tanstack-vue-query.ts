@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'tanstack-vue-query',
   description: 'TanStack Query 的 Vue 适配层，为 Vue 3 提供异步状态管理、缓存与数据请求',
+  icon: '',
   category: 'hooks',
   types: ['data-fetching', 'composable-library'],
   tags: ['hooks', 'composables', 'data-fetching', 'query', 'vue3'],

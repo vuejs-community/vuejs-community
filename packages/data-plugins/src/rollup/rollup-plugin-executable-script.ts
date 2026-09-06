@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-executable-script',
   description: 'A plugin to tell system to use node interpreter and provide executable permissions to the output file.',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-srvx',
   description: 'Vite plugin for srvx - Universal Server integration',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

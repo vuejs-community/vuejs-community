@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-external-node-modules',
   description: 'Rollup plugin to use process.env',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

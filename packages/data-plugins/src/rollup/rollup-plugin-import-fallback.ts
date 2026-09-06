@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-import-fallback',
   description: 'A rollup/vite plugin that allows to define a import fallback.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

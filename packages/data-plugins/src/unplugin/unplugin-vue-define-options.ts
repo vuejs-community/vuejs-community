@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-define-options',
   description: 'Add defineOptions macro for Vue <script setup>.',
+  icon: '',
   version: '3.1.4',
   category: 'plugin',
   tags: [

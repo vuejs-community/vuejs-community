@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-inline-enum',
   description: 'Inline enum values to optimize bundle size.',
+  icon: '',
   version: '0.8.3',
   category: 'plugin',
   tags: [

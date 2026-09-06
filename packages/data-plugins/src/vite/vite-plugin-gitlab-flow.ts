@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-gitlab-flow',
   description: '控制台打印构gitlab效流水线建信息插件',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

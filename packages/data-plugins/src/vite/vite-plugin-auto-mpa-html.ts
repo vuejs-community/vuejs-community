@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-mpa-html',
   description: 'A file directory-based automated multi-page Vite plugin that supports HTML templates using Handlebars.',
+  icon: '',
   version: '1.3.1',
   category: 'plugin',
   tags: [

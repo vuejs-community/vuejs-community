@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-img-responsiver',
   description: 'A Vite plugin for generating responsive images',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

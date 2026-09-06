@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-serve-proxy',
   description: 'Serve your rolled up bundle',
+  icon: '',
   version: '1.1.4',
   category: 'plugin',
   tags: [

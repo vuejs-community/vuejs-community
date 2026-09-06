@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sharp-resize',
   description: '![ci workflow status](https://github.com/ec965/vite-plugin-sharp-resize/actions/workflows/ci.yml/badge.svg)',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

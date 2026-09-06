@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-draggable-plus',
   description: '同时支持 Vue 2/3 的拖拽排序组件，vuedraggable 停更后的活跃替代品',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['drag-drop'],

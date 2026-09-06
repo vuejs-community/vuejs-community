@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-zed-gpui',
   description: 'Unplugin for zed-gpui tree-shaking optimization - removes unused zed-gpui methods from bundle',
+  icon: '',
   version: '0.0.8',
   category: 'plugin',
   tags: [

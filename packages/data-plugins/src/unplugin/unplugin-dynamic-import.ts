@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-dynamic-import',
   description: 'Unplugin for dynamic import transformation in various build tools',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

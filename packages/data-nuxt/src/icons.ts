@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'icons',
   description: 'Use your own automatically imported SVG icons.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

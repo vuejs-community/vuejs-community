@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-preact-svg-lite',
   description: 'rollup plugin for importing svg file in preact',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

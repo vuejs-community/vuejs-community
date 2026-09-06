@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-deploy-oss',
   description: 'Upload Vite build artifacts to Aliyun OSS.',
+  icon: '',
   version: '3.5.0',
   category: 'plugin',
   tags: [

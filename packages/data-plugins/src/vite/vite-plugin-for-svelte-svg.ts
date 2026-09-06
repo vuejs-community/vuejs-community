@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-for-svelte-svg',
   description: 'Vite plugin for SVG handling in Svelte projects with dynamic color and size support',
+  icon: '',
   version: '0.9.2',
   category: 'plugin',
   tags: [

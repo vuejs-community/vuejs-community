@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'moment',
   description: 'Efficient Moment.js module for Nuxt so you can Parse, validate, manipulate, and display dates and times in JavaScript.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Date',

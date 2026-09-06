@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tlsx',
   description: 'A Vite plugin that adds HTTPS support using tlsx.',
+  icon: '',
   version: '0.13.2',
   category: 'plugin',
   tags: [

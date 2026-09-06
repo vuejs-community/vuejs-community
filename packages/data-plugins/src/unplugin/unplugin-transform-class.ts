@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-transform-class',
   description: 'transform class by rule, support use in vite, rollup, webpack',
+  icon: '',
   version: '0.7.0',
   category: 'plugin',
   tags: [

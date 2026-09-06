@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'agility-cms',
   description: 'Agility CMS Integration for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'CMS',

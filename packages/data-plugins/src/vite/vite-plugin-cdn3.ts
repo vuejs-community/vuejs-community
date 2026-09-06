@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cdn3',
   description: 'Fixed version of vite-plugin-cdn with [some module package.json find error]',
+  icon: '',
   version: '1.7.0',
   category: 'plugin',
   tags: [

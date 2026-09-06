@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-electron-cesium',
   description: 'A plugin use for vite+electron framework',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

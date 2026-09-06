@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-log-saver',
   description: 'A Vite plugin that saves browser console logs to local files with a beautiful UI',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dileep-ffmpeg',
   description: 'Ffmpeg plugin for dileep',
+  icon: '',
   version: '0.2.2',
   category: 'plugin',
   tags: [

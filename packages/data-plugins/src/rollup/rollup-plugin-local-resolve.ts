@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-local-resolve',
   description: 'Resolves index.js files with Rollup',
+  icon: '',
   version: '1.0.7',
   category: 'plugin',
   tags: [

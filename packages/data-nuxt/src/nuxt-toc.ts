@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-toc',
   description: 'Nuxt module for table of contents (TOC) component in Nuxt Content projects',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-info',
   description: 'Export build information as virutal module',
+  icon: '',
   version: '1.3.2',
   category: 'plugin',
   tags: [

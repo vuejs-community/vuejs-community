@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-tslint',
   description: 'Verify entry point and all imported files with TSLint',
+  icon: '',
   version: '0.2.2',
   category: 'plugin',
   tags: [

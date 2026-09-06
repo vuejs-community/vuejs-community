@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg4vue',
   description: 'A vite plugin which can transform svg icon to vue component, support optimization via SVGO, easy to customize svg color and size.',
+  icon: '',
   version: '4.5.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-svg-sprite',
   description: 'Unified plugin system for svg sprite',
+  icon: '',
   version: '1.2.8',
   category: 'plugin',
   tags: [

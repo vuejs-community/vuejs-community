@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sftp-deploy',
   description: 'SFTP uploader plugin to deploy the project trough SSH',
+  icon: '',
   version: '1.2.0',
   category: 'plugin',
   tags: [

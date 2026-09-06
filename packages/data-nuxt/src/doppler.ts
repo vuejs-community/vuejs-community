@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'doppler',
   description: 'Integrate your Doppler secrets into your Nuxt build',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

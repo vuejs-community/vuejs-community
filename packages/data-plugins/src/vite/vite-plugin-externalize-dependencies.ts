@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-externalize-dependencies',
   description: 'A simplified plugin for Vite that allows you to exclude specific dependencies from the Vite bundle during development.',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

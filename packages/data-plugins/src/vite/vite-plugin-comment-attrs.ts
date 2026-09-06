@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-comment-attrs',
   description: 'A Vite plugin that turns JSX comments into configurable JSX attributes.',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

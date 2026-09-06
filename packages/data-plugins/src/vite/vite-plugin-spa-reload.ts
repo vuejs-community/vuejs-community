@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-spa-reload',
   description: 'A Vite plugin check new version for reload in SPA.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

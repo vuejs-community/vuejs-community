@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-replace-shebang',
   description: 'A Rollup plugin that preserves and relocates shebang to the output bundle.',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

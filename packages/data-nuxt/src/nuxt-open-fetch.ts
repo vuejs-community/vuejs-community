@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-open-fetch',
   description: 'Generate zero-overhead, 100% typed OpenAPI clients for Nuxt.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Request',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-transform-import',
   description: '一个在打包阶段把import函数转换为import命令的vite插件',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

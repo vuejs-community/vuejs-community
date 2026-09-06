@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-chrome-extensions-hmr',
   description: '基于rollup/vite开发的浏览器插件热更新插件',
+  icon: '',
   version: '1.0.8',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-browser-sync',
   description: 'Add BrowserSync in your Vite project',
+  icon: '',
   version: '7.0.0',
   category: 'plugin',
   tags: [

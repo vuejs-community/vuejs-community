@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sass-dts',
   description: 'A plugin that automatically creates a type file when using the css module type-safely.',
+  icon: '',
   version: '1.3.37',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-pdf',
   description: 'Zero-boilerplate PDF exports of your Pages and Components',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

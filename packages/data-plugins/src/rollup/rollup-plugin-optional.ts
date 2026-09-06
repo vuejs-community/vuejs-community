@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-optional',
   description: 'Conditionally keep and remove code to adapt difference platform!',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

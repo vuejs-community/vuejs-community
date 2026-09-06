@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-pixi-assets',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-pixi-assets?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-pixi-assets)',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

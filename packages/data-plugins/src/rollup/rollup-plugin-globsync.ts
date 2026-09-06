@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-globsync',
   description: 'Rollup plugin to copy globs & watch for changes',
+  icon: '',
   version: '2.2.1',
   category: 'plugin',
   tags: [

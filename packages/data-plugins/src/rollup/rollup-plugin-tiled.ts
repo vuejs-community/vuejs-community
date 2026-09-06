@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-tiled',
   description: 'Tiled Map (TMX) importer plugin for rollup',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

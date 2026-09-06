@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-processor',
   description: 'Decoupled processing for Nuxt backed by BullMQ.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

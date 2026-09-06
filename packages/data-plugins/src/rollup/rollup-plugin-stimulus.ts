@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-stimulus',
   description: 'Rollup.js plugin for rolling Stimulus.js applications',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

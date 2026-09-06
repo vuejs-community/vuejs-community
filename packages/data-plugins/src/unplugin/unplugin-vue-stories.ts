@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-stories',
   description: 'Vue SFC stories for Storybook',
+  icon: '',
   version: '0.0.2-beta.6',
   category: 'plugin',
   tags: [

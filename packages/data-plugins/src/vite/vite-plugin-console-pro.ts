@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-console-pro',
   description: 'Adds a timestamp and an active link to the \'console.log\' output to open the source file in Visual Code.',
+  icon: '',
   version: '0.6.6',
   category: 'plugin',
   tags: [

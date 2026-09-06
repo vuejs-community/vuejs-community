@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rfg-icon',
   description: 'Nuxt module for creating favicons with RealFaviconGenerator api',
+  icon: '',
   category: 'nuxt',
   types: [
     'SEO',

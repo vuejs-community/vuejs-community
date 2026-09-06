@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-remove-attributes',
   description: 'Removing data attributes from SFC at build time',
+  icon: '',
   version: '1.1.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-miniprogram-tree-shaking',
   description: '用于跨平台小程序框架使用原生小程序组件库时的tree-shaking',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

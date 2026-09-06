@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-keyword-replace',
   description: 'keyword-replace plugin for vite@v2',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

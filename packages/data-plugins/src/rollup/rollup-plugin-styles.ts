@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-styles',
   description: 'Universal Rollup plugin for styles: PostCSS, Sass, Less, Stylus and more',
+  icon: '',
   version: '4.0.0',
   category: 'plugin',
   tags: [

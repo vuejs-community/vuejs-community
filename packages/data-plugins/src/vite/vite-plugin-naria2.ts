@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-naria2',
   description: 'Vite naria2 integration',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'custom-elements',
   description: 'Publish your Components as a vue-custom-element standalone build.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

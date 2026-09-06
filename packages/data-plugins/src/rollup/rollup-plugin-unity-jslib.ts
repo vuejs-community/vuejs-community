@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-unity-jslib',
   description: 'Rollup plugin for converting javascript library into Unity .jslib. file',
+  icon: '',
   version: '0.2.6',
   category: 'plugin',
   tags: [

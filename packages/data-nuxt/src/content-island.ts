@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'content-island',
   description: 'Content Island - A headless CMS that’s refreshingly simple',
+  icon: '',
   category: 'nuxt',
   types: [
     'CMS',

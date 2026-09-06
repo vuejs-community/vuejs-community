@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-remote-module',
   description: 'Load HTTP remote module in the Vite project',
+  icon: '',
   version: '1.1.4',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-reactive-vue',
   description: 'Reactivity Transform on $-Prefixed Identifiers',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

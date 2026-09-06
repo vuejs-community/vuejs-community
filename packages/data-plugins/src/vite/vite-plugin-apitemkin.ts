@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-apitemkin',
   description: 'Plug-and-play mock API plugin for Vite. The Potemkin village for your API.',
+  icon: '',
   version: '1.2.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-warmup',
   description: 'Warm up Vite\'s transform cache',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

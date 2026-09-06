@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-complex-types',
   description: 'Resolve complex types in Vue SFCs.',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

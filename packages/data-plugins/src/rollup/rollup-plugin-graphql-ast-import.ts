@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-graphql-ast-import',
   description: 'Rollup plugin enabling imports of operations as AST from .graphql files.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

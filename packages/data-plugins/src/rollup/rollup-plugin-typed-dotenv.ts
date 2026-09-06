@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-typed-dotenv',
   description: 'When this plug-in replaces code with environment variables, it converts to an appropriate form according to the plugin settings.',
+  icon: '',
   version: '1.1.3',
   category: 'plugin',
   tags: [

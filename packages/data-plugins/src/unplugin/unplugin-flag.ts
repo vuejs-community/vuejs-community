@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-flag',
   description: 'Simple plugin for feature flag',
+  icon: '',
   version: '0.0.0',
   category: 'plugin',
   tags: [

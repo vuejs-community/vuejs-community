@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-rehost',
   description: 'Self-hosted resources from index.html',
+  icon: '',
   version: '2.1.0',
   category: 'plugin',
   tags: [

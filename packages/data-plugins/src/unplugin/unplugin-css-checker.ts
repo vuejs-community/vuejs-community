@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-css-checker',
   description: 'Check CSS pollution for bundlers',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

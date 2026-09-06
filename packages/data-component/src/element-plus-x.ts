@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'element-plus-x',
   description: '面向 AI Chat 场景的 Vue 3 组件库（对话流、气泡、打字机等）',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['ai', 'chat', 'element-plus'],

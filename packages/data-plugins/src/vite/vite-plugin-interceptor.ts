@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-interceptor',
   description: 'A vite plugin based on service worker to intercept and modify requests in a development environment',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

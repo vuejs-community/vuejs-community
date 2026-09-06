@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-uni-components',
   description: 'uni-helper 出品的 Vite 插件，适用于 uni-app 的组件按需自动引入',
+  icon: '',
   category: 'uniapp',
   types: ['vite-plugin'],
   tags: ['uni-app', 'vue3', 'vite', 'auto-import'],

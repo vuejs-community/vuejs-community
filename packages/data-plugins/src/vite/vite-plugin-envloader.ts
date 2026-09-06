@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-envloader',
   description: 'Inject Vite.js import.meta.env variables into process.env',
+  icon: '',
   version: '0.4.1',
   category: 'plugin',
   tags: [

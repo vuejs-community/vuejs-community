@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-routes-ycj',
   description: 'A Vite plugin to auto-generate route configurations based on directory structure.',
+  icon: '',
   version: '1.0.9',
   category: 'plugin',
   tags: [

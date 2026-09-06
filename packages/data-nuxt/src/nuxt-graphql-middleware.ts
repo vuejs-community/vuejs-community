@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-graphql-middleware',
   description: 'Expose GraphQL queries and mutations as server API routes.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Request',

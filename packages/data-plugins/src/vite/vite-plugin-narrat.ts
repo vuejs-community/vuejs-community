@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-narrat',
   description: 'vite plugin for narrat hot reload',
+  icon: '',
   version: '4.1.17',
   category: 'plugin',
   tags: [

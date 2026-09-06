@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sftp',
   description: 'A Vite plugin which sftp',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

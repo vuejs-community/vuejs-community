@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'embla-carousel',
   description: '轻量、滑动精准的轮播库',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['carousel'],

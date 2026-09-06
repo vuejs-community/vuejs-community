@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-catch-throw',
   description: 'A plugin that throws exception in catch',
+  icon: '',
   version: '2.0.2',
   category: 'plugin',
   tags: [

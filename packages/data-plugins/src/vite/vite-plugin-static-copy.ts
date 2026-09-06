@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-static-copy',
   description: 'rollup-plugin-copy for vite with dev server support.',
+  icon: '',
   version: '4.1.1',
   category: 'plugin',
   tags: [

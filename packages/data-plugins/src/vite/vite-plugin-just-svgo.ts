@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-just-svgo',
   description: 'Simple vite plugin for svg files optimization',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

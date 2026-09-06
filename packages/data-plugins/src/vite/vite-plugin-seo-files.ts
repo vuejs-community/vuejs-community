@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-seo-files',
   description: 'Vite plugin to generate static SEO files like sitemap.xml and robots.txt after build.',
+  icon: '',
   version: '2.1.1',
   category: 'plugin',
   tags: [

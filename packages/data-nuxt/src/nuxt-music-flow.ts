@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-music-flow',
   description: 'Nuxt 3 module for audio player component with playlist and waveform visualization.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

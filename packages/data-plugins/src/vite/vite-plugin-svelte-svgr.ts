@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svelte-svgr',
   description: 'Vite plugin to enable normalized SVG imports.',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

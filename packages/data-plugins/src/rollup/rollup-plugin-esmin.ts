@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-esmin',
   description: 'Rollup plugin to minify ES6+ code using babel-minify with no transpiling to ES5',
+  icon: '',
   version: '0.1.5',
   category: 'plugin',
   tags: [

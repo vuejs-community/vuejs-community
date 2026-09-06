@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'uni-network',
   description: 'uni-helper 出品的 uni-app HTTP 客户端，基于 Promise，API 对标 axios',
+  icon: '',
   category: 'uniapp',
   types: ['data-fetching'],
   tags: ['uni-app', 'vue3', 'request', 'http'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-auth-sanctum',
   description: 'Nuxt module for Laravel Sanctum authentication',
+  icon: '',
   category: 'nuxt',
   types: [
     'Security',

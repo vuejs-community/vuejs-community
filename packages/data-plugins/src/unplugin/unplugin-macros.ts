@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-macros',
   description: 'Macros for bundlers.',
+  icon: '',
   version: '0.23.2',
   category: 'plugin',
   tags: [

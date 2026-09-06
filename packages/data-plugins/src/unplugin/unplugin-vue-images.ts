@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-images',
   description: 'Victor Bo\'s Unplugin Template.',
+  icon: '',
   version: '0.0.7',
   category: 'plugin',
   tags: [

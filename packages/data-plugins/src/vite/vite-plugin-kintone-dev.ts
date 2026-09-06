@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-kintone-dev',
   description: 'vite plugin for developement kintone',
+  icon: '',
   version: '2.0.2',
   category: 'plugin',
   tags: [

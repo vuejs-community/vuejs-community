@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-elm',
   description: 'Import .elm files as ES6 modules.',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

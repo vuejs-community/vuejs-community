@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-shopline',
   description: 'Vite plugin providing integration for Shopline themes',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

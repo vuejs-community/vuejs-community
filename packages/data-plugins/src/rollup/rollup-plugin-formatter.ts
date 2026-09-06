@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-formatter',
   description: 'A code editor and comments formatter plugin of rollup, 一个rollup代码修改和格式化注释的插件',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

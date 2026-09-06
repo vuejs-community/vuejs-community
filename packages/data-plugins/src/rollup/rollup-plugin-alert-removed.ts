@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-alert-removed',
   description: 'Remove the alert from the code',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

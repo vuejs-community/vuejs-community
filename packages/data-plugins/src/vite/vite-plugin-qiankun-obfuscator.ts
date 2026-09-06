@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-qiankun-obfuscator',
   description: 'Vite 插件：在生产构建时混淆业务代码，且不破坏 qiankun 微前端集成。',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

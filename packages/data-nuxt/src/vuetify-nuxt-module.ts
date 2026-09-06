@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vuetify-nuxt-module',
   description: 'Zero-config Nuxt Module for Vuetify.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-banner',
   description: 'A banner plugin for Vite. Adds a banner to the top of each generated chunk.',
+  icon: '',
   version: '0.8.1',
   category: 'plugin',
   tags: [

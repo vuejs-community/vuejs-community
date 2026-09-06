@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-xhtml2shadow',
   description: 'Converts .xhtml files into JavaScript code that produces a shadow root with that HTML.',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

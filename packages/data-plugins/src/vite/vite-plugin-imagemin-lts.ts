@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-imagemin-lts',
   description: 'A vite plugin for compressing image assets',
+  icon: '',
   version: '0.6.3',
   category: 'plugin',
   tags: [

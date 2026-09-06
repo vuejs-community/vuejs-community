@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-pomodoro',
   description: 'A vite plugin, brings pomodoro to your development flow',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

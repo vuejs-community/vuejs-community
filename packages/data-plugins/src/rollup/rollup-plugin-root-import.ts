@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-root-import',
   description: 'Add the ability to import modules by the root path, like Meteor',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

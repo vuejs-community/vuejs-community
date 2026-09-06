@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-build-info',
   description: 'Generate version.txt containing build info when build finished',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

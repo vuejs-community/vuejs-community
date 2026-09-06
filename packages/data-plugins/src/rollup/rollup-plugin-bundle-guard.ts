@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-bundle-guard',
   description: 'A rollup plugin that makes sure you don\'t accidentally import something statically, which could have an effect on your bundle size.',
+  icon: '',
   version: '2.2.1',
   category: 'plugin',
   tags: [

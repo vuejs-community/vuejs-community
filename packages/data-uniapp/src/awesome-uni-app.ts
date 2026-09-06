@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'awesome-uni-app',
   description: 'uni-helper 维护的 uni-app 优秀学习资源与生态库汇总',
+  icon: '',
   category: 'uniapp',
   types: ['utility-library'],
   tags: ['uni-app', 'awesome', 'resources'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-layoutaid',
   description: 'Vite plugin that adds visual layout aid for integrating web pages',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

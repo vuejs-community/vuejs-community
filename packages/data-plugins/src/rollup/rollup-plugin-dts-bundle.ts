@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-dts-bundle',
   description: 'Rollup plugin for bundling .d.ts files',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

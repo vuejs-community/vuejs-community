@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-secure-now',
   description: 'A Vite plugin to get instant https for your development server',
+  icon: '',
   version: '0.0.8',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'recaptcha',
   description: 'Simple and easy Google reCAPTCHA module with Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Security',

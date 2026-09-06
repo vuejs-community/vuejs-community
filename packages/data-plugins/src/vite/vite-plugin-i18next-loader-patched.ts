@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18next-loader-patched',
   description: 'Vite plugin loader for client embedded i18next locales composited from one to many json or yaml files.',
+  icon: '',
   version: '2.0.4',
   category: 'plugin',
   tags: [

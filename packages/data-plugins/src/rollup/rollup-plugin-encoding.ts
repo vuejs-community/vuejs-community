@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-encoding',
   description: 'Convert file encoding, build on top of encoding package',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

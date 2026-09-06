@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-circular-dependencies',
   description: 'Detect circular dependencies in Rollup projects',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

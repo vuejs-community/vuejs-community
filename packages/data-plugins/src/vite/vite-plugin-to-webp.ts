@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-to-webp',
   description: 'Vite plugin that converts images in your public directory to WebP during development',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

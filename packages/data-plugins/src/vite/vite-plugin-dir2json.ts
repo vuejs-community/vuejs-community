@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dir2json',
   description: 'Convert the directory structure into json data containing specific file paths',
+  icon: '',
   version: '1.3.0',
   category: 'plugin',
   tags: [

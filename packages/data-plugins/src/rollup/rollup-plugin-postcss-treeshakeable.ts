@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-postcss-treeshakeable',
   description: 'Enables treeshaking of modular CSS produced by PostCSS',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

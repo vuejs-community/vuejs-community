@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-node-resolve-and-alias',
   description: 'Fork of rollup-plugin-node-resolve with aliases',
+  icon: '',
   version: '3.0.0',
   category: 'plugin',
   tags: [

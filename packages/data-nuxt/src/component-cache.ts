@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'component-cache',
   description: 'LRU component cache for vue components',
+  icon: '',
   category: 'nuxt',
   types: [
     'Performance',

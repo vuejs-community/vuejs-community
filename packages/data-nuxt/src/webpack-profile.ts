@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'webpack-profile',
   description: 'Nuxt module to display webpack build progress steps with core ProgressPlugin',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

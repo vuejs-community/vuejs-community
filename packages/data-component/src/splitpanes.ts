@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'splitpanes',
   description: '分屏面板分割器，支持触屏，Vue 2/3 通用',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['layout'],

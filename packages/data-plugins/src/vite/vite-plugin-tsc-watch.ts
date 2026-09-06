@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tsc-watch',
   description: 'Plugs tsc --watch into Vite dev server',
+  icon: '',
   version: '3.1.2',
   category: 'plugin',
   tags: [

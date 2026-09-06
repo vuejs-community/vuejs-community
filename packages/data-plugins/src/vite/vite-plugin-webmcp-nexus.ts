@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-webmcp-nexus',
   description: 'Vite plugin for WebMCP Nexus - auto-generates JSON Schema from TypeScript tool definitions at build time',
+  icon: '',
   version: '0.1.14',
   category: 'plugin',
   tags: [

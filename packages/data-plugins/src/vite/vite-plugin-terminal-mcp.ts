@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-terminal-mcp',
   description: 'Log in the node terminal from the browser with MCP server integration',
+  icon: '',
   version: '1.4.2',
   category: 'plugin',
   tags: [

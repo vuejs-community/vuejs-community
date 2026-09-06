@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-smart-asset',
   description: 'Rollup plugin to rebase, inline or copy assets referenced from the code',
+  icon: '',
   version: '2.1.2',
   category: 'plugin',
   tags: [

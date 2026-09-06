@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-bundle-worker',
   description: 'Bundles Worker code alongside your main code',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

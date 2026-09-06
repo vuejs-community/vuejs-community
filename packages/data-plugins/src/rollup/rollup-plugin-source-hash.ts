@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-source-hash',
   description: 'A rollup.js plugin that inserts hash values based on pre-bundled source code into filenames and bundled code.',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

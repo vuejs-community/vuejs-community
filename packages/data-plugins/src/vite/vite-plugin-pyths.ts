@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-pyths',
   description: 'Vite plugin for PythScribe — compile .ps and .psc files to JavaScript with Fast Refresh',
+  icon: '',
   version: '0.2.4',
   category: 'plugin',
   tags: [

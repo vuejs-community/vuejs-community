@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lucide-sprite',
   description: 'Vite plugin that generates a Lucide SVG sprite from icon ids exported in a Svelte component',
+  icon: '',
   version: '1.0.7',
   category: 'plugin',
   tags: [

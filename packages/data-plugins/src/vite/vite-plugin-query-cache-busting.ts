@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-query-cache-busting',
   description: 'Vite plugin that busts caches with a query parameter instead of a filename hash.',
+  icon: '',
   version: '0.4.0',
   category: 'plugin',
   tags: [

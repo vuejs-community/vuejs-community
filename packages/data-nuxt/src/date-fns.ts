@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'date-fns',
   description: 'Modern JavaScript date utility library - date-fns for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Date',

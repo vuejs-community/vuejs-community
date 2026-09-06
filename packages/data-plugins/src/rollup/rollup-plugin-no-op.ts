@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-no-op',
   description: 'Replace imported module with \'export default {}\' using module IDs. Useful when using \'external\' is not enough.',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-vue3-google-signin',
   description: 'Empower your Nuxt app with Google Sign-In, hassle-free',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

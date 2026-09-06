@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-dist-zip',
   description: 'Automatically create a ZIP file after build',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

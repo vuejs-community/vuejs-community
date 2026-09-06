@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-json5',
   description: 'Plugin for allowing .json5 and .jsonc files to be loaded.',
+  icon: '',
   version: '1.4.4',
   category: 'plugin',
   tags: [

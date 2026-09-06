@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-userscript-css',
   description: 'import css file for userscirpt',
+  icon: '',
   version: '1.2.0',
   category: 'plugin',
   tags: [

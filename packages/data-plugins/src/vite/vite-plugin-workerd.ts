@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-workerd',
   description: 'A Vite plugin for authoring and building workerd config',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tailwind-compat',
   description: 'A Vite plugin that brings Tailwind CSS 4 compatibility to older browsers.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

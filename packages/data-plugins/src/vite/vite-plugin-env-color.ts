@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-env-color',
   description: 'Create a color file with your environment variables in Vite Js',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-common-path-resolver',
   description: '[English](README.md) | [中文](README_CN.md)',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

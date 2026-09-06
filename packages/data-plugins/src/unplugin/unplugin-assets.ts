@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-assets',
   description: '<img src="https://raw.githubusercontent.com/zyyv/unplugin-assets/main/packages/client/public/logo.svg" style="width:100px;" />',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-visualizer2',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-visualizer2?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-visualizer2)',
+  icon: '',
   version: '0.3.2',
   category: 'plugin',
   tags: [

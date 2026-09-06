@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-roo-import',
   description: 'Vite plugin for @roo/roo',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

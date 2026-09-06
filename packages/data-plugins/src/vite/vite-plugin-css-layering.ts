@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-css-layering',
   description: 'Wrap CSS in cascade layers for Vite.',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

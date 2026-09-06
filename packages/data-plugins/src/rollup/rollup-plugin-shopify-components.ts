@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-shopify-components',
   description: 'Rollup plugin for building Shopify theme components with automatic SCSS compilation and schema generation',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

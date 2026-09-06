@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-auto-add',
   description: 'add content automatically during rollup packaging',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

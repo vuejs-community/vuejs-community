@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-patel',
   description: 'Integration between Rollup and PatEL.',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

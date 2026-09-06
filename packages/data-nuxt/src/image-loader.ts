@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'image-loader',
   description: 'An image loader module for nuxt.js that allows you to configure image style derivatives.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Images',

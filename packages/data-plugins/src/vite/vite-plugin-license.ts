@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-license',
   description: 'Vite plugin to add license banner to bundled output. Tiny wrapper for rollup-plugin-license.',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

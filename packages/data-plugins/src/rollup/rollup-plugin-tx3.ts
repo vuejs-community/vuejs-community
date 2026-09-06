@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-tx3',
   description: 'A rollup plugin to generate bindings for Tx3 files',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

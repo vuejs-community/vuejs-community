@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-image-file',
   description: 'fork form rollup-plugin-image-files, and add some features',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

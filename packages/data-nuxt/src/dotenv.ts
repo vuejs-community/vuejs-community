@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'dotenv',
   description: 'A Nuxt module that loads your .env file into your context options',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

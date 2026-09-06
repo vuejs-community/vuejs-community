@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-word2vue',
   description: '安装：',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-intunnel',
   description: 'A Vite plugin that securely exposes local development servers to the internet using Ngrok.',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

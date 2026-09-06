@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'maz-ui',
   description: 'A modern Vue.js UI library with auto-import components, plugins, and composables designed for seamless Nuxt integration and enhanced developer experience.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

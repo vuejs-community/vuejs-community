@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-line-ending',
   description: 'Vite plugin to convert line endings based on the platform (CRLF for Windows, LF for others)',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

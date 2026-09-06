@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-iconify-offline',
   description: 'Vite 插件：构建时自动扫描 Iconify 图标引用并预注册，实现零运行时开销的离线图标方案',
+  icon: '',
   version: '0.4.3',
   category: 'plugin',
   tags: [

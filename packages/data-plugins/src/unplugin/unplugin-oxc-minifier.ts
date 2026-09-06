@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-oxc-minifier',
   description: 'Unofficial unplugin for oxc-minifier package of oxidation compiler tools',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

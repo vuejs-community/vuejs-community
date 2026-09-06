@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'mojocss',
   description: 'The Atomic CSS Framework for crafting gorgeous UIs without shipping any CSS.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

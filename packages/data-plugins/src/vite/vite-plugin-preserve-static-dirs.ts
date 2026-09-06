@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-preserve-static-dirs',
   description: '一个 Vite 插件,用于保留静态目录',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

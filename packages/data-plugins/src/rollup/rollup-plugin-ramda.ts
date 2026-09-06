@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-ramda',
   description: 'Removes unused ramda dependencies',
+  icon: '',
   version: '1.0.5',
   category: 'plugin',
   tags: [

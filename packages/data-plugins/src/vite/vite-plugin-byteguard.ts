@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-byteguard',
   description: 'Vite plugin that encodes JS bundles into binary format for casual source code protection',
+  icon: '',
   version: '0.4.1',
   category: 'plugin',
   tags: [

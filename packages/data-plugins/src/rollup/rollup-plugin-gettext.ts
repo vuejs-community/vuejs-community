@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-gettext',
   description: 'Rollup loader for PO and MO files via gettext-parser',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

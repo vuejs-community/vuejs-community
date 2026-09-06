@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-shadowcss',
   description: 'Write CSS to the specified shadow dom',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

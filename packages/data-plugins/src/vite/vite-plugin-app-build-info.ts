@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-app-build-info',
   description: 'Inject app build metadata into Vite bundles, HTML, and version.json.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

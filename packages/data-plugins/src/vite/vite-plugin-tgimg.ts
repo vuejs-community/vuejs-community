@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tgimg',
   description: 'Vite integration for tgimg image pipeline',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

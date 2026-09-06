@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-melange',
   description: 'Vite plugin for Melange',
+  icon: '',
   version: '3.11.0',
   category: 'plugin',
   tags: [

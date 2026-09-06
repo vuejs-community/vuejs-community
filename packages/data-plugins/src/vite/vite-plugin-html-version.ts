@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-version',
   description: '解决浏览器缓存问题。给html文件添加版本号，并生成version.txt文件。',
+  icon: '',
   version: '0.0.7',
   category: 'plugin',
   tags: [

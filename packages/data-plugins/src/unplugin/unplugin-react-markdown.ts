@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-react-markdown',
   description: 'Compile Markdown to React component',
+  icon: '',
   version: '0.1.9',
   category: 'plugin',
   tags: [

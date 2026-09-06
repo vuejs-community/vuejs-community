@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-iconify-bundle',
   description: 'On-demand bundle Iconify icons to the client.',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

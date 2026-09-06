@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-qiankunjs',
   description: 'npm i vite-plugin-qiankunjs',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

@@ -2,6 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'unplugin-aplus-ui',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

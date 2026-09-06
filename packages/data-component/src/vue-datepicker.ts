@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-datepicker',
   description: 'Vue 3 日期 / 范围选择器',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['datepicker'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-basic-css-selector',
   description: 'Add a basic selector to each CSS selector by Vite plugin.',
+  icon: '',
   version: '0.1.8',
   category: 'plugin',
   tags: [

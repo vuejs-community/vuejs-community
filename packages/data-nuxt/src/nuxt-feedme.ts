@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-feedme',
   description: 'The RSS feed module for Nuxt web framework with ATOM, JSON and RSS support',
+  icon: '',
   category: 'nuxt',
   types: [
     'SEO',

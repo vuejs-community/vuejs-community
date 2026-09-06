@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tspaths',
   description: 'Vite plugin to allow use of tsconfig paths',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

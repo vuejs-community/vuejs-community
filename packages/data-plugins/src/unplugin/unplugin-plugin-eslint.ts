@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-plugin-eslint',
   description: 'A universal bundler plugin for integrating the Eslint linter into your project.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

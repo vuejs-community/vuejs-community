@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-openapi-generator',
   description: 'A Vite plugin to generate TypeScript clients and DTOs from OpenAPI YAML files.',
+  icon: '',
   version: '0.0.10',
   category: 'plugin',
   tags: [

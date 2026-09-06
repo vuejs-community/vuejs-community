@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-babel',
   description: 'Runs Babel in Vite during all commands',
+  icon: '',
   version: '1.7.3',
   category: 'plugin',
   tags: [

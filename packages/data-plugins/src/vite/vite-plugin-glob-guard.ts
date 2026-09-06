@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-glob-guard',
   description: 'Opt-in guardrails for import.meta.glob() required globs',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

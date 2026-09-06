@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-serve-ipc',
   description: 'Serve Vite\'s development or preview server over IPC.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

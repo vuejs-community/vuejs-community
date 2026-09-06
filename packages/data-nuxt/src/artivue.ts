@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'artivue',
   description: 'A dynamic & layered theming engine for Vue applications. Pick a color and transform your entire application!',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sitemap-ts',
   description: 'Vite plugin to generate sitemap.xml. Works in dev mode.',
+  icon: '',
   version: '1.4.8',
   category: 'plugin',
   tags: [

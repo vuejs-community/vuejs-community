@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-hypothetical-windows-fix',
   description: 'gives Rollup an imaginary file system, e.g. for testing other plugins',
+  icon: '',
   version: '2.1.1',
   category: 'plugin',
   tags: [

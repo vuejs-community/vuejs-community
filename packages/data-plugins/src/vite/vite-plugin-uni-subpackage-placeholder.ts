@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-uni-subpackage-placeholder',
   description: 'Vite plugin for uni-app mini programs: auto-inject componentPlaceholder for cross-subpackage custom components. Built-in mp platform detection.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

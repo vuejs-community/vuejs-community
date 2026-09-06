@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-upload-cdn',
   description: 'Plugin for uploading resource files to cdn,  Powered by on unplugin',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

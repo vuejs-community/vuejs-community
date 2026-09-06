@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-coffee2',
   description: 'A Rollup.js plugin to compile CoffeeScript 2 (and 1)',
+  icon: '',
   version: '0.1.16',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-eft',
   description: 'eft loader for rollup',
+  icon: '',
   version: '0.17.0',
   category: 'plugin',
   tags: [

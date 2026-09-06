@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-block',
   description: 'Ensure certain files don\'t become part of the build.',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

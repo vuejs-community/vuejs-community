@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-hook-use',
   description: 'Displays the sequence and frequency of vite calling its hook functions.',
+  icon: '',
   version: '8.0.1',
   category: 'plugin',
   tags: [

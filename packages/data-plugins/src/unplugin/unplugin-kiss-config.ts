@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-kiss-config',
   description: '🍙 自动生成figma,masterGo,jsDesign多个平台manifest.json的打包插件',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

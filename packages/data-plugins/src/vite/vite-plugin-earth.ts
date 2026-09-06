@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-earth',
   description: 'Cesium & Mars3D library plugin for Vite',
+  icon: '',
   version: '2.6.1',
   category: 'plugin',
   tags: [

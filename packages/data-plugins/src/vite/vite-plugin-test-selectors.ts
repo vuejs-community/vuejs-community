@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-test-selectors',
   description: 'Vite plugin for stripping test selectors in production builds',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

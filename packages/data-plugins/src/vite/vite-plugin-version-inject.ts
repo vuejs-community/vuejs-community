@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-version-inject',
   description: 'A Vite plugin to inject version info into index.html',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

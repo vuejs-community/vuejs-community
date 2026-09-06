@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-semi-theme',
   description: '- [theme options docs](https://github.com/DouyinFE/semi-design/tree/main/packages/semi-webpack#api)',
+  icon: '',
   version: '0.6.0',
   category: 'plugin',
   tags: [

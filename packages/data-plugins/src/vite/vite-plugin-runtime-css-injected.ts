@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-runtime-css-injected',
   description: 'Vite build plugins: runtime CSS injection & legacy import.meta.url shim (Rolldown)',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'soybean-admin-element-plus',
   description: 'Soybean Admin 的 Element Plus 版本，rolldown-vite 构建',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

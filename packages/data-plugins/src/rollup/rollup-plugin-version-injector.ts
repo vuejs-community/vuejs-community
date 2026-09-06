@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-version-injector',
   description: 'A simple rollup.js plugin to inject your application\'s version number and/or today\'s date into your built js, html, and css files!',
+  icon: '',
   version: '1.3.3',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-create-test-package-json',
   description: 'Creates a package.json for testing the pack file of your package, adds in required dependencies.',
+  icon: '',
   version: '1.1.2',
   category: 'plugin',
   tags: [

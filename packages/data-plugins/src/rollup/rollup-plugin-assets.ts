@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-assets',
   description: 'build assets',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

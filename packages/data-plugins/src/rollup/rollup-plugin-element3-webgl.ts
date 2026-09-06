@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-element3-webgl',
   description: 'rollup plugin for parsing webgl',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

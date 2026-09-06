@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-tjs',
   description: 'tabscript plugin for rollup',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

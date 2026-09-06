@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-compress',
   description: 'Compress your bundle + assets from Vite',
+  icon: '',
   version: '2.1.1',
   category: 'plugin',
   tags: [

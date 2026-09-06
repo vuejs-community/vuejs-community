@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-twiggle',
   description: 'Rollup plugin for Twiggle JSX transformation',
+  icon: '',
   version: '1.6.9',
   category: 'plugin',
   tags: [

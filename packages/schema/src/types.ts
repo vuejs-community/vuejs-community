@@ -94,6 +94,9 @@ export interface CommunityProject {
   name: string
   description: string
 
+  /** 本地图标名（app/assets/icon 下的 svg，去掉 .svg 后缀），无图标时为空字符串 */
+  icon: string
+
   category: ProjectCategory
 
   types: string[]

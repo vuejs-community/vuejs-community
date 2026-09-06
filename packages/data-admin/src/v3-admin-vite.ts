@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'v3-admin-vite',
   description: 'AI-friendly 的 Vue3 + Element Plus 后台模板，文档与教程完善',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

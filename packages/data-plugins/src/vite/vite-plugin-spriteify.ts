@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-spriteify',
   description: 'Vite plugin that integrated sly with vite',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

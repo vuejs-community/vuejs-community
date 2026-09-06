@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-enhanced-resolve',
   description: 'Resolve modules using webpack\'s [enhanced-resolve](https://github.com/webpack/enhanced-resolve).',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

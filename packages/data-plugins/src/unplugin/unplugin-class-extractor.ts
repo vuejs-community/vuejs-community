@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-class-extractor',
   description: 'A powerful unplugin for extracting class and className attributes from specified file types, generating a new string for Tailwind CSS style extraction.',
+  icon: '',
   version: '0.0.22',
   category: 'plugin',
   tags: [

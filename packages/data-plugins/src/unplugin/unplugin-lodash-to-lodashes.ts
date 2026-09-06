@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-lodash-to-lodashes',
   description: 'Replace lodash with lodash-es for Vite and Webpack',
+  icon: '',
   version: '0.2.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-polyfill',
   description: 'plugin to prepends bundles with a source file or module',
+  icon: '',
   version: '4.2.0',
   category: 'plugin',
   tags: [

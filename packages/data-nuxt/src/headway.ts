@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'headway',
   description: 'Headway changelog widget for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

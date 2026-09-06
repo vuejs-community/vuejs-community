@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-levelojs',
   description: 'The official Vite plugin for Levelo JS framework',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

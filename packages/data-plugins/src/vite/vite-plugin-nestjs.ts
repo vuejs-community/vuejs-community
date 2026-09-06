@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-nestjs',
   description: 'Vite plugin to run NestJS with native ESM, Vite plugin ecosystem support, and automatic @nestjs/swagger metadata generation',
+  icon: '',
   version: '0.3.1',
   category: 'plugin',
   tags: [

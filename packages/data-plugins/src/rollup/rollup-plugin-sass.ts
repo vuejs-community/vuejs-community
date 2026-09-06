@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-sass',
   description: 'Rollup Sass files.',
+  icon: '',
   version: '1.16.0-rc.1',
   category: 'plugin',
   tags: [

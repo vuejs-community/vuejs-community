@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-webfont-dl',
   description: 'Vite plugin for downloading and injecting webfonts',
+  icon: '',
   version: '3.13.1',
   category: 'plugin',
   tags: [

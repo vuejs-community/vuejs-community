@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-asset-transform-cdn',
   description: '> vite 插件，支持构建时将资源替换成 cdn 地址',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

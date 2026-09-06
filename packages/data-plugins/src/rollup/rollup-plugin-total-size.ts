@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-total-size',
   description: '统计rollup 打包文件的 总计、原始尺寸、gzipped 体积',
+  icon: '',
   version: '1.1.2',
   category: 'plugin',
   tags: [

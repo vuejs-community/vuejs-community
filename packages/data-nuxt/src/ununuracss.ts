@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'ununuracss',
   description: 'A Real CSS Engine. Only Scoped.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

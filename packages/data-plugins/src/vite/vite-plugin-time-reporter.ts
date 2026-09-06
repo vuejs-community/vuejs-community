@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-time-reporter',
   description: 'Time reporting for Vite project',
+  icon: '',
   version: '2.3.0',
   category: 'plugin',
   tags: [

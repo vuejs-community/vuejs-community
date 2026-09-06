@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-openapi-docs-module',
   description: 'Generate pages from OpenAPI specifications',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

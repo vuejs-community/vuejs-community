@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-plugin-userscript',
   description: 'Unplugin plugins for userscript engines',
+  icon: '',
   version: '0.3.1',
   category: 'plugin',
   tags: [

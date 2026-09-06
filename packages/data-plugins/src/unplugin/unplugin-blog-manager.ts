@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-blog-manager',
   description: 'A plugin to help you manage and organize your blog.',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

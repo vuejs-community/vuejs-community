@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-generate-html',
   description: 'A Vite plugin to generate separate output files for JavaScript and CSS bundles with customizable attributes.',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

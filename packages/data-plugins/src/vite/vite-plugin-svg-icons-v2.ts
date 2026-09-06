@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-icons-v2',
   description: '修改svg-baker为svg-baker-v2, svgo升级到3.0.0',
+  icon: '',
   version: '2.0.1-beta01',
   category: 'plugin',
   tags: [

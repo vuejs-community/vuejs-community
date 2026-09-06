@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-biome',
   description: 'Run Biome in the Vite dev loop for fast linting, formatting, and checks.',
+  icon: '',
   version: '1.2.0',
   category: 'plugin',
   tags: [

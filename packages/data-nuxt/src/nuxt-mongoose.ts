@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-mongoose',
   description: 'A Nuxt module for simplifying the use of Mongoose in your project.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Database',

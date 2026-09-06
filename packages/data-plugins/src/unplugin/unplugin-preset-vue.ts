@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-preset-vue',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-preset-vue?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-preset-vue)',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cross-origin-storage',
   description: 'Vite plugin to extract shared dependencies into content-addressed chunks loaded from Cross-Origin Storage',
+  icon: '',
   version: '2.0.3',
   category: 'plugin',
   tags: [

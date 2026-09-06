@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ubox',
   description: 'A Vite plugin that automatically generates an image list file from image resources',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

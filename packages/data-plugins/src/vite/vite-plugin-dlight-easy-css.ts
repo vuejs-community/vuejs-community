@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dlight-easy-css',
   description: 'DLight transpiler for babel',
+  icon: '',
   version: '0.9.27',
   category: 'plugin',
   tags: [

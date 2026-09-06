@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-img-compress',
   description: '🔥 Image compression plugin based on tinypng',
+  icon: '',
   version: '1.4.2',
   category: 'plugin',
   tags: [

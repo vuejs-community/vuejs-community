@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-fontawesome',
   description: 'Module to use Font Awesome 6 icons in your Nuxt project',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

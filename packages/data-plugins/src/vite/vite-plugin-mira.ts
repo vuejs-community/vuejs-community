@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mira',
   description: 'A custom Vite plugin for SSR + Islands architecture',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-hmr-public-copy',
   description: 'Vite public to keep publicDir files synced during HMR',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

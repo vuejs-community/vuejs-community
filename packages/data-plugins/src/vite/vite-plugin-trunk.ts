@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-trunk',
   description: 'Seamlessly embedding WASM components in a Vite project via Trunk.',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

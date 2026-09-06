@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18n-tc2sc',
   description: 'A module used auto generate simplified chinese (sc) from traditional chinese (tc) in vue-i18n',
+  icon: '',
   version: '2.1.4',
   category: 'plugin',
   tags: [

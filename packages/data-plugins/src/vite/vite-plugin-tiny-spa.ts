@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tiny-spa',
   description: 'Vite plugin for shipping tiny single-file SPAs with CDN-hosted ESM dependencies.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

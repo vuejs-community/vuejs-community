@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-dx',
   description: 'Improves dx by using various vite plugins out of the box',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

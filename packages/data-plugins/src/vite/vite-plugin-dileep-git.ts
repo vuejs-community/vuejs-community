@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dileep-git',
   description: 'Create a Git commit through Vite dev server',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

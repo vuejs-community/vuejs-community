@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-smart-assets',
   description: 'A Vite plugin that provides smart and enhanced control over asset management, copying, and cleanup',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-json-output',
   description: 'Convert modules to JSON by serializing their default exports',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

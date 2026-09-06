@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-dbg',
   description: '```js\r import { defineConfig } from "rollup";\r import config from "./package.json";\r import PluginDbg from "rollup-plugin-dbg";',
+  icon: '',
   version: '1.3.1',
   category: 'plugin',
   tags: [

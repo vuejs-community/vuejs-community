@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-graph',
   description: 'Generate module dependencies graph, using the DOT language',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

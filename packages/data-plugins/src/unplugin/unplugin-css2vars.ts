@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-css2vars',
   description: 'Register global imports on demand for Vite and Webpack',
+  icon: '',
   version: '0.1.8',
   category: 'plugin',
   tags: [

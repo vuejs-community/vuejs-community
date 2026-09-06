@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-dependency-flow',
   description: 'Visualize rollup module dependency flow',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

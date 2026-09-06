@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svgo',
   description: 'Vite plugin to import and compress svg files with SVGO',
+  icon: '',
   version: '3.0.1',
   category: 'plugin',
   tags: [

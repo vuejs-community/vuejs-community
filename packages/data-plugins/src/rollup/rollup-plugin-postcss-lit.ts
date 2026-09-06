@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-postcss-lit',
   description: 'Rollup plugin to load PostCSSed stylesheets in LitElement components',
+  icon: '',
   version: '2.2.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-polyfill-service',
   description: 'Rollup plugin that analyse built javascript files and generate a polyfill.io URL based on all features that are being used',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

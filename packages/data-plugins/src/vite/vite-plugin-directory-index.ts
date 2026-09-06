@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-directory-index',
   description: '📂 Directory index plugin for the Vite dev server',
+  icon: '',
   version: '3.0.1',
   category: 'plugin',
   tags: [

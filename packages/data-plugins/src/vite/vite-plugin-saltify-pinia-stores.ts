@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-saltify-pinia-stores',
   description: 'Saltify pinia-store\'s ids',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

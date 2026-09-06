@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-element-plus-icons-svg-replace',
   description: 'Replace Element Plus Icons SVG with custom SVG',
+  icon: '',
   version: '1.3.0',
   category: 'plugin',
   tags: [

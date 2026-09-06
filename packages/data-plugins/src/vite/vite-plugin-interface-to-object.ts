@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-interface-to-object',
   description: 'Vite plugin for generating interface guards during Vite builds',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

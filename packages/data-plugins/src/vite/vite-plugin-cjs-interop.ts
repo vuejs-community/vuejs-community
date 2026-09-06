@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cjs-interop',
   description: 'Vite plugin to unwrap default imports from CJS dependencies during SSR',
+  icon: '',
   version: '4.0.3',
   category: 'plugin',
   tags: [

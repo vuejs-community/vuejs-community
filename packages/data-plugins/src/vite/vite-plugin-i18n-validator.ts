@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18n-validator',
   description: 'A Vite plugin validates Json files with internationalization support in worker thread.',
+  icon: '',
   version: '0.3.26',
   category: 'plugin',
   tags: [

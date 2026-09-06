@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-userscript-header',
   description: 'Rollup plugin for generating userscript headers',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

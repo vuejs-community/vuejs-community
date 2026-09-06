@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-consoles',
   description: '一个vite插件 用来扩展你的console.log',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-sprite',
   description: 'Create a sprite sheet based on spritesmith for Rollup',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

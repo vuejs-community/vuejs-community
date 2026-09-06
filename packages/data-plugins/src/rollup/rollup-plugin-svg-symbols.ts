@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-svg-symbols',
   description: 'Transform imported SVG files into reusable SVG symbols',
+  icon: '',
   version: '0.0.23',
   category: 'plugin',
   tags: [

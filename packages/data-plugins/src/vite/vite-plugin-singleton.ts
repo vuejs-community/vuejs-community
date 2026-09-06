@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-singleton',
   description: '同一项目下 dev 与 preview 各只允许一个实例，重复启动的会退出',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

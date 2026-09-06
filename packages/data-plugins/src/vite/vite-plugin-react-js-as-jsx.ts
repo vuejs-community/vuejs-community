@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-js-as-jsx',
   description: 'vite plugin support for react with .js file',
+  icon: '',
   version: '1.2.1',
   category: 'plugin',
   tags: [

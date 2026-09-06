@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-shared-modules',
   description: 'Alias node_modules to specific one',
+  icon: '',
   version: '0.2.2',
   category: 'plugin',
   tags: [

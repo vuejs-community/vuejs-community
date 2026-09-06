@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mithril-jsx',
   description: 'Vite plugin that configures JSX for Mithril.js — works with all Vite versions (esbuild ≤ 5, rolldown/OXC 7+).',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

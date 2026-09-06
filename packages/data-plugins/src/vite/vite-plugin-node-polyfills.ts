@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-node-polyfills',
   description: 'A Vite plugin to polyfill Node\'s Core Modules for browser environments.',
+  icon: '',
   version: '0.28.0',
   category: 'plugin',
   tags: [

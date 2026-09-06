@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-webfont',
   description: 'Build webfonts, iconfonts, and SVG component libraries from font and SVG sources.',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

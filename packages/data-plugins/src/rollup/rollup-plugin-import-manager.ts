@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-import-manager',
   description: 'A rollup plugin to add, modify, and remove imports (cjs/es6/dynamic)',
+  icon: '',
   version: '0.6.4',
   category: 'plugin',
   tags: [

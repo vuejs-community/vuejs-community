@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-proxy-dynamic-import',
   description: 'Bundle static imported bindings from modules which will be dynamically imported somewhere, and treeshake those static imported bindings from the dynamic imported modules',
+  icon: '',
   version: '0.1.9',
   category: 'plugin',
   tags: [

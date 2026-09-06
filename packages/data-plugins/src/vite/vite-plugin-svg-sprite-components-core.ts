@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-sprite-components-core',
   description: 'Create svg sprite sheets from imported svg files and get usable components for many popular frontend frameworks.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

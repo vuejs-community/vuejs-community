@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ol-external',
   description: 'external openlayers plugin for vite',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

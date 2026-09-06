@@ -120,6 +120,7 @@ function createProjectData(data: NpmSearchObject, type: PluginDefinition['type']
   return {
     name: packageData.name,
     description: packageData.description,
+    icon: '',
     version: packageData.version,
     category: 'plugin',
     tags: packageData.keywords,

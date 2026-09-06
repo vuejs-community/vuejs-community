@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-import-contents',
   description: 'A Rollup plugin to import content as strings like CSS, LESS and Fonts',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

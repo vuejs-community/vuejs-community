@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tailwind-autoreference',
   description: 'Automatically `@reference` your Tailwind CSS file in Svelte, Vue & other SFC files.',
+  icon: '',
   version: '0.2.4',
   category: 'plugin',
   tags: [

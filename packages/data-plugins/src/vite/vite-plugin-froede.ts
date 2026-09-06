@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-froede',
   description: 'Vite plugin that annotates JSX elements with their source location during dev, so the froede extension can map clicks back to real code.',
+  icon: '',
   version: '0.5.1',
   category: 'plugin',
   tags: [

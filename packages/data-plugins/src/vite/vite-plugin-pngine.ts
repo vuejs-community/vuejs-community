@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-pngine',
   description: 'Vite plugin for bundling PNGine apps into single HTML files',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tangent',
   description: 'Vite plugin for Tangent - Visual Tuner for AI-generated code',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

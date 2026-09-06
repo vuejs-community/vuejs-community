@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-quill',
   description: 'Quill 的 Vue 3 富文本组件',
+  icon: '',
   category: 'component',
   types: ['editor'],
   tags: ['rich-text'],

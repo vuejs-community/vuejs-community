@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-input-alias',
   description: 'rollup path aliases plugin',
+  icon: '',
   version: '1.0.8',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-minimize',
   description: 'A Rollup plugin to bundle with a minimize with checksum with md5 digest',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

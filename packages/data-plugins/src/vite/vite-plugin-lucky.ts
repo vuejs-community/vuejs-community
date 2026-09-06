@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lucky',
   description: 'A plugin to make Vite play nice with Lucky Framework',
+  icon: '',
   version: '0.6.0',
   category: 'plugin',
   tags: [

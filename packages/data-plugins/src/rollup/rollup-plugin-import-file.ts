@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-import-file',
   description: 'A rollup plugin that allows you to import any file type in your project',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

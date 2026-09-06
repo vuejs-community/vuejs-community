@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'onyx',
   description: 'A design system and Vue.js component library created by Schwarz Digits',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

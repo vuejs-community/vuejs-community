@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-optimize-arguments',
   description: 'Rollup plugin to avoid leaking `arguments` object',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

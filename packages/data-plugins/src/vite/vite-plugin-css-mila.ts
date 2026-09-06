@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-css-mila',
   description: 'Vite plugin to minify CSS',
+  icon: '',
   version: '2.1.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-console',
   description: 'A cross-bundler plugin that forwards browser console.log / info / warn / error to your dev-server terminal in real time.',
+  icon: '',
   version: '0.0.10',
   category: 'plugin',
   tags: [

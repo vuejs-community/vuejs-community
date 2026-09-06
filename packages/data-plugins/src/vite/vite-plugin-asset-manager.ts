@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-asset-manager',
   description: 'Visual asset management for Vite',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

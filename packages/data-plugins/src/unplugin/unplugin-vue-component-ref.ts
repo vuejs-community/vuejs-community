@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-component-ref',
   description: '用于获取setup组件ref全部导出',
+  icon: '',
   version: '1.0.9',
   category: 'plugin',
   tags: [

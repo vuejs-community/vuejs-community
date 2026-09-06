@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-echarts',
   description: 'Apache ECharts 官方生态的 Vue 组件封装',
+  icon: '',
   category: 'component',
   types: ['visualization'],
   tags: ['echarts', 'chart'],

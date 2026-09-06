@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ai-mock',
   description: 'A Vite plugin for AI streaming mock (SSE/JSON) with configurable scenarios.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'security',
   description: 'Security Module for Nuxt based on OWASP Top 10 and Helmet',
+  icon: '',
   category: 'nuxt',
   types: [
     'Security',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'ui',
   description: 'The Intuitive UI Library powered by Reka UI and Tailwind CSS.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

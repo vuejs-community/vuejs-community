@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-auto-entry',
   description: 'Allows creating grouped bundles',
+  icon: '',
   version: '2.0.2',
   category: 'plugin',
   tags: [

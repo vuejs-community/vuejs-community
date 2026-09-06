@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'radash',
   description: 'radash module with auto-import and custom prefix',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

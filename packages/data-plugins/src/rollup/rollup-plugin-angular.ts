@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-angular',
   description: 'Angular2 template and styles inliner',
+  icon: '',
   version: '0.5.3',
   category: 'plugin',
   tags: [

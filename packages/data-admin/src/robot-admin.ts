@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'robot-admin',
   description: 'Bun + Vite 双引擎的现代化 Naive UI 中后台模板',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

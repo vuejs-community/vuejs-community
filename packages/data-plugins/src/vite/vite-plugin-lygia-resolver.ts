@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lygia-resolver',
   description: 'Convenient way to import GLSL shaders from Lygia library at build time',
+  icon: '',
   version: '1.4.2',
   category: 'plugin',
   tags: [

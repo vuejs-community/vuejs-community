@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'floating-prompt-module',
   description: 'Invite your users to support you on product hunt with this floating prompt Nuxt module',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

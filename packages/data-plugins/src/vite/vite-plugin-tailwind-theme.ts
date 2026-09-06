@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tailwind-theme',
   description: 'A vite plugin that creates virtual files for your custom tailwind configuration.',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mkcert',
   description: 'Provide certificates for vite\'s https dev service',
+  icon: '',
   version: '2.1.0',
   category: 'plugin',
   tags: [

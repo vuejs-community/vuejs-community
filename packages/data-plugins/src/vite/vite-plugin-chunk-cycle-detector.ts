@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-chunk-cycle-detector',
   description: 'Vite 插件，用于检测 chunk 之间的循环依赖并输出详细依赖路径',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

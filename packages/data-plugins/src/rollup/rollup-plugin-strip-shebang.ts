@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-strip-shebang',
   description: 'A Rollup.js plugin to remove and optionally extract shebang.',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

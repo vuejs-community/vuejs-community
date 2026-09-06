@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-nodemon',
   description: 'Run a backend server in a Vite project via Nodemon',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

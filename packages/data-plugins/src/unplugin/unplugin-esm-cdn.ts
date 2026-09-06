@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-esm-cdn',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-esm-cdn?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-esm-cdn)',
+  icon: '',
   version: '0.1.4',
   category: 'plugin',
   tags: [

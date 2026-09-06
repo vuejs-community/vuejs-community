@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-linter',
   description: 'Plugin for linting files with Vite',
+  icon: '',
   version: '4.0.0',
   category: 'plugin',
   tags: [

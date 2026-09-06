@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'stylelint',
   description: 'Stylelint module for Nuxt. A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.',
+  icon: '',
   category: 'nuxt',
   types: [
     'CSS',

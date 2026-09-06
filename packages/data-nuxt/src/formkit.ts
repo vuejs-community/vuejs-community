@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'formkit',
   description: 'Seamless FormKit integration for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

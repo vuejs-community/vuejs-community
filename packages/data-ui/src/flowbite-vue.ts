@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'flowbite-vue',
   description: 'Flowbite 官方 Vue 3 组件库，基于 Tailwind CSS',
+  icon: '',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui', 'tailwindcss'],

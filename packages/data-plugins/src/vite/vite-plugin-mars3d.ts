@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mars3d',
   description: 'Mars3D 在 Vite 平台的插件',
+  icon: '',
   version: '4.2.2',
   category: 'plugin',
   tags: [

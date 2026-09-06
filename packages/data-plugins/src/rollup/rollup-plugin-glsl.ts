@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-glsl',
   description: 'Converts GLSL shader source files to modules',
+  icon: '',
   version: '1.3.0',
   category: 'plugin',
   tags: [

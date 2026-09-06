@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'pglite',
   description: 'A Nuxt module aimed to simplify the use of PGlite.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Database',

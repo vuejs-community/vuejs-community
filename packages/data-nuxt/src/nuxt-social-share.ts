@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-social-share',
   description: 'Simple social sharing for your Nuxt Sites',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

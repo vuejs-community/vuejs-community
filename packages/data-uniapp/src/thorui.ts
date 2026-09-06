@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'thorui',
   description: 'ThorUI 轻量级小程序 / uni-app 组件库（更新较少）',
+  icon: '',
   category: 'uniapp',
   types: ['mobile-ui', 'component-collection'],
   tags: ['uni-app', 'ui', 'mobile', 'miniprogram'],

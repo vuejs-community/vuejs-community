@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-fntags',
   description: 'Vite plugin for fntags HMR — preserves state across hot module reloads',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

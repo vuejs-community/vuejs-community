@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'cloudcms',
   description: 'CloudCMS Nuxt Module',
+  icon: '',
   category: 'nuxt',
   types: [
     'CMS',

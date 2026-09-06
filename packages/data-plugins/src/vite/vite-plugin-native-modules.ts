@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-native-modules',
   description: 'A Vite plugin for integrating Node.js native modules into your Vite project',
+  icon: '',
   version: '2.4.2',
   category: 'plugin',
   tags: [

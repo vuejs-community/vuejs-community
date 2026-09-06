@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-jtaro-module',
   description: 'A Rollup plugin for JTaro Module.',
+  icon: '',
   version: '0.3.2',
   category: 'plugin',
   tags: [

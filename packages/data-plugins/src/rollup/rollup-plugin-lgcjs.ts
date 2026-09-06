@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-lgcjs',
   description: 'Rollup plugin for transpiling .xlgc files  + live editor support',
+  icon: '',
   version: '0.0.5',
   category: 'plugin',
   tags: [

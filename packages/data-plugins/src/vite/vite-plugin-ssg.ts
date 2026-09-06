@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ssg',
   description: 'A Vite plugin for static site generation with React and island architecture',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

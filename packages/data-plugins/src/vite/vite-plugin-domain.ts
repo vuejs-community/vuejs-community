@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-domain',
   description: 'Vite plugin that wires a local domain via Caddy for your dev server.',
+  icon: '',
   version: '2.0.6',
   category: 'plugin',
   tags: [

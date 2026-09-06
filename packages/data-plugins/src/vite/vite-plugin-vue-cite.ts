@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-cite',
   description: 'Cite-to-copy for any Vue element.',
+  icon: '',
   version: '0.2.3',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-iris',
   description: 'Dev-mode element inspector for Vite + React: tags JSX with source locations.',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

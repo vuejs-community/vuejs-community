@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-modhtml',
   description: 'Vite plugin to include HTML partial files',
+  icon: '',
   version: '0.7.0',
   category: 'plugin',
   tags: [

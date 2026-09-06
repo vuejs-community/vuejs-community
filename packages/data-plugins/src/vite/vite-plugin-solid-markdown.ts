@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-solid-markdown',
   description: 'Compile Markdown to SolidJS component',
+  icon: '',
   version: '0.0.7',
   category: 'plugin',
   tags: [

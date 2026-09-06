@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ssr-ssg',
   description: 'Vite plugin for SSR and SSG',
+  icon: '',
   version: '1.4.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-uni-cloudfunctions',
   description: 'Vite plugin that compiles TypeScript WeChat cloud functions into self-contained deploy units and syncs them to the mp-weixin output directory, enabling uni-app cloud function development without HBuilderX. 在纯 Vite 工作流（如 unh）中开发 uni-app 微信小程序云函数。',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

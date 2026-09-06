@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-formkit',
   description: 'Automatic FormKit configuration 🪄',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

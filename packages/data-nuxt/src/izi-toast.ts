@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'izi-toast',
   description: 'Elegant, responsive, and lightweight toast notification module for Nuxt 3 using iziToast. Supports auto-imported composables and full customization.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

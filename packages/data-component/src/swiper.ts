@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'swiper',
   description: '最流行的触摸滑动轮播库，官方 @swiper/vue 组件',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['carousel', 'slider'],

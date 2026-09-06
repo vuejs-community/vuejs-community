@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-drop-console',
   description: 'A rollup plugin used to drop (window.)console.*',
+  icon: '',
   version: '0.0.1',
   category: 'plugin',
   tags: [

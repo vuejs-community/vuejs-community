@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vuetify',
   description: 'Vuetify Module for Nuxt to add Material Design components to your application.',
+  icon: '',
   category: 'nuxt',
   types: [
     'UI',

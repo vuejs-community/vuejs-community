@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'shadcn-vue-admin',
   description: '基于 shadcn-vue + Vue3 + Vite 的后台 UI，注重响应式与可访问性',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-bytenode',
   description: 'Rollup plugin for compile javascript code to byte code',
+  icon: '',
   version: '0.1.0-alpha.3',
   category: 'plugin',
   tags: [

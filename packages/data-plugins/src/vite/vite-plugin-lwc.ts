@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lwc',
   description: 'Vite plugin for Lightning Web Components (LWC)',
+  icon: '',
   version: '4.1.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-change-host',
   description: 'A vite plugin to change the local host to a custom host',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

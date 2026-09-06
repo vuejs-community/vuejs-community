@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-autoedit',
   description: 'A vite plugin to make apps auto-editables',
+  icon: '',
   version: '0.0.8',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-image',
   description: 'A universal bundler plugin which imports JPG, PNG, GIF, SVG, and WebP files.',
+  icon: '',
   version: '0.2.1',
   category: 'plugin',
   tags: [

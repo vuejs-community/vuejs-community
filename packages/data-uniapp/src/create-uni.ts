@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'create-uni',
   description: 'uni-helper 出品的快速创建 uni-app 项目脚手架',
+  icon: '',
   category: 'uniapp',
   types: ['devtool'],
   tags: ['uni-app', 'vue3', 'cli', 'scaffold'],

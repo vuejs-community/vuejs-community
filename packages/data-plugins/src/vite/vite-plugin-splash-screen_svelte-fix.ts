@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-splash-screen_svelte-fix',
   description: 'Vite plugin for adding a splash screen to your app',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

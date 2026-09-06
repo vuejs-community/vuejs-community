@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'logrocket',
   description: 'LogRocket module for Nuxt to help you fix bugs and understand user behaviour.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Monitoring',

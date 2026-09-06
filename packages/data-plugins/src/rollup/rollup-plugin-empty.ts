@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-empty',
   description: 'A rollup plugin for emptying dir or deleting files',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue3-composition-admin',
   description: 'Composition API 风格的 Element Plus 后台模板',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

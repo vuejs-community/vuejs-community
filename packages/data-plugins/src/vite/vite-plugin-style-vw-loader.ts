@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-style-vw-loader',
   description: '一个可以将vue3标签内样式px转换vw的 vite loader',
+  icon: '',
   version: '1.0.8',
   category: 'plugin',
   tags: [

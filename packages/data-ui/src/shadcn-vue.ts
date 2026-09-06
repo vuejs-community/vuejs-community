@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'shadcn-vue',
   description: '',
+  icon: '',
   category: 'ui',
   types: ['headless-ui'],
   tags: ['ui', 'headless-ui', 'shadcn'],

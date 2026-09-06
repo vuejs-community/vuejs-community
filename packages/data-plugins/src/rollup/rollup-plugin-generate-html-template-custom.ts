@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-generate-html-template-custom',
   description: 'Rollup plugin for automatically injecting a script tag with the final bundle into an html file.',
+  icon: '',
   version: '1.6.5',
   category: 'plugin',
   tags: [

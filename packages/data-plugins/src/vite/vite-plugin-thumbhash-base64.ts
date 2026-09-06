@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-thumbhash-base64',
   description: 'Add ThumbHash to your vite project.',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

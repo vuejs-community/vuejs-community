@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-auto-import-api',
   description: 'Auto import APIs on-demand for Vite, Webpack and Rollup',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-pound',
   description: 'Get rid of those pesky $ signs in your template strings! Replace them with the good old british £, or any other currency symbol!',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

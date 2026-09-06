@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'laravel',
   description: 'Nuxt cli extension for use with laravel as backend',
+  icon: '',
   category: 'nuxt',
   types: [
     'CMS',

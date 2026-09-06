@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-env-file',
   description: 'This Vite plugin allows you to dynamically update your `.env` file during the build process. It\'s particularly useful for injecting environment variables that depend on the build or development server settings.',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

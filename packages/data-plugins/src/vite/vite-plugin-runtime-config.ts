@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-runtime-config',
   description: 'A vite plugin for runtime configuration',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

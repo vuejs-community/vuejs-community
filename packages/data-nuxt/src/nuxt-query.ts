@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-query',
   description: 'Nuxt module for TanStack Query (FKA Vue Query) with Nuxt DevTools integration',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

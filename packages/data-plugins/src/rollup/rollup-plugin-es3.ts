@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-es3',
   description: 'Make rollup compatible with ES3, remove Object.defineProperty of __esModule part',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

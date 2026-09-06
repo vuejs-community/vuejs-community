@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-font-manifest',
   description: 'Add font information to Vite build manifests',
+  icon: '',
   version: '1.2.0',
   category: 'plugin',
   tags: [

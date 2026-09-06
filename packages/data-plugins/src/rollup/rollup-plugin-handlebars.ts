@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-handlebars',
   description: 'A Rollup plugin for transforming handlebars templates to js.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

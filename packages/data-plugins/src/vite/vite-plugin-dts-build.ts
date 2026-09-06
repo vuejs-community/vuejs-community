@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dts-build',
   description: 'Fast .d.ts builds for Vite (worker + incremental) with optional dual ESM/CJS support.',
+  icon: '',
   version: '0.2.3',
   category: 'plugin',
   tags: [

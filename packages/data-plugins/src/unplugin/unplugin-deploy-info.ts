@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-deploy-info',
   description: 'print some help info like vite builtin',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

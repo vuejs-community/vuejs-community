@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-jsx-source',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-jsx-source?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-jsx-source)',
+  icon: '',
   version: '0.2.2',
   category: 'plugin',
   tags: [

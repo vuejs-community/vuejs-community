@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'sidebase-auth',
   description: 'Zero-boilerplate authentication for Nuxt with support for many strategies (oauth, credentials, ...) and providers (google, azure, ...). Additionally supports session manipulation, client- and server-side protection and more.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Security',

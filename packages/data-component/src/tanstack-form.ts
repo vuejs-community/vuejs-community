@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'tanstack-form',
   description: 'Headless、类型安全的表单状态管理',
+  icon: '',
   category: 'component',
   types: ['form'],
   tags: ['headless'],

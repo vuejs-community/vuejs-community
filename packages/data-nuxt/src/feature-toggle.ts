@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'feature-toggle',
   description: 'Feature toggle module for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

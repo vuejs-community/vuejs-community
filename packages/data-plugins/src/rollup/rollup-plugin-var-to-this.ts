@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-var-to-this',
   description: 'When exporting a iife from your rollup script, the default is:',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

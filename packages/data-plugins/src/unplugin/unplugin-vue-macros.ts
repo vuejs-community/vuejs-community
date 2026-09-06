@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-macros',
   description: 'Explore more macros and syntax sugar to Vue.',
+  icon: '',
   version: '2.14.5',
   category: 'plugin',
   tags: [

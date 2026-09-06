@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-singlefile-compression',
   description: 'Compress all assets and embeds them into dist/index.html, making it convenient to share as a single HTML file.',
+  icon: '',
   version: '2.4.9',
   category: 'plugin',
   tags: [

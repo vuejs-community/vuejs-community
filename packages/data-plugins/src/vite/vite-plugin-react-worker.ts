@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-worker',
   description: 'Vite plugin to support React Fast Refresh in web worker context.',
+  icon: '',
   version: '0.5.13',
   category: 'plugin',
   tags: [

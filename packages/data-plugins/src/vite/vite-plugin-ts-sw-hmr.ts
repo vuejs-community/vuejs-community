@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ts-sw-hmr',
   description: 'HMR for multiple TypeScript Service Workers',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-atlas',
   description: 'A convention-driven component documentation plugin for Vite + React',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

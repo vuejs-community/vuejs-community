@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'mdx',
   description: 'Write JSX in your Markdown with Nuxt and import Vue Components in your .mdx files',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'authorization',
   description: 'Manage permissions inside the app and the server.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Security',

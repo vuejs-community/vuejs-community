@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-env-safe',
   description: 'Zero-config environment variable validation for Vite projects using AST scanning.',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

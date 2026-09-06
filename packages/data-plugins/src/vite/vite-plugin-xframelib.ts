@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-xframelib',
   description: 'xframelib library plugin for Vite',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

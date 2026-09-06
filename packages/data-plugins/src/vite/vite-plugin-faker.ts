@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-faker',
   description: 'A mock plugin for vite',
+  icon: '',
   version: '1.3.5',
   category: 'plugin',
   tags: [

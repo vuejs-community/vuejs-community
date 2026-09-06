@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-icon-font-reducer',
   description: 'Reduce icon font files automatically during Vite builds.',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

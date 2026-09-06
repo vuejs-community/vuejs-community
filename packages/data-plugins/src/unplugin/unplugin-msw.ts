@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-msw',
   description: 'utility unplugin for msw',
+  icon: '',
   version: '0.6.1',
   category: 'plugin',
   tags: [

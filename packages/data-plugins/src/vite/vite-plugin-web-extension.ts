@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-web-extension',
   description: '![Vite Plugin Web Extension](../../.github/assets/social-banner.png)',
+  icon: '',
   version: '4.5.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-protobuf',
   description: 'Vite plugin that automatically compiles .proto files to TypeScript clients',
+  icon: '',
   version: '0.0.31',
   category: 'plugin',
   tags: [

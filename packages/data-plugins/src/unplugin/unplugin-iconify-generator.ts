@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-iconify-generator',
   description: 'Automatically generate iconify format json, support Iconify Intellisense',
+  icon: '',
   version: '0.7.3',
   category: 'plugin',
   tags: [

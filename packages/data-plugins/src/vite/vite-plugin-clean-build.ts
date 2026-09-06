@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-clean-build',
   description: 'A vite plugin for remove/clean files after build.',
+  icon: '',
   version: '1.4.1',
   category: 'plugin',
   tags: [

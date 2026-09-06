@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-rate-limiter',
   description: 'Limit the response rate of ViteDevServer',
+  icon: '',
   version: '1.1.2',
   category: 'plugin',
   tags: [

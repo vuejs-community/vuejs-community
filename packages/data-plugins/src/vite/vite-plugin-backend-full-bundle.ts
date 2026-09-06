@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-backend-full-bundle',
   description: 'Expose backend-friendly entry tags for Vite dev and Full Bundle Mode',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

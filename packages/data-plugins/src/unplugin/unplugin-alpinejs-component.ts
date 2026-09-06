@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-alpinejs-component',
   description: 'Combine Alpinejs and Component.',
+  icon: '',
   version: '0.0.10',
   category: 'plugin',
   tags: [

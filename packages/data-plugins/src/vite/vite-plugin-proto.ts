@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-proto',
   description: 'Plugin to allow importing .proto file as json objects.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

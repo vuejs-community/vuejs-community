@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-css-auto-import-bob',
   description: 'The plugin is designed specifically for folks who are tired of this:',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

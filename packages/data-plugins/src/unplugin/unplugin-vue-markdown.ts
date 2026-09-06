@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-markdown',
   description: 'Compile Markdown to Vue component',
+  icon: '',
   version: '32.1.1',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-fs-router',
   description: 'File based router for React-Router and Vue-Router',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

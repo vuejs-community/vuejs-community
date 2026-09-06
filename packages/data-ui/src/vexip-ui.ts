@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vexip-ui',
   description: '高度可定制、全 TypeScript 的 Vue 3 组件库',
+  icon: '',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui', 'typescript'],

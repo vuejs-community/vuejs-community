@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-antdv1-momentjs-resolver-zmh',
   description: 'Solve the Bug of vite execution error because antd-vue version 1.7.8 imported moment by using interopDefault',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

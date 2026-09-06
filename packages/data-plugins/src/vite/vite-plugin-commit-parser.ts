@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-commit-parser',
   description: 'commit information',
+  icon: '',
   version: '1.0.5',
   category: 'plugin',
   tags: [

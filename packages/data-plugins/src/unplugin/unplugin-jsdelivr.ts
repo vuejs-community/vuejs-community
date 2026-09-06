@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-jsdelivr',
   description: 'Generate a bundle using the [jsDelivr CDN](https://www.jsdelivr.com/) to host the external dependencies.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

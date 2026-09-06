@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'buildadmin',
   description: '可视化 CRUD 生成、内置 WEB 终端的 ThinkPHP + Vue3 后台管理系统',
+  icon: '',
   category: 'admin',
 
   types: ['fullstack-template'],

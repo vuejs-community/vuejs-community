@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-chii',
   description: 'Use chii for Vite and Webpack',
+  icon: '',
   version: '0.1.14',
   category: 'plugin',
   tags: [

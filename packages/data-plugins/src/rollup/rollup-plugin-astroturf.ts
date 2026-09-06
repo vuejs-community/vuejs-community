@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-astroturf',
   description: 'Rollup plugin to integrate astroturf',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

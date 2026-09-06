@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'regle',
   description: 'Type safe model-based form validation library for Vue.js',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

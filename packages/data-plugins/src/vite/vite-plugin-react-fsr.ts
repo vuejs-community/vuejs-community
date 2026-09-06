@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-fsr',
   description: 'File system routing for React and Vite',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

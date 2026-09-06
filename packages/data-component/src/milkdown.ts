@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'milkdown',
   description: '插件化 WYSIWYG Markdown 编辑器框架',
+  icon: '',
   category: 'component',
   types: ['editor'],
   tags: ['markdown', 'wysiwyg'],

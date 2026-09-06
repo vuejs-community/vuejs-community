@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'svg',
   description: 'Super simple svg loading module for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

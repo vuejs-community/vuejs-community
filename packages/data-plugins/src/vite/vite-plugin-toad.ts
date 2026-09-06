@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-toad',
   description: 'Zero runtime CSS-in-JS powered by Vite',
+  icon: '',
   version: '0.3.4',
   category: 'plugin',
   tags: [

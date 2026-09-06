@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-control-addin',
   description: 'A Rollup plugin for building AL Control Add-in\'s.',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

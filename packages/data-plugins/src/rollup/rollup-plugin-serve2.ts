@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-serve2',
   description: 'Serve your rolled up bundle',
+  icon: '',
   version: '1.1.2',
   category: 'plugin',
   tags: [

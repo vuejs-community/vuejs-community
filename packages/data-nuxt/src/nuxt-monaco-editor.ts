@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-monaco-editor',
   description: 'Integrate monaco-editor with Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

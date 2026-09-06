@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tailwind-grouping',
   description: 'Vite plugin to expand grouped Tailwind utility classes',
+  icon: '',
   version: '0.1.8',
   category: 'plugin',
   tags: [

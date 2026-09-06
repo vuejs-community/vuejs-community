@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-zerg-parse-router',
   description: 'vite的插件，用于将vue文件中的指定标签下的js对象转为可被vite插件使用的js对象',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

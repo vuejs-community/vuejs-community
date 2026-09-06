@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-frontmatter-collection',
   description: 'Vite plugin that collect frontmatter from your MD/MDX files under a virtual module with HMR invalidation and type-safety',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

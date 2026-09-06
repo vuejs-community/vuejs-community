@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-replace-style-inject',
   description: 'This plugin changes the path to style-inject and installs a built copy of it',
+  icon: '',
   version: '1.0.6',
   category: 'plugin',
   tags: [

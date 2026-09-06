@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-iframe-communication',
   description: 'Vite plugin for enabling iframe communication with parent windows using MessageChannel',
+  icon: '',
   version: '1.8.3-beta.15',
   category: 'plugin',
   tags: [

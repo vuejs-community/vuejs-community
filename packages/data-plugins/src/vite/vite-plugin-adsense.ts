@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-adsense',
   description: 'Insert Google AdSense script to `index.html` and create `ads.txt` file',
+  icon: '',
   version: '1.2.0',
   category: 'plugin',
   tags: [

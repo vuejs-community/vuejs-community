@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-strip-exports',
   description: 'Remove unwanted exports from your code.',
+  icon: '',
   version: '2.0.7',
   category: 'plugin',
   tags: [

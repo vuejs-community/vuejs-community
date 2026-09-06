@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-svg-component',
   description: 'generate a vue/react component through svg files, supporting svg file HMR and typescript intelligence prompt.',
+  icon: '',
   version: '0.12.6',
   category: 'plugin',
   tags: [

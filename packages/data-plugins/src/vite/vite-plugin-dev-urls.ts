@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dev-urls',
   description: 'Display custom development URLs in Vite after the dev server starts.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

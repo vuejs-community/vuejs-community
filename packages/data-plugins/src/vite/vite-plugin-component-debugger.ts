@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-component-debugger',
   description: 'Highly customizable Vite plugin that adds data attributes to JSX/TSX elements for development tracking, debugging, and testing. Features path filtering, transformers, presets, and more.',
+  icon: '',
   version: '2.3.2',
   category: 'plugin',
   tags: [

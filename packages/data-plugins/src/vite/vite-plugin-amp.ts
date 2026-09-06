@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-amp',
   description: 'Zero-config AMP for Vite',
+  icon: '',
   version: '1.2.3',
   category: 'plugin',
   tags: [

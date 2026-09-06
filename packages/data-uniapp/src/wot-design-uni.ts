@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'wot-design-uni',
   description: '基于 Vue3 + TypeScript 的 uni-app 组件库，提供 70+ 高质量组件，支持暗黑模式、国际化和自定义主题',
+  icon: '',
   category: 'uniapp',
   types: ['ui-library', 'mobile-ui'],
   tags: ['uni-app', 'vue3', 'ui', 'mobile', 'typescript'],

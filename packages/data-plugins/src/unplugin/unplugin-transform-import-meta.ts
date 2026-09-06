@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-transform-import-meta',
   description: 'Transform ImportMeta properties and methods at build-time.',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-env-sync',
   description: 'Vite plugin to automatically sync .env keys to .env.example',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

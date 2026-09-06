@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-splash',
   description: 'A Vite plugin and React hook for easy splash screen management in React apps.',
+  icon: '',
   version: '1.0.10',
   category: 'plugin',
   tags: [

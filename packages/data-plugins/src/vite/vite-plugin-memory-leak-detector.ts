@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-memory-leak-detector',
   description: 'A Vite plugin to detect potential memory leaks in frontend code at build time.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

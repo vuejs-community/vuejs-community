@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'onesignal',
   description: 'OneSignal is a Free, high volume and reliable push notification service for websites and mobile applications.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

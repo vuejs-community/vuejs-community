@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tsr-next',
   description: 'File-based routing plugin for TanStack Router with Next.js App Router conventions',
+  icon: '',
   version: '0.1.5',
   category: 'plugin',
   tags: [

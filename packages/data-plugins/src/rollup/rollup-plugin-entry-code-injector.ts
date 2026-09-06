@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-entry-code-injector',
   description: 'A simple rollup plugin that can inject code in the entry files. Can be used for adding polyfills to the bundle in a legacy build.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

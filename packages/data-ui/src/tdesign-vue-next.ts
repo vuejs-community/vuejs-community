@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'tdesign-vue-next',
   description: '腾讯 TDesign 的 Vue 3 桌面端组件库',
+  icon: '',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui', 'tdesign'],

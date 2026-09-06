@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'cookie-control',
   description: 'A highly configurable cookie banner for Nuxt.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

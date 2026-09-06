@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-oidc',
   description: 'A Vite plugin that provides OIDC server functionality for local development',
+  icon: '',
   version: '0.0.4',
   category: 'plugin',
   tags: [

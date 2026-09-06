@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-uni-layouts',
   description: 'uni-helper 出品的 Vite 插件，为 uni-app 提供类 nuxt 的 layouts 系统',
+  icon: '',
   category: 'uniapp',
   types: ['vite-plugin'],
   tags: ['uni-app', 'vue3', 'vite', 'layouts'],

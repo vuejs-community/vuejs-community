@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-pagedata',
   description: 'This is a plug-in for getting page post or get data',
+  icon: '',
   version: '1.0.4',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-signature-pad',
   description: '签名板组件',
+  icon: '',
   category: 'component',
   types: ['component-library'],
   tags: ['signature', 'canvas'],

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-next-admin',
   description: '适配手机 / 平板 / PC 的免费 Element Plus 后台模板',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

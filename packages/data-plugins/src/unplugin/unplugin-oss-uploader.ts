@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-oss-uploader',
   description: 'Upload assets to OSS with Vite or Webpack',
+  icon: '',
   version: '0.0.0-alpha.3',
   category: 'plugin',
   tags: [

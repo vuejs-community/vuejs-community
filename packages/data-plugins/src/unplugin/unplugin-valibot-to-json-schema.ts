@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-valibot-to-json-schema',
   description: 'Transform Valibot schemas to JSON Schema at build time',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

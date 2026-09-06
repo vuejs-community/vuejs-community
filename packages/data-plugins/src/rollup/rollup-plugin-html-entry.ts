@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-html-entry',
   description: 'Use HTML files as entry points in your rollup bundle',
+  icon: '',
   version: '0.3.0',
   category: 'plugin',
   tags: [

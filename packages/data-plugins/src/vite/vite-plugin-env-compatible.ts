@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-env-compatible',
   description: 'Environment Variables Compatible',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

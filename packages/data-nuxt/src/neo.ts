@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'neo',
   description: 'A nuxt.js module that implements a universal api layer, same-way compatible between server and client side.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Request',

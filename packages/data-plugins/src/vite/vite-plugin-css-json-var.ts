@@ -2,6 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-css-json-var',
+  icon: '',
   version: '1.2.0',
   category: 'plugin',
   tags: [

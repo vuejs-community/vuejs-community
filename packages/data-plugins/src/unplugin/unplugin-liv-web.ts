@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-liv-web',
   description: 'LivWeb2按需自动导入插件。',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

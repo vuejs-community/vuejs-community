@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-open-client',
   description: 'Provides a HTTP client based on a OpenAPI specification',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

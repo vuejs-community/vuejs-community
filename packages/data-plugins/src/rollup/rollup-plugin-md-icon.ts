@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-md-icon',
   description: 'Minify md icons and font in your app.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

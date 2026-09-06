@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-externalize-deps',
   description: 'externalize dependencies from production build',
+  icon: '',
   version: '0.0.10',
   category: 'plugin',
   tags: [

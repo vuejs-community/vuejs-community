@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-git-html',
   description: '向index.html文件插入git的一些信息 默认插入最新的short commit 和 tag标签到 meta 元素上面',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

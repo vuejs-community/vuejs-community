@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-i18n-micro',
   description: 'I18n Micro is a fast, simple, and lightweight internationalization (i18n) module.',
+  icon: '',
   category: 'nuxt',
   types: [
     'Extensions',

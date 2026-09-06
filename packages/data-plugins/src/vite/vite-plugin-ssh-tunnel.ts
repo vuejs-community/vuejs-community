@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ssh-tunnel',
   description: 'Vite plugin to set up a reverse SSH tunnel for reverse proxies',
+  icon: '',
   version: '1.2.1',
   category: 'plugin',
   tags: [

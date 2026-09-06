@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tailwind-attributify',
   description: 'A Vite plugin that aims to use HTML attributes as Tailwind pseudo selectors in order to reduce the length of the class attribute.',
+  icon: '',
   version: '1.0.8',
   category: 'plugin',
   tags: [

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ngmi-polyfill',
   description: 'Vite plugin for polyfilling Node.js built-in globals and modules ⚡️',
+  icon: '',
   version: '0.0.2',
   category: 'plugin',
   tags: [

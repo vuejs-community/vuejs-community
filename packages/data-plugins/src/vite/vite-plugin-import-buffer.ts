@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-import-buffer',
   description: 'Import files as node Buffers',
+  icon: '',
   version: '0.1.3',
   category: 'plugin',
   tags: [

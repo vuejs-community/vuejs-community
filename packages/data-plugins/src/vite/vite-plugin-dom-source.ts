@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dom-source',
   description: 'Vite plugins that map rendered React and Vue DOM elements back to their source locations.',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

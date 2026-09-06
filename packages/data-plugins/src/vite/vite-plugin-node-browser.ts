@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-node-browser',
   description: 'vite plugin.',
+  icon: '',
   version: '0.0.6',
   category: 'plugin',
   tags: [

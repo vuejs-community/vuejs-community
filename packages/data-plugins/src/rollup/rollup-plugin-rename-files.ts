@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-rename-files',
   description: 'A Rollup plugin to rename the `include` files created when bundling some external libries while using preserveModules',
+  icon: '',
   version: '2.0.0',
   category: 'plugin',
   tags: [

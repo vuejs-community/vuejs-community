@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-alias-import-checker',
   description: 'A vite plugin designed to validate and ensure the correctness of alias imports in your project.',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

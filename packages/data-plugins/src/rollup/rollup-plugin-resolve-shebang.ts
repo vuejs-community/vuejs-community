@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-resolve-shebang',
   description: 'Rollup plugin with recognize shebang and preserve it',
+  icon: '',
   version: '1.0.1',
   category: 'plugin',
   tags: [

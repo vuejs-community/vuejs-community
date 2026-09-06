@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sec-fetch-dest',
   description: 'Vite plugin that patches missing Sec-Fetch-Dest headers for IP/Safari access. Fixes TanStack Start + Nitro dev server module loading failures.',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

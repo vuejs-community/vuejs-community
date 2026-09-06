@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-build-id',
   description: 'Automatically generates build_id after production compiled',
+  icon: '',
   version: '0.7.0',
   category: 'plugin',
   tags: [

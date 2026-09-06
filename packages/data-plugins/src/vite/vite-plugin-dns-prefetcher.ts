@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dns-prefetcher',
   description: 'An Vite plugin to add dns-prefetch link tag in HTML.',
+  icon: '',
   version: '1.0.3',
   category: 'plugin',
   tags: [

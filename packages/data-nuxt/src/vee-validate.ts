@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vee-validate',
   description: 'Painless Vue forms for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Libraries',

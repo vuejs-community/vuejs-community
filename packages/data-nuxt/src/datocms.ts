@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'datocms',
   description: 'DatoCMS module for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'CMS',

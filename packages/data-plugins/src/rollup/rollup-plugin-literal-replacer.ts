@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-literal-replacer',
   description: 'Rollup plugin for replacing string literals in specific function calls with customizable transformation rules. Ideal for i18n key hashing and localization workflows.',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

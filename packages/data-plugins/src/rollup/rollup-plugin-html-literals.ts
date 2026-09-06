@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-html-literals',
   description: 'A Rollup plugin to minify html template literals',
+  icon: '',
   version: '2.0.1',
   category: 'plugin',
   tags: [

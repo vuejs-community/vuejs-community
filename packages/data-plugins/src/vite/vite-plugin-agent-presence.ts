@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-agent-presence',
   description: 'Vite dev overlay for Pi agent presence',
+  icon: '',
   version: '0.0.3',
   category: 'plugin',
   tags: [

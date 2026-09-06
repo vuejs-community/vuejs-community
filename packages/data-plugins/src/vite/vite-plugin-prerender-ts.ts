@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-prerender-ts',
   description: 'Flexible, framework-agnostic static site generation for sites and SPAs built with vite.',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

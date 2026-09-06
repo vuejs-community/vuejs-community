@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'wave-ui',
   description: '同时支持 Vue 2 / 3 的轻量 UI 框架',
+  icon: '',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui'],

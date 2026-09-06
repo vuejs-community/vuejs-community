@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cy-page-name',
   description: '修改 xxx.html name',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

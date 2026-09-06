@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-keep-polite',
   description: 'keep polite by plugin',
+  icon: '',
   version: '0.2.4',
   category: 'plugin',
   tags: [

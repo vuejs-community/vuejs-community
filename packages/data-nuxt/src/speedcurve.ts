@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'speedcurve',
   description: 'Speedcurve LUX module for Nuxt',
+  icon: '',
   category: 'nuxt',
   types: [
     'Analytics',

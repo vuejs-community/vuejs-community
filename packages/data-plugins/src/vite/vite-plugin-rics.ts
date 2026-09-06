@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-rics',
   description: 'Vite plugin for rics CSS preprocessor',
+  icon: '',
   version: '0.3.22',
   category: 'plugin',
   tags: [

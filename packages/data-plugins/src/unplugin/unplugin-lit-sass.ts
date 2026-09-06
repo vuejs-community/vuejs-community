@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-lit-sass',
   description: 'SCSS files to be imported as css variables in lit.',
+  icon: '',
   version: '0.0.2-beta.0',
   category: 'plugin',
   tags: [

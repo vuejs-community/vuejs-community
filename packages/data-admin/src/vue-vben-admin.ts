@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-vben-admin',
   description: '国内最流行的开源后台模板，Vue3 + Vite + TS + Monorepo，5.x 起 UI 层转向 shadcn 风格',
+  icon: '',
   category: 'admin',
 
   types: ['admin-template'],

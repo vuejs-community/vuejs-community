@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-html-location',
   description: 'Specify the output location of the html entry file',
+  icon: '',
   version: '0.1.2',
   category: 'plugin',
   tags: [

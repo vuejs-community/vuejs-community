@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ssg-sahil',
   description: 'A Vite plugin for static site generation',
+  icon: '',
   version: '1.0.2',
   category: 'plugin',
   tags: [

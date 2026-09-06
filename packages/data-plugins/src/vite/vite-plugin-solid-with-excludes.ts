@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-solid-with-excludes',
   description: 'solid-js integration plugin for vite 3',
+  icon: '',
   version: '2.3.9',
   category: 'plugin',
   tags: [

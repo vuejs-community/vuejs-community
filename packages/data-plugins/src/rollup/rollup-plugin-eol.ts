@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-eol',
   description: 'A Rollup plugin for normalizing line endings in rollup output files, rollup watcher files and/or a custom glob pattern of files',
+  icon: '',
   version: '1.0.0',
   category: 'plugin',
   tags: [

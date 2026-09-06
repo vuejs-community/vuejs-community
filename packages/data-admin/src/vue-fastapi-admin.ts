@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-fastapi-admin',
   description: 'FastAPI + Vue3 + Naive UI 的现代化轻量管理平台',
+  icon: '',
   category: 'admin',
 
   types: ['fullstack-template'],

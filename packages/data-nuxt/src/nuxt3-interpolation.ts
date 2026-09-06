@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt3-interpolation',
   description: '',
+  icon: '',
   category: 'nuxt',
   types: [
     'Devtools',

@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-cesium',
   description: 'Quickly integrate CesiumJS into various bundlers',
+  icon: '',
   version: '3.1.0',
   category: 'plugin',
   tags: [

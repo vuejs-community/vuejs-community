@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ppm',
   description: 'A Vite plugin for handling `.ppm` files in your projects. This plugin leverages `ppm-parser` to parse `.ppm` files and seamlessly integrates them into your Vite-based projects.',
+  icon: '',
   version: '1.1.0',
   category: 'plugin',
   tags: [

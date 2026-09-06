@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-fluent',
   description: 'Use all the power of the fluent project with your favorite bundler/compiler',
+  icon: '',
   version: '0.1.1',
   category: 'plugin',
   tags: [

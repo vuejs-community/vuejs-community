@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-webasyst',
   description: '<h1 align="center"> vite-plugin-webasyst </h1>',
+  icon: '',
   version: '0.1.0',
   category: 'plugin',
   tags: [

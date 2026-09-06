@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-gren',
   description: 'A vite plugin for the Gren programming language',
+  icon: '',
   version: '0.6.1',
   category: 'plugin',
   tags: [

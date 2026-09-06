@@ -3,6 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sri-gen',
   description: 'A Vite plugin to auto-generate Subresource Integrity (SRI) hashes.',
+  icon: '',
   version: '1.7.4',
   category: 'plugin',
   tags: [
