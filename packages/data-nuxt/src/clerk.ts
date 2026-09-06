@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'clerk',
   description: 'Clerk SDK for Nuxt',
-  icon: '',
+  icon: 'icon:clerk',
   category: 'nuxt',
   types: [
     'Security',

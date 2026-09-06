@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'sitemap',
   description: 'Powerfully flexible XML Sitemaps that integrate seamlessly.',
-  icon: '',
+  icon: 'icon:simple-sitemap',
   category: 'nuxt',
   types: [
     'SEO',

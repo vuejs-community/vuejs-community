@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'medusa',
   description: 'Easily connect to Medusa from your Nuxt application',
-  icon: '',
+  icon: 'icon:medusa',
   category: 'nuxt',
   types: [
     'Ecommerce',

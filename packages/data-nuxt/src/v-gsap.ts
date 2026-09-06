@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'v-gsap',
   description: 'GSAP as a directive (Unofficial). Build stunning animations with v-gsap.',
-  icon: '',
+  icon: 'icon:v-gsap',
   category: 'nuxt',
   types: [
     'Libraries',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'ionic',
   description: 'Batteries-included Ionic integration for building iOS, Android and web apps.',
-  icon: '',
+  icon: 'icon:ionic',
   category: 'nuxt',
   types: [
     'Libraries',

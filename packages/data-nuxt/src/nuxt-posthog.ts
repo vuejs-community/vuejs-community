@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-posthog',
   description: 'Integrate PostHog into your application with minimal configuration',
-  icon: '',
+  icon: 'icon:posthog',
   category: 'nuxt',
   types: [
     'Analytics',

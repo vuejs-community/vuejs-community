@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-actions',
   description: 'Type-safe server actions with Standard Schema validation, middleware, optimistic updates, streaming, and SSR queries',
-  icon: '',
+  icon: 'icon:nuxt-actions',
   category: 'nuxt',
   types: [
     'Request',

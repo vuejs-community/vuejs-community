@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'pinia-plugin-unstorage',
   description: 'Configurable persistence and rehydration of Pinia stores.',
-  icon: '',
+  icon: 'icon:pinia-plugin-unstorage',
   category: 'nuxt',
   types: [
     'Extensions',

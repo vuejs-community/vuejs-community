@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'notform',
   description: 'Vue Forms Without the Friction',
-  icon: '',
+  icon: 'icon:notform',
   category: 'nuxt',
   types: [
     'Libraries',

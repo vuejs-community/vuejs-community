@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-listmonk',
   description: 'Nuxt module for Listmonk',
-  icon: '',
+  icon: 'icon:listmonk',
   category: 'nuxt',
   types: [
     'Extensions',

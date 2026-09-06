@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'cloudflare-analytics',
   description: 'Cloudflare Web Analytics Module for Nuxt',
-  icon: '',
+  icon: 'icon:cloudflare',
   category: 'nuxt',
   types: [
     'Analytics',

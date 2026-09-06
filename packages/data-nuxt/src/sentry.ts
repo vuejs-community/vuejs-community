@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'sentry',
   description: 'Sentry SDK for Nuxt',
-  icon: '',
+  icon: 'icon:sentry',
   category: 'nuxt',
   types: [
     'Monitoring',

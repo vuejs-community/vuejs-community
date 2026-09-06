@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'druxt',
   description: 'A bridge between frameworks, Drupal in the back, Nuxt in the front.',
-  icon: '',
+  icon: 'icon:druxt',
   category: 'nuxt',
   types: [
     'CMS',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-highlight',
   description: 'Nuxt module for Highlight.io with session replay, error monitoring, and logging',
-  icon: '',
+  icon: 'icon:nuxt-highlight',
   category: 'nuxt',
   types: [
     'Monitoring',

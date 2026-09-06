@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'convex',
   description: 'Nuxt module for Convex - reactive backend with real-time sync, file storage, and auto-imports',
-  icon: '',
+  icon: 'icon:convex',
   category: 'nuxt',
   types: [
     'Database',

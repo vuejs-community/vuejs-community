@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'echarts',
   description: 'Nuxt Module for Apache ECharts™',
-  icon: '',
+  icon: 'icon:echarts',
   category: 'nuxt',
   types: [
     'Libraries',

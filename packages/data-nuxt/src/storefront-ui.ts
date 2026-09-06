@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'storefront-ui',
   description: 'Storefront UI for Nuxt by Alokai',
-  icon: '',
+  icon: 'icon:storefront-ui',
   category: 'nuxt',
   types: [
     'UI',

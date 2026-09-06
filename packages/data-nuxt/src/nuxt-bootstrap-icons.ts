@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-bootstrap-icons',
   description: 'Just a simple integration for Bootstrap Icons',
-  icon: '',
+  icon: 'icon:bootstrap-icons',
   category: 'nuxt',
   types: [
     'UI',

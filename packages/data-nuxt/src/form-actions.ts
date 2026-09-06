@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'form-actions',
   description: 'A set of features and composables to interact with forms and server data.',
-  icon: '',
+  icon: 'icon:form-actions',
   category: 'nuxt',
   types: [
     'Request',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-asciidoc',
   description: 'Transformer for using asciidoc in nuxt',
-  icon: '',
+  icon: 'icon:nuxt-asciidoc',
   category: 'nuxt',
   types: [
     'Extensions',

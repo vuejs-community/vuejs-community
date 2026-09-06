@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'prepare',
   description: 'Initialization steps at build time – like Nuxt 2 server init',
-  icon: '',
+  icon: 'icon:prepare',
   category: 'nuxt',
   types: [
     'Devtools',

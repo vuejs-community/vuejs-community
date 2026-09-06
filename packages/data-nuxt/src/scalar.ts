@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'scalar',
   description: 'Render a beautiful API References based on a OpenAPI/Swagger file with Nuxt.',
-  icon: '',
+  icon: 'icon:scalar',
   category: 'nuxt',
   types: [
     'Devtools',
@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@scalar/nuxt',
   },
   stats: {
-    stars: 16063,
+    stars: 16067,
     downloads: {
       monthly: 21792,
       weekly: 4935,

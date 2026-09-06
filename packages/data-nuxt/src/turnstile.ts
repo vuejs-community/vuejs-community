@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'turnstile',
   description: 'Privacy-focused alternative to CAPTCHA from Cloudflare',
-  icon: '',
+  icon: 'icon:cloudflare',
   category: 'nuxt',
   types: [
     'Security',

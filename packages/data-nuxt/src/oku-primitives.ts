@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'oku-primitives',
   description: 'Unlock seamless, high-performance Vue apps with accessible, customizable components designed for modern, intuitive web experiences. Empower your Vue apps.',
-  icon: '',
+  icon: 'icon:oku',
   category: 'nuxt',
   types: [
     'UI',

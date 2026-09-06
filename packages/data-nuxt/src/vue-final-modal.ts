@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-final-modal',
   description: 'The most powerful yet most light-weight modal library for Vue 3.',
-  icon: '',
+  icon: 'icon:vue-final-modal',
   category: 'nuxt',
   types: [
     'UI',

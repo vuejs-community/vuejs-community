@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'ant-design-vue',
   description: 'A Vue 3 based component library for designers and developers',
-  icon: '',
+  icon: 'icon:ant-design-vue',
   category: 'nuxt',
   types: [
     'UI',

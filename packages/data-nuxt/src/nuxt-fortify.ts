@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-fortify',
   description: 'Use Laravel fortify and sanctum with Nuxt',
-  icon: '',
+  icon: 'icon:laravel-nuxt-fortify',
   category: 'nuxt',
   types: [
     'Security',

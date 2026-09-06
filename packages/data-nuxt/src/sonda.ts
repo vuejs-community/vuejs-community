@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'sonda',
   description: 'Bundle analyzer and visualizer',
-  icon: '',
+  icon: 'icon:sonda',
   category: 'nuxt',
   types: [
     'Devtools',

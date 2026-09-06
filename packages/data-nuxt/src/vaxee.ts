@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vaxee',
   description: 'The State Manager for Vue 3',
-  icon: '',
+  icon: 'icon:vaxee',
   category: 'nuxt',
   types: [
     'Extensions',

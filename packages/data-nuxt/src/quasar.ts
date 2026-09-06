@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'quasar',
   description: 'Effortlessly build high-performance & high-quality Vue.js 3 user interfaces in record time',
-  icon: '',
+  icon: 'icon:quasar',
   category: 'nuxt',
   types: [
     'UI',

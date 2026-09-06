@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-livekit',
   description: 'LiveKit integration for Nuxt: realtime video, audio, and data with client composables and server utilities',
-  icon: '',
+  icon: 'icon:nuxt-livekit',
   category: 'nuxt',
   types: [
     'Libraries',

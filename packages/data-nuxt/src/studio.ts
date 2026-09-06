@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'studio',
   description: 'A new experience to build content-driven website with Nuxt.',
-  icon: '',
+  icon: 'icon:nuxt',
   category: 'nuxt',
   types: [
     'CMS',
