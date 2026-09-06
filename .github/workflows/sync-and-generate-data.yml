@@ -9,11 +9,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: generate-plugin-data
+  group: sync-and-regenerate-data
   cancel-in-progress: false
 
 jobs:
-  generate:
+  sync-and-regenerate:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
