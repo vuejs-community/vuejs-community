@@ -5,14 +5,14 @@
       <!-- Left -->
       <div class="flex min-w-0 items-center gap-8">
         <NuxtLink
-          to="/"
-          class="shrink-0"
           aria-label="Vue Community"
+          class="shrink-0"
+          to="/"
         >
           <img
-            src="/logo.svg"
             alt="Vue Community"
             class="size-10"
+            src="/logo.svg"
           >
         </NuxtLink>
 
@@ -20,7 +20,7 @@
           <NavigationMenuList>
             <NavigationMenuItem v-for="nav in navs" :key="nav.label">
               <NavigationMenuLink as-child>
-                <a href="/" class="text-foreground text-sm font-medium capitalize">{{ nav.label }}</a>
+                <a class="text-foreground text-sm font-medium capitalize" href="/">{{ nav.label }}</a>
               </NavigationMenuLink>
             </NavigationMenuItem>
           </NavigationMenuList>
@@ -29,14 +29,14 @@
 
       <!-- Right -->
       <div class="flex shrink-0 items-center gap-2">
-        <Button size="icon-sm" variant="ghost" as-child>
-          <NuxtLink target="_blank" :to="app.github">
+        <Button as-child size="icon-sm" variant="ghost">
+          <NuxtLink :to="app.github" target="_blank">
             <Icon name="codicon:github-alt" />
           </NuxtLink>
         </Button>
 
-        <Button size="icon-sm" variant="ghost" as-child>
-          <NuxtLink target="_blank" :to="app.discord">
+        <Button as-child size="icon-sm" variant="ghost">
+          <NuxtLink :to="app.discord" target="_blank">
             <Icon name="akar-icons:discord-fill" />
           </NuxtLink>
         </Button>
@@ -45,7 +45,7 @@
   </header>
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
 defineOptions({
   name: 'SiteHeader',
 })
@@ -60,8 +60,8 @@ const navs = [
     to: '/component',
   },
   {
-    label: 'vite',
-    to: '/vite',
+    label: 'hooks',
+    to: '/hooks',
   },
   {
     label: 'plugin',
@@ -70,6 +70,14 @@ const navs = [
   {
     label: 'module',
     to: '/module',
+  },
+  {
+    label: 'admin',
+    to: '/admin',
+  },
+  {
+    label: 'uniapp',
+    to: '/uniapp',
   },
 ]
 
