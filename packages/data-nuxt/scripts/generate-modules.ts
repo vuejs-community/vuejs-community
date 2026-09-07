@@ -34,12 +34,13 @@ interface ModuleEntry {
 
 const packageRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 
-/** 本地图标集目录（nuxt.config.ts 中 prefix 'icon' 对应的 dir） */
+/** Local icon directory (the directory for the `icon` prefix in nuxt.config.ts). */
 const appIconDir = resolve(packageRoot, '../../app/assets/icon')
 
 /**
- * 校验 yml 的 icon 是否指向下载仓库 icons/ 目录里的真实 svg 文件，
- * 通过则返回仓库内的 svg 源路径，否则返回 null。
+ * Checks whether the icon in the YAML file points to an actual SVG file in the
+ * downloaded repository's icons/ directory. Returns its source path when valid,
+ * or null otherwise.
  */
 async function resolveModuleIconAsset(repoDir: string, icon: string): Promise<string | null> {
   if (!icon || !icon.endsWith('.svg'))
@@ -54,8 +55,9 @@ async function resolveModuleIconAsset(repoDir: string, icon: string): Promise<st
 }
 
 /**
- * 把模块图标落到 app/assets/icon（已存在则跳过，不覆盖），返回 defineProjectMeta
- * 使用的图标名 `icon:xxx`（不带 .svg 后缀）；校验或复制失败时回退为空字符串。
+ * Copies the module icon to app/assets/icon without overwriting an existing file,
+ * then returns the `icon:xxx` name (without the .svg extension) used by
+ * defineProjectMeta. Falls back to an empty string if validation or copying fails.
  */
 export async function syncModuleIcon(repoDir: string, icon: string): Promise<string> {
   try {
@@ -78,7 +80,8 @@ export async function syncModuleIcon(repoDir: string, icon: string): Promise<str
 function buildModuleProject(module: NuxtModule, stats: ModuleStats, icon: string): CommunityProject {
   return {
     name: module.name,
-    // 个别上游 yml 没有 description（JSON.stringify 会把 undefined 的 key 丢掉），兜底为空串保证字段必写入。
+    // Some upstream YAML files omit description. Use an empty string because
+    // JSON.stringify drops keys whose values are undefined.
     description: module.description ?? '',
     icon,
     category: 'nuxt',
@@ -151,7 +154,8 @@ async function writeModules(entries: ModuleEntry[], stats: Awaited<ReturnType<ty
 
     try {
       const icon = await syncModuleIcon(repoDir, module.icon)
-      // 抓取失败的值回退到已存文件的旧值（地图中缺失 ≠ 0），避免用 0 覆盖好数据。
+      // Fall back to stored values when fetching fails. A missing map entry does
+      // not mean zero, so this avoids overwriting valid data with zero.
       const existingProject = existsSync(modulePath) ? await readProjectMeta(modulePath) : null
       const fallback = existingProject?.stats
       const project = buildModuleProject(module, {
@@ -207,7 +211,8 @@ async function generateModules() {
   }
 }
 
-// 直接执行时才启动完整生成流程，被 import 时只暴露上面的工具函数。
+// Run the full generation process only when executed directly. Imports expose
+// only the helper functions above.
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   generateModules().catch((error) => {
     console.error('generation failed.', error)
