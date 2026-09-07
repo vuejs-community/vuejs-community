@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'ionic',
   description: '跨平台 iOS / Android / PWA UI 工具包，支持 Vue',
-  icon: '',
+  icon: 'logos:ionic-icon',
   category: 'ui',
   types: ['mobile-framework', 'ui-library'],
   tags: ['ui', 'mobile', 'capacitor'],

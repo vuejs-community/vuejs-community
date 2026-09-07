@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'idux',
   description: '企业级中后台 Vue 3.x 组件库',
-  icon: '',
+  icon: 'icon:idux',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui'],

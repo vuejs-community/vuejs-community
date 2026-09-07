@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'fonts',
   description: 'Add custom web fonts with performance in mind.',
-  icon: 'icon:nuxt',
+  icon: 'logos:nuxt-icon',
   category: 'nuxt',
   types: [
     'Fonts',

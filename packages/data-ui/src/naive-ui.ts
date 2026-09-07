@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'naive-ui',
   description: '全 TypeScript、主题可定制的 Vue 3 组件库',
-  icon: '',
+  icon: 'logos:naiveui',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui', 'typescript'],

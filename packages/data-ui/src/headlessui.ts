@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'headlessui',
   description: 'Tailwind Labs 官方无样式可访问组件库（支持 Vue）',
-  icon: '',
+  icon: 'logos:headlessui-icon',
   category: 'ui',
   types: ['headless-ui'],
   tags: ['ui', 'headless-ui', 'tailwindcss'],

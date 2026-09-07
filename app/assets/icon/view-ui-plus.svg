@@ -1,0 +1,44 @@
+<svg width="502px" height="477px" viewBox="0 0 502 477" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>未命名</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.00542331488%" y1="50.0074349%" x2="100.011743%" y2="50.0074349%" id="linearGradient-1">
+            <stop stop-color="#3668E7" offset="0.3030465%"></stop>
+            <stop stop-color="#44BAE1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.0117592657%" y1="50.0044985%" x2="100.006481%" y2="50.0044985%" id="linearGradient-2">
+            <stop stop-color="#44BCE1" offset="0%"></stop>
+            <stop stop-color="#44BAE1" offset="36.72%"></stop>
+            <stop stop-color="#43B2E2" offset="54.5%"></stop>
+            <stop stop-color="#41A5E2" offset="68.19%"></stop>
+            <stop stop-color="#3F93E4" offset="79.8%"></stop>
+            <stop stop-color="#3C7BE5" offset="89.99%"></stop>
+            <stop stop-color="#385EE7" offset="99.21%"></stop>
+            <stop stop-color="#385BE7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.0148416278%" y1="50.0005568%" x2="100.005996%" y2="50.0005568%" id="linearGradient-3">
+            <stop stop-color="#44BCE1" offset="0%"></stop>
+            <stop stop-color="#43B6E1" offset="14.76%"></stop>
+            <stop stop-color="#41A4E2" offset="34.89%"></stop>
+            <stop stop-color="#3E88E4" offset="58.12%"></stop>
+            <stop stop-color="#3960E7" offset="83.49%"></stop>
+            <stop stop-color="#385BE7" offset="86.36%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" fill-rule="nonzero">
+            <g id="logo3-01的副本">
+                <g id="图层_2">
+                    <g id="XMLID_5_">
+                        <g id="编组">
+                            <path d="M241.7,169.1 C187.5,174.1 145.1,219.6 145.1,275.1 C145.1,333.9 192.8,381.5 251.5,381.5 C251.5,381.5 468.8,417.6 417.4,153.8 C447,203.4 474,253.3 474,253.3 C474,253.3 540,367.2 466.8,436.8 C466.8,436.8 424.3,476.6 345.7,476.6 C324.1,476.6 298.2,476.6 271.8,476.6 C134.2,452.4 122.6,330.6 122.6,330.6 C113.1,174 241.7,168.6 241.7,168.6 L241.7,169.1 Z" id="路径" fill="url(#linearGradient-1)"></path>
+                            <path d="M417.4,153.8 C468.8,417.6 251.5,381.5 251.5,381.5 C310.3,381.5 357.9,333.9 357.9,275.1 C357.9,265.2 356.5,255.6 354,246.5 C354,246.5 354,246.4 354,246.4 C352.9,240.7 336.4,162.2 256.3,131.7 C219.8,117.8 179.5,118.8 142.9,132.3 C117.2,141.8 87,158.3 64.7,186.7 L120.2,89 C132.9,66.7 149.5,46.9 169.7,31.1 C205,3.7 260.6,-19.3 323.9,28.2 C323.9,28.2 342.9,39 381.8,96.9 C393,113.6 405.5,133.7 417.4,153.8 Z" id="路径" fill="url(#linearGradient-2)"></path>
+                            <path d="M122.6,330.6 C122.6,330.6 134.1,452.4 271.8,476.6 C226.7,476.6 180.5,476.6 153.4,476.6 C123.1,476.6 93.1,469.6 66.4,455.2 C30.8,435.9 -5.4,400.6 1.2,338.1 C6,292.6 61.8,191.9 61.8,191.9 L64.7,186.8 C64.7,186.8 64.7,186.8 64.7,186.7 C86.9,158.2 117.1,141.8 142.9,132.3 C179.5,118.8 219.8,117.8 256.3,131.7 C336.4,162.3 352.9,240.8 354,246.4 C341.5,201.6 300.3,168.7 251.5,168.7 C248.2,168.7 244.9,168.9 241.7,169.1 L241.7,168.7 C241.7,168.6 113.1,174 122.6,330.6 Z" id="路径" fill="url(#linearGradient-3)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

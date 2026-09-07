@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'ant-design-vue',
   description: 'Ant Design 的 Vue 企业级组件库实现',
-  icon: '',
+  icon: 'icon:ant-design-vue',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui', 'ant-design'],
