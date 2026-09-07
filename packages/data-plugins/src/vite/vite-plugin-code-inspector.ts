@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-code-inspector',
   description: 'jump to local IDE source code while click the element of browser automatically.',
   icon: '',
-  version: '1.0.1',
+  version: '1.3.0',
   category: 'plugin',
   tags: [
     'vue',

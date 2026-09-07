@@ -21,10 +21,10 @@ export default defineProjectMeta({
     npm: 'nuxt-auth-utils',
   },
   stats: {
-    stars: 1594,
+    stars: 1593,
     downloads: {
-      monthly: 428882,
-      weekly: 110801,
+      monthly: 419035,
+      weekly: 100368,
     },
   },
 })

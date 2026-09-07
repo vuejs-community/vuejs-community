@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue-bits',
   },
   stats: {
-    stars: 4400,
+    stars: 4403,
     downloads: {
-      monthly: 859,
-      weekly: 543,
+      monthly: 1132,
+      weekly: 326,
     },
   },
 })

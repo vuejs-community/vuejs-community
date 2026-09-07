@@ -19,10 +19,10 @@ export default defineProjectMeta({
     website: 'https://headlessui.com',
   },
   stats: {
-    stars: 28734,
+    stars: 28735,
     downloads: {
-      monthly: 6018067,
-      weekly: 1617853,
+      monthly: 5758003,
+      weekly: 1175284,
     },
   },
 })

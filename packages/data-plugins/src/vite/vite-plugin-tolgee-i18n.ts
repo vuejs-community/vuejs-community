@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-tolgee-i18n',
   description: 'Vite plugin for Tolgee translation integration with i18n inspector devtools',
   icon: '',
-  version: '0.1.18',
+  version: '0.1.19',
   category: 'plugin',
   tags: [
     'vite-plugin',

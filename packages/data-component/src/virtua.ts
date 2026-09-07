@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/virtua',
   },
   stats: {
-    stars: 3735,
+    stars: 3736,
     downloads: {
-      monthly: 3796940,
-      weekly: 1052834,
+      monthly: 3743766,
+      weekly: 884423,
     },
   },
 })

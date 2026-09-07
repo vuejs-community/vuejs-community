@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'rollup-plugin-zigar',
   description: 'Rollup plugin for transpiling Zig code',
   icon: '',
-  version: '0.15.3',
+  version: '0.16.0',
   category: 'plugin',
   tags: [
     'zig',

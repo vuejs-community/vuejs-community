@@ -1,0 +1,52 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'vite-plugin-midi',
+  description: 'A Vite plugin that lets you import MIDI files directly, along with several processed formats derived from them, built for presenting otoMAD / YTPMV on the web',
+  icon: '',
+  version: '1.1.1',
+  category: 'plugin',
+  tags: [
+    'vite-plugin',
+    'vite',
+    'midi',
+    'mid',
+    'otomad',
+    'ytpmv',
+    'keyframes',
+    'animation',
+    'css',
+    'style',
+    'web-component',
+    'web-components',
+    'vtt',
+    'subtitles',
+    'spn',
+    'scientific-pitch-notation',
+    'music',
+    'song',
+    'track',
+    'source',
+    'visual',
+    'video',
+    'tuning',
+    'flip',
+    'h-flip',
+    'horizontal-flip',
+    'hyperflip',
+    'synchronized',
+  ],
+  types: [
+    'vite-plugin',
+  ],
+  links: {
+    github: 'https://github.com/otomad/vite-plugin-midi',
+    npm: 'https://www.npmjs.com/package/vite-plugin-midi',
+  },
+  stats: {
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
+})

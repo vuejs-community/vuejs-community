@@ -21,10 +21,10 @@ export default defineProjectMeta({
     npm: '@nuxtjs/mcp-toolkit',
   },
   stats: {
-    stars: 170,
+    stars: 171,
     downloads: {
-      monthly: 129536,
-      weekly: 37104,
+      monthly: 128321,
+      weekly: 30472,
     },
   },
 })

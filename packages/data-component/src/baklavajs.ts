@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@baklavajs/renderer-vue',
   },
   stats: {
-    stars: 2090,
+    stars: 2091,
     downloads: {
-      monthly: 19599,
-      weekly: 4664,
+      monthly: 18681,
+      weekly: 3788,
     },
   },
 })

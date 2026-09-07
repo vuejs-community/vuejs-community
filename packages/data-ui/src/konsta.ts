@@ -19,10 +19,10 @@ export default defineProjectMeta({
     website: 'https://konstaui.com',
   },
   stats: {
-    stars: 4247,
+    stars: 4246,
     downloads: {
-      monthly: 72600,
-      weekly: 18791,
+      monthly: 68455,
+      weekly: 17989,
     },
   },
 })

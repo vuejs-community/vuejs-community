@@ -21,10 +21,10 @@ export default defineProjectMeta({
     npm: '@nuxtjs/supabase',
   },
   stats: {
-    stars: 934,
+    stars: 935,
     downloads: {
-      monthly: 226165,
-      weekly: 56614,
+      monthly: 222199,
+      weekly: 58480,
     },
   },
 })

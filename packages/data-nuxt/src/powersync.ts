@@ -21,10 +21,10 @@ export default defineProjectMeta({
     npm: '@powersync/nuxt',
   },
   stats: {
-    stars: 721,
+    stars: 720,
     downloads: {
-      monthly: 480,
-      weekly: 161,
+      monthly: 309,
+      weekly: 47,
     },
   },
 })

@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/heyui',
   },
   stats: {
-    stars: 2546,
+    stars: 2544,
     downloads: {
-      monthly: 2884,
-      weekly: 497,
+      monthly: 2775,
+      weekly: 997,
     },
   },
 })

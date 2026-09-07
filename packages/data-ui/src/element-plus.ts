@@ -19,10 +19,10 @@ export default defineProjectMeta({
     website: 'https://element-plus.org',
   },
   stats: {
-    stars: 27730,
+    stars: 27732,
     downloads: {
-      monthly: 2798164,
-      weekly: 688796,
+      monthly: 2730601,
+      weekly: 618100,
     },
   },
 })

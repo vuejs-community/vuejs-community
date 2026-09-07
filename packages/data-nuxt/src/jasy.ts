@@ -21,10 +21,10 @@ export default defineProjectMeta({
     npm: '@jasy/nuxt',
   },
   stats: {
-    stars: 53,
+    stars: 63,
     downloads: {
-      monthly: 565,
-      weekly: 226,
+      monthly: 654,
+      weekly: 181,
     },
   },
 })
