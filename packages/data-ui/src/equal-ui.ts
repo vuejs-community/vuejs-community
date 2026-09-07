@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'equal-ui',
   description: '基于 Tailwind CSS 的 Vue 3 UI 库',
-  icon: '',
+  icon: 'icon:equal',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui', 'tailwindcss'],

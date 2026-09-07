@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'reka-ui',
   description: '原 radix-vue，构建可访问设计系统的 Vue 无头组件库',
-  icon: '',
+  icon: 'icon:reka-ui',
   category: 'ui',
   types: ['headless-ui'],
   tags: ['ui', 'headless-ui', 'radix'],

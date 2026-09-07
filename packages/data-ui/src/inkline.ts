@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'inkline',
   description: '面向设计系统的可访问 Vue 3 组件库',
-  icon: '',
+  icon: 'icon:inkline',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui', 'accessibility'],

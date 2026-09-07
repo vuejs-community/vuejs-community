@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'element-plus',
   description: 'Element 团队出品的 Vue 3 UI 库',
-  icon: '',
+  icon: 'icon:element-plus',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui', 'element'],

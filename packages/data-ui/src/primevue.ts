@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'primevue',
   description: '90+ 组件的下一代 Vue UI 组件库',
-  icon: '',
+  icon: 'thesvg-color:primevue',
   category: 'ui',
   types: ['ui-library'],
   tags: ['ui', 'prime'],
