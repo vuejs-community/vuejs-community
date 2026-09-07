@@ -10,6 +10,7 @@ import { glob } from 'glob'
 interface NormalizedProject {
   name: string
   description: string
+  icon: CommunityProject['icon']
   category: string
   source: string
   types: string[]
@@ -59,6 +60,7 @@ function normalizeProject(project: CommunityProject, source: string): Normalized
   return {
     name: project.name,
     description: project.description ?? '',
+    icon: project.icon,
     category: project.category,
     source,
     types: [...new Set(project.types)],
@@ -80,6 +82,8 @@ function mergeProject(target: NormalizedProject, incoming: NormalizedProject): v
 
   if (!target.description)
     target.description = incoming.description
+  if (!target.icon)
+    target.icon = incoming.icon
   if (!target.github)
     target.github = incoming.github
   if (!target.npm)
@@ -153,6 +157,7 @@ async function createSchema(database: Database): Promise<void> {
     CREATE TABLE IF NOT EXISTS projects (
       name TEXT PRIMARY KEY NOT NULL,
       description TEXT NOT NULL,
+      icon TEXT NOT NULL,
       category TEXT NOT NULL,
       source TEXT NOT NULL,
       github TEXT,
@@ -186,6 +191,7 @@ async function insertProjects(database: Database, projects: NormalizedProject[])
     INSERT INTO projects (
       name,
       description,
+      icon,
       category,
       source,
       github,
@@ -194,7 +200,7 @@ async function insertProjects(database: Database, projects: NormalizedProject[])
       downloads_monthly,
       downloads_weekly,
       stars
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `)
   const insertMeta = database.prepare(`
     INSERT INTO "project-meta" (name, "values", type)
@@ -208,6 +214,7 @@ async function insertProjects(database: Database, projects: NormalizedProject[])
       await insertProject.run(
         project.name,
         project.description,
+        project.icon,
         project.category,
         project.source,
         project.github,

@@ -79,6 +79,7 @@ export default defineEventHandler(async (event): Promise<ProjectRecord[]> => {
     SELECT
       name,
       description,
+      icon,
       category,
       source,
       github,

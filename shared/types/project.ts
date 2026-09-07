@@ -1,6 +1,9 @@
+import type { CommunityProject } from '@vuejs-community/schema'
+
 export interface ProjectRecord {
-  name: string
-  description: string
+  name: CommunityProject['name']
+  description: CommunityProject['description']
+  icon: CommunityProject['icon']
   category: string
   source: string
   github: string
