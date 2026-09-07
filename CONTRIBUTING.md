@@ -1,43 +1,45 @@
 # Contributing Guide
 
-Thank you for wanting to contribute to Vue Community! This document covers environment setup, project structure, common commands, and commit conventions to help you get started quickly.
+Thank you for wanting to contribute to Vuejs Community! This document covers environment requirements, the quick start process, project structure, data maintenance, and commit conventions to help you get involved quickly.
 
 ## Table of Contents
 
 - [Requirements](#requirements)
 - [Quick Start](#quick-start)
 - [Project Structure](#project-structure)
-- [Common Commands](#common-commands)
-- [How to Contribute](#how-to-contribute)
-- [Development Workflow](#development-workflow)
-- [Commit Convention (Conventional Commits)](#commit-convention-conventional-commits)
+- [Maintaining Open Source Component Data](#maintaining-open-source-component-data)
+- [defineProjectMeta Field Reference](#defineprojectmeta-field-reference)
+- [PR Guidelines (Conventional Commits)](#pr-guidelines-conventional-commits)
+- [Final Words](#final-words)
 
 ## Requirements
 
+Before getting started, please make sure your local environment meets the following hard requirements:
+
 | Tool | Version | Notes |
 | --- | --- | --- |
-| Node.js | ≥ 22 (LTS recommended) | CI uses `lts/*` |
-| pnpm | 11.x | Locked to `pnpm@11.24.0` via the `packageManager` field; install with `corepack enable` or `npm i -g pnpm` |
+| Node.js | **>= 22** | LTS version recommended; CI uses `lts/*` |
+| pnpm | **> v11.x** | The project pins the version via the `packageManager` field; `corepack enable` is recommended |
 | Git | A recent version | Commit hooks rely on `simple-git-hooks` |
 
 ## Quick Start
 
+Follow these three steps to run the docs site locally:
+
 ```bash
-# 1. Fork the repository, then clone it (or clone your existing fork directly)
-git clone https://github.com/<your-username>/vuejs-community.git
+# 1. Clone the project (if you have your own fork, replace with your repository URL)
+git clone https://github.com/vuejs-community/vuejs-community.git
+
+# 2. Enter the project directory and install dependencies
 cd vuejs-community
-
-# 2. Use the pnpm version pinned by the project
-corepack enable
-
-# 3. Install dependencies
-#    postinstall runs nuxt prepare automatically,
-#    and the prepare script registers the simple-git-hooks commit hooks
 pnpm install
 
-# 4. Start the dev server (http://localhost:3000)
-pnpm docs:dev
+# 3. Run the docs site in dev mode (default: http://localhost:3000)
+pnpm run docs:dev
 ```
+
+> [!TIP]
+> `pnpm install` automatically runs `nuxt prepare` and registers Git commit hooks (pre-commit runs `eslint --fix`, commit-msg validates the commit message format) — no extra configuration needed.
 
 ## Project Structure
 
@@ -50,11 +52,13 @@ pnpm docs:dev
 │   ├── api/                 # API routes
 │   └── assets/              # Location of the generated index.db
 ├── packages/
-│   ├── data-component/      # Vue component library data
-│   ├── data-hooks/          # Composables data
-│   ├── data-nuxt/           # Nuxt module data
-│   ├── data-plugins/        # Vite / Rollup / Rolldown / Unplugin plugin data
-│   ├── data-ui/             # UI component library data
+│   ├── data-ui/             # UI component library data ✅ maintainable
+│   ├── data-component/      # Component library data ✅ maintainable
+│   ├── data-hooks/          # Composables data ✅ maintainable
+│   ├── data-admin/          # Admin template data ✅ maintainable
+│   ├── data-uniapp/         # UniApp ecosystem data ✅ maintainable
+│   ├── data-nuxt/           # Nuxt module data 🤖 auto-synced by scripts, do NOT edit manually
+│   ├── data-plugins/        # Build plugin data 🤖 auto-synced by scripts, do NOT edit manually
 │   ├── schema/              # @vuejs-community/schema data type definitions
 │   ├── shared/              # @vuejs-community/shared utility functions
 │   └── tsconfig/            # Shared TypeScript configuration
@@ -63,67 +67,108 @@ pnpm docs:dev
 └── turbo.json               # Turborepo task configuration
 ```
 
-## Common Commands
+## Maintaining Open Source Component Data
 
-| Command | Description |
+Maintenance of community open source project data is **only supported in the following directories**, one `.ts` file per project:
+
+| Directory | Content |
 | --- | --- |
-| `pnpm docs:dev` | Start the Nuxt dev server (localhost:3000) |
-| `pnpm build` | Production build |
-| `pnpm generate` | Static site generation |
-| `pnpm preview` | Preview the production build |
-| `pnpm typecheck` | Run `nuxt typecheck` |
-| `pnpm lint` | Run ESLint |
-| `pnpm lint:fix` | Auto-fix ESLint issues |
-| `pnpm generate:plugins` | Sync Vite / Rollup / Rolldown / Unplugin plugin data |
-| `pnpm generate:nuxt:modules` | Sync Nuxt module data |
-| `pnpm generate:db` | Rebuild index.db under `server/assets` |
-| `pnpm sync:npm-git-data` | Sync npm download and GitHub Stars data |
-| `pnpm -F <package-name> run <script>` | Run a script inside a specific workspace package, e.g. `pnpm -F @vuejs-community/shared run dev` |
+| `packages/data-ui/` | UI component libraries |
+| `packages/data-component/` | Component libraries / collections |
+| `packages/data-hooks/` | Composables / Hooks libraries |
+| `packages/data-admin/` | Admin dashboard templates |
+| `packages/data-uniapp/` | UniApp ecosystem projects |
 
-## How to Contribute
+> [!IMPORTANT]
+> **`packages/data-nuxt/` and `packages/data-plugins/` do not accept manual data edits.**
+>
+> Data in these two directories is generated by repository scripts that run on a regular schedule; manual changes will be overwritten. If you find data issues there or want to adjust the sync logic, please only modify the `scripts/` in the corresponding subproject and improve the sync logic itself via a PR.
 
-### Add a New Project / Fix Data
+After adding or modifying data, run the following command to rebuild the index database so the site reads the latest data:
 
-Site data lives as TypeScript files under `packages/data-*`, one file per project, defined with `defineProjectMeta` from `@vuejs-community/schema`:
+```bash
+pnpm generate:db
+```
 
-- Nuxt modules: `packages/data-nuxt/src/<module-name>.ts`
-- Plugins: `packages/data-plugins/src/<vite|rollup|rolldown|unplugin>/<plugin-name>.ts`
+## defineProjectMeta Field Reference
+
+All data entries are defined with `defineProjectMeta` from `@vuejs-community/schema`, which provides full type hints. Below is a fully commented example:
 
 ```ts
 import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
-  name: 'my-awesome-plugin',
-  description: 'What it does, in one sentence',
-  category: 'plugin',
-  tags: ['vite'],
-  types: ['vite-plugin'],
+  // Project name, must match the real package / repository name
+  name: 'ant-design-vue',
+
+  // One-sentence description of what the project does
+  description: 'Enterprise-level UI components based on Ant Design and Vue',
+
+  // Icon: local icon name (svg under app/assets/icon, without the .svg suffix)
+  // or an iconify icon name (e.g. 'logos:vue'); pass an empty string if there is none
+  icon: 'icon:ant-design-vue',
+
+  // Project category: 'ui' | 'hooks' | 'component' | 'admin' | 'uniapp' etc.
+  category: 'ui',
+
+  // Project type list, e.g. 'ui-library', 'composable-library', etc.
+  types: ['ui-library'],
+
+  // Optional: tags for filtering and searching within the site
+  tags: ['ui', 'ant-design'],
+
+  // Data source, used by scripts to fetch stats such as Stars / downloads
+  // github uses the 'owner/repo' format; npm takes the package name directly
+  source: {
+    github: 'vueComponent/ant-design-vue',
+    npm: 'ant-design-vue',
+  },
+
+  // Optional: links shown publicly
   links: {
-    github: 'https://github.com/user/my-awesome-plugin',
-    npm: 'https://www.npmjs.com/package/my-awesome-plugin',
+    github: 'https://github.com/vueComponent/ant-design-vue',
+    npm: 'https://www.npmjs.com/package/ant-design-vue',
+    website: 'https://antdv.com',
+  },
+
+  // Stats (Stars, downloads) are synced automatically by scheduled jobs, no manual maintenance needed
+  stats: {
+    stars: 21641,
+    downloads: {
+      monthly: 942627,
+      weekly: 168488,
+    },
   },
 })
 ```
 
 Notes:
 
-- `name`, `links.github`, and `links.npm` must match the real repository / package names; the data sync scripts rely on these fields to pull information.
-- `stats` (Stars, downloads, etc.) are synced automatically by scheduled jobs, so **no manual maintenance is needed**; you can also run `pnpm sync:npm-git-data` locally to refresh them manually.
-- After adding or modifying data, run `pnpm generate:db` to rebuild the index database so the site can read the latest data.
-- The repository runs a data sync workflow daily that automatically updates module / plugin data and the database, so changes related to stats usually don't need to be committed manually.
+- `name`, `source.github`, and `source.npm` must match the real repository / package names, since the data sync scripts rely on these fields to fetch information.
+- `stats` is updated automatically by scheduled jobs and requires **no manual maintenance**; you can also run `pnpm sync:npm-git-data` locally to refresh them manually.
+- To add new fields, update the type definitions in `packages/schema/` first.
 
-### Improve Site Features and UI
+## PR Guidelines (Conventional Commits)
 
-- Site code lives in `app/`, and server APIs live in `server/api/`.
-- UI components are based on shadcn-vue + Tailwind CSS v4. When adding a base component, use the shadcn-vue CLI to generate it into `app/components/ui/`.
-- Icons use `@nuxt/icon`; local custom icons go in `app/assets/icon/`.
-- Data types are imported from `@vuejs-community/schema`; update the schema first if you need to add fields.
+When submitting a PR, please strictly follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) convention. The repository has `verify-git-commit` enabled to validate commit messages; commits that don't follow the format will be rejected:
 
-### Reporting Issues
+```
+type(scope): subject
+```
 
-When filing an issue, please describe the expected behavior, the actual behavior, reproduction steps, and environment info (browser / Node version). If you find incorrect data entries, attaching the file path of the corresponding entry or the project name is enough — no need for full screenshots.
+- **type**: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore`, `revert`
+- **scope** (optional): the module the change belongs to, e.g. `db`, `data-ui`, `data-nuxt`, `schema`, `shared`, `ui`, `deps`
+- **subject**: a short description, starting lowercase, without a trailing period
 
-## Development Workflow
+Examples:
+
+```
+feat(data-ui): add ant-design-vue entry
+fix(db): handle missing tags in index db generation
+chore(deps): update nuxt to latest
+```
+
+Submission process:
 
 1. Create a feature branch from the latest `master`:
 
@@ -131,40 +176,19 @@ When filing an issue, please describe the expected behavior, the actual behavior
    git checkout -b feat/my-feature
    ```
 
-2. When you're done, make sure the following checks pass:
+2. Make sure the following checks pass before committing:
 
    ```bash
    pnpm lint
    pnpm typecheck
    ```
 
-3. Submit a PR to `master` and describe the changes and motivation in the description; for data PRs, note which entries are affected.
+3. Submit a PR to `master` and describe the changes and motivation; for data PRs, note which entries are affected.
 
-## Commit Convention (Conventional Commits)
+## Final Words
 
-The repository enables `verify-git-commit` to validate commit messages; commits that don't follow the format will be rejected:
+**Don't be afraid of making mistakes — be bold and just do it.**
 
-```
-type(scope): subject
-```
+Every mature repository has grown through countless trials and errors. A bad commit can be fixed, an imperfect PR will be kindly reviewed by maintainers, and no one will blame you for a single mistake — that is exactly what makes the open source world so wonderful.
 
-- **type**: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore`, `revert`
-- **scope** (optional): the module the change belongs to, e.g. `db`, `data-nuxt`, `data-plugins`, `schema`, `shared`, `ui`, `deps`
-- **subject**: a short description, starting lowercase, without a trailing period
-
-Examples:
-
-```
-feat(data-plugins): add unplugin-icons entry
-fix(db): handle missing tags in index db generation
-chore(deps): update nuxt to latest
-```
-
-Git hook behavior (registered automatically by `pnpm install`):
-
-- **pre-commit**: `lint-staged` runs `eslint --fix` on staged files automatically
-- **commit-msg**: `verify-git-commit` validates the commit message format
-
-## Reference
-
-When creating a PR, use the repository's built-in `create-pr` skill (`.agents/skills/create-pr/SKILL.md`) directly. It defines the complete conventions and examples for PR titles and bodies: titles follow the Conventional Commits format above, bodies include background, changes, related issues, and verification steps, and a draft is output for confirmation before creating the PR.
+The open source world welcomes everyone, and the Vue.js community looks forward to growing stronger with all of you. We can't wait to see your name in the contributors list! 🚀
