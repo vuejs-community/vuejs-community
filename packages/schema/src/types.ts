@@ -94,7 +94,11 @@ export interface CommunityProject {
   name: string
   description: string
 
-  /** 本地图标名（app/assets/icon 下的 svg，去掉 .svg 后缀），无图标时为空字符串 */
+  /**
+   * Local icon name (svg under app/assets/icon without the.svg suffix),
+   * or https://icon-sets.iconify.design/ icon name,
+   * or an empty string when no icon is present
+   */
   icon: string
 
   category: ProjectCategory
