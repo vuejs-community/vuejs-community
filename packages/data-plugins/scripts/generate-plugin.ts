@@ -18,6 +18,7 @@ interface PluginDefinition {
   directory: string
   packageNamePrefix: string
   type: 'vite-plugin' | 'rollup-plugin' | 'rolldown-plugin' | 'unplugin'
+  icon: string
 }
 
 interface SearchTask {
@@ -66,30 +67,35 @@ const pluginDefinitions: PluginDefinition[] = [
     directory: 'vite',
     packageNamePrefix: 'vite-plugin',
     type: 'vite-plugin',
+    icon: 'logos:vite-icon',
   },
   {
     keyword: 'rollup-plugin',
     directory: 'rollup',
     packageNamePrefix: 'rollup-plugin',
     type: 'rollup-plugin',
+    icon: 'logos:rollupjs',
   },
   {
     keyword: 'rolldown-plugin',
     directory: 'rolldown',
     packageNamePrefix: 'rolldown-plugin',
     type: 'rolldown-plugin',
+    icon: 'logos:rolldown-icon',
   },
   {
     keyword: 'unplugin',
     directory: 'unplugin',
     packageNamePrefix: 'unplugin',
     type: 'unplugin',
+    icon: 'icon:dark-unplugin',
   },
   {
     keyword: '@rollup/plugin-',
     directory: 'rollup',
     packageNamePrefix: '@rollup/plugin-',
     type: 'rollup-plugin',
+    icon: 'logos:rollupjs',
   },
 ]
 
@@ -113,18 +119,24 @@ function toFileName(packageName: string): string {
     .replaceAll('/', '-')
 }
 
-function createProjectData(data: NpmSearchObject, type: PluginDefinition['type']): ProjectWithVersion {
+function createProjectData(data: NpmSearchObject, definition: PluginDefinition): ProjectWithVersion {
   const packageData = data.package
   const github = extractGitHubRepository(<string>packageData.links?.repository || '')
 
   return {
     name: packageData.name,
     description: packageData.description,
-    icon: '',
+    icon: definition.icon,
     version: packageData.version,
     category: 'plugin',
     tags: packageData.keywords,
-    types: [type],
+    types: [definition.type],
+    source: {
+      github,
+      ...(packageData.links?.npm
+        ? { npm: packageData.links.npm.replace('https://www.npmjs.com/package/', '') }
+        : {}),
+    },
     links: {
       github: `https://github.com/${github}`,
       npm: packageData.links.npm ?? '',
@@ -187,7 +199,7 @@ async function writeSearchObjects(
     if (writtenFiles.has(filePath))
       continue
 
-    const project = createProjectData(data, definition.type)
+    const project = createProjectData(data, definition)
     const result = await writeProjectMetaIfChanged(filePath, project)
     writtenFiles.add(filePath)
 
