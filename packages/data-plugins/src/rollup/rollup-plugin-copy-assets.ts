@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-copy-assets',
   description: 'Copy additional assets into the output directory of your rollup bundle.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '2.0.3',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'bengsfort/rollup-plugin-copy-assets',
+    npm: 'rollup-plugin-copy-assets',
+  },
   links: {
     github: 'https://github.com/bengsfort/rollup-plugin-copy-assets',
     npm: 'https://www.npmjs.com/package/rollup-plugin-copy-assets',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mpa-plus',
   description: 'More flexible MPA (multipage application) supports html template',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.6.1',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'yzydeveloper/vite-plugin-mpa-plus',
+    npm: 'vite-plugin-mpa-plus',
+  },
   links: {
     github: 'https://github.com/yzydeveloper/vite-plugin-mpa-plus',
     npm: 'https://www.npmjs.com/package/vite-plugin-mpa-plus',

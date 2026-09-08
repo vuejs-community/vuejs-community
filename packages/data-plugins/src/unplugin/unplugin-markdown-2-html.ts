@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-markdown-2-html',
   description: 'Render markdown into html at build time.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.3.4',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'kricsleo/unplugin-markdown-2-html',
+    npm: 'unplugin-markdown-2-html',
+  },
   links: {
     github: 'https://github.com/kricsleo/unplugin-markdown-2-html',
     npm: 'https://www.npmjs.com/package/unplugin-markdown-2-html',

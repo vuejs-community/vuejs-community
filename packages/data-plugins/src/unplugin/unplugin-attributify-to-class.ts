@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-attributify-to-class',
   description: 'css attributify mode to class, support use in vite, rollup, webpack',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.2.5',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'MellowCo/unplugin-attributify-to-class',
+    npm: 'unplugin-attributify-to-class',
+  },
   links: {
     github: 'https://github.com/MellowCo/unplugin-attributify-to-class',
     npm: 'https://www.npmjs.com/package/unplugin-attributify-to-class',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-obj',
   description: 'Import .obj files as strings 🧵 in Vite, Rollup, Webpack + more',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.2',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'tonyketcham/unplugin-obj',
+    npm: 'unplugin-obj',
+  },
   links: {
     github: 'https://github.com/tonyketcham/unplugin-obj',
     npm: 'https://www.npmjs.com/package/unplugin-obj',

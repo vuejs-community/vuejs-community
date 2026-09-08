@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-nx-dotenv',
   description: 'Support Vite\'s [mode] mode of dotenv usage in Nx',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'chf007/vite-plugin-nx-dotenv',
+    npm: 'vite-plugin-nx-dotenv',
+  },
   links: {
     github: 'https://github.com/chf007/vite-plugin-nx-dotenv',
     npm: 'https://www.npmjs.com/package/vite-plugin-nx-dotenv',

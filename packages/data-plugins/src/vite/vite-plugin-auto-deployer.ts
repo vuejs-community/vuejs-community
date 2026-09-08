@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-deployer',
   description: '[English Documentation](https://gitee.com/qq_1326632/vite-plugin-auto-deployer/blob/master/readme.md) | [中文文档](https://gitee.com/qq_1326632/vite-plugin-auto-deployer/blob/master/README.zh-CN.md)',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.1.0',
   category: 'plugin',
   tags: [
@@ -34,6 +34,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-auto-deployer',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-deployer',

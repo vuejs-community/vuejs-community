@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-swc-minify',
   description: 'Rollup plugin to minify generated bundles using swc.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.3.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'prantlf/rollup-plugin-swc-minify',
+    npm: 'rollup-plugin-swc-minify',
+  },
   links: {
     github: 'https://github.com/prantlf/rollup-plugin-swc-minify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-swc-minify',

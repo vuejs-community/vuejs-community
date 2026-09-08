@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-preload-assets',
   description: 'Optimizes performance by automatically injecting preload and preconnect tags for critical resources with Vite (JS, CSS, fonts, images).',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.3.1',
   category: 'plugin',
   tags: [
@@ -30,6 +30,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Effeilo/vite-plugin-preload-assets',
+    npm: 'vite-plugin-preload-assets',
+  },
   links: {
     github: 'https://github.com/Effeilo/vite-plugin-preload-assets',
     npm: 'https://www.npmjs.com/package/vite-plugin-preload-assets',

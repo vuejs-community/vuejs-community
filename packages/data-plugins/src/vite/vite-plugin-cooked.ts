@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cooked',
   description: 'Vite\'s ?raw gives you uncooked source. This gives you the cooked version — compiled, bundled, and tree-shaken.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -27,6 +27,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'JaydenV8/vite-plugin-cooked',
+    npm: 'vite-plugin-cooked',
+  },
   links: {
     github: 'https://github.com/JaydenV8/vite-plugin-cooked',
     npm: 'https://www.npmjs.com/package/vite-plugin-cooked',

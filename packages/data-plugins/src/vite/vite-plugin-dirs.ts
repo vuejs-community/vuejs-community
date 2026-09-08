@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dirs',
   description: 'A vite plugin to get the names of all files in a specified directory',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.3',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'amihhs/vite-plugin-dirs',
+    npm: 'vite-plugin-dirs',
+  },
   links: {
     github: 'https://github.com/amihhs/vite-plugin-dirs',
     npm: 'https://www.npmjs.com/package/vite-plugin-dirs',

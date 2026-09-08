@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-html-entry',
   description: 'Use HTML files as entry points in your rollup bundle',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.3.0',
   category: 'plugin',
   tags: [
@@ -12,6 +12,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'leogr/rollup-plugin-html-entry',
+    npm: 'rollup-plugin-html-entry',
+  },
   links: {
     github: 'https://github.com/leogr/rollup-plugin-html-entry',
     npm: 'https://www.npmjs.com/package/rollup-plugin-html-entry',

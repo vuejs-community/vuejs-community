@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-mockup',
   description: 'mockup',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'iyyybz/unplugin-mockup',
+    npm: 'unplugin-mockup',
+  },
   links: {
     github: 'https://github.com/iyyybz/unplugin-mockup',
     npm: 'https://www.npmjs.com/package/unplugin-mockup',

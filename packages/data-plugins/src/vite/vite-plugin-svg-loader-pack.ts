@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-loader-pack',
   description: 'vite-plugin-svg-loader-pack',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.2.6',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-svg-loader-pack',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-loader-pack',

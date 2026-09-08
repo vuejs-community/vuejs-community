@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-timelog',
   description: 'vite plugin',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.8',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'SpacesoulsL/vite-plugin-timelog',
+    npm: 'vite-plugin-timelog',
+  },
   links: {
     github: 'https://github.com/SpacesoulsL/vite-plugin-timelog',
     npm: 'https://www.npmjs.com/package/vite-plugin-timelog',

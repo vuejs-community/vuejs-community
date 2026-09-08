@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-whistle-proxy',
   description: 'A proxy plugin for build tools implemented by whistle.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.3',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'allenhush/unplugin-whistle-proxy',
+    npm: 'unplugin-whistle-proxy',
+  },
   links: {
     github: 'https://github.com/allenhush/unplugin-whistle-proxy',
     npm: 'https://www.npmjs.com/package/unplugin-whistle-proxy',

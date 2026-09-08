@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cus-svg-icon',
   description: 'A lightweight Vite plugin for generating CSS icons from local SVG files only.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-cus-svg-icon',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-cus-svg-icon',

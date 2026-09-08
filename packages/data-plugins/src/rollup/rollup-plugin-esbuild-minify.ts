@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-esbuild-minify',
   description: 'Rollup plugin to minify or clean up generated bundles using esbuild.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.3.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'prantlf/rollup-plugin-esbuild-minify',
+    npm: 'rollup-plugin-esbuild-minify',
+  },
   links: {
     github: 'https://github.com/prantlf/rollup-plugin-esbuild-minify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-esbuild-minify',

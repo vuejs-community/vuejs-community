@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-multipage-auto',
   description: 'A Vite plugin for multi-page applications with configurable titles',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.8',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-multipage-auto',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-multipage-auto',

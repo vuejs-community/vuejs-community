@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-csp',
   description: 'Create CSP meta tags and header configs from all sources in the final Vite html',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.2',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'josh-hemphill/vite-plugin-csp',
+    npm: 'vite-plugin-csp',
+  },
   links: {
     github: 'https://github.com/josh-hemphill/vite-plugin-csp',
     npm: 'https://www.npmjs.com/package/vite-plugin-csp',

@@ -17,6 +17,6 @@ export default defineProjectMeta({
     website: 'https://inspira-ui.com',
   },
   stats: {
-    stars: 4970,
+    stars: 4971,
   },
 })

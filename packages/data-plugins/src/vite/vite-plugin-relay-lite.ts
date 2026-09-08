@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-relay-lite',
   description: 'Vite plugin for more convenient Relay experience',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.12.0',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'cometkim/vite-plugin-relay-lite',
+    npm: 'vite-plugin-relay-lite',
+  },
   links: {
     github: 'https://github.com/cometkim/vite-plugin-relay-lite',
     npm: 'https://www.npmjs.com/package/vite-plugin-relay-lite',

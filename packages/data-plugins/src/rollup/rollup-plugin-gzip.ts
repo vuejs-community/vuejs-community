@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-gzip',
   description: 'Compress your Rollup / Vite bundle with Gzip or Brotli',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '4.2.0',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'kryops/rollup-plugin-gzip',
+    npm: 'rollup-plugin-gzip',
+  },
   links: {
     github: 'https://github.com/kryops/rollup-plugin-gzip',
     npm: 'https://www.npmjs.com/package/rollup-plugin-gzip',

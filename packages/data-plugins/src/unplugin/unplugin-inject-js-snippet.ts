@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-inject-js-snippet',
   description: 'Support for injecting js snippet into html and js files.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'Levix/unplugin-inject-js-snippet',
+    npm: 'unplugin-inject-js-snippet',
+  },
   links: {
     github: 'https://github.com/Levix/unplugin-inject-js-snippet',
     npm: 'https://www.npmjs.com/package/unplugin-inject-js-snippet',

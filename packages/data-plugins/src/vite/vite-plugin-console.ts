@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-console',
   description: 'Vite plugin: injects eruda mobile DevTools (Console, Network, Elements, Storage) in dev mode. Zero production footprint.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.1',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-console',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-console',

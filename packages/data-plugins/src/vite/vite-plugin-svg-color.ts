@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-color',
   description: 'Vite Plugin for fast creating SVG sprites.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.2',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'anncwb/vite-plugin-svg-icons',
+    npm: 'vite-plugin-svg-color',
+  },
   links: {
     github: 'https://github.com/anncwb/vite-plugin-svg-icons',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-color',

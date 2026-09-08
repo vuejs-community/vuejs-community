@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-rhtml',
   description: 'create html with the bundle file',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.4',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'objectBao/rollup-plugin-rhtml',
+    npm: 'rollup-plugin-rhtml',
+  },
   links: {
     github: 'https://github.com/objectBao/rollup-plugin-rhtml',
     npm: 'https://www.npmjs.com/package/rollup-plugin-rhtml',

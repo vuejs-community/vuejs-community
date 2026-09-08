@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vconsole-mpa',
   description: 'vite plugin vconsole',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.8',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Miofly/vite-plugin-vconsole-mpa',
+    npm: 'vite-plugin-vconsole-mpa',
+  },
   links: {
     github: 'https://github.com/Miofly/vite-plugin-vconsole-mpa',
     npm: 'https://www.npmjs.com/package/vite-plugin-vconsole-mpa',

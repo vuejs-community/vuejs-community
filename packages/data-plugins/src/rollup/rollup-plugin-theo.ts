@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-theo',
   description: 'A rollup plugin to transform design tokens using Theo',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '3.0.0',
   category: 'plugin',
   tags: [
@@ -12,14 +12,18 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'limitlessloop/rollup-plugin-theo',
+    npm: 'rollup-plugin-theo',
+  },
   links: {
     github: 'https://github.com/limitlessloop/rollup-plugin-theo',
     npm: 'https://www.npmjs.com/package/rollup-plugin-theo',
   },
   stats: {
     downloads: {
-      monthly: 16,
-      weekly: 2,
+      monthly: 20,
+      weekly: 8,
     },
   },
 })

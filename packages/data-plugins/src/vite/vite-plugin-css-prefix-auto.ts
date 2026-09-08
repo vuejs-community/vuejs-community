@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-css-prefix-auto',
   description: 'Vite 插件：CSS 作用域隔离，解决微前端和模块联邦中的样式冲突问题',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.9.3',
   category: 'plugin',
   tags: [
@@ -25,6 +25,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-css-prefix-auto',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-css-prefix-auto',

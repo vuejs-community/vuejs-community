@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-small-css-merged-into-js',
   description: 'Merges css smaller than a specified byte into js',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'KongYanHHHH/vite-plugin-small-css-merged-into-js',
+    npm: 'vite-plugin-small-css-merged-into-js',
+  },
   links: {
     github: 'https://github.com/KongYanHHHH/vite-plugin-small-css-merged-into-js',
     npm: 'https://www.npmjs.com/package/vite-plugin-small-css-merged-into-js',

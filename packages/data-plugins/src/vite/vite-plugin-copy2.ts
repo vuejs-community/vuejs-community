@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-copy2',
   description: 'Vite plugin: supports copying single and multiple files',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'qinzhuguang/vite-plugin-copy2',
+    npm: 'vite-plugin-copy2',
+  },
   links: {
     github: 'https://github.com/qinzhuguang/vite-plugin-copy2',
     npm: 'https://www.npmjs.com/package/vite-plugin-copy2',

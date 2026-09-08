@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-open-ide',
   description: 'jump to local IDE source code while click the element of browser automatically.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.9',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: '',
+    npm: 'unplugin-vue-open-ide',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/unplugin-vue-open-ide',

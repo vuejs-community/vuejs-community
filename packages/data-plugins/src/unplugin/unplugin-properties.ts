@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-properties',
   description: '[![npm](https://img.shields.io/npm/v/unplugin-properties)](https://www.npmjs.com/package/unplugin-properties)',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.4.1',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'pd4d10/unplugin-properties',
+    npm: 'unplugin-properties',
+  },
   links: {
     github: 'https://github.com/pd4d10/unplugin-properties',
     npm: 'https://www.npmjs.com/package/unplugin-properties',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-environment',
   description: 'A plugin for loading enviroment variables safely with schema validation, simple with virtual module, type-safe with intellisense, and better DX 🔥 🚀 👷. Support with Next.js, Vite, Webpack, Rollup, Rspack, Farm, and more.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '1.3.0',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'r17x/js',
+    npm: 'unplugin-environment',
+  },
   links: {
     github: 'https://github.com/r17x/js',
     npm: 'https://www.npmjs.com/package/unplugin-environment',

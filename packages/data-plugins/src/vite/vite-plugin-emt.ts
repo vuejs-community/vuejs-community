@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-emt',
   description: 'emt support for vite',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.8',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-emt',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-emt',

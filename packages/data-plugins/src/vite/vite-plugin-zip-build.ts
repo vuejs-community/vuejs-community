@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-zip-build',
   description: 'A plugin for packing Vite build output files into ZIP.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.2.1',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-zip-build',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-zip-build',

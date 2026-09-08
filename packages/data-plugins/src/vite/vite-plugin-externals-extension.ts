@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-externals-extension',
   description: 'English | [简体中文](./README-zh.md)',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.7',
   category: 'plugin',
   tags: [
@@ -14,14 +14,18 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'XiSenao/vite-plugin-externals-extension',
+    npm: 'vite-plugin-externals-extension',
+  },
   links: {
     github: 'https://github.com/XiSenao/vite-plugin-externals-extension',
     npm: 'https://www.npmjs.com/package/vite-plugin-externals-extension',
   },
   stats: {
     downloads: {
-      monthly: 56,
-      weekly: 16,
+      monthly: 54,
+      weekly: 10,
     },
   },
 })

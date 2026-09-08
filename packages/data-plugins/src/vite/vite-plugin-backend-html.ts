@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-backend-html',
   description: '[![NPM Version][npm-image]][npm-url]   [![NPM Downloads][downloads-image]][downloads-url]   [![Node.js CI](https://github.com/doberkofler/vite-plugin-backend-html/actions/workflows/node.js.yml/badge.svg)](https://github.com/doberkofler/vite-plugin-backend',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'doberkofler/vite-plugin-merge-css',
+    npm: 'vite-plugin-backend-html',
+  },
   links: {
     github: 'https://github.com/doberkofler/vite-plugin-merge-css',
     npm: 'https://www.npmjs.com/package/vite-plugin-backend-html',

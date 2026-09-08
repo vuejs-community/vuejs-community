@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-server',
   description: 'Server your rolled up bundle',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.7.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'fkei/rollup-plugin-server',
+    npm: 'rollup-plugin-server',
+  },
   links: {
     github: 'https://github.com/fkei/rollup-plugin-server',
     npm: 'https://www.npmjs.com/package/rollup-plugin-server',

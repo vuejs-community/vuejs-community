@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svelte-inline-compile',
   description: 'Precompile inline Svelte components via ES6 tagged template strings',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.1',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'DockYard/svelte-inline-compile',
+    npm: 'vite-plugin-svelte-inline-compile',
+  },
   links: {
     github: 'https://github.com/DockYard/svelte-inline-compile',
     npm: 'https://www.npmjs.com/package/vite-plugin-svelte-inline-compile',

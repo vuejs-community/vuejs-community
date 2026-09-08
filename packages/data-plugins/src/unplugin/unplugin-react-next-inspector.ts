@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-react-next-inspector',
   description: 'A unplugin which provides the ability that to jump to the local IDE when you click the element of browser automatically.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '1.0.2',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'Triumph-light/unplugin-react-inspector',
+    npm: 'unplugin-react-next-inspector',
+  },
   links: {
     github: 'https://github.com/Triumph-light/unplugin-react-inspector',
     npm: 'https://www.npmjs.com/package/unplugin-react-next-inspector',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dts-svelte',
   description: '<h1 align="center">vite-plugin-dts</h1>',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.0.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'yoshida-valuesccg/vite-plugin-dts-svelte',
+    npm: 'vite-plugin-dts-svelte',
+  },
   links: {
     github: 'https://github.com/yoshida-valuesccg/vite-plugin-dts-svelte',
     npm: 'https://www.npmjs.com/package/vite-plugin-dts-svelte',

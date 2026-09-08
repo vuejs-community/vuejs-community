@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-smart-prefetch',
   description: 'Smart prefetch plugin for Vite with BigQuery GA4 analytics. Supports React Router DOM and TanStack Router with intelligent dynamic route matching.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.4.3',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-smart-prefetch',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-smart-prefetch',

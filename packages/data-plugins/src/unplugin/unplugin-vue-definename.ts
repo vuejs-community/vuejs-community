@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-definename',
   description: 'use defineName macro in <script setup> project',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'ray-d-song/unplugin-vue-definename',
+    npm: 'unplugin-vue-definename',
+  },
   links: {
     github: 'https://github.com/ray-d-song/unplugin-vue-definename',
     npm: 'https://www.npmjs.com/package/unplugin-vue-definename',

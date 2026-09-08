@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-security',
   description: 'Vite plugin for React Security Scanner - Automatically scan your React code for security vulnerabilities during build',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -28,6 +28,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ereddate/react-security-scanner',
+    npm: 'vite-plugin-react-security',
+  },
   links: {
     github: 'https://github.com/ereddate/react-security-scanner',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-security',

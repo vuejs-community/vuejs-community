@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-embeddable-c-cpp-headers',
   description: 'A simple plugin for transforming vite build artifacts to embeddable C/C++ headers',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'bgenia/vite-plugin-embeddable-c-cpp-headers',
+    npm: 'vite-plugin-embeddable-c-cpp-headers',
+  },
   links: {
     github: 'https://github.com/bgenia/vite-plugin-embeddable-c-cpp-headers',
     npm: 'https://www.npmjs.com/package/vite-plugin-embeddable-c-cpp-headers',

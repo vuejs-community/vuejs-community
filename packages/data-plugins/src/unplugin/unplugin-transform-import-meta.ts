@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-transform-import-meta',
   description: 'Transform ImportMeta properties and methods at build-time.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.6',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'sushichan044/unplugin-transform-import-meta',
+    npm: 'unplugin-transform-import-meta',
+  },
   links: {
     github: 'https://github.com/sushichan044/unplugin-transform-import-meta',
     npm: 'https://www.npmjs.com/package/unplugin-transform-import-meta',

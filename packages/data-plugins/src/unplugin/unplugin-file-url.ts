@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-file-url',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-file-url?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-file-url)',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'justin-schroeder/unplugin-file-url',
+    npm: 'unplugin-file-url',
+  },
   links: {
     github: 'https://github.com/justin-schroeder/unplugin-file-url',
     npm: 'https://www.npmjs.com/package/unplugin-file-url',

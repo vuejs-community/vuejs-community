@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-alpine-router',
   description: 'Alpine Router integration for Vite.js',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'rehhouari/vite-plugin-alpine-router',
+    npm: 'vite-plugin-alpine-router',
+  },
   links: {
     github: 'https://github.com/rehhouari/vite-plugin-alpine-router',
     npm: 'https://www.npmjs.com/package/vite-plugin-alpine-router',

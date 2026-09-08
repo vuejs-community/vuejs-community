@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-wordpress-dependency-extraction',
   description: 'Rollup plugin to eliminate global Wordpress dependencies.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.4',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: '0zd0/rollup-plugin-wordpress-dependency-extraction',
+    npm: 'rollup-plugin-wordpress-dependency-extraction',
+  },
   links: {
     github: 'https://github.com/0zd0/rollup-plugin-wordpress-dependency-extraction',
     npm: 'https://www.npmjs.com/package/rollup-plugin-wordpress-dependency-extraction',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-albio',
   description: '',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.35',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'melindachang/vite-plugin-albio',
+    npm: 'vite-plugin-albio',
+  },
   links: {
     github: 'https://github.com/melindachang/vite-plugin-albio',
     npm: 'https://www.npmjs.com/package/vite-plugin-albio',

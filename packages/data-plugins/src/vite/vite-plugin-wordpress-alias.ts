@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-wordpress-alias',
   description: 'A Vite plugin that transforms asset URLs to use dev server URLs during WordPress theme development',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -25,6 +25,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'misits/vite-plugin-wordpress-alias',
+    npm: 'vite-plugin-wordpress-alias',
+  },
   links: {
     github: 'https://github.com/misits/vite-plugin-wordpress-alias',
     npm: 'https://www.npmjs.com/package/vite-plugin-wordpress-alias',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-violent-monkey',
   description: 'Prepends ViolentMonkey headers to your rollup bundle',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'jensk-dev/rollup-plugin-violent-monkey',
+    npm: 'rollup-plugin-violent-monkey',
+  },
   links: {
     github: 'https://github.com/jensk-dev/rollup-plugin-violent-monkey',
     npm: 'https://www.npmjs.com/package/rollup-plugin-violent-monkey',

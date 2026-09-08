@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-tailwindcss-shortener',
   description: 'Shorten the classes of Tailwind CSS',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.4.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'northernCold/unplugin-tailwindcss-shortener',
+    npm: 'unplugin-tailwindcss-shortener',
+  },
   links: {
     github: 'https://github.com/northernCold/unplugin-tailwindcss-shortener',
     npm: 'https://www.npmjs.com/package/unplugin-tailwindcss-shortener',

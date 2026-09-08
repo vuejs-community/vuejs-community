@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'unplugin-aplus-ui',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: '',
+    npm: 'unplugin-aplus-ui',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/unplugin-aplus-ui',

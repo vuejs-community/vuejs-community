@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-style-bundler',
   description: '`Automatically extract the `css` in `Vue` components and bundle them into the `js` source code, and then automatically insert the style into the head at runtime.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.9',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'zhangfisher/vite-plugin-vue-style-bundler',
+    npm: 'vite-plugin-vue-style-bundler',
+  },
   links: {
     github: 'https://github.com/zhangfisher/vite-plugin-vue-style-bundler',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-style-bundler',

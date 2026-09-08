@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-favicon-pwa',
   description: 'Vite plugin that generates favicons, Apple touch icons, PWA icons, and a web app manifest from one SVG.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.2.0',
   category: 'plugin',
   tags: [
@@ -26,6 +26,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'cpswsg/vite-plugin-favicon-pwa',
+    npm: 'vite-plugin-favicon-pwa',
+  },
   links: {
     github: 'https://github.com/cpswsg/vite-plugin-favicon-pwa',
     npm: 'https://www.npmjs.com/package/vite-plugin-favicon-pwa',

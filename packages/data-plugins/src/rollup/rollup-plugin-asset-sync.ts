@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-asset-sync',
   description: 'Asset files synchronization for rollup',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.7',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'rosenbjerg/rollup-plugin-asset-sync',
+    npm: 'rollup-plugin-asset-sync',
+  },
   links: {
     github: 'https://github.com/rosenbjerg/rollup-plugin-asset-sync',
     npm: 'https://www.npmjs.com/package/rollup-plugin-asset-sync',

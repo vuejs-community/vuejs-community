@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-routes',
   description: 'Description.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'lexmin0412/unplugin-routes',
+    npm: 'unplugin-routes',
+  },
   links: {
     github: 'https://github.com/lexmin0412/unplugin-routes',
     npm: 'https://www.npmjs.com/package/unplugin-routes',

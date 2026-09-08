@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-copy',
   description: 'Copy files and folders, with glob support.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '4.0.1',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'xiankq/unplugin-copy',
+    npm: 'unplugin-copy',
+  },
   links: {
     github: 'https://github.com/xiankq/unplugin-copy',
     npm: 'https://www.npmjs.com/package/unplugin-copy',

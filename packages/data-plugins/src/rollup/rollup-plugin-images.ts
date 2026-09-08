@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-images',
   description: 'Import JPG, PNG, GIF and SVG images for React Native',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'WilkeoCom/rollup-plugin-images',
+    npm: 'rollup-plugin-images',
+  },
   links: {
     github: 'https://github.com/WilkeoCom/rollup-plugin-images',
     npm: 'https://www.npmjs.com/package/rollup-plugin-images',

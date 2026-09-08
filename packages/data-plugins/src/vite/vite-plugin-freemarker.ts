@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-freemarker',
   description: '[Vite](https://github.com/vitejs/vite) plugin for [freemarker](https://freemarker.apache.org/).',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.2.0',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-freemarker',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-freemarker',

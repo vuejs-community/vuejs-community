@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-specifier',
   description: 'Vite plugin to update your ESM and CJS specifiers.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.0.0',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'morganney/vite-plugin-specifier',
+    npm: 'vite-plugin-specifier',
+  },
   links: {
     github: 'https://github.com/morganney/vite-plugin-specifier',
     npm: 'https://www.npmjs.com/package/vite-plugin-specifier',

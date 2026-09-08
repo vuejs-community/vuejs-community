@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-cloudflare-tunnel',
   description: 'A plugin that automatically creates and manages Cloudflare tunnels for local development',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.2',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'o-az/unplugin-cloudflare-tunnel',
+    npm: 'unplugin-cloudflare-tunnel',
+  },
   links: {
     github: 'https://github.com/o-az/unplugin-cloudflare-tunnel',
     npm: 'https://www.npmjs.com/package/unplugin-cloudflare-tunnel',

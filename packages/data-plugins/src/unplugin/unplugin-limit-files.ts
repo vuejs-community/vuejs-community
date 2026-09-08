@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-limit-files',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-limit-files?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-limit-files)',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.2.4',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'kvoon3/unplugin-limit-files',
+    npm: 'unplugin-limit-files',
+  },
   links: {
     github: 'https://github.com/kvoon3/unplugin-limit-files',
     npm: 'https://www.npmjs.com/package/unplugin-limit-files',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-react-vapor',
   description: 'unplugin for react-vapor',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.5',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'kazupon/inclusion-vapor',
+    npm: 'unplugin-react-vapor',
+  },
   links: {
     github: 'https://github.com/kazupon/inclusion-vapor',
     npm: 'https://www.npmjs.com/package/unplugin-react-vapor',

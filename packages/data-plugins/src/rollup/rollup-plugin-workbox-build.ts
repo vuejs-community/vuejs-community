@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-workbox-build',
   description: 'Rollup plugin that builds a service worker with workbox-build',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.2.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'Rainrider/rollup-plugin-workbox-build',
+    npm: 'rollup-plugin-workbox-build',
+  },
   links: {
     github: 'https://github.com/Rainrider/rollup-plugin-workbox-build',
     npm: 'https://www.npmjs.com/package/rollup-plugin-workbox-build',

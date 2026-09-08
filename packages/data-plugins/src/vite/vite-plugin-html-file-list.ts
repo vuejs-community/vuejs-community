@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-file-list',
   description: 'Lists all html files under the current project, useful for multi-page applications',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'amazingdudu/vite-plugin-html-file-list',
+    npm: 'vite-plugin-html-file-list',
+  },
   links: {
     github: 'https://github.com/amazingdudu/vite-plugin-html-file-list',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-file-list',

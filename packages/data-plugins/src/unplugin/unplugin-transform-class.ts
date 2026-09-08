@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-transform-class',
   description: 'transform class by rule, support use in vite, rollup, webpack',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.7.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'MellowCo/unplugin-transform-class',
+    npm: 'unplugin-transform-class',
+  },
   links: {
     github: 'https://github.com/MellowCo/unplugin-transform-class',
     npm: 'https://www.npmjs.com/package/unplugin-transform-class',

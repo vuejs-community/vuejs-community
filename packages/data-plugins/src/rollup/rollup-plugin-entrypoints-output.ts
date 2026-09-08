@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-entrypoints-output',
   description: 'A Rollup plugin for generating a JSON file containing the outputs for each input/entrypoint',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.0-rc.3',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'roberekson/rollup-plugin-entrypoints-output',
+    npm: 'rollup-plugin-entrypoints-output',
+  },
   links: {
     github: 'https://github.com/roberekson/rollup-plugin-entrypoints-output',
     npm: 'https://www.npmjs.com/package/rollup-plugin-entrypoints-output',

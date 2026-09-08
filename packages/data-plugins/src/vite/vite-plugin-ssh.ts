@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ssh',
   description: 'A vite ssh deploy plugin',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'drizzlesconsin/vite-plugin-ssh',
+    npm: 'vite-plugin-ssh',
+  },
   links: {
     github: 'https://github.com/drizzlesconsin/vite-plugin-ssh',
     npm: 'https://www.npmjs.com/package/vite-plugin-ssh',

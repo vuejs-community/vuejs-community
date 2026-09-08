@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-debrix',
   description: 'Official Debrix compiler Rollup plugin',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.1.0-alpha.3',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'rollup-plugin-debrix',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/rollup-plugin-debrix',

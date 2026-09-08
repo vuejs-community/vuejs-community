@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-jsx-hmr',
   description: 'Provides Vue 2/3 JSX & TSX support with HMR.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.3',
   category: 'plugin',
   tags: [
@@ -19,14 +19,18 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'Binbiubiubiu/unplugin-vue-jsx-hmr',
+    npm: 'unplugin-vue-jsx-hmr',
+  },
   links: {
     github: 'https://github.com/Binbiubiubiu/unplugin-vue-jsx-hmr',
     npm: 'https://www.npmjs.com/package/unplugin-vue-jsx-hmr',
   },
   stats: {
     downloads: {
-      monthly: 19,
-      weekly: 9,
+      monthly: 17,
+      weekly: 3,
     },
   },
 })

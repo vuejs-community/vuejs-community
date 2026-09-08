@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-inline',
   description: 'An unplugin to inline pure function calls.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '1.16.0',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'unstoppablecarl/unplugin-inline',
+    npm: 'unplugin-inline',
+  },
   links: {
     github: 'https://github.com/unstoppablecarl/unplugin-inline',
     npm: 'https://www.npmjs.com/package/unplugin-inline',

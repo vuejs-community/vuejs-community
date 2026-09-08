@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-reporter',
   description: 'Awesome reports for Rollup',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.4',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'vovkabelov/rollup-plugin-reporter',
+    npm: 'rollup-plugin-reporter',
+  },
   links: {
     github: 'https://github.com/vovkabelov/rollup-plugin-reporter',
     npm: 'https://www.npmjs.com/package/rollup-plugin-reporter',

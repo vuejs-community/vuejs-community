@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-squoosh',
   description: 'A vite plugin for compressing images using squoosh.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.7',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'bituq/vite-plugin-squoosh',
+    npm: 'vite-plugin-squoosh',
+  },
   links: {
     github: 'https://github.com/bituq/vite-plugin-squoosh',
     npm: 'https://www.npmjs.com/package/vite-plugin-squoosh',

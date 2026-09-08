@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-remove',
   description: 'Plugin to remove console.xx and debugger for Vite & Webpack & Esbuild & Rollup',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -23,6 +23,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'Talljack/unplugin-remove',
+    npm: 'unplugin-remove',
+  },
   links: {
     github: 'https://github.com/Talljack/unplugin-remove',
     npm: 'https://www.npmjs.com/package/unplugin-remove',

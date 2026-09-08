@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-solid',
   description: 'Transform Solid.js code in various bundlers powered by unplugin',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '2.0.0',
   category: 'plugin',
   tags: [
@@ -22,14 +22,18 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'unplugin/unplugin-solid',
+    npm: 'unplugin-solid',
+  },
   links: {
     github: 'https://github.com/unplugin/unplugin-solid',
     npm: 'https://www.npmjs.com/package/unplugin-solid',
   },
   stats: {
     downloads: {
-      monthly: 11486,
-      weekly: 4113,
+      monthly: 13737,
+      weekly: 2818,
     },
   },
 })

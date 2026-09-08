@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-github-code-import',
   description: 'Rollup plugin that imports code from a GitHub URL',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.2.0',
   category: 'plugin',
   tags: [
@@ -15,13 +15,17 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'haocheng6/rollup-plugin-github-code-import',
+    npm: 'rollup-plugin-github-code-import',
+  },
   links: {
     github: 'https://github.com/haocheng6/rollup-plugin-github-code-import',
     npm: 'https://www.npmjs.com/package/rollup-plugin-github-code-import',
   },
   stats: {
     downloads: {
-      monthly: 6,
+      monthly: 12,
       weekly: 2,
     },
   },

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-watch',
   description: 'A rollup plugin to specify directories and files to watch',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.5',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'jleeson/rollup-plugin-watch',
+    npm: 'rollup-plugin-watch',
+  },
   links: {
     github: 'https://github.com/jleeson/rollup-plugin-watch',
     npm: 'https://www.npmjs.com/package/rollup-plugin-watch',

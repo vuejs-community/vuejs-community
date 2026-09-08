@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-tsnew',
   description: 'a rollup plugin for typescript compile and support condition compile',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '3.0.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'wesmile2020/rollup-plugin-tsnew',
+    npm: 'rollup-plugin-tsnew',
+  },
   links: {
     github: 'https://github.com/wesmile2020/rollup-plugin-tsnew',
     npm: 'https://www.npmjs.com/package/rollup-plugin-tsnew',

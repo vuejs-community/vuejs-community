@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-uniapp-pages-json',
   description: '> uniapp pages.json 模块化 插件',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -16,14 +16,18 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-uniapp-pages-json',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-uniapp-pages-json',
   },
   stats: {
     downloads: {
-      monthly: 9,
-      weekly: 0,
+      monthly: 12,
+      weekly: 4,
     },
   },
 })

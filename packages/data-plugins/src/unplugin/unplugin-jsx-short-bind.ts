@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-jsx-short-bind',
   description: 'JSX short bind.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'zhiyuanzmj/unplugin-jsx-short-bind',
+    npm: 'unplugin-jsx-short-bind',
+  },
   links: {
     github: 'https://github.com/zhiyuanzmj/unplugin-jsx-short-bind',
     npm: 'https://www.npmjs.com/package/unplugin-jsx-short-bind',

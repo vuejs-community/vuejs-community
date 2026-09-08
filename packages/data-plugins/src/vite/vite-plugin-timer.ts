@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-timer',
   description: 'vite打包过程的时间所消耗的时间显示出来。 (The time consumed by the vite packaging process is displayed.)',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.3.4',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-timer',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-timer',

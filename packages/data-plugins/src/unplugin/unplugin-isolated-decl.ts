@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-isolated-decl',
   description: 'A blazing-fast tool for generating isolated declarations.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.17.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'unplugin/unplugin-isolated-decl',
+    npm: 'unplugin-isolated-decl',
+  },
   links: {
     github: 'https://github.com/unplugin/unplugin-isolated-decl',
     npm: 'https://www.npmjs.com/package/unplugin-isolated-decl',

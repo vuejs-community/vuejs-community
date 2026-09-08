@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-stylex',
   description: 'Unplugin for stylex',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.6.3',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'eryue0220/unplugin-stylex',
+    npm: 'unplugin-stylex',
+  },
   links: {
     github: 'https://github.com/eryue0220/unplugin-stylex',
     npm: 'https://www.npmjs.com/package/unplugin-stylex',

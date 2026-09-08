@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-merge-css',
   description: 'A vite plugin that automatically merges all css chunks for each entry point into a single css file.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'doberkofler/vite-plugin-merge-css',
+    npm: 'vite-plugin-merge-css',
+  },
   links: {
     github: 'https://github.com/doberkofler/vite-plugin-merge-css',
     npm: 'https://www.npmjs.com/package/vite-plugin-merge-css',

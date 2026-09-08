@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-uglifier',
   description: 'A Vite plugin for minifying and obfuscating CSS class and ID names in Vue components, reducing bundle size and hindering reverse-engineering.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ValerioGc/vite-plugin-uglifier',
+    npm: 'vite-plugin-uglifier',
+  },
   links: {
     github: 'https://github.com/ValerioGc/vite-plugin-uglifier',
     npm: 'https://www.npmjs.com/package/vite-plugin-uglifier',

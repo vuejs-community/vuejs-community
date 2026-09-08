@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-devtools-cn',
   description: 'A vite plugin for Vue DevTools in chinese',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '7.5.4',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'zjqzwh/vite-plugin-vue-devtools-chinese',
+    npm: 'vite-plugin-vue-devtools-cn',
+  },
   links: {
     github: 'https://github.com/zjqzwh/vite-plugin-vue-devtools-chinese',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-devtools-cn',

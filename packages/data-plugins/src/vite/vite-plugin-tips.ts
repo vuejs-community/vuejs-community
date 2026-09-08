@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tips',
   description: 'Provide better development server status tips on the page',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.1.2',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'yingpengsha/vite-plugin-tips',
+    npm: 'vite-plugin-tips',
+  },
   links: {
     github: 'https://github.com/yingpengsha/vite-plugin-tips',
     npm: 'https://www.npmjs.com/package/vite-plugin-tips',

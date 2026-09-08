@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-class-mangler-patch',
   description: 'Vite plugin for minifying and obfuscating CSS class names in production',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.1',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'kiosion/vite-plugin-class-mangler',
+    npm: 'vite-plugin-class-mangler-patch',
+  },
   links: {
     github: 'https://github.com/kiosion/vite-plugin-class-mangler',
     npm: 'https://www.npmjs.com/package/vite-plugin-class-mangler-patch',

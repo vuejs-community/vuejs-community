@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-build-metadata',
   description: 'Create Vite build meta',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.2.0',
   category: 'plugin',
   tags: [
@@ -12,6 +12,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'daniil4udo/vite-plugin-build-metadata',
+    npm: 'vite-plugin-build-metadata',
+  },
   links: {
     github: 'https://github.com/daniil4udo/vite-plugin-build-metadata',
     npm: 'https://www.npmjs.com/package/vite-plugin-build-metadata',

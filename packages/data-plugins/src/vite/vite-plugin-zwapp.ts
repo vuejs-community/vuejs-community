@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-zwapp',
   description: 'Vite plugin that can inject h functions and Fragments. 可以给zwapp注入h和Fragment的vite插件',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-zwapp',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-zwapp',

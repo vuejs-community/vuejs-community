@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-css-json-var',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.2.0',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'kyohei-23/vite-plugin-css-json-var',
+    npm: 'vite-plugin-css-json-var',
+  },
   links: {
     github: 'https://github.com/kyohei-23/vite-plugin-css-json-var',
     npm: 'https://www.npmjs.com/package/vite-plugin-css-json-var',

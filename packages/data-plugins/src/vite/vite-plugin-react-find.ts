@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-find',
   description: 'When developing a React app, you have a lot of components in your app. Sometimes you may forget where the code is located that you want to edit. Then you need this plugin to help you find the code, just click the dom in the browser and this plugin can hel',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.6.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'MkinG2k0/vite-plugin-react-find',
+    npm: 'vite-plugin-react-find',
+  },
   links: {
     github: 'https://github.com/MkinG2k0/vite-plugin-react-find',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-find',

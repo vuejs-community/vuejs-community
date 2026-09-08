@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-single-spa',
   description: 'Vite plugin to convert Vite-based projects to single-spa root or micro-frontend applications.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.1.1',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'WJSoftware/vite-plugin-single-spa',
+    npm: 'vite-plugin-single-spa',
+  },
   links: {
     github: 'https://github.com/WJSoftware/vite-plugin-single-spa',
     npm: 'https://www.npmjs.com/package/vite-plugin-single-spa',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-named-export',
   description: 'Named export for Vue SFC.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.10.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'unplugin/unplugin-vue-named-export',
+    npm: 'unplugin-vue-named-export',
+  },
   links: {
     github: 'https://github.com/unplugin/unplugin-vue-named-export',
     npm: 'https://www.npmjs.com/package/unplugin-vue-named-export',

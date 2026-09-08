@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-remove-attributes',
   description: 'A Vite-Plugin for React to remove Attributes on bundling',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'l-mbert/vite-plugin-react-remove-attributes',
+    npm: 'vite-plugin-react-remove-attributes',
+  },
   links: {
     github: 'https://github.com/l-mbert/vite-plugin-react-remove-attributes',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-remove-attributes',

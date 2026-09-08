@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18n-inspector',
   description: 'A Vite plugin to enhance i18n development experience in Vue applications',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'zhuoqi-chen/vite-plugin-i18n-inspector',
+    npm: 'vite-plugin-i18n-inspector',
+  },
   links: {
     github: 'https://github.com/zhuoqi-chen/vite-plugin-i18n-inspector',
     npm: 'https://www.npmjs.com/package/vite-plugin-i18n-inspector',

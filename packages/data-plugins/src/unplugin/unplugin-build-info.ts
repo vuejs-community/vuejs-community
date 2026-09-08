@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-build-info',
   description: 'Starter template for unplugin',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'wip-elonehoo/unplugin-build-info',
+    npm: 'unplugin-build-info',
+  },
   links: {
     github: 'https://github.com/wip-elonehoo/unplugin-build-info',
     npm: 'https://www.npmjs.com/package/unplugin-build-info',

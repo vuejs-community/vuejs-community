@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mcp',
   description: 'MCP server helping models to understand your Vite app better.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.3.2',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'antfu/nuxt-mcp-dev',
+    npm: 'vite-plugin-mcp',
+  },
   links: {
     github: 'https://github.com/antfu/nuxt-mcp-dev',
     npm: 'https://www.npmjs.com/package/vite-plugin-mcp',

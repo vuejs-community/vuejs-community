@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-content-security-policy',
   description: 'A Vite plugin for managing Content Security Policy (CSP) headers during development and generating Apache/Nginx configuration files',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Coreoz/vite-plugin-content-security-policy',
+    npm: 'vite-plugin-content-security-policy',
+  },
   links: {
     github: 'https://github.com/Coreoz/vite-plugin-content-security-policy',
     npm: 'https://www.npmjs.com/package/vite-plugin-content-security-policy',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mdx-plus',
   description: 'A vite plugin to use mdx with more opinionated features. It\'s plus!',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.1.0',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Codpoe/vite-plugin-mdx-plus',
+    npm: 'vite-plugin-mdx-plus',
+  },
   links: {
     github: 'https://github.com/Codpoe/vite-plugin-mdx-plus',
     npm: 'https://www.npmjs.com/package/vite-plugin-mdx-plus',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rolldown-plugin-concurrent-top-level-await',
   description: 'Rolldown (and Vite) plugin enabling concurrent execution of modules that contain top level await.',
-  icon: '',
+  icon: 'logos:rolldown-icon',
   version: '0.3.4',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'rolldown-plugin',
   ],
+  source: {
+    github: 'zOadT/concurrent-top-level-await-plugins',
+    npm: 'rolldown-plugin-concurrent-top-level-await',
+  },
   links: {
     github: 'https://github.com/zOadT/concurrent-top-level-await-plugins',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-concurrent-top-level-await',

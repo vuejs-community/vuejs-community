@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-eslinter',
   description: '',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.2',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'wai-lin/vite-plugin-eslinter',
+    npm: 'vite-plugin-eslinter',
+  },
   links: {
     github: 'https://github.com/wai-lin/vite-plugin-eslinter',
     npm: 'https://www.npmjs.com/package/vite-plugin-eslinter',

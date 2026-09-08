@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-swap-module',
   description: 'A rollup plugin to swap a module for another',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.4',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'mendlero/rollup-vite-plugins',
+    npm: 'rollup-plugin-swap-module',
+  },
   links: {
     github: 'https://github.com/mendlero/rollup-vite-plugins',
     npm: 'https://www.npmjs.com/package/rollup-plugin-swap-module',

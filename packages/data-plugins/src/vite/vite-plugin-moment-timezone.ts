@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-moment-timezone',
   description: 'Remove unneeded data from moment-timezone in a vite/rollup build',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.4',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'cbetori/vite-plugin-moment-timezone',
+    npm: 'vite-plugin-moment-timezone',
+  },
   links: {
     github: 'https://github.com/cbetori/vite-plugin-moment-timezone',
     npm: 'https://www.npmjs.com/package/vite-plugin-moment-timezone',

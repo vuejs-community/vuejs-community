@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-shipi18n',
   description: 'Vite plugin for automatic i18n translation at build time — bring your own OpenAI/Anthropic key. No hosted API.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.0.0',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Shipi18n/shipi18n',
+    npm: 'vite-plugin-shipi18n',
+  },
   links: {
     github: 'https://github.com/Shipi18n/shipi18n',
     npm: 'https://www.npmjs.com/package/vite-plugin-shipi18n',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-backloop.dev',
   description: 'Use backloop.dev for ViteJS development with https on localhost ',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.3.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'perki/backloop.dev-vite',
+    npm: 'vite-plugin-backloop.dev',
+  },
   links: {
     github: 'https://github.com/perki/backloop.dev-vite',
     npm: 'https://www.npmjs.com/package/vite-plugin-backloop.dev',

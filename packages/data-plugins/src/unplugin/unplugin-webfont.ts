@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-webfont',
   description: 'Build webfonts, iconfonts, and SVG component libraries from font and SVG sources.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.1',
   category: 'plugin',
   tags: [
@@ -29,6 +29,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: '',
+    npm: 'unplugin-webfont',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/unplugin-webfont',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-json2',
   description: 'A universal bundler plugin which Converts .json files to ES6 modules.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.2.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'wzc520pyfm/unplugin-json',
+    npm: 'unplugin-json2',
+  },
   links: {
     github: 'https://github.com/wzc520pyfm/unplugin-json',
     npm: 'https://www.npmjs.com/package/unplugin-json2',

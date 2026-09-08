@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-middleware',
   description: 'File-based navigation guards for Vue Router',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'awdr74100/vite-plugin-vue-middleware',
+    npm: 'vite-plugin-vue-middleware',
+  },
   links: {
     github: 'https://github.com/awdr74100/vite-plugin-vue-middleware',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-middleware',

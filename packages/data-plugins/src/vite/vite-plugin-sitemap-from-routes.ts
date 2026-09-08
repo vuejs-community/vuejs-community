@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sitemap-from-routes',
   description: 'A Vite plugin to generate sitemap.xml from your application\'s routes.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'hebertcisco/vite-plugin-sitemap-from-routes',
+    npm: 'vite-plugin-sitemap-from-routes',
+  },
   links: {
     github: 'https://github.com/hebertcisco/vite-plugin-sitemap-from-routes',
     npm: 'https://www.npmjs.com/package/vite-plugin-sitemap-from-routes',

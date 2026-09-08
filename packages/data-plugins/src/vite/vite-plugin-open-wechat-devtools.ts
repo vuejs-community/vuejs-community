@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-open-wechat-devtools',
   description: 'Vite plugin to automatically open WeChat DevTools after dev/build',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'AnonymXXX/vite-plugin-open-wechat-devtools',
+    npm: 'vite-plugin-open-wechat-devtools',
+  },
   links: {
     github: 'https://github.com/AnonymXXX/vite-plugin-open-wechat-devtools',
     npm: 'https://www.npmjs.com/package/vite-plugin-open-wechat-devtools',

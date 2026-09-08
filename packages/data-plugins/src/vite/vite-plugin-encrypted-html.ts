@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-encrypted-html',
   description: 'Vite plugin that encrypts your built HTML with AES-256-GCM and fronts it with a decoy page',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'waerhert/vite-plugin-encrypted-html',
+    npm: 'vite-plugin-encrypted-html',
+  },
   links: {
     github: 'https://github.com/waerhert/vite-plugin-encrypted-html',
     npm: 'https://www.npmjs.com/package/vite-plugin-encrypted-html',

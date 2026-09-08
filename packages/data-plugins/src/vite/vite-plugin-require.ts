@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-require',
   description: 'can let vite projects to support require',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.3.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'wangzongming/vite-plugin-require',
+    npm: 'vite-plugin-require',
+  },
   links: {
     github: 'https://github.com/wangzongming/vite-plugin-require',
     npm: 'https://www.npmjs.com/package/vite-plugin-require',

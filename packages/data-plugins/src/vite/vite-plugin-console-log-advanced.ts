@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-console-log-advanced',
   description: 'Zero-dependency Vite plugin for advanced dev logging. Pretty grouped console output, auto caller info, silent in production.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -30,6 +30,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'amirrr1987/console-log-advanced',
+    npm: 'vite-plugin-console-log-advanced',
+  },
   links: {
     github: 'https://github.com/amirrr1987/console-log-advanced',
     npm: 'https://www.npmjs.com/package/vite-plugin-console-log-advanced',

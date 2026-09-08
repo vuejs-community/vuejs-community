@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-gleam',
   description: 'Gleam plugin to vite runtime.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.8',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'gleam-br/vite-plugin-gleam',
+    npm: 'vite-plugin-gleam',
+  },
   links: {
     github: 'https://github.com/gleam-br/vite-plugin-gleam',
     npm: 'https://www.npmjs.com/package/vite-plugin-gleam',

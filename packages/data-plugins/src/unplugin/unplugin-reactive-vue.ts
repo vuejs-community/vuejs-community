@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-reactive-vue',
   description: 'Reactivity Transform on $-Prefixed Identifiers',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '2.0.0',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: '',
+    npm: 'unplugin-reactive-vue',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/unplugin-reactive-vue',

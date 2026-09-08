@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-auto-import-lx',
   description: 'Register global imports on demand for Vite and Webpack',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.11.2-dev.1',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'antfu/unplugin-auto-import',
+    npm: 'unplugin-auto-import-lx',
+  },
   links: {
     github: 'https://github.com/antfu/unplugin-auto-import',
     npm: 'https://www.npmjs.com/package/unplugin-auto-import-lx',

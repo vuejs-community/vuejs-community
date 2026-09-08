@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-for-load-css-module',
   description: 'A plugin to extend vite\'s css module rules, not just ".module" suffix',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.2',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'tongtannan/vite-plugin-for-load-css-module',
+    npm: 'vite-plugin-for-load-css-module',
+  },
   links: {
     github: 'https://github.com/tongtannan/vite-plugin-for-load-css-module',
     npm: 'https://www.npmjs.com/package/vite-plugin-for-load-css-module',

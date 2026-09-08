@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-next-react-router',
   description: '![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/zoubingwu/vite-plugin-next-react-router/test.yaml) ![npm](https://img.shields.io/npm/v/vite-plugin-next-react-router)',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.7.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'zoubingwu/vite-plugin-next-react-router',
+    npm: 'vite-plugin-next-react-router',
+  },
   links: {
     github: 'https://github.com/zoubingwu/vite-plugin-next-react-router',
     npm: 'https://www.npmjs.com/package/vite-plugin-next-react-router',

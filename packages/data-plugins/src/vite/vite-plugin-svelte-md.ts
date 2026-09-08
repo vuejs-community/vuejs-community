@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svelte-md',
   description: 'Vite plugin to convert markdown to svelte template',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.8.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ota-meshi/vite-plugin-svelte-md',
+    npm: 'vite-plugin-svelte-md',
+  },
   links: {
     github: 'https://github.com/ota-meshi/vite-plugin-svelte-md',
     npm: 'https://www.npmjs.com/package/vite-plugin-svelte-md',

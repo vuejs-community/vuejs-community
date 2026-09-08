@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-generator-version',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-starter?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-starter)',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'liujiayii/unplugin-generate-version',
+    npm: 'unplugin-generator-version',
+  },
   links: {
     github: 'https://github.com/liujiayii/unplugin-generate-version',
     npm: 'https://www.npmjs.com/package/unplugin-generator-version',

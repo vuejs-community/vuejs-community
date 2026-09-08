@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-uniapp-routes',
   description: '一个根据 pages.json 自动生成路由枚举文件的 Vite 插件。',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.1',
   category: 'plugin',
   tags: [
@@ -12,6 +12,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-uniapp-routes',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-uniapp-routes',

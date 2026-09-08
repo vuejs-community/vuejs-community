@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-datadog-apm',
   description: 'Unplugin for Datadog APM instrumentation in bundled Node.js applications',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.3.0',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'tractorbeamai/unplugin-datadog-apm',
+    npm: 'unplugin-datadog-apm',
+  },
   links: {
     github: 'https://github.com/tractorbeamai/unplugin-datadog-apm',
     npm: 'https://www.npmjs.com/package/unplugin-datadog-apm',

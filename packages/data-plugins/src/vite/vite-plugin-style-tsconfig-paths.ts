@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-style-tsconfig-paths',
   description: '> A Vite plugin to resolve paths from tsconfig.json in style imports(less, sass, scss, stylus, css)',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'WangYuLue/vite-plugin-style-tsconfig-paths',
+    npm: 'vite-plugin-style-tsconfig-paths',
+  },
   links: {
     github: 'https://github.com/WangYuLue/vite-plugin-style-tsconfig-paths',
     npm: 'https://www.npmjs.com/package/vite-plugin-style-tsconfig-paths',

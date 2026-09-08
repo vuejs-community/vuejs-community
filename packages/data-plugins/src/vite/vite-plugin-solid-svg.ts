@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-solid-svg',
   description: 'Import SVG files as Solid.js Components',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.8.1',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'jfgodoy/vite-plugin-solid-svg',
+    npm: 'vite-plugin-solid-svg',
+  },
   links: {
     github: 'https://github.com/jfgodoy/vite-plugin-solid-svg',
     npm: 'https://www.npmjs.com/package/vite-plugin-solid-svg',

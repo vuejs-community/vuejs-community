@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-proxy-directories',
   description: 'creates proxy directories for libraries without configuration to make direct imports easier.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.2.0',
   category: 'plugin',
   tags: [
@@ -17,14 +17,18 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'adriankremer/rollup-plugin-proxy-directories',
+    npm: 'rollup-plugin-proxy-directories',
+  },
   links: {
     github: 'https://github.com/adriankremer/rollup-plugin-proxy-directories',
     npm: 'https://www.npmjs.com/package/rollup-plugin-proxy-directories',
   },
   stats: {
     downloads: {
-      monthly: 120,
-      weekly: 4,
+      monthly: 100,
+      weekly: 21,
     },
   },
 })

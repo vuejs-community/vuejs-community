@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-deploy-to-s3',
   description: 'upload dist to s3',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.8',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'chenx/vite-plugin-deploy-s3',
+    npm: 'vite-plugin-deploy-to-s3',
+  },
   links: {
     github: 'https://github.com/chenx/vite-plugin-deploy-s3',
     npm: 'https://www.npmjs.com/package/vite-plugin-deploy-to-s3',

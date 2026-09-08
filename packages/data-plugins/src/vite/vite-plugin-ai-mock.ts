@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ai-mock',
   description: 'A Vite plugin for AI streaming mock (SSE/JSON) with configurable scenarios.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'quanzhiyuan/vite-plugin-ai-mock',
+    npm: 'vite-plugin-ai-mock',
+  },
   links: {
     github: 'https://github.com/quanzhiyuan/vite-plugin-ai-mock',
     npm: 'https://www.npmjs.com/package/vite-plugin-ai-mock',

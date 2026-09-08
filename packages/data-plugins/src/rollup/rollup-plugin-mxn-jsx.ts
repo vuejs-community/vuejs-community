@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-mxn-jsx',
   description: 'Rollup JSX plugin that transpiles JSX into JavaScript',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.8.4',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'ZimNovich/rollup-plugin-mxn-jsx',
+    npm: 'rollup-plugin-mxn-jsx',
+  },
   links: {
     github: 'https://github.com/ZimNovich/rollup-plugin-mxn-jsx',
     npm: 'https://www.npmjs.com/package/rollup-plugin-mxn-jsx',

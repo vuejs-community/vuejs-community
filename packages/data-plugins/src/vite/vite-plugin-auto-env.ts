@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-env',
   description: 'Automatically generate env type',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'elonehoo/vite-plugin-auto-env',
+    npm: 'vite-plugin-auto-env',
+  },
   links: {
     github: 'https://github.com/elonehoo/vite-plugin-auto-env',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-env',

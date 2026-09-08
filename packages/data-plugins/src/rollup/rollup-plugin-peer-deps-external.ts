@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-peer-deps-external',
   description: 'Rollup plugin to automatically add a library\'s peerDependencies to its bundle\'s external config.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '2.2.4',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'pmowrer/rollup-plugin-peer-deps-external',
+    npm: 'rollup-plugin-peer-deps-external',
+  },
   links: {
     github: 'https://github.com/pmowrer/rollup-plugin-peer-deps-external',
     npm: 'https://www.npmjs.com/package/rollup-plugin-peer-deps-external',

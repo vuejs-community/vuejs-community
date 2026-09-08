@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-semi-theme-fix',
   description: '基于【vite-plugin-semi-theme】修复版本',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'hechaoqun/vite-plugin-semi-theme-fix',
+    npm: 'vite-plugin-semi-theme-fix',
+  },
   links: {
     github: 'https://github.com/hechaoqun/vite-plugin-semi-theme-fix',
     npm: 'https://www.npmjs.com/package/vite-plugin-semi-theme-fix',

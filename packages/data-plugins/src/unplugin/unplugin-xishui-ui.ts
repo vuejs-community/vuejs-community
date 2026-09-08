@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'unplugin-xishui-ui',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.3',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'zhuiyue132/unplugin-xishui-ui',
+    npm: 'unplugin-xishui-ui',
+  },
   links: {
     github: 'https://github.com/zhuiyue132/unplugin-xishui-ui',
     npm: 'https://www.npmjs.com/package/unplugin-xishui-ui',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-share-manifest',
   description: 'The Rollup plugin to share manifest between builds',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'kuoruan/rollup-plugin-share-manifest',
+    npm: 'rollup-plugin-share-manifest',
+  },
   links: {
     github: 'https://github.com/kuoruan/rollup-plugin-share-manifest',
     npm: 'https://www.npmjs.com/package/rollup-plugin-share-manifest',

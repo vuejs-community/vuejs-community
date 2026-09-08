@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-spritesmith',
   description: 'vite plugin that converts set of images into sprites',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'evont/vite-plugin-spritesmith',
+    npm: 'vite-plugin-spritesmith',
+  },
   links: {
     github: 'https://github.com/evont/vite-plugin-spritesmith',
     npm: 'https://www.npmjs.com/package/vite-plugin-spritesmith',

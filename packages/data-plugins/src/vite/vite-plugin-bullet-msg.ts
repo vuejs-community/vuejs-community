@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-bullet-msg',
   description: 'vite-plugin-bullet-msg',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'PengBoUESTC/vite-plugin-bullet-msg',
+    npm: 'vite-plugin-bullet-msg',
+  },
   links: {
     github: 'https://github.com/PengBoUESTC/vite-plugin-bullet-msg',
     npm: 'https://www.npmjs.com/package/vite-plugin-bullet-msg',

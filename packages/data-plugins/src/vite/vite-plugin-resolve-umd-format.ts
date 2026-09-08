@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-resolve-umd-format',
   description: 'Vite plugin that use \'.js\' extension for the UMD format',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'bent10/vite-plugins',
+    npm: 'vite-plugin-resolve-umd-format',
+  },
   links: {
     github: 'https://github.com/bent10/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-resolve-umd-format',

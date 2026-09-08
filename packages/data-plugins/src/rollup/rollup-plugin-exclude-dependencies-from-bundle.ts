@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-exclude-dependencies-from-bundle',
   description: 'Rollup plugin to automatically add a library\'s peerDependencies and Dependencies to its bundle\'s external config.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.1.24',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'basselalaraaj/rollup-plugin-exclude-dependencies-from-bundle',
+    npm: 'rollup-plugin-exclude-dependencies-from-bundle',
+  },
   links: {
     github: 'https://github.com/basselalaraaj/rollup-plugin-exclude-dependencies-from-bundle',
     npm: 'https://www.npmjs.com/package/rollup-plugin-exclude-dependencies-from-bundle',

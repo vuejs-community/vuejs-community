@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-bib',
   description: 'A Vite plugin to import BibTeX files as JS objects.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.2',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ChunxuYang/vite-plugin-bib',
+    npm: 'vite-plugin-bib',
+  },
   links: {
     github: 'https://github.com/ChunxuYang/vite-plugin-bib',
     npm: 'https://www.npmjs.com/package/vite-plugin-bib',

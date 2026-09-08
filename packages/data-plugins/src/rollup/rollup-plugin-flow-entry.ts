@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-flow-entry',
   description: 'Allows Flow to find the original typed source code for the Rollup bundle',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.3.6',
   category: 'plugin',
   tags: [
@@ -12,6 +12,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'rollup-plugin-flow-entry',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/rollup-plugin-flow-entry',

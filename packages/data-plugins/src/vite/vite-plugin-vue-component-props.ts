@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-component-props',
   description: '[![NPM version](https://img.shields.io/npm/v/vite-plugin-vue-component-props?color=a1b858&label=)](https://www.npmjs.com/package/vite-plugin-vue-component-props)',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.5',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'tttxdxd/vite-plugin-vue-component-props',
+    npm: 'vite-plugin-vue-component-props',
+  },
   links: {
     github: 'https://github.com/tttxdxd/vite-plugin-vue-component-props',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-component-props',

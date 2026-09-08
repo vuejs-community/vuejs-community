@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-stylint',
   description: 'Lint all your entry stylus files with stylint',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'sandark7/rollup-plugin-stylint',
+    npm: 'rollup-plugin-stylint',
+  },
   links: {
     github: 'https://github.com/sandark7/rollup-plugin-stylint',
     npm: 'https://www.npmjs.com/package/rollup-plugin-stylint',

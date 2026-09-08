@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-clickable-file-path',
   description: 'Convert vite console output file paths into clickable file urls ',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.3',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'GoldingAustin/vite-plugin-clickable-file-path',
+    npm: 'vite-plugin-clickable-file-path',
+  },
   links: {
     github: 'https://github.com/GoldingAustin/vite-plugin-clickable-file-path',
     npm: 'https://www.npmjs.com/package/vite-plugin-clickable-file-path',

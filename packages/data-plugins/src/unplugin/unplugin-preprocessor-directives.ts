@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-preprocessor-directives',
   description: '<img src="assets/logo.svg" alt="logo" width="100" height="100" align="right" />',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '1.2.0',
   category: 'plugin',
   tags: [
@@ -25,6 +25,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'kejunmao/unplugin-preprocessor-directives',
+    npm: 'unplugin-preprocessor-directives',
+  },
   links: {
     github: 'https://github.com/kejunmao/unplugin-preprocessor-directives',
     npm: 'https://www.npmjs.com/package/unplugin-preprocessor-directives',

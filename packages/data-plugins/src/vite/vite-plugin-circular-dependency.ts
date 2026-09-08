@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-circular-dependency',
   description: 'Detect circular dependencies',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.6.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'threedayAAAAA/vite-plugin-circular-dependency',
+    npm: 'vite-plugin-circular-dependency',
+  },
   links: {
     github: 'https://github.com/threedayAAAAA/vite-plugin-circular-dependency',
     npm: 'https://www.npmjs.com/package/vite-plugin-circular-dependency',

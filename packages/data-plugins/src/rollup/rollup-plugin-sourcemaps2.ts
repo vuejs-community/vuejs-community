@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-sourcemaps2',
   description: 'Rollup plugin for grabbing source maps from sourceMappingURLs',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.5.8',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: '2wce/rollup-plugin-sourcemaps2',
+    npm: 'rollup-plugin-sourcemaps2',
+  },
   links: {
     github: 'https://github.com/2wce/rollup-plugin-sourcemaps2',
     npm: 'https://www.npmjs.com/package/rollup-plugin-sourcemaps2',

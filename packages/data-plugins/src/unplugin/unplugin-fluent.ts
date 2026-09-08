@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-fluent',
   description: 'Use all the power of the fluent project with your favorite bundler/compiler',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'redfox-mx/unplugin-fluent',
+    npm: 'unplugin-fluent',
+  },
   links: {
     github: 'https://github.com/redfox-mx/unplugin-fluent',
     npm: 'https://www.npmjs.com/package/unplugin-fluent',

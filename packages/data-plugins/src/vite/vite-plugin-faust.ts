@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-faust',
   description: 'Vite plugin to transform Faust .dsp files into importable js/wasm modules',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.2.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'mrkev/pkg',
+    npm: 'vite-plugin-faust',
+  },
   links: {
     github: 'https://github.com/mrkev/pkg',
     npm: 'https://www.npmjs.com/package/vite-plugin-faust',

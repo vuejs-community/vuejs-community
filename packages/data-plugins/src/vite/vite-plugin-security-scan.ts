@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-security-scan',
   description: 'Vite plugin for scanning security risks in frontend code',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'rocktntz/vite-plugin-security-scan',
+    npm: 'vite-plugin-security-scan',
+  },
   links: {
     github: 'https://github.com/rocktntz/vite-plugin-security-scan',
     npm: 'https://www.npmjs.com/package/vite-plugin-security-scan',

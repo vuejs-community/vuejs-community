@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-compression',
   description: 'Use gzip or brotli to compress resources.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.5.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'anncwb/vite-plugin-compression',
+    npm: 'vite-plugin-compression',
+  },
   links: {
     github: 'https://github.com/anncwb/vite-plugin-compression',
     npm: 'https://www.npmjs.com/package/vite-plugin-compression',

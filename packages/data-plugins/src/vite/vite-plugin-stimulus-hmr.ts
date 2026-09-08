@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-stimulus-hmr',
   description: 'HMR for Stimulus controllers in Vite.js, tweak your JS without refreshing the page.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '3.0.0',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ElMassimo/vite-plugin-stimulus-hmr',
+    npm: 'vite-plugin-stimulus-hmr',
+  },
   links: {
     github: 'https://github.com/ElMassimo/vite-plugin-stimulus-hmr',
     npm: 'https://www.npmjs.com/package/vite-plugin-stimulus-hmr',

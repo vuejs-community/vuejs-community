@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-monkey',
   description: 'A vite plugin server and build your.user.js for userscript engine like Tampermonkey and Violentmonkey and Greasemonkey',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '8.1.1',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'lisonge/vite-plugin-monkey',
+    npm: 'vite-plugin-monkey',
+  },
   links: {
     github: 'https://github.com/lisonge/vite-plugin-monkey',
     npm: 'https://www.npmjs.com/package/vite-plugin-monkey',

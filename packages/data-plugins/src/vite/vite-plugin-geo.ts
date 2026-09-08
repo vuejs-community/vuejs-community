@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-geo',
   description: 'Vite plugin to generate sitemap.xml, llms.txt, robots.txt, and optional GEO companion files.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.4',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'maxlee/vite-plugin-geo',
+    npm: 'vite-plugin-geo',
+  },
   links: {
     github: 'https://github.com/maxlee/vite-plugin-geo',
     npm: 'https://www.npmjs.com/package/vite-plugin-geo',

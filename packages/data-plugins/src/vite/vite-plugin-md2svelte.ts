@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-md2svelte',
   description: 'A Vite plugin that converts Markdown files to Svelte components with frontmatter support, custom components, and plugin extensibility',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -19,14 +19,18 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'CatBraaain/vite-plugin-md2svelte',
+    npm: 'vite-plugin-md2svelte',
+  },
   links: {
     github: 'https://github.com/CatBraaain/vite-plugin-md2svelte',
     npm: 'https://www.npmjs.com/package/vite-plugin-md2svelte',
   },
   stats: {
     downloads: {
-      monthly: 7,
-      weekly: 0,
+      monthly: 10,
+      weekly: 1,
     },
   },
 })

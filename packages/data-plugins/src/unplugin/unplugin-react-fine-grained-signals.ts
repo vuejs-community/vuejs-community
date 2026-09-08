@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-react-fine-grained-signals',
   description: 'Universal useSignals transform for react-fine-grained-signals.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'sakzw/react-fine-grained-signals',
+    npm: 'unplugin-react-fine-grained-signals',
+  },
   links: {
     github: 'https://github.com/sakzw/react-fine-grained-signals',
     npm: 'https://www.npmjs.com/package/unplugin-react-fine-grained-signals',

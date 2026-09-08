@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-ts2-custom',
   description: 'Seamless integration between Rollup and TypeScript. Now with errors.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.1.3',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'ezolenko/rollup-plugin-typescript2',
+    npm: 'rollup-plugin-ts2-custom',
+  },
   links: {
     github: 'https://github.com/ezolenko/rollup-plugin-typescript2',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ts2-custom',

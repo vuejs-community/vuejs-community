@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-posthtml',
   description: 'A Vite plugin for PostHTML',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.3',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'chromeos/static-site-scaffold-modules',
+    npm: 'vite-plugin-posthtml',
+  },
   links: {
     github: 'https://github.com/chromeos/static-site-scaffold-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-posthtml',

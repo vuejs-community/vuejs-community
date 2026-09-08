@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-prepack-up',
   description: 'Rollup plugin (updated fork) for Prepack.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'joseluisq/rollup-plugin-prepack-up',
+    npm: 'rollup-plugin-prepack-up',
+  },
   links: {
     github: 'https://github.com/joseluisq/rollup-plugin-prepack-up',
     npm: 'https://www.npmjs.com/package/rollup-plugin-prepack-up',

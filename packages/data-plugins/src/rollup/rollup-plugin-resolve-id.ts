@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-resolve-id',
   description: 'Resolves import statements using aliases and file extensions, (sync with webpack resolve specs)',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.2',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'allex/rollup-plugin-resolve-id',
+    npm: 'rollup-plugin-resolve-id',
+  },
   links: {
     github: 'https://github.com/allex/rollup-plugin-resolve-id',
     npm: 'https://www.npmjs.com/package/rollup-plugin-resolve-id',

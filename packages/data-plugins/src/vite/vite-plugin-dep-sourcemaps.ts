@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dep-sourcemaps',
   description: 'Chain a bundle\'s sourcemaps through its dependencies\' sourcemaps so stack traces resolve to the original source instead of the bundled dist — works under Rolldown / Vite 8 where external dependency sourcemaps aren\'t chained yet.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'javadtavakoli/vite-plugin-dep-sourcemaps',
+    npm: 'vite-plugin-dep-sourcemaps',
+  },
   links: {
     github: 'https://github.com/javadtavakoli/vite-plugin-dep-sourcemaps',
     npm: 'https://www.npmjs.com/package/vite-plugin-dep-sourcemaps',

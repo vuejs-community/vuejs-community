@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-unocss-watcher',
   description: 'A Vite plugin to reload UnoCSS config when files changed',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.2',
   category: 'plugin',
   tags: [
@@ -14,14 +14,18 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ocavue/vite-plugin-unocss-watcher',
+    npm: 'vite-plugin-unocss-watcher',
+  },
   links: {
     github: 'https://github.com/ocavue/vite-plugin-unocss-watcher',
     npm: 'https://www.npmjs.com/package/vite-plugin-unocss-watcher',
   },
   stats: {
     downloads: {
-      monthly: 45,
-      weekly: 7,
+      monthly: 42,
+      weekly: 4,
     },
   },
 })

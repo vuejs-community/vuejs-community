@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-iconify-plus',
   description: 'A vite plugin that loads iconify icons from projects on demand to support iconify icons for use in environments where the public network is not accessible',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'cMing1997/vite-plugin-iconify-plus',
+    npm: 'vite-plugin-iconify-plus',
+  },
   links: {
     github: 'https://github.com/cMing1997/vite-plugin-iconify-plus',
     npm: 'https://www.npmjs.com/package/vite-plugin-iconify-plus',

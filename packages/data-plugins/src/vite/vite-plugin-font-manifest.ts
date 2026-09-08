@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-font-manifest',
   description: 'Add font information to Vite build manifests',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.2.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'daun/vite-plugin-font-manifest',
+    npm: 'vite-plugin-font-manifest',
+  },
   links: {
     github: 'https://github.com/daun/vite-plugin-font-manifest',
     npm: 'https://www.npmjs.com/package/vite-plugin-font-manifest',

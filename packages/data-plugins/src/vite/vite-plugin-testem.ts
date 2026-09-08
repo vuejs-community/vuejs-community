@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-testem',
   description: 'Vite plugin and Testem middleware helper for running browser tests with Testem',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Gaurav0/vite-plugin-testem',
+    npm: 'vite-plugin-testem',
+  },
   links: {
     github: 'https://github.com/Gaurav0/vite-plugin-testem',
     npm: 'https://www.npmjs.com/package/vite-plugin-testem',

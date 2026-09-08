@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dynamic-importmap',
   description: 'A Vite plugin that enables dynamic importmap loading by ensuring the importmap is fetched at runtime and gets applied before any other JavaScript runs',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.1.2',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'adamsondavid/vite-plugin-dynamic-importmap',
+    npm: 'vite-plugin-dynamic-importmap',
+  },
   links: {
     github: 'https://github.com/adamsondavid/vite-plugin-dynamic-importmap',
     npm: 'https://www.npmjs.com/package/vite-plugin-dynamic-importmap',

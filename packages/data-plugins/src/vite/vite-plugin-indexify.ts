@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-indexify',
   description: 'Generate jsons that index all or some files output by vite.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.7.0',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'klm127/vite-plugin-indexify',
+    npm: 'vite-plugin-indexify',
+  },
   links: {
     github: 'https://github.com/klm127/vite-plugin-indexify',
     npm: 'https://www.npmjs.com/package/vite-plugin-indexify',

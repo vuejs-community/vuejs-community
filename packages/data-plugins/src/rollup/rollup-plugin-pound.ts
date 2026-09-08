@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-pound',
   description: 'Get rid of those pesky $ signs in your template strings! Replace them with the good old british £, or any other currency symbol!',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '2.0.0',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'penalosa/rollup-plugin-pound',
+    npm: 'rollup-plugin-pound',
+  },
   links: {
     github: 'https://github.com/penalosa/rollup-plugin-pound',
     npm: 'https://www.npmjs.com/package/rollup-plugin-pound',

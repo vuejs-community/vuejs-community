@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-erb',
   description: 'Use ERB files in Vite.js projects with a Ruby backend',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.2.0',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ElMassimo/vite-plugin-erb',
+    npm: 'vite-plugin-erb',
+  },
   links: {
     github: 'https://github.com/ElMassimo/vite-plugin-erb',
     npm: 'https://www.npmjs.com/package/vite-plugin-erb',

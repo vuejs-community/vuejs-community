@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-lazy',
   description: 'Seamless conditional imports with React Suspense',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'alloc/vite-plugin-react-lazy',
+    npm: 'vite-plugin-react-lazy',
+  },
   links: {
     github: 'https://github.com/alloc/vite-plugin-react-lazy',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-lazy',

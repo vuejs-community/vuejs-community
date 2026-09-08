@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-kern-extra-icons',
   description: 'Vite plugin to load material icons not bundled with @kern-ux/native dynamically',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Dataport/vite-plugin-kern-extra-icons',
+    npm: 'vite-plugin-kern-extra-icons',
+  },
   links: {
     github: 'https://github.com/Dataport/vite-plugin-kern-extra-icons',
     npm: 'https://www.npmjs.com/package/vite-plugin-kern-extra-icons',

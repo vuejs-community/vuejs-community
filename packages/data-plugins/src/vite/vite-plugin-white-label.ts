@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-white-label',
   description: 'White-label / multi-brand system for Vite (Vue / React): hard-link shadow directory with brand inheritance (extends) and HMR',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'evanz1215/vite-plugin-white-label',
+    npm: 'vite-plugin-white-label',
+  },
   links: {
     github: 'https://github.com/evanz1215/vite-plugin-white-label',
     npm: 'https://www.npmjs.com/package/vite-plugin-white-label',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-better-ts-log',
   description: 'This plugin aim to enhance your dev tools log experience.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.2',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'ZoxDev/unplugin-better-ts-log',
+    npm: 'unplugin-better-ts-log',
+  },
   links: {
     github: 'https://github.com/ZoxDev/unplugin-better-ts-log',
     npm: 'https://www.npmjs.com/package/unplugin-better-ts-log',

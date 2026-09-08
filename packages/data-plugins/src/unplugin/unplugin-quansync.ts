@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-quansync',
   description: 'Write async functions, get both async and sync functions',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.6.0',
   category: 'plugin',
   tags: [
@@ -23,6 +23,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'quansync-dev/unplugin-quansync',
+    npm: 'unplugin-quansync',
+  },
   links: {
     github: 'https://github.com/quansync-dev/unplugin-quansync',
     npm: 'https://www.npmjs.com/package/unplugin-quansync',

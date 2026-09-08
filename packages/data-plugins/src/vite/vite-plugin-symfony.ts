@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-symfony',
   description: 'A Vite plugin to integrate easily Vite in your Symfony application',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '8.2.4',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'lhapaipai/vite-plugin-symfony',
+    npm: 'vite-plugin-symfony',
+  },
   links: {
     github: 'https://github.com/lhapaipai/vite-plugin-symfony',
     npm: 'https://www.npmjs.com/package/vite-plugin-symfony',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue2-pages',
   description: 'File-based routing plugin for Vue 2',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'kricsleo/unplugin-vue2-pages',
+    npm: 'unplugin-vue2-pages',
+  },
   links: {
     github: 'https://github.com/kricsleo/unplugin-vue2-pages',
     npm: 'https://www.npmjs.com/package/unplugin-vue2-pages',

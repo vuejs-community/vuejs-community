@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-module-script',
   description: 'A vite plugin for dynamic creating a module script tag.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'fengxinming/vite-plugins',
+    npm: 'vite-plugin-module-script',
+  },
   links: {
     github: 'https://github.com/fengxinming/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-module-script',

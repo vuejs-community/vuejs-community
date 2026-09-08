@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-rollbar',
   description: 'A Vite plugin to upload sourcemaps to Rollbar after build.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.14',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'clinggroup/vite-plugin-rollbar',
+    npm: 'vite-plugin-rollbar',
+  },
   links: {
     github: 'https://github.com/clinggroup/vite-plugin-rollbar',
     npm: 'https://www.npmjs.com/package/vite-plugin-rollbar',

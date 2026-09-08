@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-time-stat-nightly',
   description: 'Build time stat reporting for unplugin',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.0-28332255.73ffe33',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'kazupon/unplugin-time-stat',
+    npm: 'unplugin-time-stat-nightly',
+  },
   links: {
     github: 'https://github.com/kazupon/unplugin-time-stat',
     npm: 'https://www.npmjs.com/package/unplugin-time-stat-nightly',

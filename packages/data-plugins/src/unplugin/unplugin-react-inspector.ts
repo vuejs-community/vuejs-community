@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-react-inspector',
   description: 'A plugin to improve the happiness index of react development',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.12',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'qiuqfang/unplugin-react-inspector',
+    npm: 'unplugin-react-inspector',
+  },
   links: {
     github: 'https://github.com/qiuqfang/unplugin-react-inspector',
     npm: 'https://www.npmjs.com/package/unplugin-react-inspector',

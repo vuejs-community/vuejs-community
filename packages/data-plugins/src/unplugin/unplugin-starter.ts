@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-starter',
   description: 'Register global imports on demand for Vite and Webpack',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'antfu/unplugin-starter',
+    npm: 'unplugin-starter',
+  },
   links: {
     github: 'https://github.com/antfu/unplugin-starter',
     npm: 'https://www.npmjs.com/package/unplugin-starter',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-tsx-auto-props',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-vue-tsx-auto-props?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-vue-tsx-auto-props)',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.4.1',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'so1ve/unplugin-vue-tsx-auto-props',
+    npm: 'unplugin-vue-tsx-auto-props',
+  },
   links: {
     github: 'https://github.com/so1ve/unplugin-vue-tsx-auto-props',
     npm: 'https://www.npmjs.com/package/unplugin-vue-tsx-auto-props',

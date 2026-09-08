@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: 'evlog',
   },
   stats: {
-    stars: 1846,
+    stars: 1847,
     downloads: {
       monthly: 937401,
       weekly: 197991,

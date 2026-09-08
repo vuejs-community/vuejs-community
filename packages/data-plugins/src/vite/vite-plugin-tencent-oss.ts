@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tencent-oss',
   description: 'Upload the production files bundled in the project to Tencent CSS, except for html',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.7',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'taosiqi/vite-plugin-tencent-oss',
+    npm: 'vite-plugin-tencent-oss',
+  },
   links: {
     github: 'https://github.com/taosiqi/vite-plugin-tencent-oss',
     npm: 'https://www.npmjs.com/package/vite-plugin-tencent-oss',

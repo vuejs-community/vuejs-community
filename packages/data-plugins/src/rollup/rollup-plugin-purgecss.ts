@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-purgecss',
   description: 'Rollup plugin for purgecss',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '8.0.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'FullHuman/purgecss',
+    npm: 'rollup-plugin-purgecss',
+  },
   links: {
     github: 'https://github.com/FullHuman/purgecss',
     npm: 'https://www.npmjs.com/package/rollup-plugin-purgecss',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-console-line',
   description: 'Add \'console.log\' file location and line number infomation in the code.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.4.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'lq9958/vite-plugin-console-line',
+    npm: 'vite-plugin-console-line',
+  },
   links: {
     github: 'https://github.com/lq9958/vite-plugin-console-line',
     npm: 'https://www.npmjs.com/package/vite-plugin-console-line',

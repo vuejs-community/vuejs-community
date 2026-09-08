@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-cssvars',
   description: '🌀 A vue plugin that allows you to use vue\'s CSSVars feature in css files',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '2.0.0',
   category: 'plugin',
   tags: [
@@ -25,6 +25,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'baiwusanyu-c/unplugin-vue-cssvars',
+    npm: 'unplugin-vue-cssvars',
+  },
   links: {
     github: 'https://github.com/baiwusanyu-c/unplugin-vue-cssvars',
     npm: 'https://www.npmjs.com/package/unplugin-vue-cssvars',

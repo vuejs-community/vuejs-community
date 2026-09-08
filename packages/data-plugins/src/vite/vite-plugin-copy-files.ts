@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-copy-files',
   description: 'This package can help you move some files that do not need to be packaged to the corresponding packaging directory',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.1',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'mistjs/vite-plugin-copy-files',
+    npm: 'vite-plugin-copy-files',
+  },
   links: {
     github: 'https://github.com/mistjs/vite-plugin-copy-files',
     npm: 'https://www.npmjs.com/package/vite-plugin-copy-files',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-linaria',
   description: 'A plugin for vite to serve and build linaria using linaria babel',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'denn1s/vite-plugin-linaria',
+    npm: 'vite-plugin-linaria',
+  },
   links: {
     github: 'https://github.com/denn1s/vite-plugin-linaria',
     npm: 'https://www.npmjs.com/package/vite-plugin-linaria',

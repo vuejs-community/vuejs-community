@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-pure',
   description: 'Annotate functions as pure for Rollup, Vite, esbuild, and rspack',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.3.2',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'justin-schroeder/unplugin-pure',
+    npm: 'unplugin-pure',
+  },
   links: {
     github: 'https://github.com/justin-schroeder/unplugin-pure',
     npm: 'https://www.npmjs.com/package/unplugin-pure',

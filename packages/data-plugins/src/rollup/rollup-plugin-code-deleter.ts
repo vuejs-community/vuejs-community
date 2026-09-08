@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-code-deleter',
   description: 'A rollup plugin to delete code by Comments',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.4',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'Shunjun/rollup-plugin-code-deleter',
+    npm: 'rollup-plugin-code-deleter',
+  },
   links: {
     github: 'https://github.com/Shunjun/rollup-plugin-code-deleter',
     npm: 'https://www.npmjs.com/package/rollup-plugin-code-deleter',

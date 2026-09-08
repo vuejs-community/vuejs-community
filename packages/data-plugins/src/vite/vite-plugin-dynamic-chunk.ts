@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dynamic-chunk',
   description: 'A vite plugin for dynamic split chunk',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.3',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'MrQinYQ/vite-plugin-dynamic-chunk',
+    npm: 'vite-plugin-dynamic-chunk',
+  },
   links: {
     github: 'https://github.com/MrQinYQ/vite-plugin-dynamic-chunk',
     npm: 'https://www.npmjs.com/package/vite-plugin-dynamic-chunk',

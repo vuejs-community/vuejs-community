@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-glslx',
   description: 'Import GLSL/GLSLX files.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.1.5',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'anotherzxx/rollup-plugin-glslx',
+    npm: 'rollup-plugin-glslx',
+  },
   links: {
     github: 'https://github.com/anotherzxx/rollup-plugin-glslx',
     npm: 'https://www.npmjs.com/package/rollup-plugin-glslx',

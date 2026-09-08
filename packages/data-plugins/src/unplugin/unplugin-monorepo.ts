@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-monorepo',
   description: '[![npm](https://img.shields.io/npm/v/unplugin-monorepo?color=91B2D4&label=)](https://npmjs.com/package/unplugin-monorepo)',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'antfu/unplugin-monorepo',
+    npm: 'unplugin-monorepo',
+  },
   links: {
     github: 'https://github.com/antfu/unplugin-monorepo',
     npm: 'https://www.npmjs.com/package/unplugin-monorepo',

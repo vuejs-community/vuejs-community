@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-env-validator',
   description: 'A Vite plugin for environment variable validation with support for Zod, Yup, and Joi',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.2.1',
   category: 'plugin',
   tags: [
@@ -25,6 +25,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ramonxm/vite-env-validator',
+    npm: 'vite-plugin-env-validator',
+  },
   links: {
     github: 'https://github.com/ramonxm/vite-env-validator',
     npm: 'https://www.npmjs.com/package/vite-plugin-env-validator',

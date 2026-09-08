@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-electron-dev',
   description: '一款在开发使用vite开发electron程序时的插件（注意，在使用此插件前，需要安装 mv-tsc-watch）',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.12',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-electron-dev',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-electron-dev',

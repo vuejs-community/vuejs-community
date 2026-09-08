@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-purge-icons',
   description: 'Rollup plugin for PurgeIcons',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.10.0',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'antfu/purge-icons',
+    npm: 'rollup-plugin-purge-icons',
+  },
   links: {
     github: 'https://github.com/antfu/purge-icons',
     npm: 'https://www.npmjs.com/package/rollup-plugin-purge-icons',

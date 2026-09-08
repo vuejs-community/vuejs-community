@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-stimulus',
   description: 'Rollup.js plugin for rolling Stimulus.js applications',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.1',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'lightster/rollup-plugin-stimulus',
+    npm: 'rollup-plugin-stimulus',
+  },
   links: {
     github: 'https://github.com/lightster/rollup-plugin-stimulus',
     npm: 'https://www.npmjs.com/package/rollup-plugin-stimulus',

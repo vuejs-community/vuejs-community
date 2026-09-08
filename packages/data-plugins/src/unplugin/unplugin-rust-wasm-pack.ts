@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-rust-wasm-pack',
   description: 'Unplugin that runs wasm-pack on virtual Cargo.toml imports for Vite, Rollup, Rolldown, and Webpack',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'Karolis2011/unplugin-rust-wasm-pack',
+    npm: 'unplugin-rust-wasm-pack',
+  },
   links: {
     github: 'https://github.com/Karolis2011/unplugin-rust-wasm-pack',
     npm: 'https://www.npmjs.com/package/unplugin-rust-wasm-pack',

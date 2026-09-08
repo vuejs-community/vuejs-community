@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18n-tc2sc',
   description: 'A module used auto generate simplified chinese (sc) from traditional chinese (tc) in vue-i18n',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.1.4',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'mathsgod/vite-plugin-i18n-tc2sc',
+    npm: 'vite-plugin-i18n-tc2sc',
+  },
   links: {
     github: 'https://github.com/mathsgod/vite-plugin-i18n-tc2sc',
     npm: 'https://www.npmjs.com/package/vite-plugin-i18n-tc2sc',

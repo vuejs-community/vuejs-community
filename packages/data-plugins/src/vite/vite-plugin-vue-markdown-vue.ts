@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-markdown-vue',
   description: '把 markdown 文档导出 vue 组件使用',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.5',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'mackxu/vite-plugin-vue-markdown',
+    npm: 'vite-plugin-vue-markdown-vue',
+  },
   links: {
     github: 'https://github.com/mackxu/vite-plugin-vue-markdown',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-markdown-vue',

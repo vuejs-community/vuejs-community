@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sugar',
   description: 'The library reference [vite-plugin-commonjs](#https://github.com/originjs/vite-plugins/tree/main/packages/vite-plugin-commonjs)',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.3',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Spencer17x/vite-plugin-sugar',
+    npm: 'vite-plugin-sugar',
+  },
   links: {
     github: 'https://github.com/Spencer17x/vite-plugin-sugar',
     npm: 'https://www.npmjs.com/package/vite-plugin-sugar',

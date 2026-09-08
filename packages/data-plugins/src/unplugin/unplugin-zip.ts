@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-zip',
   description: 'Description.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.3',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'sxzz/unplugin-starter',
+    npm: 'unplugin-zip',
+  },
   links: {
     github: 'https://github.com/sxzz/unplugin-starter',
     npm: 'https://www.npmjs.com/package/unplugin-zip',

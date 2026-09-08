@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-windicss',
   description: 'Windi CSS for Rollup',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.9.4',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'antfu/vite-plugin-windicss',
+    npm: 'rollup-plugin-windicss',
+  },
   links: {
     github: 'https://github.com/antfu/vite-plugin-windicss',
     npm: 'https://www.npmjs.com/package/rollup-plugin-windicss',

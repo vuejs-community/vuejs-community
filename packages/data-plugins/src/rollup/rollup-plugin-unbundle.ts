@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-unbundle',
   description: 'Rollup plugin for excluding dependencies from bundle',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '3.2.0',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'run-z/rollup-plugin-unbundle',
+    npm: 'rollup-plugin-unbundle',
+  },
   links: {
     github: 'https://github.com/run-z/rollup-plugin-unbundle',
     npm: 'https://www.npmjs.com/package/rollup-plugin-unbundle',

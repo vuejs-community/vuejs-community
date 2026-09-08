@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-codefend',
   description: 'Rollup plugin for code obfuscation based on Codefend',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '3.2.1',
   category: 'plugin',
   tags: [
@@ -24,6 +24,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'Codefend/rollup-plugin-codefend',
+    npm: 'rollup-plugin-codefend',
+  },
   links: {
     github: 'https://github.com/Codefend/rollup-plugin-codefend',
     npm: 'https://www.npmjs.com/package/rollup-plugin-codefend',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-chrome-i18n',
   description: '[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua)',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.7',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'cawa-93/vite-plugin-vue-chrome-i18n',
+    npm: 'vite-plugin-vue-chrome-i18n',
+  },
   links: {
     github: 'https://github.com/cawa-93/vite-plugin-vue-chrome-i18n',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-chrome-i18n',

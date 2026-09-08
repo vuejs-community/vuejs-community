@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-detect-duplicated-deps',
   description: 'Detect duplicate packaged dependencies',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '2.0.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'tjx666/unplugin-detect-duplicated-deps',
+    npm: 'unplugin-detect-duplicated-deps',
+  },
   links: {
     github: 'https://github.com/tjx666/unplugin-detect-duplicated-deps',
     npm: 'https://www.npmjs.com/package/unplugin-detect-duplicated-deps',

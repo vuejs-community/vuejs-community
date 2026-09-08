@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-cheetah-grid-icon-svg',
   description: 'Unplugin that loads the icon module for Cheetah Grid from SVG.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '2.1.0',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'future-architect/cheetah-grid',
+    npm: 'unplugin-cheetah-grid-icon-svg',
+  },
   links: {
     github: 'https://github.com/future-architect/cheetah-grid',
     npm: 'https://www.npmjs.com/package/unplugin-cheetah-grid-icon-svg',

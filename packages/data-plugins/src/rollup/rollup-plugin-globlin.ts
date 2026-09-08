@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-globlin',
   description: 'Rollup plugin that provides file watching, copy, transform, repath and rename capabilities.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.1.4',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'panoply/rollup-plugin-globlin',
+    npm: 'rollup-plugin-globlin',
+  },
   links: {
     github: 'https://github.com/panoply/rollup-plugin-globlin',
     npm: 'https://www.npmjs.com/package/rollup-plugin-globlin',

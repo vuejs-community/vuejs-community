@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-zip-zwf',
   description: 'vite项目压缩插件',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.7',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'zwf1110/vite-plugin-zip-zwf',
+    npm: 'vite-plugin-zip-zwf',
+  },
   links: {
     github: 'https://github.com/zwf1110/vite-plugin-zip-zwf',
     npm: 'https://www.npmjs.com/package/vite-plugin-zip-zwf',

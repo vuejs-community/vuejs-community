@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-import-global-css',
   description: 'Global CSS auto import for vue',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'SpacesoulsL/unplugin-import-global-css',
+    npm: 'unplugin-import-global-css',
+  },
   links: {
     github: 'https://github.com/SpacesoulsL/unplugin-import-global-css',
     npm: 'https://www.npmjs.com/package/unplugin-import-global-css',

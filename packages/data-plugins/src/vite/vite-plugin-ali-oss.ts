@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ali-oss',
   description: 'Upload the production files bundled in the project to Ali OSS, except for html',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.1.1',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'xiaweiss/vite-plugin-ali-oss',
+    npm: 'vite-plugin-ali-oss',
+  },
   links: {
     github: 'https://github.com/xiaweiss/vite-plugin-ali-oss',
     npm: 'https://www.npmjs.com/package/vite-plugin-ali-oss',

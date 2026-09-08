@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-chii',
   description: 'Use chii for Vite and Webpack',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.14',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'Binbiubiubiu/unplugin-chii',
+    npm: 'unplugin-chii',
+  },
   links: {
     github: 'https://github.com/Binbiubiubiu/unplugin-chii',
     npm: 'https://www.npmjs.com/package/unplugin-chii',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-rich-svg',
   description: 'Seamless SVG loader with versatile import options! (Such as React component, dataURI and raw html code)',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.4.1',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'iGoodie/vite-plugin-react-rich-svg',
+    npm: 'vite-plugin-react-rich-svg',
+  },
   links: {
     github: 'https://github.com/iGoodie/vite-plugin-react-rich-svg',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-rich-svg',

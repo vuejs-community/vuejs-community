@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-generate-todo',
   description: 'A simple Vite plugin that automatically generates a `TODO.md` file by extracting `[TODO :: ...]`',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'DonggunLim/vite-plugin-generate-todo',
+    npm: 'vite-plugin-generate-todo',
+  },
   links: {
     github: 'https://github.com/DonggunLim/vite-plugin-generate-todo',
     npm: 'https://www.npmjs.com/package/vite-plugin-generate-todo',

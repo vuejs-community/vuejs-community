@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-preserve-use-client',
   description: 'A Rollup plugin to preserve \'use client\' directives for React 18 components.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '3.0.1',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'soobing/rollup-plugin-preserve-use-client',
+    npm: 'rollup-plugin-preserve-use-client',
+  },
   links: {
     github: 'https://github.com/soobing/rollup-plugin-preserve-use-client',
     npm: 'https://www.npmjs.com/package/rollup-plugin-preserve-use-client',

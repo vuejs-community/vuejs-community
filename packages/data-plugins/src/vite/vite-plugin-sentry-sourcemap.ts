@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sentry-sourcemap',
   description: 'The unofficial Sentry plugin for Vite ⚡️',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'jiangqi-ola/vite-plugin-sentry-sourcemap',
+    npm: 'vite-plugin-sentry-sourcemap',
+  },
   links: {
     github: 'https://github.com/jiangqi-ola/vite-plugin-sentry-sourcemap',
     npm: 'https://www.npmjs.com/package/vite-plugin-sentry-sourcemap',

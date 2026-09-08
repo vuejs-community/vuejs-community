@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-bundle-report',
   description: 'Vite plugin built on rollup-plugin-visualizer that emits a combined bundle and dependency report.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.0',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-bundle-report',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-bundle-report',

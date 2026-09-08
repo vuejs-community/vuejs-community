@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-faker',
   description: 'A mock plugin for vite',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.3.5',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'JserWang/vite-plugin-faker',
+    npm: 'vite-plugin-faker',
+  },
   links: {
     github: 'https://github.com/JserWang/vite-plugin-faker',
     npm: 'https://www.npmjs.com/package/vite-plugin-faker',

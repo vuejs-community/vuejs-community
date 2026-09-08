@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-observing-components',
   description: 'Vite plugin that wraps React components with observer — works with any Vite version and any underlying transformer (SWC or Babel)',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'christianalfoni/observing-components',
+    npm: 'vite-plugin-observing-components',
+  },
   links: {
     github: 'https://github.com/christianalfoni/observing-components',
     npm: 'https://www.npmjs.com/package/vite-plugin-observing-components',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-generate-icon',
   description: 'A rollup plugin to generate icons of different sizes',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'kaze-k/rollup-plugin-generate-icon',
+    npm: 'rollup-plugin-generate-icon',
+  },
   links: {
     github: 'https://github.com/kaze-k/rollup-plugin-generate-icon',
     npm: 'https://www.npmjs.com/package/rollup-plugin-generate-icon',

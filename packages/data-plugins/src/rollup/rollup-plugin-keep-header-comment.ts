@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-keep-header-comment',
   description: 'A rollup plugin to keep the header comments from source in the declaration file',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'peachest/rollup-plugin-keep-header-comment',
+    npm: 'rollup-plugin-keep-header-comment',
+  },
   links: {
     github: 'https://github.com/peachest/rollup-plugin-keep-header-comment',
     npm: 'https://www.npmjs.com/package/rollup-plugin-keep-header-comment',

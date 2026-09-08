@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-fallback-throttle',
   description: 'Vite plugin for configuring FALLBACK_THROTTLE_MS in React 19',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.3',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'wojtekmaj/vite-plugin-react-fallback-throttle',
+    npm: 'vite-plugin-react-fallback-throttle',
+  },
   links: {
     github: 'https://github.com/wojtekmaj/vite-plugin-react-fallback-throttle',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-fallback-throttle',

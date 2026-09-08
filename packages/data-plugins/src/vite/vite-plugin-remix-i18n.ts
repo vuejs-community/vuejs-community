@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-remix-i18n',
   description: '',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.0',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'tgds/vite-plugin-remix-i18n',
+    npm: 'vite-plugin-remix-i18n',
+  },
   links: {
     github: 'https://github.com/tgds/vite-plugin-remix-i18n',
     npm: 'https://www.npmjs.com/package/vite-plugin-remix-i18n',

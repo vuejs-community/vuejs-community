@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-server-ref',
   description: 'Share state between clients and Vite server',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -12,6 +12,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'antfu/vite-plugin-vue-server-ref',
+    npm: 'vite-plugin-vue-server-ref',
+  },
   links: {
     github: 'https://github.com/antfu/vite-plugin-vue-server-ref',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-server-ref',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-pdf',
   description: 'Export PDF bundled by Vite',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'yjl9903/vite-plugin-pdf',
+    npm: 'vite-plugin-pdf',
+  },
   links: {
     github: 'https://github.com/yjl9903/vite-plugin-pdf',
     npm: 'https://www.npmjs.com/package/vite-plugin-pdf',

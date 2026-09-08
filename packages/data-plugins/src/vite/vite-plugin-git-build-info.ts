@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-git-build-info',
   description: 'Inject stable Git and build metadata into Vite build outputs.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'lei-mu/vite-plugin-git-build-info',
+    npm: 'vite-plugin-git-build-info',
+  },
   links: {
     github: 'https://github.com/lei-mu/vite-plugin-git-build-info',
     npm: 'https://www.npmjs.com/package/vite-plugin-git-build-info',

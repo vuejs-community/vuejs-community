@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-cite',
   description: 'Cite-to-copy for any Vue element.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.3',
   category: 'plugin',
   tags: [
@@ -26,6 +26,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'JianJroh/vue-cite',
+    npm: 'vite-plugin-vue-cite',
+  },
   links: {
     github: 'https://github.com/JianJroh/vue-cite',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-cite',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-slow-response',
   description: 'A Vite plugin that simulates slow responses from the dev server.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.6',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Soviut/vite-plugin-slow-response',
+    npm: 'vite-plugin-slow-response',
+  },
   links: {
     github: 'https://github.com/Soviut/vite-plugin-slow-response',
     npm: 'https://www.npmjs.com/package/vite-plugin-slow-response',

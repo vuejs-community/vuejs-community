@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-bower-resolve',
   description: 'Use the bower resolution algorithm with Rollup',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '3.1.0',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'mjeanroy/rollup-plugin-bower-resolve',
+    npm: 'rollup-plugin-bower-resolve',
+  },
   links: {
     github: 'https://github.com/mjeanroy/rollup-plugin-bower-resolve',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bower-resolve',

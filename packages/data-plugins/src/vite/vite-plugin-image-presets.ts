@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-image-presets',
   description: 'Image Presets for Vite.js apps. Optimize, resize, and process images consistently and with ease.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.3.5',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ElMassimo/vite-plugin-image-presets',
+    npm: 'vite-plugin-image-presets',
+  },
   links: {
     github: 'https://github.com/ElMassimo/vite-plugin-image-presets',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-presets',

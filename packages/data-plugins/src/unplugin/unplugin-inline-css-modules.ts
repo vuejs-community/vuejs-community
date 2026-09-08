@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-inline-css-modules',
   description: 'Zero-runtime scoped CSS for any JS framework — write CSS modules inline as tagged templates',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.4',
   category: 'plugin',
   tags: [
@@ -23,6 +23,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'bluskript/unplugin-inline-css-modules',
+    npm: 'unplugin-inline-css-modules',
+  },
   links: {
     github: 'https://github.com/bluskript/unplugin-inline-css-modules',
     npm: 'https://www.npmjs.com/package/unplugin-inline-css-modules',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-naive-ui-md',
   description: 'Naive UI Styles Markdown for Vite',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Volankey/vite-plugin-naive-ui-md',
+    npm: 'vite-plugin-naive-ui-md',
+  },
   links: {
     github: 'https://github.com/Volankey/vite-plugin-naive-ui-md',
     npm: 'https://www.npmjs.com/package/vite-plugin-naive-ui-md',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-polish-tagged-templates',
   description: 'Remove unnecessary tagged templates at compile time.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.2.1',
   category: 'plugin',
   tags: [
@@ -17,14 +17,18 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'yunsii/unplugin-polish-tagged-templates',
+    npm: 'unplugin-polish-tagged-templates',
+  },
   links: {
     github: 'https://github.com/yunsii/unplugin-polish-tagged-templates',
     npm: 'https://www.npmjs.com/package/unplugin-polish-tagged-templates',
   },
   stats: {
     downloads: {
-      monthly: 239,
-      weekly: 84,
+      monthly: 197,
+      weekly: 21,
     },
   },
 })

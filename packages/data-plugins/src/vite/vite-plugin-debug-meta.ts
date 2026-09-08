@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-debug-meta',
   description: 'Vite plugin to inject debug metadata (file paths and component names) into React JSX/TSX elements for inspect-on-click functionality.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '3.0.1',
   category: 'plugin',
   tags: [
@@ -25,6 +25,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-debug-meta',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-debug-meta',

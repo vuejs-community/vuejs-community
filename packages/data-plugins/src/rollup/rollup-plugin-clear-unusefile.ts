@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-clear-unusefile',
   description: '一个用来清理项目中没有使用的文件的 rollup 插件',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -17,14 +17,18 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'rollup-plugin-clear-unusefile',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/rollup-plugin-clear-unusefile',
   },
   stats: {
     downloads: {
-      monthly: 4,
-      weekly: 1,
+      monthly: 6,
+      weekly: 2,
     },
   },
 })

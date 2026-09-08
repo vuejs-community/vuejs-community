@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lessmock',
   description: 'A vite plugin that auto generate mock data with fake data for TypeScript interfaces.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.0-beta.2',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'satrong/vite-plugin-lessmock',
+    npm: 'vite-plugin-lessmock',
+  },
   links: {
     github: 'https://github.com/satrong/vite-plugin-lessmock',
     npm: 'https://www.npmjs.com/package/vite-plugin-lessmock',

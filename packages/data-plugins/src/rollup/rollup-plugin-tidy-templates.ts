@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-tidy-templates',
   description: 'A rollup plugin to transform template literal tags',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'avivkeller/rollup-plugin-tidy-templates',
+    npm: 'rollup-plugin-tidy-templates',
+  },
   links: {
     github: 'https://github.com/avivkeller/rollup-plugin-tidy-templates',
     npm: 'https://www.npmjs.com/package/rollup-plugin-tidy-templates',

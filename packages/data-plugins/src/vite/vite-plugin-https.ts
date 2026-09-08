@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-https',
   description: 'A Vite plugin that provides local HTTPS service.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.2',
   category: 'plugin',
   tags: [
@@ -24,6 +24,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'childrentime/vite-plugin-https',
+    npm: 'vite-plugin-https',
+  },
   links: {
     github: 'https://github.com/childrentime/vite-plugin-https',
     npm: 'https://www.npmjs.com/package/vite-plugin-https',

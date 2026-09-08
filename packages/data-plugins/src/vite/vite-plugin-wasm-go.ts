@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-wasm-go',
   description: 'vite plugin for go compile wasm',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.1',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'm-Ryan/vite-plugin-wasm-go',
+    npm: 'vite-plugin-wasm-go',
+  },
   links: {
     github: 'https://github.com/m-Ryan/vite-plugin-wasm-go',
     npm: 'https://www.npmjs.com/package/vite-plugin-wasm-go',

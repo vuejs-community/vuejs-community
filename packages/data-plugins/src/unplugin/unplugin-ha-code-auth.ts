@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-ha-code-auth',
   description: '生成页面按钮权限列表',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'duowb/unplugin-ha-code-auth',
+    npm: 'unplugin-ha-code-auth',
+  },
   links: {
     github: 'https://github.com/duowb/unplugin-ha-code-auth',
     npm: 'https://www.npmjs.com/package/unplugin-ha-code-auth',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-auto-declare',
   description: 'Auto-declare composable bindings in Vue <script setup> for Vite and Webpack',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.5',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'BobbieGoede/unplugin-auto-declare',
+    npm: 'unplugin-auto-declare',
+  },
   links: {
     github: 'https://github.com/BobbieGoede/unplugin-auto-declare',
     npm: 'https://www.npmjs.com/package/unplugin-auto-declare',

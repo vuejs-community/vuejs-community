@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-flexium',
   description: 'Vite plugin for Flexium - JSX transform, HMR, and dev tools integration',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.18.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Wick-Lim/flexium.js',
+    npm: 'vite-plugin-flexium',
+  },
   links: {
     github: 'https://github.com/Wick-Lim/flexium.js',
     npm: 'https://www.npmjs.com/package/vite-plugin-flexium',

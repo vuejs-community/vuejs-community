@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svgo',
   description: 'Vite plugin to import and compress svg files with SVGO',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '3.0.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'r3dDoX/vite-plugin-svgo',
+    npm: 'vite-plugin-svgo',
+  },
   links: {
     github: 'https://github.com/r3dDoX/vite-plugin-svgo',
     npm: 'https://www.npmjs.com/package/vite-plugin-svgo',

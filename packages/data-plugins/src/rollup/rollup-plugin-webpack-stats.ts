@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-webpack-stats',
   description: 'Rollup/Vite/Rolldown plugin to generate a stats JSON file with a bundle-stats webpack-compatible structure',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '4.0.0',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'relative-ci/rollup-plugin-webpack-stats',
+    npm: 'rollup-plugin-webpack-stats',
+  },
   links: {
     github: 'https://github.com/relative-ci/rollup-plugin-webpack-stats',
     npm: 'https://www.npmjs.com/package/rollup-plugin-webpack-stats',

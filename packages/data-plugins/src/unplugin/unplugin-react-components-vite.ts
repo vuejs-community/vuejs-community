@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-react-components-vite',
   description: 'On-demand components auto importing for React',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.5',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'snowingfox/unplugin-react-components',
+    npm: 'unplugin-react-components-vite',
+  },
   links: {
     github: 'https://github.com/snowingfox/unplugin-react-components',
     npm: 'https://www.npmjs.com/package/unplugin-react-components-vite',

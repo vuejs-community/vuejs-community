@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-svelte-static-html',
   description: 'Generate static html file from your Svelte component using Rollup',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'vladshcherbin/rollup-plugin-svelte-static-html',
+    npm: 'rollup-plugin-svelte-static-html',
+  },
   links: {
     github: 'https://github.com/vladshcherbin/rollup-plugin-svelte-static-html',
     npm: 'https://www.npmjs.com/package/rollup-plugin-svelte-static-html',

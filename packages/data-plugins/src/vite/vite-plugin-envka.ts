@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-envka',
   description: 'Envka is a vite plugin designed to enhance environment variable management in Vite projects.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.2',
   category: 'plugin',
   tags: [
@@ -27,6 +27,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ireneo-cobarjr/vite-plugin-envka',
+    npm: 'vite-plugin-envka',
+  },
   links: {
     github: 'https://github.com/ireneo-cobarjr/vite-plugin-envka',
     npm: 'https://www.npmjs.com/package/vite-plugin-envka',

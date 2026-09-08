@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-cleanup',
   description: 'Rollup plugin to trim trailing spaces, compact empty lines, and normalize line endings',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '3.2.1',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'aMarCruz/rollup-plugin-cleanup',
+    npm: 'rollup-plugin-cleanup',
+  },
   links: {
     github: 'https://github.com/aMarCruz/rollup-plugin-cleanup',
     npm: 'https://www.npmjs.com/package/rollup-plugin-cleanup',

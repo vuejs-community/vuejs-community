@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-eft',
   description: 'eft loader for rollup',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.17.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'TheNeuronProject/rollup-plugin-eft',
+    npm: 'rollup-plugin-eft',
+  },
   links: {
     github: 'https://github.com/TheNeuronProject/rollup-plugin-eft',
     npm: 'https://www.npmjs.com/package/rollup-plugin-eft',

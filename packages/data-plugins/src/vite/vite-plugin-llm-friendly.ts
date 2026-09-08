@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-llm-friendly',
   description: 'Make your Vite site LLM-friendly with Markdown content negotiation and llms.txt support',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'codeusb/vite-plugin-llm-friendly',
+    npm: 'vite-plugin-llm-friendly',
+  },
   links: {
     github: 'https://github.com/codeusb/vite-plugin-llm-friendly',
     npm: 'https://www.npmjs.com/package/vite-plugin-llm-friendly',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-pakk',
   description: 'Automatically fills out your package.json for both local and published version',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.14.1',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'AlexAegis/js-tooling',
+    npm: 'vite-plugin-pakk',
+  },
   links: {
     github: 'https://github.com/AlexAegis/js-tooling',
     npm: 'https://www.npmjs.com/package/vite-plugin-pakk',

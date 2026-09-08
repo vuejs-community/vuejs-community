@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-simple-json-server',
   description: 'Provide a file-based mock API for Vite in dev mode',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.6.2',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'alextim/vite-plugin-simple-json-server',
+    npm: 'vite-plugin-simple-json-server',
+  },
   links: {
     github: 'https://github.com/alextim/vite-plugin-simple-json-server',
     npm: 'https://www.npmjs.com/package/vite-plugin-simple-json-server',

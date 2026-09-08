@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-css-text',
   description: 'A rollup plugin to generate javascript files that export the text of the css files',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'amjedomar/rollup-plugin-css-text',
+    npm: 'rollup-plugin-css-text',
+  },
   links: {
     github: 'https://github.com/amjedomar/rollup-plugin-css-text',
     npm: 'https://www.npmjs.com/package/rollup-plugin-css-text',

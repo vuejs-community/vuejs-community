@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-printer',
   description: 'Print info on the terminal',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'webfansplz/unplugin-printer',
+    npm: 'unplugin-printer',
+  },
   links: {
     github: 'https://github.com/webfansplz/unplugin-printer',
     npm: 'https://www.npmjs.com/package/unplugin-printer',

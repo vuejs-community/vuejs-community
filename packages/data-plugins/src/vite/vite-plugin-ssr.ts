@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ssr',
   description: 'Like Next.js/Nuxt but as do-one-thing-do-it-well Vite plugin.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.4.142',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'brillout/vite-plugin-ssr',
+    npm: 'vite-plugin-ssr',
+  },
   links: {
     github: 'https://github.com/brillout/vite-plugin-ssr',
     npm: 'https://www.npmjs.com/package/vite-plugin-ssr',

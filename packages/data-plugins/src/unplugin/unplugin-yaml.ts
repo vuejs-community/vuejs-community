@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-yaml',
   description: 'Allow importing YAML files as JSON or Strings',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '4.2.1',
   category: 'plugin',
   tags: [
@@ -23,6 +23,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'luxass/unplugin-yaml',
+    npm: 'unplugin-yaml',
+  },
   links: {
     github: 'https://github.com/luxass/unplugin-yaml',
     npm: 'https://www.npmjs.com/package/unplugin-yaml',

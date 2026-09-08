@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-restructure',
   description: 'Description.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.3',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'zhiyuanzmj/unplugin-restructure',
+    npm: 'unplugin-restructure',
+  },
   links: {
     github: 'https://github.com/zhiyuanzmj/unplugin-restructure',
     npm: 'https://www.npmjs.com/package/unplugin-restructure',

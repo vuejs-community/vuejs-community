@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cdn-next',
   description: 'A Vite plugin that allowed you replace module with CDN',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'toimc/vite-plugin-cdn-next',
+    npm: 'vite-plugin-cdn-next',
+  },
   links: {
     github: 'https://github.com/toimc/vite-plugin-cdn-next',
     npm: 'https://www.npmjs.com/package/vite-plugin-cdn-next',

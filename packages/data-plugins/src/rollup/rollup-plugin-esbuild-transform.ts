@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-esbuild-transform',
   description: 'Use esbuild with Rollup to transform any supported content types.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.5.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'exuanbo/rollup-plugin-esbuild-transform',
+    npm: 'rollup-plugin-esbuild-transform',
+  },
   links: {
     github: 'https://github.com/exuanbo/rollup-plugin-esbuild-transform',
     npm: 'https://www.npmjs.com/package/rollup-plugin-esbuild-transform',

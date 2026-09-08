@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-deploy-check',
   description: 'Vite plugin to refresh page after deployment',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.7',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'onthia/vite-plugin-version-check',
+    npm: 'vite-plugin-deploy-check',
+  },
   links: {
     github: 'https://github.com/onthia/vite-plugin-version-check',
     npm: 'https://www.npmjs.com/package/vite-plugin-deploy-check',

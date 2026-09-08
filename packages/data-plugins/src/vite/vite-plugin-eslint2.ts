@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-eslint2',
   description: 'ESLint plugin for Vite.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '5.3.0',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ModyQyW/vite-plugin-eslint2',
+    npm: 'vite-plugin-eslint2',
+  },
   links: {
     github: 'https://github.com/ModyQyW/vite-plugin-eslint2',
     npm: 'https://www.npmjs.com/package/vite-plugin-eslint2',

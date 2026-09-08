@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-oss-one',
   description: 'A lightweight, extensible Vite plugin to automatically upload build artifacts to Object Storage Services (OSS).',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.8',
   category: 'plugin',
   tags: [
@@ -34,6 +34,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'zhouchengi/vite-plugin-oss-one',
+    npm: 'vite-plugin-oss-one',
+  },
   links: {
     github: 'https://github.com/zhouchengi/vite-plugin-oss-one',
     npm: 'https://www.npmjs.com/package/vite-plugin-oss-one',

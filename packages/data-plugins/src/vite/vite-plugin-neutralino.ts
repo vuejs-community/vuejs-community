@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-neutralino',
   description: 'A Vite plugin for seamless integration with Neutralinojs.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'PromiseAll/vite-plugin-neutralino',
+    npm: 'vite-plugin-neutralino',
+  },
   links: {
     github: 'https://github.com/PromiseAll/vite-plugin-neutralino',
     npm: 'https://www.npmjs.com/package/vite-plugin-neutralino',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-component-ref',
   description: '用于获取setup组件ref全部导出',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '1.0.9',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'so11y/unplugin-vue-component-ref',
+    npm: 'unplugin-vue-component-ref',
+  },
   links: {
     github: 'https://github.com/so11y/unplugin-vue-component-ref',
     npm: 'https://www.npmjs.com/package/unplugin-vue-component-ref',

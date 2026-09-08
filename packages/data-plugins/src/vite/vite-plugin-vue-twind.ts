@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-twind',
   description: 'Generates tailwind CSS from Vue component class names, and injects them into the component or emits them. Useful for Vue web components',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.5',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Buroni/vite-plugin-vue-twind',
+    npm: 'vite-plugin-vue-twind',
+  },
   links: {
     github: 'https://github.com/Buroni/vite-plugin-vue-twind',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-twind',

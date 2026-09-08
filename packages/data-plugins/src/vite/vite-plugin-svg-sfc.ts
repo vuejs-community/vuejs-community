@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-sfc',
   description: 'Convert SVGs to Vue single file component(SFC), support <style> tag',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.2.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Kaciras/vite-plugin-svg-sfc',
+    npm: 'vite-plugin-svg-sfc',
+  },
   links: {
     github: 'https://github.com/Kaciras/vite-plugin-svg-sfc',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-sfc',

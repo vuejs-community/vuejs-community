@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-jsx-await-expression',
   description: 'Reactivity function.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'zhiyuanzmj/unplugin-jsx-await-expression',
+    npm: 'unplugin-jsx-await-expression',
+  },
   links: {
     github: 'https://github.com/zhiyuanzmj/unplugin-jsx-await-expression',
     npm: 'https://www.npmjs.com/package/unplugin-jsx-await-expression',

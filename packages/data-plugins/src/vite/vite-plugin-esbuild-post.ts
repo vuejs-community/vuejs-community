@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-esbuild-post',
   description: '',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.2',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'yangdan8/vite-plugin-esbuild-post',
+    npm: 'vite-plugin-esbuild-post',
+  },
   links: {
     github: 'https://github.com/yangdan8/vite-plugin-esbuild-post',
     npm: 'https://www.npmjs.com/package/vite-plugin-esbuild-post',

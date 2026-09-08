@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-font-patch-chunksize',
   description: 'An automatic Web Font optimization plugin that supports many platforms such as Vite, Next, Nuxt, and more.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '5.1.5',
   category: 'plugin',
   tags: [
@@ -33,6 +33,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'KonghaYao/cn-font-split',
+    npm: 'vite-plugin-font-patch-chunksize',
+  },
   links: {
     github: 'https://github.com/KonghaYao/cn-font-split',
     npm: 'https://www.npmjs.com/package/vite-plugin-font-patch-chunksize',

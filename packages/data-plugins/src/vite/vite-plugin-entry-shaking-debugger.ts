@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-entry-shaking-debugger',
   description: 'Debugger for vite-plugin-entry-shaking',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.0.2',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Dschungelabenteuer/vite-plugin-entry-shaking',
+    npm: 'vite-plugin-entry-shaking-debugger',
+  },
   links: {
     github: 'https://github.com/Dschungelabenteuer/vite-plugin-entry-shaking',
     npm: 'https://www.npmjs.com/package/vite-plugin-entry-shaking-debugger',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-atscript',
   description: 'Atscript: Configuration and build plugins.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.89',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'moostjs/atscript',
+    npm: 'unplugin-atscript',
+  },
   links: {
     github: 'https://github.com/moostjs/atscript',
     npm: 'https://www.npmjs.com/package/unplugin-atscript',

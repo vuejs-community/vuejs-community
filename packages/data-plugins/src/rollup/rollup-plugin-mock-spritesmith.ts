@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-mock-spritesmith',
   description: 'It is a rollup plugin for sprite',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.4.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'daipeng7/rollup-plugin-spritesmith',
+    npm: 'rollup-plugin-mock-spritesmith',
+  },
   links: {
     github: 'https://github.com/daipeng7/rollup-plugin-spritesmith',
     npm: 'https://www.npmjs.com/package/rollup-plugin-mock-spritesmith',

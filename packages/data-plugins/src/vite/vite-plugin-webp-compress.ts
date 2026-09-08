@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-webp-compress',
   description: 'A Vite plugin for compressing and converting images to WebP format during the build process.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.4',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'filway/vite-plugin-webp-compress',
+    npm: 'vite-plugin-webp-compress',
+  },
   links: {
     github: 'https://github.com/filway/vite-plugin-webp-compress',
     npm: 'https://www.npmjs.com/package/vite-plugin-webp-compress',

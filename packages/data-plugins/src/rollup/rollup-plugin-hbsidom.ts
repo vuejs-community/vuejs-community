@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-hbsidom',
   description: 'A Rollup plugin for transforming handlebars templates to incremental-dom.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'ahumphreys87/rollup-plugin-hbsidom',
+    npm: 'rollup-plugin-hbsidom',
+  },
   links: {
     github: 'https://github.com/ahumphreys87/rollup-plugin-hbsidom',
     npm: 'https://www.npmjs.com/package/rollup-plugin-hbsidom',

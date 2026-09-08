@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-binary2base64',
   description: 'Converts binary files to base64 string modules',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'czizzy/rollup-plugin-binary2base64',
+    npm: 'rollup-plugin-binary2base64',
+  },
   links: {
     github: 'https://github.com/czizzy/rollup-plugin-binary2base64',
     npm: 'https://www.npmjs.com/package/rollup-plugin-binary2base64',

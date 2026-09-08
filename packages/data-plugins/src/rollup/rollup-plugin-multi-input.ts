@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-multi-input',
   description: 'rollup plugin for bundling modular libraries',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.9.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'alfredosalzillo/rollup-plugin-multi-input',
+    npm: 'rollup-plugin-multi-input',
+  },
   links: {
     github: 'https://github.com/alfredosalzillo/rollup-plugin-multi-input',
     npm: 'https://www.npmjs.com/package/rollup-plugin-multi-input',

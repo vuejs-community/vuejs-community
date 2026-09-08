@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-svelte-ssr',
   description: 'Server-side rendering of Svelte app at build-time using Rollup plugin',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'akaSybe/rollup-plugin-svelte-ssr',
+    npm: 'rollup-plugin-svelte-ssr',
+  },
   links: {
     github: 'https://github.com/akaSybe/rollup-plugin-svelte-ssr',
     npm: 'https://www.npmjs.com/package/rollup-plugin-svelte-ssr',

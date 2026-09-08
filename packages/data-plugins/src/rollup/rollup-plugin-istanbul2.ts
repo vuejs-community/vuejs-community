@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-istanbul2',
   description: 'Seamless integration between Rollup and Istanbul.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '2.0.2',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'artberri/rollup-plugin-istanbul',
+    npm: 'rollup-plugin-istanbul2',
+  },
   links: {
     github: 'https://github.com/artberri/rollup-plugin-istanbul',
     npm: 'https://www.npmjs.com/package/rollup-plugin-istanbul2',

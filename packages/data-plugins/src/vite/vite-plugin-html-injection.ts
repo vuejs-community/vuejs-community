@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-injection',
   description: 'Vite plugin for injecting html, js, css code snippets into index.html',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.5.2',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'altrusl/vite-plugin-html-injection',
+    npm: 'vite-plugin-html-injection',
+  },
   links: {
     github: 'https://github.com/altrusl/vite-plugin-html-injection',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-injection',

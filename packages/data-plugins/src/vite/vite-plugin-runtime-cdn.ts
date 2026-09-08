@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-runtime-cdn',
   description: 'A Vite plugin that supports runtime CDN configuration.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Levix/vite-plugin-runtime-cdn',
+    npm: 'vite-plugin-runtime-cdn',
+  },
   links: {
     github: 'https://github.com/Levix/vite-plugin-runtime-cdn',
     npm: 'https://www.npmjs.com/package/vite-plugin-runtime-cdn',

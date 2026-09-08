@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-rttist',
   description: 'RTTIST plugin adding support for advanced reflection features to Vite',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '6.0.0',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'rttist/rttist',
+    npm: 'vite-plugin-rttist',
+  },
   links: {
     github: 'https://github.com/rttist/rttist',
     npm: 'https://www.npmjs.com/package/vite-plugin-rttist',

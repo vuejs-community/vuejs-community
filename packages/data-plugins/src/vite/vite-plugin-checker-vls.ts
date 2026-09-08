@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-checker-vls',
   description: 'VLS preset for vite-plugin-ts',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.1',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'fi3ework/vite-plugin-checker',
+    npm: 'vite-plugin-checker-vls',
+  },
   links: {
     github: 'https://github.com/fi3ework/vite-plugin-checker',
     npm: 'https://www.npmjs.com/package/vite-plugin-checker-vls',

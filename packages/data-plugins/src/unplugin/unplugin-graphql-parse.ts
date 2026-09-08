@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-graphql-parse',
   description: 'Parse GraphQL SDL files to DocumentNode AST objects. This is useful for passing it to Graphql Servers, for example.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'gympass/unplugins',
+    npm: 'unplugin-graphql-parse',
+  },
   links: {
     github: 'https://github.com/gympass/unplugins',
     npm: 'https://www.npmjs.com/package/unplugin-graphql-parse',

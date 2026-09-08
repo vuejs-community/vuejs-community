@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rolldown-plugin-dts',
   description: 'A Rolldown plugin to generate and bundle dts files.',
-  icon: '',
+  icon: 'logos:rolldown-icon',
   version: '0.28.5',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'rolldown-plugin',
   ],
+  source: {
+    github: 'sxzz/rolldown-plugin-dts',
+    npm: 'rolldown-plugin-dts',
+  },
   links: {
     github: 'https://github.com/sxzz/rolldown-plugin-dts',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-dts',

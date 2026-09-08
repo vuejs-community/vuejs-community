@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-plus',
   description: 'Vite plugin to optimize and transform imported SVGs as component, sprite, datauri or injected html.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.1',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'jariberg/vite-plugin-svg-plus',
+    npm: 'vite-plugin-svg-plus',
+  },
   links: {
     github: 'https://github.com/jariberg/vite-plugin-svg-plus',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-plus',

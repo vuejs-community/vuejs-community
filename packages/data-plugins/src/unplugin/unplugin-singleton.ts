@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-singleton',
   description: 'Unplugin: 单例 dev/preview，就绪后写入锁文件供 E2E、脚本读取',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.3',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'cheezone/unplugin-singleton',
+    npm: 'unplugin-singleton',
+  },
   links: {
     github: 'https://github.com/cheezone/unplugin-singleton',
     npm: 'https://www.npmjs.com/package/unplugin-singleton',

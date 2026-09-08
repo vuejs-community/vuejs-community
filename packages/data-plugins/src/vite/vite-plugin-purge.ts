@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-purge',
   description: 'Enables PurgeCSS for the build',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.4',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'bent10/vite-plugins',
+    npm: 'vite-plugin-purge',
+  },
   links: {
     github: 'https://github.com/bent10/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-purge',

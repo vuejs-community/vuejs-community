@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-visualizer',
   description: 'a bundle visulizer for vite/webpack/rollup',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.7',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'brandonxiang/unplugin-visualizer',
+    npm: 'unplugin-visualizer',
+  },
   links: {
     github: 'https://github.com/brandonxiang/unplugin-visualizer',
     npm: 'https://www.npmjs.com/package/unplugin-visualizer',

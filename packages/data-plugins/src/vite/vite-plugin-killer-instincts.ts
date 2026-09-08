@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-killer-instincts',
   description: 'Vite plugin that detects and optionally kills processes blocking your dev server port',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'wesbos/vite-plugin-killer-instincts',
+    npm: 'vite-plugin-killer-instincts',
+  },
   links: {
     github: 'https://github.com/wesbos/vite-plugin-killer-instincts',
     npm: 'https://www.npmjs.com/package/vite-plugin-killer-instincts',

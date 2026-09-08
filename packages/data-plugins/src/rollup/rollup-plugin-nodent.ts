@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-nodent',
   description: 'Rollup plugin for ES2017 async/await keywords',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.2.2',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'oligot/rollup-plugin-nodent',
+    npm: 'rollup-plugin-nodent',
+  },
   links: {
     github: 'https://github.com/oligot/rollup-plugin-nodent',
     npm: 'https://www.npmjs.com/package/rollup-plugin-nodent',

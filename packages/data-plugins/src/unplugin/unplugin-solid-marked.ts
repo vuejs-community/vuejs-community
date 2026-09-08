@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-solid-marked',
   description: 'Universal bundler plugin for solid-marked',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.8.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'lxsmnsyc/solid-marked',
+    npm: 'unplugin-solid-marked',
+  },
   links: {
     github: 'https://github.com/lxsmnsyc/solid-marked',
     npm: 'https://www.npmjs.com/package/unplugin-solid-marked',

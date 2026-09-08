@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-msw',
   description: 'utility unplugin for msw',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.6.1',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'esttom/unplugin-msw',
+    npm: 'unplugin-msw',
+  },
   links: {
     github: 'https://github.com/esttom/unplugin-msw',
     npm: 'https://www.npmjs.com/package/unplugin-msw',

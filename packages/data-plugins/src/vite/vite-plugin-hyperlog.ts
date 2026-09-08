@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-hyperlog',
   description: 'High-performance Vite plugin for request and browser logging, powered by Rust',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.2',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'kiyors/vite-plugin-hyperlog',
+    npm: 'vite-plugin-hyperlog',
+  },
   links: {
     github: 'https://github.com/kiyors/vite-plugin-hyperlog',
     npm: 'https://www.npmjs.com/package/vite-plugin-hyperlog',

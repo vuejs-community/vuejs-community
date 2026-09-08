@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-posthtml',
   description: 'Unplugin for posthtml',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.5',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: '7TeamApp/unplugin-posthtml',
+    npm: 'unplugin-posthtml',
+  },
   links: {
     github: 'https://github.com/7TeamApp/unplugin-posthtml',
     npm: 'https://www.npmjs.com/package/unplugin-posthtml',

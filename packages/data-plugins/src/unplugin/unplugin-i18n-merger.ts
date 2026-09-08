@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-i18n-merger',
   description: 'Merge i18n messages from templates to a single file',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.2',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'productdevbookcom/unplugin-i18n-merger',
+    npm: 'unplugin-i18n-merger',
+  },
   links: {
     github: 'https://github.com/productdevbookcom/unplugin-i18n-merger',
     npm: 'https://www.npmjs.com/package/unplugin-i18n-merger',

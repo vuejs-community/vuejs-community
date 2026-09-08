@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-twig-builder',
   description: 'Vite plugin to render Twig templates into static HTML pages during development and build',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Wyndace/vite-plugin-twig-builder',
+    npm: 'vite-plugin-twig-builder',
+  },
   links: {
     github: 'https://github.com/Wyndace/vite-plugin-twig-builder',
     npm: 'https://www.npmjs.com/package/vite-plugin-twig-builder',

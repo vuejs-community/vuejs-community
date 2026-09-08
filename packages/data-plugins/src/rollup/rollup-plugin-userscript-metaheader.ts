@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-userscript-metaheader',
   description: 'A Rollup plugin to automatically generate userscript meta headers.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: '7KiLL/rollup-plugin-userscript-metaheader',
+    npm: 'rollup-plugin-userscript-metaheader',
+  },
   links: {
     github: 'https://github.com/7KiLL/rollup-plugin-userscript-metaheader',
     npm: 'https://www.npmjs.com/package/rollup-plugin-userscript-metaheader',

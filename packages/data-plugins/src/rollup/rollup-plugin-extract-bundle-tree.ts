@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-extract-bundle-tree',
   description: 'Rollup plugin to export the rollup bundle tree to a JSON file',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.2.0',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'domingues/rollup-plugin-extract-bundle-tree',
+    npm: 'rollup-plugin-extract-bundle-tree',
+  },
   links: {
     github: 'https://github.com/domingues/rollup-plugin-extract-bundle-tree',
     npm: 'https://www.npmjs.com/package/rollup-plugin-extract-bundle-tree',

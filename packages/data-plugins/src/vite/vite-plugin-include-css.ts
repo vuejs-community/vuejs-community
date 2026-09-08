@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-include-css',
   description: 'Bundles all CSS into a single JavaScript file when `cssCodeSplit: false` is enabled.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '8.0.1',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'fengxinming/vite-plugins',
+    npm: 'vite-plugin-include-css',
+  },
   links: {
     github: 'https://github.com/fengxinming/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-include-css',

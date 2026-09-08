@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-extract-vendors',
   description: 'A vite plugin to extract external libraries from node_modules to vendors directory to improve caching of 3rd party js files',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.1',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'daniakash/vite-plugin-extract-vendors',
+    npm: 'vite-plugin-extract-vendors',
+  },
   links: {
     github: 'https://github.com/daniakash/vite-plugin-extract-vendors',
     npm: 'https://www.npmjs.com/package/vite-plugin-extract-vendors',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-url-import',
   description: 'Rollup plugin that resolves url imports',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.4.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'thgh/rollup-plugin-url-import',
+    npm: 'rollup-plugin-url-import',
+  },
   links: {
     github: 'https://github.com/thgh/rollup-plugin-url-import',
     npm: 'https://www.npmjs.com/package/rollup-plugin-url-import',

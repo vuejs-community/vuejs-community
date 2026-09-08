@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cloudflare-redirect',
   description: 'Vite plugin to handle Cloudflare\'s _redirects file',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'bluwy/vite-plugin-cloudflare-redirect',
+    npm: 'vite-plugin-cloudflare-redirect',
+  },
   links: {
     github: 'https://github.com/bluwy/vite-plugin-cloudflare-redirect',
     npm: 'https://www.npmjs.com/package/vite-plugin-cloudflare-redirect',

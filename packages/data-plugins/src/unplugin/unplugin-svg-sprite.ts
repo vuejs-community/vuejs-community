@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-svg-sprite',
   description: 'Unified plugin system for svg sprite',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '1.2.8',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'yunsii/unplugin-svg-sprite',
+    npm: 'unplugin-svg-sprite',
+  },
   links: {
     github: 'https://github.com/yunsii/unplugin-svg-sprite',
     npm: 'https://www.npmjs.com/package/unplugin-svg-sprite',

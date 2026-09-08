@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-strip-attrs',
   description: 'Strip test-related attributes like data-testid and data-cy from JSX, Vue, Svelte, and HTML at build time.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.3.0',
   category: 'plugin',
   tags: [
@@ -23,6 +23,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'ntnyq/unplugin-strip-attrs',
+    npm: 'unplugin-strip-attrs',
+  },
   links: {
     github: 'https://github.com/ntnyq/unplugin-strip-attrs',
     npm: 'https://www.npmjs.com/package/unplugin-strip-attrs',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-monitor-update',
   description: '[English](./README.md) | 简体中文',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.2',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'wangsizhu0504/unplugin-monitor-update',
+    npm: 'unplugin-monitor-update',
+  },
   links: {
     github: 'https://github.com/wangsizhu0504/unplugin-monitor-update',
     npm: 'https://www.npmjs.com/package/unplugin-monitor-update',

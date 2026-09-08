@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-debrix',
   description: 'Offical debrix vite plugin.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.0-alpha.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'debrixjs/debrix',
+    npm: 'vite-plugin-debrix',
+  },
   links: {
     github: 'https://github.com/debrixjs/debrix',
     npm: 'https://www.npmjs.com/package/vite-plugin-debrix',

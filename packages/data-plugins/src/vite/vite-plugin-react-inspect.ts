@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-inspect',
   description: 'jump to local IDE source code while click the element of browser automatically. Supports React.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.12',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'MartinBspheroid/vite-plugin-react-vue-inspector',
+    npm: 'vite-plugin-react-inspect',
+  },
   links: {
     github: 'https://github.com/MartinBspheroid/vite-plugin-react-vue-inspector',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-inspect',

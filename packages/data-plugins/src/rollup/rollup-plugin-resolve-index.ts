@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-resolve-index',
   description: 'Resolves index.js files with Rollup',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.5',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'pengzai-dev/rollup-plugin-resolve-index',
+    npm: 'rollup-plugin-resolve-index',
+  },
   links: {
     github: 'https://github.com/pengzai-dev/rollup-plugin-resolve-index',
     npm: 'https://www.npmjs.com/package/rollup-plugin-resolve-index',

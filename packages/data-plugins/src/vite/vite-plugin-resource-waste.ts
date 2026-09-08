@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-resource-waste',
   description: '基于 Vite 的前端构建资源浪费分析插件，利用 Module Graph 检测未使用 JS、不可达组件、缓存失效与重复依赖，量化传输/解析开销并输出可执行优化报告，支持 CI 构建阈值拦截',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.6.2',
   category: 'plugin',
   tags: [
@@ -24,6 +24,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'shilimingY/vite-plugin-resource-waste',
+    npm: 'vite-plugin-resource-waste',
+  },
   links: {
     github: 'https://github.com/shilimingY/vite-plugin-resource-waste',
     npm: 'https://www.npmjs.com/package/vite-plugin-resource-waste',

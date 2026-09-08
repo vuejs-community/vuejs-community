@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-formml',
   description: 'A Rollup plugin for importing FormML files',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'formml/formml',
+    npm: 'rollup-plugin-formml',
+  },
   links: {
     github: 'https://github.com/formml/formml',
     npm: 'https://www.npmjs.com/package/rollup-plugin-formml',

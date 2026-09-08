@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-lit-html-style',
   description: 'rollup plugin for extracting style and embed into lit html',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.3.3',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'odinr/rollup',
+    npm: 'rollup-plugin-lit-html-style',
+  },
   links: {
     github: 'https://github.com/odinr/rollup',
     npm: 'https://www.npmjs.com/package/rollup-plugin-lit-html-style',

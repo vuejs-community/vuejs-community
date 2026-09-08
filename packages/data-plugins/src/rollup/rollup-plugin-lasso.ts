@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-lasso',
   description: 'Custom JS Dependency for Lasso.js to pipe outputs from Rollup into Lasso\'s build lifecycle',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.3',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'dsathyakumar/rollup-plugin-lasso',
+    npm: 'rollup-plugin-lasso',
+  },
   links: {
     github: 'https://github.com/dsathyakumar/rollup-plugin-lasso',
     npm: 'https://www.npmjs.com/package/rollup-plugin-lasso',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-livescript',
   description: 'A Vite plugin for your LiveScript projects',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '4.0.0',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'idleberg/vite-plugin-livescript',
+    npm: 'vite-plugin-livescript',
+  },
   links: {
     github: 'https://github.com/idleberg/vite-plugin-livescript',
     npm: 'https://www.npmjs.com/package/vite-plugin-livescript',

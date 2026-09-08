@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue2',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-vue2?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-vue2)',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'so1ve/unplugin-vue2',
+    npm: 'unplugin-vue2',
+  },
   links: {
     github: 'https://github.com/so1ve/unplugin-vue2',
     npm: 'https://www.npmjs.com/package/unplugin-vue2',

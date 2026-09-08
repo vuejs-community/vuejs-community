@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-typed-css-modules',
   description: 'a rollup plugin to create css modules typescript declaration files',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.4',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'GZLiew/typed-css-modules-rollup-plugin',
+    npm: 'rollup-plugin-typed-css-modules',
+  },
   links: {
     github: 'https://github.com/GZLiew/typed-css-modules-rollup-plugin',
     npm: 'https://www.npmjs.com/package/rollup-plugin-typed-css-modules',
@@ -29,7 +33,7 @@ export default defineProjectMeta({
   stats: {
     downloads: {
       monthly: 5,
-      weekly: 1,
+      weekly: 2,
     },
   },
 })

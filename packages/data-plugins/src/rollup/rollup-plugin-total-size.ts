@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-total-size',
   description: '统计rollup 打包文件的 总计、原始尺寸、gzipped 体积',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.1.2',
   category: 'plugin',
   tags: [
@@ -12,6 +12,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'halo951/rollup-plugin-total-size',
+    npm: 'rollup-plugin-total-size',
+  },
   links: {
     github: 'https://github.com/halo951/rollup-plugin-total-size',
     npm: 'https://www.npmjs.com/package/rollup-plugin-total-size',

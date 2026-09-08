@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-whereami',
   description: 'Tints your favicon and prefixes the page title per environment (dev/staging/prod), plus an optional build-info banner in <head> and the browser console.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.4.1',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'mastermakrela/whereami',
+    npm: 'vite-plugin-whereami',
+  },
   links: {
     github: 'https://github.com/mastermakrela/whereami',
     npm: 'https://www.npmjs.com/package/vite-plugin-whereami',

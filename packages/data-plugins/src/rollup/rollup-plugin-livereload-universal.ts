@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-livereload-universal',
   description: 'Rollup plugin for reloading user\'s page on manually emitted events.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'mrnateriver/rollup-plugin-livereload-universal',
+    npm: 'rollup-plugin-livereload-universal',
+  },
   links: {
     github: 'https://github.com/mrnateriver/rollup-plugin-livereload-universal',
     npm: 'https://www.npmjs.com/package/rollup-plugin-livereload-universal',

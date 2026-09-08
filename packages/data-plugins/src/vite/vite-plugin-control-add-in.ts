@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-control-add-in',
   description: 'Vite plugin to write Microsoft Control Add-in\'s.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.8',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Hugos68/vite-plugin-control-add-in',
+    npm: 'vite-plugin-control-add-in',
+  },
   links: {
     github: 'https://github.com/Hugos68/vite-plugin-control-add-in',
     npm: 'https://www.npmjs.com/package/vite-plugin-control-add-in',

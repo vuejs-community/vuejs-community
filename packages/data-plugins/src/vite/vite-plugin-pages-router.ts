@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-pages-router',
   description: 'file-router plugin for vite',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.25',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'chickengir1/vite-plugin-pages-router',
+    npm: 'vite-plugin-pages-router',
+  },
   links: {
     github: 'https://github.com/chickengir1/vite-plugin-pages-router',
     npm: 'https://www.npmjs.com/package/vite-plugin-pages-router',

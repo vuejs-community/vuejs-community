@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-i18n-autoimport',
   description: '## plugin options',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.2.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'PengBoUESTC/vite-plugin-i18n-autoimport',
+    npm: 'vite-plugin-i18n-autoimport',
+  },
   links: {
     github: 'https://github.com/PengBoUESTC/vite-plugin-i18n-autoimport',
     npm: 'https://www.npmjs.com/package/vite-plugin-i18n-autoimport',

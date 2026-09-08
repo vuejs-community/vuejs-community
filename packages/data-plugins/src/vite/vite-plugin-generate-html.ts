@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-generate-html',
   description: 'A Vite plugin to generate separate output files for JavaScript and CSS bundles with customizable attributes.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.3.0',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'gedouu/vite-plugin-generate-html',
+    npm: 'vite-plugin-generate-html',
+  },
   links: {
     github: 'https://github.com/gedouu/vite-plugin-generate-html',
     npm: 'https://www.npmjs.com/package/vite-plugin-generate-html',

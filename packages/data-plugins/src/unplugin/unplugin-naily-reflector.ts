@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-naily-reflector',
   description: 'Simple reflection library based on TypeScript written using unplugin, so you can use it in vite, rspack, nuxt, webpack, etc.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.3.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'nailyjs/unplugin-reflector',
+    npm: 'unplugin-naily-reflector',
+  },
   links: {
     github: 'https://github.com/nailyjs/unplugin-reflector',
     npm: 'https://www.npmjs.com/package/unplugin-naily-reflector',

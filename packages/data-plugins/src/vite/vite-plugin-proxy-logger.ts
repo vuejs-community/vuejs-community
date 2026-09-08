@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-proxy-logger',
   description: '一个用于在开发环境中记录查看代理请求的 Vite 插件。',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.4',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'huangmingfu/vite-plugin-proxy-logger',
+    npm: 'vite-plugin-proxy-logger',
+  },
   links: {
     github: 'https://github.com/huangmingfu/vite-plugin-proxy-logger',
     npm: 'https://www.npmjs.com/package/vite-plugin-proxy-logger',

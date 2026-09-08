@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-node-resolve-with-sham-ui-macro',
   description: 'Rollup plugin for compile sham-ui macro in third-party packages',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '2.0.0',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'sham-ui/rollup-plugin-node-resolve-with-sham-ui-macro',
+    npm: 'rollup-plugin-node-resolve-with-sham-ui-macro',
+  },
   links: {
     github: 'https://github.com/sham-ui/rollup-plugin-node-resolve-with-sham-ui-macro',
     npm: 'https://www.npmjs.com/package/rollup-plugin-node-resolve-with-sham-ui-macro',

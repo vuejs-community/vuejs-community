@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-barrels',
   description: 'Create barrels automatically via Vite!',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'BlueFrog130/vite-plugin-barrels',
+    npm: 'vite-plugin-barrels',
+  },
   links: {
     github: 'https://github.com/BlueFrog130/vite-plugin-barrels',
     npm: 'https://www.npmjs.com/package/vite-plugin-barrels',

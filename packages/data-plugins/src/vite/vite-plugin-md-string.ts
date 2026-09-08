@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-md-string',
   description: 'get markdown string from *.md',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.7',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'social-uni/vite-plugin-md-string',
+    npm: 'vite-plugin-md-string',
+  },
   links: {
     github: 'https://github.com/social-uni/vite-plugin-md-string',
     npm: 'https://www.npmjs.com/package/vite-plugin-md-string',

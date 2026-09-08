@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-plain-text',
   description: 'A Vite plugin transforms the rule-matched file as plain text.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.4.2',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'zheeeng/vite-plugin-plain-text',
+    npm: 'vite-plugin-plain-text',
+  },
   links: {
     github: 'https://github.com/zheeeng/vite-plugin-plain-text',
     npm: 'https://www.npmjs.com/package/vite-plugin-plain-text',

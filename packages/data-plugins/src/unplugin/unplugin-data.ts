@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-data',
   description: 'A versatile plugin for compiling and transforming custom-configurable data files (e.g., *.data.js/ts/mjs/mts) into JavaScript object strings.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.2.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'lisonge/unplugin-data',
+    npm: 'unplugin-data',
+  },
   links: {
     github: 'https://github.com/lisonge/unplugin-data',
     npm: 'https://www.npmjs.com/package/unplugin-data',

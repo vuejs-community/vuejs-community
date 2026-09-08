@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-fontawesome',
   description: 'Register global imports on demand for Vite and Webpack',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '1.0.6',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'minetoblend/unplugin-vue-fontawesome',
+    npm: 'unplugin-vue-fontawesome',
+  },
   links: {
     github: 'https://github.com/minetoblend/unplugin-vue-fontawesome',
     npm: 'https://www.npmjs.com/package/unplugin-vue-fontawesome',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-bundle-stats',
   description: 'Analyze Rollup/Vite/Rolldown bundle stats(bundle size, assets, modules, packages) and compare the results between different builds',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '4.22.3',
   category: 'plugin',
   tags: [
@@ -26,6 +26,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'relative-ci/bundle-stats',
+    npm: 'rollup-plugin-bundle-stats',
+  },
   links: {
     github: 'https://github.com/relative-ci/bundle-stats',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bundle-stats',

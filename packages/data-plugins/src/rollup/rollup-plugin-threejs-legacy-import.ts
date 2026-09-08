@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-threejs-legacy-import',
   description: 'A Rollup plugin to transform Three.js legacy files (non ES6 modules) to ES6 modules',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'rollup/rollup-plugin-legacy',
+    npm: 'rollup-plugin-threejs-legacy-import',
+  },
   links: {
     github: 'https://github.com/rollup/rollup-plugin-legacy',
     npm: 'https://www.npmjs.com/package/rollup-plugin-threejs-legacy-import',

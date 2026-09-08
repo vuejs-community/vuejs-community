@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dynamic-sass-themes',
   description: 'A Vite plugin for dynamically compiling and applying SASS themes in your Vite project. This plugin allows you to manage multiple SASS themes, compile them on-the-fly, and dynamically update the styles in the browser without a full page reload.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.5',
   category: 'plugin',
   tags: [
@@ -30,6 +30,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'prosanabani/vite-plugin-dynamic-sass-themes',
+    npm: 'vite-plugin-dynamic-sass-themes',
+  },
   links: {
     github: 'https://github.com/prosanabani/vite-plugin-dynamic-sass-themes',
     npm: 'https://www.npmjs.com/package/vite-plugin-dynamic-sass-themes',

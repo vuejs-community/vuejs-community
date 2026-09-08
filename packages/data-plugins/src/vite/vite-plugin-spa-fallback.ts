@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-spa-fallback',
   description: 'Vite 2 plugin that fix dev server not rewriting the path includes a dot, while keeping support for serving existing files. - [vite#2190](https://github.com/vitejs/vite/issues/2190) - [vite#2245](https://github.com/vitejs/vite/issues/2245) - [vite#2415](ht',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.2',
   category: 'plugin',
   tags: [
@@ -13,14 +13,18 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'gluck/vite-plugin-spa-fallback',
+    npm: 'vite-plugin-spa-fallback',
+  },
   links: {
     github: 'https://github.com/gluck/vite-plugin-spa-fallback',
     npm: 'https://www.npmjs.com/package/vite-plugin-spa-fallback',
   },
   stats: {
     downloads: {
-      monthly: 44,
-      weekly: 14,
+      monthly: 41,
+      weekly: 7,
     },
   },
 })

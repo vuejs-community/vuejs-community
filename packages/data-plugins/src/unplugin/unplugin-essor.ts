@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-essor',
   description: '',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.18-beta.1',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'estjs/essor',
+    npm: 'unplugin-essor',
+  },
   links: {
     github: 'https://github.com/estjs/essor',
     npm: 'https://www.npmjs.com/package/unplugin-essor',

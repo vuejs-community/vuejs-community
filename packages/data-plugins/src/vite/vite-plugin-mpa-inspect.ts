@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mpa-inspect',
   description: 'Inspect the mpa entries of Vite plugins',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -12,6 +12,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'antfu/vite-plugin-mpa-inspect',
+    npm: 'vite-plugin-mpa-inspect',
+  },
   links: {
     github: 'https://github.com/antfu/vite-plugin-mpa-inspect',
     npm: 'https://www.npmjs.com/package/vite-plugin-mpa-inspect',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-docs-plus',
   description: 'vite plugin auto document generation for vue',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.4',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'wangshaojie1995/vite-plugin-vue-docs-plus',
+    npm: 'vite-plugin-vue-docs-plus',
+  },
   links: {
     github: 'https://github.com/wangshaojie1995/vite-plugin-vue-docs-plus',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-docs-plus',

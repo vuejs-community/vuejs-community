@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-i18n-types',
   description: 'Type-safe Vue i18n translations. Auto-generates TypeScript types from JSON locale files. Catch translation errors at compile time with full IDE autocomplete.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -29,6 +29,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'gcwioro/vite-plugin-vue-i18n-types',
+    npm: 'vite-plugin-vue-i18n-types',
+  },
   links: {
     github: 'https://github.com/gcwioro/vite-plugin-vue-i18n-types',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-i18n-types',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-no-refresh-html',
   description: 'Vite plugin that hot-updates JS files without refreshing the HTML page, preserving user inputs',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.9',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'windwiny/vite-plugin-no-refresh-html',
+    npm: 'vite-plugin-no-refresh-html',
+  },
   links: {
     github: 'https://github.com/windwiny/vite-plugin-no-refresh-html',
     npm: 'https://www.npmjs.com/package/vite-plugin-no-refresh-html',

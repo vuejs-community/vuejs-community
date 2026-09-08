@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-websqz',
   description: '',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.1.3',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'r00tkids/rollup-plugin-websqz',
+    npm: 'rollup-plugin-websqz',
+  },
   links: {
     github: 'https://github.com/r00tkids/rollup-plugin-websqz',
     npm: 'https://www.npmjs.com/package/rollup-plugin-websqz',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-tailwind-auto-reference',
   description: 'Automatically @reference your Tailwind CSS file in Vue SFC <style> blocks.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.0.2',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'M1CK431/vite-plugin-vue-tailwind-auto-reference',
+    npm: 'vite-plugin-vue-tailwind-auto-reference',
+  },
   links: {
     github: 'https://github.com/M1CK431/vite-plugin-vue-tailwind-auto-reference',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-tailwind-auto-reference',

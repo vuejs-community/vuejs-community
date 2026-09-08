@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-index-html',
   description: 'Vite Plugin that simplifies creation of HTML files to serve your bundles',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.0.2',
   category: 'plugin',
   tags: [
@@ -16,14 +16,18 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-index-html',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-index-html',
   },
   stats: {
     downloads: {
-      monthly: 822,
-      weekly: 225,
+      monthly: 805,
+      weekly: 165,
     },
   },
 })

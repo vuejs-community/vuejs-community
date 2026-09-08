@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-runtime',
   description: 'Vite plugin that enables configuring runtime environment variables when building',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.4.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'flexbase-eng/vite-plugin-runtime',
+    npm: 'vite-plugin-runtime',
+  },
   links: {
     github: 'https://github.com/flexbase-eng/vite-plugin-runtime',
     npm: 'https://www.npmjs.com/package/vite-plugin-runtime',

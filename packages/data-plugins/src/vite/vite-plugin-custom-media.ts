@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-custom-media',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'kyohei-23/vite-plugin-custom-media-query',
+    npm: 'vite-plugin-custom-media',
+  },
   links: {
     github: 'https://github.com/kyohei-23/vite-plugin-custom-media-query',
     npm: 'https://www.npmjs.com/package/vite-plugin-custom-media',

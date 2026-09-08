@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ssinc',
   description: 'The plugin for including SSI-like includes in Vite.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.11',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'yend724/vite-plugin-ssinc',
+    npm: 'vite-plugin-ssinc',
+  },
   links: {
     github: 'https://github.com/yend724/vite-plugin-ssinc',
     npm: 'https://www.npmjs.com/package/vite-plugin-ssinc',

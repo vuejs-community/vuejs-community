@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-jsx-remove-attributes',
   description: 'rollup &amp; vite plugin to remove jsx attributes',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '3.1.2',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'jacobbogers/rollup-plugin-jsx-remove-attributes',
+    npm: 'rollup-plugin-jsx-remove-attributes',
+  },
   links: {
     github: 'https://github.com/jacobbogers/rollup-plugin-jsx-remove-attributes',
     npm: 'https://www.npmjs.com/package/rollup-plugin-jsx-remove-attributes',

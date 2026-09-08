@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dotenv-local',
   description: 'Vite plugin that plugs dotenv-local into Vite\'s config lifecycle, so env files are loaded identically in `vite dev` and `vite build`.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'yracnet/dotenv-local',
+    npm: 'vite-plugin-dotenv-local',
+  },
   links: {
     github: 'https://github.com/yracnet/dotenv-local',
     npm: 'https://www.npmjs.com/package/vite-plugin-dotenv-local',

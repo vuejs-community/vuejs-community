@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-meta-env-dts',
   description: 'Automatically generate type declarations based on env.* files.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.6',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'xparcai/vite-plugin-meta-env-dts',
+    npm: 'vite-plugin-meta-env-dts',
+  },
   links: {
     github: 'https://github.com/xparcai/vite-plugin-meta-env-dts',
     npm: 'https://www.npmjs.com/package/vite-plugin-meta-env-dts',

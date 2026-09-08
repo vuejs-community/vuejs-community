@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-rehost',
   description: 'Self-hosted resources from index.html',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.1.0',
   category: 'plugin',
   tags: [
@@ -13,14 +13,18 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'alloc/vite-plugin-rehost',
+    npm: 'vite-plugin-rehost',
+  },
   links: {
     github: 'https://github.com/alloc/vite-plugin-rehost',
     npm: 'https://www.npmjs.com/package/vite-plugin-rehost',
   },
   stats: {
     downloads: {
-      monthly: 31,
-      weekly: 5,
+      monthly: 26,
+      weekly: 3,
     },
   },
 })

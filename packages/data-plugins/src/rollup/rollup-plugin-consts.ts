@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-consts',
   description: 'Import build time constants with Rollup',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.2.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'NotWoods/rollup-plugin-consts',
+    npm: 'rollup-plugin-consts',
+  },
   links: {
     github: 'https://github.com/NotWoods/rollup-plugin-consts',
     npm: 'https://www.npmjs.com/package/rollup-plugin-consts',

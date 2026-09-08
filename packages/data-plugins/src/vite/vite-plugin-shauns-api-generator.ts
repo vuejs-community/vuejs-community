@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-shauns-api-generator',
   description: 'Generates a Swagger UI and API client based on your SvelteKit API endpoints defined in +server.ts files',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.3',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-shauns-api-generator',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-shauns-api-generator',

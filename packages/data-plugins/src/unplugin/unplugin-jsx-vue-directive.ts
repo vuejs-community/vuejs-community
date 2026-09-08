@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-jsx-vue-directive',
   description: 'Description.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.5',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'zhiyuanzmj/unplugin-jsx-vue-directive',
+    npm: 'unplugin-jsx-vue-directive',
+  },
   links: {
     github: 'https://github.com/zhiyuanzmj/unplugin-jsx-vue-directive',
     npm: 'https://www.npmjs.com/package/unplugin-jsx-vue-directive',

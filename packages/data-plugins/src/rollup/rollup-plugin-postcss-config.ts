@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-postcss-config',
   description: 'Transform PostCSS in Rollup using options from a config file.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '2.0.0',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'Updater/rollup-plugin-postcss-config',
+    npm: 'rollup-plugin-postcss-config',
+  },
   links: {
     github: 'https://github.com/Updater/rollup-plugin-postcss-config',
     npm: 'https://www.npmjs.com/package/rollup-plugin-postcss-config',

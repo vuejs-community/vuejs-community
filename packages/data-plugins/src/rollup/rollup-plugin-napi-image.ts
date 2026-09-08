@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-napi-image',
   description: 'Rollup plugin for optimizing images powered by @napi-rs/image',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.6.1',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'cijiugechu/rollup-plugin-napi-image',
+    npm: 'rollup-plugin-napi-image',
+  },
   links: {
     github: 'https://github.com/cijiugechu/rollup-plugin-napi-image',
     npm: 'https://www.npmjs.com/package/rollup-plugin-napi-image',

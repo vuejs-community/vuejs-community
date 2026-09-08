@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-sbom',
   description: 'A rollup, rolldown and vite plugin to generate SBOMs for your application',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '4.0.0',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'janbiasi/rollup-plugin-sbom',
+    npm: 'rollup-plugin-sbom',
+  },
   links: {
     github: 'https://github.com/janbiasi/rollup-plugin-sbom',
     npm: 'https://www.npmjs.com/package/rollup-plugin-sbom',

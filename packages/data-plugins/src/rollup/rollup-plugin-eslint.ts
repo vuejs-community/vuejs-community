@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-eslint',
   description: 'Verify entry point and all imported files with ESLint',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '7.0.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'TrySound/rollup-plugin-eslint',
+    npm: 'rollup-plugin-eslint',
+  },
   links: {
     github: 'https://github.com/TrySound/rollup-plugin-eslint',
     npm: 'https://www.npmjs.com/package/rollup-plugin-eslint',

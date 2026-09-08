@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-typescript-path-mapping',
   description: 'Resolving module path which applies typescript\'s path mapping rule',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.2',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'Mutefish0/rollup-plugin-typescript-path-mapping',
+    npm: 'rollup-plugin-typescript-path-mapping',
+  },
   links: {
     github: 'https://github.com/Mutefish0/rollup-plugin-typescript-path-mapping',
     npm: 'https://www.npmjs.com/package/rollup-plugin-typescript-path-mapping',

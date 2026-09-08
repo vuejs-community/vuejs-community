@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-image-optimizer',
   description: 'A Vite plugin to optimize your image assets using Sharp.js and SVGO',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.0.3',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'FatehAK/vite-plugin-image-optimizer',
+    npm: 'vite-plugin-image-optimizer',
+  },
   links: {
     github: 'https://github.com/FatehAK/vite-plugin-image-optimizer',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-optimizer',

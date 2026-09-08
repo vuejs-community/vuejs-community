@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-markdown-for-enhancer',
   description: 'Compile Markdown to Vue component',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '29.2.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: '',
+    npm: 'unplugin-vue-markdown-for-enhancer',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/unplugin-vue-markdown-for-enhancer',

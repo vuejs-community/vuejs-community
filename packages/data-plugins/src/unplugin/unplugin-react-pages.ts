@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-react-pages',
   description: 'A Vite plugin for running file system routing application. Support React/Vue3',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.2',
   category: 'plugin',
   tags: [
@@ -26,6 +26,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'FrontEndDev-org/unplugin-react-pages',
+    npm: 'unplugin-react-pages',
+  },
   links: {
     github: 'https://github.com/FrontEndDev-org/unplugin-react-pages',
     npm: 'https://www.npmjs.com/package/unplugin-react-pages',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-standard-css-modules',
   description: 'Use import attributes to get a CSSStyleSheet or a Lit CSSResult from your CSS files in Vite',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.3.0',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'gracile-web/gracile',
+    npm: 'vite-plugin-standard-css-modules',
+  },
   links: {
     github: 'https://github.com/gracile-web/gracile',
     npm: 'https://www.npmjs.com/package/vite-plugin-standard-css-modules',

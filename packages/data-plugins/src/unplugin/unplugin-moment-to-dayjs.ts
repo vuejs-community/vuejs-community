@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-moment-to-dayjs',
   description: 'Register global imports on demand for Vite and Webpack',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.5.0',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'Dunqing/unplugin-moment-to-dayjs',
+    npm: 'unplugin-moment-to-dayjs',
+  },
   links: {
     github: 'https://github.com/Dunqing/unplugin-moment-to-dayjs',
     npm: 'https://www.npmjs.com/package/unplugin-moment-to-dayjs',

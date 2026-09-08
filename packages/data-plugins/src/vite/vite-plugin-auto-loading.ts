@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-loading',
   description: '一个用于自动处理 Vue 组件中的 loading 状态的 Vite 插件|A Vite plugin to automatically handle loading states in Vue components.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.7',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'sha-chong/vite-plugin-auto-loading',
+    npm: 'vite-plugin-auto-loading',
+  },
   links: {
     github: 'https://github.com/sha-chong/vite-plugin-auto-loading',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-loading',

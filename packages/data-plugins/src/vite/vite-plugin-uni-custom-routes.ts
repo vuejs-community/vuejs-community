@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-uni-custom-routes',
   description: 'Custom short routes for uni-app H5 pages',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -27,6 +27,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'refinist/vite-plugin-uni-custom-routes',
+    npm: 'vite-plugin-uni-custom-routes',
+  },
   links: {
     github: 'https://github.com/refinist/vite-plugin-uni-custom-routes',
     npm: 'https://www.npmjs.com/package/vite-plugin-uni-custom-routes',

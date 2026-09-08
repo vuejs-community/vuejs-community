@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-rehype',
   description: 'Rollup plugin for processing HTML files using Rehype',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'keplersj/rollup-plugin-rehype',
+    npm: 'rollup-plugin-rehype',
+  },
   links: {
     github: 'https://github.com/keplersj/rollup-plugin-rehype',
     npm: 'https://www.npmjs.com/package/rollup-plugin-rehype',

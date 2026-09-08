@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/bootstrap-vue-next',
   },
   stats: {
-    stars: 1289,
+    stars: 1290,
     downloads: {
       monthly: 275626,
       weekly: 61018,

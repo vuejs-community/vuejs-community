@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-xml-loader',
   description: 'xml loader plugin for vite',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.2',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'lorenzoc25/vite-plugin-xml-loader',
+    npm: 'vite-plugin-xml-loader',
+  },
   links: {
     github: 'https://github.com/lorenzoc25/vite-plugin-xml-loader',
     npm: 'https://www.npmjs.com/package/vite-plugin-xml-loader',

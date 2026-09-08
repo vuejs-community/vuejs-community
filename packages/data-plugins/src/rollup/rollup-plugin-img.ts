@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-img',
   description: 'import image files with rollup',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'alwaysonlinetxm/rollup-plugin-img',
+    npm: 'rollup-plugin-img',
+  },
   links: {
     github: 'https://github.com/alwaysonlinetxm/rollup-plugin-img',
     npm: 'https://www.npmjs.com/package/rollup-plugin-img',

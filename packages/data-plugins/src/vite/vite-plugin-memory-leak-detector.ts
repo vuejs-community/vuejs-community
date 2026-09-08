@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-memory-leak-detector',
   description: 'A Vite plugin to detect potential memory leaks in frontend code at build time.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'unknownman/vite-plugin-memory-leak-detector',
+    npm: 'vite-plugin-memory-leak-detector',
+  },
   links: {
     github: 'https://github.com/unknownman/vite-plugin-memory-leak-detector',
     npm: 'https://www.npmjs.com/package/vite-plugin-memory-leak-detector',

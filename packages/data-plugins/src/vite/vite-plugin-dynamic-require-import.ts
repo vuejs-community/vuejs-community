@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dynamic-require-import',
   description: 'Converts require dynamic loading to import dynamic loading',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'yangyanhui1217/vite-plugins-related',
+    npm: 'vite-plugin-dynamic-require-import',
+  },
   links: {
     github: 'https://github.com/yangyanhui1217/vite-plugins-related',
     npm: 'https://www.npmjs.com/package/vite-plugin-dynamic-require-import',

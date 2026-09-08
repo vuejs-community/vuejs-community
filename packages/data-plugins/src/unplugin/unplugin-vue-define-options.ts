@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-define-options',
   description: 'Add defineOptions macro for Vue <script setup>.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '3.1.4',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'vue-macros/vue-macros',
+    npm: 'unplugin-vue-define-options',
+  },
   links: {
     github: 'https://github.com/vue-macros/vue-macros',
     npm: 'https://www.npmjs.com/package/unplugin-vue-define-options',

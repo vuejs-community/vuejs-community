@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-conditional-compile',
   description: '<h2 align=\'center\'>vite-plugin-conditional-compile</h2>',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.4.5',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'LZS911/vite-plugin-conditional-compile',
+    npm: 'vite-plugin-conditional-compile',
+  },
   links: {
     github: 'https://github.com/LZS911/vite-plugin-conditional-compile',
     npm: 'https://www.npmjs.com/package/vite-plugin-conditional-compile',

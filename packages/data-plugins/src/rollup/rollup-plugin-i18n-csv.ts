@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-i18n-csv',
   description: 'Rollup plugin to convert CSV i18n definitions into nested JavaScript objects',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.2.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'voodoochild/rollup-plugin-i18n-csv',
+    npm: 'rollup-plugin-i18n-csv',
+  },
   links: {
     github: 'https://github.com/voodoochild/rollup-plugin-i18n-csv',
     npm: 'https://www.npmjs.com/package/rollup-plugin-i18n-csv',

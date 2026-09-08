@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-react-auto-components',
   description: 'On-demand React components auto-import for Vite / Webpack / Rollup',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.2.8',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'Oasis20090828/unplugin-react-auto-components',
+    npm: 'unplugin-react-auto-components',
+  },
   links: {
     github: 'https://github.com/Oasis20090828/unplugin-react-auto-components',
     npm: 'https://www.npmjs.com/package/unplugin-react-auto-components',

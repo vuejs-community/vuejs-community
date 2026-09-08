@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-inspector',
   description: 'Jump to local IDE source code when clicking Vue elements in the browser.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '7.0.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'webfansplz/vite-plugin-vue-inspector',
+    npm: 'vite-plugin-vue-inspector',
+  },
   links: {
     github: 'https://github.com/webfansplz/vite-plugin-vue-inspector',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-inspector',

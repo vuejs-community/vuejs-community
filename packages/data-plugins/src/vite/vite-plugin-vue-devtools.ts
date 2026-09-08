@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-devtools',
   description: 'A vite plugin for Vue DevTools',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '8.2.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'vuejs/devtools',
+    npm: 'vite-plugin-vue-devtools',
+  },
   links: {
     github: 'https://github.com/vuejs/devtools',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-devtools',

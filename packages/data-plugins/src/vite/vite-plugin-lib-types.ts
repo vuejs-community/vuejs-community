@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lib-types',
   description: 'Generate dts file while building library, supports vue file',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '3.1.2',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'keuby/vite-plugin-lib-types',
+    npm: 'vite-plugin-lib-types',
+  },
   links: {
     github: 'https://github.com/keuby/vite-plugin-lib-types',
     npm: 'https://www.npmjs.com/package/vite-plugin-lib-types',

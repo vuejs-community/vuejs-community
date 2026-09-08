@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-transform-imports',
   description: 'Transforms member style imports into default style imports',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'justforuse/vite-plugin-transform-imports',
+    npm: 'vite-plugin-transform-imports',
+  },
   links: {
     github: 'https://github.com/justforuse/vite-plugin-transform-imports',
     npm: 'https://www.npmjs.com/package/vite-plugin-transform-imports',

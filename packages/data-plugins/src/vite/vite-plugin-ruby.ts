@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ruby',
   description: 'Convention over configuration for using Vite in Ruby apps',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '5.2.3',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ElMassimo/vite_ruby',
+    npm: 'vite-plugin-ruby',
+  },
   links: {
     github: 'https://github.com/ElMassimo/vite_ruby',
     npm: 'https://www.npmjs.com/package/vite-plugin-ruby',

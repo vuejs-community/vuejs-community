@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-element-plus',
   description: 'Import Element Plus on demand. Support Vite, Webpack, Vue CLI, Rollup and esbuild.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.11.2',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'element-plus/unplugin-element-plus',
+    npm: 'unplugin-element-plus',
+  },
   links: {
     github: 'https://github.com/element-plus/unplugin-element-plus',
     npm: 'https://www.npmjs.com/package/unplugin-element-plus',

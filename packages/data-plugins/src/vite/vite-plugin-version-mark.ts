@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-version-mark',
   description: 'A Vite/Nuxt plugin that automatically injects version information (package.json version, git commit SHA, or custom commands) into your application via console, global variables, meta tags, and static files.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.2',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ZhongxuYang/vite-plugin-version-mark',
+    npm: 'vite-plugin-version-mark',
+  },
   links: {
     github: 'https://github.com/ZhongxuYang/vite-plugin-version-mark',
     npm: 'https://www.npmjs.com/package/vite-plugin-version-mark',

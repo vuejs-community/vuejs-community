@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-raw',
   description: 'Transform file to a default-export string.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.8.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'unplugin/unplugin-raw',
+    npm: 'unplugin-raw',
+  },
   links: {
     github: 'https://github.com/unplugin/unplugin-raw',
     npm: 'https://www.npmjs.com/package/unplugin-raw',

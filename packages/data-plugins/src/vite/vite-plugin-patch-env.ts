@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-patch-env',
   description: '<img src="./assets/logo.svg" alt="logo of vite-plugin-patch-env repository" width="100" height="100" align="right" />',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.5',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'KeJunMao/vite-plugin-patch-env',
+    npm: 'vite-plugin-patch-env',
+  },
   links: {
     github: 'https://github.com/KeJunMao/vite-plugin-patch-env',
     npm: 'https://www.npmjs.com/package/vite-plugin-patch-env',

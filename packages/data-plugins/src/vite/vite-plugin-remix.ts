@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-remix',
   description: 'A Vite plugin for integrating the Remix framework while maintaining Vite\'s functionalities.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.6',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'yracnet/vite-plugin-remix',
+    npm: 'vite-plugin-remix',
+  },
   links: {
     github: 'https://github.com/yracnet/vite-plugin-remix',
     npm: 'https://www.npmjs.com/package/vite-plugin-remix',

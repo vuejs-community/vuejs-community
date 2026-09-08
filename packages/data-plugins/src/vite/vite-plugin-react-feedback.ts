@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-feedback',
   description: 'Visual annotation tool for React + Vite — click any component, write feedback, copy structured output for LLMs',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'jozef/vite-plugin-react-feedback',
+    npm: 'vite-plugin-react-feedback',
+  },
   links: {
     github: 'https://github.com/jozef/vite-plugin-react-feedback',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-feedback',

@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@norbiros/nuxt-auto-form',
   },
   stats: {
-    stars: 58,
+    stars: 59,
     downloads: {
       monthly: 948,
       weekly: 151,

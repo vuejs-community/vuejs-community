@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-macros',
   description: 'Macros for bundlers.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.23.2',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'unplugin/unplugin-macros',
+    npm: 'unplugin-macros',
+  },
   links: {
     github: 'https://github.com/unplugin/unplugin-macros',
     npm: 'https://www.npmjs.com/package/unplugin-macros',

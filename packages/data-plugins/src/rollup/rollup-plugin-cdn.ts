@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-cdn',
   description: 'Resolves CDN with Rollup',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.1.2',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'WebReflection/rollup-plugin-cdn',
+    npm: 'rollup-plugin-cdn',
+  },
   links: {
     github: 'https://github.com/WebReflection/rollup-plugin-cdn',
     npm: 'https://www.npmjs.com/package/rollup-plugin-cdn',

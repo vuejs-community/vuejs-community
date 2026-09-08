@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-manifest-json',
   description: 'Rollup plugin to generate a manifest.json file used to tell the browser about your web app.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.7.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'adamzerella/rollup-plugin-manifest-json',
+    npm: 'rollup-plugin-manifest-json',
+  },
   links: {
     github: 'https://github.com/adamzerella/rollup-plugin-manifest-json',
     npm: 'https://www.npmjs.com/package/rollup-plugin-manifest-json',

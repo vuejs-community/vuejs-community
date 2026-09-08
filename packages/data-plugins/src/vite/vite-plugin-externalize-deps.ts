@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-externalize-deps',
   description: 'A configurable Vite plugin to help externalize your dependencies (includes subpaths)',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.10.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'voracious/vite-plugin-externalize-deps',
+    npm: 'vite-plugin-externalize-deps',
+  },
   links: {
     github: 'https://github.com/voracious/vite-plugin-externalize-deps',
     npm: 'https://www.npmjs.com/package/vite-plugin-externalize-deps',

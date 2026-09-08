@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tomato',
   description: 'Vite plugin for Tomato CSS - import .tom files in React with scoped styles',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'srivtx/tomato-css',
+    npm: 'vite-plugin-tomato',
+  },
   links: {
     github: 'https://github.com/srivtx/tomato-css',
     npm: 'https://www.npmjs.com/package/vite-plugin-tomato',

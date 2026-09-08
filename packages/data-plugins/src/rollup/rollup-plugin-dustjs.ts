@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-dustjs',
   description: 'A rollup plugin for importing dustjs templates as modules',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'chrisdothtml/rollup-plugin-dustjs',
+    npm: 'rollup-plugin-dustjs',
+  },
   links: {
     github: 'https://github.com/chrisdothtml/rollup-plugin-dustjs',
     npm: 'https://www.npmjs.com/package/rollup-plugin-dustjs',

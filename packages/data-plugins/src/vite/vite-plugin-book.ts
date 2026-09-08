@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-book',
   description: 'A vite plugin to help you write a book.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.8',
   category: 'plugin',
   tags: [
@@ -12,14 +12,18 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-book',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-book',
   },
   stats: {
     downloads: {
-      monthly: 95,
-      weekly: 36,
+      monthly: 136,
+      weekly: 50,
     },
   },
 })

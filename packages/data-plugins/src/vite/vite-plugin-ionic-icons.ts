@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ionic-icons',
   description: 'Vite plugin that auto-detects and bundles only the Ionic icons your project uses — icon tree-shaking with zero config.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.1',
   category: 'plugin',
   tags: [
@@ -23,6 +23,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'DeJy/vite-plugin-ionic-icons',
+    npm: 'vite-plugin-ionic-icons',
+  },
   links: {
     github: 'https://github.com/DeJy/vite-plugin-ionic-icons',
     npm: 'https://www.npmjs.com/package/vite-plugin-ionic-icons',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mdicon2svg',
   description: 'Vite plugin to transform md-icon to svgs',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.4',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'vdegenne/vite-plugin-mdicon2svg',
+    npm: 'vite-plugin-mdicon2svg',
+  },
   links: {
     github: 'https://github.com/vdegenne/vite-plugin-mdicon2svg',
     npm: 'https://www.npmjs.com/package/vite-plugin-mdicon2svg',

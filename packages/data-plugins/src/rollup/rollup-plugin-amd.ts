@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-amd',
   description: 'Convert AMD files to ES2016 modules',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '4.0.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'piuccio/rollup-plugin-amd',
+    npm: 'rollup-plugin-amd',
+  },
   links: {
     github: 'https://github.com/piuccio/rollup-plugin-amd',
     npm: 'https://www.npmjs.com/package/rollup-plugin-amd',

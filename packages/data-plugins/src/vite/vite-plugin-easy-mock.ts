@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-easy-mock',
   description: 'mock server',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'leitingting08/vite-plugin-easy-mock',
+    npm: 'vite-plugin-easy-mock',
+  },
   links: {
     github: 'https://github.com/leitingting08/vite-plugin-easy-mock',
     npm: 'https://www.npmjs.com/package/vite-plugin-easy-mock',

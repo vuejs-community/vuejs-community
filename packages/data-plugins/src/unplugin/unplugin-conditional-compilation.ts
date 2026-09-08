@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-conditional-compilation',
   description: 'Similar to taro framework conditional compilation',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.7',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'Binbiubiubiu/unplugin-conditional-compilation',
+    npm: 'unplugin-conditional-compilation',
+  },
   links: {
     github: 'https://github.com/Binbiubiubiu/unplugin-conditional-compilation',
     npm: 'https://www.npmjs.com/package/unplugin-conditional-compilation',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-resolve-as',
   description: 'Some processing logic depends on special file names, so...',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.1.3',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'wmzy/rollup-plugin-resolve-as',
+    npm: 'rollup-plugin-resolve-as',
+  },
   links: {
     github: 'https://github.com/wmzy/rollup-plugin-resolve-as',
     npm: 'https://www.npmjs.com/package/rollup-plugin-resolve-as',

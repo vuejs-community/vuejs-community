@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lazy-thumbnails',
   description: '一个 Vite 插件，用于生成图片缩略图并在页面加载时实现渐进式图片加载效果',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.5.2',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'lixianbin1/vite-plugin-lazy-thumbnails',
+    npm: 'vite-plugin-lazy-thumbnails',
+  },
   links: {
     github: 'https://github.com/lixianbin1/vite-plugin-lazy-thumbnails',
     npm: 'https://www.npmjs.com/package/vite-plugin-lazy-thumbnails',

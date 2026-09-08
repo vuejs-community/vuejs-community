@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-formkit',
   description: 'Automatic FormKit configuration 🪄',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.3.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'formkit/unplugin-formkit',
+    npm: 'unplugin-formkit',
+  },
   links: {
     github: 'https://github.com/formkit/unplugin-formkit',
     npm: 'https://www.npmjs.com/package/unplugin-formkit',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-inject-css-to-js',
   description: 'Combine this with the Vite build.cssCodeSplit CSS code splitting capability to build css into individual js files instead of using css links.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Levix/vite-plugin-inject-css-to-js',
+    npm: 'vite-plugin-inject-css-to-js',
+  },
   links: {
     github: 'https://github.com/Levix/vite-plugin-inject-css-to-js',
     npm: 'https://www.npmjs.com/package/vite-plugin-inject-css-to-js',

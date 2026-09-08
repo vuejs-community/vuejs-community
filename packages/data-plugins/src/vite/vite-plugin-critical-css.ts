@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-critical-css',
   description: 'Vite plugin that extracts and inlines critical (above-the-fold) CSS into the <head> and defers the rest for improved LCP and Core Web Vitals.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Effeilo/vite-plugin-critical-css',
+    npm: 'vite-plugin-critical-css',
+  },
   links: {
     github: 'https://github.com/Effeilo/vite-plugin-critical-css',
     npm: 'https://www.npmjs.com/package/vite-plugin-critical-css',

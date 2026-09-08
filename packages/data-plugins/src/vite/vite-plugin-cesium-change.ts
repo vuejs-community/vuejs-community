@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cesium-change',
   description: 'Unofficial customized fork of vite-plugin-cesium',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'yelingkong/vite-plugin-cesium',
+    npm: 'vite-plugin-cesium-change',
+  },
   links: {
     github: 'https://github.com/yelingkong/vite-plugin-cesium',
     npm: 'https://www.npmjs.com/package/vite-plugin-cesium-change',

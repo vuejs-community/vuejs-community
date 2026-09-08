@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-serve-proxy',
   description: 'Serve your rolled up bundle',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.1.4',
   category: 'plugin',
   tags: [
@@ -16,14 +16,18 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'calebdwilliams/rollup-plugin-devserver',
+    npm: 'rollup-plugin-serve-proxy',
+  },
   links: {
     github: 'https://github.com/calebdwilliams/rollup-plugin-devserver',
     npm: 'https://www.npmjs.com/package/rollup-plugin-serve-proxy',
   },
   stats: {
     downloads: {
-      monthly: 710,
-      weekly: 274,
+      monthly: 596,
+      weekly: 24,
     },
   },
 })

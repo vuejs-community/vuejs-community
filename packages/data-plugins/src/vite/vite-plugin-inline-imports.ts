@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-inline-imports',
   description: 'Vite plugin to inline imports',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'steciuk/vite-plugin-inline-imports',
+    npm: 'vite-plugin-inline-imports',
+  },
   links: {
     github: 'https://github.com/steciuk/vite-plugin-inline-imports',
     npm: 'https://www.npmjs.com/package/vite-plugin-inline-imports',

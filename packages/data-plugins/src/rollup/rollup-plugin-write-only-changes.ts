@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-write-only-changes',
   description: 'A Rollup plugin for writing files to the output directoriy only if their contents actually changed.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'prantlf/rollup-plugin-write-only-changes',
+    npm: 'rollup-plugin-write-only-changes',
+  },
   links: {
     github: 'https://github.com/prantlf/rollup-plugin-write-only-changes',
     npm: 'https://www.npmjs.com/package/rollup-plugin-write-only-changes',

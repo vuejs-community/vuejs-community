@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-checker-eslog',
   description: 'Vite plugin that runs TypeScript type checker on a separate process.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.4',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'fi3ework/vite-plugin-checker',
+    npm: 'vite-plugin-checker-eslog',
+  },
   links: {
     github: 'https://github.com/fi3ework/vite-plugin-checker',
     npm: 'https://www.npmjs.com/package/vite-plugin-checker-eslog',

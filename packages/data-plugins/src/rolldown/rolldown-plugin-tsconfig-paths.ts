@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rolldown-plugin-tsconfig-paths',
   description: 'A plugin to resolves paths from tsconfig for Rolldown.',
-  icon: '',
+  icon: 'logos:rolldown-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rolldown-plugin',
   ],
+  source: {
+    github: 'aprosail/rolldown-enhance',
+    npm: 'rolldown-plugin-tsconfig-paths',
+  },
   links: {
     github: 'https://github.com/aprosail/rolldown-enhance',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-tsconfig-paths',

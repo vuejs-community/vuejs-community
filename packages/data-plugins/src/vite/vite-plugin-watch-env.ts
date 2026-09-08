@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-watch-env',
   description: '> Apply .env file to process.env and watch file changes in vite.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Enoooch/vite-plugin-watch-env',
+    npm: 'vite-plugin-watch-env',
+  },
   links: {
     github: 'https://github.com/Enoooch/vite-plugin-watch-env',
     npm: 'https://www.npmjs.com/package/vite-plugin-watch-env',

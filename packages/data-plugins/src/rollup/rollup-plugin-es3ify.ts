@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-es3ify',
   description: 'Rollup plugin to es3ify generated bundle',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.4',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'sunbing81/rollup-plugin-es3ify',
+    npm: 'rollup-plugin-es3ify',
+  },
   links: {
     github: 'https://github.com/sunbing81/rollup-plugin-es3ify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-es3ify',

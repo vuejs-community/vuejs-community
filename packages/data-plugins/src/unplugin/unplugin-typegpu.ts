@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-typegpu',
   description: 'Build plugins for TypeGPU, enabling seamless JavaScript -> WGSL transpilation and improved debugging.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.12.3',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'software-mansion/TypeGPU',
+    npm: 'unplugin-typegpu',
+  },
   links: {
     github: 'https://github.com/software-mansion/TypeGPU',
     npm: 'https://www.npmjs.com/package/unplugin-typegpu',

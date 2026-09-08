@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-build-stamp',
   description: 'Vite plugin that stamps build information (time, version, git commit, mode) into index.html as <meta> tags',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.3',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'LouieJiang/vite-plugin-build-stamp',
+    npm: 'vite-plugin-build-stamp',
+  },
   links: {
     github: 'https://github.com/LouieJiang/vite-plugin-build-stamp',
     npm: 'https://www.npmjs.com/package/vite-plugin-build-stamp',

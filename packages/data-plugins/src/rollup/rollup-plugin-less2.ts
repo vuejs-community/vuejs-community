@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-less2',
   description: 'A rollup plugin for less files, support css modules',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '3.0.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'Katochimoto/rollup-plugin-less2',
+    npm: 'rollup-plugin-less2',
+  },
   links: {
     github: 'https://github.com/Katochimoto/rollup-plugin-less2',
     npm: 'https://www.npmjs.com/package/rollup-plugin-less2',

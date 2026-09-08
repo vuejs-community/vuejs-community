@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ops',
   description: 'Vite plugin to organize build outputs and vendor chunking.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'suileyan/vite-plugin-ops',
+    npm: 'vite-plugin-ops',
+  },
   links: {
     github: 'https://github.com/suileyan/vite-plugin-ops',
     npm: 'https://www.npmjs.com/package/vite-plugin-ops',

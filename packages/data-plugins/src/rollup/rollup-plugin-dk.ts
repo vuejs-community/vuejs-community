@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-dk',
   description: 'Seamless migration from es5 to es6 for `dk-fe` project',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.7',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'Nigiss/rollup-plugin-dk',
+    npm: 'rollup-plugin-dk',
+  },
   links: {
     github: 'https://github.com/Nigiss/rollup-plugin-dk',
     npm: 'https://www.npmjs.com/package/rollup-plugin-dk',

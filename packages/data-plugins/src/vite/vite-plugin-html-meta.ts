@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-meta',
   description: 'Generate meta tags to html files according to configuration',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'RJQingHuan/vite-plugin-html-meta',
+    npm: 'vite-plugin-html-meta',
+  },
   links: {
     github: 'https://github.com/RJQingHuan/vite-plugin-html-meta',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-meta',

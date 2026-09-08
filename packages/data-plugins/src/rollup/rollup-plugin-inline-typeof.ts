@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-inline-typeof',
   description: 'Rollup plugin to inline `typeof` expressions as separate functions',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'nolanlawson/rollup-plugin-inline-typeof',
+    npm: 'rollup-plugin-inline-typeof',
+  },
   links: {
     github: 'https://github.com/nolanlawson/rollup-plugin-inline-typeof',
     npm: 'https://www.npmjs.com/package/rollup-plugin-inline-typeof',

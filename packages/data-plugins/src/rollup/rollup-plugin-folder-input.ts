@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-folder-input',
   description: 'Rollup plugin to allow specification of \'input\' array using globs',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'dgkimpton/rollup-plugin-folder-input',
+    npm: 'rollup-plugin-folder-input',
+  },
   links: {
     github: 'https://github.com/dgkimpton/rollup-plugin-folder-input',
     npm: 'https://www.npmjs.com/package/rollup-plugin-folder-input',

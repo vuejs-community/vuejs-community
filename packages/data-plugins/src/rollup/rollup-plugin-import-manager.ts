@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-import-manager',
   description: 'A rollup plugin to add, modify, and remove imports (cjs/es6/dynamic)',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.6.4',
   category: 'plugin',
   tags: [
@@ -25,6 +25,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'UmamiAppearance/rollup-plugin-import-manager',
+    npm: 'rollup-plugin-import-manager',
+  },
   links: {
     github: 'https://github.com/UmamiAppearance/rollup-plugin-import-manager',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-manager',

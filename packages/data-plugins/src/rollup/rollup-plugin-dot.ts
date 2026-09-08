@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-dot',
   description: 'rollup plugin to compile doT files',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'nilennoct/rollup-plugin-dot',
+    npm: 'rollup-plugin-dot',
+  },
   links: {
     github: 'https://github.com/nilennoct/rollup-plugin-dot',
     npm: 'https://www.npmjs.com/package/rollup-plugin-dot',

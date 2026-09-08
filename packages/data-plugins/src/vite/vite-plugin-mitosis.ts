@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mitosis',
   description: 'Vite plugin to import JSX components to different UI frameworks',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'az33zy/vite-plugin-mitosis',
+    npm: 'vite-plugin-mitosis',
+  },
   links: {
     github: 'https://github.com/az33zy/vite-plugin-mitosis',
     npm: 'https://www.npmjs.com/package/vite-plugin-mitosis',

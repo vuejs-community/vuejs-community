@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-svelte-components',
   description: 'Components auto importing for svelte',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.3.1',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'Mohamed-Kaizen/unplugin-svelte-components',
+    npm: 'unplugin-svelte-components',
+  },
   links: {
     github: 'https://github.com/Mohamed-Kaizen/unplugin-svelte-components',
     npm: 'https://www.npmjs.com/package/unplugin-svelte-components',

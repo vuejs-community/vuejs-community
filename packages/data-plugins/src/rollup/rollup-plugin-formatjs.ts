@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-formatjs',
   description: 'Applies formatjs transforms to your JS in Rollup',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '3.0.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'hummingbird-me/rollup-plugin-formatjs',
+    npm: 'rollup-plugin-formatjs',
+  },
   links: {
     github: 'https://github.com/hummingbird-me/rollup-plugin-formatjs',
     npm: 'https://www.npmjs.com/package/rollup-plugin-formatjs',

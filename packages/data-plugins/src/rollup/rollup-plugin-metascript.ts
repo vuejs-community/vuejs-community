@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-metascript',
   description: 'A Rollup plugin to transform code with MetaScript.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.5',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: '125m125/splconfigurator',
+    npm: 'rollup-plugin-metascript',
+  },
   links: {
     github: 'https://github.com/125m125/splconfigurator',
     npm: 'https://www.npmjs.com/package/rollup-plugin-metascript',

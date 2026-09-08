@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-br-ext',
   description: 'vite 插件，用于游览器扩展开发中能够使用 vite + vue3技术栈',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.16',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'JingHong0202/vite-plugin-br-ext',
+    npm: 'vite-plugin-br-ext',
+  },
   links: {
     github: 'https://github.com/JingHong0202/vite-plugin-br-ext',
     npm: 'https://www.npmjs.com/package/vite-plugin-br-ext',

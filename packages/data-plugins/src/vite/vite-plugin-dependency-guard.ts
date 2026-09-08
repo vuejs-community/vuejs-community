@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dependency-guard',
   description: 'Vite plugin that checks dependencies for supply-chain and maintenance risks.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.3.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'JonathanSchndr/vite-plugin-dependency-guard',
+    npm: 'vite-plugin-dependency-guard',
+  },
   links: {
     github: 'https://github.com/JonathanSchndr/vite-plugin-dependency-guard',
     npm: 'https://www.npmjs.com/package/vite-plugin-dependency-guard',

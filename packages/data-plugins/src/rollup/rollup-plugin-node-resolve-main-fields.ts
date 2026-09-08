@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-node-resolve-main-fields',
   description: 'Bundle third-party dependencies in node_modules',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '3.3.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'rollup/rollup-plugin-node-resolve',
+    npm: 'rollup-plugin-node-resolve-main-fields',
+  },
   links: {
     github: 'https://github.com/rollup/rollup-plugin-node-resolve',
     npm: 'https://www.npmjs.com/package/rollup-plugin-node-resolve-main-fields',

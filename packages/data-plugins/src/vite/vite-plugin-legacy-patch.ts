@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-legacy-patch',
   description: '',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Alioth1017/vite-plugin-legacy-patch',
+    npm: 'vite-plugin-legacy-patch',
+  },
   links: {
     github: 'https://github.com/Alioth1017/vite-plugin-legacy-patch',
     npm: 'https://www.npmjs.com/package/vite-plugin-legacy-patch',

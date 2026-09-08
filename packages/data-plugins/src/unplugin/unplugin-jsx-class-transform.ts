@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-jsx-class-transform',
   description: 'unplugin-jsx-class-transform',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.9',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'tangdaoyuan/unplugin-jsx-class-transform',
+    npm: 'unplugin-jsx-class-transform',
+  },
   links: {
     github: 'https://github.com/tangdaoyuan/unplugin-jsx-class-transform',
     npm: 'https://www.npmjs.com/package/unplugin-jsx-class-transform',

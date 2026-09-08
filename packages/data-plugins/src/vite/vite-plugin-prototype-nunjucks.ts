@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-prototype-nunjucks',
   description: '```twig <ul id="navigation">     {% for item in [\'Home\', \'About\'] %}         <li>{{ item }}</li>     {% endfor %} </ul> ```',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.4',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'NguyenTuDong/vite-prototype',
+    npm: 'vite-plugin-prototype-nunjucks',
+  },
   links: {
     github: 'https://github.com/NguyenTuDong/vite-prototype',
     npm: 'https://www.npmjs.com/package/vite-plugin-prototype-nunjucks',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-power-assert',
   description: 'power-assert rollup plugin',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.2.2',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'twada/power-assert-monorepo',
+    npm: 'rollup-plugin-power-assert',
+  },
   links: {
     github: 'https://github.com/twada/power-assert-monorepo',
     npm: 'https://www.npmjs.com/package/rollup-plugin-power-assert',

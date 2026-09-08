@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-blokjs',
   description: 'Vite plugin for BlokJS - auto-discovers components and stores by filename convention',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'maleta/blokjs',
+    npm: 'vite-plugin-blokjs',
+  },
   links: {
     github: 'https://github.com/maleta/blokjs',
     npm: 'https://www.npmjs.com/package/vite-plugin-blokjs',

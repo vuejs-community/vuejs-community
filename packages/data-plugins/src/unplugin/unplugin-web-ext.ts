@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-web-ext',
   description: 'Simplify web extension creation with Webpack, Rollup, Vite, and esbuild.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'jwr12135/unplugin-web-ext',
+    npm: 'unplugin-web-ext',
+  },
   links: {
     github: 'https://github.com/jwr12135/unplugin-web-ext',
     npm: 'https://www.npmjs.com/package/unplugin-web-ext',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rolldown-plugin-css',
   description: 'Rolldown CSS plugin: Sass/Scss/Less compilation, CSS Modules & compatibility via Lightning CSS, auto-injecting CSS imports into JS.',
-  icon: '',
+  icon: 'logos:rolldown-icon',
   version: '0.2.12',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'rolldown-plugin',
   ],
+  source: {
+    github: 'sonion028/rolldown-plugin-css',
+    npm: 'rolldown-plugin-css',
+  },
   links: {
     github: 'https://github.com/sonion028/rolldown-plugin-css',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-css',

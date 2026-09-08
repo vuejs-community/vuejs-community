@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-import-yaml',
   description: 'import yaml files inside code files. Types are generated dynamically for TS.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.6',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'HussainTaj-W/rollup-plugin-import-yaml',
+    npm: 'rollup-plugin-import-yaml',
+  },
   links: {
     github: 'https://github.com/HussainTaj-W/rollup-plugin-import-yaml',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-yaml',

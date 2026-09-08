@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-graphiql',
   description: 'Integrate GraphiQL IDE in your Vite projects',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'mammadataei/vite-plugin-graphiql',
+    npm: 'vite-plugin-graphiql',
+  },
   links: {
     github: 'https://github.com/mammadataei/vite-plugin-graphiql',
     npm: 'https://www.npmjs.com/package/vite-plugin-graphiql',

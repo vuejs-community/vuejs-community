@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-app',
   description: 'Vite plugin for Vue 3 that supports SSG, SSR, and SPA.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'kaivanwong/vite-plugin-app',
+    npm: 'vite-plugin-app',
+  },
   links: {
     github: 'https://github.com/kaivanwong/vite-plugin-app',
     npm: 'https://www.npmjs.com/package/vite-plugin-app',

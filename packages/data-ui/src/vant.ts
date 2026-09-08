@@ -19,7 +19,7 @@ export default defineProjectMeta({
     website: 'https://vant-ui.github.io/vant',
   },
   stats: {
-    stars: 24386,
+    stars: 24385,
     downloads: {
       monthly: 385749,
       weekly: 70205,

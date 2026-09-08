@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-element-plus-icon',
   description: 'a vite plugin to load svg icon for element-plus',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.5',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'tjyuanpeng/vite-plugin-vue-element-plus-icon',
+    npm: 'vite-plugin-vue-element-plus-icon',
+  },
   links: {
     github: 'https://github.com/tjyuanpeng/vite-plugin-vue-element-plus-icon',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-element-plus-icon',

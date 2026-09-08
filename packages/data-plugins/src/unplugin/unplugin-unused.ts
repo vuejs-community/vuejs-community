@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-unused',
   description: 'Check unused dependencies.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.6.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'unplugin/unplugin-unused',
+    npm: 'unplugin-unused',
+  },
   links: {
     github: 'https://github.com/unplugin/unplugin-unused',
     npm: 'https://www.npmjs.com/package/unplugin-unused',

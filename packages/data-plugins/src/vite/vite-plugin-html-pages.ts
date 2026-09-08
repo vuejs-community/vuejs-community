@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-pages',
   description: 'Minimal static site generation (SSG) for Vite using JavaScript functions that return HTML',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.4.0',
   category: 'plugin',
   tags: [
@@ -23,6 +23,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'paul-browne/vite-plugin-html-pages',
+    npm: 'vite-plugin-html-pages',
+  },
   links: {
     github: 'https://github.com/paul-browne/vite-plugin-html-pages',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-pages',

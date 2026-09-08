@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-image-placeholder',
   description: '🔥 Generate a placeholder image for the content area where the image resource is not ready.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'pengzhanbo/vite-plugin-image-placeholder',
+    npm: 'vite-plugin-image-placeholder',
+  },
   links: {
     github: 'https://github.com/pengzhanbo/vite-plugin-image-placeholder',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-placeholder',

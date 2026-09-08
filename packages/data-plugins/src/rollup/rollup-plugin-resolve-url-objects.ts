@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-resolve-url-objects',
   description: 'Resolve and bundle the contents of a string in new URL().',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.4',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'jespertheend/rollup-plugin-resolve-url-objects',
+    npm: 'rollup-plugin-resolve-url-objects',
+  },
   links: {
     github: 'https://github.com/jespertheend/rollup-plugin-resolve-url-objects',
     npm: 'https://www.npmjs.com/package/rollup-plugin-resolve-url-objects',

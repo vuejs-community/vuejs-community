@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-inject-css-to-file',
   description: 'A vite plugin that inject css to file',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'trentlee0/vite-plugin-inject-css-to-file',
+    npm: 'vite-plugin-inject-css-to-file',
+  },
   links: {
     github: 'https://github.com/trentlee0/vite-plugin-inject-css-to-file',
     npm: 'https://www.npmjs.com/package/vite-plugin-inject-css-to-file',

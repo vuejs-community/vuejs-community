@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-angular-aot',
   description: 'Angular2 template and styles inliner for AOT',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.4',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'cankayacan/rollup-plugin-angular',
+    npm: 'rollup-plugin-angular-aot',
+  },
   links: {
     github: 'https://github.com/cankayacan/rollup-plugin-angular',
     npm: 'https://www.npmjs.com/package/rollup-plugin-angular-aot',

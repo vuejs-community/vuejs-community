@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-zero-downtime',
   description: 'A Vite plugin to enable zero downtime deployments.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'HasanQQ/vite-plugin-zero-downtime',
+    npm: 'vite-plugin-zero-downtime',
+  },
   links: {
     github: 'https://github.com/HasanQQ/vite-plugin-zero-downtime',
     npm: 'https://www.npmjs.com/package/vite-plugin-zero-downtime',

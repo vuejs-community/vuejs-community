@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-drupal-hmr',
   description: 'A Vite plugin to enhance Drupal development with HMR.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'dclause/vite-plugin-drupal-hmr',
+    npm: 'vite-plugin-drupal-hmr',
+  },
   links: {
     github: 'https://github.com/dclause/vite-plugin-drupal-hmr',
     npm: 'https://www.npmjs.com/package/vite-plugin-drupal-hmr',

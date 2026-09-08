@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-pulse',
   description: 'Dev-only Vite plugin that visualizes Vue reactivity (ref/reactive/computed/watch/watchEffect) as a live, glowing dependency graph — declarations are nodes, components are boundaries/filter tags; static map + runtime traffic.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.3.5',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Hal-Spidernight/vite-plugin-vue-pulse',
+    npm: 'vite-plugin-vue-pulse',
+  },
   links: {
     github: 'https://github.com/Hal-Spidernight/vite-plugin-vue-pulse',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-pulse',

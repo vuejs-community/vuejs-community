@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-twigjs-loader',
   description: 'A Vite plugin for loading twig files. Similar to the twigjs-loader',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.0.3',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'JonasLeonhard/vite-plugin-twigjs-loader',
+    npm: 'vite-plugin-twigjs-loader',
+  },
   links: {
     github: 'https://github.com/JonasLeonhard/vite-plugin-twigjs-loader',
     npm: 'https://www.npmjs.com/package/vite-plugin-twigjs-loader',

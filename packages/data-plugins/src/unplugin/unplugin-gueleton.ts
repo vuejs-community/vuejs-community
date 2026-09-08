@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-gueleton',
   description: '',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.67',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'siaikin/unplugin-gueleton',
+    npm: 'unplugin-gueleton',
+  },
   links: {
     github: 'https://github.com/siaikin/unplugin-gueleton',
     npm: 'https://www.npmjs.com/package/unplugin-gueleton',

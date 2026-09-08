@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-include',
   description: 'A Vite plugin to include HTML and SVG partials with variable interpolation and slot support.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.5.2',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Tilty-io/vite-plugin-html-include',
+    npm: 'vite-plugin-html-include',
+  },
   links: {
     github: 'https://github.com/Tilty-io/vite-plugin-html-include',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-include',

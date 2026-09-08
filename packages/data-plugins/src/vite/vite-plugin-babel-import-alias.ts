@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-babel-import-alias',
   description: 'A fix for vite import plugin for babel.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '0ahz/vite-plugin-babel-import',
+    npm: 'vite-plugin-babel-import-alias',
+  },
   links: {
     github: 'https://github.com/0ahz/vite-plugin-babel-import',
     npm: 'https://www.npmjs.com/package/vite-plugin-babel-import-alias',

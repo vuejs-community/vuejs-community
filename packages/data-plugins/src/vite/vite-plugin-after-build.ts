@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-after-build',
   description: 'vite-plugin-after-build is a Vite plugin that allows you to perform actions after the build process, such as automatically updating the version number or customizing other tasks.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.21',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ciuwa/vite-plugin-after-build',
+    npm: 'vite-plugin-after-build',
+  },
   links: {
     github: 'https://github.com/ciuwa/vite-plugin-after-build',
     npm: 'https://www.npmjs.com/package/vite-plugin-after-build',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-zig',
   description: 'Import WebAssembly modules compiled from Zig files.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.13',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'pluvial/vite-plugin-zig',
+    npm: 'vite-plugin-zig',
+  },
   links: {
     github: 'https://github.com/pluvial/vite-plugin-zig',
     npm: 'https://www.npmjs.com/package/vite-plugin-zig',

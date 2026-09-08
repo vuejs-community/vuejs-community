@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@comark/nuxt',
   },
   stats: {
-    stars: 1012,
+    stars: 1014,
     downloads: {
       monthly: 71968,
       weekly: 15490,

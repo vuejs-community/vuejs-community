@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sri3',
   description: 'Subresource Integrity in Vite',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.0.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'yoyo930021/vite-plugin-sri3',
+    npm: 'vite-plugin-sri3',
+  },
   links: {
     github: 'https://github.com/yoyo930021/vite-plugin-sri3',
     npm: 'https://www.npmjs.com/package/vite-plugin-sri3',

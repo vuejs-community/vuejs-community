@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-stencil',
   description: 'An Unplugin that wraps Stencil compiler for Vite, Webpack, Rollup, and more',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.4.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'stencil-community/unplugin-stencil',
+    npm: 'unplugin-stencil',
+  },
   links: {
     github: 'https://github.com/stencil-community/unplugin-stencil',
     npm: 'https://www.npmjs.com/package/unplugin-stencil',

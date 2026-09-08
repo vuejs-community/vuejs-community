@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-build-meta',
   description: 'Provide build metadata as a virutal module',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '2.2.1',
   category: 'plugin',
   tags: [
@@ -25,6 +25,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'luxass/unplugin-build-meta',
+    npm: 'unplugin-build-meta',
+  },
   links: {
     github: 'https://github.com/luxass/unplugin-build-meta',
     npm: 'https://www.npmjs.com/package/unplugin-build-meta',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-img-compress',
   description: '🔥 Image compression plugin based on tinypng',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '1.4.2',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'baiwusanyu-c/unplugin-img-compress',
+    npm: 'unplugin-img-compress',
+  },
   links: {
     github: 'https://github.com/baiwusanyu-c/unplugin-img-compress',
     npm: 'https://www.npmjs.com/package/unplugin-img-compress',

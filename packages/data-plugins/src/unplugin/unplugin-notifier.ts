@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-notifier',
   description: '<img src="rawAssets/logo.svg" alt="logo" width="100" height="100" align="right" />',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.7',
   category: 'plugin',
   tags: [
@@ -25,6 +25,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'kejunmao/unplugin-notifier',
+    npm: 'unplugin-notifier',
+  },
   links: {
     github: 'https://github.com/kejunmao/unplugin-notifier',
     npm: 'https://www.npmjs.com/package/unplugin-notifier',

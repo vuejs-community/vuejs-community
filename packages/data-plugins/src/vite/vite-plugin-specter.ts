@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-specter',
   description: 'Inspect elements and Figma-style measure spacing in your vibe-coded Vite projects. Give your AI exactly what it needs to make the right change.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.7.5',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'setugk/vite-plugin-specter',
+    npm: 'vite-plugin-specter',
+  },
   links: {
     github: 'https://github.com/setugk/vite-plugin-specter',
     npm: 'https://www.npmjs.com/package/vite-plugin-specter',

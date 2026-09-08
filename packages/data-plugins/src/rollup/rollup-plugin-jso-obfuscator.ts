@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-jso-obfuscator',
   description: 'Obfuscate and protect your Rollup bundle with JavaScript Obfuscator. Official Rollup plugin for javascriptobfuscator.com: string encryption, control-flow flattening, member renaming.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -26,6 +26,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'richtexteditor/jso-protector',
+    npm: 'rollup-plugin-jso-obfuscator',
+  },
   links: {
     github: 'https://github.com/richtexteditor/jso-protector',
     npm: 'https://www.npmjs.com/package/rollup-plugin-jso-obfuscator',

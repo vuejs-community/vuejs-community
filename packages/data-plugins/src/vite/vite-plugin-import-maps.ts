@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-import-maps',
   description: 'Use native import-maps in vite',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.2',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'pakholeung37/vite-plugin-import-maps',
+    npm: 'vite-plugin-import-maps',
+  },
   links: {
     github: 'https://github.com/pakholeung37/vite-plugin-import-maps',
     npm: 'https://www.npmjs.com/package/vite-plugin-import-maps',

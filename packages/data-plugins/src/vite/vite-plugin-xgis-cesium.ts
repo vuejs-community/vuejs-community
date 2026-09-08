@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-xgis-cesium',
   description: 'xgis-cesium library plugin for Vite',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.6',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'zorrowm/vite-plugin-earth',
+    npm: 'vite-plugin-xgis-cesium',
+  },
   links: {
     github: 'https://github.com/zorrowm/vite-plugin-earth',
     npm: 'https://www.npmjs.com/package/vite-plugin-xgis-cesium',

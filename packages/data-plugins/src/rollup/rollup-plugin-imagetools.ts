@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-imagetools',
   description: '<!-- badges -->',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '3.0.18',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'JonasKruckenberg/imagetools',
+    npm: 'rollup-plugin-imagetools',
+  },
   links: {
     github: 'https://github.com/JonasKruckenberg/imagetools',
     npm: 'https://www.npmjs.com/package/rollup-plugin-imagetools',

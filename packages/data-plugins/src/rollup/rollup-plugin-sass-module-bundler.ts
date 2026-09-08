@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-sass-module-bundler',
   description: 'A Rollup plugin for transpiling and bunding sass/scss files using sass modules',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.0-rc10',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'roberekson/rollup-plugin-sass-module-bundler',
+    npm: 'rollup-plugin-sass-module-bundler',
+  },
   links: {
     github: 'https://github.com/roberekson/rollup-plugin-sass-module-bundler',
     npm: 'https://www.npmjs.com/package/rollup-plugin-sass-module-bundler',

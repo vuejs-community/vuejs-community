@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-component-preview',
   description: 'This plugin enables the Component Preview VS Code extension to work with Vue and Svelte..',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'rioredwards/component-preview',
+    npm: 'vite-plugin-component-preview',
+  },
   links: {
     github: 'https://github.com/rioredwards/component-preview',
     npm: 'https://www.npmjs.com/package/vite-plugin-component-preview',

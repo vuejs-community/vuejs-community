@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mp',
   description: 'Configure multi-pages applications and code splitting',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '3.0.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'zhuweiyou/vite-plugin-mp',
+    npm: 'vite-plugin-mp',
+  },
   links: {
     github: 'https://github.com/zhuweiyou/vite-plugin-mp',
     npm: 'https://www.npmjs.com/package/vite-plugin-mp',

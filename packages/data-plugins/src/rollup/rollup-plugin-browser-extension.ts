@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-browser-extension',
   description: 'Rollup plugin for browser extensions.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'jamen/rollup-plugin-browser-extension',
+    npm: 'rollup-plugin-browser-extension',
+  },
   links: {
     github: 'https://github.com/jamen/rollup-plugin-browser-extension',
     npm: 'https://www.npmjs.com/package/rollup-plugin-browser-extension',

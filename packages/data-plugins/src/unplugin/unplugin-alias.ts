@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-alias',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-alias?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-alias)',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'LoTwT/unplugin-alias',
+    npm: 'unplugin-alias',
+  },
   links: {
     github: 'https://github.com/LoTwT/unplugin-alias',
     npm: 'https://www.npmjs.com/package/unplugin-alias',

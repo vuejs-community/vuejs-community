@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-astro-prerender',
   description: 'A Vite plugin for Astro that prerenders components to static HTML and generates optimized CSS with Tailwind tree-shaking for lazy-loading below-the-fold content',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.3.3',
   category: 'plugin',
   tags: [
@@ -29,6 +29,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ishaanparlikar/vite-plugin-astro-prerender',
+    npm: 'vite-plugin-astro-prerender',
+  },
   links: {
     github: 'https://github.com/ishaanparlikar/vite-plugin-astro-prerender',
     npm: 'https://www.npmjs.com/package/vite-plugin-astro-prerender',

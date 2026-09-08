@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-build-chunk',
   description: 'Generate additional build artifacts (e.g., chunk files in different formats) after Vite\'s main build process. Ideal for scenarios requiring multi-format outputs or secondary builds.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '8.0.1',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'fengxinming/vite-plugins',
+    npm: 'vite-plugin-build-chunk',
+  },
   links: {
     github: 'https://github.com/fengxinming/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-build-chunk',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-image-options',
   description: '{{description}}',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'shibomb/vite-plugin-image-options',
+    npm: 'vite-plugin-image-options',
+  },
   links: {
     github: 'https://github.com/shibomb/vite-plugin-image-options',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-options',

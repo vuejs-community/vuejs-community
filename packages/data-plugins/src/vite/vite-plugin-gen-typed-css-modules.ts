@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-gen-typed-css-modules',
   description: 'Generate type definition files for css or sass or less modules',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'zhangone233/vite-plugin-gen-typed-css-modules',
+    npm: 'vite-plugin-gen-typed-css-modules',
+  },
   links: {
     github: 'https://github.com/zhangone233/vite-plugin-gen-typed-css-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-gen-typed-css-modules',

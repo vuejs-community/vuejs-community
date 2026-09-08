@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-publish',
   description: 'help the front end publish quickly',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.2.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'lwp2333/vite-plugin-publish',
+    npm: 'vite-plugin-publish',
+  },
   links: {
     github: 'https://github.com/lwp2333/vite-plugin-publish',
     npm: 'https://www.npmjs.com/package/vite-plugin-publish',

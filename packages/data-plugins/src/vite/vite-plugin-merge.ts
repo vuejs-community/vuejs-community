@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-merge',
   description: 'Vite plugin which merges multiple input directories into the output directory.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -12,6 +12,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'NixySoftware/vite-plugin-merge',
+    npm: 'vite-plugin-merge',
+  },
   links: {
     github: 'https://github.com/NixySoftware/vite-plugin-merge',
     npm: 'https://www.npmjs.com/package/vite-plugin-merge',

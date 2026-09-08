@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tsl-operator',
   description: 'Use standard JavaScript operators inside Three.js TSL Fn() blocks with Vite.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.10.0',
   category: 'plugin',
   tags: [
@@ -26,6 +26,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'makio64/vite-plugin-tsl-operator',
+    npm: 'vite-plugin-tsl-operator',
+  },
   links: {
     github: 'https://github.com/makio64/vite-plugin-tsl-operator',
     npm: 'https://www.npmjs.com/package/vite-plugin-tsl-operator',

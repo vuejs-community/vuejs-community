@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-router-extend',
   description: 'Register global imports on demand for Vite and Webpack',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.15',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'zhiyuanzmj/unplugin-vue-router-extend',
+    npm: 'unplugin-vue-router-extend',
+  },
   links: {
     github: 'https://github.com/zhiyuanzmj/unplugin-vue-router-extend',
     npm: 'https://www.npmjs.com/package/unplugin-vue-router-extend',

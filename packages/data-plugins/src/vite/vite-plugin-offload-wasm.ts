@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-offload-wasm',
   description: 'Serve WASM from a CDN or any remote location, bypassing the local server entirely',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.4.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'kermage/vite-plugin-offload-wasm',
+    npm: 'vite-plugin-offload-wasm',
+  },
   links: {
     github: 'https://github.com/kermage/vite-plugin-offload-wasm',
     npm: 'https://www.npmjs.com/package/vite-plugin-offload-wasm',

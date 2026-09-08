@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-eta3',
   description: 'Plugin to precompile Eta functions, making it possible to be used in serverless context like Cloudflare Workers',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '1.0.2',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'badasintended/unplugin-eta3',
+    npm: 'unplugin-eta3',
+  },
   links: {
     github: 'https://github.com/badasintended/unplugin-eta3',
     npm: 'https://www.npmjs.com/package/unplugin-eta3',

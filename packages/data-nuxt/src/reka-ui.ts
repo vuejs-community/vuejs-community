@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: 'reka-ui',
   },
   stats: {
-    stars: 6776,
+    stars: 6778,
     downloads: {
       monthly: 6799498,
       weekly: 1642696,

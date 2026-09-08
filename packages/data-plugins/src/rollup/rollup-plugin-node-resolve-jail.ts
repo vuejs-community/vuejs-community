@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-node-resolve-jail',
   description: 'Bundle third-party dependencies in node_modules (with jail feature)',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '3.0.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'rezzza/rollup-plugin-node-resolve',
+    npm: 'rollup-plugin-node-resolve-jail',
+  },
   links: {
     github: 'https://github.com/rezzza/rollup-plugin-node-resolve',
     npm: 'https://www.npmjs.com/package/rollup-plugin-node-resolve-jail',

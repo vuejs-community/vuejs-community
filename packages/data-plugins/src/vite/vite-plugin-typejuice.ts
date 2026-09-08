@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-typejuice',
   description: 'Vite plugin for loading typejuice docs into Markdown files',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'galvez/typejuice',
+    npm: 'vite-plugin-typejuice',
+  },
   links: {
     github: 'https://github.com/galvez/typejuice',
     npm: 'https://www.npmjs.com/package/vite-plugin-typejuice',

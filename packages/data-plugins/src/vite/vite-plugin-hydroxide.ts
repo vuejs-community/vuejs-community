@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-hydroxide',
   description: 'Vite Integration for Hydroxide Framework',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -16,14 +16,18 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-hydroxide',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-hydroxide',
   },
   stats: {
     downloads: {
-      monthly: 39,
-      weekly: 14,
+      monthly: 51,
+      weekly: 21,
     },
   },
 })

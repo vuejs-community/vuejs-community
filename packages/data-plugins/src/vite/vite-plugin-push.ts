@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-push',
   description: 'vite SFTP 发布插件',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'minglo/vite-plugin-push',
+    npm: 'vite-plugin-push',
+  },
   links: {
     github: 'https://github.com/minglo/vite-plugin-push',
     npm: 'https://www.npmjs.com/package/vite-plugin-push',

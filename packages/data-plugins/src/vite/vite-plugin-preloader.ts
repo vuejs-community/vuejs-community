@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-preloader',
   description: '🚀 Vite plugin for intelligent route preloading - 智能路由预加载插件',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.0.1',
   category: 'plugin',
   tags: [
@@ -23,6 +23,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ChenyCHENYU/vite-plugin-preloader',
+    npm: 'vite-plugin-preloader',
+  },
   links: {
     github: 'https://github.com/ChenyCHENYU/vite-plugin-preloader',
     npm: 'https://www.npmjs.com/package/vite-plugin-preloader',

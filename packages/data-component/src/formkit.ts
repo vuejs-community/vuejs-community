@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@formkit/vue',
   },
   stats: {
-    stars: 4757,
+    stars: 4758,
     downloads: {
-      monthly: 480284,
-      weekly: 78557,
+      monthly: 0,
+      weekly: 0,
     },
   },
 })

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-monk',
   description: 'Allows for compiling monkberry templates.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.1.5',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'JavaGT/rollup-plugin-monk',
+    npm: 'rollup-plugin-monk',
+  },
   links: {
     github: 'https://github.com/JavaGT/rollup-plugin-monk',
     npm: 'https://www.npmjs.com/package/rollup-plugin-monk',

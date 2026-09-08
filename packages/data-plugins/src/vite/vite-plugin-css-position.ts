@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-css-position',
   description: 'Custom position of vite styles within a vite react app',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '3.0.1',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Ahn1/vite-plugin-css-position',
+    npm: 'vite-plugin-css-position',
+  },
   links: {
     github: 'https://github.com/Ahn1/vite-plugin-css-position',
     npm: 'https://www.npmjs.com/package/vite-plugin-css-position',

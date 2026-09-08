@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-unified-compiler',
   description: 'Vite plugin that compiles files using unified.js.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.3',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'cclinet/vite-plugin-unified-compiler',
+    npm: 'vite-plugin-unified-compiler',
+  },
   links: {
     github: 'https://github.com/cclinet/vite-plugin-unified-compiler',
     npm: 'https://www.npmjs.com/package/vite-plugin-unified-compiler',

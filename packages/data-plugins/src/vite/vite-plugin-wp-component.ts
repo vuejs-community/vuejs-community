@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-wp-component',
   description: 'Vite plugin + CLI for building WordPress components: bundle with Vite, generate PHP, deploy via FTP, and inject with WordPress shortcodes.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.6',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'gabsruff/create-wp-component',
+    npm: 'vite-plugin-wp-component',
+  },
   links: {
     github: 'https://github.com/gabsruff/create-wp-component',
     npm: 'https://www.npmjs.com/package/vite-plugin-wp-component',

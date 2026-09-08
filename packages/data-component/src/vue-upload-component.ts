@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue-upload-component',
   },
   stats: {
-    stars: 2685,
+    stars: 2686,
     downloads: {
       monthly: 273118,
       weekly: 47566,

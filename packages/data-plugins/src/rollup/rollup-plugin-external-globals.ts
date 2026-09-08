@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-external-globals',
   description: 'Transform external imports into global variables like output.globals.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.13.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'eight04/rollup-plugin-external-globals',
+    npm: 'rollup-plugin-external-globals',
+  },
   links: {
     github: 'https://github.com/eight04/rollup-plugin-external-globals',
     npm: 'https://www.npmjs.com/package/rollup-plugin-external-globals',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dtemplate',
   description: 'Vite Plugin DTemplate',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.7',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'franklinST-05/vite-plugin-dtemplate',
+    npm: 'vite-plugin-dtemplate',
+  },
   links: {
     github: 'https://github.com/franklinST-05/vite-plugin-dtemplate',
     npm: 'https://www.npmjs.com/package/vite-plugin-dtemplate',

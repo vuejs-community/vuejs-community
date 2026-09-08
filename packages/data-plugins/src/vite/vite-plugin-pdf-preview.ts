@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-pdf-preview',
   description: 'Preview modern webpages as PDF',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.0',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'davidjbng/vite-plugin-pdf-preview',
+    npm: 'vite-plugin-pdf-preview',
+  },
   links: {
     github: 'https://github.com/davidjbng/vite-plugin-pdf-preview',
     npm: 'https://www.npmjs.com/package/vite-plugin-pdf-preview',

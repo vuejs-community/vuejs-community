@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-corejs',
   description: '⚡ include core-js polyfills when bundling with rollup',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.2',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'susnux/rollup-plugin-corejs',
+    npm: 'rollup-plugin-corejs',
+  },
   links: {
     github: 'https://github.com/susnux/rollup-plugin-corejs',
     npm: 'https://www.npmjs.com/package/rollup-plugin-corejs',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-type-to-schema',
   description: '> Plugin that converts types to JSON Schemas just via suffixed import',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'TheLucifurry/vite-plugin-type-to-schema',
+    npm: 'vite-plugin-type-to-schema',
+  },
   links: {
     github: 'https://github.com/TheLucifurry/vite-plugin-type-to-schema',
     npm: 'https://www.npmjs.com/package/vite-plugin-type-to-schema',

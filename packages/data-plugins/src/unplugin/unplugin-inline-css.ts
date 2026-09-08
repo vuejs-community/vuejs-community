@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-inline-css',
   description: '[![NPM version](https://img.shields.io/npm/v/unplugin-inline-css?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-inline-css)',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'LoTwT/unplugin-inline-css',
+    npm: 'unplugin-inline-css',
+  },
   links: {
     github: 'https://github.com/LoTwT/unplugin-inline-css',
     npm: 'https://www.npmjs.com/package/unplugin-inline-css',

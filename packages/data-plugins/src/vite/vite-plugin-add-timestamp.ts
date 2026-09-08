@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-add-timestamp',
   description: '一个在打包阶段给vite模板(html)中的.js,.css文件添加时间戳的插件',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -12,6 +12,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'wensiyuanseven/vite-add-timestamp',
+    npm: 'vite-plugin-add-timestamp',
+  },
   links: {
     github: 'https://github.com/wensiyuanseven/vite-add-timestamp',
     npm: 'https://www.npmjs.com/package/vite-plugin-add-timestamp',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-xq-include',
   description: 'A vite file include plugin and supports template variables.一个vite3的文件包含插件，支持模板变量。',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.18',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'xqkeji/vite-plugin-xq-include',
+    npm: 'vite-plugin-xq-include',
+  },
   links: {
     github: 'https://github.com/xqkeji/vite-plugin-xq-include',
     npm: 'https://www.npmjs.com/package/vite-plugin-xq-include',

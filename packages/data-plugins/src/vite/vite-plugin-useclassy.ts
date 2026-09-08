@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-useclassy',
   description: 'UseClassy automatically appends class attributes to your components and lets you separate media queries, hover states, and other styles.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '4.0.0',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'jrmybtlr/useclassy',
+    npm: 'vite-plugin-useclassy',
+  },
   links: {
     github: 'https://github.com/jrmybtlr/useclassy',
     npm: 'https://www.npmjs.com/package/vite-plugin-useclassy',

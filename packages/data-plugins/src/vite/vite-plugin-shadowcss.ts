@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-shadowcss',
   description: 'Write CSS to the specified shadow dom',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.4',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'kinfuy/vite-plugin-shadowcss',
+    npm: 'vite-plugin-shadowcss',
+  },
   links: {
     github: 'https://github.com/kinfuy/vite-plugin-shadowcss',
     npm: 'https://www.npmjs.com/package/vite-plugin-shadowcss',

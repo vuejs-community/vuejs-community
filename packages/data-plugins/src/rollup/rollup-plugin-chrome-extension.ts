@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-chrome-extension',
   description: 'Build Chrome Extensions with this Rollup plugin.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '3.6.15',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'crxjs/chrome-extension-tools',
+    npm: 'rollup-plugin-chrome-extension',
+  },
   links: {
     github: 'https://github.com/crxjs/chrome-extension-tools',
     npm: 'https://www.npmjs.com/package/rollup-plugin-chrome-extension',

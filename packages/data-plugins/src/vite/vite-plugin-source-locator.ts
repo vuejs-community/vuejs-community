@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-source-locator',
   description: 'Dev-only Vite plugin: click UI elements to jump to source in your IDE',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.4.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'amir1824/UI-Locator',
+    npm: 'vite-plugin-source-locator',
+  },
   links: {
     github: 'https://github.com/amir1824/UI-Locator',
     npm: 'https://www.npmjs.com/package/vite-plugin-source-locator',

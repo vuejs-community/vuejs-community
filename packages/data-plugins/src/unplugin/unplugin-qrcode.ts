@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-qrcode',
   description: 'Print the QR code of the server address of Vite or Webpack in the console.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'stella100np/unplugin-qrcode',
+    npm: 'unplugin-qrcode',
+  },
   links: {
     github: 'https://github.com/stella100np/unplugin-qrcode',
     npm: 'https://www.npmjs.com/package/unplugin-qrcode',

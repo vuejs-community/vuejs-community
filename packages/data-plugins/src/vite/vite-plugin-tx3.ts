@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tx3',
   description: 'A vite plugin to generate bindings for Tx3 files',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.3.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'txpipe/tx3',
+    npm: 'vite-plugin-tx3',
+  },
   links: {
     github: 'https://github.com/txpipe/tx3',
     npm: 'https://www.npmjs.com/package/vite-plugin-tx3',

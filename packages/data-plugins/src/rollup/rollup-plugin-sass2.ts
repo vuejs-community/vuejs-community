@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-sass2',
   description: 'Rollup Plugin for sass files. Support watch, relative assets url',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '3.1.4',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'FulgaSer/rollup-plugin-sass2',
+    npm: 'rollup-plugin-sass2',
+  },
   links: {
     github: 'https://github.com/FulgaSer/rollup-plugin-sass2',
     npm: 'https://www.npmjs.com/package/rollup-plugin-sass2',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-document-head',
   description: 'A Vite plugin and sample project for managing and injecting metadata (such as `<title>`, `<meta>`, etc.) into your React application routes. This library simplifies dynamic metadata management for SEO, social sharing, and accessibility in React SPAs power',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0-commit-fe8e20c',
   category: 'plugin',
   tags: [
@@ -12,6 +12,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Yoliani/vite-plugin-document-head',
+    npm: 'vite-plugin-document-head',
+  },
   links: {
     github: 'https://github.com/Yoliani/vite-plugin-document-head',
     npm: 'https://www.npmjs.com/package/vite-plugin-document-head',

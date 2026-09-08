@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mock-dev-server',
   description: 'Vite Plugin for API mock dev server.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.4.2',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'pengzhanbo/vite-plugin-mock-dev-server',
+    npm: 'vite-plugin-mock-dev-server',
+  },
   links: {
     github: 'https://github.com/pengzhanbo/vite-plugin-mock-dev-server',
     npm: 'https://www.npmjs.com/package/vite-plugin-mock-dev-server',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-optimize-js',
   description: 'Rollup plugin to easily run your bundles through optimize-js, post minifying',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.4',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'ezekielchentnik/rollup-plugin-optimize-js',
+    npm: 'rollup-plugin-optimize-js',
+  },
   links: {
     github: 'https://github.com/ezekielchentnik/rollup-plugin-optimize-js',
     npm: 'https://www.npmjs.com/package/rollup-plugin-optimize-js',

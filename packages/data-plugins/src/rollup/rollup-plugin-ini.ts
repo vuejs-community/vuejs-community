@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-ini',
   description: 'Rollup INI loader plugin',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -12,6 +12,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'thesebas/rollup-plugin-ini',
+    npm: 'rollup-plugin-ini',
+  },
   links: {
     github: 'https://github.com/thesebas/rollup-plugin-ini',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ini',

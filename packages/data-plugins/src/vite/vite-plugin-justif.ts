@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-justif',
   description: 'Vite plugin for justif — publication-grade text justification. Auto-enhances your HTML and wires up every bundled hyphenation language for dev and build.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.3.0',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'atifyushri/vite-plugin-justif',
+    npm: 'vite-plugin-justif',
+  },
   links: {
     github: 'https://github.com/atifyushri/vite-plugin-justif',
     npm: 'https://www.npmjs.com/package/vite-plugin-justif',

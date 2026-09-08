@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mdi-fontmin',
   description: 'Vite plugin for subsetting Material Design Icons (MDI) font files.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.2.7',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 're7r/vite-plugin-mdi-fontmin',
+    npm: 'vite-plugin-mdi-fontmin',
+  },
   links: {
     github: 'https://github.com/re7r/vite-plugin-mdi-fontmin',
     npm: 'https://www.npmjs.com/package/vite-plugin-mdi-fontmin',

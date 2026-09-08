@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-spiral',
   description: 'Vite integration for Spiral applications.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.2',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'chianglintu/vite-plugin-spiral',
+    npm: 'vite-plugin-spiral',
+  },
   links: {
     github: 'https://github.com/chianglintu/vite-plugin-spiral',
     npm: 'https://www.npmjs.com/package/vite-plugin-spiral',

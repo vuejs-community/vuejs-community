@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-oss-uploader',
   description: 'Upload assets to OSS with Vite or Webpack',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.0-alpha.3',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'penjj/unplugin-oss-uploader',
+    npm: 'unplugin-oss-uploader',
+  },
   links: {
     github: 'https://github.com/penjj/unplugin-oss-uploader',
     npm: 'https://www.npmjs.com/package/unplugin-oss-uploader',

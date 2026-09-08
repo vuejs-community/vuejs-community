@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-commonjs-named-exports',
   description: 'Re-export CommonJS named exports using Node.js cjs-module-lexer.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '2.0.0',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'dmnsgn/rollup-plugin-commonjs-named-exports',
+    npm: 'rollup-plugin-commonjs-named-exports',
+  },
   links: {
     github: 'https://github.com/dmnsgn/rollup-plugin-commonjs-named-exports',
     npm: 'https://www.npmjs.com/package/rollup-plugin-commonjs-named-exports',

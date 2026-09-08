@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-meta-share',
   description: '为html添加分享标签',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.1',
   category: 'plugin',
   tags: [
@@ -12,6 +12,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'yulin96/vite-plugin-meta-share',
+    npm: 'vite-plugin-meta-share',
+  },
   links: {
     github: 'https://github.com/yulin96/vite-plugin-meta-share',
     npm: 'https://www.npmjs.com/package/vite-plugin-meta-share',

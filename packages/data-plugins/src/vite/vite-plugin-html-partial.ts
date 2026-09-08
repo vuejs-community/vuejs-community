@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-partial',
   description: 'Simple plugin to include text files into index.html for vite dev',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -12,6 +12,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'j-boettcher/vite-plugin-html-partial',
+    npm: 'vite-plugin-html-partial',
+  },
   links: {
     github: 'https://github.com/j-boettcher/vite-plugin-html-partial',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-partial',

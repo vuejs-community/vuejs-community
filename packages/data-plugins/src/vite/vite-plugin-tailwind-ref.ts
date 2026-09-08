@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tailwind-ref',
   description: 'A Vite plugin that automatically adds @reference directives to CSS files and framework style blocks (Svelte, Vue, etc.) using Tailwind CSS @apply',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'awaiden/vite-plugin-tailwind-ref',
+    npm: 'vite-plugin-tailwind-ref',
+  },
   links: {
     github: 'https://github.com/awaiden/vite-plugin-tailwind-ref',
     npm: 'https://www.npmjs.com/package/vite-plugin-tailwind-ref',

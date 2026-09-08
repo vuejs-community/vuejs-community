@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-import-css-classes',
   description: 'A Rollup plugin to import CSS classes in Javascript.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.5.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'Kycermann/rollup-plugin-import-css-classes',
+    npm: 'rollup-plugin-import-css-classes',
+  },
   links: {
     github: 'https://github.com/Kycermann/rollup-plugin-import-css-classes',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-css-classes',

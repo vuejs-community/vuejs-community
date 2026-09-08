@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-server-actions',
   description: 'Server actions for Vite - call backend functions directly from your frontend with automatic API generation, TypeScript support, and zero configuration',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.5.0',
   category: 'plugin',
   tags: [
@@ -28,6 +28,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'HelgeSverre/vite-plugin-server-actions',
+    npm: 'vite-plugin-server-actions',
+  },
   links: {
     github: 'https://github.com/HelgeSverre/vite-plugin-server-actions',
     npm: 'https://www.npmjs.com/package/vite-plugin-server-actions',

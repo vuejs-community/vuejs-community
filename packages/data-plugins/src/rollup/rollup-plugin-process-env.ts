@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-process-env',
   description: 'Rollup plugin to use process.env',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.7',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'd8corp/rollup-plugin-process-env',
+    npm: 'rollup-plugin-process-env',
+  },
   links: {
     github: 'https://github.com/d8corp/rollup-plugin-process-env',
     npm: 'https://www.npmjs.com/package/rollup-plugin-process-env',

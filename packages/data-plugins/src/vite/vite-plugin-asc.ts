@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-asc',
   description: 'Vite plugin for AssemblyScript Compiler (asc)',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'zmx0142857/vite-plugin-asc',
+    npm: 'vite-plugin-asc',
+  },
   links: {
     github: 'https://github.com/zmx0142857/vite-plugin-asc',
     npm: 'https://www.npmjs.com/package/vite-plugin-asc',

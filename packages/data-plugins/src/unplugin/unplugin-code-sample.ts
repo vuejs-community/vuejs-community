@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-code-sample',
   description: 'Help you display code examples of the current page, support multiple packers, powered by unplugin',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.10',
   category: 'plugin',
   tags: [
@@ -22,14 +22,18 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'ray-d-song/unplugin-code-sample',
+    npm: 'unplugin-code-sample',
+  },
   links: {
     github: 'https://github.com/ray-d-song/unplugin-code-sample',
     npm: 'https://www.npmjs.com/package/unplugin-code-sample',
   },
   stats: {
     downloads: {
-      monthly: 39,
-      weekly: 1,
+      monthly: 27,
+      weekly: 4,
     },
   },
 })

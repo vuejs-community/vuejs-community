@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-auto-include',
   description: 'A tool that can auto add babel-plugin-import\'s result to vite\'s Pre-bundling dependencies.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'cx690/vite-plugin-auto-include',
+    npm: 'vite-plugin-auto-include',
+  },
   links: {
     github: 'https://github.com/cx690/vite-plugin-auto-include',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-include',

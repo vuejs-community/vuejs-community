@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-swagger-jsdoc',
   description: 'Rollup plugin to generate a swagger.json file from JSDoc comments.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'zoltraks/rollup-plugin-swagger-jsdoc',
+    npm: 'rollup-plugin-swagger-jsdoc',
+  },
   links: {
     github: 'https://github.com/zoltraks/rollup-plugin-swagger-jsdoc',
     npm: 'https://www.npmjs.com/package/rollup-plugin-swagger-jsdoc',

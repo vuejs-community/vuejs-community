@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-qingkuai',
   description: 'vite-plugin-qingkuai is a Vite plugin that transforms `.qk` component files into native JavaScript using the Qingkuai compiler. It enables fast and seamless development of web applications built with [Qingkuai](https://qingkuai.dev).',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.26',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'qingkuai-js/vite-plugin',
+    npm: 'vite-plugin-qingkuai',
+  },
   links: {
     github: 'https://github.com/qingkuai-js/vite-plugin',
     npm: 'https://www.npmjs.com/package/vite-plugin-qingkuai',

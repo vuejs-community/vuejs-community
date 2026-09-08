@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-md-temp',
   description: 'Markdown for Vite',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.11.8',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'antfu/vite-plugin-md',
+    npm: 'vite-plugin-md-temp',
+  },
   links: {
     github: 'https://github.com/antfu/vite-plugin-md',
     npm: 'https://www.npmjs.com/package/vite-plugin-md-temp',

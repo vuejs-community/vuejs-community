@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-md-icon',
   description: 'Minify md icons and font in your app.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'vdegenne/vite-plugin-md-icon',
+    npm: 'vite-plugin-md-icon',
+  },
   links: {
     github: 'https://github.com/vdegenne/vite-plugin-md-icon',
     npm: 'https://www.npmjs.com/package/vite-plugin-md-icon',

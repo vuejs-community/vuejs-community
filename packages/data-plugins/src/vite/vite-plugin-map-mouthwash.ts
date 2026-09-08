@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-map-mouthwash',
   description: 'A Vite plugin that masks multilingual profanity in source-map comments without shifting mappings.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.2',
   category: 'plugin',
   tags: [
@@ -27,6 +27,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'lKolabrodl/vite-plugin-map-mouthwash',
+    npm: 'vite-plugin-map-mouthwash',
+  },
   links: {
     github: 'https://github.com/lKolabrodl/vite-plugin-map-mouthwash',
     npm: 'https://www.npmjs.com/package/vite-plugin-map-mouthwash',

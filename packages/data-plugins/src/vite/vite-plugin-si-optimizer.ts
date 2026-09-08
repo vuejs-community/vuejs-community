@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-si-optimizer',
   description: 'Preprocess Simple Icons\' named imports to default imports',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 't7ru/vite-plugin-si-optimizer',
+    npm: 'vite-plugin-si-optimizer',
+  },
   links: {
     github: 'https://github.com/t7ru/vite-plugin-si-optimizer',
     npm: 'https://www.npmjs.com/package/vite-plugin-si-optimizer',

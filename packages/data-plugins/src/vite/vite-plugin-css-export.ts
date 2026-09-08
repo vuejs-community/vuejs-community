@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-css-export',
   description: 'A Vite plugin for sharing variables between Javascript and CSS (or Sass, Less, etc.)',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '3.1.0',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'shixuanhong/vite-plugin-css-export',
+    npm: 'vite-plugin-css-export',
+  },
   links: {
     github: 'https://github.com/shixuanhong/vite-plugin-css-export',
     npm: 'https://www.npmjs.com/package/vite-plugin-css-export',

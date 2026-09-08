@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-svg-transformer',
   description: 'Import easily your SVG with Vite.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '1.0.32',
   category: 'plugin',
   tags: [
@@ -22,14 +22,18 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'kiwilan/unplugin-svg-transformer',
+    npm: 'unplugin-svg-transformer',
+  },
   links: {
     github: 'https://github.com/kiwilan/unplugin-svg-transformer',
     npm: 'https://www.npmjs.com/package/unplugin-svg-transformer',
   },
   stats: {
     downloads: {
-      monthly: 672,
-      weekly: 189,
+      monthly: 529,
+      weekly: 46,
     },
   },
 })

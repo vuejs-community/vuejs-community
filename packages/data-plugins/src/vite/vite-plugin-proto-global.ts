@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-proto-global',
   description: 'Auto-import pure functions from utils folder and extend JavaScript prototypes globally in your Vite project',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.0.0',
   category: 'plugin',
   tags: [
@@ -24,6 +24,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'vkuprin/vite-plugin-proto-global',
+    npm: 'vite-plugin-proto-global',
+  },
   links: {
     github: 'https://github.com/vkuprin/vite-plugin-proto-global',
     npm: 'https://www.npmjs.com/package/vite-plugin-proto-global',

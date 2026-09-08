@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-hsml',
   description: 'Vite plugin for using hsml in Vue SFC',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.7.0',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'hsml-lab/vite-plugin-vue-hsml',
+    npm: 'vite-plugin-vue-hsml',
+  },
   links: {
     github: 'https://github.com/hsml-lab/vite-plugin-vue-hsml',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-hsml',

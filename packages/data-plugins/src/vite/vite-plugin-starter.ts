@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-starter',
   description: 'A plugin to support  inspect react component.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.5.3',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'sudongyuer/vite-plugin-starter',
+    npm: 'vite-plugin-starter',
+  },
   links: {
     github: 'https://github.com/sudongyuer/vite-plugin-starter',
     npm: 'https://www.npmjs.com/package/vite-plugin-starter',

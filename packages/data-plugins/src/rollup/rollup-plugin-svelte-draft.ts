@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-svelte-draft',
   description: 'Transcribe SvelteDraft components with Rollup',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.5',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'mistlog/rollup-plugin-svelte-draft',
+    npm: 'rollup-plugin-svelte-draft',
+  },
   links: {
     github: 'https://github.com/mistlog/rollup-plugin-svelte-draft',
     npm: 'https://www.npmjs.com/package/rollup-plugin-svelte-draft',

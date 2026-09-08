@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-import-attributes',
   description: 'Bundles TC39 import attributes',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.6.0',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'swiing/rollup-plugin-import-attributes',
+    npm: 'rollup-plugin-import-attributes',
+  },
   links: {
     github: 'https://github.com/swiing/rollup-plugin-import-attributes',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-attributes',

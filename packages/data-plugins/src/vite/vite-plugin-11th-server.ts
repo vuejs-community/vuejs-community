@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-11th-server',
   description: 'A vite plugin that fast build server',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'R1ngYang/vite-plugin-11th-server',
+    npm: 'vite-plugin-11th-server',
+  },
   links: {
     github: 'https://github.com/R1ngYang/vite-plugin-11th-server',
     npm: 'https://www.npmjs.com/package/vite-plugin-11th-server',

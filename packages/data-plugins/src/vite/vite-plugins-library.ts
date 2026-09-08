@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugins-library',
   description: 'A curated collection of production-ready custom Vite plugins and standalone CLI logger utilities inspired by enterprise Vite configurations.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.4.5',
   category: 'plugin',
   tags: [
@@ -81,6 +81,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'yathink3/vite-plugins-library',
+    npm: 'vite-plugins-library',
+  },
   links: {
     github: 'https://github.com/yathink3/vite-plugins-library',
     npm: 'https://www.npmjs.com/package/vite-plugins-library',

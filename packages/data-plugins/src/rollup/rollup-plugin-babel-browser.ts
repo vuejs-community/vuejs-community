@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-babel-browser',
   description: 'Seamless integration between Rollup and Babel.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '5.2.1',
   category: 'plugin',
   tags: [
@@ -17,14 +17,18 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'rollup/plugins',
+    npm: 'rollup-plugin-babel-browser',
+  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/rollup-plugin-babel-browser',
   },
   stats: {
     downloads: {
-      monthly: 10,
-      weekly: 4,
+      monthly: 12,
+      weekly: 2,
     },
   },
 })

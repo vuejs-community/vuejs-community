@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-shit',
   description: 'To prevent shit from your bundle...',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'guoyunhe/vite-plugin-shit',
+    npm: 'vite-plugin-shit',
+  },
   links: {
     github: 'https://github.com/guoyunhe/vite-plugin-shit',
     npm: 'https://www.npmjs.com/package/vite-plugin-shit',

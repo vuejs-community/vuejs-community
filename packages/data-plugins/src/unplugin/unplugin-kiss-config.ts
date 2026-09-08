@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-kiss-config',
   description: '🍙 自动生成figma,masterGo,jsDesign多个平台manifest.json的打包插件',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'Leizhenpeng/design-tooltik-cn',
+    npm: 'unplugin-kiss-config',
+  },
   links: {
     github: 'https://github.com/Leizhenpeng/design-tooltik-cn',
     npm: 'https://www.npmjs.com/package/unplugin-kiss-config',

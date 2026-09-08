@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-banner-injection',
   description: 'Insert specified content into the build bundle code',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'LightAPIs/vite-plugin-banner-injection',
+    npm: 'vite-plugin-banner-injection',
+  },
   links: {
     github: 'https://github.com/LightAPIs/vite-plugin-banner-injection',
     npm: 'https://www.npmjs.com/package/vite-plugin-banner-injection',

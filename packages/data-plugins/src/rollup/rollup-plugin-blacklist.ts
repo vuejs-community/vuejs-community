@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-blacklist',
   description: 'rollup-plugin-blacklist is a rollup plugin that will prevent files matching a given pattern from being accidentally included in a bundle.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -12,6 +12,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'dumbmatter/rollup-plugin-blacklist',
+    npm: 'rollup-plugin-blacklist',
+  },
   links: {
     github: 'https://github.com/dumbmatter/rollup-plugin-blacklist',
     npm: 'https://www.npmjs.com/package/rollup-plugin-blacklist',

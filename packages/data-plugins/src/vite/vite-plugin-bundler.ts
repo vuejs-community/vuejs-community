@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-bundler',
   description: 'A high-performance Vite plugin that compresses build assets using Brotli, Gzip, and Zstandard with worker thread support.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.5',
   category: 'plugin',
   tags: [
@@ -32,6 +32,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'riyajath-ahamed/vite-plugin-bundler',
+    npm: 'vite-plugin-bundler',
+  },
   links: {
     github: 'https://github.com/riyajath-ahamed/vite-plugin-bundler',
     npm: 'https://www.npmjs.com/package/vite-plugin-bundler',

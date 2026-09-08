@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-kubb',
   description: 'Integration of Kubb for Vite, Webpack, Rollup, esbuild, Rspack, Nuxt, and Astro.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '5.1.0',
   category: 'plugin',
   tags: [
@@ -24,6 +24,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'kubb-labs/kubb',
+    npm: 'unplugin-kubb',
+  },
   links: {
     github: 'https://github.com/kubb-labs/kubb',
     npm: 'https://www.npmjs.com/package/unplugin-kubb',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-sfc-name',
   description: 'Extending the vue script setup syntactic sugar',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.9',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'elonehoo/unplugin-vue-sfc-name',
+    npm: 'unplugin-vue-sfc-name',
+  },
   links: {
     github: 'https://github.com/elonehoo/unplugin-vue-sfc-name',
     npm: 'https://www.npmjs.com/package/unplugin-vue-sfc-name',

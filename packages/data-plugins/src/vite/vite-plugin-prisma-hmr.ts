@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-prisma-hmr',
   description: 'This Vite plugin monitors changes to your Prisma schema file and ensures that the Prisma client is regenerated seamlessly, without needing to restart your development server. It automatically shuts down the Prisma binary process and regenerates the Prisma',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.8',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'sliterok/vite-plugin-prisma-hmr',
+    npm: 'vite-plugin-prisma-hmr',
+  },
   links: {
     github: 'https://github.com/sliterok/vite-plugin-prisma-hmr',
     npm: 'https://www.npmjs.com/package/vite-plugin-prisma-hmr',

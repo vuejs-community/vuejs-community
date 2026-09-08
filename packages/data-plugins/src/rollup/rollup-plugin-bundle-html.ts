@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-bundle-html',
   description: 'create html with the bundle file',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.2.2',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'haifeng2013/rollup-plugin-bundle-html',
+    npm: 'rollup-plugin-bundle-html',
+  },
   links: {
     github: 'https://github.com/haifeng2013/rollup-plugin-bundle-html',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bundle-html',

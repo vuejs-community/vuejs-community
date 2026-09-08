@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-static-copy',
   description: 'rollup-plugin-copy for vite with dev server support.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '4.1.1',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'sapphi-red/vite-plugin-static-copy',
+    npm: 'vite-plugin-static-copy',
+  },
   links: {
     github: 'https://github.com/sapphi-red/vite-plugin-static-copy',
     npm: 'https://www.npmjs.com/package/vite-plugin-static-copy',

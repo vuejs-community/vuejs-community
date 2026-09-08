@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-rename-node-modules',
   description: 'A Rollup plugin to rename the `node_modules` created when bundling some external libries while using preserveModules',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.3.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'Lazyuki/rollup-plugin-rename-node-modules',
+    npm: 'rollup-plugin-rename-node-modules',
+  },
   links: {
     github: 'https://github.com/Lazyuki/rollup-plugin-rename-node-modules',
     npm: 'https://www.npmjs.com/package/rollup-plugin-rename-node-modules',

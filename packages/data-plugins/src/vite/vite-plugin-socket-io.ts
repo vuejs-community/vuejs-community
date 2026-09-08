@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-socket-io',
   description: 'Plugin to add socket.io to a Vite server',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.2',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'vite-plugin-socket-io/vite-plugin-socket-io',
+    npm: 'vite-plugin-socket-io',
+  },
   links: {
     github: 'https://github.com/vite-plugin-socket-io/vite-plugin-socket-io',
     npm: 'https://www.npmjs.com/package/vite-plugin-socket-io',

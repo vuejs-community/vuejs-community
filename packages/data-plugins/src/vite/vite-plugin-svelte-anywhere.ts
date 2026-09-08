@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svelte-anywhere',
   description: 'Use Svelte components anywhere',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.3.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'vidschofelix/vite-plugin-svelte-anywhere',
+    npm: 'vite-plugin-svelte-anywhere',
+  },
   links: {
     github: 'https://github.com/vidschofelix/vite-plugin-svelte-anywhere',
     npm: 'https://www.npmjs.com/package/vite-plugin-svelte-anywhere',

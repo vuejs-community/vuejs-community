@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-formatter',
   description: 'A code editor and comments formatter plugin of rollup, 一个rollup代码修改和格式化注释的插件',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'CN-Tower/rollup-plugin-formatter',
+    npm: 'rollup-plugin-formatter',
+  },
   links: {
     github: 'https://github.com/CN-Tower/rollup-plugin-formatter',
     npm: 'https://www.npmjs.com/package/rollup-plugin-formatter',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-hot-export',
   description: '',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.5.9',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'sudongyuer/vite-plugin-hot-export',
+    npm: 'vite-plugin-hot-export',
+  },
   links: {
     github: 'https://github.com/sudongyuer/vite-plugin-hot-export',
     npm: 'https://www.npmjs.com/package/vite-plugin-hot-export',

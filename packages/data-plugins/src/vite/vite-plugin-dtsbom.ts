@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-dtsbom',
   description: 'Vite plugin for generating SBOM (Software Bill of Materials) in SPDX and CycloneDX formats',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.7',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'TimurZheksimbaev/vite-plugin-dtsbom',
+    npm: 'vite-plugin-dtsbom',
+  },
   links: {
     github: 'https://github.com/TimurZheksimbaev/vite-plugin-dtsbom',
     npm: 'https://www.npmjs.com/package/vite-plugin-dtsbom',

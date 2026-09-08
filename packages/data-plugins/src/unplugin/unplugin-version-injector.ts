@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-version-injector',
   description: 'A universal plugin to inject version and build time into HTML (supports Vite, Webpack, Rspack, Rollup, Rolldown)',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '2.3.1',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'nianyi778/unplugin-version-injector',
+    npm: 'unplugin-version-injector',
+  },
   links: {
     github: 'https://github.com/nianyi778/unplugin-version-injector',
     npm: 'https://www.npmjs.com/package/unplugin-version-injector',

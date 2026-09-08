@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-posthtml',
   description: 'PostHTML plugin for Rollup',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'tunnckoCore/rollup-plugin-posthtml',
+    npm: 'rollup-plugin-posthtml',
+  },
   links: {
     github: 'https://github.com/tunnckoCore/rollup-plugin-posthtml',
     npm: 'https://www.npmjs.com/package/rollup-plugin-posthtml',

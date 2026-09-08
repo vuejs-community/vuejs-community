@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-jsx-js',
   description: 'JSX.js wrapper for Rollup',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'lukeed/rollup-plugin-jsx-js',
+    npm: 'rollup-plugin-jsx-js',
+  },
   links: {
     github: 'https://github.com/lukeed/rollup-plugin-jsx-js',
     npm: 'https://www.npmjs.com/package/rollup-plugin-jsx-js',

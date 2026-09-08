@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-tailwindcss',
   description: '',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.9',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'sope/sope',
+    npm: 'unplugin-tailwindcss',
+  },
   links: {
     github: 'https://github.com/sope/sope',
     npm: 'https://www.npmjs.com/package/unplugin-tailwindcss',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-package-config',
   description: 'Extend Vite config from package.json field',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -12,6 +12,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'antfu/vite-plugin-package-config',
+    npm: 'vite-plugin-package-config',
+  },
   links: {
     github: 'https://github.com/antfu/vite-plugin-package-config',
     npm: 'https://www.npmjs.com/package/vite-plugin-package-config',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-convention-routes',
   description: '一个类似Umi的约定式路由Vite插件，自动根据文件结构生成路由配置，支持多级动态路由参数、布局组件、元数据和懒加载',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.5.0',
   category: 'plugin',
   tags: [
@@ -23,6 +23,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'zhourusheng/vite-plugin-convention-routes',
+    npm: 'vite-plugin-convention-routes',
+  },
   links: {
     github: 'https://github.com/zhourusheng/vite-plugin-convention-routes',
     npm: 'https://www.npmjs.com/package/vite-plugin-convention-routes',

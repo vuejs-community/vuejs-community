@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-es-info',
   description: 'Dump import/export information of each module',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.3.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'eight04/rollup-plugin-es-info',
+    npm: 'rollup-plugin-es-info',
+  },
   links: {
     github: 'https://github.com/eight04/rollup-plugin-es-info',
     npm: 'https://www.npmjs.com/package/rollup-plugin-es-info',

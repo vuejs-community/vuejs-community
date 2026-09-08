@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-native-rust',
   description: 'Import Rust directly in Vite SSR server code — compiles napi-rs crates to native addons with caching, types, and zero-config deploys.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.4.0',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'kadeangell/vite-plugin-native-rust',
+    npm: 'vite-plugin-native-rust',
+  },
   links: {
     github: 'https://github.com/kadeangell/vite-plugin-native-rust',
     npm: 'https://www.npmjs.com/package/vite-plugin-native-rust',

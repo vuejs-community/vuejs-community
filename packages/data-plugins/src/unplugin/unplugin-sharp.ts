@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-sharp',
   description: 'Register global imports on demand for Vite and Webpack',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'byronogis/unplugin-sharp',
+    npm: 'unplugin-sharp',
+  },
   links: {
     github: 'https://github.com/byronogis/unplugin-sharp',
     npm: 'https://www.npmjs.com/package/unplugin-sharp',

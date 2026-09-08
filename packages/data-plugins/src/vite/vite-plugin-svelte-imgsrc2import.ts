@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svelte-imgsrc2import',
   description: 'vite plugin to convert svelte img src to import',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.32',
   category: 'plugin',
   tags: [
@@ -25,6 +25,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'main2018/npm-packages',
+    npm: 'vite-plugin-svelte-imgsrc2import',
+  },
   links: {
     github: 'https://github.com/main2018/npm-packages',
     npm: 'https://www.npmjs.com/package/vite-plugin-svelte-imgsrc2import',

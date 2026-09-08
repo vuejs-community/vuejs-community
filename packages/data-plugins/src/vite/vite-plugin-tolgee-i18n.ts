@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tolgee-i18n',
   description: 'Vite plugin for Tolgee translation integration with i18n inspector devtools',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.19',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'forever-chen/vite-plugin-tolgee-i18n',
+    npm: 'vite-plugin-tolgee-i18n',
+  },
   links: {
     github: 'https://github.com/forever-chen/vite-plugin-tolgee-i18n',
     npm: 'https://www.npmjs.com/package/vite-plugin-tolgee-i18n',

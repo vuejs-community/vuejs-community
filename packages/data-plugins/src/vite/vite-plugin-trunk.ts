@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-trunk',
   description: 'Seamlessly embedding WASM components in a Vite project via Trunk.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.5',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'chenhunghan/vite-plugin-trunk',
+    npm: 'vite-plugin-trunk',
+  },
   links: {
     github: 'https://github.com/chenhunghan/vite-plugin-trunk',
     npm: 'https://www.npmjs.com/package/vite-plugin-trunk',

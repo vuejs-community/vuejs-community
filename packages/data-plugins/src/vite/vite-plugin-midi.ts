@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-midi',
   description: 'A Vite plugin that lets you import MIDI files directly, along with several processed formats derived from them, built for presenting otoMAD / YTPMV on the web',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.1',
   category: 'plugin',
   tags: [
@@ -39,6 +39,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'otomad/vite-plugin-midi',
+    npm: 'vite-plugin-midi',
+  },
   links: {
     github: 'https://github.com/otomad/vite-plugin-midi',
     npm: 'https://www.npmjs.com/package/vite-plugin-midi',

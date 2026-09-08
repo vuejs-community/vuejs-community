@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-dts',
   description: '<h1 align="center">unplugin-dts</h1>',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -26,6 +26,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'qmhc/unplugin-dts',
+    npm: 'unplugin-dts',
+  },
   links: {
     github: 'https://github.com/qmhc/unplugin-dts',
     npm: 'https://www.npmjs.com/package/unplugin-dts',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-index',
   description: '为指定目录下生成index.ts，在index.ts内导出该目录下所有*.ts文件',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.3',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'gavinning/4a',
+    npm: 'vite-plugin-index',
+  },
   links: {
     github: 'https://github.com/gavinning/4a',
     npm: 'https://www.npmjs.com/package/vite-plugin-index',

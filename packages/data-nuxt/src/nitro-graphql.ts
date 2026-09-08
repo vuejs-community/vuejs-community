@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: 'nitro-graphql',
   },
   stats: {
-    stars: 127,
+    stars: 126,
     downloads: {
       monthly: 772,
       weekly: 64,

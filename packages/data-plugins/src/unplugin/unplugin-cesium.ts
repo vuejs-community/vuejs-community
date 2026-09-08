@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-cesium',
   description: 'Quickly integrate CesiumJS into various bundlers',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '3.1.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'vesiumjs/unplugin-cesium',
+    npm: 'unplugin-cesium',
+  },
   links: {
     github: 'https://github.com/vesiumjs/unplugin-cesium',
     npm: 'https://www.npmjs.com/package/unplugin-cesium',

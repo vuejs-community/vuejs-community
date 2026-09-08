@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-skills',
   description: 'Import Agent Skills from SKILL.md files in Vite.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'aryasaatvik/vite-plugin-agent-skills',
+    npm: 'vite-plugin-skills',
+  },
   links: {
     github: 'https://github.com/aryasaatvik/vite-plugin-agent-skills',
     npm: 'https://www.npmjs.com/package/vite-plugin-skills',

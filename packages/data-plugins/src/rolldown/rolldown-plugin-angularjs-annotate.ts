@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rolldown-plugin-angularjs-annotate',
   description: 'AngularJS dependency injection annotations for Rolldown without a Babel transform layer',
-  icon: '',
+  icon: 'logos:rolldown-icon',
   version: '0.2.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rolldown-plugin',
   ],
+  source: {
+    github: 'pioug/rolldown-plugin-angularjs-annotate',
+    npm: 'rolldown-plugin-angularjs-annotate',
+  },
   links: {
     github: 'https://github.com/pioug/rolldown-plugin-angularjs-annotate',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-angularjs-annotate',

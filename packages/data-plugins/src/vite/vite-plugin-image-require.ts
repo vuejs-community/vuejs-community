@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-image-require',
   description: 'vite-plugin，图片require的处理',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.3',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'hujinbin/vite-plugin-image-require',
+    npm: 'vite-plugin-image-require',
+  },
   links: {
     github: 'https://github.com/hujinbin/vite-plugin-image-require',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-require',

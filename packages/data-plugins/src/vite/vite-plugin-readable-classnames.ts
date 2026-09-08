@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-readable-classnames',
   description: 'Make your scoped CSS module class names clear and readable — this plugin automatically adds the module filename and other useful info to class names for easier development.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.5.11',
   category: 'plugin',
   tags: [
@@ -25,6 +25,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'teplostanski/vite-plugin-readable-classnames',
+    npm: 'vite-plugin-readable-classnames',
+  },
   links: {
     github: 'https://github.com/teplostanski/vite-plugin-readable-classnames',
     npm: 'https://www.npmjs.com/package/vite-plugin-readable-classnames',

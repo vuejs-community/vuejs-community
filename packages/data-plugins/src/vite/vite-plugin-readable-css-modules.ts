@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-readable-css-modules',
   description: 'Enhances readability of the classnames generated for CSS modules in vite',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.7.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'arusak/vite-plugin-readable-css-modules',
+    npm: 'vite-plugin-readable-css-modules',
+  },
   links: {
     github: 'https://github.com/arusak/vite-plugin-readable-css-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-readable-css-modules',

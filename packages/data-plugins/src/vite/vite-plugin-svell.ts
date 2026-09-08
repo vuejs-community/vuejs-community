@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svell',
   description: 'Vite plugin for svell dev environment.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.3',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'svell/svell',
+    npm: 'vite-plugin-svell',
+  },
   links: {
     github: 'https://github.com/svell/svell',
     npm: 'https://www.npmjs.com/package/vite-plugin-svell',

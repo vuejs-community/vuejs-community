@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vinext-payload',
   description: 'Vite plugin for running Payload CMS with vinext',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.4.0',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'block65/vite-plugin-vinext-payload',
+    npm: 'vite-plugin-vinext-payload',
+  },
   links: {
     github: 'https://github.com/block65/vite-plugin-vinext-payload',
     npm: 'https://www.npmjs.com/package/vite-plugin-vinext-payload',

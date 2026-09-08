@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-keywords',
   description: 'A build plugin for structural string literal minification and obfuscation (property mangling alternative)',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '2.18.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'cueaz/unplugin-keywords',
+    npm: 'unplugin-keywords',
+  },
   links: {
     github: 'https://github.com/cueaz/unplugin-keywords',
     npm: 'https://www.npmjs.com/package/unplugin-keywords',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-mtl',
   description: 'Import .mtl files as strings 🧵 in Vite, Rollup, Webpack + more',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.3.0',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'cryptodeal/unplugin-mtl',
+    npm: 'unplugin-mtl',
+  },
   links: {
     github: 'https://github.com/cryptodeal/unplugin-mtl',
     npm: 'https://www.npmjs.com/package/unplugin-mtl',

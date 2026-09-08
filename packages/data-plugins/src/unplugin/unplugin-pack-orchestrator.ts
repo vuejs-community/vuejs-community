@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-pack-orchestrator',
   description: 'Universal plugin for auto-archiving dist folder to ZIP/TAR/7Z after build, with checksums and auto-rename support - powered by unplugin',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'wangkai000/unplugin-pack-orchestrator',
+    npm: 'unplugin-pack-orchestrator',
+  },
   links: {
     github: 'https://github.com/wangkai000/unplugin-pack-orchestrator',
     npm: 'https://www.npmjs.com/package/unplugin-pack-orchestrator',

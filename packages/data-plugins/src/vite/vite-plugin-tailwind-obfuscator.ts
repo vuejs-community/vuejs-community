@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-tailwind-obfuscator',
   description: 'Vite plugin that obfuscates Tailwind CSS v4 class names at build time for anti-scraping protection',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.4',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Segfaultd/vite-plugin-tailwind-obfuscator',
+    npm: 'vite-plugin-tailwind-obfuscator',
+  },
   links: {
     github: 'https://github.com/Segfaultd/vite-plugin-tailwind-obfuscator',
     npm: 'https://www.npmjs.com/package/vite-plugin-tailwind-obfuscator',

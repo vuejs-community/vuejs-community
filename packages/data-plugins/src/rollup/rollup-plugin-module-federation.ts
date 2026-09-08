@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-module-federation',
   description: 'A rollup plugin for module federation',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.11.8',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'MadaraUchiha-314/rollup-plugin-module-federation',
+    npm: 'rollup-plugin-module-federation',
+  },
   links: {
     github: 'https://github.com/MadaraUchiha-314/rollup-plugin-module-federation',
     npm: 'https://www.npmjs.com/package/rollup-plugin-module-federation',

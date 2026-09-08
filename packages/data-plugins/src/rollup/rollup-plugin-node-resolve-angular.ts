@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-node-resolve-angular',
   description: 'Bundle third-party dependencies in node_modules. Adds es2015-in-es2015 support, for example to use with Angular 4+.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '2.0.3',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'oasisdigital/rollup-plugin-node-resolve-angular',
+    npm: 'rollup-plugin-node-resolve-angular',
+  },
   links: {
     github: 'https://github.com/oasisdigital/rollup-plugin-node-resolve-angular',
     npm: 'https://www.npmjs.com/package/rollup-plugin-node-resolve-angular',

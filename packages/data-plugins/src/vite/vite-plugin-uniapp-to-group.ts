@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-uniapp-to-group',
   description: 'uniapp开发头条小程序使用抖音团购模板的vite转换插件',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'jonsen-liu/vite-plugin-uniapp-to-group',
+    npm: 'vite-plugin-uniapp-to-group',
+  },
   links: {
     github: 'https://github.com/jonsen-liu/vite-plugin-uniapp-to-group',
     npm: 'https://www.npmjs.com/package/vite-plugin-uniapp-to-group',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-js-support',
   description: 'vite plugin support for react with .js file',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.7',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'dravenww/vite-plugin-react-js-support',
+    npm: 'vite-plugin-react-js-support',
+  },
   links: {
     github: 'https://github.com/dravenww/vite-plugin-react-js-support',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-js-support',

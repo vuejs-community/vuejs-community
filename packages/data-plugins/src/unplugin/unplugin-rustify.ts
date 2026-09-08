@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-rustify',
   description: 'Build-time site injection for rustify-ts traces: Vite, Rollup, webpack, esbuild, rspack and Metro.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'angelozdev/rustify-ts',
+    npm: 'unplugin-rustify',
+  },
   links: {
     github: 'https://github.com/angelozdev/rustify-ts',
     npm: 'https://www.npmjs.com/package/unplugin-rustify',

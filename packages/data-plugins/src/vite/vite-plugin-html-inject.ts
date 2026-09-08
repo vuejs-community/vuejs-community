@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-inject',
   description: 'Split your index.html into multiple files and inject them where ever you want!',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.2',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'donnikitos/vite-plugin-html-inject',
+    npm: 'vite-plugin-html-inject',
+  },
   links: {
     github: 'https://github.com/donnikitos/vite-plugin-html-inject',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-inject',

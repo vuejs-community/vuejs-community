@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-emit-metadata',
   description: 'Vite plugin to support emitDecoratorMetadata',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.0',
   category: 'plugin',
   tags: [
@@ -15,14 +15,18 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'arjendeblok/vite-plugin-emit-metadata',
+    npm: 'vite-plugin-emit-metadata',
+  },
   links: {
     github: 'https://github.com/arjendeblok/vite-plugin-emit-metadata',
     npm: 'https://www.npmjs.com/package/vite-plugin-emit-metadata',
   },
   stats: {
     downloads: {
-      monthly: 981,
-      weekly: 218,
+      monthly: 846,
+      weekly: 167,
     },
   },
 })

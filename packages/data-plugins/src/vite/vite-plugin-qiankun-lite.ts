@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-qiankun-lite',
   description: 'A simple Vite plugin for efficiently running MicroFrontend applications using qiankun',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.3.0',
   category: 'plugin',
   tags: [
@@ -24,6 +24,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'kotarella1110/vite-plugin-qiankun-lite',
+    npm: 'vite-plugin-qiankun-lite',
+  },
   links: {
     github: 'https://github.com/kotarella1110/vite-plugin-qiankun-lite',
     npm: 'https://www.npmjs.com/package/vite-plugin-qiankun-lite',

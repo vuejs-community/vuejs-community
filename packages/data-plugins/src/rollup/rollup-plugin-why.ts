@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-why',
   description: 'Explains why a module ended up in your Rollup or Vite bundle: shortest import chains, side-effect-retained code, and per-package size attribution.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.2.0',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'abdalkadir/rollup-plugin-why',
+    npm: 'rollup-plugin-why',
+  },
   links: {
     github: 'https://github.com/abdalkadir/rollup-plugin-why',
     npm: 'https://www.npmjs.com/package/rollup-plugin-why',

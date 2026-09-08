@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svelte-purgecss',
   description: 'Vite plugin for PurgeCSS for Svelte',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.7',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'AdrianGonz97/vite-plugin-svelte-purgecss',
+    npm: 'vite-plugin-svelte-purgecss',
+  },
   links: {
     github: 'https://github.com/AdrianGonz97/vite-plugin-svelte-purgecss',
     npm: 'https://www.npmjs.com/package/vite-plugin-svelte-purgecss',

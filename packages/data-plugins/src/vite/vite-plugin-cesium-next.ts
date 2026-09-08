@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cesium-next',
   description: 'Cesium library plugin for Vite',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.0.5',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'coder-xiaomo/vite-plugin-cesium-next',
+    npm: 'vite-plugin-cesium-next',
+  },
   links: {
     github: 'https://github.com/coder-xiaomo/vite-plugin-cesium-next',
     npm: 'https://www.npmjs.com/package/vite-plugin-cesium-next',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-multip',
   description: 'Build real multi page application with vite',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.7',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'vclemenzi/vite-plugin-multip',
+    npm: 'vite-plugin-multip',
+  },
   links: {
     github: 'https://github.com/vclemenzi/vite-plugin-multip',
     npm: 'https://www.npmjs.com/package/vite-plugin-multip',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-lit-sass',
   description: 'SCSS files to be imported as css variables in lit.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.2-beta.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'takuma-ru/unplugin-lit-sass',
+    npm: 'unplugin-lit-sass',
+  },
   links: {
     github: 'https://github.com/takuma-ru/unplugin-lit-sass',
     npm: 'https://www.npmjs.com/package/unplugin-lit-sass',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-src',
   description: 'set vite root directory to src and fix other directory',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'zhuweiyou/vite-plugin-src',
+    npm: 'vite-plugin-src',
+  },
   links: {
     github: 'https://github.com/zhuweiyou/vite-plugin-src',
     npm: 'https://www.npmjs.com/package/vite-plugin-src',

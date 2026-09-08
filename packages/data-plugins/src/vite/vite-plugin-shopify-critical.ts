@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-shopify-critical',
   description: 'Vite plugin for inlining critical CSS/JS in Shopify themes using inline_asset_content',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.0.0',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'marioloncarek/vite-plugin-shopify-critical',
+    npm: 'vite-plugin-shopify-critical',
+  },
   links: {
     github: 'https://github.com/marioloncarek/vite-plugin-shopify-critical',
     npm: 'https://www.npmjs.com/package/vite-plugin-shopify-critical',

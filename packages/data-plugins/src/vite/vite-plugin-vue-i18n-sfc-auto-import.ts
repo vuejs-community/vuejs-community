@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-i18n-sfc-auto-import',
   description: 'Enable component-scoped i18n with Option API when using vue-i18n in composition mode',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.2.2',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'M1CK431/vite-plugin-vue-i18n-sfc-auto-import',
+    npm: 'vite-plugin-vue-i18n-sfc-auto-import',
+  },
   links: {
     github: 'https://github.com/M1CK431/vite-plugin-vue-i18n-sfc-auto-import',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-i18n-sfc-auto-import',

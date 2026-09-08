@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-copy-sync',
   description: 'Copy files and folders using Rollup',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'vineshkumar87/rollup-plugin-copy',
+    npm: 'rollup-plugin-copy-sync',
+  },
   links: {
     github: 'https://github.com/vineshkumar87/rollup-plugin-copy',
     npm: 'https://www.npmjs.com/package/rollup-plugin-copy-sync',

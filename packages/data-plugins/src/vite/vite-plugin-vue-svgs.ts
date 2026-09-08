@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-svgs',
   description: 'A vite plugin, can import svg as vue component and edit svg color by props',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.9-vue',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ChaconneLuo/vite-plugin-svgs',
+    npm: 'vite-plugin-vue-svgs',
+  },
   links: {
     github: 'https://github.com/ChaconneLuo/vite-plugin-svgs',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-svgs',

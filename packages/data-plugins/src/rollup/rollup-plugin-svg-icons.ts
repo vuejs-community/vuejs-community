@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-svg-icons',
   description: 'Bundles all svg icons from the speciefed folder to the single spritesheet svg file',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '2.1.2',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'AlexxNB/rollup-plugin-svg-icons',
+    npm: 'rollup-plugin-svg-icons',
+  },
   links: {
     github: 'https://github.com/AlexxNB/rollup-plugin-svg-icons',
     npm: 'https://www.npmjs.com/package/rollup-plugin-svg-icons',

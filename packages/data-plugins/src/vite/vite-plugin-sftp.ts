@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-sftp',
   description: 'A Vite plugin which sftp',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.4',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'swcbo/vite-plugin-sftp',
+    npm: 'vite-plugin-sftp',
+  },
   links: {
     github: 'https://github.com/swcbo/vite-plugin-sftp',
     npm: 'https://www.npmjs.com/package/vite-plugin-sftp',

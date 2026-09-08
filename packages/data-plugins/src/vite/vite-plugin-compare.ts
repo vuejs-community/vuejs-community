@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-compare',
   description: 'A JS Comparison operator\'s Syntactic Sugar',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.7',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'FliPPeDround/vite-plugin-compare',
+    npm: 'vite-plugin-compare',
+  },
   links: {
     github: 'https://github.com/FliPPeDround/vite-plugin-compare',
     npm: 'https://www.npmjs.com/package/vite-plugin-compare',

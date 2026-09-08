@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-alias-fork',
   description: 'Resolves aliases with Rollup',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '2.0.0',
   category: 'plugin',
   tags: [
@@ -15,14 +15,18 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'DavraYoung/rollup-plugin-alias',
+    npm: 'rollup-plugin-alias-fork',
+  },
   links: {
     github: 'https://github.com/DavraYoung/rollup-plugin-alias',
     npm: 'https://www.npmjs.com/package/rollup-plugin-alias-fork',
   },
   stats: {
     downloads: {
-      monthly: 10,
-      weekly: 2,
+      monthly: 21,
+      weekly: 8,
     },
   },
 })

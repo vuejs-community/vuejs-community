@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-svg-spritemap',
   description: 'Generates a SVG spritemap from multiple .svg files',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.0.1',
   category: 'plugin',
   tags: [
@@ -26,6 +26,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'g-makarov/vite-plugin-svg-spritemap',
+    npm: 'vite-plugin-svg-spritemap',
+  },
   links: {
     github: 'https://github.com/g-makarov/vite-plugin-svg-spritemap',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-spritemap',

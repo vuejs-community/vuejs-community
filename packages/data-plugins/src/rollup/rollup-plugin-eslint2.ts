@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-eslint2',
   description: 'Forked from @rollup/plugin-eslint, to resolve the conflict between @rollup/plugin-typescript and  @rollup/plugin-eslint',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.2',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'Col0ring/rollup-plugin-eslint2',
+    npm: 'rollup-plugin-eslint2',
+  },
   links: {
     github: 'https://github.com/Col0ring/rollup-plugin-eslint2',
     npm: 'https://www.npmjs.com/package/rollup-plugin-eslint2',

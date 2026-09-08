@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-version-file',
   description: 'vite 打包生成版本文件',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Woshiajuana/vite-plugin-version-file',
+    npm: 'vite-plugin-version-file',
+  },
   links: {
     github: 'https://github.com/Woshiajuana/vite-plugin-version-file',
     npm: 'https://www.npmjs.com/package/vite-plugin-version-file',

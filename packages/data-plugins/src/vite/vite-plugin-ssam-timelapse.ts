@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ssam-timelapse',
   description: 'Export a Canvas image at each file save. Use it with Ssam or any HTML Canvas',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.6',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'cdaein/vite-plugin-ssam-timelapse',
+    npm: 'vite-plugin-ssam-timelapse',
+  },
   links: {
     github: 'https://github.com/cdaein/vite-plugin-ssam-timelapse',
     npm: 'https://www.npmjs.com/package/vite-plugin-ssam-timelapse',

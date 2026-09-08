@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-make',
   description: 'Rollup plugin to build dependency files suitable for make',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '3.0.0',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'btmorex/rollup-plugin-make',
+    npm: 'rollup-plugin-make',
+  },
   links: {
     github: 'https://github.com/btmorex/rollup-plugin-make',
     npm: 'https://www.npmjs.com/package/rollup-plugin-make',

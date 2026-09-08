@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-graphql',
   description: 'A universal bundler plugin which Converts .gql/.graphql(s) files to ES6 modules.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.2.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'wzc520pyfm/unplugin-graphql',
+    npm: 'unplugin-graphql',
+  },
   links: {
     github: 'https://github.com/wzc520pyfm/unplugin-graphql',
     npm: 'https://www.npmjs.com/package/unplugin-graphql',

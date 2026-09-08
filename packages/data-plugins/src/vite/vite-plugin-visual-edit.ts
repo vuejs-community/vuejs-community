@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-visual-edit',
   description: 'A Vite plugin for visual editing of React components. Highlights elements, shows source locations, and enables in-browser content editing with iframe communication support.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.6',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Joinguyen/vite-plugin-visual-edit',
+    npm: 'vite-plugin-visual-edit',
+  },
   links: {
     github: 'https://github.com/Joinguyen/vite-plugin-visual-edit',
     npm: 'https://www.npmjs.com/package/vite-plugin-visual-edit',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vconsole-import',
   description: '',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.7',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'fightwithtiger/unplugin-vconsole-import',
+    npm: 'unplugin-vconsole-import',
+  },
   links: {
     github: 'https://github.com/fightwithtiger/unplugin-vconsole-import',
     npm: 'https://www.npmjs.com/package/unplugin-vconsole-import',

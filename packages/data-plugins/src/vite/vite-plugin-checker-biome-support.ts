@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-checker-biome-support',
   description: 'Vite plugin that runs TypeScript type checker on a separate process.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.8.0',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'jonondarnad/vite-plugin-checker',
+    npm: 'vite-plugin-checker-biome-support',
+  },
   links: {
     github: 'https://github.com/jonondarnad/vite-plugin-checker',
     npm: 'https://www.npmjs.com/package/vite-plugin-checker-biome-support',

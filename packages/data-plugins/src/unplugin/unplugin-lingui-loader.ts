@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-lingui-loader',
   description: 'Lingui loader for Vite, Rollup, Webpack, and more',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'a1ooha/unplugin-lingui-loader',
+    npm: 'unplugin-lingui-loader',
+  },
   links: {
     github: 'https://github.com/a1ooha/unplugin-lingui-loader',
     npm: 'https://www.npmjs.com/package/unplugin-lingui-loader',

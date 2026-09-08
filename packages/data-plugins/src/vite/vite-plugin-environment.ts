@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-environment',
   description: 'Easily expose environment variables in Vite.js',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.3',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ElMassimo/vite-plugin-environment',
+    npm: 'vite-plugin-environment',
+  },
   links: {
     github: 'https://github.com/ElMassimo/vite-plugin-environment',
     npm: 'https://www.npmjs.com/package/vite-plugin-environment',

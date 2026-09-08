@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-unused-components',
   description: 'Unplugin to detect unused components in your project',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'BoYuanSu/unplugin-unused-components',
+    npm: 'unplugin-unused-components',
+  },
   links: {
     github: 'https://github.com/BoYuanSu/unplugin-unused-components',
     npm: 'https://www.npmjs.com/package/unplugin-unused-components',

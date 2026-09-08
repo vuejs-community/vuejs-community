@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-coffee-script',
   description: 'Integration between Rollup and CoffeeScript.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '2.0.0',
   category: 'plugin',
   tags: [
@@ -13,14 +13,18 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'lautis/rollup-plugin-coffee-script',
+    npm: 'rollup-plugin-coffee-script',
+  },
   links: {
     github: 'https://github.com/lautis/rollup-plugin-coffee-script',
     npm: 'https://www.npmjs.com/package/rollup-plugin-coffee-script',
   },
   stats: {
     downloads: {
-      monthly: 11843,
-      weekly: 3002,
+      monthly: 10162,
+      weekly: 1734,
     },
   },
 })

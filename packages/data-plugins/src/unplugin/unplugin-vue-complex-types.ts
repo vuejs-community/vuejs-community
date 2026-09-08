@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-complex-types',
   description: 'Resolve complex types in Vue SFCs.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.3.0',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'unplugin/unplugin-vue-complex-types',
+    npm: 'unplugin-vue-complex-types',
+  },
   links: {
     github: 'https://github.com/unplugin/unplugin-vue-complex-types',
     npm: 'https://www.npmjs.com/package/unplugin-vue-complex-types',

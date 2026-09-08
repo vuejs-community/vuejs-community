@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-define',
   description: 'Replace variables in code with other values or expressions.Supports Vite, Rollup, Webpack, Rspack and more.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.2',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'xiankq/unplugin-define',
+    npm: 'unplugin-define',
+  },
   links: {
     github: 'https://github.com/xiankq/unplugin-define',
     npm: 'https://www.npmjs.com/package/unplugin-define',

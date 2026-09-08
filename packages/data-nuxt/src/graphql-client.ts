@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: 'nuxt-graphql-client',
   },
   stats: {
-    stars: 401,
+    stars: 400,
     downloads: {
       monthly: 24643,
       weekly: 5467,

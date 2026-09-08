@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-named-output',
   description: 'Allows mapping of output file names',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'salmanm/rollup-plugin-named-output',
+    npm: 'rollup-plugin-named-output',
+  },
   links: {
     github: 'https://github.com/salmanm/rollup-plugin-named-output',
     npm: 'https://www.npmjs.com/package/rollup-plugin-named-output',

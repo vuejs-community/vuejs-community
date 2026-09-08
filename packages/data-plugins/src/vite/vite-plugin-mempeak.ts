@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mempeak',
   description: 'A Vite plugin for heap memory usage tracking at build-time.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'shinobiwps/vite-plugin-mempeak',
+    npm: 'vite-plugin-mempeak',
+  },
   links: {
     github: 'https://github.com/shinobiwps/vite-plugin-mempeak',
     npm: 'https://www.npmjs.com/package/vite-plugin-mempeak',

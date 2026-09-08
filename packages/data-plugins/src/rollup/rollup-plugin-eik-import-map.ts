@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-eik-import-map',
   description: 'Rollup plugin that uses Eik defined import map files to transform bare import specifiers to absolute URLs in ES modules',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'trygve-lie/rollup-plugin-esm-import-to-url',
+    npm: 'rollup-plugin-eik-import-map',
+  },
   links: {
     github: 'https://github.com/trygve-lie/rollup-plugin-esm-import-to-url',
     npm: 'https://www.npmjs.com/package/rollup-plugin-eik-import-map',

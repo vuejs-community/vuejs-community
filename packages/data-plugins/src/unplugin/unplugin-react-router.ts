@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-react-router',
   description: 'File system based route generator for react',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.0',
   category: 'plugin',
   tags: [
@@ -24,6 +24,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'sankeyangshu/unplugin-react-router',
+    npm: 'unplugin-react-router',
+  },
   links: {
     github: 'https://github.com/sankeyangshu/unplugin-react-router',
     npm: 'https://www.npmjs.com/package/unplugin-react-router',

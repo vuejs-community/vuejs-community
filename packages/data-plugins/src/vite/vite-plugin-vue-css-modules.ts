@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-css-modules',
   description: '✨ Ultimate solution for using CSS modules without any hassle. Automatic replacement for Vue templates and scripts',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '4.0.1',
   category: 'plugin',
   tags: [
@@ -21,14 +21,18 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'zeokku/vite-plugin-vue-css-modules',
+    npm: 'vite-plugin-vue-css-modules',
+  },
   links: {
     github: 'https://github.com/zeokku/vite-plugin-vue-css-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-css-modules',
   },
   stats: {
     downloads: {
-      monthly: 336,
-      weekly: 132,
+      monthly: 351,
+      weekly: 88,
     },
   },
 })

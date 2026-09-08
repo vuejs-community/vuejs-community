@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-prefix-localstorage',
   description: 'Add a custom prefix to the `setItem`, `getItem`, and `removeItem` methods of `localStorage` to avoid naming collisions.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '2.0.1',
   category: 'plugin',
   tags: [
@@ -14,14 +14,18 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'vhxubo/rollup-plugin-prefix-localstorage',
+    npm: 'rollup-plugin-prefix-localstorage',
+  },
   links: {
     github: 'https://github.com/vhxubo/rollup-plugin-prefix-localstorage',
     npm: 'https://www.npmjs.com/package/rollup-plugin-prefix-localstorage',
   },
   stats: {
     downloads: {
-      monthly: 22,
-      weekly: 5,
+      monthly: 21,
+      weekly: 2,
     },
   },
 })

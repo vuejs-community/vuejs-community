@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-inject-scripts',
   description: 'A Vite plugin that injects `<script>` tags into the generated HTML files',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -21,6 +21,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'otomad/vite-plugin-inject-scripts',
+    npm: 'vite-plugin-inject-scripts',
+  },
   links: {
     github: 'https://github.com/otomad/vite-plugin-inject-scripts',
     npm: 'https://www.npmjs.com/package/vite-plugin-inject-scripts',

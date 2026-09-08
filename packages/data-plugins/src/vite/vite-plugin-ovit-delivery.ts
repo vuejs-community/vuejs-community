@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ovit-delivery',
   description: 'Vite plugin for OvitDelivery component auto-registration with local scope',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'your-org/vite-plugin-ovit-delivery',
+    npm: 'vite-plugin-ovit-delivery',
+  },
   links: {
     github: 'https://github.com/your-org/vite-plugin-ovit-delivery',
     npm: 'https://www.npmjs.com/package/vite-plugin-ovit-delivery',

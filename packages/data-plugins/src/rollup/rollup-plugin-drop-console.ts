@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-drop-console',
   description: 'A rollup plugin used to drop (window.)console.*',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.0.1',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'chouchouji/rollup-plugin-drop-console',
+    npm: 'rollup-plugin-drop-console',
+  },
   links: {
     github: 'https://github.com/chouchouji/rollup-plugin-drop-console',
     npm: 'https://www.npmjs.com/package/rollup-plugin-drop-console',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-router-auto-generate-const',
   description: '一个简单的 Vue Router 路由名称枚举类型生成插件',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.1',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'xfl12345/vite-plugin-vue-router-auto-generate-const',
+    npm: 'vite-plugin-vue-router-auto-generate-const',
+  },
   links: {
     github: 'https://github.com/xfl12345/vite-plugin-vue-router-auto-generate-const',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-router-auto-generate-const',

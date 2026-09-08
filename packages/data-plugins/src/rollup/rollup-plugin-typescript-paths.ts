@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-typescript-paths',
   description: 'Rollup plugin to automatically resolve TypeScript path aliases.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.5.0',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'simonhaenisch/rollup-plugin-typescript-paths',
+    npm: 'rollup-plugin-typescript-paths',
+  },
   links: {
     github: 'https://github.com/simonhaenisch/rollup-plugin-typescript-paths',
     npm: 'https://www.npmjs.com/package/rollup-plugin-typescript-paths',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-polyfill-service',
   description: 'Rollup plugin that analyse built javascript files and generate a polyfill.io URL based on all features that are being used',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '2.0.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'touchifyapp/rollup-plugin-polyfill-service',
+    npm: 'rollup-plugin-polyfill-service',
+  },
   links: {
     github: 'https://github.com/touchifyapp/rollup-plugin-polyfill-service',
     npm: 'https://www.npmjs.com/package/rollup-plugin-polyfill-service',

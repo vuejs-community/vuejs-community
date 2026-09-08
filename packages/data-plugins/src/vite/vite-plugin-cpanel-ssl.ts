@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-cpanel-ssl',
   description: 'Automatically use your cPanel SSL certs and keys for the Vite dev server',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.2.1',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'evo-mark/vite-plugin-cpanel-ssl',
+    npm: 'vite-plugin-cpanel-ssl',
+  },
   links: {
     github: 'https://github.com/evo-mark/vite-plugin-cpanel-ssl',
     npm: 'https://www.npmjs.com/package/vite-plugin-cpanel-ssl',

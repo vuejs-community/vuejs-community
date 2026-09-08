@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-virtual-html-template',
   description: 'HTML template for vite app, support flexible virtual URL.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'hex-ci/vite-plugin-virtual-html-template',
+    npm: 'vite-plugin-virtual-html-template',
+  },
   links: {
     github: 'https://github.com/hex-ci/vite-plugin-virtual-html-template',
     npm: 'https://www.npmjs.com/package/vite-plugin-virtual-html-template',

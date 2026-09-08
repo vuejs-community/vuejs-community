@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-babel',
   description: 'Runs Babel in Vite during all commands',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.7.3',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'owlsdepartment/vite-plugin-babel',
+    npm: 'vite-plugin-babel',
+  },
   links: {
     github: 'https://github.com/owlsdepartment/vite-plugin-babel',
     npm: 'https://www.npmjs.com/package/vite-plugin-babel',

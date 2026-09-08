@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: 'nuxt-i18n-micro',
   },
   stats: {
-    stars: 248,
+    stars: 249,
     downloads: {
       monthly: 24141,
       weekly: 5072,

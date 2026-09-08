@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-fingerprint',
   description: 'Rollup plugin to add a fingerprint to your destination filename and generate a manifest',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.3.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'rmacklin/rollup-plugin-fingerprint',
+    npm: 'rollup-plugin-fingerprint',
+  },
   links: {
     github: 'https://github.com/rmacklin/rollup-plugin-fingerprint',
     npm: 'https://www.npmjs.com/package/rollup-plugin-fingerprint',

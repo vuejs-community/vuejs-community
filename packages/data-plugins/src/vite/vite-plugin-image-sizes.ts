@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-image-sizes',
   description: 'A Vite plugin to automatically add width and height attributes to img and source tags.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.3.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ozekimasaki/vite-plugin-image-sizes',
+    npm: 'vite-plugin-image-sizes',
+  },
   links: {
     github: 'https://github.com/ozekimasaki/vite-plugin-image-sizes',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-sizes',

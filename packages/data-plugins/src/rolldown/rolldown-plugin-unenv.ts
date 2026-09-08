@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rolldown-plugin-unenv',
   description: 'Rolldown plugin for unenv',
-  icon: '',
+  icon: 'logos:rolldown-icon',
   version: '0.0.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rolldown-plugin',
   ],
+  source: {
+    github: 'jeremy-code/rolldown-plugin-unenv',
+    npm: 'rolldown-plugin-unenv',
+  },
   links: {
     github: 'https://github.com/jeremy-code/rolldown-plugin-unenv',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-unenv',

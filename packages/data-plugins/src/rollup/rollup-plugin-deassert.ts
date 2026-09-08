@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-deassert',
   description: 'rollup plugin for deassert',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.3.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'RebeccaStevens/deassert',
+    npm: 'rollup-plugin-deassert',
+  },
   links: {
     github: 'https://github.com/RebeccaStevens/deassert',
     npm: 'https://www.npmjs.com/package/rollup-plugin-deassert',

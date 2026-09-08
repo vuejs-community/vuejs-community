@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/view-ui-plus',
   },
   stats: {
-    stars: 431,
+    stars: 430,
     downloads: {
       monthly: 11561,
       weekly: 2142,

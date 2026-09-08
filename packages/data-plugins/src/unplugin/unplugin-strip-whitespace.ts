@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-strip-whitespace',
   description: 'Unplugin to strip inter-node whitespace in Astro and Svelte templates (Vite/Rollup/Webpack/Rspack/etc).',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.2.2',
   category: 'plugin',
   tags: [
@@ -23,6 +23,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'SegaraRai/strip-whitespace',
+    npm: 'unplugin-strip-whitespace',
+  },
   links: {
     github: 'https://github.com/SegaraRai/strip-whitespace',
     npm: 'https://www.npmjs.com/package/unplugin-strip-whitespace',

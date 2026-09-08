@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-ember',
   description: 'VitePress plugin for live, interactive Ember components in your documentation — write .gjs/.gts in markdown and see them render',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.8.1',
   category: 'plugin',
   tags: [
@@ -28,6 +28,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'aklkv/vite-plugin-ember',
+    npm: 'vite-plugin-ember',
+  },
   links: {
     github: 'https://github.com/aklkv/vite-plugin-ember',
     npm: 'https://www.npmjs.com/package/vite-plugin-ember',

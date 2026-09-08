@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-dts-bundle-generator',
   description: 'DTS bundle generator for Unplugin',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '3.4.3',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'f-lawe/unplugin-dts-bundle-generator',
+    npm: 'unplugin-dts-bundle-generator',
+  },
   links: {
     github: 'https://github.com/f-lawe/unplugin-dts-bundle-generator',
     npm: 'https://www.npmjs.com/package/unplugin-dts-bundle-generator',

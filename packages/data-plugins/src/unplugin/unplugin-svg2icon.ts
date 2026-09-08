@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-svg2icon',
   description: 'Register global imports on demand for Vite and Webpack',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'duowb/unplugin-svg2icon',
+    npm: 'unplugin-svg2icon',
+  },
   links: {
     github: 'https://github.com/duowb/unplugin-svg2icon',
     npm: 'https://www.npmjs.com/package/unplugin-svg2icon',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-web-routes',
   description: 'Vite plugin that generates React Router v6 routes from your filesystem. Place files named PAGE.tsx, LAYOUT.tsx, BOUNDARY.tsx or ERROR.tsx and get a fully typed routes.ts with zero manual configuration.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.3',
   category: 'plugin',
   tags: [
@@ -25,6 +25,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'yracnet/vite-plugin-web-routes',
+    npm: 'vite-plugin-web-routes',
+  },
   links: {
     github: 'https://github.com/yracnet/vite-plugin-web-routes',
     npm: 'https://www.npmjs.com/package/vite-plugin-web-routes',

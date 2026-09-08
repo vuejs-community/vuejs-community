@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-serwist',
   description: 'A module that integrates Serwist into your Vite application.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '10.0.0-preview.14',
   category: 'plugin',
   tags: [
@@ -28,6 +28,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'serwist/serwist',
+    npm: 'vite-plugin-serwist',
+  },
   links: {
     github: 'https://github.com/serwist/serwist',
     npm: 'https://www.npmjs.com/package/vite-plugin-serwist',

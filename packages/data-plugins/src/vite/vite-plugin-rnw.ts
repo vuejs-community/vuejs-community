@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-rnw',
   description: 'Vite plugin for React Native Web',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.12',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'dannyhw/vite-plugin-rnw',
+    npm: 'vite-plugin-rnw',
+  },
   links: {
     github: 'https://github.com/dannyhw/vite-plugin-rnw',
     npm: 'https://www.npmjs.com/package/vite-plugin-rnw',

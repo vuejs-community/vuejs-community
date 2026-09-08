@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-entry',
   description: 'Import an .html file with ?html to get its built URL - Vite registers it as a real build entry (added to rollupOptions.input automatically) so its <link> and <script> tags are processed like any other page, not copied as a static asset. Useful for multi-p',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -29,6 +29,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'SheikhAminul/vite-plugin-html-entry',
+    npm: 'vite-plugin-html-entry',
+  },
   links: {
     github: 'https://github.com/SheikhAminul/vite-plugin-html-entry',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-entry',

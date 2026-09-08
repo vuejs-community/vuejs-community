@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-solid-marked',
   description: 'Vite plugin for solid-marked',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.8.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'lxsmnsyc/solid-marked',
+    npm: 'vite-plugin-solid-marked',
+  },
   links: {
     github: 'https://github.com/lxsmnsyc/solid-marked',
     npm: 'https://www.npmjs.com/package/vite-plugin-solid-marked',

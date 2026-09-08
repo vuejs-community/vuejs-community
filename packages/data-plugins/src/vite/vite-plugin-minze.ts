@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-minze',
   description: 'Vite plugin for Minze dev environment.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.6',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'sergejcodes/minze',
+    npm: 'vite-plugin-minze',
+  },
   links: {
     github: 'https://github.com/sergejcodes/minze',
     npm: 'https://www.npmjs.com/package/vite-plugin-minze',

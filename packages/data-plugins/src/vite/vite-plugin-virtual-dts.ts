@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-virtual-dts',
   description: 'Generate declaration files for virtual module',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ryo-gk/vite-plugin-dts-generator',
+    npm: 'vite-plugin-virtual-dts',
+  },
   links: {
     github: 'https://github.com/ryo-gk/vite-plugin-dts-generator',
     npm: 'https://www.npmjs.com/package/vite-plugin-virtual-dts',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-public-outdir',
   description: 'Adjust where public files are copied to in a build',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.2',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'wrapperup/vite-plugin-public-outdir',
+    npm: 'vite-plugin-public-outdir',
+  },
   links: {
     github: 'https://github.com/wrapperup/vite-plugin-public-outdir',
     npm: 'https://www.npmjs.com/package/vite-plugin-public-outdir',

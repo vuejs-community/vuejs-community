@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-import-trace',
   description: 'Rollup/Vite plugin to track import chains for better error debugging',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'privatenumber/rollup-plugin-import-trace',
+    npm: 'rollup-plugin-import-trace',
+  },
   links: {
     github: 'https://github.com/privatenumber/rollup-plugin-import-trace',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-trace',

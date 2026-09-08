@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-add-version',
   description: 'vite构建过程中给js和css添加自定义版本号防止缓存',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.1',
   category: 'plugin',
   tags: [
@@ -12,6 +12,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'liuhean2021/vite-plugin-add-version',
+    npm: 'vite-plugin-add-version',
+  },
   links: {
     github: 'https://github.com/liuhean2021/vite-plugin-add-version',
     npm: 'https://www.npmjs.com/package/vite-plugin-add-version',

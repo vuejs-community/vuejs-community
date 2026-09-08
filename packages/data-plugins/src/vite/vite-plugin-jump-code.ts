@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-jump-code',
   description: '代码一键跳转，开发利器。',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.2.3',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'kongweigen/vite-plugin-jump-code',
+    npm: 'vite-plugin-jump-code',
+  },
   links: {
     github: 'https://github.com/kongweigen/vite-plugin-jump-code',
     npm: 'https://www.npmjs.com/package/vite-plugin-jump-code',

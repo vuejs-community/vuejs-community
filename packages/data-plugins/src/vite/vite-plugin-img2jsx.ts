@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-img2jsx',
   description: 'A vite plugin that converts images into React components',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.4',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Xiaoooyooo/vite-plugin-img2jsx',
+    npm: 'vite-plugin-img2jsx',
+  },
   links: {
     github: 'https://github.com/Xiaoooyooo/vite-plugin-img2jsx',
     npm: 'https://www.npmjs.com/package/vite-plugin-img2jsx',

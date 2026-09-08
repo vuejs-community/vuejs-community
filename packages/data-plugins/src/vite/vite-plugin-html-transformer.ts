@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-transformer',
   description: 'A plugin for vite to Minimize index.html and use lodash.template template syntax in index.html',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '4.0.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'bennyxguo/vite-plugin-html-transformer',
+    npm: 'vite-plugin-html-transformer',
+  },
   links: {
     github: 'https://github.com/bennyxguo/vite-plugin-html-transformer',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-transformer',

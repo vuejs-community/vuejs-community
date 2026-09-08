@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-mpg',
   description: 'vite multi pages plugin',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -13,6 +13,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'just-ads/vite-plugin-multi-page',
+    npm: 'vite-plugin-mpg',
+  },
   links: {
     github: 'https://github.com/just-ads/vite-plugin-multi-page',
     npm: 'https://www.npmjs.com/package/vite-plugin-mpg',

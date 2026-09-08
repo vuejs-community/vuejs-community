@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-resolve-alias',
   description: 'A vite plugin that can use aliases in html content.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.1.0',
   category: 'plugin',
   tags: [
@@ -12,6 +12,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'haiya6/vite-plugin-html-resolve-alias',
+    npm: 'vite-plugin-html-resolve-alias',
+  },
   links: {
     github: 'https://github.com/haiya6/vite-plugin-html-resolve-alias',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-resolve-alias',

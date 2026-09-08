@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-jsx',
   description: 'A Vue JSX plugin.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.10.0',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'unplugin/unplugin-vue-jsx',
+    npm: 'unplugin-vue-jsx',
+  },
   links: {
     github: 'https://github.com/unplugin/unplugin-vue-jsx',
     npm: 'https://www.npmjs.com/package/unplugin-vue-jsx',

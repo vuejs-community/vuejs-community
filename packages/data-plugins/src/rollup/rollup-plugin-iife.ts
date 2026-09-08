@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-iife',
   description: 'Convert ES modules into IIFEs.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.8.0',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'eight04/rollup-plugin-iife',
+    npm: 'rollup-plugin-iife',
+  },
   links: {
     github: 'https://github.com/eight04/rollup-plugin-iife',
     npm: 'https://www.npmjs.com/package/rollup-plugin-iife',

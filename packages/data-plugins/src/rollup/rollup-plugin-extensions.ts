@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-extensions',
   description: 'Allow rollup to resolve local files with any extension',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'zelzen/rollup-plugin-extensions',
+    npm: 'rollup-plugin-extensions',
+  },
   links: {
     github: 'https://github.com/zelzen/rollup-plugin-extensions',
     npm: 'https://www.npmjs.com/package/rollup-plugin-extensions',

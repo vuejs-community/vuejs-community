@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-inline-ts',
   description: 'A Rollup plugin to process TypeScript code inside <script lang="ts"> tags.',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.6',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 're7r/rollup-plugin-inline-ts',
+    npm: 'rollup-plugin-inline-ts',
+  },
   links: {
     github: 'https://github.com/re7r/rollup-plugin-inline-ts',
     npm: 'https://www.npmjs.com/package/rollup-plugin-inline-ts',

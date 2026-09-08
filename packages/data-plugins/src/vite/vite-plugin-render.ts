@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-render',
   description: 'Vite plugin to render any file to a component',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.6.0',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Toilal/vite-plugin-render',
+    npm: 'vite-plugin-render',
+  },
   links: {
     github: 'https://github.com/Toilal/vite-plugin-render',
     npm: 'https://www.npmjs.com/package/vite-plugin-render',

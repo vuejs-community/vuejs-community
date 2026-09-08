@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-flow',
   description: 'Flow support for Vite',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.1',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Eazymov/vite-plugin-flow',
+    npm: 'vite-plugin-flow',
+  },
   links: {
     github: 'https://github.com/Eazymov/vite-plugin-flow',
     npm: 'https://www.npmjs.com/package/vite-plugin-flow',

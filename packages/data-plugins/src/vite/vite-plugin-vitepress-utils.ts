@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vitepress-utils',
   description: 'vitepress 系列工具',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.3',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'lijiayuan365/vite-plugin-vitepress-utils',
+    npm: 'vite-plugin-vitepress-utils',
+  },
   links: {
     github: 'https://github.com/lijiayuan365/vite-plugin-vitepress-utils',
     npm: 'https://www.npmjs.com/package/vite-plugin-vitepress-utils',

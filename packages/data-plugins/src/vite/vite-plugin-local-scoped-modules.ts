@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-local-scoped-modules',
   description: 'vite-plugin-local-scoped-modules ================ This is a [vite](https://github.com/vitejs/vite) plugin that intends to avoid  typing  relative paths.Use relative paths like local modules instead.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.160.4',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'zengnificant/vite-plugin-local-scoped-modules',
+    npm: 'vite-plugin-local-scoped-modules',
+  },
   links: {
     github: 'https://github.com/zengnificant/vite-plugin-local-scoped-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-local-scoped-modules',

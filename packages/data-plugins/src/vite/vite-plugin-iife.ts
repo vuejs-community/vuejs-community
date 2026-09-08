@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-iife',
   description: 'Vite plugin for simple IIFE-compiled script imports.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.1.2',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'kitschpatrol/vite-plugin-iife',
+    npm: 'vite-plugin-iife',
+  },
   links: {
     github: 'https://github.com/kitschpatrol/vite-plugin-iife',
     npm: 'https://www.npmjs.com/package/vite-plugin-iife',

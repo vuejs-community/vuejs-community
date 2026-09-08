@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-easy-player-pro',
   description: 'easy-player-pro plugin for Vite',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.5',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'meterXu/easy-player',
+    npm: 'vite-plugin-easy-player-pro',
+  },
   links: {
     github: 'https://github.com/meterXu/easy-player',
     npm: 'https://www.npmjs.com/package/vite-plugin-easy-player-pro',

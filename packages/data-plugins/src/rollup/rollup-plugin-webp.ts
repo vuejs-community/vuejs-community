@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-webp',
   description: 'Rollup plugin for convert images to webp',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.4',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'summershower/rollup-plugin-webp',
+    npm: 'rollup-plugin-webp',
+  },
   links: {
     github: 'https://github.com/summershower/rollup-plugin-webp',
     npm: 'https://www.npmjs.com/package/rollup-plugin-webp',

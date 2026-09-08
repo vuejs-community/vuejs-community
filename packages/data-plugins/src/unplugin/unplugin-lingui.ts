@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-lingui',
   description: 'unplugin for lingui',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.8',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'Debbl/unplugin-lingui',
+    npm: 'unplugin-lingui',
+  },
   links: {
     github: 'https://github.com/Debbl/unplugin-lingui',
     npm: 'https://www.npmjs.com/package/unplugin-lingui',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-fervid',
   description: 'Transform Vue 3 SFC to JavaScript written in Rust.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.6',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'unplugin/unplugin-vue-fervid',
+    npm: 'unplugin-vue-fervid',
+  },
   links: {
     github: 'https://github.com/unplugin/unplugin-vue-fervid',
     npm: 'https://www.npmjs.com/package/unplugin-vue-fervid',

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-bemoji',
   description: 'Vite plugin for BEMoji — transforms emoji class names in HTML, JSX, TSX, and Vue templates.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0-beta.1',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-bemoji',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-bemoji',

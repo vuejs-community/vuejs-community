@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-svgr2',
   description: 'unplugin to transform SVGs into React components. Uses [svgr](https://react-svgr.com/) under the hood.',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.1.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'canvascat/unplugin-svgr',
+    npm: 'unplugin-svgr2',
+  },
   links: {
     github: 'https://github.com/canvascat/unplugin-svgr',
     npm: 'https://www.npmjs.com/package/unplugin-svgr2',

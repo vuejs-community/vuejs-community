@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-fakery',
   description: 'Vite plugin to mock frontend APIs with realistic data from Faker',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -31,6 +31,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'ridgehkr/vite-plugin-fakery',
+    npm: 'vite-plugin-fakery',
+  },
   links: {
     github: 'https://github.com/ridgehkr/vite-plugin-fakery',
     npm: 'https://www.npmjs.com/package/vite-plugin-fakery',

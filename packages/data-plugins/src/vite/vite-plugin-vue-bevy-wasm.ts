@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-vue-bevy-wasm',
   description: 'Vite plugin to build bevy wasms',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.3',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'slyedoc/vite-plugin-vue-bevy-wasm',
+    npm: 'vite-plugin-vue-bevy-wasm',
+  },
   links: {
     github: 'https://github.com/slyedoc/vite-plugin-vue-bevy-wasm',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-bevy-wasm',

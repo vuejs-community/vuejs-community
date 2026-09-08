@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-lib-inject-css',
   description: 'Inject css at the top of chunk file in lib mode using `import` statement, support multiple entries.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '2.2.2',
   category: 'plugin',
   tags: [
@@ -23,6 +23,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'emosheeep/vite-plugin-lib-inject-css',
+    npm: 'vite-plugin-lib-inject-css',
+  },
   links: {
     github: 'https://github.com/emosheeep/vite-plugin-lib-inject-css',
     npm: 'https://www.npmjs.com/package/vite-plugin-lib-inject-css',

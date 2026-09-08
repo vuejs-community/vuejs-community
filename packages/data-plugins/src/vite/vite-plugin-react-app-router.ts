@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-react-app-router',
   description: 'Vite plugin that brings Next.js App Router file-based routing to standard React projects',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.3',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'jraylan/vite-plugin-react-app-router',
+    npm: 'vite-plugin-react-app-router',
+  },
   links: {
     github: 'https://github.com/jraylan/vite-plugin-react-app-router',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-app-router',

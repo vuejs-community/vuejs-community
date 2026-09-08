@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-image-preload-pro',
   description: 'vite 插件，预加载图片，优化性能，向用户提供丝滑体验',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.6',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: '',
+    npm: 'vite-plugin-image-preload-pro',
+  },
   links: {
     github: 'https://github.com/',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-preload-pro',

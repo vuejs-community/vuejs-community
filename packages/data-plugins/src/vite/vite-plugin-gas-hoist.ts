@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-gas-hoist',
   description: 'A Vite plugin that hoists entry point exports to the global scope for Google Apps Script',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.0',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'hd140283/vite-plugin-gas-hoist',
+    npm: 'vite-plugin-gas-hoist',
+  },
   links: {
     github: 'https://github.com/hd140283/vite-plugin-gas-hoist',
     npm: 'https://www.npmjs.com/package/vite-plugin-gas-hoist',

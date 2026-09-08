@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-svg2solid',
   description: 'Register global imports on demand for Vite and Webpack',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'antfu/unplugin-svg2solid',
+    npm: 'unplugin-svg2solid',
+  },
   links: {
     github: 'https://github.com/antfu/unplugin-svg2solid',
     npm: 'https://www.npmjs.com/package/unplugin-svg2solid',

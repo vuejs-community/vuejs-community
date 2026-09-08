@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-uni-subpackage-placeholder',
   description: 'Vite plugin for uni-app mini programs: auto-inject componentPlaceholder for cross-subpackage custom components. Built-in mp platform detection.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -22,6 +22,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'houqiangxie/vite-plugin-uni-subpackage-placeholder',
+    npm: 'vite-plugin-uni-subpackage-placeholder',
+  },
   links: {
     github: 'https://github.com/houqiangxie/vite-plugin-uni-subpackage-placeholder',
     npm: 'https://www.npmjs.com/package/vite-plugin-uni-subpackage-placeholder',

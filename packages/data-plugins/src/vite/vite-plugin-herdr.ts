@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-herdr',
   description: 'Pick a DOM element in your Vite app and send it, with a prompt, to a coding agent running in herdr.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.2.0',
   category: 'plugin',
   tags: [
@@ -20,6 +20,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'scaccogatto/vite-plugin-herdr',
+    npm: 'vite-plugin-herdr',
+  },
   links: {
     github: 'https://github.com/scaccogatto/vite-plugin-herdr',
     npm: 'https://www.npmjs.com/package/vite-plugin-herdr',

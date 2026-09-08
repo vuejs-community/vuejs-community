@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-html-security',
   description: 'vite plugin for html security',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'zys8119/vite-plugin-html-security',
+    npm: 'vite-plugin-html-security',
+  },
   links: {
     github: 'https://github.com/zys8119/vite-plugin-html-security',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-security',

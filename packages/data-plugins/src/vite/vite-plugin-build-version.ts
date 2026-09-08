@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-build-version',
   description: '记录下本次构建的package.json版本',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.1',
   category: 'plugin',
   tags: [
@@ -15,6 +15,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Webming19/vite-plugin-build-version',
+    npm: 'vite-plugin-build-version',
+  },
   links: {
     github: 'https://github.com/Webming19/vite-plugin-build-version',
     npm: 'https://www.npmjs.com/package/vite-plugin-build-version',

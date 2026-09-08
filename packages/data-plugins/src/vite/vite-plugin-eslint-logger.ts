@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-eslint-logger',
   description: 'A vite plugin to show ESlint logs in browser and terminal',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.1.0',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'Joker/vite-plugin-eslint-logger',
+    npm: 'vite-plugin-eslint-logger',
+  },
   links: {
     github: 'https://github.com/Joker/vite-plugin-eslint-logger',
     npm: 'https://www.npmjs.com/package/vite-plugin-eslint-logger',

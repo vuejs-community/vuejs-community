@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'unplugin-vue-auto-img',
   description: 'Automatically import images into the vue project',
-  icon: '',
+  icon: 'icon:dark-unplugin',
   version: '0.2.1',
   category: 'plugin',
   tags: [
@@ -16,6 +16,10 @@ export default defineProjectMeta({
   types: [
     'unplugin',
   ],
+  source: {
+    github: 'lyric-zemin/unplugin-vue-auto-img',
+    npm: 'unplugin-vue-auto-img',
+  },
   links: {
     github: 'https://github.com/lyric-zemin/unplugin-vue-auto-img',
     npm: 'https://www.npmjs.com/package/unplugin-vue-auto-img',

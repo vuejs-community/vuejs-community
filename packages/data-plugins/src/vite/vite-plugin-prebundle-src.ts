@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-prebundle-src',
   description: '📦 Vite plugin to prebundle source files',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.1.1',
   category: 'plugin',
   tags: [
@@ -14,6 +14,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'jh-leong/vite-plugin-prebundle-src',
+    npm: 'vite-plugin-prebundle-src',
+  },
   links: {
     github: 'https://github.com/jh-leong/vite-plugin-prebundle-src',
     npm: 'https://www.npmjs.com/package/vite-plugin-prebundle-src',

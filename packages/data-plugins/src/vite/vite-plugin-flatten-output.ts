@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-flatten-output',
   description: 'A Vite plugin to remove specific directory paths from file outputs during build.',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '0.0.2',
   category: 'plugin',
   tags: [
@@ -17,6 +17,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'myudak/vite-plugin-flatten-output',
+    npm: 'vite-plugin-flatten-output',
+  },
   links: {
     github: 'https://github.com/myudak/vite-plugin-flatten-output',
     npm: 'https://www.npmjs.com/package/vite-plugin-flatten-output',

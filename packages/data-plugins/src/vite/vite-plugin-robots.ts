@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vite-plugin-robots',
   description: 'Vite plugin for generating robots.txt for production and development builds',
-  icon: '',
+  icon: 'logos:vite-icon',
   version: '1.0.5',
   category: 'plugin',
   tags: [
@@ -18,6 +18,10 @@ export default defineProjectMeta({
   types: [
     'vite-plugin',
   ],
+  source: {
+    github: 'kolirt/vite-plugin-robots',
+    npm: 'vite-plugin-robots',
+  },
   links: {
     github: 'https://github.com/kolirt/vite-plugin-robots',
     npm: 'https://www.npmjs.com/package/vite-plugin-robots',

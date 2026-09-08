@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'rollup-plugin-minify-html-literals-cjs-rollup3',
   description: 'Rollup plugin to minify HTML template literal strings. Forked so that it uses the rollup3 compatible code, but not the ESM version. Will archive when Liz does her release...',
-  icon: '',
+  icon: 'logos:rollupjs',
   version: '1.0.0',
   category: 'plugin',
   tags: [
@@ -19,6 +19,10 @@ export default defineProjectMeta({
   types: [
     'rollup-plugin',
   ],
+  source: {
+    github: 'asyncLiz/rollup-plugin-minify-html-literals',
+    npm: 'rollup-plugin-minify-html-literals-cjs-rollup3',
+  },
   links: {
     github: 'https://github.com/asyncLiz/rollup-plugin-minify-html-literals',
     npm: 'https://www.npmjs.com/package/rollup-plugin-minify-html-literals-cjs-rollup3',
