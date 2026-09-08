@@ -1,4 +1,4 @@
-name: Sync Data And Generate data
+name: Sync metrics And Generate data
 
 on:
   workflow_dispatch:
@@ -9,11 +9,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: sync-and-regenerate-data
+  group: sync-metrics-and-regenerate-data
   cancel-in-progress: false
 
 jobs:
-  sync-and-regenerate:
+  sync-metrics-and-regenerate-data:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -32,14 +32,14 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Sync UI Component Hooks stats data
-        run: pnpm run sync:npm-git-data
-
       - name: Sync Vite、Rolldown、Rollup and Unplugin plugins data
         run: pnpm run generate:plugins
 
       - name: Sync Nuxt Modules Data
         run: pnpm run generate:nuxt:modules
+
+      - name: Sync UI Component Hooks stats data
+        run: pnpm run sync:npm-git-data
 
       - name: build sync database
         run: pnpm run generate:db
