@@ -91,7 +91,9 @@ export interface Stats {
 }
 
 export interface CommunityProject {
+  // Project name, must match the real package / repository name
   name: string
+  // One-sentence description of what the project does
   description: string
 
   /**
@@ -99,23 +101,32 @@ export interface CommunityProject {
    * or https://icon-sets.iconify.design/ icon name,
    * or an empty string when no icon is present
    */
+  // Icon: local icon name (svg under app/assets/icon, without the .svg suffix)
+  // or an iconify icon name (e.g. 'logos:vue'); pass an empty string if there is none
   icon: string
 
+  // Project category: 'ui' | 'hooks' | 'component' | 'admin' | 'uniapp' etc.
   category: ProjectCategory
 
+  // Project type list, e.g. 'ui-library', 'composable-library', etc.
   types: string[]
 
+  // Optional: tags for filtering and searching within the site
   tags?: string[]
 
   filter?: string[]
 
+  // Data source, used by scripts to fetch stats such as Stars / downloads
+  // github uses the 'owner/repo' format; npm takes the package name directly
   links?: {
     github?: string
     npm?: string
     website?: string
   }
 
+  // Optional: links shown publicly
   source?: Source
 
+  // Stats (Stars, downloads) are synced automatically by scheduled jobs, no manual maintenance needed
   stats?: Stats
 }
