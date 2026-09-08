@@ -32,6 +32,12 @@
       <!-- Right -->
       <div class="flex shrink-0 items-center gap-2">
         <Button as-child size="icon-sm" variant="ghost">
+          <NuxtLink to="/llms.txt" target="_blank">
+            <Icon name="bi:robot" />
+          </NuxtLink>
+        </Button>
+
+        <Button as-child size="icon-sm" variant="ghost">
           <NuxtLink :to="app.github" target="_blank">
             <Icon name="codicon:github-alt" />
           </NuxtLink>
