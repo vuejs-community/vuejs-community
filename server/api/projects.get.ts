@@ -1,3 +1,5 @@
+import * as z from 'zod'
+
 const numericFilterColumns = [
   'downloads_monthly',
   'downloads_weekly',
@@ -6,79 +8,45 @@ const numericFilterColumns = [
 
 const pageSize = 12
 
-function readTextFilter(value: unknown, name: string): string | undefined {
-  if (value === undefined)
-    return undefined
-
-  if (typeof value !== 'string' || value.trim() === '') {
-    throw createError({
-      statusCode: 400,
-      statusMessage: `${name} must be a non-empty string`,
-    })
-  }
-
-  return value.trim()
-}
-
-function readNumberFilter(value: unknown, name: string): number | undefined {
-  if (value === undefined)
-    return undefined
-
-  if (typeof value !== 'string' || value.trim() === '') {
-    throw createError({
-      statusCode: 400,
-      statusMessage: `${name} must be a non-negative integer`,
-    })
-  }
-
-  const parsedValue = Number(value)
-
-  if (!Number.isSafeInteger(parsedValue) || parsedValue < 0) {
-    throw createError({
-      statusCode: 400,
-      statusMessage: `${name} must be a non-negative integer`,
-    })
-  }
-
-  return parsedValue
-}
+const querySchema = z.object({
+  more: z.coerce.number().int().min(0).max(100).default(0),
+  category: z.string().trim().optional().default(''),
+  source: z.string().trim().optional().default(''),
+  downloads_monthly: z.coerce.number().int().min(0).default(0),
+  downloads_weekly: z.coerce.number().int().min(0).default(0),
+  stars: z.coerce.number().int().min(0).optional().default(0),
+})
 
 export default defineEventHandler(async (event): Promise<ProjectsResponse> => {
-  const query = getQuery(event)
-  const page = readNumberFilter(query.more, 'more') ?? 0
+  const query = querySchema.parse(getQuery(event))
+  const page = query.more
   const offset = page * pageSize
 
-  if (!Number.isSafeInteger(offset)) {
-    throw createError({
-      statusCode: 400,
-      statusMessage: 'more is too large',
-    })
+  const filters: ProjectFilters = {
+    category: query.category,
+    source: query.source,
+    downloads_monthly: query.downloads_monthly,
+    downloads_weekly: query.downloads_weekly,
+    stars: query.stars,
   }
 
-  const filters: ProjectFilters = {
-    category: readTextFilter(query.category, 'category'),
-    source: readTextFilter(query.source, 'source'),
-    downloads_monthly: readNumberFilter(query.downloads_monthly, 'downloads_monthly'),
-    downloads_weekly: readNumberFilter(query.downloads_weekly, 'downloads_weekly'),
-    stars: readNumberFilter(query.stars, 'stars'),
-  }
   const conditions: string[] = []
   const parameters: Array<number | string> = []
 
-  if (filters.category !== undefined) {
+  if (filters.category) {
     conditions.push('category = ?')
     parameters.push(filters.category)
   }
 
-  if (filters.source !== undefined) {
+  if (filters.source) {
     conditions.push('source = ?')
     parameters.push(filters.source)
   }
 
   for (const column of numericFilterColumns) {
-    const value = filters[column]
+    const value = filters[column]!
 
-    if (value !== undefined) {
+    if (value) {
       conditions.push(`${column} >= ?`)
       parameters.push(value)
     }
@@ -87,6 +55,7 @@ export default defineEventHandler(async (event): Promise<ProjectsResponse> => {
   const whereClause = conditions.length > 0
     ? `WHERE ${conditions.join(' AND ')}`
     : ''
+
   const dataStatement = event.context.database.prepare(`
     SELECT
       name,
