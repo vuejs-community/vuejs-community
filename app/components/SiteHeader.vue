@@ -20,7 +20,9 @@
           <NavigationMenuList>
             <NavigationMenuItem v-for="nav in navs" :key="nav.label">
               <NavigationMenuLink as-child>
-                <a class="text-foreground text-sm font-medium capitalize" href="/">{{ nav.label }}</a>
+                <NuxtLink class="text-foreground text-sm font-medium capitalize" :to="nav.to">
+                  {{ nav.label }}
+                </NuxtLink>
               </NavigationMenuLink>
             </NavigationMenuItem>
           </NavigationMenuList>
@@ -56,7 +58,7 @@ const navs = [
     to: '/ui',
   },
   {
-    label: 'component',
+    label: 'components',
     to: '/component',
   },
   {
@@ -64,12 +66,12 @@ const navs = [
     to: '/hooks',
   },
   {
-    label: 'plugin',
+    label: 'plugins',
     to: '/plugin',
   },
   {
-    label: 'module',
-    to: '/module',
+    label: 'modules',
+    to: '/nuxt',
   },
   {
     label: 'admin',
