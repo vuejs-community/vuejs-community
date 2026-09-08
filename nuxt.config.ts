@@ -29,7 +29,7 @@ export default defineNuxtConfig({
 
   imports: {
     dirs: [
-      'shared/constants',
+      '../shared/constants',
     ],
   },
 

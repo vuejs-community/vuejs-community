@@ -1,4 +1,4 @@
-export const projectCategory = [
+export const projectCategories = [
   'ui',
   'hooks',
   'nuxt',
