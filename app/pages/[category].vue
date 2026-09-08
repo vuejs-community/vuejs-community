@@ -44,7 +44,6 @@
 
 <script lang="ts" setup>
 import type { ProjectCategory } from '~~/packages/schema/src/types.ts'
-import { projectCategory } from '#shared/constants/category.ts'
 import { cn } from '~/lib/utils.ts'
 
 definePageMeta({
@@ -54,7 +53,7 @@ definePageMeta({
 const route = useRoute()
 const category = computed(() => route.params.category as ProjectCategory)
 
-if (!projectCategory.includes(category.value)) {
+if (!projectCategories.includes(category.value)) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
 }
 
