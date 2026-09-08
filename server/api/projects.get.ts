@@ -4,6 +4,8 @@ const numericFilterColumns = [
   'stars',
 ] as const
 
+const pageSize = 12
+
 function readTextFilter(value: unknown, name: string): string | undefined {
   if (value === undefined)
     return undefined
@@ -43,6 +45,16 @@ function readNumberFilter(value: unknown, name: string): number | undefined {
 
 export default defineEventHandler(async (event): Promise<ProjectRecord[]> => {
   const query = getQuery(event)
+  const page = readNumberFilter(query.more, 'more') ?? 0
+  const offset = page * pageSize
+
+  if (!Number.isSafeInteger(offset)) {
+    throw createError({
+      statusCode: 400,
+      statusMessage: 'more is too large',
+    })
+  }
+
   const filters: ProjectFilters = {
     category: readTextFilter(query.category, 'category'),
     source: readTextFilter(query.source, 'source'),
@@ -95,7 +107,9 @@ export default defineEventHandler(async (event): Promise<ProjectRecord[]> => {
       downloads_monthly DESC,
       downloads_weekly DESC,
       name COLLATE NOCASE ASC
+    LIMIT ?
+    OFFSET ?
   `)
 
-  return await statement.all(...parameters) as ProjectRecord[]
+  return await statement.all(...parameters, pageSize, offset) as ProjectRecord[]
 })
