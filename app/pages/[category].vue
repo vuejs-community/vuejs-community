@@ -57,21 +57,7 @@ if (!projectCategoryIds.includes(category.value)) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
 }
 
-const categoryLabels = {
-  ui: 'UI Libraries',
-  hooks: 'Hooks',
-  nuxt: 'Nuxt Modules',
-  plugin: 'Plugin',
-  starter: 'Starter',
-  utilities: 'Utilities',
-  library: 'Library',
-  tool: 'Tool',
-  component: 'Component',
-  uniapp: 'UniApp',
-  admin: 'Admin Template',
-} as const satisfies Record<ProjectCategory, string>
-
-const title = computed(() => categoryLabels[category.value])
+const title = computed(() => projectCategoryMetadata.find(({ id }) => id === category.value)?.label)
 
 const {
   projects,

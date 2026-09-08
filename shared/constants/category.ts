@@ -1,5 +1,7 @@
+import type { ProjectCategory } from '~~/packages/schema/src/types.ts'
+
 export interface CategoryDefinition {
-  id: string
+  id: ProjectCategory
   label: string
 }
 
