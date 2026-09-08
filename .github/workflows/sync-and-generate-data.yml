@@ -38,7 +38,7 @@ jobs:
       - name: Sync Nuxt Modules Data
         run: pnpm run generate:nuxt:modules
 
-      - name: Sync UI Component Hooks stats data
+      - name: Sync npm and GitHub stats data
         run: pnpm run sync:npm-git-data
 
       - name: build sync database
