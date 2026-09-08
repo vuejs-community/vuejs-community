@@ -3,7 +3,7 @@ import { existsSync } from 'node:fs'
 import { copyFile, mkdir, readFile, rm } from 'node:fs/promises'
 import { dirname, parse as ParseFile, resolve } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
-import { getGithubStars, getNpmDownloads, readProjectMeta, writeProjectMetaIfChanged } from '@vuejs-community/shared'
+import { writeProjectMetaIfChanged } from '@vuejs-community/shared'
 import { downloadTemplate } from 'giget'
 import { glob } from 'glob'
 import { parse } from 'yaml'
@@ -19,12 +19,6 @@ interface NuxtModule {
   learn_more: string
   category: string
   type: string
-}
-
-interface ModuleStats {
-  stars: number
-  monthly: number
-  weekly: number
 }
 
 interface ModuleEntry {
@@ -77,7 +71,7 @@ export async function syncModuleIcon(repoDir: string, icon: string): Promise<str
   }
 }
 
-function buildModuleProject(module: NuxtModule, stats: ModuleStats, icon: string): CommunityProject {
+function buildModuleProject(module: NuxtModule, icon: string): CommunityProject {
   return {
     name: module.name,
     // Some upstream YAML files omit description. Use an empty string because
@@ -100,13 +94,6 @@ function buildModuleProject(module: NuxtModule, stats: ModuleStats, icon: string
       npm: module.npm,
     },
 
-    stats: {
-      stars: stats.stars,
-      downloads: {
-        monthly: stats.monthly,
-        weekly: stats.weekly,
-      },
-    },
   }
 }
 
@@ -133,20 +120,7 @@ async function collectModules(dir: string): Promise<ModuleEntry[]> {
   return entries
 }
 
-/** Stats for all modules are fetched up front: npm downloads go through the bulk endpoint (scoped names over a serialized lane), stars share a small concurrency pool. */
-async function fetchModuleStats(entries: ModuleEntry[]) {
-  const npmNames = entries.map(({ module }) => module.npm).filter(Boolean)
-  const repos = entries.map(({ module }) => module.repo).filter(Boolean)
-
-  const [stars, downloads] = await Promise.all([
-    getGithubStars(repos),
-    getNpmDownloads(npmNames),
-  ])
-
-  return { stars, downloads }
-}
-
-async function writeModules(entries: ModuleEntry[], stats: Awaited<ReturnType<typeof fetchModuleStats>>, repoDir: string) {
+async function writeModules(entries: ModuleEntry[], repoDir: string) {
   const results = { updated: 0, unchanged: 0, failed: 0 }
 
   for (const { fileName, module } of entries) {
@@ -154,15 +128,8 @@ async function writeModules(entries: ModuleEntry[], stats: Awaited<ReturnType<ty
 
     try {
       const icon = await syncModuleIcon(repoDir, module.icon)
-      // Fall back to stored values when fetching fails. A missing map entry does
-      // not mean zero, so this avoids overwriting valid data with zero.
-      const existingProject = existsSync(modulePath) ? await readProjectMeta(modulePath) : null
-      const fallback = existingProject?.stats
-      const project = buildModuleProject(module, {
-        stars: module.repo ? stats.stars.get(module.repo) ?? fallback?.stars ?? 0 : 0,
-        monthly: module.npm ? stats.downloads.monthly.get(module.npm) ?? fallback?.downloads?.monthly ?? 0 : 0,
-        weekly: module.npm ? stats.downloads.weekly.get(module.npm) ?? fallback?.downloads?.weekly ?? 0 : 0,
-      }, icon)
+
+      const project = buildModuleProject(module, icon)
 
       const result = await writeProjectMetaIfChanged(modulePath, project)
       if (result === 'unchanged') {
@@ -199,8 +166,7 @@ async function generateModules() {
     await mkdir(appIconDir, { recursive: true })
 
     const entries = await collectModules(dir)
-    const stats = await fetchModuleStats(entries)
-    const results = await writeModules(entries, stats, dir)
+    const results = await writeModules(entries, dir)
 
     console.log(`All done! modules: ${entries.length}, updated: ${results.updated}, unchanged: ${results.unchanged}, failed: ${results.failed}`)
   }
