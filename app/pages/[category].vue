@@ -53,7 +53,7 @@ definePageMeta({
 const route = useRoute()
 const category = computed(() => route.params.category as ProjectCategory)
 
-if (!projectCategories.includes(category.value)) {
+if (!projectCategoryIds.includes(category.value)) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
 }
 
