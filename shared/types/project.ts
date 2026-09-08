@@ -25,6 +25,8 @@ export interface CategoryCount {
   count: number
 }
 
+export type CategoryCounts = Record<string, number>
+
 export interface ProjectFilters {
   category?: string
   source?: string
