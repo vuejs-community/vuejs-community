@@ -1,8 +1,8 @@
 import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
-  name: 'vite-plugin-compelem-strip-comments',
-  description: 'Vite plugin that strips HTML comments inside compelem h`` templates from TS/TSX sources at compile time.',
+  name: 'vite-plugin-compelem-scss',
+  description: 'Vite plugin that compiles SCSS inside compelem css`` tagged templates at build time.',
   icon: '',
   version: '0.1.0',
   category: 'plugin',
@@ -10,22 +10,23 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
     'compelem',
-    'html',
-    'comments',
-    'strip',
+    'scss',
+    'sass',
+    'css',
     'web-components',
+    'shadow-dom',
   ],
   types: [
     'vite-plugin',
   ],
   links: {
     github: 'https://github.com/holyhigh2/compelem-extension',
-    npm: 'https://www.npmjs.com/package/vite-plugin-compelem-strip-comments',
+    npm: 'https://www.npmjs.com/package/vite-plugin-compelem-scss',
   },
   stats: {
     downloads: {
-      monthly: 11,
-      weekly: 11,
+      monthly: 0,
+      weekly: 0,
     },
   },
 })

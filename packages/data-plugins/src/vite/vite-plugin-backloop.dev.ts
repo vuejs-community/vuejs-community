@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-backloop.dev',
   description: 'Use backloop.dev for ViteJS development with https on localhost ',
   icon: '',
-  version: '2.2.0',
+  version: '2.3.0',
   category: 'plugin',
   tags: [
     'vite-plugin',
@@ -23,8 +23,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 448,
-      weekly: 289,
+      monthly: 1036,
+      weekly: 629,
     },
   },
 })

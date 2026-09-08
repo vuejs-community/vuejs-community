@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@vee-validate/nuxt',
   },
   stats: {
-    stars: 11264,
+    stars: 11263,
     downloads: {
       monthly: 247130,
       weekly: 47772,

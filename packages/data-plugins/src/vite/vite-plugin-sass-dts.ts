@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-sass-dts',
   description: 'A plugin that automatically creates a type file when using the css module type-safely.',
   icon: '',
-  version: '1.3.37',
+  version: '1.3.39',
   category: 'plugin',
   tags: [
     'vite',
@@ -26,8 +26,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 148430,
-      weekly: 42269,
+      monthly: 150043,
+      weekly: 34100,
     },
   },
 })

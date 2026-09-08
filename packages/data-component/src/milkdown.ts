@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@milkdown/vue',
   },
   stats: {
-    stars: 11894,
+    stars: 11898,
     downloads: {
       monthly: 35168,
       weekly: 6255,

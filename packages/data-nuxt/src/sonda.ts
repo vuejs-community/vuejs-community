@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: 'sonda',
   },
   stats: {
-    stars: 786,
+    stars: 785,
     downloads: {
       monthly: 607576,
       weekly: 106075,

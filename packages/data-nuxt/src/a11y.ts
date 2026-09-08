@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'a11y',
   description: 'Real-time accessibility feedback and automated testing in your browser during development.',
-  icon: 'logos:nuxt-icon',
+  icon: 'icon:nuxt',
   category: 'nuxt',
   types: [
     'Devtools',

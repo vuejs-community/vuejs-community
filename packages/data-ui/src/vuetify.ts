@@ -19,7 +19,7 @@ export default defineProjectMeta({
     website: 'https://vuetifyjs.com',
   },
   stats: {
-    stars: 41039,
+    stars: 41037,
     downloads: {
       monthly: 3823178,
       weekly: 905416,

@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@nuxtjs/fontaine',
   },
   stats: {
-    stars: 438,
+    stars: 439,
     downloads: {
       monthly: 57913,
       weekly: 12138,

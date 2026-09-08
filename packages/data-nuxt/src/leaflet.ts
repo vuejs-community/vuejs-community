@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@nuxtjs/leaflet',
   },
   stats: {
-    stars: 167,
+    stars: 168,
     downloads: {
       monthly: 41536,
       weekly: 8648,

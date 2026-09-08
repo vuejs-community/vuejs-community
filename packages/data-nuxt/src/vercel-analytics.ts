@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vercel-analytics',
   description: 'Privacy-friendly, real-time traffic insights for your Nuxt app',
-  icon: 'logos:vercel-icon',
+  icon: 'icon:vercel',
   category: 'nuxt',
   types: [
     'Analytics',

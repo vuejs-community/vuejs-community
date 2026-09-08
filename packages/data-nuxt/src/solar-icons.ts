@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@solar-icons/nuxt',
   },
   stats: {
-    stars: 156,
+    stars: 158,
     downloads: {
       monthly: 1328,
       weekly: 257,

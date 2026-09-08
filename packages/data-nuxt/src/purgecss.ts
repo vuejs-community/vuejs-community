@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: 'nuxt-purgecss',
   },
   stats: {
-    stars: 499,
+    stars: 498,
     downloads: {
       monthly: 32514,
       weekly: 7286,

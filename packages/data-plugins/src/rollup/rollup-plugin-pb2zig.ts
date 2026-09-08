@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'rollup-plugin-pb2zig',
   description: 'Rollup plugin for creating images filters from Pixel Bender kernels',
   icon: '',
-  version: '0.15.2',
+  version: '0.16.0',
   category: 'plugin',
   tags: [
     'zig',
@@ -23,8 +23,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 1049,
-      weekly: 190,
+      monthly: 405,
+      weekly: 48,
     },
   },
 })

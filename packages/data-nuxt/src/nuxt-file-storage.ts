@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: 'nuxt-file-storage',
   },
   stats: {
-    stars: 106,
+    stars: 107,
     downloads: {
       monthly: 3286,
       weekly: 771,

@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'studio',
   description: 'A new experience to build content-driven website with Nuxt.',
-  icon: 'logos:nuxt-icon',
+  icon: 'icon:nuxt',
   category: 'nuxt',
   types: [
     'CMS',
@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: 'nuxt-studio',
   },
   stats: {
-    stars: 719,
+    stars: 721,
     downloads: {
       monthly: 28428,
       weekly: 6807,

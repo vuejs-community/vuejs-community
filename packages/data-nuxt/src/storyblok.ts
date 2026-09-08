@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@storyblok/nuxt',
   },
   stats: {
-    stars: 63,
+    stars: 65,
     downloads: {
       monthly: 77930,
       weekly: 17163,

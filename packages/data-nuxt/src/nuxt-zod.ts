@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'nuxt-zod',
   description: 'Zod integration for Nuxt with a simple composable.',
-  icon: 'logos:zod',
+  icon: 'icon:nuxt-zod',
   category: 'nuxt',
   types: [
     'Libraries',

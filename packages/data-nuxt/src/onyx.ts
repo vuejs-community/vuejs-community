@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@sit-onyx/nuxt',
   },
   stats: {
-    stars: 123,
+    stars: 124,
     downloads: {
       monthly: 3313,
       weekly: 98,

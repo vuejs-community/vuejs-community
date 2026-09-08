@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: 'vue-notion',
   },
   stats: {
-    stars: 919,
+    stars: 920,
     downloads: {
       monthly: 4637,
       weekly: 913,

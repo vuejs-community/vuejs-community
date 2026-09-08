@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@vue-office/docx',
   },
   stats: {
-    stars: 5709,
+    stars: 5721,
     downloads: {
       monthly: 68965,
       weekly: 16420,

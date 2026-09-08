@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'scripts',
   description: 'Add 3rd-party scripts without sacrificing performance.',
-  icon: 'logos:nuxt-icon',
+  icon: 'icon:nuxt',
   category: 'nuxt',
   types: [
     'Performance',

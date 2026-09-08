@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'ui',
   description: 'The Intuitive UI Library powered by Reka UI and Tailwind CSS.',
-  icon: 'logos:nuxt-icon',
+  icon: 'icon:nuxt',
   category: 'nuxt',
   types: [
     'UI',
@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@nuxt/ui',
   },
   stats: {
-    stars: 6884,
+    stars: 6894,
     downloads: {
       monthly: 2059140,
       weekly: 489856,

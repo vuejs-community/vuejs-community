@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@nuxtjs/mcp-toolkit',
   },
   stats: {
-    stars: 171,
+    stars: 172,
     downloads: {
       monthly: 128321,
       weekly: 30472,

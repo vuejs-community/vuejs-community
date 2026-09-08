@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue-virtual-scroller',
   },
   stats: {
-    stars: 10794,
+    stars: 10795,
     downloads: {
       monthly: 2155919,
       weekly: 450440,

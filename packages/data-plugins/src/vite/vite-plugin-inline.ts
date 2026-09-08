@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-inline',
   description: 'Inline raw TypeScript code as a string',
   icon: '',
-  version: '0.1.0',
+  version: '0.1.1',
   category: 'plugin',
   tags: [
     'inline',
@@ -22,8 +22,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 174,
-      weekly: 39,
+      monthly: 155,
+      weekly: 18,
     },
   },
 })

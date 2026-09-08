@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'image',
   description: 'Add images with progressive processing, lazy-loading, resizing and providers support.',
-  icon: 'logos:nuxt-icon',
+  icon: 'icon:nuxt',
   category: 'nuxt',
   types: [
     'Images',
@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@nuxt/image',
   },
   stats: {
-    stars: 1543,
+    stars: 1546,
     downloads: {
       monthly: 1863726,
       weekly: 435738,

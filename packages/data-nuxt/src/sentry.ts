@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@sentry/nuxt',
   },
   stats: {
-    stars: 8737,
+    stars: 8738,
     downloads: {
       monthly: 1013885,
       weekly: 248720,

@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/motion-v',
   },
   stats: {
-    stars: 2204,
+    stars: 2203,
     downloads: {
       monthly: 2403271,
       weekly: 565653,

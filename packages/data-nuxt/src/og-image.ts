@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: 'nuxt-og-image',
   },
   stats: {
-    stars: 545,
+    stars: 546,
     downloads: {
       monthly: 581494,
       weekly: 113892,

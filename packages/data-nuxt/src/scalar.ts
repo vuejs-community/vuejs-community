@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@scalar/nuxt',
   },
   stats: {
-    stars: 16069,
+    stars: 16078,
     downloads: {
       monthly: 20522,
       weekly: 5572,

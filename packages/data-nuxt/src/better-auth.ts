@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@nuxtjs/better-auth',
   },
   stats: {
-    stars: 143,
+    stars: 142,
     downloads: {
       monthly: 2988,
       weekly: 1167,

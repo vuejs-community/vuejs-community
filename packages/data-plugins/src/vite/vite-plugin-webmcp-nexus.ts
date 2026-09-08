@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-webmcp-nexus',
   description: 'Vite plugin for WebMCP Nexus - auto-generates JSON Schema from TypeScript tool definitions at build time',
   icon: '',
-  version: '0.1.14',
+  version: '1.0.0',
   category: 'plugin',
   tags: [
     'webmcp',
@@ -25,8 +25,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 41,
-      weekly: 3,
+      monthly: 39,
+      weekly: 2,
     },
   },
 })

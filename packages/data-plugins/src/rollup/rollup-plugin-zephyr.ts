@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'rollup-plugin-zephyr',
   description: 'Rollup plugin for Zephyr',
   icon: '',
-  version: '1.2.4',
+  version: '1.3.0',
   category: 'plugin',
   tags: [
     'deploy',
@@ -21,8 +21,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 1798,
-      weekly: 597,
+      monthly: 1183,
+      weekly: 203,
     },
   },
 })

@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue-draggable-resizable',
   },
   stats: {
-    stars: 3588,
+    stars: 3587,
     downloads: {
       monthly: 248855,
       weekly: 42791,

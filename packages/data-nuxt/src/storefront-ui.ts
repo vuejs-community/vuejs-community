@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@storefront-ui/nuxt',
   },
   stats: {
-    stars: 2508,
+    stars: 2509,
     downloads: {
       monthly: 9623,
       weekly: 1968,

@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/shadcn-vue',
   },
   stats: {
-    stars: 10563,
+    stars: 10565,
     downloads: {
       monthly: 439869,
       weekly: 93740,

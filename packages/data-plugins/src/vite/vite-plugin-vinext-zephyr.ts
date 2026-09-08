@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-vinext-zephyr',
   description: 'Vite plugin for deploying Vinext applications with Zephyr',
   icon: '',
-  version: '1.2.4',
+  version: '1.3.0',
   category: 'plugin',
   tags: [
     'deploy',
@@ -22,8 +22,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 1616,
-      weekly: 556,
+      monthly: 1141,
+      weekly: 75,
     },
   },
 })

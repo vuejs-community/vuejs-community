@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@nuxtjs/apollo',
   },
   stats: {
-    stars: 986,
+    stars: 987,
     downloads: {
       monthly: 79363,
       weekly: 15652,

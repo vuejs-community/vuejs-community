@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-qingkuai',
   description: 'vite-plugin-qingkuai is a Vite plugin that transforms `.qk` component files into native JavaScript using the Qingkuai compiler. It enables fast and seamless development of web applications built with [Qingkuai](https://qingkuai.dev).',
   icon: '',
-  version: '1.0.25',
+  version: '1.0.26',
   category: 'plugin',
   tags: [
     'vite',
@@ -21,8 +21,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 414,
-      weekly: 13,
+      monthly: 135,
+      weekly: 14,
     },
   },
 })

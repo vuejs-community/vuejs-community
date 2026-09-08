@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue-cropper',
   },
   stats: {
-    stars: 4559,
+    stars: 4558,
     downloads: {
       monthly: 176875,
       weekly: 42207,

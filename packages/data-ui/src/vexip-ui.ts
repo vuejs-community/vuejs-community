@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vexip-ui',
   },
   stats: {
-    stars: 1898,
+    stars: 1899,
     downloads: {
       monthly: 8379,
       weekly: 1527,

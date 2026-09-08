@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@vuepic/vue-datepicker',
   },
   stats: {
-    stars: 1763,
+    stars: 1764,
     downloads: {
       monthly: 2818656,
       weekly: 656377,

@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-legacy-dual-track',
   description: 'Vite 浏览器双轨兼容插件：构建现代包与 legacy 包，并按运行时探测分流加载',
   icon: '',
-  version: '1.1.6',
+  version: '1.2.0',
   category: 'plugin',
   tags: [
     'vite',
@@ -26,8 +26,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 0,
-      weekly: 0,
+      monthly: 1146,
+      weekly: 1146,
     },
   },
 })

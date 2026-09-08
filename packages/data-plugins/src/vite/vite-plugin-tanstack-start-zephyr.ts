@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-tanstack-start-zephyr',
   description: 'Vite plugin for Zephyr with TanStack Start support',
   icon: '',
-  version: '1.2.4',
+  version: '1.3.0',
   category: 'plugin',
   tags: [
     'deploy',
@@ -22,8 +22,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 2021,
-      weekly: 789,
+      monthly: 1509,
+      weekly: 58,
     },
   },
 })

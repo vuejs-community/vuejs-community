@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@vue-macros/nuxt',
   },
   stats: {
-    stars: 1985,
+    stars: 1984,
     downloads: {
       monthly: 14719,
       weekly: 3950,

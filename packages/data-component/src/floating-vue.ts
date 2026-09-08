@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/floating-vue',
   },
   stats: {
-    stars: 3464,
+    stars: 3465,
     downloads: {
       monthly: 2170944,
       weekly: 549561,

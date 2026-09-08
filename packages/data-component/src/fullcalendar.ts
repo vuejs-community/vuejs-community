@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@fullcalendar/vue3',
   },
   stats: {
-    stars: 20633,
+    stars: 20629,
     downloads: {
       monthly: 825274,
       weekly: 185674,

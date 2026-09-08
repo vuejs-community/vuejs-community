@@ -19,6 +19,6 @@ export default defineProjectMeta({
   },
 
   stats: {
-    stars: 6736,
+    stars: 6737,
   },
 })

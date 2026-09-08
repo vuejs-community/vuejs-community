@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-zephyr',
   description: 'Vite plugin for Zephyr',
   icon: '',
-  version: '1.2.4',
+  version: '1.3.0',
   category: 'plugin',
   tags: [
     'deploy',
@@ -22,8 +22,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 5573,
-      weekly: 1229,
+      monthly: 4200,
+      weekly: 664,
     },
   },
 })

@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@unovis/vue',
   },
   stats: {
-    stars: 2845,
+    stars: 2846,
     downloads: {
       monthly: 630921,
       weekly: 113571,

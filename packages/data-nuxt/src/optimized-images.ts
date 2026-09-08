@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: '@aceforth/nuxt-optimized-images',
   },
   stats: {
-    stars: 827,
+    stars: 828,
     downloads: {
       monthly: 9049,
       weekly: 1374,

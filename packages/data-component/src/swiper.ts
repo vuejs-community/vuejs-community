@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/swiper',
   },
   stats: {
-    stars: 41901,
+    stars: 41903,
     downloads: {
       monthly: 15488942,
       weekly: 3602555,

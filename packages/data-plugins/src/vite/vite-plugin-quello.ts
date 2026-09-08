@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-quello',
   description: 'Vite plugin that injects quello, the visual element picker for AI coding agents.',
   icon: '',
-  version: '0.1.2',
+  version: '0.2.1',
   category: 'plugin',
   tags: [
     'vite-plugin',
@@ -21,8 +21,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 0,
-      weekly: 0,
+      monthly: 34,
+      weekly: 34,
     },
   },
 })

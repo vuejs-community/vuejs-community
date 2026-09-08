@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: 'nuxt-qrcode',
   },
   stats: {
-    stars: 88,
+    stars: 89,
     downloads: {
       monthly: 27518,
       weekly: 6339,
