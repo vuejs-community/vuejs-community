@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vuex-composition-helpers',
   description: '在 Composition API 中便捷使用 Vuex 4 的 map* 辅助函数（遗留 Vuex 项目适用）',
-  icon: '',
+  icon: 'dinkie-icons:hook',
   category: 'hooks',
   types: ['state-management', 'composable-library'],
   tags: ['hooks', 'composables', 'vuex', 'state-management', 'vue3'],
