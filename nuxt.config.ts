@@ -27,6 +27,12 @@ export default defineNuxtConfig({
     ],
   },
 
+  imports: {
+    dirs: [
+      'shared/constants',
+    ],
+  },
+
   app: {
     head: {
       title: 'Vue Community — Discover the Vue Ecosystem',
