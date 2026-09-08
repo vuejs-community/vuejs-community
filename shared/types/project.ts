@@ -27,6 +27,15 @@ export interface CategoryCount {
 
 export type CategoryCounts = Record<string, number>
 
+export type ProjectMetaStatType = 'tags' | 'types'
+
+export interface ProjectMetaStat {
+  value: string
+  count: number
+}
+
+export type ProjectMetaStats = Record<ProjectMetaStatType, ProjectMetaStat[]>
+
 export interface ProjectFilters {
   category?: string
   source?: string

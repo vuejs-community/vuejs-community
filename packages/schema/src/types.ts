@@ -1,15 +1,18 @@
-export type ProjectCategory
-  = | 'ui'
-    | 'hooks'
-    | 'nuxt'
-    | 'plugin'
-    | 'starter'
-    | 'utilities'
-    | 'library'
-    | 'tool'
-    | 'component'
-    | 'uniapp'
-    | 'admin'
+export const projectCategories = [
+  'ui',
+  'hooks',
+  'nuxt',
+  'plugin',
+  'starter',
+  'utilities',
+  'library',
+  'tool',
+  'component',
+  'uniapp',
+  'admin',
+] as const
+
+export type ProjectCategory = typeof projectCategories[number]
 
 export interface Source {
   github?: string
