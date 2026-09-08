@@ -60,7 +60,7 @@ if (!projectCategories.includes(category.value)) {
 const categoryLabels = {
   ui: 'UI Libraries',
   hooks: 'Hooks',
-  nuxt: 'Nuxt',
+  nuxt: 'Nuxt Modules',
   plugin: 'Plugin',
   starter: 'Starter',
   utilities: 'Utilities',
@@ -68,7 +68,7 @@ const categoryLabels = {
   tool: 'Tool',
   component: 'Component',
   uniapp: 'UniApp',
-  admin: 'Admin',
+  admin: 'Admin Template',
 } as const satisfies Record<ProjectCategory, string>
 
 const title = computed(() => categoryLabels[category.value])
