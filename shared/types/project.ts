@@ -14,6 +14,12 @@ export interface ProjectRecord {
   stars: number
 }
 
+export interface ProjectsResponse {
+  data: ProjectRecord[]
+  total: number
+  more: boolean
+}
+
 export interface CategoryCount {
   category: string
   count: number

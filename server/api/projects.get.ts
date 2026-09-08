@@ -43,7 +43,7 @@ function readNumberFilter(value: unknown, name: string): number | undefined {
   return parsedValue
 }
 
-export default defineEventHandler(async (event): Promise<ProjectRecord[]> => {
+export default defineEventHandler(async (event): Promise<ProjectsResponse> => {
   const query = getQuery(event)
   const page = readNumberFilter(query.more, 'more') ?? 0
   const offset = page * pageSize
@@ -87,7 +87,7 @@ export default defineEventHandler(async (event): Promise<ProjectRecord[]> => {
   const whereClause = conditions.length > 0
     ? `WHERE ${conditions.join(' AND ')}`
     : ''
-  const statement = event.context.database.prepare(`
+  const dataStatement = event.context.database.prepare(`
     SELECT
       name,
       description,
@@ -111,5 +111,21 @@ export default defineEventHandler(async (event): Promise<ProjectRecord[]> => {
     OFFSET ?
   `)
 
-  return await statement.all(...parameters, pageSize, offset) as ProjectRecord[]
+  const totalStatement = event.context.database.prepare(`
+    SELECT COUNT(*) AS total
+    FROM projects
+    ${whereClause}
+  `)
+
+  const [data, totalRow] = await Promise.all([
+    dataStatement.all(...parameters, pageSize, offset) as Promise<ProjectRecord[]>,
+    totalStatement.get(...parameters) as Promise<{ total: number }>,
+  ])
+  const total = totalRow.total
+
+  return {
+    data,
+    total,
+    more: offset + data.length < total,
+  }
 })
