@@ -19,7 +19,7 @@ export default defineProjectMeta({
     website: 'https://arco.design/vue',
   },
   stats: {
-    stars: 3106,
+    stars: 3107,
     downloads: {
       monthly: 170289,
       weekly: 29634,

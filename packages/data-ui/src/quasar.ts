@@ -19,7 +19,7 @@ export default defineProjectMeta({
     website: 'https://quasar.dev',
   },
   stats: {
-    stars: 27211,
+    stars: 27212,
     downloads: {
       monthly: 1234942,
       weekly: 226032,

@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue-signature-pad',
   },
   stats: {
-    stars: 565,
+    stars: 566,
     downloads: {
       monthly: 198841,
       weekly: 49027,
