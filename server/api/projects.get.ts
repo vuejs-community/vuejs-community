@@ -12,6 +12,8 @@ const querySchema = z.object({
   more: z.coerce.number().int().min(0).max(100).default(0),
   category: z.string().trim().optional().default(''),
   source: z.string().trim().optional().default(''),
+  type: z.string().trim().optional().default(''),
+  tag: z.string().trim().optional().default(''),
   downloads_monthly: z.coerce.number().int().min(0).default(0),
   downloads_weekly: z.coerce.number().int().min(0).default(0),
   stars: z.coerce.number().int().min(0).optional().default(0),
@@ -25,6 +27,8 @@ export default defineEventHandler(async (event): Promise<ProjectsResponse> => {
   const filters: ProjectFilters = {
     category: query.category,
     source: query.source,
+    type: query.type,
+    tag: query.tag,
     downloads_monthly: query.downloads_monthly,
     downloads_weekly: query.downloads_weekly,
     stars: query.stars,
@@ -34,12 +38,12 @@ export default defineEventHandler(async (event): Promise<ProjectsResponse> => {
   const parameters: Array<number | string> = []
 
   if (filters.category) {
-    conditions.push('category = ?')
+    conditions.push('project.category = ?')
     parameters.push(filters.category)
   }
 
   if (filters.source) {
-    conditions.push('source = ?')
+    conditions.push('project.source = ?')
     parameters.push(filters.source)
   }
 
@@ -47,8 +51,27 @@ export default defineEventHandler(async (event): Promise<ProjectsResponse> => {
     const value = filters[column]!
 
     if (value) {
-      conditions.push(`${column} >= ?`)
+      conditions.push(`project.${column} >= ?`)
       parameters.push(value)
+    }
+  }
+
+  const metaFilters = [
+    { type: 'types', value: filters.type },
+    { type: 'tags', value: filters.tag },
+  ] as const
+
+  for (const metaFilter of metaFilters) {
+    if (metaFilter.value) {
+      conditions.push(`EXISTS (
+        SELECT 1
+        FROM "project-meta" AS meta
+        WHERE
+          meta.name = project.name
+          AND meta.type = ?
+          AND meta."values" = ?
+      )`)
+      parameters.push(metaFilter.type, metaFilter.value)
     }
   }
 
@@ -58,31 +81,31 @@ export default defineEventHandler(async (event): Promise<ProjectsResponse> => {
 
   const dataStatement = event.context.database.prepare(`
     SELECT
-      name,
-      description,
-      icon,
-      category,
-      source,
-      github,
-      npm,
-      website,
-      downloads_monthly,
-      downloads_weekly,
-      stars
-    FROM projects
+      project.name,
+      project.description,
+      project.icon,
+      project.category,
+      project.source,
+      project.github,
+      project.npm,
+      project.website,
+      project.downloads_monthly,
+      project.downloads_weekly,
+      project.stars
+    FROM projects AS project
     ${whereClause}
     ORDER BY
-      stars DESC,
-      downloads_monthly DESC,
-      downloads_weekly DESC,
-      name COLLATE NOCASE ASC
+      project.stars DESC,
+      project.downloads_monthly DESC,
+      project.downloads_weekly DESC,
+      project.name COLLATE NOCASE ASC
     LIMIT ?
     OFFSET ?
   `)
 
   const totalStatement = event.context.database.prepare(`
     SELECT COUNT(*) AS total
-    FROM projects
+    FROM projects AS project
     ${whereClause}
   `)
 

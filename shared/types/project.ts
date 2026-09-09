@@ -39,6 +39,8 @@ export type ProjectMetaStats = Record<ProjectMetaStatType, ProjectMetaStat[]>
 export interface ProjectFilters {
   category?: string
   source?: string
+  type?: string
+  tag?: string
   downloads_monthly?: number
   downloads_weekly?: number
   stars?: number
