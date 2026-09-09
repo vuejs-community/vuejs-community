@@ -28,7 +28,7 @@ export default defineEventHandler(async (event): Promise<ProjectMetaStats> => {
       COUNT(*) AS count
     FROM projects AS project
     INNER JOIN "project-meta" AS meta
-      ON project.name = meta.name
+      ON project.id = meta.project_id
     WHERE
       project.category = ?
       AND meta.type IN ('tags', 'types')
