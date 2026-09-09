@@ -2,46 +2,14 @@
   <div class="hidden p-7.5 md:block" />
   <PageHeader :title="title" />
 
-  <div class="p-6 md:p-8 lg:p-10 border-b hidden">
-    <span>search options</span>
-  </div>
-
-  <div
-    :class="cn([
-      'relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3',
-      'after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-border',
-      '[&>*]:border-b md:max-lg:[&>*:nth-child(odd)]:border-r lg:[&>*:nth-child(3n+2)]:border-x',
-    ])"
-  >
-    <CardUiComponent
-      v-for="project in projects"
-      :key="project.name"
-      :project="project"
-    />
-  </div>
-
-  <div v-if="error" class="p-6 md:p-8 lg:p-10 border-b text-center text-destructive">
-    Failed to load projects. Please try again.
-  </div>
-
-  <div v-if="hasMore" class="p-6 md:p-8 lg:p-10 border-b">
-    <div class="flex justify-center items-center">
-      <Button
-        class="rounded-none"
-        variant="outline"
-        :disabled="isLoadingMore"
-        @click="loadMore"
-      >
-        {{ isLoadingMore ? 'Loading...' : 'View More' }}
-        <Icon v-if="!isLoadingMore" name="lucide:arrow-down" />
-      </Button>
-    </div>
-  </div>
+  <ProjectProvider :category="category">
+    <ProjectSearch />
+    <ProjectContent />
+  </ProjectProvider>
 </template>
 
 <script lang="ts" setup>
 import type { ProjectCategory } from '~~/packages/schema/src/types.ts'
-import { cn } from '~/lib/utils.ts'
 
 definePageMeta({
   layout: 'content',
@@ -55,12 +23,4 @@ if (!projectCategoryIds.includes(category.value)) {
 }
 
 const title = computed(() => projectCategoryMetadata.find(({ id }) => id === category.value)?.label ?? '')
-
-const {
-  projects,
-  hasMore,
-  isLoadingMore,
-  error,
-  loadMore,
-} = await useProjects({ category: category.value })
 </script>

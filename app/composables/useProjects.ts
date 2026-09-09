@@ -1,13 +1,19 @@
+import type { MaybeRefOrGetter } from 'vue'
 import type { ProjectFilters, ProjectRecord, ProjectsResponse } from '~~/shared/types/project'
 
-export async function useProjects(filters: Readonly<ProjectFilters> = {}) {
+export async function useProjects(filters: MaybeRefOrGetter<Readonly<ProjectFilters>> = {}) {
   const page = shallowRef(0)
   const projects = shallowRef<ProjectRecord[]>([])
   const total = shallowRef(0)
   const hasMore = shallowRef(false)
   const isLoadingMore = shallowRef(false)
   const loadMoreError = shallowRef<Error | null>(null)
-  const cacheKey = `projects:${JSON.stringify(Object.entries(filters).sort(([left], [right]) => left.localeCompare(right)))}`
+  const resolvedFilters = computed(() => toValue(filters))
+  const filtersKey = computed(() => JSON.stringify(
+    Object.entries(resolvedFilters.value)
+      .filter(([, value]) => value !== undefined && value !== '')
+      .sort(([left], [right]) => left.localeCompare(right)),
+  ))
 
   const {
     data,
@@ -15,11 +21,11 @@ export async function useProjects(filters: Readonly<ProjectFilters> = {}) {
     refresh,
     status,
   } = await useFetch<ProjectsResponse>('/api/projects', {
-    key: cacheKey,
-    query: {
-      ...filters,
+    key: computed(() => `projects:${filtersKey.value}`),
+    query: computed(() => ({
+      ...resolvedFilters.value,
       more: 0,
-    },
+    })),
   })
 
   function applyFirstPage(response?: ProjectsResponse) {
@@ -29,7 +35,15 @@ export async function useProjects(filters: Readonly<ProjectFilters> = {}) {
     hasMore.value = response?.more ?? false
   }
 
-  applyFirstPage(data.value)
+  watch(data, response => applyFirstPage(response), { immediate: true })
+
+  watch(filtersKey, () => {
+    page.value = 0
+    projects.value = []
+    total.value = 0
+    hasMore.value = false
+    loadMoreError.value = null
+  })
 
   const error = computed(() => initialError.value ?? loadMoreError.value)
 
@@ -42,12 +56,16 @@ export async function useProjects(filters: Readonly<ProjectFilters> = {}) {
 
     try {
       const nextPage = page.value + 1
+      const requestFiltersKey = filtersKey.value
       const response = await $fetch<ProjectsResponse>('/api/projects', {
         query: {
-          ...filters,
+          ...resolvedFilters.value,
           more: nextPage,
         },
       })
+
+      if (requestFiltersKey !== filtersKey.value)
+        return
 
       page.value = nextPage
       projects.value = [...projects.value, ...response.data]
