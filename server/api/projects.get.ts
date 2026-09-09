@@ -78,7 +78,7 @@ export default defineEventHandler(async (event): Promise<ProjectsResponse> => {
         SELECT 1
         FROM "project-meta" AS meta
         WHERE
-          meta.name = project.name
+          meta.project_id = project.id
           AND meta.type = ?
           AND meta."values" = ?
       )`)

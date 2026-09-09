@@ -32,7 +32,6 @@ interface BuildOptions {
 interface ResolvedProject {
   projects: NormalizedProject[]
   sourceCounts: Map<string, number>
-  warnings: string[]
 }
 
 const scriptDirectory = dirname(fileURLToPath(import.meta.url))
@@ -75,30 +74,8 @@ function normalizeProject(project: CommunityProject, source: string): Normalized
   }
 }
 
-function mergeProject(target: NormalizedProject, incoming: NormalizedProject): void {
-  target.types = [...new Set([...target.types, ...incoming.types])]
-  target.tags = [...new Set([...target.tags, ...incoming.tags])]
-  target.filter = [...new Set([...target.filter, ...incoming.filter])]
-
-  if (!target.description)
-    target.description = incoming.description
-  if (!target.icon)
-    target.icon = incoming.icon
-  if (!target.github)
-    target.github = incoming.github
-  if (!target.npm)
-    target.npm = incoming.npm
-  if (!target.website)
-    target.website = incoming.website
-
-  target.downloadsMonthly = Math.max(target.downloadsMonthly, incoming.downloadsMonthly)
-  target.downloadsWeekly = Math.max(target.downloadsWeekly, incoming.downloadsWeekly)
-  target.stars = Math.max(target.stars, incoming.stars)
-}
-
 async function loadProjects(sourceRoots: string[]): Promise<ResolvedProject> {
   const sourceCounts = new Map<string, number>()
-  const warnings: string[] = []
   const sourceFiles: Array<{ path: string, source: string }> = []
 
   for (const sourceRoot of sourceRoots) {
@@ -116,8 +93,7 @@ async function loadProjects(sourceRoots: string[]): Promise<ResolvedProject> {
 
   sourceFiles.sort((left, right) => left.path.localeCompare(right.path))
 
-  const projectsByName = new Map<string, NormalizedProject>()
-  const projectNameFiles = new Map<string, string[]>()
+  const projects: NormalizedProject[] = []
 
   for (const { path: sourceFile, source } of sourceFiles) {
     const importedModule = await import(pathToFileURL(sourceFile).href)
@@ -128,24 +104,10 @@ async function loadProjects(sourceRoots: string[]): Promise<ResolvedProject> {
     if (project.types.length === 0)
       throw new Error(`Project "${project.name}" in ${sourceFile} has no types.`)
 
-    const existing = projectsByName.get(project.name)
-
-    if (existing) {
-      mergeProject(existing, project)
-      projectNameFiles.get(project.name)?.push(sourceFile)
-      continue
-    }
-
-    projectsByName.set(project.name, project)
-    projectNameFiles.set(project.name, [sourceFile])
+    projects.push(project)
   }
 
-  for (const [name, files] of projectNameFiles) {
-    if (files.length > 1)
-      warnings.push(`Duplicate project name "${name}" merged from ${files.join(', ')}.`)
-  }
-
-  return { projects: [...projectsByName.values()], sourceCounts, warnings }
+  return { projects, sourceCounts }
 }
 
 async function createSchema(database: Database): Promise<void> {
@@ -155,7 +117,8 @@ async function createSchema(database: Database): Promise<void> {
     PRAGMA synchronous = FULL;
 
     CREATE TABLE IF NOT EXISTS projects (
-      name TEXT PRIMARY KEY NOT NULL,
+      id INTEGER PRIMARY KEY,
+      name TEXT NOT NULL,
       description TEXT NOT NULL,
       icon TEXT NOT NULL,
       category TEXT NOT NULL,
@@ -170,25 +133,30 @@ async function createSchema(database: Database): Promise<void> {
       stars INTEGER CHECK (stars IS NULL OR stars >= 0)
     ) STRICT;
 
-    CREATE UNIQUE INDEX IF NOT EXISTS projects_name_idx
+    CREATE INDEX IF NOT EXISTS projects_name_idx
       ON projects (name);
 
     CREATE TABLE IF NOT EXISTS "project-meta" (
+      project_id INTEGER NOT NULL,
       name TEXT NOT NULL,
       "values" TEXT NOT NULL,
       type TEXT NOT NULL CHECK (type IN ('types', 'tags', 'filter')),
-      PRIMARY KEY (name, type, "values"),
-      FOREIGN KEY (name) REFERENCES projects(name) ON DELETE CASCADE
+      PRIMARY KEY (project_id, type, "values"),
+      FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
     ) STRICT;
 
     CREATE INDEX IF NOT EXISTS project_meta_type_values_idx
       ON "project-meta" (type, "values");
+
+    CREATE INDEX IF NOT EXISTS project_meta_name_idx
+      ON "project-meta" (name);
   `)
 }
 
 async function insertProjects(database: Database, projects: NormalizedProject[]): Promise<void> {
   const insertProject = database.prepare(`
     INSERT INTO projects (
+      id,
       name,
       description,
       icon,
@@ -200,18 +168,21 @@ async function insertProjects(database: Database, projects: NormalizedProject[])
       downloads_monthly,
       downloads_weekly,
       stars
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `)
   const insertMeta = database.prepare(`
-    INSERT INTO "project-meta" (name, "values", type)
-    VALUES (?, ?, ?)
+    INSERT INTO "project-meta" (project_id, name, "values", type)
+    VALUES (?, ?, ?, ?)
   `)
 
   await database.exec('BEGIN IMMEDIATE')
 
   try {
-    for (const project of projects) {
+    for (const [index, project] of projects.entries()) {
+      const projectId = index + 1
+
       await insertProject.run(
+        projectId,
         project.name,
         project.description,
         project.icon,
@@ -226,13 +197,13 @@ async function insertProjects(database: Database, projects: NormalizedProject[])
       )
 
       for (const type of project.types)
-        await insertMeta.run(project.name, type, 'types')
+        await insertMeta.run(projectId, project.name, type, 'types')
 
       for (const tag of project.tags)
-        await insertMeta.run(project.name, tag, 'tags')
+        await insertMeta.run(projectId, project.name, tag, 'tags')
 
       for (const filter of project.filter)
-        await insertMeta.run(project.name, filter, 'filter')
+        await insertMeta.run(projectId, project.name, filter, 'filter')
     }
 
     await database.exec('COMMIT')
@@ -244,7 +215,7 @@ async function insertProjects(database: Database, projects: NormalizedProject[])
 }
 
 async function buildDatabase(options: BuildOptions): Promise<void> {
-  const { projects, sourceCounts, warnings } = await loadProjects(options.sourceRoots)
+  const { projects, sourceCounts } = await loadProjects(options.sourceRoots)
 
   mkdirSync(dirname(options.outputPath), { recursive: true })
   rmSync(options.outputPath, { force: true })
@@ -262,9 +233,6 @@ async function buildDatabase(options: BuildOptions): Promise<void> {
       const relativeRoot = sourceRoot.replace(`${repositoryRoot}/`, '')
       console.log(`${relativeRoot}: ${count} project files`)
     }
-
-    for (const warning of warnings)
-      console.warn(`Warning: ${warning.replaceAll(`${repositoryRoot}/`, '')}`)
 
     console.log(`Wrote ${projects.length} projects.`)
     console.log(`Database: ${options.outputPath}`)
