@@ -8,7 +8,7 @@ export interface CategoryDefinition {
 export const projectCategoryMetadata: CategoryDefinition[] = [
   { id: 'ui', label: 'UI Libraries' },
   { id: 'component', label: 'Components' },
-  { id: 'hooks', label: 'Hooks and Composables' },
+  { id: 'hooks', label: 'Vue Composables' },
   { id: 'nuxt', label: 'Nuxt Modules' },
   { id: 'plugin', label: 'Vite Plugins' },
   { id: 'starter', label: 'Starters' },
