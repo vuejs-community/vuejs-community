@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue-codemirror',
   },
   stats: {
-    stars: 3478,
+    stars: 3479,
     downloads: {
       monthly: 434899,
       weekly: 98664,

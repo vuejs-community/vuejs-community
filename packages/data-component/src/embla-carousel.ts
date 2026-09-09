@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/embla-carousel-vue',
   },
   stats: {
-    stars: 8411,
+    stars: 8412,
     downloads: {
       monthly: 2547810,
       weekly: 604805,

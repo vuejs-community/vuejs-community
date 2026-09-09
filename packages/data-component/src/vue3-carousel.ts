@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue3-carousel',
   },
   stats: {
-    stars: 884,
+    stars: 885,
     downloads: {
       monthly: 418634,
       weekly: 101140,

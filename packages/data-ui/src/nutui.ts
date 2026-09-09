@@ -19,7 +19,7 @@ export default defineProjectMeta({
     website: 'https://nutui.jd.com',
   },
   stats: {
-    stars: 6509,
+    stars: 6510,
     downloads: {
       monthly: 12841,
       weekly: 3702,

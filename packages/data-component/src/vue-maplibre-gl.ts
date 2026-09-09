@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue-maplibre-gl',
   },
   stats: {
-    stars: 164,
+    stars: 165,
     downloads: {
       monthly: 3679,
       weekly: 525,

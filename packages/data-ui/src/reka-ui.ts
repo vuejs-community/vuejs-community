@@ -19,7 +19,7 @@ export default defineProjectMeta({
     website: 'https://reka-ui.com',
   },
   stats: {
-    stars: 6778,
+    stars: 6783,
     downloads: {
       monthly: 6799498,
       weekly: 1642696,

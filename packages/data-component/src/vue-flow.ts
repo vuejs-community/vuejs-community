@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@vue-flow/core',
   },
   stats: {
-    stars: 6830,
+    stars: 6833,
     downloads: {
       monthly: 1975003,
       weekly: 476176,
