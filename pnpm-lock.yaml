@@ -45,9 +45,18 @@ importers:
       '@iconify-json/akar-icons':
         specifier: ^1.2.7
         version: 1.2.7
+      '@iconify-json/bi':
+        specifier: ^1.2.7
+        version: 1.2.7
       '@iconify-json/codicon':
         specifier: ^1.2.72
         version: 1.2.72
+      '@iconify-json/devicon':
+        specifier: ^1.2.62
+        version: 1.2.62
+      '@iconify-json/dinkie-icons':
+        specifier: ^1.2.0
+        version: 1.2.0
       '@iconify-json/logos':
         specifier: ^1.2.13
         version: 1.2.13
@@ -57,6 +66,9 @@ importers:
       '@iconify-json/material-icon-theme':
         specifier: ^1.2.70
         version: 1.2.70
+      '@iconify-json/thesvg-color':
+        specifier: ^1.2.7
+        version: 1.2.7
       '@inspira-ui/plugins':
         specifier: ^0.0.2
         version: 0.0.2
@@ -868,8 +880,17 @@ packages:
   '@iconify-json/akar-icons@1.2.7':
     resolution: {integrity: sha512-cw44dCnZgGhm6Tywxm0WALAnDB9AyGkDk7kiLMo2B/Ayt7duZu/uyrsqb55weWUN8Ge2sQAOl8MRtT6bFcLzPg==}
 
+  '@iconify-json/bi@1.2.7':
+    resolution: {integrity: sha512-IPz8WNxmLkH1I9msl+0Q4OnmjjvP4uU0Z61a4i4sqonB6vKSbMGUWuGn8/YuuszlReVj8rf+3gNv5JU8Xoljyg==}
+
   '@iconify-json/codicon@1.2.72':
     resolution: {integrity: sha512-hfsgSxfEDlZ78SCma9c9Ix/rc5r+LC3VrInj4gq2/AR2QA3j6bsR8cLh2vKsPKQ8rl2SQuhNe7aoR8o/nBVjxw==}
+
+  '@iconify-json/devicon@1.2.62':
+    resolution: {integrity: sha512-X0o0+fOJL2t5JTbDCGLRzrmvf8Pv5q8dr86+fW+F/VJ9qvXTtny6lqGIwjE9AY4VTLm3i8f/N+VtRheSW6OkEg==}
+
+  '@iconify-json/dinkie-icons@1.2.0':
+    resolution: {integrity: sha512-/RSAjK6twyEOKfW9FddZDP+EPMeSIocb4Y4Zq2Y2IbqUxYmNHqXtxidVioBzpv+a3JeiQ61ARlRKtCQ0BqSGpA==}
 
   '@iconify-json/logos@1.2.13':
     resolution: {integrity: sha512-Up54ZnIuiuBgGAsuzhR1nvKqwq8VE6YM3XLwVB6IgY+7NAasz6WKu9Ay5hGfAkfuOKowodfwDC8ozReEBYrWRg==}
@@ -879,6 +900,9 @@ packages:
 
   '@iconify-json/material-icon-theme@1.2.70':
     resolution: {integrity: sha512-pctYpp6/3f0TfNoX+yqiC1HRBDxL7+ybOe70MrdyvUa4KcGdtpbsyc4E1qHQTkPIkpU7+0kfP2MYU2C7BfmNrw==}
+
+  '@iconify-json/thesvg-color@1.2.7':
+    resolution: {integrity: sha512-Rdrbipj6f1Flf58j6NBgAfgVbzektbSgcJOPaDJ6msWgCuHLuG6tuOVymgkPX1M2AAcDshBp7OeA/v2EA4oI7A==}
 
   '@iconify/collections@1.0.730':
     resolution: {integrity: sha512-vuSS1r5FVWH5Oo6vEnAYvCd4u13sr95s0uDjfOaSFdF15EvLAaUKA2yDpufc5KbFLBVvwzE5pIFt0dIM2kjYWA==}
@@ -6671,7 +6695,19 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
+  '@iconify-json/bi@1.2.7':
+    dependencies:
+      '@iconify/types': 2.0.0
+
   '@iconify-json/codicon@1.2.72':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/devicon@1.2.62':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/dinkie-icons@1.2.0':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -6684,6 +6720,10 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/material-icon-theme@1.2.70':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/thesvg-color@1.2.7':
     dependencies:
       '@iconify/types': 2.0.0
 
