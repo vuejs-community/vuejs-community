@@ -15,11 +15,14 @@ const props = defineProps<{
 }>()
 
 const category = computed(() => props.category)
+const keyword = shallowRef('')
+const debouncedKeyword = refDebounced(keyword, 300)
 const selectedMeta = reactive<Record<ProjectMetaStatType, string | undefined>>({
   types: undefined,
   tags: undefined,
 })
 const filters = computed<ProjectFilters>(() => ({
+  keyword: debouncedKeyword.value.trim() || undefined,
   category: category.value,
   type: selectedMeta.types,
   tag: selectedMeta.tags,
@@ -40,6 +43,7 @@ watch(category, () => {
 
 provideProjectResourceContext({
   category,
+  keyword,
   selectedMeta,
   projects,
   hasMore,
