@@ -28,7 +28,6 @@ async function resolveDatabasePath() {
 
 export default defineNitroPlugin(async (nitroApp) => {
   const databasePath = await resolveDatabasePath()
-  console.log('111111', databasePath)
 
   const database = createDatabase(nodeSqliteConnector({ path: databasePath }))
 
