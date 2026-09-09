@@ -1,6 +1,6 @@
 <template>
   <div class="hidden p-7.5 md:block" />
-  <PageHeader :title="title" />
+  <PageHeader :title="meta.label" :description="meta.description" />
 
   <ProjectProvider :category="category">
     <ProjectSearch />
@@ -22,5 +22,5 @@ if (!projectCategoryIds.includes(category.value)) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
 }
 
-const title = computed(() => projectCategoryMetadata.find(({ id }) => id === category.value)?.label ?? '')
+const meta = computed(() => projectCategoryMetadata.find(({ id }) => id === category.value) ?? { label: '', description: '' })
 </script>
