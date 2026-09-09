@@ -4,7 +4,12 @@
     <div class="relative flex items-center gap-4">
       <div class="relative">
         <InputGroup class="bg-background w-[220px] lg:w-[280px]">
-          <InputGroupInput placeholder="Search..." />
+          <InputGroupInput
+            v-model="keyword"
+            type="search"
+            aria-label="Search projects"
+            placeholder="Search..."
+          />
           <InputGroupAddon>
             <Icon name="lucide:search" />
           </InputGroupAddon>
@@ -35,7 +40,7 @@ const metaSectionLabels: Record<ProjectMetaStatType, string> = {
 
 const metaTypes: ProjectMetaStatType[] = ['types', 'tags']
 
-const { category, selectedMeta } = useProjectResourceContext()
+const { category, keyword, selectedMeta } = useProjectResourceContext()
 const { data: meta } = await useProjectMeta(category)
 
 const sections = computed(() => metaTypes

@@ -37,6 +37,7 @@ export interface ProjectMetaStat {
 export type ProjectMetaStats = Record<ProjectMetaStatType, ProjectMetaStat[]>
 
 export interface ProjectFilters {
+  keyword?: string
   category?: string
   source?: string
   type?: string

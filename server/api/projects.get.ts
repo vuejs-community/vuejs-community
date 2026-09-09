@@ -8,8 +8,13 @@ const numericFilterColumns = [
 
 const pageSize = 12
 
+function escapeLikePattern(value: string) {
+  return value.replace(/[\\%_]/g, character => `\\${character}`)
+}
+
 const querySchema = z.object({
   more: z.coerce.number().int().min(0).max(100).default(0),
+  keyword: z.string().trim().optional().default(''),
   category: z.string().trim().optional().default(''),
   source: z.string().trim().optional().default(''),
   type: z.string().trim().optional().default(''),
@@ -25,6 +30,7 @@ export default defineEventHandler(async (event): Promise<ProjectsResponse> => {
   const offset = page * pageSize
 
   const filters: ProjectFilters = {
+    keyword: query.keyword,
     category: query.category,
     source: query.source,
     type: query.type,
@@ -36,6 +42,11 @@ export default defineEventHandler(async (event): Promise<ProjectsResponse> => {
 
   const conditions: string[] = []
   const parameters: Array<number | string> = []
+
+  if (filters.keyword) {
+    conditions.push(`project.name LIKE ? ESCAPE '\\' COLLATE NOCASE`)
+    parameters.push(`%${escapeLikePattern(filters.keyword)}%`)
+  }
 
   if (filters.category) {
     conditions.push('project.category = ?')

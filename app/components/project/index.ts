@@ -7,6 +7,7 @@ export type ProjectMetaSelection = Record<ProjectMetaStatType, string | undefine
 
 export interface ProjectResourceContext {
   category: ComputedRef<ProjectCategory>
+  keyword: Ref<string>
   selectedMeta: ProjectMetaSelection
   projects: Readonly<Ref<readonly ProjectRecord[]>>
   hasMore: Readonly<Ref<boolean>>
