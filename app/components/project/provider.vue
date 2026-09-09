@@ -33,14 +33,6 @@ const {
   loadMore,
 } = await useProjects(filters)
 
-function isMetaSelected(type: ProjectMetaStatType, value: string) {
-  return selectedMeta[type] === value
-}
-
-function toggleMeta(type: ProjectMetaStatType, value: string) {
-  selectedMeta[type] = isMetaSelected(type, value) ? undefined : value
-}
-
 watch(category, () => {
   selectedMeta.types = undefined
   selectedMeta.tags = undefined
@@ -48,13 +40,11 @@ watch(category, () => {
 
 provideProjectResourceContext({
   category,
-  selectedMeta: readonly(selectedMeta),
+  selectedMeta,
   projects,
   hasMore,
   isLoadingMore,
   error,
-  isMetaSelected,
-  toggleMeta,
   loadMore,
 })
 </script>

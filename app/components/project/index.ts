@@ -7,13 +7,11 @@ export type ProjectMetaSelection = Record<ProjectMetaStatType, string | undefine
 
 export interface ProjectResourceContext {
   category: ComputedRef<ProjectCategory>
-  selectedMeta: Readonly<ProjectMetaSelection>
+  selectedMeta: ProjectMetaSelection
   projects: Readonly<Ref<readonly ProjectRecord[]>>
   hasMore: Readonly<Ref<boolean>>
   isLoadingMore: Readonly<Ref<boolean>>
   error: Readonly<Ref<unknown>>
-  isMetaSelected: (type: ProjectMetaStatType, value: string) => boolean
-  toggleMeta: (type: ProjectMetaStatType, value: string) => void
   loadMore: () => Promise<void>
 }
 
