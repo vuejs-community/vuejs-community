@@ -8,7 +8,8 @@
 
   <div
     :class="cn([
-      'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3',
+      'relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3',
+      'after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-border',
       '[&>*]:border-b md:max-lg:[&>*:nth-child(odd)]:border-r lg:[&>*:nth-child(3n+2)]:border-x',
     ])"
   >
