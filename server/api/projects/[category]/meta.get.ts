@@ -31,7 +31,7 @@ export default defineEventHandler(async (event): Promise<ProjectMetaStats> => {
       ON project.id = meta.project_id
     WHERE
       project.category = ?
-      AND meta.type IN ('tags', 'types')
+      AND meta.type = 'types'
     GROUP BY
       meta.type,
       meta."values"
