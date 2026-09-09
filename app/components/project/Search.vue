@@ -38,7 +38,7 @@ const metaSectionLabels: Record<ProjectMetaStatType, string> = {
   tags: 'Tag',
 }
 
-const metaTypes: ProjectMetaStatType[] = ['types', 'tags']
+const metaTypes: ProjectMetaStatType[] = ['types']
 
 const { category, keyword, selectedMeta } = useProjectResourceContext()
 const { data: meta } = await useProjectMeta(category)
