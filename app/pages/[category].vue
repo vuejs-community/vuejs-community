@@ -1,10 +1,6 @@
 <template>
   <div class="hidden p-7.5 md:block" />
-  <div class="p-6 md:p-8 lg:p-10 border-b">
-    <h1 class="font-semibold text-2xl leading-snug tracking-tighter md:text-3xl lg:text-5xl">
-      {{ title }}
-    </h1>
-  </div>
+  <PageHeader :title="title" />
 
   <div class="p-6 md:p-8 lg:p-10 border-b hidden">
     <span>search options</span>
@@ -57,7 +53,7 @@ if (!projectCategoryIds.includes(category.value)) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
 }
 
-const title = computed(() => projectCategoryMetadata.find(({ id }) => id === category.value)?.label)
+const title = computed(() => projectCategoryMetadata.find(({ id }) => id === category.value)?.label ?? '')
 
 const {
   projects,
