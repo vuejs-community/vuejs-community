@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'v3hooks',
-  description: '针对 Vue 3 的实用 Hooks 集合，中文文档',
+  description: '针对 Vue3 的实用Hooks集合',
   icon: 'dinkie-icons:hook',
   category: 'hooks',
   types: ['composable-library'],

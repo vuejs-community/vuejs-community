@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vueuse-gesture',
-  description: '手势交互 composables，支持拖拽、缩放、悬停等操作',
+  description: '🕹 Vue Composables making your app interactive',
   icon: 'logos:vueuse',
   category: 'hooks',
   types: ['composable-library'],

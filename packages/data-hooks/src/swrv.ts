@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'swrv',
-  description: 'Vercel SWR 的 Vue 实现，stale-while-revalidate 数据请求 Hooks（Kong 出品）',
+  description: 'Stale-while-revalidate data fetching for Vue',
   icon: 'dinkie-icons:hook',
   category: 'hooks',
   types: ['data-fetching', 'composable-library'],
