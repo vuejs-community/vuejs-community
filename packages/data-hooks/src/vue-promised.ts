@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vue-promised',
-  description: '组合式 Promise 封装，将异步状态渲染为组件与 composables',
+  description: '💝 Composable Promises & Promises as components',
   icon: 'dinkie-icons:hook',
   category: 'hooks',
   types: ['data-fetching', 'composable-library'],

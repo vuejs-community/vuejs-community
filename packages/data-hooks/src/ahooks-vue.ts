@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'ahooks-vue',
-  description: 'ahooks 的 Vue 3 实现版本（已停止维护）',
+  description: '🛠️ Vue hooks library.',
   icon: 'thesvg-color:ahooks',
   category: 'hooks',
   types: ['composable-library'],
