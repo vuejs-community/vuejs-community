@@ -1,10 +1,11 @@
 // 阶段二：每日全量 Package Metadata 条件请求。
 // 有缓存实体与 Last-Modified 时发送 If-Modified-Since；304 必须与缓存严格匹配。
 
-import type { HttpHeader, HttpRequest, PackageMetadataCache, PackageMetadataOutcome, PackageMetadataRecord, PackageTarget, Presence, ReplicationSnapshot, RequestFailure, Result, StateStore } from './contracts'
+import type { CacheStore, HttpHeader, HttpRequest, PackageMetadataCache, PackageMetadataOutcome, PackageMetadataRecord, PackageTarget, Presence, ReplicationSnapshot, RequestFailure, Result } from './contracts'
 import type { HostScheduler } from './host-scheduler'
 import {
   absent,
+
   failure,
 
   ok,
@@ -20,8 +21,7 @@ const REGISTRY_ENDPOINT = 'https://registry.npmjs.org'
 
 export interface RegistryClientDependencies {
   scheduler: HostScheduler
-  store: StateStore
-  runId: string
+  cacheStore: CacheStore
 }
 
 export function createPackageMetadataRequest(
@@ -42,68 +42,42 @@ export function createPackageMetadataRequest(
   }
 }
 
-function metadataTaskKey(target: PackageTarget): string {
-  return target.packageName
-}
-
 export async function fetchPackageMetadata(
   dependencies: RegistryClientDependencies,
   target: PackageTarget,
   cache: Presence<PackageMetadataCache>,
 ): Promise<Result<PackageMetadataOutcome, RequestFailure>> {
-  const taskKey = metadataTaskKey(target)
   const request = createPackageMetadataRequest(target, cache, dependencies.scheduler.policy.requestTimeoutMs)
   const scheduled = await executeScheduled(request, dependencies.scheduler)
-
-  if (!scheduled.ok) {
-    const recorded = await dependencies.store.recordTaskFailure(
-      dependencies.runId,
-      'npm-registry',
-      taskKey,
-      scheduled.error.attempts,
-      scheduled.error.failure,
-    )
-    if (!recorded.ok) {
-      console.error(`failed to record metadata task failure for "${taskKey}"`, scheduled.error.failure)
-      return failure(recorded.error)
-    }
+  if (!scheduled.ok)
     return failure(scheduled.error.failure)
-  }
 
   const { response, attempts } = scheduled.value
 
   if (response.kind === 'not-modified') {
     if (cache.state !== 'present') {
-      const failureInfo: RequestFailure = {
+      return failure({
         kind: 'invariant',
         message: `npm registry returned 304 for "${target.packageName}" without a local cache entity`,
-      }
-      await dependencies.store.recordTaskFailure(dependencies.runId, 'npm-registry', taskKey, attempts, failureInfo)
-      return failure(failureInfo)
+      })
     }
     if (cache.value.packageName !== target.packageName) {
-      const failureInfo: RequestFailure = {
+      return failure({
         kind: 'invariant',
         message: `npm registry cache entity "${cache.value.packageName}" does not match the requested package "${target.packageName}"`,
-      }
-      await dependencies.store.recordTaskFailure(dependencies.runId, 'npm-registry', taskKey, attempts, failureInfo)
-      return failure(failureInfo)
+      })
     }
     if (!isValidResponseHash(cache.value.responseHash)) {
-      const failureInfo: RequestFailure = {
+      return failure({
         kind: 'invariant',
         message: `npm registry cache hash for "${target.packageName}" failed validation`,
-      }
-      await dependencies.store.recordTaskFailure(dependencies.runId, 'npm-registry', taskKey, attempts, failureInfo)
-      return failure(failureInfo)
+      })
     }
     if (cache.value.lastModified.state !== 'present') {
-      const failureInfo: RequestFailure = {
+      return failure({
         kind: 'invariant',
         message: `npm registry returned 304 for "${target.packageName}" but the cache entity has no Last-Modified validator`,
-      }
-      await dependencies.store.recordTaskFailure(dependencies.runId, 'npm-registry', taskKey, attempts, failureInfo)
-      return failure(failureInfo)
+      })
     }
 
     const record: PackageMetadataRecord = {
@@ -112,19 +86,12 @@ export async function fetchPackageMetadata(
       metadata: cache.value.metadata,
       cacheValidator: cache.value.lastModified.value,
     }
-    const saved = await dependencies.store.savePackageMetadata(dependencies.runId, [
-      { record, cache: cache.value, attempts },
-    ])
-    if (!saved.ok)
-      return failure(saved.error)
     return ok({ record, cache: cache.value, attempts })
   }
 
   const decoded = decodePackageMetadata(response.body, target.packageName)
-  if (!decoded.ok) {
-    await dependencies.store.recordTaskFailure(dependencies.runId, 'npm-registry', taskKey, attempts, decoded.error)
+  if (!decoded.ok)
     return decoded
-  }
 
   const cacheEntry: PackageMetadataCache = {
     packageName: target.packageName,
@@ -133,17 +100,15 @@ export async function fetchPackageMetadata(
     responseHash: sha256Hex(response.body),
     metadata: decoded.value,
   }
+  const saved = dependencies.cacheStore.saveMetadataCache(cacheEntry)
+  if (!saved.ok)
+    return failure(saved.error)
   const record: PackageMetadataRecord = {
     validation: 'response-200',
     target,
     metadata: decoded.value,
     cacheValidator: response.metadata.lastModified,
   }
-  const saved = await dependencies.store.savePackageMetadata(dependencies.runId, [
-    { record, cache: cacheEntry, attempts },
-  ])
-  if (!saved.ok)
-    return failure(saved.error)
   return ok({ record, cache: cacheEntry, attempts })
 }
 
@@ -151,7 +116,7 @@ export async function fetchAllPackageMetadata(
   dependencies: RegistryClientDependencies,
   snapshot: ReplicationSnapshot,
 ): Promise<Result<readonly PackageMetadataRecord[], RequestFailure>> {
-  const caches = await dependencies.store.readPackageMetadataCaches()
+  const caches = dependencies.cacheStore.readMetadataCaches()
   if (!caches.ok)
     return caches
   const cacheMap = new Map(caches.value.map(entry => [entry.packageName, entry]))

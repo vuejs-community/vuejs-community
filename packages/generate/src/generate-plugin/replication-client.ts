@@ -1,7 +1,7 @@
 // 阶段一：Replication 全量扫描。
 // 前缀范围过滤、最后一行 key 游标分页、changes 补齐扫描期间的增删。
 
-import type { HttpRequest, PackageTarget, PluginDefinition, Presence, ReplicationChange, ReplicationInfo, ReplicationSnapshot, RequestFailure, Result, StateStore } from './contracts'
+import type { HttpRequest, PackageTarget, PluginDefinition, Presence, ReplicationChange, ReplicationInfo, ReplicationSnapshot, RequestFailure, Result } from './contracts'
 import type { HostScheduler } from './host-scheduler'
 import {
   absent,
@@ -20,14 +20,9 @@ const PAGE_SIZE = 1000
 
 export interface ReplicationClientDependencies {
   scheduler: HostScheduler
-  store: StateStore
-  runId: string
 }
 
-function replicationRequest(
-  dependencies: ReplicationClientDependencies,
-  url: string,
-): HttpRequest {
+function replicationRequest(dependencies: ReplicationClientDependencies, url: string): HttpRequest {
   return {
     host: 'replication',
     method: 'GET',
@@ -40,45 +35,23 @@ function replicationRequest(
 async function requestReplicationBody(
   dependencies: ReplicationClientDependencies,
   url: string,
-  taskKey: string,
 ): Promise<Result<string, RequestFailure>> {
   const scheduled = await executeScheduled(replicationRequest(dependencies, url), dependencies.scheduler)
-  if (!scheduled.ok) {
-    const recorded = await dependencies.store.recordTaskFailure(
-      dependencies.runId,
-      'replication',
-      taskKey,
-      scheduled.error.attempts,
-      scheduled.error.failure,
-    )
-    if (!recorded.ok) {
-      console.error(`failed to record replication task failure for "${taskKey}"`, scheduled.error.failure)
-      return failure(recorded.error)
-    }
+  if (!scheduled.ok)
     return failure(scheduled.error.failure)
-  }
   if (scheduled.value.response.kind !== 'body') {
     return failure({
       kind: 'invariant',
       message: `replication endpoint "${url}" returned an unexpected not-modified response`,
     })
   }
-  const recorded = await dependencies.store.recordTaskSuccess(
-    dependencies.runId,
-    'replication',
-    taskKey,
-    scheduled.value.attempts,
-    scheduled.value.response.metadata.status,
-  )
-  if (!recorded.ok)
-    return failure(recorded.error)
   return ok(scheduled.value.response.body)
 }
 
 export async function fetchReplicationInfo(
   dependencies: ReplicationClientDependencies,
 ): Promise<Result<ReplicationInfo, RequestFailure>> {
-  const body = await requestReplicationBody(dependencies, `${REPLICATION_ENDPOINT}/`, 'database-info')
+  const body = await requestReplicationBody(dependencies, `${REPLICATION_ENDPOINT}/`)
   if (!body.ok)
     return body
   const decoded = decodeReplicationInfo(body.value)
@@ -119,7 +92,7 @@ export async function collectPrefixPackages(
   while (true) {
     page += 1
     const url = buildAllDocsUrl(definition, cursor)
-    const body = await requestReplicationBody(dependencies, url, `${definition.packageNamePrefix}:page:${page}`)
+    const body = await requestReplicationBody(dependencies, url)
     if (!body.ok)
       return body
     const decoded = decodeReplicationPage(body.value)
@@ -187,7 +160,7 @@ export async function fetchChangesThrough(
 
   while (since < endSequence) {
     page += 1
-    const body = await requestReplicationBody(dependencies, buildChangesUrl(since), `changes:${page}`)
+    const body = await requestReplicationBody(dependencies, buildChangesUrl(since))
     if (!body.ok)
       return body
     const decoded = decodeReplicationChangesPage(body.value)

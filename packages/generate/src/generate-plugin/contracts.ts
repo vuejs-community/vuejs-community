@@ -337,114 +337,16 @@ export interface PublishedSnapshot {
 }
 
 // ---------------------------------------------------------------------------
-// 同步 Run 与 Task 状态
+// 跨 Run 缓存存储接口（JSON 文件实现）
+// 缓存文件保存 metadata Last-Modified 与 GitHub ETag 校验器，
+// 使每日全量检查的多数响应退化为 304；run 内任务状态不持久化。
 // ---------------------------------------------------------------------------
 
-export type ActiveSyncStage
-  = | 'replication'
-    | 'metadata'
-    | 'downloads'
-    | 'github'
-    | 'validation'
-    | 'publishing'
-
-export interface ReplicationBounds {
-  startSequence: number
-  endSequence: number
-}
-
-export interface SyncRunIdentity {
-  runId: string
-  businessDate: string
-  startedAt: string
-  updatedAt: string
-}
-
-export type SyncRun
-  = | SyncRunIdentity & {
-    status: 'running'
-    stage: ActiveSyncStage
-    replication: Presence<ReplicationBounds>
-  }
-  | SyncRunIdentity & {
-    status: 'complete'
-    completedAt: string
-    replication: ReplicationBounds
-  }
-  | SyncRunIdentity & {
-    status: 'failed'
-    failedAt: string
-    failedStage: ActiveSyncStage
-    replication: Presence<ReplicationBounds>
-    failureMessage: string
-  }
-
-export type SyncTaskStatus = 'pending' | 'running' | 'retry-wait' | 'success' | 'failed'
-
-export interface SyncTaskIdentity {
-  runId: string
-  source: ApiHost
-  taskKey: string
-}
-
-export type SyncTask
-  = | SyncTaskIdentity & {
-    status: 'pending'
-    attempt: 0
-  }
-  | SyncTaskIdentity & {
-    status: 'running'
-    attempt: number
-    startedAt: string
-  }
-  | SyncTaskIdentity & {
-    status: 'retry-wait'
-    attempt: number
-    nextAttemptAt: string
-    failure: RequestFailure
-  }
-  | SyncTaskIdentity & {
-    status: 'success'
-    attempt: number
-    completedAt: string
-    responseStatus: number
-  }
-  | SyncTaskIdentity & {
-    status: 'failed'
-    attempt: number
-    failedAt: string
-    failure: RequestFailure
-  }
-
-export interface StoredTaskSummary {
-  source: ApiHost
-  taskKey: string
-  status: SyncTaskStatus
-}
-
-export interface StoredEntityCount {
-  count: number
-}
-
-// ---------------------------------------------------------------------------
-// 持久化存储接口
-// ---------------------------------------------------------------------------
-
-export interface StateStore {
-  readPackageMetadataCaches: () => Promise<Result<readonly PackageMetadataCache[], RequestFailure>>
-  readGitHubCaches: () => Promise<Result<readonly GitHubRepositoryCache[], RequestFailure>>
-  readWorkingDownloadPoints: (runId: string) => Promise<Result<readonly DownloadPoint[], RequestFailure>>
-  readReplicationSnapshot: (runId: string) => Promise<Result<Presence<readonly PackageTarget[]>, RequestFailure>>
-  readTaskSummaries: (runId: string) => Promise<Result<readonly StoredTaskSummary[], RequestFailure>>
-  findResumableRun: () => Promise<Result<Presence<SyncRun>, RequestFailure>>
-  createRun: (run: SyncRun) => Promise<Result<SyncRun, RequestFailure>>
-  updateRun: (run: SyncRun) => Promise<Result<SyncRun, RequestFailure>>
-  saveReplicationSnapshot: (runId: string, snapshot: ReplicationSnapshot) => Promise<Result<StoredEntityCount, RequestFailure>>
-  savePackageMetadata: (runId: string, outcomes: readonly PackageMetadataOutcome[]) => Promise<Result<StoredEntityCount, RequestFailure>>
-  saveDownloads: (runId: string, records: readonly PackageDownloads[]) => Promise<Result<StoredEntityCount, RequestFailure>>
-  saveGitHubRepositories: (runId: string, outcomes: readonly GitHubRepositoryOutcome[]) => Promise<Result<StoredEntityCount, RequestFailure>>
-  recordTaskSuccess: (runId: string, source: ApiHost, taskKey: string, attempt: number, responseStatus: number) => Promise<Result<StoredTaskSummary, RequestFailure>>
-  recordTaskFailure: (runId: string, source: ApiHost, taskKey: string, attempt: number, failure: RequestFailure) => Promise<Result<StoredTaskSummary, RequestFailure>>
-  savePublishedSnapshot: (published: PublishedSnapshot, snapshot: CompletePluginSnapshot) => Promise<Result<PublishedSnapshot, RequestFailure>>
+export interface CacheStore {
+  readMetadataCaches: () => Result<readonly PackageMetadataCache[], RequestFailure>
+  readGitHubCaches: () => Result<readonly GitHubRepositoryCache[], RequestFailure>
+  saveMetadataCache: (cache: PackageMetadataCache) => Result<boolean, RequestFailure>
+  saveGitHubCache: (cache: GitHubRepositoryCache) => Result<boolean, RequestFailure>
+  flush: () => Result<boolean, RequestFailure>
   close: () => void
 }

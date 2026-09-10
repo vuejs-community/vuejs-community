@@ -1,18 +1,11 @@
 // Pipeline：严格按五个阶段编排。任何必要数据失败或缺失时，本次快照不发布。
 
 import type { PipelineClock } from './clock'
-import type { ActiveSyncStage, CompletePluginSnapshot, HostPolicy, PluginDefinition, Presence, ReplicationBounds, RequestFailure, Result, StateStore, SyncRun } from './contracts'
+import type { CacheStore, CompletePluginSnapshot, HostPolicy, PluginDefinition, RequestFailure, Result } from './contracts'
 import type { HostScheduler } from './host-scheduler'
 import type { SnapshotPublisher } from './snapshot-publisher'
-import { randomUUID } from 'node:crypto'
 import { isValidIsoUtcTimestamp } from './clock'
-import {
-
-  failure,
-
-  ok,
-
-} from './contracts'
+import { failure, ok } from './contracts'
 import { createGitHubClient } from './github-client'
 import { createHostScheduler } from './host-scheduler'
 import { createDownloadsClient } from './npm-downloads-client'
@@ -22,7 +15,7 @@ import { collectPackageGitHubTargets, collectUniqueGitHubTargets } from './repos
 import { validateCompleteSnapshot } from './snapshot-validator'
 
 export interface PipelineDependencies {
-  store: StateStore
+  cacheStore: CacheStore
   clock: PipelineClock
   replicationPolicy: HostPolicy
   npmRegistryPolicy: HostPolicy
@@ -75,25 +68,6 @@ export const DEFAULT_HOST_POLICIES: Readonly<Record<'replication' | 'npm-registr
   },
 }
 
-function describeFailure(failureInfo: RequestFailure): string {
-  switch (failureInfo.kind) {
-    case 'network':
-      return `network: ${failureInfo.message}`
-    case 'timeout':
-      return `timeout after ${failureInfo.timeoutMs}ms`
-    case 'http':
-      return `http ${failureInfo.status}: ${failureInfo.body.slice(0, 200)}`
-    case 'schema':
-      return `schema: ${failureInfo.issues.join('; ')}`
-    case 'invariant':
-      return `invariant: ${failureInfo.message}`
-    case 'storage':
-      return `storage ${failureInfo.operation}: ${failureInfo.message}`
-    case 'publish':
-      return `publish ${failureInfo.operation}: ${failureInfo.message}`
-  }
-}
-
 export async function runDailyPluginPipeline(
   dependencies: PipelineDependencies,
   definitions: readonly PluginDefinition[],
@@ -112,72 +86,6 @@ export async function runDailyPluginPipeline(
     })
   }
 
-  // Run 生命周期：恢复同 Run 断点续传，或创建新 Run。
-  const resumable = await dependencies.store.findResumableRun()
-  if (!resumable.ok)
-    return resumable
-
-  let run: SyncRun
-  if (resumable.value.state === 'present') {
-    run = resumable.value.value
-    console.log(`[pipeline] resuming run ${run.runId} (businessDate=${run.businessDate}) at stage=${run.status === 'running' ? run.stage : 'replication'}`)
-  }
-  else {
-    const created: SyncRun = {
-      runId: randomUUID(),
-      businessDate: startedAt.slice(0, 10),
-      startedAt,
-      updatedAt: dependencies.clock.nowIso(),
-      status: 'running',
-      stage: 'replication',
-      replication: { state: 'absent' },
-    }
-    const saved = await dependencies.store.createRun(created)
-    if (!saved.ok)
-      return failure(saved.error)
-    run = saved.value
-    console.log(`[pipeline] started run ${run.runId} (businessDate=${run.businessDate})`)
-  }
-  const runIdentity = {
-    runId: run.runId,
-    businessDate: run.businessDate,
-    startedAt: run.startedAt,
-  }
-  const currentBounds = (): Presence<ReplicationBounds> => run.status === 'complete'
-    ? { state: 'present', value: run.replication }
-    : run.replication
-
-  async function advanceStage(stage: ActiveSyncStage): Promise<Result<boolean, RequestFailure>> {
-    const updated: SyncRun = {
-      ...runIdentity,
-      updatedAt: dependencies.clock.nowIso(),
-      status: 'running',
-      stage,
-      replication: currentBounds(),
-    }
-    const saved = await dependencies.store.updateRun(updated)
-    if (!saved.ok)
-      return failure(saved.error)
-    run = saved.value
-    return ok(true)
-  }
-
-  async function failRun(stage: ActiveSyncStage, failureInfo: RequestFailure): Promise<Result<CompletePluginSnapshot, RequestFailure>> {
-    const failedRun: SyncRun = {
-      ...runIdentity,
-      updatedAt: dependencies.clock.nowIso(),
-      status: 'failed',
-      failedAt: dependencies.clock.nowIso(),
-      failedStage: stage,
-      replication: currentBounds(),
-      failureMessage: describeFailure(failureInfo),
-    }
-    const saved = await dependencies.store.updateRun(failedRun)
-    if (!saved.ok)
-      console.error(`[pipeline] failed to persist run failure state`, saved.error)
-    return failure(failureInfo)
-  }
-
   // 调度器与客户端装配。
   const schedulers: Record<'replication' | 'npm-registry' | 'npm-downloads' | 'github', HostScheduler> = {
     'replication': createHostScheduler(dependencies.replicationPolicy),
@@ -185,54 +93,39 @@ export async function runDailyPluginPipeline(
     'npm-downloads': createHostScheduler(dependencies.npmDownloadsPolicy),
     'github': createHostScheduler(dependencies.githubPolicy),
   }
-  const replicationClient = createReplicationClient({
-    scheduler: schedulers.replication,
-    store: dependencies.store,
-    runId: run.runId,
-  })
+  const replicationClient = createReplicationClient({ scheduler: schedulers.replication })
   const registryClient = createRegistryClient({
     scheduler: schedulers['npm-registry'],
-    store: dependencies.store,
-    runId: run.runId,
+    cacheStore: dependencies.cacheStore,
   })
-  const downloadsClient = createDownloadsClient({
-    scheduler: schedulers['npm-downloads'],
-    store: dependencies.store,
-    runId: run.runId,
-  })
+  const downloadsClient = createDownloadsClient({ scheduler: schedulers['npm-downloads'] })
   const githubClient = createGitHubClient({
     scheduler: schedulers.github,
-    store: dependencies.store,
-    runId: run.runId,
+    cacheStore: dependencies.cacheStore,
     token: dependencies.githubToken,
   })
 
   // 阶段一：Replication 全量扫描。
-  const advancedReplication = await advanceStage('replication')
-  if (!advancedReplication.ok)
-    return failure(advancedReplication.error)
+  console.log('[pipeline] stage 1/5: replication scan')
   const replication = await replicationClient.createReplicationSnapshot(definitions)
   if (!replication.ok)
-    return failRun('replication', replication.error)
-  const savedSnapshot = await dependencies.store.saveReplicationSnapshot(run.runId, replication.value)
-  if (!savedSnapshot.ok)
-    return failRun('replication', savedSnapshot.error)
+    return failure(replication.error)
 
   // 阶段二：每日全量 Package Metadata。
-  const advancedMetadata = await advanceStage('metadata')
-  if (!advancedMetadata.ok)
-    return failure(advancedMetadata.error)
+  console.log('[pipeline] stage 2/5: package metadata checks')
   const metadata = await registryClient.fetchAllPackageMetadata(replication.value)
+  // 无论阶段成败都先落盘已获得的缓存，重跑时这些包可以走 304。
+  const metadataFlushed = dependencies.cacheStore.flush()
   if (!metadata.ok)
-    return failRun('metadata', metadata.error)
+    return failure(metadata.error)
+  if (!metadataFlushed.ok)
+    return failure(metadataFlushed.error)
 
   // 阶段三：每日全量 Downloads。
-  const advancedDownloads = await advanceStage('downloads')
-  if (!advancedDownloads.ok)
-    return failure(advancedDownloads.error)
+  console.log('[pipeline] stage 3/5: downloads')
   const periods = await downloadsClient.resolveDownloadPeriods()
   if (!periods.ok)
-    return failRun('downloads', periods.error)
+    return failure(periods.error)
   const dailyPeriod = periods.value[0]
   const monthlyPeriod = periods.value[1]
   const downloads = await downloadsClient.fetchAllDownloads(
@@ -241,30 +134,29 @@ export async function runDailyPluginPipeline(
     monthlyPeriod,
   )
   if (!downloads.ok)
-    return failRun('downloads', downloads.error)
+    return failure(downloads.error)
 
   // 阶段四：每日全量 GitHub 条件检查。
-  const advancedGithub = await advanceStage('github')
-  if (!advancedGithub.ok)
-    return failure(advancedGithub.error)
+  console.log('[pipeline] stage 4/5: github repository checks')
   const packageTargets = collectPackageGitHubTargets(metadata.value)
   if (!packageTargets.ok)
-    return failRun('github', packageTargets.error)
+    return failure(packageTargets.error)
   const repositoryTargets = collectUniqueGitHubTargets(packageTargets.value)
   if (!repositoryTargets.ok)
-    return failRun('github', repositoryTargets.error)
+    return failure(repositoryTargets.error)
   console.log(`[github] ${repositoryTargets.value.length} unique repository target(s) from ${packageTargets.value.length} package(s)`)
   const githubRecords = await githubClient.fetchAllGitHubRepositories(repositoryTargets.value)
+  const githubFlushed = dependencies.cacheStore.flush()
   if (!githubRecords.ok)
-    return failRun('github', githubRecords.error)
+    return failure(githubRecords.error)
+  if (!githubFlushed.ok)
+    return failure(githubFlushed.error)
   const github = githubClient.mapGitHubRecordsToPackages(packageTargets.value, githubRecords.value)
   if (!github.ok)
-    return failRun('github', github.error)
+    return failure(github.error)
 
   // 阶段五：构建并发布完整快照。
-  const advancedValidation = await advanceStage('validation')
-  if (!advancedValidation.ok)
-    return failure(advancedValidation.error)
+  console.log('[pipeline] stage 5/5: validate and publish snapshot')
   const snapshot = validateCompleteSnapshot(
     replication.value,
     metadata.value,
@@ -276,34 +168,14 @@ export async function runDailyPluginPipeline(
     dependencies.clock.nowIso(),
   )
   if (!snapshot.ok)
-    return failRun('validation', snapshot.error)
+    return failure(snapshot.error)
 
-  const advancedPublishing = await advanceStage('publishing')
-  if (!advancedPublishing.ok)
-    return failure(advancedPublishing.error)
   const staged = await dependencies.publisher.writeSnapshotToStage(snapshot.value)
   if (!staged.ok)
-    return failRun('publishing', staged.error)
+    return failure(staged.error)
   const published = await dependencies.publisher.publishStage(staged.value, snapshot.value)
   if (!published.ok)
-    return failRun('publishing', published.error)
-  const savedPublished = await dependencies.store.savePublishedSnapshot(published.value, snapshot.value)
-  if (!savedPublished.ok)
-    return failRun('publishing', savedPublished.error)
-
-  const completedRun: SyncRun = {
-    ...runIdentity,
-    updatedAt: dependencies.clock.nowIso(),
-    status: 'complete',
-    completedAt: dependencies.clock.nowIso(),
-    replication: {
-      startSequence: replication.value.startSequence,
-      endSequence: replication.value.endSequence,
-    },
-  }
-  const savedRun = await dependencies.store.updateRun(completedRun)
-  if (!savedRun.ok)
-    return failure(savedRun.error)
+    return failure(published.error)
 
   console.log(`[pipeline] snapshot ${snapshot.value.snapshotId} published to ${published.value.publishedPath} with ${snapshot.value.entries.length} entries`)
   return ok(snapshot.value)

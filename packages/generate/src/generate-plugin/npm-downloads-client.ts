@@ -2,7 +2,7 @@
 // 先用 anchor 包锚定统计周期，非 scoped 包走 bulk（<=100 且 URL <=7000 字符），
 // scoped 包逐个请求；decoder 校验请求与响应集合完全一致。
 
-import type { CompletedDownloadBatch, DownloadBatch, DownloadPeriod, DownloadPoint, HttpRequest, PackageDownloads, RequestFailure, Result, StateStore } from './contracts'
+import type { CompletedDownloadBatch, DownloadBatch, DownloadPeriod, DownloadPoint, HttpRequest, PackageDownloads, RequestFailure, Result } from './contracts'
 import type { HostScheduler } from './host-scheduler'
 import {
 
@@ -25,8 +25,6 @@ const ANCHOR_PACKAGE_NAME = 'npm'
 
 export interface DownloadsClientDependencies {
   scheduler: HostScheduler
-  store: StateStore
-  runId: string
 }
 
 function downloadsRequest(dependencies: DownloadsClientDependencies, url: string): HttpRequest {
@@ -42,38 +40,16 @@ function downloadsRequest(dependencies: DownloadsClientDependencies, url: string
 async function requestDownloadsBody(
   dependencies: DownloadsClientDependencies,
   request: HttpRequest,
-  taskKey: string,
 ): Promise<Result<string, RequestFailure>> {
   const scheduled = await executeScheduled(request, dependencies.scheduler)
-  if (!scheduled.ok) {
-    const recorded = await dependencies.store.recordTaskFailure(
-      dependencies.runId,
-      'npm-downloads',
-      taskKey,
-      scheduled.error.attempts,
-      scheduled.error.failure,
-    )
-    if (!recorded.ok) {
-      console.error(`failed to record downloads task failure for "${taskKey}"`, scheduled.error.failure)
-      return failure(recorded.error)
-    }
+  if (!scheduled.ok)
     return failure(scheduled.error.failure)
-  }
   if (scheduled.value.response.kind !== 'body') {
     return failure({
       kind: 'invariant',
       message: `npm downloads endpoint "${request.url}" returned an unexpected not-modified response`,
     })
   }
-  const recorded = await dependencies.store.recordTaskSuccess(
-    dependencies.runId,
-    'npm-downloads',
-    taskKey,
-    scheduled.value.attempts,
-    scheduled.value.response.metadata.status,
-  )
-  if (!recorded.ok)
-    return failure(recorded.error)
   return ok(scheduled.value.response.body)
 }
 
@@ -94,7 +70,6 @@ export async function resolveDownloadPeriods(
   const dailyBody = await requestDownloadsBody(
     dependencies,
     downloadsRequest(dependencies, buildPointUrl({ kind: 'daily', start: '', end: '', apiPeriod: 'last-day' }, ANCHOR_PACKAGE_NAME)),
-    'anchor:last-day',
   )
   if (!dailyBody.ok)
     return dailyBody
@@ -105,7 +80,6 @@ export async function resolveDownloadPeriods(
   const monthlyBody = await requestDownloadsBody(
     dependencies,
     downloadsRequest(dependencies, buildPointUrl({ kind: 'monthly', start: '', end: '', apiPeriod: 'last-month' }, ANCHOR_PACKAGE_NAME)),
-    'anchor:last-month',
   )
   if (!monthlyBody.ok)
     return monthlyBody
@@ -184,22 +158,11 @@ export function createDownloadBatches(
   return ok(batches)
 }
 
-function downloadBatchTaskKey(batch: DownloadBatch): string {
-  if (batch.requestedPackageNames.length === 1)
-    return `${batch.kind}:single:${batch.requestedPackageNames[0]}`
-  return `${batch.kind}:bulk:${batch.requestedPackageNames.length}:${batch.requestedPackageNames[0]}..${batch.requestedPackageNames.at(-1)}`
-}
-
 export async function fetchDownloadBatch(
   dependencies: DownloadsClientDependencies,
   batch: DownloadBatch,
 ): Promise<Result<CompletedDownloadBatch, RequestFailure>> {
-  const taskKey = downloadBatchTaskKey(batch)
-  const body = await requestDownloadsBody(
-    dependencies,
-    downloadsRequest(dependencies, batch.requestUrl),
-    taskKey,
-  )
+  const body = await requestDownloadsBody(dependencies, downloadsRequest(dependencies, batch.requestUrl))
   if (!body.ok)
     return body
 
@@ -228,20 +191,6 @@ export async function fetchDownloadBatch(
 
 function matchesPeriod(point: DownloadPoint, period: DownloadPeriod): boolean {
   return point.start === period.start && point.end === period.end
-}
-
-function isBatchComplete(batch: DownloadBatch, collected: Map<string, Map<string, DownloadPoint>>): boolean {
-  for (const packageName of batch.requestedPackageNames) {
-    const perKind = collected.get(packageName)
-    if (typeof perKind !== 'object')
-      return false
-    const point = perKind.get(batch.kind)
-    if (typeof point !== 'object')
-      return false
-    if (!matchesPeriod(point, batch.period))
-      return false
-  }
-  return true
 }
 
 export async function fetchAllDownloads(
@@ -289,76 +238,31 @@ export async function fetchAllDownloads(
   const allBatches = [...dailyBatches.value, ...monthlyBatches.value, ...scopedBatches]
   console.log(`[npm-downloads] ${allBatches.length} batch request(s) planned: ${dailyBatches.value.length} daily bulk, ${monthlyBatches.value.length} monthly bulk, ${scopedNames.length * 2} scoped single`)
 
-  // 断点续传：读取已完成的 working points；周期不匹配的丢弃（本轮重新请求）。
-  const working = await dependencies.store.readWorkingDownloadPoints(dependencies.runId)
-  if (!working.ok)
-    return working
   const collected = new Map<string, Map<string, DownloadPoint>>()
-  const savedPairs = new Set<string>()
-  for (const point of working.value) {
-    const period = point.start === dailyPeriod.start && point.end === dailyPeriod.end ? dailyPeriod : monthlyPeriod
-    if (!matchesPeriod(point, period))
-      continue
-    let perKind = collected.get(point.packageName)
-    if (typeof perKind !== 'object') {
-      perKind = new Map()
-      collected.set(point.packageName, perKind)
-    }
-    perKind.set(period.kind, point)
-    savedPairs.add(`${period.kind}:${point.packageName}`)
-  }
-
-  const pendingBatches = allBatches.filter(batch => !isBatchComplete(batch, collected))
-  console.log(`[npm-downloads] ${pendingBatches.length} batch request(s) pending after resume seeding`)
-
-  const failures: { taskKey: string, failure: RequestFailure }[] = []
+  const failures: { requestUrl: string, failure: RequestFailure }[] = []
   let completedBatches = 0
 
-  const savePair = async (point: DownloadPoint, period: DownloadPeriod): Promise<Result<boolean, RequestFailure>> => {
-    const pairKey = `${period.kind}:${point.packageName}`
-    if (savedPairs.has(pairKey))
-      return ok(true)
-    let perKind = collected.get(point.packageName)
-    if (typeof perKind !== 'object') {
-      perKind = new Map()
-      collected.set(point.packageName, perKind)
-    }
-    perKind.set(period.kind, point)
-    const daily = perKind.get('daily')
-    const monthly = perKind.get('monthly')
-    if (typeof daily !== 'object' || typeof monthly !== 'object')
-      return ok(true)
-    savedPairs.add(pairKey)
-    const saved = await dependencies.store.saveDownloads(dependencies.runId, [{
-      packageName: point.packageName,
-      daily,
-      monthly,
-    }])
-    if (!saved.ok)
-      return failure(saved.error)
-    return ok(true)
-  }
-
-  await Promise.all(pendingBatches.map(async (batch) => {
+  await Promise.all(allBatches.map(async (batch) => {
     const result = await fetchDownloadBatch(dependencies, batch)
     if (!result.ok) {
-      failures.push({ taskKey: downloadBatchTaskKey(batch), failure: result.error })
+      failures.push({ requestUrl: batch.requestUrl, failure: result.error })
       return
     }
     for (const point of result.value.points) {
-      const saved = await savePair(point, batch.period)
-      if (!saved.ok) {
-        failures.push({ taskKey: downloadBatchTaskKey(batch), failure: saved.error })
-        return
+      let perKind = collected.get(point.packageName)
+      if (typeof perKind !== 'object') {
+        perKind = new Map()
+        collected.set(point.packageName, perKind)
       }
+      perKind.set(batch.kind, point)
     }
     completedBatches += 1
     if (completedBatches % 25 === 0)
-      console.log(`[npm-downloads] ${completedBatches}/${pendingBatches.length} batches completed`)
+      console.log(`[npm-downloads] ${completedBatches}/${allBatches.length} batches completed`)
   }))
 
   if (failures.length > 0) {
-    failures.sort((left, right) => left.taskKey.localeCompare(right.taskKey))
+    failures.sort((left, right) => left.requestUrl.localeCompare(right.requestUrl))
     const first = failures.at(0)
     if (typeof first !== 'object') {
       return failure({
@@ -366,7 +270,7 @@ export async function fetchAllDownloads(
         message: 'downloads failure list is empty despite reported failures',
       })
     }
-    console.error(`[npm-downloads] ${failures.length} batch request(s) failed; first failure at "${first.taskKey}"`)
+    console.error(`[npm-downloads] ${failures.length} batch request(s) failed; first failure at "${first.requestUrl}"`)
     return failure(first.failure)
   }
 

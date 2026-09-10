@@ -1,6 +1,7 @@
 // @env node
 // 入口脚本：只负责装配和启动每日全量同步。
 // GitHub Token 从仓库根目录 .env 的 GENERATE_TOKEN 读取（认证后 5000 次/小时）。
+// 跨 Run 缓存保存在 .sync-work/ 下的 JSON 文件（已 gitignore，不随仓库上传）。
 
 import type { RequestFailure, Result } from '../generate-plugin/contracts'
 import { readFileSync } from 'node:fs'
@@ -10,7 +11,7 @@ import { createSystemClock } from '../generate-plugin/clock'
 import { pluginDefinitions } from '../generate-plugin/definitions'
 import { DEFAULT_HOST_POLICIES, runDailyPluginPipeline } from '../generate-plugin/pipeline'
 import { createSnapshotPublisher } from '../generate-plugin/snapshot-publisher'
-import { openStateStore } from '../generate-plugin/state-store'
+import { openJsonCacheStore } from '../generate-plugin/state-store'
 
 const scriptDir = dirname(fileURLToPath(import.meta.url))
 const packageRoot = resolve(scriptDir, '../..')
@@ -67,17 +68,24 @@ async function main(): Promise<void> {
     return
   }
 
-  const clock = createSystemClock()
-  const store = openStateStore({
-    databasePath: resolve(packageRoot, '.sync-work/state.sqlite'),
-    nowIso: () => clock.nowIso(),
+  const cacheStoreOutcome = openJsonCacheStore({
+    metadataCachePath: resolve(packageRoot, '.sync-work/metadata-cache.json'),
+    githubCachePath: resolve(packageRoot, '.sync-work/github-cache.json'),
   })
+  if (!cacheStoreOutcome.ok) {
+    console.error('daily plugin pipeline cannot start.', JSON.stringify(cacheStoreOutcome.error))
+    process.exitCode = 1
+    return
+  }
+  const cacheStore = cacheStoreOutcome.value
+
+  const clock = createSystemClock()
   const publisher = createSnapshotPublisher({ packageRoot, nowIso: () => clock.nowIso() })
 
   try {
     const outcome = await runDailyPluginPipeline(
       {
-        store,
+        cacheStore,
         clock,
         replicationPolicy: DEFAULT_HOST_POLICIES.replication,
         npmRegistryPolicy: DEFAULT_HOST_POLICIES['npm-registry'],
@@ -97,7 +105,10 @@ async function main(): Promise<void> {
     console.log(`daily plugin pipeline finished: snapshotId=${outcome.value.snapshotId} entries=${outcome.value.entries.length}`)
   }
   finally {
-    store.close()
+    const flushed = cacheStore.flush()
+    if (!flushed.ok)
+      console.error('cache flush failed on exit.', JSON.stringify(flushed.error))
+    cacheStore.close()
   }
 }
 

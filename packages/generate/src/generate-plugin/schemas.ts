@@ -18,7 +18,6 @@ import {
 // 基础规则
 // ---------------------------------------------------------------------------
 
-const finiteNumberSchema = z.number().finite()
 const nonNegativeIntegerSchema = z.number().int().nonnegative()
 
 function isValidCalendarDate(value: string): boolean {
@@ -71,7 +70,6 @@ function presenceSchema<T>(inner: z.ZodType<T>): z.ZodType<Presence<T>> {
 
 const presenceStringSchema = presenceSchema(z.string())
 const presenceStringArraySchema = presenceSchema(z.array(z.string()))
-const presenceNumberSchema = presenceSchema(finiteNumberSchema)
 
 // ---------------------------------------------------------------------------
 // Replication
@@ -441,90 +439,13 @@ export function decodeGitHubRepository(
 }
 
 // ---------------------------------------------------------------------------
-// 同步 Run / Task / RequestFailure（存储往返）
+// 快照文件与 manifest
 // ---------------------------------------------------------------------------
-
-export const replicationBoundsSchema = z.object({
-  startSequence: nonNegativeIntegerSchema,
-  endSequence: nonNegativeIntegerSchema,
-})
-
-const presenceReplicationBoundsSchema = presenceSchema(replicationBoundsSchema)
-
-const activeSyncStageSchema = z.enum(['replication', 'metadata', 'downloads', 'github', 'validation', 'publishing'])
 
 const isoUtcTimestampSchema = z.string().refine(
   value => /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?Z$/.test(value) && Number.isFinite(Date.parse(value)),
   { message: 'expected an ISO 8601 UTC timestamp' },
 )
-
-const syncRunIdentityFields = {
-  runId: z.string().min(1),
-  businessDate: isoDateStringSchema,
-  startedAt: isoUtcTimestampSchema,
-  updatedAt: isoUtcTimestampSchema,
-}
-
-export const syncRunSchema = z.discriminatedUnion('status', [
-  z.object({
-    ...syncRunIdentityFields,
-    status: z.literal('running'),
-    stage: activeSyncStageSchema,
-    replication: presenceReplicationBoundsSchema,
-  }),
-  z.object({
-    ...syncRunIdentityFields,
-    status: z.literal('complete'),
-    completedAt: isoUtcTimestampSchema,
-    replication: replicationBoundsSchema,
-  }),
-  z.object({
-    ...syncRunIdentityFields,
-    status: z.literal('failed'),
-    failedAt: isoUtcTimestampSchema,
-    failedStage: activeSyncStageSchema,
-    replication: presenceReplicationBoundsSchema,
-    failureMessage: z.string().min(1),
-  }),
-])
-
-export const requestFailureSchema = z.discriminatedUnion('kind', [
-  z.object({ kind: z.literal('network'), message: z.string() }),
-  z.object({ kind: z.literal('timeout'), timeoutMs: nonNegativeIntegerSchema }),
-  z.object({
-    kind: z.literal('http'),
-    status: nonNegativeIntegerSchema,
-    body: z.string(),
-    retryAfterMs: presenceNumberSchema,
-    rateLimitRemaining: presenceNumberSchema,
-    rateLimitResetAt: presenceNumberSchema,
-  }),
-  z.object({ kind: z.literal('schema'), issues: z.array(z.string()) }),
-  z.object({ kind: z.literal('invariant'), message: z.string() }),
-  z.object({ kind: z.literal('storage'), operation: z.string().min(1), message: z.string() }),
-  z.object({ kind: z.literal('publish'), operation: z.string().min(1), message: z.string() }),
-])
-
-export const syncTaskStatusSchema = z.enum(['pending', 'running', 'retry-wait', 'success', 'failed'])
-
-const syncTaskDetailSchema = z.object({
-  completedAt: z.optional(isoUtcTimestampSchema),
-  responseStatus: z.optional(nonNegativeIntegerSchema),
-  failure: z.optional(requestFailureSchema),
-})
-
-export const storedTaskSummarySchema = z.object({
-  source: z.enum(['replication', 'npm-registry', 'npm-downloads', 'github']),
-  taskKey: z.string().min(1),
-  status: syncTaskStatusSchema,
-  detail: syncTaskDetailSchema,
-})
-
-export type StoredTaskDetail = z.infer<typeof storedTaskSummarySchema>
-
-// ---------------------------------------------------------------------------
-// 快照文件与 manifest
-// ---------------------------------------------------------------------------
 
 const downloadPeriodSchema = z.object({
   kind: z.enum(['daily', 'monthly']),

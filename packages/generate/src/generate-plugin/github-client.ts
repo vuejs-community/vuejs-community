@@ -2,10 +2,11 @@
 // 相同仓库只请求一次；200 更新缓存并要求 ETag；304 必须与缓存 ETag/hash 一致；
 // 存在 GitHub 链接但 API 未成功时整个快照失败，绝不把 Stars 写为 0。
 
-import type { GitHubRepositoryCache, GitHubRepositoryOutcome, GitHubRepositoryRecord, GitHubRepositoryTarget, HttpHeader, HttpRequest, PackageGitHubData, PackageGitHubTarget, Presence, RequestFailure, Result, StateStore } from './contracts'
+import type { CacheStore, GitHubRepositoryCache, GitHubRepositoryOutcome, GitHubRepositoryRecord, GitHubRepositoryTarget, HttpHeader, HttpRequest, PackageGitHubData, PackageGitHubTarget, Presence, RequestFailure, Result } from './contracts'
 import type { HostScheduler } from './host-scheduler'
 import {
   absent,
+
   failure,
 
   ok,
@@ -21,8 +22,7 @@ const GITHUB_ENDPOINT = 'https://api.github.com'
 
 export interface GitHubClientDependencies {
   scheduler: HostScheduler
-  store: StateStore
-  runId: string
+  cacheStore: CacheStore
   token: string
 }
 
@@ -49,60 +49,36 @@ export function createGitHubRequest(
   }
 }
 
-function githubTaskKey(target: GitHubRepositoryTarget): string {
-  return target.fullName.toLowerCase()
-}
-
 export async function fetchGitHubRepository(
   dependencies: GitHubClientDependencies,
   target: GitHubRepositoryTarget,
   cache: Presence<GitHubRepositoryCache>,
 ): Promise<Result<GitHubRepositoryOutcome, RequestFailure>> {
-  const taskKey = githubTaskKey(target)
   const request = createGitHubRequest(target, cache, dependencies.token, dependencies.scheduler.policy.requestTimeoutMs)
   const scheduled = await executeScheduled(request, dependencies.scheduler)
-
-  if (!scheduled.ok) {
-    const recorded = await dependencies.store.recordTaskFailure(
-      dependencies.runId,
-      'github',
-      taskKey,
-      scheduled.error.attempts,
-      scheduled.error.failure,
-    )
-    if (!recorded.ok) {
-      console.error(`failed to record github task failure for "${taskKey}"`, scheduled.error.failure)
-      return failure(recorded.error)
-    }
+  if (!scheduled.ok)
     return failure(scheduled.error.failure)
-  }
 
   const { response, attempts } = scheduled.value
 
   if (response.kind === 'not-modified') {
     if (cache.state !== 'present') {
-      const failureInfo: RequestFailure = {
+      return failure({
         kind: 'invariant',
         message: `github returned 304 for "${target.fullName}" without a local cache entity`,
-      }
-      await dependencies.store.recordTaskFailure(dependencies.runId, 'github', taskKey, attempts, failureInfo)
-      return failure(failureInfo)
+      })
     }
     if (cache.value.fullName.toLowerCase() !== target.fullName.toLowerCase()) {
-      const failureInfo: RequestFailure = {
+      return failure({
         kind: 'invariant',
         message: `github cache entity "${cache.value.fullName}" does not match the requested repository "${target.fullName}"`,
-      }
-      await dependencies.store.recordTaskFailure(dependencies.runId, 'github', taskKey, attempts, failureInfo)
-      return failure(failureInfo)
+      })
     }
     if (!isValidResponseHash(cache.value.responseHash)) {
-      const failureInfo: RequestFailure = {
+      return failure({
         kind: 'invariant',
         message: `github cache hash for "${target.fullName}" failed validation`,
-      }
-      await dependencies.store.recordTaskFailure(dependencies.runId, 'github', taskKey, attempts, failureInfo)
-      return failure(failureInfo)
+      })
     }
 
     const record: GitHubRepositoryRecord = {
@@ -110,26 +86,17 @@ export async function fetchGitHubRepository(
       etag: cache.value.etag,
       validation: 'response-304',
     }
-    const saved = await dependencies.store.saveGitHubRepositories(dependencies.runId, [
-      { record, nextCache: absent<GitHubRepositoryCache>(), attempts },
-    ])
-    if (!saved.ok)
-      return failure(saved.error)
     return ok({ record, nextCache: absent<GitHubRepositoryCache>(), attempts })
   }
 
   const decoded = decodeGitHubRepository(response.body, target.fullName)
-  if (!decoded.ok) {
-    await dependencies.store.recordTaskFailure(dependencies.runId, 'github', taskKey, attempts, decoded.error)
+  if (!decoded.ok)
     return decoded
-  }
   if (response.metadata.etag.state !== 'present') {
-    const failureInfo: RequestFailure = {
+    return failure({
       kind: 'invariant',
       message: `github response for "${target.fullName}" does not carry an ETag validator`,
-    }
-    await dependencies.store.recordTaskFailure(dependencies.runId, 'github', taskKey, attempts, failureInfo)
-    return failure(failureInfo)
+    })
   }
 
   const etag = response.metadata.etag.value
@@ -139,16 +106,14 @@ export async function fetchGitHubRepository(
     responseHash: sha256Hex(response.body),
     data: decoded.value,
   }
+  const saved = dependencies.cacheStore.saveGitHubCache(nextCache)
+  if (!saved.ok)
+    return failure(saved.error)
   const record: GitHubRepositoryRecord = {
     data: decoded.value,
     etag,
     validation: 'response-200',
   }
-  const saved = await dependencies.store.saveGitHubRepositories(dependencies.runId, [
-    { record, nextCache: present(nextCache), attempts },
-  ])
-  if (!saved.ok)
-    return failure(saved.error)
   return ok({ record, nextCache: present(nextCache), attempts })
 }
 
@@ -156,7 +121,7 @@ export async function fetchAllGitHubRepositories(
   dependencies: GitHubClientDependencies,
   targets: readonly GitHubRepositoryTarget[],
 ): Promise<Result<readonly GitHubRepositoryRecord[], RequestFailure>> {
-  const caches = await dependencies.store.readGitHubCaches()
+  const caches = dependencies.cacheStore.readGitHubCaches()
   if (!caches.ok)
     return caches
   const cacheMap = new Map(caches.value.map(entry => [entry.fullName.toLowerCase(), entry]))
