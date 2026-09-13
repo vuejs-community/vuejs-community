@@ -1,0 +1,16 @@
+{
+  "name": "@vuejs-community/generate",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "generate": "tsx src/scripts/generate-plugin-names.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.0",
+    "@vuejs-community/tsconfig": "workspace:*",
+    "p-queue": "^9.3.3",
+    "tsx": "^4.23.13",
+    "typescript": "^6.0.3",
+    "zod": "^4.5.4"
+  }
+}
