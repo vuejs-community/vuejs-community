@@ -30,8 +30,11 @@
 
         <div class="relative mt-10 flex flex-col items-start gap-3 md:flex-row">
           <Button class="flex h-auto gap-3 rounded-none font-medium md:py-3 md:text-base">
-            Explore Ecosystem
             <Icon name="lucide:chevron-right" />
+            <NuxtLink to="/ui">
+              Explore Ecosystem
+              <Icon name="lucide:chevron-right" />
+            </NuxtLink>
           </Button>
           <div class="flex gap-4">
             <Button class="flex h-auto gap-3 rounded-none font-medium md:px-5 md:py-3 md:text-base" variant="outline">
