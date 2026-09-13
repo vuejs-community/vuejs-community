@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vue-use-kit',
-  description: '轻量的 Vue 组合式 API 工具函数集合（已停止维护）',
+  description: '🛠️Useful collection of Vue composition API functions https://microcipcip.github.io/vue-use-kit/',
   icon: 'dinkie-icons:hook',
   category: 'hooks',
   types: ['composable-library'],

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vue-hooks-plus',
-  description: '高性能、简洁易用的 Vue 3 Hooks 库，API 风格对标 ahooks，中英文文档齐全',
+  description: 'High performance  & Simplicity  🧲  Vue 3 Hooks library',
   icon: 'icon:vue-hooks-plus',
   category: 'hooks',
   types: ['composable-library'],

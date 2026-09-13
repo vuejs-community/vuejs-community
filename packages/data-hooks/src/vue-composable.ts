@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vue-composable',
-  description: '50+ Vue 组合式函数集合，覆盖 i18n、表单校验、分页、fetch 等场景（已停止维护）',
+  description: 'Vue composition-api composable components. i18n, validation, pagination, fetch, etc. +50 different composables',
   icon: 'icon:vue-composable',
   category: 'hooks',
   types: ['composable-library'],

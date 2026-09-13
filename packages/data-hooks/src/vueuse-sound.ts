@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vueuse-sound',
-  description: '播放音效的 Vue composable',
+  description: '🔊 A Vue composable for playing sound effects',
   icon: 'logos:vueuse',
   category: 'hooks',
   types: ['composable-library'],

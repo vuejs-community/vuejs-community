@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vue-request',
-  description: '请求状态管理库，支持 SWR、轮询、错误重试、缓存、分页等，中文文档完善',
+  description: '⚡️ This is a library that can easily help you manage request states, supporting common features such as SWR, polling, error retry, caching, and pagination, etc. ⚡️ 这是一个能够轻松帮助你管理请求状态的库，支持 SWR、轮询、错误重试、缓存、分页等常用功能。',
   icon: 'dinkie-icons:hook',
   category: 'hooks',
   types: ['data-fetching', 'composable-library'],
