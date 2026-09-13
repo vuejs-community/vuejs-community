@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'yizack/nuxt-twemoji',
     npm: 'nuxt-twemoji',
   },
-  stats: {
-    stars: 14,
-    downloads: {
-      monthly: 1796,
-      weekly: 450,
-    },
-  },
 })

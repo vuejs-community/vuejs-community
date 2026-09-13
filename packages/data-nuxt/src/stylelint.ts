@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/stylelint',
     npm: '@nuxtjs/stylelint-module',
   },
-  stats: {
-    stars: 72,
-    downloads: {
-      monthly: 143460,
-      weekly: 25274,
-    },
-  },
 })

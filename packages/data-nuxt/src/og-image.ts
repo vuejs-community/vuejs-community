@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/og-image',
     npm: 'nuxt-og-image',
   },
-  stats: {
-    stars: 546,
-    downloads: {
-      monthly: 581494,
-      weekly: 113892,
-    },
-  },
 })

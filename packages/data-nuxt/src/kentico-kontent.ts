@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'Domitnator/kentico-kontent-nuxt-module',
     npm: 'kentico-kontent-nuxt-module',
   },
-  stats: {
-    stars: 13,
-    downloads: {
-      monthly: 213,
-      weekly: 35,
-    },
-  },
 })

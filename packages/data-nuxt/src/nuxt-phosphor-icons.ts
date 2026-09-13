@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'oyedejioyewole/nuxt-phosphor-icons',
     npm: 'nuxt-phosphor-icons',
   },
-  stats: {
-    stars: 10,
-    downloads: {
-      monthly: 1211,
-      weekly: 206,
-    },
-  },
 })

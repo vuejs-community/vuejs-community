@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/legacy-modules#master/packages/browserconfig',
     npm: '@nuxtjs/browserconfig',
   },
-  stats: {
-    stars: 1267,
-    downloads: {
-      monthly: 317,
-      weekly: 30,
-    },
-  },
 })

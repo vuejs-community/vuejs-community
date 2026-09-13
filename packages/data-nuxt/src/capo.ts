@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'danielroe/nuxt-capo',
     npm: 'nuxt-capo',
   },
-  stats: {
-    stars: 87,
-    downloads: {
-      monthly: 828,
-      weekly: 160,
-    },
-  },
 })

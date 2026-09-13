@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'unjs/magic-regexp',
     npm: 'magic-regexp',
   },
-  stats: {
-    stars: 4335,
-    downloads: {
-      monthly: 8882596,
-      weekly: 2055831,
-    },
-  },
 })

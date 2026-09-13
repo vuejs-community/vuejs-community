@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'louismazel/maz-ui#master/packages/nuxt',
     npm: '@maz-ui/nuxt',
   },
-  stats: {
-    stars: 565,
-    downloads: {
-      monthly: 2668,
-      weekly: 396,
-    },
-  },
 })

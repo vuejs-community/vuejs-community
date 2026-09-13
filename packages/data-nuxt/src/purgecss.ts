@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'Developmint/nuxt-purgecss#main',
     npm: 'nuxt-purgecss',
   },
-  stats: {
-    stars: 498,
-    downloads: {
-      monthly: 32514,
-      weekly: 7286,
-    },
-  },
 })

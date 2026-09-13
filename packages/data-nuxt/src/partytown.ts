@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/partytown',
     npm: '@nuxtjs/partytown',
   },
-  stats: {
-    stars: 355,
-    downloads: {
-      monthly: 14470,
-      weekly: 3726,
-    },
-  },
 })

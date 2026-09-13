@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'johannschopplich/unlazy#main/packages/nuxt',
     npm: '@unlazy/nuxt',
   },
-  stats: {
-    stars: 888,
-    downloads: {
-      monthly: 5413,
-      weekly: 1485,
-    },
-  },
 })

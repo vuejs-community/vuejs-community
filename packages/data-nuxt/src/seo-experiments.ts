@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'harlan-zw/nuxt-seo-utils',
     npm: 'nuxt-seo-utils',
   },
-  stats: {
-    stars: 130,
-    downloads: {
-      monthly: 394634,
-      weekly: 78765,
-    },
-  },
 })

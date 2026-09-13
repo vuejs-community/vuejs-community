@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'oyedejioyewole/nuxt-bootstrap-icons',
     npm: 'nuxt-bootstrap-icons',
   },
-  stats: {
-    stars: 5,
-    downloads: {
-      monthly: 2157,
-      weekly: 539,
-    },
-  },
 })

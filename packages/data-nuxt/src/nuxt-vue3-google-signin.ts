@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'wavezync/nuxt-vue3-google-signin',
     npm: 'nuxt-vue3-google-signin',
   },
-  stats: {
-    stars: 64,
-    downloads: {
-      monthly: 15094,
-      weekly: 4148,
-    },
-  },
 })

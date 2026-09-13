@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'xibman/nuxt-zod-i18n',
     npm: 'nuxt-zod-i18n',
   },
-  stats: {
-    stars: 53,
-    downloads: {
-      monthly: 42675,
-      weekly: 6738,
-    },
-  },
 })

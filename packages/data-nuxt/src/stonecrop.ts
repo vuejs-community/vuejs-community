@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'agritheory/stonecrop#development/nuxt',
     npm: '@stonecrop/nuxt',
   },
-  stats: {
-    stars: 14,
-    downloads: {
-      monthly: 2544,
-      weekly: 68,
-    },
-  },
 })

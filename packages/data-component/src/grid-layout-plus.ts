@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/grid-layout-plus',
   },
   stats: {
-    stars: 611,
+    stars: 614,
     downloads: {
-      monthly: 390239,
-      weekly: 77895,
+      monthly: 385016,
+      weekly: 80606,
     },
   },
 })

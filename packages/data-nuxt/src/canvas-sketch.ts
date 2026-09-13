@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'LuXDAmore/generative-art',
     npm: '@luxdamore/nuxt-canvas-sketch',
   },
-  stats: {
-    stars: 65,
-    downloads: {
-      monthly: 79,
-      weekly: 16,
-    },
-  },
 })

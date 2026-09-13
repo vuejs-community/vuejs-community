@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'richardeschloss/nuxt-socket-io',
     npm: 'nuxt-socket-io',
   },
-  stats: {
-    stars: 266,
-    downloads: {
-      monthly: 10049,
-      weekly: 2201,
-    },
-  },
 })

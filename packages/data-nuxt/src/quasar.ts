@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'Maiquu/nuxt-quasar',
     npm: 'nuxt-quasar-ui',
   },
-  stats: {
-    stars: 181,
-    downloads: {
-      monthly: 29339,
-      weekly: 6644,
-    },
-  },
 })

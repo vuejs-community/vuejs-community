@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'vaso2/nuxt-vue-material',
     npm: 'nuxt-vue-material',
   },
-  stats: {
-    stars: 27,
-    downloads: {
-      monthly: 656,
-      weekly: 177,
-    },
-  },
 })

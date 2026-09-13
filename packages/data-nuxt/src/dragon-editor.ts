@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'lovefields/dragonEditor',
     npm: 'dragon-editor',
   },
-  stats: {
-    stars: 20,
-    downloads: {
-      monthly: 890,
-      weekly: 261,
-    },
-  },
 })

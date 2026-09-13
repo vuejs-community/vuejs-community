@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'rrd108/nuxt-api-shield',
     npm: 'nuxt-api-shield',
   },
-  stats: {
-    stars: 56,
-    downloads: {
-      monthly: 12690,
-      weekly: 2379,
-    },
-  },
 })

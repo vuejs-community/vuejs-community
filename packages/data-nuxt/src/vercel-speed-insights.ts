@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'vercel/speed-insights#main/packages/web',
     npm: '@vercel/speed-insights',
   },
-  stats: {
-    stars: 114,
-    downloads: {
-      monthly: 15537686,
-      weekly: 3832562,
-    },
-  },
 })

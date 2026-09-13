@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue-drag-resize',
   },
   stats: {
-    stars: 2375,
+    stars: 2376,
     downloads: {
-      monthly: 72153,
-      weekly: 15297,
+      monthly: 66428,
+      weekly: 10309,
     },
   },
 })

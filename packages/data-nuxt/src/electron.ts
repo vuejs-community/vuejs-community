@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'caoxiemeihao/nuxt-electron',
     npm: 'nuxt-electron',
   },
-  stats: {
-    stars: 228,
-    downloads: {
-      monthly: 2278,
-      weekly: 656,
-    },
-  },
 })

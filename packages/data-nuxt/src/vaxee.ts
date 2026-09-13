@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'letstri/vaxee#main/packages/nuxt',
     npm: '@vaxee/nuxt',
   },
-  stats: {
-    stars: 74,
-    downloads: {
-      monthly: 147,
-      weekly: 51,
-    },
-  },
 })

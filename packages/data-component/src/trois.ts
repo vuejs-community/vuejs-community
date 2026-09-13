@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/trois',
   },
   stats: {
-    stars: 4499,
+    stars: 4498,
     downloads: {
-      monthly: 76,
-      weekly: 11,
+      monthly: 70,
+      weekly: 16,
     },
   },
 })

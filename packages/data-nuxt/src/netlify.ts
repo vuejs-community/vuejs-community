@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'netlify/framework-adapters#main/packages/nuxt-module',
     npm: '@netlify/nuxt',
   },
-  stats: {
-    stars: 1,
-    downloads: {
-      monthly: 6975,
-      weekly: 1182,
-    },
-  },
 })

@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-lucide-preprocess',
   description: 'A Vite plugin to tree-shake your Lucide icons.',
   icon: 'logos:vite-icon',
-  version: '1.6.0',
+  version: '1.8.0',
   category: 'plugin',
   tags: [
     'vite',
@@ -30,8 +30,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 41026,
-      weekly: 5549,
+      monthly: 31311,
+      weekly: 5042,
     },
   },
 })

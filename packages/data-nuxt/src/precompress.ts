@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'frenchrabbit/nuxt-precompress',
     npm: 'nuxt-precompress',
   },
-  stats: {
-    stars: 118,
-    downloads: {
-      monthly: 3403,
-      weekly: 516,
-    },
-  },
 })

@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'dansmaculotte/nuxt-segment',
     npm: '@dansmaculotte/nuxt-segment',
   },
-  stats: {
-    stars: 20,
-    downloads: {
-      monthly: 824,
-      weekly: 104,
-    },
-  },
 })

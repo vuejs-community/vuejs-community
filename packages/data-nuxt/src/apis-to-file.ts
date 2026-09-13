@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'Luxdamore/nuxt-apis-to-file',
     npm: '@luxdamore/nuxt-apis-to-file',
   },
-  stats: {
-    stars: 26,
-    downloads: {
-      monthly: 88,
-      weekly: 17,
-    },
-  },
 })

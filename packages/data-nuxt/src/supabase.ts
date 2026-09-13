@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/supabase',
     npm: '@nuxtjs/supabase',
   },
-  stats: {
-    stars: 936,
-    downloads: {
-      monthly: 222199,
-      weekly: 58480,
-    },
-  },
 })

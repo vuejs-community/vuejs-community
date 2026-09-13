@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'shuimo-design/shuimo-ui#main/plugins/nuxt',
     npm: '@shuimo-design/shuimo-ui-nuxt',
   },
-  stats: {
-    stars: 389,
-    downloads: {
-      monthly: 71,
-      weekly: 17,
-    },
-  },
 })

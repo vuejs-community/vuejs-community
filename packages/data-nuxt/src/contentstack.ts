@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'timbenniks/nuxt-contentstack',
     npm: 'nuxt-contentstack',
   },
-  stats: {
-    stars: 7,
-    downloads: {
-      monthly: 239,
-      weekly: 53,
-    },
-  },
 })

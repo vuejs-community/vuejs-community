@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/netlify-files-module',
     npm: '@nuxtjs/netlify-files',
   },
-  stats: {
-    stars: 49,
-    downloads: {
-      monthly: 736,
-      weekly: 128,
-    },
-  },
 })

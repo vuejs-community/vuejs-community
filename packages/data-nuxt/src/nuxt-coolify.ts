@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'justserdar/nuxt-coolify',
     npm: 'nuxt-coolify',
   },
-  stats: {
-    stars: 29,
-    downloads: {
-      monthly: 123,
-      weekly: 22,
-    },
-  },
 })

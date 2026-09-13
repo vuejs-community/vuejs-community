@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'LuXDAmore/nuxt-prune-html',
     npm: '@luxdamore/nuxt-prune-html',
   },
-  stats: {
-    stars: 78,
-    downloads: {
-      monthly: 1261,
-      weekly: 240,
-    },
-  },
 })

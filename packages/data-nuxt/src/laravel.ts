@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'm2sd/nuxt-laravel',
     npm: 'nuxt-laravel',
   },
-  stats: {
-    stars: 101,
-    downloads: {
-      monthly: 214,
-      weekly: 43,
-    },
-  },
 })

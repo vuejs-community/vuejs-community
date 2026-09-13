@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/storybook#main/packages/nuxt-module',
     npm: '@nuxtjs/storybook',
   },
-  stats: {
-    stars: 488,
-    downloads: {
-      monthly: 209413,
-      weekly: 41469,
-    },
-  },
 })

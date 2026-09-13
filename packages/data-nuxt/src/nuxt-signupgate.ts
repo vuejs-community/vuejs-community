@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'Mokkapps/nuxt-signupgate',
     npm: 'nuxt-signupgate',
   },
-  stats: {
-    stars: 4,
-    downloads: {
-      monthly: 94,
-      weekly: 16,
-    },
-  },
 })

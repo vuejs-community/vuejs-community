@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'basics/nuxt-booster',
     npm: 'nuxt-booster',
   },
-  stats: {
-    stars: 866,
-    downloads: {
-      monthly: 17729,
-      weekly: 4064,
-    },
-  },
 })

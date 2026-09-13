@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'schnapsterdog/nuxt-chatgpt',
     npm: 'nuxt-chatgpt',
   },
-  stats: {
-    stars: 179,
-    downloads: {
-      monthly: 641,
-      weekly: 126,
-    },
-  },
 })

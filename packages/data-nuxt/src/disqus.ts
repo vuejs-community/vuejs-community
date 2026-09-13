@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'modbender/nuxt-disqus',
     npm: 'nuxt-disqus',
   },
-  stats: {
-    stars: 8,
-    downloads: {
-      monthly: 1027,
-      weekly: 209,
-    },
-  },
 })

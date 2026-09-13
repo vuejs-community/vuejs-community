@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/nuxt7',
     npm: 'nuxt7',
   },
-  stats: {
-    stars: 323,
-    downloads: {
-      monthly: 761,
-      weekly: 127,
-    },
-  },
 })

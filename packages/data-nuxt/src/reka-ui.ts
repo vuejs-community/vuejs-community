@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'unovue/reka-ui',
     npm: 'reka-ui',
   },
-  stats: {
-    stars: 6778,
-    downloads: {
-      monthly: 6799498,
-      weekly: 1642696,
-    },
-  },
 })

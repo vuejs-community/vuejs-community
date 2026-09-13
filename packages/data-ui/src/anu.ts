@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/anu-vue',
   },
   stats: {
-    stars: 1038,
+    stars: 1037,
     downloads: {
-      monthly: 177,
-      weekly: 46,
+      monthly: 161,
+      weekly: 35,
     },
   },
 })

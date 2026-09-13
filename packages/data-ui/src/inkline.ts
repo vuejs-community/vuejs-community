@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@inkline/inkline',
   },
   stats: {
-    stars: 1462,
+    stars: 1463,
     downloads: {
-      monthly: 17466,
-      weekly: 2047,
+      monthly: 15505,
+      weekly: 1378,
     },
   },
 })

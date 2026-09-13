@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'vercel/analytics#main/packages/web',
     npm: '@vercel/analytics',
   },
-  stats: {
-    stars: 515,
-    downloads: {
-      monthly: 23600145,
-      weekly: 5885974,
-    },
-  },
 })

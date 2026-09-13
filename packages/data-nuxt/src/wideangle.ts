@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'wideangleanalytics/wideangle-nuxt',
     npm: 'wideangle-nuxt',
   },
-  stats: {
-    stars: 1,
-    downloads: {
-      monthly: 169,
-      weekly: 37,
-    },
-  },
 })

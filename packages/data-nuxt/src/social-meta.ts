@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'AlekseyPleshkov/nuxt-social-meta',
     npm: 'nuxt-social-meta',
   },
-  stats: {
-    stars: 119,
-    downloads: {
-      monthly: 903,
-      weekly: 159,
-    },
-  },
 })

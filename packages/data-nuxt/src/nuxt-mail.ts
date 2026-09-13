@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'dword-design/nuxt-mail',
     npm: 'nuxt-mail',
   },
-  stats: {
-    stars: 329,
-    downloads: {
-      monthly: 4270,
-      weekly: 777,
-    },
-  },
 })

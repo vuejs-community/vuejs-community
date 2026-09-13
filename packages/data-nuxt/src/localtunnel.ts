@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/legacy-modules#master/packages/localtunnel',
     npm: '@nuxtjs/localtunnel',
   },
-  stats: {
-    stars: 1267,
-    downloads: {
-      monthly: 375,
-      weekly: 42,
-    },
-  },
 })

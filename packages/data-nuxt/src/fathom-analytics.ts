@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'valgeirb/nuxt-fathom',
     npm: 'nuxt-fathom',
   },
-  stats: {
-    stars: 8,
-    downloads: {
-      monthly: 9522,
-      weekly: 1919,
-    },
-  },
 })

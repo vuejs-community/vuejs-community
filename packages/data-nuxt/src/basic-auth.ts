@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'potato4d/nuxt-basic-auth-module',
     npm: 'nuxt-basic-auth-module',
   },
-  stats: {
-    stars: 308,
-    downloads: {
-      monthly: 9396,
-      weekly: 1984,
-    },
-  },
 })

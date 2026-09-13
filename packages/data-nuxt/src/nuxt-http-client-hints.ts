@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'userquin/nuxt-http-client-hints',
     npm: 'nuxt-http-client-hints',
   },
-  stats: {
-    stars: 25,
-    downloads: {
-      monthly: 1248,
-      weekly: 275,
-    },
-  },
 })

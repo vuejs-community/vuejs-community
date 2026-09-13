@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/date-fns-module',
     npm: '@nuxtjs/date-fns',
   },
-  stats: {
-    stars: 77,
-    downloads: {
-      monthly: 8577,
-      weekly: 2054,
-    },
-  },
 })

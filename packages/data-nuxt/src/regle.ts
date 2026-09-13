@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'victorgarciaesgi/regle#main/packages/nuxt',
     npm: '@regle/nuxt',
   },
-  stats: {
-    stars: 502,
-    downloads: {
-      monthly: 18859,
-      weekly: 2478,
-    },
-  },
 })

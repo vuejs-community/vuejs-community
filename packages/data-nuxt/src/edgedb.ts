@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'Tahul/nuxt-edgedb',
     npm: 'nuxt-edgedb-module',
   },
-  stats: {
-    stars: 73,
-    downloads: {
-      monthly: 253,
-      weekly: 20,
-    },
-  },
 })

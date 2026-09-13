@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue3-easy-data-table',
   },
   stats: {
-    stars: 558,
+    stars: 557,
     downloads: {
-      monthly: 76058,
-      weekly: 16479,
+      monthly: 76008,
+      weekly: 15230,
     },
   },
 })

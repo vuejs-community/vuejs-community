@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/python-module',
     npm: '@nuxtjs/python',
   },
-  stats: {
-    stars: 203,
-    downloads: {
-      monthly: 151,
-      weekly: 15,
-    },
-  },
 })

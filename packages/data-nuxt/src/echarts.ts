@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'kingyue737/nuxt-echarts',
     npm: 'nuxt-echarts',
   },
-  stats: {
-    stars: 137,
-    downloads: {
-      monthly: 85225,
-      weekly: 20304,
-    },
-  },
 })

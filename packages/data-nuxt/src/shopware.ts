@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'shopware/frontends#main/packages/nuxt-module',
     npm: '@shopware/nuxt-module',
   },
-  stats: {
-    stars: 228,
-    downloads: {
-      monthly: 11217,
-      weekly: 2310,
-    },
-  },
 })

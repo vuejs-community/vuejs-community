@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-gleam',
   description: 'Gleam plugin to vite runtime.',
   icon: 'logos:vite-icon',
-  version: '0.1.8',
+  version: '0.1.9',
   category: 'plugin',
   tags: [
     'bun',
@@ -29,8 +29,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 53,
-      weekly: 11,
+      monthly: 123,
+      weekly: 25,
     },
   },
 })

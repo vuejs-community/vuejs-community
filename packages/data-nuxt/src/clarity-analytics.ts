@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'Barbapapazes/nuxt-clarity-analytics',
     npm: 'nuxt-clarity-analytics',
   },
-  stats: {
-    stars: 14,
-    downloads: {
-      monthly: 6429,
-      weekly: 945,
-    },
-  },
 })

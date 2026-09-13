@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue-element-plus-x',
   },
   stats: {
-    stars: 1471,
+    stars: 1473,
     downloads: {
-      monthly: 11191,
-      weekly: 2337,
+      monthly: 10230,
+      weekly: 1547,
     },
   },
 })

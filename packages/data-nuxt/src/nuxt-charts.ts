@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'dennisadriaans/vue-chrts#main/packages/nuxt-charts',
     npm: 'nuxt-charts-legacy',
   },
-  stats: {
-    stars: 432,
-    downloads: {
-      monthly: 0,
-      weekly: 0,
-    },
-  },
 })

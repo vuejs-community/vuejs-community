@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'freb97/nuxt-strapi-blocks-renderer',
     npm: 'nuxt-strapi-blocks-renderer',
   },
-  stats: {
-    stars: 47,
-    downloads: {
-      monthly: 2138,
-      weekly: 591,
-    },
-  },
 })

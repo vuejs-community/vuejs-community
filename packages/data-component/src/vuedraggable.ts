@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vuedraggable',
   },
   stats: {
-    stars: 4501,
+    stars: 4502,
     downloads: {
-      monthly: 5341848,
-      weekly: 1277653,
+      monthly: 5499051,
+      weekly: 1039341,
     },
   },
 })

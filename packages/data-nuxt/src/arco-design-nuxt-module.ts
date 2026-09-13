@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'wiidede/arco-design-nuxt-module',
     npm: 'arco-design-nuxt-module',
   },
-  stats: {
-    stars: 25,
-    downloads: {
-      monthly: 665,
-      weekly: 110,
-    },
-  },
 })

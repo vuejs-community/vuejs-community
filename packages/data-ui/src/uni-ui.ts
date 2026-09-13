@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@dcloudio/uni-ui',
   },
   stats: {
-    stars: 2092,
+    stars: 2091,
     downloads: {
-      monthly: 21539,
-      weekly: 4889,
+      monthly: 20697,
+      weekly: 4422,
     },
   },
 })

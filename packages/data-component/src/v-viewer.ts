@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/v-viewer',
   },
   stats: {
-    stars: 2639,
+    stars: 2640,
     downloads: {
-      monthly: 146292,
-      weekly: 27522,
+      monthly: 146653,
+      weekly: 27469,
     },
   },
 })

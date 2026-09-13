@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/universal-storage-module',
     npm: '@nuxtjs/universal-storage',
   },
-  stats: {
-    stars: 273,
-    downloads: {
-      monthly: 2581,
-      weekly: 480,
-    },
-  },
 })

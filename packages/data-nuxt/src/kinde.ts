@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/kinde',
     npm: '@nuxtjs/kinde',
   },
-  stats: {
-    stars: 91,
-    downloads: {
-      monthly: 2844,
-      weekly: 1023,
-    },
-  },
 })

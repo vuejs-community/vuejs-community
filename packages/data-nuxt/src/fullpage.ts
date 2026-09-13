@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'vaso2/fullpage-nuxt',
     npm: 'fullpage-nuxt',
   },
-  stats: {
-    stars: 24,
-    downloads: {
-      monthly: 130,
-      weekly: 20,
-    },
-  },
 })

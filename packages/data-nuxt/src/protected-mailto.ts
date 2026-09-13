@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'mmoollllee/nuxt-protected-mailto',
     npm: 'nuxt-protected-mailto',
   },
-  stats: {
-    stars: 40,
-    downloads: {
-      monthly: 955,
-      weekly: 348,
-    },
-  },
 })

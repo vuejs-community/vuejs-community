@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'betterwrite/pdfeasy#main/packages/nuxt',
     npm: 'nuxt-pdfeasy',
   },
-  stats: {
-    stars: 93,
-    downloads: {
-      monthly: 278,
-      weekly: 62,
-    },
-  },
 })

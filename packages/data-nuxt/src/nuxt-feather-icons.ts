@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: '4sllan/nuxt-feather-icons',
     npm: 'nuxt-feather-icons',
   },
-  stats: {
-    stars: 7,
-    downloads: {
-      monthly: 1223,
-      weekly: 279,
-    },
-  },
 })

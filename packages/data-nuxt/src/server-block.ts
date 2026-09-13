@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'Hebilicious/server-block-nuxt#main/packages/server-block-nuxt',
     npm: '@hebilicious/server-block-nuxt',
   },
-  stats: {
-    stars: 116,
-    downloads: {
-      monthly: 220,
-      weekly: 34,
-    },
-  },
 })

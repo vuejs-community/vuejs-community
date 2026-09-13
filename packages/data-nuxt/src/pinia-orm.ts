@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'CodeDredd/pinia-orm#main/packages/nuxt',
     npm: '@pinia-orm/nuxt',
   },
-  stats: {
-    stars: 528,
-    downloads: {
-      monthly: 5541,
-      weekly: 1329,
-    },
-  },
 })

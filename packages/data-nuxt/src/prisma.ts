@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'prisma/nuxt-prisma',
     npm: '@prisma/nuxt',
   },
-  stats: {
-    stars: 91,
-    downloads: {
-      monthly: 3760,
-      weekly: 831,
-    },
-  },
 })

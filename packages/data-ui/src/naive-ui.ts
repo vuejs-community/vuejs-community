@@ -19,10 +19,10 @@ export default defineProjectMeta({
     website: 'https://www.naiveui.com',
   },
   stats: {
-    stars: 18536,
+    stars: 18538,
     downloads: {
-      monthly: 666269,
-      weekly: 107422,
+      monthly: 612245,
+      weekly: 124525,
     },
   },
 })

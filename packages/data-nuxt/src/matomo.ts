@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'pimlie/nuxt-matomo',
     npm: 'nuxt-matomo',
   },
-  stats: {
-    stars: 86,
-    downloads: {
-      monthly: 867,
-      weekly: 249,
-    },
-  },
 })

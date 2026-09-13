@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'paulgv/nuxt-vuex-router-sync',
     npm: 'nuxt-vuex-router-sync',
   },
-  stats: {
-    stars: 32,
-    downloads: {
-      monthly: 3182,
-      weekly: 264,
-    },
-  },
 })

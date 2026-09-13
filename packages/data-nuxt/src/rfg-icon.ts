@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'pimlie/nuxt-rfg-icon',
     npm: 'nuxt-rfg-icon',
   },
-  stats: {
-    stars: 89,
-    downloads: {
-      monthly: 1129,
-      weekly: 173,
-    },
-  },
 })

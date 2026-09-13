@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'pimlie/nuxt-memwatch',
     npm: 'nuxt-memwatch',
   },
-  stats: {
-    stars: 86,
-    downloads: {
-      monthly: 606,
-      weekly: 77,
-    },
-  },
 })

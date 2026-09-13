@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-content/nuxt-studio',
     npm: 'nuxt-studio',
   },
-  stats: {
-    stars: 721,
-    downloads: {
-      monthly: 28428,
-      weekly: 6807,
-    },
-  },
 })

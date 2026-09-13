@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'tdolsen/nuxt-mailpit',
     npm: 'nuxt-mailpit',
   },
-  stats: {
-    stars: 3,
-    downloads: {
-      monthly: 668,
-      weekly: 62,
-    },
-  },
 })

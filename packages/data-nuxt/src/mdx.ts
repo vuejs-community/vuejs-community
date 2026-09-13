@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/mdx-module',
     npm: '@nuxtjs/mdx',
   },
-  stats: {
-    stars: 46,
-    downloads: {
-      monthly: 223,
-      weekly: 14,
-    },
-  },
 })

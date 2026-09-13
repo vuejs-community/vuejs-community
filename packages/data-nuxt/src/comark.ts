@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'comarkdown/comark#main/packages/comark-nuxt',
     npm: '@comark/nuxt',
   },
-  stats: {
-    stars: 1014,
-    downloads: {
-      monthly: 71968,
-      weekly: 15490,
-    },
-  },
 })

@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'vercel/workflow#main/packages/workflow',
     npm: 'workflow',
   },
-  stats: {
-    stars: 2379,
-    downloads: {
-      monthly: 3742879,
-      weekly: 789765,
-    },
-  },
 })

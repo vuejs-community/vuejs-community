@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt/hints',
     npm: '@nuxt/hints',
   },
-  stats: {
-    stars: 344,
-    downloads: {
-      monthly: 153478,
-      weekly: 31599,
-    },
-  },
 })

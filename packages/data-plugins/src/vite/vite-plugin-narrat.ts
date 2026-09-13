@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-narrat',
   description: 'vite plugin for narrat hot reload',
   icon: 'logos:vite-icon',
-  version: '4.1.17',
+  version: '4.1.18',
   category: 'plugin',
   tags: [
     'vite-plugin',
@@ -24,8 +24,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 683,
-      weekly: 22,
+      monthly: 411,
+      weekly: 29,
     },
   },
 })

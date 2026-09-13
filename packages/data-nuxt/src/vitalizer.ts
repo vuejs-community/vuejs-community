@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'johannschopplich/nuxt-vitalizer',
     npm: 'nuxt-vitalizer',
   },
-  stats: {
-    stars: 173,
-    downloads: {
-      monthly: 86604,
-      weekly: 15631,
-    },
-  },
 })

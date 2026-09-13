@@ -19,10 +19,10 @@ export default defineProjectMeta({
     website: 'https://ionicframework.com',
   },
   stats: {
-    stars: 52651,
+    stars: 52659,
     downloads: {
-      monthly: 250570,
-      weekly: 57621,
+      monthly: 233795,
+      weekly: 45266,
     },
   },
 })

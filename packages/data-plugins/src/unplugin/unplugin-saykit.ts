@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'unplugin-saykit',
   description: 'Universal build tool plugin for saykit (Vite, Rollup, Webpack, esbuild)',
   icon: 'icon:dark-unplugin',
-  version: '0.10.0',
+  version: '0.11.0',
   category: 'plugin',
   tags: [
     'i18n',
@@ -27,8 +27,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 2464,
-      weekly: 30,
+      monthly: 775,
+      weekly: 387,
     },
   },
 })

@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'stephenkr/nuxt-feature-toggle',
     npm: 'nuxt-feature-toggle',
   },
-  stats: {
-    stars: 88,
-    downloads: {
-      monthly: 1980,
-      weekly: 394,
-    },
-  },
 })

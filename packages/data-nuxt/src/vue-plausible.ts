@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'moritzsternemann/vue-plausible',
     npm: 'vue-plausible',
   },
-  stats: {
-    stars: 118,
-    downloads: {
-      monthly: 2914,
-      weekly: 505,
-    },
-  },
 })

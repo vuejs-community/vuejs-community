@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'halitsever/nuxt-telegram-auth',
     npm: 'nuxt-telegram-auth',
   },
-  stats: {
-    stars: 35,
-    downloads: {
-      monthly: 231,
-      weekly: 58,
-    },
-  },
 })

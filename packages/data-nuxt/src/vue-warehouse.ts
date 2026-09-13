@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'juliomrqz/vue-warehouse',
     npm: 'vue-warehouse',
   },
-  stats: {
-    stars: 170,
-    downloads: {
-      monthly: 355,
-      weekly: 77,
-    },
-  },
 })

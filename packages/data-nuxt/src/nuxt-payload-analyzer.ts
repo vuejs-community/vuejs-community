@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'barbapapazes/nuxt-payload-analyzer',
     npm: 'nuxt-payload-analyzer',
   },
-  stats: {
-    stars: 25,
-    downloads: {
-      monthly: 2469,
-      weekly: 329,
-    },
-  },
 })

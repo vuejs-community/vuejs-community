@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxtaid/nuxt-livekit',
     npm: 'nuxt-livekit',
   },
-  stats: {
-    stars: 2,
-    downloads: {
-      monthly: 67,
-      weekly: 13,
-    },
-  },
 })

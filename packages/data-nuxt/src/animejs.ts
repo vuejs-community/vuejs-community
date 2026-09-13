@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'hypernym-studio/nuxt-anime',
     npm: '@hypernym/nuxt-anime',
   },
-  stats: {
-    stars: 105,
-    downloads: {
-      monthly: 4200,
-      weekly: 829,
-    },
-  },
 })

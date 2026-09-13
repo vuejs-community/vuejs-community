@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-shopify-liquid-imports',
   description: 'Post-build companion to vite-plugin-shopify that enables native-ESM code splitting on Shopify themes via a classic bootstrap and Blob module graph — no import maps or .js.liquid chunk rewriting.',
   icon: 'logos:vite-icon',
-  version: '0.2.6',
+  version: '0.2.7',
   category: 'plugin',
   tags: [
     'vite',
@@ -29,8 +29,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 81,
-      weekly: 11,
+      monthly: 60,
+      weekly: 8,
     },
   },
 })

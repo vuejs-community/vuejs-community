@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'vue-macros/vue-macros#main/packages/nuxt',
     npm: '@vue-macros/nuxt',
   },
-  stats: {
-    stars: 1984,
-    downloads: {
-      monthly: 14719,
-      weekly: 3950,
-    },
-  },
 })

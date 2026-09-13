@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'buglavecz/nuxt-ssr-api-logger',
     npm: 'nuxt-ssr-api-logger',
   },
-  stats: {
-    stars: 11,
-    downloads: {
-      monthly: 2998,
-      weekly: 718,
-    },
-  },
 })

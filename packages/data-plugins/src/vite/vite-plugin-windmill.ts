@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-windmill',
   description: 'Vite plugin and deploy tooling for Windmill raw apps.',
   icon: 'logos:vite-icon',
-  version: '1.805.0',
+  version: '1.811.0',
   category: 'plugin',
   tags: [
     'raw-app',
@@ -26,8 +26,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 3431,
-      weekly: 678,
+      monthly: 3302,
+      weekly: 731,
     },
   },
 })

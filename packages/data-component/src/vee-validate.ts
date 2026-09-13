@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vee-validate',
   },
   stats: {
-    stars: 11263,
+    stars: 11262,
     downloads: {
-      monthly: 4554624,
-      weekly: 1091058,
+      monthly: 4537948,
+      weekly: 832807,
     },
   },
 })

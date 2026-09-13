@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-environment',
   description: 'Easily expose environment variables in Vite.js',
   icon: 'logos:vite-icon',
-  version: '1.1.3',
+  version: '1.1.4',
   category: 'plugin',
   tags: [
     'env',
@@ -27,8 +27,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 1930656,
-      weekly: 486200,
+      monthly: 1724590,
+      weekly: 338288,
     },
   },
 })

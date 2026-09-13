@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue-qrcode-reader',
   },
   stats: {
-    stars: 2308,
+    stars: 2309,
     downloads: {
-      monthly: 242085,
-      weekly: 56394,
+      monthly: 232474,
+      weekly: 42872,
     },
   },
 })

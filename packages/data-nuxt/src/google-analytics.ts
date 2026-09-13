@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/google-analytics-module',
     npm: '@nuxtjs/google-analytics',
   },
-  stats: {
-    stars: 615,
-    downloads: {
-      monthly: 43689,
-      weekly: 8046,
-    },
-  },
 })

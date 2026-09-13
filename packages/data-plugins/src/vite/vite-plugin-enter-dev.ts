@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-enter-dev',
   description: 'A Vite plugin for development enhancements',
   icon: 'logos:vite-icon',
-  version: '0.0.10',
+  version: '0.0.14',
   category: 'plugin',
   tags: [
     'vite',
@@ -26,8 +26,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 22132,
-      weekly: 19667,
+      monthly: 74197,
+      weekly: 42148,
     },
   },
 })

@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@tanstack/vue-virtual',
   },
   stats: {
-    stars: 7102,
+    stars: 7104,
     downloads: {
-      monthly: 11954988,
-      weekly: 2413486,
+      monthly: 11912681,
+      weekly: 2587665,
     },
   },
 })

@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/html-minifier-module',
     npm: '@nuxtjs/html-minifier',
   },
-  stats: {
-    stars: 41,
-    downloads: {
-      monthly: 597,
-      weekly: 134,
-    },
-  },
 })

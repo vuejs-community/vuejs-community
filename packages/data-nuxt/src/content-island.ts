@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'content-island/nuxt-content-island',
     npm: '@content-island/nuxt',
   },
-  stats: {
-    stars: 10,
-    downloads: {
-      monthly: 110,
-      weekly: 39,
-    },
-  },
 })

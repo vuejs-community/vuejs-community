@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxtaid/nuxt-mongoose',
     npm: 'nuxt-mongoose',
   },
-  stats: {
-    stars: 96,
-    downloads: {
-      monthly: 4267,
-      weekly: 632,
-    },
-  },
 })

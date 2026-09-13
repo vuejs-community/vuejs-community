@@ -19,10 +19,10 @@ export default defineProjectMeta({
     website: 'https://antdv.com',
   },
   stats: {
-    stars: 21643,
+    stars: 21647,
     downloads: {
-      monthly: 942627,
-      weekly: 168488,
+      monthly: 829290,
+      weekly: 141972,
     },
   },
 })

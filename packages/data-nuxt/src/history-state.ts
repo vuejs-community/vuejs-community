@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'hidekatsu-izuno/nuxt-history-state',
     npm: 'nuxt-history-state',
   },
-  stats: {
-    stars: 17,
-    downloads: {
-      monthly: 885,
-      weekly: 99,
-    },
-  },
 })

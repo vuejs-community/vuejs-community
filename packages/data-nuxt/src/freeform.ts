@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'Flo0806/nuxt-freeform#main/packages/nuxt-freeform',
     npm: 'nuxt-freeform',
   },
-  stats: {
-    stars: 26,
-    downloads: {
-      monthly: 826,
-      weekly: 161,
-    },
-  },
 })

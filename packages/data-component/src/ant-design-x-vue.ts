@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/ant-design-x-vue',
   },
   stats: {
-    stars: 1829,
+    stars: 1832,
     downloads: {
-      monthly: 7331,
-      weekly: 1616,
+      monthly: 7194,
+      weekly: 1432,
     },
   },
 })

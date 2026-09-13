@@ -19,10 +19,10 @@ export default defineProjectMeta({
     website: 'https://tdesign.tencent.com/mobile-vue',
   },
   stats: {
-    stars: 428,
+    stars: 429,
     downloads: {
-      monthly: 96627,
-      weekly: 16077,
+      monthly: 75322,
+      weekly: 12291,
     },
   },
 })

@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue3-apexcharts',
   },
   stats: {
-    stars: 365,
+    stars: 366,
     downloads: {
-      monthly: 1269323,
-      weekly: 236051,
+      monthly: 1232001,
+      weekly: 243161,
     },
   },
 })

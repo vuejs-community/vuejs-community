@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'clerk/javascript#main/packages/nuxt',
     npm: '@clerk/nuxt',
   },
-  stats: {
-    stars: 1752,
-    downloads: {
-      monthly: 99527,
-      weekly: 14887,
-    },
-  },
 })

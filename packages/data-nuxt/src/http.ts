@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt/http',
     npm: '@nuxt/http',
   },
-  stats: {
-    stars: 229,
-    downloads: {
-      monthly: 21193,
-      weekly: 4123,
-    },
-  },
 })

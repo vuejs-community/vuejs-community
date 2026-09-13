@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/svg-sprite',
     npm: '@nuxtjs/svg-sprite',
   },
-  stats: {
-    stars: 325,
-    downloads: {
-      monthly: 20364,
-      weekly: 3836,
-    },
-  },
 })

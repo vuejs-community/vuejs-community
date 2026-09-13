@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/logrocket',
     npm: 'nuxt-logrocket',
   },
-  stats: {
-    stars: 143,
-    downloads: {
-      monthly: 770,
-      weekly: 177,
-    },
-  },
 })

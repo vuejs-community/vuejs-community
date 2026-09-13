@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue-pdf-embed',
   },
   stats: {
-    stars: 1035,
+    stars: 1038,
     downloads: {
-      monthly: 656098,
-      weekly: 124839,
+      monthly: 663389,
+      weekly: 138945,
     },
   },
 })

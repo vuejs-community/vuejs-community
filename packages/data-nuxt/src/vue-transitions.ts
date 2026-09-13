@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'MorevM/vue-transitions',
     npm: '@morev/vue-transitions',
   },
-  stats: {
-    stars: 222,
-    downloads: {
-      monthly: 39619,
-      weekly: 7775,
-    },
-  },
 })

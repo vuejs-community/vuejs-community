@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'daliborgogic/nuxt-interpolation#master',
     npm: 'nuxt-interpolation',
   },
-  stats: {
-    stars: 44,
-    downloads: {
-      monthly: 810,
-      weekly: 169,
-    },
-  },
 })

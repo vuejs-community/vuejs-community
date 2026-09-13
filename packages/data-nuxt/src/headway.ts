@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'l-portet/nuxt-headway',
     npm: 'nuxt-headway',
   },
-  stats: {
-    stars: 17,
-    downloads: {
-      monthly: 63,
-      weekly: 15,
-    },
-  },
 })

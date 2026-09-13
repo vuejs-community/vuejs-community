@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/cloudinary',
     npm: '@nuxtjs/cloudinary',
   },
-  stats: {
-    stars: 252,
-    downloads: {
-      monthly: 5103,
-      weekly: 878,
-    },
-  },
 })

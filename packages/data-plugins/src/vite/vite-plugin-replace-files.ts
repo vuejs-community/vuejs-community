@@ -22,8 +22,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 15606,
-      weekly: 3820,
+      monthly: 12378,
+      weekly: 1246,
     },
   },
 })

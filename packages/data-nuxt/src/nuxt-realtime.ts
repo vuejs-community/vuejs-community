@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'daanvangeloven/nuxt-realtime',
     npm: 'nuxt-realtime',
   },
-  stats: {
-    stars: 32,
-    downloads: {
-      monthly: 148,
-      weekly: 15,
-    },
-  },
 })

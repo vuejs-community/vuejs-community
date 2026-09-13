@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'coremyslo/nuxt-icon-font',
     npm: '@coremyslo/nuxt-icon-font',
   },
-  stats: {
-    stars: 12,
-    downloads: {
-      monthly: 688,
-      weekly: 244,
-    },
-  },
 })

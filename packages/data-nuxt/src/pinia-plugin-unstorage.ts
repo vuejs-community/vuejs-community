@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'litingyes/pinia-plugin-unstorage',
     npm: 'pinia-plugin-unstorage',
   },
-  stats: {
-    stars: 15,
-    downloads: {
-      monthly: 589,
-      weekly: 217,
-    },
-  },
 })

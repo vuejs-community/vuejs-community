@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nhedger/nuxt-resend',
     npm: 'nuxt-resend',
   },
-  stats: {
-    stars: 30,
-    downloads: {
-      monthly: 2541,
-      weekly: 514,
-    },
-  },
 })

@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/onu-ui',
   },
   stats: {
-    stars: 670,
+    stars: 671,
     downloads: {
-      monthly: 390,
-      weekly: 65,
+      monthly: 365,
+      weekly: 68,
     },
   },
 })

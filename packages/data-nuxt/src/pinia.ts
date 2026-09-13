@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'vuejs/pinia#v2/packages/nuxt',
     npm: '@pinia/nuxt',
   },
-  stats: {
-    stars: 14718,
-    downloads: {
-      monthly: 3101144,
-      weekly: 753157,
-    },
-  },
 })

@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'bubblesortt/nuxt-es-toolkit',
     npm: '@bubblesortt/nuxt-es-toolkit',
   },
-  stats: {
-    stars: 9,
-    downloads: {
-      monthly: 1631,
-      weekly: 264,
-    },
-  },
 })

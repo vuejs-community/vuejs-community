@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'Flo0806/vorm#main/packages/vorm-nuxt',
     npm: 'vorm-nuxt',
   },
-  stats: {
-    stars: 22,
-    downloads: {
-      monthly: 250,
-      weekly: 39,
-    },
-  },
 })

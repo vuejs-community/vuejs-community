@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'unplugin-gem',
   description: 'Universal plugin for Gem element transformations (Vite/Webpack/Rollup/esbuild)',
   icon: 'icon:dark-unplugin',
-  version: '0.1.8',
+  version: '0.1.10',
   category: 'plugin',
   tags: [
     'unplugin',
@@ -29,8 +29,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 617,
-      weekly: 241,
+      monthly: 615,
+      weekly: 92,
     },
   },
 })

@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'jasy-pdf/jasy#main/packages/nuxt',
     npm: '@jasy/nuxt',
   },
-  stats: {
-    stars: 77,
-    downloads: {
-      monthly: 654,
-      weekly: 181,
-    },
-  },
 })

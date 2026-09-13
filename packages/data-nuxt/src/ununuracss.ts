@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'betterwrite/ununuracss#main/packages/nuxt',
     npm: 'nuxt-ununura',
   },
-  stats: {
-    stars: 44,
-    downloads: {
-      monthly: 164,
-      weekly: 40,
-    },
-  },
 })

@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'jairoblatt/nuxt-rollbar',
     npm: 'nuxt-rollbar',
   },
-  stats: {
-    stars: 6,
-    downloads: {
-      monthly: 1288,
-      weekly: 153,
-    },
-  },
 })

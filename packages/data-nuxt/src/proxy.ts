@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/proxy-module',
     npm: '@nuxtjs/proxy',
   },
-  stats: {
-    stars: 407,
-    downloads: {
-      monthly: 391714,
-      weekly: 87488,
-    },
-  },
 })

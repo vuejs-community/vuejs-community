@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'superdev-tech/nuxt-facebook-chat',
     npm: 'nuxt-facebook-chat',
   },
-  stats: {
-    stars: 7,
-    downloads: {
-      monthly: 124,
-      weekly: 13,
-    },
-  },
 })

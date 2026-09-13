@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'richardeschloss/nuxt-highcharts',
     npm: 'nuxt-highcharts',
   },
-  stats: {
-    stars: 82,
-    downloads: {
-      monthly: 7748,
-      weekly: 2281,
-    },
-  },
 })

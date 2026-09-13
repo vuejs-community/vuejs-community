@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-svg-sfc',
   description: 'Convert SVGs to Vue single file component(SFC), support <style> tag',
   icon: 'logos:vite-icon',
-  version: '2.2.0',
+  version: '2.2.1',
   category: 'plugin',
   tags: [
     'vite-plugin',
@@ -25,8 +25,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 423,
-      weekly: 96,
+      monthly: 374,
+      weekly: 50,
     },
   },
 })

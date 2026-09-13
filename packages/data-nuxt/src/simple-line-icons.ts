@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'galsd/nuxt-simple-line-icons',
     npm: 'nuxt-simple-line-icons',
   },
-  stats: {
-    stars: 5,
-    downloads: {
-      monthly: 76,
-      weekly: 12,
-    },
-  },
 })

@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nicogenz/nuxt-betterstack',
     npm: 'nuxt-betterstack',
   },
-  stats: {
-    stars: 2,
-    downloads: {
-      monthly: 571,
-      weekly: 140,
-    },
-  },
 })

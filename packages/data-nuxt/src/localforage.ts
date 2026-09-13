@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/localforage-module',
     npm: '@nuxtjs/localforage',
   },
-  stats: {
-    stars: 90,
-    downloads: {
-      monthly: 1192,
-      weekly: 221,
-    },
-  },
 })

@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@tanstack/vue-table',
   },
   stats: {
-    stars: 28418,
+    stars: 28423,
     downloads: {
-      monthly: 3774002,
-      weekly: 879498,
+      monthly: 3678907,
+      weekly: 721280,
     },
   },
 })

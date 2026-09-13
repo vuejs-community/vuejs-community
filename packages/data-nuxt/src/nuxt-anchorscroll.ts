@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'helltraitor/nuxt-anchorscroll',
     npm: 'nuxt-anchorscroll',
   },
-  stats: {
-    stars: 8,
-    downloads: {
-      monthly: 9418,
-      weekly: 2134,
-    },
-  },
 })

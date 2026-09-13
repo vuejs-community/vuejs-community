@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'DarlanPrado/nuxt-yup',
     npm: 'nuxt-yup',
   },
-  stats: {
-    stars: 4,
-    downloads: {
-      monthly: 243,
-      weekly: 42,
-    },
-  },
 })

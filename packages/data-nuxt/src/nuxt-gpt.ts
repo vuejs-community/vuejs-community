@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'holux-design/nuxt-GPT',
     npm: 'nuxt-gpt',
   },
-  stats: {
-    stars: 14,
-    downloads: {
-      monthly: 64,
-      weekly: 16,
-    },
-  },
 })

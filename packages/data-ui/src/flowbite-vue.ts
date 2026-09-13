@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/flowbite-vue',
   },
   stats: {
-    stars: 955,
+    stars: 954,
     downloads: {
-      monthly: 42460,
-      weekly: 7168,
+      monthly: 40411,
+      weekly: 7757,
     },
   },
 })

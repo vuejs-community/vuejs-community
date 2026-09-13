@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'fumeapp/tailvue',
     npm: 'tailvue',
   },
-  stats: {
-    stars: 155,
-    downloads: {
-      monthly: 2017,
-      weekly: 592,
-    },
-  },
 })

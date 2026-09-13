@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@vueup/vue-quill',
   },
   stats: {
-    stars: 1346,
+    stars: 1347,
     downloads: {
-      monthly: 505325,
-      weekly: 116047,
+      monthly: 501923,
+      weekly: 96654,
     },
   },
 })

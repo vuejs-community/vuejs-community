@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/legacy-modules#master/packages/vendor',
     npm: '@nuxtjs/vendor',
   },
-  stats: {
-    stars: 1267,
-    downloads: {
-      monthly: 295,
-      weekly: 22,
-    },
-  },
 })

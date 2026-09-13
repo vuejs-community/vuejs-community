@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'onmax/nuxt-formisch',
     npm: 'nuxt-formisch',
   },
-  stats: {
-    stars: 4,
-    downloads: {
-      monthly: 829,
-      weekly: 58,
-    },
-  },
 })

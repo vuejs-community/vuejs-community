@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/legacy-modules#master/packages/toast',
     npm: '@nuxtjs/toast',
   },
-  stats: {
-    stars: 1267,
-    downloads: {
-      monthly: 38359,
-      weekly: 6113,
-    },
-  },
 })

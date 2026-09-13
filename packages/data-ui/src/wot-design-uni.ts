@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/wot-design-uni',
   },
   stats: {
-    stars: 2288,
+    stars: 2291,
     downloads: {
-      monthly: 12449,
-      weekly: 2750,
+      monthly: 11107,
+      weekly: 2378,
     },
   },
 })

@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/separate-env-module',
     npm: '@nuxtjs/separate-env',
   },
-  stats: {
-    stars: 57,
-    downloads: {
-      monthly: 274,
-      weekly: 43,
-    },
-  },
 })

@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-react-app-router',
   description: 'Vite plugin that brings Next.js App Router file-based routing to standard React projects',
   icon: 'logos:vite-icon',
-  version: '0.2.3',
+  version: '0.2.4',
   category: 'plugin',
   tags: [
     'vite',
@@ -28,8 +28,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 278,
-      weekly: 8,
+      monthly: 252,
+      weekly: 166,
     },
   },
 })

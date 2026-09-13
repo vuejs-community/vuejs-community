@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'daliborgogic/interpolation',
     npm: 'nuxt3-interpolation',
   },
-  stats: {
-    stars: 8,
-    downloads: {
-      monthly: 845,
-      weekly: 55,
-    },
-  },
 })

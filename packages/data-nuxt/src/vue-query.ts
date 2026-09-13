@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'Hebilicious/vue-query-nuxt#main/packages/vue-query-nuxt',
     npm: '@hebilicious/vue-query-nuxt',
   },
-  stats: {
-    stars: 110,
-    downloads: {
-      monthly: 6594,
-      weekly: 1315,
-    },
-  },
 })

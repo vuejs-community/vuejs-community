@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-hub/core',
     npm: '@nuxthub/core',
   },
-  stats: {
-    stars: 1288,
-    downloads: {
-      monthly: 79609,
-      weekly: 19831,
-    },
-  },
 })

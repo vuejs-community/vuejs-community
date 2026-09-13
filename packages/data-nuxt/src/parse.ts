@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'cierrateam/nuxt-parse',
     npm: 'nuxt-parse',
   },
-  stats: {
-    stars: 23,
-    downloads: {
-      monthly: 76,
-      weekly: 14,
-    },
-  },
 })

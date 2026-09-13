@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'dargmuesli/nuxt-cookie-control',
     npm: '@dargmuesli/nuxt-cookie-control',
   },
-  stats: {
-    stars: 356,
-    downloads: {
-      monthly: 30160,
-      weekly: 7877,
-    },
-  },
 })

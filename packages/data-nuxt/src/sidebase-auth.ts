@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'sidebase/nuxt-auth',
     npm: '@sidebase/nuxt-auth',
   },
-  stats: {
-    stars: 1551,
-    downloads: {
-      monthly: 182699,
-      weekly: 35028,
-    },
-  },
 })

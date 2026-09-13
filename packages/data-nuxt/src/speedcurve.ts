@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/speedcurve-module',
     npm: '@nuxtjs/speedcurve',
   },
-  stats: {
-    stars: 2,
-    downloads: {
-      monthly: 267,
-      weekly: 30,
-    },
-  },
 })

@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-request-logger',
   description: 'A robust, Morgan-like HTTP request logger plugin for Vite supporting Vite 5, 6, 7, 8+ with body logging and TypeScript support.',
   icon: 'logos:vite-icon',
-  version: '1.2.0',
+  version: '1.2.4',
   category: 'plugin',
   tags: [
     'vite',
@@ -35,8 +35,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 147,
-      weekly: 147,
+      monthly: 190,
+      weekly: 41,
     },
   },
 })

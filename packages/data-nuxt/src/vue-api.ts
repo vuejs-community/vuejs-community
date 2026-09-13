@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'gaetansenn/vue-api#main/packages/nuxt',
     npm: '@vue-api/nuxt',
   },
-  stats: {
-    stars: 19,
-    downloads: {
-      monthly: 519,
-      weekly: 135,
-    },
-  },
 })

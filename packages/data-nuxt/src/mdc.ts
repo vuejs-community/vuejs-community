@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-content/mdc',
     npm: '@nuxtjs/mdc',
   },
-  stats: {
-    stars: 400,
-    downloads: {
-      monthly: 862530,
-      weekly: 199970,
-    },
-  },
 })

@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'stephenjason89/nuxt-toast',
     npm: 'nuxt-toast',
   },
-  stats: {
-    stars: 16,
-    downloads: {
-      monthly: 15090,
-      weekly: 2686,
-    },
-  },
 })

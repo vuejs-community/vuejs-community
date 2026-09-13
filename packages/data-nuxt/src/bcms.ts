@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'bcms/nuxt-module',
     npm: '@thebcms/nuxt',
   },
-  stats: {
-    stars: 3,
-    downloads: {
-      monthly: 244,
-      weekly: 116,
-    },
-  },
 })

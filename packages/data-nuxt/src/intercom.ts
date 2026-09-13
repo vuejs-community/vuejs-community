@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'hex-digital/nuxt-intercom',
     npm: '@hexdigital/nuxt-intercom',
   },
-  stats: {
-    stars: 18,
-    downloads: {
-      monthly: 132,
-      weekly: 27,
-    },
-  },
 })

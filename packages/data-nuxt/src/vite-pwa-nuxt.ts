@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'vite-pwa/nuxt',
     npm: '@vite-pwa/nuxt',
   },
-  stats: {
-    stars: 582,
-    downloads: {
-      monthly: 558309,
-      weekly: 137406,
-    },
-  },
 })

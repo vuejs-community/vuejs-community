@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/guess-module',
     npm: '@nuxtjs/guess-module',
   },
-  stats: {
-    stars: 20,
-    downloads: {
-      monthly: 162,
-      weekly: 24,
-    },
-  },
 })

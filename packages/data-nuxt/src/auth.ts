@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/auth-module',
     npm: '@nuxtjs/auth',
   },
-  stats: {
-    stars: 1924,
-    downloads: {
-      monthly: 30469,
-      weekly: 6290,
-    },
-  },
 })

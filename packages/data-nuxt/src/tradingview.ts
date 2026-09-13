@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'volkanakkus/nuxt-tradingview',
     npm: 'nuxt-tradingview',
   },
-  stats: {
-    stars: 35,
-    downloads: {
-      monthly: 379,
-      weekly: 42,
-    },
-  },
 })

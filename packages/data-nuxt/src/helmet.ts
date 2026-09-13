@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'victor-perez/nuxt-helmet',
     npm: 'nuxt-helmet',
   },
-  stats: {
-    stars: 188,
-    downloads: {
-      monthly: 13338,
-      weekly: 1810,
-    },
-  },
 })

@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'jcamp-code/nuxt-icon-tw',
     npm: 'nuxt-icon-tw',
   },
-  stats: {
-    stars: 2,
-    downloads: {
-      monthly: 898,
-      weekly: 199,
-    },
-  },
 })

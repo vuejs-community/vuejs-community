@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/vue-echarts',
   },
   stats: {
-    stars: 10750,
+    stars: 10754,
     downloads: {
-      monthly: 1620988,
-      weekly: 387077,
+      monthly: 1603775,
+      weekly: 310918,
     },
   },
 })

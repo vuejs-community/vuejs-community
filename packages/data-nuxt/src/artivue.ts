@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'Eschricht/artivue',
     npm: 'artivue',
   },
-  stats: {
-    stars: 11,
-    downloads: {
-      monthly: 93,
-      weekly: 13,
-    },
-  },
 })

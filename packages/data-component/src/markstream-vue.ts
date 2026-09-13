@@ -19,10 +19,10 @@ export default defineProjectMeta({
     website: 'https://markstream.simonhe.me',
   },
   stats: {
-    stars: 3001,
+    stars: 3005,
     downloads: {
-      monthly: 125989,
-      weekly: 31688,
+      monthly: 127596,
+      weekly: 24758,
     },
   },
 })

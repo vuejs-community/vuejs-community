@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'Mokkapps/nuxt-email-renderer',
     npm: 'nuxt-email-renderer',
   },
-  stats: {
-    stars: 97,
-    downloads: {
-      monthly: 10141,
-      weekly: 1841,
-    },
-  },
 })

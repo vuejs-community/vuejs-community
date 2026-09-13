@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/gtm-module',
     npm: '@nuxtjs/gtm',
   },
-  stats: {
-    stars: 344,
-    downloads: {
-      monthly: 100705,
-      weekly: 13235,
-    },
-  },
 })

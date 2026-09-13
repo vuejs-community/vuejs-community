@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxtaid/nuxt-locomotive-scroll',
     npm: 'nuxt-locomotive-scroll',
   },
-  stats: {
-    stars: 11,
-    downloads: {
-      monthly: 191,
-      weekly: 33,
-    },
-  },
 })

@@ -18,10 +18,10 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/md-editor-v3',
   },
   stats: {
-    stars: 2586,
+    stars: 2588,
     downloads: {
-      monthly: 170383,
-      weekly: 39167,
+      monthly: 166047,
+      weekly: 31233,
     },
   },
 })

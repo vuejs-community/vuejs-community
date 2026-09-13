@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-fable',
   description: 'Compile F# with Fable from inside Vite, so a .fs file is just another module Vite can import.',
   icon: 'logos:vite-icon',
-  version: '0.4.0',
+  version: '0.5.1',
   category: 'plugin',
   tags: [
     'dotnet',
@@ -28,8 +28,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 775,
-      weekly: 463,
+      monthly: 1000,
+      weekly: 213,
     },
   },
 })

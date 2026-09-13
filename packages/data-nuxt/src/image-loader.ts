@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'PivaleCo/nuxt-image-loader-module',
     npm: '@pivale/nuxt-image-loader-module',
   },
-  stats: {
-    stars: 140,
-    downloads: {
-      monthly: 56,
-      weekly: 14,
-    },
-  },
 })

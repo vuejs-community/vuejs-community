@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'gaetansenn/xhr-cache',
     npm: '@dewib/xhr-cache',
   },
-  stats: {
-    stars: 26,
-    downloads: {
-      monthly: 169,
-      weekly: 60,
-    },
-  },
 })

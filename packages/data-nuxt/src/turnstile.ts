@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/turnstile',
     npm: '@nuxtjs/turnstile',
   },
-  stats: {
-    stars: 297,
-    downloads: {
-      monthly: 104192,
-      weekly: 26724,
-    },
-  },
 })

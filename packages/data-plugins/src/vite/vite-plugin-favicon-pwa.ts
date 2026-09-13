@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-favicon-pwa',
   description: 'Vite plugin that generates favicons, Apple touch icons, PWA icons, and a web app manifest from one SVG.',
   icon: 'logos:vite-icon',
-  version: '1.2.0',
+  version: '1.2.2',
   category: 'plugin',
   tags: [
     'favicon',
@@ -36,8 +36,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 381,
-      weekly: 9,
+      monthly: 219,
+      weekly: 5,
     },
   },
 })

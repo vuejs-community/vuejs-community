@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'storyblok/monoblok#main/packages/nuxt',
     npm: '@storyblok/nuxt',
   },
-  stats: {
-    stars: 65,
-    downloads: {
-      monthly: 77930,
-      weekly: 17163,
-    },
-  },
 })

@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'harlan-zw/nuxt-webpack-optimisations#main/packages/nuxt-webpack-optimisations',
     npm: 'nuxt-webpack-optimisations',
   },
-  stats: {
-    stars: 269,
-    downloads: {
-      monthly: 7362,
-      weekly: 1754,
-    },
-  },
 })

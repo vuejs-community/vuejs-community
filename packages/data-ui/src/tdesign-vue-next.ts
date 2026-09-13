@@ -19,10 +19,10 @@ export default defineProjectMeta({
     website: 'https://tdesign.tencent.com/vue-next',
   },
   stats: {
-    stars: 2178,
+    stars: 2177,
     downloads: {
-      monthly: 171103,
-      weekly: 20096,
+      monthly: 146062,
+      weekly: 21494,
     },
   },
 })

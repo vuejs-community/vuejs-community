@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'madmod/nuxt-vue-select',
     npm: 'nuxt-vue-select',
   },
-  stats: {
-    stars: 16,
-    downloads: {
-      monthly: 942,
-      weekly: 115,
-    },
-  },
 })

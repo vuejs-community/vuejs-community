@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'Developmint/nuxt-svg-loader',
     npm: 'nuxt-svg-loader',
   },
-  stats: {
-    stars: 144,
-    downloads: {
-      monthly: 10824,
-      weekly: 1913,
-    },
-  },
 })

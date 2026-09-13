@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'paulgv/nuxt-webpackdashboard',
     npm: 'nuxt-webpackdashboard',
   },
-  stats: {
-    stars: 24,
-    downloads: {
-      monthly: 99,
-      weekly: 19,
-    },
-  },
 })

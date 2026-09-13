@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'zadigetvoltaire/nuxt-gtm',
     npm: '@zadigetvoltaire/nuxt-gtm',
   },
-  stats: {
-    stars: 87,
-    downloads: {
-      monthly: 65785,
-      weekly: 9311,
-    },
-  },
 })

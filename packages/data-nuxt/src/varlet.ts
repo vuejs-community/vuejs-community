@@ -20,11 +20,4 @@ export default defineProjectMeta({
     github: 'varletjs/varlet-nuxt',
     npm: '@varlet/nuxt',
   },
-  stats: {
-    stars: 30,
-    downloads: {
-      monthly: 145,
-      weekly: 30,
-    },
-  },
 })
