@@ -1,3 +1,0 @@
-{
-  "extends": ["@vuejs-community/tsconfig/base.json"]
-}
