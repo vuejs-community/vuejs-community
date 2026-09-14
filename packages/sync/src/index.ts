@@ -172,6 +172,7 @@ async function main(config: Config): Promise<void> {
       await setTimeout(3000)
 
       const packages = batch.map(item => item.npm).join(',')
+      console.log(`[npm]: ${packages}`)
       const { weekly, monthly } = await getNpmDownloads(packages)
       let updated = 0
 
@@ -201,6 +202,7 @@ async function main(config: Config): Promise<void> {
     syncing = syncing.then(async () => {
       await setTimeout(3000)
 
+      console.log(`[npm]: ${npm}`)
       const { weekly, monthly } = await getNpmDownloads(npm)
       const week = weekly[npm]
       const month = monthly[npm]
@@ -223,6 +225,7 @@ async function main(config: Config): Promise<void> {
       await setTimeout(500)
 
       try {
+        console.log(`[github]:${github}`)
         const repo = await getGithubRepo(github, config.token)
 
         if (!repo) {
