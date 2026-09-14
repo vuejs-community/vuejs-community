@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-mock-data',
   description: 'Provides a simple way to mock data.',
   icon: 'logos:vite-icon',
-  version: '8.1.1',
+  version: '8.1.2',
   category: 'plugin',
   tags: [
     'vite-plugin',
@@ -23,8 +23,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 486,
-      weekly: 93,
+      monthly: 818,
+      weekly: 30,
     },
   },
 })

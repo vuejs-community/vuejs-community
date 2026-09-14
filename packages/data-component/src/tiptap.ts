@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@tiptap/vue-3',
   },
   stats: {
-    stars: 38357,
+    stars: 38369,
     downloads: {
       monthly: 5918872,
       weekly: 1176869,

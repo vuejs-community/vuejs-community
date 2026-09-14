@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-taro',
   description: 'Vite 8 plugin for building one React/Taro codebase for WeChat, Alipay, and H5 targets.',
   icon: 'logos:vite-icon',
-  version: '0.7.2',
+  version: '0.7.3',
   category: 'plugin',
   tags: [
     'vite',

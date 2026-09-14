@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'vite-plugin-nudo',
   description: 'Vite plugin for build-time JavaScript type inference with Nudo',
   icon: 'logos:vite-icon',
-  version: '0.2.1',
+  version: '0.3.0',
   category: 'plugin',
   tags: [
     'nudo',
@@ -26,8 +26,8 @@ export default defineProjectMeta({
   },
   stats: {
     downloads: {
-      monthly: 208,
-      weekly: 7,
+      monthly: 207,
+      weekly: 3,
     },
   },
 })

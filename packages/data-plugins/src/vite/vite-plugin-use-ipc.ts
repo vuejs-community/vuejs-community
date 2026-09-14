@@ -1,33 +1,32 @@
 import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
-  name: 'vite-plugin-ai-fixer',
-  description: 'Vite plugin that captures build errors and provides AI-powered solutions',
+  name: 'vite-plugin-use-ipc',
+  description: 'Directive-based Electron IPC for Vite',
   icon: 'logos:vite-icon',
-  version: '1.0.0',
+  version: '0.1.0-beta.1',
   category: 'plugin',
   tags: [
-    'vite',
     'vite-plugin',
-    'ai',
-    'build-error',
-    'error-analysis',
+    'electron',
+    'ipc',
+    'typescript',
   ],
   types: [
     'vite-plugin',
   ],
   source: {
     github: '',
-    npm: 'vite-plugin-ai-fixer',
+    npm: 'vite-plugin-use-ipc',
   },
   links: {
     github: 'https://github.com/',
-    npm: 'https://www.npmjs.com/package/vite-plugin-ai-fixer',
+    npm: 'https://www.npmjs.com/package/vite-plugin-use-ipc',
   },
   stats: {
     downloads: {
-      monthly: 9,
-      weekly: 1,
+      monthly: 0,
+      weekly: 0,
     },
   },
 })
