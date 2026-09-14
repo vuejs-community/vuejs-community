@@ -19,7 +19,7 @@ export default defineProjectMeta({
     website: 'https://primevue.org',
   },
   stats: {
-    stars: 14462,
+    stars: 14461,
     downloads: {
       monthly: 3005676,
       weekly: 574961,

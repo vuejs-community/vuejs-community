@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@oruga-ui/oruga-next',
   },
   stats: {
-    stars: 1161,
+    stars: 1162,
     downloads: {
       monthly: 27559,
       weekly: 6101,

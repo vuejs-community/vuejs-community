@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@tanstack/vue-form',
   },
   stats: {
-    stars: 6682,
+    stars: 6683,
     downloads: {
       monthly: 221023,
       weekly: 43052,

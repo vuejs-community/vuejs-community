@@ -4,7 +4,7 @@ export default defineProjectMeta({
   name: 'unplugin-kubb',
   description: 'Integration of Kubb for Vite, Webpack, Rollup, esbuild, Rspack, Nuxt, and Astro.',
   icon: 'icon:dark-unplugin',
-  version: '5.2.2',
+  version: '5.2.3',
   category: 'plugin',
   tags: [
     'astro',

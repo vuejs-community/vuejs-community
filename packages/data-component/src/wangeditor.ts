@@ -18,7 +18,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/@wangeditor/editor-for-vue',
   },
   stats: {
-    stars: 18363,
+    stars: 18362,
     downloads: {
       monthly: 149876,
       weekly: 30275,
