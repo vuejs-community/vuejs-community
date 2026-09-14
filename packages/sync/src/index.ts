@@ -41,6 +41,9 @@ interface NpmDownloadEntry {
 type NpmDownloadsResponse = Record<string, NpmDownloadEntry | null>
 type Downloads = NonNullable<NonNullable<CommunityProject['stats']>['downloads']>
 
+interface Config {
+  token?: string
+}
 async function getNpmDownloads(packages: string) {
   const request = async (period: 'week' | 'month'): Promise<NpmDownloadsResponse> => {
     const response = await ofetch<NpmDownloadsResponse | NpmDownloadEntry>(
@@ -73,7 +76,43 @@ async function updateNpmDownloads(file: string, downloads: Downloads): Promise<b
   return true
 }
 
-async function main(): Promise<void> {
+interface GithubRepoResponse {
+  stargazers_count: number
+}
+
+async function getGithubRepo(github: string, token?: string) {
+  return await ofetch<GithubRepoResponse>(
+    `https://api.github.com/repos/${github}`,
+    {
+      retry: 0,
+      timeout: 30000,
+      headers: {
+        ...(token
+          ? { Authorization: `Bearer ${token}` }
+          : {}),
+        'Accept': 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28',
+      },
+    },
+  )
+}
+
+async function updateGithubStars(file: string, stars: number): Promise<boolean> {
+  const content = await jiti.import<CommunityProject>(file, { default: true })
+
+  const updated = {
+    ...content,
+    stats: {
+      stars,
+      downloads: content.stats?.downloads,
+    },
+  } as const
+
+  await writeFile(file, renderProjectMetaSource(updated), 'utf-8')
+  return true
+}
+
+async function main(config: Config): Promise<void> {
   const files = await Promise.all(
     dataPackages.map(packageName => glob('src/**/*.ts', {
       cwd: new URL(`../../${packageName}/`, import.meta.url),
@@ -179,13 +218,37 @@ async function main(): Promise<void> {
     })
   })
 
+  githubs.forEach(({ file, github }) => {
+    syncing = syncing.then(async () => {
+      await setTimeout(500)
+
+      try {
+        const repo = await getGithubRepo(github, config.token)
+
+        if (!repo) {
+          console.warn(`[skip] ${github}: missing github repo data`)
+          return
+        }
+
+        await updateGithubStars(file, repo.stargazers_count)
+        console.log(`[github] Updated stars for ${github} -> ${repo.stargazers_count}`)
+      }
+      catch (error) {
+        console.warn(`[skip] ${github}: ${(error as Error).message}`)
+      }
+    })
+  })
+
   await syncing
 }
 
 (async () => {
-  await loadDotenv({
+  const env = await loadDotenv({
     cwd: new URL('../../../', import.meta.url).pathname,
   })
 
-  await main()
+  const config = {
+    token: env.GENERATE_TOKEN ?? process.env.GENERATE_TOKEN,
+  }
+  await main(config)
 })()
