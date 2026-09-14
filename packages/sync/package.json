@@ -1,0 +1,19 @@
+{
+  "name": "@vuejs-community/sync",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "tsx ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.0",
+    "@vuejs-community/schema": "workspace:*",
+    "@vuejs-community/shared": "workspace:*",
+    "@vuejs-community/tsconfig": "workspace:*",
+    "c12": "4.0.0-rc.1",
+    "glob": "^13.0.6",
+    "jiti": "^2.7.0",
+    "ofetch": "^1.5.1",
+    "typescript": "^6.0.3"
+  }
+}
