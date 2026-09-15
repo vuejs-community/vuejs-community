@@ -3,9 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "collect": "tsx ./src/index.ts",
-    "test": "node --import tsx --test test/*.test.ts",
-    "typecheck": "tsc --noEmit"
+    "plugins": "tsx ./src/index.ts"
   },
   "devDependencies": {
     "@types/node": "^26.4.0",
