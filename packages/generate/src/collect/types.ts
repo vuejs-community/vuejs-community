@@ -24,7 +24,7 @@ export interface NpmSearchObject {
     }
   }
   downloads: {
-    monthly?: number
+    monthly: number
     weekly: number
   }
 }
@@ -35,13 +35,46 @@ export interface NpmSearchResponse {
   time: string
 }
 
-export const PLUGIN_KEYWORDS = [
-  'vite-plugin',
-  'rollup-plugin',
-  'rolldown-plugin',
-  'unplugin',
-] as const
+export type PluginType = 'vite-plugin' | 'rollup-plugin' | 'rolldown-plugin' | 'unplugin'
 
-export type PluginType = typeof PLUGIN_KEYWORDS[number]
+export interface PluginSearch {
+  by: 'keyword' | 'scope'
+  query: string
+}
 
-export const PLUGIN_SCOPES = ['@rollup/plugin-'] as const
+export interface PluginDefinition {
+  icon: string
+  namePrefixes: string[]
+  searches: PluginSearch[]
+  type: PluginType
+}
+
+export const PLUGIN_DEFINITIONS = [
+  {
+    type: 'vite-plugin',
+    namePrefixes: ['vite-plugin'],
+    icon: 'logos:vite-icon',
+    searches: [{ by: 'keyword', query: 'vite-plugin' }],
+  },
+  {
+    type: 'rollup-plugin',
+    namePrefixes: ['rollup-plugin', '@rollup/plugin-'],
+    icon: 'logos:rollupjs',
+    searches: [
+      { by: 'keyword', query: 'rollup-plugin' },
+      { by: 'scope', query: '@rollup/plugin-' },
+    ],
+  },
+  {
+    type: 'rolldown-plugin',
+    namePrefixes: ['rolldown-plugin'],
+    icon: 'logos:rolldown-icon',
+    searches: [{ by: 'keyword', query: 'rolldown-plugin' }],
+  },
+  {
+    type: 'unplugin',
+    namePrefixes: ['unplugin'],
+    icon: 'icon:dark-unplugin',
+    searches: [{ by: 'keyword', query: 'unplugin' }],
+  },
+] as const satisfies readonly PluginDefinition[]
