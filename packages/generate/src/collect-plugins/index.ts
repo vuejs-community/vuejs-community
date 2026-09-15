@@ -120,3 +120,8 @@ export async function main(): Promise<void> {
 
   console.log('\nCollection complete!')
 }
+
+main().catch((error) => {
+  console.error('Collection failed:', error)
+  process.exitCode = 1
+})
