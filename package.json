@@ -20,7 +20,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
     "prepare": "simple-git-hooks",
-    "generate:plugins": "pnpm -F @vuejs-community/generate run plugins",
+    "generate:plugins": "pnpm -F @vuejs-community/generate-data run plugins",
     "generate:nuxt:modules": "tsx packages/data-nuxt/scripts/generate-modules.ts",
     "generate:db": "tsx ./scripts/generate-db.ts",
     "sync": "pnpm -F @vuejs-community/sync run dev"

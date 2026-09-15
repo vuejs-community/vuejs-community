@@ -1,5 +1,5 @@
 {
-  "name": "@vuejs-community/generate",
+  "name": "@vuejs-community/generate-data",
   "type": "module",
   "private": true,
   "scripts": {
