@@ -38,7 +38,7 @@ interface NpmDownloadEntry {
   downloads: number
 }
 
-type NpmDownloadsResponse = Record<string, NpmDownloadEntry | null>
+type NpmDownloadsResponse = Record<string, NpmDownloadEntry>
 type Downloads = NonNullable<NonNullable<CommunityProject['stats']>['downloads']>
 
 interface Config {
@@ -46,18 +46,26 @@ interface Config {
 }
 async function getNpmDownloads(packages: string) {
   const request = async (period: 'week' | 'month'): Promise<NpmDownloadsResponse> => {
-    const response = await ofetch<NpmDownloadsResponse | NpmDownloadEntry>(
-      `https://api.npmjs.org/downloads/point/last-${period}/${packages}`,
-      { retry: 0, timeout: 30000 },
-    )
+    try {
+      const response = await ofetch<NpmDownloadsResponse | NpmDownloadEntry>(
+        `https://api.npmjs.org/downloads/point/last-${period}/${packages}`,
+        { retry: 0, timeout: 30000 },
+      )
 
-    return typeof response.downloads === 'number'
-      ? { [packages]: { downloads: response.downloads } }
-      : response as NpmDownloadsResponse
+      return typeof response.downloads === 'number'
+        ? { [packages]: { downloads: response.downloads } }
+        : response as NpmDownloadsResponse
+    }
+    catch (error) {
+      // newly published packages may not have download data yet (e.g. 404), treat as 0
+      console.warn(`[npm] ${packages} (${period}): ${(error as Error).message}, fallback to 0`)
+      return { [packages]: { downloads: 0 } }
+    }
   }
 
   const [weekly, monthly] = await Promise.all([request('week'), request('month')])
-
+  console.log('[weekly]: ', weekly)
+  console.log('[monthly]: ', monthly)
   return { weekly, monthly }
 }
 
