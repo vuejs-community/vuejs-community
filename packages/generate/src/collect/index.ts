@@ -8,7 +8,7 @@ import { NpmClient } from './npm-client.js'
 import { PLUGIN_DEFINITIONS } from './types.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const DATA_DIR = join(__dirname, '../../data/plugins')
+const DATA_DIR = join(__dirname, '../../../data-plugins/src')
 
 export interface CollectedPlugin {
   project: CommunityProject
