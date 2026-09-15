@@ -1,0 +1,17 @@
+{
+  "name": "@vuejs-community/generate-data",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "plugins": "tsx ./src/collect-plugins/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.0",
+    "@vuejs-community/schema": "workspace:*",
+    "@vuejs-community/shared": "workspace:*",
+    "@vuejs-community/tsconfig": "workspace:*",
+    "p-queue": "^9.3.3",
+    "tsx": "^4.23.13",
+    "typescript": "^6.0.3"
+  }
+}
