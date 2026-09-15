@@ -39,6 +39,8 @@ jobs:
         run: pnpm run generate:nuxt:modules
 
       - name: Sync npm and GitHub stats data
+        env:
+          GENERATE_TOKEN: ${{ secrets.GENERATE_TOKEN }}
         run: pnpm run sync
 
       - name: build sync database
