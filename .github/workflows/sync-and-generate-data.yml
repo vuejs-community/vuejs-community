@@ -39,7 +39,7 @@ jobs:
         run: pnpm run generate:nuxt:modules
 
       - name: Sync npm and GitHub stats data
-        run: pnpm run sync:npm-git-data
+        run: pnpm run sync
 
       - name: build sync database
         run: pnpm run generate:db

@@ -23,7 +23,6 @@
     "generate:plugins": "tsx ./packages/data-plugins/scripts/generate-plugin.ts",
     "generate:nuxt:modules": "tsx packages/data-nuxt/scripts/generate-modules.ts",
     "generate:db": "tsx ./scripts/generate-db.ts",
-    "sync:npm-git-data": "tsx ./scripts/sync-npm-git-data.ts",
     "sync": "pnpm -F @vuejs-community/sync run dev"
   },
   "dependencies": {
