@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-community/feed-module',
     npm: '@nuxtjs/feed',
   },
+  stats: {
+    stars: 227,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

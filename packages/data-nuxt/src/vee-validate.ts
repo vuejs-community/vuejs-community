@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'logaretm/vee-validate#main/packages/nuxt',
     npm: '@vee-validate/nuxt',
   },
+  stats: {
+    stars: 11263,
+    downloads: {
+      monthly: 243718,
+      weekly: 48552,
+    },
+  },
 })

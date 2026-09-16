@@ -5,14 +5,16 @@ export default defineProjectMeta({
   description: '分屏面板分割器，支持触屏，Vue 2/3 通用',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['layout'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'layout',
+  ],
   source: {
     github: 'antoniandre/splitpanes',
     npm: 'splitpanes',
   },
-
   links: {
     github: 'https://github.com/antoniandre/splitpanes',
     npm: 'https://www.npmjs.com/package/splitpanes',

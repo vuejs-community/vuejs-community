@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'tanukijs/meta-pixel#dev/packages/nuxt-meta-pixel',
     npm: 'nuxt-meta-pixel',
   },
+  stats: {
+    stars: 30,
+    downloads: {
+      monthly: 7022,
+      weekly: 1462,
+    },
+  },
 })

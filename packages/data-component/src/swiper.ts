@@ -5,20 +5,23 @@ export default defineProjectMeta({
   description: '最流行的触摸滑动轮播库，官方 @swiper/vue 组件',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['carousel', 'slider'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'carousel',
+    'slider',
+  ],
   source: {
     github: 'nolimits4web/swiper',
     npm: 'swiper',
   },
-
   links: {
     github: 'https://github.com/nolimits4web/swiper',
     npm: 'https://www.npmjs.com/package/swiper',
   },
   stats: {
-    stars: 41905,
+    stars: 41907,
     downloads: {
       monthly: 15906037,
       weekly: 2915926,

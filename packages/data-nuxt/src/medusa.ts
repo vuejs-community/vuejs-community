@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-modules/medusa',
     npm: '@nuxtjs/medusa',
   },
+  stats: {
+    stars: 177,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

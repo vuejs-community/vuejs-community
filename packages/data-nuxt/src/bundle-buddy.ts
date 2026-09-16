@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'Developmint/nuxt-bundle-buddy',
     npm: 'nuxt-bundle-buddy',
   },
+  stats: {
+    stars: 37,
+    downloads: {
+      monthly: 64,
+      weekly: 15,
+    },
+  },
 })

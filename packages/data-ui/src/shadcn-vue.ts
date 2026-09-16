@@ -5,20 +5,24 @@ export default defineProjectMeta({
   description: '',
   icon: 'thesvg:shadcn-ui',
   category: 'ui',
-  types: ['headless-ui'],
-  tags: ['ui', 'headless-ui', 'shadcn'],
-
+  types: [
+    'headless-ui',
+  ],
+  tags: [
+    'ui',
+    'headless-ui',
+    'shadcn',
+  ],
   source: {
     github: 'unovue/shadcn-vue',
     npm: 'shadcn-vue',
   },
-
   links: {
     github: 'https://github.com/unovue/shadcn-vue',
     npm: 'https://www.npmjs.com/package/shadcn-vue',
   },
   stats: {
-    stars: 10584,
+    stars: 10590,
     downloads: {
       monthly: 413618,
       weekly: 78692,

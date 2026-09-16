@@ -5,14 +5,19 @@ export default defineProjectMeta({
   description: '基于 Material Design 2/3 的移动端组件库，同时支持桌面端',
   icon: '',
   category: 'ui',
-  types: ['mobile-ui', 'ui-library'],
-  tags: ['ui', 'mobile', 'material-design'],
-
+  types: [
+    'mobile-ui',
+    'ui-library',
+  ],
+  tags: [
+    'ui',
+    'mobile',
+    'material-design',
+  ],
   source: {
     github: 'varletjs/varlet',
     npm: '@varlet/ui',
   },
-
   links: {
     github: 'https://github.com/varletjs/varlet',
     npm: 'https://www.npmjs.com/package/@varlet/ui',

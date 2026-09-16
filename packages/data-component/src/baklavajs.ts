@@ -5,14 +5,17 @@ export default defineProjectMeta({
   description: '浏览器端节点编辑器，适合可视化编程 / 数据流场景',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['node-editor', 'diagram'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'node-editor',
+    'diagram',
+  ],
   source: {
     github: 'newcat/baklavajs',
     npm: '@baklavajs/renderer-vue',
   },
-
   links: {
     github: 'https://github.com/newcat/baklavajs',
     npm: 'https://www.npmjs.com/package/@baklavajs/renderer-vue',

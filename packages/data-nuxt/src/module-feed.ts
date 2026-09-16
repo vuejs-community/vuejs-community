@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'tresko/nuxt-module-feed',
     npm: 'nuxt-module-feed',
   },
+  stats: {
+    stars: 18,
+    downloads: {
+      monthly: 34399,
+      weekly: 4875,
+    },
+  },
 })

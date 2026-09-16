@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'holux-design/nuxt-glaze',
     npm: 'nuxt-glaze',
   },
+  stats: {
+    stars: 6,
+    downloads: {
+      monthly: 70,
+      weekly: 11,
+    },
+  },
 })

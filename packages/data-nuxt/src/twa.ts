@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'tuarrep/nuxt-twa',
     npm: 'nuxt-twa',
   },
+  stats: {
+    stars: 35,
+    downloads: {
+      monthly: 112,
+      weekly: 13,
+    },
+  },
 })

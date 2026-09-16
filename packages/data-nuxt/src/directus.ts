@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'intevel/nuxt-directus',
     npm: 'nuxt-directus',
   },
+  stats: {
+    stars: 310,
+    downloads: {
+      monthly: 5096,
+      weekly: 1049,
+    },
+  },
 })

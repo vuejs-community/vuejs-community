@@ -5,14 +5,17 @@ export default defineProjectMeta({
   description: '经典 toast 通知组件',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['toast', 'notification'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'toast',
+    'notification',
+  ],
   source: {
     github: 'Maronato/vue-toastification',
     npm: 'vue-toastification',
   },
-
   links: {
     github: 'https://github.com/Maronato/vue-toastification',
     npm: 'https://www.npmjs.com/package/vue-toastification',

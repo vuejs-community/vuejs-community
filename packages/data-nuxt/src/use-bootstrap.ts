@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'simplise/use-bootstrap',
     npm: 'usebootstrap',
   },
+  stats: {
+    stars: 67,
+    downloads: {
+      monthly: 914,
+      weekly: 101,
+    },
+  },
 })

@@ -5,20 +5,21 @@ export default defineProjectMeta({
   description: 'Gin + Vue 的前后端分离权限管理脚手架，支持多套 UI 与多租户',
   icon: '',
   category: 'admin',
-
-  types: ['fullstack-template'],
-
-  tags: ['go', 'gin', 'rbac'],
-
+  types: [
+    'fullstack-template',
+  ],
+  tags: [
+    'go',
+    'gin',
+    'rbac',
+  ],
   source: {
     github: 'go-admin-team/go-admin',
   },
-
   links: {
     github: 'https://github.com/go-admin-team/go-admin',
   },
-
   stats: {
-    stars: 12772,
+    stars: 12774,
   },
 })

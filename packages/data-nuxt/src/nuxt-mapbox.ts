@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'AlexLavoie42/Nuxt-Mapbox',
     npm: 'nuxt-mapbox',
   },
+  stats: {
+    stars: 104,
+    downloads: {
+      monthly: 26212,
+      weekly: 5641,
+    },
+  },
 })

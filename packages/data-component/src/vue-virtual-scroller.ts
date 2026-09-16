@@ -5,20 +5,22 @@ export default defineProjectMeta({
   description: '老牌虚拟滚动组件，v3 版本支持 Vue 3',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['virtual-scroll'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'virtual-scroll',
+  ],
   source: {
     github: 'Akryum/vue-virtual-scroller',
     npm: 'vue-virtual-scroller',
   },
-
   links: {
     github: 'https://github.com/Akryum/vue-virtual-scroller',
     npm: 'https://www.npmjs.com/package/vue-virtual-scroller',
   },
   stats: {
-    stars: 10797,
+    stars: 10799,
     downloads: {
       monthly: 2065566,
       weekly: 356176,

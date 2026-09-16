@@ -5,14 +5,17 @@ export default defineProjectMeta({
   description: '可拖拽可缩放的网格布局，vue-grid-layout 的 Vue 3 继任者',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['layout', 'drag-drop'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'layout',
+    'drag-drop',
+  ],
   source: {
     github: 'qmhc/grid-layout-plus',
     npm: 'grid-layout-plus',
   },
-
   links: {
     github: 'https://github.com/qmhc/grid-layout-plus',
     npm: 'https://www.npmjs.com/package/grid-layout-plus',

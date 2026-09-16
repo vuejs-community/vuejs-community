@@ -5,20 +5,22 @@ export default defineProjectMeta({
   description: '易用的数据表格组件',
   icon: '',
   category: 'component',
-  types: ['table-library'],
-  tags: ['table'],
-
+  types: [
+    'table-library',
+  ],
+  tags: [
+    'table',
+  ],
   source: {
     github: 'HC200ok/vue3-easy-data-table',
     npm: 'vue3-easy-data-table',
   },
-
   links: {
     github: 'https://github.com/HC200ok/vue3-easy-data-table',
     npm: 'https://www.npmjs.com/package/vue3-easy-data-table',
   },
   stats: {
-    stars: 557,
+    stars: 556,
     downloads: {
       monthly: 76008,
       weekly: 15230,

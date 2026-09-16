@@ -5,19 +5,18 @@ export default defineProjectMeta({
   description: '基于 Ant Design Vue 的中后台管理系统',
   icon: '',
   category: 'admin',
-
-  types: ['admin-template'],
-
-  tags: ['ant-design-vue'],
-
+  types: [
+    'admin-template',
+  ],
+  tags: [
+    'ant-design-vue',
+  ],
   source: {
     github: 'antdv-pro/antdv-pro',
   },
-
   links: {
     github: 'https://github.com/antdv-pro/antdv-pro',
   },
-
   stats: {
     stars: 864,
   },

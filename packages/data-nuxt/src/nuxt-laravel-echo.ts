@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'manchenkoff/nuxt-laravel-echo',
     npm: 'nuxt-laravel-echo',
   },
+  stats: {
+    stars: 39,
+    downloads: {
+      monthly: 5877,
+      weekly: 1082,
+    },
+  },
 })

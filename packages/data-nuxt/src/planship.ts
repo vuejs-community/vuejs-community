@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'planship/planship-nuxt',
     npm: '@planship/nuxt',
   },
+  stats: {
+    stars: 10,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

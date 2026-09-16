@@ -20,4 +20,7 @@ export default defineProjectMeta({
     github: 'TYPO3-Headless/nuxt-typo3',
     npm: '@t3headless/nuxt-typo3',
   },
+  stats: {
+    stars: 100,
+  },
 })

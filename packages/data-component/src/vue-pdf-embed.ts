@@ -5,14 +5,17 @@ export default defineProjectMeta({
   description: 'PDF 嵌入预览组件，Vue 2/3 通用',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['pdf', 'preview'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'pdf',
+    'preview',
+  ],
   source: {
     github: 'hrynko/vue-pdf-embed',
     npm: 'vue-pdf-embed',
   },
-
   links: {
     github: 'https://github.com/hrynko/vue-pdf-embed',
     npm: 'https://www.npmjs.com/package/vue-pdf-embed',

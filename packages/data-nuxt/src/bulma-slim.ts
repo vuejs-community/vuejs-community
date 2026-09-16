@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'mustardamus/nuxt-bulma-slim',
     npm: 'nuxt-bulma-slim',
   },
+  stats: {
+    stars: 46,
+    downloads: {
+      monthly: 68,
+      weekly: 11,
+    },
+  },
 })

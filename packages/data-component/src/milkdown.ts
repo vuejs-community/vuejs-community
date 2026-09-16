@@ -5,20 +5,23 @@ export default defineProjectMeta({
   description: '插件化 WYSIWYG Markdown 编辑器框架',
   icon: '',
   category: 'component',
-  types: ['editor'],
-  tags: ['markdown', 'wysiwyg'],
-
+  types: [
+    'editor',
+  ],
+  tags: [
+    'markdown',
+    'wysiwyg',
+  ],
   source: {
     github: 'Milkdown/milkdown',
     npm: '@milkdown/vue',
   },
-
   links: {
     github: 'https://github.com/Milkdown/milkdown',
     npm: 'https://www.npmjs.com/package/@milkdown/vue',
   },
   stats: {
-    stars: 11909,
+    stars: 11916,
     downloads: {
       monthly: 35123,
       weekly: 8629,

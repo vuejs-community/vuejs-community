@@ -5,20 +5,20 @@ export default defineProjectMeta({
   description: 'Ant Design Vue + Tailwind CSS 构建的后台模板',
   icon: '',
   category: 'admin',
-
-  types: ['admin-template'],
-
-  tags: ['ant-design-vue', 'tailwind'],
-
+  types: [
+    'admin-template',
+  ],
+  tags: [
+    'ant-design-vue',
+    'tailwind',
+  ],
   source: {
     github: 'stepui/stepin-template',
   },
-
   links: {
     github: 'https://github.com/stepui/stepin-template',
   },
-
   stats: {
-    stars: 491,
+    stars: 492,
   },
 })

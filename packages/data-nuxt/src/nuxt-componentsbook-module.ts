@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 's00d/nuxt-componentsbook-module',
     npm: 'nuxt-componentsbook-module',
   },
+  stats: {
+    stars: 4,
+    downloads: {
+      monthly: 89,
+      weekly: 6,
+    },
+  },
 })

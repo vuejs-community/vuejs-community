@@ -5,20 +5,22 @@ export default defineProjectMeta({
   description: '~3kB 零配置虚拟列表 / 网格，多框架支持',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['virtual-scroll'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'virtual-scroll',
+  ],
   source: {
     github: 'inokawa/virtua',
     npm: 'virtua',
   },
-
   links: {
     github: 'https://github.com/inokawa/virtua',
     npm: 'https://www.npmjs.com/package/virtua',
   },
   stats: {
-    stars: 3743,
+    stars: 3746,
     downloads: {
       monthly: 3825721,
       weekly: 742661,

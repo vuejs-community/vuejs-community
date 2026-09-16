@@ -5,21 +5,24 @@ export default defineProjectMeta({
   description: '全 TypeScript、主题可定制的 Vue 3 组件库',
   icon: 'logos:naiveui',
   category: 'ui',
-  types: ['ui-library'],
-  tags: ['ui', 'typescript'],
-
+  types: [
+    'ui-library',
+  ],
+  tags: [
+    'ui',
+    'typescript',
+  ],
   source: {
     github: 'tusen-ai/naive-ui',
     npm: 'naive-ui',
   },
-
   links: {
     github: 'https://github.com/tusen-ai/naive-ui',
     npm: 'https://www.npmjs.com/package/naive-ui',
     website: 'https://www.naiveui.com',
   },
   stats: {
-    stars: 18540,
+    stars: 18545,
     downloads: {
       monthly: 612245,
       weekly: 124525,

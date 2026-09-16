@@ -20,4 +20,7 @@ export default defineProjectMeta({
     github: 'nuxt-modules/ngrok',
     npm: '@nuxtjs/ngrok',
   },
+  stats: {
+    stars: 72,
+  },
 })

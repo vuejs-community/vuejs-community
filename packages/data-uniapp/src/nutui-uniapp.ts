@@ -5,19 +5,25 @@ export default defineProjectMeta({
   description: '京东风格 NutUI 的 uni-app + Vue3 社区版，轻量级移动端组件库，支持暗黑模式与按需引入',
   icon: '',
   category: 'uniapp',
-  types: ['ui-library', 'mobile-ui'],
-  tags: ['uni-app', 'vue3', 'ui', 'mobile', 'nutui'],
-
+  types: [
+    'ui-library',
+    'mobile-ui',
+  ],
+  tags: [
+    'uni-app',
+    'vue3',
+    'ui',
+    'mobile',
+    'nutui',
+  ],
   source: {
     github: 'nutui-uniapp/nutui-uniapp',
     npm: 'nutui-uniapp',
   },
-
   links: {
     github: 'https://github.com/nutui-uniapp/nutui-uniapp',
     npm: 'https://www.npmjs.com/package/nutui-uniapp',
   },
-
   stats: {
     stars: 559,
     downloads: {

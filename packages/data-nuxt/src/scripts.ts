@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt/scripts#main/packages/script',
     npm: '@nuxt/scripts',
   },
+  stats: {
+    stars: 584,
+    downloads: {
+      monthly: 905258,
+      weekly: 0,
+    },
+  },
 })

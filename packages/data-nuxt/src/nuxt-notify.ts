@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nizaamomer/nuxt-notify',
     npm: 'nuxt-notify',
   },
+  stats: {
+    stars: 14,
+    downloads: {
+      monthly: 653,
+      weekly: 89,
+    },
+  },
 })

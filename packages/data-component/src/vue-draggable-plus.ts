@@ -5,20 +5,22 @@ export default defineProjectMeta({
   description: '同时支持 Vue 2/3 的拖拽排序组件，vuedraggable 停更后的活跃替代品',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['drag-drop'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'drag-drop',
+  ],
   source: {
     github: 'Alfred-Skyblue/vue-draggable-plus',
     npm: 'vue-draggable-plus',
   },
-
   links: {
     github: 'https://github.com/Alfred-Skyblue/vue-draggable-plus',
     npm: 'https://www.npmjs.com/package/vue-draggable-plus',
   },
   stats: {
-    stars: 4017,
+    stars: 4016,
     downloads: {
       monthly: 1102456,
       weekly: 210522,

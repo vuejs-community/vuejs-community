@@ -5,14 +5,17 @@ export default defineProjectMeta({
   description: 'Lottie 动画的 Vue 3 组件封装',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['animation', 'lottie'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'animation',
+    'lottie',
+  ],
   source: {
     github: 'megasanjay/vue3-lottie',
     npm: 'vue3-lottie',
   },
-
   links: {
     github: 'https://github.com/megasanjay/vue3-lottie',
     npm: 'https://www.npmjs.com/package/vue3-lottie',

@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'gaetansenn/nuxt-loco',
     npm: 'nuxt-loco',
   },
+  stats: {
+    stars: 3,
+    downloads: {
+      monthly: 447,
+      weekly: 64,
+    },
+  },
 })

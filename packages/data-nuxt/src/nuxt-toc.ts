@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'thaikolja/nuxt-toc',
     npm: 'nuxt-toc',
   },
+  stats: {
+    stars: 11,
+    downloads: {
+      monthly: 180,
+      weekly: 26,
+    },
+  },
 })

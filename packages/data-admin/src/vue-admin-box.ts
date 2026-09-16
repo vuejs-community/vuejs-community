@@ -5,19 +5,18 @@ export default defineProjectMeta({
   description: '集成四套基础模板与大量可复用组件的 Element Plus 中后台系统',
   icon: '',
   category: 'admin',
-
-  types: ['admin-template'],
-
-  tags: ['element-plus'],
-
+  types: [
+    'admin-template',
+  ],
+  tags: [
+    'element-plus',
+  ],
   source: {
     github: 'cmdparkour/vue-admin-box',
   },
-
   links: {
     github: 'https://github.com/cmdparkour/vue-admin-box',
   },
-
   stats: {
     stars: 1843,
   },

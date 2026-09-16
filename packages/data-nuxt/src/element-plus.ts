@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'element-plus/element-plus-nuxt',
     npm: '@element-plus/nuxt',
   },
+  stats: {
+    stars: 175,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

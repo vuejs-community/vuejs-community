@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'davestewart/nuxt-content-assets',
     npm: 'nuxt-content-assets',
   },
+  stats: {
+    stars: 124,
+    downloads: {
+      monthly: 1273,
+      weekly: 138,
+    },
+  },
 })

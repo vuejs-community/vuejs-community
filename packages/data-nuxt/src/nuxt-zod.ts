@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'DarlanPrado/nuxt-zod',
     npm: 'nuxt-zod',
   },
+  stats: {
+    stars: 4,
+    downloads: {
+      monthly: 1302,
+      weekly: 370,
+    },
+  },
 })

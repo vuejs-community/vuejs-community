@@ -5,14 +5,17 @@ export default defineProjectMeta({
   description: '轻量、有主见的 UnoCSS Vue 3 UI 库',
   icon: 'icon:onu-ui',
   category: 'ui',
-  types: ['ui-library'],
-  tags: ['ui', 'unocss'],
-
+  types: [
+    'ui-library',
+  ],
+  tags: [
+    'ui',
+    'unocss',
+  ],
   source: {
     github: 'onu-ui/onu-ui',
     npm: 'onu-ui',
   },
-
   links: {
     github: 'https://github.com/onu-ui/onu-ui',
     npm: 'https://www.npmjs.com/package/onu-ui',

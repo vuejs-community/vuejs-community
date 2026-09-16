@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'agility/agilitycms-nuxt-module',
     npm: '@agility/agilitycms-nuxt-module',
   },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'egidiusmengelberg/nuxt-aos',
     npm: 'nuxt-aos',
   },
+  stats: {
+    stars: 79,
+    downloads: {
+      monthly: 9632,
+      weekly: 1668,
+    },
+  },
 })

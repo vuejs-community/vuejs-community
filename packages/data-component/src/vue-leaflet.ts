@@ -5,14 +5,16 @@ export default defineProjectMeta({
   description: 'Leaflet 的 Vue 3 组件',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['map'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'map',
+  ],
   source: {
     github: 'vue-leaflet/vue-leaflet',
     npm: '@vue-leaflet/vue-leaflet',
   },
-
   links: {
     github: 'https://github.com/vue-leaflet/vue-leaflet',
     npm: 'https://www.npmjs.com/package/@vue-leaflet/vue-leaflet',

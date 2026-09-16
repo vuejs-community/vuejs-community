@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'askdoppler/doppler-js#main/nuxt',
     npm: '@askdoppler/nuxt',
   },
+  stats: {
+    stars: 1,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'spektrummedia/nuxt-vue-multiselect',
     npm: 'nuxt-vue-multiselect',
   },
+  stats: {
+    stars: 29,
+    downloads: {
+      monthly: 3025,
+      weekly: 518,
+    },
+  },
 })

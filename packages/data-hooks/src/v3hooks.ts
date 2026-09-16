@@ -5,20 +5,23 @@ export default defineProjectMeta({
   description: '针对 Vue3 的实用Hooks集合',
   icon: 'dinkie-icons:hook',
   category: 'hooks',
-  types: ['composable-library'],
-  tags: ['hooks', 'composables', 'vue3'],
-
+  types: [
+    'composable-library',
+  ],
+  tags: [
+    'hooks',
+    'composables',
+    'vue3',
+  ],
   source: {
     github: 'yanzhandong/v3hooks',
     npm: 'v3hooks',
   },
-
   links: {
     github: 'https://github.com/yanzhandong/v3hooks',
     npm: 'https://www.npmjs.com/package/v3hooks',
     website: 'https://v3hooks.vercel.app',
   },
-
   stats: {
     stars: 222,
     downloads: {

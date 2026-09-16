@@ -5,14 +5,18 @@ export default defineProjectMeta({
   description: '腾讯 TDesign 的 Vue 3 移动端组件库',
   icon: 'tdesign:logo-tdesign',
   category: 'ui',
-  types: ['mobile-ui'],
-  tags: ['ui', 'mobile', 'tdesign'],
-
+  types: [
+    'mobile-ui',
+  ],
+  tags: [
+    'ui',
+    'mobile',
+    'tdesign',
+  ],
   source: {
     github: 'Tencent/tdesign-mobile-vue',
     npm: 'tdesign-mobile-vue',
   },
-
   links: {
     github: 'https://github.com/Tencent/tdesign-mobile-vue',
     npm: 'https://www.npmjs.com/package/tdesign-mobile-vue',

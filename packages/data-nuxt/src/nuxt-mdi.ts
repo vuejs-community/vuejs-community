@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'ERPedersen/nuxt-mdi',
     npm: 'nuxt-mdi',
   },
+  stats: {
+    stars: 17,
+    downloads: {
+      monthly: 3657,
+      weekly: 681,
+    },
+  },
 })

@@ -5,14 +5,17 @@ export default defineProjectMeta({
   description: '零依赖、高度可定制的 toast 通知系统',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['toast', 'notification'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'toast',
+    'notification',
+  ],
   source: {
     github: 'smastrom/notivue',
     npm: 'notivue',
   },
-
   links: {
     github: 'https://github.com/smastrom/notivue',
     npm: 'https://www.npmjs.com/package/notivue',

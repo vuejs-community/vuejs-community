@@ -5,24 +5,28 @@ export default defineProjectMeta({
   description: 'uni-helper 出品的 uni-app axios 适配器，全平台可用，Web 项目迁移 / axios 习惯党首选',
   icon: '',
   category: 'uniapp',
-  types: ['data-fetching'],
-  tags: ['uni-app', 'axios', 'request', 'http'],
-
+  types: [
+    'data-fetching',
+  ],
+  tags: [
+    'uni-app',
+    'axios',
+    'request',
+    'http',
+  ],
   source: {
     github: 'uni-helper/axios-adapter',
     npm: '@uni-helper/axios-adapter',
   },
-
   links: {
     github: 'https://github.com/uni-helper/axios-adapter',
     npm: 'https://www.npmjs.com/package/@uni-helper/axios-adapter',
   },
-
   stats: {
     stars: 58,
     downloads: {
-      monthly: 1070,
-      weekly: 141,
+      monthly: 0,
+      weekly: 0,
     },
   },
 })

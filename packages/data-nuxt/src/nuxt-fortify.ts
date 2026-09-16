@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'dev-charles15531/nuxt-fortify',
     npm: 'nuxt-fortify',
   },
+  stats: {
+    stars: 15,
+    downloads: {
+      monthly: 108,
+      weekly: 13,
+    },
+  },
 })

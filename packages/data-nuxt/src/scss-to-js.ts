@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'sugoidesune/nuxt-scss-to-js',
     npm: 'nuxt-scss-to-js',
   },
+  stats: {
+    stars: 27,
+    downloads: {
+      monthly: 72,
+      weekly: 12,
+    },
+  },
 })

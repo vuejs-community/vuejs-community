@@ -5,19 +5,19 @@ export default defineProjectMeta({
   description: 'FastAPI + Vue3 + Naive UI 的现代化轻量管理平台',
   icon: '',
   category: 'admin',
-
-  types: ['fullstack-template'],
-
-  tags: ['fastapi', 'naive-ui'],
-
+  types: [
+    'fullstack-template',
+  ],
+  tags: [
+    'fastapi',
+    'naive-ui',
+  ],
   source: {
     github: 'mizhexiaoxiao/vue-fastapi-admin',
   },
-
   links: {
     github: 'https://github.com/mizhexiaoxiao/vue-fastapi-admin',
   },
-
   stats: {
     stars: 2251,
   },

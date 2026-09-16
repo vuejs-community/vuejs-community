@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'madebyfabian/nuxt-calendly',
     npm: 'nuxt-calendly',
   },
+  stats: {
+    stars: 37,
+    downloads: {
+      monthly: 6828,
+      weekly: 747,
+    },
+  },
 })

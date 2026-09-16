@@ -5,19 +5,18 @@ export default defineProjectMeta({
   description: 'jzfai 出品的增强版极简后台框架，开箱即用',
   icon: '',
   category: 'admin',
-
-  types: ['admin-template'],
-
-  tags: ['element-plus'],
-
+  types: [
+    'admin-template',
+  ],
+  tags: [
+    'element-plus',
+  ],
   source: {
     github: 'jzfai/vue3-admin-plus',
   },
-
   links: {
     github: 'https://github.com/jzfai/vue3-admin-plus',
   },
-
   stats: {
     stars: 874,
   },

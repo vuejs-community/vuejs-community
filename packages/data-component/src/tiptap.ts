@@ -5,20 +5,23 @@ export default defineProjectMeta({
   description: 'Headless 富文本编辑器框架',
   icon: '',
   category: 'component',
-  types: ['editor'],
-  tags: ['rich-text', 'headless'],
-
+  types: [
+    'editor',
+  ],
+  tags: [
+    'rich-text',
+    'headless',
+  ],
   source: {
     github: 'ueberdosis/tiptap',
     npm: '@tiptap/vue-3',
   },
-
   links: {
     github: 'https://github.com/ueberdosis/tiptap',
     npm: 'https://www.npmjs.com/package/@tiptap/vue-3',
   },
   stats: {
-    stars: 38369,
+    stars: 38404,
     downloads: {
       monthly: 5918872,
       weekly: 1176869,

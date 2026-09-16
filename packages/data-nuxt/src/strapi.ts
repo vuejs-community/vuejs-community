@@ -20,4 +20,7 @@ export default defineProjectMeta({
     github: 'nuxt-modules/strapi',
     npm: '@nuxtjs/strapi',
   },
+  stats: {
+    stars: 717,
+  },
 })

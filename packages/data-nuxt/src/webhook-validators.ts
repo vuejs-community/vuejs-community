@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'yizack/nuxt-webhook-validators',
     npm: 'nuxt-webhook-validators',
   },
+  stats: {
+    stars: 53,
+    downloads: {
+      monthly: 1141,
+      weekly: 63,
+    },
+  },
 })

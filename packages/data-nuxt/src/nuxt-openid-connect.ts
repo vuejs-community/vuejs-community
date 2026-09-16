@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'aborn/nuxt-openid-connect',
     npm: 'nuxt-openid-connect',
   },
+  stats: {
+    stars: 42,
+    downloads: {
+      monthly: 395,
+      weekly: 94,
+    },
+  },
 })

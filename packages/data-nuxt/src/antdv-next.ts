@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'antdv-next/nuxt',
     npm: '@antdv-next/nuxt',
   },
+  stats: {
+    stars: 6,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

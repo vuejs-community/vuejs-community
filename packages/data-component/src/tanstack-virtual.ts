@@ -5,20 +5,23 @@ export default defineProjectMeta({
   description: 'Headless 虚拟滚动库，列表 / 网格通吃',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['virtual-scroll', 'headless'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'virtual-scroll',
+    'headless',
+  ],
   source: {
     github: 'TanStack/virtual',
     npm: '@tanstack/vue-virtual',
   },
-
   links: {
     github: 'https://github.com/TanStack/virtual',
     npm: 'https://www.npmjs.com/package/@tanstack/vue-virtual',
   },
   stats: {
-    stars: 7104,
+    stars: 7109,
     downloads: {
       monthly: 11912681,
       weekly: 2587665,

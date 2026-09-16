@@ -5,14 +5,16 @@ export default defineProjectMeta({
   description: 'ApexCharts 官方 Vue 3 组件',
   icon: '',
   category: 'component',
-  types: ['visualization'],
-  tags: ['chart'],
-
+  types: [
+    'visualization',
+  ],
+  tags: [
+    'chart',
+  ],
   source: {
     github: 'apexcharts/vue3-apexcharts',
     npm: 'vue3-apexcharts',
   },
-
   links: {
     github: 'https://github.com/apexcharts/vue3-apexcharts',
     npm: 'https://www.npmjs.com/package/vue3-apexcharts',

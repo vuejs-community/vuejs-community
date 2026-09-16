@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'lorexiq/nuxt-color-picker',
     npm: 'nuxt-color-picker',
   },
+  stats: {
+    stars: 15,
+    downloads: {
+      monthly: 11533,
+      weekly: 2887,
+    },
+  },
 })

@@ -20,4 +20,7 @@ export default defineProjectMeta({
     github: 'Tencent/tdesign-vue-next#main/packages/tdesign-vue-next-nuxt',
     npm: '@tdesign-vue-next/nuxt',
   },
+  stats: {
+    stars: 2180,
+  },
 })

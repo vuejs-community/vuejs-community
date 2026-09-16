@@ -5,20 +5,22 @@ export default defineProjectMeta({
   description: 'An animated number component for React, Vue, Svelte, and TS/JS.',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['animation'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'animation',
+  ],
   source: {
     github: 'barvian/number-flow',
     npm: '@number-flow/vue',
   },
-
   links: {
     github: 'https://github.com/barvian/number-flow',
     npm: 'https://www.npmjs.com/package/@number-flow/vue',
   },
   stats: {
-    stars: 7690,
+    stars: 7695,
     downloads: {
       monthly: 160361,
       weekly: 27666,

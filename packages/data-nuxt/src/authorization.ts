@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'barbapapazes/nuxt-authorization',
     npm: 'nuxt-authorization',
   },
+  stats: {
+    stars: 360,
+    downloads: {
+      monthly: 16681,
+      weekly: 3534,
+    },
+  },
 })

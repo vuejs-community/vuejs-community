@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-modules/google-adsense',
     npm: '@nuxtjs/google-adsense',
   },
+  stats: {
+    stars: 213,
+    downloads: {
+      monthly: 3838,
+      weekly: 0,
+    },
+  },
 })

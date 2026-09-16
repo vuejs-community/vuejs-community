@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-modules/plausible',
     npm: '@nuxtjs/plausible',
   },
+  stats: {
+    stars: 119,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

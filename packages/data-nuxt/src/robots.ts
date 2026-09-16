@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-modules/robots',
     npm: '@nuxtjs/robots',
   },
+  stats: {
+    stars: 526,
+    downloads: {
+      monthly: 847931,
+      weekly: 0,
+    },
+  },
 })

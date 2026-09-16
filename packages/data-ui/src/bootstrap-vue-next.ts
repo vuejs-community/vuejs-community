@@ -5,14 +5,17 @@ export default defineProjectMeta({
   description: 'Vue 3 + Bootstrap 5 + TypeScript 组件库',
   icon: '',
   category: 'ui',
-  types: ['ui-library'],
-  tags: ['ui', 'bootstrap'],
-
+  types: [
+    'ui-library',
+  ],
+  tags: [
+    'ui',
+    'bootstrap',
+  ],
   source: {
     github: 'bootstrap-vue-next/bootstrap-vue-next',
     npm: 'bootstrap-vue-next',
   },
-
   links: {
     github: 'https://github.com/bootstrap-vue-next/bootstrap-vue-next',
     npm: 'https://www.npmjs.com/package/bootstrap-vue-next',

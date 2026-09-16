@@ -5,20 +5,22 @@ export default defineProjectMeta({
   description: '国产开源富文本编辑器，作者已停止积极维护',
   icon: '',
   category: 'component',
-  types: ['editor'],
-  tags: ['rich-text'],
-
+  types: [
+    'editor',
+  ],
+  tags: [
+    'rich-text',
+  ],
   source: {
     github: 'wangeditor-team/wangEditor',
     npm: '@wangeditor/editor-for-vue',
   },
-
   links: {
     github: 'https://github.com/wangeditor-team/wangEditor',
     npm: 'https://www.npmjs.com/package/@wangeditor/editor-for-vue',
   },
   stats: {
-    stars: 18362,
+    stars: 18364,
     downloads: {
       monthly: 149876,
       weekly: 30275,

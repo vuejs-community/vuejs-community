@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'damevin/nuxt-module-hotjar',
     npm: 'nuxt-module-hotjar',
   },
+  stats: {
+    stars: 6,
+    downloads: {
+      monthly: 6628,
+      weekly: 1351,
+    },
+  },
 })

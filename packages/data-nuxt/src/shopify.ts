@@ -20,4 +20,7 @@ export default defineProjectMeta({
     github: 'nuxt-modules/shopify',
     npm: '@nuxtjs/shopify',
   },
+  stats: {
+    stars: 182,
+  },
 })

@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'vant-ui/vant-nuxt',
     npm: '@vant/nuxt',
   },
+  stats: {
+    stars: 96,
+    downloads: {
+      monthly: 9026,
+      weekly: 1384,
+    },
+  },
 })

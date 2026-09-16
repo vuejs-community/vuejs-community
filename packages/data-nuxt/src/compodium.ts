@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'romhml/compodium#main/packages/nuxt',
     npm: '@compodium/nuxt',
   },
+  stats: {
+    stars: 258,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

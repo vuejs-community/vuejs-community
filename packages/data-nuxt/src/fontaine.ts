@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-modules/fontaine',
     npm: '@nuxtjs/fontaine',
   },
+  stats: {
+    stars: 440,
+    downloads: {
+      monthly: 0,
+      weekly: 13790,
+    },
+  },
 })

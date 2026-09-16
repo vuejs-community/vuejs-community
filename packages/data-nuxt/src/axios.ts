@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-community/axios-module',
     npm: '@nuxtjs/axios',
   },
+  stats: {
+    stars: 1186,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

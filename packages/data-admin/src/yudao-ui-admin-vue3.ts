@@ -5,20 +5,21 @@ export default defineProjectMeta({
   description: '芋道管理后台前端，支持多租户、工作流、支付、商城、CRM 等业务模块',
   icon: '',
   category: 'admin',
-
-  types: ['admin-template'],
-
-  tags: ['element-plus', 'multi-tenant', 'springboot'],
-
+  types: [
+    'admin-template',
+  ],
+  tags: [
+    'element-plus',
+    'multi-tenant',
+    'springboot',
+  ],
   source: {
     github: 'yudaocode/yudao-ui-admin-vue3',
   },
-
   links: {
     github: 'https://github.com/yudaocode/yudao-ui-admin-vue3',
   },
-
   stats: {
-    stars: 3831,
+    stars: 3839,
   },
 })

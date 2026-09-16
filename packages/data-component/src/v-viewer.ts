@@ -5,14 +5,17 @@ export default defineProjectMeta({
   description: '基于 viewer.js 的图片查看器，支持旋转 / 缩放',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['image', 'viewer'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'image',
+    'viewer',
+  ],
   source: {
     github: 'mirari/v-viewer',
     npm: 'v-viewer',
   },
-
   links: {
     github: 'https://github.com/mirari/v-viewer',
     npm: 'https://www.npmjs.com/package/v-viewer',

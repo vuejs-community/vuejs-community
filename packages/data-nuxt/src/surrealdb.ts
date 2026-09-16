@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'sandros94/nuxt-surrealdb',
     npm: 'nuxt-surrealdb',
   },
+  stats: {
+    stars: 48,
+    downloads: {
+      monthly: 254,
+      weekly: 24,
+    },
+  },
 })

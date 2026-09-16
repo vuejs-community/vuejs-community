@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'MetaCorp/xui-module',
     npm: 'xui-module',
   },
+  stats: {
+    stars: 43,
+    downloads: {
+      monthly: 59,
+      weekly: 11,
+    },
+  },
 })

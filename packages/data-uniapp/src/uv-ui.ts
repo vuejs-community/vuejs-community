@@ -5,22 +5,27 @@ export default defineProjectMeta({
   description: '基于 uView2.x 二次开发的多端组件库，兼容 Vue2 + Vue3 与 app / h5 / 小程序全端，支持按需单独导入（已停止更新）',
   icon: '',
   category: 'uniapp',
-  types: ['ui-library', 'mobile-ui'],
-  tags: ['uni-app', 'vue3', 'ui', 'mobile'],
-
+  types: [
+    'ui-library',
+    'mobile-ui',
+  ],
+  tags: [
+    'uni-app',
+    'vue3',
+    'ui',
+    'mobile',
+  ],
   source: {
     github: 'climblee/uv-ui',
     npm: '@climblee/uv-ui',
   },
-
   links: {
     github: 'https://github.com/climblee/uv-ui',
     npm: 'https://www.npmjs.com/package/@climblee/uv-ui',
     website: 'https://uvui.cn',
   },
-
   stats: {
-    stars: 1349,
+    stars: 1350,
     downloads: {
       monthly: 1314,
       weekly: 310,

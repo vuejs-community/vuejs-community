@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'superdev-tech/nuxt-plotly',
     npm: 'nuxt-plotly',
   },
+  stats: {
+    stars: 32,
+    downloads: {
+      monthly: 3632,
+      weekly: 973,
+    },
+  },
 })

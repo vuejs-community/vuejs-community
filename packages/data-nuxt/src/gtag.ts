@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'johannschopplich/nuxt-gtag',
     npm: 'nuxt-gtag',
   },
+  stats: {
+    stars: 376,
+    downloads: {
+      monthly: 285452,
+      weekly: 52392,
+    },
+  },
 })

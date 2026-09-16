@@ -5,20 +5,21 @@ export default defineProjectMeta({
   description: '若依官方 Vue3 前端：SpringBoot + Element Plus 前后端分离权限管理系统',
   icon: '',
   category: 'admin',
-
-  types: ['admin-template'],
-
-  tags: ['element-plus', 'rbac', 'springboot'],
-
+  types: [
+    'admin-template',
+  ],
+  tags: [
+    'element-plus',
+    'rbac',
+    'springboot',
+  ],
   source: {
     github: 'yangzongzhuan/RuoYi-Vue3',
   },
-
   links: {
     github: 'https://github.com/yangzongzhuan/RuoYi-Vue3',
   },
-
   stats: {
-    stars: 6747,
+    stars: 6750,
   },
 })

@@ -5,20 +5,20 @@ export default defineProjectMeta({
   description: 'RBAC 权限系统、JSON Schema 动态表单 / 表格的 Ant Design Vue 后台',
   icon: '',
   category: 'admin',
-
-  types: ['admin-template'],
-
-  tags: ['ant-design-vue', 'rbac'],
-
+  types: [
+    'admin-template',
+  ],
+  tags: [
+    'ant-design-vue',
+    'rbac',
+  ],
   source: {
     github: 'buqiyuan/vue3-antdv-admin',
   },
-
   links: {
     github: 'https://github.com/buqiyuan/vue3-antdv-admin',
   },
-
   stats: {
-    stars: 4110,
+    stars: 4111,
   },
 })

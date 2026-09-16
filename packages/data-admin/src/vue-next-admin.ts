@@ -5,20 +5,20 @@ export default defineProjectMeta({
   description: '适配手机 / 平板 / PC 的免费 Element Plus 后台模板',
   icon: '',
   category: 'admin',
-
-  types: ['admin-template'],
-
-  tags: ['element-plus', 'mobile'],
-
+  types: [
+    'admin-template',
+  ],
+  tags: [
+    'element-plus',
+    'mobile',
+  ],
   source: {
     github: 'lyt-Top/vue-next-admin',
   },
-
   links: {
     github: 'https://github.com/lyt-Top/vue-next-admin',
   },
-
   stats: {
-    stars: 2165,
+    stars: 2164,
   },
 })

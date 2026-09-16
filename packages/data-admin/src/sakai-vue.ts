@@ -5,19 +5,19 @@ export default defineProjectMeta({
   description: 'PrimeVue 官方免费后台模板，设计现代',
   icon: '',
   category: 'admin',
-
-  types: ['admin-template'],
-
-  tags: ['primevue', 'official'],
-
+  types: [
+    'admin-template',
+  ],
+  tags: [
+    'primevue',
+    'official',
+  ],
   source: {
     github: 'primefaces/sakai-vue',
   },
-
   links: {
     github: 'https://github.com/primefaces/sakai-vue',
   },
-
   stats: {
     stars: 1135,
   },

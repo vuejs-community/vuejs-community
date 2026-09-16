@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'filipsobol/sonda#release/packages/sonda',
     npm: 'sonda',
   },
+  stats: {
+    stars: 786,
+    downloads: {
+      monthly: 581396,
+      weekly: 131044,
+    },
+  },
 })

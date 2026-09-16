@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'ben-rogerson/nuxt-seomatic-meta',
     npm: 'nuxt-seomatic-meta',
   },
+  stats: {
+    stars: 32,
+    downloads: {
+      monthly: 504,
+      weekly: 84,
+    },
+  },
 })

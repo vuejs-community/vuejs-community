@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-modules/html-validator',
     npm: '@nuxtjs/html-validator',
   },
+  stats: {
+    stars: 201,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

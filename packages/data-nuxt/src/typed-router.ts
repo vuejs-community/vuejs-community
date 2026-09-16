@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'victorgarciaesgi/nuxt-typed-router',
     npm: 'nuxt-typed-router',
   },
+  stats: {
+    stars: 413,
+    downloads: {
+      monthly: 51512,
+      weekly: 8356,
+    },
+  },
 })

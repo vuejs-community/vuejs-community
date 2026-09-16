@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'stefanobartoletti/nuxt-social-share',
     npm: '@stefanobartoletti/nuxt-social-share',
   },
+  stats: {
+    stars: 179,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

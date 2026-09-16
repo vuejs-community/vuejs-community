@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'modbender/nuxt-easy-lightbox',
     npm: 'nuxt-easy-lightbox',
   },
+  stats: {
+    stars: 15,
+    downloads: {
+      monthly: 8060,
+      weekly: 1753,
+    },
+  },
 })

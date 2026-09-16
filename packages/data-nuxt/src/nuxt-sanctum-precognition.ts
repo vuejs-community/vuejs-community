@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'manchenkoff/nuxt-sanctum-precognition',
     npm: 'nuxt-sanctum-precognition',
   },
+  stats: {
+    stars: 13,
+    downloads: {
+      monthly: 272,
+      weekly: 28,
+    },
+  },
 })

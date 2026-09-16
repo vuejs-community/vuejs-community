@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-community/fontawesome-module',
     npm: '@nuxtjs/fontawesome',
   },
+  stats: {
+    stars: 110,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

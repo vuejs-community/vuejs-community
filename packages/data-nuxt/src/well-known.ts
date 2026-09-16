@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'zadigetvoltaire/nuxt-well-known',
     npm: '@zadigetvoltaire/nuxt-well-known',
   },
+  stats: {
+    stars: 22,
+    downloads: {
+      monthly: 3460,
+      weekly: 1112,
+    },
+  },
 })

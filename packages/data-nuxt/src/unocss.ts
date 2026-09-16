@@ -20,4 +20,7 @@ export default defineProjectMeta({
     github: 'unocss/unocss#main/packages-integrations/nuxt',
     npm: '@unocss/nuxt',
   },
+  stats: {
+    stars: 18962,
+  },
 })

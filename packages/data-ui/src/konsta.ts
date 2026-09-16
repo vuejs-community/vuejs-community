@@ -5,14 +5,18 @@ export default defineProjectMeta({
   description: '基于 Tailwind CSS 的移动端（iOS / Material）组件',
   icon: 'icon:konsta',
   category: 'ui',
-  types: ['mobile-ui'],
-  tags: ['ui', 'mobile', 'tailwindcss'],
-
+  types: [
+    'mobile-ui',
+  ],
+  tags: [
+    'ui',
+    'mobile',
+    'tailwindcss',
+  ],
   source: {
     github: 'konstaui/konsta',
     npm: 'konsta',
   },
-
   links: {
     github: 'https://github.com/konstaui/konsta',
     npm: 'https://www.npmjs.com/package/konsta',

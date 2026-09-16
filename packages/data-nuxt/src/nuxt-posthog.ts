@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'mitjans/nuxt-posthog',
     npm: 'nuxt-posthog',
   },
+  stats: {
+    stars: 51,
+    downloads: {
+      monthly: 12551,
+      weekly: 3766,
+    },
+  },
 })

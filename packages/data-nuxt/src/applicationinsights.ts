@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-community/applicationinsights-module',
     npm: '@nuxtjs/applicationinsights',
   },
+  stats: {
+    stars: 18,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

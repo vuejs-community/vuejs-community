@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'morgbn/nuxt-csurf',
     npm: 'nuxt-csurf',
   },
+  stats: {
+    stars: 90,
+    downloads: {
+      monthly: 587517,
+      weekly: 113208,
+    },
+  },
 })

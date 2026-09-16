@@ -5,14 +5,17 @@ export default defineProjectMeta({
   description: '基于 Material Design 的模块化 Vue 3 UI 库',
   icon: '',
   category: 'ui',
-  types: ['ui-library'],
-  tags: ['ui', 'material-design'],
-
+  types: [
+    'ui-library',
+  ],
+  tags: [
+    'ui',
+    'material-design',
+  ],
   source: {
     github: 'balmjs/balm-ui',
     npm: 'balm-ui',
   },
-
   links: {
     github: 'https://github.com/balmjs/balm-ui',
     npm: 'https://www.npmjs.com/package/balm-ui',

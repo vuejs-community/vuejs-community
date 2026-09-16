@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'P4sca1/nuxt-headlessui',
     npm: 'nuxt-headlessui',
   },
+  stats: {
+    stars: 189,
+    downloads: {
+      monthly: 36588,
+      weekly: 7948,
+    },
+  },
 })

@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'bezumkin/nuxt-fontawesome',
     npm: '@vesp/nuxt-fontawesome',
   },
+  stats: {
+    stars: 11,
+    downloads: {
+      monthly: 23794,
+      weekly: 4741,
+    },
+  },
 })

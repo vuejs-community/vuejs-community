@@ -5,19 +5,18 @@ export default defineProjectMeta({
   description: '基于 Vue3 + TSX 的灵活后台方案',
   icon: '',
   category: 'admin',
-
-  types: ['admin-template'],
-
-  tags: ['tsx'],
-
+  types: [
+    'admin-template',
+  ],
+  tags: [
+    'tsx',
+  ],
   source: {
     github: 'manyuemeiquqi/vue-tsx-admin',
   },
-
   links: {
     github: 'https://github.com/manyuemeiquqi/vue-tsx-admin',
   },
-
   stats: {
     stars: 252,
   },

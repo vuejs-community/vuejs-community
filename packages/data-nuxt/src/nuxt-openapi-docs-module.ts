@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'on-org/nuxt-openapi-docs-module',
     npm: 'nuxt-openapi-docs-module',
   },
+  stats: {
+    stars: 37,
+    downloads: {
+      monthly: 700,
+      weekly: 239,
+    },
+  },
 })

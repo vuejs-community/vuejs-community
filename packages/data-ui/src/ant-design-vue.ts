@@ -5,21 +5,24 @@ export default defineProjectMeta({
   description: 'Ant Design 的 Vue 企业级组件库实现',
   icon: 'icon:ant-design-vue',
   category: 'ui',
-  types: ['ui-library'],
-  tags: ['ui', 'ant-design'],
-
+  types: [
+    'ui-library',
+  ],
+  tags: [
+    'ui',
+    'ant-design',
+  ],
   source: {
     github: 'vueComponent/ant-design-vue',
     npm: 'ant-design-vue',
   },
-
   links: {
     github: 'https://github.com/vueComponent/ant-design-vue',
     npm: 'https://www.npmjs.com/package/ant-design-vue',
     website: 'https://antdv.com',
   },
   stats: {
-    stars: 21649,
+    stars: 21651,
     downloads: {
       monthly: 829290,
       weekly: 141972,

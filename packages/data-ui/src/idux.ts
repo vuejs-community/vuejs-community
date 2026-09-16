@@ -5,14 +5,16 @@ export default defineProjectMeta({
   description: '企业级中后台 Vue 3.x 组件库',
   icon: 'icon:idux',
   category: 'ui',
-  types: ['ui-library'],
-  tags: ['ui'],
-
+  types: [
+    'ui-library',
+  ],
+  tags: [
+    'ui',
+  ],
   source: {
     github: 'IDuxFE/idux',
     npm: '@idux/components',
   },
-
   links: {
     github: 'https://github.com/IDuxFE/idux',
     npm: 'https://www.npmjs.com/package/@idux/components',

@@ -5,14 +5,16 @@ export default defineProjectMeta({
   description: 'vue-notification 的 Vue 3 版本',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['notification'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'notification',
+  ],
   source: {
     github: 'kyvg/vue3-notification',
     npm: 'vue3-notification',
   },
-
   links: {
     github: 'https://github.com/kyvg/vue3-notification',
     npm: 'https://www.npmjs.com/package/vue3-notification',
