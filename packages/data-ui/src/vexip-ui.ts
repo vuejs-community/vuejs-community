@@ -5,20 +5,23 @@ export default defineProjectMeta({
   description: '高度可定制、全 TypeScript 的 Vue 3 组件库',
   icon: 'icon:vexip-ui',
   category: 'ui',
-  types: ['ui-library'],
-  tags: ['ui', 'typescript'],
-
+  types: [
+    'ui-library',
+  ],
+  tags: [
+    'ui',
+    'typescript',
+  ],
   source: {
     github: 'vexip-ui/vexip-ui',
     npm: 'vexip-ui',
   },
-
   links: {
     github: 'https://github.com/vexip-ui/vexip-ui',
     npm: 'https://www.npmjs.com/package/vexip-ui',
   },
   stats: {
-    stars: 1899,
+    stars: 1900,
     downloads: {
       monthly: 6844,
       weekly: 554,

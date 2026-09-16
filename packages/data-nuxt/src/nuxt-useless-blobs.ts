@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'oyedejioyewole/nuxt-useless-blobs',
     npm: 'nuxt-useless-blobs',
   },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 99,
+      weekly: 27,
+    },
+  },
 })

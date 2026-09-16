@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: '50rayn/nuxt-bezier',
     npm: 'nuxt-bezier',
   },
+  stats: {
+    stars: 8,
+    downloads: {
+      monthly: 551,
+      weekly: 73,
+    },
+  },
 })

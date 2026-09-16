@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'DansMaCulotte/nuxt-zendesk',
     npm: '@dansmaculotte/nuxt-zendesk',
   },
+  stats: {
+    stars: 11,
+    downloads: {
+      monthly: 914,
+      weekly: 185,
+    },
+  },
 })

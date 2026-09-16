@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'unovue/shadcn-vue#dev/packages/module',
     npm: 'shadcn-nuxt',
   },
+  stats: {
+    stars: 10590,
+    downloads: {
+      monthly: 359182,
+      weekly: 66194,
+    },
+  },
 })

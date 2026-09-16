@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'prashantpalikhe/nuxt-ssr-lit',
     npm: 'nuxt-ssr-lit',
   },
+  stats: {
+    stars: 57,
+    downloads: {
+      monthly: 2084,
+      weekly: 437,
+    },
+  },
 })

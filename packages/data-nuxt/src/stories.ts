@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'richardeschloss/nuxt-stories',
     npm: 'nuxt-stories',
   },
+  stats: {
+    stars: 90,
+    downloads: {
+      monthly: 98,
+      weekly: 10,
+    },
+  },
 })

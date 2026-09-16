@@ -5,20 +5,24 @@ export default defineProjectMeta({
   description: '有限状态机驱动的多框架无头组件方案（含 Vue）',
   icon: 'icon:zag',
   category: 'ui',
-  types: ['headless-ui'],
-  tags: ['ui', 'headless-ui', 'state-machine'],
-
+  types: [
+    'headless-ui',
+  ],
+  tags: [
+    'ui',
+    'headless-ui',
+    'state-machine',
+  ],
   source: {
     github: 'chakra-ui/zag',
     npm: '@zag-js/vue',
   },
-
   links: {
     github: 'https://github.com/chakra-ui/zag',
     npm: 'https://www.npmjs.com/package/@zag-js/vue',
   },
   stats: {
-    stars: 5207,
+    stars: 5206,
     downloads: {
       monthly: 157179,
       weekly: 25541,

@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'tuarrep/nuxt-graphql-playground',
     npm: '@pin-pon/nuxt-graphql-playground',
   },
+  stats: {
+    stars: 4,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

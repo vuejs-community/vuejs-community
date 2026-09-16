@@ -5,14 +5,18 @@ export default defineProjectMeta({
   description: 'Radix UI Primitives 的 Vue 1:1 移植',
   icon: 'icon:oku-ui',
   category: 'ui',
-  types: ['headless-ui'],
-  tags: ['ui', 'headless-ui', 'radix'],
-
+  types: [
+    'headless-ui',
+  ],
+  tags: [
+    'ui',
+    'headless-ui',
+    'radix',
+  ],
   source: {
     github: 'oku-ui/primitives',
     npm: '@oku-ui/primitives',
   },
-
   links: {
     github: 'https://github.com/oku-ui/primitives',
     npm: 'https://www.npmjs.com/package/@oku-ui/primitives',

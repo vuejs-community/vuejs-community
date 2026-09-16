@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 's00d/nuxt-i18n-micro',
     npm: 'nuxt-i18n-micro',
   },
+  stats: {
+    stars: 251,
+    downloads: {
+      monthly: 24129,
+      weekly: 4541,
+    },
+  },
 })

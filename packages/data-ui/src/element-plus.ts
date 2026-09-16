@@ -5,21 +5,24 @@ export default defineProjectMeta({
   description: 'Element 团队出品的 Vue 3 UI 库',
   icon: 'icon:element-plus',
   category: 'ui',
-  types: ['ui-library'],
-  tags: ['ui', 'element'],
-
+  types: [
+    'ui-library',
+  ],
+  tags: [
+    'ui',
+    'element',
+  ],
   source: {
     github: 'element-plus/element-plus',
     npm: 'element-plus',
   },
-
   links: {
     github: 'https://github.com/element-plus/element-plus',
     npm: 'https://www.npmjs.com/package/element-plus',
     website: 'https://element-plus.org',
   },
   stats: {
-    stars: 27753,
+    stars: 27763,
     downloads: {
       monthly: 2574913,
       weekly: 498584,

@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-community/google-gtag-module',
     npm: '@nuxtjs/google-gtag',
   },
+  stats: {
+    stars: 147,
+    downloads: {
+      monthly: 17854,
+      weekly: 0,
+    },
+  },
 })

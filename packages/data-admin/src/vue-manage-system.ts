@@ -5,19 +5,18 @@ export default defineProjectMeta({
   description: 'Vue3 + Element Plus + TypeScript 的经典后台管理系统',
   icon: '',
   category: 'admin',
-
-  types: ['admin-template'],
-
-  tags: ['element-plus'],
-
+  types: [
+    'admin-template',
+  ],
+  tags: [
+    'element-plus',
+  ],
   source: {
     github: 'lin-xin/vue-manage-system',
   },
-
   links: {
     github: 'https://github.com/lin-xin/vue-manage-system',
   },
-
   stats: {
     stars: 19617,
   },

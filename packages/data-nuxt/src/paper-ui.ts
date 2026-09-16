@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'paper-kit/nuxt',
     npm: '@paper-ui/nuxt',
   },
+  stats: {
+    stars: 64,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

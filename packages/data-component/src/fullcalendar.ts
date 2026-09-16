@@ -5,14 +5,16 @@ export default defineProjectMeta({
   description: '全功能日历组件，官方 @fullcalendar/vue3 适配',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['calendar'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'calendar',
+  ],
   source: {
     github: 'fullcalendar/fullcalendar',
     npm: '@fullcalendar/vue3',
   },
-
   links: {
     github: 'https://github.com/fullcalendar/fullcalendar',
     npm: 'https://www.npmjs.com/package/@fullcalendar/vue3',
@@ -20,8 +22,8 @@ export default defineProjectMeta({
   stats: {
     stars: 20636,
     downloads: {
-      monthly: 0,
-      weekly: 0,
+      monthly: 777379,
+      weekly: 143983,
     },
   },
 })

@@ -5,18 +5,22 @@ export default defineProjectMeta({
   description: 'Aceternity UI 风格的 Vue / Nuxt 动效组件集（jsrepo 复制安装）',
   icon: 'icon:inspira-ui',
   category: 'ui',
-  types: ['ui-library'],
-  tags: ['ui', 'tailwindcss', 'animation'],
-
+  types: [
+    'ui-library',
+  ],
+  tags: [
+    'ui',
+    'tailwindcss',
+    'animation',
+  ],
   source: {
     github: 'unovue/inspira-ui',
   },
-
   links: {
     github: 'https://github.com/unovue/inspira-ui',
     website: 'https://inspira-ui.com',
   },
   stats: {
-    stars: 4979,
+    stars: 4987,
   },
 })

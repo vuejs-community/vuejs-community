@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'xlanex6/nuxt-meilisearch',
     npm: 'nuxt-meilisearch',
   },
+  stats: {
+    stars: 122,
+    downloads: {
+      monthly: 1818,
+      weekly: 321,
+    },
+  },
 })

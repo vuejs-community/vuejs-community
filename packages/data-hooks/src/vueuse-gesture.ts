@@ -5,20 +5,25 @@ export default defineProjectMeta({
   description: '🕹 Vue Composables making your app interactive',
   icon: 'logos:vueuse',
   category: 'hooks',
-  types: ['composable-library'],
-  tags: ['hooks', 'composables', 'gesture', 'interaction', 'vue3'],
-
+  types: [
+    'composable-library',
+  ],
+  tags: [
+    'hooks',
+    'composables',
+    'gesture',
+    'interaction',
+    'vue3',
+  ],
   source: {
     github: 'vueuse/gesture',
     npm: '@vueuse/gesture',
   },
-
   links: {
     github: 'https://github.com/vueuse/gesture',
     npm: 'https://www.npmjs.com/package/@vueuse/gesture',
     website: 'https://gesture.vueuse.org',
   },
-
   stats: {
     stars: 403,
     downloads: {

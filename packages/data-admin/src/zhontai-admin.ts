@@ -5,19 +5,19 @@ export default defineProjectMeta({
   description: '.NET + Vue3 + Element Plus 的前后端分离中台权限管理系统',
   icon: '',
   category: 'admin',
-
-  types: ['fullstack-template'],
-
-  tags: ['dotnet', 'element-plus'],
-
+  types: [
+    'fullstack-template',
+  ],
+  tags: [
+    'dotnet',
+    'element-plus',
+  ],
   source: {
     github: 'zhontai/Admin.Core',
   },
-
   links: {
     github: 'https://github.com/zhontai/Admin.Core',
   },
-
   stats: {
     stars: 1727,
   },

@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'tobiasdiez/nuxt-graphql-server',
     npm: 'nuxt-graphql-server',
   },
+  stats: {
+    stars: 41,
+    downloads: {
+      monthly: 1334,
+      weekly: 327,
+    },
+  },
 })

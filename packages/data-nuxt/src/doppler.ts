@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'JamieCurnow/nuxt-doppler',
     npm: 'nuxt-doppler',
   },
+  stats: {
+    stars: 6,
+    downloads: {
+      monthly: 1822,
+      weekly: 249,
+    },
+  },
 })

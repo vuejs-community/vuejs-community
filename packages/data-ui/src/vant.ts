@@ -5,14 +5,17 @@ export default defineProjectMeta({
   description: '有赞出品的高质量 Vue 移动端组件库',
   icon: '',
   category: 'ui',
-  types: ['mobile-ui'],
-  tags: ['ui', 'mobile'],
-
+  types: [
+    'mobile-ui',
+  ],
+  tags: [
+    'ui',
+    'mobile',
+  ],
   source: {
     github: 'youzan/vant',
     npm: 'vant',
   },
-
   links: {
     github: 'https://github.com/youzan/vant',
     npm: 'https://www.npmjs.com/package/vant',

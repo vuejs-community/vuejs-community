@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'janniks/vue-notion',
     npm: 'vue-notion',
   },
+  stats: {
+    stars: 920,
+    downloads: {
+      monthly: 4790,
+      weekly: 932,
+    },
+  },
 })

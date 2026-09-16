@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'Chris2011/nuxt-asciidoc',
     npm: 'nuxt-asciidoc',
   },
+  stats: {
+    stars: 4,
+    downloads: {
+      monthly: 64,
+      weekly: 8,
+    },
+  },
 })

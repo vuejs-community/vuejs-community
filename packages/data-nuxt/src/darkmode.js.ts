@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'sandoche/nuxtjs-darkmode-js-module#main',
     npm: 'nuxtjs-darkmode-js-module',
   },
+  stats: {
+    stars: 58,
+    downloads: {
+      monthly: 111,
+      weekly: 32,
+    },
+  },
 })

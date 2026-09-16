@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-community/dotenv-module',
     npm: '@nuxtjs/dotenv',
   },
+  stats: {
+    stars: 493,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

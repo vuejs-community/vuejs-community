@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-community/recaptcha-module',
     npm: '@nuxtjs/recaptcha',
   },
+  stats: {
+    stars: 255,
+    downloads: {
+      monthly: 57281,
+      weekly: 7879,
+    },
+  },
 })

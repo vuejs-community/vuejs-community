@@ -20,4 +20,7 @@ export default defineProjectMeta({
     github: 'TwicPics/components',
     npm: '@twicpics/components',
   },
+  stats: {
+    stars: 56,
+  },
 })

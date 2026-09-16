@@ -5,20 +5,23 @@ export default defineProjectMeta({
   description: '声明式 Three.js，用 Vue 组件构建 3D 场景',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['threejs', '3d'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'threejs',
+    '3d',
+  ],
   source: {
     github: 'Tresjs/tres',
     npm: '@tresjs/core',
   },
-
   links: {
     github: 'https://github.com/Tresjs/tres',
     npm: 'https://www.npmjs.com/package/@tresjs/core',
   },
   stats: {
-    stars: 3705,
+    stars: 3728,
     downloads: {
       monthly: 157230,
       weekly: 26927,

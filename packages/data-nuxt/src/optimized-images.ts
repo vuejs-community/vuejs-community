@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'juliomrqz/nuxt-optimized-images',
     npm: '@aceforth/nuxt-optimized-images',
   },
+  stats: {
+    stars: 827,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

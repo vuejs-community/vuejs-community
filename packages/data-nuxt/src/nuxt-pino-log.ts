@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'kpn/nuxt-pino-log',
     npm: 'nuxt-pino-log',
   },
+  stats: {
+    stars: 11,
+    downloads: {
+      monthly: 593,
+      weekly: 160,
+    },
+  },
 })

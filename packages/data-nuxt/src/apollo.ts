@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-modules/apollo',
     npm: '@nuxtjs/apollo',
   },
+  stats: {
+    stars: 986,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

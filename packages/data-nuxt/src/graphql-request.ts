@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'gomah/nuxt-graphql-request',
     npm: 'nuxt-graphql-request',
   },
+  stats: {
+    stars: 206,
+    downloads: {
+      monthly: 9122,
+      weekly: 1198,
+    },
+  },
 })

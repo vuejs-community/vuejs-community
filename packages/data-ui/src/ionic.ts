@@ -5,21 +5,26 @@ export default defineProjectMeta({
   description: '跨平台 iOS / Android / PWA UI 工具包，支持 Vue',
   icon: 'logos:ionic-icon',
   category: 'ui',
-  types: ['mobile-framework', 'ui-library'],
-  tags: ['ui', 'mobile', 'capacitor'],
-
+  types: [
+    'mobile-framework',
+    'ui-library',
+  ],
+  tags: [
+    'ui',
+    'mobile',
+    'capacitor',
+  ],
   source: {
     github: 'ionic-team/ionic-framework',
     npm: '@ionic/vue',
   },
-
   links: {
     github: 'https://github.com/ionic-team/ionic-framework',
     npm: 'https://www.npmjs.com/package/@ionic/vue',
     website: 'https://ionicframework.com',
   },
   stats: {
-    stars: 52664,
+    stars: 52665,
     downloads: {
       monthly: 233795,
       weekly: 45266,

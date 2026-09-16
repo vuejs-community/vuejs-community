@@ -5,14 +5,17 @@ export default defineProjectMeta({
   description: 'sonner 风格的 toast 组件，支持 Vue / Nuxt',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['toast', 'notification'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'toast',
+    'notification',
+  ],
   source: {
     github: 'xiaoluoboding/vue-sonner',
     npm: 'vue-sonner',
   },
-
   links: {
     github: 'https://github.com/xiaoluoboding/vue-sonner',
     npm: 'https://www.npmjs.com/package/vue-sonner',

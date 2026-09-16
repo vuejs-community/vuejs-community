@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'itpropro/nuxt-oidc-auth',
     npm: 'nuxt-oidc-auth',
   },
+  stats: {
+    stars: 165,
+    downloads: {
+      monthly: 22637,
+      weekly: 4094,
+    },
+  },
 })

@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'ndragun92/nuxt-music-flow',
     npm: 'nuxt-music-flow',
   },
+  stats: {
+    stars: 8,
+    downloads: {
+      monthly: 132,
+      weekly: 11,
+    },
+  },
 })

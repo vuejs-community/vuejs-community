@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'Hebilicious/form-actions-nuxt#main/packages/form-actions-nuxt',
     npm: '@hebilicious/form-actions-nuxt',
   },
+  stats: {
+    stars: 136,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

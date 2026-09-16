@@ -5,19 +5,19 @@ export default defineProjectMeta({
   description: '高性能、可定制的 Vue3 全栈式前端开发模板（Naive UI）',
   icon: '',
   category: 'admin',
-
-  types: ['admin-template'],
-
-  tags: ['naive-ui', 'monorepo'],
-
+  types: [
+    'admin-template',
+  ],
+  tags: [
+    'naive-ui',
+    'monorepo',
+  ],
   source: {
     github: 'kirklin/celeris-web',
   },
-
   links: {
     github: 'https://github.com/kirklin/celeris-web',
   },
-
   stats: {
     stars: 497,
   },

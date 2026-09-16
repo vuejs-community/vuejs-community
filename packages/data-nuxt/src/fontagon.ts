@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'kdydesign/nuxt-fontagon',
     npm: 'nuxt-fontagon',
   },
+  stats: {
+    stars: 19,
+    downloads: {
+      monthly: 314,
+      weekly: 87,
+    },
+  },
 })

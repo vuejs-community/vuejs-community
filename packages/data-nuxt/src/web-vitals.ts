@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-modules/web-vitals',
     npm: '@nuxtjs/web-vitals',
   },
+  stats: {
+    stars: 386,
+    downloads: {
+      monthly: 14845,
+      weekly: 2757,
+    },
+  },
 })

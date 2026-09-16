@@ -5,14 +5,17 @@ export default defineProjectMeta({
   description: '用于在打印前预览分页媒体布局的 Vue 组件库',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['preview', 'print'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'preview',
+    'print',
+  ],
   source: {
     github: 'pkc918/vue-paged-media',
     npm: 'vue-paged-media',
   },
-
   links: {
     github: 'https://github.com/pkc918/vue-paged-media',
     npm: 'https://www.npmjs.com/package/vue-paged-media',

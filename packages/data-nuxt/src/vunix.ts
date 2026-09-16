@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'gaetansenn/vunix#main/packages/nuxt',
     npm: '@vunix/nuxt',
   },
+  stats: {
+    stars: 66,
+    downloads: {
+      monthly: 66,
+      weekly: 5,
+    },
+  },
 })

@@ -5,20 +5,20 @@ export default defineProjectMeta({
   description: 'Soybean Admin 的 Element Plus 版本，rolldown-vite 构建',
   icon: '',
   category: 'admin',
-
-  types: ['admin-template'],
-
-  tags: ['element-plus', 'unocss'],
-
+  types: [
+    'admin-template',
+  ],
+  tags: [
+    'element-plus',
+    'unocss',
+  ],
   source: {
     github: 'soybeanjs/soybean-admin-element-plus',
   },
-
   links: {
     github: 'https://github.com/soybeanjs/soybean-admin-element-plus',
   },
-
   stats: {
-    stars: 390,
+    stars: 391,
   },
 })

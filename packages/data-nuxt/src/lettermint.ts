@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'lettermint/nuxt-lettermint',
     npm: 'nuxt-lettermint',
   },
+  stats: {
+    stars: 13,
+    downloads: {
+      monthly: 995,
+      weekly: 270,
+    },
+  },
 })

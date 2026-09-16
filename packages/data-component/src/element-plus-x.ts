@@ -5,20 +5,24 @@ export default defineProjectMeta({
   description: '面向 AI Chat 场景的 Vue 3 组件库（对话流、气泡、打字机等）',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['ai', 'chat', 'element-plus'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'ai',
+    'chat',
+    'element-plus',
+  ],
   source: {
     github: 'element-plus-x/Element-Plus-X',
     npm: 'vue-element-plus-x',
   },
-
   links: {
     github: 'https://github.com/element-plus-x/Element-Plus-X',
     npm: 'https://www.npmjs.com/package/vue-element-plus-x',
   },
   stats: {
-    stars: 1474,
+    stars: 1475,
     downloads: {
       monthly: 10230,
       weekly: 1547,

@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-modules/leaflet',
     npm: '@nuxtjs/leaflet',
   },
+  stats: {
+    stars: 169,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

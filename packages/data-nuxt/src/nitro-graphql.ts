@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'productdevbook/nitro-graphql',
     npm: 'nitro-graphql',
   },
+  stats: {
+    stars: 127,
+    downloads: {
+      monthly: 839,
+      weekly: 256,
+    },
+  },
 })

@@ -5,14 +5,16 @@ export default defineProjectMeta({
   description: 'CodeMirror 6 的 Vue 封装',
   icon: '',
   category: 'component',
-  types: ['editor'],
-  tags: ['code'],
-
+  types: [
+    'editor',
+  ],
+  tags: [
+    'code',
+  ],
   source: {
     github: 'surmon-china/vue-codemirror',
     npm: 'vue-codemirror',
   },
-
   links: {
     github: 'https://github.com/surmon-china/vue-codemirror',
     npm: 'https://www.npmjs.com/package/vue-codemirror',

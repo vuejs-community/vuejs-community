@@ -5,24 +5,28 @@ export default defineProjectMeta({
   description: 'uni-helper 出品的 UnoCSS 预设，专为 uni-app 多端兼容打造',
   icon: '',
   category: 'uniapp',
-  types: ['utility-library'],
-  tags: ['uni-app', 'vue3', 'unocss', 'css'],
-
+  types: [
+    'utility-library',
+  ],
+  tags: [
+    'uni-app',
+    'vue3',
+    'unocss',
+    'css',
+  ],
   source: {
     github: 'uni-helper/unocss-preset-uni',
     npm: '@uni-helper/unocss-preset-uni',
   },
-
   links: {
     github: 'https://github.com/uni-helper/unocss-preset-uni',
     npm: 'https://www.npmjs.com/package/@uni-helper/unocss-preset-uni',
   },
-
   stats: {
     stars: 128,
     downloads: {
-      monthly: 8556,
-      weekly: 2275,
+      monthly: 0,
+      weekly: 0,
     },
   },
 })

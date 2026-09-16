@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'polarsource/polar-adapters#main/packages/polar-nuxt',
     npm: '@polar-sh/nuxt',
   },
+  stats: {
+    stars: 146,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

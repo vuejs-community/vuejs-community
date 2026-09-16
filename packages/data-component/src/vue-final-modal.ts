@@ -5,14 +5,16 @@ export default defineProjectMeta({
   description: 'Renderless 弹窗组件，移动端友好',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['modal'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'modal',
+  ],
   source: {
     github: 'vue-final/vue-final-modal',
     npm: 'vue-final-modal',
   },
-
   links: {
     github: 'https://github.com/vue-final/vue-final-modal',
     npm: 'https://www.npmjs.com/package/vue-final-modal',

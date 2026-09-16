@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxtaid/nuxt-neo4j',
     npm: 'nuxt-neo4j',
   },
+  stats: {
+    stars: 17,
+    downloads: {
+      monthly: 289,
+      weekly: 68,
+    },
+  },
 })

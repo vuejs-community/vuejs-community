@@ -20,4 +20,7 @@ export default defineProjectMeta({
     github: 'nuxt-modules/tailwindcss',
     npm: '@nuxtjs/tailwindcss',
   },
+  stats: {
+    stars: 1868,
+  },
 })

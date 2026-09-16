@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-modules/mcp-toolkit#main/packages/nuxt-mcp-toolkit',
     npm: '@nuxtjs/mcp-toolkit',
   },
+  stats: {
+    stars: 175,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

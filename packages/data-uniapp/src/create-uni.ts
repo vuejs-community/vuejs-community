@@ -5,21 +5,25 @@ export default defineProjectMeta({
   description: 'uni-helper 出品的快速创建 uni-app 项目脚手架',
   icon: '',
   category: 'uniapp',
-  types: ['devtool'],
-  tags: ['uni-app', 'vue3', 'cli', 'scaffold'],
-
+  types: [
+    'devtool',
+  ],
+  tags: [
+    'uni-app',
+    'vue3',
+    'cli',
+    'scaffold',
+  ],
   source: {
     github: 'uni-helper/create-uni',
     npm: 'create-uni',
   },
-
   links: {
     github: 'https://github.com/uni-helper/create-uni',
     npm: 'https://www.npmjs.com/package/create-uni',
   },
-
   stats: {
-    stars: 308,
+    stars: 309,
     downloads: {
       monthly: 1555,
       weekly: 817,

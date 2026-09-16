@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-modules/sitemap',
     npm: '@nuxtjs/sitemap',
   },
+  stats: {
+    stars: 437,
+    downloads: {
+      monthly: 0,
+      weekly: 195701,
+    },
+  },
 })

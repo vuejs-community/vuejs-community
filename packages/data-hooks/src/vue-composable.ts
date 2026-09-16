@@ -5,20 +5,23 @@ export default defineProjectMeta({
   description: 'Vue composition-api composable components. i18n, validation, pagination, fetch, etc. +50 different composables',
   icon: 'icon:vue-composable',
   category: 'hooks',
-  types: ['composable-library'],
-  tags: ['hooks', 'composables', 'vue3'],
-
+  types: [
+    'composable-library',
+  ],
+  tags: [
+    'hooks',
+    'composables',
+    'vue3',
+  ],
   source: {
     github: 'pikax/vue-composable',
     npm: 'vue-composable',
   },
-
   links: {
     github: 'https://github.com/pikax/vue-composable',
     npm: 'https://www.npmjs.com/package/vue-composable',
     website: 'https://vue-composable.netlify.app',
   },
-
   stats: {
     stars: 1178,
     downloads: {

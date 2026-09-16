@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'dulnan/nuxt-graphql-middleware',
     npm: 'nuxt-graphql-middleware',
   },
+  stats: {
+    stars: 70,
+    downloads: {
+      monthly: 6390,
+      weekly: 1254,
+    },
+  },
 })

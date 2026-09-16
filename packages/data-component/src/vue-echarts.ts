@@ -5,20 +5,23 @@ export default defineProjectMeta({
   description: 'Apache ECharts 官方生态的 Vue 组件封装',
   icon: '',
   category: 'component',
-  types: ['visualization'],
-  tags: ['echarts', 'chart'],
-
+  types: [
+    'visualization',
+  ],
+  tags: [
+    'echarts',
+    'chart',
+  ],
   source: {
     github: 'ecomfe/vue-echarts',
     npm: 'vue-echarts',
   },
-
   links: {
     github: 'https://github.com/ecomfe/vue-echarts',
     npm: 'https://www.npmjs.com/package/vue-echarts',
   },
   stats: {
-    stars: 10754,
+    stars: 10756,
     downloads: {
       monthly: 1603775,
       weekly: 310918,

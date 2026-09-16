@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'potato4d/nuxt-client-init-module',
     npm: 'nuxt-client-init-module',
   },
+  stats: {
+    stars: 235,
+    downloads: {
+      monthly: 9680,
+      weekly: 1741,
+    },
+  },
 })

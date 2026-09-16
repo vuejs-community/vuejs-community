@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'JulianMar/nuxt-bugsnag',
     npm: 'nuxt-bugsnag',
   },
+  stats: {
+    stars: 49,
+    downloads: {
+      monthly: 15720,
+      weekly: 2651,
+    },
+  },
 })

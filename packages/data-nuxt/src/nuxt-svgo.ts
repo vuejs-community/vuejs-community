@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'cpsoinos/nuxt-svgo',
     npm: 'nuxt-svgo',
   },
+  stats: {
+    stars: 182,
+    downloads: {
+      monthly: 250691,
+      weekly: 48640,
+    },
+  },
 })

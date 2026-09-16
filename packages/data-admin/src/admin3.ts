@@ -5,19 +5,19 @@ export default defineProjectMeta({
   description: 'Java 21 + SpringBoot 3.2 + Vue3 + Element Plus 的轻巧后台框架',
   icon: '',
   category: 'admin',
-
-  types: ['fullstack-template'],
-
-  tags: ['springboot', 'element-plus'],
-
+  types: [
+    'fullstack-template',
+  ],
+  tags: [
+    'springboot',
+    'element-plus',
+  ],
   source: {
     github: 'cjbi/admin3',
   },
-
   links: {
     github: 'https://github.com/cjbi/admin3',
   },
-
   stats: {
     stars: 1677,
   },

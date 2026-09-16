@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'qirolab/nuxt-sanctum-authentication',
     npm: '@qirolab/nuxt-sanctum-authentication',
   },
+  stats: {
+    stars: 46,
+    downloads: {
+      monthly: 0,
+      weekly: 585,
+    },
+  },
 })

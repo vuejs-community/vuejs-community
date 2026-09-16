@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'artmizu/nuxt-prometheus',
     npm: '@artmizu/nuxt-prometheus',
   },
+  stats: {
+    stars: 94,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

@@ -5,23 +5,27 @@ export default defineProjectMeta({
   description: 'uni-helper 出品的 Vite 插件，为 uni-app 提供类 nuxt 的 layouts 系统',
   icon: '',
   category: 'uniapp',
-  types: ['vite-plugin'],
-  tags: ['uni-app', 'vue3', 'vite', 'layouts'],
-
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'uni-app',
+    'vue3',
+    'vite',
+    'layouts',
+  ],
   source: {
     github: 'uni-helper/vite-plugin-uni-layouts',
     npm: '@uni-helper/vite-plugin-uni-layouts',
   },
-
   links: {
     github: 'https://github.com/uni-helper/vite-plugin-uni-layouts',
     npm: 'https://www.npmjs.com/package/@uni-helper/vite-plugin-uni-layouts',
   },
-
   stats: {
     stars: 68,
     downloads: {
-      monthly: 7261,
+      monthly: 0,
       weekly: 1918,
     },
   },

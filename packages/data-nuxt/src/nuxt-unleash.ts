@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'conejerock/nuxt-unleash',
     npm: 'nuxt-unleash',
   },
+  stats: {
+    stars: 21,
+    downloads: {
+      monthly: 87,
+      weekly: 22,
+    },
+  },
 })

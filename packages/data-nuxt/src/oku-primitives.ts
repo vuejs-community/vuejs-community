@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'oku-ui/primitives#main/packages/core',
     npm: '@oku-ui/primitives',
   },
+  stats: {
+    stars: 891,
+    downloads: {
+      monthly: 3277,
+      weekly: 916,
+    },
+  },
 })

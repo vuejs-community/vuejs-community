@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxtaid/nuxt-pinecone',
     npm: 'nuxt-pinecone',
   },
+  stats: {
+    stars: 3,
+    downloads: {
+      monthly: 113,
+      weekly: 28,
+    },
+  },
 })

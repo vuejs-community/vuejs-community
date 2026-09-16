@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'sandros94/nuxt-pglite',
     npm: 'nuxt-pglite',
   },
+  stats: {
+    stars: 26,
+    downloads: {
+      monthly: 157,
+      weekly: 22,
+    },
+  },
 })

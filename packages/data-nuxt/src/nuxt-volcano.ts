@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'arashsheyda/nuxt-volcano',
     npm: 'nuxt-volcano',
   },
+  stats: {
+    stars: 1,
+    downloads: {
+      monthly: 303,
+      weekly: 68,
+    },
+  },
 })

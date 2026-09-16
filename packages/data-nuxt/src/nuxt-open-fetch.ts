@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'Norbiros/nuxt-open-fetch',
     npm: 'nuxt-open-fetch',
   },
+  stats: {
+    stars: 256,
+    downloads: {
+      monthly: 43386,
+      weekly: 7909,
+    },
+  },
 })

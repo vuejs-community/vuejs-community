@@ -5,19 +5,18 @@ export default defineProjectMeta({
   description: 'ThemeSelection 出品的 Vuetify 免费后台模板，另有付费 Pro 版',
   icon: '',
   category: 'admin',
-
-  types: ['admin-template'],
-
-  tags: ['vuetify'],
-
+  types: [
+    'admin-template',
+  ],
+  tags: [
+    'vuetify',
+  ],
   source: {
     github: 'themeselection/materio-vuetify-vuejs-admin-template-free',
   },
-
   links: {
     github: 'https://github.com/themeselection/materio-vuetify-vuejs-admin-template-free',
   },
-
   stats: {
     stars: 965,
   },

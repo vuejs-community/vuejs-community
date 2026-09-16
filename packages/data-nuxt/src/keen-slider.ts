@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'modbender/nuxt-keen-slider',
     npm: 'nuxt-keen-slider',
   },
+  stats: {
+    stars: 14,
+    downloads: {
+      monthly: 2515,
+      weekly: 730,
+    },
+  },
 })

@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-modules/prismic',
     npm: '@nuxtjs/prismic',
   },
+  stats: {
+    stars: 249,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

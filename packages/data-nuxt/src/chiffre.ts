@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'chiffre-io/nuxt-chiffre',
     npm: 'nuxt-chiffre',
   },
+  stats: {
+    stars: 3,
+    downloads: {
+      monthly: 91,
+      weekly: 7,
+    },
+  },
 })

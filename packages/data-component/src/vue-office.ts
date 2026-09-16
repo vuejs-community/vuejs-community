@@ -5,20 +5,23 @@ export default defineProjectMeta({
   description: 'docx / xlsx / pdf / pptx 文件预览组件集合，Vue 2/3 通吃',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['preview', 'office'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'preview',
+    'office',
+  ],
   source: {
     github: '501351981/vue-office',
     npm: '@vue-office/docx',
   },
-
   links: {
     github: 'https://github.com/501351981/vue-office',
     npm: 'https://www.npmjs.com/package/@vue-office/docx',
   },
   stats: {
-    stars: 5726,
+    stars: 5731,
     downloads: {
       monthly: 70318,
       weekly: 13897,

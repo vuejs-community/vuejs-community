@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'vueuse/vueuse#main/packages/nuxt',
     npm: '@vueuse/nuxt',
   },
+  stats: {
+    stars: 22356,
+    downloads: {
+      monthly: 2025505,
+      weekly: 383220,
+    },
+  },
 })

@@ -5,23 +5,25 @@ export default defineProjectMeta({
   description: '表单框架，schema 生成表单、40+ 输入类型',
   icon: '',
   category: 'component',
-  types: ['form-library'],
-  tags: ['schema'],
-
+  types: [
+    'form-library',
+  ],
+  tags: [
+    'schema',
+  ],
   source: {
     github: 'formkit/formkit',
     npm: '@formkit/vue',
   },
-
   links: {
     github: 'https://github.com/formkit/formkit',
     npm: 'https://www.npmjs.com/package/@formkit/vue',
   },
   stats: {
-    stars: 4762,
+    stars: 4763,
     downloads: {
-      monthly: 0,
-      weekly: 0,
+      monthly: 470408,
+      weekly: 93430,
     },
   },
 })

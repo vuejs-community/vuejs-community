@@ -5,14 +5,17 @@ export default defineProjectMeta({
   description: '可拖拽 + 可缩放元素组件',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['drag-drop', 'resizable'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'drag-drop',
+    'resizable',
+  ],
   source: {
     github: 'mauricius/vue-draggable-resizable',
     npm: 'vue-draggable-resizable',
   },
-
   links: {
     github: 'https://github.com/mauricius/vue-draggable-resizable',
     npm: 'https://www.npmjs.com/package/vue-draggable-resizable',

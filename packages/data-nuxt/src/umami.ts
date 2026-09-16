@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'ijkml/nuxt-umami',
     npm: 'nuxt-umami',
   },
+  stats: {
+    stars: 136,
+    downloads: {
+      monthly: 12752,
+      weekly: 1893,
+    },
+  },
 })

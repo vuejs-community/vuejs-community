@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'vueform/builder#main/nuxt',
     npm: '@vueform/builder-nuxt',
   },
+  stats: {
+    stars: 715,
+    downloads: {
+      monthly: 358,
+      weekly: 146,
+    },
+  },
 })

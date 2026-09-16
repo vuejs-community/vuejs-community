@@ -5,21 +5,25 @@ export default defineProjectMeta({
   description: '面向 AI 聊天场景的 Vue 流式 Markdown 渲染器，支持 Mermaid、KaTeX 与代码块',
   icon: '',
   category: 'component',
-  types: ['component-library'],
-  tags: ['markdown', 'ai', 'streaming'],
-
+  types: [
+    'component-library',
+  ],
+  tags: [
+    'markdown',
+    'ai',
+    'streaming',
+  ],
   source: {
     github: 'Simon-He95/markstream-vue',
     npm: 'markstream-vue',
   },
-
   links: {
     github: 'https://github.com/Simon-He95/markstream-vue',
     npm: 'https://www.npmjs.com/package/markstream-vue',
     website: 'https://markstream.simonhe.me',
   },
   stats: {
-    stars: 3005,
+    stars: 3010,
     downloads: {
       monthly: 127596,
       weekly: 24758,

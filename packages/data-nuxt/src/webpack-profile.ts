@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-community/webpack-profile-module',
     npm: '@nuxtjs/webpack-profile',
   },
+  stats: {
+    stars: 8,
+    downloads: {
+      monthly: 2284,
+      weekly: 319,
+    },
+  },
 })

@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'Mini-ghost/nuxt-svgo-loader',
     npm: 'nuxt-svgo-loader',
   },
+  stats: {
+    stars: 27,
+    downloads: {
+      monthly: 20097,
+      weekly: 4017,
+    },
+  },
 })

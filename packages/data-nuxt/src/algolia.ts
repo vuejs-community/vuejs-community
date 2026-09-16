@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-modules/algolia',
     npm: '@nuxtjs/algolia',
   },
+  stats: {
+    stars: 203,
+    downloads: {
+      monthly: 0,
+      weekly: 0,
+    },
+  },
 })

@@ -20,4 +20,11 @@ export default defineProjectMeta({
     github: 'nuxt-community/imagemin-module',
     npm: '@nuxtjs/imagemin',
   },
+  stats: {
+    stars: 50,
+    downloads: {
+      monthly: 533,
+      weekly: 64,
+    },
+  },
 })
