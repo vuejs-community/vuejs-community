@@ -19,6 +19,6 @@ export default defineProjectMeta({
     github: 'https://github.com/macrozheng/mall-admin-web',
   },
   stats: {
-    stars: 12629,
+    stars: 12630,
   },
 })

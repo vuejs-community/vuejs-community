@@ -1,0 +1,39 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'unplugin-stylex',
+  description: 'Unplugin for stylex',
+  icon: 'icon:dark-unplugin',
+  category: 'plugin',
+  types: [
+    'unplugin',
+  ],
+  tags: [
+    'unplugin',
+    'stylex',
+    'stylex-plugin',
+    'farm',
+    'esbuild',
+    'rolldown',
+    'rollup',
+    'rspack',
+    'svelte',
+    'vite',
+  ],
+  source: {
+    github: 'eryue0220/unplugin-stylex',
+    npm: 'unplugin-stylex',
+  },
+  links: {
+    github: 'https://github.com/eryue0220/unplugin-stylex',
+    npm: 'https://www.npmjs.com/package/unplugin-stylex',
+    website: 'https://github.com/eryue0220/unplugin-stylex#readme',
+  },
+  stats: {
+    stars: 29,
+    downloads: {
+      monthly: 4490,
+      weekly: 1448,
+    },
+  },
+})

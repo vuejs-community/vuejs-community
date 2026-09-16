@@ -1,0 +1,36 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'unplugin-dby-element-plus',
+  description: '<p align="center">   <img width="300px" src="https://user-images.githubusercontent.com/10731096/95823103-9ce15780-0d5f-11eb-8010-1bd1b5910d4f.png"> </p>',
+  icon: 'icon:dark-unplugin',
+  category: 'plugin',
+  types: [
+    'unplugin',
+  ],
+  tags: [
+    'dby-element-plus',
+    'unplugin',
+    'vite',
+    'webpack',
+    'rollup',
+    'esbuild',
+    'plugin',
+  ],
+  source: {
+    github: 'element-plus/unplugin-element-plus',
+    npm: 'unplugin-dby-element-plus',
+  },
+  links: {
+    github: 'https://github.com/element-plus/unplugin-element-plus',
+    npm: 'https://www.npmjs.com/package/unplugin-dby-element-plus',
+    website: 'https://github.com/element-plus/unplugin-element-plus/tree/main/#readme',
+  },
+  stats: {
+    stars: 252,
+    downloads: {
+      monthly: 10,
+      weekly: 2,
+    },
+  },
+})

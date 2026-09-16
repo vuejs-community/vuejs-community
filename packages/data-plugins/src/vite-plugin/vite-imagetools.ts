@@ -1,0 +1,34 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'vite-imagetools',
+  description: 'Load and transform images using a toolbox of import directives!',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'resize-images',
+    'responsive-images',
+    'vite',
+    'image',
+    'vite-plugin',
+  ],
+  source: {
+    github: 'JonasKruckenberg/imagetools',
+    npm: 'vite-imagetools',
+  },
+  links: {
+    github: 'https://github.com/JonasKruckenberg/imagetools',
+    npm: 'https://www.npmjs.com/package/vite-imagetools',
+    website: 'https://github.com/JonasKruckenberg/imagetools/tree/main/packages/vite',
+  },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 1032920,
+      weekly: 215048,
+    },
+  },
+})

@@ -1,0 +1,43 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: '@adaptive-bundle/vite-plugin',
+  description: 'Vite plugin for device-aware bundle optimization — analyzes dependencies, splits chunks by device tier, generates reports, and enforces CI budgets.',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'adaptive-loading',
+    'device-aware',
+    'bundle-optimization',
+    'performance',
+    'adaptive-bundle',
+    'vite',
+    'vite-plugin',
+    'rollup',
+    'code-splitting',
+    'chunk-isolation',
+    'build-analysis',
+    'bundle-size',
+    'ci-budgets',
+    'preload-hints',
+  ],
+  source: {
+    github: 'Pizanjavier/adaptive',
+    npm: '@adaptive-bundle/vite-plugin',
+  },
+  links: {
+    github: 'https://github.com/Pizanjavier/adaptive',
+    npm: 'https://www.npmjs.com/package/@adaptive-bundle/vite-plugin',
+    website: 'https://github.com/Pizanjavier/adaptive/tree/main/packages/vite-plugin',
+  },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 20,
+      weekly: 4,
+    },
+  },
+})

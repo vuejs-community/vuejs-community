@@ -21,7 +21,7 @@ export default defineProjectMeta({
     npm: 'https://www.npmjs.com/package/balm-ui',
   },
   stats: {
-    stars: 510,
+    stars: 509,
     downloads: {
       monthly: 2106,
       weekly: 473,

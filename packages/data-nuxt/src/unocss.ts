@@ -21,6 +21,6 @@ export default defineProjectMeta({
     npm: '@unocss/nuxt',
   },
   stats: {
-    stars: 18962,
+    stars: 18960,
   },
 })

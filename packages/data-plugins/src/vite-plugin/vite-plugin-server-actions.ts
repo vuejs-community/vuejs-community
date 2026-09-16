@@ -1,0 +1,46 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'vite-plugin-server-actions',
+  description: 'Server actions for Vite - call backend functions directly from your frontend with automatic API generation, TypeScript support, and zero configuration',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'vite',
+    'vite-plugin',
+    'server-actions',
+    'server',
+    'backend',
+    'api',
+    'rpc',
+    'typescript',
+    'openapi',
+    'swagger',
+    'validation',
+    'zod',
+    'full-stack',
+    'serverless',
+    'functions',
+    'middleware',
+    'express',
+  ],
+  source: {
+    github: 'HelgeSverre/vite-plugin-server-actions',
+    npm: 'vite-plugin-server-actions',
+  },
+  links: {
+    github: 'https://github.com/HelgeSverre/vite-plugin-server-actions',
+    npm: 'https://www.npmjs.com/package/vite-plugin-server-actions',
+    website: 'https://serveractions.dev',
+  },
+  stats: {
+    stars: 31,
+    downloads: {
+      monthly: 600,
+      weekly: 54,
+    },
+  },
+})

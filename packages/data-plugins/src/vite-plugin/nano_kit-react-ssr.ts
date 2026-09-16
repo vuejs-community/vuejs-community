@@ -1,0 +1,37 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: '@nano_kit/react-ssr',
+  description: 'The React adapter for server-side rendering in Nano Kit.',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'router',
+    'routing',
+    'navigation',
+    'vite',
+    'vite-plugin',
+    'ssr',
+    'nano_kit',
+    'react',
+  ],
+  source: {
+    github: 'TrigenSoftware/nano_kit',
+    npm: '@nano_kit/react-ssr',
+  },
+  links: {
+    github: 'https://github.com/TrigenSoftware/nano_kit',
+    npm: 'https://www.npmjs.com/package/@nano_kit/react-ssr',
+    website: 'https://nano-kit.js.org/integrations/react-ssr',
+  },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 425,
+      weekly: 240,
+    },
+  },
+})

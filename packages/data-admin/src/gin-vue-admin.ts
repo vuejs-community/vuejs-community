@@ -21,6 +21,6 @@ export default defineProjectMeta({
     github: 'https://github.com/flipped-aurora/gin-vue-admin',
   },
   stats: {
-    stars: 25013,
+    stars: 25014,
   },
 })

@@ -1,0 +1,37 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'rollup-plugin-webpack-stats',
+  description: 'Rollup/Vite/Rolldown plugin to generate a stats JSON file with a bundle-stats webpack-compatible structure',
+  icon: 'logos:rollupjs',
+  category: 'plugin',
+  types: [
+    'rollup-plugin',
+  ],
+  tags: [
+    'vite',
+    'rolldown',
+    'rollup',
+    'vite-plugin',
+    'rolldown-plugin',
+    'rollup-plugin',
+    'stats',
+    'bundle-stats',
+  ],
+  source: {
+    github: 'relative-ci/rollup-plugin-webpack-stats',
+    npm: 'rollup-plugin-webpack-stats',
+  },
+  links: {
+    github: 'https://github.com/relative-ci/rollup-plugin-webpack-stats',
+    npm: 'https://www.npmjs.com/package/rollup-plugin-webpack-stats',
+    website: 'https://github.com/relative-ci/rollup-plugin-webpack-stats/blob/master/#readme',
+  },
+  stats: {
+    stars: 7,
+    downloads: {
+      monthly: 1007517,
+      weekly: 184817,
+    },
+  },
+})

@@ -1,0 +1,45 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'vite-plugin-uni-custom-routes',
+  description: 'Custom short routes for uni-app H5 pages',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'vite',
+    'vite-plugin',
+    'uni-app',
+    'uniapp',
+    'h5',
+    'short-route',
+    'short-routes',
+    'custom-routes',
+    'url-rewrite',
+    'redirect',
+    'redirects',
+    'dcloudio',
+    'vue',
+    'vue3',
+    '短路由',
+    '自定义路由',
+  ],
+  source: {
+    github: 'refinist/vite-plugin-uni-custom-routes',
+    npm: 'vite-plugin-uni-custom-routes',
+  },
+  links: {
+    github: 'https://github.com/refinist/vite-plugin-uni-custom-routes',
+    npm: 'https://www.npmjs.com/package/vite-plugin-uni-custom-routes',
+    website: 'https://github.com/refinist/vite-plugin-uni-custom-routes#readme',
+  },
+  stats: {
+    stars: 2,
+    downloads: {
+      monthly: 18,
+      weekly: 4,
+    },
+  },
+})

@@ -1,0 +1,39 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'vite-plugin-specifier',
+  description: 'Vite plugin to update your ESM and CJS specifiers.',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'vite-plugin',
+    'rollup-plugin',
+    'specifiers',
+    'esm',
+    'cjs',
+    '.d.ts',
+    'rename',
+    'extensions',
+    'writeBundle',
+    'transform',
+  ],
+  source: {
+    github: 'morganney/vite-plugin-specifier',
+    npm: 'vite-plugin-specifier',
+  },
+  links: {
+    github: 'https://github.com/morganney/vite-plugin-specifier',
+    npm: 'https://www.npmjs.com/package/vite-plugin-specifier',
+    website: 'https://github.com/morganney/vite-plugin-specifier#readme',
+  },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 26,
+      weekly: 3,
+    },
+  },
+})

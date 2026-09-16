@@ -1,0 +1,33 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'rollup-plugin-cp',
+  description: 'Simple plugin for copynig files to a new destincation',
+  icon: 'logos:rollupjs',
+  category: 'plugin',
+  types: [
+    'rollup-plugin',
+  ],
+  tags: [
+    'rollup',
+    'copy',
+    'plugin',
+    'rollup-plugin',
+  ],
+  source: {
+    github: 'sly-x86/rollup-plugin-cp',
+    npm: 'rollup-plugin-cp',
+  },
+  links: {
+    github: 'https://github.com/sly-x86/rollup-plugin-cp',
+    npm: 'https://www.npmjs.com/package/rollup-plugin-cp',
+    website: 'https://github.com/sly-x86/rollup-plugin-cp#readme',
+  },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 15,
+      weekly: 3,
+    },
+  },
+})

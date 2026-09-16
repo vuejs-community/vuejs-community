@@ -19,6 +19,6 @@ export default defineProjectMeta({
     github: 'https://github.com/pure-admin/vue-pure-admin',
   },
   stats: {
-    stars: 20625,
+    stars: 20629,
   },
 })

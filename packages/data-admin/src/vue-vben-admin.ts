@@ -21,6 +21,6 @@ export default defineProjectMeta({
     github: 'https://github.com/vbenjs/vue-vben-admin',
   },
   stats: {
-    stars: 33459,
+    stars: 33463,
   },
 })

@@ -1,0 +1,57 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'vite-plugin-react-splash',
+  description: 'Vite plugin + React hook for splash screens and loading screens in React apps and PWAs. Light/dark themes, animations, show-once, and standalone mode.',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'vite',
+    'vite-plugin',
+    'vite plugin',
+    'react',
+    'reactjs',
+    'splash',
+    'splash-screen',
+    'splash screen',
+    'loading',
+    'loading-screen',
+    'loading screen',
+    'boot-screen',
+    'launch-screen',
+    'intro-screen',
+    'pwa',
+    'progressive-web-app',
+    'standalone',
+    'theme',
+    'dark-mode',
+    'light-mode',
+    'animation',
+    'svg-animation',
+    'html-injection',
+    'react-hook',
+    'useSplashScreen',
+    'vite-react',
+    'frontend',
+    'ui',
+  ],
+  source: {
+    github: 'mohamadgarmabi/vite-plugin-react-splash',
+    npm: 'vite-plugin-react-splash',
+  },
+  links: {
+    github: 'https://github.com/mohamadgarmabi/vite-plugin-react-splash',
+    npm: 'https://www.npmjs.com/package/vite-plugin-react-splash',
+    website: 'https://github.com/mohamadgarmabi/vite-plugin-react-splash#readme',
+  },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 565,
+      weekly: 126,
+    },
+  },
+})

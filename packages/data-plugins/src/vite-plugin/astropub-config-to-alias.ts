@@ -1,0 +1,55 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: '@astropub/config-to-alias',
+  description: 'Add aliasing support to Astro, JavaScript, TypeScript, and CSS files from tsconfig.json or jsconfig.json',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'alias',
+    'aliases',
+    'astro',
+    'astro-plugin',
+    'config',
+    'configuration',
+    'file',
+    'files',
+    'import',
+    'imports',
+    'path',
+    'paths',
+    'plugin',
+    'javascript',
+    'js',
+    'jsconfig',
+    'json',
+    'renderer',
+    'resolve',
+    'script',
+    'ts',
+    'tsconfig',
+    'typescript',
+    'vite',
+    'vite-plugin',
+    'withastro',
+  ],
+  source: {
+    github: 'astro-community/config-to-alias',
+    npm: '@astropub/config-to-alias',
+  },
+  links: {
+    github: 'https://github.com/astro-community/config-to-alias',
+    npm: 'https://www.npmjs.com/package/@astropub/config-to-alias',
+    website: 'https://github.com/astro-community/config-to-alias/#readme',
+  },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 42,
+      weekly: 5,
+    },
+  },
+})

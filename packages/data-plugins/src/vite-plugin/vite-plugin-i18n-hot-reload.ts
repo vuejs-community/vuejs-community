@@ -1,0 +1,32 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'vite-plugin-i18n-hot-reload',
+  description: 'I18n hot reload plugin for vite. this package was developed by José Silva Oliveira, this is just a republish',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'vite-plugin',
+    'i18n',
+    'hot-reload',
+  ],
+  source: {
+    github: 'jdaoliveiraprograming/vite-plugin-i18n-hot-reload',
+    npm: 'vite-plugin-i18n-hot-reload',
+  },
+  links: {
+    github: 'https://github.com/jdaoliveiraprograming/vite-plugin-i18n-hot-reload',
+    npm: 'https://www.npmjs.com/package/vite-plugin-i18n-hot-reload',
+    website: 'https://github.com/jdaoliveiraprograming/vite-plugin-i18n-hot-reload#readme',
+  },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 26,
+      weekly: 3,
+    },
+  },
+})

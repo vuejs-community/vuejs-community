@@ -5,17 +5,20 @@ export default defineProjectMeta({
   description: 'uni-helper 维护的 uni-app 优秀学习资源与生态库汇总',
   icon: '',
   category: 'uniapp',
-  types: ['utility-library'],
-  tags: ['uni-app', 'awesome', 'resources'],
-
+  types: [
+    'utility-library',
+  ],
+  tags: [
+    'uni-app',
+    'awesome',
+    'resources',
+  ],
   source: {
     github: 'uni-helper/awesome-uni-app',
   },
-
   links: {
     github: 'https://github.com/uni-helper/awesome-uni-app',
   },
-
   stats: {
     stars: 365,
   },

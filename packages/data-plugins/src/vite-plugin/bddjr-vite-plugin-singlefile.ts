@@ -1,0 +1,56 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: '@bddjr/vite-plugin-singlefile',
+  description: 'Embed all assets into dist/index.html',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'vite-plugin',
+    'vite',
+    'plugin',
+    'SFA',
+    'single-file',
+    'singlefile',
+    'single',
+    'embed',
+    'inline',
+    'bundle',
+    'bundler',
+    'frontend',
+    'front-end',
+    'framework',
+    'hmr',
+    'dev-server',
+    'build-tool',
+    'html',
+    'htm',
+    'js',
+    'javascript',
+    'css',
+    'class',
+    'rolldown',
+    'rolldown-vite',
+    'rollup',
+    'vite-plugin-singlefile',
+  ],
+  source: {
+    github: 'bddjr/vite-plugin-singlefile',
+    npm: '@bddjr/vite-plugin-singlefile',
+  },
+  links: {
+    github: 'https://github.com/bddjr/vite-plugin-singlefile',
+    npm: 'https://www.npmjs.com/package/@bddjr/vite-plugin-singlefile',
+    website: 'https://bddjr.github.io/vite-plugin-singlefile/#/',
+  },
+  stats: {
+    stars: 1,
+    downloads: {
+      monthly: 174,
+      weekly: 120,
+    },
+  },
+})

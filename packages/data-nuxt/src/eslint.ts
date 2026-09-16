@@ -21,10 +21,6 @@ export default defineProjectMeta({
     npm: '@nuxt/eslint',
   },
   stats: {
-    stars: 638,
-    downloads: {
-      monthly: 0,
-      weekly: 0,
-    },
+    stars: 639,
   },
 })

@@ -1,0 +1,33 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'vite-plugin-entry-shaking-plus',
+  description: 'Mimic tree-shaking behaviour when importing code from an entry file in development mode.',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'vite',
+    'vite-plugin',
+    'entry',
+    'tree shaking',
+  ],
+  source: {
+    github: 'Dschungelabenteuer/vite-plugin-entry-shaking',
+    npm: 'vite-plugin-entry-shaking-plus',
+  },
+  links: {
+    github: 'https://github.com/Dschungelabenteuer/vite-plugin-entry-shaking',
+    npm: 'https://www.npmjs.com/package/vite-plugin-entry-shaking-plus',
+    website: 'https://github.com/Dschungelabenteuer/vite-plugin-entry-shaking/tree/main/#readme',
+  },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 13,
+      weekly: 8,
+    },
+  },
+})

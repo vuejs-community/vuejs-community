@@ -1,0 +1,33 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'vite-plugin-electron-actions',
+  description: 'This plugin brings a React `"use server"`-style workflow to Electron. Add `"use node"` to an async function to run it in the main process while calling it like a local function from the renderer. The plugin generates the IPC bridge, replaces the renderer ',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'electron',
+    'electron-actions',
+    'vite',
+    'vite-plugin',
+  ],
+  source: {
+    github: 'jjeem/vite-plugin-electron-actions',
+    npm: 'vite-plugin-electron-actions',
+  },
+  links: {
+    github: 'https://github.com/jjeem/vite-plugin-electron-actions',
+    npm: 'https://www.npmjs.com/package/vite-plugin-electron-actions',
+    website: 'https://github.com/jjeem/vite-plugin-electron-actions',
+  },
+  stats: {
+    stars: 3,
+    downloads: {
+      monthly: 37,
+      weekly: 4,
+    },
+  },
+})

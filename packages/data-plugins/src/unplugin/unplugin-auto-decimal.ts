@@ -1,0 +1,39 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'unplugin-auto-decimal',
+  description: '<h1 align="center" style="margin-top: -10px">AutoDecimal</h1> <div align="center" style="margin-bottom:10px">   <a href="https://www.npmjs.com/package/unplugin-auto-decimal">     <img src="https://img.shields.io/npm/v/unplugin-auto-decimal"/>   </a> </div',
+  icon: 'icon:dark-unplugin',
+  category: 'plugin',
+  types: [
+    'unplugin',
+  ],
+  tags: [
+    'unplugin',
+    'vite',
+    'webpack',
+    'rollup',
+    'transform',
+    'auto',
+    'decimal',
+    'decimal.js',
+    'decimal.js-light',
+    'big.js',
+  ],
+  source: {
+    github: 'lyumg/unplugin-auto-decimal',
+    npm: 'unplugin-auto-decimal',
+  },
+  links: {
+    github: 'https://github.com/lyumg/unplugin-auto-decimal',
+    npm: 'https://www.npmjs.com/package/unplugin-auto-decimal',
+    website: 'https://lyumg.github.io/unplugin-auto-decimal/',
+  },
+  stats: {
+    stars: 13,
+    downloads: {
+      monthly: 220,
+      weekly: 169,
+    },
+  },
+})

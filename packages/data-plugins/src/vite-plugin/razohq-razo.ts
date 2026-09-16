@@ -1,0 +1,39 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: '@razohq/razo',
+  description: 'Playwright UI controls with human names that narrate every action twice: a readable test.step() sentence and a structured StepEvent JSON artifact built for AI failure analysis.',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'playwright',
+    'testing',
+    'e2e',
+    'test-automation',
+    'page-object',
+    'reporter',
+    'ai',
+    'test-reporting',
+    'vite-plugin',
+    'testid',
+  ],
+  source: {
+    github: 'razohq/razo',
+    npm: '@razohq/razo',
+  },
+  links: {
+    github: 'https://github.com/razohq/razo',
+    npm: 'https://www.npmjs.com/package/@razohq/razo',
+    website: 'https://github.com/razohq/razo/tree/main/packages/razo#readme',
+  },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 39,
+      weekly: 2,
+    },
+  },
+})

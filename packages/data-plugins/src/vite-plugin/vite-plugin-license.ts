@@ -1,0 +1,33 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'vite-plugin-license',
+  description: 'Vite plugin to add license banner to bundled output. Tiny wrapper for rollup-plugin-license.',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'vite-plugin',
+    'vite',
+    'typescript',
+    'license',
+  ],
+  source: {
+    github: 'tasshi-me/vite-plugin-license',
+    npm: 'vite-plugin-license',
+  },
+  links: {
+    github: 'https://github.com/tasshi-me/vite-plugin-license',
+    npm: 'https://www.npmjs.com/package/vite-plugin-license',
+    website: 'https://github.com/tasshi-me/vite-plugin-license',
+  },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 19062,
+      weekly: 4460,
+    },
+  },
+})

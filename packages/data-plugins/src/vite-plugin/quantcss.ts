@@ -1,0 +1,58 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'quantcss',
+  description: 'Modern CSS framework',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'quantcss',
+    'css',
+    'css-framework',
+    'runtime-css',
+    'dynamic-css',
+    'utility-first',
+    'utility-css',
+    'atomic-css',
+    'css-engine',
+    'design-system',
+    'vite',
+    'vite-plugin',
+    'tailwind-alternative',
+    'unocss-alternative',
+    'frontend',
+    'ui',
+    'responsive',
+    'theming',
+    'modern-css',
+    'javascript-framework',
+    'developer-tools',
+    'css-runtime',
+    'hmr',
+    'ssr',
+    'plugin-system',
+    'react',
+    'vue',
+    'angular',
+    'web-development',
+  ],
+  source: {
+    github: 'NdombeRafa33/Quantcss',
+    npm: 'quantcss',
+  },
+  links: {
+    github: 'https://github.com/NdombeRafa33/Quantcss',
+    npm: 'https://www.npmjs.com/package/quantcss',
+    website: 'https://github.com/NdombeRafa33/Quantcss#readme',
+  },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 15,
+      weekly: 6,
+    },
+  },
+})

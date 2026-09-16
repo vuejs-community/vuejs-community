@@ -21,10 +21,6 @@ export default defineProjectMeta({
     npm: '@formkit/auto-animate',
   },
   stats: {
-    stars: 13919,
-    downloads: {
-      monthly: 0,
-      weekly: 0,
-    },
+    stars: 13918,
   },
 })

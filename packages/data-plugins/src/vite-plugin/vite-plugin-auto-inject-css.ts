@@ -1,0 +1,40 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'vite-plugin-auto-inject-css',
+  description: '自动注入对应的 Style 文件及 UI 库组件样式，无需关心样式引入问题，助力于组件库开发 💪',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'vite-plugin',
+    'plugin',
+    'vite',
+    'css',
+    'style',
+    'inject',
+    'auto',
+    'vue',
+    'lib',
+    'component',
+    'element-plus',
+  ],
+  source: {
+    github: 'Augenstern936/vite-plugin-auto-inject-css',
+    npm: 'vite-plugin-auto-inject-css',
+  },
+  links: {
+    github: 'https://github.com/Augenstern936/vite-plugin-auto-inject-css',
+    npm: 'https://www.npmjs.com/package/vite-plugin-auto-inject-css',
+    website: 'https://github.com/Augenstern936/vite-plugin-auto-inject-css',
+  },
+  stats: {
+    stars: 1,
+    downloads: {
+      monthly: 14,
+      weekly: 2,
+    },
+  },
+})

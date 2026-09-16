@@ -1,0 +1,38 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'vite-plugin-svgr-indexer',
+  description: 'Vite plugin to automatically generate index.ts for SVG icons',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'vite',
+    'vite-plugin',
+    'svgr',
+    'svg',
+    'react',
+    'icons',
+    'indexer',
+    'svg-icons',
+    'react-components',
+  ],
+  source: {
+    github: 'gyuha/vite-plugin-svgr-indexer',
+    npm: 'vite-plugin-svgr-indexer',
+  },
+  links: {
+    github: 'https://github.com/gyuha/vite-plugin-svgr-indexer',
+    npm: 'https://www.npmjs.com/package/vite-plugin-svgr-indexer',
+    website: 'https://github.com/gyuha/vite-plugin-svgr-indexer#readme',
+  },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 37,
+      weekly: 20,
+    },
+  },
+})

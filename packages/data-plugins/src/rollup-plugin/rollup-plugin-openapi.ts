@@ -1,0 +1,37 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'rollup-plugin-openapi',
+  description: 'A Rollup and Vite plugin which converts OpenAPI YAML files to ES6 modules.',
+  icon: 'logos:rollupjs',
+  category: 'plugin',
+  types: [
+    'rollup-plugin',
+  ],
+  tags: [
+    'rollup',
+    'vite',
+    'plugin',
+    'rollup-plugin',
+    'vite-plugin',
+    'openapi',
+    'swagger',
+    'yaml',
+  ],
+  source: {
+    github: 'zauni/rollup-plugin-openapi',
+    npm: 'rollup-plugin-openapi',
+  },
+  links: {
+    github: 'https://github.com/zauni/rollup-plugin-openapi',
+    npm: 'https://www.npmjs.com/package/rollup-plugin-openapi',
+    website: 'https://github.com/zauni/rollup-plugin-openapi#readme',
+  },
+  stats: {
+    stars: 1,
+    downloads: {
+      monthly: 510,
+      weekly: 89,
+    },
+  },
+})

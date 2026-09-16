@@ -1,0 +1,35 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: '@mithril-inspector/rollup',
+  description: 'The Rollup integration for Mithril Inspector — a thin adapter over the shared transform, runtime and server packages (§4, §12.3).',
+  icon: 'logos:rollupjs',
+  category: 'plugin',
+  types: [
+    'rollup-plugin',
+  ],
+  tags: [
+    'mithril',
+    'mithril.js',
+    'devtools',
+    'inspector',
+    'rollup',
+    'rollup-plugin',
+  ],
+  source: {
+    github: 'erikvullings/mithril-inspector',
+    npm: '@mithril-inspector/rollup',
+  },
+  links: {
+    github: 'https://github.com/erikvullings/mithril-inspector',
+    npm: 'https://www.npmjs.com/package/@mithril-inspector/rollup',
+    website: 'https://github.com/erikvullings/mithril-inspector#readme',
+  },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 97,
+      weekly: 12,
+    },
+  },
+})

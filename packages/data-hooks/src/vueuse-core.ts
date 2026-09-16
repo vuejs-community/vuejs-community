@@ -24,7 +24,7 @@ export default defineProjectMeta({
     website: 'https://vueuse.org',
   },
   stats: {
-    stars: 22356,
+    stars: 22355,
     downloads: {
       monthly: 40931898,
       weekly: 8103975,

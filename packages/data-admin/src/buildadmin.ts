@@ -19,6 +19,6 @@ export default defineProjectMeta({
     github: 'https://github.com/build-admin/buildadmin',
   },
   stats: {
-    stars: 2383,
+    stars: 2384,
   },
 })

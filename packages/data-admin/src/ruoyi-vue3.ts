@@ -20,6 +20,6 @@ export default defineProjectMeta({
     github: 'https://github.com/yangzongzhuan/RuoYi-Vue3',
   },
   stats: {
-    stars: 6750,
+    stars: 6751,
   },
 })

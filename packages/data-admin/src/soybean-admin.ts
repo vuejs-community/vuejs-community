@@ -20,6 +20,6 @@ export default defineProjectMeta({
     github: 'https://github.com/soybeanjs/soybean-admin',
   },
   stats: {
-    stars: 15002,
+    stars: 15004,
   },
 })

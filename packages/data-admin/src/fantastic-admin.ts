@@ -19,6 +19,6 @@ export default defineProjectMeta({
     github: 'https://github.com/fantastic-admin/basic',
   },
   stats: {
-    stars: 3394,
+    stars: 3395,
   },
 })

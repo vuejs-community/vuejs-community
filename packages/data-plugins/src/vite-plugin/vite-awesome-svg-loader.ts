@@ -1,0 +1,56 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'vite-awesome-svg-loader',
+  description: 'A universal Vite SVG loader. Imports SVGs as source code, base64 and data URI. Preserves stroke width. Replaces colors with currentColor or custom colors. Creates SVG sprites. Optimizes SVGs.',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'vite',
+    'svg',
+    'loader',
+    'import',
+    'image',
+    'icon',
+    'plugin',
+    'vite-svg',
+    'vite-loader',
+    'vite-plugin',
+    'sprite',
+    'preserve-line-width',
+    'replace-colors',
+    'currentColor',
+    'vue',
+    'react',
+    'vanilla',
+    'web-components',
+    'custom-elements',
+    'typescript',
+    'sprite-sheet',
+    'svg-sprite',
+    'sprites',
+    'sprite-sheets',
+    'preserve-stroke-width',
+    'vite-awesome-svg-loader',
+    'svgo',
+  ],
+  source: {
+    github: 'matafokka/vite-awesome-svg-loader',
+    npm: 'vite-awesome-svg-loader',
+  },
+  links: {
+    github: 'https://github.com/matafokka/vite-awesome-svg-loader',
+    npm: 'https://www.npmjs.com/package/vite-awesome-svg-loader',
+    website: 'https://matafokka.github.io/vite-awesome-svg-loader',
+  },
+  stats: {
+    stars: 25,
+    downloads: {
+      monthly: 4722,
+      weekly: 243,
+    },
+  },
+})

@@ -1,0 +1,58 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: '@dxtmisha/d1',
+  description: 'Vue 3 design system component library (DXT-UI D1) with comprehensive UI components, design tokens, SCSS mixins, and Vite plugin',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'vue',
+    'vue3',
+    'd1',
+    'dxt',
+    'dxt-ui',
+    'ui-library',
+    'component-library',
+    'design-system',
+    'typescript',
+    'scss',
+    'design-tokens',
+    'vite-plugin',
+    'button',
+    'input',
+    'modal',
+    'table',
+    'select',
+    'form',
+    'tabs',
+    'menu',
+    'list',
+    'checkbox',
+    'radio',
+    'switch',
+    'tooltip',
+    'dialog',
+    'snackbar',
+    'pagination',
+    'aria',
+  ],
+  source: {
+    github: 'dxtmisha/dxt-ui',
+    npm: '@dxtmisha/d1',
+  },
+  links: {
+    github: 'https://github.com/dxtmisha/dxt-ui',
+    npm: 'https://www.npmjs.com/package/@dxtmisha/d1',
+    website: 'https://github.com/dxtmisha/dxt-ui/tree/main/packages/d1',
+  },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 787,
+      weekly: 29,
+    },
+  },
+})

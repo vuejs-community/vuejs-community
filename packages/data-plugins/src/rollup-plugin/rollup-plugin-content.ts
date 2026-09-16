@@ -1,0 +1,32 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'rollup-plugin-content',
+  description: 'Rollup plugin to generate content and its summaries for i18n static sites',
+  icon: 'logos:rollupjs',
+  category: 'plugin',
+  types: [
+    'rollup-plugin',
+  ],
+  tags: [
+    'rollup-plugin',
+    'vite-plugin',
+    'rollup',
+  ],
+  source: {
+    github: 'stalniy/rollup-plugin-content',
+    npm: 'rollup-plugin-content',
+  },
+  links: {
+    github: 'https://github.com/stalniy/rollup-plugin-content',
+    npm: 'https://www.npmjs.com/package/rollup-plugin-content',
+    website: 'https://github.com/stalniy/rollup-plugin-content#readme',
+  },
+  stats: {
+    stars: 2,
+    downloads: {
+      monthly: 57,
+      weekly: 7,
+    },
+  },
+})

@@ -18,6 +18,6 @@ export default defineProjectMeta({
     github: 'https://github.com/Daymychen/art-design-pro',
   },
   stats: {
-    stars: 5874,
+    stars: 5875,
   },
 })

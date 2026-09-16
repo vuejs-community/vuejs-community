@@ -1,0 +1,58 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: '@importable/yaml',
+  description: 'Import YAML files with strong typing based on import attributes',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'assert',
+    'asserts',
+    'assertions',
+    'attribute',
+    'attributes',
+    'file',
+    'files',
+    'import',
+    'importable',
+    'importable-plugin',
+    'imports',
+    'plugin',
+    'javascript',
+    'js',
+    'jsconfig',
+    'rollup',
+    'rollup-plugin',
+    'strong',
+    'ts',
+    'tsconfig',
+    'type',
+    'typed',
+    'types',
+    'typescript',
+    'typescript-plugin',
+    'typing',
+    'vite',
+    'vite-plugin',
+    'yaml',
+  ],
+  source: {
+    github: 'importables/importable',
+    npm: '@importable/yaml',
+  },
+  links: {
+    github: 'https://github.com/importables/importable',
+    npm: 'https://www.npmjs.com/package/@importable/yaml',
+    website: 'https://github.com/importables/importable/',
+  },
+  stats: {
+    stars: 0,
+    downloads: {
+      monthly: 158,
+      weekly: 11,
+    },
+  },
+})
