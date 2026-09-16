@@ -76,6 +76,12 @@ function isRateLimited(error: unknown): boolean {
   return status === 429 || status === 403
 }
 
+function isNotFound(error: unknown): boolean {
+  const status = (error as FetchError)?.response?.status
+    ?? (error as FetchError)?.statusCode
+  return status === 404
+}
+
 async function withRetry<T>(
   label: string,
   fn: () => Promise<T>,
@@ -161,6 +167,11 @@ async function getNpmDownloads(
             return res
           }
           catch (error) {
+            if (isNotFound(error)) {
+              console.warn(`[npm] ${packages} (${period}): 404 Not Found, fallback to 0`)
+              return { downloads: 0 }
+            }
+
             if (isRateLimited(error))
               npmThrottle.onRateLimit(getRetryAfterMs(error, 5000))
             throw error
