@@ -173,6 +173,14 @@ async function main(config: Config): Promise<void> {
   //     'utf-8',
   //   )),
   // )
+
+  console.log([
+    `[Npm Batches] ${npmBatches.length}`,
+    `[Npm Scope] ${scopes.size}`,
+    `[Github] ${githubs.size}`,
+    '---',
+  ].join('\n'))
+
   let syncing = Promise.resolve()
 
   npmBatches.forEach((batch) => {
