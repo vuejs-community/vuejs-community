@@ -70,16 +70,36 @@ function getRetryAfterMs(error: unknown, fallbackMs: number): number {
   return fallbackMs
 }
 
+function getGithubRetryAfterMs(error: unknown, fallbackMs = 60_000): number {
+  const fetchError = error as FetchError
+  const retryAfter = fetchError?.response?.headers?.get?.('retry-after')
+  if (retryAfter)
+    return getRetryAfterMs(error, fallbackMs)
+
+  const rateLimitReset = fetchError?.response?.headers?.get?.('x-ratelimit-reset')
+  if (rateLimitReset) {
+    const resetAt = Number(rateLimitReset) * 1000
+    if (!Number.isNaN(resetAt))
+      return Math.max(resetAt - Date.now() + 1000, fallbackMs)
+  }
+
+  return fallbackMs
+}
+
+function getHttpStatus(error: unknown): number | undefined {
+  const fetchError = error as FetchError
+  return fetchError?.response?.status
+    ?? fetchError?.statusCode
+    ?? fetchError?.status
+}
+
 function isRateLimited(error: unknown): boolean {
-  const status = (error as FetchError)?.response?.status
-    ?? (error as FetchError)?.statusCode
+  const status = getHttpStatus(error)
   return status === 429 || status === 403
 }
 
 function isNotFound(error: unknown): boolean {
-  const status = (error as FetchError)?.response?.status
-    ?? (error as FetchError)?.statusCode
-  return status === 404
+  return getHttpStatus(error) === 404
 }
 
 async function withRetry<T>(
@@ -100,7 +120,7 @@ async function withRetry<T>(
     }
     catch (error) {
       lastError = error
-      if (attempt === retries)
+      if (isNotFound(error) || attempt === retries)
         break
 
       const delay = isRateLimited(error)
@@ -117,7 +137,7 @@ async function withRetry<T>(
   throw lastError
 }
 
-function createNpmThrottle(minIntervalMs = 250) {
+function createRequestThrottle(minIntervalMs = 250) {
   let nextAvailableAt = 0
   let extraDelayMs = 0
 
@@ -140,7 +160,8 @@ function createNpmThrottle(minIntervalMs = 250) {
   }
 }
 
-const npmThrottle = createNpmThrottle(250)
+const npmThrottle = createRequestThrottle(250)
+const githubThrottle = createRequestThrottle(100)
 
 // ---------------------------------------------------------------------------
 // npm / github API
@@ -216,22 +237,43 @@ async function updateNpmDownloads(file: string, downloads: Downloads): Promise<b
 }
 
 async function getGithubRepo(github: string, token: string) {
-  return await withRetry(
-    `github ${github}`,
-    () => ofetch<GithubRepoResponse>(
-      `https://api.github.com/repos/${github}`,
-      {
-        retry: 0,
-        timeout: 30000,
-        headers: {
-          'Authorization': `Bearer ${token}`,
-          'Accept': 'application/vnd.github+json',
-          'X-GitHub-Api-Version': '2022-11-28',
-        },
+  try {
+    return await withRetry(
+      `github ${github}`,
+      async () => {
+        await githubThrottle.wait()
+        try {
+          const response = await ofetch<GithubRepoResponse>(
+            `https://api.github.com/repos/${github}`,
+            {
+              retry: 0,
+              timeout: 30000,
+              headers: {
+                'Authorization': `Bearer ${token}`,
+                'Accept': 'application/vnd.github+json',
+                'X-GitHub-Api-Version': '2022-11-28',
+              },
+            },
+          )
+          githubThrottle.onSuccess()
+          return response
+        }
+        catch (error) {
+          if (isRateLimited(error))
+            githubThrottle.onRateLimit(getGithubRetryAfterMs(error))
+          throw error
+        }
       },
-    ),
-    { retries: 5, baseDelayMs: 2000 },
-  )
+      { retries: 5, baseDelayMs: 2000 },
+    )
+  }
+  catch (error) {
+    if (isNotFound(error)) {
+      console.warn(`[github] ${github}: 404 Not Found, fallback to 0 stars`)
+      return { stargazers_count: 0 }
+    }
+    throw error
+  }
 }
 
 async function updateGithubStars(file: string, stars: number): Promise<boolean> {
