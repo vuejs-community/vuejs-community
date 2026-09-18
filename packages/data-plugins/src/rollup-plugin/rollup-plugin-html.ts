@@ -1,8 +1,8 @@
 import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
-  name: 'rollup-plugin-html',
-  description: 'HTML import plugin for rollup',
+  name: '@rollup/plugin-html',
+  description: 'Creates HTML files to serve Rollup bundles',
   icon: 'logos:rollupjs',
   category: 'plugin',
   types: [
@@ -10,17 +10,18 @@ export default defineProjectMeta({
   ],
   tags: [
     'rollup',
-    'rollup-plugin',
+    'plugin',
     'html',
+    'template',
   ],
   source: {
-    github: 'bdadam/rollup-plugin-html',
-    npm: 'rollup-plugin-html',
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-html',
   },
   links: {
-    github: 'https://github.com/bdadam/rollup-plugin-html',
-    npm: 'https://www.npmjs.com/package/rollup-plugin-html',
-    website: 'https://github.com/bdadam/rollup-plugin-html',
+    github: 'https://github.com/rollup/plugins',
+    npm: 'https://www.npmjs.com/package/@rollup/plugin-html',
+    website: 'https://github.com/rollup/plugins/tree/master/packages/html#readme',
   },
   stats: {
     stars: 0,
