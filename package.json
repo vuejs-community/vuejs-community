@@ -48,6 +48,7 @@
     "@iconify-json/logos": "^1.2.13",
     "@iconify-json/lucide": "^1.2.129",
     "@iconify-json/material-icon-theme": "^1.2.70",
+    "@iconify-json/thesvg": "^1.2.6",
     "@iconify-json/thesvg-color": "^1.2.7",
     "@inspira-ui/plugins": "^0.0.2",
     "@nuxt/eslint": "^1.16.0",
