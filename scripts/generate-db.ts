@@ -64,6 +64,10 @@ interface LegacyProjectMetricRow {
   stars: number | null
 }
 
+interface TableInfoRow {
+  name: string
+}
+
 const scriptDirectory = dirname(fileURLToPath(import.meta.url))
 const repositoryRoot = resolve(scriptDirectory, '../')
 const defaultSourceRoots = [
@@ -177,6 +181,11 @@ async function tableExists(database: Database, table: string): Promise<boolean> 
   `).get(table))
 }
 
+async function tableColumns(database: Database, table: string): Promise<Set<string>> {
+  const rows = await database.prepare(`PRAGMA table_info("${table}")`).all() as TableInfoRow[]
+  return new Set(rows.map(row => row.name))
+}
+
 async function loadExistingMetrics(databasePath: string): Promise<MetricsSnapshot> {
   const snapshot: MetricsSnapshot = {
     npm: new Map(),
@@ -230,7 +239,14 @@ async function loadExistingMetrics(databasePath: string): Promise<MetricsSnapsho
 
     // Bootstrap a pre-migration database from the metric snapshots currently
     // materialized on projects. Newer metric-table rows always win.
-    if (await tableExists(database, 'projects')) {
+    const projectColumns = await tableColumns(database, 'projects')
+    const hasLegacyMetrics = [
+      'downloads_weekly',
+      'downloads_monthly',
+      'stars',
+    ].every(column => projectColumns.has(column))
+
+    if (hasLegacyMetrics) {
       const rows = await database.prepare(`
         SELECT npm, github, downloads_weekly, downloads_monthly, stars
         FROM projects
@@ -319,10 +335,7 @@ async function createSchema(database: Database): Promise<void> {
       github_repository TEXT,
       npm TEXT,
       npm_package TEXT,
-      website TEXT,
-      downloads_monthly INTEGER NOT NULL DEFAULT 0 CHECK (downloads_monthly >= 0),
-      downloads_weekly INTEGER NOT NULL DEFAULT 0 CHECK (downloads_weekly >= 0),
-      stars INTEGER NOT NULL DEFAULT 0 CHECK (stars >= 0)
+      website TEXT
     ) STRICT;
 
     CREATE INDEX projects_name_idx ON projects (name);
@@ -390,7 +403,6 @@ async function insertMetrics(database: Database, snapshot: MetricsSnapshot): Pro
 async function insertProjects(
   database: Database,
   projects: NormalizedProject[],
-  metrics: MetricsSnapshot,
 ): Promise<void> {
   const insertProject = database.prepare(`
     INSERT INTO projects (
@@ -404,11 +416,8 @@ async function insertProjects(
       github_repository,
       npm,
       npm_package,
-      website,
-      downloads_monthly,
-      downloads_weekly,
-      stars
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      website
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `)
   const insertMeta = database.prepare(`
     INSERT INTO "project-meta" (project_id, name, "values", type)
@@ -417,8 +426,6 @@ async function insertProjects(
 
   for (const [index, project] of projects.entries()) {
     const projectId = index + 1
-    const npmMetric = project.npmPackage ? metrics.npm.get(project.npmPackage) : undefined
-    const githubMetric = project.githubRepository ? metrics.github.get(project.githubRepository) : undefined
 
     await insertProject.run(
       projectId,
@@ -432,9 +439,6 @@ async function insertProjects(
       project.npm,
       project.npmPackage,
       project.website,
-      npmMetric?.downloadsMonthly ?? 0,
-      npmMetric?.downloadsWeekly ?? 0,
-      githubMetric?.stars ?? 0,
     )
 
     for (const type of project.types)
@@ -478,7 +482,7 @@ async function buildDatabase(options: BuildOptions): Promise<void> {
 
     try {
       await insertMetrics(database, metrics)
-      await insertProjects(database, projects, metrics)
+      await insertProjects(database, projects)
       await database.exec('COMMIT')
     }
     catch (error) {

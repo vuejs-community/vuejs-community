@@ -441,23 +441,6 @@ async function writeMetrics(
       for (const metric of githubMetrics.values())
         await upsertGithub.run(metric.repository, metric.stars, updatedAt)
 
-      await database.exec(`
-        UPDATE projects
-        SET
-          downloads_weekly = COALESCE(
-            (SELECT downloads_weekly FROM npm_metrics WHERE package_name = projects.npm_package),
-            downloads_weekly
-          ),
-          downloads_monthly = COALESCE(
-            (SELECT downloads_monthly FROM npm_metrics WHERE package_name = projects.npm_package),
-            downloads_monthly
-          ),
-          stars = COALESCE(
-            (SELECT stars FROM github_metrics WHERE repository = projects.github_repository),
-            stars
-          );
-      `)
-
       await database.exec('COMMIT')
     }
     catch (error) {
