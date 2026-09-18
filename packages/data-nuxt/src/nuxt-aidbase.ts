@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'Mokkapps/nuxt-aidbase',
     npm: 'nuxt-aidbase',
   },
-  stats: {
-    stars: 2,
-  },
 })

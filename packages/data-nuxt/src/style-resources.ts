@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/style-resources',
     npm: '@nuxtjs/style-resources',
   },
-  stats: {
-    stars: 597,
-  },
 })

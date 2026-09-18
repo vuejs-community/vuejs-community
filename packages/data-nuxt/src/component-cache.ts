@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/component-cache-module',
     npm: '@nuxtjs/component-cache',
   },
-  stats: {
-    stars: 33,
-  },
 })

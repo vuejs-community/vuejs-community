@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/better-auth',
     npm: '@nuxtjs/better-auth',
   },
-  stats: {
-    stars: 143,
-  },
 })

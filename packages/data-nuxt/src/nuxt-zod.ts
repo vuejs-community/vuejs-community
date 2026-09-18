@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'DarlanPrado/nuxt-zod',
     npm: 'nuxt-zod',
   },
-  stats: {
-    stars: 4,
-  },
 })

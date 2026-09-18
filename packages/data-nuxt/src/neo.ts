@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'ezypeeze/nuxt-neo',
     npm: 'nuxt-neo',
   },
-  stats: {
-    stars: 57,
-  },
 })

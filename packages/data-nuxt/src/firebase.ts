@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/firebase-module#master/packages/firebase-module',
     npm: '@nuxtjs/firebase',
   },
-  stats: {
-    stars: 637,
-  },
 })

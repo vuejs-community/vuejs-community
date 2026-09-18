@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'epicmaxco/vuestic-ui#develop/packages/nuxt',
     npm: '@vuestic/nuxt',
   },
-  stats: {
-    stars: 3747,
-  },
 })

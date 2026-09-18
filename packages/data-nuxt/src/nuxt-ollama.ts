@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'thoda-dev/nuxt-ollama',
     npm: 'nuxt-ollama',
   },
-  stats: {
-    stars: 5,
-  },
 })

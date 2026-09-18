@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'Abbasmoe/nuxt-gql-pulse',
     npm: 'nuxt-gql-pulse',
   },
-  stats: {
-    stars: 22,
-  },
 })

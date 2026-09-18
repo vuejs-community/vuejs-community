@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'aaronransley/nuxt-winston-log',
     npm: 'nuxt-winston-log',
   },
-  stats: {
-    stars: 46,
-  },
 })

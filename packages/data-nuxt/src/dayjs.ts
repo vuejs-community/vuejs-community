@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'fumeapp/dayjs',
     npm: 'dayjs-nuxt',
   },
-  stats: {
-    stars: 126,
-  },
 })

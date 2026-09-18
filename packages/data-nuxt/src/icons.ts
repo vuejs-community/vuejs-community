@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'gitfoxcode/nuxt-icons',
     npm: 'nuxt-icons',
   },
-  stats: {
-    stars: 196,
-  },
 })

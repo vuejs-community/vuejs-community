@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'vueComponent/ant-design-vue-nuxt',
     npm: '@ant-design-vue/nuxt',
   },
-  stats: {
-    stars: 83,
-  },
 })

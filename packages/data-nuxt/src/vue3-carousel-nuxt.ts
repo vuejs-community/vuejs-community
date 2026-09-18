@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'gaetansenn/vue3-carousel-nuxt',
     npm: 'vue3-carousel-nuxt',
   },
-  stats: {
-    stars: 47,
-  },
 })

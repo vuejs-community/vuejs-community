@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/hanko',
     npm: '@nuxtjs/hanko',
   },
-  stats: {
-    stars: 62,
-  },
 })

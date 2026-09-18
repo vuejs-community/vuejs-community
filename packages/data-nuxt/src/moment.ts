@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/moment-module',
     npm: '@nuxtjs/moment',
   },
-  stats: {
-    stars: 194,
-  },
 })

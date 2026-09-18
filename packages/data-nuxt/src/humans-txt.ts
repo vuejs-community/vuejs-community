@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'Luxdamore/nuxt-humans-txt',
     npm: '@luxdamore/nuxt-humans-txt',
   },
-  stats: {
-    stars: 29,
-  },
 })

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'vuejs/vuefire#main/packages/nuxt',
     npm: 'nuxt-vuefire',
   },
-  stats: {
-    stars: 3908,
-  },
 })

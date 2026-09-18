@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'cpreston321/nuxt-swiper',
     npm: 'nuxt-swiper',
   },
-  stats: {
-    stars: 300,
-  },
 })

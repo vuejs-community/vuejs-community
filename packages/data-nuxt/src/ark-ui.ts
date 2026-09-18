@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'iamdin/nuxt-ark-ui',
     npm: 'nuxt-ark-ui',
   },
-  stats: {
-    stars: 9,
-  },
 })

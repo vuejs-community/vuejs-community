@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'samuelreichor/query-api#HEAD/packages/nuxt',
     npm: '@query-api/nuxt',
   },
-  stats: {
-    stars: 8,
-  },
 })

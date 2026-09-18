@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'vue-final/vue-final-modal#master/packages/nuxt',
     npm: '@vue-final-modal/nuxt',
   },
-  stats: {
-    stars: 1009,
-  },
 })

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'sandros94/nuxt-qrcode',
     npm: 'nuxt-qrcode',
   },
-  stats: {
-    stars: 89,
-  },
 })

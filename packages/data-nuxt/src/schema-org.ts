@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'harlan-zw/nuxt-schema-org',
     npm: 'nuxt-schema-org',
   },
-  stats: {
-    stars: 195,
-  },
 })

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'samk-dev/nuxt-vcalendar',
     npm: '@samk-dev/nuxt-vcalendar',
   },
-  stats: {
-    stars: 35,
-  },
 })

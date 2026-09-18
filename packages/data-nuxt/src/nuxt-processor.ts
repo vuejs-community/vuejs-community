@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'aidanhibbard/nuxt-processor',
     npm: 'nuxt-processor',
   },
-  stats: {
-    stars: 50,
-  },
 })

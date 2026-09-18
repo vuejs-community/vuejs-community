@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/svg-module',
     npm: '@nuxtjs/svg',
   },
-  stats: {
-    stars: 342,
-  },
 })

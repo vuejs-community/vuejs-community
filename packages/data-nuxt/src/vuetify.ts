@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/vuetify-module',
     npm: '@nuxtjs/vuetify',
   },
-  stats: {
-    stars: 634,
-  },
 })

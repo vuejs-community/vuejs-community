@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/amp-module',
     npm: '@nuxtjs/amp',
   },
-  stats: {
-    stars: 205,
-  },
 })

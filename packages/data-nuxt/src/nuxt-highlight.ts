@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxtaid/nuxt-highlight',
     npm: 'nuxt-highlight',
   },
-  stats: {
-    stars: 1,
-  },
 })

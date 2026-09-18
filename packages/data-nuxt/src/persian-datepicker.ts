@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'alireza-ab/vue-persian-datepicker',
     npm: '@alireza-ab/vue-persian-datepicker',
   },
-  stats: {
-    stars: 52,
-  },
 })

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'swisnl/nuxt-lucide-icons',
     npm: 'nuxt-lucide-icons',
   },
-  stats: {
-    stars: 36,
-  },
 })

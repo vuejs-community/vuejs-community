@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'druxt/druxt.js#develop/packages/druxt',
     npm: 'druxt',
   },
-  stats: {
-    stars: 114,
-  },
 })

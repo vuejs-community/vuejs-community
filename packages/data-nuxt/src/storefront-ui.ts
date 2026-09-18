@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'vuestorefront/storefront-ui#v2-develop/packages/sfui/frameworks/nuxt',
     npm: '@storefront-ui/nuxt',
   },
-  stats: {
-    stars: 2510,
-  },
 })

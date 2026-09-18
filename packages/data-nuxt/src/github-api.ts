@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'lindsaykwardell/nuxt-github-api',
     npm: 'nuxt-github-api',
   },
-  stats: {
-    stars: 23,
-  },
 })

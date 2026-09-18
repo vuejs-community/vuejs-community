@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'mojocss/mojocss-nuxt-module',
     npm: '@mojocss/nuxt',
   },
-  stats: {
-    stars: 3,
-  },
 })

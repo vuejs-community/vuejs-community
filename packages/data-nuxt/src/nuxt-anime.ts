@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'Enternikot/NuxtAnime',
     npm: 'nuxt-anime',
   },
-  stats: {
-    stars: 3,
-  },
 })

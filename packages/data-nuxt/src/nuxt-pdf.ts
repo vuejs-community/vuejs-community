@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'sidebase/nuxt-pdf',
     npm: '@sidebase/nuxt-pdf',
   },
-  stats: {
-    stars: 132,
-  },
 })

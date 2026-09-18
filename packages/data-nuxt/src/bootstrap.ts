@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'bootstrap-vue/bootstrap-vue',
     npm: 'bootstrap-vue',
   },
-  stats: {
-    stars: 14423,
-  },
 })

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nyllre/nuxt-file-storage',
     npm: 'nuxt-file-storage',
   },
-  stats: {
-    stars: 107,
-  },
 })

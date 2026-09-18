@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'Gonzo17/nuxt-csp-report',
     npm: 'nuxt-csp-report',
   },
-  stats: {
-    stars: 18,
-  },
 })

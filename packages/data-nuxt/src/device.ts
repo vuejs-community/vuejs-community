@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/device',
     npm: '@nuxtjs/device',
   },
-  stats: {
-    stars: 1005,
-  },
 })

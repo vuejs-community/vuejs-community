@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'modbender/nuxt-snackbar#master',
     npm: 'nuxt-snackbar',
   },
-  stats: {
-    stars: 27,
-  },
 })

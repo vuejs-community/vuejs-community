@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'posva/pinia-colada#main/nuxt',
     npm: '@pinia/colada-nuxt',
   },
-  stats: {
-    stars: 2232,
-  },
 })

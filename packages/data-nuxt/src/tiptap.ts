@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'modbender/nuxt-tiptap-editor',
     npm: 'nuxt-tiptap-editor',
   },
-  stats: {
-    stars: 152,
-  },
 })

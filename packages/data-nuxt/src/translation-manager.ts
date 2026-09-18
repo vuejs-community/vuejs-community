@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'samk-dev/nuxt-translation-manager',
     npm: 'nuxt-translation-manager',
   },
-  stats: {
-    stars: 19,
-  },
 })

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'peterbud/nuxt-query',
     npm: '@peterbud/nuxt-query',
   },
-  stats: {
-    stars: 45,
-  },
 })

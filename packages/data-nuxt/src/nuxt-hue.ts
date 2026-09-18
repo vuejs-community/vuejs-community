@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'lihbr/nuxt-hue',
     npm: 'nuxt-hue',
   },
-  stats: {
-    stars: 130,
-  },
 })

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'Hrdtr/nuxt-appwrite',
     npm: 'nuxt-appwrite',
   },
-  stats: {
-    stars: 65,
-  },
 })

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'saoudi-h/solar-icons#main/packages/nuxt',
     npm: '@solar-icons/nuxt',
   },
-  stats: {
-    stars: 165,
-  },
 })

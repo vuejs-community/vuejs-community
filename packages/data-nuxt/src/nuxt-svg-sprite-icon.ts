@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'MikeCheng1208/nuxt-svg-sprite-icon',
     npm: 'nuxt-svg-sprite-icon',
   },
-  stats: {
-    stars: 16,
-  },
 })

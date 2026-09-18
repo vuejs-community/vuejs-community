@@ -9,12 +9,8 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   tags: [
-    'collections',
-    'content',
-    'frontmatter',
+    'content-collection',
     'markdown',
-    'standard-schema',
-    'vite',
     'vite-plugin',
   ],
   source: {
@@ -24,7 +20,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/aayushbtw/tomekit',
     npm: 'https://www.npmjs.com/package/tomekit',
-    website: 'https://github.com/aayushbtw/tomekit#readme',
+    website: 'https://tomekit.aayush.cv',
   },
   stats: {
     stars: 0,

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'diizzayy/nuxt-graphql-client',
     npm: 'nuxt-graphql-client',
   },
-  stats: {
-    stars: 400,
-  },
 })

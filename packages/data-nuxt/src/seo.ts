@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'harlan-zw/nuxt-seo',
     npm: '@nuxtjs/seo',
   },
-  stats: {
-    stars: 1440,
-  },
 })

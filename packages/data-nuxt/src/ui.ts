@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt/ui#dev',
     npm: '@nuxt/ui',
   },
-  stats: {
-    stars: 6929,
-  },
 })

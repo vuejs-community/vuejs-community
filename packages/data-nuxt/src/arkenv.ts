@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'yamcodes/arkenv#main/packages/nuxt',
     npm: '@arkenv/nuxt',
   },
-  stats: {
-    stars: 141,
-  },
 })

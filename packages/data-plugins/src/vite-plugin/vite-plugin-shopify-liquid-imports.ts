@@ -19,10 +19,13 @@ export default defineProjectMeta({
     'blob',
   ],
   source: {
+    github: 'Negative-Space-Dev/vite-plugin-shopify-liquid-imports',
     npm: 'vite-plugin-shopify-liquid-imports',
   },
   links: {
+    github: 'https://github.com/Negative-Space-Dev/vite-plugin-shopify-liquid-imports',
     npm: 'https://www.npmjs.com/package/vite-plugin-shopify-liquid-imports',
+    website: 'https://github.com/Negative-Space-Dev/vite-plugin-shopify-liquid-imports#readme',
   },
   stats: {
     stars: 0,

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'Gugustinette/nuxt-maplibre',
     npm: 'nuxt-maplibre',
   },
-  stats: {
-    stars: 42,
-  },
 })

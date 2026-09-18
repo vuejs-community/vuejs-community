@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'Baroshem/nuxt-security',
     npm: 'nuxt-security',
   },
-  stats: {
-    stars: 978,
-  },
 })

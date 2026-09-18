@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'favorodera/notform#main/packages/nuxt',
     npm: 'notform-nuxt',
   },
-  stats: {
-    stars: 21,
-  },
 })

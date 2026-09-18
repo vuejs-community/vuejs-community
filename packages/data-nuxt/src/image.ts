@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt/image',
     npm: '@nuxt/image',
   },
-  stats: {
-    stars: 1547,
-  },
 })

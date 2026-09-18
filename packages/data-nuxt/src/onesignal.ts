@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/onesignal-module',
     npm: '@nuxtjs/onesignal',
   },
-  stats: {
-    stars: 77,
-  },
 })

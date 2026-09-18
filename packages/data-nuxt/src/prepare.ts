@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'johannschopplich/nuxt-prepare',
     npm: 'nuxt-prepare',
   },
-  stats: {
-    stars: 104,
-  },
 })

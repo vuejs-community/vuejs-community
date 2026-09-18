@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'thimodev/nuxt-codemirror',
     npm: 'nuxt-codemirror',
   },
-  stats: {
-    stars: 24,
-  },
 })

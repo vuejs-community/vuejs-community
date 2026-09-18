@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'sandoche/nuxt-floating-prompt-module#main',
     npm: 'nuxt-floating-prompt-module',
   },
-  stats: {
-    stars: 7,
-  },
 })

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'onmax/nuxt-safe-runtime-config#main',
     npm: 'nuxt-safe-runtime-config',
   },
-  stats: {
-    stars: 33,
-  },
 })

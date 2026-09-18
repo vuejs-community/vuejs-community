@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'rolleyio/nuxt-directus-sdk',
     npm: 'nuxt-directus-sdk',
   },
-  stats: {
-    stars: 13,
-  },
 })

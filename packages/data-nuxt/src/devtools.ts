@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt/devtools#main/packages/devtools',
     npm: '@nuxt/devtools',
   },
-  stats: {
-    stars: 3299,
-  },
 })

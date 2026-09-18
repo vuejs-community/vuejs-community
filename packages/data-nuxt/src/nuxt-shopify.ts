@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'Gomah/nuxt-shopify',
     npm: 'nuxt-shopify',
   },
-  stats: {
-    stars: 354,
-  },
 })

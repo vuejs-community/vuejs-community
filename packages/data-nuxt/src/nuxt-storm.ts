@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'fumeapp/nuxt-storm',
     npm: 'nuxt-storm',
   },
-  stats: {
-    stars: 66,
-  },
 })

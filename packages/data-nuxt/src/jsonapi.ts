@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'patrickcate/nuxt-jsonapi',
     npm: 'nuxt-jsonapi',
   },
-  stats: {
-    stars: 44,
-  },
 })

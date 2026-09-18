@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'roncallyt/nuxt-listmonk',
     npm: 'nuxt-listmonk',
   },
-  stats: {
-    stars: 3,
-  },
 })

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'gitana/cloudcms-nuxt',
     npm: 'cloudcms-nuxt',
   },
-  stats: {
-    stars: 1,
-  },
 })

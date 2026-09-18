@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'johannschopplich/nuxt-kirby',
     npm: 'nuxt-kirby',
   },
-  stats: {
-    stars: 50,
-  },
 })

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-source-locator',
-  description: 'Dev-only Vite plugin: click UI elements to jump to source in your IDE',
+  description: 'Dev-only Vite plugin: resolve UI elements to source context for IDEs and coding agents',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -13,6 +13,8 @@ export default defineProjectMeta({
     'vite-plugin',
     'source-locator',
     'devtools',
+    'ai',
+    'agent',
     'cursor',
     'vscode',
   ],

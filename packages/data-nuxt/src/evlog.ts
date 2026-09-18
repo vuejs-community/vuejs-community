@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'evloghq/evlog#main/packages/evlog',
     npm: 'evlog',
   },
-  stats: {
-    stars: 1855,
-  },
 })

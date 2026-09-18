@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'drunomics/nuxtjs-drupal-ce',
     npm: 'nuxtjs-drupal-ce',
   },
-  stats: {
-    stars: 29,
-  },
 })

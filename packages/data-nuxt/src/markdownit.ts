@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/markdownit-module',
     npm: '@nuxtjs/markdownit',
   },
-  stats: {
-    stars: 49,
-  },
 })

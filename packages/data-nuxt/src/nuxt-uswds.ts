@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'patrickcate/nuxt-uswds',
     npm: 'nuxt-uswds',
   },
-  stats: {
-    stars: 5,
-  },
 })

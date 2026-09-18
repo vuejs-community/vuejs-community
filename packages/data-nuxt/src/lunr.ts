@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/lunr-module',
     npm: '@nuxtjs/lunr-module',
   },
-  stats: {
-    stars: 46,
-  },
 })

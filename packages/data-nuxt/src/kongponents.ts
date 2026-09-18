@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'kong/kongponents',
     npm: '@kong/kongponents',
   },
-  stats: {
-    stars: 163,
-  },
 })

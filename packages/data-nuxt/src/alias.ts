@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'kdydesign/nuxt-alias-module',
     npm: 'nuxt-alias',
   },
-  stats: {
-    stars: 11,
-  },
 })

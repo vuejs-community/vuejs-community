@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'go-fireball/nuxt-google-auth',
     npm: 'nuxt-google-auth',
   },
-  stats: {
-    stars: 3,
-  },
 })

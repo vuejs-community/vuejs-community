@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'contributte/nuxt-smartlook',
     npm: 'nuxt-smartlook',
   },
-  stats: {
-    stars: 3,
-  },
 })

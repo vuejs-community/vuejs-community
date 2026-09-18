@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/critters',
     npm: '@nuxtjs/critters',
   },
-  stats: {
-    stars: 187,
-  },
 })

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'holux-design/v-gsap-nuxt',
     npm: 'v-gsap-nuxt',
   },
-  stats: {
-    stars: 170,
-  },
 })

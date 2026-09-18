@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'SchwarzIT/onyx#main/packages/nuxt',
     npm: '@sit-onyx/nuxt',
   },
-  stats: {
-    stars: 124,
-  },
 })

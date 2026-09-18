@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/google-fonts',
     npm: '@nuxtjs/google-fonts',
   },
-  stats: {
-    stars: 582,
-  },
 })

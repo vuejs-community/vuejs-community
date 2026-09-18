@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'oro-ad/nuxt-claude-devtools',
     npm: '@oro.ad/nuxt-claude-devtools',
   },
-  stats: {
-    stars: 20,
-  },
 })

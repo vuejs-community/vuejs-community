@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'i2djs/pdf-frame#main/packages/pdf-frame-nuxt',
     npm: '@i2d/nuxt-pdf-frame',
   },
-  stats: {
-    stars: 87,
-  },
 })

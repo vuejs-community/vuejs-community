@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'manchenkoff/nuxt-auth-sanctum',
     npm: 'nuxt-auth-sanctum',
   },
-  stats: {
-    stars: 286,
-  },
 })

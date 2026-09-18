@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/harlem',
     npm: '@nuxtjs/harlem',
   },
-  stats: {
-    stars: 83,
-  },
 })

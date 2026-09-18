@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/laravel-echo-module',
     npm: '@nuxtjs/laravel-echo',
   },
-  stats: {
-    stars: 84,
-  },
 })

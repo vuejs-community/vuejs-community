@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'stickpro/nuxt-tiktok-analytics',
     npm: 'tiktok-analytics',
   },
-  stats: {
-    stars: 1,
-  },
 })

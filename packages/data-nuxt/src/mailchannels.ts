@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'yizack/nuxt-mailchannels',
     npm: 'nuxt-mailchannels',
   },
-  stats: {
-    stars: 12,
-  },
 })

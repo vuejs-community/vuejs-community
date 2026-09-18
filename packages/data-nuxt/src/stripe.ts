@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'WilliamDASILVA/nuxt-stripe-module',
     npm: 'nuxt-stripe-module',
   },
-  stats: {
-    stars: 114,
-  },
 })

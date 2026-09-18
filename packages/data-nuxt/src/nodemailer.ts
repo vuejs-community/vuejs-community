@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'kleinpetr/nuxt-nodemailer',
     npm: 'nuxt-nodemailer',
   },
-  stats: {
-    stars: 18,
-  },
 })

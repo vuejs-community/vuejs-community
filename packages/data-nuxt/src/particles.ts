@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'Joepocalyptic/nuxt-particles',
     npm: 'nuxt-particles',
   },
-  stats: {
-    stars: 37,
-  },
 })

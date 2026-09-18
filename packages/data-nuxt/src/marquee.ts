@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'hanzydev/nuxt-marquee',
     npm: 'nuxt-marquee',
   },
-  stats: {
-    stars: 58,
-  },
 })

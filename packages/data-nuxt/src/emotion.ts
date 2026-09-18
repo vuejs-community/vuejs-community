@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/emotion',
     npm: '@nuxtjs/emotion',
   },
-  stats: {
-    stars: 91,
-  },
 })

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'Lexpeartha/nuxt-xstate',
     npm: 'nuxt-xstate',
   },
-  stats: {
-    stars: 59,
-  },
 })

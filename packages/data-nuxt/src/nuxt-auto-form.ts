@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'Norbiros/nuxt-auto-form',
     npm: '@norbiros/nuxt-auto-form',
   },
-  stats: {
-    stars: 59,
-  },
 })

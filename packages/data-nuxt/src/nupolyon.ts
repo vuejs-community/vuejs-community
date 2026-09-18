@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'adenvt/nupolyon',
     npm: 'nupolyon',
   },
-  stats: {
-    stars: 2,
-  },
 })

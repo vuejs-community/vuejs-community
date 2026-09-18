@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@stealthscale/vite-plugin-base',
-  description: 'What every stealth bundler plugin is written with: a typed plugin, the packages a build reached, and the files it writes.',
+  description: 'Turns a name and one write step into a bundler plugin that reads the module graph.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

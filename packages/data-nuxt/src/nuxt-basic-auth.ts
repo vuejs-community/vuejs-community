@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'kgierke/nuxt-basic-auth',
     npm: '@kgierke/nuxt-basic-auth',
   },
-  stats: {
-    stars: 34,
-  },
 })

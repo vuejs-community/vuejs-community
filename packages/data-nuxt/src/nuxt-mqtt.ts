@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxtaid/nuxt-mqtt',
     npm: 'nuxt-mqtt',
   },
-  stats: {
-    stars: 2,
-  },
 })

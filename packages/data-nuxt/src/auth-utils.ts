@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'atinux/nuxt-auth-utils',
     npm: 'nuxt-auth-utils',
   },
-  stats: {
-    stars: 1598,
-  },
 })

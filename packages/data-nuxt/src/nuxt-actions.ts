@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'billymaulana/nuxt-actions',
     npm: 'nuxt-actions',
   },
-  stats: {
-    stars: 21,
-  },
 })

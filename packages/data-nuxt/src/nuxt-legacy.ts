@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'teages/nuxt-legacy',
     npm: '@teages/nuxt-legacy',
   },
-  stats: {
-    stars: 21,
-  },
 })

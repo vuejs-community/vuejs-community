@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'ymmooot/nuxt-jsonld',
     npm: 'nuxt-jsonld',
   },
-  stats: {
-    stars: 317,
-  },
 })

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'bbg/nuxt-radash',
     npm: 'nuxt-radash',
   },
-  stats: {
-    stars: 20,
-  },
 })

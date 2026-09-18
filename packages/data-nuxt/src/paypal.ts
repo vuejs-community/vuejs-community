@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxtaid/nuxt-paypal',
     npm: 'nuxt-paypal',
   },
-  stats: {
-    stars: 17,
-  },
 })

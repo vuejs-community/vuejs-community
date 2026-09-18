@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'logto-io/js#master/packages/nuxt',
     npm: '@logto/nuxt',
   },
-  stats: {
-    stars: 96,
-  },
 })

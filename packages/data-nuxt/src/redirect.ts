@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/redirect-module',
     npm: '@nuxtjs/redirect-module',
   },
-  stats: {
-    stars: 307,
-  },
 })

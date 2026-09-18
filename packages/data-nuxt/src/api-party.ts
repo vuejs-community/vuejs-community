@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'johannschopplich/nuxt-api-party',
     npm: 'nuxt-api-party',
   },
-  stats: {
-    stars: 305,
-  },
 })

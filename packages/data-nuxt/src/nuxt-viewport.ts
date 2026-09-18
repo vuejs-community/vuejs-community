@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'mvrlin/nuxt-viewport',
     npm: 'nuxt-viewport',
   },
-  stats: {
-    stars: 167,
-  },
 })

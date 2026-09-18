@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'onmax/nuxt-convex',
     npm: 'convex-monorepo',
   },
-  stats: {
-    stars: 21,
-  },
 })

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/pwa-module',
     npm: '@nuxtjs/pwa',
   },
-  stats: {
-    stars: 1262,
-  },
 })

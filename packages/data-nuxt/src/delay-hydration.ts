@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'harlan-zw/nuxt-delay-hydration',
     npm: 'nuxt-delay-hydration',
   },
-  stats: {
-    stars: 399,
-  },
 })

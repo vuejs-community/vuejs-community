@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'helltraitor/nuxt-feedme',
     npm: 'nuxt-feedme',
   },
-  stats: {
-    stars: 27,
-  },
 })

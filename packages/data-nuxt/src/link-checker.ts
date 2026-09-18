@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'harlan-zw/nuxt-link-checker',
     npm: 'nuxt-link-checker',
   },
-  stats: {
-    stars: 101,
-  },
 })

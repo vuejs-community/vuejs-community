@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'hamlogic/nuxt-cloudflare-analytics',
     npm: 'nuxt-cloudflare-analytics',
   },
-  stats: {
-    stars: 30,
-  },
 })

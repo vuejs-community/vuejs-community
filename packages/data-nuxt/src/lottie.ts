@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'volkanakkus/nuxt-lottie',
     npm: 'nuxt-lottie',
   },
-  stats: {
-    stars: 41,
-  },
 })

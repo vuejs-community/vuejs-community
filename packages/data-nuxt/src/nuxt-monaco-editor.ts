@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'e-chan1007/nuxt-monaco-editor',
     npm: 'nuxt-monaco-editor',
   },
-  stats: {
-    stars: 148,
-  },
 })

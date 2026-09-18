@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'powersync-ja/powersync-js#main/packages/nuxt',
     npm: '@powersync/nuxt',
   },
-  stats: {
-    stars: 723,
-  },
 })

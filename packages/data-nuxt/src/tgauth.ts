@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'paranoidphantom/tgauth',
     npm: '@paranoidphantom/tgauth',
   },
-  stats: {
-    stars: 10,
-  },
 })

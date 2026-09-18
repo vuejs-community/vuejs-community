@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'b5710546232/nuxt-png-to-ico',
     npm: 'nuxt-png-to-ico',
   },
-  stats: {
-    stars: 1,
-  },
 })

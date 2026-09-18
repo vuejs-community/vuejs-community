@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'hex-digital/nuxt-datocms',
     npm: '@hexdigital/nuxt-datocms',
   },
-  stats: {
-    stars: 7,
-  },
 })

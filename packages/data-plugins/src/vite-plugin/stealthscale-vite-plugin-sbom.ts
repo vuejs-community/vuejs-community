@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@stealthscale/vite-plugin-sbom',
-  description: 'A bill of materials for what a build actually reached, and the toolchain that produced it.',
+  description: 'Writes a CycloneDX bill of materials from the modules a build reached.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

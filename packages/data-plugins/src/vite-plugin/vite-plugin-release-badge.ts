@@ -21,6 +21,7 @@ export default defineProjectMeta({
   },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-release-badge',
+    website: 'https://gitee.com/qq942684961/npm-package-vite-plugin-release-badge',
   },
   stats: {
     stars: 0,

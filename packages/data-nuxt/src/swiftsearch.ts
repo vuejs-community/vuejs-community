@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'atoms-studio/nuxt-swiftsearch',
     npm: '@atoms-studio/nuxt-swiftsearch',
   },
-  stats: {
-    stars: 66,
-  },
 })

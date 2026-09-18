@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/router-module',
     npm: '@nuxtjs/router',
   },
-  stats: {
-    stars: 394,
-  },
 })

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'getsentry/sentry-javascript#HEAD/packages/nuxt',
     npm: '@sentry/nuxt',
   },
-  stats: {
-    stars: 8742,
-  },
 })

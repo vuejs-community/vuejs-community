@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'GrabarzUndPartner/nuxt-custom-elements',
     npm: 'nuxt-custom-elements',
   },
-  stats: {
-    stars: 83,
-  },
 })

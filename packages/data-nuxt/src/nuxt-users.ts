@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'rrd108/nuxt-users',
     npm: 'nuxt-users',
   },
-  stats: {
-    stars: 57,
-  },
 })

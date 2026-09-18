@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'Flo0806/nuxt-spyglass',
     npm: 'nuxt-spyglass',
   },
-  stats: {
-    stars: 14,
-  },
 })

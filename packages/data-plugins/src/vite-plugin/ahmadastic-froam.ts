@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@ahmadastic/froam',
-  description: 'The visual editor for the site you already have. Point it at any running site or static folder — React, Rails, Django, WordPress, plain HTML — edit visually, and every change compiles to committable files in your repo.',
+  description: 'A visual editor for a running site or static HTML folder. Save supported revisions as a versioned design, generated override CSS, and a small content runtime.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -17,11 +17,7 @@ export default defineProjectMeta({
     'page-editor',
     'vite-plugin',
     'react',
-    'wordpress',
-    'rails',
-    'django',
     'static-site',
-    'framework-agnostic',
   ],
   source: {
     github: 'Ahmadastics/froam-studio',

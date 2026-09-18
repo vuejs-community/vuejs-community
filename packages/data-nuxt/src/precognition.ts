@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'sot1986/nuxt-precognition',
     npm: 'nuxt-precognition',
   },
-  stats: {
-    stars: 18,
-  },
 })

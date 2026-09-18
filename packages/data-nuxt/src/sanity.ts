@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-modules/sanity#main',
     npm: '@nuxtjs/sanity',
   },
-  stats: {
-    stars: 265,
-  },
 })

@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'ihavecoke/nuxt-seo-meta#main/packages/core',
     npm: 'nuxt-seo-meta',
   },
-  stats: {
-    stars: 43,
-  },
 })

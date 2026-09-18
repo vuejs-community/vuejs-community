@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'vexip-ui/nuxt',
     npm: '@vexip-ui/nuxt',
   },
-  stats: {
-    stars: 37,
-  },
 })

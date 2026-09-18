@@ -20,7 +20,4 @@ export default defineProjectMeta({
     github: 'nuxt-community/sentry-module',
     npm: '@nuxtjs/sentry',
   },
-  stats: {
-    stars: 498,
-  },
 })
