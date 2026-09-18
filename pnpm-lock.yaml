@@ -66,6 +66,9 @@ importers:
       '@iconify-json/material-icon-theme':
         specifier: ^1.2.70
         version: 1.2.70
+      '@iconify-json/thesvg':
+        specifier: ^1.2.6
+        version: 1.2.6
       '@iconify-json/thesvg-color':
         specifier: ^1.2.7
         version: 1.2.7
@@ -942,6 +945,9 @@ packages:
 
   '@iconify-json/thesvg-color@1.2.7':
     resolution: {integrity: sha512-Rdrbipj6f1Flf58j6NBgAfgVbzektbSgcJOPaDJ6msWgCuHLuG6tuOVymgkPX1M2AAcDshBp7OeA/v2EA4oI7A==}
+
+  '@iconify-json/thesvg@1.2.6':
+    resolution: {integrity: sha512-XHsCmvPWf1aVS/MMzlEt1WTvRM9goUS/dlRKYpWSQxQwjpg6xo1Y/r4ZGTIxY26t0gWiTzoNuAueTU0+dkQA/A==}
 
   '@iconify/collections@1.0.730':
     resolution: {integrity: sha512-vuSS1r5FVWH5Oo6vEnAYvCd4u13sr95s0uDjfOaSFdF15EvLAaUKA2yDpufc5KbFLBVvwzE5pIFt0dIM2kjYWA==}
@@ -6792,6 +6798,10 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/thesvg-color@1.2.7':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/thesvg@1.2.6':
     dependencies:
       '@iconify/types': 2.0.0
 
