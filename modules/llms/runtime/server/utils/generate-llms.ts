@@ -2,7 +2,7 @@ import type { LLmsModuleOptions } from '~~/modules/llms/runtime/types.ts'
 import { projectCategoryMetadata } from '#shared/constants/category.ts'
 import { formatCount } from '#shared/utils/format.ts'
 
-const categoryLabels = new Map(projectCategoryMetadata.map(category => [category.id, category.label]))
+const categoryLabels = new Map<string, string>(projectCategoryMetadata.map(category => [category.id, category.label]))
 
 function categoryLabel(category: string): string {
   const knownLabel = categoryLabels.get(category)
