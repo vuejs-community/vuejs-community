@@ -26,28 +26,41 @@ async function resolveDatabasePath() {
   return path
 }
 
-export default defineNitroPlugin(async (nitroApp) => {
+async function initializeDatabase() {
   const databasePath = await resolveDatabasePath()
-
   const database = createDatabase(nodeSqliteConnector({ path: databasePath }))
 
-  const projectsTable = await database.prepare(`
+  try {
+    const projectsTable = await database.prepare(`
         SELECT name
         FROM sqlite_master
         WHERE type = 'table'
           AND name = 'projects'
     `).get()
 
-  if (!projectsTable) {
-    await database.dispose()
-    throw new Error(`The projects table was not found in ${databasePath}`)
-  }
+    if (!projectsTable)
+      throw new Error(`The projects table was not found in ${databasePath}`)
 
-  nitroApp.hooks.hook('request', (event) => {
-    event.context.database = database
+    return database
+  }
+  catch (error) {
+    await database.dispose()
+    throw error
+  }
+}
+
+export default defineNitroPlugin((nitroApp) => {
+  // Nitro invokes plugins synchronously and does not await an async plugin
+  // callback. Register the request hook immediately, then let the first request
+  // wait for the shared database initialization promise.
+  const databasePromise = initializeDatabase()
+
+  nitroApp.hooks.hook('request', async (event) => {
+    event.context.database = await databasePromise
   })
 
   nitroApp.hooks.hook('close', async () => {
+    const database = await databasePromise
     await database.dispose()
   })
 })
