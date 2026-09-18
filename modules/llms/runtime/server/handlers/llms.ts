@@ -46,6 +46,7 @@ export default defineEventHandler(async (event) => {
     return event.method === 'HEAD' ? '' : document
   }
   catch (error) {
+    console.error('[llms] Failed to generate llms.txt:', error)
     setResponseStatus(event, 500, 'Internal Server Error')
     return event.method === 'HEAD' ? '' : 'Unable to generate llms.txt.\n'
   }
