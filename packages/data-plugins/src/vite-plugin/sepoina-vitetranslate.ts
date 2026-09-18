@@ -28,6 +28,8 @@ export default defineProjectMeta({
     'code-splitting',
     'lazy-loading',
     'zero-dependencies',
+    'llm',
+    'machine-translation',
   ],
   source: {
     github: 'sepoina/viteTranslate',

@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'typescript',
   ],
   source: {
-    github: 'chunnamwong/ts-svg',
+    github: 'raycnwong/ts-svg',
     npm: '@ts-svg/core',
   },
   links: {
-    github: 'https://github.com/chunnamwong/ts-svg',
+    github: 'https://github.com/raycnwong/ts-svg',
     npm: 'https://www.npmjs.com/package/@ts-svg/core',
-    website: 'https://github.com/chunnamwong/ts-svg#readme',
+    website: 'https://github.com/raycnwong/ts-svg#readme',
   },
   stats: {
     stars: 0,

@@ -16,13 +16,13 @@ export default defineProjectMeta({
     'svelte',
   ],
   source: {
-    github: 'chunnamwong/ts-svg',
+    github: 'raycnwong/ts-svg',
     npm: '@ts-svg/svelte',
   },
   links: {
-    github: 'https://github.com/chunnamwong/ts-svg',
+    github: 'https://github.com/raycnwong/ts-svg',
     npm: 'https://www.npmjs.com/package/@ts-svg/svelte',
-    website: 'https://github.com/chunnamwong/ts-svg#readme',
+    website: 'https://github.com/raycnwong/ts-svg#readme',
   },
   stats: {
     stars: 0,
