@@ -64,6 +64,7 @@ export interface CommunityProject {
   // Optional: links shown publicly
   source?: Source
 
-  // Stats (Stars, downloads) are synced automatically by scheduled jobs, no manual maintenance needed
+  // Legacy snapshot only. Runtime metrics are persisted in server/assets/index.db.
+  // New project metadata should not add this field.
   stats?: Stats
 }
