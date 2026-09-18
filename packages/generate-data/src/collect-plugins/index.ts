@@ -1,16 +1,31 @@
 import type { CommunityProject } from '@vuejs-community/schema'
 import type { NpmSearchObject, PluginDefinition, PluginType } from './types.js'
+import { existsSync } from 'node:fs'
 import { mkdir, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { renderProjectMetaSource } from '@vuejs-community/shared'
+import {
+  readProjectMeta,
+  renderProjectMetaSource,
+  stableStringify,
+} from '@vuejs-community/shared'
+import PQueue from 'p-queue'
 import { NpmClient } from './npm-client.js'
 import { PLUGIN_DEFINITIONS } from './types.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = join(__dirname, '../../../data-plugins/src')
+const METRICS_STAGING_PATH = join(__dirname, '../../../../.cache/plugin-npm-metrics.json')
+
+interface PluginNpmMetric {
+  packageName: string
+  downloadsMonthly: number
+  downloadsWeekly: number
+  updatedAt: string
+}
 
 export interface CollectedPlugin {
+  npmMetric: PluginNpmMetric
   project: CommunityProject
   type: PluginType
 }
@@ -46,6 +61,12 @@ export function transformToCommunityProject(
   const { monthly, weekly } = result.downloads
 
   return {
+    npmMetric: {
+      packageName: result.package.name,
+      downloadsMonthly: monthly,
+      downloadsWeekly: weekly,
+      updatedAt: new Date().toISOString(),
+    },
     type,
     project: {
       name: result.package.name,
@@ -62,9 +83,6 @@ export function transformToCommunityProject(
         ...(github ? { github: `https://github.com/${github}` } : {}),
         npm: result.package.links.npm,
         ...(result.package.links.homepage ? { website: result.package.links.homepage } : {}),
-      },
-      stats: {
-        downloads: { monthly, weekly },
       },
     },
   }
@@ -103,12 +121,41 @@ export async function collectPlugins(npmClient: NpmClient): Promise<CollectedPlu
 export async function savePlugins(plugins: CollectedPlugin[], directory = DATA_DIR): Promise<void> {
   await Promise.all(PLUGIN_DEFINITIONS.map(({ type }) => mkdir(join(directory, type), { recursive: true })))
 
-  for (const { project, type } of plugins) {
+  const queue = new PQueue({ concurrency: 32 })
+  await Promise.all(plugins.map(plugin => queue.add(async () => {
+    const { project, type } = plugin
     const outputPath = join(directory, type, `${toFileName(project.name)}.ts`)
-    await writeFile(outputPath, renderProjectMetaSource(project), 'utf8')
-  }
+
+    // Existing generated files may still contain the legacy stats snapshot. Keep
+    // it untouched during the transition so the first metrics-only run does not
+    // produce a several-thousand-file diff. The database is the source of truth.
+    const existingProject = existsSync(outputPath)
+      ? await readProjectMeta(outputPath)
+      : undefined
+    const existingStats = existingProject?.stats
+    const nextProject = {
+      ...project,
+      ...(existingStats ? { stats: existingStats } : {}),
+    }
+
+    if (!existingProject || stableStringify(existingProject) !== stableStringify(nextProject))
+      await writeFile(outputPath, renderProjectMetaSource(nextProject), 'utf8')
+  })))
 
   console.log(`Saved ${plugins.length} plugin files to ${directory}`)
+}
+
+export async function savePluginMetrics(
+  plugins: CollectedPlugin[],
+  outputPath = METRICS_STAGING_PATH,
+): Promise<void> {
+  await mkdir(dirname(outputPath), { recursive: true })
+  const metrics = plugins
+    .map(plugin => plugin.npmMetric)
+    .sort((left, right) => left.packageName.localeCompare(right.packageName))
+
+  await writeFile(outputPath, `${JSON.stringify(metrics, null, 2)}\n`, 'utf8')
+  console.log(`Saved ${metrics.length} plugin npm metrics to ${outputPath}`)
 }
 
 export async function main(): Promise<void> {
@@ -117,6 +164,7 @@ export async function main(): Promise<void> {
   const npmClient = new NpmClient()
   const plugins = await collectPlugins(npmClient)
   await savePlugins(plugins)
+  await savePluginMetrics(plugins)
 
   console.log('\nCollection complete!')
 }

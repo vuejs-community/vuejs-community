@@ -10,12 +10,12 @@ permissions:
 
 concurrency:
   group: sync-metrics-and-regenerate-data
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   sync-metrics-and-regenerate-data:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 90
 
     steps:
       - uses: actions/checkout@v7
@@ -38,13 +38,17 @@ jobs:
       - name: Sync Nuxt Modules Data
         run: pnpm run generate:nuxt:modules
 
-      - name: Sync npm and GitHub stats data
+      - name: Build database and preserve metrics
+        run: pnpm run generate:db
+
+      - name: Sync npm and GitHub metrics
+        timeout-minutes: 60
         env:
           GENERATE_TOKEN: ${{ secrets.GENERATE_TOKEN }}
         run: pnpm run sync
 
-      - name: build sync database
-        run: pnpm run generate:db
+      - name: Validate database
+        run: pnpm run validate:db
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v10

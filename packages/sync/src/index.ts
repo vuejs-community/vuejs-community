@@ -1,500 +1,565 @@
-import type { CommunityProject } from '@vuejs-community/schema'
 import type { FetchError } from 'ofetch'
-import { writeFile } from 'node:fs/promises'
+import { appendFile } from 'node:fs/promises'
+import { resolve } from 'node:path'
 import { setTimeout } from 'node:timers/promises'
-import { renderProjectMetaSource } from '@vuejs-community/shared'
 import { loadDotenv } from 'c12'
-import { glob } from 'glob'
-import { createJiti } from 'jiti'
+import { createDatabase } from 'db0'
+import nodeSqliteConnector from 'db0/connectors/node-sqlite'
 import { ofetch } from 'ofetch'
-import pLimit from 'p-limit'
 
-const jiti = createJiti(import.meta.url)
+const NPM_BULK_BATCH_SIZE = 120
+const NPM_SCOPED_GAP_MS = 1500
+const GITHUB_BATCH_SIZE = 50
+const GITHUB_BATCH_GAP_MS = 500
+const REQUEST_TIMEOUT_MS = 30_000
+const SYNC_DEADLINE_MS = 45 * 60_000
 
-const dataPackages = [
-  'data-ui',
-  'data-component',
-  'data-hooks',
-  'data-admin',
-  'data-nuxt',
-  'data-plugins',
-  'data-uniapp',
-]
-
-const npms = new Map<string, {
-  file: string
-  npm: string
-}>()
-
-const scopes = new Map<string, {
-  file: string
-  npm: string
-}>()
-
-const githubs = new Map<string, {
-  file: string
-  github: string
-}>()
+interface Config {
+  databasePath: string
+  deadline: number
+  token: string
+}
 
 interface NpmDownloadEntry {
   downloads: number
 }
 
-type NpmDownloadsResponse = Record<string, NpmDownloadEntry>
-type Downloads = NonNullable<NonNullable<CommunityProject['stats']>['downloads']>
-
-interface Config {
-  token: string
+interface NpmRangeResponse {
+  downloads: Array<{
+    day: string
+    downloads: number
+  }>
+  end: string
+  package: string
+  start: string
 }
 
-interface GithubRepoResponse {
-  stargazers_count: number
+interface NpmMetric {
+  packageName: string
+  downloadsMonthly: number
+  downloadsWeekly: number
 }
 
-// ---------------------------------------------------------------------------
-// Retry / rate-limit helpers
-// ---------------------------------------------------------------------------
+interface GithubMetric {
+  repository: string
+  stars: number
+}
 
-function getRetryAfterMs(error: unknown, fallbackMs: number): number {
-  const fetchError = error as FetchError
-  const header = fetchError?.response?.headers?.get?.('retry-after')
-  if (header) {
-    const asNumber = Number(header)
-    if (!Number.isNaN(asNumber))
-      return Math.max(asNumber * 1000, fallbackMs)
+interface GithubGraphqlResponse {
+  data?: Record<string, {
+    nameWithOwner: string
+    stargazerCount: number
+  } | null>
+  errors?: Array<{
+    message: string
+    path?: Array<number | string>
+    type?: string
+  }>
+}
 
-    const asDate = Date.parse(header)
-    if (!Number.isNaN(asDate))
-      return Math.max(asDate - Date.now(), fallbackMs)
+interface ProjectSourceRow {
+  github_repository: string | null
+  npm_package: string | null
+  source: string
+}
+
+interface SyncSummary {
+  githubBatches: number
+  githubFailed: number
+  githubUpdated: number
+  npmFailed: number
+  npmRequests: number
+  npmUpdated: number
+}
+
+class RetryableError extends Error {
+  constructor(message: string, readonly retryAfterMs: number) {
+    super(message)
   }
-  return fallbackMs
 }
 
-function getGithubRetryAfterMs(error: unknown, fallbackMs = 60_000): number {
+function getStatus(error: unknown): number | undefined {
   const fetchError = error as FetchError
-  const retryAfter = fetchError?.response?.headers?.get?.('retry-after')
-  if (retryAfter)
-    return getRetryAfterMs(error, fallbackMs)
+  return fetchError.response?.status ?? fetchError.statusCode ?? fetchError.status
+}
 
-  const rateLimitReset = fetchError?.response?.headers?.get?.('x-ratelimit-reset')
-  if (rateLimitReset) {
-    const resetAt = Number(rateLimitReset) * 1000
-    if (!Number.isNaN(resetAt))
-      return Math.max(resetAt - Date.now() + 1000, fallbackMs)
+function getHeader(error: unknown, name: string): string | null {
+  return (error as FetchError).response?.headers?.get(name) ?? null
+}
+
+function parseRetryAfter(value: string | null): number | null {
+  if (!value)
+    return null
+
+  const seconds = Number(value)
+  if (Number.isFinite(seconds))
+    return Math.max(0, seconds * 1000)
+
+  const timestamp = Date.parse(value)
+  return Number.isNaN(timestamp) ? null : Math.max(0, timestamp - Date.now())
+}
+
+function getRetryDelay(error: unknown, attempt: number): number | null {
+  if (error instanceof RetryableError)
+    return error.retryAfterMs
+
+  const status = getStatus(error)
+  if (status === 404)
+    return null
+
+  const retryAfter = parseRetryAfter(getHeader(error, 'retry-after'))
+  if (retryAfter !== null)
+    return Math.max(retryAfter, 1000)
+
+  if (status === 403) {
+    if (getHeader(error, 'x-ratelimit-remaining') !== '0')
+      return null
+
+    const reset = Number(getHeader(error, 'x-ratelimit-reset')) * 1000
+    return Number.isFinite(reset)
+      ? Math.max(reset - Date.now() + 1000, 1000)
+      : 60_000
   }
 
-  return fallbackMs
-}
+  if (status === 429)
+    return Math.max(10_000 * attempt, 10_000)
 
-function getHttpStatus(error: unknown): number | undefined {
-  const fetchError = error as FetchError
-  return fetchError?.response?.status
-    ?? fetchError?.statusCode
-    ?? fetchError?.status
-}
+  if (!status || status >= 500)
+    return 1000 * 2 ** (attempt - 1)
 
-function isRateLimited(error: unknown): boolean {
-  const status = getHttpStatus(error)
-  return status === 429 || status === 403
-}
-
-function isNotFound(error: unknown): boolean {
-  return getHttpStatus(error) === 404
+  return null
 }
 
 async function withRetry<T>(
   label: string,
-  fn: () => Promise<T>,
-  options: {
-    retries?: number
-    baseDelayMs?: number
-  } = {},
-): Promise<T> {
-  const retries = options.retries ?? 5
-  const baseDelayMs = options.baseDelayMs ?? 1000
-  let lastError: unknown
+  request: () => Promise<T>,
+  deadline: number,
+  attempts = 3,
+): Promise<T | null> {
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    if (Date.now() >= deadline) {
+      console.warn(`[skip] ${label}: sync deadline reached`)
+      return null
+    }
 
-  for (let attempt = 0; attempt <= retries; attempt++) {
     try {
-      return await fn()
+      return await request()
     }
     catch (error) {
-      lastError = error
-      if (isNotFound(error) || attempt === retries)
-        break
+      const status = getStatus(error)
+      if (status === 400 || status === 401)
+        throw error
 
-      const delay = isRateLimited(error)
-        ? Math.max(getRetryAfterMs(error, 10_000), 10_000 * (attempt + 1))
-        : baseDelayMs * 2 ** attempt
+      const delay = getRetryDelay(error, attempt)
+      if (delay === null || attempt === attempts) {
+        console.warn(`[skip] ${label}: ${(error as Error).message}`)
+        return null
+      }
 
-      console.warn(
-        `[retry] ${label} attempt ${attempt + 1}/${retries}, wait ${Math.round(delay / 1000)}s: ${(error as Error).message}`,
-      )
+      if (Date.now() + delay >= deadline) {
+        console.warn(`[skip] ${label}: retry would exceed the sync deadline`)
+        return null
+      }
+
+      console.warn(`[retry] ${label} attempt ${attempt}/${attempts}, wait ${Math.ceil(delay / 1000)}s`)
       await setTimeout(delay)
     }
   }
 
-  throw lastError
+  return null
 }
 
-function createRequestThrottle(minIntervalMs = 250) {
-  let nextAvailableAt = 0
-  let extraDelayMs = 0
-
-  return {
-    async wait() {
-      const now = Date.now()
-      const target = Math.max(now, nextAvailableAt) + extraDelayMs
-      const delay = target - now
-      nextAvailableAt = target + minIntervalMs
-      if (delay > 0)
-        await setTimeout(delay)
-    },
-    onSuccess() {
-      extraDelayMs = Math.max(0, extraDelayMs - 50)
-    },
-    onRateLimit(retryAfterMs: number) {
-      extraDelayMs = Math.max(extraDelayMs, 1000)
-      nextAvailableAt = Math.max(nextAvailableAt, Date.now() + retryAfterMs)
-    },
-  }
+function chunk<T>(items: T[], size: number): T[][] {
+  return Array.from(
+    { length: Math.ceil(items.length / size) },
+    (_, index) => items.slice(index * size, (index + 1) * size),
+  )
 }
 
-const npmThrottle = createRequestThrottle(250)
-const githubThrottle = createRequestThrottle(100)
-
-// ---------------------------------------------------------------------------
-// npm / github API
-// ---------------------------------------------------------------------------
-
-async function getNpmDownloads(
-  packages: string,
-  options: { parallelPeriods?: boolean } = {},
-) {
-  const parallelPeriods = options.parallelPeriods ?? false
-
-  const request = async (period: 'week' | 'month'): Promise<NpmDownloadsResponse> => {
-    try {
-      const response = await withRetry(
-        `npm ${packages} (${period})`,
-        async () => {
-          await npmThrottle.wait()
-          try {
-            const res = await ofetch<NpmDownloadsResponse | NpmDownloadEntry>(
-              `https://api.npmjs.org/downloads/point/last-${period}/${packages}`,
-              { retry: 0, timeout: 30000 },
-            )
-            npmThrottle.onSuccess()
-            return res
-          }
-          catch (error) {
-            if (isNotFound(error)) {
-              console.warn(`[npm] ${packages} (${period}): 404 Not Found, fallback to 0`)
-              return { downloads: 0 }
-            }
-
-            if (isRateLimited(error))
-              npmThrottle.onRateLimit(getRetryAfterMs(error, 5000))
-            throw error
-          }
-        },
-        { retries: 6, baseDelayMs: 2000 },
+async function fetchNpmBulkPeriod(
+  names: string[],
+  period: 'month' | 'week',
+  config: Config,
+  summary: SyncSummary,
+): Promise<Map<string, number>> {
+  const packages = names.join(',')
+  const response = await withRetry(
+    `npm ${period} bulk (${names.length})`,
+    () => {
+      summary.npmRequests++
+      return ofetch<NpmDownloadEntry | Record<string, NpmDownloadEntry | null>>(
+        `https://api.npmjs.org/downloads/point/last-${period}/${packages}`,
+        { retry: 0, timeout: REQUEST_TIMEOUT_MS },
       )
-
-      return typeof response.downloads === 'number'
-        ? { [packages]: { downloads: response.downloads } }
-        : response as NpmDownloadsResponse
-    }
-    catch (error) {
-      console.warn(`[npm] ${packages} (${period}): ${(error as Error).message}, fallback to 0`)
-      return { [packages]: { downloads: 0 } }
-    }
-  }
-
-  if (parallelPeriods) {
-    const [weekly, monthly] = await Promise.all([request('week'), request('month')])
-    return { weekly, monthly }
-  }
-
-  const weekly = await request('week')
-  const monthly = await request('month')
-  return { weekly, monthly }
-}
-
-async function updateNpmDownloads(file: string, downloads: Downloads): Promise<boolean> {
-  const content = await jiti.import<CommunityProject>(file, { default: true })
-
-  const updated = {
-    ...content,
-    stats: {
-      stars: content.stats?.stars || 0,
-      downloads,
     },
-  } as const
-
-  await writeFile(file, renderProjectMetaSource(updated), 'utf-8')
-  return true
-}
-
-async function getGithubRepo(github: string, token: string) {
-  try {
-    return await withRetry(
-      `github ${github}`,
-      async () => {
-        await githubThrottle.wait()
-        try {
-          const response = await ofetch<GithubRepoResponse>(
-            `https://api.github.com/repos/${github}`,
-            {
-              retry: 0,
-              timeout: 30000,
-              headers: {
-                'Authorization': `Bearer ${token}`,
-                'Accept': 'application/vnd.github+json',
-                'X-GitHub-Api-Version': '2022-11-28',
-              },
-            },
-          )
-          githubThrottle.onSuccess()
-          return response
-        }
-        catch (error) {
-          if (isRateLimited(error))
-            githubThrottle.onRateLimit(getGithubRetryAfterMs(error))
-          throw error
-        }
-      },
-      { retries: 5, baseDelayMs: 2000 },
-    )
-  }
-  catch (error) {
-    if (isNotFound(error)) {
-      console.warn(`[github] ${github}: 404 Not Found, fallback to 0 stars`)
-      return { stargazers_count: 0 }
-    }
-    throw error
-  }
-}
-
-async function updateGithubStars(file: string, stars: number): Promise<boolean> {
-  const content = await jiti.import<CommunityProject>(file, { default: true })
-
-  const updated = {
-    ...content,
-    stats: {
-      stars,
-      downloads: content.stats?.downloads,
-    },
-  } as const
-
-  await writeFile(file, renderProjectMetaSource(updated), 'utf-8')
-  return true
-}
-
-// ---------------------------------------------------------------------------
-// sync stages
-// ---------------------------------------------------------------------------
-
-async function syncUnscopedNpm(entries: Array<{ file: string, npm: string }>) {
-  const npmBatchSize = 120
-  const batches = Array.from(
-    { length: Math.ceil(entries.length / npmBatchSize) },
-    (_, index) => entries.slice(index * npmBatchSize, (index + 1) * npmBatchSize),
+    config.deadline,
   )
 
-  console.log(`[npm] unscoped: ${entries.length} packages, ${batches.length} batches`)
+  const values = new Map<string, number>()
+  if (!response)
+    return values
 
-  let totalUpdated = 0
+  // npm returns a flat object rather than a package-name map when a batch has
+  // exactly one item.
+  if (names.length === 1 && 'downloads' in response && typeof response.downloads === 'number') {
+    values.set(names[0]!, response.downloads)
+    return values
+  }
 
-  for (let i = 0; i < batches.length; i++) {
-    const batch = batches[i]!
-    if (i > 0)
-      await setTimeout(800)
+  for (const [name, entry] of Object.entries(response)) {
+    if (entry && typeof entry !== 'number')
+      values.set(name, entry.downloads)
+  }
+  return values
+}
 
-    const packages = batch.map(item => item.npm).join(',')
-    console.log(`[npm] batch ${i + 1}/${batches.length}: ${batch.length} packages`)
+async function fetchUnscopedNpm(
+  names: string[],
+  config: Config,
+  summary: SyncSummary,
+): Promise<Map<string, NpmMetric>> {
+  const metrics = new Map<string, NpmMetric>()
 
-    const { weekly, monthly } = await getNpmDownloads(packages, { parallelPeriods: true })
-    let updated = 0
+  for (const batch of chunk(names, NPM_BULK_BATCH_SIZE)) {
+    const [monthly, weekly] = await Promise.all([
+      fetchNpmBulkPeriod(batch, 'month', config, summary),
+      fetchNpmBulkPeriod(batch, 'week', config, summary),
+    ])
 
-    for (const [name, month] of Object.entries(monthly)) {
-      const target = npms.get(name)
-      const week = weekly[name]
-
-      if (!target || !month || !week) {
-        console.warn(`[skip] ${name}: missing npm download data`)
+    for (const name of batch) {
+      const downloadsMonthly = monthly.get(name)
+      const downloadsWeekly = weekly.get(name)
+      if (downloadsMonthly === undefined || downloadsWeekly === undefined) {
+        summary.npmFailed++
         continue
       }
 
-      const changed = await updateNpmDownloads(target.file, {
-        monthly: month.downloads,
-        weekly: week.downloads,
-      })
-      if (changed)
-        updated++
+      metrics.set(name, { packageName: name, downloadsMonthly, downloadsWeekly })
     }
-
-    totalUpdated += updated
-    console.log(`[npm] batch ${i + 1} updated ${updated}/${batch.length}`)
   }
 
-  console.log(`[npm] unscoped done, updated ${totalUpdated}`)
+  return metrics
 }
 
-async function syncScopedNpmWave(
-  entries: Array<{ file: string, npm: string }>,
-  waveIndex: number,
-  waveTotal: number,
-) {
-  const concurrency = 2
-  const limit = pLimit(concurrency)
-  let done = 0
-  let updated = 0
-  const total = entries.length
+async function fetchScopedNpm(
+  names: string[],
+  config: Config,
+  summary: SyncSummary,
+): Promise<Map<string, NpmMetric>> {
+  const metrics = new Map<string, NpmMetric>()
 
-  console.log(
-    `[npm] scoped wave ${waveIndex}/${waveTotal}: ${total} packages, concurrency=${concurrency}`,
-  )
-
-  await Promise.all(entries.map(({ file, npm }) => limit(async () => {
-    try {
-      const { weekly, monthly } = await getNpmDownloads(npm, { parallelPeriods: false })
-      const week = weekly[npm]
-      const month = monthly[npm]
-
-      if (!week || !month) {
-        console.warn(`[skip] ${npm}: missing npm download data`)
-      }
-      else {
-        await updateNpmDownloads(file, {
-          monthly: month.downloads,
-          weekly: week.downloads,
-        })
-        updated++
-      }
-    }
-    catch (error) {
-      console.warn(`[skip] ${npm}: ${(error as Error).message}`)
-    }
-    finally {
-      done++
-      if (done % 50 === 0 || done === total) {
-        console.log(
-          `[npm] scoped wave ${waveIndex}/${waveTotal} progress ${done}/${total}, updated ${updated}`,
+  for (const name of names) {
+    const response = await withRetry(
+      `npm range ${name}`,
+      () => {
+        summary.npmRequests++
+        return ofetch<NpmRangeResponse>(
+          `https://api.npmjs.org/downloads/range/last-month/${encodeURIComponent(name)}`,
+          { retry: 0, timeout: REQUEST_TIMEOUT_MS },
         )
-      }
+      },
+      config.deadline,
+    )
+
+    if (!response?.downloads.length) {
+      summary.npmFailed++
+      continue
     }
-  })))
 
-  console.log(
-    `[npm] scoped wave ${waveIndex}/${waveTotal} done, updated ${updated}/${total}`,
-  )
-}
+    const downloads = [...response.downloads].sort((left, right) => left.day.localeCompare(right.day))
+    metrics.set(name, {
+      packageName: name,
+      downloadsMonthly: downloads.reduce((total, day) => total + day.downloads, 0),
+      downloadsWeekly: downloads.slice(-7).reduce((total, day) => total + day.downloads, 0),
+    })
 
-async function syncScopedNpm(entries: Array<{ file: string, npm: string }>) {
-  const chunkSize = 300
-  const waveGapMs = 15_000
-  const waves = Array.from(
-    { length: Math.ceil(entries.length / chunkSize) },
-    (_, index) => entries.slice(index * chunkSize, (index + 1) * chunkSize),
-  )
-
-  console.log(
-    `[npm] scoped: ${entries.length} packages, ${waves.length} waves (chunk=${chunkSize}, gap=${waveGapMs}ms)`,
-  )
-
-  for (let i = 0; i < waves.length; i++) {
-    await syncScopedNpmWave(waves[i]!, i + 1, waves.length)
-
-    if (i + 1 < waves.length) {
-      console.log(`[npm] scoped resting ${waveGapMs / 1000}s before next wave...`)
-      await setTimeout(waveGapMs)
-    }
+    await setTimeout(NPM_SCOPED_GAP_MS)
   }
 
-  console.log(`[npm] scoped all waves done`)
+  return metrics
 }
 
-async function syncGithub(
-  entries: Array<{ file: string, github: string }>,
-  token: string,
-) {
-  const concurrency = 8
-  const limit = pLimit(concurrency)
-  let done = 0
-  let updated = 0
-  const total = entries.length
+async function fetchNpmMetrics(
+  names: string[],
+  config: Config,
+  summary: SyncSummary,
+): Promise<Map<string, NpmMetric>> {
+  const unique = [...new Set(names)].sort()
+  const unscoped = unique.filter(name => !name.startsWith('@'))
+  const scoped = unique.filter(name => name.startsWith('@'))
 
-  console.log(`[github] ${total} repos, concurrency=${concurrency}`)
+  console.log(`[npm] ${unscoped.length} unscoped packages, ${scoped.length} scoped packages`)
+  // Finish the six or so bulk requests before starting the rate-sensitive
+  // single-package lane. Running both lanes together causes an avoidable burst
+  // of npm 429 responses at the start of the job.
+  const unscopedMetrics = await fetchUnscopedNpm(unscoped, config, summary)
+  const scopedMetrics = await fetchScopedNpm(scoped, config, summary)
 
-  await Promise.all(entries.map(({ file, github }) => limit(async () => {
-    try {
-      const repo = await getGithubRepo(github, token)
-      await updateGithubStars(file, repo.stargazers_count)
-      updated++
-    }
-    catch (error) {
-      console.warn(`[skip] ${github}: ${(error as Error).message}`)
-    }
-    finally {
-      done++
-      if (done % 200 === 0 || done === total)
-        console.log(`[github] progress ${done}/${total}, updated ${updated}`)
-    }
-  })))
-
-  console.log(`[github] done, updated ${updated}/${total}`)
+  return new Map([...unscopedMetrics, ...scopedMetrics])
 }
 
-// ---------------------------------------------------------------------------
-// main
-// ---------------------------------------------------------------------------
-
-async function main(config: Config): Promise<void> {
-  const files = await Promise.all(
-    dataPackages.map(packageName => glob('src/**/*.ts', {
-      cwd: new URL(`../../${packageName}/`, import.meta.url),
-      absolute: true,
-      nodir: true,
-    })),
-  ).then(results => results.flat())
-
-  console.log(`[scan] found ${files.length} project files`)
-
-  const loadLimit = pLimit(30)
-  await Promise.all(files.map(file => loadLimit(async () => {
-    const context = await jiti.import<CommunityProject>(file, { default: true })
-    const { npm, github } = context.source ?? {}
-
-    if (npm) {
-      if (npm.startsWith('@'))
-        scopes.set(npm, { file, npm })
-      else
-        npms.set(npm, { file, npm })
-    }
-
-    if (github)
-      githubs.set(github, { file, github })
-  })))
-
-  console.log(
-    `[scan] unscoped=${npms.size}, scoped=${scopes.size}, github=${githubs.size}`,
-  )
-
-  await syncUnscopedNpm(Array.from(npms.values()))
-  await syncScopedNpm(Array.from(scopes.values()))
-  await syncGithub(Array.from(githubs.values()), config.token)
-
-  console.log('[sync] all done')
-}
-
-;(async () => {
-  const env = await loadDotenv({
-    cwd: new URL('../../../', import.meta.url).pathname,
+function createGithubQuery(repositories: string[]): string {
+  const fields = repositories.map((repository, index) => {
+    const [owner, name] = repository.split('/')
+    return `repo${index}: repository(owner: ${JSON.stringify(owner)}, name: ${JSON.stringify(name)}) {
+      nameWithOwner
+      stargazerCount
+    }`
   })
 
-  const config = {
-    token: env.GENERATE_TOKEN ?? process.env.GENERATE_TOKEN!,
+  return `query RepositoryStars {
+    ${fields.join('\n')}
+  }`
+}
+
+async function fetchGithubBatch(
+  repositories: string[],
+  config: Config,
+): Promise<Map<string, number> | null> {
+  return await withRetry(
+    `github GraphQL batch (${repositories.length})`,
+    async () => {
+      const response = await ofetch.raw<GithubGraphqlResponse>('https://api.github.com/graphql', {
+        method: 'POST',
+        retry: 0,
+        timeout: REQUEST_TIMEOUT_MS,
+        headers: {
+          'Authorization': `Bearer ${config.token}`,
+          'Accept': 'application/vnd.github+json',
+          'X-GitHub-Api-Version': '2022-11-28',
+        },
+        body: { query: createGithubQuery(repositories) },
+      })
+      const payload = response._data
+
+      const rateLimited = payload?.errors?.some(error => error.type === 'RATE_LIMITED')
+      if (rateLimited) {
+        const remaining = response.headers.get('x-ratelimit-remaining')
+        const reset = Number(response.headers.get('x-ratelimit-reset')) * 1000
+        const delay = remaining === '0' && Number.isFinite(reset)
+          ? Math.max(reset - Date.now() + 1000, 1000)
+          : 60_000
+        throw new RetryableError('GitHub GraphQL rate limited', delay)
+      }
+
+      const stars = new Map<string, number>()
+      for (const [alias, repository] of repositories.entries()) {
+        const data = payload?.data?.[`repo${alias}`]
+        if (data)
+          stars.set(repository, data.stargazerCount)
+      }
+
+      if (payload?.errors?.length)
+        console.warn(`[github] batch returned ${payload.errors.length} partial errors`)
+
+      return stars
+    },
+    config.deadline,
+  )
+}
+
+async function fetchGithubMetrics(
+  repositories: string[],
+  config: Config,
+  summary: SyncSummary,
+): Promise<Map<string, GithubMetric>> {
+  const metrics = new Map<string, GithubMetric>()
+  const unique = [...new Set(repositories)]
+    .filter(repository => repository.split('/').length === 2)
+    .sort()
+  const batches = chunk(unique, GITHUB_BATCH_SIZE)
+
+  console.log(`[github] ${unique.length} repositories, ${batches.length} GraphQL batches`)
+  for (const [index, batch] of batches.entries()) {
+    summary.githubBatches++
+    const stars = await fetchGithubBatch(batch, config)
+    if (!stars) {
+      summary.githubFailed += batch.length
+      continue
+    }
+
+    for (const repository of batch) {
+      const count = stars.get(repository)
+      if (count === undefined) {
+        summary.githubFailed++
+        continue
+      }
+      metrics.set(repository, { repository, stars: count })
+    }
+
+    if ((index + 1) % 10 === 0 || index + 1 === batches.length)
+      console.log(`[github] progress ${index + 1}/${batches.length} batches`)
+
+    if (index + 1 < batches.length)
+      await setTimeout(GITHUB_BATCH_GAP_MS)
   }
-  await main(config)
-})()
+
+  return metrics
+}
+
+async function writeMetrics(
+  databasePath: string,
+  npmMetrics: Map<string, NpmMetric>,
+  githubMetrics: Map<string, GithubMetric>,
+): Promise<void> {
+  const database = createDatabase(nodeSqliteConnector({ path: databasePath }))
+  const updatedAt = new Date().toISOString()
+
+  try {
+    await database.exec('PRAGMA foreign_keys = ON; BEGIN IMMEDIATE;')
+
+    try {
+      const upsertNpm = database.prepare(`
+        INSERT INTO npm_metrics (
+          package_name,
+          downloads_weekly,
+          downloads_monthly,
+          updated_at
+        ) VALUES (?, ?, ?, ?)
+        ON CONFLICT (package_name) DO UPDATE SET
+          downloads_weekly = excluded.downloads_weekly,
+          downloads_monthly = excluded.downloads_monthly,
+          updated_at = excluded.updated_at
+      `)
+      const upsertGithub = database.prepare(`
+        INSERT INTO github_metrics (repository, stars, updated_at)
+        VALUES (?, ?, ?)
+        ON CONFLICT (repository) DO UPDATE SET
+          stars = excluded.stars,
+          updated_at = excluded.updated_at
+      `)
+
+      for (const metric of npmMetrics.values()) {
+        await upsertNpm.run(
+          metric.packageName,
+          metric.downloadsWeekly,
+          metric.downloadsMonthly,
+          updatedAt,
+        )
+      }
+
+      for (const metric of githubMetrics.values())
+        await upsertGithub.run(metric.repository, metric.stars, updatedAt)
+
+      await database.exec(`
+        UPDATE projects
+        SET
+          downloads_weekly = COALESCE(
+            (SELECT downloads_weekly FROM npm_metrics WHERE package_name = projects.npm_package),
+            downloads_weekly
+          ),
+          downloads_monthly = COALESCE(
+            (SELECT downloads_monthly FROM npm_metrics WHERE package_name = projects.npm_package),
+            downloads_monthly
+          ),
+          stars = COALESCE(
+            (SELECT stars FROM github_metrics WHERE repository = projects.github_repository),
+            stars
+          );
+      `)
+
+      await database.exec('COMMIT')
+    }
+    catch (error) {
+      await database.exec('ROLLBACK')
+      throw error
+    }
+
+    const integrity = await database.prepare('PRAGMA integrity_check').get() as Record<string, string>
+    if (Object.values(integrity)[0] !== 'ok')
+      throw new Error(`SQLite integrity check failed: ${JSON.stringify(integrity)}`)
+  }
+  finally {
+    await database.dispose()
+  }
+}
+
+async function writeGithubSummary(summary: SyncSummary, elapsedMs: number): Promise<void> {
+  const path = process.env.GITHUB_STEP_SUMMARY
+  if (!path)
+    return
+
+  await appendFile(path, [
+    '## Metrics sync',
+    '',
+    `- Duration: ${Math.round(elapsedMs / 1000)} seconds`,
+    `- npm requests: ${summary.npmRequests}`,
+    `- npm metrics updated: ${summary.npmUpdated}`,
+    `- npm metrics preserved after failures: ${summary.npmFailed}`,
+    `- GitHub GraphQL batches: ${summary.githubBatches}`,
+    `- GitHub metrics updated: ${summary.githubUpdated}`,
+    `- GitHub metrics preserved after failures: ${summary.githubFailed}`,
+    '',
+  ].join('\n'))
+}
+
+async function main(config: Config): Promise<void> {
+  const startedAt = Date.now()
+  const summary: SyncSummary = {
+    githubBatches: 0,
+    githubFailed: 0,
+    githubUpdated: 0,
+    npmFailed: 0,
+    npmRequests: 0,
+    npmUpdated: 0,
+  }
+  const database = createDatabase(nodeSqliteConnector({ path: config.databasePath }))
+
+  let sources: ProjectSourceRow[]
+  try {
+    sources = await database.prepare(`
+      SELECT DISTINCT source, npm_package, github_repository
+      FROM projects
+    `).all() as ProjectSourceRow[]
+  }
+  finally {
+    await database.dispose()
+  }
+
+  const npmPackages = sources
+    .filter(source => source.source !== 'data-plugins')
+    .map(source => source.npm_package)
+    .filter((value): value is string => Boolean(value))
+  const githubRepositories = sources
+    .map(source => source.github_repository)
+    .filter((value): value is string => Boolean(value))
+
+  const [npmMetrics, githubMetrics] = await Promise.all([
+    fetchNpmMetrics(npmPackages, config, summary),
+    fetchGithubMetrics(githubRepositories, config, summary),
+  ])
+
+  if (npmPackages.length > 0 && npmMetrics.size === 0)
+    throw new Error('npm metrics sync returned no usable results; preserved database was not modified.')
+  if (githubRepositories.length > 0 && githubMetrics.size === 0)
+    throw new Error('GitHub metrics sync returned no usable results; preserved database was not modified.')
+
+  summary.npmUpdated = npmMetrics.size
+  summary.githubUpdated = githubMetrics.size
+  await writeMetrics(config.databasePath, npmMetrics, githubMetrics)
+  await writeGithubSummary(summary, Date.now() - startedAt)
+
+  console.log(`[sync] npm updated=${summary.npmUpdated}, preserved=${summary.npmFailed}, requests=${summary.npmRequests}`)
+  console.log(`[sync] github updated=${summary.githubUpdated}, preserved=${summary.githubFailed}, batches=${summary.githubBatches}`)
+  console.log(`[sync] completed in ${Math.round((Date.now() - startedAt) / 1000)}s`)
+}
+
+async function run(): Promise<void> {
+  const env = await loadDotenv({
+    cwd: resolve(import.meta.dirname, '../../../'),
+  })
+  const token = env.GENERATE_TOKEN ?? process.env.GENERATE_TOKEN
+  if (!token)
+    throw new Error('GENERATE_TOKEN is required to sync GitHub metrics.')
+
+  await main({
+    databasePath: resolve(import.meta.dirname, '../../../server/assets/index.db'),
+    deadline: Date.now() + SYNC_DEADLINE_MS,
+    token,
+  })
+}
+
+run().catch((error) => {
+  console.error(error)
+  process.exitCode = 1
+})
