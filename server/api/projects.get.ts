@@ -1,9 +1,9 @@
 import * as z from 'zod'
 
-const numericFilterColumns = [
-  'downloads_monthly',
-  'downloads_weekly',
-  'stars',
+const numericFilterExpressions = [
+  ['downloads_monthly', 'COALESCE(npm_metric.downloads_monthly, 0)'],
+  ['downloads_weekly', 'COALESCE(npm_metric.downloads_weekly, 0)'],
+  ['stars', 'COALESCE(github_metric.stars, 0)'],
 ] as const
 
 const pageSize = 12
@@ -58,11 +58,11 @@ export default defineEventHandler(async (event): Promise<ProjectsResponse> => {
     parameters.push(filters.source)
   }
 
-  for (const column of numericFilterColumns) {
-    const value = filters[column]!
+  for (const [field, expression] of numericFilterExpressions) {
+    const value = filters[field]!
 
     if (value) {
-      conditions.push(`project.${column} >= ?`)
+      conditions.push(`${expression} >= ?`)
       parameters.push(value)
     }
   }
@@ -89,6 +89,12 @@ export default defineEventHandler(async (event): Promise<ProjectsResponse> => {
   const whereClause = conditions.length > 0
     ? `WHERE ${conditions.join(' AND ')}`
     : ''
+  const metricsJoinClause = `
+    LEFT JOIN npm_metrics AS npm_metric
+      ON npm_metric.package_name = project.npm_package
+    LEFT JOIN github_metrics AS github_metric
+      ON github_metric.repository = project.github_repository
+  `
 
   const dataStatement = event.context.database.prepare(`
     SELECT
@@ -100,15 +106,16 @@ export default defineEventHandler(async (event): Promise<ProjectsResponse> => {
       project.github,
       project.npm,
       project.website,
-      project.downloads_monthly,
-      project.downloads_weekly,
-      project.stars
+      COALESCE(npm_metric.downloads_monthly, 0) AS downloads_monthly,
+      COALESCE(npm_metric.downloads_weekly, 0) AS downloads_weekly,
+      COALESCE(github_metric.stars, 0) AS stars
     FROM projects AS project
+    ${metricsJoinClause}
     ${whereClause}
     ORDER BY
-      project.stars DESC,
-      project.downloads_monthly DESC,
-      project.downloads_weekly DESC,
+      stars DESC,
+      downloads_monthly DESC,
+      downloads_weekly DESC,
       project.name COLLATE NOCASE ASC
     LIMIT ?
     OFFSET ?
@@ -117,6 +124,7 @@ export default defineEventHandler(async (event): Promise<ProjectsResponse> => {
   const totalStatement = event.context.database.prepare(`
     SELECT COUNT(*) AS total
     FROM projects AS project
+    ${metricsJoinClause}
     ${whereClause}
   `)
 

@@ -7,6 +7,10 @@ interface CountRow {
   count: number
 }
 
+interface TableInfoRow {
+  name: string
+}
+
 const databasePath = resolve(import.meta.dirname, '../server/assets/index.db')
 if (!existsSync(databasePath))
   throw new Error(`SQLite database not found at ${databasePath}`)
@@ -36,25 +40,16 @@ try {
   const projects = await database.prepare('SELECT COUNT(*) AS count FROM projects').get() as CountRow
   const npmMetrics = await database.prepare('SELECT COUNT(*) AS count FROM npm_metrics').get() as CountRow
   const githubMetrics = await database.prepare('SELECT COUNT(*) AS count FROM github_metrics').get() as CountRow
-  const mismatched = await database.prepare(`
-    SELECT COUNT(*) AS count
-    FROM projects AS project
-    LEFT JOIN npm_metrics AS npm_metric
-      ON npm_metric.package_name = project.npm_package
-    LEFT JOIN github_metrics AS github_metric
-      ON github_metric.repository = project.github_repository
-    WHERE
-      (npm_metric.package_name IS NOT NULL AND (
-        project.downloads_weekly != npm_metric.downloads_weekly
-        OR project.downloads_monthly != npm_metric.downloads_monthly
-      ))
-      OR (github_metric.repository IS NOT NULL AND project.stars != github_metric.stars)
-  `).get() as CountRow
+  const projectColumns = await database.prepare('PRAGMA table_info(projects)').all() as TableInfoRow[]
+  const forbiddenMetricColumns = new Set(['downloads_monthly', 'downloads_weekly', 'stars'])
+  const remainingMetricColumns = projectColumns
+    .map(column => column.name)
+    .filter(column => forbiddenMetricColumns.has(column))
 
   if (projects.count === 0)
     throw new Error('The projects table is empty.')
-  if (mismatched.count > 0)
-    throw new Error(`${mismatched.count} projects have stale materialized metrics.`)
+  if (remainingMetricColumns.length > 0)
+    throw new Error(`The projects table still contains metric columns: ${remainingMetricColumns.join(', ')}`)
 
   console.log(`Database integrity: ok`)
   console.log(`Projects: ${projects.count}`)
