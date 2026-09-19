@@ -1,6 +1,7 @@
 ---
 name: add-project-meta
-description: Create project data entries (project meta files) for the vuejs-community catalog site. Only applies to creating files under the src directory of these 7 packages: packages/data-ui, packages/data-component, packages/data-hooks, packages/data-plugins, packages/data-nuxt, packages/data-uniapp, and packages/data-admin, using defineProjectMeta from @vuejs-community/schema. Use this skill whenever the user asks to include or add a UI library, component library, hooks/composable library, Nuxt module, vite/rollup/rolldown/unplugin plugin, uni-app ecosystem project (uniapp component library, template, plugin, etc.), or admin system / admin dashboard template to the data packages — e.g. "收录 X", "新增一个项目", "为 X 创建 meta 文件", "add X to the catalog" — even if the user does not mention defineProjectMeta.
+description: >-
+  Create project data entries (project meta files) for the vuejs-community catalog site. Only applies to creating files under the src directory of these 7 packages: packages/data-ui, packages/data-component, packages/data-hooks, packages/data-plugins, packages/data-nuxt, packages/data-uniapp, and packages/data-admin, using defineProjectMeta from @vuejs-community/schema. Use this skill whenever the user asks to include or add a UI library, component library, hooks/composable library, Nuxt module, vite/rollup/rolldown/unplugin plugin, uni-app ecosystem project (uniapp component library, template, plugin, etc.), or admin system / admin dashboard template to the data packages — e.g. "收录 X", "新增一个项目", "为 X 创建 meta 文件", "add X to the catalog" — even if the user does not mention defineProjectMeta.
 ---
 
 # Adding a Project Data Entry
@@ -35,7 +36,7 @@ The Chinese text in the template are field descriptions; replace them with real 
 2. If Iconify has no matching icon but the project's official GitHub repository contains an SVG logo, save that SVG as `app/assets/icon/<filename>.svg` and set `icon` to `icon:<filename>` (without the `.svg` extension).
 3. If neither source provides a project logo, use the default icon for the project's category: `hooks` → `dinkie-icons:hook`, `ui` → `ci:main-component`, `component` → `icon-park-outline:components`, `nuxt` → `lineicons:nuxt`, `plugin` → `lucide:cable`, `uniapp` → `icon:uniapp`, and `admin` → `lucide:command`.
 
-Never leave `icon` empty. Optional fields without data (`tags`, `filter`, `website`, etc.) may be omitted, but `stats` must be written in full (except for `data-admin`, see the next section).
+Never leave `icon` empty. Optional fields without data (`tags`, `filter`, `website`, etc.) may be omitted. Do not add `stats` to new project metadata; runtime metrics are maintained separately from the stable metadata.
 
 ```ts
 import { defineProjectMeta } from '@vuejs-community/schema'
@@ -62,32 +63,19 @@ export default defineProjectMeta({
     github: 'GitHub repo slug of the package, in the format: owner/repo',
     npm: 'Package name on npmjs',
   },
-
-  stats: {
-    stars: GitHub star count of the project,
-    downloads: {
-      monthly: Monthly download count on npmjs,
-      weekly: Weekly download count on npmjs,
-    },
-  },
 })
 ```
 
-## stats Requirements
+## Runtime Metrics
 
-When creating files with this skill: if the project has no npm package, its corresponding `stats.downloads` defaults to `0`. If the project has a git repo, the star count must be stated explicitly — never omit it, never fill in `0`, never fabricate it. Fetch it live from the following endpoints at creation time:
+`stats` is a legacy snapshot field retained only for compatibility with existing metadata. Never add, copy, refresh, or fetch `stats` when creating a project entry.
 
-- `stars`: request `https://api.github.com/repos/{owner}/{repo}` and take `stargazers_count` from the response; if the API is rate-limited or unreachable, fall back to `https://ungh.cc/repos/{owner}/{repo}` and take `repo.stars` from the response.
-- `downloads.monthly`: request `https://api.npmjs.org/downloads/point/last-month/{package-name}` and take `downloads` from the response.
-- `downloads.weekly`: request `https://api.npmjs.org/downloads/point/last-week/{package-name}` and take `downloads` from the response.
+The metrics sync reads repository and package identifiers from `source` and persists current GitHub stars and npm downloads in `server/assets/index.db`. Therefore:
 
-Exception: admin templates/systems collected in `data-admin` are not published to npm and have no download data — their `stats` contains only `stars` (still fetched live from the GitHub API), with the entire `downloads` field omitted rather than filled with `0`:
-
-```ts
-stats: {
-  stars: GitHub star count of the project,
-}
-```
+- Include `source.github` as `owner/repo` whenever the project has a GitHub repository.
+- Include `source.npm` whenever the project has an npm package.
+- Omit a missing source instead of using an empty string or inventing an identifier.
+- Treat `links` as public URLs and `source` as machine-readable identifiers; keep both when available.
 
 ## Post-creation Validation
 
