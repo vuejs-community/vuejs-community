@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@wroud/vite-plugin-tsc',
-  description: 'A Vite plugin that uses TypeScript\'s tsc to transpile TypeScript sources for seamless bundling.',
+  description: 'A Vite plugin that uses TypeScript\'s tsc (or the native tsgo compiler) to transpile and type check TypeScript sources for seamless bundling.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -13,6 +13,7 @@ export default defineProjectMeta({
     'vite-plugin',
     'typescript',
     'tsc',
+    'tsgo',
     'transpiler',
     'bundler',
     'esmodules',
