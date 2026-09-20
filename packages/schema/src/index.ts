@@ -1,10 +1,11 @@
 import type { CommunityProject } from './types.ts'
+import { communityProjectSchema } from './types.ts'
 
-export { projectCategories } from './types'
+export { communityProjectSchema, projectCategories, projectCategorySchema } from './types'
 export type { CommunityProject, ProjectCategory } from './types'
 
 export function defineProjectMeta<T extends CommunityProject>(project: T): T {
-  return project
+  return communityProjectSchema.parse(project) as T
 }
 
 export const metaDataSchemaFilters = [

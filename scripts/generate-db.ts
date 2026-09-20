@@ -1,4 +1,4 @@
-import type { CommunityProject } from '@vuejs-community/schema'
+import { communityProjectSchema, type CommunityProject } from '@vuejs-community/schema'
 import type { Database } from 'db0'
 import { existsSync, mkdirSync, renameSync, rmSync, writeFileSync } from 'node:fs'
 import { readFile } from 'node:fs/promises'
@@ -129,14 +129,27 @@ async function loadProjects(sourceRoots: string[]): Promise<ResolvedProject> {
   sourceFiles.sort((left, right) => left.path.localeCompare(right.path))
 
   const projects: NormalizedProject[] = []
+  const projectPaths = new Map<string, string>()
   for (const { path: sourceFile, source } of sourceFiles) {
-    const importedModule = await import(pathToFileURL(sourceFile).href)
-    const rawProject = importedModule.default as CommunityProject
+    let rawProject: CommunityProject
+    try {
+      const importedModule = await import(pathToFileURL(sourceFile).href)
+      rawProject = communityProjectSchema.parse(importedModule.default)
+    }
+    catch (error) {
+      throw new Error(`Invalid project metadata in ${sourceFile}`, { cause: error })
+    }
+
     const project = normalizeProject(rawProject, source)
+    const identity = `${project.category}:${project.name}`
+    const existingPath = projectPaths.get(identity)
+    if (existingPath) {
+      throw new Error(
+        `Duplicate project "${project.name}" in category "${project.category}": ${existingPath} and ${sourceFile}`,
+      )
+    }
 
-    if (project.types.length === 0)
-      throw new Error(`Project "${project.name}" in ${sourceFile} has no types.`)
-
+    projectPaths.set(identity, sourceFile)
     projects.push(project)
   }
 

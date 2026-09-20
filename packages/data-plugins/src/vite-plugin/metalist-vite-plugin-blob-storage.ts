@@ -21,7 +21,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/chang0022/vite-plugin-blob-storage',
     npm: 'https://www.npmjs.com/package/@metalist/vite-plugin-blob-storage',
-    website: 'hhttps://github.com/chang0022/vite-plugin-blob-storage',
+    website: 'https://github.com/chang0022/vite-plugin-blob-storage',
   },
   stats: {
     stars: 0,
