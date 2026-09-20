@@ -24,7 +24,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/fargass/vite-node-plugin',
     npm: 'https://www.npmjs.com/package/vite-node-plugin',
-    website: 'github.com:fargass/vite-node-plugin.git',
+    website: 'https://github.com/fargass/vite-node-plugin',
   },
   stats: {
     stars: 0,

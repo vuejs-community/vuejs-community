@@ -24,7 +24,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/levchak0910/vue-sfc-i18n',
     npm: 'https://www.npmjs.com/package/@vue-sfc-i18n/vite-plugin',
-    website: 'git+https://github.com/levchak0910/vue-sfc-i18n#readme',
+    website: 'https://github.com/levchak0910/vue-sfc-i18n#readme',
   },
   stats: {
     stars: 0,

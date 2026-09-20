@@ -1,3 +1,5 @@
+import * as z from 'zod'
+
 export const projectCategories = [
   'ui',
   'hooks',
@@ -14,57 +16,45 @@ export const projectCategories = [
 
 export type ProjectCategory = typeof projectCategories[number]
 
-export interface Source {
-  github?: string
-  npm?: string
-}
+export const projectCategorySchema = z.enum(projectCategories)
 
-export interface Stats {
-  stars?: number
-  downloads?: {
-    monthly: number
-    weekly: number
-  }
-}
+const nonEmptyStringSchema = z.string().trim().min(1)
+const webUrlSchema = z.url().refine(
+  url => ['http:', 'https:'].includes(new URL(url).protocol),
+  'Expected an HTTP or HTTPS URL',
+)
 
-export interface CommunityProject {
-  // Project name, must match the real package / repository name
-  name: string
-  // One-sentence description of what the project does
-  description: string
+export const sourceSchema = z.object({
+  github: nonEmptyStringSchema.regex(/^[^/\s]+\/[^/\s]+$/, 'Expected GitHub source in owner/repository format').optional(),
+  npm: nonEmptyStringSchema.optional(),
+}).strict()
 
-  /**
-   * Local icon name (svg under app/assets/icon without the.svg suffix),
-   * or https://icon-sets.iconify.design/ icon name,
-   * or an empty string when no icon is present
-   */
-  // Icon: local icon name (svg under app/assets/icon, without the .svg suffix)
-  // or an iconify icon name (e.g. 'logos:vue'); pass an empty string if there is none
-  icon: string
+export const statsSchema = z.object({
+  stars: z.number().int().nonnegative().optional(),
+  downloads: z.object({
+    monthly: z.number().int().nonnegative(),
+    weekly: z.number().int().nonnegative(),
+  }).strict().optional(),
+}).strict()
 
-  // Project category: 'ui' | 'hooks' | 'component' | 'admin' | 'uniapp' etc.
-  category: ProjectCategory
-
-  // Project type list, e.g. 'ui-library', 'composable-library', etc.
-  types: string[]
-
-  // Optional: tags for filtering and searching within the site
-  tags?: string[]
-
-  filter?: string[]
-
-  // Data source, used by scripts to fetch stats such as Stars / downloads
-  // github uses the 'owner/repo' format; npm takes the package name directly
-  links?: {
-    github?: string
-    npm?: string
-    website?: string
-  }
-
-  // Optional: links shown publicly
-  source?: Source
-
+export const communityProjectSchema = z.object({
+  name: nonEmptyStringSchema,
+  description: z.string(),
+  icon: z.string(),
+  category: projectCategorySchema,
+  types: z.array(nonEmptyStringSchema).min(1),
+  tags: z.array(nonEmptyStringSchema).optional(),
+  filter: z.array(nonEmptyStringSchema).optional(),
+  links: z.object({
+    github: webUrlSchema.optional(),
+    npm: webUrlSchema.optional(),
+    website: webUrlSchema.optional(),
+  }).strict().optional(),
+  source: sourceSchema.optional(),
   // Legacy snapshot only. Runtime metrics are persisted in server/assets/index.db.
-  // New project metadata should not add this field.
-  stats?: Stats
-}
+  stats: statsSchema.optional(),
+}).strict()
+
+export type Source = z.infer<typeof sourceSchema>
+export type Stats = z.infer<typeof statsSchema>
+export type CommunityProject = z.infer<typeof communityProjectSchema>
