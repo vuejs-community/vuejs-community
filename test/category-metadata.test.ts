@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict'
-import test from 'node:test'
+import test from 'vitest'
 import { projectCategories } from '../packages/schema/src/types.ts'
 import { projectCategoryMetadata } from '../shared/constants/category.ts'
 

@@ -1,11 +1,3 @@
-<script setup lang="ts">
-defineOptions({
-  name: 'CtaContent',
-})
-
-const { app } = useAppConfig()
-</script>
-
 <template>
   <div class="p-6 md:p-8 lg:p-10 space-y-6">
     <h3 class="font-semibold leading-snug tracking-tighter md:text-xl">
@@ -30,3 +22,11 @@ const { app } = useAppConfig()
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+defineOptions({
+  name: 'CtaContent',
+})
+
+const { app } = useAppConfig()
+</script>

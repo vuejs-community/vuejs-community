@@ -1,21 +1,3 @@
-<script setup lang="ts">
-import { cn } from '~/lib/utils.ts'
-
-defineOptions({
-  name: 'SiteFooter',
-})
-
-const { app } = useAppConfig()
-const footerLinks = [
-  { label: 'UI Libraries', to: '/ui' },
-  { label: 'Components', to: '/component' },
-  { label: 'Composables', to: '/hooks' },
-  { label: 'Nuxt Modules', to: '/nuxt' },
-  { label: 'Plugins', to: '/plugin' },
-  { label: 'GitHub', to: app.github, external: true },
-]
-</script>
-
 <template>
   <footer class="relative border-t">
     <div class="container flex w-full flex-col border-x">
@@ -78,3 +60,21 @@ const footerLinks = [
     </div>
   </footer>
 </template>
+
+<script setup lang="ts">
+import { cn } from '~/lib/utils.ts'
+
+defineOptions({
+  name: 'SiteFooter',
+})
+
+const { app } = useAppConfig()
+const footerLinks = [
+  { label: 'UI Libraries', to: '/ui' },
+  { label: 'Components', to: '/component' },
+  { label: 'Composables', to: '/hooks' },
+  { label: 'Nuxt Modules', to: '/nuxt' },
+  { label: 'Plugins', to: '/plugin' },
+  { label: 'GitHub', to: app.github, external: true },
+]
+</script>

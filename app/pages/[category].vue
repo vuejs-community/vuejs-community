@@ -1,5 +1,16 @@
+<template>
+  <div class="hidden p-7.5 md:block" />
+  <PageHeader :title="meta.label" :description="meta.description" />
+
+  <ProjectProvider :category="category">
+    <ProjectSearch />
+    <ProjectContent />
+  </ProjectProvider>
+</template>
+
 <script lang="ts" setup>
-import { projectCategories, type ProjectCategory } from '@vuejs-community/schema'
+import type { ProjectCategory } from '@vuejs-community/schema'
+import { projectCategories } from '@vuejs-community/schema'
 
 definePageMeta({
   layout: 'content',
@@ -30,13 +41,3 @@ useHead(() => ({
   ],
 }))
 </script>
-
-<template>
-  <div class="hidden p-7.5 md:block" />
-  <PageHeader :title="meta.label" :description="meta.description" />
-
-  <ProjectProvider :category="category">
-    <ProjectSearch />
-    <ProjectContent />
-  </ProjectProvider>
-</template>

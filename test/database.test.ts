@@ -1,8 +1,8 @@
 import assert from 'node:assert/strict'
-import test from 'node:test'
 import { resolve } from 'node:path'
 import { createDatabase } from 'db0'
 import nodeSqliteConnector from 'db0/connectors/node-sqlite'
+import test from 'vitest'
 
 test('the plugin catalog exceeds the legacy 101-page window', async () => {
   const database = createDatabase(nodeSqliteConnector({
