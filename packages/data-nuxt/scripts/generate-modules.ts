@@ -1,8 +1,9 @@
 import type { CommunityProject } from '@vuejs-community/schema'
 import { existsSync } from 'node:fs'
-import { copyFile, mkdir, readFile, rename, rm } from 'node:fs/promises'
+import { copyFile, cp, mkdir, readFile, rename, rm } from 'node:fs/promises'
 import { dirname, parse as ParseFile, resolve } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
+import { communityProjectSchema } from '@vuejs-community/schema'
 import { writeProjectMetaIfChanged } from '@vuejs-community/shared'
 import { downloadTemplate } from 'giget'
 import { glob } from 'glob'
@@ -10,7 +11,7 @@ import { parse } from 'yaml'
 
 interface NuxtModule {
   name: string
-  description: string
+  description?: string
   repo: string
   npm: string
   icon: string
@@ -71,8 +72,18 @@ export async function syncModuleIcon(repoDir: string, icon: string): Promise<str
   }
 }
 
+/**
+ * Nuxt module repositories may include a git ref and package path for giget,
+ * for example `owner/repo#main/packages/nuxt`. Metrics only need the GitHub
+ * repository identifier, so keep the canonical `owner/repo` portion.
+ */
+export function normalizeGithubRepository(repository: string): string {
+  const fragmentIndex = repository.indexOf('#')
+  return (fragmentIndex === -1 ? repository : repository.slice(0, fragmentIndex)).trim()
+}
+
 function buildModuleProject(module: NuxtModule, icon: string): CommunityProject {
-  return {
+  return communityProjectSchema.parse({
     name: module.name,
     // Some upstream YAML files omit description. Use an empty string because
     // JSON.stringify drops keys whose values are undefined.
@@ -90,11 +101,11 @@ function buildModuleProject(module: NuxtModule, icon: string): CommunityProject 
     },
 
     source: {
-      github: module.repo,
+      github: normalizeGithubRepository(module.repo),
       npm: module.npm,
     },
 
-  }
+  })
 }
 
 async function collectModules(dir: string): Promise<ModuleEntry[]> {
@@ -120,6 +131,38 @@ async function collectModules(dir: string): Promise<ModuleEntry[]> {
   return entries
 }
 
+function deduplicateModules(entries: ModuleEntry[]): ModuleEntry[] {
+  const unique = new Map<string, ModuleEntry>()
+
+  for (const entry of entries) {
+    const existing = unique.get(entry.module.name)
+    if (!existing) {
+      unique.set(entry.module.name, entry)
+      continue
+    }
+
+    const existingSource = `${normalizeGithubRepository(existing.module.repo)}:${existing.module.npm}`
+    const candidateSource = `${normalizeGithubRepository(entry.module.repo)}:${entry.module.npm}`
+    if (existingSource !== candidateSource) {
+      throw new Error(
+        `Conflicting Nuxt modules named "${entry.module.name}": ${existing.fileName}.yml and ${entry.fileName}.yml`,
+      )
+    }
+
+    const existingDescription = existing.module.description?.trim() ?? ''
+    const candidateDescription = entry.module.description?.trim() ?? ''
+    const preferred = candidateDescription.length === existingDescription.length
+      ? (entry.fileName.localeCompare(existing.fileName) < 0 ? entry : existing)
+      : (candidateDescription.length > existingDescription.length ? entry : existing)
+    const skipped = preferred === entry ? existing : entry
+
+    unique.set(entry.module.name, preferred)
+    console.warn(`[duplicate] ${entry.module.name}: kept ${preferred.fileName}.yml, skipped ${skipped.fileName}.yml`)
+  }
+
+  return [...unique.values()]
+}
+
 async function replaceDirectory(currentPath: string, stagedPath: string): Promise<void> {
   const backupPath = `${currentPath}.previous`
   await rm(backupPath, { recursive: true, force: true })
@@ -134,6 +177,27 @@ async function replaceDirectory(currentPath: string, stagedPath: string): Promis
   }
 
   await rm(backupPath, { recursive: true, force: true })
+}
+
+async function pruneStaleModules(entries: ModuleEntry[], outputDir: string): Promise<number> {
+  const expectedFiles = new Set(entries.map(entry => `${entry.fileName}.ts`))
+  const generatedFiles = await glob('*.ts', {
+    cwd: outputDir,
+    absolute: true,
+  })
+
+  let deleted = 0
+  for (const filePath of generatedFiles) {
+    const fileName = ParseFile(filePath).base
+    if (expectedFiles.has(fileName))
+      continue
+
+    await rm(filePath)
+    console.log(`[deleted] ${fileName}`)
+    deleted++
+  }
+
+  return deleted
 }
 
 async function writeModules(entries: ModuleEntry[], repoDir: string, outputDir: string) {
@@ -181,11 +245,14 @@ async function generateModules() {
   try {
     await mkdir(appIconDir, { recursive: true })
 
-    const entries = await collectModules(dir)
+    const entries = deduplicateModules(await collectModules(dir))
     const outputDir = resolve(packageRoot, 'src')
     const stagedOutputDir = `${outputDir}.next`
     await rm(stagedOutputDir, { recursive: true, force: true })
-    await mkdir(stagedOutputDir, { recursive: true })
+    if (existsSync(outputDir))
+      await cp(outputDir, stagedOutputDir, { recursive: true })
+    else
+      await mkdir(stagedOutputDir, { recursive: true })
 
     const results = await writeModules(entries, dir, stagedOutputDir)
     if (results.failed > 0) {
@@ -193,9 +260,10 @@ async function generateModules() {
       throw new Error(`Failed to generate ${results.failed} Nuxt module files.`)
     }
 
+    const deleted = await pruneStaleModules(entries, stagedOutputDir)
     await replaceDirectory(outputDir, stagedOutputDir)
 
-    console.log(`All done! modules: ${entries.length}, updated: ${results.updated}, unchanged: ${results.unchanged}, failed: ${results.failed}`)
+    console.log(`All done! modules: ${entries.length}, updated: ${results.updated}, unchanged: ${results.unchanged}, deleted: ${deleted}, failed: ${results.failed}`)
   }
   finally {
     console.log(`Deleting temporary directory: ${dir}`)
