@@ -223,8 +223,14 @@ export async function writeProjectMetaIfChanged(filePath: string, project: Commu
     return 'created'
   }
 
-  if (stableStringify(await readProjectMeta(filePath)) === stableStringify(project))
-    return 'unchanged'
+  try {
+    if (stableStringify(await readProjectMeta(filePath)) === stableStringify(project))
+      return 'unchanged'
+  }
+  catch {
+    // Generated metadata may no longer satisfy the current schema. Replacing it
+    // with the newly validated project lets generators repair stale files.
+  }
 
   await writeFile(filePath, renderProjectMetaSource(project), 'utf-8')
   return 'updated'

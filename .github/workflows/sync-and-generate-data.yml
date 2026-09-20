@@ -56,6 +56,6 @@ jobs:
           author_name: github-actions[bot]
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
           message: 'chore: sync data and regenerate db'
-          add: '["packages", "server/assets/index.db"]'
+          add: '["app/assets/icon", "packages", "server/assets/index.db"]'
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
