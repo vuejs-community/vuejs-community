@@ -10,10 +10,13 @@ export interface ProjectResourceContext {
   keyword: Ref<string>
   selectedMeta: ProjectMetaSelection
   projects: Readonly<Ref<readonly ProjectRecord[]>>
+  total: Readonly<Ref<number>>
   hasMore: Readonly<Ref<boolean>>
   isLoadingMore: Readonly<Ref<boolean>>
+  status: Readonly<Ref<'idle' | 'pending' | 'success' | 'error'>>
   error: Readonly<Ref<unknown>>
   loadMore: () => Promise<void>
+  refresh: () => Promise<void>
 }
 
 export const [useProjectResourceContext, provideProjectResourceContext]
