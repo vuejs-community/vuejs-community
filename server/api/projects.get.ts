@@ -13,7 +13,7 @@ function escapeLikePattern(value: string) {
 }
 
 const querySchema = z.object({
-  more: z.coerce.number().int().min(0).max(100).default(0),
+  more: z.coerce.number().int().min(0).default(0),
   keyword: z.string().trim().optional().default(''),
   category: z.string().trim().optional().default(''),
   source: z.string().trim().optional().default(''),
