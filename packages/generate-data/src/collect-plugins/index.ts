@@ -3,7 +3,8 @@ import type { NpmSearchObject, PluginDefinition, PluginType } from './types.js'
 import { existsSync } from 'node:fs'
 import { mkdir, rename, rm, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
-import { fileURLToPath } from 'node:url'
+import { fileURLToPath, pathToFileURL } from 'node:url'
+import { communityProjectSchema } from '@vuejs-community/schema'
 import {
   readProjectMeta,
   renderProjectMetaSource,
@@ -48,6 +49,19 @@ function toFileName(packageName: string): string {
     .replaceAll('/', '-')
 }
 
+export function normalizeHttpUrl(value: string | undefined): string | undefined {
+  if (!value)
+    return undefined
+
+  try {
+    const url = new URL(value.trim())
+    return url.protocol === 'http:' || url.protocol === 'https:' ? value.trim() : undefined
+  }
+  catch {
+    return undefined
+  }
+}
+
 export function transformToCommunityProject(
   result: NpmSearchObject,
   discoveredAs: PluginDefinition,
@@ -58,7 +72,28 @@ export function transformToCommunityProject(
 
   const { icon, type } = definition
   const github = extractGitHubRepository(result.package.links?.repository || '')
+  const githubUrl = github ? `https://github.com/${github}` : undefined
+  const homepage = normalizeHttpUrl(result.package.links.homepage)
+    ?? (result.package.links.homepage ? githubUrl : undefined)
   const { monthly, weekly } = result.downloads
+
+  const project = communityProjectSchema.parse({
+    name: result.package.name,
+    description: result.package.description ?? '',
+    icon,
+    category: 'plugin',
+    types: [type],
+    ...(result.package.keywords?.length ? { tags: result.package.keywords } : {}),
+    source: {
+      ...(github ? { github } : {}),
+      npm: result.package.name,
+    },
+    links: {
+      ...(githubUrl ? { github: githubUrl } : {}),
+      npm: result.package.links.npm,
+      ...(homepage ? { website: homepage } : {}),
+    },
+  })
 
   return {
     npmMetric: {
@@ -68,23 +103,7 @@ export function transformToCommunityProject(
       updatedAt: new Date().toISOString(),
     },
     type,
-    project: {
-      name: result.package.name,
-      description: result.package.description ?? '',
-      icon,
-      category: 'plugin',
-      types: [type],
-      ...(result.package.keywords?.length ? { tags: result.package.keywords } : {}),
-      source: {
-        ...(github ? { github } : {}),
-        npm: result.package.name,
-      },
-      links: {
-        ...(github ? { github: `https://github.com/${github}` } : {}),
-        npm: result.package.links.npm,
-        ...(result.package.links.homepage ? { website: result.package.links.homepage } : {}),
-      },
-    },
+    project,
   }
 }
 
@@ -196,7 +215,9 @@ export async function main(): Promise<void> {
   console.log('\nCollection complete!')
 }
 
-main().catch((error) => {
-  console.error('Collection failed:', error)
-  process.exitCode = 1
-})
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((error) => {
+    console.error('Collection failed:', error)
+    process.exitCode = 1
+  })
+}

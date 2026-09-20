@@ -23,6 +23,7 @@ const webUrlSchema = z.url().refine(
   url => ['http:', 'https:'].includes(new URL(url).protocol),
   'Expected an HTTP or HTTPS URL',
 )
+const optionalWebUrlSchema = webUrlSchema.optional().catch(undefined)
 
 export const sourceSchema = z.object({
   github: nonEmptyStringSchema.regex(/^[^/\s]+\/[^/\s]+$/, 'Expected GitHub source in owner/repository format').optional(),
@@ -46,9 +47,9 @@ export const communityProjectSchema = z.object({
   tags: z.array(nonEmptyStringSchema).optional(),
   filter: z.array(nonEmptyStringSchema).optional(),
   links: z.object({
-    github: webUrlSchema.optional(),
-    npm: webUrlSchema.optional(),
-    website: webUrlSchema.optional(),
+    github: optionalWebUrlSchema,
+    npm: optionalWebUrlSchema,
+    website: optionalWebUrlSchema,
   }).strict().optional(),
   source: sourceSchema.optional(),
   // Legacy snapshot only. Runtime metrics are persisted in server/assets/index.db.
