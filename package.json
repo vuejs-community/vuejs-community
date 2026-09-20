@@ -17,6 +17,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "typecheck": "nuxt typecheck",
+    "test": "tsx --tsconfig test/tsconfig.json --test test/*.test.ts",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
     "prepare": "simple-git-hooks",
