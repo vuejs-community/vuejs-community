@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    npm: 'nitfixer',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/nitfixer',
+  },
+  source: {
+    npm: 'nitfixer',
   },
   stats: {
     downloads: {

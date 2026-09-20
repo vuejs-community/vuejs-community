@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'byronogis/unplugin-sharp',
-    npm: 'unplugin-sharp',
-  },
   links: {
     github: 'https://github.com/byronogis/unplugin-sharp',
     npm: 'https://www.npmjs.com/package/unplugin-sharp',
     website: 'https://github.com/byronogis/unplugin-sharp#readme',
+  },
+  source: {
+    github: 'byronogis/unplugin-sharp',
+    npm: 'unplugin-sharp',
   },
   stats: {
     stars: 0,

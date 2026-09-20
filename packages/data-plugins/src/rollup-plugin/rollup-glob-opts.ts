@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'files',
     'glob',
   ],
-  source: {
-    github: 'prantlf/rollup-glob-opts',
-    npm: 'rollup-glob-opts',
-  },
   links: {
     github: 'https://github.com/prantlf/rollup-glob-opts',
     npm: 'https://www.npmjs.com/package/rollup-glob-opts',
     website: 'https://github.com/prantlf/rollup-glob-opts#readme',
+  },
+  source: {
+    github: 'prantlf/rollup-glob-opts',
+    npm: 'rollup-glob-opts',
   },
   stats: {
     stars: 1,

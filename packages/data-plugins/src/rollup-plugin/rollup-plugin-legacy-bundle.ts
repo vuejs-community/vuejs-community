@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'modern bundle',
     'legacy bundle',
   ],
-  source: {
-    npm: 'rollup-plugin-legacy-bundle',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-legacy-bundle',
+  },
+  source: {
+    npm: 'rollup-plugin-legacy-bundle',
   },
   stats: {
     stars: 0,

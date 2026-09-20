@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'react-router',
     'vite-plugin',
   ],
-  source: {
-    github: 'fossamagna/react-router-amplify',
-    npm: 'vite-plugin-react-router-amplify-hosting',
-  },
   links: {
     github: 'https://github.com/fossamagna/react-router-amplify',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-router-amplify-hosting',
     website: 'https://github.com/fossamagna/react-router-amplify/blob/main/packages/vite-plugin-react-router-amplify-hosting/README.md',
+  },
+  source: {
+    github: 'fossamagna/react-router-amplify',
+    npm: 'vite-plugin-react-router-amplify-hosting',
   },
   stats: {
     stars: 19,

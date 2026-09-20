@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'chrome-extension',
   ],
-  source: {
-    github: 'muhsinmozilor/agent-debug-mcp',
-    npm: 'agent-debug-mcp',
-  },
   links: {
     github: 'https://github.com/muhsinmozilor/agent-debug-mcp',
     npm: 'https://www.npmjs.com/package/agent-debug-mcp',
     website: 'https://github.com/muhsinmozilor/agent-debug-mcp#readme',
+  },
+  source: {
+    github: 'muhsinmozilor/agent-debug-mcp',
+    npm: 'agent-debug-mcp',
   },
   stats: {
     stars: 1,

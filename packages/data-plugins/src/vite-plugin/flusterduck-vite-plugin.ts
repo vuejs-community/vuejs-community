@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'vue-vite',
     'svelte-vite',
   ],
-  source: {
-    github: 'creayo-dev/flusterduck',
-    npm: 'flusterduck-vite-plugin',
-  },
   links: {
     github: 'https://github.com/creayo-dev/flusterduck',
     npm: 'https://www.npmjs.com/package/flusterduck-vite-plugin',
     website: 'https://docs.flusterduck.com/pkg-vite-plugin',
+  },
+  source: {
+    github: 'creayo-dev/flusterduck',
+    npm: 'flusterduck-vite-plugin',
   },
   stats: {
     stars: 0,

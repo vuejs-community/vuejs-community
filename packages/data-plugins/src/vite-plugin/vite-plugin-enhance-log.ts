@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'Add the line of the log',
     'add separator for every argument',
   ],
-  source: {
-    github: 'baozouai/vite-plugin-enhance-log',
-    npm: 'vite-plugin-enhance-log',
-  },
   links: {
     github: 'https://github.com/baozouai/vite-plugin-enhance-log',
     npm: 'https://www.npmjs.com/package/vite-plugin-enhance-log',
     website: 'https://github.com/baozouai/vite-plugin-enhance-log',
+  },
+  source: {
+    github: 'baozouai/vite-plugin-enhance-log',
+    npm: 'vite-plugin-enhance-log',
   },
   stats: {
     stars: 31,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'unplugin',
     'vite',
   ],
-  source: {
-    github: 'zyyv/unplugin-assets',
-    npm: 'unplugin-assets',
-  },
   links: {
     github: 'https://github.com/zyyv/unplugin-assets',
     npm: 'https://www.npmjs.com/package/unplugin-assets',
     website: 'https://github.com/zyyv/unplugin-assets#readme',
+  },
+  source: {
+    github: 'zyyv/unplugin-assets',
+    npm: 'unplugin-assets',
   },
   stats: {
     stars: 1,

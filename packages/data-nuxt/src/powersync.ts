@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://docs.powersync.com/intro/powersync-overview',
   },
   source: {
-    github: 'powersync-ja/powersync-js#main/packages/nuxt',
+    github: 'powersync-ja/powersync-js',
     npm: '@powersync/nuxt',
   },
 })

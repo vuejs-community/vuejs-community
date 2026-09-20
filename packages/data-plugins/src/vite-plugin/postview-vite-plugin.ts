@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'jsx',
     'source-maps',
   ],
-  source: {
-    npm: '@postview/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@postview/vite-plugin',
     website: 'https://postview.dev',
+  },
+  source: {
+    npm: '@postview/vite-plugin',
   },
   stats: {
     stars: 0,

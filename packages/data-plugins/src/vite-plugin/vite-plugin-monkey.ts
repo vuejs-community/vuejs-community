@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'greasyfork',
     'typescript',
   ],
-  source: {
-    github: 'lisonge/vite-plugin-monkey',
-    npm: 'vite-plugin-monkey',
-  },
   links: {
     github: 'https://github.com/lisonge/vite-plugin-monkey',
     npm: 'https://www.npmjs.com/package/vite-plugin-monkey',
     website: 'https://github.com/lisonge/vite-plugin-monkey#readme',
+  },
+  source: {
+    github: 'lisonge/vite-plugin-monkey',
+    npm: 'vite-plugin-monkey',
   },
   stats: {
     stars: 2035,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'unplugin',
   ],
-  source: {
-    github: 'l4dybird/nuxt-ui-preset-unocss',
-    npm: '@l4dybird/nuxt-ui-preset-unocss-unplugin',
-  },
   links: {
     github: 'https://github.com/l4dybird/nuxt-ui-preset-unocss',
     npm: 'https://www.npmjs.com/package/@l4dybird/nuxt-ui-preset-unocss-unplugin',
     website: 'https://github.com/l4dybird/nuxt-ui-preset-unocss#readme',
+  },
+  source: {
+    github: 'l4dybird/nuxt-ui-preset-unocss',
+    npm: '@l4dybird/nuxt-ui-preset-unocss-unplugin',
   },
   stats: {
     stars: 0,

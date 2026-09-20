@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'svelte',
     'vite',
   ],
-  source: {
-    github: 'eryue0220/unplugin-stylex',
-    npm: 'unplugin-stylex',
-  },
   links: {
     github: 'https://github.com/eryue0220/unplugin-stylex',
     npm: 'https://www.npmjs.com/package/unplugin-stylex',
     website: 'https://github.com/eryue0220/unplugin-stylex#readme',
+  },
+  source: {
+    github: 'eryue0220/unplugin-stylex',
+    npm: 'unplugin-stylex',
   },
   stats: {
     stars: 29,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'MadeBySpeak/vite-plugin-absolute-imports',
-    npm: '@madebyspeak/vite-plugin-absolute-imports',
-  },
   links: {
     github: 'https://github.com/MadeBySpeak/vite-plugin-absolute-imports',
     npm: 'https://www.npmjs.com/package/@madebyspeak/vite-plugin-absolute-imports',
     website: 'https://github.com/MadeBySpeak/vite-plugin-absolute-imports#readme',
+  },
+  source: {
+    github: 'MadeBySpeak/vite-plugin-absolute-imports',
+    npm: '@madebyspeak/vite-plugin-absolute-imports',
   },
   stats: {
     stars: 0,

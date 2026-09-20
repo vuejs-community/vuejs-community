@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'oss',
   ],
-  source: {
-    github: 'liulunsheng/vite-plugin-tencent-cos',
-    npm: 'vite-plugin-tencent-cos',
-  },
   links: {
     github: 'https://github.com/liulunsheng/vite-plugin-tencent-cos',
     npm: 'https://www.npmjs.com/package/vite-plugin-tencent-cos',
     website: 'https://github.com/liulunsheng/vite-plugin-tencent-cos#readme',
+  },
+  source: {
+    github: 'liulunsheng/vite-plugin-tencent-cos',
+    npm: 'vite-plugin-tencent-cos',
   },
   stats: {
     stars: 0,

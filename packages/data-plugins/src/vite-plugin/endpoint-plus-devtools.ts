@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'typescript',
     'vite-plugin',
   ],
-  source: {
-    github: 'zandko/endpoint-plus',
-    npm: 'endpoint-plus-devtools',
-  },
   links: {
     github: 'https://github.com/zandko/endpoint-plus',
     npm: 'https://www.npmjs.com/package/endpoint-plus-devtools',
     website: 'https://github.com/zandko/endpoint-plus#readme',
+  },
+  source: {
+    github: 'zandko/endpoint-plus',
+    npm: 'endpoint-plus-devtools',
   },
   stats: {
     stars: 1,

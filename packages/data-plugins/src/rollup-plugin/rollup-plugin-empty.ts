@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'empty',
   ],
-  source: {
-    github: 'fengxinming/rollup-plugins',
-    npm: 'rollup-plugin-empty',
-  },
   links: {
     github: 'https://github.com/fengxinming/rollup-plugins',
     npm: 'https://www.npmjs.com/package/rollup-plugin-empty',
     website: 'https://github.com/fengxinming/rollup-plugins/tree/master/packages/rollup-plugin-empty#readme',
+  },
+  source: {
+    github: 'fengxinming/rollup-plugins',
+    npm: 'rollup-plugin-empty',
   },
   stats: {
     stars: 7,

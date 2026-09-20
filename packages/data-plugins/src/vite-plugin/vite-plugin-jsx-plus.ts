@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'html',
     'template',
   ],
-  source: {
-    npm: 'vite-plugin-jsx-plus',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-jsx-plus',
+  },
+  source: {
+    npm: 'vite-plugin-jsx-plus',
   },
   stats: {
     stars: 0,

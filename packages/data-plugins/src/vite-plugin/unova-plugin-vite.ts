@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'react-refresh',
     'fast refresh',
   ],
-  source: {
-    github: 'poprize/vite-plugin',
-    npm: 'unova-plugin-vite',
-  },
   links: {
     github: 'https://github.com/poprize/vite-plugin',
     npm: 'https://www.npmjs.com/package/unova-plugin-vite',
     website: 'https://github.com/poprize/vite-plugin#readme',
+  },
+  source: {
+    github: 'poprize/vite-plugin',
+    npm: 'unova-plugin-vite',
   },
   stats: {
     stars: 0,

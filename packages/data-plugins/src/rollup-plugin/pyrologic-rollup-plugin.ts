@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'plugin',
   ],
-  source: {
-    github: 'pyrologic/devtools',
-    npm: '@pyrologic/rollup-plugin',
-  },
   links: {
     github: 'https://github.com/pyrologic/devtools',
     npm: 'https://www.npmjs.com/package/@pyrologic/rollup-plugin',
     website: 'https://github.com/pyrologic/devtools/tree/main/rollup-plugin',
+  },
+  source: {
+    github: 'pyrologic/devtools',
+    npm: '@pyrologic/rollup-plugin',
   },
   stats: {
     stars: 0,

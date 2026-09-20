@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'path',
     'resolve',
   ],
-  source: {
-    npm: '@ireneliaoliao/vite-plugin-aliases',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ireneliaoliao/vite-plugin-aliases',
+  },
+  source: {
+    npm: '@ireneliaoliao/vite-plugin-aliases',
   },
   stats: {
     stars: 0,

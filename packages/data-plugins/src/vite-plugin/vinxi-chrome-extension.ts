@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'browser',
     'browser-extension',
   ],
-  source: {
-    github: 'crxjs/rollup-plugin-chrome-extension',
-    npm: '@vinxi/chrome-extension',
-  },
   links: {
     github: 'https://github.com/crxjs/rollup-plugin-chrome-extension',
     npm: 'https://www.npmjs.com/package/@vinxi/chrome-extension',
     website: 'https://github.com/crxjs/rollup-plugin-chrome-extension',
+  },
+  source: {
+    github: 'crxjs/rollup-plugin-chrome-extension',
+    npm: '@vinxi/chrome-extension',
   },
   stats: {
     stars: 0,

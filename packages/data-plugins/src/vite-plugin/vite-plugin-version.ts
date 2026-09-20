@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'version',
   ],
-  source: {
-    github: 'yrming/vite-plugin-version',
-    npm: 'vite-plugin-version',
-  },
   links: {
     github: 'https://github.com/yrming/vite-plugin-version',
     npm: 'https://www.npmjs.com/package/vite-plugin-version',
     website: 'https://github.com/yrming/vite-plugin-version#readme',
+  },
+  source: {
+    github: 'yrming/vite-plugin-version',
+    npm: 'vite-plugin-version',
   },
   stats: {
     stars: 5,

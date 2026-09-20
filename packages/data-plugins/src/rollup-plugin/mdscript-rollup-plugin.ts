@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'llm',
     'prompt',
   ],
-  source: {
-    github: 'dean0x/mdscript',
-    npm: '@mdscript/rollup-plugin',
-  },
   links: {
     github: 'https://github.com/dean0x/mdscript',
     npm: 'https://www.npmjs.com/package/@mdscript/rollup-plugin',
     website: 'https://github.com/dean0x/mdscript#readme',
+  },
+  source: {
+    github: 'dean0x/mdscript',
+    npm: '@mdscript/rollup-plugin',
   },
   stats: {
     stars: 0,

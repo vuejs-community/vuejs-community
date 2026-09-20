@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'map',
     'geovis-lac-sdk',
   ],
-  source: {
-    npm: 'vite-plugin-lac-sdk',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-lac-sdk',
+  },
+  source: {
+    npm: 'vite-plugin-lac-sdk',
   },
   stats: {
     stars: 0,

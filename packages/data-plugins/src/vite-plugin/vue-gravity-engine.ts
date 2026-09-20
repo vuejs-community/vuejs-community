@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'hallucination',
     'code-quality',
   ],
-  source: {
-    github: 'SZX050213/vue-gravite-engine',
-    npm: 'vue-gravity-engine',
-  },
   links: {
     github: 'https://github.com/SZX050213/vue-gravite-engine',
     npm: 'https://www.npmjs.com/package/vue-gravity-engine',
     website: 'https://github.com/SZX050213/vue-gravite-engine#readme',
+  },
+  source: {
+    github: 'SZX050213/vue-gravite-engine',
+    npm: 'vue-gravity-engine',
   },
   stats: {
     stars: 1,

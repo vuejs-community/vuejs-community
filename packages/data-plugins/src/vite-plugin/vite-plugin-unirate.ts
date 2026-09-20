@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'fx',
     'fintech',
   ],
-  source: {
-    github: 'UniRate-API/vite-plugin-unirate',
-    npm: 'vite-plugin-unirate',
-  },
   links: {
     github: 'https://github.com/UniRate-API/vite-plugin-unirate',
     npm: 'https://www.npmjs.com/package/vite-plugin-unirate',
     website: 'https://github.com/UniRate-API/vite-plugin-unirate#readme',
+  },
+  source: {
+    github: 'UniRate-API/vite-plugin-unirate',
+    npm: 'vite-plugin-unirate',
   },
   stats: {
     stars: 0,

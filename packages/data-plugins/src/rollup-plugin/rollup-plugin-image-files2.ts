@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'image',
   ],
-  source: {
-    github: 'bspaulding/rollup-plugin-image-files',
-    npm: 'rollup-plugin-image-files2',
-  },
   links: {
     github: 'https://github.com/bspaulding/rollup-plugin-image-files',
     npm: 'https://www.npmjs.com/package/rollup-plugin-image-files2',
     website: 'https://github.com/bspaulding/rollup-plugin-image-files#readme',
+  },
+  source: {
+    github: 'bspaulding/rollup-plugin-image-files',
+    npm: 'rollup-plugin-image-files2',
   },
   stats: {
     stars: 0,

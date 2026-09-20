@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://vueform.com',
   },
   source: {
-    github: 'vueform/vueform#main/nuxt',
+    github: 'vueform/vueform',
     npm: '@vueform/nuxt',
   },
 })

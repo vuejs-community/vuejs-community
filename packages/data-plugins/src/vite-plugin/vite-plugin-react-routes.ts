@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-react',
   ],
-  source: {
-    github: 'jtsang4/vite-plugin-react-routes',
-    npm: 'vite-plugin-react-routes',
-  },
   links: {
     github: 'https://github.com/jtsang4/vite-plugin-react-routes',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-routes',
     website: 'https://github.com/jtsang4/vite-plugin-react-routes#readme',
+  },
+  source: {
+    github: 'jtsang4/vite-plugin-react-routes',
+    npm: 'vite-plugin-react-routes',
   },
   stats: {
     stars: 1,

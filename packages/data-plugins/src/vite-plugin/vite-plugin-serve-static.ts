@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'typeparameter/vite-plugin-serve-static',
-    npm: 'vite-plugin-serve-static',
-  },
   links: {
     github: 'https://github.com/typeparameter/vite-plugin-serve-static',
     npm: 'https://www.npmjs.com/package/vite-plugin-serve-static',
     website: 'https://github.com/typeparameter/vite-plugin-serve-static',
+  },
+  source: {
+    github: 'typeparameter/vite-plugin-serve-static',
+    npm: 'vite-plugin-serve-static',
   },
   stats: {
     stars: 10,

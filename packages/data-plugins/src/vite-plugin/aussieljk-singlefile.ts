@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'single-file',
     'html',
   ],
-  source: {
-    github: 'aussieljk/singlefile',
-    npm: '@aussieljk/singlefile',
-  },
   links: {
     github: 'https://github.com/aussieljk/singlefile',
     npm: 'https://www.npmjs.com/package/@aussieljk/singlefile',
     website: 'https://github.com/aussieljk/singlefile#readme',
+  },
+  source: {
+    github: 'aussieljk/singlefile',
+    npm: '@aussieljk/singlefile',
   },
   stats: {
     stars: 0,

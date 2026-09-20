@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'rsc',
     'server components',
   ],
-  source: {
-    github: 'almadoro/react-just',
-    npm: 'react-just',
-  },
   links: {
     github: 'https://github.com/almadoro/react-just',
     npm: 'https://www.npmjs.com/package/react-just',
     website: 'https://github.com/almadoro/react-just#readme',
+  },
+  source: {
+    github: 'almadoro/react-just',
+    npm: 'react-just',
   },
   stats: {
     stars: 89,

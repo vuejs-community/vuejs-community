@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    npm: '@lern618/rollup-plugin-auto-import-components',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@lern618/rollup-plugin-auto-import-components',
+  },
+  source: {
+    npm: '@lern618/rollup-plugin-auto-import-components',
   },
   stats: {
     stars: 0,

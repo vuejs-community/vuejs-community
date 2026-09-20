@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'unplugin',
     'vite',
   ],
-  source: {
-    github: 'sca-rab/unplugin-nie-vue',
-    npm: 'unplugin-nie-vue',
-  },
   links: {
     github: 'https://github.com/sca-rab/unplugin-nie-vue',
     npm: 'https://www.npmjs.com/package/unplugin-nie-vue',
     website: 'https://github.com/sca-rab/unplugin-nie-vue#readme',
+  },
+  source: {
+    github: 'sca-rab/unplugin-nie-vue',
+    npm: 'unplugin-nie-vue',
   },
   stats: {
     stars: 0,

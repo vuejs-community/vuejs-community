@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'meh/rollup-plugin-svg-store',
-    npm: 'rollup-plugin-rollup',
-  },
   links: {
     github: 'https://github.com/meh/rollup-plugin-svg-store',
     npm: 'https://www.npmjs.com/package/rollup-plugin-rollup',
     website: 'https://github.com/meh/rollup-plugin-rollup',
+  },
+  source: {
+    github: 'meh/rollup-plugin-svg-store',
+    npm: 'rollup-plugin-rollup',
   },
   stats: {
     stars: 0,

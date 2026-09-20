@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'fragno',
     'unplugin',
   ],
-  source: {
-    github: 'rejot-dev/fragno',
-    npm: '@fragno-dev/unplugin-fragno',
-  },
   links: {
     github: 'https://github.com/rejot-dev/fragno',
     npm: 'https://www.npmjs.com/package/@fragno-dev/unplugin-fragno',
     website: 'https://fragno.dev',
+  },
+  source: {
+    github: 'rejot-dev/fragno',
+    npm: '@fragno-dev/unplugin-fragno',
   },
   stats: {
     stars: 62,

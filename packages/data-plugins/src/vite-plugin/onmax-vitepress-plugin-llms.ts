@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'documentation',
     'ai',
   ],
-  source: {
-    github: 'okineadev/vitepress-plugin-llms',
-    npm: 'onmax-vitepress-plugin-llms',
-  },
   links: {
     github: 'https://github.com/okineadev/vitepress-plugin-llms',
     npm: 'https://www.npmjs.com/package/onmax-vitepress-plugin-llms',
     website: 'https://github.com/okineadev/vitepress-plugin-llms#readme',
+  },
+  source: {
+    github: 'okineadev/vitepress-plugin-llms',
+    npm: 'onmax-vitepress-plugin-llms',
   },
   stats: {
     stars: 402,

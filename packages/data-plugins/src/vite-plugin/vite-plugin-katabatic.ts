@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'katabatic',
     'vite-plugin',
   ],
-  source: {
-    github: 'katabatic-js/vite-plugin-katabatic',
-    npm: 'vite-plugin-katabatic',
-  },
   links: {
     github: 'https://github.com/katabatic-js/vite-plugin-katabatic',
     npm: 'https://www.npmjs.com/package/vite-plugin-katabatic',
     website: 'https://github.com/katabatic-js/vite-plugin-katabatic#readme',
+  },
+  source: {
+    github: 'katabatic-js/vite-plugin-katabatic',
+    npm: 'vite-plugin-katabatic',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'tsx',
     'svelte',
   ],
-  source: {
-    github: 'az33zy/vite-plugin-mitosis',
-    npm: 'vite-plugin-mitosis',
-  },
   links: {
     github: 'https://github.com/az33zy/vite-plugin-mitosis',
     npm: 'https://www.npmjs.com/package/vite-plugin-mitosis',
     website: 'https://github.com/az33zy/vite-plugin-mitosis#readme',
+  },
+  source: {
+    github: 'az33zy/vite-plugin-mitosis',
+    npm: 'vite-plugin-mitosis',
   },
   stats: {
     stars: 3,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'texture-packer',
     'spritesheet',
   ],
-  source: {
-    github: 'snrn-Pontus/rollup-plugin-texture-packer',
-    npm: '@snrn/rollup-plugin-texture-packer',
-  },
   links: {
     github: 'https://github.com/snrn-Pontus/rollup-plugin-texture-packer',
     npm: 'https://www.npmjs.com/package/@snrn/rollup-plugin-texture-packer',
     website: 'https://github.com/snrn-Pontus/rollup-plugin-texture-packer#readme',
+  },
+  source: {
+    github: 'snrn-Pontus/rollup-plugin-texture-packer',
+    npm: '@snrn/rollup-plugin-texture-packer',
   },
   stats: {
     stars: 0,

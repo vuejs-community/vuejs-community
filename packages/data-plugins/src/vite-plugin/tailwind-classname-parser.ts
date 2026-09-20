@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'jsx',
     'tsx',
   ],
-  source: {
-    npm: 'tailwind-classname-parser',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/tailwind-classname-parser',
+  },
+  source: {
+    npm: 'tailwind-classname-parser',
   },
   stats: {
     stars: 0,

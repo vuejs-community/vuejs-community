@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'javascript',
     'typescript',
   ],
-  source: {
-    github: 'vkuprin/vite-plugin-proto-global',
-    npm: 'vite-plugin-proto-global',
-  },
   links: {
     github: 'https://github.com/vkuprin/vite-plugin-proto-global',
     npm: 'https://www.npmjs.com/package/vite-plugin-proto-global',
     website: 'https://github.com/vkuprin/vite-plugin-proto-global',
+  },
+  source: {
+    github: 'vkuprin/vite-plugin-proto-global',
+    npm: 'vite-plugin-proto-global',
   },
   stats: {
     stars: 0,

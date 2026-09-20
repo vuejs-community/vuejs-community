@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'dot-env',
     'vite-plugin',
   ],
-  source: {
-    github: 'micha149/vite-plugin-runtime-env',
-    npm: 'vite-plugin-runtime-env',
-  },
   links: {
     github: 'https://github.com/micha149/vite-plugin-runtime-env',
     npm: 'https://www.npmjs.com/package/vite-plugin-runtime-env',
     website: 'https://github.com/micha149/vite-plugin-runtime-env#readme',
+  },
+  source: {
+    github: 'micha149/vite-plugin-runtime-env',
+    npm: 'vite-plugin-runtime-env',
   },
   stats: {
     stars: 35,

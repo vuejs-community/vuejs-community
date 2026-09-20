@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'performance',
     'web-performance',
   ],
-  source: {
-    github: 'cesareuseche/vite-shopify-styles-plugin',
-    npm: 'vite-plugin-shopify-inline-styles',
-  },
   links: {
     github: 'https://github.com/cesareuseche/vite-shopify-styles-plugin',
     npm: 'https://www.npmjs.com/package/vite-plugin-shopify-inline-styles',
     website: 'https://github.com/cesareuseche/vite-shopify-styles-plugin#readme',
+  },
+  source: {
+    github: 'cesareuseche/vite-shopify-styles-plugin',
+    npm: 'vite-plugin-shopify-inline-styles',
   },
   stats: {
     stars: 2,

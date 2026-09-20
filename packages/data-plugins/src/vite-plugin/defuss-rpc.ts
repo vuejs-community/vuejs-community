@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'express-middleware',
   ],
-  source: {
-    github: 'kyr0/defuss',
-    npm: 'defuss-rpc',
-  },
   links: {
     github: 'https://github.com/kyr0/defuss',
     npm: 'https://www.npmjs.com/package/defuss-rpc',
     website: 'https://github.com/kyr0/defuss#readme',
+  },
+  source: {
+    github: 'kyr0/defuss',
+    npm: 'defuss-rpc',
   },
   stats: {
     stars: 5,

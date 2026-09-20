@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'react-refresh',
     'fast refresh',
   ],
-  source: {
-    github: 'vitejs/vite-plugin-react',
-    npm: '@redocly/plugin-react-swc',
-  },
   links: {
     github: 'https://github.com/vitejs/vite-plugin-react',
     npm: 'https://www.npmjs.com/package/@redocly/plugin-react-swc',
     website: 'https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react-swc#readme',
+  },
+  source: {
+    github: 'vitejs/vite-plugin-react',
+    npm: '@redocly/plugin-react-swc',
   },
   stats: {
     stars: 0,

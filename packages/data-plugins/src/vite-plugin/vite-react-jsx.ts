@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'jsx',
     'runtime',
   ],
-  source: {
-    github: 'alloc/vite-react-jsx',
-    npm: 'vite-react-jsx',
-  },
   links: {
     github: 'https://github.com/alloc/vite-react-jsx',
     npm: 'https://www.npmjs.com/package/vite-react-jsx',
     website: 'https://github.com/alloc/vite-react-jsx#readme',
+  },
+  source: {
+    github: 'alloc/vite-react-jsx',
+    npm: 'vite-react-jsx',
   },
   stats: {
     stars: 117,

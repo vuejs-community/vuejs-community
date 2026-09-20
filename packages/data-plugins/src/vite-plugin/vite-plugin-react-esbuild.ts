@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'Dunqing/vite-plugin-react-esbuild',
-    npm: 'vite-plugin-react-esbuild',
-  },
   links: {
     github: 'https://github.com/Dunqing/vite-plugin-react-esbuild',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-esbuild',
     website: 'https://github.com/Dunqing/vite-plugin-react-esbuild#readme',
+  },
+  source: {
+    github: 'Dunqing/vite-plugin-react-esbuild',
+    npm: 'vite-plugin-react-esbuild',
   },
   stats: {
     stars: 3,

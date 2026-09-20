@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'script tag',
   ],
-  source: {
-    github: 'panoply/rollup-plugin-script-tag',
-    npm: 'rollup-plugin-script-tag',
-  },
   links: {
     github: 'https://github.com/panoply/rollup-plugin-script-tag',
     npm: 'https://www.npmjs.com/package/rollup-plugin-script-tag',
     website: 'https://github.com/panoply/rollup-plugin-script-tag',
+  },
+  source: {
+    github: 'panoply/rollup-plugin-script-tag',
+    npm: 'rollup-plugin-script-tag',
   },
   stats: {
     stars: 0,

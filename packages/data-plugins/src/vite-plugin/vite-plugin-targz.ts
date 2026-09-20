@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'archive',
     'build',
   ],
-  source: {
-    github: 'lonecry/vite-plugin-tar',
-    npm: 'vite-plugin-targz',
-  },
   links: {
     github: 'https://github.com/lonecry/vite-plugin-tar',
     npm: 'https://www.npmjs.com/package/vite-plugin-targz',
     website: 'https://github.com/lonecry/vite-plugin-tar',
+  },
+  source: {
+    github: 'lonecry/vite-plugin-tar',
+    npm: 'vite-plugin-targz',
   },
   stats: {
     stars: 0,

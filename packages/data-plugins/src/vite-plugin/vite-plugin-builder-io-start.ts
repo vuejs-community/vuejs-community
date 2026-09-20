@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'ADamian17/vite-plugin-builder-io-start',
-    npm: 'vite-plugin-builder-io-start',
-  },
   links: {
     github: 'https://github.com/ADamian17/vite-plugin-builder-io-start',
     npm: 'https://www.npmjs.com/package/vite-plugin-builder-io-start',
     website: 'https://github.com/ADamian17/vite-plugin-builder-io-start#readme',
+  },
+  source: {
+    github: 'ADamian17/vite-plugin-builder-io-start',
+    npm: 'vite-plugin-builder-io-start',
   },
   stats: {
     stars: 1,

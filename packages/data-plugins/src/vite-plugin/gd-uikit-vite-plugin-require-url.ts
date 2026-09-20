@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-require-url',
   ],
-  source: {
-    npm: '@gd-uikit/vite-plugin-require-url',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@gd-uikit/vite-plugin-require-url',
+  },
+  source: {
+    npm: '@gd-uikit/vite-plugin-require-url',
   },
   stats: {
     stars: 0,

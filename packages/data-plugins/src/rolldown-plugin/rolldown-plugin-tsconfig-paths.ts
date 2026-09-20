@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'tsconfig',
     'tsconfig-paths',
   ],
-  source: {
-    github: 'aprosail/rolldown-enhance',
-    npm: 'rolldown-plugin-tsconfig-paths',
-  },
   links: {
     github: 'https://github.com/aprosail/rolldown-enhance',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-tsconfig-paths',
     website: 'https://github.com/aprosail/rolldown-enhance#readme',
+  },
+  source: {
+    github: 'aprosail/rolldown-enhance',
+    npm: 'rolldown-plugin-tsconfig-paths',
   },
   stats: {
     stars: 0,

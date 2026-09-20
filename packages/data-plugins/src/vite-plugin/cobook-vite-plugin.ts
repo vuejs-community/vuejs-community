@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'CoBook',
     'vite-plugin',
   ],
-  source: {
-    github: 'yjl9903/CoBook',
-    npm: '@cobook/vite-plugin',
-  },
   links: {
     github: 'https://github.com/yjl9903/CoBook',
     npm: 'https://www.npmjs.com/package/@cobook/vite-plugin',
     website: 'https://github.com/yjl9903/CoBook#readme',
+  },
+  source: {
+    github: 'yjl9903/CoBook',
+    npm: '@cobook/vite-plugin',
   },
   stats: {
     stars: 3,

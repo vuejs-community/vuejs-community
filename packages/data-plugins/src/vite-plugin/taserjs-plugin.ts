@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'typescript',
     'vite-plugin',
   ],
-  source: {
-    github: 'taserjs/taserjs',
-    npm: '@taserjs/plugin',
-  },
   links: {
     github: 'https://github.com/taserjs/taserjs',
     npm: 'https://www.npmjs.com/package/@taserjs/plugin',
     website: 'https://github.com/taserjs/taserjs#readme',
+  },
+  source: {
+    github: 'taserjs/taserjs',
+    npm: '@taserjs/plugin',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'unix-socket',
     'named-pipe',
   ],
-  source: {
-    github: 'HoldYourWaffle/vite-plugin-serve-ipc',
-    npm: 'vite-plugin-serve-ipc',
-  },
   links: {
     github: 'https://github.com/HoldYourWaffle/vite-plugin-serve-ipc',
     npm: 'https://www.npmjs.com/package/vite-plugin-serve-ipc',
     website: 'https://github.com/HoldYourWaffle/vite-plugin-serve-ipc#readme',
+  },
+  source: {
+    github: 'HoldYourWaffle/vite-plugin-serve-ipc',
+    npm: 'vite-plugin-serve-ipc',
   },
   stats: {
     stars: 4,

@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'css',
     'utility',
   ],
-  source: {
-    npm: '@gustcss/vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@gustcss/vite',
+  },
+  source: {
+    npm: '@gustcss/vite',
   },
   stats: {
     stars: 0,

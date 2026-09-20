@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'engine',
     'node',
   ],
-  source: {
-    github: 'Teskon/vite-plugin-ejs-engine',
-    npm: '@teskon/vite-plugin-ejs-engine',
-  },
   links: {
     github: 'https://github.com/Teskon/vite-plugin-ejs-engine',
     npm: 'https://www.npmjs.com/package/@teskon/vite-plugin-ejs-engine',
     website: 'https://github.com/Teskon/vite-plugin-ejs-engine#readme',
+  },
+  source: {
+    github: 'Teskon/vite-plugin-ejs-engine',
+    npm: '@teskon/vite-plugin-ejs-engine',
   },
   stats: {
     stars: 0,

@@ -12,13 +12,13 @@ export default defineProjectMeta({
     'rollup-plugin',
     'bundle splitting',
   ],
-  source: {
-    github: 'emmiep/rollup-plugin-split-bundle',
-    npm: '@emmiep/rollup-plugin-split-bundle',
-  },
   links: {
     github: 'https://github.com/emmiep/rollup-plugin-split-bundle',
     npm: 'https://www.npmjs.com/package/@emmiep/rollup-plugin-split-bundle',
+  },
+  source: {
+    github: 'emmiep/rollup-plugin-split-bundle',
+    npm: '@emmiep/rollup-plugin-split-bundle',
   },
   stats: {
     stars: 1,

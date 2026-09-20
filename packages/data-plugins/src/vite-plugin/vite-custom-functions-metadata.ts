@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'Excel Custom Functions',
     'office-js',
   ],
-  source: {
-    github: 'boramuyar/vite-custom-functions-metadata',
-    npm: 'vite-custom-functions-metadata',
-  },
   links: {
     github: 'https://github.com/boramuyar/vite-custom-functions-metadata',
     npm: 'https://www.npmjs.com/package/vite-custom-functions-metadata',
     website: 'https://www.npmjs.com/package/vite-custom-functions-metadata',
+  },
+  source: {
+    github: 'boramuyar/vite-custom-functions-metadata',
+    npm: 'vite-custom-functions-metadata',
   },
   stats: {
     stars: 0,

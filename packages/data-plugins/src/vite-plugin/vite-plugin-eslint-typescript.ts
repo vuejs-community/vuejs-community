@@ -32,14 +32,14 @@ export default defineProjectMeta({
     'incremental',
     'clickable-errors',
   ],
-  source: {
-    github: 'JacksonMans/vite-plugin-eslint-typescript',
-    npm: 'vite-plugin-eslint-typescript',
-  },
   links: {
     github: 'https://github.com/JacksonMans/vite-plugin-eslint-typescript',
     npm: 'https://www.npmjs.com/package/vite-plugin-eslint-typescript',
     website: 'https://github.com/JacksonMans/vite-plugin-eslint-typescript#readme',
+  },
+  source: {
+    github: 'JacksonMans/vite-plugin-eslint-typescript',
+    npm: 'vite-plugin-eslint-typescript',
   },
   stats: {
     stars: 1,

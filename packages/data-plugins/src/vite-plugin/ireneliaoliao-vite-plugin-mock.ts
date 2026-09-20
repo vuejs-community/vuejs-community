@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'api',
     'mock-api',
   ],
-  source: {
-    npm: '@ireneliaoliao/vite-plugin-mock',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ireneliaoliao/vite-plugin-mock',
+  },
+  source: {
+    npm: '@ireneliaoliao/vite-plugin-mock',
   },
   stats: {
     stars: 0,

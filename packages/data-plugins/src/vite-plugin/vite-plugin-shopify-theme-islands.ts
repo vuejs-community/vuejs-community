@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'tanstack-intent',
   ],
-  source: {
-    github: 'Rees1993/vite-plugin-shopify-theme-islands',
-    npm: 'vite-plugin-shopify-theme-islands',
-  },
   links: {
     github: 'https://github.com/Rees1993/vite-plugin-shopify-theme-islands',
     npm: 'https://www.npmjs.com/package/vite-plugin-shopify-theme-islands',
     website: 'https://github.com/Rees1993/vite-plugin-shopify-theme-islands#readme',
+  },
+  source: {
+    github: 'Rees1993/vite-plugin-shopify-theme-islands',
+    npm: 'vite-plugin-shopify-theme-islands',
   },
   stats: {
     stars: 7,

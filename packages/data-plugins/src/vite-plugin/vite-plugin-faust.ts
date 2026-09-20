@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'faust',
     'webaudio',
   ],
-  source: {
-    github: 'mrkev/pkg',
-    npm: 'vite-plugin-faust',
-  },
   links: {
     github: 'https://github.com/mrkev/pkg',
     npm: 'https://www.npmjs.com/package/vite-plugin-faust',
     website: 'https://aykev.dev/pkg/vite-plugin-faust',
+  },
+  source: {
+    github: 'mrkev/pkg',
+    npm: 'vite-plugin-faust',
   },
   stats: {
     stars: 0,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'esbuild',
     'rspack',
   ],
-  source: {
-    github: 'zhangfisher/unplugin-embed',
-    npm: 'unplugin-embed',
-  },
   links: {
     github: 'https://github.com/zhangfisher/unplugin-embed',
     npm: 'https://www.npmjs.com/package/unplugin-embed',
     website: 'https://github.com/zhangfisher/unplugin-embed/blob/master/README.md',
+  },
+  source: {
+    github: 'zhangfisher/unplugin-embed',
+    npm: 'unplugin-embed',
   },
   stats: {
     stars: 2,

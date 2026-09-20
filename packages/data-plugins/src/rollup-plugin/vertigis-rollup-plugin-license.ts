@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'vertigis/rollup-plugin-license',
-    npm: '@vertigis/rollup-plugin-license',
-  },
   links: {
     github: 'https://github.com/vertigis/rollup-plugin-license',
     npm: 'https://www.npmjs.com/package/@vertigis/rollup-plugin-license',
     website: 'https://github.com/vertigis/rollup-plugin-license',
+  },
+  source: {
+    github: 'vertigis/rollup-plugin-license',
+    npm: '@vertigis/rollup-plugin-license',
   },
   stats: {
     stars: 0,

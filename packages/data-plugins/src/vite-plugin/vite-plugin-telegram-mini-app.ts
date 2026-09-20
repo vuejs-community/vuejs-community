@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'tma',
     'vite-plugin',
   ],
-  source: {
-    github: 'tehfreak/vite-plugin-telegram-mini-app',
-    npm: 'vite-plugin-telegram-mini-app',
-  },
   links: {
     github: 'https://github.com/tehfreak/vite-plugin-telegram-mini-app',
     npm: 'https://www.npmjs.com/package/vite-plugin-telegram-mini-app',
     website: 'https://github.com/tehfreak/vite-plugin-telegram-mini-app#readme',
+  },
+  source: {
+    github: 'tehfreak/vite-plugin-telegram-mini-app',
+    npm: 'vite-plugin-telegram-mini-app',
   },
   stats: {
     stars: 1,

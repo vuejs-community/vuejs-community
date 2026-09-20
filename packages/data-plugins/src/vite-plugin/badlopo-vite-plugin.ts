@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'build',
   ],
-  source: {
-    github: 'badlopo/vite-plugin',
-    npm: '@badlopo/vite-plugin',
-  },
   links: {
     github: 'https://github.com/badlopo/vite-plugin',
     npm: 'https://www.npmjs.com/package/@badlopo/vite-plugin',
     website: 'https://github.com/badlopo/vite-plugin#readme',
+  },
+  source: {
+    github: 'badlopo/vite-plugin',
+    npm: '@badlopo/vite-plugin',
   },
   stats: {
     stars: 0,

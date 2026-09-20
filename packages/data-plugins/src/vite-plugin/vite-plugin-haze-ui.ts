@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'haze-ui',
     'css',
   ],
-  source: {
-    github: 'wmzy/vite-plugin-haze-ui',
-    npm: 'vite-plugin-haze-ui',
-  },
   links: {
     github: 'https://github.com/wmzy/vite-plugin-haze-ui',
     npm: 'https://www.npmjs.com/package/vite-plugin-haze-ui',
     website: 'https://github.com/wmzy/vite-plugin-haze-ui#readme',
+  },
+  source: {
+    github: 'wmzy/vite-plugin-haze-ui',
+    npm: 'vite-plugin-haze-ui',
   },
   stats: {
     stars: 0,

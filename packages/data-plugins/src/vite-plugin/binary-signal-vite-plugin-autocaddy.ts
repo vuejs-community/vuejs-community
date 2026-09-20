@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'reverse-proxy',
     'dev',
   ],
-  source: {
-    github: 'binary-signal/vite-plugin-autocaddy',
-    npm: '@binary-signal/vite-plugin-autocaddy',
-  },
   links: {
     github: 'https://github.com/binary-signal/vite-plugin-autocaddy',
     npm: 'https://www.npmjs.com/package/@binary-signal/vite-plugin-autocaddy',
     website: 'https://github.com/binary-signal/vite-plugin-autocaddy#readme',
+  },
+  source: {
+    github: 'binary-signal/vite-plugin-autocaddy',
+    npm: '@binary-signal/vite-plugin-autocaddy',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'webpack',
     'code position',
   ],
-  source: {
-    github: 'legend402/unplugin-code-position',
-    npm: 'unplugin-code-position',
-  },
   links: {
     github: 'https://github.com/legend402/unplugin-code-position',
     npm: 'https://www.npmjs.com/package/unplugin-code-position',
     website: 'https://github.com/legend402/unplugin-code-position#readme',
+  },
+  source: {
+    github: 'legend402/unplugin-code-position',
+    npm: 'unplugin-code-position',
   },
   stats: {
     stars: 1,

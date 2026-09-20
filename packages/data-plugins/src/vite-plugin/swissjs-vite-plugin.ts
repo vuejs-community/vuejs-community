@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'framework',
   ],
-  source: {
-    github: 'kibologic/swiss-lib',
-    npm: '@swissjs/vite-plugin',
-  },
   links: {
     github: 'https://github.com/kibologic/swiss-lib',
     npm: 'https://www.npmjs.com/package/@swissjs/vite-plugin',
     website: 'https://github.com/ThembaMzumara/SWISS#readme',
+  },
+  source: {
+    github: 'kibologic/swiss-lib',
+    npm: '@swissjs/vite-plugin',
   },
   stats: {
     stars: 0,

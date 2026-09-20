@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'jsx',
     'reactive',
   ],
-  source: {
-    github: 'fictjs/fict',
-    npm: '@fictjs/vite-plugin',
-  },
   links: {
     github: 'https://github.com/fictjs/fict',
     npm: 'https://www.npmjs.com/package/@fictjs/vite-plugin',
     website: 'https://github.com/fictjs/fict#readme',
+  },
+  source: {
+    github: 'fictjs/fict',
+    npm: '@fictjs/vite-plugin',
   },
   stats: {
     stars: 62,

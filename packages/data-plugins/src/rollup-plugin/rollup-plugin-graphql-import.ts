@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'schema',
   ],
-  source: {
-    github: 'psirenny/rollup-plugin-graphql-import',
-    npm: 'rollup-plugin-graphql-import',
-  },
   links: {
     github: 'https://github.com/psirenny/rollup-plugin-graphql-import',
     npm: 'https://www.npmjs.com/package/rollup-plugin-graphql-import',
     website: 'https://github.com/psirenny/rollup-plugin-graphql-import',
+  },
+  source: {
+    github: 'psirenny/rollup-plugin-graphql-import',
+    npm: 'rollup-plugin-graphql-import',
   },
   stats: {
     stars: 2,

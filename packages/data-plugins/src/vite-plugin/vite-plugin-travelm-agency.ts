@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'Travelm-Agency',
     'I18n',
   ],
-  source: {
-    npm: 'vite-plugin-travelm-agency',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-travelm-agency',
+  },
+  source: {
+    npm: 'vite-plugin-travelm-agency',
   },
   stats: {
     stars: 0,

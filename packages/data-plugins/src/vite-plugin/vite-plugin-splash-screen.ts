@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'splash-screen',
   ],
-  source: {
-    npm: 'vite-plugin-splash-screen',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-splash-screen',
+  },
+  source: {
+    npm: 'vite-plugin-splash-screen',
   },
   stats: {
     stars: 0,

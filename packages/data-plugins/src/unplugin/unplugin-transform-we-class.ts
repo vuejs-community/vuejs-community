@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'we',
     'class',
   ],
-  source: {
-    github: 'MellowCo/unplugin-transform-we-class',
-    npm: 'unplugin-transform-we-class',
-  },
   links: {
     github: 'https://github.com/MellowCo/unplugin-transform-we-class',
     npm: 'https://www.npmjs.com/package/unplugin-transform-we-class',
     website: 'https://github.com/MellowCo/unplugin-transform-we-class#readme',
+  },
+  source: {
+    github: 'MellowCo/unplugin-transform-we-class',
+    npm: 'unplugin-transform-we-class',
   },
   stats: {
     stars: 13,

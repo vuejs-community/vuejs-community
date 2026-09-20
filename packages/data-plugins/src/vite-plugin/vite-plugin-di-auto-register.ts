@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'auto-register',
     'ioc',
   ],
-  source: {
-    npm: 'vite-plugin-di-auto-register',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-di-auto-register',
+  },
+  source: {
+    npm: 'vite-plugin-di-auto-register',
   },
   stats: {
     stars: 0,

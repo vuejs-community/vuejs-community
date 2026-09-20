@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: '@bvanderplanck/rollup-plugin-react-remove-lazy-loading',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@bvanderplanck/rollup-plugin-react-remove-lazy-loading',
     website: 'https://github.com/bvanderplanck/rollup-plugin-react-remove-lazy-loading',
+  },
+  source: {
+    npm: '@bvanderplanck/rollup-plugin-react-remove-lazy-loading',
   },
   stats: {
     stars: 0,

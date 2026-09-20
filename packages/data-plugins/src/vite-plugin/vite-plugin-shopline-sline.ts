@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'sline',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-shopline-sline',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-shopline-sline',
+  },
+  source: {
+    npm: 'vite-plugin-shopline-sline',
   },
   stats: {
     stars: 0,

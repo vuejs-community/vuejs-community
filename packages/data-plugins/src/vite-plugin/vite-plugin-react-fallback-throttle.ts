@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'react',
     'suspense',
   ],
-  source: {
-    github: 'wojtekmaj/vite-plugin-react-fallback-throttle',
-    npm: 'vite-plugin-react-fallback-throttle',
-  },
   links: {
     github: 'https://github.com/wojtekmaj/vite-plugin-react-fallback-throttle',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-fallback-throttle',
+  },
+  source: {
+    github: 'wojtekmaj/vite-plugin-react-fallback-throttle',
+    npm: 'vite-plugin-react-fallback-throttle',
   },
   stats: {
     stars: 44,

@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://pinia-colada.esm.dev',
   },
   source: {
-    github: 'posva/pinia-colada#main/nuxt',
+    github: 'posva/pinia-colada',
     npm: '@pinia/colada-nuxt',
   },
 })

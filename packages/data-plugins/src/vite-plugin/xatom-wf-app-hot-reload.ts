@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'xAtom',
     'live-reload',
   ],
-  source: {
-    github: 'xAtomTeam/wf-app-hot-reload',
-    npm: '@xatom/wf-app-hot-reload',
-  },
   links: {
     github: 'https://github.com/xAtomTeam/wf-app-hot-reload',
     npm: 'https://www.npmjs.com/package/@xatom/wf-app-hot-reload',
     website: 'https://github.com/xAtomTeam/wf-app-hot-reload#readme',
+  },
+  source: {
+    github: 'xAtomTeam/wf-app-hot-reload',
+    npm: '@xatom/wf-app-hot-reload',
   },
   stats: {
     stars: 2,

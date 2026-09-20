@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'purgecss',
   ],
-  source: {
-    github: 'sakadda/vite-plugin-laravel-purgecss',
-    npm: '@sakadda/vite-plugin-laravel-purgecss',
-  },
   links: {
     github: 'https://github.com/sakadda/vite-plugin-laravel-purgecss',
     npm: 'https://www.npmjs.com/package/@sakadda/vite-plugin-laravel-purgecss',
     website: 'https://github.com/sakadda/vite-plugin-laravel-purgecss#readme',
+  },
+  source: {
+    github: 'sakadda/vite-plugin-laravel-purgecss',
+    npm: '@sakadda/vite-plugin-laravel-purgecss',
   },
   stats: {
     stars: 0,

@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'inspector',
     'debug',
   ],
-  source: {
-    github: 'jinjun1994/vite-plugin-dev-inspector-no-fragment',
-    npm: 'vite-plugin-dev-inspector-no-fragment',
-  },
   links: {
     github: 'https://github.com/jinjun1994/vite-plugin-dev-inspector-no-fragment',
     npm: 'https://www.npmjs.com/package/vite-plugin-dev-inspector-no-fragment',
     website: 'https://github.com/jinjun1994/vite-plugin-dev-inspector-no-fragment#readme',
+  },
+  source: {
+    github: 'jinjun1994/vite-plugin-dev-inspector-no-fragment',
+    npm: 'vite-plugin-dev-inspector-no-fragment',
   },
   stats: {
     stars: 0,

@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'shopline',
     'agent',
   ],
-  source: {
-    npm: 'shopline',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/shopline',
+  },
+  source: {
+    npm: 'shopline',
   },
   stats: {
     stars: 0,

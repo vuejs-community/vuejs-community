@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'compiler',
     'vite-plugin-levelojs',
   ],
-  source: {
-    github: 'MotionMind2007/Levelo-Js',
-    npm: 'vite-plugin-levelojs',
-  },
   links: {
     github: 'https://github.com/MotionMind2007/Levelo-Js',
     npm: 'https://www.npmjs.com/package/vite-plugin-levelojs',
+  },
+  source: {
+    github: 'MotionMind2007/Levelo-Js',
+    npm: 'vite-plugin-levelojs',
   },
   stats: {
     stars: 1,

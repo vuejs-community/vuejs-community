@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'watch',
     'development',
   ],
-  source: {
-    github: 'niceprototypes/nice-vite-symlink-watcher',
-    npm: 'vite-plugin-symlink-watcher',
-  },
   links: {
     github: 'https://github.com/niceprototypes/nice-vite-symlink-watcher',
     npm: 'https://www.npmjs.com/package/vite-plugin-symlink-watcher',
     website: 'https://github.com/niceprototypes/nice-vite-symlink-watcher#readme',
+  },
+  source: {
+    github: 'niceprototypes/nice-vite-symlink-watcher',
+    npm: 'vite-plugin-symlink-watcher',
   },
   stats: {
     stars: 0,

@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'imagemin',
     'neosjs',
   ],
-  source: {
-    npm: '@neosjs/unplugin-imagemin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@neosjs/unplugin-imagemin',
+  },
+  source: {
+    npm: '@neosjs/unplugin-imagemin',
   },
   stats: {
     stars: 0,

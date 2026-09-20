@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'typescript',
     'rooted',
   ],
-  source: {
-    github: 'Marvin-Brouwer/rooted',
-    npm: '@rooted/markdown',
-  },
   links: {
     github: 'https://github.com/Marvin-Brouwer/rooted',
     npm: 'https://www.npmjs.com/package/@rooted/markdown',
     website: 'https://github.com/Marvin-Brouwer/rooted#readme',
+  },
+  source: {
+    github: 'Marvin-Brouwer/rooted',
+    npm: '@rooted/markdown',
   },
   stats: {
     stars: 0,

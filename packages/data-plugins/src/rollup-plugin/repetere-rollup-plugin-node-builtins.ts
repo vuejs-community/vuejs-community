@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'calvinmetcalf/rollup-plugin-node-builtins',
-    npm: '@repetere/rollup-plugin-node-builtins',
-  },
   links: {
     github: 'https://github.com/calvinmetcalf/rollup-plugin-node-builtins',
     npm: 'https://www.npmjs.com/package/@repetere/rollup-plugin-node-builtins',
     website: 'https://github.com/calvinmetcalf/rollup-plugin-node-builtins#readme',
+  },
+  source: {
+    github: 'calvinmetcalf/rollup-plugin-node-builtins',
+    npm: '@repetere/rollup-plugin-node-builtins',
   },
   stats: {
     stars: 0,

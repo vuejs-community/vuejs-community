@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-sftp-deploy',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-sftp-deploy',
+  },
+  source: {
+    npm: 'vite-plugin-sftp-deploy',
   },
   stats: {
     stars: 0,

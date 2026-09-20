@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'vite-plugin-mpa',
     'vite-plugin-mpa-yd',
   ],
-  source: {
-    npm: 'vite-plugin-mpa-yd',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-mpa-yd',
+  },
+  source: {
+    npm: 'vite-plugin-mpa-yd',
   },
   stats: {
     stars: 0,

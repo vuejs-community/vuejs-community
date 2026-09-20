@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'react',
     'vite-plugin',
   ],
-  source: {
-    github: 'XiSenao/vite-plugin-externals-extension',
-    npm: 'vite-plugin-externals-extension',
-  },
   links: {
     github: 'https://github.com/XiSenao/vite-plugin-externals-extension',
     npm: 'https://www.npmjs.com/package/vite-plugin-externals-extension',
     website: 'https://github.com/XiSenao/vite-plugin-externals-extension',
+  },
+  source: {
+    github: 'XiSenao/vite-plugin-externals-extension',
+    npm: 'vite-plugin-externals-extension',
   },
   stats: {
     stars: 7,

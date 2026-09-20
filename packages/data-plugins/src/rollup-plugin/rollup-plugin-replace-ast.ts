@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'npm',
     'modules',
   ],
-  source: {
-    github: 'idler8/rollup-plugin-replace-ast',
-    npm: 'rollup-plugin-replace-ast',
-  },
   links: {
     github: 'https://github.com/idler8/rollup-plugin-replace-ast',
     npm: 'https://www.npmjs.com/package/rollup-plugin-replace-ast',
     website: 'https://github.com/idler8/rollup-plugin-replace-ast',
+  },
+  source: {
+    github: 'idler8/rollup-plugin-replace-ast',
+    npm: 'rollup-plugin-replace-ast',
   },
   stats: {
     stars: 3,

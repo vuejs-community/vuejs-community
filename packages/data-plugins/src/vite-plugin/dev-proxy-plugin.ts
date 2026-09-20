@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'cookie',
     'redirect',
   ],
-  source: {
-    github: 'CNLHB/dev-proxy-plugin',
-    npm: 'dev-proxy-plugin',
-  },
   links: {
     github: 'https://github.com/CNLHB/dev-proxy-plugin',
     npm: 'https://www.npmjs.com/package/dev-proxy-plugin',
     website: 'https://github.com/CNLHB/dev-proxy-plugin#readme',
+  },
+  source: {
+    github: 'CNLHB/dev-proxy-plugin',
+    npm: 'dev-proxy-plugin',
   },
   stats: {
     stars: 0,

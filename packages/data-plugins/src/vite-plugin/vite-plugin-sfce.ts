@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'custom-elements',
   ],
-  source: {
-    github: 'sotnikovse/vitempl',
-    npm: 'vite-plugin-sfce',
-  },
   links: {
     github: 'https://github.com/sotnikovse/vitempl',
     npm: 'https://www.npmjs.com/package/vite-plugin-sfce',
     website: 'https://github.com/sotnikovse/vitempl/tree/main/packages/vite-plugin-sfce#readme',
+  },
+  source: {
+    github: 'sotnikovse/vitempl',
+    npm: 'vite-plugin-sfce',
   },
   stats: {
     stars: 0,

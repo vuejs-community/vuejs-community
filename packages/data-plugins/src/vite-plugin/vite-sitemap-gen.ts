@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'seo',
     'vite-plugin',
   ],
-  source: {
-    github: 'Posterior-AI/vite-sitemap',
-    npm: 'vite-sitemap-gen',
-  },
   links: {
     github: 'https://github.com/Posterior-AI/vite-sitemap',
     npm: 'https://www.npmjs.com/package/vite-sitemap-gen',
     website: 'https://github.com/Posterior-AI/vite-sitemap#readme',
+  },
+  source: {
+    github: 'Posterior-AI/vite-sitemap',
+    npm: 'vite-sitemap-gen',
   },
   stats: {
     stars: 0,

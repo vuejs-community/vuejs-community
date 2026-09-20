@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'yjl9903/vite-plugin-settings',
-    npm: 'vite-plugin-settings',
-  },
   links: {
     github: 'https://github.com/yjl9903/vite-plugin-settings',
     npm: 'https://www.npmjs.com/package/vite-plugin-settings',
     website: 'https://github.com/yjl9903/vite-plugin-settings#readme',
+  },
+  source: {
+    github: 'yjl9903/vite-plugin-settings',
+    npm: 'vite-plugin-settings',
   },
   stats: {
     stars: 0,

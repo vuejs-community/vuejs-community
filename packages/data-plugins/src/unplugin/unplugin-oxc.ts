@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'esbuild',
     'farm',
   ],
-  source: {
-    github: 'unplugin/unplugin-oxc',
-    npm: 'unplugin-oxc',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-oxc',
     npm: 'https://www.npmjs.com/package/unplugin-oxc',
     website: 'https://github.com/unplugin/unplugin-oxc#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-oxc',
+    npm: 'unplugin-oxc',
   },
   stats: {
     stars: 57,

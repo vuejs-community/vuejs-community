@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://sonda.dev/',
   },
   source: {
-    github: 'filipsobol/sonda#release/packages/sonda',
+    github: 'filipsobol/sonda',
     npm: 'sonda',
   },
 })

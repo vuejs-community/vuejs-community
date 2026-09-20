@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'environment-variables',
     'zenv',
   ],
-  source: {
-    github: 'Judeadeniji/zenv-sh',
-    npm: '@zenv-sh/vite-plugin',
-  },
   links: {
     github: 'https://github.com/Judeadeniji/zenv-sh',
     npm: 'https://www.npmjs.com/package/@zenv-sh/vite-plugin',
     website: 'https://github.com/Judeadeniji/zenv-sh#readme',
+  },
+  source: {
+    github: 'Judeadeniji/zenv-sh',
+    npm: '@zenv-sh/vite-plugin',
   },
   stats: {
     stars: 4,

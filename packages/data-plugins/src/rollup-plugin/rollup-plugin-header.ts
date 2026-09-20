@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'footer',
     'license',
   ],
-  source: {
-    github: 'tinysets/rollup-plugin-header',
-    npm: 'rollup-plugin-header',
-  },
   links: {
     github: 'https://github.com/tinysets/rollup-plugin-header',
     npm: 'https://www.npmjs.com/package/rollup-plugin-header',
     website: 'https://github.com/tinysets/rollup-plugin-header',
+  },
+  source: {
+    github: 'tinysets/rollup-plugin-header',
+    npm: 'rollup-plugin-header',
   },
   stats: {
     stars: 0,

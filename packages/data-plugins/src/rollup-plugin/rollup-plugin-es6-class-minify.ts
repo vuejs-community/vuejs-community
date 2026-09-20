@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'minify',
     'es6',
   ],
-  source: {
-    github: 'KristofJannes/rollup-plugin-es6-class-minify',
-    npm: 'rollup-plugin-es6-class-minify',
-  },
   links: {
     github: 'https://github.com/KristofJannes/rollup-plugin-es6-class-minify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-es6-class-minify',
     website: 'https://github.com/KristofJannes/rollup-plugin-es6-class-minify#readme',
+  },
+  source: {
+    github: 'KristofJannes/rollup-plugin-es6-class-minify',
+    npm: 'rollup-plugin-es6-class-minify',
   },
   stats: {
     stars: 2,

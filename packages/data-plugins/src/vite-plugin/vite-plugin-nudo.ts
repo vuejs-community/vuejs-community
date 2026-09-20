@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'nudojs/nudo',
-    npm: 'vite-plugin-nudo',
-  },
   links: {
     github: 'https://github.com/nudojs/nudo',
     npm: 'https://www.npmjs.com/package/vite-plugin-nudo',
     website: 'https://github.com/nudojs/nudo/tree/main/packages/vite-plugin',
+  },
+  source: {
+    github: 'nudojs/nudo',
+    npm: 'vite-plugin-nudo',
   },
   stats: {
     stars: 0,

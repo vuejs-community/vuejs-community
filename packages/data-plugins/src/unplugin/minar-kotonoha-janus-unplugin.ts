@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'schema',
     'json-schema',
   ],
-  source: {
-    github: 'minar-kotonoha/janus',
-    npm: '@minar-kotonoha/janus-unplugin',
-  },
   links: {
     github: 'https://github.com/minar-kotonoha/janus',
     npm: 'https://www.npmjs.com/package/@minar-kotonoha/janus-unplugin',
     website: 'https://github.com/minar-kotonoha/janus#readme',
+  },
+  source: {
+    github: 'minar-kotonoha/janus',
+    npm: '@minar-kotonoha/janus-unplugin',
   },
   stats: {
     stars: 0,

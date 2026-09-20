@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://vaxee.letstri.dev/',
   },
   source: {
-    github: 'letstri/vaxee#main/packages/nuxt',
+    github: 'letstri/vaxee',
     npm: '@vaxee/nuxt',
   },
 })

@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'esbuild',
     'plugin',
   ],
-  source: {
-    npm: '@inte-cloud/unplugin-lit-element',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@inte-cloud/unplugin-lit-element',
     website: 'http://lit-element-docs-develop-tools.apps.k8s-pub.intecloud.com.cn/zh-CN/',
+  },
+  source: {
+    npm: '@inte-cloud/unplugin-lit-element',
   },
   stats: {
     stars: 0,

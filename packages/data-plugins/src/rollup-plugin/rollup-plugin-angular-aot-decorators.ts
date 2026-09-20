@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'aot',
     'decorators',
   ],
-  source: {
-    github: 'jarivo/rollup-plugin-angular-aot-decorators',
-    npm: 'rollup-plugin-angular-aot-decorators',
-  },
   links: {
     github: 'https://github.com/jarivo/rollup-plugin-angular-aot-decorators',
     npm: 'https://www.npmjs.com/package/rollup-plugin-angular-aot-decorators',
     website: 'https://github.com/jarivo/rollup-plugin-angular-aot-decorators#readme',
+  },
+  source: {
+    github: 'jarivo/rollup-plugin-angular-aot-decorators',
+    npm: 'rollup-plugin-angular-aot-decorators',
   },
   stats: {
     stars: 0,

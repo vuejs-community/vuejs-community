@@ -63,14 +63,14 @@ export default defineProjectMeta({
     'typescript',
     'unplugin',
   ],
-  source: {
-    github: 'josedacosta/tailwindcss-obfuscator',
-    npm: 'tailwindcss-obfuscator',
-  },
   links: {
     github: 'https://github.com/josedacosta/tailwindcss-obfuscator',
     npm: 'https://www.npmjs.com/package/tailwindcss-obfuscator',
     website: 'https://github.com/josedacosta/tailwindcss-obfuscator#readme',
+  },
+  source: {
+    github: 'josedacosta/tailwindcss-obfuscator',
+    npm: 'tailwindcss-obfuscator',
   },
   stats: {
     stars: 0,

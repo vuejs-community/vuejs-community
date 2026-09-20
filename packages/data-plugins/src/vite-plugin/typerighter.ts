@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rolldown-plugin',
     'typedown',
   ],
-  source: {
-    github: 'huydo862003/typerighter',
-    npm: 'typerighter',
-  },
   links: {
     github: 'https://github.com/huydo862003/typerighter',
     npm: 'https://www.npmjs.com/package/typerighter',
     website: 'https://github.com/Huy-DNA/typedown#readme',
+  },
+  source: {
+    github: 'huydo862003/typerighter',
+    npm: 'typerighter',
   },
   stats: {
     stars: 6,

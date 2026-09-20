@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'midwayjs/hooks',
-    npm: '@midwayjs/bundler',
-  },
   links: {
     github: 'https://github.com/midwayjs/hooks',
     npm: 'https://www.npmjs.com/package/@midwayjs/bundler',
     website: 'https://github.com/midwayjs/hooks',
+  },
+  source: {
+    github: 'midwayjs/hooks',
+    npm: '@midwayjs/bundler',
   },
   stats: {
     stars: 686,

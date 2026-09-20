@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'wille/vite-preload',
-    npm: '@alugha/vite-preload',
-  },
   links: {
     github: 'https://github.com/wille/vite-preload',
     npm: 'https://www.npmjs.com/package/@alugha/vite-preload',
     website: 'https://github.com/wille/vite-preload#readme',
+  },
+  source: {
+    github: 'wille/vite-preload',
+    npm: '@alugha/vite-preload',
   },
   stats: {
     stars: 68,

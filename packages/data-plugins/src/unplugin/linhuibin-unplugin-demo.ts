@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'unplugin',
     'demo',
   ],
-  source: {
-    github: 'linhuibin98/unplugin-demo',
-    npm: '@linhuibin/unplugin-demo',
-  },
   links: {
     github: 'https://github.com/linhuibin98/unplugin-demo',
     npm: 'https://www.npmjs.com/package/@linhuibin/unplugin-demo',
     website: 'https://github.com/linhuibin98/unplugin-demo',
+  },
+  source: {
+    github: 'linhuibin98/unplugin-demo',
+    npm: '@linhuibin/unplugin-demo',
   },
   stats: {
     stars: 1,

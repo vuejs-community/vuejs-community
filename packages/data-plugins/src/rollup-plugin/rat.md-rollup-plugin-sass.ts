@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'css',
     'rat',
   ],
-  source: {
-    github: 'RatMD/rollup-plugin-sass',
-    npm: '@rat.md/rollup-plugin-sass',
-  },
   links: {
     github: 'https://github.com/RatMD/rollup-plugin-sass',
     npm: 'https://www.npmjs.com/package/@rat.md/rollup-plugin-sass',
     website: 'https://rat.md/rollup-plugin-sass',
+  },
+  source: {
+    github: 'RatMD/rollup-plugin-sass',
+    npm: '@rat.md/rollup-plugin-sass',
   },
   stats: {
     stars: 1,

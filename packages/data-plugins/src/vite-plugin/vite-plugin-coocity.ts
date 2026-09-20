@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'Cesium',
     'coocity-sdk',
   ],
-  source: {
-    npm: 'vite-plugin-coocity',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-coocity',
+  },
+  source: {
+    npm: 'vite-plugin-coocity',
   },
   stats: {
     stars: 0,

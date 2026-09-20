@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'esbuild',
     'farm',
   ],
-  source: {
-    github: 'sushichan044/unplugin-transform-import-meta',
-    npm: 'unplugin-transform-import-meta',
-  },
   links: {
     github: 'https://github.com/sushichan044/unplugin-transform-import-meta',
     npm: 'https://www.npmjs.com/package/unplugin-transform-import-meta',
     website: 'https://github.com/sushichan044/unplugin-transform-import-meta#readme',
+  },
+  source: {
+    github: 'sushichan044/unplugin-transform-import-meta',
+    npm: 'unplugin-transform-import-meta',
   },
   stats: {
     stars: 0,

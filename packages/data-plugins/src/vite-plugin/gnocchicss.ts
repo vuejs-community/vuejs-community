@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'gnocchicss',
     'vite-plugin',
   ],
-  source: {
-    github: 'chriswoodle/gnocchicss',
-    npm: 'gnocchicss',
-  },
   links: {
     github: 'https://github.com/chriswoodle/gnocchicss',
     npm: 'https://www.npmjs.com/package/gnocchicss',
     website: 'https://github.com/sudowoodle/gnocchicss#readme',
+  },
+  source: {
+    github: 'chriswoodle/gnocchicss',
+    npm: 'gnocchicss',
   },
   stats: {
     stars: 0,

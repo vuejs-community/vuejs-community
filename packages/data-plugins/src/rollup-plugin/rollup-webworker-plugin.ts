@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'webworker code splicing',
   ],
-  source: {
-    npm: 'rollup-webworker-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-webworker-plugin',
+  },
+  source: {
+    npm: 'rollup-webworker-plugin',
   },
   stats: {
     stars: 0,

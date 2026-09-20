@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'wenyan',
     'wenyan-lang',
   ],
-  source: {
-    github: 'antfu/wenyan-rollup-plugin',
-    npm: '@wenyan/rollup-plugin',
-  },
   links: {
     github: 'https://github.com/antfu/wenyan-rollup-plugin',
     npm: 'https://www.npmjs.com/package/@wenyan/rollup-plugin',
     website: 'https://github.com/antfu/wenyan-rollup-plugin#readme',
+  },
+  source: {
+    github: 'antfu/wenyan-rollup-plugin',
+    npm: '@wenyan/rollup-plugin',
   },
   stats: {
     stars: 2,

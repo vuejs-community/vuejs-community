@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'melange',
   ],
-  source: {
-    github: 'tonyfettes/vite-plugin-melange',
-    npm: '@tonyfettes/vite-plugin-melange',
-  },
   links: {
     github: 'https://github.com/tonyfettes/vite-plugin-melange',
     npm: 'https://www.npmjs.com/package/@tonyfettes/vite-plugin-melange',
     website: 'https://github.com/tonyfettes/vite-plugin-melange#vite-plugin-melange',
+  },
+  source: {
+    github: 'tonyfettes/vite-plugin-melange',
+    npm: '@tonyfettes/vite-plugin-melange',
   },
   stats: {
     stars: 0,

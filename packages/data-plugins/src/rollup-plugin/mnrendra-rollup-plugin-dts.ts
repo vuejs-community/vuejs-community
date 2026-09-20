@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'plugin',
     'dts',
   ],
-  source: {
-    github: 'mnrendra/rollup-plugin-dts',
-    npm: '@mnrendra/rollup-plugin-dts',
-  },
   links: {
     github: 'https://github.com/mnrendra/rollup-plugin-dts',
     npm: 'https://www.npmjs.com/package/@mnrendra/rollup-plugin-dts',
     website: 'https://github.com/mnrendra/rollup-plugin-dts#readme',
+  },
+  source: {
+    github: 'mnrendra/rollup-plugin-dts',
+    npm: '@mnrendra/rollup-plugin-dts',
   },
   stats: {
     stars: 1,

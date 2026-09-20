@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'plugin',
     'typescript',
   ],
-  source: {
-    github: 'revam/rollup-plugin-common',
-    npm: '@revam/rollup-plugin-common',
-  },
   links: {
     github: 'https://github.com/revam/rollup-plugin-common',
     npm: 'https://www.npmjs.com/package/@revam/rollup-plugin-common',
     website: 'https://github.com/revam/rollup-plugin-common/tree/master#readme',
+  },
+  source: {
+    github: 'revam/rollup-plugin-common',
+    npm: '@revam/rollup-plugin-common',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'nodemon',
   ],
-  source: {
-    github: 'MomsFriendlyDevCo/vite-plugin-nodemon',
-    npm: 'vite-plugin-nodemon',
-  },
   links: {
     github: 'https://github.com/MomsFriendlyDevCo/vite-plugin-nodemon',
     npm: 'https://www.npmjs.com/package/vite-plugin-nodemon',
     website: 'https://github.com/MomsFriendlyDevCo/vite-plugin-nodemon#readme',
+  },
+  source: {
+    github: 'MomsFriendlyDevCo/vite-plugin-nodemon',
+    npm: 'vite-plugin-nodemon',
   },
   stats: {
     stars: 0,

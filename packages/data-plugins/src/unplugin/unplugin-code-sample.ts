@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'farm',
     'esbuild',
   ],
-  source: {
-    github: 'ray-d-song/unplugin-code-sample',
-    npm: 'unplugin-code-sample',
-  },
   links: {
     github: 'https://github.com/ray-d-song/unplugin-code-sample',
     npm: 'https://www.npmjs.com/package/unplugin-code-sample',
     website: 'https://github.com/ray-d-song/unplugin-code-sample#readme',
+  },
+  source: {
+    github: 'ray-d-song/unplugin-code-sample',
+    npm: 'unplugin-code-sample',
   },
   stats: {
     stars: 1,

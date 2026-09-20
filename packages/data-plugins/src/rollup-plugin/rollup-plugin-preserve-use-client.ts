@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'server components',
     'client components',
   ],
-  source: {
-    github: 'soobing/rollup-plugin-preserve-use-client',
-    npm: 'rollup-plugin-preserve-use-client',
-  },
   links: {
     github: 'https://github.com/soobing/rollup-plugin-preserve-use-client',
     npm: 'https://www.npmjs.com/package/rollup-plugin-preserve-use-client',
     website: 'https://github.com/soobing/rollup-plugin-preserve-use-client#readme',
+  },
+  source: {
+    github: 'soobing/rollup-plugin-preserve-use-client',
+    npm: 'rollup-plugin-preserve-use-client',
   },
   stats: {
     stars: 2,

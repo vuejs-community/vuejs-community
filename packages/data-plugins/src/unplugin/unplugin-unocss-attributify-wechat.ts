@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'MellowCo/unplugin-unocss-attributify-wechat',
-    npm: 'unplugin-unocss-attributify-wechat',
-  },
   links: {
     github: 'https://github.com/MellowCo/unplugin-unocss-attributify-wechat',
     npm: 'https://www.npmjs.com/package/unplugin-unocss-attributify-wechat',
     website: 'https://github.com/MellowCo/unplugin-unocss-attributify-wechat#readme',
+  },
+  source: {
+    github: 'MellowCo/unplugin-unocss-attributify-wechat',
+    npm: 'unplugin-unocss-attributify-wechat',
   },
   stats: {
     stars: 19,

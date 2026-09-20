@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'sofen-ag/vite-plugin-anti-chonk',
-    npm: 'vite-plugin-anti-chonk',
-  },
   links: {
     github: 'https://github.com/sofen-ag/vite-plugin-anti-chonk',
     npm: 'https://www.npmjs.com/package/vite-plugin-anti-chonk',
     website: 'https://github.com/sofen-ag/vite-plugin-anti-chonk#readme',
+  },
+  source: {
+    github: 'sofen-ag/vite-plugin-anti-chonk',
+    npm: 'vite-plugin-anti-chonk',
   },
   stats: {
     stars: 0,

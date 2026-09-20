@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vue3',
     'puppeteer',
   ],
-  source: {
-    npm: 'skeleton-screen-vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/skeleton-screen-vite-plugin',
+  },
+  source: {
+    npm: 'skeleton-screen-vite-plugin',
   },
   stats: {
     stars: 0,

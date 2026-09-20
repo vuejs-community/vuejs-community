@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'typescript',
     'es2015',
   ],
-  source: {
-    npm: 'wonder-rollup-plugin-typescript',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/wonder-rollup-plugin-typescript',
     website: 'https://github.com/rollup/rollup-plugin-typescript',
+  },
+  source: {
+    npm: 'wonder-rollup-plugin-typescript',
   },
   stats: {
     stars: 0,

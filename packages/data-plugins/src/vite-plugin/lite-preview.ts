@@ -24,11 +24,11 @@ export default defineProjectMeta({
     'design-system',
     'preview-ui',
   ],
-  source: {
-    npm: 'lite-preview',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/lite-preview',
+  },
+  source: {
+    npm: 'lite-preview',
   },
   stats: {
     stars: 0,

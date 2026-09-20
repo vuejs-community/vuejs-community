@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'nextjs-plugin',
   ],
-  source: {
-    github: 'cucuwang/geoptimize',
-    npm: 'geoptimize',
-  },
   links: {
     github: 'https://github.com/cucuwang/geoptimize',
     npm: 'https://www.npmjs.com/package/geoptimize',
     website: 'https://github.com/cucuwang/geoptimize',
+  },
+  source: {
+    github: 'cucuwang/geoptimize',
+    npm: 'geoptimize',
   },
   stats: {
     stars: 124,

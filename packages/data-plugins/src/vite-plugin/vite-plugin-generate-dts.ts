@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'vtrbo/vite-plugin-generate-dts',
-    npm: 'vite-plugin-generate-dts',
-  },
   links: {
     github: 'https://github.com/vtrbo/vite-plugin-generate-dts',
     npm: 'https://www.npmjs.com/package/vite-plugin-generate-dts',
     website: 'https://github.com/vtrbo/vite-plugin-generate-dts#readme',
+  },
+  source: {
+    github: 'vtrbo/vite-plugin-generate-dts',
+    npm: 'vite-plugin-generate-dts',
   },
   stats: {
     stars: 1,

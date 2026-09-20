@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin-monitor',
     'debug',
   ],
-  source: {
-    github: 'ATQQ/vite-plugin-monitor',
-    npm: 'vite-plugin-monitor',
-  },
   links: {
     github: 'https://github.com/ATQQ/vite-plugin-monitor',
     npm: 'https://www.npmjs.com/package/vite-plugin-monitor',
     website: 'https://github.com/ATQQ/vite-plugin-monitor/tree/main/#readme',
+  },
+  source: {
+    github: 'ATQQ/vite-plugin-monitor',
+    npm: 'vite-plugin-monitor',
   },
   stats: {
     stars: 2,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'package-test',
     'plugin',
   ],
-  source: {
-    github: 'toolbuilder/rollup-plugin-create-test-package-json',
-    npm: 'rollup-plugin-create-test-package-json',
-  },
   links: {
     github: 'https://github.com/toolbuilder/rollup-plugin-create-test-package-json',
     npm: 'https://www.npmjs.com/package/rollup-plugin-create-test-package-json',
     website: 'https://github.com/toolbuilder/rollup-plugin-create-test-package-json#readme',
+  },
+  source: {
+    github: 'toolbuilder/rollup-plugin-create-test-package-json',
+    npm: 'rollup-plugin-create-test-package-json',
   },
   stats: {
     stars: 0,

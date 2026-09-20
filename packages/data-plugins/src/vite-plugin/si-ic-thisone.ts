@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'vue',
     'react',
   ],
-  source: {
-    github: 'SI-IC/thisone',
-    npm: '@si-ic/thisone',
-  },
   links: {
     github: 'https://github.com/SI-IC/thisone',
     npm: 'https://www.npmjs.com/package/@si-ic/thisone',
     website: 'https://github.com/SI-IC/thisone#readme',
+  },
+  source: {
+    github: 'SI-IC/thisone',
+    npm: '@si-ic/thisone',
   },
   stats: {
     stars: 1,

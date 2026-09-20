@@ -28,14 +28,14 @@ export default defineProjectMeta({
     'plugin',
     'testing',
   ],
-  source: {
-    github: 'HichemTab-tech/vite-plugin-override-deps',
-    npm: 'vite-plugin-override-deps',
-  },
   links: {
     github: 'https://github.com/HichemTab-tech/vite-plugin-override-deps',
     npm: 'https://www.npmjs.com/package/vite-plugin-override-deps',
     website: 'https://github.com/HichemTab-tech/vite-plugin-override-deps#readme',
+  },
+  source: {
+    github: 'HichemTab-tech/vite-plugin-override-deps',
+    npm: 'vite-plugin-override-deps',
   },
   stats: {
     stars: 2,

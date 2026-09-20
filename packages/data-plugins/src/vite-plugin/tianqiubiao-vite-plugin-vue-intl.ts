@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vue-intl',
     'vite-plugin',
   ],
-  source: {
-    github: 'tianqiubiao/vite-plugin-vue-intl',
-    npm: '@tianqiubiao/vite-plugin-vue-intl',
-  },
   links: {
     github: 'https://github.com/tianqiubiao/vite-plugin-vue-intl',
     npm: 'https://www.npmjs.com/package/@tianqiubiao/vite-plugin-vue-intl',
     website: 'https://github.com/tianqiubiao/vite-plugin-vue-intl',
+  },
+  source: {
+    github: 'tianqiubiao/vite-plugin-vue-intl',
+    npm: '@tianqiubiao/vite-plugin-vue-intl',
   },
   stats: {
     stars: 0,

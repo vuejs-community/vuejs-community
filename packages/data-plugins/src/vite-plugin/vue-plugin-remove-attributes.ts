@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'data-test',
     'remove-attributes',
   ],
-  source: {
-    github: 'lwvemike/vue-plugin-remove-attributes',
-    npm: 'vue-plugin-remove-attributes',
-  },
   links: {
     github: 'https://github.com/lwvemike/vue-plugin-remove-attributes',
     npm: 'https://www.npmjs.com/package/vue-plugin-remove-attributes',
     website: 'https://github.com/lwvemike/vue-plugin-remove-attributes#readme',
+  },
+  source: {
+    github: 'lwvemike/vue-plugin-remove-attributes',
+    npm: 'vue-plugin-remove-attributes',
   },
   stats: {
     stars: 0,

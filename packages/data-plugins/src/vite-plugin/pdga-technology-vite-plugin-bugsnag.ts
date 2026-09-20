@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'ElMassimo/vite-plugin-bugsnag',
-    npm: '@pdga-technology/vite-plugin-bugsnag',
-  },
   links: {
     github: 'https://github.com/ElMassimo/vite-plugin-bugsnag',
     npm: 'https://www.npmjs.com/package/@pdga-technology/vite-plugin-bugsnag',
     website: 'https://github.com/ElMassimo/vite-plugin-bugsnag',
+  },
+  source: {
+    github: 'ElMassimo/vite-plugin-bugsnag',
+    npm: '@pdga-technology/vite-plugin-bugsnag',
   },
   stats: {
     stars: 22,

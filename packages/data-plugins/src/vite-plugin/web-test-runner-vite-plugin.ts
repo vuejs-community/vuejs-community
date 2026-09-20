@@ -16,14 +16,14 @@ export default defineProjectMeta({
     '@web',
     '@web/test-runner',
   ],
-  source: {
-    github: 'pndewit/web-test-runner-vite-plugin',
-    npm: 'web-test-runner-vite-plugin',
-  },
   links: {
     github: 'https://github.com/pndewit/web-test-runner-vite-plugin',
     npm: 'https://www.npmjs.com/package/web-test-runner-vite-plugin',
     website: 'https://github.com/pndewit/web-test-runner-vite-plugin#readme',
+  },
+  source: {
+    github: 'pndewit/web-test-runner-vite-plugin',
+    npm: 'web-test-runner-vite-plugin',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'inject',
     'html',
   ],
-  source: {
-    github: 'xsjcTony/vite-plugin-inject-html',
-    npm: 'vite-plugin-inject-html',
-  },
   links: {
     github: 'https://github.com/xsjcTony/vite-plugin-inject-html',
     npm: 'https://www.npmjs.com/package/vite-plugin-inject-html',
     website: 'https://docs.aelita.me/docs/vite-plugin-inject-html.html',
+  },
+  source: {
+    github: 'xsjcTony/vite-plugin-inject-html',
+    npm: 'vite-plugin-inject-html',
   },
   stats: {
     stars: 1,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vitejs',
     'vite-plugin',
   ],
-  source: {
-    github: 'includeios/vite-plugin-template-html',
-    npm: 'vite-plugin-template-html',
-  },
   links: {
     github: 'https://github.com/includeios/vite-plugin-template-html',
     npm: 'https://www.npmjs.com/package/vite-plugin-template-html',
     website: 'https://github.com/includeios/vite-plugin-template-html',
+  },
+  source: {
+    github: 'includeios/vite-plugin-template-html',
+    npm: 'vite-plugin-template-html',
   },
   stats: {
     stars: 3,

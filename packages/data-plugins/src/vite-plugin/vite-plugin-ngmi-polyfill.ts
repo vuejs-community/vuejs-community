@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin-node-polyfill',
     'vite-plugin-polyfill',
   ],
-  source: {
-    github: 'grikomsn/vite-plugin-ngmi-polyfill',
-    npm: 'vite-plugin-ngmi-polyfill',
-  },
   links: {
     github: 'https://github.com/grikomsn/vite-plugin-ngmi-polyfill',
     npm: 'https://www.npmjs.com/package/vite-plugin-ngmi-polyfill',
     website: 'https://github.com/grikomsn/vite-plugin-ngmi-polyfill',
+  },
+  source: {
+    github: 'grikomsn/vite-plugin-ngmi-polyfill',
+    npm: 'vite-plugin-ngmi-polyfill',
   },
   stats: {
     stars: 9,

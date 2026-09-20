@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'react-refresh',
     'fast refresh',
   ],
-  source: {
-    github: 'jonataslaw/novara-vite-plugin',
-    npm: '@novara/plugin-vite',
-  },
   links: {
     github: 'https://github.com/jonataslaw/novara-vite-plugin',
     npm: 'https://www.npmjs.com/package/@novara/plugin-vite',
     website: 'https://github.com/jonataslaw/novara-vite-plugin#readme',
+  },
+  source: {
+    github: 'jonataslaw/novara-vite-plugin',
+    npm: '@novara/plugin-vite',
   },
   stats: {
     stars: 0,

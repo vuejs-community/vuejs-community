@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vue',
     'svg',
   ],
-  source: {
-    github: 'Kaciras/vite-plugin-svg-sfc',
-    npm: 'vite-plugin-svg-sfc',
-  },
   links: {
     github: 'https://github.com/Kaciras/vite-plugin-svg-sfc',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-sfc',
     website: 'https://github.com/Kaciras/vite-plugin-svg-sfc#readme',
+  },
+  source: {
+    github: 'Kaciras/vite-plugin-svg-sfc',
+    npm: 'vite-plugin-svg-sfc',
   },
   stats: {
     stars: 7,

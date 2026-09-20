@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'ubugeeei-prod/ox-content',
-    npm: '@ox-content/vite-plugin-svelte',
-  },
   links: {
     github: 'https://github.com/ubugeeei-prod/ox-content',
     npm: 'https://www.npmjs.com/package/@ox-content/vite-plugin-svelte',
     website: 'https://github.com/ubugeeei-prod/ox-content#readme',
+  },
+  source: {
+    github: 'ubugeeei-prod/ox-content',
+    npm: '@ox-content/vite-plugin-svelte',
   },
   stats: {
     stars: 0,

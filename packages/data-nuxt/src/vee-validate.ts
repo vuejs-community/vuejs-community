@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://vee-validate.logaretm.com/v4/',
   },
   source: {
-    github: 'logaretm/vee-validate#main/packages/nuxt',
+    github: 'logaretm/vee-validate',
     npm: '@vee-validate/nuxt',
   },
 })

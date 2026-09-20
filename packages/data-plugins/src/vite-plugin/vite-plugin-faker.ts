@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'hmr',
     'vite-plugin',
   ],
-  source: {
-    github: 'JserWang/vite-plugin-faker',
-    npm: 'vite-plugin-faker',
-  },
   links: {
     github: 'https://github.com/JserWang/vite-plugin-faker',
     npm: 'https://www.npmjs.com/package/vite-plugin-faker',
     website: 'https://github.com/JserWang/vite-plugin-faker/tree/master/#readme',
+  },
+  source: {
+    github: 'JserWang/vite-plugin-faker',
+    npm: 'vite-plugin-faker',
   },
   stats: {
     stars: 25,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'edemaine/vite-plugin-civet',
-    npm: 'vite-plugin-civet',
-  },
   links: {
     github: 'https://github.com/edemaine/vite-plugin-civet',
     npm: 'https://www.npmjs.com/package/vite-plugin-civet',
     website: 'https://github.com/edemaine/vite-plugin-civet#readme',
+  },
+  source: {
+    github: 'edemaine/vite-plugin-civet',
+    npm: 'vite-plugin-civet',
   },
   stats: {
     stars: 0,

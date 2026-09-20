@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-notifier',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-notifier',
+  },
+  source: {
+    npm: 'vite-plugin-notifier',
   },
   stats: {
     stars: 0,

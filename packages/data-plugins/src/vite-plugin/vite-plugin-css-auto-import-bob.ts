@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'sass',
     'less',
   ],
-  source: {
-    github: 'malizhev/vite-plugin-css-auto-import',
-    npm: 'vite-plugin-css-auto-import-bob',
-  },
   links: {
     github: 'https://github.com/malizhev/vite-plugin-css-auto-import',
     npm: 'https://www.npmjs.com/package/vite-plugin-css-auto-import-bob',
     website: 'https://github.com/malizhev/vite-plugin-css-auto-import#readme',
+  },
+  source: {
+    github: 'malizhev/vite-plugin-css-auto-import',
+    npm: 'vite-plugin-css-auto-import-bob',
   },
   stats: {
     stars: 26,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'ftp',
     'cli',
   ],
-  source: {
-    github: 'gabsruff/create-wp-component',
-    npm: 'vite-plugin-wp-component',
-  },
   links: {
     github: 'https://github.com/gabsruff/create-wp-component',
     npm: 'https://www.npmjs.com/package/vite-plugin-wp-component',
     website: 'https://github.com/gabsruff/create-wp-component.git#readme',
+  },
+  source: {
+    github: 'gabsruff/create-wp-component',
+    npm: 'vite-plugin-wp-component',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vue-router',
     'vue',
   ],
-  source: {
-    github: 'loicduong/vite-plugin-vue-layouts-next',
-    npm: 'vite-plugin-vue-layouts-next',
-  },
   links: {
     github: 'https://github.com/loicduong/vite-plugin-vue-layouts-next',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-layouts-next',
     website: 'https://github.com/loicduong/vite-plugin-vue-layouts-next',
+  },
+  source: {
+    github: 'loicduong/vite-plugin-vue-layouts-next',
+    npm: 'vite-plugin-vue-layouts-next',
   },
   stats: {
     stars: 71,

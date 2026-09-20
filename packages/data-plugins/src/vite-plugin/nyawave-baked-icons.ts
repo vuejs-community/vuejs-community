@@ -23,13 +23,13 @@ export default defineProjectMeta({
     'ssr',
     'build-time',
   ],
-  source: {
-    github: 'nyawave/baked-icons',
-    npm: '@nyawave/baked-icons',
-  },
   links: {
     github: 'https://github.com/nyawave/baked-icons',
     npm: 'https://www.npmjs.com/package/@nyawave/baked-icons',
     website: 'https://github.com/nyawave/baked-icons#readme',
+  },
+  source: {
+    github: 'nyawave/baked-icons',
+    npm: '@nyawave/baked-icons',
   },
 })

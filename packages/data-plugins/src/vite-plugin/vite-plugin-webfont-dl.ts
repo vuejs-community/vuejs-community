@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vue',
     'react',
   ],
-  source: {
-    github: 'feat-agency/vite-plugin-webfont-dl',
-    npm: 'vite-plugin-webfont-dl',
-  },
   links: {
     github: 'https://github.com/feat-agency/vite-plugin-webfont-dl',
     npm: 'https://www.npmjs.com/package/vite-plugin-webfont-dl',
     website: 'https://webfont-dl.feat.agency',
+  },
+  source: {
+    github: 'feat-agency/vite-plugin-webfont-dl',
+    npm: 'vite-plugin-webfont-dl',
   },
   stats: {
     stars: 383,

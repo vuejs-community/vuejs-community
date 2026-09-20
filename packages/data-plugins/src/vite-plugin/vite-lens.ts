@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'debug',
     'element-inspector',
   ],
-  source: {
-    github: 'mdsohail99/Vite-Lens',
-    npm: 'vite-lens',
-  },
   links: {
     github: 'https://github.com/mdsohail99/Vite-Lens',
     npm: 'https://www.npmjs.com/package/vite-lens',
     website: 'https://github.com/mdsohail99/Vite-Lens#readme',
+  },
+  source: {
+    github: 'mdsohail99/Vite-Lens',
+    npm: 'vite-lens',
   },
   stats: {
     stars: 0,

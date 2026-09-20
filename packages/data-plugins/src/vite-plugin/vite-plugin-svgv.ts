@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'w2xi/vite-plugins',
-    npm: 'vite-plugin-svgv',
-  },
   links: {
     github: 'https://github.com/w2xi/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-svgv',
     website: 'https://github.com/w2xi/vite-plugins/tree/main/packages/vite-plugin-svgv#readme',
+  },
+  source: {
+    github: 'w2xi/vite-plugins',
+    npm: 'vite-plugin-svgv',
   },
   stats: {
     stars: 0,

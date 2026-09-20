@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'bundler',
     'compressing',
   ],
-  source: {
-    github: 'manchan4869/vitepress-plugin-dist-pack',
-    npm: 'vite-plugin-dist-pack',
-  },
   links: {
     github: 'https://github.com/manchan4869/vitepress-plugin-dist-pack',
     npm: 'https://www.npmjs.com/package/vite-plugin-dist-pack',
     website: 'https://github.com/manchan4869/vitepress-plugin-dist-pack',
+  },
+  source: {
+    github: 'manchan4869/vitepress-plugin-dist-pack',
+    npm: 'vite-plugin-dist-pack',
   },
   stats: {
     stars: 0,

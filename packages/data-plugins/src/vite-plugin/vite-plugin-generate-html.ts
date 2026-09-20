@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'plugin',
   ],
-  source: {
-    github: 'gedouu/vite-plugin-generate-html',
-    npm: 'vite-plugin-generate-html',
-  },
   links: {
     github: 'https://github.com/gedouu/vite-plugin-generate-html',
     npm: 'https://www.npmjs.com/package/vite-plugin-generate-html',
     website: 'https://github.com/gedouu/vite-plugin-generate-html#readme',
+  },
+  source: {
+    github: 'gedouu/vite-plugin-generate-html',
+    npm: 'vite-plugin-generate-html',
   },
   stats: {
     stars: 10,

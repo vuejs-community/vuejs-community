@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'archive',
     'dist',
   ],
-  source: {
-    npm: '@zxzy/vite-plugin-dist-zip',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@zxzy/vite-plugin-dist-zip',
     website: 'https://gitee.com/tonwe/vite-plugin-dist-zip#readme',
+  },
+  source: {
+    npm: '@zxzy/vite-plugin-dist-zip',
   },
   stats: {
     stars: 0,

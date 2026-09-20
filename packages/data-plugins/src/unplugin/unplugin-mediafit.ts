@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'unplugin',
     'responsive',
   ],
-  source: {
-    npm: 'unplugin-mediafit',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-mediafit',
+  },
+  source: {
+    npm: 'unplugin-mediafit',
   },
   stats: {
     stars: 0,

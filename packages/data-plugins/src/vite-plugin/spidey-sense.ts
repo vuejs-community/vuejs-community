@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'agent',
     'cli',
   ],
-  source: {
-    github: 'imMatheus/spidey-sense',
-    npm: 'spidey-sense',
-  },
   links: {
     github: 'https://github.com/imMatheus/spidey-sense',
     npm: 'https://www.npmjs.com/package/spidey-sense',
     website: 'https://github.com/imMatheus/spidey-sense#readme',
+  },
+  source: {
+    github: 'imMatheus/spidey-sense',
+    npm: 'spidey-sense',
   },
   stats: {
     stars: 41,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'npm',
     'modules',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-terser',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-terser',
     website: 'https://github.com/rollup/plugins/tree/master/packages/terser#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-terser',
   },
   stats: {
     stars: 0,

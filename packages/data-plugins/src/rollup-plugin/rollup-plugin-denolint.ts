@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'deno',
     'lint',
   ],
-  source: {
-    github: 'prantlf/rollup-plugin-denolint',
-    npm: 'rollup-plugin-denolint',
-  },
   links: {
     github: 'https://github.com/prantlf/rollup-plugin-denolint',
     npm: 'https://www.npmjs.com/package/rollup-plugin-denolint',
     website: 'http://github.com/prantlf/rollup-plugin-denolint/',
+  },
+  source: {
+    github: 'prantlf/rollup-plugin-denolint',
+    npm: 'rollup-plugin-denolint',
   },
   stats: {
     stars: 1,

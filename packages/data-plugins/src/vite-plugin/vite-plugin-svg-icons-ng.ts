@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'svg-symbol',
     'svgo',
   ],
-  source: {
-    github: 'yangxu52/vite-plugin-svg-icons-ng',
-    npm: 'vite-plugin-svg-icons-ng',
-  },
   links: {
     github: 'https://github.com/yangxu52/vite-plugin-svg-icons-ng',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-icons-ng',
     website: 'https://vite-plugin-svg-icons-ng.yangxu.cc',
+  },
+  source: {
+    github: 'yangxu52/vite-plugin-svg-icons-ng',
+    npm: 'vite-plugin-svg-icons-ng',
   },
   stats: {
     stars: 116,

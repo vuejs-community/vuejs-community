@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'shadcn-plugin',
     'generate-registry',
   ],
-  source: {
-    github: 'cmtlyt/unplugin-shadcn-registry-generate',
-    npm: '@cmtlyt/unplugin-shadcn-registry-generate',
-  },
   links: {
     github: 'https://github.com/cmtlyt/unplugin-shadcn-registry-generate',
     npm: 'https://www.npmjs.com/package/@cmtlyt/unplugin-shadcn-registry-generate',
     website: 'https://github.com/cmtlyt/unplugin-shadcn-registry-generate#readme',
+  },
+  source: {
+    github: 'cmtlyt/unplugin-shadcn-registry-generate',
+    npm: '@cmtlyt/unplugin-shadcn-registry-generate',
   },
   stats: {
     stars: 0,

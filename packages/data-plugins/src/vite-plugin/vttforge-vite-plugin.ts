@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'hmr',
   ],
-  source: {
-    github: 'vttforge/vttforge',
-    npm: '@vttforge/vite-plugin',
-  },
   links: {
     github: 'https://github.com/vttforge/vttforge',
     npm: 'https://www.npmjs.com/package/@vttforge/vite-plugin',
     website: 'https://github.com/vttforge/vttforge#readme',
+  },
+  source: {
+    github: 'vttforge/vttforge',
+    npm: '@vttforge/vite-plugin',
   },
   stats: {
     stars: 10,

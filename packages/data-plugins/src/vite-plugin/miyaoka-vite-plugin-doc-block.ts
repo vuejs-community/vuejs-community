@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'doc',
     'documentation',
   ],
-  source: {
-    github: 'miyaoka/vite-plugin-doc-block',
-    npm: '@miyaoka/vite-plugin-doc-block',
-  },
   links: {
     github: 'https://github.com/miyaoka/vite-plugin-doc-block',
     npm: 'https://www.npmjs.com/package/@miyaoka/vite-plugin-doc-block',
     website: 'https://github.com/miyaoka/vite-plugin-doc-block#readme',
+  },
+  source: {
+    github: 'miyaoka/vite-plugin-doc-block',
+    npm: '@miyaoka/vite-plugin-doc-block',
   },
   stats: {
     stars: 0,

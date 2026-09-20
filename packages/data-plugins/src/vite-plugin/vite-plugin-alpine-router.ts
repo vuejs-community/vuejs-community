@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'router',
     'hmr',
   ],
-  source: {
-    github: 'rehhouari/vite-plugin-alpine-router',
-    npm: 'vite-plugin-alpine-router',
-  },
   links: {
     github: 'https://github.com/rehhouari/vite-plugin-alpine-router',
     npm: 'https://www.npmjs.com/package/vite-plugin-alpine-router',
     website: 'https://github.com/rehhouari/vite-plugin-alpine-router#readme',
+  },
+  source: {
+    github: 'rehhouari/vite-plugin-alpine-router',
+    npm: 'vite-plugin-alpine-router',
   },
   stats: {
     stars: 1,

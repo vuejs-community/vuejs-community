@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'rollup',
     'webpack',
   ],
-  source: {
-    github: 'pomsky-lang/unplugin-pomsky',
-    npm: '@pomsky-lang/unplugin',
-  },
   links: {
     github: 'https://github.com/pomsky-lang/unplugin-pomsky',
     npm: 'https://www.npmjs.com/package/@pomsky-lang/unplugin',
     website: 'https://pomsky-lang.org',
+  },
+  source: {
+    github: 'pomsky-lang/unplugin-pomsky',
+    npm: '@pomsky-lang/unplugin',
   },
   stats: {
     stars: 3,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'sveltekit',
     'svelte-kit',
   ],
-  source: {
-    github: 'fernandolguevara/svelte-multicssclass',
-    npm: 'svelte-multicssclass',
-  },
   links: {
     github: 'https://github.com/fernandolguevara/svelte-multicssclass',
     npm: 'https://www.npmjs.com/package/svelte-multicssclass',
     website: 'https://github.com/fernandolguevara/svelte-multicssclass#readme',
+  },
+  source: {
+    github: 'fernandolguevara/svelte-multicssclass',
+    npm: 'svelte-multicssclass',
   },
   stats: {
     stars: 22,

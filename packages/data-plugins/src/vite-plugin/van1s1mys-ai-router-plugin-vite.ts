@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'ai-router',
   ],
-  source: {
-    github: 'IvanMalkS/ai-router',
-    npm: '@van1s1mys/ai-router-plugin-vite',
-  },
   links: {
     github: 'https://github.com/IvanMalkS/ai-router',
     npm: 'https://www.npmjs.com/package/@van1s1mys/ai-router-plugin-vite',
     website: 'https://ivanmalks.github.io/ai-router/',
+  },
+  source: {
+    github: 'IvanMalkS/ai-router',
+    npm: '@van1s1mys/ai-router-plugin-vite',
   },
   stats: {
     stars: 2,

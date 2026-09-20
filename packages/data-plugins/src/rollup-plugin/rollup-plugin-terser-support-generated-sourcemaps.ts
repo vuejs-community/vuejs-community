@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'terser',
     'minify',
   ],
-  source: {
-    github: 'TrySound/rollup-plugin-terser-support-generated-sourcemaps',
-    npm: 'rollup-plugin-terser-support-generated-sourcemaps',
-  },
   links: {
     github: 'https://github.com/TrySound/rollup-plugin-terser-support-generated-sourcemaps',
     npm: 'https://www.npmjs.com/package/rollup-plugin-terser-support-generated-sourcemaps',
     website: 'https://github.com/TrySound/rollup-plugin-terser-support-generated-sourcemaps#readme',
+  },
+  source: {
+    github: 'TrySound/rollup-plugin-terser-support-generated-sourcemaps',
+    npm: 'rollup-plugin-terser-support-generated-sourcemaps',
   },
   stats: {
     stars: 0,

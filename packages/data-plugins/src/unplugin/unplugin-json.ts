@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'kirklin/unplugin-json',
-    npm: 'unplugin-json',
-  },
   links: {
     github: 'https://github.com/kirklin/unplugin-json',
     npm: 'https://www.npmjs.com/package/unplugin-json',
     website: 'https://github.com/kirklin/unplugin-json#readme',
+  },
+  source: {
+    github: 'kirklin/unplugin-json',
+    npm: 'unplugin-json',
   },
   stats: {
     stars: 0,

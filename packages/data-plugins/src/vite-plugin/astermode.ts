@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'overlay',
     'frontend',
   ],
-  source: {
-    github: 'marcuwynu23/AsterMode',
-    npm: 'astermode',
-  },
   links: {
     github: 'https://github.com/marcuwynu23/AsterMode',
     npm: 'https://www.npmjs.com/package/astermode',
     website: 'https://github.com/marcuwynu23/AsterMode#readme',
+  },
+  source: {
+    github: 'marcuwynu23/AsterMode',
+    npm: 'astermode',
   },
   stats: {
     stars: 2,

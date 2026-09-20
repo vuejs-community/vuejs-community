@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'react',
     'vue',
   ],
-  source: {
-    github: 'justin-netage/netage-seo-client',
-    npm: '@justin-netage/netage-seo-client',
-  },
   links: {
     github: 'https://github.com/justin-netage/netage-seo-client',
     npm: 'https://www.npmjs.com/package/@justin-netage/netage-seo-client',
     website: 'https://github.com/justin-netage/netage-seo-client#readme',
+  },
+  source: {
+    github: 'justin-netage/netage-seo-client',
+    npm: '@justin-netage/netage-seo-client',
   },
   stats: {
     stars: 0,

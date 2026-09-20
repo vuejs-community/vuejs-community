@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'SegaraRai/lingui-for',
-    npm: 'lingui-for-svelte',
-  },
   links: {
     github: 'https://github.com/SegaraRai/lingui-for',
     npm: 'https://www.npmjs.com/package/lingui-for-svelte',
     website: 'https://lingui-for.roundtrip.dev/frameworks/svelte/getting-started',
+  },
+  source: {
+    github: 'SegaraRai/lingui-for',
+    npm: 'lingui-for-svelte',
   },
   stats: {
     stars: 0,

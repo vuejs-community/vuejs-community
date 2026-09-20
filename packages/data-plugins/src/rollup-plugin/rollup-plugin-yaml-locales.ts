@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'yaml',
     'i18n',
   ],
-  source: {
-    github: 'ukhan/rollup-plugin-yaml-locales',
-    npm: 'rollup-plugin-yaml-locales',
-  },
   links: {
     github: 'https://github.com/ukhan/rollup-plugin-yaml-locales',
     npm: 'https://www.npmjs.com/package/rollup-plugin-yaml-locales',
     website: 'https://github.com/ukhan/rollup-plugin-yaml-locales#readme',
+  },
+  source: {
+    github: 'ukhan/rollup-plugin-yaml-locales',
+    npm: 'rollup-plugin-yaml-locales',
   },
   stats: {
     stars: 0,

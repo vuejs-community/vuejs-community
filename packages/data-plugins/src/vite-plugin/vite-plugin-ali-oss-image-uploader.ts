@@ -13,13 +13,13 @@ export default defineProjectMeta({
     'ali-oss',
     'imageUploader',
   ],
-  source: {
-    github: 'fenglizhu/vite-plugin-ali-oss-image-uploader',
-    npm: 'vite-plugin-ali-oss-image-uploader',
-  },
   links: {
     github: 'https://github.com/fenglizhu/vite-plugin-ali-oss-image-uploader',
     npm: 'https://www.npmjs.com/package/vite-plugin-ali-oss-image-uploader',
+  },
+  source: {
+    github: 'fenglizhu/vite-plugin-ali-oss-image-uploader',
+    npm: 'vite-plugin-ali-oss-image-uploader',
   },
   stats: {
     stars: 0,

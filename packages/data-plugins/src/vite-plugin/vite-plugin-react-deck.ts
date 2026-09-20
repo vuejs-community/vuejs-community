@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'react-refresh',
     'fast refresh',
   ],
-  source: {
-    github: 'gpichot/pestacle',
-    npm: 'vite-plugin-react-deck',
-  },
   links: {
     github: 'https://github.com/gpichot/pestacle',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-deck',
     website: 'https://github.com/gpichot/pestacle#readme',
+  },
+  source: {
+    github: 'gpichot/pestacle',
+    npm: 'vite-plugin-react-deck',
   },
   stats: {
     stars: 0,

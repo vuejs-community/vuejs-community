@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'wulinsheng123/auto-monitor',
-    npm: 'auto-monitor',
-  },
   links: {
     github: 'https://github.com/wulinsheng123/auto-monitor',
     npm: 'https://www.npmjs.com/package/auto-monitor',
     website: 'https://github.com/wulinsheng123/auto-monitor#readme',
+  },
+  source: {
+    github: 'wulinsheng123/auto-monitor',
+    npm: 'auto-monitor',
   },
   stats: {
     stars: 1,

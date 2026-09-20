@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'typescript',
     'framework-agnostic',
   ],
-  source: {
-    github: 'eyupomer/image-alt-title-generator',
-    npm: 'image-alt-title-generator',
-  },
   links: {
     github: 'https://github.com/eyupomer/image-alt-title-generator',
     npm: 'https://www.npmjs.com/package/image-alt-title-generator',
     website: 'https://www.image-alt-title-generator.com/',
+  },
+  source: {
+    github: 'eyupomer/image-alt-title-generator',
+    npm: 'image-alt-title-generator',
   },
   stats: {
     stars: 2,

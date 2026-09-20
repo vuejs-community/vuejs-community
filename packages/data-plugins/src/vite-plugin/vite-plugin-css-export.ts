@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-css-export',
   ],
-  source: {
-    github: 'shixuanhong/vite-plugin-css-export',
-    npm: 'vite-plugin-css-export',
-  },
   links: {
     github: 'https://github.com/shixuanhong/vite-plugin-css-export',
     npm: 'https://www.npmjs.com/package/vite-plugin-css-export',
     website: 'https://github.com/shixuanhong/vite-plugin-css-export#readme',
+  },
+  source: {
+    github: 'shixuanhong/vite-plugin-css-export',
+    npm: 'vite-plugin-css-export',
   },
   stats: {
     stars: 29,

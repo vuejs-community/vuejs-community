@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'rollup',
     'on-demand',
   ],
-  source: {
-    github: 'Oasis20090828/unplugin-react-auto-components',
-    npm: 'unplugin-react-auto-components',
-  },
   links: {
     github: 'https://github.com/Oasis20090828/unplugin-react-auto-components',
     npm: 'https://www.npmjs.com/package/unplugin-react-auto-components',
     website: 'https://github.com/Oasis20090828/unplugin-react-auto-components#readme',
+  },
+  source: {
+    github: 'Oasis20090828/unplugin-react-auto-components',
+    npm: 'unplugin-react-auto-components',
   },
   stats: {
     stars: 1,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'hmr',
     'rollup-plugin',
   ],
-  source: {
-    github: 'zhangrunzhao/rollup-plugin-chrome-extensions-hmr',
-    npm: 'rollup-plugin-chrome-extensions-hmr',
-  },
   links: {
     github: 'https://github.com/zhangrunzhao/rollup-plugin-chrome-extensions-hmr',
     npm: 'https://www.npmjs.com/package/rollup-plugin-chrome-extensions-hmr',
     website: 'https://github.com/zhangrunzhao/rollup-plugin-chrome-extensions-hmr#readme',
+  },
+  source: {
+    github: 'zhangrunzhao/rollup-plugin-chrome-extensions-hmr',
+    npm: 'rollup-plugin-chrome-extensions-hmr',
   },
   stats: {
     stars: 2,

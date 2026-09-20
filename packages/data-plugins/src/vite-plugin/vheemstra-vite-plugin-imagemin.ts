@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'webp',
     'avif',
   ],
-  source: {
-    github: 'vheemstra/vite-plugin-imagemin',
-    npm: '@vheemstra/vite-plugin-imagemin',
-  },
   links: {
     github: 'https://github.com/vheemstra/vite-plugin-imagemin',
     npm: 'https://www.npmjs.com/package/@vheemstra/vite-plugin-imagemin',
     website: 'https://github.com/vheemstra/vite-plugin-imagemin#readme',
+  },
+  source: {
+    github: 'vheemstra/vite-plugin-imagemin',
+    npm: '@vheemstra/vite-plugin-imagemin',
   },
   stats: {
     stars: 37,

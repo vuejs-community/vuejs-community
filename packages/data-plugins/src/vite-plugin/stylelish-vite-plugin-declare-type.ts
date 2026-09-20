@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'typescript',
     'declaration',
   ],
-  source: {
-    github: 'StyleList94/plugin-baby',
-    npm: '@stylelish/vite-plugin-declare-type',
-  },
   links: {
     github: 'https://github.com/StyleList94/plugin-baby',
     npm: 'https://www.npmjs.com/package/@stylelish/vite-plugin-declare-type',
     website: 'https://github.com/StyleList94/plugin-baby/tree/main/packages/vite-plugin-declare-type#readme',
+  },
+  source: {
+    github: 'StyleList94/plugin-baby',
+    npm: '@stylelish/vite-plugin-declare-type',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'go-brand/openstory',
-    npm: '@gobrand/openstory-vite',
-  },
   links: {
     github: 'https://github.com/go-brand/openstory',
     npm: 'https://www.npmjs.com/package/@gobrand/openstory-vite',
     website: 'https://github.com/go-brand/openstory#readme',
+  },
+  source: {
+    github: 'go-brand/openstory',
+    npm: '@gobrand/openstory-vite',
   },
   stats: {
     stars: 0,

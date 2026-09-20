@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'nuxt',
   ],
-  source: {
-    github: 'elonehoo/unplugin-vue-prop',
-    npm: 'unplugin-vue-prop',
-  },
   links: {
     github: 'https://github.com/elonehoo/unplugin-vue-prop',
     npm: 'https://www.npmjs.com/package/unplugin-vue-prop',
     website: 'https://github.com/elonehoo/unplugin-vue-prop#readme',
+  },
+  source: {
+    github: 'elonehoo/unplugin-vue-prop',
+    npm: 'unplugin-vue-prop',
   },
   stats: {
     stars: 2,

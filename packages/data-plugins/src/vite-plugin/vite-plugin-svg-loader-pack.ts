@@ -21,12 +21,12 @@ export default defineProjectMeta({
     'bundler',
     'compressing',
   ],
-  source: {
-    npm: 'vite-plugin-svg-loader-pack',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-loader-pack',
     website: 'https://github.com/7th-Cyborg/vite-plugin-zip-pack#readme',
+  },
+  source: {
+    npm: 'vite-plugin-svg-loader-pack',
   },
   stats: {
     stars: 0,

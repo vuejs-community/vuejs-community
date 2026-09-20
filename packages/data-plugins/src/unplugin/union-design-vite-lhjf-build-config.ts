@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    npm: '@union-design/vite-lhjf-build-config',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@union-design/vite-lhjf-build-config',
+  },
+  source: {
+    npm: '@union-design/vite-lhjf-build-config',
   },
   stats: {
     stars: 0,

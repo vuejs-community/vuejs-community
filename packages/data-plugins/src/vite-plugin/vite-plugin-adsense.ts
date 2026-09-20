@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'adsense',
     'advertisement',
   ],
-  source: {
-    github: 'guoyunhe/vite-plugin-adsense',
-    npm: 'vite-plugin-adsense',
-  },
   links: {
     github: 'https://github.com/guoyunhe/vite-plugin-adsense',
     npm: 'https://www.npmjs.com/package/vite-plugin-adsense',
     website: 'https://github.com/guoyunhe/vite-plugin-adsense#readme',
+  },
+  source: {
+    github: 'guoyunhe/vite-plugin-adsense',
+    npm: 'vite-plugin-adsense',
   },
   stats: {
     stars: 4,

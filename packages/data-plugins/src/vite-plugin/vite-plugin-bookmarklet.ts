@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'bookmarklet',
   ],
-  source: {
-    github: 'idleberg/vite-plugin-bookmarklet',
-    npm: 'vite-plugin-bookmarklet',
-  },
   links: {
     github: 'https://github.com/idleberg/vite-plugin-bookmarklet',
     npm: 'https://www.npmjs.com/package/vite-plugin-bookmarklet',
     website: 'https://github.com/idleberg/vite-plugin-bookmarklet#readme',
+  },
+  source: {
+    github: 'idleberg/vite-plugin-bookmarklet',
+    npm: 'vite-plugin-bookmarklet',
   },
   stats: {
     stars: 1,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'auto-import',
     'transform',
   ],
-  source: {
-    github: 'unplugin/unplugin-auto-import',
-    npm: '@ryancui-/unplugin-auto-import',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-auto-import',
     npm: 'https://www.npmjs.com/package/@ryancui-/unplugin-auto-import',
     website: 'https://github.com/unplugin/unplugin-auto-import#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-auto-import',
+    npm: '@ryancui-/unplugin-auto-import',
   },
   stats: {
     stars: 0,

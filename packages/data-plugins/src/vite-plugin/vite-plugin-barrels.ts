@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'barrel',
   ],
-  source: {
-    github: 'BlueFrog130/vite-plugin-barrels',
-    npm: 'vite-plugin-barrels',
-  },
   links: {
     github: 'https://github.com/BlueFrog130/vite-plugin-barrels',
     npm: 'https://www.npmjs.com/package/vite-plugin-barrels',
     website: 'https://github.com/BlueFrog130/vite-plugin-barrels#readme',
+  },
+  source: {
+    github: 'BlueFrog130/vite-plugin-barrels',
+    npm: 'vite-plugin-barrels',
   },
   stats: {
     stars: 2,

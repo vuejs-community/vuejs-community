@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'ant-design-vue',
     'moment',
   ],
-  source: {
-    github: 'carl-jin/vite-plugin-antdv1-momentjs-resolver',
-    npm: 'vite-plugin-antdv1-momentjs-resolver-zmh',
-  },
   links: {
     github: 'https://github.com/carl-jin/vite-plugin-antdv1-momentjs-resolver',
     npm: 'https://www.npmjs.com/package/vite-plugin-antdv1-momentjs-resolver-zmh',
     website: 'https://github.com/carl-jin/vite-plugin-antdv1-momentjs-resolver/tree/main/#readme',
+  },
+  source: {
+    github: 'carl-jin/vite-plugin-antdv1-momentjs-resolver',
+    npm: 'vite-plugin-antdv1-momentjs-resolver-zmh',
   },
   stats: {
     stars: 9,

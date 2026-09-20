@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    npm: '@pocka/rollup-plugin-gleam',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@pocka/rollup-plugin-gleam',
+  },
+  source: {
+    npm: '@pocka/rollup-plugin-gleam',
   },
   stats: {
     stars: 0,

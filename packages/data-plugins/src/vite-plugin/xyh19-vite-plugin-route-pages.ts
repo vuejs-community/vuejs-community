@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'vite-plugin',
     'plugin',
   ],
-  source: {
-    npm: '@xyh19/vite-plugin-route-pages',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xyh19/vite-plugin-route-pages',
     website: 'https://gitee.com/xxXyh1908/vite-plugin-route-pages/#readme',
+  },
+  source: {
+    npm: '@xyh19/vite-plugin-route-pages',
   },
   stats: {
     stars: 0,

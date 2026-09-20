@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'html',
     'vite-plugin',
   ],
-  source: {
-    github: 'yzydeveloper/vite-plugin-multiple-page',
-    npm: 'vite-plugin-multiple-page',
-  },
   links: {
     github: 'https://github.com/yzydeveloper/vite-plugin-multiple-page',
     npm: 'https://www.npmjs.com/package/vite-plugin-multiple-page',
     website: 'https://github.com/yzydeveloper/vite-plugin-multiple-page',
+  },
+  source: {
+    github: 'yzydeveloper/vite-plugin-multiple-page',
+    npm: 'vite-plugin-multiple-page',
   },
   stats: {
     stars: 88,

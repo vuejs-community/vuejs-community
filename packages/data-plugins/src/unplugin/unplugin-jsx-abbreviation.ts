@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'yjrhgvbn/unplugin-jsx-abbreviation',
-    npm: 'unplugin-jsx-abbreviation',
-  },
   links: {
     github: 'https://github.com/yjrhgvbn/unplugin-jsx-abbreviation',
     npm: 'https://www.npmjs.com/package/unplugin-jsx-abbreviation',
     website: 'https://github.com/yjrhgvbn/unplugin-jsx-abbreviation#readme',
+  },
+  source: {
+    github: 'yjrhgvbn/unplugin-jsx-abbreviation',
+    npm: 'unplugin-jsx-abbreviation',
   },
   stats: {
     stars: 0,

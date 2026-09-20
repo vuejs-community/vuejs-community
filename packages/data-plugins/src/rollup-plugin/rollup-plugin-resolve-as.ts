@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'resolve',
   ],
-  source: {
-    github: 'wmzy/rollup-plugin-resolve-as',
-    npm: 'rollup-plugin-resolve-as',
-  },
   links: {
     github: 'https://github.com/wmzy/rollup-plugin-resolve-as',
     npm: 'https://www.npmjs.com/package/rollup-plugin-resolve-as',
     website: 'https://github.com/wmzy/rollup-plugin-resolve-as',
+  },
+  source: {
+    github: 'wmzy/rollup-plugin-resolve-as',
+    npm: 'rollup-plugin-resolve-as',
   },
   stats: {
     stars: 1,

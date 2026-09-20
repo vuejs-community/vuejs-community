@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'markdown',
   ],
-  source: {
-    github: 'mackxu/vite-plugin-vue-markdown',
-    npm: 'vite-plugin-vue-markdown-vue',
-  },
   links: {
     github: 'https://github.com/mackxu/vite-plugin-vue-markdown',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-markdown-vue',
     website: 'https://github.com/mackxu/vite-plugin-vue-markdown#readme',
+  },
+  source: {
+    github: 'mackxu/vite-plugin-vue-markdown',
+    npm: 'vite-plugin-vue-markdown-vue',
   },
   stats: {
     stars: 0,

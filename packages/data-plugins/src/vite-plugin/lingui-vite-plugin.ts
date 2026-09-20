@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'translation',
     'icu-messageformat',
   ],
-  source: {
-    github: 'lingui/js-lingui',
-    npm: '@lingui/vite-plugin',
-  },
   links: {
     github: 'https://github.com/lingui/js-lingui',
     npm: 'https://www.npmjs.com/package/@lingui/vite-plugin',
     website: 'https://lingui.dev',
+  },
+  source: {
+    github: 'lingui/js-lingui',
+    npm: '@lingui/vite-plugin',
   },
   stats: {
     stars: 5876,

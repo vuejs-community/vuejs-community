@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-build-types',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-build-types',
+  },
+  source: {
+    npm: 'vite-plugin-build-types',
   },
   stats: {
     stars: 0,

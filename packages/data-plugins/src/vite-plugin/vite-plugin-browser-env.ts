@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'env',
     'browser',
   ],
-  source: {
-    github: 'charleslo1/vite-plugin-browser-env',
-    npm: 'vite-plugin-browser-env',
-  },
   links: {
     github: 'https://github.com/charleslo1/vite-plugin-browser-env',
     npm: 'https://www.npmjs.com/package/vite-plugin-browser-env',
     website: 'https://github.com/charleslo1/vite-plugin-browser-env#readme',
+  },
+  source: {
+    github: 'charleslo1/vite-plugin-browser-env',
+    npm: 'vite-plugin-browser-env',
   },
   stats: {
     stars: 2,

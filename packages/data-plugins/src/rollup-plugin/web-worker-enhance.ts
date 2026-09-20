@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'Vite-plugin',
   ],
-  source: {
-    github: 'Mr-Fubowen/web-worker-plus',
-    npm: 'web-worker-enhance',
-  },
   links: {
     github: 'https://github.com/Mr-Fubowen/web-worker-plus',
     npm: 'https://www.npmjs.com/package/web-worker-enhance',
     website: 'https://github.com/Mr-Fubowen/web-worker-plus#readme',
+  },
+  source: {
+    github: 'Mr-Fubowen/web-worker-plus',
+    npm: 'web-worker-enhance',
   },
   stats: {
     stars: 0,

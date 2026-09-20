@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'javascript-obfuscator',
     'security',
   ],
-  source: {
-    github: 'Novsochetra/vite-plugin-js-obfuscator',
-    npm: '@sochetra-nov/vite-plugin-js-obfuscator',
-  },
   links: {
     github: 'https://github.com/Novsochetra/vite-plugin-js-obfuscator',
     npm: 'https://www.npmjs.com/package/@sochetra-nov/vite-plugin-js-obfuscator',
     website: 'https://github.com/Novsochetra/vite-plugin-js-obfuscator#readme',
+  },
+  source: {
+    github: 'Novsochetra/vite-plugin-js-obfuscator',
+    npm: '@sochetra-nov/vite-plugin-js-obfuscator',
   },
   stats: {
     stars: 1,

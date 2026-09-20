@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitest',
   ],
-  source: {
-    github: 'y7ya-com/jsx-svelte',
-    npm: 'jsx-svelte',
-  },
   links: {
     github: 'https://github.com/y7ya-com/jsx-svelte',
     npm: 'https://www.npmjs.com/package/jsx-svelte',
     website: 'https://github.com/y7ya-com/jsx-svelte#readme',
+  },
+  source: {
+    github: 'y7ya-com/jsx-svelte',
+    npm: 'jsx-svelte',
   },
   stats: {
     stars: 0,

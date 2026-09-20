@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'mcp',
     'modelcontextprotocol',
   ],
-  source: {
-    github: 'antfu/nuxt-mcp-dev',
-    npm: 'vite-plugin-mcp',
-  },
   links: {
     github: 'https://github.com/antfu/nuxt-mcp-dev',
     npm: 'https://www.npmjs.com/package/vite-plugin-mcp',
     website: 'https://github.com/antfu/nuxt-mcp-dev/tree/main/packages/vite-plugin-mcp',
+  },
+  source: {
+    github: 'antfu/nuxt-mcp-dev',
+    npm: 'vite-plugin-mcp',
   },
   stats: {
     stars: 910,

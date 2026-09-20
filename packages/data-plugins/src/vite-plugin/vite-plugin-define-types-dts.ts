@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dts',
     'typescript',
   ],
-  source: {
-    github: 'BINGWU2003/vite-plugin-define-types-dts',
-    npm: 'vite-plugin-define-types-dts',
-  },
   links: {
     github: 'https://github.com/BINGWU2003/vite-plugin-define-types-dts',
     npm: 'https://www.npmjs.com/package/vite-plugin-define-types-dts',
     website: 'https://github.com/BINGWU2003/vite-plugin-define-types-dts#readme',
+  },
+  source: {
+    github: 'BINGWU2003/vite-plugin-define-types-dts',
+    npm: 'vite-plugin-define-types-dts',
   },
   stats: {
     stars: 0,

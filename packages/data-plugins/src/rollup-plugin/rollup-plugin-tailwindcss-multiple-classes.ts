@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    npm: 'rollup-plugin-tailwindcss-multiple-classes',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-tailwindcss-multiple-classes',
+  },
+  source: {
+    npm: 'rollup-plugin-tailwindcss-multiple-classes',
   },
   stats: {
     stars: 0,

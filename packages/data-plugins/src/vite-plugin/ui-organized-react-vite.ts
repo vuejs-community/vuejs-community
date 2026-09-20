@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'theme',
   ],
-  source: {
-    github: 'arossi58/ui-organized',
-    npm: '@ui-organized/react-vite',
-  },
   links: {
     github: 'https://github.com/arossi58/ui-organized',
     npm: 'https://www.npmjs.com/package/@ui-organized/react-vite',
     website: 'https://github.com/arossi58/ui-organized/tree/main/packages/react-vite#readme',
+  },
+  source: {
+    github: 'arossi58/ui-organized',
+    npm: '@ui-organized/react-vite',
   },
   stats: {
     stars: 0,

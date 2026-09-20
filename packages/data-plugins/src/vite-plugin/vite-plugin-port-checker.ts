@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'restricted-port',
     'browser-blocked-port',
   ],
-  source: {
-    npm: 'vite-plugin-port-checker',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-port-checker',
     website: 'https://git.onixbyte.com/onixbyte/vite-plugin-port-checker#readme',
+  },
+  source: {
+    npm: 'vite-plugin-port-checker',
   },
   stats: {
     stars: 0,

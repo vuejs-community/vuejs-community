@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'babel',
     'error-handling',
   ],
-  source: {
-    github: 'angelozdev/rustify-ts',
-    npm: 'unplugin-rustify',
-  },
   links: {
     github: 'https://github.com/angelozdev/rustify-ts',
     npm: 'https://www.npmjs.com/package/unplugin-rustify',
     website: 'https://github.com/angelozdev/rustify-ts/tree/main/packages/unplugin-rustify#readme',
+  },
+  source: {
+    github: 'angelozdev/rustify-ts',
+    npm: 'unplugin-rustify',
   },
   stats: {
     stars: 1,

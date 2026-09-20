@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'peggy',
     'unplugin',
   ],
-  source: {
-    github: 'yfwz100/unplugin-peggy',
-    npm: 'unplugin-peggy',
-  },
   links: {
     github: 'https://github.com/yfwz100/unplugin-peggy',
     npm: 'https://www.npmjs.com/package/unplugin-peggy',
     website: 'https://github.com/yfwz100/unplugin-peggy',
+  },
+  source: {
+    github: 'yfwz100/unplugin-peggy',
+    npm: 'unplugin-peggy',
   },
   stats: {
     stars: 0,

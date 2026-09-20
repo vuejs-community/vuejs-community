@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'plugin',
     'rollup-plugin',
   ],
-  source: {
-    github: 'sly-x86/rollup-plugin-encoding',
-    npm: 'rollup-plugin-encoding',
-  },
   links: {
     github: 'https://github.com/sly-x86/rollup-plugin-encoding',
     npm: 'https://www.npmjs.com/package/rollup-plugin-encoding',
     website: 'https://github.com/sly-x86/rollup-plugin-encoding#readme',
+  },
+  source: {
+    github: 'sly-x86/rollup-plugin-encoding',
+    npm: 'rollup-plugin-encoding',
   },
   stats: {
     stars: 0,

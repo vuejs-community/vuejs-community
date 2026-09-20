@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'ziggy',
     'javascript',
   ],
-  source: {
-    npm: 'vite-plugin-ziggy-sync',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-ziggy-sync',
+  },
+  source: {
+    npm: 'vite-plugin-ziggy-sync',
   },
   stats: {
     stars: 0,

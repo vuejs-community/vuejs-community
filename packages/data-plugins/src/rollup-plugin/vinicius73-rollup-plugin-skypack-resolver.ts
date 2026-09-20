@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'pika-cdn',
     'cdn',
   ],
-  source: {
-    github: 'vinicius73/rollup-plugin-pika-resolver',
-    npm: '@vinicius73/rollup-plugin-skypack-resolver',
-  },
   links: {
     github: 'https://github.com/vinicius73/rollup-plugin-pika-resolver',
     npm: 'https://www.npmjs.com/package/@vinicius73/rollup-plugin-skypack-resolver',
     website: 'https://github.com/vinicius73/rollup-plugin-pika-resolver#readme',
+  },
+  source: {
+    github: 'vinicius73/rollup-plugin-pika-resolver',
+    npm: '@vinicius73/rollup-plugin-skypack-resolver',
   },
   stats: {
     stars: 19,

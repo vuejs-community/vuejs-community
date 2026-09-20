@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-html-vue-ssr',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-html-vue-ssr',
+  },
+  source: {
+    npm: 'vite-plugin-html-vue-ssr',
   },
   stats: {
     stars: 0,

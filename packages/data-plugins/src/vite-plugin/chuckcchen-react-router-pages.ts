@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'edgeone',
     'adapter',
   ],
-  source: {
-    npm: '@chuckcchen/react-router-pages',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@chuckcchen/react-router-pages',
+  },
+  source: {
+    npm: '@chuckcchen/react-router-pages',
   },
   stats: {
     stars: 0,

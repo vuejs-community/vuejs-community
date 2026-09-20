@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'nginx',
     'vite-plugin',
   ],
-  source: {
-    github: 'abhiaagarwal/vite-plugin-envsubst',
-    npm: 'vite-plugin-envsubst',
-  },
   links: {
     github: 'https://github.com/abhiaagarwal/vite-plugin-envsubst',
     npm: 'https://www.npmjs.com/package/vite-plugin-envsubst',
     website: 'https://github.com/abhiaagarwal/vite-plugin-envsubst',
+  },
+  source: {
+    github: 'abhiaagarwal/vite-plugin-envsubst',
+    npm: 'vite-plugin-envsubst',
   },
   stats: {
     stars: 2,

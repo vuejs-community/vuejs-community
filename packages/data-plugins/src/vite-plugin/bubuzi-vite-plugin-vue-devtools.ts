@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin-vue-devtools',
     'dx',
   ],
-  source: {
-    github: 'ybubuzi/vue-devtools-ai',
-    npm: '@bubuzi/vite-plugin-vue-devtools',
-  },
   links: {
     github: 'https://github.com/ybubuzi/vue-devtools-ai',
     npm: 'https://www.npmjs.com/package/@bubuzi/vite-plugin-vue-devtools',
     website: 'https://github.com/ybubuzi/vue-devtools-ai#readme',
+  },
+  source: {
+    github: 'ybubuzi/vue-devtools-ai',
+    npm: '@bubuzi/vite-plugin-vue-devtools',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'uglify-es',
     'minify',
   ],
-  source: {
-    github: 'ezekielchentnik/rollup-plugin-uglify-es',
-    npm: 'rollup-plugin-uglify-es',
-  },
   links: {
     github: 'https://github.com/ezekielchentnik/rollup-plugin-uglify-es',
     npm: 'https://www.npmjs.com/package/rollup-plugin-uglify-es',
     website: 'https://github.com/ezekielchentnik/rollup-plugin-uglify-es#readme',
+  },
+  source: {
+    github: 'ezekielchentnik/rollup-plugin-uglify-es',
+    npm: 'rollup-plugin-uglify-es',
   },
   stats: {
     stars: 14,

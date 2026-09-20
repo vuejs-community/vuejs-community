@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'incremental-dom',
     'idom',
   ],
-  source: {
-    github: 'ahumphreys87/rollup-plugin-hbsidom',
-    npm: 'rollup-plugin-hbsidom',
-  },
   links: {
     github: 'https://github.com/ahumphreys87/rollup-plugin-hbsidom',
     npm: 'https://www.npmjs.com/package/rollup-plugin-hbsidom',
     website: 'https://github.com/ahumphreys87/rollup-plugin-hbsidom#readme',
+  },
+  source: {
+    github: 'ahumphreys87/rollup-plugin-hbsidom',
+    npm: 'rollup-plugin-hbsidom',
   },
   stats: {
     stars: 0,

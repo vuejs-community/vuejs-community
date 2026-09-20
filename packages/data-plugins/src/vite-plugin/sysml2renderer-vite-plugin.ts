@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vitepress',
     'diagram',
   ],
-  source: {
-    github: 'enthali/sysml2renderer',
-    npm: '@sysml2renderer/vite-plugin',
-  },
   links: {
     github: 'https://github.com/enthali/sysml2renderer',
     npm: 'https://www.npmjs.com/package/@sysml2renderer/vite-plugin',
     website: 'https://github.com/enthali/sysml2renderer#readme',
+  },
+  source: {
+    github: 'enthali/sysml2renderer',
+    npm: '@sysml2renderer/vite-plugin',
   },
   stats: {
     stars: 0,

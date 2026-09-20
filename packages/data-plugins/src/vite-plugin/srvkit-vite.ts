@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'js',
     'javascript',
   ],
-  source: {
-    github: 'srvkit/srvkit',
-    npm: '@srvkit/vite',
-  },
   links: {
     github: 'https://github.com/srvkit/srvkit',
     npm: 'https://www.npmjs.com/package/@srvkit/vite',
     website: 'https://github.com/srvkit/srvkit',
+  },
+  source: {
+    github: 'srvkit/srvkit',
+    npm: '@srvkit/vite',
   },
   stats: {
     stars: 0,

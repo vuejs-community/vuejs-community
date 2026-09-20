@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'hmr',
     'manifest-v3',
   ],
-  source: {
-    npm: 'vite-plugin-chrome-extension-reload',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-chrome-extension-reload',
+  },
+  source: {
+    npm: 'vite-plugin-chrome-extension-reload',
   },
   stats: {
     stars: 0,

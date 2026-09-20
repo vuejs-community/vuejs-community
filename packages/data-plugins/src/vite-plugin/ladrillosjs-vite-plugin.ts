@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'csp',
     'unsafe-eval',
   ],
-  source: {
-    github: 'drubiodev/LadrillosJS',
-    npm: '@ladrillosjs/vite-plugin',
-  },
   links: {
     github: 'https://github.com/drubiodev/LadrillosJS',
     npm: 'https://www.npmjs.com/package/@ladrillosjs/vite-plugin',
     website: 'https://github.com/drubiodev/LadrillosJS#readme',
+  },
+  source: {
+    github: 'drubiodev/LadrillosJS',
+    npm: '@ladrillosjs/vite-plugin',
   },
   stats: {
     stars: 17,

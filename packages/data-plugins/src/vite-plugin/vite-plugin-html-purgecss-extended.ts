@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'purgecss',
   ],
-  source: {
-    github: 'neonpictures/vite-plugin-html-purgecss',
-    npm: 'vite-plugin-html-purgecss-extended',
-  },
   links: {
     github: 'https://github.com/neonpictures/vite-plugin-html-purgecss',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-purgecss-extended',
     website: 'https://github.com/neonpictures/vite-plugin-html-purgecss#readme',
+  },
+  source: {
+    github: 'neonpictures/vite-plugin-html-purgecss',
+    npm: 'vite-plugin-html-purgecss-extended',
   },
   stats: {
     stars: 0,

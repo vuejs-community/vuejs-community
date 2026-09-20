@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'svelte',
     'shiki',
   ],
-  source: {
-    github: 'valterkraemer/rollup-plugin-syntax-highlight',
-    npm: 'rollup-plugin-syntax-highlight-svelte',
-  },
   links: {
     github: 'https://github.com/valterkraemer/rollup-plugin-syntax-highlight',
     npm: 'https://www.npmjs.com/package/rollup-plugin-syntax-highlight-svelte',
     website: 'https://github.com/valterkraemer/rollup-plugin-syntax-highlight#readme',
+  },
+  source: {
+    github: 'valterkraemer/rollup-plugin-syntax-highlight',
+    npm: 'rollup-plugin-syntax-highlight-svelte',
   },
   stats: {
     stars: 1,

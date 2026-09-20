@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'erikvullings/mithril-inspector',
-    npm: '@mithril-inspector/vite',
-  },
   links: {
     github: 'https://github.com/erikvullings/mithril-inspector',
     npm: 'https://www.npmjs.com/package/@mithril-inspector/vite',
     website: 'https://github.com/erikvullings/mithril-inspector#readme',
+  },
+  source: {
+    github: 'erikvullings/mithril-inspector',
+    npm: '@mithril-inspector/vite',
   },
   stats: {
     stars: 0,

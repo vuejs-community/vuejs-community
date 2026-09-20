@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup.js',
     'rollup-plugin',
   ],
-  source: {
-    github: 'lightster/rollup-plugin-stimulus',
-    npm: 'rollup-plugin-stimulus',
-  },
   links: {
     github: 'https://github.com/lightster/rollup-plugin-stimulus',
     npm: 'https://www.npmjs.com/package/rollup-plugin-stimulus',
     website: 'https://github.com/lightster/rollup-plugin-stimulus#readme',
+  },
+  source: {
+    github: 'lightster/rollup-plugin-stimulus',
+    npm: 'rollup-plugin-stimulus',
   },
   stats: {
     stars: 6,

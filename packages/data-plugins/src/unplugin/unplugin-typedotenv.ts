@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'webpack',
     'vite',
   ],
-  source: {
-    github: 'ssssota/typedotenv',
-    npm: 'unplugin-typedotenv',
-  },
   links: {
     github: 'https://github.com/ssssota/typedotenv',
     npm: 'https://www.npmjs.com/package/unplugin-typedotenv',
     website: 'https://github.com/ssssota/typedotenv#readme',
+  },
+  source: {
+    github: 'ssssota/typedotenv',
+    npm: 'unplugin-typedotenv',
   },
   stats: {
     stars: 14,

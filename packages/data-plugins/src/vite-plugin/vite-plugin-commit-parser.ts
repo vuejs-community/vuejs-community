@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'commit',
   ],
-  source: {
-    npm: 'vite-plugin-commit-parser',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-commit-parser',
+  },
+  source: {
+    npm: 'vite-plugin-commit-parser',
   },
   stats: {
     stars: 0,

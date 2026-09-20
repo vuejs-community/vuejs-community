@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'types',
     'preview',
   ],
-  source: {
-    npm: 'vite-plugin-svg-icon-types',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-icon-types',
+  },
+  source: {
+    npm: 'vite-plugin-svg-icon-types',
   },
   stats: {
     stars: 0,

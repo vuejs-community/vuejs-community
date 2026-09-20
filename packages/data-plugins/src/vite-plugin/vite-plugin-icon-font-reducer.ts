@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'subset',
     'fontawesome',
   ],
-  source: {
-    github: 'ArielLeyva/icon-font-reducer-vite-plugin',
-    npm: 'vite-plugin-icon-font-reducer',
-  },
   links: {
     github: 'https://github.com/ArielLeyva/icon-font-reducer-vite-plugin',
     npm: 'https://www.npmjs.com/package/vite-plugin-icon-font-reducer',
     website: 'https://github.com/ArielLeyva/icon-font-reducer-vite-plugin#readme',
+  },
+  source: {
+    github: 'ArielLeyva/icon-font-reducer-vite-plugin',
+    npm: 'vite-plugin-icon-font-reducer',
   },
   stats: {
     stars: 1,

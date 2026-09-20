@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'cdn',
     'upload',
   ],
-  source: {
-    npm: '@dd-code/cdn-upgrading-plugins',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@dd-code/cdn-upgrading-plugins',
+  },
+  source: {
+    npm: '@dd-code/cdn-upgrading-plugins',
   },
   stats: {
     stars: 0,

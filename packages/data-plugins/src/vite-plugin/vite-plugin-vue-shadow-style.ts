@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'unplugin',
   ],
-  source: {
-    github: 'kainstar/vite-plugin-vue-shadow-style',
-    npm: 'vite-plugin-vue-shadow-style',
-  },
   links: {
     github: 'https://github.com/kainstar/vite-plugin-vue-shadow-style',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-shadow-style',
     website: 'https://github.com/kainstar/vite-plugin-vue-shadow-style#readme',
+  },
+  source: {
+    github: 'kainstar/vite-plugin-vue-shadow-style',
+    npm: 'vite-plugin-vue-shadow-style',
   },
   stats: {
     stars: 1,

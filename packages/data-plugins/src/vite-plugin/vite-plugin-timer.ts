@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin-timer',
   ],
-  source: {
-    npm: 'vite-plugin-timer',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-timer',
     website: 'https://github.com/dearDreamWeb/vite-plugin-timer',
+  },
+  source: {
+    npm: 'vite-plugin-timer',
   },
   stats: {
     stars: 0,

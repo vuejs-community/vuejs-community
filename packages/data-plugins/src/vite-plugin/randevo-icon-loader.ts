@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'vue',
     'svg',
   ],
-  source: {
-    npm: '@randevo/icon-loader',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@randevo/icon-loader',
+  },
+  source: {
+    npm: '@randevo/icon-loader',
   },
   stats: {
     stars: 0,

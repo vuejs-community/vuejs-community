@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'external',
     'ie11',
   ],
-  source: {
-    npm: '@hhfenpm/miu-tooling',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@hhfenpm/miu-tooling',
+  },
+  source: {
+    npm: '@hhfenpm/miu-tooling',
   },
   stats: {
     stars: 0,

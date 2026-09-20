@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'seo',
     'ai',
   ],
-  source: {
-    npm: 'qwik-llms-txt',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/qwik-llms-txt',
+  },
+  source: {
+    npm: 'qwik-llms-txt',
   },
   stats: {
     stars: 0,

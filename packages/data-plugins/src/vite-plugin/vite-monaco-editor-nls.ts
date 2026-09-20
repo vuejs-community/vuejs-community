@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vue',
     'react',
   ],
-  source: {
-    github: 'yourusername/vite-monaco-editor-nls',
-    npm: 'vite-monaco-editor-nls',
-  },
   links: {
     github: 'https://github.com/yourusername/vite-monaco-editor-nls',
     npm: 'https://www.npmjs.com/package/vite-monaco-editor-nls',
     website: 'https://github.com/yourusername/vite-monaco-editor-nls#readme',
+  },
+  source: {
+    github: 'yourusername/vite-monaco-editor-nls',
+    npm: 'vite-monaco-editor-nls',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'chuanyun',
     'tunnel',
   ],
-  source: {
-    github: 'xsxs89757/chuanyun',
-    npm: 'vite-plugin-chuanyun',
-  },
   links: {
     github: 'https://github.com/xsxs89757/chuanyun',
     npm: 'https://www.npmjs.com/package/vite-plugin-chuanyun',
     website: 'https://github.com/xsxs89757/chuanyun/tree/main/integrations/vite-plugin-chuanyun',
+  },
+  source: {
+    github: 'xsxs89757/chuanyun',
+    npm: 'vite-plugin-chuanyun',
   },
   stats: {
     stars: 1,

@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'babel',
     'unplugin',
   ],
-  source: {
-    github: 'fahadtanim/loggerect',
-    npm: 'loggerect',
-  },
   links: {
     github: 'https://github.com/fahadtanim/loggerect',
     npm: 'https://www.npmjs.com/package/loggerect',
     website: 'https://fahadtanim.github.io/loggerect',
+  },
+  source: {
+    github: 'fahadtanim/loggerect',
+    npm: 'loggerect',
   },
   stats: {
     stars: 1,

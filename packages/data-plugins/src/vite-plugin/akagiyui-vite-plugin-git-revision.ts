@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'commit',
     'build-info',
   ],
-  source: {
-    github: 'AkagiYui/vite-plugin-git-revision',
-    npm: '@akagiyui/vite-plugin-git-revision',
-  },
   links: {
     github: 'https://github.com/AkagiYui/vite-plugin-git-revision',
     npm: 'https://www.npmjs.com/package/@akagiyui/vite-plugin-git-revision',
     website: 'https://github.com/AkagiYui/vite-plugin-git-revision',
+  },
+  source: {
+    github: 'AkagiYui/vite-plugin-git-revision',
+    npm: '@akagiyui/vite-plugin-git-revision',
   },
   stats: {
     stars: 0,

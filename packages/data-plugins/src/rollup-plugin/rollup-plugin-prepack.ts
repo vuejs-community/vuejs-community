@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'plugin',
     'rollup',
   ],
-  source: {
-    github: 'tunnckoCore/rollup-plugin-prepack',
-    npm: 'rollup-plugin-prepack',
-  },
   links: {
     github: 'https://github.com/tunnckoCore/rollup-plugin-prepack',
     npm: 'https://www.npmjs.com/package/rollup-plugin-prepack',
     website: 'https://github.com/tunnckoCore/rollup-plugin-prepack#readme',
+  },
+  source: {
+    github: 'tunnckoCore/rollup-plugin-prepack',
+    npm: 'rollup-plugin-prepack',
   },
   stats: {
     stars: 33,

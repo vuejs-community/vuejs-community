@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'application',
     'vite-plugin',
   ],
-  source: {
-    github: 'vclemenzi/vite-plugin-multip',
-    npm: 'vite-plugin-multip',
-  },
   links: {
     github: 'https://github.com/vclemenzi/vite-plugin-multip',
     npm: 'https://www.npmjs.com/package/vite-plugin-multip',
     website: 'https://github.com/vclemenzi/vite-plugin-multip#readme',
+  },
+  source: {
+    github: 'vclemenzi/vite-plugin-multip',
+    npm: 'vite-plugin-multip',
   },
   stats: {
     stars: 10,

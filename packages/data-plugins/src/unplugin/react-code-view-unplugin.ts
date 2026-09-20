@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'code-view',
     'loader',
   ],
-  source: {
-    github: 'simonguo/react-code-view',
-    npm: '@react-code-view/unplugin',
-  },
   links: {
     github: 'https://github.com/simonguo/react-code-view',
     npm: 'https://www.npmjs.com/package/@react-code-view/unplugin',
     website: 'https://github.com/simonguo/react-code-view#readme',
+  },
+  source: {
+    github: 'simonguo/react-code-view',
+    npm: '@react-code-view/unplugin',
   },
   stats: {
     stars: 199,

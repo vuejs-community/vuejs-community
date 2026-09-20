@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'component',
     'tagger',
   ],
-  source: {
-    npm: 'vite-plugin-component-tagger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-component-tagger',
+  },
+  source: {
+    npm: 'vite-plugin-component-tagger',
   },
   stats: {
     stars: 0,

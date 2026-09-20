@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'validation',
     'geo',
   ],
-  source: {
-    github: 'agentmarkup/agentmarkup',
-    npm: '@agentmarkup/vite',
-  },
   links: {
     github: 'https://github.com/agentmarkup/agentmarkup',
     npm: 'https://www.npmjs.com/package/@agentmarkup/vite',
     website: 'https://agentmarkup.dev',
+  },
+  source: {
+    github: 'agentmarkup/agentmarkup',
+    npm: '@agentmarkup/vite',
   },
   stats: {
     stars: 28,

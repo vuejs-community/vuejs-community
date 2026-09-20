@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-garfish',
   ],
-  source: {
-    github: 'monkeykingblack/vite-plugin-garfish',
-    npm: 'vite-plugin-garfish-mf',
-  },
   links: {
     github: 'https://github.com/monkeykingblack/vite-plugin-garfish',
     npm: 'https://www.npmjs.com/package/vite-plugin-garfish-mf',
     website: 'https://github.com/monkeykingblack/vite-plugin-garfish.git#readme',
+  },
+  source: {
+    github: 'monkeykingblack/vite-plugin-garfish',
+    npm: 'vite-plugin-garfish-mf',
   },
   stats: {
     stars: 1,

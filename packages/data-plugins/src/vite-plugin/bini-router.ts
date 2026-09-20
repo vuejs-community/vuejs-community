@@ -29,15 +29,16 @@ export default defineProjectMeta({
     'metadata',
     'mdx',
     'markdown',
+    'oxc',
   ],
-  source: {
-    github: 'Binidu01/bini-router',
-    npm: 'bini-router',
-  },
   links: {
     github: 'https://github.com/Binidu01/bini-router',
     npm: 'https://www.npmjs.com/package/bini-router',
     website: 'https://bini.js.org',
+  },
+  source: {
+    github: 'Binidu01/bini-router',
+    npm: 'bini-router',
   },
   stats: {
     stars: 1,

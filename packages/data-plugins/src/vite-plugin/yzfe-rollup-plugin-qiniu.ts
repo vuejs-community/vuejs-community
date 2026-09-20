@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: '@yzfe/rollup-plugin-qiniu',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@yzfe/rollup-plugin-qiniu',
+  },
+  source: {
+    npm: '@yzfe/rollup-plugin-qiniu',
   },
   stats: {
     stars: 0,

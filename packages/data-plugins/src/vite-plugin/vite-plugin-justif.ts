@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'typography',
     'vite-plugin',
   ],
-  source: {
-    github: 'atifyushri/vite-plugin-justif',
-    npm: 'vite-plugin-justif',
-  },
   links: {
     github: 'https://github.com/atifyushri/vite-plugin-justif',
     npm: 'https://www.npmjs.com/package/vite-plugin-justif',
     website: 'https://github.com/atifyushri/vite-plugin-justif#readme',
+  },
+  source: {
+    github: 'atifyushri/vite-plugin-justif',
+    npm: 'vite-plugin-justif',
   },
   stats: {
     stars: 1,

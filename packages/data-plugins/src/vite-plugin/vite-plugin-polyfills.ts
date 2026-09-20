@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'polyfills',
     'core-js',
   ],
-  source: {
-    npm: 'vite-plugin-polyfills',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-polyfills',
+  },
+  source: {
+    npm: 'vite-plugin-polyfills',
   },
   stats: {
     stars: 0,

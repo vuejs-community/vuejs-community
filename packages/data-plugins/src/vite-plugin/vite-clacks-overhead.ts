@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'middleware',
     'terry pratchett',
   ],
-  source: {
-    github: 'dotfortun/vite-clacks-overhead',
-    npm: 'vite-clacks-overhead',
-  },
   links: {
     github: 'https://github.com/dotfortun/vite-clacks-overhead',
     npm: 'https://www.npmjs.com/package/vite-clacks-overhead',
     website: 'https://github.com/dotfortun/vite-clacks-overhead#readme',
+  },
+  source: {
+    github: 'dotfortun/vite-clacks-overhead',
+    npm: 'vite-clacks-overhead',
   },
   stats: {
     stars: 0,

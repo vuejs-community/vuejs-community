@@ -23,12 +23,12 @@ export default defineProjectMeta({
     'display management',
     'displays at scale',
   ],
-  source: {
-    npm: '@telemetryos/vite-plugin-application-workers',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@telemetryos/vite-plugin-application-workers',
     website: 'https://github.com/TelemetryTV/Application-API#readme',
+  },
+  source: {
+    npm: '@telemetryos/vite-plugin-application-workers',
   },
   stats: {
     stars: 0,

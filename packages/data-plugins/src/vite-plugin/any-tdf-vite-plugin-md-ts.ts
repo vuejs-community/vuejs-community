@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vtdf',
     'rtdf',
   ],
-  source: {
-    github: 'any-tdf/vite-plugin-md-ts',
-    npm: '@any-tdf/vite-plugin-md-ts',
-  },
   links: {
     github: 'https://github.com/any-tdf/vite-plugin-md-ts',
     npm: 'https://www.npmjs.com/package/@any-tdf/vite-plugin-md-ts',
     website: 'https://github.com/any-tdf/vite-plugin-md-ts',
+  },
+  source: {
+    github: 'any-tdf/vite-plugin-md-ts',
+    npm: '@any-tdf/vite-plugin-md-ts',
   },
   stats: {
     stars: 0,

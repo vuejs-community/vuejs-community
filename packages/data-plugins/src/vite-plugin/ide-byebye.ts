@@ -33,14 +33,14 @@ export default defineProjectMeta({
     'deeplink',
     'rrweb',
   ],
-  source: {
-    github: 'bo-516/ide-byebye',
-    npm: 'ide-byebye',
-  },
   links: {
     github: 'https://github.com/bo-516/ide-byebye',
     npm: 'https://www.npmjs.com/package/ide-byebye',
     website: 'https://github.com/bo-516/ide-byebye#readme',
+  },
+  source: {
+    github: 'bo-516/ide-byebye',
+    npm: 'ide-byebye',
   },
   stats: {
     stars: 7,

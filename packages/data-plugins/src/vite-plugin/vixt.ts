@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vixt',
     'vue',
   ],
-  source: {
-    github: 'SoulLyoko/vixt',
-    npm: 'vixt',
-  },
   links: {
     github: 'https://github.com/SoulLyoko/vixt',
     npm: 'https://www.npmjs.com/package/vixt',
     website: 'https://soullyoko.github.io/vixt/',
+  },
+  source: {
+    github: 'SoulLyoko/vixt',
+    npm: 'vixt',
   },
   stats: {
     stars: 0,

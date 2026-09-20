@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'hmr',
     'graphics',
   ],
-  source: {
-    github: 'shader3d/shader3d',
-    npm: '@shader3d/vite-plugin',
-  },
   links: {
     github: 'https://github.com/shader3d/shader3d',
     npm: 'https://www.npmjs.com/package/@shader3d/vite-plugin',
     website: 'https://shader3d.dev',
+  },
+  source: {
+    github: 'shader3d/shader3d',
+    npm: '@shader3d/vite-plugin',
   },
   stats: {
     stars: 0,

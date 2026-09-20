@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'windicss',
     'styled-components',
   ],
-  source: {
-    github: 'JiangWeixian/vite-plugin-styled-windicss',
-    npm: 'vite-plugin-styled-windicss',
-  },
   links: {
     github: 'https://github.com/JiangWeixian/vite-plugin-styled-windicss',
     npm: 'https://www.npmjs.com/package/vite-plugin-styled-windicss',
     website: 'https://github.com/JiangWeixian/vite-plugin-styled-windicss#readme',
+  },
+  source: {
+    github: 'JiangWeixian/vite-plugin-styled-windicss',
+    npm: 'vite-plugin-styled-windicss',
   },
   stats: {
     stars: 3,

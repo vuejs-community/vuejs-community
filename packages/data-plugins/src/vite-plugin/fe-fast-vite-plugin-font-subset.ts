@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'multi-tool',
     'build-tool',
   ],
-  source: {
-    github: 'william-xue/vite-plugin-font-subset',
-    npm: '@fe-fast/vite-plugin-font-subset',
-  },
   links: {
     github: 'https://github.com/william-xue/vite-plugin-font-subset',
     npm: 'https://www.npmjs.com/package/@fe-fast/vite-plugin-font-subset',
     website: 'https://github.com/william-xue/vite-plugin-font-subset#readme',
+  },
+  source: {
+    github: 'william-xue/vite-plugin-font-subset',
+    npm: '@fe-fast/vite-plugin-font-subset',
   },
   stats: {
     stars: 7,

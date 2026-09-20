@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'vue',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-autocss-generator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-autocss-generator',
     website: 'https://gitee.com/bad_-code/vite-plugin-autocss',
+  },
+  source: {
+    npm: 'vite-plugin-autocss-generator',
   },
   stats: {
     stars: 0,

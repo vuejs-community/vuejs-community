@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'unplugin',
     'nanointl',
   ],
-  source: {
-    github: 'phytonmk/nanointl',
-    npm: '@nanointl/unplugin',
-  },
   links: {
     github: 'https://github.com/phytonmk/nanointl',
     npm: 'https://www.npmjs.com/package/@nanointl/unplugin',
     website: 'https://github.com/phytonmk/nanointl',
+  },
+  source: {
+    github: 'phytonmk/nanointl',
+    npm: '@nanointl/unplugin',
   },
   stats: {
     stars: 3,

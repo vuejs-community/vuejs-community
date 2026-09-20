@@ -31,14 +31,14 @@ export default defineProjectMeta({
     'grounded',
     'self-hosted',
   ],
-  source: {
-    github: 'Cloflin/docpilot',
-    npm: '@cloflin/docpilot',
-  },
   links: {
     github: 'https://github.com/Cloflin/docpilot',
     npm: 'https://www.npmjs.com/package/@cloflin/docpilot',
     website: 'https://docpilot-nine.vercel.app',
+  },
+  source: {
+    github: 'Cloflin/docpilot',
+    npm: '@cloflin/docpilot',
   },
   stats: {
     stars: 1,

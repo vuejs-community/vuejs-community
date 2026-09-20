@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'supercharge',
     'superchargejs',
   ],
-  source: {
-    github: 'supercharge/framework',
-    npm: '@supercharge/vite',
-  },
   links: {
     github: 'https://github.com/supercharge/framework',
     npm: 'https://www.npmjs.com/package/@supercharge/vite',
     website: 'https://superchargejs.com',
+  },
+  source: {
+    github: 'supercharge/framework',
+    npm: '@supercharge/vite',
   },
   stats: {
     stars: 25,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'responsive',
     'breakpoints',
   ],
-  source: {
-    github: 'jimydavis/vite-plugin-twneat',
-    npm: '@tachibana-shin/vite-plugin-twneat',
-  },
   links: {
     github: 'https://github.com/jimydavis/vite-plugin-twneat',
     npm: 'https://www.npmjs.com/package/@tachibana-shin/vite-plugin-twneat',
     website: 'https://github.com/jimydavis/vite-plugin-twneat#readme',
+  },
+  source: {
+    github: 'jimydavis/vite-plugin-twneat',
+    npm: '@tachibana-shin/vite-plugin-twneat',
   },
   stats: {
     stars: 1,

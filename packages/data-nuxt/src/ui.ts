@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://ui.nuxt.com/docs/getting-started/installation/nuxt',
   },
   source: {
-    github: 'nuxt/ui#dev',
+    github: 'nuxt/ui',
     npm: '@nuxt/ui',
   },
 })

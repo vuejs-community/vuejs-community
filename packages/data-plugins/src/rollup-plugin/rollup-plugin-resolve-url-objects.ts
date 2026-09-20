@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'javascript',
     'modules',
   ],
-  source: {
-    github: 'jespertheend/rollup-plugin-resolve-url-objects',
-    npm: 'rollup-plugin-resolve-url-objects',
-  },
   links: {
     github: 'https://github.com/jespertheend/rollup-plugin-resolve-url-objects',
     npm: 'https://www.npmjs.com/package/rollup-plugin-resolve-url-objects',
     website: 'https://github.com/jespertheend/rollup-plugin-resolve-url-objects#readme',
+  },
+  source: {
+    github: 'jespertheend/rollup-plugin-resolve-url-objects',
+    npm: 'rollup-plugin-resolve-url-objects',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'html',
   ],
-  source: {
-    github: 'hex-ci/vite-plugin-virtual-html-template',
-    npm: 'vite-plugin-virtual-html-template',
-  },
   links: {
     github: 'https://github.com/hex-ci/vite-plugin-virtual-html-template',
     npm: 'https://www.npmjs.com/package/vite-plugin-virtual-html-template',
     website: 'https://github.com/hex-ci/vite-plugin-virtual-html-template#readme',
+  },
+  source: {
+    github: 'hex-ci/vite-plugin-virtual-html-template',
+    npm: 'vite-plugin-virtual-html-template',
   },
   stats: {
     stars: 30,

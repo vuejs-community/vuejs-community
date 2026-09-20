@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'edge',
     'runtime',
   ],
-  source: {
-    github: 'solutas/maravilla-runtime',
-    npm: '@maravilla-labs/vite-plugin',
-  },
   links: {
     github: 'https://github.com/solutas/maravilla-runtime',
     npm: 'https://www.npmjs.com/package/@maravilla-labs/vite-plugin',
     website: 'https://github.com/solutas/maravilla-runtime#readme',
+  },
+  source: {
+    github: 'solutas/maravilla-runtime',
+    npm: '@maravilla-labs/vite-plugin',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'marcelofarias/botscript',
-    npm: '@mbfarias/botscript-vite-plugin',
-  },
   links: {
     github: 'https://github.com/marcelofarias/botscript',
     npm: 'https://www.npmjs.com/package/@mbfarias/botscript-vite-plugin',
     website: 'https://github.com/marcelofarias/botscript#readme',
+  },
+  source: {
+    github: 'marcelofarias/botscript',
+    npm: '@mbfarias/botscript-vite-plugin',
   },
   stats: {
     stars: 13,

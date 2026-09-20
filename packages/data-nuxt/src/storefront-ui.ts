@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://docs.storefrontui.io/v2/',
   },
   source: {
-    github: 'vuestorefront/storefront-ui#v2-develop/packages/sfui/frameworks/nuxt',
+    github: 'vuestorefront/storefront-ui',
     npm: '@storefront-ui/nuxt',
   },
 })

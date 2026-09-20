@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'removal',
     'cleanup',
   ],
-  source: {
-    github: 'aMarCruz/rollup-plugin-cleanup',
-    npm: 'rollup-plugin-cleanup',
-  },
   links: {
     github: 'https://github.com/aMarCruz/rollup-plugin-cleanup',
     npm: 'https://www.npmjs.com/package/rollup-plugin-cleanup',
     website: 'https://github.com/aMarCruz/rollup-plugin-cleanup',
+  },
+  source: {
+    github: 'aMarCruz/rollup-plugin-cleanup',
+    npm: 'rollup-plugin-cleanup',
   },
   stats: {
     stars: 100,

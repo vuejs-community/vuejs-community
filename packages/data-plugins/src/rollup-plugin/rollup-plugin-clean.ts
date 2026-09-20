@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'clean',
   ],
-  source: {
-    github: 'alwaysonlinetxm/rollup-plugin-clean',
-    npm: 'rollup-plugin-clean',
-  },
   links: {
     github: 'https://github.com/alwaysonlinetxm/rollup-plugin-clean',
     npm: 'https://www.npmjs.com/package/rollup-plugin-clean',
     website: 'https://github.com/alwaysonlinetxm/rollup-plugin-clean#readme',
+  },
+  source: {
+    github: 'alwaysonlinetxm/rollup-plugin-clean',
+    npm: 'rollup-plugin-clean',
   },
   stats: {
     stars: 3,

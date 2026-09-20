@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'zhiyuanzmj/unplugin-libcss',
-    npm: 'unplugin-libcss',
-  },
   links: {
     github: 'https://github.com/zhiyuanzmj/unplugin-libcss',
     npm: 'https://www.npmjs.com/package/unplugin-libcss',
     website: 'https://github.com/zhiyuanzmj/unplugin-libcss#readme',
+  },
+  source: {
+    github: 'zhiyuanzmj/unplugin-libcss',
+    npm: 'unplugin-libcss',
   },
   stats: {
     stars: 0,

@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'source',
     'locator',
   ],
-  source: {
-    npm: '@metagptx/data-test-id-collector',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@metagptx/data-test-id-collector',
+  },
+  source: {
+    npm: '@metagptx/data-test-id-collector',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'murongg/vite-plugin-basic-css-selector',
-    npm: 'vite-plugin-basic-css-selector',
-  },
   links: {
     github: 'https://github.com/murongg/vite-plugin-basic-css-selector',
     npm: 'https://www.npmjs.com/package/vite-plugin-basic-css-selector',
     website: 'https://github.com/murongg/vite-plugin-basic-css-selector#readme',
+  },
+  source: {
+    github: 'murongg/vite-plugin-basic-css-selector',
+    npm: 'vite-plugin-basic-css-selector',
   },
   stats: {
     stars: 1,

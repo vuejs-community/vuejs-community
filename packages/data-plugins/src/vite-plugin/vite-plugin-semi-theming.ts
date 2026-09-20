@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'semi-design',
   ],
-  source: {
-    github: 'Codpoe/vite-plugin-semi-theming',
-    npm: 'vite-plugin-semi-theming',
-  },
   links: {
     github: 'https://github.com/Codpoe/vite-plugin-semi-theming',
     npm: 'https://www.npmjs.com/package/vite-plugin-semi-theming',
     website: 'https://github.com/Codpoe/vite-plugin-semi-theming#readme',
+  },
+  source: {
+    github: 'Codpoe/vite-plugin-semi-theming',
+    npm: 'vite-plugin-semi-theming',
   },
   stats: {
     stars: 2,

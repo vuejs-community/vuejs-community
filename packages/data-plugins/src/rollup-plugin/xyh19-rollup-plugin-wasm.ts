@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'webassembly',
     'assemblyscript',
   ],
-  source: {
-    npm: '@xyh19/rollup-plugin-wasm',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xyh19/rollup-plugin-wasm',
     website: 'https://gitee.com/xxXyh1908/rollup-plugin-wasm/#readme',
+  },
+  source: {
+    npm: '@xyh19/rollup-plugin-wasm',
   },
   stats: {
     stars: 0,

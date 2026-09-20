@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'esbuild',
     'unplugin',
   ],
-  source: {
-    github: 'D4ario0/react-email-compiler',
-    npm: 'react-email-compiler',
-  },
   links: {
     github: 'https://github.com/D4ario0/react-email-compiler',
     npm: 'https://www.npmjs.com/package/react-email-compiler',
     website: 'https://github.com/D4ario0/react-email-compiler#readme',
+  },
+  source: {
+    github: 'D4ario0/react-email-compiler',
+    npm: 'react-email-compiler',
   },
   stats: {
     stars: 1,

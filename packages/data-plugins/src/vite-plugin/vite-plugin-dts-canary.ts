@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vue-tsc',
     'volar',
   ],
-  source: {
-    github: 'webkong/vite-plugin-dts',
-    npm: 'vite-plugin-dts-canary',
-  },
   links: {
     github: 'https://github.com/webkong/vite-plugin-dts',
     npm: 'https://www.npmjs.com/package/vite-plugin-dts-canary',
     website: 'https://github.com/webkong/vite-plugin-dts#readme',
+  },
+  source: {
+    github: 'webkong/vite-plugin-dts',
+    npm: 'vite-plugin-dts-canary',
   },
   stats: {
     stars: 0,

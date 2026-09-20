@@ -23,13 +23,13 @@ export default defineProjectMeta({
     'esm',
     'cjs',
   ],
-  source: {
-    github: 'gyawali9/svgr-react-icons',
-    npm: 'svgr-react-icons',
-  },
   links: {
     github: 'https://github.com/gyawali9/svgr-react-icons',
     npm: 'https://www.npmjs.com/package/svgr-react-icons',
+  },
+  source: {
+    github: 'gyawali9/svgr-react-icons',
+    npm: 'svgr-react-icons',
   },
   stats: {
     stars: 0,

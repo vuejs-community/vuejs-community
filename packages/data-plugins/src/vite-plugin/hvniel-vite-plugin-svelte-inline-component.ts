@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'svelte',
     'vite-plugin',
   ],
-  source: {
-    github: 'HanielU/vite-plugin-svelte-inline-component',
-    npm: '@hvniel/vite-plugin-svelte-inline-component',
-  },
   links: {
     github: 'https://github.com/HanielU/vite-plugin-svelte-inline-component',
     npm: 'https://www.npmjs.com/package/@hvniel/vite-plugin-svelte-inline-component',
     website: 'https://github.com/HanielU/vite-plugin-svelte-inline-component#readme',
+  },
+  source: {
+    github: 'HanielU/vite-plugin-svelte-inline-component',
+    npm: '@hvniel/vite-plugin-svelte-inline-component',
   },
   stats: {
     stars: 12,

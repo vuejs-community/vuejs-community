@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'minify',
     'vite-plugin',
   ],
-  source: {
-    github: 'bennyxguo/vite-plugin-html-transformer',
-    npm: 'vite-plugin-html-transformer',
-  },
   links: {
     github: 'https://github.com/bennyxguo/vite-plugin-html-transformer',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-transformer',
     website: 'https://github.com/bennyxguo/vite-plugin-html-transformer/tree/master/#readme',
+  },
+  source: {
+    github: 'bennyxguo/vite-plugin-html-transformer',
+    npm: 'vite-plugin-html-transformer',
   },
   stats: {
     stars: 0,

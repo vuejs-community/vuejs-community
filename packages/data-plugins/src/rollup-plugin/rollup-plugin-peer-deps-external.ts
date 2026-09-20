@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'optimize',
     'exclude',
   ],
-  source: {
-    github: 'pmowrer/rollup-plugin-peer-deps-external',
-    npm: 'rollup-plugin-peer-deps-external',
-  },
   links: {
     github: 'https://github.com/pmowrer/rollup-plugin-peer-deps-external',
     npm: 'https://www.npmjs.com/package/rollup-plugin-peer-deps-external',
     website: 'https://github.com/pmowrer/rollup-plugin-peer-deps-external#readme',
+  },
+  source: {
+    github: 'pmowrer/rollup-plugin-peer-deps-external',
+    npm: 'rollup-plugin-peer-deps-external',
   },
   stats: {
     stars: 111,

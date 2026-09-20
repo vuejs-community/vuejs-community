@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-remove-dist-files',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-remove-dist-files',
+  },
+  source: {
+    npm: 'vite-plugin-remove-dist-files',
   },
   stats: {
     stars: 0,

@@ -17,13 +17,13 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'lotun-io/vitest-cucumber',
-    npm: '@lotun/vitest-cucumber',
-  },
   links: {
     github: 'https://github.com/lotun-io/vitest-cucumber',
     npm: 'https://www.npmjs.com/package/@lotun/vitest-cucumber',
+  },
+  source: {
+    github: 'lotun-io/vitest-cucumber',
+    npm: '@lotun/vitest-cucumber',
   },
   stats: {
     stars: 0,

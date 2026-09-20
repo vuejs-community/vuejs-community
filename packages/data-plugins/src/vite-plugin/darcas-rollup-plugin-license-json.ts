@@ -29,14 +29,14 @@ export default defineProjectMeta({
     'typescript',
     'nodejs',
   ],
-  source: {
-    github: 'DarCas/rollup-plugin-license-json',
-    npm: '@darcas/rollup-plugin-license-json',
-  },
   links: {
     github: 'https://github.com/DarCas/rollup-plugin-license-json',
     npm: 'https://www.npmjs.com/package/@darcas/rollup-plugin-license-json',
     website: 'https://rollup-license.os.darcas.app',
+  },
+  source: {
+    github: 'DarCas/rollup-plugin-license-json',
+    npm: '@darcas/rollup-plugin-license-json',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vue-jsx',
     'webpack',
   ],
-  source: {
-    github: 'vuejs/vue-jsx-vapor',
-    npm: 'vue-jsx',
-  },
   links: {
     github: 'https://github.com/vuejs/vue-jsx-vapor',
     npm: 'https://www.npmjs.com/package/vue-jsx',
     website: 'https://github.com/vuejs/vue-jsx-vapor#readme',
+  },
+  source: {
+    github: 'vuejs/vue-jsx-vapor',
+    npm: 'vue-jsx',
   },
   stats: {
     stars: 0,

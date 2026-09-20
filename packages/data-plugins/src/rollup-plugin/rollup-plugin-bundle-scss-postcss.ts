@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'scss',
     'vue',
   ],
-  source: {
-    github: 'alfed7/rollup-plugin-bundle-scss',
-    npm: 'rollup-plugin-bundle-scss-postcss',
-  },
   links: {
     github: 'https://github.com/alfed7/rollup-plugin-bundle-scss',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bundle-scss-postcss',
     website: 'https://github.com/alfed7/rollup-plugin-bundle-scss#readme',
+  },
+  source: {
+    github: 'alfed7/rollup-plugin-bundle-scss',
+    npm: 'rollup-plugin-bundle-scss-postcss',
   },
   stats: {
     stars: 0,

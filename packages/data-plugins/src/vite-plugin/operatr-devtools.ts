@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'agent',
   ],
-  source: {
-    npm: 'operatr-devtools',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/operatr-devtools',
+  },
+  source: {
+    npm: 'operatr-devtools',
   },
   stats: {
     stars: 0,

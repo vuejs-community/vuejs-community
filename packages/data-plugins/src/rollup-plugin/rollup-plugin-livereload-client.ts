@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'lr',
     'frontend',
   ],
-  source: {
-    github: 'wlindner/rollup-plugin-livereload-client',
-    npm: 'rollup-plugin-livereload-client',
-  },
   links: {
     github: 'https://github.com/wlindner/rollup-plugin-livereload-client',
     npm: 'https://www.npmjs.com/package/rollup-plugin-livereload-client',
     website: 'https://github.com/wlindner/rollup-plugin-livereload-client',
+  },
+  source: {
+    github: 'wlindner/rollup-plugin-livereload-client',
+    npm: 'rollup-plugin-livereload-client',
   },
   stats: {
     stars: 0,

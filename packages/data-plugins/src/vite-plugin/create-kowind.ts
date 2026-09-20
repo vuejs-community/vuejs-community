@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'create react app',
     'create-react-app',
   ],
-  source: {
-    github: 'kowindjs/kowind',
-    npm: 'create-kowind',
-  },
   links: {
     github: 'https://github.com/kowindjs/kowind',
     npm: 'https://www.npmjs.com/package/create-kowind',
     website: 'https://kowind.kayooliveira.com/',
+  },
+  source: {
+    github: 'kowindjs/kowind',
+    npm: 'create-kowind',
   },
   stats: {
     stars: 0,

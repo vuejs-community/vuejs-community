@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'Cesium',
     'zx-cesium',
   ],
-  source: {
-    github: 'dvgis/vite-plugin-dc',
-    npm: 'vite-plugin-zx-cesium',
-  },
   links: {
     github: 'https://github.com/dvgis/vite-plugin-dc',
     npm: 'https://www.npmjs.com/package/vite-plugin-zx-cesium',
     website: 'https://github.com/dvgis/vite-plugin-dc#readme',
+  },
+  source: {
+    github: 'dvgis/vite-plugin-dc',
+    npm: 'vite-plugin-zx-cesium',
   },
   stats: {
     stars: 0,

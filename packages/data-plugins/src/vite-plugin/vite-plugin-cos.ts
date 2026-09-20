@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'tencent-cos',
     'upload cos',
   ],
-  source: {
-    github: 'Xwudao/vite-plugin-cos',
-    npm: 'vite-plugin-cos',
-  },
   links: {
     github: 'https://github.com/Xwudao/vite-plugin-cos',
     npm: 'https://www.npmjs.com/package/vite-plugin-cos',
     website: 'https://github.com/Xwudao/vite-plugin-cos#readme',
+  },
+  source: {
+    github: 'Xwudao/vite-plugin-cos',
+    npm: 'vite-plugin-cos',
   },
   stats: {
     stars: 0,

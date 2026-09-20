@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'gregberge/svgr',
-    npm: '@svgr/rollup',
-  },
   links: {
     github: 'https://github.com/gregberge/svgr',
     npm: 'https://www.npmjs.com/package/@svgr/rollup',
     website: 'https://react-svgr.com',
+  },
+  source: {
+    github: 'gregberge/svgr',
+    npm: '@svgr/rollup',
   },
   stats: {
     stars: 0,

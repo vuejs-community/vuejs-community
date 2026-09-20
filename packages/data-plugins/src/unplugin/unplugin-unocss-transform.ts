@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'wip-elonehoo/unocss-plugin-transform',
-    npm: 'unplugin-unocss-transform',
-  },
   links: {
     github: 'https://github.com/wip-elonehoo/unocss-plugin-transform',
     npm: 'https://www.npmjs.com/package/unplugin-unocss-transform',
     website: 'https://github.com/wip-elonehoo/unocss-plugin-transform#readme',
+  },
+  source: {
+    github: 'wip-elonehoo/unocss-plugin-transform',
+    npm: 'unplugin-unocss-transform',
   },
   stats: {
     stars: 0,

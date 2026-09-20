@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vue',
     'vue3',
   ],
-  source: {
-    github: 'baseballyama/vue-shaker',
-    npm: 'vue-shaker',
-  },
   links: {
     github: 'https://github.com/baseballyama/vue-shaker',
     npm: 'https://www.npmjs.com/package/vue-shaker',
     website: 'https://github.com/baseballyama/vue-shaker#readme',
+  },
+  source: {
+    github: 'baseballyama/vue-shaker',
+    npm: 'vue-shaker',
   },
   stats: {
     stars: 7,

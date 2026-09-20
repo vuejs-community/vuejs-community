@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'webpack-dist-info-plugin',
     '打包信息注入',
   ],
-  source: {
-    github: '1139874527/dist-info',
-    npm: 'dist-info',
-  },
   links: {
     github: 'https://github.com/1139874527/dist-info',
     npm: 'https://www.npmjs.com/package/dist-info',
     website: 'https://github.com/1139874527/dist-info#readme',
+  },
+  source: {
+    github: '1139874527/dist-info',
+    npm: 'dist-info',
   },
   stats: {
     stars: 3,

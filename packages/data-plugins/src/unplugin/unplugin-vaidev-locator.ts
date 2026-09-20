@@ -22,11 +22,11 @@ export default defineProjectMeta({
     'click-to-source',
     'devtools',
   ],
-  source: {
-    npm: 'unplugin-vaidev-locator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-vaidev-locator',
+  },
+  source: {
+    npm: 'unplugin-vaidev-locator',
   },
   stats: {
     stars: 0,

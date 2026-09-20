@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'aurynx',
     'ssr',
   ],
-  source: {
-    github: 'aurynx/vite-plugin',
-    npm: '@aurynx/vite-plugin',
-  },
   links: {
     github: 'https://github.com/aurynx/vite-plugin',
     npm: 'https://www.npmjs.com/package/@aurynx/vite-plugin',
     website: 'https://github.com/aurynx/vite-plugin#readme',
+  },
+  source: {
+    github: 'aurynx/vite-plugin',
+    npm: '@aurynx/vite-plugin',
   },
   stats: {
     stars: 0,

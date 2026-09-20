@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'xtail',
     'x-tail',
   ],
-  source: {
-    npm: '@xtail/unplugin-ui',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xtail/unplugin-ui',
+  },
+  source: {
+    npm: '@xtail/unplugin-ui',
   },
   stats: {
     stars: 0,

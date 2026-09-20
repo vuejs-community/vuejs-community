@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/ihavecoke/nuxt-seo-meta',
   },
   source: {
-    github: 'ihavecoke/nuxt-seo-meta#main/packages/core',
+    github: 'ihavecoke/nuxt-seo-meta',
     npm: 'nuxt-seo-meta',
   },
 })

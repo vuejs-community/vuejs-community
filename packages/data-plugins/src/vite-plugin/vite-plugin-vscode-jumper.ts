@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'jump',
     'element-picker',
   ],
-  source: {
-    npm: 'vite-plugin-vscode-jumper',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vscode-jumper',
+  },
+  source: {
+    npm: 'vite-plugin-vscode-jumper',
   },
   stats: {
     stars: 0,

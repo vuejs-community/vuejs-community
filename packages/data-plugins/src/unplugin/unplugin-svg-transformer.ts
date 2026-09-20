@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'icons',
     'nuxt',
   ],
-  source: {
-    github: 'kiwilan/unplugin-svg-transformer',
-    npm: 'unplugin-svg-transformer',
-  },
   links: {
     github: 'https://github.com/kiwilan/unplugin-svg-transformer',
     npm: 'https://www.npmjs.com/package/unplugin-svg-transformer',
     website: 'https://github.com/kiwilan/unplugin-svg-transformer#readme',
+  },
+  source: {
+    github: 'kiwilan/unplugin-svg-transformer',
+    npm: 'unplugin-svg-transformer',
   },
   stats: {
     stars: 4,

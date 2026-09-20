@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'scoped',
     'vite-plugin-check-scoped',
   ],
-  source: {
-    github: 'liuseen-l/vite-plugin-check-scoped',
-    npm: 'vite-plugin-check-scoped',
-  },
   links: {
     github: 'https://github.com/liuseen-l/vite-plugin-check-scoped',
     npm: 'https://www.npmjs.com/package/vite-plugin-check-scoped',
     website: 'https://github.com/liuseen-l/vite-plugin-check-scoped#readme',
+  },
+  source: {
+    github: 'liuseen-l/vite-plugin-check-scoped',
+    npm: 'vite-plugin-check-scoped',
   },
   stats: {
     stars: 0,

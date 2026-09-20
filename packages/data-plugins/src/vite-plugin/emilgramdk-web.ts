@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'vite-plugin',
     'web',
   ],
-  source: {
-    npm: '@emilgramdk/web',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@emilgramdk/web',
     website: 'https://github.com/EmilGramDK/web#readme',
+  },
+  source: {
+    npm: '@emilgramdk/web',
   },
   stats: {
     stars: 0,

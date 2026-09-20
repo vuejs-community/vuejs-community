@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'logging',
     'console',
   ],
-  source: {
-    github: 'web-dev-sam/konsol',
-    npm: 'konzol',
-  },
   links: {
     github: 'https://github.com/web-dev-sam/konsol',
     npm: 'https://www.npmjs.com/package/konzol',
     website: 'https://github.com/web-dev-sam/konsol',
+  },
+  source: {
+    github: 'web-dev-sam/konsol',
+    npm: 'konzol',
   },
   stats: {
     stars: 3,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'quentinjuarez/vite-plugin-global-types',
-    npm: 'vite-plugin-global-types',
-  },
   links: {
     github: 'https://github.com/quentinjuarez/vite-plugin-global-types',
     npm: 'https://www.npmjs.com/package/vite-plugin-global-types',
     website: 'https://github.com/quentinjuarez/vite-plugin-global-types#readme',
+  },
+  source: {
+    github: 'quentinjuarez/vite-plugin-global-types',
+    npm: 'vite-plugin-global-types',
   },
   stats: {
     stars: 0,

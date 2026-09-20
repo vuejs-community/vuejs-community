@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'literate programming',
     'rollup-plugin',
   ],
-  source: {
-    github: 'mistlog/rollup-plugin-svelte-draft',
-    npm: 'rollup-plugin-svelte-draft',
-  },
   links: {
     github: 'https://github.com/mistlog/rollup-plugin-svelte-draft',
     npm: 'https://www.npmjs.com/package/rollup-plugin-svelte-draft',
     website: 'https://github.com/mistlog/rollup-plugin-svelte-draft',
+  },
+  source: {
+    github: 'mistlog/rollup-plugin-svelte-draft',
+    npm: 'rollup-plugin-svelte-draft',
   },
   stats: {
     stars: 0,

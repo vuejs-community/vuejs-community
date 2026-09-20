@@ -19,12 +19,12 @@ export default defineProjectMeta({
     'resource',
     'manager',
   ],
-  source: {
-    npm: '@atlassian/webresource-vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@atlassian/webresource-vite-plugin',
     website: 'https://bitbucket.org/atlassianlabs/fe-server',
+  },
+  source: {
+    npm: '@atlassian/webresource-vite-plugin',
   },
   stats: {
     stars: 0,

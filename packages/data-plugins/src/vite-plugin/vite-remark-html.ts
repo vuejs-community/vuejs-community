@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'alloc/vite-remark-html',
-    npm: 'vite-remark-html',
-  },
   links: {
     github: 'https://github.com/alloc/vite-remark-html',
     npm: 'https://www.npmjs.com/package/vite-remark-html',
     website: 'https://github.com/alloc/vite-remark-html#readme',
+  },
+  source: {
+    github: 'alloc/vite-remark-html',
+    npm: 'vite-remark-html',
   },
   stats: {
     stars: 4,

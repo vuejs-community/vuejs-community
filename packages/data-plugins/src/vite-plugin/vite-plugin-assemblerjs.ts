@@ -20,11 +20,11 @@ export default defineProjectMeta({
     'reflect-metadata',
     'typescript',
   ],
-  source: {
-    npm: 'vite-plugin-assemblerjs',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-assemblerjs',
+  },
+  source: {
+    npm: 'vite-plugin-assemblerjs',
   },
   stats: {
     stars: 0,

@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'es2015',
     'es6',
   ],
-  source: {
-    npm: 'rollup-plugin-convert-encoding',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-convert-encoding',
     website: 'https://github.com/kazu69/rollup-plugin-convert-encoding',
+  },
+  source: {
+    npm: 'rollup-plugin-convert-encoding',
   },
   stats: {
     stars: 0,

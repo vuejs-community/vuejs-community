@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'external',
     'openlayers',
   ],
-  source: {
-    github: 'aliothor/vite-plugin-ol-external',
-    npm: 'vite-plugin-ol-external',
-  },
   links: {
     github: 'https://github.com/aliothor/vite-plugin-ol-external',
     npm: 'https://www.npmjs.com/package/vite-plugin-ol-external',
     website: 'https://github.com/aliothor/vite-plugin-ol-external',
+  },
+  source: {
+    github: 'aliothor/vite-plugin-ol-external',
+    npm: 'vite-plugin-ol-external',
   },
   stats: {
     stars: 0,

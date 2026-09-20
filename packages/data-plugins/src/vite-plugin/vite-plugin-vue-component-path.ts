@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin-vue-component-path',
     'component-path',
   ],
-  source: {
-    github: 'q1uxu/vite-plugin-vue-component-path',
-    npm: 'vite-plugin-vue-component-path',
-  },
   links: {
     github: 'https://github.com/q1uxu/vite-plugin-vue-component-path',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-component-path',
     website: 'https://github.com/q1uxu/vite-plugin-vue-component-path#readme',
+  },
+  source: {
+    github: 'q1uxu/vite-plugin-vue-component-path',
+    npm: 'vite-plugin-vue-component-path',
   },
   stats: {
     stars: 2,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'davidmyersdev/vite-plugin-node-polyfills',
-    npm: 'vite-plugin-node-polyfills-vite8',
-  },
   links: {
     github: 'https://github.com/davidmyersdev/vite-plugin-node-polyfills',
     npm: 'https://www.npmjs.com/package/vite-plugin-node-polyfills-vite8',
     website: 'https://github.com/davidmyersdev/vite-plugin-node-polyfills',
+  },
+  source: {
+    github: 'davidmyersdev/vite-plugin-node-polyfills',
+    npm: 'vite-plugin-node-polyfills-vite8',
   },
   stats: {
     stars: 0,

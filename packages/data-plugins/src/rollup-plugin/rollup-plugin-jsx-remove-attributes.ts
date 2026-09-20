@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'data-testid',
     'remove attribute',
   ],
-  source: {
-    github: 'jacobbogers/rollup-plugin-jsx-remove-attributes',
-    npm: 'rollup-plugin-jsx-remove-attributes',
-  },
   links: {
     github: 'https://github.com/jacobbogers/rollup-plugin-jsx-remove-attributes',
     npm: 'https://www.npmjs.com/package/rollup-plugin-jsx-remove-attributes',
     website: 'https://github.com/jacobbogers/rollup-plugin-jsx-remove-attributes#readme',
+  },
+  source: {
+    github: 'jacobbogers/rollup-plugin-jsx-remove-attributes',
+    npm: 'rollup-plugin-jsx-remove-attributes',
   },
   stats: {
     stars: 11,

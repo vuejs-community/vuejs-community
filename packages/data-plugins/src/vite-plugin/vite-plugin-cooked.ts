@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'rollup',
     'script-injection',
   ],
-  source: {
-    github: 'JaydenV8/vite-plugin-cooked',
-    npm: 'vite-plugin-cooked',
-  },
   links: {
     github: 'https://github.com/JaydenV8/vite-plugin-cooked',
     npm: 'https://www.npmjs.com/package/vite-plugin-cooked',
     website: 'https://github.com/JaydenV8/vite-plugin-cooked#readme',
+  },
+  source: {
+    github: 'JaydenV8/vite-plugin-cooked',
+    npm: 'vite-plugin-cooked',
   },
   stats: {
     stars: 3,

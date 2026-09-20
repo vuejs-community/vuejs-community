@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'minify',
     'vite-plugin',
   ],
-  source: {
-    npm: '@bidiao/vite-plugin-html',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@bidiao/vite-plugin-html',
+  },
+  source: {
+    npm: '@bidiao/vite-plugin-html',
   },
   stats: {
     stars: 0,

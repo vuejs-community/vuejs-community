@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'esbuild-plugin',
     'rspack-plugin',
   ],
-  source: {
-    github: 'AbdBarho/slang-loader',
-    npm: 'slang-loader',
-  },
   links: {
     github: 'https://github.com/AbdBarho/slang-loader',
     npm: 'https://www.npmjs.com/package/slang-loader',
     website: 'https://github.com/AbdBarho/slang-loader#readme',
+  },
+  source: {
+    github: 'AbdBarho/slang-loader',
+    npm: 'slang-loader',
   },
   stats: {
     stars: 0,

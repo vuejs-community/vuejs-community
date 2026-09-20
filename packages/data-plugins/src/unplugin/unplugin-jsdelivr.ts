@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'transform',
     'cdn',
   ],
-  source: {
-    npm: 'unplugin-jsdelivr',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-jsdelivr',
+  },
+  source: {
+    npm: 'unplugin-jsdelivr',
   },
   stats: {
     stars: 0,

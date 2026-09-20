@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'less',
     'css',
   ],
-  source: {
-    github: 'keasy9/vite-plugin-styles-glob-import',
-    npm: 'vite-plugin-styles-glob-import',
-  },
   links: {
     github: 'https://github.com/keasy9/vite-plugin-styles-glob-import',
     npm: 'https://www.npmjs.com/package/vite-plugin-styles-glob-import',
     website: 'https://github.com/keasy9/vite-plugin-styles-glob-import#readme',
+  },
+  source: {
+    github: 'keasy9/vite-plugin-styles-glob-import',
+    npm: 'vite-plugin-styles-glob-import',
   },
   stats: {
     stars: 0,

@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'web-components',
     'cem',
   ],
-  source: {
-    github: 'jsxtools/rollup-utils',
-    npm: '@jsxtools/rollup-plugin-cem',
-  },
   links: {
     github: 'https://github.com/jsxtools/rollup-utils',
     npm: 'https://www.npmjs.com/package/@jsxtools/rollup-plugin-cem',
     website: 'https://github.com/jsxtools/rollup-utils/tree/main/packages/rollup-plugin-cem',
+  },
+  source: {
+    github: 'jsxtools/rollup-utils',
+    npm: '@jsxtools/rollup-plugin-cem',
   },
   stats: {
     stars: 0,

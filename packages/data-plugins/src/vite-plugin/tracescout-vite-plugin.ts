@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'source-maps',
     'debug-id',
   ],
-  source: {
-    github: 'Hananc86/TraceScout-SDK',
-    npm: '@tracescout/vite-plugin',
-  },
   links: {
     github: 'https://github.com/Hananc86/TraceScout-SDK',
     npm: 'https://www.npmjs.com/package/@tracescout/vite-plugin',
     website: 'https://docs.tracescout.com/docs/guides/source-maps',
+  },
+  source: {
+    github: 'Hananc86/TraceScout-SDK',
+    npm: '@tracescout/vite-plugin',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'jsshaker',
   ],
-  source: {
-    github: 'kermanx/jsshaker',
-    npm: 'rollup-plugin-jsshaker',
-  },
   links: {
     github: 'https://github.com/kermanx/jsshaker',
     npm: 'https://www.npmjs.com/package/rollup-plugin-jsshaker',
     website: 'https://github.com/kermanx/jsshaker#readme',
+  },
+  source: {
+    github: 'kermanx/jsshaker',
+    npm: 'rollup-plugin-jsshaker',
   },
   stats: {
     stars: 433,

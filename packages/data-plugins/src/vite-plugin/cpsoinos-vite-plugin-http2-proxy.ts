@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'https-proxy',
     'vite-plugin-http2-proxy',
   ],
-  source: {
-    github: 'cpsoinos/vite-plugin-http2-proxy',
-    npm: '@cpsoinos/vite-plugin-http2-proxy',
-  },
   links: {
     github: 'https://github.com/cpsoinos/vite-plugin-http2-proxy',
     npm: 'https://www.npmjs.com/package/@cpsoinos/vite-plugin-http2-proxy',
     website: 'https://github.com/cpsoinos/vite-plugin-http2-proxy#readme',
+  },
+  source: {
+    github: 'cpsoinos/vite-plugin-http2-proxy',
+    npm: '@cpsoinos/vite-plugin-http2-proxy',
   },
   stats: {
     stars: 6,

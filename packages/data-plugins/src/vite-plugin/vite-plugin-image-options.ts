@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'shibomb/vite-plugin-image-options',
-    npm: 'vite-plugin-image-options',
-  },
   links: {
     github: 'https://github.com/shibomb/vite-plugin-image-options',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-options',
     website: 'https://github.com/shibomb/vite-plugin-image-options#readme',
+  },
+  source: {
+    github: 'shibomb/vite-plugin-image-options',
+    npm: 'vite-plugin-image-options',
   },
   stats: {
     stars: 0,

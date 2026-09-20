@@ -32,14 +32,14 @@ export default defineProjectMeta({
     'typescript',
     'zero-dependencies',
   ],
-  source: {
-    github: 'AlexDyatlov/svg-sprite-kit',
-    npm: 'svg-sprite-kit',
-  },
   links: {
     github: 'https://github.com/AlexDyatlov/svg-sprite-kit',
     npm: 'https://www.npmjs.com/package/svg-sprite-kit',
     website: 'https://github.com/AlexDyatlov/svg-sprite-kit#readme',
+  },
+  source: {
+    github: 'AlexDyatlov/svg-sprite-kit',
+    npm: 'svg-sprite-kit',
   },
   stats: {
     stars: 0,

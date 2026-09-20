@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'bibliography',
     'bibtex',
   ],
-  source: {
-    github: 'ChunxuYang/vite-plugin-bib',
-    npm: 'vite-plugin-bib',
-  },
   links: {
     github: 'https://github.com/ChunxuYang/vite-plugin-bib',
     npm: 'https://www.npmjs.com/package/vite-plugin-bib',
     website: 'https://github.com/ChunxuYang/vite-plugin-bib/tree/main/#readme',
+  },
+  source: {
+    github: 'ChunxuYang/vite-plugin-bib',
+    npm: 'vite-plugin-bib',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'ElMassimo/vite-plugin-erb',
-    npm: 'vite-plugin-erb',
-  },
   links: {
     github: 'https://github.com/ElMassimo/vite-plugin-erb',
     npm: 'https://www.npmjs.com/package/vite-plugin-erb',
     website: 'https://github.com/ElMassimo/vite-plugin-erb',
+  },
+  source: {
+    github: 'ElMassimo/vite-plugin-erb',
+    npm: 'vite-plugin-erb',
   },
   stats: {
     stars: 11,

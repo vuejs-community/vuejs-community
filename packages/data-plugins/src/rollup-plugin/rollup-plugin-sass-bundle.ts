@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'css',
     'scss',
   ],
-  source: {
-    github: 'vrtexe/rollup-plugin-sass-bundle',
-    npm: 'rollup-plugin-sass-bundle',
-  },
   links: {
     github: 'https://github.com/vrtexe/rollup-plugin-sass-bundle',
     npm: 'https://www.npmjs.com/package/rollup-plugin-sass-bundle',
     website: 'https://github.com/vrtexe/rollup-plugin-sass-bundle',
+  },
+  source: {
+    github: 'vrtexe/rollup-plugin-sass-bundle',
+    npm: 'rollup-plugin-sass-bundle',
   },
   stats: {
     stars: 0,

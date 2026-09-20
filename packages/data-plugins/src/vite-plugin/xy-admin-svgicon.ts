@@ -19,12 +19,12 @@ export default defineProjectMeta({
     'auto-import',
     'dynamic-import',
   ],
-  source: {
-    npm: '@xy-admin/svgicon',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xy-admin/svgicon',
     website: 'https://gitee.com/SeaHappy0501/xy-admin/tree/master/packages/svgIcon#readme',
+  },
+  source: {
+    npm: '@xy-admin/svgicon',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'graphql',
     'persistent-query',
   ],
-  source: {
-    github: 'jeboehm/vite-plugin-graphql',
-    npm: '@jeboehm/vite-plugin-graphql',
-  },
   links: {
     github: 'https://github.com/jeboehm/vite-plugin-graphql',
     npm: 'https://www.npmjs.com/package/@jeboehm/vite-plugin-graphql',
     website: 'https://github.com/jeboehm/vite-plugin-graphql#readme',
+  },
+  source: {
+    github: 'jeboehm/vite-plugin-graphql',
+    npm: '@jeboehm/vite-plugin-graphql',
   },
   stats: {
     stars: 2,

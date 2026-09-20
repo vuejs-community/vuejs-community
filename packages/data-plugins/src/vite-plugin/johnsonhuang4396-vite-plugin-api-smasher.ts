@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'JohnsonHuang4396/api-smasher',
-    npm: '@johnsonhuang4396/vite-plugin-api-smasher',
-  },
   links: {
     github: 'https://github.com/JohnsonHuang4396/api-smasher',
     npm: 'https://www.npmjs.com/package/@johnsonhuang4396/vite-plugin-api-smasher',
     website: 'https://github.com/JohnsonHuang4396/api-smasher#readme',
+  },
+  source: {
+    github: 'JohnsonHuang4396/api-smasher',
+    npm: '@johnsonhuang4396/vite-plugin-api-smasher',
   },
   stats: {
     stars: 0,

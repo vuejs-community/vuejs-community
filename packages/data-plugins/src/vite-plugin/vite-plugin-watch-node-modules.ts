@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'watch',
     'reload',
   ],
-  source: {
-    github: 'lostpebble/vite-plugin-watch-node-modules',
-    npm: 'vite-plugin-watch-node-modules',
-  },
   links: {
     github: 'https://github.com/lostpebble/vite-plugin-watch-node-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-watch-node-modules',
     website: 'https://github.com/lostpebble/vite-plugin-watch-node-modules#readme',
+  },
+  source: {
+    github: 'lostpebble/vite-plugin-watch-node-modules',
+    npm: 'vite-plugin-watch-node-modules',
   },
   stats: {
     stars: 4,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'drupal',
   ],
-  source: {
-    github: 'Exploratorium/rollup-plugin-drupal-interface-translations',
-    npm: 'rollup-plugin-drupal-interface-translations',
-  },
   links: {
     github: 'https://github.com/Exploratorium/rollup-plugin-drupal-interface-translations',
     npm: 'https://www.npmjs.com/package/rollup-plugin-drupal-interface-translations',
     website: 'https://github.com/Exploratorium/rollup-plugin-drupal-interface-translations#readme',
+  },
+  source: {
+    github: 'Exploratorium/rollup-plugin-drupal-interface-translations',
+    npm: 'rollup-plugin-drupal-interface-translations',
   },
   stats: {
     stars: 0,

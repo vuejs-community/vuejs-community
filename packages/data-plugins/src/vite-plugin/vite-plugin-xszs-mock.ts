@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'mock',
   ],
-  source: {
-    npm: 'vite-plugin-xszs-mock',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-xszs-mock',
+  },
+  source: {
+    npm: 'vite-plugin-xszs-mock',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'typescript',
     'source-code',
   ],
-  source: {
-    github: 'alamhubb/mono',
-    npm: 'vite-plugin-mono',
-  },
   links: {
     github: 'https://github.com/alamhubb/mono',
     npm: 'https://www.npmjs.com/package/vite-plugin-mono',
     website: 'https://github.com/alamhubb/mono/tree/main/vite-plugin-mono#readme',
+  },
+  source: {
+    github: 'alamhubb/mono',
+    npm: 'vite-plugin-mono',
   },
   stats: {
     stars: 2,

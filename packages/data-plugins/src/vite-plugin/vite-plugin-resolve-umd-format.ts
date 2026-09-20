@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'umd',
   ],
-  source: {
-    github: 'bent10/vite-plugins',
-    npm: 'vite-plugin-resolve-umd-format',
-  },
   links: {
     github: 'https://github.com/bent10/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-resolve-umd-format',
     website: 'https://github.com/bent10/vite-plugins/tree/main/packages/plugin-resolve-umd-format',
+  },
+  source: {
+    github: 'bent10/vite-plugins',
+    npm: 'vite-plugin-resolve-umd-format',
   },
   stats: {
     stars: 0,

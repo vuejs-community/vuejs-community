@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'build-info',
     'build-variables',
   ],
-  source: {
-    github: '37bytes/public-packages',
-    npm: '@37bytes/vite-build-time-environment',
-  },
   links: {
     github: 'https://github.com/37bytes/public-packages',
     npm: 'https://www.npmjs.com/package/@37bytes/vite-build-time-environment',
     website: 'https://github.com/37bytes/public-packages#readme',
+  },
+  source: {
+    github: '37bytes/public-packages',
+    npm: '@37bytes/vite-build-time-environment',
   },
   stats: {
     stars: 4,

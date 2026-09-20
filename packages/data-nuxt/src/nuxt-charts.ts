@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://nuxtcharts.com/',
   },
   source: {
-    github: 'dennisadriaans/vue-chrts#main/packages/nuxt-charts',
+    github: 'dennisadriaans/vue-chrts',
     npm: 'nuxt-charts-legacy',
   },
 })

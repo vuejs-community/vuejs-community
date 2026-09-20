@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'inline',
     'inline-source',
   ],
-  source: {
-    github: 'eakl/vite-plugin-inline-source',
-    npm: '@eakl/vite-plugin-inline-source',
-  },
   links: {
     github: 'https://github.com/eakl/vite-plugin-inline-source',
     npm: 'https://www.npmjs.com/package/@eakl/vite-plugin-inline-source',
     website: 'https://github.com/eakl/vite-plugin-inline-source#readme',
+  },
+  source: {
+    github: 'eakl/vite-plugin-inline-source',
+    npm: '@eakl/vite-plugin-inline-source',
   },
   stats: {
     stars: 0,

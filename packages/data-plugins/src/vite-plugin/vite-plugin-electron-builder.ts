@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'electron',
     'electron-builder',
   ],
-  source: {
-    github: '467057463/vite_plugin_electron_builder',
-    npm: 'vite-plugin-electron-builder',
-  },
   links: {
     github: 'https://github.com/467057463/vite_plugin_electron_builder',
     npm: 'https://www.npmjs.com/package/vite-plugin-electron-builder',
     website: 'https://github.com/467057463/vite_plugin_electron_builder#readme',
+  },
+  source: {
+    github: '467057463/vite_plugin_electron_builder',
+    npm: 'vite-plugin-electron-builder',
   },
   stats: {
     stars: 6,

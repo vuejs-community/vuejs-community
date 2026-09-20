@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'docx',
     'docx-to-html',
   ],
-  source: {
-    github: 'action-hong/unplugin-docx',
-    npm: 'unplugin-docx',
-  },
   links: {
     github: 'https://github.com/action-hong/unplugin-docx',
     npm: 'https://www.npmjs.com/package/unplugin-docx',
     website: 'https://github.com/action-hong/unplugin-docx#readme',
+  },
+  source: {
+    github: 'action-hong/unplugin-docx',
+    npm: 'unplugin-docx',
   },
   stats: {
     stars: 2,

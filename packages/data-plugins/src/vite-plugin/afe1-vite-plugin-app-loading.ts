@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'app-loading',
     'html-injection',
   ],
-  source: {
-    npm: '@afe1/vite-plugin-app-loading',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@afe1/vite-plugin-app-loading',
+  },
+  source: {
+    npm: '@afe1/vite-plugin-app-loading',
   },
   stats: {
     stars: 0,

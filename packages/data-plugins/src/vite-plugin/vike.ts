@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'remix',
     'vike',
   ],
-  source: {
-    github: 'vikejs/vike',
-    npm: 'vike',
-  },
   links: {
     github: 'https://github.com/vikejs/vike',
     npm: 'https://www.npmjs.com/package/vike',
     website: 'https://github.com/vikejs/vike#readme',
+  },
+  source: {
+    github: 'vikejs/vike',
+    npm: 'vike',
   },
   stats: {
     stars: 5824,

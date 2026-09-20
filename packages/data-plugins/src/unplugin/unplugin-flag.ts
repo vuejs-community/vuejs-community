@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'dotenv',
     'te-env',
   ],
-  source: {
-    github: 'r17x/js',
-    npm: 'unplugin-flag',
-  },
   links: {
     github: 'https://github.com/r17x/js',
     npm: 'https://www.npmjs.com/package/unplugin-flag',
     website: 'https://github.com/r17x/js/tree/main/packages/unplugin-flag#readme',
+  },
+  source: {
+    github: 'r17x/js',
+    npm: 'unplugin-flag',
   },
   stats: {
     stars: 0,

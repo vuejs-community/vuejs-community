@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'i18n',
     'i18n-dev',
   ],
-  source: {
-    github: 'Asaki-M/vite-plugin-i18n-dev',
-    npm: 'vite-plugin-i18n-dev',
-  },
   links: {
     github: 'https://github.com/Asaki-M/vite-plugin-i18n-dev',
     npm: 'https://www.npmjs.com/package/vite-plugin-i18n-dev',
     website: 'https://github.com/Asaki-M/vite-plugin-i18n-dev',
+  },
+  source: {
+    github: 'Asaki-M/vite-plugin-i18n-dev',
+    npm: 'vite-plugin-i18n-dev',
   },
   stats: {
     stars: 2,

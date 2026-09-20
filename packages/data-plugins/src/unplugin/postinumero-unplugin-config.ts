@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'dynamic config',
     'runtime config',
   ],
-  source: {
-    github: 'ArnoSaine/postinumero',
-    npm: '@postinumero/unplugin-config',
-  },
   links: {
     github: 'https://github.com/ArnoSaine/postinumero',
     npm: 'https://www.npmjs.com/package/@postinumero/unplugin-config',
     website: 'https://github.com/ArnoSaine/postinumero/tree/main/packages/unplugin-config',
+  },
+  source: {
+    github: 'ArnoSaine/postinumero',
+    npm: '@postinumero/unplugin-config',
   },
   stats: {
     stars: 5,

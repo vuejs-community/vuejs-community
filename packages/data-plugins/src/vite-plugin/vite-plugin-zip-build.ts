@@ -18,12 +18,12 @@ export default defineProjectMeta({
     'vite-plugin-zip',
     'vite-plugin-zip-build',
   ],
-  source: {
-    npm: 'vite-plugin-zip-build',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-zip-build',
     website: 'https://gitee.com/superfan1996/vite-plugin-zip-build/blob/master/README.md',
+  },
+  source: {
+    npm: 'vite-plugin-zip-build',
   },
   stats: {
     stars: 0,

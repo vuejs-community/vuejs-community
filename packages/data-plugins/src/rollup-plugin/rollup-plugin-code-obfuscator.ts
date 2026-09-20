@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'obfuscate',
     'obfuscation',
   ],
-  source: {
-    npm: 'rollup-plugin-code-obfuscator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-code-obfuscator',
+  },
+  source: {
+    npm: 'rollup-plugin-code-obfuscator',
   },
   stats: {
     stars: 0,

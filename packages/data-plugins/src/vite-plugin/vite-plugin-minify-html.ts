@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'minify-html',
     'vite-plugin',
   ],
-  source: {
-    github: 'Marinerer/vite-plugins',
-    npm: 'vite-plugin-minify-html',
-  },
   links: {
     github: 'https://github.com/Marinerer/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-minify-html',
     website: 'https://github.com/Marinerer/vite-plugins',
+  },
+  source: {
+    github: 'Marinerer/vite-plugins',
+    npm: 'vite-plugin-minify-html',
   },
   stats: {
     stars: 11,

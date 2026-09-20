@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'typegen',
   ],
-  source: {
-    github: 'evolonix/react-router-next',
-    npm: '@evolonix/react-router-next',
-  },
   links: {
     github: 'https://github.com/evolonix/react-router-next',
     npm: 'https://www.npmjs.com/package/@evolonix/react-router-next',
     website: 'https://evolonix.com/react-router-next',
+  },
+  source: {
+    github: 'evolonix/react-router-next',
+    npm: '@evolonix/react-router-next',
   },
   stats: {
     stars: 1,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'inspector',
     'click-to-component',
   ],
-  source: {
-    github: 'ArnaudBarre/vite-plugin-react-click-to-component',
-    npm: 'vite-plugin-react-click-to-component',
-  },
   links: {
     github: 'https://github.com/ArnaudBarre/vite-plugin-react-click-to-component',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-click-to-component',
     website: 'https://github.com/ArnaudBarre/vite-plugin-react-click-to-component#readme',
+  },
+  source: {
+    github: 'ArnaudBarre/vite-plugin-react-click-to-component',
+    npm: 'vite-plugin-react-click-to-component',
   },
   stats: {
     stars: 84,

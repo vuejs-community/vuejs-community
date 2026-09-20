@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'coffeescript',
   ],
-  source: {
-    github: 'lautis/rollup-plugin-coffee-script',
-    npm: 'rollup-plugin-coffee-script',
-  },
   links: {
     github: 'https://github.com/lautis/rollup-plugin-coffee-script',
     npm: 'https://www.npmjs.com/package/rollup-plugin-coffee-script',
     website: 'https://github.com/lautis/rollup-plugin-coffee-script',
+  },
+  source: {
+    github: 'lautis/rollup-plugin-coffee-script',
+    npm: 'rollup-plugin-coffee-script',
   },
   stats: {
     stars: 22,

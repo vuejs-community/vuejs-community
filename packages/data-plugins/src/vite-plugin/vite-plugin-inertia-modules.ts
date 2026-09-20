@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'modules',
     'modular',
   ],
-  source: {
-    github: 'baconfy/vite-plugin-inertia-modules',
-    npm: 'vite-plugin-inertia-modules',
-  },
   links: {
     github: 'https://github.com/baconfy/vite-plugin-inertia-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-inertia-modules',
     website: 'https://github.com/baconfy/vite-plugin-inertia-modules#readme',
+  },
+  source: {
+    github: 'baconfy/vite-plugin-inertia-modules',
+    npm: 'vite-plugin-inertia-modules',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'sveltekit',
     'svgo',
   ],
-  source: {
-    github: 'blujedis/vite-plugin-svelte-svgr',
-    npm: 'vite-plugin-svelte-svgr',
-  },
   links: {
     github: 'https://github.com/blujedis/vite-plugin-svelte-svgr',
     npm: 'https://www.npmjs.com/package/vite-plugin-svelte-svgr',
     website: 'https://github.com/blujedis/vite-plugin-svelte-svgr#readme',
+  },
+  source: {
+    github: 'blujedis/vite-plugin-svelte-svgr',
+    npm: 'vite-plugin-svelte-svgr',
   },
   stats: {
     stars: 2,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-react',
     'vite-plugin-react-require',
   ],
-  source: {
-    github: 'Riunshow/vite-plugin-react-require',
-    npm: 'vite-plugin-react-require',
-  },
   links: {
     github: 'https://github.com/Riunshow/vite-plugin-react-require',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-require',
     website: 'https://github.com/Riunshow/vite-plugin-react-require#readme',
+  },
+  source: {
+    github: 'Riunshow/vite-plugin-react-require',
+    npm: 'vite-plugin-react-require',
   },
   stats: {
     stars: 0,

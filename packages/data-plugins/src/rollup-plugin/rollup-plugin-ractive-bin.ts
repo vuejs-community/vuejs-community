@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'component',
   ],
-  source: {
-    github: 'ractivejs/rollup-plugin-ractive-bin',
-    npm: 'rollup-plugin-ractive-bin',
-  },
   links: {
     github: 'https://github.com/ractivejs/rollup-plugin-ractive-bin',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ractive-bin',
     website: 'https://github.com/ractivejs/rollup-plugin-ractive-bin#readme',
+  },
+  source: {
+    github: 'ractivejs/rollup-plugin-ractive-bin',
+    npm: 'rollup-plugin-ractive-bin',
   },
   stats: {
     stars: 0,

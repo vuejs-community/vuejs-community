@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'resolution',
     'mobile',
   ],
-  source: {
-    github: 'arthursb2016/rollup-plugin-responsive-app',
-    npm: 'rollup-plugin-responsive-app',
-  },
   links: {
     github: 'https://github.com/arthursb2016/rollup-plugin-responsive-app',
     npm: 'https://www.npmjs.com/package/rollup-plugin-responsive-app',
     website: 'https://github.com/arthursb2016/rollup-plugin-responsive-app#readme',
+  },
+  source: {
+    github: 'arthursb2016/rollup-plugin-responsive-app',
+    npm: 'rollup-plugin-responsive-app',
   },
   stats: {
     stars: 0,

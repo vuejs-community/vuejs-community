@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'compare',
     'syntactic sugar',
   ],
-  source: {
-    github: 'FliPPeDround/vite-plugin-compare',
-    npm: 'vite-plugin-compare',
-  },
   links: {
     github: 'https://github.com/FliPPeDround/vite-plugin-compare',
     npm: 'https://www.npmjs.com/package/vite-plugin-compare',
     website: 'https://github.com/FliPPeDround/vite-plugin-compare',
+  },
+  source: {
+    github: 'FliPPeDround/vite-plugin-compare',
+    npm: 'vite-plugin-compare',
   },
   stats: {
     stars: 0,

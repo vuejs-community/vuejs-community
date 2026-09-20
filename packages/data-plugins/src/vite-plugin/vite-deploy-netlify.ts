@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'adapter',
     'netlify',
   ],
-  source: {
-    github: 'web-runes/vite-deploy',
-    npm: '@vite-deploy/netlify',
-  },
   links: {
     github: 'https://github.com/web-runes/vite-deploy',
     npm: 'https://www.npmjs.com/package/@vite-deploy/netlify',
     website: 'https://vite-deploy.web-runes.dev',
+  },
+  source: {
+    github: 'web-runes/vite-deploy',
+    npm: '@vite-deploy/netlify',
   },
   stats: {
     stars: 0,

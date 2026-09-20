@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'map',
     'Cesium',
   ],
-  source: {
-    npm: '@yupont/vite-plugin-yp',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@yupont/vite-plugin-yp',
+  },
+  source: {
+    npm: '@yupont/vite-plugin-yp',
   },
   stats: {
     stars: 0,

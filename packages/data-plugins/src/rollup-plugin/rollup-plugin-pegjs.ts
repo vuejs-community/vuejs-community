@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'pegjs',
     'rollup-plugin',
   ],
-  source: {
-    npm: 'rollup-plugin-pegjs',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-pegjs',
+  },
+  source: {
+    npm: 'rollup-plugin-pegjs',
   },
   stats: {
     stars: 0,

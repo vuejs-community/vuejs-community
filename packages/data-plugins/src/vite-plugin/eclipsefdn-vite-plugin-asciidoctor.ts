@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'asciidoctor',
     'asciidoc',
   ],
-  source: {
-    npm: '@eclipsefdn/vite-plugin-asciidoctor',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@eclipsefdn/vite-plugin-asciidoctor',
+  },
+  source: {
+    npm: '@eclipsefdn/vite-plugin-asciidoctor',
   },
   stats: {
     stars: 0,

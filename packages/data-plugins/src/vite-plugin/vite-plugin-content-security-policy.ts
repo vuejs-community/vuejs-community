@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'apache',
     'nginx',
   ],
-  source: {
-    github: 'Coreoz/vite-plugin-content-security-policy',
-    npm: 'vite-plugin-content-security-policy',
-  },
   links: {
     github: 'https://github.com/Coreoz/vite-plugin-content-security-policy',
     npm: 'https://www.npmjs.com/package/vite-plugin-content-security-policy',
     website: 'https://github.com/Coreoz/vite-plugin-content-security-policy#readme',
+  },
+  source: {
+    github: 'Coreoz/vite-plugin-content-security-policy',
+    npm: 'vite-plugin-content-security-policy',
   },
   stats: {
     stars: 4,

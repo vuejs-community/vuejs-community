@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'tailwindcss',
     'rollup-plugin',
   ],
-  source: {
-    github: 'visulima/packem',
-    npm: '@visulima/rollup-plugin-css',
-  },
   links: {
     github: 'https://github.com/visulima/packem',
     npm: 'https://www.npmjs.com/package/@visulima/rollup-plugin-css',
     website: 'https://github.com/visulima/packem/tree/main/packages/rollup-plugin-css',
+  },
+  source: {
+    github: 'visulima/packem',
+    npm: '@visulima/rollup-plugin-css',
   },
   stats: {
     stars: 10,

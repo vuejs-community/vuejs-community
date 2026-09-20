@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'webpack-plugin',
     'codegen',
   ],
-  source: {
-    github: 'frstycodes/typesafe-query-keys',
-    npm: '@frsty/typesafe-query-keys',
-  },
   links: {
     github: 'https://github.com/frstycodes/typesafe-query-keys',
     npm: 'https://www.npmjs.com/package/@frsty/typesafe-query-keys',
     website: 'https://github.com/frstycodes/typesafe-query-keys#readme',
+  },
+  source: {
+    github: 'frstycodes/typesafe-query-keys',
+    npm: '@frsty/typesafe-query-keys',
   },
   stats: {
     stars: 8,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rolldown',
     'rolldown-plugin',
   ],
-  source: {
-    github: 'rolldown/rolldown-plugin-node-polyfills',
-    npm: '@rolldown/plugin-node-polyfills',
-  },
   links: {
     github: 'https://github.com/rolldown/rolldown-plugin-node-polyfills',
     npm: 'https://www.npmjs.com/package/@rolldown/plugin-node-polyfills',
     website: 'https://github.com/rolldown/rolldown-plugin-node-polyfills#readme',
+  },
+  source: {
+    github: 'rolldown/rolldown-plugin-node-polyfills',
+    npm: '@rolldown/plugin-node-polyfills',
   },
   stats: {
     stars: 35,

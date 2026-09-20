@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'server',
     'macro',
   ],
-  source: {
-    github: 'RoxaVN/vite-env-only',
-    npm: '@roxavn/vite-env-only',
-  },
   links: {
     github: 'https://github.com/RoxaVN/vite-env-only',
     npm: 'https://www.npmjs.com/package/@roxavn/vite-env-only',
     website: 'https://github.com/RoxaVN/vite-env-only#readme',
+  },
+  source: {
+    github: 'RoxaVN/vite-env-only',
+    npm: '@roxavn/vite-env-only',
   },
   stats: {
     stars: 0,

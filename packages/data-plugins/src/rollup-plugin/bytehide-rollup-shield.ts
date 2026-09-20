@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'obfuscation',
     'security',
   ],
-  source: {
-    npm: '@bytehide/rollup-shield',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@bytehide/rollup-shield',
+  },
+  source: {
+    npm: '@bytehide/rollup-shield',
   },
   stats: {
     stars: 0,

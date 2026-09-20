@@ -29,14 +29,14 @@ export default defineProjectMeta({
     'image preload',
     'vite multi page',
   ],
-  source: {
-    github: 'Effeilo/vite-plugin-preload-assets',
-    npm: 'vite-plugin-preload-assets',
-  },
   links: {
     github: 'https://github.com/Effeilo/vite-plugin-preload-assets',
     npm: 'https://www.npmjs.com/package/vite-plugin-preload-assets',
     website: 'https://github.com/Effeilo/vite-plugin-preload-assets',
+  },
+  source: {
+    github: 'Effeilo/vite-plugin-preload-assets',
+    npm: 'vite-plugin-preload-assets',
   },
   stats: {
     stars: 3,

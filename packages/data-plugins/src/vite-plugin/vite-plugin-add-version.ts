@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'liuhean2021/vite-plugin-add-version',
-    npm: 'vite-plugin-add-version',
-  },
   links: {
     github: 'https://github.com/liuhean2021/vite-plugin-add-version',
     npm: 'https://www.npmjs.com/package/vite-plugin-add-version',
     website: 'https://github.com/liuhean2021/vite-plugin-add-version#readme',
+  },
+  source: {
+    github: 'liuhean2021/vite-plugin-add-version',
+    npm: 'vite-plugin-add-version',
   },
   stats: {
     stars: 1,

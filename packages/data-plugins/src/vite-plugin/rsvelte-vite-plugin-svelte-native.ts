@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rust',
     'napi',
   ],
-  source: {
-    github: 'baseballyama/rsvelte',
-    npm: '@rsvelte/vite-plugin-svelte-native',
-  },
   links: {
     github: 'https://github.com/baseballyama/rsvelte',
     npm: 'https://www.npmjs.com/package/@rsvelte/vite-plugin-svelte-native',
     website: 'https://github.com/baseballyama/rsvelte/tree/main/apps/npm/vite-plugin-svelte-native#readme',
+  },
+  source: {
+    github: 'baseballyama/rsvelte',
+    npm: '@rsvelte/vite-plugin-svelte-native',
   },
   stats: {
     stars: 218,

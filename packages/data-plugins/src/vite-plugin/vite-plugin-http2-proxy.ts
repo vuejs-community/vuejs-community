@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'http2',
     'proxy',
   ],
-  source: {
-    github: 'swandir/vite-plugin-http2-proxy',
-    npm: 'vite-plugin-http2-proxy',
-  },
   links: {
     github: 'https://github.com/swandir/vite-plugin-http2-proxy',
     npm: 'https://www.npmjs.com/package/vite-plugin-http2-proxy',
     website: 'https://github.com/swandir/vite-plugin-http2-proxy',
+  },
+  source: {
+    github: 'swandir/vite-plugin-http2-proxy',
+    npm: 'vite-plugin-http2-proxy',
   },
   stats: {
     stars: 19,

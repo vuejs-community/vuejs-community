@@ -28,11 +28,11 @@ export default defineProjectMeta({
     'tencent-cos',
     'aliyun-oss',
   ],
-  source: {
-    npm: 'vite-plugin-cloud-upload',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-cloud-upload',
+  },
+  source: {
+    npm: 'vite-plugin-cloud-upload',
   },
   stats: {
     stars: 0,

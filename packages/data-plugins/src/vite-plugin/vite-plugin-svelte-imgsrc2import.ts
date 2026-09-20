@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'imgsrc2import',
     'convert',
   ],
-  source: {
-    github: 'main2018/npm-packages',
-    npm: 'vite-plugin-svelte-imgsrc2import',
-  },
   links: {
     github: 'https://github.com/main2018/npm-packages',
     npm: 'https://www.npmjs.com/package/vite-plugin-svelte-imgsrc2import',
     website: 'https://github.com/main2018/npm-packages/tree/main/vite-plugin-svelte-imgsrc2import',
+  },
+  source: {
+    github: 'main2018/npm-packages',
+    npm: 'vite-plugin-svelte-imgsrc2import',
   },
   stats: {
     stars: 0,

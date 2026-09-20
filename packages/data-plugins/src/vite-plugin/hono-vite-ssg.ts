@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'hono',
     'vite-plugin',
   ],
-  source: {
-    github: 'honojs/vite-plugins',
-    npm: '@hono/vite-ssg',
-  },
   links: {
     github: 'https://github.com/honojs/vite-plugins',
     npm: 'https://www.npmjs.com/package/@hono/vite-ssg',
     website: 'https://github.com/honojs/vite-plugins',
+  },
+  source: {
+    github: 'honojs/vite-plugins',
+    npm: '@hono/vite-ssg',
   },
   stats: {
     stars: 0,

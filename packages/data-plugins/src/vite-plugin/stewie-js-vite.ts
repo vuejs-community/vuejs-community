@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'cwins/stewie-js',
-    npm: '@stewie-js/vite',
-  },
   links: {
     github: 'https://github.com/cwins/stewie-js',
     npm: 'https://www.npmjs.com/package/@stewie-js/vite',
     website: 'https://github.com/cwins/stewie-js/tree/main/packages/vite#readme',
+  },
+  source: {
+    github: 'cwins/stewie-js',
+    npm: '@stewie-js/vite',
   },
   stats: {
     stars: 0,

@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'optimization',
     'web-development',
   ],
-  source: {
-    github: 'mustafadalga/remove-attr',
-    npm: 'remove-attr',
-  },
   links: {
     github: 'https://github.com/mustafadalga/remove-attr',
     npm: 'https://www.npmjs.com/package/remove-attr',
     website: 'https://github.com/mustafadalga/remove-attr#readme',
+  },
+  source: {
+    github: 'mustafadalga/remove-attr',
+    npm: 'remove-attr',
   },
   stats: {
     stars: 12,

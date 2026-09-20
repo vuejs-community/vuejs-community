@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'Sertriz/cyrene',
-    npm: '@cyrene/vite-plugin-cyr',
-  },
   links: {
     github: 'https://github.com/Sertriz/cyrene',
     npm: 'https://www.npmjs.com/package/@cyrene/vite-plugin-cyr',
     website: 'https://www.cyrenejs.com',
+  },
+  source: {
+    github: 'Sertriz/cyrene',
+    npm: '@cyrene/vite-plugin-cyr',
   },
   stats: {
     stars: 0,

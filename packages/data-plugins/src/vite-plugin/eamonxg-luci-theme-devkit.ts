@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'navigation-api',
   ],
-  source: {
-    github: 'eamonxg/luci-theme-devkit',
-    npm: '@eamonxg/luci-theme-devkit',
-  },
   links: {
     github: 'https://github.com/eamonxg/luci-theme-devkit',
     npm: 'https://www.npmjs.com/package/@eamonxg/luci-theme-devkit',
     website: 'https://github.com/eamonxg/luci-theme-devkit#readme',
+  },
+  source: {
+    github: 'eamonxg/luci-theme-devkit',
+    npm: '@eamonxg/luci-theme-devkit',
   },
   stats: {
     stars: 0,

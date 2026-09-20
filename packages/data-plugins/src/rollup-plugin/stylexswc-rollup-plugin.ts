@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'stylex',
     'swc',
   ],
-  source: {
-    github: 'Dwlad90/stylex-swc-plugin',
-    npm: '@stylexswc/rollup-plugin',
-  },
   links: {
     github: 'https://github.com/Dwlad90/stylex-swc-plugin',
     npm: 'https://www.npmjs.com/package/@stylexswc/rollup-plugin',
     website: 'https://github.com/Dwlad90/stylex-swc-plugin/tree/develop/packages/rollup-plugin#readme',
+  },
+  source: {
+    github: 'Dwlad90/stylex-swc-plugin',
+    npm: '@stylexswc/rollup-plugin',
   },
   stats: {
     stars: 110,

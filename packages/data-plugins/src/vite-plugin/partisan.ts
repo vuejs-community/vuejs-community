@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'dependency-indirection',
     'sanity',
   ],
-  source: {
-    github: 'rexxars/partisan',
-    npm: 'partisan',
-  },
   links: {
     github: 'https://github.com/rexxars/partisan',
     npm: 'https://www.npmjs.com/package/partisan',
     website: 'https://github.com/rexxars/partisan#readme',
+  },
+  source: {
+    github: 'rexxars/partisan',
+    npm: 'partisan',
   },
   stats: {
     stars: 0,

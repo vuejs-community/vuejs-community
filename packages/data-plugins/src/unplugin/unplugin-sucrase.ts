@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'wzc520pyfm/unplugin-sucrase',
-    npm: 'unplugin-sucrase',
-  },
   links: {
     github: 'https://github.com/wzc520pyfm/unplugin-sucrase',
     npm: 'https://www.npmjs.com/package/unplugin-sucrase',
     website: 'https://github.com/wzc520pyfm/unplugin-sucrase#readme',
+  },
+  source: {
+    github: 'wzc520pyfm/unplugin-sucrase',
+    npm: 'unplugin-sucrase',
   },
   stats: {
     stars: 1,

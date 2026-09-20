@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'minista',
   ],
-  source: {
-    github: 'qrac/minista',
-    npm: 'minista',
-  },
   links: {
     github: 'https://github.com/qrac/minista',
     npm: 'https://www.npmjs.com/package/minista',
     website: 'https://minista.qranoko.jp',
+  },
+  source: {
+    github: 'qrac/minista',
+    npm: 'minista',
   },
   stats: {
     stars: 0,

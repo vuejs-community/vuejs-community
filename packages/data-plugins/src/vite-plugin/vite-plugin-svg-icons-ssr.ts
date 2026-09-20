@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'sprite',
     'svgo',
   ],
-  source: {
-    github: 'lip8up/vite-plugin-svg-icons-ssr',
-    npm: 'vite-plugin-svg-icons-ssr',
-  },
   links: {
     github: 'https://github.com/lip8up/vite-plugin-svg-icons-ssr',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-icons-ssr',
     website: 'https://github.com/lip8up/vite-plugin-svg-icons-ssr/tree/main/#readme',
+  },
+  source: {
+    github: 'lip8up/vite-plugin-svg-icons-ssr',
+    npm: 'vite-plugin-svg-icons-ssr',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vue',
   ],
-  source: {
-    github: 'vuejs/rollup-plugin-vue',
-    npm: 'adi-proxy-rollup-plugin-vue',
-  },
   links: {
     github: 'https://github.com/vuejs/rollup-plugin-vue',
     npm: 'https://www.npmjs.com/package/adi-proxy-rollup-plugin-vue',
     website: 'https://github.com/vuejs/rollup-plugin-vue#readme',
+  },
+  source: {
+    github: 'vuejs/rollup-plugin-vue',
+    npm: 'adi-proxy-rollup-plugin-vue',
   },
   stats: {
     stars: 841,

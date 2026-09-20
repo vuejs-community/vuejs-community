@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'whatasoda/soda-gql',
-    npm: '@soda-gql/vite-plugin',
-  },
   links: {
     github: 'https://github.com/whatasoda/soda-gql',
     npm: 'https://www.npmjs.com/package/@soda-gql/vite-plugin',
     website: 'https://github.com/whatasoda/soda-gql#readme',
+  },
+  source: {
+    github: 'whatasoda/soda-gql',
+    npm: '@soda-gql/vite-plugin',
   },
   stats: {
     stars: 1,

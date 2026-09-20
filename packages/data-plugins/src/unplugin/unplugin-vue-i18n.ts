@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vue',
     'i18n',
   ],
-  source: {
-    npm: 'unplugin-vue-i18n',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-vue-i18n',
+  },
+  source: {
+    npm: 'unplugin-vue-i18n',
   },
   stats: {
     stars: 0,

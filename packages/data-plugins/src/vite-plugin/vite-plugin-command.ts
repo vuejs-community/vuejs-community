@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'emargareten/vite-plugin-command',
-    npm: 'vite-plugin-command',
-  },
   links: {
     github: 'https://github.com/emargareten/vite-plugin-command',
     npm: 'https://www.npmjs.com/package/vite-plugin-command',
     website: 'https://github.com/emargareten/vite-plugin-command#readme',
+  },
+  source: {
+    github: 'emargareten/vite-plugin-command',
+    npm: 'vite-plugin-command',
   },
   stats: {
     stars: 6,

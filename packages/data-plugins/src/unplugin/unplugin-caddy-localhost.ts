@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'cheezone/unplugin-caddy-localhost',
-    npm: 'unplugin-caddy-localhost',
-  },
   links: {
     github: 'https://github.com/cheezone/unplugin-caddy-localhost',
     npm: 'https://www.npmjs.com/package/unplugin-caddy-localhost',
     website: 'https://github.com/cheezone/unplugin-caddy-localhost#readme',
+  },
+  source: {
+    github: 'cheezone/unplugin-caddy-localhost',
+    npm: 'unplugin-caddy-localhost',
   },
   stats: {
     stars: 0,

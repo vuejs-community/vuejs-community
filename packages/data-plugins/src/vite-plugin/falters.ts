@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'nextjs',
     'dev-tools',
   ],
-  source: {
-    github: 'drewkwak/falter',
-    npm: 'falters',
-  },
   links: {
     github: 'https://github.com/drewkwak/falter',
     npm: 'https://www.npmjs.com/package/falters',
     website: 'https://github.com/drewkwak/falter#readme',
+  },
+  source: {
+    github: 'drewkwak/falter',
+    npm: 'falters',
   },
   stats: {
     stars: 0,

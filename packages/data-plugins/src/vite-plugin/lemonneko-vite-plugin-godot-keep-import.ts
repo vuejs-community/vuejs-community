@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'godot',
     'game',
   ],
-  source: {
-    github: 'LemonnekoGH/vite-plugin-godot-keep-import',
-    npm: '@lemonneko/vite-plugin-godot-keep-import',
-  },
   links: {
     github: 'https://github.com/LemonnekoGH/vite-plugin-godot-keep-import',
     npm: 'https://www.npmjs.com/package/@lemonneko/vite-plugin-godot-keep-import',
     website: 'https://github.com/LemonnekoGH/vite-plugin-godot-keep-import',
+  },
+  source: {
+    github: 'LemonnekoGH/vite-plugin-godot-keep-import',
+    npm: '@lemonneko/vite-plugin-godot-keep-import',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'version',
     'vite-plugin',
   ],
-  source: {
-    github: 'elvinsun0826/vite-plugin-auto-version',
-    npm: 'vite-plugin-auto-version',
-  },
   links: {
     github: 'https://github.com/elvinsun0826/vite-plugin-auto-version',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-version',
     website: 'https://github.com/elvinsun0826/vite-plugin-auto-version#readme',
+  },
+  source: {
+    github: 'elvinsun0826/vite-plugin-auto-version',
+    npm: 'vite-plugin-auto-version',
   },
   stats: {
     stars: 0,

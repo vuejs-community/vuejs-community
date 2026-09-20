@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'performance',
     'profiler',
   ],
-  source: {
-    github: 'rayforvideos/react-perfscope',
-    npm: '@react-perfscope/vite',
-  },
   links: {
     github: 'https://github.com/rayforvideos/react-perfscope',
     npm: 'https://www.npmjs.com/package/@react-perfscope/vite',
     website: 'https://github.com/rayforvideos/react-perfscope#readme',
+  },
+  source: {
+    github: 'rayforvideos/react-perfscope',
+    npm: '@react-perfscope/vite',
   },
   stats: {
     stars: 2,

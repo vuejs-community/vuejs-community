@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'template',
   ],
-  source: {
-    github: 'differui/rollup-plugin-tpl',
-    npm: 'rollup-plugin-tpl',
-  },
   links: {
     github: 'https://github.com/differui/rollup-plugin-tpl',
     npm: 'https://www.npmjs.com/package/rollup-plugin-tpl',
     website: 'https://github.com/differui/rollup-plugin-tpl#readme',
+  },
+  source: {
+    github: 'differui/rollup-plugin-tpl',
+    npm: 'rollup-plugin-tpl',
   },
   stats: {
     stars: 0,

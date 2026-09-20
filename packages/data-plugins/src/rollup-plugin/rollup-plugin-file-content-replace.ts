@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'adesca/rollup-plugin-file-content-replace',
-    npm: 'rollup-plugin-file-content-replace',
-  },
   links: {
     github: 'https://github.com/adesca/rollup-plugin-file-content-replace',
     npm: 'https://www.npmjs.com/package/rollup-plugin-file-content-replace',
     website: 'https://github.com/adesca/rollup-plugin-file-content-replace#readme',
+  },
+  source: {
+    github: 'adesca/rollup-plugin-file-content-replace',
+    npm: 'rollup-plugin-file-content-replace',
   },
   stats: {
     stars: 0,

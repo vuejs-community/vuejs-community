@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'biw/vite-plugin-native-modules',
-    npm: 'vite-plugin-native-modules',
-  },
   links: {
     github: 'https://github.com/biw/vite-plugin-native-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-native-modules',
     website: 'https://github.com/biw/vite-plugin-native-modules',
+  },
+  source: {
+    github: 'biw/vite-plugin-native-modules',
+    npm: 'vite-plugin-native-modules',
   },
   stats: {
     stars: 8,

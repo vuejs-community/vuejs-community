@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'folder',
     'index',
   ],
-  source: {
-    github: 'frostney/rollup-plugin-local-resolve',
-    npm: 'rollup-plugin-local-resolve',
-  },
   links: {
     github: 'https://github.com/frostney/rollup-plugin-local-resolve',
     npm: 'https://www.npmjs.com/package/rollup-plugin-local-resolve',
     website: 'https://github.com/frostney/rollup-plugin-local-resolve#readme',
+  },
+  source: {
+    github: 'frostney/rollup-plugin-local-resolve',
+    npm: 'rollup-plugin-local-resolve',
   },
   stats: {
     stars: 7,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'response',
     'slow',
   ],
-  source: {
-    github: 'Soviut/vite-plugin-slow-response',
-    npm: 'vite-plugin-slow-response',
-  },
   links: {
     github: 'https://github.com/Soviut/vite-plugin-slow-response',
     npm: 'https://www.npmjs.com/package/vite-plugin-slow-response',
     website: 'https://github.com/Soviut/vite-plugin-slow-response#readme',
+  },
+  source: {
+    github: 'Soviut/vite-plugin-slow-response',
+    npm: 'vite-plugin-slow-response',
   },
   stats: {
     stars: 1,

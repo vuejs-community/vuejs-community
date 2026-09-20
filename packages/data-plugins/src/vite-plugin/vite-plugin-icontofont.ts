@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'icon',
     'iconfont',
   ],
-  source: {
-    npm: 'vite-plugin-icontofont',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-icontofont',
+  },
+  source: {
+    npm: 'vite-plugin-icontofont',
   },
   stats: {
     stars: 0,

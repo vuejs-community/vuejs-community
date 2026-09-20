@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'webpack',
   ],
-  source: {
-    github: 'conciv-dev/conciv',
-    npm: '@conciv/plugin',
-  },
   links: {
     github: 'https://github.com/conciv-dev/conciv',
     npm: 'https://www.npmjs.com/package/@conciv/plugin',
     website: 'https://conciv.dev',
+  },
+  source: {
+    github: 'conciv-dev/conciv',
+    npm: '@conciv/plugin',
   },
   stats: {
     stars: 0,

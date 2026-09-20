@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'hmr',
     'vite-plugin',
   ],
-  source: {
-    github: 'madenowhere/phaze',
-    npm: '@madenowhere/phaze-vite',
-  },
   links: {
     github: 'https://github.com/madenowhere/phaze',
     npm: 'https://www.npmjs.com/package/@madenowhere/phaze-vite',
     website: 'https://phaze.build',
+  },
+  source: {
+    github: 'madenowhere/phaze',
+    npm: '@madenowhere/phaze-vite',
   },
   stats: {
     stars: 0,

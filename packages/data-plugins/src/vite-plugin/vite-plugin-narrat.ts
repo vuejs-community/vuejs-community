@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'narrat',
     'game',
   ],
-  source: {
-    npm: 'vite-plugin-narrat',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-narrat',
     website: 'https://narrat.dev',
+  },
+  source: {
+    npm: 'vite-plugin-narrat',
   },
   stats: {
     stars: 0,

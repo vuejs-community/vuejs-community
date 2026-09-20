@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'mini-program',
     'react',
   ],
-  source: {
-    github: 'sep2/vite-plugin-taro',
-    npm: 'vite-plugin-taro',
-  },
   links: {
     github: 'https://github.com/sep2/vite-plugin-taro',
     npm: 'https://www.npmjs.com/package/vite-plugin-taro',
     website: 'https://vpt.js.org',
+  },
+  source: {
+    github: 'sep2/vite-plugin-taro',
+    npm: 'vite-plugin-taro',
   },
   stats: {
     stars: 51,

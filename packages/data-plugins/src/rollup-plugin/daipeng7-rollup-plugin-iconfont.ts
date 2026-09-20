@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'scss',
     'rollup-plugin',
   ],
-  source: {
-    github: 'daipeng7/rollup-plugin-iconfont',
-    npm: '@daipeng7/rollup-plugin-iconfont',
-  },
   links: {
     github: 'https://github.com/daipeng7/rollup-plugin-iconfont',
     npm: 'https://www.npmjs.com/package/@daipeng7/rollup-plugin-iconfont',
     website: 'https://github.com/daipeng7/rollup-plugin-iconfont#readme',
+  },
+  source: {
+    github: 'daipeng7/rollup-plugin-iconfont',
+    npm: '@daipeng7/rollup-plugin-iconfont',
   },
   stats: {
     stars: 2,

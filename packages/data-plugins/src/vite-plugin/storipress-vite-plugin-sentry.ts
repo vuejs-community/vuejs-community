@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'sentry-cli',
     'sourcemap',
   ],
-  source: {
-    github: 'storipress/vite-plugin-sentry',
-    npm: '@storipress/vite-plugin-sentry',
-  },
   links: {
     github: 'https://github.com/storipress/vite-plugin-sentry',
     npm: 'https://www.npmjs.com/package/@storipress/vite-plugin-sentry',
     website: 'https://github.com/storipress/vite-plugin-sentry',
+  },
+  source: {
+    github: 'storipress/vite-plugin-sentry',
+    npm: '@storipress/vite-plugin-sentry',
   },
   stats: {
     stars: 0,

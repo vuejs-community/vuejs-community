@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'upload',
     'tencentcloud',
   ],
-  source: {
-    github: 'yourusername/rum-sourcemap-plugin',
-    npm: 'rum-sourcemap-plugin',
-  },
   links: {
     github: 'https://github.com/yourusername/rum-sourcemap-plugin',
     npm: 'https://www.npmjs.com/package/rum-sourcemap-plugin',
     website: 'https://github.com/yourusername/rum-sourcemap-plugin#readme',
+  },
+  source: {
+    github: 'yourusername/rum-sourcemap-plugin',
+    npm: 'rum-sourcemap-plugin',
   },
   stats: {
     stars: 0,

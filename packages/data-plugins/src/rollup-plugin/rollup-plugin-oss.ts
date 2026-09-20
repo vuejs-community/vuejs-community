@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'license',
     'oss',
   ],
-  source: {
-    github: 'ameinhardt/rollup-plugin-oss',
-    npm: 'rollup-plugin-oss',
-  },
   links: {
     github: 'https://github.com/ameinhardt/rollup-plugin-oss',
     npm: 'https://www.npmjs.com/package/rollup-plugin-oss',
     website: 'https://github.com/ameinhardt/rollup-plugin-oss#readme',
+  },
+  source: {
+    github: 'ameinhardt/rollup-plugin-oss',
+    npm: 'rollup-plugin-oss',
   },
   stats: {
     stars: 2,

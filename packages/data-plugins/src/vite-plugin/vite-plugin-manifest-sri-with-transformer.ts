@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vitejs',
     'plugin',
   ],
-  source: {
-    github: 'AlexMeuer/vite-plugin-manifest-sri',
-    npm: 'vite-plugin-manifest-sri-with-transformer',
-  },
   links: {
     github: 'https://github.com/AlexMeuer/vite-plugin-manifest-sri',
     npm: 'https://www.npmjs.com/package/vite-plugin-manifest-sri-with-transformer',
     website: 'https://github.com/AlexMeuer/vite-plugin-manifest-sri',
+  },
+  source: {
+    github: 'AlexMeuer/vite-plugin-manifest-sri',
+    npm: 'vite-plugin-manifest-sri-with-transformer',
   },
   stats: {
     stars: 0,

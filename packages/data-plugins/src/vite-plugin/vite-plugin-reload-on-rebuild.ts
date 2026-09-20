@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'reload',
     'watch',
   ],
-  source: {
-    github: 'crutch12/vite-plugin-reload-on-rebuild',
-    npm: 'vite-plugin-reload-on-rebuild',
-  },
   links: {
     github: 'https://github.com/crutch12/vite-plugin-reload-on-rebuild',
     npm: 'https://www.npmjs.com/package/vite-plugin-reload-on-rebuild',
     website: 'https://github.com/crutch12/vite-plugin-reload-on-rebuild#readme',
+  },
+  source: {
+    github: 'crutch12/vite-plugin-reload-on-rebuild',
+    npm: 'vite-plugin-reload-on-rebuild',
   },
   stats: {
     stars: 0,

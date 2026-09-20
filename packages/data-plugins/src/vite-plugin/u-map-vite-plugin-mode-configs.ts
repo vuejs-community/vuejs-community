@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'runtime-config',
   ],
-  source: {
-    npm: '@u-map/vite-plugin-mode-configs',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@u-map/vite-plugin-mode-configs',
+  },
+  source: {
+    npm: '@u-map/vite-plugin-mode-configs',
   },
   stats: {
     stars: 0,

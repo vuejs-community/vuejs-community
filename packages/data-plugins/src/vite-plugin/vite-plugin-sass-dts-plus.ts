@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'generics',
     'cssmodules',
   ],
-  source: {
-    github: 'activeguild/vite-plugin-sass-dts',
-    npm: 'vite-plugin-sass-dts-plus',
-  },
   links: {
     github: 'https://github.com/activeguild/vite-plugin-sass-dts',
     npm: 'https://www.npmjs.com/package/vite-plugin-sass-dts-plus',
     website: 'https://github.com/activeguild/vite-plugin-sass-dts#readme',
+  },
+  source: {
+    github: 'activeguild/vite-plugin-sass-dts',
+    npm: 'vite-plugin-sass-dts-plus',
   },
   stats: {
     stars: 133,

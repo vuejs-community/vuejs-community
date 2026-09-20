@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'acusti/uikit',
-    npm: '@acusti/vite-plugin-svg-react',
-  },
   links: {
     github: 'https://github.com/acusti/uikit',
     npm: 'https://www.npmjs.com/package/@acusti/vite-plugin-svg-react',
     website: 'https://github.com/acusti/uikit/tree/main/packages/vite-plugin-svg-react#readme',
+  },
+  source: {
+    github: 'acusti/uikit',
+    npm: '@acusti/vite-plugin-svg-react',
   },
   stats: {
     stars: 0,

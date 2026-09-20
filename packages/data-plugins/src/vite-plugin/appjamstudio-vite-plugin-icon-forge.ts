@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'svg-components',
     'vite',
   ],
-  source: {
-    github: 'appjamstudio/vite-plugin-icon-forge',
-    npm: '@appjamstudio/vite-plugin-icon-forge',
-  },
   links: {
     github: 'https://github.com/appjamstudio/vite-plugin-icon-forge',
     npm: 'https://www.npmjs.com/package/@appjamstudio/vite-plugin-icon-forge',
     website: 'https://github.com/appjamstudio/vite-plugin-icon-forge#readme',
+  },
+  source: {
+    github: 'appjamstudio/vite-plugin-icon-forge',
+    npm: '@appjamstudio/vite-plugin-icon-forge',
   },
   stats: {
     stars: 0,

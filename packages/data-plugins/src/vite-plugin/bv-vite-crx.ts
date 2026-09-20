@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'chrome extension',
   ],
-  source: {
-    npm: 'bv-vite-crx',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/bv-vite-crx',
+  },
+  source: {
+    npm: 'bv-vite-crx',
   },
   stats: {
     stars: 0,

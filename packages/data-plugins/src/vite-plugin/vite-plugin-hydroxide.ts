@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'hydroxide',
   ],
-  source: {
-    npm: 'vite-plugin-hydroxide',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-hydroxide',
+  },
+  source: {
+    npm: 'vite-plugin-hydroxide',
   },
   stats: {
     stars: 0,

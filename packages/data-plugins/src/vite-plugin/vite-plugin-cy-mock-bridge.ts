@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'mock',
   ],
-  source: {
-    npm: 'vite-plugin-cy-mock-bridge',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-cy-mock-bridge',
+  },
+  source: {
+    npm: 'vite-plugin-cy-mock-bridge',
   },
   stats: {
     stars: 0,

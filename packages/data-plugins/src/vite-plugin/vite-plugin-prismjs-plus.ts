@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'themes',
     'plugins',
   ],
-  source: {
-    github: 'hex-ci/vite-plugin-prismjs-plus',
-    npm: 'vite-plugin-prismjs-plus',
-  },
   links: {
     github: 'https://github.com/hex-ci/vite-plugin-prismjs-plus',
     npm: 'https://www.npmjs.com/package/vite-plugin-prismjs-plus',
     website: 'https://github.com/hex-ci/vite-plugin-prismjs-plus',
+  },
+  source: {
+    github: 'hex-ci/vite-plugin-prismjs-plus',
+    npm: 'vite-plugin-prismjs-plus',
   },
   stats: {
     stars: 2,

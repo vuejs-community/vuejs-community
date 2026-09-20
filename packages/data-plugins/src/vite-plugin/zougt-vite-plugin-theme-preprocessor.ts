@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'stylus',
     'preprocessor',
   ],
-  source: {
-    github: 'GitOfZGT/vite-plugin-theme-preprocessor',
-    npm: '@zougt/vite-plugin-theme-preprocessor',
-  },
   links: {
     github: 'https://github.com/GitOfZGT/vite-plugin-theme-preprocessor',
     npm: 'https://www.npmjs.com/package/@zougt/vite-plugin-theme-preprocessor',
     website: 'https://github.com/GitOfZGT/vite-plugin-theme-preprocessor',
+  },
+  source: {
+    github: 'GitOfZGT/vite-plugin-theme-preprocessor',
+    npm: '@zougt/vite-plugin-theme-preprocessor',
   },
   stats: {
     stars: 0,

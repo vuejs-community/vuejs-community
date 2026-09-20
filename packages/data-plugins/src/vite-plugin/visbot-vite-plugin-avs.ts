@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'webvs',
     'winamp',
   ],
-  source: {
-    github: 'visbot/vite-plugin-avs',
-    npm: '@visbot/vite-plugin-avs',
-  },
   links: {
     github: 'https://github.com/visbot/vite-plugin-avs',
     npm: 'https://www.npmjs.com/package/@visbot/vite-plugin-avs',
     website: 'https://github.com/visbot/vite-plugin-avs#readme',
+  },
+  source: {
+    github: 'visbot/vite-plugin-avs',
+    npm: '@visbot/vite-plugin-avs',
   },
   stats: {
     stars: 0,

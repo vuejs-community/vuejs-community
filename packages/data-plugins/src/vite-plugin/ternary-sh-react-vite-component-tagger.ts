@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'react',
     'ternary',
   ],
-  source: {
-    npm: '@ternary-sh/react-vite-component-tagger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ternary-sh/react-vite-component-tagger',
+  },
+  source: {
+    npm: '@ternary-sh/react-vite-component-tagger',
   },
   stats: {
     stars: 0,

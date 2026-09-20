@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'iconify',
     'tanstack-intent',
   ],
-  source: {
-    github: 'stephansama/packages',
-    npm: '@stephansama/astro-iconify-svgmap',
-  },
   links: {
     github: 'https://github.com/stephansama/packages',
     npm: 'https://www.npmjs.com/package/@stephansama/astro-iconify-svgmap',
     website: 'https://packages.stephansama.info/api/@stephansama/astro-iconify-svgmap',
+  },
+  source: {
+    github: 'stephansama/packages',
+    npm: '@stephansama/astro-iconify-svgmap',
   },
   stats: {
     stars: 5,

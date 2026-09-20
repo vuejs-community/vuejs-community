@@ -65,14 +65,14 @@ export default defineProjectMeta({
     'vite-plugin-compression2',
     'html-minifier-terser',
   ],
-  source: {
-    github: 'bddjr/vite-plugin-singlefile-compression',
-    npm: 'vite-plugin-singlefile-compression',
-  },
   links: {
     github: 'https://github.com/bddjr/vite-plugin-singlefile-compression',
     npm: 'https://www.npmjs.com/package/vite-plugin-singlefile-compression',
     website: 'https://bddjr.github.io/vite-plugin-singlefile-compression/#/',
+  },
+  source: {
+    github: 'bddjr/vite-plugin-singlefile-compression',
+    npm: 'vite-plugin-singlefile-compression',
   },
   stats: {
     stars: 12,

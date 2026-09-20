@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'Moment',
     'ant-design-vue',
   ],
-  source: {
-    github: 'jinxinkai/vite-plugin-antd-dayjs',
-    npm: 'vite-plugin-antd-dayjs',
-  },
   links: {
     github: 'https://github.com/jinxinkai/vite-plugin-antd-dayjs',
     npm: 'https://www.npmjs.com/package/vite-plugin-antd-dayjs',
     website: 'https://github.com/MillyTang/vite-plugin-vue-antd-dayjs',
+  },
+  source: {
+    github: 'jinxinkai/vite-plugin-antd-dayjs',
+    npm: 'vite-plugin-antd-dayjs',
   },
   stats: {
     stars: 0,

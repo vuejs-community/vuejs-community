@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'minify',
     'inline',
   ],
-  source: {
-    github: 'prantlf/rollup-copy-transform-css',
-    npm: 'rollup-copy-transform-css',
-  },
   links: {
     github: 'https://github.com/prantlf/rollup-copy-transform-css',
     npm: 'https://www.npmjs.com/package/rollup-copy-transform-css',
     website: 'http://github.com/prantlf/rollup-copy-transform-css/',
+  },
+  source: {
+    github: 'prantlf/rollup-copy-transform-css',
+    npm: 'rollup-copy-transform-css',
   },
   stats: {
     stars: 1,

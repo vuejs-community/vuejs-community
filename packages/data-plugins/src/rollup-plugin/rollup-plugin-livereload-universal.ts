@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'reload',
     'livereload',
   ],
-  source: {
-    github: 'mrnateriver/rollup-plugin-livereload-universal',
-    npm: 'rollup-plugin-livereload-universal',
-  },
   links: {
     github: 'https://github.com/mrnateriver/rollup-plugin-livereload-universal',
     npm: 'https://www.npmjs.com/package/rollup-plugin-livereload-universal',
     website: 'https://github.com/mrnateriver/rollup-plugin-livereload-universal',
+  },
+  source: {
+    github: 'mrnateriver/rollup-plugin-livereload-universal',
+    npm: 'rollup-plugin-livereload-universal',
   },
   stats: {
     stars: 0,

@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'devtools',
     'translations',
   ],
-  source: {
-    github: 'brikalabs/brika',
-    npm: '@brika/i18n-devtools',
-  },
   links: {
     github: 'https://github.com/brikalabs/brika',
     npm: 'https://www.npmjs.com/package/@brika/i18n-devtools',
+  },
+  source: {
+    github: 'brikalabs/brika',
+    npm: '@brika/i18n-devtools',
   },
   stats: {
     stars: 3,

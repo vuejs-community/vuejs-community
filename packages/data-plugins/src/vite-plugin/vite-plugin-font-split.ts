@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'woff2',
     'font-split',
   ],
-  source: {
-    github: 'illusionGD/vite-plugin-font-split',
-    npm: 'vite-plugin-font-split',
-  },
   links: {
     github: 'https://github.com/illusionGD/vite-plugin-font-split',
     npm: 'https://www.npmjs.com/package/vite-plugin-font-split',
     website: 'https://github.com/illusionGD/vite-plugin-font-split#readme',
+  },
+  source: {
+    github: 'illusionGD/vite-plugin-font-split',
+    npm: 'vite-plugin-font-split',
   },
   stats: {
     stars: 0,

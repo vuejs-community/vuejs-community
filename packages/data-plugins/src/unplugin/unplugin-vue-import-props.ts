@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'defineProps',
     'typescript',
   ],
-  source: {
-    github: 'liulinboyi/unplugin-vue-import-props',
-    npm: 'unplugin-vue-import-props',
-  },
   links: {
     github: 'https://github.com/liulinboyi/unplugin-vue-import-props',
     npm: 'https://www.npmjs.com/package/unplugin-vue-import-props',
     website: 'https://github.com/liulinboyi/unplugin-vue-import-props',
+  },
+  source: {
+    github: 'liulinboyi/unplugin-vue-import-props',
+    npm: 'unplugin-vue-import-props',
   },
   stats: {
     stars: 26,

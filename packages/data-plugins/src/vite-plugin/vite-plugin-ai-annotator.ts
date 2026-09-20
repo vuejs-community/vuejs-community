@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'frontend',
     'nuxt',
   ],
-  source: {
-    github: 'nguyenvanduocit/vite-plugin-ai-annotator',
-    npm: 'vite-plugin-ai-annotator',
-  },
   links: {
     github: 'https://github.com/nguyenvanduocit/vite-plugin-ai-annotator',
     npm: 'https://www.npmjs.com/package/vite-plugin-ai-annotator',
     website: 'https://github.com/nguyenvanduocit/vite-plugin-ai-annotator#readme',
+  },
+  source: {
+    github: 'nguyenvanduocit/vite-plugin-ai-annotator',
+    npm: 'vite-plugin-ai-annotator',
   },
   stats: {
     stars: 8,

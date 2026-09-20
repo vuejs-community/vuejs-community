@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    npm: 'unplugin-icons-helper',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-icons-helper',
+  },
+  source: {
+    npm: 'unplugin-icons-helper',
   },
   stats: {
     stars: 0,

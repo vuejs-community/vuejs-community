@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'ILikeMintChocolate/vite-plugin-import-svg',
-    npm: 'vite-plugin-import-svg',
-  },
   links: {
     github: 'https://github.com/ILikeMintChocolate/vite-plugin-import-svg',
     npm: 'https://www.npmjs.com/package/vite-plugin-import-svg',
     website: 'https://github.com/ILikeMintChocolate/vite-plugin-import-svg#readme',
+  },
+  source: {
+    github: 'ILikeMintChocolate/vite-plugin-import-svg',
+    npm: 'vite-plugin-import-svg',
   },
   stats: {
     stars: 1,

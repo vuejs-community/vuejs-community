@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'i18n-qa',
     'translation-quality',
   ],
-  source: {
-    github: 'Shipi18n/shipi18n',
-    npm: 'vite-plugin-shipi18n',
-  },
   links: {
     github: 'https://github.com/Shipi18n/shipi18n',
     npm: 'https://www.npmjs.com/package/vite-plugin-shipi18n',
     website: 'https://github.com/Shipi18n/shipi18n#readme',
+  },
+  source: {
+    github: 'Shipi18n/shipi18n',
+    npm: 'vite-plugin-shipi18n',
   },
   stats: {
     stars: 0,

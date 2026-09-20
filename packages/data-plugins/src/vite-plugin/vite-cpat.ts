@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-cpat',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-cpat',
+  },
+  source: {
+    npm: 'vite-cpat',
   },
   stats: {
     stars: 0,

@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'brotli',
     'gzip',
   ],
-  source: {
-    github: 'pfaciana/rollup-plugin-filesize-gzbr',
-    npm: 'rollup-plugin-filesize-gzbr',
-  },
   links: {
     github: 'https://github.com/pfaciana/rollup-plugin-filesize-gzbr',
     npm: 'https://www.npmjs.com/package/rollup-plugin-filesize-gzbr',
     website: 'https://github.com/pfaciana/rollup-plugin-filesize-gzbr',
+  },
+  source: {
+    github: 'pfaciana/rollup-plugin-filesize-gzbr',
+    npm: 'rollup-plugin-filesize-gzbr',
   },
   stats: {
     stars: 0,

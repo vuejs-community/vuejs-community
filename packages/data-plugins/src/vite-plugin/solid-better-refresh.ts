@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'babel-plugin',
     'developer-experience',
   ],
-  source: {
-    npm: 'solid-better-refresh',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/solid-better-refresh',
+  },
+  source: {
+    npm: 'solid-better-refresh',
   },
   stats: {
     stars: 0,

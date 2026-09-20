@@ -28,14 +28,14 @@ export default defineProjectMeta({
     'typescript',
     'solid',
   ],
-  source: {
-    github: 'samrum/create-vite-plugin-web-extension',
-    npm: '@samrum/create-vite-plugin-web-extension',
-  },
   links: {
     github: 'https://github.com/samrum/create-vite-plugin-web-extension',
     npm: 'https://www.npmjs.com/package/@samrum/create-vite-plugin-web-extension',
     website: 'https://github.com/samrum/create-vite-plugin-web-extension#readme',
+  },
+  source: {
+    github: 'samrum/create-vite-plugin-web-extension',
+    npm: '@samrum/create-vite-plugin-web-extension',
   },
   stats: {
     stars: 44,

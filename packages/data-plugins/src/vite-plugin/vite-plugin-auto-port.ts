@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'port-detection',
     'port-increment',
   ],
-  source: {
-    github: 'GongTengXY/vite-plugin-auto-port',
-    npm: 'vite-plugin-auto-port',
-  },
   links: {
     github: 'https://github.com/GongTengXY/vite-plugin-auto-port',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-port',
     website: 'https://github.com/GongTengXY/vite-plugin-auto-port#readme',
+  },
+  source: {
+    github: 'GongTengXY/vite-plugin-auto-port',
+    npm: 'vite-plugin-auto-port',
   },
   stats: {
     stars: 0,

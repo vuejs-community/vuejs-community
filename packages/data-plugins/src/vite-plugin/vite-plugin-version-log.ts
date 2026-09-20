@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'version',
     'git',
   ],
-  source: {
-    npm: 'vite-plugin-version-log',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-version-log',
+  },
+  source: {
+    npm: 'vite-plugin-version-log',
   },
   stats: {
     stars: 0,

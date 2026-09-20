@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'glsl',
     'plugin',
   ],
-  source: {
-    github: 'epreston/rollup-shader-chunks',
-    npm: 'rollup-shader-chunks',
-  },
   links: {
     github: 'https://github.com/epreston/rollup-shader-chunks',
     npm: 'https://www.npmjs.com/package/rollup-shader-chunks',
     website: 'https://github.com/epreston/rollup-shader-chunks#readme',
+  },
+  source: {
+    github: 'epreston/rollup-shader-chunks',
+    npm: 'rollup-shader-chunks',
   },
   stats: {
     stars: 1,

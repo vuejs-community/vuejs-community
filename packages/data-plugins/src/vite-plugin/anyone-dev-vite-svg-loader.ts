@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vue',
     'svg',
   ],
-  source: {
-    github: 'jpkleemans/vite-svg-loader',
-    npm: '@anyone-dev/vite-svg-loader',
-  },
   links: {
     github: 'https://github.com/jpkleemans/vite-svg-loader',
     npm: 'https://www.npmjs.com/package/@anyone-dev/vite-svg-loader',
     website: 'https://github.com/jpkleemans/vite-svg-loader#readme',
+  },
+  source: {
+    github: 'jpkleemans/vite-svg-loader',
+    npm: '@anyone-dev/vite-svg-loader',
   },
   stats: {
     stars: 701,

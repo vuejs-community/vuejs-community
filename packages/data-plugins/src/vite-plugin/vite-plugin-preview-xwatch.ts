@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rebuild',
     'live-reload',
   ],
-  source: {
-    github: 'cromat/vite-plugin-preview-xwatch',
-    npm: 'vite-plugin-preview-xwatch',
-  },
   links: {
     github: 'https://github.com/cromat/vite-plugin-preview-xwatch',
     npm: 'https://www.npmjs.com/package/vite-plugin-preview-xwatch',
     website: 'https://github.com/cromat/vite-plugin-preview-xwatch#readme',
+  },
+  source: {
+    github: 'cromat/vite-plugin-preview-xwatch',
+    npm: 'vite-plugin-preview-xwatch',
   },
   stats: {
     stars: 0,

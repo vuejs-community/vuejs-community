@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'bundler',
     'compressing',
   ],
-  source: {
-    github: 'laibin-wang/vite-plugin-pack-info',
-    npm: 'vite-plugin-pack-info',
-  },
   links: {
     github: 'https://github.com/laibin-wang/vite-plugin-pack-info',
     npm: 'https://www.npmjs.com/package/vite-plugin-pack-info',
     website: 'https://github.com/laibin-wang/vite-plugin-pack-info#readme',
+  },
+  source: {
+    github: 'laibin-wang/vite-plugin-pack-info',
+    npm: 'vite-plugin-pack-info',
   },
   stats: {
     stars: 0,

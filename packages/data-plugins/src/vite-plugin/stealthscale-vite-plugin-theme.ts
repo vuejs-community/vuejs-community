@@ -16,13 +16,13 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'stealth-scale/config',
-    npm: '@stealthscale/vite-plugin-theme',
-  },
   links: {
     github: 'https://github.com/stealth-scale/config',
     npm: 'https://www.npmjs.com/package/@stealthscale/vite-plugin-theme',
     website: 'https://github.com/stealth-scale/config/tree/main/packages/vite-plugin-theme#readme',
+  },
+  source: {
+    github: 'stealth-scale/config',
+    npm: '@stealthscale/vite-plugin-theme',
   },
 })

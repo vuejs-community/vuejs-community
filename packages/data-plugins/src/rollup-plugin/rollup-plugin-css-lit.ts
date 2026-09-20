@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'fast-element',
     'css',
   ],
-  source: {
-    github: 'prantlf/rollup-plugin-css-lit',
-    npm: 'rollup-plugin-css-lit',
-  },
   links: {
     github: 'https://github.com/prantlf/rollup-plugin-css-lit',
     npm: 'https://www.npmjs.com/package/rollup-plugin-css-lit',
     website: 'http://github.com/prantlf/rollup-plugin-css-lit/',
+  },
+  source: {
+    github: 'prantlf/rollup-plugin-css-lit',
+    npm: 'rollup-plugin-css-lit',
   },
   stats: {
     stars: 3,

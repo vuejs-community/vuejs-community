@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'unplugin/unplugin-unused',
-    npm: 'unplugin-unused',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-unused',
     npm: 'https://www.npmjs.com/package/unplugin-unused',
     website: 'https://github.com/unplugin/unplugin-unused#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-unused',
+    npm: 'unplugin-unused',
   },
   stats: {
     stars: 111,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'a11y',
     'testing',
   ],
-  source: {
-    github: 'wk13eagle/vite-plugin-auto-testid',
-    npm: '@lazy-koala/vite-plugin-auto-testid',
-  },
   links: {
     github: 'https://github.com/wk13eagle/vite-plugin-auto-testid',
     npm: 'https://www.npmjs.com/package/@lazy-koala/vite-plugin-auto-testid',
     website: 'https://github.com/wk13eagle/vite-plugin-auto-testid#readme',
+  },
+  source: {
+    github: 'wk13eagle/vite-plugin-auto-testid',
+    npm: '@lazy-koala/vite-plugin-auto-testid',
   },
   stats: {
     stars: 0,

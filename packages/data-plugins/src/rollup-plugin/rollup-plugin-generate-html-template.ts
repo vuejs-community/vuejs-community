@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'html',
     'template',
   ],
-  source: {
-    github: 'bengsfort/rollup-plugin-generate-html-template',
-    npm: 'rollup-plugin-generate-html-template',
-  },
   links: {
     github: 'https://github.com/bengsfort/rollup-plugin-generate-html-template',
     npm: 'https://www.npmjs.com/package/rollup-plugin-generate-html-template',
     website: 'https://github.com/bengsfort/rollup-plugin-generate-html-template#readme',
+  },
+  source: {
+    github: 'bengsfort/rollup-plugin-generate-html-template',
+    npm: 'rollup-plugin-generate-html-template',
   },
   stats: {
     stars: 0,

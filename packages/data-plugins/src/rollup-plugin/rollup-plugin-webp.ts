@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'webp',
     'convert',
   ],
-  source: {
-    github: 'summershower/rollup-plugin-webp',
-    npm: 'rollup-plugin-webp',
-  },
   links: {
     github: 'https://github.com/summershower/rollup-plugin-webp',
     npm: 'https://www.npmjs.com/package/rollup-plugin-webp',
     website: 'https://github.com/summershower/rollup-plugin-webp#readme',
+  },
+  source: {
+    github: 'summershower/rollup-plugin-webp',
+    npm: 'rollup-plugin-webp',
   },
   stats: {
     stars: 0,

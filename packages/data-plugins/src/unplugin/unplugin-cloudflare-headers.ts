@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'cloudflare',
     'headers',
   ],
-  source: {
-    github: 'logotip4ik/unplugin-cloudflare-headers',
-    npm: 'unplugin-cloudflare-headers',
-  },
   links: {
     github: 'https://github.com/logotip4ik/unplugin-cloudflare-headers',
     npm: 'https://www.npmjs.com/package/unplugin-cloudflare-headers',
     website: 'https://github.com/logotip4ik/unplugin-cloudflare-headers#readme',
+  },
+  source: {
+    github: 'logotip4ik/unplugin-cloudflare-headers',
+    npm: 'unplugin-cloudflare-headers',
   },
   stats: {
     stars: 0,

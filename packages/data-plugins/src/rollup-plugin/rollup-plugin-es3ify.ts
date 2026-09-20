@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'es3ify',
   ],
-  source: {
-    github: 'sunbing81/rollup-plugin-es3ify',
-    npm: 'rollup-plugin-es3ify',
-  },
   links: {
     github: 'https://github.com/sunbing81/rollup-plugin-es3ify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-es3ify',
     website: 'https://github.com/sunbing81/rollup-plugin-es3ify#readme',
+  },
+  source: {
+    github: 'sunbing81/rollup-plugin-es3ify',
+    npm: 'rollup-plugin-es3ify',
   },
   stats: {
     stars: 2,

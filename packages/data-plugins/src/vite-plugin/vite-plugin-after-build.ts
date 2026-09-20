@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'increment version',
     'build auto version',
   ],
-  source: {
-    github: 'ciuwa/vite-plugin-after-build',
-    npm: 'vite-plugin-after-build',
-  },
   links: {
     github: 'https://github.com/ciuwa/vite-plugin-after-build',
     npm: 'https://www.npmjs.com/package/vite-plugin-after-build',
     website: 'https://github.com/ciuwa/vite-plugin-after-build.git',
+  },
+  source: {
+    github: 'ciuwa/vite-plugin-after-build',
+    npm: 'vite-plugin-after-build',
   },
   stats: {
     stars: 1,

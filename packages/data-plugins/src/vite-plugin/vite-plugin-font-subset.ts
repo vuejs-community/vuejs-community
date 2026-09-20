@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'subset',
     'woff2',
   ],
-  source: {
-    npm: 'vite-plugin-font-subset',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-font-subset',
+  },
+  source: {
+    npm: 'vite-plugin-font-subset',
   },
   stats: {
     stars: 0,

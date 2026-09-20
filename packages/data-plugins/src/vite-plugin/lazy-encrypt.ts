@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'code-splitting',
     'webcrypto',
   ],
-  source: {
-    github: 'Dvdplate/vite-lazy-encrypt',
-    npm: 'lazy-encrypt',
-  },
   links: {
     github: 'https://github.com/Dvdplate/vite-lazy-encrypt',
     npm: 'https://www.npmjs.com/package/lazy-encrypt',
     website: 'https://github.com/Dvdplate/vite-lazy-encrypt#readme',
+  },
+  source: {
+    github: 'Dvdplate/vite-lazy-encrypt',
+    npm: 'lazy-encrypt',
   },
   stats: {
     stars: 0,

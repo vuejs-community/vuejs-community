@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'JSON',
     'SSG',
   ],
-  source: {
-    github: 'Jscherbe/vite-plugin-virtual-modules',
-    npm: '@ulu/vite-plugin-virtual-modules',
-  },
   links: {
     github: 'https://github.com/Jscherbe/vite-plugin-virtual-modules',
     npm: 'https://www.npmjs.com/package/@ulu/vite-plugin-virtual-modules',
     website: 'https://github.com/Jscherbe/vite-plugin-virtual-modules#readme',
+  },
+  source: {
+    github: 'Jscherbe/vite-plugin-virtual-modules',
+    npm: '@ulu/vite-plugin-virtual-modules',
   },
   stats: {
     stars: 0,

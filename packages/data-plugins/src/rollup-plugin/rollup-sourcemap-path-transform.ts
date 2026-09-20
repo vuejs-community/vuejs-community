@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'path',
     'sourcemapPathTransform',
   ],
-  source: {
-    github: 'prantlf/rollup-sourcemap-path-transform',
-    npm: 'rollup-sourcemap-path-transform',
-  },
   links: {
     github: 'https://github.com/prantlf/rollup-sourcemap-path-transform',
     npm: 'https://www.npmjs.com/package/rollup-sourcemap-path-transform',
     website: 'http://github.com/prantlf/rollup-sourcemap-path-transform/',
+  },
+  source: {
+    github: 'prantlf/rollup-sourcemap-path-transform',
+    npm: 'rollup-sourcemap-path-transform',
   },
   stats: {
     stars: 2,

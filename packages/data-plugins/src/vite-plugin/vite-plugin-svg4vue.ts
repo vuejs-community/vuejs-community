@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'icon',
     'vite-svg-loader',
   ],
-  source: {
-    github: 'yisibell/vite-plugin-svg4vue',
-    npm: 'vite-plugin-svg4vue',
-  },
   links: {
     github: 'https://github.com/yisibell/vite-plugin-svg4vue',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg4vue',
     website: 'https://github.com/yisibell/vite-plugin-svg4vue#readme',
+  },
+  source: {
+    github: 'yisibell/vite-plugin-svg4vue',
+    npm: 'vite-plugin-svg4vue',
   },
   stats: {
     stars: 24,

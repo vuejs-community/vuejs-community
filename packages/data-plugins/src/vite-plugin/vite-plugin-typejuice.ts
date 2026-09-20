@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'typescript',
     'documentation',
   ],
-  source: {
-    github: 'galvez/typejuice',
-    npm: 'vite-plugin-typejuice',
-  },
   links: {
     github: 'https://github.com/galvez/typejuice',
     npm: 'https://www.npmjs.com/package/vite-plugin-typejuice',
     website: 'https://github.com/galvez/typejuice#readme',
+  },
+  source: {
+    github: 'galvez/typejuice',
+    npm: 'vite-plugin-typejuice',
   },
   stats: {
     stars: 266,

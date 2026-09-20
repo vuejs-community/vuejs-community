@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'ponjimon/vite-plugin-tss-cloudflare-proxy',
-    npm: '@ponjimon/vite-plugin-tss-cloudflare-proxy',
-  },
   links: {
     github: 'https://github.com/ponjimon/vite-plugin-tss-cloudflare-proxy',
     npm: 'https://www.npmjs.com/package/@ponjimon/vite-plugin-tss-cloudflare-proxy',
     website: 'https://github.com/ponjimon/vite-plugin-tss-cloudflare-proxy',
+  },
+  source: {
+    github: 'ponjimon/vite-plugin-tss-cloudflare-proxy',
+    npm: '@ponjimon/vite-plugin-tss-cloudflare-proxy',
   },
   stats: {
     stars: 7,

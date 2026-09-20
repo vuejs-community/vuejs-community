@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'moliyu/unplugin-css2vars',
-    npm: 'unplugin-css2vars',
-  },
   links: {
     github: 'https://github.com/moliyu/unplugin-css2vars',
     npm: 'https://www.npmjs.com/package/unplugin-css2vars',
     website: 'https://github.com/moliyu/unplugin-css2vars#readme',
+  },
+  source: {
+    github: 'moliyu/unplugin-css2vars',
+    npm: 'unplugin-css2vars',
   },
   stats: {
     stars: 0,

@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'vue',
     'react',
   ],
-  source: {
-    npm: 'vite-plugin-clear-consoles',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-clear-consoles',
     website: 'https://github.com/CrisChr/vite-plugin-clear-console',
+  },
+  source: {
+    npm: 'vite-plugin-clear-consoles',
   },
   stats: {
     stars: 0,

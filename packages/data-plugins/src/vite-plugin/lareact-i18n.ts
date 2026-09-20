@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'i18n',
     'inertiajs',
   ],
-  source: {
-    github: 'asajal/laravel-react-i18n',
-    npm: 'lareact-i18n',
-  },
   links: {
     github: 'https://github.com/asajal/laravel-react-i18n',
     npm: 'https://www.npmjs.com/package/lareact-i18n',
     website: 'https://github.com/asajal/laravel-react-i18n#readme',
+  },
+  source: {
+    github: 'asajal/laravel-react-i18n',
+    npm: 'lareact-i18n',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'ascii',
   ],
-  source: {
-    github: 'mbostock/rollup-plugin-ascii',
-    npm: 'rollup-plugin-ascii',
-  },
   links: {
     github: 'https://github.com/mbostock/rollup-plugin-ascii',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ascii',
     website: 'https://github.com/mbostock/rollup-plugin-ascii',
+  },
+  source: {
+    github: 'mbostock/rollup-plugin-ascii',
+    npm: 'rollup-plugin-ascii',
   },
   stats: {
     stars: 12,

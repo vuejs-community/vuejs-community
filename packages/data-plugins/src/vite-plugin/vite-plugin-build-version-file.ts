@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'build-version',
     'version-json',
   ],
-  source: {
-    npm: 'vite-plugin-build-version-file',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-build-version-file',
+  },
+  source: {
+    npm: 'vite-plugin-build-version-file',
   },
   stats: {
     stars: 0,

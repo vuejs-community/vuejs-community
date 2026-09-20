@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'ZauJulio/indago',
-    npm: '@indago/hyper-json',
-  },
   links: {
     github: 'https://github.com/ZauJulio/indago',
     npm: 'https://www.npmjs.com/package/@indago/hyper-json',
     website: 'https://github.com/ZauJulio/indago/tree/main/packages/HyperJson',
+  },
+  source: {
+    github: 'ZauJulio/indago',
+    npm: '@indago/hyper-json',
   },
   stats: {
     stars: 0,

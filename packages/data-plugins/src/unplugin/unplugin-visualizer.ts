@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'brandonxiang/unplugin-visualizer',
-    npm: 'unplugin-visualizer',
-  },
   links: {
     github: 'https://github.com/brandonxiang/unplugin-visualizer',
     npm: 'https://www.npmjs.com/package/unplugin-visualizer',
     website: 'https://github.com/brandonxiang/unplugin-visualizer#readme',
+  },
+  source: {
+    github: 'brandonxiang/unplugin-visualizer',
+    npm: 'unplugin-visualizer',
   },
   stats: {
     stars: 0,

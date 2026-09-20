@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'fischi20/chainawait',
-    npm: '@fischi20/chainawait',
-  },
   links: {
     github: 'https://github.com/fischi20/chainawait',
     npm: 'https://www.npmjs.com/package/@fischi20/chainawait',
     website: 'https://github.com/fischi20/chainawait#readme',
+  },
+  source: {
+    github: 'fischi20/chainawait',
+    npm: '@fischi20/chainawait',
   },
   stats: {
     stars: 0,

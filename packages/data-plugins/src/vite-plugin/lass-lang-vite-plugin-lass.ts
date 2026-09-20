@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'styling',
     'hmr',
   ],
-  source: {
-    github: 'lass-lang/vite-plugin-lass',
-    npm: '@lass-lang/vite-plugin-lass',
-  },
   links: {
     github: 'https://github.com/lass-lang/vite-plugin-lass',
     npm: 'https://www.npmjs.com/package/@lass-lang/vite-plugin-lass',
     website: 'https://github.com/lass-lang/vite-plugin-lass#readme',
+  },
+  source: {
+    github: 'lass-lang/vite-plugin-lass',
+    npm: '@lass-lang/vite-plugin-lass',
   },
   stats: {
     stars: 0,

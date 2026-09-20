@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'userscript',
   ],
-  source: {
-    github: 'ywzhaiqi/rollup-plugin-userscript-css',
-    npm: 'rollup-plugin-userscript-css',
-  },
   links: {
     github: 'https://github.com/ywzhaiqi/rollup-plugin-userscript-css',
     npm: 'https://www.npmjs.com/package/rollup-plugin-userscript-css',
     website: 'https://github.com/ywzhaiqi/rollup-plugin-userscript-css',
+  },
+  source: {
+    github: 'ywzhaiqi/rollup-plugin-userscript-css',
+    npm: 'rollup-plugin-userscript-css',
   },
   stats: {
     stars: 1,

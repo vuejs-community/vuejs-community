@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'iseei/vite-plugin-svgr',
-    npm: '@iseei/vite-plugin-svgr',
-  },
   links: {
     github: 'https://github.com/iseei/vite-plugin-svgr',
     npm: 'https://www.npmjs.com/package/@iseei/vite-plugin-svgr',
     website: 'https://github.com/iseei/vite-plugin-svgr#readme',
+  },
+  source: {
+    github: 'iseei/vite-plugin-svgr',
+    npm: '@iseei/vite-plugin-svgr',
   },
   stats: {
     stars: 0,

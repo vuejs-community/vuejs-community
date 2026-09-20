@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'analytics',
     'adblock',
   ],
-  source: {
-    npm: '@nischolas/vite-plugin-umami-inline',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@nischolas/vite-plugin-umami-inline',
+  },
+  source: {
+    npm: '@nischolas/vite-plugin-umami-inline',
   },
   stats: {
     stars: 0,

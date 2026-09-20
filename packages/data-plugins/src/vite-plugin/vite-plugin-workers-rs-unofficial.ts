@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'worker-build',
     'workers-rs',
   ],
-  source: {
-    github: 'aquilacf/workers-rs',
-    npm: 'vite-plugin-workers-rs-unofficial',
-  },
   links: {
     github: 'https://github.com/aquilacf/workers-rs',
     npm: 'https://www.npmjs.com/package/vite-plugin-workers-rs-unofficial',
     website: 'https://github.com/aquilacf/workers-rs/tree/main/vite-plugin-workers-rs',
+  },
+  source: {
+    github: 'aquilacf/workers-rs',
+    npm: 'vite-plugin-workers-rs-unofficial',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'svelte',
   ],
-  source: {
-    github: 'jesusalc/vite-plugin-svelte',
-    npm: '@intuivo/intuivo_vite-plugin-svelte',
-  },
   links: {
     github: 'https://github.com/jesusalc/vite-plugin-svelte',
     npm: 'https://www.npmjs.com/package/@intuivo/intuivo_vite-plugin-svelte',
     website: 'https://github.com/jesusalc/vite-plugin-svelte#readme',
+  },
+  source: {
+    github: 'jesusalc/vite-plugin-svelte',
+    npm: '@intuivo/intuivo_vite-plugin-svelte',
   },
   stats: {
     stars: 0,

@@ -27,11 +27,11 @@ export default defineProjectMeta({
     'vite plugin',
     'vite-plugin',
   ],
-  source: {
-    npm: 'regexpert',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/regexpert',
+  },
+  source: {
+    npm: 'regexpert',
   },
   stats: {
     stars: 0,

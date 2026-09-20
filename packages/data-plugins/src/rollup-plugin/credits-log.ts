@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'console-log',
     'sychev',
   ],
-  source: {
-    github: 'klich3/credits-log',
-    npm: 'credits-log',
-  },
   links: {
     github: 'https://github.com/klich3/credits-log',
     npm: 'https://www.npmjs.com/package/credits-log',
     website: 'https://github.com/klich3/credits-log#readme',
+  },
+  source: {
+    github: 'klich3/credits-log',
+    npm: 'credits-log',
   },
   stats: {
     stars: 1,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'unplugin/unplugin-inline-enum',
-    npm: '@iceman8911/unplugin-inline-enum',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-inline-enum',
     npm: 'https://www.npmjs.com/package/@iceman8911/unplugin-inline-enum',
     website: 'https://github.com/unplugin/unplugin-inline-enum#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-inline-enum',
+    npm: '@iceman8911/unplugin-inline-enum',
   },
   stats: {
     stars: 55,

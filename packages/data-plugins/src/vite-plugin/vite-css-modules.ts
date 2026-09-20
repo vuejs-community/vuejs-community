@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'css modules',
     'patch',
   ],
-  source: {
-    github: 'privatenumber/vite-css-modules',
-    npm: 'vite-css-modules',
-  },
   links: {
     github: 'https://github.com/privatenumber/vite-css-modules',
     npm: 'https://www.npmjs.com/package/vite-css-modules',
     website: 'https://github.com/privatenumber/vite-css-modules#readme',
+  },
+  source: {
+    github: 'privatenumber/vite-css-modules',
+    npm: 'vite-css-modules',
   },
   stats: {
     stars: 147,

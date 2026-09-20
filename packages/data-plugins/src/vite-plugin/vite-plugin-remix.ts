@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'integration',
     'web-development',
   ],
-  source: {
-    github: 'yracnet/vite-plugin-remix',
-    npm: 'vite-plugin-remix',
-  },
   links: {
     github: 'https://github.com/yracnet/vite-plugin-remix',
     npm: 'https://www.npmjs.com/package/vite-plugin-remix',
     website: 'https://github.com/yracnet/vite-plugin-remix',
+  },
+  source: {
+    github: 'yracnet/vite-plugin-remix',
+    npm: 'vite-plugin-remix',
   },
   stats: {
     stars: 22,

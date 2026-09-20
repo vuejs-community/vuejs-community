@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'markdown',
     'frontmatter',
   ],
-  source: {
-    github: 'idleberg/vite-plugin-nomatter',
-    npm: 'vite-plugin-nomatter',
-  },
   links: {
     github: 'https://github.com/idleberg/vite-plugin-nomatter',
     npm: 'https://www.npmjs.com/package/vite-plugin-nomatter',
     website: 'https://github.com/idleberg/vite-plugin-nomatter#readme',
+  },
+  source: {
+    github: 'idleberg/vite-plugin-nomatter',
+    npm: 'vite-plugin-nomatter',
   },
   stats: {
     stars: 0,

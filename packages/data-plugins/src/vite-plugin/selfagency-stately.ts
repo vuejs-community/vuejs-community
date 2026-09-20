@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'inspector',
     'vite-plugin',
   ],
-  source: {
-    github: 'selfagency/stately',
-    npm: '@selfagency/stately',
-  },
   links: {
     github: 'https://github.com/selfagency/stately',
     npm: 'https://www.npmjs.com/package/@selfagency/stately',
     website: 'https://stately.self.agency/',
+  },
+  source: {
+    github: 'selfagency/stately',
+    npm: '@selfagency/stately',
   },
   stats: {
     stars: 23,

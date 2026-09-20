@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'babel',
   ],
-  source: {
-    github: 'chengzhuo5/vite-plugin-babel',
-    npm: '@minar-kotonoha/vite-plugin-babel',
-  },
   links: {
     github: 'https://github.com/chengzhuo5/vite-plugin-babel',
     npm: 'https://www.npmjs.com/package/@minar-kotonoha/vite-plugin-babel',
     website: 'https://github.com/chengzhuo5/vite-plugin-babel#readme',
+  },
+  source: {
+    github: 'chengzhuo5/vite-plugin-babel',
+    npm: '@minar-kotonoha/vite-plugin-babel',
   },
   stats: {
     stars: 0,

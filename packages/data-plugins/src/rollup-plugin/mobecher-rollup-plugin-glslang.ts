@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vert',
     'frag',
   ],
-  source: {
-    github: 'mobec/rollup-plugin-glslang',
-    npm: '@mobecher/rollup-plugin-glslang',
-  },
   links: {
     github: 'https://github.com/mobec/rollup-plugin-glslang',
     npm: 'https://www.npmjs.com/package/@mobecher/rollup-plugin-glslang',
     website: 'https://github.com/mobec/rollup-plugin-glslang#readme',
+  },
+  source: {
+    github: 'mobec/rollup-plugin-glslang',
+    npm: '@mobecher/rollup-plugin-glslang',
   },
   stats: {
     stars: 0,

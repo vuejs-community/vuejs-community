@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'nqdy666/vite-plugin-build-meta',
-    npm: 'vite-plugin-build-meta',
-  },
   links: {
     github: 'https://github.com/nqdy666/vite-plugin-build-meta',
     npm: 'https://www.npmjs.com/package/vite-plugin-build-meta',
     website: 'https://github.com/nqdy666/vite-plugin-build-meta',
+  },
+  source: {
+    github: 'nqdy666/vite-plugin-build-meta',
+    npm: 'vite-plugin-build-meta',
   },
   stats: {
     stars: 1,

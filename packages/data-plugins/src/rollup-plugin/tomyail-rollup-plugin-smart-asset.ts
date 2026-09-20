@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'copy',
     'inline',
   ],
-  source: {
-    npm: '@tomyail/rollup-plugin-smart-asset',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@tomyail/rollup-plugin-smart-asset',
+  },
+  source: {
+    npm: '@tomyail/rollup-plugin-smart-asset',
   },
   stats: {
     stars: 0,

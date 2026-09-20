@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'suspense',
     'vite-plugin',
   ],
-  source: {
-    github: 'omniaura/solid-pulse',
-    npm: '@omniaura/solid-pulse',
-  },
   links: {
     github: 'https://github.com/omniaura/solid-pulse',
     npm: 'https://www.npmjs.com/package/@omniaura/solid-pulse',
     website: 'https://github.com/omniaura/solid-pulse#readme',
+  },
+  source: {
+    github: 'omniaura/solid-pulse',
+    npm: '@omniaura/solid-pulse',
   },
   stats: {
     stars: 1,

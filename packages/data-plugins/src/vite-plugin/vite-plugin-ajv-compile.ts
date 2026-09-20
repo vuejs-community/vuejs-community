@@ -18,12 +18,12 @@ export default defineProjectMeta({
     'schema',
     'validator',
   ],
-  source: {
-    npm: 'vite-plugin-ajv-compile',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-ajv-compile',
     website: 'https://gitlab.com/hperchec/vite-plugin-ajv-compile',
+  },
+  source: {
+    npm: 'vite-plugin-ajv-compile',
   },
   stats: {
     stars: 0,

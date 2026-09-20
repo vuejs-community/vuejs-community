@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'rspack',
     'unplugin',
   ],
-  source: {
-    github: 'toddeTV/gltf-type-toolkit',
-    npm: '@todde.tv/gltf-type-toolkit',
-  },
   links: {
     github: 'https://github.com/toddeTV/gltf-type-toolkit',
     npm: 'https://www.npmjs.com/package/@todde.tv/gltf-type-toolkit',
     website: 'https://github.com/toddeTV/gltf-type-toolkit',
+  },
+  source: {
+    github: 'toddeTV/gltf-type-toolkit',
+    npm: '@todde.tv/gltf-type-toolkit',
   },
   stats: {
     stars: 68,

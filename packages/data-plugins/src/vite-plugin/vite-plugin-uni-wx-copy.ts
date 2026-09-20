@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'uni-app',
     'miniprogram',
   ],
-  source: {
-    github: 'gd4Ark/vite-plugin-uni-wx-copy',
-    npm: 'vite-plugin-uni-wx-copy',
-  },
   links: {
     github: 'https://github.com/gd4Ark/vite-plugin-uni-wx-copy',
     npm: 'https://www.npmjs.com/package/vite-plugin-uni-wx-copy',
     website: 'https://github.com/gd4Ark/vite-plugin-uni-wx-copy#readme',
+  },
+  source: {
+    github: 'gd4Ark/vite-plugin-uni-wx-copy',
+    npm: 'vite-plugin-uni-wx-copy',
   },
   stats: {
     stars: 0,

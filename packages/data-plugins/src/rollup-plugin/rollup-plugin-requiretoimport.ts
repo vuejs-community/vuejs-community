@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'xyl66/rollup-plugin-requiretoimport',
-    npm: 'rollup-plugin-requiretoimport',
-  },
   links: {
     github: 'https://github.com/xyl66/rollup-plugin-requiretoimport',
     npm: 'https://www.npmjs.com/package/rollup-plugin-requiretoimport',
     website: 'https://github.com/xyl66/rollup-plugin-requiretoimport#readme',
+  },
+  source: {
+    github: 'xyl66/rollup-plugin-requiretoimport',
+    npm: 'rollup-plugin-requiretoimport',
   },
   stats: {
     stars: 0,

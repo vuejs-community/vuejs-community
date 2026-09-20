@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'ariesclark/unplugin-remote-assets',
-    npm: 'unplugin-remote-assets',
-  },
   links: {
     github: 'https://github.com/ariesclark/unplugin-remote-assets',
     npm: 'https://www.npmjs.com/package/unplugin-remote-assets',
     website: 'https://github.com/ariesclark/unplugin-remote-assets#readme',
+  },
+  source: {
+    github: 'ariesclark/unplugin-remote-assets',
+    npm: 'unplugin-remote-assets',
   },
   stats: {
     stars: 1,

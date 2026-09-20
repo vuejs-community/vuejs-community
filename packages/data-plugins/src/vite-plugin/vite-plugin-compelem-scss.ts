@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'web-components',
     'shadow-dom',
   ],
-  source: {
-    github: 'holyhigh2/compelem-extension',
-    npm: 'vite-plugin-compelem-scss',
-  },
   links: {
     github: 'https://github.com/holyhigh2/compelem-extension',
     npm: 'https://www.npmjs.com/package/vite-plugin-compelem-scss',
     website: 'https://github.com/holyhigh2/compelem-extension#readme',
+  },
+  source: {
+    github: 'holyhigh2/compelem-extension',
+    npm: 'vite-plugin-compelem-scss',
   },
   stats: {
     stars: 0,

@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'ue',
     'webview',
   ],
-  source: {
-    npm: 'ue-webview-bridge-vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/ue-webview-bridge-vite',
+  },
+  source: {
+    npm: 'ue-webview-bridge-vite',
   },
   stats: {
     stars: 0,

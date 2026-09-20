@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'SepVeneto/mp-plugin',
-    npm: '@sepveneto/plugin-mp-router-view',
-  },
   links: {
     github: 'https://github.com/SepVeneto/mp-plugin',
     npm: 'https://www.npmjs.com/package/@sepveneto/plugin-mp-router-view',
     website: 'https://github.com/SepVeneto/mp-plugin#readme',
+  },
+  source: {
+    github: 'SepVeneto/mp-plugin',
+    npm: '@sepveneto/plugin-mp-router-view',
   },
   stats: {
     stars: 0,

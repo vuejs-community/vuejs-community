@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'prisma orm',
     'vite prisma plugin',
   ],
-  source: {
-    github: 'sliterok/vite-plugin-prisma-hmr',
-    npm: 'vite-plugin-prisma-hmr',
-  },
   links: {
     github: 'https://github.com/sliterok/vite-plugin-prisma-hmr',
     npm: 'https://www.npmjs.com/package/vite-plugin-prisma-hmr',
     website: 'https://github.com/sliterok/vite-plugin-prisma-hmr#readme',
+  },
+  source: {
+    github: 'sliterok/vite-plugin-prisma-hmr',
+    npm: 'vite-plugin-prisma-hmr',
   },
   stats: {
     stars: 1,

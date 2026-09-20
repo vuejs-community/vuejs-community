@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'component-tagger',
     'typescript',
   ],
-  source: {
-    npm: '@aippy/vite-plugins',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@aippy/vite-plugins',
     website: 'https://aippy.ai',
+  },
+  source: {
+    npm: '@aippy/vite-plugins',
   },
   stats: {
     stars: 0,

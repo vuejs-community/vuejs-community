@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'modules',
     'proxy-directories',
   ],
-  source: {
-    github: 'adriankremer/rollup-plugin-proxy-directories',
-    npm: 'rollup-plugin-proxy-directories',
-  },
   links: {
     github: 'https://github.com/adriankremer/rollup-plugin-proxy-directories',
     npm: 'https://www.npmjs.com/package/rollup-plugin-proxy-directories',
     website: 'https://github.com/adriankremer/rollup-plugin-proxy-directories#readme',
+  },
+  source: {
+    github: 'adriankremer/rollup-plugin-proxy-directories',
+    npm: 'rollup-plugin-proxy-directories',
   },
   stats: {
     stars: 4,

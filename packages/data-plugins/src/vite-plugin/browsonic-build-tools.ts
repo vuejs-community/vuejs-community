@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'javascript-error-monitoring',
     'browser-error-tracking',
   ],
-  source: {
-    github: 'Sangaibisi/browsonic-sdk',
-    npm: '@browsonic/build-tools',
-  },
   links: {
     github: 'https://github.com/Sangaibisi/browsonic-sdk',
     npm: 'https://www.npmjs.com/package/@browsonic/build-tools',
     website: 'https://github.com/Sangaibisi/browsonic-sdk/tree/main/packages/build-tools#readme',
+  },
+  source: {
+    github: 'Sangaibisi/browsonic-sdk',
+    npm: '@browsonic/build-tools',
   },
   stats: {
     stars: 0,

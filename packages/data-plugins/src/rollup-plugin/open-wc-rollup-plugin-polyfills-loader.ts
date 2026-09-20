@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'html',
     'polyfill',
   ],
-  source: {
-    github: 'open-wc/open-wc',
-    npm: '@open-wc/rollup-plugin-polyfills-loader',
-  },
   links: {
     github: 'https://github.com/open-wc/open-wc',
     npm: 'https://www.npmjs.com/package/@open-wc/rollup-plugin-polyfills-loader',
     website: 'https://github.com/open-wc/open-wc/packages/rollup-plugin-polyfills-loader',
+  },
+  source: {
+    github: 'open-wc/open-wc',
+    npm: '@open-wc/rollup-plugin-polyfills-loader',
   },
   stats: {
     stars: 0,

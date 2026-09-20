@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'webassembly',
     'worklet',
   ],
-  source: {
-    github: 'yuichkun/unworklet',
-    npm: '@unworklet/unplugin',
-  },
   links: {
     github: 'https://github.com/yuichkun/unworklet',
     npm: 'https://www.npmjs.com/package/@unworklet/unplugin',
     website: 'https://github.com/yuichkun/unworklet#readme',
+  },
+  source: {
+    github: 'yuichkun/unworklet',
+    npm: '@unworklet/unplugin',
   },
   stats: {
     stars: 11,

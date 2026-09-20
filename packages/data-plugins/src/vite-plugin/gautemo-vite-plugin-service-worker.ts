@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'gautemo/vite-plugin-service-worker',
-    npm: '@gautemo/vite-plugin-service-worker',
-  },
   links: {
     github: 'https://github.com/gautemo/vite-plugin-service-worker',
     npm: 'https://www.npmjs.com/package/@gautemo/vite-plugin-service-worker',
     website: 'https://github.com/gautemo/vite-plugin-service-worker#readme',
+  },
+  source: {
+    github: 'gautemo/vite-plugin-service-worker',
+    npm: '@gautemo/vite-plugin-service-worker',
   },
   stats: {
     stars: 4,

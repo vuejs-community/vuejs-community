@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'resolver',
     'mainFields',
   ],
-  source: {
-    github: 'allex/rollup-plugin-resolve-id',
-    npm: 'rollup-plugin-resolve-id',
-  },
   links: {
     github: 'https://github.com/allex/rollup-plugin-resolve-id',
     npm: 'https://www.npmjs.com/package/rollup-plugin-resolve-id',
     website: 'https://github.com/allex/rollup-plugin-resolve-id',
+  },
+  source: {
+    github: 'allex/rollup-plugin-resolve-id',
+    npm: 'rollup-plugin-resolve-id',
   },
   stats: {
     stars: 1,

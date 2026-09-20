@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'swagger',
     'yaml',
   ],
-  source: {
-    github: 'zauni/rollup-plugin-openapi',
-    npm: 'rollup-plugin-openapi',
-  },
   links: {
     github: 'https://github.com/zauni/rollup-plugin-openapi',
     npm: 'https://www.npmjs.com/package/rollup-plugin-openapi',
     website: 'https://github.com/zauni/rollup-plugin-openapi#readme',
+  },
+  source: {
+    github: 'zauni/rollup-plugin-openapi',
+    npm: 'rollup-plugin-openapi',
   },
   stats: {
     stars: 1,

@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'react',
     'codesplash',
   ],
-  source: {
-    npm: '@codesplash/react-vite-component-tagger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@codesplash/react-vite-component-tagger',
+  },
+  source: {
+    npm: '@codesplash/react-vite-component-tagger',
   },
   stats: {
     stars: 0,

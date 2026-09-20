@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'webpack-plugin',
   ],
-  source: {
-    github: 'software-mansion/tsover',
-    npm: 'tsover',
-  },
   links: {
     github: 'https://github.com/software-mansion/tsover',
     npm: 'https://www.npmjs.com/package/tsover',
     website: 'https://tsover.swmansion.com',
+  },
+  source: {
+    github: 'software-mansion/tsover',
+    npm: 'tsover',
   },
   stats: {
     stars: 0,

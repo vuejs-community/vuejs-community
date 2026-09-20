@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vue',
     'mcp',
   ],
-  source: {
-    github: 'ElisePatrikainen/vue-mcp-tests',
-    npm: 'vue-mcp-server',
-  },
   links: {
     github: 'https://github.com/ElisePatrikainen/vue-mcp-tests',
     npm: 'https://www.npmjs.com/package/vue-mcp-server',
     website: 'https://github.com/ElisePatrikainen/vue-mcp-tests#readme',
+  },
+  source: {
+    github: 'ElisePatrikainen/vue-mcp-tests',
+    npm: 'vue-mcp-server',
   },
   stats: {
     stars: 0,

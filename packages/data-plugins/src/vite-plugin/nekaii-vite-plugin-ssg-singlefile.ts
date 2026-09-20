@@ -16,13 +16,13 @@ export default defineProjectMeta({
     'bundle',
     'single',
   ],
-  source: {
-    github: 'nexeora/vite-plugin-ssg-singlefile',
-    npm: '@nekaii/vite-plugin-ssg-singlefile',
-  },
   links: {
     github: 'https://github.com/nexeora/vite-plugin-ssg-singlefile',
     npm: 'https://www.npmjs.com/package/@nekaii/vite-plugin-ssg-singlefile',
+  },
+  source: {
+    github: 'nexeora/vite-plugin-ssg-singlefile',
+    npm: '@nekaii/vite-plugin-ssg-singlefile',
   },
   stats: {
     stars: 1,

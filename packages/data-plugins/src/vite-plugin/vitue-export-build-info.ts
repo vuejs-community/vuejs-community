@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'workplusfe',
     'export-build-info',
   ],
-  source: {
-    github: 'WorkPlusFE/vite-plugin-export-build-info',
-    npm: '@vitue/export-build-info',
-  },
   links: {
     github: 'https://github.com/WorkPlusFE/vite-plugin-export-build-info',
     npm: 'https://www.npmjs.com/package/@vitue/export-build-info',
     website: 'https://github.com/WorkPlusFE/vite-plugin-export-build-info#readme',
+  },
+  source: {
+    github: 'WorkPlusFE/vite-plugin-export-build-info',
+    npm: '@vitue/export-build-info',
   },
   stats: {
     stars: 0,

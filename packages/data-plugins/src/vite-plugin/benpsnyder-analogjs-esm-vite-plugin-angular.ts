@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'angular',
   ],
-  source: {
-    github: 'benpsnyder/analog',
-    npm: '@benpsnyder/analogjs-esm-vite-plugin-angular',
-  },
   links: {
     github: 'https://github.com/benpsnyder/analog',
     npm: 'https://www.npmjs.com/package/@benpsnyder/analogjs-esm-vite-plugin-angular',
     website: 'https://github.com/benpsnyder/analog#readme',
+  },
+  source: {
+    github: 'benpsnyder/analog',
+    npm: '@benpsnyder/analogjs-esm-vite-plugin-angular',
   },
   stats: {
     stars: 1,

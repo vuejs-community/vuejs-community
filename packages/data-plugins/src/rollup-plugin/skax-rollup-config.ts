@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup-config',
     'build-tool',
   ],
-  source: {
-    github: 'freeshineit/rollup-config',
-    npm: '@skax/rollup-config',
-  },
   links: {
     github: 'https://github.com/freeshineit/rollup-config',
     npm: 'https://www.npmjs.com/package/@skax/rollup-config',
     website: 'https://github.com/freeshineit/rollup-config',
+  },
+  source: {
+    github: 'freeshineit/rollup-config',
+    npm: '@skax/rollup-config',
   },
   stats: {
     stars: 0,

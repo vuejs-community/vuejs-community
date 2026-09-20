@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vue',
     'vue3',
   ],
-  source: {
-    github: 'xuanhen2013/vite-plugin-antdv-no-cssinjs',
-    npm: 'vite-plugin-antdv-no-cssinjs',
-  },
   links: {
     github: 'https://github.com/xuanhen2013/vite-plugin-antdv-no-cssinjs',
     npm: 'https://www.npmjs.com/package/vite-plugin-antdv-no-cssinjs',
     website: 'https://github.com/xuanhen2013/vite-plugin-antdv-no-cssinjs#readme',
+  },
+  source: {
+    github: 'xuanhen2013/vite-plugin-antdv-no-cssinjs',
+    npm: 'vite-plugin-antdv-no-cssinjs',
   },
   stats: {
     stars: 0,

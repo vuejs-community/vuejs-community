@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'unplugin',
   ],
-  source: {
-    github: 'jwr12135/create-unplugin',
-    npm: 'create-unplugin',
-  },
   links: {
     github: 'https://github.com/jwr12135/create-unplugin',
     npm: 'https://www.npmjs.com/package/create-unplugin',
     website: 'https://github.com/jwr12135/create-unplugin#readme',
+  },
+  source: {
+    github: 'jwr12135/create-unplugin',
+    npm: 'create-unplugin',
   },
   stats: {
     stars: 4,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'better log',
   ],
-  source: {
-    github: 'ZoxDev/unplugin-better-ts-log',
-    npm: 'unplugin-better-ts-log',
-  },
   links: {
     github: 'https://github.com/ZoxDev/unplugin-better-ts-log',
     npm: 'https://www.npmjs.com/package/unplugin-better-ts-log',
     website: 'https://github.com/ZoxDev/unplugin-better-ts-log#readme',
+  },
+  source: {
+    github: 'ZoxDev/unplugin-better-ts-log',
+    npm: 'unplugin-better-ts-log',
   },
   stats: {
     stars: 0,

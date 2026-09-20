@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'cwaring/vite-plugin-tailwindcss',
-    npm: 'vite-plugin-tailwindcss',
-  },
   links: {
     github: 'https://github.com/cwaring/vite-plugin-tailwindcss',
     npm: 'https://www.npmjs.com/package/vite-plugin-tailwindcss',
     website: 'https://github.com/cwaring/vite-plugin-tailwindcss#readme',
+  },
+  source: {
+    github: 'cwaring/vite-plugin-tailwindcss',
+    npm: 'vite-plugin-tailwindcss',
   },
   stats: {
     stars: 1,

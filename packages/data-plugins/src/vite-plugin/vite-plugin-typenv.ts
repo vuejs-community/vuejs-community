@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'env',
     'typescript',
   ],
-  source: {
-    github: 'kerozhai/vite-plugin-typenv',
-    npm: 'vite-plugin-typenv',
-  },
   links: {
     github: 'https://github.com/kerozhai/vite-plugin-typenv',
     npm: 'https://www.npmjs.com/package/vite-plugin-typenv',
     website: 'https://github.com/kerozhai/vite-plugin-typenv#readme',
+  },
+  source: {
+    github: 'kerozhai/vite-plugin-typenv',
+    npm: 'vite-plugin-typenv',
   },
   stats: {
     stars: 0,

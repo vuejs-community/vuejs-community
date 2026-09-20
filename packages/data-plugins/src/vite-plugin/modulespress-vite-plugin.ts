@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'wordpress-vite-plugin',
     'wordpress-vite',
   ],
-  source: {
-    github: 'devsroutes/vite-plugin-modulespress',
-    npm: '@modulespress/vite-plugin',
-  },
   links: {
     github: 'https://github.com/devsroutes/vite-plugin-modulespress',
     npm: 'https://www.npmjs.com/package/@modulespress/vite-plugin',
     website: 'https://github.com/devsroutes/vite-plugin-modulespress',
+  },
+  source: {
+    github: 'devsroutes/vite-plugin-modulespress',
+    npm: '@modulespress/vite-plugin',
   },
   stats: {
     stars: 2,

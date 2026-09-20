@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'file list',
     'html file list',
   ],
-  source: {
-    github: 'amazingdudu/vite-plugin-html-file-list',
-    npm: 'vite-plugin-html-file-list',
-  },
   links: {
     github: 'https://github.com/amazingdudu/vite-plugin-html-file-list',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-file-list',
     website: 'https://github.com/amazingdudu/vite-plugin-html-file-list#readme',
+  },
+  source: {
+    github: 'amazingdudu/vite-plugin-html-file-list',
+    npm: 'vite-plugin-html-file-list',
   },
   stats: {
     stars: 0,

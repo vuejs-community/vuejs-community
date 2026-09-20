@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'sveltekit',
     'paraglide-lite',
   ],
-  source: {
-    github: 'SebbeBroman/paraglide-js',
-    npm: '@sebbro/paraglide-lite',
-  },
   links: {
     github: 'https://github.com/SebbeBroman/paraglide-js',
     npm: 'https://www.npmjs.com/package/@sebbro/paraglide-lite',
     website: 'https://github.com/SebbeBroman/paraglide-js',
+  },
+  source: {
+    github: 'SebbeBroman/paraglide-js',
+    npm: '@sebbro/paraglide-lite',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'spreadsheet',
     'vite-plugin',
   ],
-  source: {
-    github: 'chenscDev/stream-sheet-export',
-    npm: 'stream-sheet-export',
-  },
   links: {
     github: 'https://github.com/chenscDev/stream-sheet-export',
     npm: 'https://www.npmjs.com/package/stream-sheet-export',
     website: 'https://github.com/chenscDev/stream-sheet-export#readme',
+  },
+  source: {
+    github: 'chenscDev/stream-sheet-export',
+    npm: 'stream-sheet-export',
   },
   stats: {
     stars: 1,

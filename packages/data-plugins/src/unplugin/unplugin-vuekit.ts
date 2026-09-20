@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'hairyf/unplugin-vuekit',
-    npm: 'unplugin-vuekit',
-  },
   links: {
     github: 'https://github.com/hairyf/unplugin-vuekit',
     npm: 'https://www.npmjs.com/package/unplugin-vuekit',
     website: 'https://github.com/hairyf/unplugin-vuekit#readme',
+  },
+  source: {
+    github: 'hairyf/unplugin-vuekit',
+    npm: 'unplugin-vuekit',
   },
   stats: {
     stars: 0,

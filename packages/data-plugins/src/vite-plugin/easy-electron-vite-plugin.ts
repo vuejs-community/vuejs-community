@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'preload',
   ],
-  source: {
-    npm: '@easy-electron/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@easy-electron/vite-plugin',
+  },
+  source: {
+    npm: '@easy-electron/vite-plugin',
   },
   stats: {
     stars: 0,

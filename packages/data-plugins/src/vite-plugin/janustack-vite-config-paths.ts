@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'janustack/vite-config-paths',
-    npm: '@janustack/vite-config-paths',
-  },
   links: {
     github: 'https://github.com/janustack/vite-config-paths',
     npm: 'https://www.npmjs.com/package/@janustack/vite-config-paths',
     website: 'https://github.com/janustack/vite-config-paths/#readme',
+  },
+  source: {
+    github: 'janustack/vite-config-paths',
+    npm: '@janustack/vite-config-paths',
   },
   stats: {
     stars: 0,

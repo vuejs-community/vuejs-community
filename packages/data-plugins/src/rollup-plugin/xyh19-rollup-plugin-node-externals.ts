@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'externals',
   ],
-  source: {
-    npm: '@xyh19/rollup-plugin-node-externals',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xyh19/rollup-plugin-node-externals',
+  },
+  source: {
+    npm: '@xyh19/rollup-plugin-node-externals',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'hrpc/vite-plugin-keywords-replace',
-    npm: 'vite-plugin-keywords-replace',
-  },
   links: {
     github: 'https://github.com/hrpc/vite-plugin-keywords-replace',
     npm: 'https://www.npmjs.com/package/vite-plugin-keywords-replace',
     website: 'https://github.com/hrpc/vite-plugin-keywords-replace#readme',
+  },
+  source: {
+    github: 'hrpc/vite-plugin-keywords-replace',
+    npm: 'vite-plugin-keywords-replace',
   },
   stats: {
     stars: 0,

@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'vite',
     'unplugin',
   ],
-  source: {
-    github: 'VdustR/react-live-unplugin',
-    npm: 'react-live-unplugin',
-  },
   links: {
     github: 'https://github.com/VdustR/react-live-unplugin',
     npm: 'https://www.npmjs.com/package/react-live-unplugin',
     website: 'https://vdustr.dev/react-live-unplugin',
+  },
+  source: {
+    github: 'VdustR/react-live-unplugin',
+    npm: 'react-live-unplugin',
   },
   stats: {
     stars: 0,

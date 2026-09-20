@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'stringify',
     'template',
   ],
-  source: {
-    github: 'lingbopro/rollup-plugin-custom-import',
-    npm: 'rollup-plugin-custom-import',
-  },
   links: {
     github: 'https://github.com/lingbopro/rollup-plugin-custom-import',
     npm: 'https://www.npmjs.com/package/rollup-plugin-custom-import',
     website: 'https://github.com/lingbopro/rollup-plugin-custom-import',
+  },
+  source: {
+    github: 'lingbopro/rollup-plugin-custom-import',
+    npm: 'rollup-plugin-custom-import',
   },
   stats: {
     stars: 3,

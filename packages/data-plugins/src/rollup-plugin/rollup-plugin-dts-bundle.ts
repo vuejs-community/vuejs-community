@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'typescript',
     'typings',
   ],
-  source: {
-    github: 'dmitrytut/rollup-plugin-dts-bundle',
-    npm: 'rollup-plugin-dts-bundle',
-  },
   links: {
     github: 'https://github.com/dmitrytut/rollup-plugin-dts-bundle',
     npm: 'https://www.npmjs.com/package/rollup-plugin-dts-bundle',
     website: 'https://github.com/dmitrytut/rollup-plugin-dts-bundle#readme',
+  },
+  source: {
+    github: 'dmitrytut/rollup-plugin-dts-bundle',
+    npm: 'rollup-plugin-dts-bundle',
   },
   stats: {
     stars: 1,

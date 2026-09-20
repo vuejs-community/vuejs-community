@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'typescript',
     'codegen',
   ],
-  source: {
-    github: 'ata-core/ata-vite',
-    npm: 'ata-vite',
-  },
   links: {
     github: 'https://github.com/ata-core/ata-vite',
     npm: 'https://www.npmjs.com/package/ata-vite',
     website: 'https://github.com/ata-core/ata-vite#readme',
+  },
+  source: {
+    github: 'ata-core/ata-vite',
+    npm: 'ata-vite',
   },
   stats: {
     stars: 3,

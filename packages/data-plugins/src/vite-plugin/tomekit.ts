@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'markdown',
     'vite-plugin',
   ],
-  source: {
-    github: 'aayushbtw/tomekit',
-    npm: 'tomekit',
-  },
   links: {
     github: 'https://github.com/aayushbtw/tomekit',
     npm: 'https://www.npmjs.com/package/tomekit',
     website: 'https://tomekit.aayush.cv',
+  },
+  source: {
+    github: 'aayushbtw/tomekit',
+    npm: 'tomekit',
   },
   stats: {
     stars: 0,

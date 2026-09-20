@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'monorepo',
     'workspace',
   ],
-  source: {
-    github: 'KIDS-interactive/vite-plugin-workspace-aliasing',
-    npm: '@kids-interactive/vite-plugin-workspace-aliasing',
-  },
   links: {
     github: 'https://github.com/KIDS-interactive/vite-plugin-workspace-aliasing',
     npm: 'https://www.npmjs.com/package/@kids-interactive/vite-plugin-workspace-aliasing',
     website: 'https://github.com/KIDS-interactive/vite-plugin-workspace-aliasing',
+  },
+  source: {
+    github: 'KIDS-interactive/vite-plugin-workspace-aliasing',
+    npm: '@kids-interactive/vite-plugin-workspace-aliasing',
   },
   stats: {
     stars: 1,

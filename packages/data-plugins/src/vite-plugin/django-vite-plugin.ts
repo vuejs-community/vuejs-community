@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'protibimbok/django-vite-plugin',
-    npm: 'django-vite-plugin',
-  },
   links: {
     github: 'https://github.com/protibimbok/django-vite-plugin',
     npm: 'https://www.npmjs.com/package/django-vite-plugin',
     website: 'https://github.com/protibimbok/django-vite-plugin#readme',
+  },
+  source: {
+    github: 'protibimbok/django-vite-plugin',
+    npm: 'django-vite-plugin',
   },
   stats: {
     stars: 154,

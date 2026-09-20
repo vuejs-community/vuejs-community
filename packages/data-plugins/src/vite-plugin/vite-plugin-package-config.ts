@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'antfu/vite-plugin-package-config',
-    npm: 'vite-plugin-package-config',
-  },
   links: {
     github: 'https://github.com/antfu/vite-plugin-package-config',
     npm: 'https://www.npmjs.com/package/vite-plugin-package-config',
     website: 'https://github.com/antfu/vite-plugin-package-config#readme',
+  },
+  source: {
+    github: 'antfu/vite-plugin-package-config',
+    npm: 'vite-plugin-package-config',
   },
   stats: {
     stars: 42,

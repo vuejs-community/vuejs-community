@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'files',
   ],
-  source: {
-    github: 'jlocoding/rollup-plugin-import-file',
-    npm: 'rollup-plugin-import-file',
-  },
   links: {
     github: 'https://github.com/jlocoding/rollup-plugin-import-file',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-file',
     website: 'https://github.com/jlocoding/rollup-plugin-import-file#readme',
+  },
+  source: {
+    github: 'jlocoding/rollup-plugin-import-file',
+    npm: 'rollup-plugin-import-file',
   },
   stats: {
     stars: 2,

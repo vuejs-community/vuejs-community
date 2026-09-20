@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'security',
     'dependencies',
   ],
-  source: {
-    github: 'TimurZheksimbaev/vite-plugin-dtsbom',
-    npm: 'vite-plugin-dtsbom',
-  },
   links: {
     github: 'https://github.com/TimurZheksimbaev/vite-plugin-dtsbom',
     npm: 'https://www.npmjs.com/package/vite-plugin-dtsbom',
     website: 'https://github.com/TimurZheksimbaev/vite-plugin-dtsbom#readme',
+  },
+  source: {
+    github: 'TimurZheksimbaev/vite-plugin-dtsbom',
+    npm: 'vite-plugin-dtsbom',
   },
   stats: {
     stars: 0,

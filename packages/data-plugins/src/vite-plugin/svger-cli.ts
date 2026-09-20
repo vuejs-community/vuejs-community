@@ -54,14 +54,14 @@ export default defineProjectMeta({
     'developer-tools',
     'build-tools',
   ],
-  source: {
-    github: 'faezemohades/svger-cli',
-    npm: 'svger-cli',
-  },
   links: {
     github: 'https://github.com/faezemohades/svger-cli',
     npm: 'https://www.npmjs.com/package/svger-cli',
     website: 'https://github.com/faezemohades/svger-cli#readme',
+  },
+  source: {
+    github: 'faezemohades/svger-cli',
+    npm: 'svger-cli',
   },
   stats: {
     stars: 0,

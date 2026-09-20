@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'rollup',
     'size-budget',
   ],
-  source: {
-    github: 'leroyanders/Ness.js',
-    npm: '@nessframework/analyzer',
-  },
   links: {
     github: 'https://github.com/leroyanders/Ness.js',
     npm: 'https://www.npmjs.com/package/@nessframework/analyzer',
     website: 'https://nessjs.com/docs/plugins/analyzer',
+  },
+  source: {
+    github: 'leroyanders/Ness.js',
+    npm: '@nessframework/analyzer',
   },
   stats: {
     stars: 5,

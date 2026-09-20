@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'digest',
   ],
-  source: {
-    github: 'Djaler/rollup-plugin-project-digest',
-    npm: 'rollup-plugin-project-digest',
-  },
   links: {
     github: 'https://github.com/Djaler/rollup-plugin-project-digest',
     npm: 'https://www.npmjs.com/package/rollup-plugin-project-digest',
     website: 'https://github.com/Djaler/rollup-plugin-project-digest#readme',
+  },
+  source: {
+    github: 'Djaler/rollup-plugin-project-digest',
+    npm: 'rollup-plugin-project-digest',
   },
   stats: {
     stars: 0,

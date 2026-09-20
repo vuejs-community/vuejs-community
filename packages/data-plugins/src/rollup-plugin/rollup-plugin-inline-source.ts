@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'inline',
     'inline-source',
   ],
-  source: {
-    github: 'liam-swinney/rollup-plugin-inline-source',
-    npm: 'rollup-plugin-inline-source',
-  },
   links: {
     github: 'https://github.com/liam-swinney/rollup-plugin-inline-source',
     npm: 'https://www.npmjs.com/package/rollup-plugin-inline-source',
     website: 'https://github.com/liam-swinney/rollup-plugin-inline-source#readme',
+  },
+  source: {
+    github: 'liam-swinney/rollup-plugin-inline-source',
+    npm: 'rollup-plugin-inline-source',
   },
   stats: {
     stars: 1,

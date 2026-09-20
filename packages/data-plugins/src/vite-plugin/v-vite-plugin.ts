@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vlang',
     'v-vite',
   ],
-  source: {
-    github: 'siguici/v-vite',
-    npm: 'v-vite-plugin',
-  },
   links: {
     github: 'https://github.com/siguici/v-vite',
     npm: 'https://www.npmjs.com/package/v-vite-plugin',
     website: 'https://siguici.github.io/v-vite',
+  },
+  source: {
+    github: 'siguici/v-vite',
+    npm: 'v-vite-plugin',
   },
   stats: {
     stars: 2,

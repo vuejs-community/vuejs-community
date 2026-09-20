@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'yml',
     'modyfi',
   ],
-  source: {
-    github: 'MaikoTan/vite-plugin-yaml',
-    npm: '@maikolib/vite-plugin-yaml',
-  },
   links: {
     github: 'https://github.com/MaikoTan/vite-plugin-yaml',
     npm: 'https://www.npmjs.com/package/@maikolib/vite-plugin-yaml',
     website: 'https://github.com/MaikoTan/vite-plugin-yaml/tree/main/#readme',
+  },
+  source: {
+    github: 'MaikoTan/vite-plugin-yaml',
+    npm: '@maikolib/vite-plugin-yaml',
   },
   stats: {
     stars: 0,

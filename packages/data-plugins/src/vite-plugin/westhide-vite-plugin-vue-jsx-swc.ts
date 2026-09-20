@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'jsx',
     'swc',
   ],
-  source: {
-    github: 'westhide/vite-plugin-vue-jsx-swc',
-    npm: '@westhide/vite-plugin-vue-jsx-swc',
-  },
   links: {
     github: 'https://github.com/westhide/vite-plugin-vue-jsx-swc',
     npm: 'https://www.npmjs.com/package/@westhide/vite-plugin-vue-jsx-swc',
     website: 'https://github.com/westhide/vite-plugin-vue-jsx-swc#readme',
+  },
+  source: {
+    github: 'westhide/vite-plugin-vue-jsx-swc',
+    npm: '@westhide/vite-plugin-vue-jsx-swc',
   },
   stats: {
     stars: 0,

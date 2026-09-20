@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'rolldown-plugin',
   ],
-  source: {
-    github: 'leaner-js/leaner',
-    npm: 'leaner-jsx',
-  },
   links: {
     github: 'https://github.com/leaner-js/leaner',
     npm: 'https://www.npmjs.com/package/leaner-jsx',
     website: 'https://leanerjs.org/',
+  },
+  source: {
+    github: 'leaner-js/leaner',
+    npm: 'leaner-jsx',
   },
   stats: {
     stars: 9,

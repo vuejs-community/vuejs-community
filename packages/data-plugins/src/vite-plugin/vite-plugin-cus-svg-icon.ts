@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'icons',
     'local-icons',
   ],
-  source: {
-    npm: 'vite-plugin-cus-svg-icon',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-cus-svg-icon',
+  },
+  source: {
+    npm: 'vite-plugin-cus-svg-icon',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     '字体子集',
   ],
-  source: {
-    github: 'Lionad-Morotar/fontize',
-    npm: '@fontize/vite',
-  },
   links: {
     github: 'https://github.com/Lionad-Morotar/fontize',
     npm: 'https://www.npmjs.com/package/@fontize/vite',
     website: 'https://github.com/Lionad-Morotar/fontize#readme',
+  },
+  source: {
+    github: 'Lionad-Morotar/fontize',
+    npm: '@fontize/vite',
   },
   stats: {
     stars: 1,

@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'twiggle',
     'jsx',
   ],
-  source: {
-    npm: 'rollup-plugin-twiggle',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-twiggle',
+  },
+  source: {
+    npm: 'rollup-plugin-twiggle',
   },
   stats: {
     stars: 0,

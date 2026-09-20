@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'svg',
     'svg-sprite',
   ],
-  source: {
-    github: 'vshepel/vite-svg-sprite-wrapper',
-    npm: 'vite-svg-sprite-wrapper',
-  },
   links: {
     github: 'https://github.com/vshepel/vite-svg-sprite-wrapper',
     npm: 'https://www.npmjs.com/package/vite-svg-sprite-wrapper',
     website: 'https://github.com/vshepel/vite-svg-sprite-wrapper',
+  },
+  source: {
+    github: 'vshepel/vite-svg-sprite-wrapper',
+    npm: 'vite-svg-sprite-wrapper',
   },
   stats: {
     stars: 38,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'tsc',
     'typescript',
   ],
-  source: {
-    github: 'ArnaudBarre/vite-plugin-tsc-watch',
-    npm: 'vite-plugin-tsc-watch',
-  },
   links: {
     github: 'https://github.com/ArnaudBarre/vite-plugin-tsc-watch',
     npm: 'https://www.npmjs.com/package/vite-plugin-tsc-watch',
     website: 'https://github.com/ArnaudBarre/vite-plugin-tsc-watch#readme',
+  },
+  source: {
+    github: 'ArnaudBarre/vite-plugin-tsc-watch',
+    npm: 'vite-plugin-tsc-watch',
   },
   stats: {
     stars: 4,

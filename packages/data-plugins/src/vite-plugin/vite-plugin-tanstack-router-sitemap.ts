@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'router',
     'vite',
   ],
-  source: {
-    github: 'rfedoruk/vite-plugin-react-tanstack-router-sitemap',
-    npm: 'vite-plugin-tanstack-router-sitemap',
-  },
   links: {
     github: 'https://github.com/rfedoruk/vite-plugin-react-tanstack-router-sitemap',
     npm: 'https://www.npmjs.com/package/vite-plugin-tanstack-router-sitemap',
     website: 'https://github.com/rfedoruk/vite-plugin-react-tanstack-router-sitemap#readme',
+  },
+  source: {
+    github: 'rfedoruk/vite-plugin-react-tanstack-router-sitemap',
+    npm: 'vite-plugin-tanstack-router-sitemap',
   },
   stats: {
     stars: 6,

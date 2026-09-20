@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'react',
     'svelte',
   ],
-  source: {
-    github: 'shjyh/astro-dynamic-component',
-    npm: 'astro-dynamic-component',
-  },
   links: {
     github: 'https://github.com/shjyh/astro-dynamic-component',
     npm: 'https://www.npmjs.com/package/astro-dynamic-component',
     website: 'https://github.com/shjyh/astro-dynamic-component#readme',
+  },
+  source: {
+    github: 'shjyh/astro-dynamic-component',
+    npm: 'astro-dynamic-component',
   },
   stats: {
     stars: 2,

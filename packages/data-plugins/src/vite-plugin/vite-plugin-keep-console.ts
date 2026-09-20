@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'logging',
     'ci',
   ],
-  source: {
-    github: 'biubiukam/vite-plugin-keep-console',
-    npm: 'vite-plugin-keep-console',
-  },
   links: {
     github: 'https://github.com/biubiukam/vite-plugin-keep-console',
     npm: 'https://www.npmjs.com/package/vite-plugin-keep-console',
     website: 'https://github.com/biubiukam/vite-plugin-keep-console',
+  },
+  source: {
+    github: 'biubiukam/vite-plugin-keep-console',
+    npm: 'vite-plugin-keep-console',
   },
   stats: {
     stars: 1,

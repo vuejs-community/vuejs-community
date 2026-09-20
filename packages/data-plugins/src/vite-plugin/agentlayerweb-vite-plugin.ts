@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'agents',
     'automation',
   ],
-  source: {
-    npm: '@agentlayerweb/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@agentlayerweb/vite-plugin',
+  },
+  source: {
+    npm: '@agentlayerweb/vite-plugin',
   },
   stats: {
     stars: 0,

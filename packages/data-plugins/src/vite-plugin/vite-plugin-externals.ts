@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'external',
     'externals',
   ],
-  source: {
-    github: 'crcong/vite-plugin-externals',
-    npm: 'vite-plugin-externals',
-  },
   links: {
     github: 'https://github.com/crcong/vite-plugin-externals',
     npm: 'https://www.npmjs.com/package/vite-plugin-externals',
     website: 'https://github.com/crcong/vite-plugin-externals',
+  },
+  source: {
+    github: 'crcong/vite-plugin-externals',
+    npm: 'vite-plugin-externals',
   },
   stats: {
     stars: 179,

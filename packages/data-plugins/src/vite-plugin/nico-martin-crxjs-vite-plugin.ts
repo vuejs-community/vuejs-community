@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'browser',
     'browser-extension',
   ],
-  source: {
-    github: 'nico-martin/chrome-extension-tools',
-    npm: '@nico-martin/crxjs-vite-plugin',
-  },
   links: {
     github: 'https://github.com/nico-martin/chrome-extension-tools',
     npm: 'https://www.npmjs.com/package/@nico-martin/crxjs-vite-plugin',
     website: 'https://github.com/nico-martin/chrome-extension-tools',
+  },
+  source: {
+    github: 'nico-martin/chrome-extension-tools',
+    npm: '@nico-martin/crxjs-vite-plugin',
   },
   stats: {
     stars: 1,

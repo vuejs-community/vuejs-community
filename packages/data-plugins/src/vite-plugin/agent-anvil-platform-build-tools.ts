@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'build-tools',
     'plugin',
   ],
-  source: {
-    npm: '@agent-anvil-platform/build-tools',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@agent-anvil-platform/build-tools',
     website: 'https://gitee.com/agent-anvil/agent-anvil-platform-sdk/tree/master/packages/build-tools',
+  },
+  source: {
+    npm: '@agent-anvil-platform/build-tools',
   },
   stats: {
     stars: 0,

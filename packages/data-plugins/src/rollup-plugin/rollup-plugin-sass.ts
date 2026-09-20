@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'sass',
   ],
-  source: {
-    github: 'elycruz/rollup-plugin-sass',
-    npm: 'rollup-plugin-sass',
-  },
   links: {
     github: 'https://github.com/elycruz/rollup-plugin-sass',
     npm: 'https://www.npmjs.com/package/rollup-plugin-sass',
     website: 'https://github.com/elycruz/rollup-plugin-sass#readme',
+  },
+  source: {
+    github: 'elycruz/rollup-plugin-sass',
+    npm: 'rollup-plugin-sass',
   },
   stats: {
     stars: 96,

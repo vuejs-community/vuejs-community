@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'react-refresh',
     'fast refresh',
   ],
-  source: {
-    npm: '@lucasols/vite-plugin-swc-react',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@lucasols/vite-plugin-swc-react',
+  },
+  source: {
+    npm: '@lucasols/vite-plugin-swc-react',
   },
   stats: {
     stars: 0,

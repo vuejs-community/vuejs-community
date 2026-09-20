@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'spanish',
     'comments',
   ],
-  source: {
-    github: 'lKolabrodl/vite-plugin-map-mouthwash',
-    npm: 'vite-plugin-map-mouthwash',
-  },
   links: {
     github: 'https://github.com/lKolabrodl/vite-plugin-map-mouthwash',
     npm: 'https://www.npmjs.com/package/vite-plugin-map-mouthwash',
     website: 'https://github.com/lKolabrodl/vite-plugin-map-mouthwash#readme',
+  },
+  source: {
+    github: 'lKolabrodl/vite-plugin-map-mouthwash',
+    npm: 'vite-plugin-map-mouthwash',
   },
   stats: {
     stars: 1,

@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'chinese',
     'auto-translate',
   ],
-  source: {
-    npm: '@mico_fe/vite-plugin-i18n-react-ast',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@mico_fe/vite-plugin-i18n-react-ast',
+  },
+  source: {
+    npm: '@mico_fe/vite-plugin-i18n-react-ast',
   },
   stats: {
     stars: 0,

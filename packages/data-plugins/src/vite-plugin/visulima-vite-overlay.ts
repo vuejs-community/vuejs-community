@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    github: 'visulima/visulima',
-    npm: '@visulima/vite-overlay',
-  },
   links: {
     github: 'https://github.com/visulima/visulima',
     npm: 'https://www.npmjs.com/package/@visulima/vite-overlay',
     website: 'https://visulima.com/packages/vite-overlay',
+  },
+  source: {
+    github: 'visulima/visulima',
+    npm: '@visulima/vite-overlay',
   },
   stats: {
     stars: 48,

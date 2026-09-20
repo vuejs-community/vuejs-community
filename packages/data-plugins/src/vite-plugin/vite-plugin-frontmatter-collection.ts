@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'markdown',
     'mdx',
   ],
-  source: {
-    github: 'PhilDL/vite-plugin-frontmatter-collection',
-    npm: 'vite-plugin-frontmatter-collection',
-  },
   links: {
     github: 'https://github.com/PhilDL/vite-plugin-frontmatter-collection',
     npm: 'https://www.npmjs.com/package/vite-plugin-frontmatter-collection',
     website: 'https://github.com/PhilDL/vite-plugin-frontmatter-collection',
+  },
+  source: {
+    github: 'PhilDL/vite-plugin-frontmatter-collection',
+    npm: 'vite-plugin-frontmatter-collection',
   },
   stats: {
     stars: 2,

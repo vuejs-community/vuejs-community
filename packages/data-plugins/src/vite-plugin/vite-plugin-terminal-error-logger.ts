@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'sourcemap',
     'overlay',
   ],
-  source: {
-    npm: 'vite-plugin-terminal-error-logger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-terminal-error-logger',
+  },
+  source: {
+    npm: 'vite-plugin-terminal-error-logger',
   },
   stats: {
     stars: 0,

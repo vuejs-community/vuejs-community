@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'webpack5',
     'stylus',
   ],
-  source: {
-    github: 'baiwusanyu-c/unplugin-vue-cssvars',
-    npm: 'unplugin-vue-cssvars',
-  },
   links: {
     github: 'https://github.com/baiwusanyu-c/unplugin-vue-cssvars',
     npm: 'https://www.npmjs.com/package/unplugin-vue-cssvars',
     website: 'https://github.com/baiwusanyu-c',
+  },
+  source: {
+    github: 'baiwusanyu-c/unplugin-vue-cssvars',
+    npm: 'unplugin-vue-cssvars',
   },
   stats: {
     stars: 113,

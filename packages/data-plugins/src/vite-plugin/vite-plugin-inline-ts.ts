@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'html',
     'templates',
   ],
-  source: {
-    github: 're7r/vite-plugin-inline-ts',
-    npm: 'vite-plugin-inline-ts',
-  },
   links: {
     github: 'https://github.com/re7r/vite-plugin-inline-ts',
     npm: 'https://www.npmjs.com/package/vite-plugin-inline-ts',
     website: 'https://github.com/re7r/vite-plugin-inline-ts#readme',
+  },
+  source: {
+    github: 're7r/vite-plugin-inline-ts',
+    npm: 'vite-plugin-inline-ts',
   },
   stats: {
     stars: 0,

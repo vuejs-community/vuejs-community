@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'xaios/vite-plugin-multiple-pages',
-    npm: '@xaios/vite-plugin-multiple-pages',
-  },
   links: {
     github: 'https://github.com/xaios/vite-plugin-multiple-pages',
     npm: 'https://www.npmjs.com/package/@xaios/vite-plugin-multiple-pages',
     website: 'https://github.com/xaios/vite-plugin-multiple-pages#readme',
+  },
+  source: {
+    github: 'xaios/vite-plugin-multiple-pages',
+    npm: '@xaios/vite-plugin-multiple-pages',
   },
   stats: {
     stars: 1,

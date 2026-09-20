@@ -16,13 +16,13 @@ export default defineProjectMeta({
     'greasymonkey',
     'violentmonkey',
   ],
-  source: {
-    github: 'EnergoStalin/unplugin-plugin-userscript',
-    npm: 'unplugin-plugin-userscript',
-  },
   links: {
     github: 'https://github.com/EnergoStalin/unplugin-plugin-userscript',
     npm: 'https://www.npmjs.com/package/unplugin-plugin-userscript',
+  },
+  source: {
+    github: 'EnergoStalin/unplugin-plugin-userscript',
+    npm: 'unplugin-plugin-userscript',
   },
   stats: {
     stars: 0,

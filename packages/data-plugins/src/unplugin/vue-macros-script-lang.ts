@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'script-lang',
     'unplugin',
   ],
-  source: {
-    github: 'vue-macros/vue-macros',
-    npm: '@vue-macros/script-lang',
-  },
   links: {
     github: 'https://github.com/vue-macros/vue-macros',
     npm: 'https://www.npmjs.com/package/@vue-macros/script-lang',
     website: 'https://vue-macros.dev',
+  },
+  source: {
+    github: 'vue-macros/vue-macros',
+    npm: '@vue-macros/script-lang',
   },
   stats: {
     stars: 0,

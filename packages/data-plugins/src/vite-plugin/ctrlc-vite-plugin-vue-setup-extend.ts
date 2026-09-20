@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    npm: '@ctrlc/vite-plugin-vue-setup-extend',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ctrlc/vite-plugin-vue-setup-extend',
+  },
+  source: {
+    npm: '@ctrlc/vite-plugin-vue-setup-extend',
   },
   stats: {
     stars: 0,

@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'copy-config',
   ],
-  source: {
-    npm: 'vite-plugin-copy-config',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-copy-config',
+  },
+  source: {
+    npm: 'vite-plugin-copy-config',
   },
   stats: {
     stars: 0,

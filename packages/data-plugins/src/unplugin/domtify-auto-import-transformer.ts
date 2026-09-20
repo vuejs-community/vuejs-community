@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'domtify/auto-import-transformer',
-    npm: '@domtify/auto-import-transformer',
-  },
   links: {
     github: 'https://github.com/domtify/auto-import-transformer',
     npm: 'https://www.npmjs.com/package/@domtify/auto-import-transformer',
     website: 'https://github.com/domtify/auto-import-transformer#readme',
+  },
+  source: {
+    github: 'domtify/auto-import-transformer',
+    npm: '@domtify/auto-import-transformer',
   },
   stats: {
     stars: 0,

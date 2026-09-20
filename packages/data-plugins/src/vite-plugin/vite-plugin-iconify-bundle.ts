@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rolldown-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'typed-sigterm/vite-plugin-iconify-bundle',
-    npm: 'vite-plugin-iconify-bundle',
-  },
   links: {
     github: 'https://github.com/typed-sigterm/vite-plugin-iconify-bundle',
     npm: 'https://www.npmjs.com/package/vite-plugin-iconify-bundle',
     website: 'https://github.com/typed-sigterm/vite-plugin-iconify-bundle#readme',
+  },
+  source: {
+    github: 'typed-sigterm/vite-plugin-iconify-bundle',
+    npm: 'vite-plugin-iconify-bundle',
   },
   stats: {
     stars: 2,

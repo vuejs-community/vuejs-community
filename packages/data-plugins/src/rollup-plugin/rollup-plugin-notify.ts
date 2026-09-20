@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'notify',
     'notification',
   ],
-  source: {
-    github: 'MikeKovarik/rollup-plugin-notify',
-    npm: 'rollup-plugin-notify',
-  },
   links: {
     github: 'https://github.com/MikeKovarik/rollup-plugin-notify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-notify',
     website: 'https://github.com/MikeKovarik/rollup-plugin-notify#readme',
+  },
+  source: {
+    github: 'MikeKovarik/rollup-plugin-notify',
+    npm: 'rollup-plugin-notify',
   },
   stats: {
     stars: 0,

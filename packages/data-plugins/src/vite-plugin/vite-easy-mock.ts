@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'typescript',
     'vite-easy-mock',
   ],
-  source: {
-    github: 'iceqing/vite-easy-mock',
-    npm: 'vite-easy-mock',
-  },
   links: {
     github: 'https://github.com/iceqing/vite-easy-mock',
     npm: 'https://www.npmjs.com/package/vite-easy-mock',
     website: 'https://github.com/iceqing/vite-easy-mock#readme',
+  },
+  source: {
+    github: 'iceqing/vite-easy-mock',
+    npm: 'vite-easy-mock',
   },
   stats: {
     stars: 4,

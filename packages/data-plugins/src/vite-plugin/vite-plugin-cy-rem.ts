@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'rem',
   ],
-  source: {
-    npm: 'vite-plugin-cy-rem',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-cy-rem',
+  },
+  source: {
+    npm: 'vite-plugin-cy-rem',
   },
   stats: {
     stars: 0,

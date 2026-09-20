@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'typia',
     'transform',
   ],
-  source: {
-    github: 'storm-software/storm-stack',
-    npm: '@storm-stack/build-plugin',
-  },
   links: {
     github: 'https://github.com/storm-software/storm-stack',
     npm: 'https://www.npmjs.com/package/@storm-stack/build-plugin',
     website: 'https://stormsoftware.com',
+  },
+  source: {
+    github: 'storm-software/storm-stack',
+    npm: '@storm-stack/build-plugin',
   },
   stats: {
     stars: 5,

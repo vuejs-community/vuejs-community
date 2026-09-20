@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vue',
     'svelte',
   ],
-  source: {
-    github: 'rioredwards/component-preview',
-    npm: 'vite-plugin-component-preview',
-  },
   links: {
     github: 'https://github.com/rioredwards/component-preview',
     npm: 'https://www.npmjs.com/package/vite-plugin-component-preview',
     website: 'https://github.com/rioredwards/component-preview/tree/main/packages/vite-plugin-component-preview',
+  },
+  source: {
+    github: 'rioredwards/component-preview',
+    npm: 'vite-plugin-component-preview',
   },
   stats: {
     stars: 1,

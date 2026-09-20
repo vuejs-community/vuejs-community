@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'multi-input',
     'auto-config',
   ],
-  source: {
-    github: 'xqkeji/vite-plugin-xq-multi-input',
-    npm: 'vite-plugin-xq-multi-input',
-  },
   links: {
     github: 'https://github.com/xqkeji/vite-plugin-xq-multi-input',
     npm: 'https://www.npmjs.com/package/vite-plugin-xq-multi-input',
     website: 'http://xqkeji.cn/',
+  },
+  source: {
+    github: 'xqkeji/vite-plugin-xq-multi-input',
+    npm: 'vite-plugin-xq-multi-input',
   },
   stats: {
     stars: 0,

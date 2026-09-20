@@ -18,14 +18,14 @@ export default defineProjectMeta({
     '3dgis',
     'webgis',
   ],
-  source: {
-    github: 'marsgis/vite-plugin-mars3d',
-    npm: 'vite-plugin-mars3d',
-  },
   links: {
     github: 'https://github.com/marsgis/vite-plugin-mars3d',
     npm: 'https://www.npmjs.com/package/vite-plugin-mars3d',
     website: 'http://mars3d.cn',
+  },
+  source: {
+    github: 'marsgis/vite-plugin-mars3d',
+    npm: 'vite-plugin-mars3d',
   },
   stats: {
     stars: 0,

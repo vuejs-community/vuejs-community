@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'PengBoUESTC/vite-plugin-env-switch',
-    npm: 'vite-plugin-env-switch',
-  },
   links: {
     github: 'https://github.com/PengBoUESTC/vite-plugin-env-switch',
     npm: 'https://www.npmjs.com/package/vite-plugin-env-switch',
     website: 'https://github.com/PengBoUESTC/vite-plugin-env-switch.git',
+  },
+  source: {
+    github: 'PengBoUESTC/vite-plugin-env-switch',
+    npm: 'vite-plugin-env-switch',
   },
   stats: {
     stars: 13,

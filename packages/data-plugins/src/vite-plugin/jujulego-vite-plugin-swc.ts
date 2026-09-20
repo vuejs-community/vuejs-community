@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'swc',
   ],
-  source: {
-    github: 'Jujulego/vite-plugin-swc',
-    npm: '@jujulego/vite-plugin-swc',
-  },
   links: {
     github: 'https://github.com/Jujulego/vite-plugin-swc',
     npm: 'https://www.npmjs.com/package/@jujulego/vite-plugin-swc',
     website: 'https://github.com/Jujulego/vite-plugin-swc#readme',
+  },
+  source: {
+    github: 'Jujulego/vite-plugin-swc',
+    npm: '@jujulego/vite-plugin-swc',
   },
   stats: {
     stars: 1,

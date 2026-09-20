@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'addon',
     'vite-plugin',
   ],
-  source: {
-    github: 'PavelPotapov/TypeSourceViewer',
-    npm: 'type-source-viewer',
-  },
   links: {
     github: 'https://github.com/PavelPotapov/TypeSourceViewer',
     npm: 'https://www.npmjs.com/package/type-source-viewer',
     website: 'https://github.com/PavelPotapov/TypeSourceViewer#readme',
+  },
+  source: {
+    github: 'PavelPotapov/TypeSourceViewer',
+    npm: 'type-source-viewer',
   },
   stats: {
     stars: 0,

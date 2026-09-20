@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'lodash',
   ],
-  source: {
-    github: 'mingtianyihou33/vite-plugin-replace-lodash',
-    npm: 'vite-plugin-replace-lodash',
-  },
   links: {
     github: 'https://github.com/mingtianyihou33/vite-plugin-replace-lodash',
     npm: 'https://www.npmjs.com/package/vite-plugin-replace-lodash',
     website: 'https://github.com/mingtianyihou33/vite-plugin-replace-lodash#readme',
+  },
+  source: {
+    github: 'mingtianyihou33/vite-plugin-replace-lodash',
+    npm: 'vite-plugin-replace-lodash',
   },
   stats: {
     stars: 4,

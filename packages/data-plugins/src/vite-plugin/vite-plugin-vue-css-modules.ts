@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'sfc',
     'pug',
   ],
-  source: {
-    github: 'zeokku/vite-plugin-vue-css-modules',
-    npm: 'vite-plugin-vue-css-modules',
-  },
   links: {
     github: 'https://github.com/zeokku/vite-plugin-vue-css-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-css-modules',
     website: 'https://github.com/zeokku/vite-plugin-vue-css-modules#readme',
+  },
+  source: {
+    github: 'zeokku/vite-plugin-vue-css-modules',
+    npm: 'vite-plugin-vue-css-modules',
   },
   stats: {
     stars: 21,

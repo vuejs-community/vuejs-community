@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'image',
     'rollup-plugin',
   ],
-  source: {
-    github: 'JonasKruckenberg/imagetools',
-    npm: 'rollup-plugin-imagetools',
-  },
   links: {
     github: 'https://github.com/JonasKruckenberg/imagetools',
     npm: 'https://www.npmjs.com/package/rollup-plugin-imagetools',
     website: 'https://github.com/JonasKruckenberg/imagetools/tree/main/packages/rollup',
+  },
+  source: {
+    github: 'JonasKruckenberg/imagetools',
+    npm: 'rollup-plugin-imagetools',
   },
   stats: {
     stars: 0,

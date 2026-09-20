@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'llms',
     'sku.md',
   ],
-  source: {
-    github: 'maxlee/vite-plugin-geo',
-    npm: 'vite-plugin-geo',
-  },
   links: {
     github: 'https://github.com/maxlee/vite-plugin-geo',
     npm: 'https://www.npmjs.com/package/vite-plugin-geo',
     website: 'https://github.com/maxlee/vite-plugin-geo#readme',
+  },
+  source: {
+    github: 'maxlee/vite-plugin-geo',
+    npm: 'vite-plugin-geo',
   },
   stats: {
     stars: 0,

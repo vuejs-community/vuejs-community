@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'icons',
     'sprite',
   ],
-  source: {
-    github: 'AlexxNB/rollup-plugin-svg-icons',
-    npm: 'rollup-plugin-svg-icons',
-  },
   links: {
     github: 'https://github.com/AlexxNB/rollup-plugin-svg-icons',
     npm: 'https://www.npmjs.com/package/rollup-plugin-svg-icons',
     website: 'https://github.com/AlexxNB/rollup-plugin-svg-icons#readme',
+  },
+  source: {
+    github: 'AlexxNB/rollup-plugin-svg-icons',
+    npm: 'rollup-plugin-svg-icons',
   },
   stats: {
     stars: 10,

@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://druxtjs.org',
   },
   source: {
-    github: 'druxt/druxt.js#develop/packages/druxt',
+    github: 'druxt/druxt.js',
     npm: 'druxt',
   },
 })

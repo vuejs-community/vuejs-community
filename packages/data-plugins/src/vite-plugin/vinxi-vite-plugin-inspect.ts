@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'antfu/vite-plugin-inspect',
-    npm: '@vinxi/vite-plugin-inspect',
-  },
   links: {
     github: 'https://github.com/antfu/vite-plugin-inspect',
     npm: 'https://www.npmjs.com/package/@vinxi/vite-plugin-inspect',
     website: 'https://github.com/antfu/vite-plugin-inspect#readme',
+  },
+  source: {
+    github: 'antfu/vite-plugin-inspect',
+    npm: '@vinxi/vite-plugin-inspect',
   },
   stats: {
     stars: 1698,

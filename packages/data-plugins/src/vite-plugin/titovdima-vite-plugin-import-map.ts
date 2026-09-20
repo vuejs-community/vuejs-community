@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'esm',
     'importmap',
   ],
-  source: {
-    github: 'dimatitov/vite-plugin-import-map',
-    npm: '@titovdima/vite-plugin-import-map',
-  },
   links: {
     github: 'https://github.com/dimatitov/vite-plugin-import-map',
     npm: 'https://www.npmjs.com/package/@titovdima/vite-plugin-import-map',
     website: 'https://github.com/dimatitov/vite-plugin-import-map#readme',
+  },
+  source: {
+    github: 'dimatitov/vite-plugin-import-map',
+    npm: '@titovdima/vite-plugin-import-map',
   },
   stats: {
     stars: 7,

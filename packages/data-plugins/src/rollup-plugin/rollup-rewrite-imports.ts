@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'imports',
     'rollup-plugin',
   ],
-  source: {
-    github: 'elmsln/rollup-rewrite-imports',
-    npm: 'rollup-rewrite-imports',
-  },
   links: {
     github: 'https://github.com/elmsln/rollup-rewrite-imports',
     npm: 'https://www.npmjs.com/package/rollup-rewrite-imports',
     website: 'https://github.com/elmsln/rollup-rewrite-imports',
+  },
+  source: {
+    github: 'elmsln/rollup-rewrite-imports',
+    npm: 'rollup-rewrite-imports',
   },
   stats: {
     stars: 0,

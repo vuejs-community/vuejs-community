@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'RebeccaStevens/rollup-plugin-dts-bundle-generator-2',
-    npm: 'rollup-plugin-dts-bundle-generator-2',
-  },
   links: {
     github: 'https://github.com/RebeccaStevens/rollup-plugin-dts-bundle-generator-2',
     npm: 'https://www.npmjs.com/package/rollup-plugin-dts-bundle-generator-2',
     website: 'https://github.com/RebeccaStevens/rollup-plugin-dts-bundle-generator-2#readme',
+  },
+  source: {
+    github: 'RebeccaStevens/rollup-plugin-dts-bundle-generator-2',
+    npm: 'rollup-plugin-dts-bundle-generator-2',
   },
   stats: {
     stars: 0,

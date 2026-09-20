@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'react',
     'devtools',
   ],
-  source: {
-    github: 'reticlehq/reticle',
-    npm: '@reticlehq/vite-plugin',
-  },
   links: {
     github: 'https://github.com/reticlehq/reticle',
     npm: 'https://www.npmjs.com/package/@reticlehq/vite-plugin',
     website: 'https://github.com/reticlehq/reticle#readme',
+  },
+  source: {
+    github: 'reticlehq/reticle',
+    npm: '@reticlehq/vite-plugin',
   },
   stats: {
     stars: 670,

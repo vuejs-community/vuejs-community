@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'playwright',
   ],
-  source: {
-    github: 'devfellowship/dfl-ux-paths',
-    npm: '@devfellowship/ux-paths-capture',
-  },
   links: {
     github: 'https://github.com/devfellowship/dfl-ux-paths',
     npm: 'https://www.npmjs.com/package/@devfellowship/ux-paths-capture',
     website: 'https://github.com/devfellowship/dfl-ux-paths#readme',
+  },
+  source: {
+    github: 'devfellowship/dfl-ux-paths',
+    npm: '@devfellowship/ux-paths-capture',
   },
   stats: {
     stars: 0,

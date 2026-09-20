@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: '@pokt/vite-plugin-git-info',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@pokt/vite-plugin-git-info',
+  },
+  source: {
+    npm: '@pokt/vite-plugin-git-info',
   },
   stats: {
     stars: 0,

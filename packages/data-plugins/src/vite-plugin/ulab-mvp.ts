@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'react',
     'react-i18next',
   ],
-  source: {
-    github: 'unbyte/mvp',
-    npm: '@ulab/mvp',
-  },
   links: {
     github: 'https://github.com/unbyte/mvp',
     npm: 'https://www.npmjs.com/package/@ulab/mvp',
     website: 'https://github.com/unbyte/mvp',
+  },
+  source: {
+    github: 'unbyte/mvp',
+    npm: '@ulab/mvp',
   },
   stats: {
     stars: 0,

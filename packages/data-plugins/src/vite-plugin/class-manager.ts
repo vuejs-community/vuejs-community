@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'utility',
     'components',
   ],
-  source: {
-    github: 'mattpfeffer/class-manager',
-    npm: 'class-manager',
-  },
   links: {
     github: 'https://github.com/mattpfeffer/class-manager',
     npm: 'https://www.npmjs.com/package/class-manager',
     website: 'https://github.com/mattpfeffer/class-manager#readme',
+  },
+  source: {
+    github: 'mattpfeffer/class-manager',
+    npm: 'class-manager',
   },
   stats: {
     stars: 1,

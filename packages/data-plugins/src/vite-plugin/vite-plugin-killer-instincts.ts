@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'strictPort',
     'dev-server',
   ],
-  source: {
-    github: 'wesbos/vite-plugin-killer-instincts',
-    npm: 'vite-plugin-killer-instincts',
-  },
   links: {
     github: 'https://github.com/wesbos/vite-plugin-killer-instincts',
     npm: 'https://www.npmjs.com/package/vite-plugin-killer-instincts',
     website: 'https://github.com/wesbos/vite-plugin-killer-instincts#readme',
+  },
+  source: {
+    github: 'wesbos/vite-plugin-killer-instincts',
+    npm: 'vite-plugin-killer-instincts',
   },
   stats: {
     stars: 19,

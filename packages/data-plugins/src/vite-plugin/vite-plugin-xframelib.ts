@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'xframelib',
   ],
-  source: {
-    github: 'zorrowm/vite-plugin-xframelib',
-    npm: 'vite-plugin-xframelib',
-  },
   links: {
     github: 'https://github.com/zorrowm/vite-plugin-xframelib',
     npm: 'https://www.npmjs.com/package/vite-plugin-xframelib',
     website: 'https://github.com/zorrowm/vite-plugin-xframelib#readme',
+  },
+  source: {
+    github: 'zorrowm/vite-plugin-xframelib',
+    npm: 'vite-plugin-xframelib',
   },
   stats: {
     stars: 0,

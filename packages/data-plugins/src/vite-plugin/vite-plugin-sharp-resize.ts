@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'sharp',
     'resize',
   ],
-  source: {
-    github: 'ec965/vite-plugin-sharp-resize',
-    npm: 'vite-plugin-sharp-resize',
-  },
   links: {
     github: 'https://github.com/ec965/vite-plugin-sharp-resize',
     npm: 'https://www.npmjs.com/package/vite-plugin-sharp-resize',
     website: 'https://github.com/ec965/vite-plugin-sharp-resize#readme',
+  },
+  source: {
+    github: 'ec965/vite-plugin-sharp-resize',
+    npm: 'vite-plugin-sharp-resize',
   },
   stats: {
     stars: 0,

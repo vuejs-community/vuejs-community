@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'iconfont',
   ],
-  source: {
-    github: 'nailfar/vite-plugin-iconfont-auto',
-    npm: 'vite-plugin-iconfont-auto',
-  },
   links: {
     github: 'https://github.com/nailfar/vite-plugin-iconfont-auto',
     npm: 'https://www.npmjs.com/package/vite-plugin-iconfont-auto',
     website: 'https://github.com/nailfar/vite-plugin-iconfont-auto#readme',
+  },
+  source: {
+    github: 'nailfar/vite-plugin-iconfont-auto',
+    npm: 'vite-plugin-iconfont-auto',
   },
   stats: {
     stars: 4,

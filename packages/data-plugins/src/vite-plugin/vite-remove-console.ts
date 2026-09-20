@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'console',
     'remove console',
   ],
-  source: {
-    github: 'lunaticscode/vite-remove-console',
-    npm: 'vite-remove-console',
-  },
   links: {
     github: 'https://github.com/lunaticscode/vite-remove-console',
     npm: 'https://www.npmjs.com/package/vite-remove-console',
     website: 'https://github.com/lunaticscode/vite-remove-console#readme',
+  },
+  source: {
+    github: 'lunaticscode/vite-remove-console',
+    npm: 'vite-remove-console',
   },
   stats: {
     stars: 0,

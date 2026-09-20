@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vue',
     'styling',
   ],
-  source: {
-    github: 'srivtx/tomato-css',
-    npm: 'vite-plugin-tomato',
-  },
   links: {
     github: 'https://github.com/srivtx/tomato-css',
     npm: 'https://www.npmjs.com/package/vite-plugin-tomato',
     website: 'https://github.com/srivtx/tomato-css#vite-plugin',
+  },
+  source: {
+    github: 'srivtx/tomato-css',
+    npm: 'vite-plugin-tomato',
   },
   stats: {
     stars: 0,

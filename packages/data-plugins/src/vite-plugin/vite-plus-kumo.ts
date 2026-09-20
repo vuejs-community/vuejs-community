@@ -19,11 +19,11 @@ export default defineProjectMeta({
     'napi',
     'linter',
   ],
-  source: {
-    npm: 'vite-plus-kumo',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plus-kumo',
+  },
+  source: {
+    npm: 'vite-plus-kumo',
   },
   stats: {
     stars: 0,

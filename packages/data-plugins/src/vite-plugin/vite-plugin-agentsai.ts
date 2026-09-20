@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'tracking',
     'agentsai',
   ],
-  source: {
-    npm: 'vite-plugin-agentsai',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-agentsai',
+  },
+  source: {
+    npm: 'vite-plugin-agentsai',
   },
   stats: {
     stars: 0,

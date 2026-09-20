@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin-ssinc',
     'ssi',
   ],
-  source: {
-    github: 'yend724/vite-plugin-ssinc',
-    npm: 'vite-plugin-ssinc',
-  },
   links: {
     github: 'https://github.com/yend724/vite-plugin-ssinc',
     npm: 'https://www.npmjs.com/package/vite-plugin-ssinc',
     website: 'https://github.com/yend724/vite-plugin-ssinc#readme',
+  },
+  source: {
+    github: 'yend724/vite-plugin-ssinc',
+    npm: 'vite-plugin-ssinc',
   },
   stats: {
     stars: 3,

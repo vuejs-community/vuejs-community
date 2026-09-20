@@ -12,13 +12,13 @@ export default defineProjectMeta({
     'rollup-plugin',
     'postcss',
   ],
-  source: {
-    github: 'dferber90/rollup-plugin-postcss-treeshakeable',
-    npm: 'rollup-plugin-postcss-treeshakeable',
-  },
   links: {
     github: 'https://github.com/dferber90/rollup-plugin-postcss-treeshakeable',
     npm: 'https://www.npmjs.com/package/rollup-plugin-postcss-treeshakeable',
+  },
+  source: {
+    github: 'dferber90/rollup-plugin-postcss-treeshakeable',
+    npm: 'rollup-plugin-postcss-treeshakeable',
   },
   stats: {
     stars: 6,

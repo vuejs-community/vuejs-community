@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'markdown-it',
     'remote-ssh',
   ],
-  source: {
-    github: 'b1tzer/vitepress-plugin-open-in-editor',
-    npm: 'vitepress-plugin-open-in-editor',
-  },
   links: {
     github: 'https://github.com/b1tzer/vitepress-plugin-open-in-editor',
     npm: 'https://www.npmjs.com/package/vitepress-plugin-open-in-editor',
     website: 'https://github.com/b1tzer/vitepress-plugin-open-in-editor#readme',
+  },
+  source: {
+    github: 'b1tzer/vitepress-plugin-open-in-editor',
+    npm: 'vitepress-plugin-open-in-editor',
   },
   stats: {
     stars: 0,

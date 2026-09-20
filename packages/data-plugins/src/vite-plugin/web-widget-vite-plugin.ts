@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'web-widget/web-widget',
-    npm: '@web-widget/vite-plugin',
-  },
   links: {
     github: 'https://github.com/web-widget/web-widget',
     npm: 'https://www.npmjs.com/package/@web-widget/vite-plugin',
     website: 'https://github.com/web-widget/web-widget#readme',
+  },
+  source: {
+    github: 'web-widget/web-widget',
+    npm: '@web-widget/vite-plugin',
   },
   stats: {
     stars: 43,

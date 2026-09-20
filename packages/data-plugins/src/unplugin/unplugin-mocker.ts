@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'kirklin/unplugin-mocker',
-    npm: 'unplugin-mocker',
-  },
   links: {
     github: 'https://github.com/kirklin/unplugin-mocker',
     npm: 'https://www.npmjs.com/package/unplugin-mocker',
     website: 'https://github.com/kirklin/unplugin-mocker#readme',
+  },
+  source: {
+    github: 'kirklin/unplugin-mocker',
+    npm: 'unplugin-mocker',
   },
   stats: {
     stars: 3,

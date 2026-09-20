@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'devtools',
     'unplugin',
   ],
-  source: {
-    github: 'mcpc-tech/dev-inspector-mcp',
-    npm: '@mcpc-tech/unplugin-dev-inspector-mcp',
-  },
   links: {
     github: 'https://github.com/mcpc-tech/dev-inspector-mcp',
     npm: 'https://www.npmjs.com/package/@mcpc-tech/unplugin-dev-inspector-mcp',
     website: 'https://github.com/mcpc-tech/dev-inspector-mcp#readme',
+  },
+  source: {
+    github: 'mcpc-tech/dev-inspector-mcp',
+    npm: '@mcpc-tech/unplugin-dev-inspector-mcp',
   },
   stats: {
     stars: 47,

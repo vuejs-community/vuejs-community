@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'Google Apps Script',
     'google-apps-scripts',
   ],
-  source: {
-    github: 'mato533/rollup-plugin-gas',
-    npm: 'rollup-plugin-google-apps-script',
-  },
   links: {
     github: 'https://github.com/mato533/rollup-plugin-gas',
     npm: 'https://www.npmjs.com/package/rollup-plugin-google-apps-script',
     website: 'https://github.com/mato533/rollup-plugin-gas#readme',
+  },
+  source: {
+    github: 'mato533/rollup-plugin-gas',
+    npm: 'rollup-plugin-google-apps-script',
   },
   stats: {
     stars: 17,

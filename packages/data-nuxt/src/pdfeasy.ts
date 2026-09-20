@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/betterwrite/pdfeasy',
   },
   source: {
-    github: 'betterwrite/pdfeasy#main/packages/nuxt',
+    github: 'betterwrite/pdfeasy',
     npm: 'nuxt-pdfeasy',
   },
 })

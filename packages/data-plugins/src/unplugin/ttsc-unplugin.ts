@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'typescript',
     'tsgo',
   ],
-  source: {
-    github: 'samchon/ttsc',
-    npm: '@ttsc/unplugin',
-  },
   links: {
     github: 'https://github.com/samchon/ttsc',
     npm: 'https://www.npmjs.com/package/@ttsc/unplugin',
     website: 'https://ttsc.dev',
+  },
+  source: {
+    github: 'samchon/ttsc',
+    npm: '@ttsc/unplugin',
   },
   stats: {
     stars: 335,

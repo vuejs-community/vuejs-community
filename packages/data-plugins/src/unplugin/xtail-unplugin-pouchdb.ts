@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'xtail',
     'x-tail',
   ],
-  source: {
-    npm: '@xtail/unplugin-pouchdb',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xtail/unplugin-pouchdb',
+  },
+  source: {
+    npm: '@xtail/unplugin-pouchdb',
   },
   stats: {
     stars: 0,

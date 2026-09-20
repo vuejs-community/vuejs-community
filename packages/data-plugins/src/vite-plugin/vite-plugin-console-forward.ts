@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'devtools',
     'debug',
   ],
-  source: {
-    npm: 'vite-plugin-console-forward',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-console-forward',
+  },
+  source: {
+    npm: 'vite-plugin-console-forward',
   },
   stats: {
     stars: 0,

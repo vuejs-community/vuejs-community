@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'localization',
     'internationalization',
   ],
-  source: {
-    github: 'rowellx68/i18next-utilities',
-    npm: 'i18next-utilities-unplugin',
-  },
   links: {
     github: 'https://github.com/rowellx68/i18next-utilities',
     npm: 'https://www.npmjs.com/package/i18next-utilities-unplugin',
     website: 'https://github.com/rowellx68/i18next-utilities#readme',
+  },
+  source: {
+    github: 'rowellx68/i18next-utilities',
+    npm: 'i18next-utilities-unplugin',
   },
   stats: {
     stars: 0,

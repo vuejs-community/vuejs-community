@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'mastermakrela/whereami',
-    npm: 'vite-plugin-whereami',
-  },
   links: {
     github: 'https://github.com/mastermakrela/whereami',
     npm: 'https://www.npmjs.com/package/vite-plugin-whereami',
     website: 'https://github.com/mastermakrela/whereami#readme',
+  },
+  source: {
+    github: 'mastermakrela/whereami',
+    npm: 'vite-plugin-whereami',
   },
   stats: {
     stars: 0,

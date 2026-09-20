@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin-vue',
     'svg-loader',
   ],
-  source: {
-    github: 'LiuWenXing1996/vite-plugin-vue-svg-reactive-loader',
-    npm: 'vite-plugin-vue-svg-reactive-loader',
-  },
   links: {
     github: 'https://github.com/LiuWenXing1996/vite-plugin-vue-svg-reactive-loader',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-svg-reactive-loader',
     website: 'https://github.com/LiuWenXing1996/vite-plugin-vue-svg-reactive-loader#readme',
+  },
+  source: {
+    github: 'LiuWenXing1996/vite-plugin-vue-svg-reactive-loader',
+    npm: 'vite-plugin-vue-svg-reactive-loader',
   },
   stats: {
     stars: 0,

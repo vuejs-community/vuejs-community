@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup',
     'pure-annotation',
   ],
-  source: {
-    github: 'justin-schroeder/unplugin-pure',
-    npm: 'unplugin-pure',
-  },
   links: {
     github: 'https://github.com/justin-schroeder/unplugin-pure',
     npm: 'https://www.npmjs.com/package/unplugin-pure',
     website: 'https://github.com/justin-schroeder/unplugin-pure#readme',
+  },
+  source: {
+    github: 'justin-schroeder/unplugin-pure',
+    npm: 'unplugin-pure',
   },
   stats: {
     stars: 13,

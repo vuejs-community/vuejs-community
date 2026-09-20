@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 't7ru/vite-plugin-si-optimizer',
-    npm: 'vite-plugin-si-optimizer',
-  },
   links: {
     github: 'https://github.com/t7ru/vite-plugin-si-optimizer',
     npm: 'https://www.npmjs.com/package/vite-plugin-si-optimizer',
     website: 'https://github.com/t7ru/vite-plugin-si-optimizer#readme',
+  },
+  source: {
+    github: 't7ru/vite-plugin-si-optimizer',
+    npm: 'vite-plugin-si-optimizer',
   },
   stats: {
     stars: 0,

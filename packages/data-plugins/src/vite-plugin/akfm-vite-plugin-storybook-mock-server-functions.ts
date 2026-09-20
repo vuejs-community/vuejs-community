@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'storybook',
     'vite-plugin',
   ],
-  source: {
-    github: 'AkifumiSato/vite-plugin-storybook-mock-server-functions',
-    npm: '@akfm/vite-plugin-storybook-mock-server-functions',
-  },
   links: {
     github: 'https://github.com/AkifumiSato/vite-plugin-storybook-mock-server-functions',
     npm: 'https://www.npmjs.com/package/@akfm/vite-plugin-storybook-mock-server-functions',
     website: 'https://github.com/AkifumiSato/vite-plugin-storybook-mock-server-functions#readme',
+  },
+  source: {
+    github: 'AkifumiSato/vite-plugin-storybook-mock-server-functions',
+    npm: '@akfm/vite-plugin-storybook-mock-server-functions',
   },
   stats: {
     stars: 0,

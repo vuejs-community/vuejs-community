@@ -38,14 +38,14 @@ export default defineProjectMeta({
     'hyperflip',
     'synchronized',
   ],
-  source: {
-    github: 'otomad/vite-plugin-midi',
-    npm: 'vite-plugin-midi',
-  },
   links: {
     github: 'https://github.com/otomad/vite-plugin-midi',
     npm: 'https://www.npmjs.com/package/vite-plugin-midi',
     website: 'https://github.com/otomad/vite-plugin-midi#readme',
+  },
+  source: {
+    github: 'otomad/vite-plugin-midi',
+    npm: 'vite-plugin-midi',
   },
   stats: {
     stars: 0,

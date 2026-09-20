@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'react-native-web',
     'react-native',
   ],
-  source: {
-    github: 'dannyhw/vite-plugin-rnw',
-    npm: 'vite-plugin-rnw',
-  },
   links: {
     github: 'https://github.com/dannyhw/vite-plugin-rnw',
     npm: 'https://www.npmjs.com/package/vite-plugin-rnw',
     website: 'https://github.com/dannyhw/vite-plugin-rnw#readme',
+  },
+  source: {
+    github: 'dannyhw/vite-plugin-rnw',
+    npm: 'vite-plugin-rnw',
   },
   stats: {
     stars: 42,

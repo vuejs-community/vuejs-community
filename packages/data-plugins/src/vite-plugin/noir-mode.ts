@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'css',
     'color-transform',
   ],
-  source: {
-    github: 'nicemicro/vite-noir',
-    npm: 'noir-mode',
-  },
   links: {
     github: 'https://github.com/nicemicro/vite-noir',
     npm: 'https://www.npmjs.com/package/noir-mode',
     website: 'https://github.com/nicemicro/vite-noir#readme',
+  },
+  source: {
+    github: 'nicemicro/vite-noir',
+    npm: 'noir-mode',
   },
   stats: {
     stars: 0,

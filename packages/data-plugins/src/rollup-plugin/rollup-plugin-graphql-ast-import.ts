@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'graphql',
     'ast',
   ],
-  source: {
-    npm: 'rollup-plugin-graphql-ast-import',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-graphql-ast-import',
+  },
+  source: {
+    npm: 'rollup-plugin-graphql-ast-import',
   },
   stats: {
     stars: 0,

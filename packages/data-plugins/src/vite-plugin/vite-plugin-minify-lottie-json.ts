@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'minify-lottie',
     'lottie-minify',
   ],
-  source: {
-    github: 'otomad/vite-plugin-minify-lottie-json',
-    npm: 'vite-plugin-minify-lottie-json',
-  },
   links: {
     github: 'https://github.com/otomad/vite-plugin-minify-lottie-json',
     npm: 'https://www.npmjs.com/package/vite-plugin-minify-lottie-json',
     website: 'https://github.com/otomad/vite-plugin-minify-lottie-json#readme',
+  },
+  source: {
+    github: 'otomad/vite-plugin-minify-lottie-json',
+    npm: 'vite-plugin-minify-lottie-json',
   },
   stats: {
     stars: 0,

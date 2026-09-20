@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'purgecss',
     'laravel',
   ],
-  source: {
-    github: 'erbelion/vite-plugin-laravel-purgecss',
-    npm: '@erbelion/vite-plugin-laravel-purgecss',
-  },
   links: {
     github: 'https://github.com/erbelion/vite-plugin-laravel-purgecss',
     npm: 'https://www.npmjs.com/package/@erbelion/vite-plugin-laravel-purgecss',
     website: 'https://github.com/erbelion/vite-plugin-laravel-purgecss#readme',
+  },
+  source: {
+    github: 'erbelion/vite-plugin-laravel-purgecss',
+    npm: '@erbelion/vite-plugin-laravel-purgecss',
   },
   stats: {
     stars: 27,

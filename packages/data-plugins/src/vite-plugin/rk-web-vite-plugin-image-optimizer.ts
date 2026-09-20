@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'webp',
     'avif',
   ],
-  source: {
-    npm: '@rk-web/vite-plugin-image-optimizer',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@rk-web/vite-plugin-image-optimizer',
+  },
+  source: {
+    npm: '@rk-web/vite-plugin-image-optimizer',
   },
   stats: {
     stars: 0,

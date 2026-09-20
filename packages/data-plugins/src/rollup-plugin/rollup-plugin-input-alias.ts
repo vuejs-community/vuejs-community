@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'rollup plugin',
   ],
-  source: {
-    github: 'magickeyyy/rollup-plugin-input-alias',
-    npm: 'rollup-plugin-input-alias',
-  },
   links: {
     github: 'https://github.com/magickeyyy/rollup-plugin-input-alias',
     npm: 'https://www.npmjs.com/package/rollup-plugin-input-alias',
     website: 'https://github.com/magickeyyy/rollup-plugin-input-alias',
+  },
+  source: {
+    github: 'magickeyyy/rollup-plugin-input-alias',
+    npm: 'rollup-plugin-input-alias',
   },
   stats: {
     stars: 0,

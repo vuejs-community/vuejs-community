@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'auto-import',
   ],
-  source: {
-    github: 'opentiny/unplugin-tiny-vue',
-    npm: '@opentiny/unplugin-tiny-vue',
-  },
   links: {
     github: 'https://github.com/opentiny/unplugin-tiny-vue',
     npm: 'https://www.npmjs.com/package/@opentiny/unplugin-tiny-vue',
     website: 'https://github.com/opentiny/unplugin-tiny-vue#readme',
+  },
+  source: {
+    github: 'opentiny/unplugin-tiny-vue',
+    npm: '@opentiny/unplugin-tiny-vue',
   },
   stats: {
     stars: 2,

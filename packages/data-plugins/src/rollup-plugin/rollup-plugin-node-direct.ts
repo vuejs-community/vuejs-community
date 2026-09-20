@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'npm',
     'modules',
   ],
-  source: {
-    github: 'brianmhunt/rollup-plugin-node-direct',
-    npm: 'rollup-plugin-node-direct',
-  },
   links: {
     github: 'https://github.com/brianmhunt/rollup-plugin-node-direct',
     npm: 'https://www.npmjs.com/package/rollup-plugin-node-direct',
     website: 'https://github.com/brianmhunt/rollup-plugin-node-direct#readme',
+  },
+  source: {
+    github: 'brianmhunt/rollup-plugin-node-direct',
+    npm: 'rollup-plugin-node-direct',
   },
   stats: {
     stars: 0,

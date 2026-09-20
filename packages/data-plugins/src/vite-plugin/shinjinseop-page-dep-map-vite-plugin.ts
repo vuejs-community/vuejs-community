@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'page-dep-map',
     'devtools',
   ],
-  source: {
-    github: 'yeo11200/page-dep-map',
-    npm: '@shinjinseop/page-dep-map-vite-plugin',
-  },
   links: {
     github: 'https://github.com/yeo11200/page-dep-map',
     npm: 'https://www.npmjs.com/package/@shinjinseop/page-dep-map-vite-plugin',
     website: 'https://page-dep-map-landing.vercel.app/',
+  },
+  source: {
+    github: 'yeo11200/page-dep-map',
+    npm: '@shinjinseop/page-dep-map-vite-plugin',
   },
   stats: {
     stars: 1,

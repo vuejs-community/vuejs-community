@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-require',
   ],
-  source: {
-    github: 'chernienkoii/vite-plugin-require',
-    npm: '@chernienkoii/vite-plugin-require',
-  },
   links: {
     github: 'https://github.com/chernienkoii/vite-plugin-require',
     npm: 'https://www.npmjs.com/package/@chernienkoii/vite-plugin-require',
     website: 'https://github.com/chernienkoii/vite-plugin-require#readme',
+  },
+  source: {
+    github: 'chernienkoii/vite-plugin-require',
+    npm: '@chernienkoii/vite-plugin-require',
   },
   stats: {
     stars: 0,

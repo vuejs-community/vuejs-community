@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'christiango/vite-plugin-duplicate-packages',
-    npm: '@christiango/vite-plugin-duplicate-packages',
-  },
   links: {
     github: 'https://github.com/christiango/vite-plugin-duplicate-packages',
     npm: 'https://www.npmjs.com/package/@christiango/vite-plugin-duplicate-packages',
     website: 'https://github.com/christiango/vite-plugin-duplicate-packages#readme',
+  },
+  source: {
+    github: 'christiango/vite-plugin-duplicate-packages',
+    npm: '@christiango/vite-plugin-duplicate-packages',
   },
   stats: {
     stars: 1,

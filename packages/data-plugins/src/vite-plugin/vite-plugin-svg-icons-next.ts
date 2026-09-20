@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'svgo',
     'vben',
   ],
-  source: {
-    github: 'norah1to/vite-plugin-svg-icons-next',
-    npm: 'vite-plugin-svg-icons-next',
-  },
   links: {
     github: 'https://github.com/norah1to/vite-plugin-svg-icons-next',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-icons-next',
     website: 'https://github.com/norah1to/vite-plugin-svg-icons-next/tree/main/#readme',
+  },
+  source: {
+    github: 'norah1to/vite-plugin-svg-icons-next',
+    npm: 'vite-plugin-svg-icons-next',
   },
   stats: {
     stars: 0,

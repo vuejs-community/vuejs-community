@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'voracious/vite-plugin-externalize-deps',
-    npm: 'vite-plugin-externalize-deps',
-  },
   links: {
     github: 'https://github.com/voracious/vite-plugin-externalize-deps',
     npm: 'https://www.npmjs.com/package/vite-plugin-externalize-deps',
     website: 'https://github.com/voracious/vite-plugin-externalize-deps',
+  },
+  source: {
+    github: 'voracious/vite-plugin-externalize-deps',
+    npm: 'vite-plugin-externalize-deps',
   },
   stats: {
     stars: 0,

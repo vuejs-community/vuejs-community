@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    npm: 'i18n-tools-lanjian',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/i18n-tools-lanjian',
+  },
+  source: {
+    npm: 'i18n-tools-lanjian',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'loader',
   ],
-  source: {
-    github: 'urain39/rollup-plugin-ij2tpl',
-    npm: 'rollup-plugin-ij2tpl',
-  },
   links: {
     github: 'https://github.com/urain39/rollup-plugin-ij2tpl',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ij2tpl',
     website: 'https://github.com/urain39/rollup-plugin-ij2tpl#readme',
+  },
+  source: {
+    github: 'urain39/rollup-plugin-ij2tpl',
+    npm: 'rollup-plugin-ij2tpl',
   },
   stats: {
     stars: 0,

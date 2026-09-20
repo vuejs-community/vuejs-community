@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'llms',
     'ai-friendly',
   ],
-  source: {
-    github: 'B3Pay/ic-reactor',
-    npm: '@ic-reactor/vite-plugin',
-  },
   links: {
     github: 'https://github.com/B3Pay/ic-reactor',
     npm: 'https://www.npmjs.com/package/@ic-reactor/vite-plugin',
     website: 'https://ic-reactor.b3pay.net/v3/packages/vite-plugin',
+  },
+  source: {
+    github: 'B3Pay/ic-reactor',
+    npm: '@ic-reactor/vite-plugin',
   },
   stats: {
     stars: 20,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'nette/vite-plugin',
-    npm: '@nette/vite-plugin',
-  },
   links: {
     github: 'https://github.com/nette/vite-plugin',
     npm: 'https://www.npmjs.com/package/@nette/vite-plugin',
     website: 'https://doc.nette.org/en/assets/vite',
+  },
+  source: {
+    github: 'nette/vite-plugin',
+    npm: '@nette/vite-plugin',
   },
   stats: {
     stars: 6,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'ejs',
     'bundle-ejs',
   ],
-  source: {
-    github: 'dushaobindoudou/rollup-plugin-bundle-ejs',
-    npm: 'rollup-plugin-bundle-ejs',
-  },
   links: {
     github: 'https://github.com/dushaobindoudou/rollup-plugin-bundle-ejs',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bundle-ejs',
     website: 'https://github.com/dushaobindoudou/rollup-plugin-bundle-ejs#readme',
+  },
+  source: {
+    github: 'dushaobindoudou/rollup-plugin-bundle-ejs',
+    npm: 'rollup-plugin-bundle-ejs',
   },
   stats: {
     stars: 0,

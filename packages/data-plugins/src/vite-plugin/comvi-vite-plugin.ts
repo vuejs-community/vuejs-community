@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'typegen',
     'comvi',
   ],
-  source: {
-    github: 'comvi-io/comvi-js',
-    npm: '@comvi/vite-plugin',
-  },
   links: {
     github: 'https://github.com/comvi-io/comvi-js',
     npm: 'https://www.npmjs.com/package/@comvi/vite-plugin',
     website: 'https://comvi.io',
+  },
+  source: {
+    github: 'comvi-io/comvi-js',
+    npm: '@comvi/vite-plugin',
   },
   stats: {
     stars: 2,

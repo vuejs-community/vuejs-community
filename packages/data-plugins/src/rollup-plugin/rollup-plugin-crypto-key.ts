@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'xiaohe0601/virtual-crypto-key',
-    npm: 'rollup-plugin-crypto-key',
-  },
   links: {
     github: 'https://github.com/xiaohe0601/virtual-crypto-key',
     npm: 'https://www.npmjs.com/package/rollup-plugin-crypto-key',
     website: 'https://github.com/xiaohe0601/virtual-crypto-key#readme',
+  },
+  source: {
+    github: 'xiaohe0601/virtual-crypto-key',
+    npm: 'rollup-plugin-crypto-key',
   },
   stats: {
     stars: 3,

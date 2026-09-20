@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'livewire',
     'vite-plugin',
   ],
-  source: {
-    github: 'defstudio/vite-livewire-plugin',
-    npm: '@defstudio/vite-livewire-plugin',
-  },
   links: {
     github: 'https://github.com/defstudio/vite-livewire-plugin',
     npm: 'https://www.npmjs.com/package/@defstudio/vite-livewire-plugin',
     website: 'https://github.com/defstudio/vite-livewire-plugin',
+  },
+  source: {
+    github: 'defstudio/vite-livewire-plugin',
+    npm: '@defstudio/vite-livewire-plugin',
   },
   stats: {
     stars: 296,

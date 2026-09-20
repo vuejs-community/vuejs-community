@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'imagemin',
   ],
-  source: {
-    github: 'valcosmos/vite-plugin-compression-rs',
-    npm: 'vite-plugin-compression-rs',
-  },
   links: {
     github: 'https://github.com/valcosmos/vite-plugin-compression-rs',
     npm: 'https://www.npmjs.com/package/vite-plugin-compression-rs',
     website: 'https://github.com/valcosmos/vite-plugin-compression-rs/tree/master/#readme',
+  },
+  source: {
+    github: 'valcosmos/vite-plugin-compression-rs',
+    npm: 'vite-plugin-compression-rs',
   },
   stats: {
     stars: 0,

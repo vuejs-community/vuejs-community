@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'felixmosh/unplugin-valibot-to-json-schema',
-    npm: 'unplugin-valibot-to-json-schema',
-  },
   links: {
     github: 'https://github.com/felixmosh/unplugin-valibot-to-json-schema',
     npm: 'https://www.npmjs.com/package/unplugin-valibot-to-json-schema',
     website: 'https://github.com/felixmosh/unplugin-valibot-to-json-schema#readme',
+  },
+  source: {
+    github: 'felixmosh/unplugin-valibot-to-json-schema',
+    npm: 'unplugin-valibot-to-json-schema',
   },
   stats: {
     stars: 0,

@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'module-federation',
     'micro-frontend',
   ],
-  source: {
-    npm: '@jiayouzuo/vite-module-federation-core',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@jiayouzuo/vite-module-federation-core',
+  },
+  source: {
+    npm: '@jiayouzuo/vite-module-federation-core',
   },
   stats: {
     stars: 0,

@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'rollup-plugin-import-manager',
     'switch',
   ],
-  source: {
-    github: 'UmamiAppearance/rollup-plugin-import-manager',
-    npm: 'rollup-plugin-import-manager',
-  },
   links: {
     github: 'https://github.com/UmamiAppearance/rollup-plugin-import-manager',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-manager',
     website: 'https://github.com/UmamiAppearance/rollup-plugin-import-manager#readme',
+  },
+  source: {
+    github: 'UmamiAppearance/rollup-plugin-import-manager',
+    npm: 'rollup-plugin-import-manager',
   },
   stats: {
     stars: 3,

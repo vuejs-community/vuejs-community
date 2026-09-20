@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'webpack-loader',
     'typescript',
   ],
-  source: {
-    npm: 'puttycss',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/puttycss',
+  },
+  source: {
+    npm: 'puttycss',
   },
   stats: {
     stars: 0,

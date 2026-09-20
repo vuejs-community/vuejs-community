@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'bundle',
     'typescript',
   ],
-  source: {
-    github: 'f-lawe/unplugin-dts-bundle-generator',
-    npm: 'unplugin-dts-bundle-generator',
-  },
   links: {
     github: 'https://github.com/f-lawe/unplugin-dts-bundle-generator',
     npm: 'https://www.npmjs.com/package/unplugin-dts-bundle-generator',
     website: 'https://github.com/f-lawe/unplugin-dts-bundle-generator#readme',
+  },
+  source: {
+    github: 'f-lawe/unplugin-dts-bundle-generator',
+    npm: 'unplugin-dts-bundle-generator',
   },
   stats: {
     stars: 11,

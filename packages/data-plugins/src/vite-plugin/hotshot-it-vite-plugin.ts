@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'ai-development',
     'conversational-coding',
   ],
-  source: {
-    github: 'hotshot-it/hotshot',
-    npm: '@hotshot-it/vite-plugin',
-  },
   links: {
     github: 'https://github.com/hotshot-it/hotshot',
     npm: 'https://www.npmjs.com/package/@hotshot-it/vite-plugin',
     website: 'https://github.com/hotshot-it/hotshot#readme',
+  },
+  source: {
+    github: 'hotshot-it/hotshot',
+    npm: '@hotshot-it/vite-plugin',
   },
   stats: {
     stars: 1,

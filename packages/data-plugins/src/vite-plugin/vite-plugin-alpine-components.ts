@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'alpinejs',
     'components',
   ],
-  source: {
-    github: 'reecelikesramen/alpine-components',
-    npm: 'vite-plugin-alpine-components',
-  },
   links: {
     github: 'https://github.com/reecelikesramen/alpine-components',
     npm: 'https://www.npmjs.com/package/vite-plugin-alpine-components',
     website: 'https://github.com/reecelikesramen/alpine-components#readme',
+  },
+  source: {
+    github: 'reecelikesramen/alpine-components',
+    npm: 'vite-plugin-alpine-components',
   },
   stats: {
     stars: 3,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin-vue',
     'css-in-js',
   ],
-  source: {
-    github: 'zhangfisher/vite-plugin-vue-style-bundler',
-    npm: 'vite-plugin-vue-style-bundler',
-  },
   links: {
     github: 'https://github.com/zhangfisher/vite-plugin-vue-style-bundler',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-style-bundler',
     website: 'https://github.com/zhangfisher/vite-plugin-vue-style-bundler#readme',
+  },
+  source: {
+    github: 'zhangfisher/vite-plugin-vue-style-bundler',
+    npm: 'vite-plugin-vue-style-bundler',
   },
   stats: {
     stars: 7,

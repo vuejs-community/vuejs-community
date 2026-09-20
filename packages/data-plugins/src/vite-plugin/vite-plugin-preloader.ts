@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'intelligent',
     'preloading',
   ],
-  source: {
-    github: 'ChenyCHENYU/vite-plugin-preloader',
-    npm: 'vite-plugin-preloader',
-  },
   links: {
     github: 'https://github.com/ChenyCHENYU/vite-plugin-preloader',
     npm: 'https://www.npmjs.com/package/vite-plugin-preloader',
     website: 'https://github.com/ChenyCHENYU/vite-plugin-preloader#readme',
+  },
+  source: {
+    github: 'ChenyCHENYU/vite-plugin-preloader',
+    npm: 'vite-plugin-preloader',
   },
   stats: {
     stars: 6,

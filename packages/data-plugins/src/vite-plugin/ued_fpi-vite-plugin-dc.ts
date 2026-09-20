@@ -17,13 +17,13 @@ export default defineProjectMeta({
     'cesium',
     'dc-sdk',
   ],
-  source: {
-    github: 'ued_fpi/vite-plugin-dc',
-    npm: '@ued_fpi/vite-plugin-dc',
-  },
   links: {
     github: 'https://github.com/ued_fpi/vite-plugin-dc',
     npm: 'https://www.npmjs.com/package/@ued_fpi/vite-plugin-dc',
+  },
+  source: {
+    github: 'ued_fpi/vite-plugin-dc',
+    npm: '@ued_fpi/vite-plugin-dc',
   },
   stats: {
     stars: 0,

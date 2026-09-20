@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vue',
     'vuejs',
   ],
-  source: {
-    github: 'quasarframework/quasar',
-    npm: '@quasar/vite-plugin',
-  },
   links: {
     github: 'https://github.com/quasarframework/quasar',
     npm: 'https://www.npmjs.com/package/@quasar/vite-plugin',
     website: 'https://quasar.dev',
+  },
+  source: {
+    github: 'quasarframework/quasar',
+    npm: '@quasar/vite-plugin',
   },
   stats: {
     stars: 0,

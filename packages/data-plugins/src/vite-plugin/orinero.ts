@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'static-html',
     'blog-generator',
   ],
-  source: {
-    github: 'paul-browne/vite-plugin-html-pages',
-    npm: 'orinero',
-  },
   links: {
     github: 'https://github.com/paul-browne/vite-plugin-html-pages',
     npm: 'https://www.npmjs.com/package/orinero',
     website: 'https://github.com/paul-browne/vite-plugin-html-pages',
+  },
+  source: {
+    github: 'paul-browne/vite-plugin-html-pages',
+    npm: 'orinero',
   },
   stats: {
     stars: 0,

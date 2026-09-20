@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'unplugin/unplugin-turbo-console',
-    npm: 'unplugin-turbo-console',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-turbo-console',
     npm: 'https://www.npmjs.com/package/unplugin-turbo-console',
     website: 'https://utc.yuy1n.io',
+  },
+  source: {
+    github: 'unplugin/unplugin-turbo-console',
+    npm: 'unplugin-turbo-console',
   },
   stats: {
     stars: 709,

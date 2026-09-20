@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'supsign/unplugin-interfaces',
-    npm: '@supsign/unplugin-interfaces',
-  },
   links: {
     github: 'https://github.com/supsign/unplugin-interfaces',
     npm: 'https://www.npmjs.com/package/@supsign/unplugin-interfaces',
     website: 'https://github.com/supsign/unplugin-interfaces#readme',
+  },
+  source: {
+    github: 'supsign/unplugin-interfaces',
+    npm: '@supsign/unplugin-interfaces',
   },
   stats: {
     stars: 0,

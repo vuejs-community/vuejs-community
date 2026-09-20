@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'vite-pwa/remix',
-    npm: '@vite-pwa/remix',
-  },
   links: {
     github: 'https://github.com/vite-pwa/remix',
     npm: 'https://www.npmjs.com/package/@vite-pwa/remix',
     website: 'https://github.com/vite-pwa/remix#readme',
+  },
+  source: {
+    github: 'vite-pwa/remix',
+    npm: '@vite-pwa/remix',
   },
   stats: {
     stars: 71,

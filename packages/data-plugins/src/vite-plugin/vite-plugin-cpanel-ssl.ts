@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'ssl',
     'secure',
   ],
-  source: {
-    github: 'evo-mark/vite-plugin-cpanel-ssl',
-    npm: 'vite-plugin-cpanel-ssl',
-  },
   links: {
     github: 'https://github.com/evo-mark/vite-plugin-cpanel-ssl',
     npm: 'https://www.npmjs.com/package/vite-plugin-cpanel-ssl',
     website: 'https://github.com/evo-mark/vite-plugin-cpanel-ssl#readme',
+  },
+  source: {
+    github: 'evo-mark/vite-plugin-cpanel-ssl',
+    npm: 'vite-plugin-cpanel-ssl',
   },
   stats: {
     stars: 0,

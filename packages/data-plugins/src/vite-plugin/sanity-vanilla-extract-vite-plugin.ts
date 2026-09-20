@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'css',
     'plugin',
   ],
-  source: {
-    github: 'sanity-io/pkg-utils',
-    npm: '@sanity/vanilla-extract-vite-plugin',
-  },
   links: {
     github: 'https://github.com/sanity-io/pkg-utils',
     npm: 'https://www.npmjs.com/package/@sanity/vanilla-extract-vite-plugin',
     website: 'https://github.com/sanity-io/pkg-utils/tree/main/packages/@sanity/vanilla-extract-vite-plugin#readme',
+  },
+  source: {
+    github: 'sanity-io/pkg-utils',
+    npm: '@sanity/vanilla-extract-vite-plugin',
   },
   stats: {
     stars: 28,

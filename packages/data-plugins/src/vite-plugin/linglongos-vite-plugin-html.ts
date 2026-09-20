@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'minify',
     'vite-plugin',
   ],
-  source: {
-    github: 'chudongsong/vite-plugin-html2',
-    npm: '@linglongos/vite-plugin-html',
-  },
   links: {
     github: 'https://github.com/chudongsong/vite-plugin-html2',
     npm: 'https://www.npmjs.com/package/@linglongos/vite-plugin-html',
     website: 'https://github.com/chudongsong/vite-plugin-html2#readme',
+  },
+  source: {
+    github: 'chudongsong/vite-plugin-html2',
+    npm: '@linglongos/vite-plugin-html',
   },
   stats: {
     stars: 1,

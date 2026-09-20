@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'css',
   ],
-  source: {
-    github: 'collagejs/vite',
-    npm: '@collagejs/vite-css',
-  },
   links: {
     github: 'https://github.com/collagejs/vite',
     npm: 'https://www.npmjs.com/package/@collagejs/vite-css',
     website: 'https://collagejs.dev',
+  },
+  source: {
+    github: 'collagejs/vite',
+    npm: '@collagejs/vite-css',
   },
   stats: {
     stars: 0,

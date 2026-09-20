@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'react',
     'static-site',
   ],
-  source: {
-    github: 'Ahmadastics/froam-studio',
-    npm: '@ahmadastic/froam',
-  },
   links: {
     github: 'https://github.com/Ahmadastics/froam-studio',
     npm: 'https://www.npmjs.com/package/@ahmadastic/froam',
     website: 'https://github.com/Ahmadastics/froam-studio#readme',
+  },
+  source: {
+    github: 'Ahmadastics/froam-studio',
+    npm: '@ahmadastic/froam',
   },
   stats: {
     stars: 0,

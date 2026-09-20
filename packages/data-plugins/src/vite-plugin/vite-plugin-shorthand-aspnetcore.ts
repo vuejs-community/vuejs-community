@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-shorthand-aspnetcore',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-shorthand-aspnetcore',
+  },
+  source: {
+    npm: 'vite-plugin-shorthand-aspnetcore',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'spiritdigitalagency/wordpress-vite-plugin',
-    npm: '@spiritdigital/wordpress-vite-plugin',
-  },
   links: {
     github: 'https://github.com/spiritdigitalagency/wordpress-vite-plugin',
     npm: 'https://www.npmjs.com/package/@spiritdigital/wordpress-vite-plugin',
     website: 'https://github.com/spiritdigitalagency/wordpress-vite-plugin',
+  },
+  source: {
+    github: 'spiritdigitalagency/wordpress-vite-plugin',
+    npm: '@spiritdigital/wordpress-vite-plugin',
   },
   stats: {
     stars: 1,

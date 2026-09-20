@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'Lindsay-Needs-Sleep/rollup-plugin-pre-inject',
-    npm: 'rollup-plugin-pre-inject',
-  },
   links: {
     github: 'https://github.com/Lindsay-Needs-Sleep/rollup-plugin-pre-inject',
     npm: 'https://www.npmjs.com/package/rollup-plugin-pre-inject',
     website: 'https://github.com/Lindsay-Needs-Sleep/rollup-plugin-pre-inject#readme',
+  },
+  source: {
+    github: 'Lindsay-Needs-Sleep/rollup-plugin-pre-inject',
+    npm: 'rollup-plugin-pre-inject',
   },
   stats: {
     stars: 0,

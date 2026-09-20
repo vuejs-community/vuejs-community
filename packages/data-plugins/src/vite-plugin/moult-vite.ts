@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'plugin-runtime',
     'lifecycle',
   ],
-  source: {
-    github: 'neryva-lab/moult',
-    npm: '@moult/vite',
-  },
   links: {
     github: 'https://github.com/neryva-lab/moult',
     npm: 'https://www.npmjs.com/package/@moult/vite',
     website: 'https://github.com/neryva-lab/moult#readme',
+  },
+  source: {
+    github: 'neryva-lab/moult',
+    npm: '@moult/vite',
   },
   stats: {
     stars: 0,

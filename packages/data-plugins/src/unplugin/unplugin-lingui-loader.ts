@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'i18n',
   ],
-  source: {
-    github: 'a1ooha/unplugin-lingui-loader',
-    npm: 'unplugin-lingui-loader',
-  },
   links: {
     github: 'https://github.com/a1ooha/unplugin-lingui-loader',
     npm: 'https://www.npmjs.com/package/unplugin-lingui-loader',
     website: 'https://github.com/a1ooha/unplugin-lingui-loader#readme',
+  },
+  source: {
+    github: 'a1ooha/unplugin-lingui-loader',
+    npm: 'unplugin-lingui-loader',
   },
   stats: {
     stars: 14,

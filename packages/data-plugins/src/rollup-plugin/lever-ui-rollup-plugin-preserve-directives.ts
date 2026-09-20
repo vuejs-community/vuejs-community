@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    npm: 'lever-ui-rollup-plugin-preserve-directives',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/lever-ui-rollup-plugin-preserve-directives',
+  },
+  source: {
+    npm: 'lever-ui-rollup-plugin-preserve-directives',
   },
   stats: {
     stars: 0,

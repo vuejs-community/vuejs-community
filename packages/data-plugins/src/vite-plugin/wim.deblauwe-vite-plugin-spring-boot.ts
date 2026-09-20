@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'plugin',
     'spring-boot',
   ],
-  source: {
-    github: 'wimdeblauwe/vite-plugin-spring-boot',
-    npm: '@wim.deblauwe/vite-plugin-spring-boot',
-  },
   links: {
     github: 'https://github.com/wimdeblauwe/vite-plugin-spring-boot',
     npm: 'https://www.npmjs.com/package/@wim.deblauwe/vite-plugin-spring-boot',
     website: 'https://github.com/wimdeblauwe/vite-plugin-spring-boot',
+  },
+  source: {
+    github: 'wimdeblauwe/vite-plugin-spring-boot',
+    npm: '@wim.deblauwe/vite-plugin-spring-boot',
   },
   stats: {
     stars: 12,

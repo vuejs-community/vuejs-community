@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-ignore',
   ],
-  source: {
-    npm: '@gd-uikit/vite-plugin-ignore',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@gd-uikit/vite-plugin-ignore',
+  },
+  source: {
+    npm: '@gd-uikit/vite-plugin-ignore',
   },
   stats: {
     stars: 0,

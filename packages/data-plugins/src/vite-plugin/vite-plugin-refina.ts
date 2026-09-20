@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'refina',
     'vite-plugin',
   ],
-  source: {
-    github: 'KermanX/refina',
-    npm: 'vite-plugin-refina',
-  },
   links: {
     github: 'https://github.com/KermanX/refina',
     npm: 'https://www.npmjs.com/package/vite-plugin-refina',
     website: 'https://github.com/KermanX/refina#readme',
+  },
+  source: {
+    github: 'KermanX/refina',
+    npm: 'vite-plugin-refina',
   },
   stats: {
     stars: 38,

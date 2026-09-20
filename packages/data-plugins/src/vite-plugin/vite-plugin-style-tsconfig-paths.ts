@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'paths',
     'alias',
   ],
-  source: {
-    github: 'WangYuLue/vite-plugin-style-tsconfig-paths',
-    npm: 'vite-plugin-style-tsconfig-paths',
-  },
   links: {
     github: 'https://github.com/WangYuLue/vite-plugin-style-tsconfig-paths',
     npm: 'https://www.npmjs.com/package/vite-plugin-style-tsconfig-paths',
     website: 'https://github.com/WangYuLue/vite-plugin-style-tsconfig-paths#readme',
+  },
+  source: {
+    github: 'WangYuLue/vite-plugin-style-tsconfig-paths',
+    npm: 'vite-plugin-style-tsconfig-paths',
   },
   stats: {
     stars: 0,

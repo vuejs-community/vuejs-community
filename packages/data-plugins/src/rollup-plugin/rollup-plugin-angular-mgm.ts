@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'inliner',
     'rollup-plugin',
   ],
-  source: {
-    github: 'mgm87/rollup-plugin-angular',
-    npm: 'rollup-plugin-angular-mgm',
-  },
   links: {
     github: 'https://github.com/mgm87/rollup-plugin-angular',
     npm: 'https://www.npmjs.com/package/rollup-plugin-angular-mgm',
     website: 'https://github.com/mgm87/rollup-plugin-angular#readme',
+  },
+  source: {
+    github: 'mgm87/rollup-plugin-angular',
+    npm: 'rollup-plugin-angular-mgm',
   },
   stats: {
     stars: 0,

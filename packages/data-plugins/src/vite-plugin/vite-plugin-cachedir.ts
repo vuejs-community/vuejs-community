@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'cache',
   ],
-  source: {
-    github: 'bent10/vite-plugins',
-    npm: 'vite-plugin-cachedir',
-  },
   links: {
     github: 'https://github.com/bent10/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-cachedir',
     website: 'https://github.com/bent10/vite-plugins/tree/main/packages/plugin-cachedir',
+  },
+  source: {
+    github: 'bent10/vite-plugins',
+    npm: 'vite-plugin-cachedir',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'coffeescript',
   ],
-  source: {
-    github: 'davezuko/rollup-plugin-caffeinate',
-    npm: 'rollup-plugin-caffeinate',
-  },
   links: {
     github: 'https://github.com/davezuko/rollup-plugin-caffeinate',
     npm: 'https://www.npmjs.com/package/rollup-plugin-caffeinate',
     website: 'https://github.com/davezuko/rollup-plugin-caffeinate',
+  },
+  source: {
+    github: 'davezuko/rollup-plugin-caffeinate',
+    npm: 'rollup-plugin-caffeinate',
   },
   stats: {
     stars: 0,

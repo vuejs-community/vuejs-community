@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'bundle',
     'manifest',
   ],
-  source: {
-    github: 'cchaonie/rollup-plugin-bundle-manifest',
-    npm: 'rollup-plugin-bundle-manifest',
-  },
   links: {
     github: 'https://github.com/cchaonie/rollup-plugin-bundle-manifest',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bundle-manifest',
     website: 'https://github.com/cchaonie/rollup-plugin-bundle-manifest#readme',
+  },
+  source: {
+    github: 'cchaonie/rollup-plugin-bundle-manifest',
+    npm: 'rollup-plugin-bundle-manifest',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'control-addin',
   ],
-  source: {
-    github: 'Hugos68/rollup-plugin-control-addin',
-    npm: 'rollup-plugin-control-addin',
-  },
   links: {
     github: 'https://github.com/Hugos68/rollup-plugin-control-addin',
     npm: 'https://www.npmjs.com/package/rollup-plugin-control-addin',
     website: 'https://github.com/Hugos68/rollup-plugin-control-addin#readme',
+  },
+  source: {
+    github: 'Hugos68/rollup-plugin-control-addin',
+    npm: 'rollup-plugin-control-addin',
   },
   stats: {
     stars: 0,

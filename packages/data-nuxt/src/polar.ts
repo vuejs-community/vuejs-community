@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://polar.sh/docs/integrate/sdk/adapters/nuxt',
   },
   source: {
-    github: 'polarsource/polar-adapters#main/packages/polar-nuxt',
+    github: 'polarsource/polar-adapters',
     npm: '@polar-sh/nuxt',
   },
 })

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'antfu/unplugin-starter',
-    npm: 'unplugin-define-name',
-  },
   links: {
     github: 'https://github.com/antfu/unplugin-starter',
     npm: 'https://www.npmjs.com/package/unplugin-define-name',
     website: 'https://github.com/antfu/unplugin-starter#readme',
+  },
+  source: {
+    github: 'antfu/unplugin-starter',
+    npm: 'unplugin-define-name',
   },
   stats: {
     stars: 0,

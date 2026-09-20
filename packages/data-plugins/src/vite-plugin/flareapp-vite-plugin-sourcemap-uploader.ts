@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'flare',
     'sourcemaps',
   ],
-  source: {
-    github: 'spatie/flare-vite-plugin-sourcemap-uploader',
-    npm: '@flareapp/vite-plugin-sourcemap-uploader',
-  },
   links: {
     github: 'https://github.com/spatie/flare-vite-plugin-sourcemap-uploader',
     npm: 'https://www.npmjs.com/package/@flareapp/vite-plugin-sourcemap-uploader',
     website: 'https://flareapp.io',
+  },
+  source: {
+    github: 'spatie/flare-vite-plugin-sourcemap-uploader',
+    npm: '@flareapp/vite-plugin-sourcemap-uploader',
   },
   stats: {
     stars: 2,

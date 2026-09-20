@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'titanium',
     'vite-plugin',
   ],
-  source: {
-    github: 'tidev/titanium-vite',
-    npm: '@titanium-sdk/vite-plugin-titanium-alloy',
-  },
   links: {
     github: 'https://github.com/tidev/titanium-vite',
     npm: 'https://www.npmjs.com/package/@titanium-sdk/vite-plugin-titanium-alloy',
     website: 'https://github.com/tidev/titanium-vite#readme',
+  },
+  source: {
+    github: 'tidev/titanium-vite',
+    npm: '@titanium-sdk/vite-plugin-titanium-alloy',
   },
   stats: {
     stars: 0,

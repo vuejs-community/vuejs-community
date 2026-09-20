@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'rspack',
     'webpack',
   ],
-  source: {
-    github: 'sya-ri/css-var-extract',
-    npm: 'css-var-extract-plugin',
-  },
   links: {
     github: 'https://github.com/sya-ri/css-var-extract',
     npm: 'https://www.npmjs.com/package/css-var-extract-plugin',
     website: 'https://github.com/sya-ri/css-var-extract#readme',
+  },
+  source: {
+    github: 'sya-ri/css-var-extract',
+    npm: 'css-var-extract-plugin',
   },
   stats: {
     stars: 8,

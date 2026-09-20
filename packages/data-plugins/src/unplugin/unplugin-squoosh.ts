@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'byronogis/unplugin-squoosh',
-    npm: 'unplugin-squoosh',
-  },
   links: {
     github: 'https://github.com/byronogis/unplugin-squoosh',
     npm: 'https://www.npmjs.com/package/unplugin-squoosh',
     website: 'https://github.com/byronogis/unplugin-squoosh#readme',
+  },
+  source: {
+    github: 'byronogis/unplugin-squoosh',
+    npm: 'unplugin-squoosh',
   },
   stats: {
     stars: 1,

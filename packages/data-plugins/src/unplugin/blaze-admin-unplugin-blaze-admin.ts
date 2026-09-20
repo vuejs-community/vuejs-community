@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'esbuild',
     'plugin',
   ],
-  source: {
-    npm: '@blaze-admin/unplugin-blaze-admin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@blaze-admin/unplugin-blaze-admin',
+  },
+  source: {
+    npm: '@blaze-admin/unplugin-blaze-admin',
   },
   stats: {
     stars: 0,

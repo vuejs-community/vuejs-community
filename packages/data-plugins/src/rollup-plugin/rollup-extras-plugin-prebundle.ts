@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'optimize',
     'dev',
   ],
-  source: {
-    github: 'kshutkin/rollup-extras',
-    npm: '@rollup-extras/plugin-prebundle',
-  },
   links: {
     github: 'https://github.com/kshutkin/rollup-extras',
     npm: 'https://www.npmjs.com/package/@rollup-extras/plugin-prebundle',
     website: 'https://github.com/kshutkin/rollup-extras/blob/main/plugin-prebundle/README.md',
+  },
+  source: {
+    github: 'kshutkin/rollup-extras',
+    npm: '@rollup-extras/plugin-prebundle',
   },
   stats: {
     stars: 0,

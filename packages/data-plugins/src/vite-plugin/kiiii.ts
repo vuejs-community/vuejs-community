@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'Himavanta/kiiii',
-    npm: 'kiiii',
-  },
   links: {
     github: 'https://github.com/Himavanta/kiiii',
     npm: 'https://www.npmjs.com/package/kiiii',
     website: 'https://github.com/Himavanta/kiiii#readme',
+  },
+  source: {
+    github: 'Himavanta/kiiii',
+    npm: 'kiiii',
   },
   stats: {
     stars: 1,

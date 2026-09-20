@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'typescript',
   ],
-  source: {
-    github: 'chromaHQ/chroma',
-    npm: '@chromahq/manifest',
-  },
   links: {
     github: 'https://github.com/chromaHQ/chroma',
     npm: 'https://www.npmjs.com/package/@chromahq/manifest',
     website: 'https://github.com/chromaHQ/chroma#readme',
+  },
+  source: {
+    github: 'chromaHQ/chroma',
+    npm: '@chromahq/manifest',
   },
   stats: {
     stars: 1,

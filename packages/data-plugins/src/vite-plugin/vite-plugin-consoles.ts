@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'console',
     'vite-plugin',
   ],
-  source: {
-    github: 'ALiangTech/vite-plugin-consoles',
-    npm: 'vite-plugin-consoles',
-  },
   links: {
     github: 'https://github.com/ALiangTech/vite-plugin-consoles',
     npm: 'https://www.npmjs.com/package/vite-plugin-consoles',
     website: 'https://github.com/ALiangTech/vite-plugin-consoles#readme',
+  },
+  source: {
+    github: 'ALiangTech/vite-plugin-consoles',
+    npm: 'vite-plugin-consoles',
   },
   stats: {
     stars: 1,

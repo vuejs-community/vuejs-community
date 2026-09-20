@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'cdn',
   ],
-  source: {
-    npm: 'vite-plugin-import-cdn-fault-tolerant',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-import-cdn-fault-tolerant',
+  },
+  source: {
+    npm: 'vite-plugin-import-cdn-fault-tolerant',
   },
   stats: {
     stars: 0,

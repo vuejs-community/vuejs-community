@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'lyric-zemin/unplugin-fontmin',
-    npm: 'unplugin-fontmin',
-  },
   links: {
     github: 'https://github.com/lyric-zemin/unplugin-fontmin',
     npm: 'https://www.npmjs.com/package/unplugin-fontmin',
     website: 'https://github.com/lyric-zemin/unplugin-fontmin#readme',
+  },
+  source: {
+    github: 'lyric-zemin/unplugin-fontmin',
+    npm: 'unplugin-fontmin',
   },
   stats: {
     stars: 1,

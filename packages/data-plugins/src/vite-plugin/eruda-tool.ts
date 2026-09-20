@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'devtool',
   ],
-  source: {
-    github: 'jany555/eruda-tool',
-    npm: 'eruda-tool',
-  },
   links: {
     github: 'https://github.com/jany555/eruda-tool',
     npm: 'https://www.npmjs.com/package/eruda-tool',
     website: 'https://github.com/jany555/eruda-tool#readme',
+  },
+  source: {
+    github: 'jany555/eruda-tool',
+    npm: 'eruda-tool',
   },
   stats: {
     stars: 0,

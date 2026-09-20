@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'stylus',
     'css',
   ],
-  source: {
-    github: 'EickeOe/rollup-plugin-stylus4sapper',
-    npm: 'rollup-plugin-stylus4sapper',
-  },
   links: {
     github: 'https://github.com/EickeOe/rollup-plugin-stylus4sapper',
     npm: 'https://www.npmjs.com/package/rollup-plugin-stylus4sapper',
     website: 'https://github.com/EickeOe/rollup-plugin-stylus4sapper',
+  },
+  source: {
+    github: 'EickeOe/rollup-plugin-stylus4sapper',
+    npm: 'rollup-plugin-stylus4sapper',
   },
   stats: {
     stars: 0,

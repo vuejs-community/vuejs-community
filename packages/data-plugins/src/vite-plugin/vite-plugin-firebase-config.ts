@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'config',
     'environment-variables',
   ],
-  source: {
-    github: 'YuArtian/vite-plugin-firebase-config',
-    npm: 'vite-plugin-firebase-config',
-  },
   links: {
     github: 'https://github.com/YuArtian/vite-plugin-firebase-config',
     npm: 'https://www.npmjs.com/package/vite-plugin-firebase-config',
     website: 'https://github.com/YuArtian/vite-plugin-firebase-config#readme',
+  },
+  source: {
+    github: 'YuArtian/vite-plugin-firebase-config',
+    npm: 'vite-plugin-firebase-config',
   },
   stats: {
     stars: 1,

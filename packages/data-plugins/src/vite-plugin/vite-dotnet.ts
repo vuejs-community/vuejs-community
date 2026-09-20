@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dotnet',
     'asp-net-core',
   ],
-  source: {
-    github: 'techgems/vite-dotnet',
-    npm: 'vite-dotnet',
-  },
   links: {
     github: 'https://github.com/techgems/vite-dotnet',
     npm: 'https://www.npmjs.com/package/vite-dotnet',
     website: 'https://github.com/techgems/vite-dotnet#readme',
+  },
+  source: {
+    github: 'techgems/vite-dotnet',
+    npm: 'vite-dotnet',
   },
   stats: {
     stars: 67,

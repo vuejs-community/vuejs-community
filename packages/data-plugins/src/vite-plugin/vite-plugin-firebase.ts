@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'gluck/vite-plugin-firebase',
-    npm: 'vite-plugin-firebase',
-  },
   links: {
     github: 'https://github.com/gluck/vite-plugin-firebase',
     npm: 'https://www.npmjs.com/package/vite-plugin-firebase',
     website: 'https://github.com/gluck/vite-plugin-firebase',
+  },
+  source: {
+    github: 'gluck/vite-plugin-firebase',
+    npm: 'vite-plugin-firebase',
   },
   stats: {
     stars: 24,

@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'string',
     'replace',
   ],
-  source: {
-    npm: '@lpgroup/vite-plugin-replace',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@lpgroup/vite-plugin-replace',
     website: 'https://gitlab.com/lpgroup/lpgroup/-/tree/master/packages/vite-plugin-replace',
+  },
+  source: {
+    npm: '@lpgroup/vite-plugin-replace',
   },
   stats: {
     stars: 0,

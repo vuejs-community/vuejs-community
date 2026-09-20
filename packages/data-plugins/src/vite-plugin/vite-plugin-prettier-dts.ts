@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'format',
     'auto-import',
   ],
-  source: {
-    github: 'cg37/vite-plugin-prettier-dts',
-    npm: 'vite-plugin-prettier-dts',
-  },
   links: {
     github: 'https://github.com/cg37/vite-plugin-prettier-dts',
     npm: 'https://www.npmjs.com/package/vite-plugin-prettier-dts',
     website: 'https://github.com/cg37/vite-plugin-prettier-dts#readme',
+  },
+  source: {
+    github: 'cg37/vite-plugin-prettier-dts',
+    npm: 'vite-plugin-prettier-dts',
   },
   stats: {
     stars: 0,

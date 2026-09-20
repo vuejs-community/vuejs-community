@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vue',
     'react',
   ],
-  source: {
-    github: 'yanquanfahei/vite-plugin-injs-jsx',
-    npm: 'vite-plugin-injs-jsx',
-  },
   links: {
     github: 'https://github.com/yanquanfahei/vite-plugin-injs-jsx',
     npm: 'https://www.npmjs.com/package/vite-plugin-injs-jsx',
     website: 'https://github.com/yanquanfahei/vite-plugin-injs-jsx#readme',
+  },
+  source: {
+    github: 'yanquanfahei/vite-plugin-injs-jsx',
+    npm: 'vite-plugin-injs-jsx',
   },
   stats: {
     stars: 2,

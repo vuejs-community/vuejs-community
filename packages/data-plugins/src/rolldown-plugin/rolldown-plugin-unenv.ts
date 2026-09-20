@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rolldown-plugin',
     'unenv',
   ],
-  source: {
-    github: 'jeremy-code/rolldown-plugin-unenv',
-    npm: 'rolldown-plugin-unenv',
-  },
   links: {
     github: 'https://github.com/jeremy-code/rolldown-plugin-unenv',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-unenv',
     website: 'https://github.com/jeremy-code/rolldown-plugin-unenv#readme',
+  },
+  source: {
+    github: 'jeremy-code/rolldown-plugin-unenv',
+    npm: 'rolldown-plugin-unenv',
   },
   stats: {
     stars: 0,

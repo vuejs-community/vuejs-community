@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'wzc520pyfm/unplugin-json',
-    npm: 'unplugin-json2',
-  },
   links: {
     github: 'https://github.com/wzc520pyfm/unplugin-json',
     npm: 'https://www.npmjs.com/package/unplugin-json2',
     website: 'https://github.com/wzc520pyfm/unplugin-json#readme',
+  },
+  source: {
+    github: 'wzc520pyfm/unplugin-json',
+    npm: 'unplugin-json2',
   },
   stats: {
     stars: 1,

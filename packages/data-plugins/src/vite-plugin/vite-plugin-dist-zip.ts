@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    npm: 'vite-plugin-dist-zip',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-dist-zip',
     website: 'https://gitee.com/weiyiPyc/vite-plugin-dist-zip',
+  },
+  source: {
+    npm: 'vite-plugin-dist-zip',
   },
   stats: {
     stars: 0,

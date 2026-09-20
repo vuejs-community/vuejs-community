@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'json-to-ts',
   ],
-  source: {
-    github: 'imyangyong/unplugin-dev-proxy',
-    npm: 'unplugin-dev-proxy',
-  },
   links: {
     github: 'https://github.com/imyangyong/unplugin-dev-proxy',
     npm: 'https://www.npmjs.com/package/unplugin-dev-proxy',
     website: 'https://github.com/imyangyong/unplugin-dev-proxy#readme',
+  },
+  source: {
+    github: 'imyangyong/unplugin-dev-proxy',
+    npm: 'unplugin-dev-proxy',
   },
   stats: {
     stars: 1,

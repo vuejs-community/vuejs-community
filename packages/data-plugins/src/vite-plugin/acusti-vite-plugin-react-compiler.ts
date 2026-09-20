@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'acusti/uikit',
-    npm: '@acusti/vite-plugin-react-compiler',
-  },
   links: {
     github: 'https://github.com/acusti/uikit',
     npm: 'https://www.npmjs.com/package/@acusti/vite-plugin-react-compiler',
     website: 'https://github.com/acusti/uikit/tree/main/packages/vite-plugin-react-compiler#readme',
+  },
+  source: {
+    github: 'acusti/uikit',
+    npm: '@acusti/vite-plugin-react-compiler',
   },
   stats: {
     stars: 10,

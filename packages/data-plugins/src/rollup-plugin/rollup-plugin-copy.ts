@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'folders',
     'glob',
   ],
-  source: {
-    github: 'vladshcherbin/rollup-plugin-copy',
-    npm: 'rollup-plugin-copy',
-  },
   links: {
     github: 'https://github.com/vladshcherbin/rollup-plugin-copy',
     npm: 'https://www.npmjs.com/package/rollup-plugin-copy',
     website: 'https://github.com/vladshcherbin/rollup-plugin-copy#readme',
+  },
+  source: {
+    github: 'vladshcherbin/rollup-plugin-copy',
+    npm: 'rollup-plugin-copy',
   },
   stats: {
     stars: 282,

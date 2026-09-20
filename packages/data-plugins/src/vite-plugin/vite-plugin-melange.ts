@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'melange',
   ],
-  source: {
-    github: 'pdelacroix/vite-plugin-melange',
-    npm: 'vite-plugin-melange',
-  },
   links: {
     github: 'https://github.com/pdelacroix/vite-plugin-melange',
     npm: 'https://www.npmjs.com/package/vite-plugin-melange',
     website: 'https://github.com/pdelacroix/vite-plugin-melange#vite-plugin-melange',
+  },
+  source: {
+    github: 'pdelacroix/vite-plugin-melange',
+    npm: 'vite-plugin-melange',
   },
   stats: {
     stars: 13,

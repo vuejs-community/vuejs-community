@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'import-component',
   ],
-  source: {
-    npm: '@dpapejs/vite-plugin-import-component',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@dpapejs/vite-plugin-import-component',
+  },
+  source: {
+    npm: '@dpapejs/vite-plugin-import-component',
   },
   stats: {
     stars: 0,

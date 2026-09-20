@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'tsdoc',
     'vite-plugin',
   ],
-  source: {
-    github: 'fuzdev/svelte-docinfo',
-    npm: 'svelte-docinfo',
-  },
   links: {
     github: 'https://github.com/fuzdev/svelte-docinfo',
     npm: 'https://www.npmjs.com/package/svelte-docinfo',
     website: 'https://svelte-docinfo.fuz.dev/',
+  },
+  source: {
+    github: 'fuzdev/svelte-docinfo',
+    npm: 'svelte-docinfo',
   },
   stats: {
     stars: 2,

@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'unlockable',
     'medusa',
   ],
-  source: {
-    github: 'unlockablejs/vite-plugin-unlock',
-    npm: '@unlockable/vite-plugin-unlock',
-  },
   links: {
     github: 'https://github.com/unlockablejs/vite-plugin-unlock',
     npm: 'https://www.npmjs.com/package/@unlockable/vite-plugin-unlock',
     website: 'https://github.com/unlockablejs/vite-plugin-unlock#readme',
+  },
+  source: {
+    github: 'unlockablejs/vite-plugin-unlock',
+    npm: '@unlockable/vite-plugin-unlock',
   },
   stats: {
     stars: 23,

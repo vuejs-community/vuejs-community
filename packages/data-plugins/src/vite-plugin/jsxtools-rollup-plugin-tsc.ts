@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'declarations',
     'incremental',
   ],
-  source: {
-    github: 'jsxtools/rollup-utils',
-    npm: '@jsxtools/rollup-plugin-tsc',
-  },
   links: {
     github: 'https://github.com/jsxtools/rollup-utils',
     npm: 'https://www.npmjs.com/package/@jsxtools/rollup-plugin-tsc',
     website: 'https://github.com/jsxtools/rollup-utils/tree/main/packages/rollup-plugin-tsc',
+  },
+  source: {
+    github: 'jsxtools/rollup-utils',
+    npm: '@jsxtools/rollup-plugin-tsc',
   },
   stats: {
     stars: 0,

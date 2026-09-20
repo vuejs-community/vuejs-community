@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-autoedit',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-autoedit',
+  },
+  source: {
+    npm: 'vite-plugin-autoedit',
   },
   stats: {
     stars: 0,

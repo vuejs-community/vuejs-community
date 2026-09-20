@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'handlebars',
   ],
-  source: {
-    github: 'cpulvermacher/vite-plugin-handlebars',
-    npm: '@cpulvermacher/vite-plugin-handlebars',
-  },
   links: {
     github: 'https://github.com/cpulvermacher/vite-plugin-handlebars',
     npm: 'https://www.npmjs.com/package/@cpulvermacher/vite-plugin-handlebars',
     website: 'https://github.com/cpulvermacher/vite-plugin-handlebars',
+  },
+  source: {
+    github: 'cpulvermacher/vite-plugin-handlebars',
+    npm: '@cpulvermacher/vite-plugin-handlebars',
   },
   stats: {
     stars: 0,

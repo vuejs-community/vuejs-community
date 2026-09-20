@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'image',
     'generate',
   ],
-  source: {
-    github: 'josh-hemphill/vite-plugin-favicon',
-    npm: 'vite-plugin-favicon',
-  },
   links: {
     github: 'https://github.com/josh-hemphill/vite-plugin-favicon',
     npm: 'https://www.npmjs.com/package/vite-plugin-favicon',
     website: 'https://github.com/josh-hemphill/vite-plugin-favicon#readme',
+  },
+  source: {
+    github: 'josh-hemphill/vite-plugin-favicon',
+    npm: 'vite-plugin-favicon',
   },
   stats: {
     stars: 51,

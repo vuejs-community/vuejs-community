@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'arc',
     'yandex',
   ],
-  source: {
-    github: 'abhijithvijayan/vite-plugin-wext-manifest',
-    npm: 'vite-plugin-wext-manifest',
-  },
   links: {
     github: 'https://github.com/abhijithvijayan/vite-plugin-wext-manifest',
     npm: 'https://www.npmjs.com/package/vite-plugin-wext-manifest',
     website: 'https://github.com/abhijithvijayan/vite-plugin-wext-manifest#readme',
+  },
+  source: {
+    github: 'abhijithvijayan/vite-plugin-wext-manifest',
+    npm: 'vite-plugin-wext-manifest',
   },
   stats: {
     stars: 0,

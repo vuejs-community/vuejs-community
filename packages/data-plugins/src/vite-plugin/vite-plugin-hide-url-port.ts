@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'url',
     'port',
   ],
-  source: {
-    github: 'noah4520/vite-plugin-hide-url-port',
-    npm: 'vite-plugin-hide-url-port',
-  },
   links: {
     github: 'https://github.com/noah4520/vite-plugin-hide-url-port',
     npm: 'https://www.npmjs.com/package/vite-plugin-hide-url-port',
     website: 'https://github.com/noah4520/vite-plugin-hide-url-port#readme',
+  },
+  source: {
+    github: 'noah4520/vite-plugin-hide-url-port',
+    npm: 'vite-plugin-hide-url-port',
   },
   stats: {
     stars: 1,

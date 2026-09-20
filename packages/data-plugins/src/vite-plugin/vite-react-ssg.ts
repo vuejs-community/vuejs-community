@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'ssr',
     'react',
   ],
-  source: {
-    github: 'Daydreamer-riri/vite-react-ssg',
-    npm: 'vite-react-ssg',
-  },
   links: {
     github: 'https://github.com/Daydreamer-riri/vite-react-ssg',
     npm: 'https://www.npmjs.com/package/vite-react-ssg',
     website: 'https://github.com/Daydreamer-riri/vite-react-ssg#readme',
+  },
+  source: {
+    github: 'Daydreamer-riri/vite-react-ssg',
+    npm: 'vite-react-ssg',
   },
   stats: {
     stars: 0,

@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://logto.io',
   },
   source: {
-    github: 'logto-io/js#master/packages/nuxt',
+    github: 'logto-io/js',
     npm: '@logto/nuxt',
   },
 })

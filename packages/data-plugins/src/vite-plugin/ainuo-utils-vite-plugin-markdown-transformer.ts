@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vue',
     'vite-plugin',
   ],
-  source: {
-    github: 'ainuo5213/vite-plugin',
-    npm: '@ainuo-utils/vite-plugin-markdown-transformer',
-  },
   links: {
     github: 'https://github.com/ainuo5213/vite-plugin',
     npm: 'https://www.npmjs.com/package/@ainuo-utils/vite-plugin-markdown-transformer',
     website: 'https://github.com/ainuo5213/vite-plugin#readme',
+  },
+  source: {
+    github: 'ainuo5213/vite-plugin',
+    npm: '@ainuo-utils/vite-plugin-markdown-transformer',
   },
   stats: {
     stars: 1,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'ivi',
     'rolldown-plugin',
   ],
-  source: {
-    github: 'localvoid/ivi',
-    npm: '@ivi/rolldown',
-  },
   links: {
     github: 'https://github.com/localvoid/ivi',
     npm: 'https://www.npmjs.com/package/@ivi/rolldown',
     website: 'https://github.com/localvoid/ivi',
+  },
+  source: {
+    github: 'localvoid/ivi',
+    npm: '@ivi/rolldown',
   },
   stats: {
     stars: 802,

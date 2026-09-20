@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'loader',
     'vw',
   ],
-  source: {
-    github: 'gitboyzcf/vite-plugin-style-vw-loader',
-    npm: 'vite-plugin-style-vw-loader',
-  },
   links: {
     github: 'https://github.com/gitboyzcf/vite-plugin-style-vw-loader',
     npm: 'https://www.npmjs.com/package/vite-plugin-style-vw-loader',
     website: 'https://github.com/gitboyzcf/vite-plugin-style-vw-loader#readme',
+  },
+  source: {
+    github: 'gitboyzcf/vite-plugin-style-vw-loader',
+    npm: 'vite-plugin-style-vw-loader',
   },
   stats: {
     stars: 9,

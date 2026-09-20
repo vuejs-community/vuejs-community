@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'prefetch',
   ],
-  source: {
-    github: 'dreambo8563/vite-plugin-bundle-prefetch',
-    npm: 'vite-plugin-bundle-prefetch',
-  },
   links: {
     github: 'https://github.com/dreambo8563/vite-plugin-bundle-prefetch',
     npm: 'https://www.npmjs.com/package/vite-plugin-bundle-prefetch',
     website: 'https://github.com/dreambo8563/vite-plugin-bundle-prefetch#readme',
+  },
+  source: {
+    github: 'dreambo8563/vite-plugin-bundle-prefetch',
+    npm: 'vite-plugin-bundle-prefetch',
   },
   stats: {
     stars: 20,

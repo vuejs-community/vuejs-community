@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'rollup',
     'esbuild',
   ],
-  source: {
-    github: 'qase-tms/tiden-telemetry-js',
-    npm: '@tiden/telemetry-sourcemaps',
-  },
   links: {
     github: 'https://github.com/qase-tms/tiden-telemetry-js',
     npm: 'https://www.npmjs.com/package/@tiden/telemetry-sourcemaps',
     website: 'https://github.com/qase-tms/tiden-telemetry-js/tree/main/sourcemaps',
+  },
+  source: {
+    github: 'qase-tms/tiden-telemetry-js',
+    npm: '@tiden/telemetry-sourcemaps',
   },
   stats: {
     stars: 0,

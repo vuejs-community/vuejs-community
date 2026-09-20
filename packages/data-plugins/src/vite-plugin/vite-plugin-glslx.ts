@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'glslx',
     'vite-plugin',
   ],
-  source: {
-    github: 'anotherzxx/vite-plugin-glslx',
-    npm: 'vite-plugin-glslx',
-  },
   links: {
     github: 'https://github.com/anotherzxx/vite-plugin-glslx',
     npm: 'https://www.npmjs.com/package/vite-plugin-glslx',
     website: 'https://github.com/anotherzxx/vite-plugin-glslx#readme',
+  },
+  source: {
+    github: 'anotherzxx/vite-plugin-glslx',
+    npm: 'vite-plugin-glslx',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'dts',
     '@types',
   ],
-  source: {
-    github: 'run-z/rollup-plugin-flat-dts',
-    npm: '@dish/rollup-plugin-flat-dts',
-  },
   links: {
     github: 'https://github.com/run-z/rollup-plugin-flat-dts',
     npm: 'https://www.npmjs.com/package/@dish/rollup-plugin-flat-dts',
     website: 'https://github.com/run-z/rollup-plugin-flat-dts',
+  },
+  source: {
+    github: 'run-z/rollup-plugin-flat-dts',
+    npm: '@dish/rollup-plugin-flat-dts',
   },
   stats: {
     stars: 24,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'shopify',
     'liquid',
   ],
-  source: {
-    github: 'kucherenko-ae/vite-plugin-for-shopify',
-    npm: '@alexander.k/vite-plugin-for-shopify',
-  },
   links: {
     github: 'https://github.com/kucherenko-ae/vite-plugin-for-shopify',
     npm: 'https://www.npmjs.com/package/@alexander.k/vite-plugin-for-shopify',
     website: 'https://github.com/kucherenko-ae/vite-plugin-for-shopify#readme',
+  },
+  source: {
+    github: 'kucherenko-ae/vite-plugin-for-shopify',
+    npm: '@alexander.k/vite-plugin-for-shopify',
   },
   stats: {
     stars: 0,

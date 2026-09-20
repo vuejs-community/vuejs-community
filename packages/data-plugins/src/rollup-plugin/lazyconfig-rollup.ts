@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'babel',
     'lazyconfig',
   ],
-  source: {
-    github: 'ruben-omh/lazyconfig',
-    npm: '@lazyconfig/rollup',
-  },
   links: {
     github: 'https://github.com/ruben-omh/lazyconfig',
     npm: 'https://www.npmjs.com/package/@lazyconfig/rollup',
     website: 'https://github.com/ruben-omh/lazyconfig/tree/main/packages/rollup#readme',
+  },
+  source: {
+    github: 'ruben-omh/lazyconfig',
+    npm: '@lazyconfig/rollup',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'sebastian-software/effective-icon',
-    npm: '@effective/icon',
-  },
   links: {
     github: 'https://github.com/sebastian-software/effective-icon',
     npm: 'https://www.npmjs.com/package/@effective/icon',
     website: 'https://github.com/sebastian-software/effective-icon#readme',
+  },
+  source: {
+    github: 'sebastian-software/effective-icon',
+    npm: '@effective/icon',
   },
   stats: {
     stars: 0,

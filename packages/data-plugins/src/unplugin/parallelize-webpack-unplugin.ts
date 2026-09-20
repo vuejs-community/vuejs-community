@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'unplugin',
     'webpack',
   ],
-  source: {
-    github: 'CyanSalt/parallelize-webpack-unplugin',
-    npm: 'parallelize-webpack-unplugin',
-  },
   links: {
     github: 'https://github.com/CyanSalt/parallelize-webpack-unplugin',
     npm: 'https://www.npmjs.com/package/parallelize-webpack-unplugin',
     website: 'https://github.com/CyanSalt/parallelize-webpack-unplugin#readme',
+  },
+  source: {
+    github: 'CyanSalt/parallelize-webpack-unplugin',
+    npm: 'parallelize-webpack-unplugin',
   },
   stats: {
     stars: 1,

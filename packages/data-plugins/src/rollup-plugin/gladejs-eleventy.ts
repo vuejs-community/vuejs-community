@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'eleventy',
     'rollup-plugin',
   ],
-  source: {
-    github: 'gladejs/gladejs',
-    npm: '@gladejs/eleventy',
-  },
   links: {
     github: 'https://github.com/gladejs/gladejs',
     npm: 'https://www.npmjs.com/package/@gladejs/eleventy',
     website: 'https://gladejs.com',
+  },
+  source: {
+    github: 'gladejs/gladejs',
+    npm: '@gladejs/eleventy',
   },
   stats: {
     stars: 36,

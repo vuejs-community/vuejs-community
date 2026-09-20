@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'type-safe',
     'zod-alternative',
   ],
-  source: {
-    github: 'denis-sofonov/t12n',
-    npm: '@dnssfnv/t12n',
-  },
   links: {
     github: 'https://github.com/denis-sofonov/t12n',
     npm: 'https://www.npmjs.com/package/@dnssfnv/t12n',
     website: 'https://t12n.vercel.app',
+  },
+  source: {
+    github: 'denis-sofonov/t12n',
+    npm: '@dnssfnv/t12n',
   },
   stats: {
     stars: 0,

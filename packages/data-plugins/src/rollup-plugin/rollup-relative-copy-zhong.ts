@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'folders',
     'glob',
   ],
-  source: {
-    github: 'lionzhong/rollup-plugin-copy',
-    npm: 'rollup-relative-copy-zhong',
-  },
   links: {
     github: 'https://github.com/lionzhong/rollup-plugin-copy',
     npm: 'https://www.npmjs.com/package/rollup-relative-copy-zhong',
     website: 'https://github.com/lionzhong/rollup-plugin-copy#readme',
+  },
+  source: {
+    github: 'lionzhong/rollup-plugin-copy',
+    npm: 'rollup-relative-copy-zhong',
   },
   stats: {
     stars: 0,

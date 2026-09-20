@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite',
     'unplugin',
   ],
-  source: {
-    npm: '@foxford/den-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@foxford/den-plugin',
+  },
+  source: {
+    npm: '@foxford/den-plugin',
   },
   stats: {
     stars: 0,

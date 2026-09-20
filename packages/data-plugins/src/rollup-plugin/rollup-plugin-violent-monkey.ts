@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'userscript',
     'metadata',
   ],
-  source: {
-    github: 'jensk-dev/rollup-plugin-violent-monkey',
-    npm: 'rollup-plugin-violent-monkey',
-  },
   links: {
     github: 'https://github.com/jensk-dev/rollup-plugin-violent-monkey',
     npm: 'https://www.npmjs.com/package/rollup-plugin-violent-monkey',
     website: 'https://github.com/jensk-dev/rollup-plugin-violent-monkey#readme',
+  },
+  source: {
+    github: 'jensk-dev/rollup-plugin-violent-monkey',
+    npm: 'rollup-plugin-violent-monkey',
   },
   stats: {
     stars: 0,

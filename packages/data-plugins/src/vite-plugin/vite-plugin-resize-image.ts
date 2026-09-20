@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'esbuild',
     'imagemin',
   ],
-  source: {
-    npm: 'vite-plugin-resize-image',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-resize-image',
+  },
+  source: {
+    npm: 'vite-plugin-resize-image',
   },
   stats: {
     stars: 0,

@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: '@litbase/vite-plugin-svgr',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@litbase/vite-plugin-svgr',
+  },
+  source: {
+    npm: '@litbase/vite-plugin-svgr',
   },
   stats: {
     stars: 0,

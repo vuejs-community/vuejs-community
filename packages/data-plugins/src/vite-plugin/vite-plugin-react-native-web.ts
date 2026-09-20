@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'react-native',
     'react-native-web',
   ],
-  source: {
-    github: 'Bram-dc/vite-plugin-react-native-web',
-    npm: 'vite-plugin-react-native-web',
-  },
   links: {
     github: 'https://github.com/Bram-dc/vite-plugin-react-native-web',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-native-web',
     website: 'https://github.com/Bram-dc/vite-plugin-react-native-web#readme',
+  },
+  source: {
+    github: 'Bram-dc/vite-plugin-react-native-web',
+    npm: 'vite-plugin-react-native-web',
   },
   stats: {
     stars: 62,

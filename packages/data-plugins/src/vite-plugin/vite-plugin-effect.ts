@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'fullstack',
     'typescript',
   ],
-  source: {
-    github: 'osuki-dev/vite-plugin-effect',
-    npm: 'vite-plugin-effect',
-  },
   links: {
     github: 'https://github.com/osuki-dev/vite-plugin-effect',
     npm: 'https://www.npmjs.com/package/vite-plugin-effect',
     website: 'https://github.com/osuki-dev/vite-plugin-effect#readme',
+  },
+  source: {
+    github: 'osuki-dev/vite-plugin-effect',
+    npm: 'vite-plugin-effect',
   },
   stats: {
     stars: 0,

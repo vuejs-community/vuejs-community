@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'huinhub',
     'ast',
   ],
-  source: {
-    github: 'firatorhan/sentinel',
-    npm: '@sentinel-core/sentinel-plugin',
-  },
   links: {
     github: 'https://github.com/firatorhan/sentinel',
     npm: 'https://www.npmjs.com/package/@sentinel-core/sentinel-plugin',
     website: 'https://github.com/firatorhan/sentinel#readme',
+  },
+  source: {
+    github: 'firatorhan/sentinel',
+    npm: '@sentinel-core/sentinel-plugin',
   },
   stats: {
     stars: 0,

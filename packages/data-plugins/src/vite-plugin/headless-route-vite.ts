@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'cms',
     'headless-route',
   ],
-  source: {
-    github: 'bent10/headless-route',
-    npm: '@headless-route/vite',
-  },
   links: {
     github: 'https://github.com/bent10/headless-route',
     npm: 'https://www.npmjs.com/package/@headless-route/vite',
     website: 'https://github.com/bent10/headless-route#readme',
+  },
+  source: {
+    github: 'bent10/headless-route',
+    npm: '@headless-route/vite',
   },
   stats: {
     stars: 0,

@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'component',
     'element-plus',
   ],
-  source: {
-    github: 'Augenstern936/vite-plugin-auto-inject-css',
-    npm: 'vite-plugin-auto-inject-css',
-  },
   links: {
     github: 'https://github.com/Augenstern936/vite-plugin-auto-inject-css',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-inject-css',
     website: 'https://github.com/Augenstern936/vite-plugin-auto-inject-css',
+  },
+  source: {
+    github: 'Augenstern936/vite-plugin-auto-inject-css',
+    npm: 'vite-plugin-auto-inject-css',
   },
   stats: {
     stars: 1,

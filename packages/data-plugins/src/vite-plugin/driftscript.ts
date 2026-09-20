@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'gamedev',
     'game-engine',
   ],
-  source: {
-    github: 'drftrun/driftscript',
-    npm: 'driftscript',
-  },
   links: {
     github: 'https://github.com/drftrun/driftscript',
     npm: 'https://www.npmjs.com/package/driftscript',
     website: 'https://script.driftengine.dev',
+  },
+  source: {
+    github: 'drftrun/driftscript',
+    npm: 'driftscript',
   },
   stats: {
     stars: 1,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vue',
     'hmr',
   ],
-  source: {
-    github: 'fcapolini/goodscript',
-    npm: 'vite-plugin-goodscript',
-  },
   links: {
     github: 'https://github.com/fcapolini/goodscript',
     npm: 'https://www.npmjs.com/package/vite-plugin-goodscript',
     website: 'https://github.com/fcapolini/goodscript/tree/main/vite-plugin#readme',
+  },
+  source: {
+    github: 'fcapolini/goodscript',
+    npm: 'vite-plugin-goodscript',
   },
   stats: {
     stars: 0,

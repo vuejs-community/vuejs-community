@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'wetrustinprize/vite-plugin-minverversion',
-    npm: 'vite-plugin-minverversion',
-  },
   links: {
     github: 'https://github.com/wetrustinprize/vite-plugin-minverversion',
     npm: 'https://www.npmjs.com/package/vite-plugin-minverversion',
     website: 'https://github.com/wetrustinprize/vite-plugin-minverversion#readme',
+  },
+  source: {
+    github: 'wetrustinprize/vite-plugin-minverversion',
+    npm: 'vite-plugin-minverversion',
   },
   stats: {
     stars: 4,

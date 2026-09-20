@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'albio',
   ],
-  source: {
-    github: 'melindachang/vite-plugin-albio',
-    npm: 'vite-plugin-albio',
-  },
   links: {
     github: 'https://github.com/melindachang/vite-plugin-albio',
     npm: 'https://www.npmjs.com/package/vite-plugin-albio',
     website: 'https://github.com/melindachang/vite-plugin-albio#readme',
+  },
+  source: {
+    github: 'melindachang/vite-plugin-albio',
+    npm: 'vite-plugin-albio',
   },
   stats: {
     stars: 2,

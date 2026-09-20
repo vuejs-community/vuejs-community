@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'js',
     'jsx',
   ],
-  source: {
-    github: 'haensl/rollup-plugin-local-resolve',
-    npm: '@haensl/rollup-plugin-local-resolve',
-  },
   links: {
     github: 'https://github.com/haensl/rollup-plugin-local-resolve',
     npm: 'https://www.npmjs.com/package/@haensl/rollup-plugin-local-resolve',
     website: 'https://github.com/haensl/rollup-plugin-local-resolve#readme',
+  },
+  source: {
+    github: 'haensl/rollup-plugin-local-resolve',
+    npm: '@haensl/rollup-plugin-local-resolve',
   },
   stats: {
     stars: 4,

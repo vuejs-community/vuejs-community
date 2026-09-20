@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'webworker',
     'worker',
   ],
-  source: {
-    github: 'pixijs/webworker-plugins',
-    npm: '@pixi/webworker-plugins',
-  },
   links: {
     github: 'https://github.com/pixijs/webworker-plugins',
     npm: 'https://www.npmjs.com/package/@pixi/webworker-plugins',
     website: 'https://github.com/pixijs/webworker-plugins',
+  },
+  source: {
+    github: 'pixijs/webworker-plugins',
+    npm: '@pixi/webworker-plugins',
   },
   stats: {
     stars: 2,

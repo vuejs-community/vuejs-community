@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'redfox-mx/unplugin-fluent',
-    npm: 'unplugin-fluent',
-  },
   links: {
     github: 'https://github.com/redfox-mx/unplugin-fluent',
     npm: 'https://www.npmjs.com/package/unplugin-fluent',
     website: 'https://github.com/redfox-mx/unplugin-fluent#readme',
+  },
+  source: {
+    github: 'redfox-mx/unplugin-fluent',
+    npm: 'unplugin-fluent',
   },
   stats: {
     stars: 0,

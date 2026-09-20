@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'hot-reload',
     'vite-plugin',
   ],
-  source: {
-    npm: 'napcat-plugin-debug-cli',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/napcat-plugin-debug-cli',
+  },
+  source: {
+    npm: 'napcat-plugin-debug-cli',
   },
   stats: {
     stars: 0,

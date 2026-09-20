@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'frontmatter',
     'blog',
   ],
-  source: {
-    npm: '@__mazerty__/rollup-plugin-pages',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@__mazerty__/rollup-plugin-pages',
     website: 'https://codeberg.org/mazerty/rollup-plugin-pages',
+  },
+  source: {
+    npm: '@__mazerty__/rollup-plugin-pages',
   },
   stats: {
     stars: 0,

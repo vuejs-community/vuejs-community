@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'template-string',
     'template-file',
   ],
-  source: {
-    github: 'franklinST-05/vite-plugin-dtemplate',
-    npm: 'vite-plugin-dtemplate',
-  },
   links: {
     github: 'https://github.com/franklinST-05/vite-plugin-dtemplate',
     npm: 'https://www.npmjs.com/package/vite-plugin-dtemplate',
     website: 'https://github.com/franklinST-05/vite-plugin-dtemplate#readme',
+  },
+  source: {
+    github: 'franklinST-05/vite-plugin-dtemplate',
+    npm: 'vite-plugin-dtemplate',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'typescript',
   ],
-  source: {
-    github: 'jonondarnad/vite-plugin-checker',
-    npm: 'vite-plugin-checker-biome-support',
-  },
   links: {
     github: 'https://github.com/jonondarnad/vite-plugin-checker',
     npm: 'https://www.npmjs.com/package/vite-plugin-checker-biome-support',
     website: 'https://github.com/fi3ework/vite-plugin-checker',
+  },
+  source: {
+    github: 'jonondarnad/vite-plugin-checker',
+    npm: 'vite-plugin-checker-biome-support',
   },
   stats: {
     stars: 0,

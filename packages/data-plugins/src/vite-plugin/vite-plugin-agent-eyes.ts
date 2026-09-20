@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'guard',
     'webhook',
   ],
-  source: {
-    github: 'webkubor/vite-plugin-agent-eyes',
-    npm: 'vite-plugin-agent-eyes',
-  },
   links: {
     github: 'https://github.com/webkubor/vite-plugin-agent-eyes',
     npm: 'https://www.npmjs.com/package/vite-plugin-agent-eyes',
     website: 'https://github.com/webkubor/vite-plugin-agent-eyes#readme',
+  },
+  source: {
+    github: 'webkubor/vite-plugin-agent-eyes',
+    npm: 'vite-plugin-agent-eyes',
   },
   stats: {
     stars: 7,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'minify',
     'esbuild',
   ],
-  source: {
-    github: 'prantlf/rollup-plugin-esbuild-minify',
-    npm: 'rollup-plugin-esbuild-minify',
-  },
   links: {
     github: 'https://github.com/prantlf/rollup-plugin-esbuild-minify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-esbuild-minify',
     website: 'http://github.com/prantlf/rollup-plugin-esbuild-minify/',
+  },
+  source: {
+    github: 'prantlf/rollup-plugin-esbuild-minify',
+    npm: 'rollup-plugin-esbuild-minify',
   },
   stats: {
     stars: 3,

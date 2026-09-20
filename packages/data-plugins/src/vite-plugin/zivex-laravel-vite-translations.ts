@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'php',
     'vite-plugin',
   ],
-  source: {
-    npm: '@zivex/laravel-vite-translations',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@zivex/laravel-vite-translations',
+  },
+  source: {
+    npm: '@zivex/laravel-vite-translations',
   },
   stats: {
     stars: 0,

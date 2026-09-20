@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'nuxt',
     'transform',
   ],
-  source: {
-    github: 'vuetifyjs/unplugin-styles',
-    npm: '@vuetify/unplugin-styles',
-  },
   links: {
     github: 'https://github.com/vuetifyjs/unplugin-styles',
     npm: 'https://www.npmjs.com/package/@vuetify/unplugin-styles',
     website: 'https://github.com/vuetifyjs/unplugin-styles#readme',
+  },
+  source: {
+    github: 'vuetifyjs/unplugin-styles',
+    npm: '@vuetify/unplugin-styles',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'Drswith/unplugin-aliyun-oss',
-    npm: 'unplugin-aliyun-oss',
-  },
   links: {
     github: 'https://github.com/Drswith/unplugin-aliyun-oss',
     npm: 'https://www.npmjs.com/package/unplugin-aliyun-oss',
     website: 'https://github.com/Drswith/unplugin-aliyun-oss#readme',
+  },
+  source: {
+    github: 'Drswith/unplugin-aliyun-oss',
+    npm: 'unplugin-aliyun-oss',
   },
   stats: {
     stars: 0,

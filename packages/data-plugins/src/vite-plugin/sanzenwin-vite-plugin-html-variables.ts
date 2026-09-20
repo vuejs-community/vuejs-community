@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'html',
     'variables',
   ],
-  source: {
-    github: 'sanzenwin/vite-plugin-html-variables',
-    npm: '@sanzenwin/vite-plugin-html-variables',
-  },
   links: {
     github: 'https://github.com/sanzenwin/vite-plugin-html-variables',
     npm: 'https://www.npmjs.com/package/@sanzenwin/vite-plugin-html-variables',
     website: 'https://github.com/sanzenwin/vite-plugin-html-variables#readme',
+  },
+  source: {
+    github: 'sanzenwin/vite-plugin-html-variables',
+    npm: '@sanzenwin/vite-plugin-html-variables',
   },
   stats: {
     stars: 0,

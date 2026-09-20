@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'npm-link',
   ],
-  source: {
-    github: 'SubZtep/vite-plugin-linker',
-    npm: 'vite-plugin-linker',
-  },
   links: {
     github: 'https://github.com/SubZtep/vite-plugin-linker',
     npm: 'https://www.npmjs.com/package/vite-plugin-linker',
     website: 'https://github.com/SubZtep/vite-plugin-linker#readme',
+  },
+  source: {
+    github: 'SubZtep/vite-plugin-linker',
+    npm: 'vite-plugin-linker',
   },
   stats: {
     stars: 0,

@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'microsoft-managed-apps',
   ],
-  source: {
-    npm: '@microsoft/managed-apps-vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@microsoft/managed-apps-vite-plugin',
+  },
+  source: {
+    npm: '@microsoft/managed-apps-vite-plugin',
   },
   stats: {
     stars: 0,

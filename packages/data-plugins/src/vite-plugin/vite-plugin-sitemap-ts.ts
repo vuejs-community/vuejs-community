@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'sitemap.xml',
     'typescript',
   ],
-  source: {
-    github: 'kyco/vite-plugin-sitemap-ts',
-    npm: 'vite-plugin-sitemap-ts',
-  },
   links: {
     github: 'https://github.com/kyco/vite-plugin-sitemap-ts',
     npm: 'https://www.npmjs.com/package/vite-plugin-sitemap-ts',
     website: 'https://github.com/kyco/vite-plugin-sitemap-ts',
+  },
+  source: {
+    github: 'kyco/vite-plugin-sitemap-ts',
+    npm: 'vite-plugin-sitemap-ts',
   },
   stats: {
     stars: 0,

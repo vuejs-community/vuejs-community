@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'cp-to-public',
     'cp-src-assets-to-public',
   ],
-  source: {
-    github: 'xqkeji/vite-plugin-xq-cp-dep',
-    npm: 'vite-plugin-xq-cp-dep',
-  },
   links: {
     github: 'https://github.com/xqkeji/vite-plugin-xq-cp-dep',
     npm: 'https://www.npmjs.com/package/vite-plugin-xq-cp-dep',
     website: 'http://xqkeji.cn/',
+  },
+  source: {
+    github: 'xqkeji/vite-plugin-xq-cp-dep',
+    npm: 'vite-plugin-xq-cp-dep',
   },
   stats: {
     stars: 0,

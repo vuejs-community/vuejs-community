@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'yaml',
     'rollup-plugin',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-yaml',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-yaml',
     website: 'https://github.com/rollup/plugins/tree/master/packages/yaml/#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-yaml',
   },
   stats: {
     stars: 0,

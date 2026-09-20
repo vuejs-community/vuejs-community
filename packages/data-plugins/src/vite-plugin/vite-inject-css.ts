@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'css',
     'js',
   ],
-  source: {
-    github: 'stasadance/vite-inject-css',
-    npm: 'vite-inject-css',
-  },
   links: {
     github: 'https://github.com/stasadance/vite-inject-css',
     npm: 'https://www.npmjs.com/package/vite-inject-css',
     website: 'https://github.com/stasadance/vite-inject-css#readme',
+  },
+  source: {
+    github: 'stasadance/vite-inject-css',
+    npm: 'vite-inject-css',
   },
   stats: {
     stars: 2,

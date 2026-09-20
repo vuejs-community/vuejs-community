@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'plugin',
     'unplugin',
   ],
-  source: {
-    github: 'DataDog/build-plugins',
-    npm: '@datadog/vite-plugin',
-  },
   links: {
     github: 'https://github.com/DataDog/build-plugins',
     npm: 'https://www.npmjs.com/package/@datadog/vite-plugin',
     website: 'https://github.com/DataDog/build-plugins#readme',
+  },
+  source: {
+    github: 'DataDog/build-plugins',
+    npm: '@datadog/vite-plugin',
   },
   stats: {
     stars: 0,

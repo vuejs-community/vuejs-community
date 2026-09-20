@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'inspector',
     'debug',
   ],
-  source: {
-    npm: 'vite-plugin-vue-dev-locator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-dev-locator',
+  },
+  source: {
+    npm: 'vite-plugin-vue-dev-locator',
   },
   stats: {
     stars: 0,

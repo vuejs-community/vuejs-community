@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'copy',
     'public',
   ],
-  source: {
-    npm: 'vite-plugin-smart-assets',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-smart-assets',
+  },
+  source: {
+    npm: 'vite-plugin-smart-assets',
   },
   stats: {
     stars: 0,

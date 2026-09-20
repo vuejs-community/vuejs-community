@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'vue',
     'svelte',
   ],
-  source: {
-    github: 'qmhc/unplugin-dts',
-    npm: 'unplugin-dts',
-  },
   links: {
     github: 'https://github.com/qmhc/unplugin-dts',
     npm: 'https://www.npmjs.com/package/unplugin-dts',
     website: 'https://github.com/qmhc/unplugin-dts#readme',
+  },
+  source: {
+    github: 'qmhc/unplugin-dts',
+    npm: 'unplugin-dts',
   },
   stats: {
     stars: 0,

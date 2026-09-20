@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollupjs',
     'rollup-plugin',
   ],
-  source: {
-    github: 'Cordobo/rollup-plugin-replace-html-vars',
-    npm: 'rollup-plugin-replace-html-vars',
-  },
   links: {
     github: 'https://github.com/Cordobo/rollup-plugin-replace-html-vars',
     npm: 'https://www.npmjs.com/package/rollup-plugin-replace-html-vars',
     website: 'https://github.com/Cordobo/rollup-plugin-replace-html-vars#readme',
+  },
+  source: {
+    github: 'Cordobo/rollup-plugin-replace-html-vars',
+    npm: 'rollup-plugin-replace-html-vars',
   },
   stats: {
     stars: 4,

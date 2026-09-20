@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'page-translate',
     'vite-plugin',
   ],
-  source: {
-    github: 'JaysonZou/vite-plugin-page-translate',
-    npm: 'vite-plugin-page-translate',
-  },
   links: {
     github: 'https://github.com/JaysonZou/vite-plugin-page-translate',
     npm: 'https://www.npmjs.com/package/vite-plugin-page-translate',
     website: 'https://github.com/JaysonZou/vite-plugin-page-translate#readme',
+  },
+  source: {
+    github: 'JaysonZou/vite-plugin-page-translate',
+    npm: 'vite-plugin-page-translate',
   },
   stats: {
     stars: 0,

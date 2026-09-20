@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'css',
     'svg',
   ],
-  source: {
-    github: 'eighty4/vite-plugin-html-inline-sources',
-    npm: 'vite-plugin-html-inline-sources',
-  },
   links: {
     github: 'https://github.com/eighty4/vite-plugin-html-inline-sources',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-inline-sources',
     website: 'https://www.npmjs.com/package/vite-plugin-html-inline-sources',
+  },
+  source: {
+    github: 'eighty4/vite-plugin-html-inline-sources',
+    npm: 'vite-plugin-html-inline-sources',
   },
   stats: {
     stars: 0,

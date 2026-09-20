@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'mock-server',
     'easy-interceptor',
   ],
-  source: {
-    github: 'hans000/vite-plugin-interceptor',
-    npm: 'vite-plugin-interceptor',
-  },
   links: {
     github: 'https://github.com/hans000/vite-plugin-interceptor',
     npm: 'https://www.npmjs.com/package/vite-plugin-interceptor',
     website: 'https://github.com/hans000/vite-plugin-interceptor#readme',
+  },
+  source: {
+    github: 'hans000/vite-plugin-interceptor',
+    npm: 'vite-plugin-interceptor',
   },
   stats: {
     stars: 2,

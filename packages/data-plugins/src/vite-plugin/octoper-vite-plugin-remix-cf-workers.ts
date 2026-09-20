@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: '@octoper/vite-plugin-remix-cf-workers',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@octoper/vite-plugin-remix-cf-workers',
+  },
+  source: {
+    npm: '@octoper/vite-plugin-remix-cf-workers',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'magic-string',
     'code-transformation',
   ],
-  source: {
-    github: 'FuXingYu-fxy/rollup-plugin-literal-replacer',
-    npm: 'rollup-plugin-literal-replacer',
-  },
   links: {
     github: 'https://github.com/FuXingYu-fxy/rollup-plugin-literal-replacer',
     npm: 'https://www.npmjs.com/package/rollup-plugin-literal-replacer',
     website: 'https://github.com/FuXingYu-fxy/rollup-plugin-literal-replacer#readme',
+  },
+  source: {
+    github: 'FuXingYu-fxy/rollup-plugin-literal-replacer',
+    npm: 'rollup-plugin-literal-replacer',
   },
   stats: {
     stars: 0,

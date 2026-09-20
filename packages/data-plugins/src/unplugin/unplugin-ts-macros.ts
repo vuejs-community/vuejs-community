@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'snatvb/ts-macros',
-    npm: 'unplugin-ts-macros',
-  },
   links: {
     github: 'https://github.com/snatvb/ts-macros',
     npm: 'https://www.npmjs.com/package/unplugin-ts-macros',
     website: 'https://github.com/snatvb/ts-macros#readme',
+  },
+  source: {
+    github: 'snatvb/ts-macros',
+    npm: 'unplugin-ts-macros',
   },
   stats: {
     stars: 0,

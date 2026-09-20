@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'es-modules',
     'modules',
   ],
-  source: {
-    github: 'omnysecurity/vite-plugin-wasm-esm',
-    npm: 'vite-plugin-wasm-esm',
-  },
   links: {
     github: 'https://github.com/omnysecurity/vite-plugin-wasm-esm',
     npm: 'https://www.npmjs.com/package/vite-plugin-wasm-esm',
     website: 'https://github.com/omnysecurity/vite-plugin-wasm-esm',
+  },
+  source: {
+    github: 'omnysecurity/vite-plugin-wasm-esm',
+    npm: 'vite-plugin-wasm-esm',
   },
   stats: {
     stars: 12,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vercel',
   ],
-  source: {
-    github: 'oscartbeaumont/vite-plugin-vercel-adapter',
-    npm: 'vite-plugin-vercel-adapter',
-  },
   links: {
     github: 'https://github.com/oscartbeaumont/vite-plugin-vercel-adapter',
     npm: 'https://www.npmjs.com/package/vite-plugin-vercel-adapter',
     website: 'https://github.com/oscartbeaumont/vite-plugin-vercel-adapter#readme',
+  },
+  source: {
+    github: 'oscartbeaumont/vite-plugin-vercel-adapter',
+    npm: 'vite-plugin-vercel-adapter',
   },
   stats: {
     stars: 0,

@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'replace',
   ],
-  source: {
-    npm: '@xyh19/rollup-plugin-define',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xyh19/rollup-plugin-define',
+  },
+  source: {
+    npm: '@xyh19/rollup-plugin-define',
   },
   stats: {
     stars: 0,

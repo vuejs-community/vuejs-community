@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'mini-console',
     'vite-plugin',
   ],
-  source: {
-    github: 'Surtr-a/mini-console-uni',
-    npm: 'mini-console-uni',
-  },
   links: {
     github: 'https://github.com/Surtr-a/mini-console-uni',
     npm: 'https://www.npmjs.com/package/mini-console-uni',
     website: 'https://github.com/Surtr-a/mini-console-uni#readme',
+  },
+  source: {
+    github: 'Surtr-a/mini-console-uni',
+    npm: 'mini-console-uni',
   },
   stats: {
     stars: 0,

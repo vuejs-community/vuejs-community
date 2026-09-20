@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'vituum/vite-plugin-css-inline',
-    npm: '@vituum/vite-plugin-css-inline',
-  },
   links: {
     github: 'https://github.com/vituum/vite-plugin-css-inline',
     npm: 'https://www.npmjs.com/package/@vituum/vite-plugin-css-inline',
     website: 'https://github.com/vituum/vite-plugin-css-inline#readme',
+  },
+  source: {
+    github: 'vituum/vite-plugin-css-inline',
+    npm: '@vituum/vite-plugin-css-inline',
   },
   stats: {
     stars: 0,

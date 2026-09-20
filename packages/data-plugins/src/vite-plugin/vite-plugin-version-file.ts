@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'version',
     'file',
   ],
-  source: {
-    github: 'Woshiajuana/vite-plugin-version-file',
-    npm: 'vite-plugin-version-file',
-  },
   links: {
     github: 'https://github.com/Woshiajuana/vite-plugin-version-file',
     npm: 'https://www.npmjs.com/package/vite-plugin-version-file',
     website: 'https://github.com/Woshiajuana/vite-plugin-version-file#readme',
+  },
+  source: {
+    github: 'Woshiajuana/vite-plugin-version-file',
+    npm: 'vite-plugin-version-file',
   },
   stats: {
     stars: 1,

@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'adapter',
     'ssr',
   ],
-  source: {
-    npm: '@edgeone/tanstack-start',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@edgeone/tanstack-start',
+  },
+  source: {
+    npm: '@edgeone/tanstack-start',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'site-builder',
     'html-generator',
   ],
-  source: {
-    github: 'ozekimasaki/vite-pug-static-builder',
-    npm: 'vite-pug-static-builder',
-  },
   links: {
     github: 'https://github.com/ozekimasaki/vite-pug-static-builder',
     npm: 'https://www.npmjs.com/package/vite-pug-static-builder',
     website: 'https://github.com/ozekimasaki/vite-pug-static-builder#readme',
+  },
+  source: {
+    github: 'ozekimasaki/vite-pug-static-builder',
+    npm: 'vite-pug-static-builder',
   },
   stats: {
     stars: 0,

@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'vite-full-reload',
     'vite-hmr-fix',
   ],
-  source: {
-    github: 'cin12211/vite-circular-hmr',
-    npm: 'vite-circular-hmr',
-  },
   links: {
     github: 'https://github.com/cin12211/vite-circular-hmr',
     npm: 'https://www.npmjs.com/package/vite-circular-hmr',
     website: 'https://github.com/cin12211/vite-circular-hmr#readme',
+  },
+  source: {
+    github: 'cin12211/vite-circular-hmr',
+    npm: 'vite-circular-hmr',
   },
   stats: {
     stars: 1,

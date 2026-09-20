@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'zip',
     'vite-plugin',
   ],
-  source: {
-    github: 'liufeifeiholy/vite-plugin-zip',
-    npm: 'vite-plugin-zip',
-  },
   links: {
     github: 'https://github.com/liufeifeiholy/vite-plugin-zip',
     npm: 'https://www.npmjs.com/package/vite-plugin-zip',
     website: 'https://github.com/liufeifeiholy/vite-plugin-zip/tree/master/#readme',
+  },
+  source: {
+    github: 'liufeifeiholy/vite-plugin-zip',
+    npm: 'vite-plugin-zip',
   },
   stats: {
     stars: 4,

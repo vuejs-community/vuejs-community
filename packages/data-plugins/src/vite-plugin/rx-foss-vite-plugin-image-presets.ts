@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'rx-foss/vite-plugin-image-presets',
-    npm: '@rx-foss/vite-plugin-image-presets',
-  },
   links: {
     github: 'https://github.com/rx-foss/vite-plugin-image-presets',
     npm: 'https://www.npmjs.com/package/@rx-foss/vite-plugin-image-presets',
     website: 'https://github.com/rx-foss/vite-plugin-image-presets',
+  },
+  source: {
+    github: 'rx-foss/vite-plugin-image-presets',
+    npm: '@rx-foss/vite-plugin-image-presets',
   },
   stats: {
     stars: 0,

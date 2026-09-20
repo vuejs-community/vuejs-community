@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'extractor',
     'vite-plugin',
   ],
-  source: {
-    github: 'Bernankez/vite-plugin-font-carrier',
-    npm: 'vite-plugin-font-carrier',
-  },
   links: {
     github: 'https://github.com/Bernankez/vite-plugin-font-carrier',
     npm: 'https://www.npmjs.com/package/vite-plugin-font-carrier',
     website: 'https://github.com/Bernankez/vite-plugin-font-carrier#readme',
+  },
+  source: {
+    github: 'Bernankez/vite-plugin-font-carrier',
+    npm: 'vite-plugin-font-carrier',
   },
   stats: {
     stars: 0,

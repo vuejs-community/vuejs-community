@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'match',
     'globby',
   ],
-  source: {
-    github: 'fengxinming/rollup-plugins',
-    npm: 'rollup-plugin-match',
-  },
   links: {
     github: 'https://github.com/fengxinming/rollup-plugins',
     npm: 'https://www.npmjs.com/package/rollup-plugin-match',
     website: 'https://github.com/fengxinming/rollup-plugins/tree/master/packages/rollup-plugin-match#readme',
+  },
+  source: {
+    github: 'fengxinming/rollup-plugins',
+    npm: 'rollup-plugin-match',
   },
   stats: {
     stars: 0,

@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-quick-wasm',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-quick-wasm',
+  },
+  source: {
+    npm: 'vite-plugin-quick-wasm',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'decorators',
     'proposal-decorators',
   ],
-  source: {
-    github: 'cx690/vite-plugin-proposal-decorators',
-    npm: 'vite-plugin-proposal-decorators',
-  },
   links: {
     github: 'https://github.com/cx690/vite-plugin-proposal-decorators',
     npm: 'https://www.npmjs.com/package/vite-plugin-proposal-decorators',
     website: 'https://github.com/cx690/vite-plugin-proposal-decorators#readme',
+  },
+  source: {
+    github: 'cx690/vite-plugin-proposal-decorators',
+    npm: 'vite-plugin-proposal-decorators',
   },
   stats: {
     stars: 0,

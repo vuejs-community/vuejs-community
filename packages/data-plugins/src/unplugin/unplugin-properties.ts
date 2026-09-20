@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'unplugin',
     'properties',
   ],
-  source: {
-    github: 'pd4d10/unplugin-properties',
-    npm: 'unplugin-properties',
-  },
   links: {
     github: 'https://github.com/pd4d10/unplugin-properties',
     npm: 'https://www.npmjs.com/package/unplugin-properties',
     website: 'https://github.com/pd4d10/unplugin-properties#readme',
+  },
+  source: {
+    github: 'pd4d10/unplugin-properties',
+    npm: 'unplugin-properties',
   },
   stats: {
     stars: 2,

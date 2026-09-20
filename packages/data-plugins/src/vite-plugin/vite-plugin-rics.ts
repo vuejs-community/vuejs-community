@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'css',
     'preprocessor',
   ],
-  source: {
-    github: 'better-lyrics/rics',
-    npm: 'vite-plugin-rics',
-  },
   links: {
     github: 'https://github.com/better-lyrics/rics',
     npm: 'https://www.npmjs.com/package/vite-plugin-rics',
     website: 'https://rics.boidu.dev',
+  },
+  source: {
+    github: 'better-lyrics/rics',
+    npm: 'vite-plugin-rics',
   },
   stats: {
     stars: 8,

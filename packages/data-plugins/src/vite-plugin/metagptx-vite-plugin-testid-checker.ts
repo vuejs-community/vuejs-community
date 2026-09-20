@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'testid',
     'checker',
   ],
-  source: {
-    npm: '@metagptx/vite-plugin-testid-checker',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@metagptx/vite-plugin-testid-checker',
+  },
+  source: {
+    npm: '@metagptx/vite-plugin-testid-checker',
   },
   stats: {
     stars: 0,

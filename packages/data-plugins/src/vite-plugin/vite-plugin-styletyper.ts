@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'dts',
     'styletyper',
   ],
-  source: {
-    github: 'cryptofelon/styletyper',
-    npm: 'vite-plugin-styletyper',
-  },
   links: {
     github: 'https://github.com/cryptofelon/styletyper',
     npm: 'https://www.npmjs.com/package/vite-plugin-styletyper',
     website: 'https://github.com/cryptofelon/styletyper/tree/main/packages/vite-plugin-styletyper#readme',
+  },
+  source: {
+    github: 'cryptofelon/styletyper',
+    npm: 'vite-plugin-styletyper',
   },
   stats: {
     stars: 1,

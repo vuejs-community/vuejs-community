@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'tailwind',
     'web-component',
   ],
-  source: {
-    github: 'Buroni/vite-plugin-vue-twind',
-    npm: 'vite-plugin-vue-twind',
-  },
   links: {
     github: 'https://github.com/Buroni/vite-plugin-vue-twind',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-twind',
     website: 'https://github.com/Buroni/vite-plugin-vue-twind#readme',
+  },
+  source: {
+    github: 'Buroni/vite-plugin-vue-twind',
+    npm: 'vite-plugin-vue-twind',
   },
   stats: {
     stars: 1,

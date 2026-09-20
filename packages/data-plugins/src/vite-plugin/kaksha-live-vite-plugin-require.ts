@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-require',
   ],
-  source: {
-    github: 'kaksha-live/vite-plugin-require',
-    npm: '@kaksha-live/vite-plugin-require',
-  },
   links: {
     github: 'https://github.com/kaksha-live/vite-plugin-require',
     npm: 'https://www.npmjs.com/package/@kaksha-live/vite-plugin-require',
     website: 'https://github.com/kaksha-live/vite-plugin-require#readme',
+  },
+  source: {
+    github: 'kaksha-live/vite-plugin-require',
+    npm: '@kaksha-live/vite-plugin-require',
   },
   stats: {
     stars: 0,

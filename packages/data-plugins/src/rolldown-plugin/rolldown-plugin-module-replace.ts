@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rolldown-plugin',
     'alias',
   ],
-  source: {
-    github: 'CyanSalt/rolldown-plugin-module-replace',
-    npm: 'rolldown-plugin-module-replace',
-  },
   links: {
     github: 'https://github.com/CyanSalt/rolldown-plugin-module-replace',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-module-replace',
     website: 'https://github.com/CyanSalt/rolldown-plugin-module-replace#readme',
+  },
+  source: {
+    github: 'CyanSalt/rolldown-plugin-module-replace',
+    npm: 'rolldown-plugin-module-replace',
   },
   stats: {
     stars: 0,

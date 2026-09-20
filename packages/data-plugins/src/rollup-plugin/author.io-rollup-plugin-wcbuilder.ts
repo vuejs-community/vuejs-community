@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'elements',
     'html',
   ],
-  source: {
-    github: 'author-elements/rollup-plugin-wcbuilder',
-    npm: '@author.io/rollup-plugin-wcbuilder',
-  },
   links: {
     github: 'https://github.com/author-elements/rollup-plugin-wcbuilder',
     npm: 'https://www.npmjs.com/package/@author.io/rollup-plugin-wcbuilder',
     website: 'https://github.com/author-elements/rollup-plugin-wcbuilder#readme',
+  },
+  source: {
+    github: 'author-elements/rollup-plugin-wcbuilder',
+    npm: '@author.io/rollup-plugin-wcbuilder',
   },
   stats: {
     stars: 0,

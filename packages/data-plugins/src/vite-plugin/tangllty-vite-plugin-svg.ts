@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'tangllty',
     'vite-plugin-svg',
   ],
-  source: {
-    github: 'tangllty/vite-plugin-svg',
-    npm: '@tangllty/vite-plugin-svg',
-  },
   links: {
     github: 'https://github.com/tangllty/vite-plugin-svg',
     npm: 'https://www.npmjs.com/package/@tangllty/vite-plugin-svg',
     website: 'https://github.com/tangllty/vite-plugin-svg#readme',
+  },
+  source: {
+    github: 'tangllty/vite-plugin-svg',
+    npm: '@tangllty/vite-plugin-svg',
   },
   stats: {
     stars: 0,

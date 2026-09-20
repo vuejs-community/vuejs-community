@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'json',
     'logger',
   ],
-  source: {
-    github: 'cmayorgahilario/agent-output-optimizer',
-    npm: 'agent-output-optimizer',
-  },
   links: {
     github: 'https://github.com/cmayorgahilario/agent-output-optimizer',
     npm: 'https://www.npmjs.com/package/agent-output-optimizer',
     website: 'https://github.com/cmayorgahilario/agent-output-optimizer#readme',
+  },
+  source: {
+    github: 'cmayorgahilario/agent-output-optimizer',
+    npm: 'agent-output-optimizer',
   },
   stats: {
     stars: 0,

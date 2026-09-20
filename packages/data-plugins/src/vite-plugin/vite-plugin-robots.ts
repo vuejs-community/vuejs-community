@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'react',
     'angular',
   ],
-  source: {
-    github: 'kolirt/vite-plugin-robots',
-    npm: 'vite-plugin-robots',
-  },
   links: {
     github: 'https://github.com/kolirt/vite-plugin-robots',
     npm: 'https://www.npmjs.com/package/vite-plugin-robots',
     website: 'https://github.com/kolirt/vite-plugin-robots#readme',
+  },
+  source: {
+    github: 'kolirt/vite-plugin-robots',
+    npm: 'vite-plugin-robots',
   },
   stats: {
     stars: 20,

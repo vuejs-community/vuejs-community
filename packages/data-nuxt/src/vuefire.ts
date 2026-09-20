@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://vuefire.vuejs.org/',
   },
   source: {
-    github: 'vuejs/vuefire#main/packages/nuxt',
+    github: 'vuejs/vuefire',
     npm: 'nuxt-vuefire',
   },
 })

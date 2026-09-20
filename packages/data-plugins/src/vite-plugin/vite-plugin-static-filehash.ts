@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'file',
     'vite-plugin',
   ],
-  source: {
-    github: 'MrQinYQ/vite-plugin-static-filehash',
-    npm: 'vite-plugin-static-filehash',
-  },
   links: {
     github: 'https://github.com/MrQinYQ/vite-plugin-static-filehash',
     npm: 'https://www.npmjs.com/package/vite-plugin-static-filehash',
     website: 'https://github.com/MrQinYQ/vite-plugin-static-filehash#readme',
+  },
+  source: {
+    github: 'MrQinYQ/vite-plugin-static-filehash',
+    npm: 'vite-plugin-static-filehash',
   },
   stats: {
     stars: 9,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'islands',
     'partial-hydration',
   ],
-  source: {
-    github: 'The-CodeCave/vite-plugin-ssg',
-    npm: 'vite-plugin-ssg',
-  },
   links: {
     github: 'https://github.com/The-CodeCave/vite-plugin-ssg',
     npm: 'https://www.npmjs.com/package/vite-plugin-ssg',
     website: 'https://github.com/The-CodeCave/vite-plugin-ssg#readme',
+  },
+  source: {
+    github: 'The-CodeCave/vite-plugin-ssg',
+    npm: 'vite-plugin-ssg',
   },
   stats: {
     stars: 0,

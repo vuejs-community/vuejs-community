@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'greasyfork',
     'typescript',
   ],
-  source: {
-    github: 'henrikvilhelmberglund/vite-plugin-monkey',
-    npm: '@henrikvilhelmberglund/vite-plugin-monkey',
-  },
   links: {
     github: 'https://github.com/henrikvilhelmberglund/vite-plugin-monkey',
     npm: 'https://www.npmjs.com/package/@henrikvilhelmberglund/vite-plugin-monkey',
     website: 'https://github.com/henrikvilhelmberglund/vite-plugin-monkey#readme',
+  },
+  source: {
+    github: 'henrikvilhelmberglund/vite-plugin-monkey',
+    npm: '@henrikvilhelmberglund/vite-plugin-monkey',
   },
   stats: {
     stars: 0,

@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-react-virtualized',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-react-virtualized',
+  },
+  source: {
+    npm: 'vite-plugin-react-virtualized',
   },
   stats: {
     stars: 0,

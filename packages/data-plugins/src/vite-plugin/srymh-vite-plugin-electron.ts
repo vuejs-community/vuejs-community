@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'srymh/vite-plugin-electron',
-    npm: '@srymh/vite-plugin-electron',
-  },
   links: {
     github: 'https://github.com/srymh/vite-plugin-electron',
     npm: 'https://www.npmjs.com/package/@srymh/vite-plugin-electron',
     website: 'https://srymh.github.io/vite-plugin-electron/',
+  },
+  source: {
+    github: 'srymh/vite-plugin-electron',
+    npm: '@srymh/vite-plugin-electron',
   },
   stats: {
     stars: 0,

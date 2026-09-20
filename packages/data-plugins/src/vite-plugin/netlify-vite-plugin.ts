@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'dev',
   ],
-  source: {
-    github: 'netlify/framework-adapters',
-    npm: '@netlify/vite-plugin',
-  },
   links: {
     github: 'https://github.com/netlify/framework-adapters',
     npm: 'https://www.npmjs.com/package/@netlify/vite-plugin',
     website: 'https://github.com/netlify/framework-adapters#readme',
+  },
+  source: {
+    github: 'netlify/framework-adapters',
+    npm: '@netlify/vite-plugin',
   },
   stats: {
     stars: 0,

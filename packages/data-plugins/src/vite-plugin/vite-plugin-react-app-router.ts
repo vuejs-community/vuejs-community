@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'next.js',
     'file-based-routing',
   ],
-  source: {
-    github: 'jraylan/vite-plugin-react-app-router',
-    npm: 'vite-plugin-react-app-router',
-  },
   links: {
     github: 'https://github.com/jraylan/vite-plugin-react-app-router',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-app-router',
     website: 'https://github.com/jraylan/vite-plugin-react-app-router#readme',
+  },
+  source: {
+    github: 'jraylan/vite-plugin-react-app-router',
+    npm: 'vite-plugin-react-app-router',
   },
   stats: {
     stars: 3,

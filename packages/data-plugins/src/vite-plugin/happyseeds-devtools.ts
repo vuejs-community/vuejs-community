@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'happyseeds/happyseeds',
-    npm: '@happyseeds/devtools',
-  },
   links: {
     github: 'https://github.com/happyseeds/happyseeds',
     npm: 'https://www.npmjs.com/package/@happyseeds/devtools',
     website: 'https://github.com/happyseeds/happyseeds#readme',
+  },
+  source: {
+    github: 'happyseeds/happyseeds',
+    npm: '@happyseeds/devtools',
   },
   stats: {
     stars: 0,

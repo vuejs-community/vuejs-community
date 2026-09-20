@@ -29,14 +29,14 @@ export default defineProjectMeta({
     'console logging',
     'advanced logging',
   ],
-  source: {
-    github: 'amirrr1987/console-log-advanced',
-    npm: 'vite-plugin-console-log-advanced',
-  },
   links: {
     github: 'https://github.com/amirrr1987/console-log-advanced',
     npm: 'https://www.npmjs.com/package/vite-plugin-console-log-advanced',
     website: 'https://github.com/amirrr1987/console-log-advanced#readme',
+  },
+  source: {
+    github: 'amirrr1987/console-log-advanced',
+    npm: 'vite-plugin-console-log-advanced',
   },
   stats: {
     stars: 1,

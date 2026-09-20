@@ -28,14 +28,14 @@ export default defineProjectMeta({
     'typescript',
     'solid',
   ],
-  source: {
-    github: 'ugurkellecioglu/create-vite-plugin-web-extension',
-    npm: '@ugurkellecioglu/create-vite-plugin-web-extension',
-  },
   links: {
     github: 'https://github.com/ugurkellecioglu/create-vite-plugin-web-extension',
     npm: 'https://www.npmjs.com/package/@ugurkellecioglu/create-vite-plugin-web-extension',
     website: 'https://github.com/ugurkellecioglu/create-vite-plugin-web-extension#readme',
+  },
+  source: {
+    github: 'ugurkellecioglu/create-vite-plugin-web-extension',
+    npm: '@ugurkellecioglu/create-vite-plugin-web-extension',
   },
   stats: {
     stars: 0,

@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://pinia.vuejs.org/',
   },
   source: {
-    github: 'vuejs/pinia#v2/packages/nuxt',
+    github: 'vuejs/pinia',
     npm: '@pinia/nuxt',
   },
 })

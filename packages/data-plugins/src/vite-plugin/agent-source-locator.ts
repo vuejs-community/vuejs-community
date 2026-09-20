@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'claude-code',
     'inspector',
   ],
-  source: {
-    github: 'Hexi1997/agent-source-locator',
-    npm: 'agent-source-locator',
-  },
   links: {
     github: 'https://github.com/Hexi1997/agent-source-locator',
     npm: 'https://www.npmjs.com/package/agent-source-locator',
     website: 'https://github.com/Hexi1997/agent-source-locator#readme',
+  },
+  source: {
+    github: 'Hexi1997/agent-source-locator',
+    npm: 'agent-source-locator',
   },
   stats: {
     stars: 1,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'ui-doc',
     'ui-kit',
   ],
-  source: {
-    github: 'gherrink/ui-doc',
-    npm: '@ui-doc/rollup',
-  },
   links: {
     github: 'https://github.com/gherrink/ui-doc',
     npm: 'https://www.npmjs.com/package/@ui-doc/rollup',
     website: 'https://github.com/gherrink/ui-doc/tree/master/packages/rollup#readme',
+  },
+  source: {
+    github: 'gherrink/ui-doc',
+    npm: '@ui-doc/rollup',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'url',
     'esm',
   ],
-  source: {
-    github: 'eik-lib/rollup-plugin',
-    npm: '@eik/rollup-plugin',
-  },
   links: {
     github: 'https://github.com/eik-lib/rollup-plugin',
     npm: 'https://www.npmjs.com/package/@eik/rollup-plugin',
     website: 'https://github.com/eik-lib/rollup-plugin#readme',
+  },
+  source: {
+    github: 'eik-lib/rollup-plugin',
+    npm: '@eik/rollup-plugin',
   },
   stats: {
     stars: 2,

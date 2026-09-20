@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'build-guard',
     'developer-access',
   ],
-  source: {
-    github: 'SakuraPuare/access-guard',
-    npm: 'access-guard',
-  },
   links: {
     github: 'https://github.com/SakuraPuare/access-guard',
     npm: 'https://www.npmjs.com/package/access-guard',
     website: 'https://github.com/SakuraPuare/access-guard#readme',
+  },
+  source: {
+    github: 'SakuraPuare/access-guard',
+    npm: 'access-guard',
   },
   stats: {
     stars: 0,

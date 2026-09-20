@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'task',
     'transpile',
   ],
-  source: {
-    github: 'tunnckocore/start-rollup',
-    npm: 'start-rollup',
-  },
   links: {
     github: 'https://github.com/tunnckocore/start-rollup',
     npm: 'https://www.npmjs.com/package/start-rollup',
     website: 'https://github.com/tunnckocore/start-rollup#readme',
+  },
+  source: {
+    github: 'tunnckocore/start-rollup',
+    npm: 'start-rollup',
   },
   stats: {
     stars: 3,

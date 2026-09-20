@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'devtools',
     'click-to-source',
   ],
-  source: {
-    github: 'merunus/react-simple-inspector',
-    npm: 'react-simple-inspector',
-  },
   links: {
     github: 'https://github.com/merunus/react-simple-inspector',
     npm: 'https://www.npmjs.com/package/react-simple-inspector',
     website: 'https://github.com/merunus/react-simple-inspector#readme',
+  },
+  source: {
+    github: 'merunus/react-simple-inspector',
+    npm: 'react-simple-inspector',
   },
   stats: {
     stars: 0,

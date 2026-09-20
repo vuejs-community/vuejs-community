@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'uni-app',
     'pwa',
   ],
-  source: {
-    npm: 'vite-plugin-sw-offline',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-sw-offline',
+  },
+  source: {
+    npm: 'vite-plugin-sw-offline',
   },
   stats: {
     stars: 0,

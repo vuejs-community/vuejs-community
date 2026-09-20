@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'fast',
     'performance',
   ],
-  source: {
-    github: 'z-npm/vite-plugin-swc',
-    npm: '@o.z/vite-plugin-swc',
-  },
   links: {
     github: 'https://github.com/z-npm/vite-plugin-swc',
     npm: 'https://www.npmjs.com/package/@o.z/vite-plugin-swc',
     website: 'https://github.com/z-npm/vite-plugin-swc#readme',
+  },
+  source: {
+    github: 'z-npm/vite-plugin-swc',
+    npm: '@o.z/vite-plugin-swc',
   },
   stats: {
     stars: 0,

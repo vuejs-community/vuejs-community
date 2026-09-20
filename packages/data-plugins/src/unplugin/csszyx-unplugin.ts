@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'css-in-js',
     'unplugin',
   ],
-  source: {
-    github: 'nguyennhutien/csszyx',
-    npm: '@csszyx/unplugin',
-  },
   links: {
     github: 'https://github.com/nguyennhutien/csszyx',
     npm: 'https://www.npmjs.com/package/@csszyx/unplugin',
     website: 'https://github.com/nguyennhutien/csszyx/tree/main/packages/unplugin#readme',
+  },
+  source: {
+    github: 'nguyennhutien/csszyx',
+    npm: '@csszyx/unplugin',
   },
   stats: {
     stars: 0,

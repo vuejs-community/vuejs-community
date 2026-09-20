@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'documentation',
     'frontmatter',
   ],
-  source: {
-    github: 'ItzNotABug/plaindown',
-    npm: '@itznotabug/plaindown',
-  },
   links: {
     github: 'https://github.com/ItzNotABug/plaindown',
     npm: 'https://www.npmjs.com/package/@itznotabug/plaindown',
     website: 'https://github.com/ItzNotABug/plaindown#readme',
+  },
+  source: {
+    github: 'ItzNotABug/plaindown',
+    npm: '@itznotabug/plaindown',
   },
   stats: {
     stars: 1,

@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'credify-pte-ltd/rollup-plugin-node-polyfills',
-    npm: '@credify/rollup-plugin-node-polyfills',
-  },
   links: {
     github: 'https://github.com/credify-pte-ltd/rollup-plugin-node-polyfills',
     npm: 'https://www.npmjs.com/package/@credify/rollup-plugin-node-polyfills',
     website: 'https://github.com/credify-pte-ltd/rollup-plugin-node-polyfills#readme',
+  },
+  source: {
+    github: 'credify-pte-ltd/rollup-plugin-node-polyfills',
+    npm: '@credify/rollup-plugin-node-polyfills',
   },
   stats: {
     stars: 0,

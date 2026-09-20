@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'html',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-addhtmltags',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-addhtmltags',
+  },
+  source: {
+    npm: 'vite-plugin-addhtmltags',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'archiver',
     'build',
   ],
-  source: {
-    github: 'Jarvis-Dong/vite-just-zip',
-    npm: 'vite-just-zip',
-  },
   links: {
     github: 'https://github.com/Jarvis-Dong/vite-just-zip',
     npm: 'https://www.npmjs.com/package/vite-just-zip',
     website: 'https://github.com/Jarvis-Dong/vite-just-zip#readme',
+  },
+  source: {
+    github: 'Jarvis-Dong/vite-just-zip',
+    npm: 'vite-just-zip',
   },
   stats: {
     stars: 0,

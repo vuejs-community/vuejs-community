@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'markdown-it',
   ],
-  source: {
-    npm: 'vite-plugin-md2v',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-md2v',
+  },
+  source: {
+    npm: 'vite-plugin-md2v',
   },
   stats: {
     stars: 0,

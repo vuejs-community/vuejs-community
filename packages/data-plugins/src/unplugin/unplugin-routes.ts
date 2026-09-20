@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'esbuild',
     'farm',
   ],
-  source: {
-    github: 'lexmin0412/unplugin-routes',
-    npm: 'unplugin-routes',
-  },
   links: {
     github: 'https://github.com/lexmin0412/unplugin-routes',
     npm: 'https://www.npmjs.com/package/unplugin-routes',
     website: 'https://github.com/lexmin0412/unplugin-routes#readme',
+  },
+  source: {
+    github: 'lexmin0412/unplugin-routes',
+    npm: 'unplugin-routes',
   },
   stats: {
     stars: 1,

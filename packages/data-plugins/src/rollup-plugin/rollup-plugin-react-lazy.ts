@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'imports',
     'suspense',
   ],
-  source: {
-    github: 'alloc/rollup-plugin-react-lazy',
-    npm: 'rollup-plugin-react-lazy',
-  },
   links: {
     github: 'https://github.com/alloc/rollup-plugin-react-lazy',
     npm: 'https://www.npmjs.com/package/rollup-plugin-react-lazy',
     website: 'https://github.com/alloc/rollup-plugin-react-lazy#readme',
+  },
+  source: {
+    github: 'alloc/rollup-plugin-react-lazy',
+    npm: 'rollup-plugin-react-lazy',
   },
   stats: {
     stars: 0,

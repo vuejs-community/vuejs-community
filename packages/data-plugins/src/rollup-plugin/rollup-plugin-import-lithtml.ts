@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'import',
     'lit-html',
   ],
-  source: {
-    github: 'mdownes/rollup-plugin-import-lithtml',
-    npm: 'rollup-plugin-import-lithtml',
-  },
   links: {
     github: 'https://github.com/mdownes/rollup-plugin-import-lithtml',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-lithtml',
     website: 'https://github.com/mdownes/rollup-plugin-import-lithtml#readme',
+  },
+  source: {
+    github: 'mdownes/rollup-plugin-import-lithtml',
+    npm: 'rollup-plugin-import-lithtml',
   },
   stats: {
     stars: 0,

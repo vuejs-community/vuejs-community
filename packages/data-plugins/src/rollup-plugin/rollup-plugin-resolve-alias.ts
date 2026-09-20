@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'alias',
     'aliases',
   ],
-  source: {
-    npm: 'rollup-plugin-resolve-alias',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-resolve-alias',
     website: 'https://gitlab.com/gluons/rollup-plugin-resolve-alias',
+  },
+  source: {
+    npm: 'rollup-plugin-resolve-alias',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'ink',
     'inkle',
   ],
-  source: {
-    github: 'floriancargoet/vite-plugin-ink',
-    npm: 'vite-plugin-ink',
-  },
   links: {
     github: 'https://github.com/floriancargoet/vite-plugin-ink',
     npm: 'https://www.npmjs.com/package/vite-plugin-ink',
     website: 'https://github.com/floriancargoet/vite-plugin-ink#readme',
+  },
+  source: {
+    github: 'floriancargoet/vite-plugin-ink',
+    npm: 'vite-plugin-ink',
   },
   stats: {
     stars: 6,

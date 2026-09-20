@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'env',
   ],
-  source: {
-    github: 'zhou-tao/vite-plugin-env-parser',
-    npm: 'vite-plugin-env-parser',
-  },
   links: {
     github: 'https://github.com/zhou-tao/vite-plugin-env-parser',
     npm: 'https://www.npmjs.com/package/vite-plugin-env-parser',
     website: 'https://github.com/zhou-tao/vite-plugin-env-parser#readme',
+  },
+  source: {
+    github: 'zhou-tao/vite-plugin-env-parser',
+    npm: 'vite-plugin-env-parser',
   },
   stats: {
     stars: 7,

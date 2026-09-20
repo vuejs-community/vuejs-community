@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'unplugin/unplugin-raw',
-    npm: 'unplugin-raw',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-raw',
     npm: 'https://www.npmjs.com/package/unplugin-raw',
     website: 'https://github.com/unplugin/unplugin-raw#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-raw',
+    npm: 'unplugin-raw',
   },
   stats: {
     stars: 36,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'antd',
   ],
-  source: {
-    github: 'KAROTT7/vite-plugin-antd-style-reducer',
-    npm: 'vite-plugin-antd-style-reducer',
-  },
   links: {
     github: 'https://github.com/KAROTT7/vite-plugin-antd-style-reducer',
     npm: 'https://www.npmjs.com/package/vite-plugin-antd-style-reducer',
     website: 'https://github.com/KAROTT7/vite-plugin-antd-style-reducer#readme',
+  },
+  source: {
+    github: 'KAROTT7/vite-plugin-antd-style-reducer',
+    npm: 'vite-plugin-antd-style-reducer',
   },
   stats: {
     stars: 0,

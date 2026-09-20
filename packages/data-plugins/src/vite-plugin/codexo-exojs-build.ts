@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'wgsl',
     'worklet',
   ],
-  source: {
-    github: 'Exoridus/ExoJS',
-    npm: '@codexo/exojs-build',
-  },
   links: {
     github: 'https://github.com/Exoridus/ExoJS',
     npm: 'https://www.npmjs.com/package/@codexo/exojs-build',
     website: 'https://github.com/Exoridus/ExoJS',
+  },
+  source: {
+    github: 'Exoridus/ExoJS',
+    npm: '@codexo/exojs-build',
   },
   stats: {
     stars: 1,

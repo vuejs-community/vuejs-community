@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    npm: '@blinkx/editor-vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@blinkx/editor-vite',
+  },
+  source: {
+    npm: '@blinkx/editor-vite',
   },
   stats: {
     stars: 0,

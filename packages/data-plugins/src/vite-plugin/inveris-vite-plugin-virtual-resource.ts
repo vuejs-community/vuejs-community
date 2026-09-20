@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'resolver',
     'virtual',
   ],
-  source: {
-    github: 'inverisOSS/vite-plugin-virtual-resource',
-    npm: '@inveris/vite-plugin-virtual-resource',
-  },
   links: {
     github: 'https://github.com/inverisOSS/vite-plugin-virtual-resource',
     npm: 'https://www.npmjs.com/package/@inveris/vite-plugin-virtual-resource',
     website: 'https://github.com/inverisOSS/vite-plugin-virtual-resource',
+  },
+  source: {
+    github: 'inverisOSS/vite-plugin-virtual-resource',
+    npm: '@inveris/vite-plugin-virtual-resource',
   },
   stats: {
     stars: 0,

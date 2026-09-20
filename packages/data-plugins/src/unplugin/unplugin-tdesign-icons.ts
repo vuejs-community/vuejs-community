@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'react',
     'web-components',
   ],
-  source: {
-    github: 'liweijie0812/unplugin-tdesign-icons',
-    npm: 'unplugin-tdesign-icons',
-  },
   links: {
     github: 'https://github.com/liweijie0812/unplugin-tdesign-icons',
     npm: 'https://www.npmjs.com/package/unplugin-tdesign-icons',
     website: 'https://github.com/liweijie0812/unplugin-tdesign-icons#readme',
+  },
+  source: {
+    github: 'liweijie0812/unplugin-tdesign-icons',
+    npm: 'unplugin-tdesign-icons',
   },
   stats: {
     stars: 1,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'jsonschema',
   ],
-  source: {
-    github: 'qurafi/kitva',
-    npm: 'kitva',
-  },
   links: {
     github: 'https://github.com/qurafi/kitva',
     npm: 'https://www.npmjs.com/package/kitva',
     website: 'https://github.com/qurafi/kitva#readme',
+  },
+  source: {
+    github: 'qurafi/kitva',
+    npm: 'kitva',
   },
   stats: {
     stars: 1,

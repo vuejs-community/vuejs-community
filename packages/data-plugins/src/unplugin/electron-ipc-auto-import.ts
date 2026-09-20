@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'type-safe',
     'contextBridge',
   ],
-  source: {
-    github: 'yyues/electron-ipc-auto-import',
-    npm: 'electron-ipc-auto-import',
-  },
   links: {
     github: 'https://github.com/yyues/electron-ipc-auto-import',
     npm: 'https://www.npmjs.com/package/electron-ipc-auto-import',
     website: 'https://github.com/yyues/electron-ipc-auto-import#readme',
+  },
+  source: {
+    github: 'yyues/electron-ipc-auto-import',
+    npm: 'electron-ipc-auto-import',
   },
   stats: {
     stars: 11,

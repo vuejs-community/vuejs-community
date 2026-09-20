@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'ivi',
     'rollup-plugin',
   ],
-  source: {
-    github: 'localvoid/ivi',
-    npm: '@ivi/rollup-plugin',
-  },
   links: {
     github: 'https://github.com/localvoid/ivi',
     npm: 'https://www.npmjs.com/package/@ivi/rollup-plugin',
     website: 'https://github.com/localvoid/ivi',
+  },
+  source: {
+    github: 'localvoid/ivi',
+    npm: '@ivi/rollup-plugin',
   },
   stats: {
     stars: 0,

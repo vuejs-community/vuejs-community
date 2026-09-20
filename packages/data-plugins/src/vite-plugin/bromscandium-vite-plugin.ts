@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'file-based-routing',
   ],
-  source: {
-    github: 'bromscandium/bromiumjs',
-    npm: '@bromscandium/vite-plugin',
-  },
   links: {
     github: 'https://github.com/bromscandium/bromiumjs',
     npm: 'https://www.npmjs.com/package/@bromscandium/vite-plugin',
     website: 'https://github.com/bromscandium/bromiumjs#readme',
+  },
+  source: {
+    github: 'bromscandium/bromiumjs',
+    npm: '@bromscandium/vite-plugin',
   },
   stats: {
     stars: 2,

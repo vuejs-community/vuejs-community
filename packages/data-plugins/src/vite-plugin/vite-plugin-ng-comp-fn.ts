@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'angular',
   ],
-  source: {
-    github: 'crutchcorn/ng-comp-fn',
-    npm: 'vite-plugin-ng-comp-fn',
-  },
   links: {
     github: 'https://github.com/crutchcorn/ng-comp-fn',
     npm: 'https://www.npmjs.com/package/vite-plugin-ng-comp-fn',
     website: 'https://github.com/crutchcorn/ng-comp-fn#readme',
+  },
+  source: {
+    github: 'crutchcorn/ng-comp-fn',
+    npm: 'vite-plugin-ng-comp-fn',
   },
   stats: {
     stars: 3,

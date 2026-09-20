@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'optimization',
   ],
-  source: {
-    github: 'niek-ph/webp-image-generator',
-    npm: '@niekph/webp-image-generator',
-  },
   links: {
     github: 'https://github.com/niek-ph/webp-image-generator',
     npm: 'https://www.npmjs.com/package/@niekph/webp-image-generator',
     website: 'https://github.com/niek-ph/webp-image-generator#readme',
+  },
+  source: {
+    github: 'niek-ph/webp-image-generator',
+    npm: '@niekph/webp-image-generator',
   },
   stats: {
     stars: 1,

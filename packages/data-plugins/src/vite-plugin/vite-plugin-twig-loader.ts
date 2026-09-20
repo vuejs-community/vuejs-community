@@ -14,13 +14,13 @@ export default defineProjectMeta({
     'twig',
     'loader',
   ],
-  source: {
-    github: 'dark-kitt/vite-plugin-twig-loader',
-    npm: 'vite-plugin-twig-loader',
-  },
   links: {
     github: 'https://github.com/dark-kitt/vite-plugin-twig-loader',
     npm: 'https://www.npmjs.com/package/vite-plugin-twig-loader',
+  },
+  source: {
+    github: 'dark-kitt/vite-plugin-twig-loader',
+    npm: 'vite-plugin-twig-loader',
   },
   stats: {
     stars: 4,

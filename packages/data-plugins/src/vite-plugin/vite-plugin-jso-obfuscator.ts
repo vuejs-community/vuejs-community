@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'bundle',
     'javascriptobfuscator',
   ],
-  source: {
-    github: 'richtexteditor/jso-protector',
-    npm: 'vite-plugin-jso-obfuscator',
-  },
   links: {
     github: 'https://github.com/richtexteditor/jso-protector',
     npm: 'https://www.npmjs.com/package/vite-plugin-jso-obfuscator',
     website: 'https://javascriptobfuscator.com/docs/npmcli.aspx',
+  },
+  source: {
+    github: 'richtexteditor/jso-protector',
+    npm: 'vite-plugin-jso-obfuscator',
   },
   stats: {
     stars: 0,

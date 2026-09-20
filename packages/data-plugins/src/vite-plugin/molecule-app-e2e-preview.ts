@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'playwright',
     'vite-plugin',
   ],
-  source: {
-    github: 'molecule-dev/molecule',
-    npm: '@molecule/app-e2e-preview',
-  },
   links: {
     github: 'https://github.com/molecule-dev/molecule',
     npm: 'https://www.npmjs.com/package/@molecule/app-e2e-preview',
-    website: 'https://molecule.dev',
+    website: 'https://www.molecule.dev/packages/app-e2e-preview',
+  },
+  source: {
+    github: 'molecule-dev/molecule',
+    npm: '@molecule/app-e2e-preview',
   },
   stats: {
     stars: 44,

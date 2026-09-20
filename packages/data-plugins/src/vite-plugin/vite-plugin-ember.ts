@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'live-preview',
     'playground',
   ],
-  source: {
-    github: 'aklkv/vite-plugin-ember',
-    npm: 'vite-plugin-ember',
-  },
   links: {
     github: 'https://github.com/aklkv/vite-plugin-ember',
     npm: 'https://www.npmjs.com/package/vite-plugin-ember',
     website: 'https://github.com/aklkv/vite-plugin-ember#readme',
+  },
+  source: {
+    github: 'aklkv/vite-plugin-ember',
+    npm: 'vite-plugin-ember',
   },
   stats: {
     stars: 4,

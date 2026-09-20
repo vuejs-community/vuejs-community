@@ -33,14 +33,14 @@ export default defineProjectMeta({
     'claude',
     'anthropic',
   ],
-  source: {
-    github: 'broisnischal/vite-mcp',
-    npm: 'vite-mcp',
-  },
   links: {
     github: 'https://github.com/broisnischal/vite-mcp',
     npm: 'https://www.npmjs.com/package/vite-mcp',
     website: 'https://github.com/broisnischal/vite-mcp',
+  },
+  source: {
+    github: 'broisnischal/vite-mcp',
+    npm: 'vite-mcp',
   },
   stats: {
     stars: 4,

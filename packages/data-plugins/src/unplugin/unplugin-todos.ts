@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'nodejs',
   ],
-  source: {
-    github: 'tmg0/unplugin-todos',
-    npm: 'unplugin-todos',
-  },
   links: {
     github: 'https://github.com/tmg0/unplugin-todos',
     npm: 'https://www.npmjs.com/package/unplugin-todos',
     website: 'https://github.com/tmg0/unplugin-todos#readme',
+  },
+  source: {
+    github: 'tmg0/unplugin-todos',
+    npm: 'unplugin-todos',
   },
   stats: {
     stars: 2,

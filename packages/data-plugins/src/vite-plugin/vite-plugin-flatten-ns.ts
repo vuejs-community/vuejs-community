@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'barrel',
     'namespace',
   ],
-  source: {
-    github: 'cyb3rcore/vite-plugin-flatten-ns',
-    npm: 'vite-plugin-flatten-ns',
-  },
   links: {
     github: 'https://github.com/cyb3rcore/vite-plugin-flatten-ns',
     npm: 'https://www.npmjs.com/package/vite-plugin-flatten-ns',
     website: 'https://github.com/cyb3rcore/vite-plugin-flatten-ns#readme',
+  },
+  source: {
+    github: 'cyb3rcore/vite-plugin-flatten-ns',
+    npm: 'vite-plugin-flatten-ns',
   },
   stats: {
     stars: 1,

@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    npm: '@lx-frontend/unplugin-js-distribute',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@lx-frontend/unplugin-js-distribute',
+  },
+  source: {
+    npm: '@lx-frontend/unplugin-js-distribute',
   },
   stats: {
     stars: 0,

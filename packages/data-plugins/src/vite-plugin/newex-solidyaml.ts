@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'typescript',
     'intellisense',
   ],
-  source: {
-    github: 'Newex/solidyaml',
-    npm: '@newex/solidyaml',
-  },
   links: {
     github: 'https://github.com/Newex/solidyaml',
     npm: 'https://www.npmjs.com/package/@newex/solidyaml',
     website: 'https://github.com/Newex/solidyaml#readme',
+  },
+  source: {
+    github: 'Newex/solidyaml',
+    npm: '@newex/solidyaml',
   },
   stats: {
     stars: 0,

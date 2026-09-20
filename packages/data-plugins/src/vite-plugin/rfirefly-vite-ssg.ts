@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'ssg',
     'ssr',
   ],
-  source: {
-    github: 'rfirefly/vite-ssg',
-    npm: '@rfirefly/vite-ssg',
-  },
   links: {
     github: 'https://github.com/rfirefly/vite-ssg',
     npm: 'https://www.npmjs.com/package/@rfirefly/vite-ssg',
     website: 'https://github.com/rfirefly/vite-ssg.git',
+  },
+  source: {
+    github: 'rfirefly/vite-ssg',
+    npm: '@rfirefly/vite-ssg',
   },
   stats: {
     stars: 0,

@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'ui',
     'compiler',
   ],
-  source: {
-    github: 'zikojs/ziko',
-    npm: '@zikojs/vite-plugin-jsx',
-  },
   links: {
     github: 'https://github.com/zikojs/ziko',
     npm: 'https://www.npmjs.com/package/@zikojs/vite-plugin-jsx',
     website: 'https://github.com/zikojs/ziko#readme',
+  },
+  source: {
+    github: 'zikojs/ziko',
+    npm: '@zikojs/vite-plugin-jsx',
   },
   stats: {
     stars: 135,

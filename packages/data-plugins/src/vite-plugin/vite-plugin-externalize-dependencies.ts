@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'rollup-externals',
     'dependency-management',
   ],
-  source: {
-    github: 'MilanKovacic/vite-plugin-externalize-dependencies',
-    npm: 'vite-plugin-externalize-dependencies',
-  },
   links: {
     github: 'https://github.com/MilanKovacic/vite-plugin-externalize-dependencies',
     npm: 'https://www.npmjs.com/package/vite-plugin-externalize-dependencies',
     website: 'https://github.com/MilanKovacic/vite-plugin-externalize-dependencies#readme',
+  },
+  source: {
+    github: 'MilanKovacic/vite-plugin-externalize-dependencies',
+    npm: 'vite-plugin-externalize-dependencies',
   },
   stats: {
     stars: 60,

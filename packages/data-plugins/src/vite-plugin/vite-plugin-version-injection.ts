@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'version',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-version-injection',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-version-injection',
+  },
+  source: {
+    npm: 'vite-plugin-version-injection',
   },
   stats: {
     stars: 0,

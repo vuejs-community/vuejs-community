@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'performance',
     'optimization',
   ],
-  source: {
-    github: 'AkagiYui/vite-plugin-image-prefetch',
-    npm: '@akagiyui/vite-plugin-image-prefetch',
-  },
   links: {
     github: 'https://github.com/AkagiYui/vite-plugin-image-prefetch',
     npm: 'https://www.npmjs.com/package/@akagiyui/vite-plugin-image-prefetch',
     website: 'https://github.com/AkagiYui/vite-plugin-image-prefetch',
+  },
+  source: {
+    github: 'AkagiYui/vite-plugin-image-prefetch',
+    npm: '@akagiyui/vite-plugin-image-prefetch',
   },
   stats: {
     stars: 0,

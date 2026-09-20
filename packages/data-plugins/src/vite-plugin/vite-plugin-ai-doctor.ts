@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'error',
     'build',
   ],
-  source: {
-    npm: 'vite-plugin-ai-doctor',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-ai-doctor',
+  },
+  source: {
+    npm: 'vite-plugin-ai-doctor',
   },
   stats: {
     stars: 0,

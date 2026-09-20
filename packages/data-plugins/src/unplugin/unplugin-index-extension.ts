@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'plugin',
     'esm',
   ],
-  source: {
-    github: 's3xysteak/unplugin-index-extension',
-    npm: 'unplugin-index-extension',
-  },
   links: {
     github: 'https://github.com/s3xysteak/unplugin-index-extension',
     npm: 'https://www.npmjs.com/package/unplugin-index-extension',
     website: 'https://github.com/s3xysteak/unplugin-index-extension',
+  },
+  source: {
+    github: 's3xysteak/unplugin-index-extension',
+    npm: 'unplugin-index-extension',
   },
   stats: {
     stars: 1,

@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite plugin',
     'vite-plugin',
   ],
-  source: {
-    npm: 'attr-styler',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/attr-styler',
+  },
+  source: {
+    npm: 'attr-styler',
   },
   stats: {
     stars: 0,

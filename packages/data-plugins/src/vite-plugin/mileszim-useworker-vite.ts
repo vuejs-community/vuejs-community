@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'react',
     'worker',
   ],
-  source: {
-    github: 'mileszim/useworker',
-    npm: '@mileszim/useworker-vite',
-  },
   links: {
     github: 'https://github.com/mileszim/useworker',
     npm: 'https://www.npmjs.com/package/@mileszim/useworker-vite',
     website: 'https://github.com/mileszim/useworker#readme',
+  },
+  source: {
+    github: 'mileszim/useworker',
+    npm: '@mileszim/useworker-vite',
   },
   stats: {
     stars: 0,

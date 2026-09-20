@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'react-hooks',
     'devwizard',
   ],
-  source: {
-    github: 'DevWizardHQ/laravel-localizer-react',
-    npm: '@devwizard/laravel-localizer-react',
-  },
   links: {
     github: 'https://github.com/DevWizardHQ/laravel-localizer-react',
     npm: 'https://www.npmjs.com/package/@devwizard/laravel-localizer-react',
     website: 'https://github.com/DevWizardHQ/laravel-localizer-react#readme',
+  },
+  source: {
+    github: 'DevWizardHQ/laravel-localizer-react',
+    npm: '@devwizard/laravel-localizer-react',
   },
   stats: {
     stars: 8,

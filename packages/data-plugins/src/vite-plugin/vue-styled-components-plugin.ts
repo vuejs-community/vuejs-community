@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'typescript',
     'vite-plugin',
   ],
-  source: {
-    github: 'vue-styled-components/plugin',
-    npm: '@vue-styled-components/plugin',
-  },
   links: {
     github: 'https://github.com/vue-styled-components/plugin',
     npm: 'https://www.npmjs.com/package/@vue-styled-components/plugin',
     website: 'https://github.com/vue-styled-components/plugin#readme',
+  },
+  source: {
+    github: 'vue-styled-components/plugin',
+    npm: '@vue-styled-components/plugin',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'matthiasclaessen/wordpress-vite-plugin',
-    npm: 'wordpress-vite',
-  },
   links: {
     github: 'https://github.com/matthiasclaessen/wordpress-vite-plugin',
     npm: 'https://www.npmjs.com/package/wordpress-vite',
     website: 'https://github.com/matthiasclaessen/wordpress-vite-plugin',
+  },
+  source: {
+    github: 'matthiasclaessen/wordpress-vite-plugin',
+    npm: 'wordpress-vite',
   },
   stats: {
     stars: 0,

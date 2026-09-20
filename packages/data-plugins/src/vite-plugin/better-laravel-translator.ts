@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vue',
     'typescript',
   ],
-  source: {
-    github: 'jpkontreras/better-laravel-translator',
-    npm: 'better-laravel-translator',
-  },
   links: {
     github: 'https://github.com/jpkontreras/better-laravel-translator',
     npm: 'https://www.npmjs.com/package/better-laravel-translator',
     website: 'https://github.com/jpkontreras/better-laravel-translator#readme',
+  },
+  source: {
+    github: 'jpkontreras/better-laravel-translator',
+    npm: 'better-laravel-translator',
   },
   stats: {
     stars: 0,

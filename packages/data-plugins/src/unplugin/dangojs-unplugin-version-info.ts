@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    npm: '@dangojs/unplugin-version-info',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@dangojs/unplugin-version-info',
+  },
+  source: {
+    npm: '@dangojs/unplugin-version-info',
   },
   stats: {
     stars: 0,

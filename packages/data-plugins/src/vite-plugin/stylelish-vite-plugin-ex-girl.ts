@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'crx',
     'mv3',
   ],
-  source: {
-    github: 'StyleList94/plugin-baby',
-    npm: '@stylelish/vite-plugin-ex-girl',
-  },
   links: {
     github: 'https://github.com/StyleList94/plugin-baby',
     npm: 'https://www.npmjs.com/package/@stylelish/vite-plugin-ex-girl',
     website: 'https://github.com/StyleList94/plugin-baby/tree/main/packages/vite-plugin-ex-girl#readme',
+  },
+  source: {
+    github: 'StyleList94/plugin-baby',
+    npm: '@stylelish/vite-plugin-ex-girl',
   },
   stats: {
     stars: 0,

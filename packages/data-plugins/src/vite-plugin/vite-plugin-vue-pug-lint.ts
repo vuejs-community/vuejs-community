@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'pug',
     'pug-lint',
   ],
-  source: {
-    github: 'brzezinskimarcin/vite-plugin-vue-pug-lint',
-    npm: 'vite-plugin-vue-pug-lint',
-  },
   links: {
     github: 'https://github.com/brzezinskimarcin/vite-plugin-vue-pug-lint',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-pug-lint',
     website: 'https://github.com/brzezinskimarcin/vite-plugin-vue-pug-lint',
+  },
+  source: {
+    github: 'brzezinskimarcin/vite-plugin-vue-pug-lint',
+    npm: 'vite-plugin-vue-pug-lint',
   },
   stats: {
     stars: 1,

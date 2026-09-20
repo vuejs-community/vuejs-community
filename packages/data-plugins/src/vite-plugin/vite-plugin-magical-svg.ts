@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'svgr',
     'svg',
   ],
-  source: {
-    npm: 'vite-plugin-magical-svg',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-magical-svg',
     website: 'https://github.com/cyyynthia/vite-plugin-magical-svg#readme',
+  },
+  source: {
+    npm: 'vite-plugin-magical-svg',
   },
   stats: {
     stars: 0,

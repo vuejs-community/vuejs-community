@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'tailwind',
     'class minifier',
   ],
-  source: {
-    github: 'kiosion/vite-plugin-class-mangler',
-    npm: 'vite-plugin-class-mangler',
-  },
   links: {
     github: 'https://github.com/kiosion/vite-plugin-class-mangler',
     npm: 'https://www.npmjs.com/package/vite-plugin-class-mangler',
     website: 'https://github.com/kiosion/vite-plugin-class-mangler#readme',
+  },
+  source: {
+    github: 'kiosion/vite-plugin-class-mangler',
+    npm: 'vite-plugin-class-mangler',
   },
   stats: {
     stars: 0,

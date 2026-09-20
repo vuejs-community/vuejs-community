@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'css',
   ],
-  source: {
-    npm: '@navelpluisje/rollup-plugin-css',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@navelpluisje/rollup-plugin-css',
+  },
+  source: {
+    npm: '@navelpluisje/rollup-plugin-css',
   },
   stats: {
     stars: 0,

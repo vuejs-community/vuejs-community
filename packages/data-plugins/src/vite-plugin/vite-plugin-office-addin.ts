@@ -13,13 +13,13 @@ export default defineProjectMeta({
     'vite-plugin',
     'office-addin',
   ],
-  source: {
-    github: 'jozefizso/vite-plugin-office-addin',
-    npm: 'vite-plugin-office-addin',
-  },
   links: {
     github: 'https://github.com/jozefizso/vite-plugin-office-addin',
     npm: 'https://www.npmjs.com/package/vite-plugin-office-addin',
+  },
+  source: {
+    github: 'jozefizso/vite-plugin-office-addin',
+    npm: 'vite-plugin-office-addin',
   },
   stats: {
     stars: 0,

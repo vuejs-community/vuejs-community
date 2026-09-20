@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'webpack-loader',
     'rollup-plugin',
   ],
-  source: {
-    npm: 'arch-loader',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/arch-loader',
+  },
+  source: {
+    npm: 'arch-loader',
   },
   stats: {
     stars: 0,

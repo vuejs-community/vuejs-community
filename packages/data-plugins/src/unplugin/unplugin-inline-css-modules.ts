@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'inline-css',
     'css-in-js',
   ],
-  source: {
-    github: 'bluskript/unplugin-inline-css-modules',
-    npm: 'unplugin-inline-css-modules',
-  },
   links: {
     github: 'https://github.com/bluskript/unplugin-inline-css-modules',
     npm: 'https://www.npmjs.com/package/unplugin-inline-css-modules',
     website: 'https://github.com/bluskript/unplugin-inline-css-modules#readme',
+  },
+  source: {
+    github: 'bluskript/unplugin-inline-css-modules',
+    npm: 'unplugin-inline-css-modules',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'css-modules',
     'rollup-plugin',
   ],
-  source: {
-    github: 'zeekay/rollup-plugin-stylup',
-    npm: 'rollup-plugin-stylup',
-  },
   links: {
     github: 'https://github.com/zeekay/rollup-plugin-stylup',
     npm: 'https://www.npmjs.com/package/rollup-plugin-stylup',
     website: 'https://github.com/zeekay/rollup-plugin-stylup',
+  },
+  source: {
+    github: 'zeekay/rollup-plugin-stylup',
+    npm: 'rollup-plugin-stylup',
   },
   stats: {
     stars: 1,

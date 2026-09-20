@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'webpack-loader',
     'vite-plugin',
   ],
-  source: {
-    github: 'Ethan66/node-console-link',
-    npm: 'node-console-link',
-  },
   links: {
     github: 'https://github.com/Ethan66/node-console-link',
     npm: 'https://www.npmjs.com/package/node-console-link',
     website: 'https://github.com/Ethan66/node-console-link#readme',
+  },
+  source: {
+    github: 'Ethan66/node-console-link',
+    npm: 'node-console-link',
   },
   stats: {
     stars: 0,

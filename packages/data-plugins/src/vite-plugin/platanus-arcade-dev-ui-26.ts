@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'dev-ui',
   ],
-  source: {
-    github: 'platanus-hack/platanus-hack-26-arcade-dev-ui',
-    npm: '@platanus/arcade-dev-ui-26',
-  },
   links: {
     github: 'https://github.com/platanus-hack/platanus-hack-26-arcade-dev-ui',
     npm: 'https://www.npmjs.com/package/@platanus/arcade-dev-ui-26',
     website: 'https://github.com/platanus-hack/platanus-hack-26-arcade-dev-ui#readme',
+  },
+  source: {
+    github: 'platanus-hack/platanus-hack-26-arcade-dev-ui',
+    npm: '@platanus/arcade-dev-ui-26',
   },
   stats: {
     stars: 0,

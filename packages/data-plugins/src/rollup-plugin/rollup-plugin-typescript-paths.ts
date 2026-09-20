@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'typescript',
   ],
-  source: {
-    github: 'simonhaenisch/rollup-plugin-typescript-paths',
-    npm: 'rollup-plugin-typescript-paths',
-  },
   links: {
     github: 'https://github.com/simonhaenisch/rollup-plugin-typescript-paths',
     npm: 'https://www.npmjs.com/package/rollup-plugin-typescript-paths',
     website: 'https://github.com/simonhaenisch/rollup-plugin-typescript-paths#readme',
+  },
+  source: {
+    github: 'simonhaenisch/rollup-plugin-typescript-paths',
+    npm: 'rollup-plugin-typescript-paths',
   },
   stats: {
     stars: 0,

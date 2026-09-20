@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'style',
   ],
-  source: {
-    github: 'jaywcjlove/rollup-plugin-less',
-    npm: '@wcj/rollup-plugin-less',
-  },
   links: {
     github: 'https://github.com/jaywcjlove/rollup-plugin-less',
     npm: 'https://www.npmjs.com/package/@wcj/rollup-plugin-less',
     website: 'https://github.com/jaywcjlove/rollup-plugin-less#readme',
+  },
+  source: {
+    github: 'jaywcjlove/rollup-plugin-less',
+    npm: '@wcj/rollup-plugin-less',
   },
   stats: {
     stars: 5,

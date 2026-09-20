@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'winchesHe/unplugin-transform-condition',
-    npm: 'unplugin-transform-condition',
-  },
   links: {
     github: 'https://github.com/winchesHe/unplugin-transform-condition',
     npm: 'https://www.npmjs.com/package/unplugin-transform-condition',
     website: 'https://github.com/winchesHe/unplugin-transform-condition#readme',
+  },
+  source: {
+    github: 'winchesHe/unplugin-transform-condition',
+    npm: 'unplugin-transform-condition',
   },
   stats: {
     stars: 0,

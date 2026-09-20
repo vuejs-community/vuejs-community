@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rollup',
     'esbuild',
   ],
-  source: {
-    github: 'clayroach/effect',
-    npm: '@clayroach/effect-unplugin',
-  },
   links: {
     github: 'https://github.com/clayroach/effect',
     npm: 'https://www.npmjs.com/package/@clayroach/effect-unplugin',
     website: 'https://github.com/clayroach/effect',
+  },
+  source: {
+    github: 'clayroach/effect',
+    npm: '@clayroach/effect-unplugin',
   },
   stats: {
     stars: 0,

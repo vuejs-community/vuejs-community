@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'zoer-helper',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/zoer-helper',
+  },
+  source: {
+    npm: 'zoer-helper',
   },
   stats: {
     stars: 0,

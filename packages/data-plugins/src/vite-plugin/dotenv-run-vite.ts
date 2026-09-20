@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: '@dotenv-run/vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@dotenv-run/vite',
     website: 'https://github.com/chihab/dotenv-run',
+  },
+  source: {
+    npm: '@dotenv-run/vite',
   },
   stats: {
     stars: 0,

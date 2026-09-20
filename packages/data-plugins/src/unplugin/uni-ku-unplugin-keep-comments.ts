@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rolldown',
     'rollup',
   ],
-  source: {
-    github: 'uni-ku/unplugin-keep-comments',
-    npm: '@uni-ku/unplugin-keep-comments',
-  },
   links: {
     github: 'https://github.com/uni-ku/unplugin-keep-comments',
     npm: 'https://www.npmjs.com/package/@uni-ku/unplugin-keep-comments',
     website: 'https://github.com/uni-ku/unplugin-keep-comments#readme',
+  },
+  source: {
+    github: 'uni-ku/unplugin-keep-comments',
+    npm: '@uni-ku/unplugin-keep-comments',
   },
   stats: {
     stars: 2,

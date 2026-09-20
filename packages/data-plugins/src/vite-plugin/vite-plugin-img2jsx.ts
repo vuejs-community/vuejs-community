@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'image-to-jsx',
     'img2jsx',
   ],
-  source: {
-    github: 'Xiaoooyooo/vite-plugin-img2jsx',
-    npm: 'vite-plugin-img2jsx',
-  },
   links: {
     github: 'https://github.com/Xiaoooyooo/vite-plugin-img2jsx',
     npm: 'https://www.npmjs.com/package/vite-plugin-img2jsx',
     website: 'https://github.com/Xiaoooyooo/vite-plugin-img2jsx#readme',
+  },
+  source: {
+    github: 'Xiaoooyooo/vite-plugin-img2jsx',
+    npm: 'vite-plugin-img2jsx',
   },
   stats: {
     stars: 0,

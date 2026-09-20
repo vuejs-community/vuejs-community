@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'webpack',
   ],
-  source: {
-    github: 'luxass/unplugin-toml',
-    npm: 'unplugin-toml',
-  },
   links: {
     github: 'https://github.com/luxass/unplugin-toml',
     npm: 'https://www.npmjs.com/package/unplugin-toml',
     website: 'https://github.com/luxass/unplugin-toml#readme',
+  },
+  source: {
+    github: 'luxass/unplugin-toml',
+    npm: 'unplugin-toml',
   },
   stats: {
     stars: 1,

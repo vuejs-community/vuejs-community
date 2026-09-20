@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'directory-route',
     'file-based-route',
   ],
-  source: {
-    github: 'Tangyangsong/vite-plugin-vue-page-route',
-    npm: '@tys/vite-plugin-vue-page-route',
-  },
   links: {
     github: 'https://github.com/Tangyangsong/vite-plugin-vue-page-route',
     npm: 'https://www.npmjs.com/package/@tys/vite-plugin-vue-page-route',
     website: 'https://github.com/Tangyangsong/vite-plugin-vue-page-route',
+  },
+  source: {
+    github: 'Tangyangsong/vite-plugin-vue-page-route',
+    npm: '@tys/vite-plugin-vue-page-route',
   },
   stats: {
     stars: 0,

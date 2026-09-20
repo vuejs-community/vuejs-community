@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'collagejs',
     'mfe',
   ],
-  source: {
-    github: 'collagejs/vite',
-    npm: '@collagejs/vite-im',
-  },
   links: {
     github: 'https://github.com/collagejs/vite',
     npm: 'https://www.npmjs.com/package/@collagejs/vite-im',
     website: 'https://collagejs.dev',
+  },
+  source: {
+    github: 'collagejs/vite',
+    npm: '@collagejs/vite-im',
   },
   stats: {
     stars: 0,

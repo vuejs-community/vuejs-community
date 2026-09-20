@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vitepress-bar',
     'vitepress-plugin',
   ],
-  source: {
-    github: 'onlymisaky/vite-plugin-vitepress-bar',
-    npm: 'vite-plugin-vitepress-bar',
-  },
   links: {
     github: 'https://github.com/onlymisaky/vite-plugin-vitepress-bar',
     npm: 'https://www.npmjs.com/package/vite-plugin-vitepress-bar',
     website: 'https://github.com/onlymisaky/vite-plugin-vitepress-bar#readme',
+  },
+  source: {
+    github: 'onlymisaky/vite-plugin-vitepress-bar',
+    npm: 'vite-plugin-vitepress-bar',
   },
   stats: {
     stars: 1,

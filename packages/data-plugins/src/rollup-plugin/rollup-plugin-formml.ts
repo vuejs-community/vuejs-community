@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'formml/formml',
-    npm: 'rollup-plugin-formml',
-  },
   links: {
     github: 'https://github.com/formml/formml',
     npm: 'https://www.npmjs.com/package/rollup-plugin-formml',
     website: 'https://github.com/formml/formml/tree/main/packages/rollup-plugin',
+  },
+  source: {
+    github: 'formml/formml',
+    npm: 'rollup-plugin-formml',
   },
   stats: {
     stars: 48,

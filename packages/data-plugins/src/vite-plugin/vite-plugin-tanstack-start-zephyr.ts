@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'zephyr',
   ],
-  source: {
-    github: 'ZephyrCloudIO/zephyr-packages',
-    npm: 'vite-plugin-tanstack-start-zephyr',
-  },
   links: {
     github: 'https://github.com/ZephyrCloudIO/zephyr-packages',
     npm: 'https://www.npmjs.com/package/vite-plugin-tanstack-start-zephyr',
     website: 'https://github.com/ZephyrCloudIO/zephyr-packages#readme',
+  },
+  source: {
+    github: 'ZephyrCloudIO/zephyr-packages',
+    npm: 'vite-plugin-tanstack-start-zephyr',
   },
   stats: {
     stars: 21,

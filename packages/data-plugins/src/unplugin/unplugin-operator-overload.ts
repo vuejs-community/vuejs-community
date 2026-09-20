@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'unplugin',
   ],
-  source: {
-    github: 'graphif/unplugin-operator-overload',
-    npm: 'unplugin-operator-overload',
-  },
   links: {
     github: 'https://github.com/graphif/unplugin-operator-overload',
     npm: 'https://www.npmjs.com/package/unplugin-operator-overload',
     website: 'https://github.com/graphif/unplugin-operator-overload#readme',
+  },
+  source: {
+    github: 'graphif/unplugin-operator-overload',
+    npm: 'unplugin-operator-overload',
   },
   stats: {
     stars: 1,

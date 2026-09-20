@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'inspector',
   ],
-  source: {
-    github: 'hasinoorit/svdevtools',
-    npm: 'svdevtools',
-  },
   links: {
     github: 'https://github.com/hasinoorit/svdevtools',
     npm: 'https://www.npmjs.com/package/svdevtools',
     website: 'https://github.com/hasinoorit/svdevtools#readme',
+  },
+  source: {
+    github: 'hasinoorit/svdevtools',
+    npm: 'svdevtools',
   },
   stats: {
     stars: 0,

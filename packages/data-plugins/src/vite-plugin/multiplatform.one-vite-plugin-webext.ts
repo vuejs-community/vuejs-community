@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'webext',
     'webextension',
   ],
-  source: {
-    npm: '@multiplatform.one/vite-plugin-webext',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@multiplatform.one/vite-plugin-webext',
     website: 'https://multiplatform.one',
+  },
+  source: {
+    npm: '@multiplatform.one/vite-plugin-webext',
   },
   stats: {
     stars: 0,

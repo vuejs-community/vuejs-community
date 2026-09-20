@@ -24,11 +24,11 @@ export default defineProjectMeta({
     'frontend',
     'web-development',
   ],
-  source: {
-    npm: '@astropub/vite-plugin-file',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@astropub/vite-plugin-file',
+  },
+  source: {
+    npm: '@astropub/vite-plugin-file',
   },
   stats: {
     stars: 0,

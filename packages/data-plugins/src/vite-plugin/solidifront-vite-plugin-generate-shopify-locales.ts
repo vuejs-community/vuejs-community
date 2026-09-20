@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin-generate-shopify-locales',
     'solidify',
   ],
-  source: {
-    github: 'KookiKodes/solidifront',
-    npm: '@solidifront/vite-plugin-generate-shopify-locales',
-  },
   links: {
     github: 'https://github.com/KookiKodes/solidifront',
     npm: 'https://www.npmjs.com/package/@solidifront/vite-plugin-generate-shopify-locales',
     website: 'https://github.com/KookiKodes/solidifront#readme',
+  },
+  source: {
+    github: 'KookiKodes/solidifront',
+    npm: '@solidifront/vite-plugin-generate-shopify-locales',
   },
   stats: {
     stars: 2,

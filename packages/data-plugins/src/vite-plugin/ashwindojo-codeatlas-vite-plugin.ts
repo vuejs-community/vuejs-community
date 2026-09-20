@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'codeatlas',
     'ai',
   ],
-  source: {
-    github: 'yourusername/codeatlas',
-    npm: '@ashwindojo/codeatlas-vite-plugin',
-  },
   links: {
     github: 'https://github.com/yourusername/codeatlas',
     npm: 'https://www.npmjs.com/package/@ashwindojo/codeatlas-vite-plugin',
     website: 'https://github.com/yourusername/codeatlas#readme',
+  },
+  source: {
+    github: 'yourusername/codeatlas',
+    npm: '@ashwindojo/codeatlas-vite-plugin',
   },
   stats: {
     stars: 0,

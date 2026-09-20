@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'monitoring',
     'error-tracking',
   ],
-  source: {
-    npm: '@nanyujun/rum-vite-plugin-sourcemap',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@nanyujun/rum-vite-plugin-sourcemap',
+  },
+  source: {
+    npm: '@nanyujun/rum-vite-plugin-sourcemap',
   },
   stats: {
     stars: 0,

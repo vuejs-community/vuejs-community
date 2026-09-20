@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'esbuild',
     'plugin',
   ],
-  source: {
-    npm: 'unplugin-hx-design',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-hx-design',
+  },
+  source: {
+    npm: 'unplugin-hx-design',
   },
   stats: {
     stars: 0,

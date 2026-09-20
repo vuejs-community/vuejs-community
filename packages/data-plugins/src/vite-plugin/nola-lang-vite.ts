@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'llm',
     'ai',
   ],
-  source: {
-    github: 'nola-lang/nola',
-    npm: '@nola-lang/vite',
-  },
   links: {
     github: 'https://github.com/nola-lang/nola',
     npm: 'https://www.npmjs.com/package/@nola-lang/vite',
     website: 'https://github.com/nola-lang/nola#readme',
+  },
+  source: {
+    github: 'nola-lang/nola',
+    npm: '@nola-lang/vite',
   },
   stats: {
     stars: 4,

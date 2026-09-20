@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'pitlane-tools/pitlane',
-    npm: '@pitlane/dev',
-  },
   links: {
     github: 'https://github.com/pitlane-tools/pitlane',
     npm: 'https://www.npmjs.com/package/@pitlane/dev',
     website: 'https://pitlane.tools/package/dev/',
+  },
+  source: {
+    github: 'pitlane-tools/pitlane',
+    npm: '@pitlane/dev',
   },
   stats: {
     stars: 8,

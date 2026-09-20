@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vue',
     'react',
   ],
-  source: {
-    github: 'better-tcy/dom-to-code',
-    npm: 'dom-to-code',
-  },
   links: {
     github: 'https://github.com/better-tcy/dom-to-code',
     npm: 'https://www.npmjs.com/package/dom-to-code',
     website: 'https://github.com/better-tcy/dom-to-code#readme',
+  },
+  source: {
+    github: 'better-tcy/dom-to-code',
+    npm: 'dom-to-code',
   },
   stats: {
     stars: 169,

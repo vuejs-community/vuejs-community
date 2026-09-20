@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'typescript',
     'type-generator',
   ],
-  source: {
-    github: 'cao5zy/vite-plugin-property-paths-to-types',
-    npm: 'vite-plugin-property-paths-to-types',
-  },
   links: {
     github: 'https://github.com/cao5zy/vite-plugin-property-paths-to-types',
     npm: 'https://www.npmjs.com/package/vite-plugin-property-paths-to-types',
     website: 'https://github.com/cao5zy/vite-plugin-property-paths-to-types#readme',
+  },
+  source: {
+    github: 'cao5zy/vite-plugin-property-paths-to-types',
+    npm: 'vite-plugin-property-paths-to-types',
   },
   stats: {
     stars: 0,

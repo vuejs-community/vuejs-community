@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'build',
     'time',
   ],
-  source: {
-    npm: 'vite-plugin-build-time',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-build-time',
     website: 'https://gitee.com/lihanspace/vite-plugin-build-time#readme',
+  },
+  source: {
+    npm: 'vite-plugin-build-time',
   },
   stats: {
     stars: 0,

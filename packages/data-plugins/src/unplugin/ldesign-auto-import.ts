@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'auto-import',
     'transform',
   ],
-  source: {
-    npm: '@ldesign/auto-import',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ldesign/auto-import',
+  },
+  source: {
+    npm: '@ldesign/auto-import',
   },
   stats: {
     stars: 0,

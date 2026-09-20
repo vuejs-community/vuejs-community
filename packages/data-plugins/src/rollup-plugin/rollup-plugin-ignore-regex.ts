@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'alexlur/rollup-plugin-ignore',
-    npm: 'rollup-plugin-ignore-regex',
-  },
   links: {
     github: 'https://github.com/alexlur/rollup-plugin-ignore',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ignore-regex',
     website: 'https://github.com/alexlur/rollup-plugin-ignore#readme',
+  },
+  source: {
+    github: 'alexlur/rollup-plugin-ignore',
+    npm: 'rollup-plugin-ignore-regex',
   },
   stats: {
     stars: 28,

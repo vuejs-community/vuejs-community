@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'frontmatter',
     'navigation',
   ],
-  source: {
-    github: 'rodavel-labs/vite-plugin-content-tree',
-    npm: '@rodavel/tanstack-mdx-tree',
-  },
   links: {
     github: 'https://github.com/rodavel-labs/vite-plugin-content-tree',
     npm: 'https://www.npmjs.com/package/@rodavel/tanstack-mdx-tree',
     website: 'https://github.com/rodavel-labs/vite-plugin-content-tree#readme',
+  },
+  source: {
+    github: 'rodavel-labs/vite-plugin-content-tree',
+    npm: '@rodavel/tanstack-mdx-tree',
   },
   stats: {
     stars: 0,

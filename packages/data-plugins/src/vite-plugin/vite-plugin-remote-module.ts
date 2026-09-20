@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'remote-module',
   ],
-  source: {
-    github: 'tangxiangmin/vite-plugin-remote-module',
-    npm: 'vite-plugin-remote-module',
-  },
   links: {
     github: 'https://github.com/tangxiangmin/vite-plugin-remote-module',
     npm: 'https://www.npmjs.com/package/vite-plugin-remote-module',
     website: 'https://github.com/tangxiangmin/vite-plugin-remote-module#readme',
+  },
+  source: {
+    github: 'tangxiangmin/vite-plugin-remote-module',
+    npm: 'vite-plugin-remote-module',
   },
   stats: {
     stars: 19,

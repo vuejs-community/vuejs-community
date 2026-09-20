@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'zero-layout-shift',
   ],
-  source: {
-    github: '0xGF/boneyard',
-    npm: 'boneyard-js',
-  },
   links: {
     github: 'https://github.com/0xGF/boneyard',
     npm: 'https://www.npmjs.com/package/boneyard-js',
     website: 'https://boneyard.vercel.app',
+  },
+  source: {
+    github: '0xGF/boneyard',
+    npm: 'boneyard-js',
   },
   stats: {
     stars: 7402,

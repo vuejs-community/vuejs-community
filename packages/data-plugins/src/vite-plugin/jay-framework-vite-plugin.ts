@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'secure',
     'vite-plugin',
   ],
-  source: {
-    npm: '@jay-framework/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@jay-framework/vite-plugin',
+  },
+  source: {
+    npm: '@jay-framework/vite-plugin',
   },
   stats: {
     stars: 0,

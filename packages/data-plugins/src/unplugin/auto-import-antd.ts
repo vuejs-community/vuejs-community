@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'ant-design',
     'auto import',
   ],
-  source: {
-    github: 'jiangxd2016/auto-import-antd',
-    npm: 'auto-import-antd',
-  },
   links: {
     github: 'https://github.com/jiangxd2016/auto-import-antd',
     npm: 'https://www.npmjs.com/package/auto-import-antd',
     website: 'https://github.com/jiangxd2016/auto-import-antd#readme',
+  },
+  source: {
+    github: 'jiangxd2016/auto-import-antd',
+    npm: 'auto-import-antd',
   },
   stats: {
     stars: 0,

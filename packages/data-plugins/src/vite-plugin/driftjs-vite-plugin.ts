@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'compiler',
     'build-tool',
   ],
-  source: {
-    npm: 'driftjs-vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/driftjs-vite-plugin',
+  },
+  source: {
+    npm: 'driftjs-vite-plugin',
   },
   stats: {
     stars: 0,

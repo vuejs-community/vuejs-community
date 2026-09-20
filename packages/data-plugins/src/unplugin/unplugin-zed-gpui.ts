@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'webpack',
     'rollup',
   ],
-  source: {
-    github: 'baendlorel/gpui-ts',
-    npm: 'unplugin-zed-gpui',
-  },
   links: {
     github: 'https://github.com/baendlorel/gpui-ts',
     npm: 'https://www.npmjs.com/package/unplugin-zed-gpui',
     website: 'https://github.com/baendlorel/gpui-ts#readme',
+  },
+  source: {
+    github: 'baendlorel/gpui-ts',
+    npm: 'unplugin-zed-gpui',
   },
   stats: {
     stars: 0,

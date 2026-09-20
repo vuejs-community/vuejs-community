@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'generator',
     'static-site',
   ],
-  source: {
-    npm: 'vite-plugin-markdownify',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-markdownify',
     website: 'https://github.com/codingfriend1/vite-plugin-markdownify#readme',
+  },
+  source: {
+    npm: 'vite-plugin-markdownify',
   },
   stats: {
     stars: 0,

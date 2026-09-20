@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'unplugin',
     'vite',
   ],
-  source: {
-    github: 'ilhajs/ilha',
-    npm: '@ilha/router',
-  },
   links: {
     github: 'https://github.com/ilhajs/ilha',
     npm: 'https://www.npmjs.com/package/@ilha/router',
     website: 'https://github.com/ilhajs/ilha/tree/main/packages/router#readme',
+  },
+  source: {
+    github: 'ilhajs/ilha',
+    npm: '@ilha/router',
   },
   stats: {
     stars: 155,

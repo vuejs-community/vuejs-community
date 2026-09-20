@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'spa',
     'csr',
   ],
-  source: {
-    github: 'mimifuwacc/haribote',
-    npm: 'haribote',
-  },
   links: {
     github: 'https://github.com/mimifuwacc/haribote',
     npm: 'https://www.npmjs.com/package/haribote',
     website: 'https://github.com/mimifuwacc/haribote#readme',
+  },
+  source: {
+    github: 'mimifuwacc/haribote',
+    npm: 'haribote',
   },
   stats: {
     stars: 6,

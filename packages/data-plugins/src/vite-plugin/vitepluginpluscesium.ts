@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'cesium',
   ],
-  source: {
-    github: 'liyu022/vite-plugin-cesium-plus',
-    npm: 'vitepluginpluscesium',
-  },
   links: {
     github: 'https://github.com/liyu022/vite-plugin-cesium-plus',
     npm: 'https://www.npmjs.com/package/vitepluginpluscesium',
     website: 'https://github.com/liyu022/vite-plugin-cesium-plus#readme',
+  },
+  source: {
+    github: 'liyu022/vite-plugin-cesium-plus',
+    npm: 'vitepluginpluscesium',
   },
   stats: {
     stars: 0,

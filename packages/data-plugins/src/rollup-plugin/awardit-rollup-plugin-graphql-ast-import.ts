@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'graphql',
     'ast',
   ],
-  source: {
-    npm: '@awardit/rollup-plugin-graphql-ast-import',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@awardit/rollup-plugin-graphql-ast-import',
+  },
+  source: {
+    npm: '@awardit/rollup-plugin-graphql-ast-import',
   },
   stats: {
     stars: 0,

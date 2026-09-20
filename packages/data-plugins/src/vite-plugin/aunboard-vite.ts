@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'jsx',
     'data-attribute',
   ],
-  source: {
-    github: 'NikhilTirunagiri/aunboard',
-    npm: '@aunboard/vite',
-  },
   links: {
     github: 'https://github.com/NikhilTirunagiri/aunboard',
     npm: 'https://www.npmjs.com/package/@aunboard/vite',
     website: 'https://github.com/NikhilTirunagiri/aunboard#readme',
+  },
+  source: {
+    github: 'NikhilTirunagiri/aunboard',
+    npm: '@aunboard/vite',
   },
   stats: {
     stars: 2,

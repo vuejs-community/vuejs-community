@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'solid',
     'preact',
   ],
-  source: {
-    github: 'werty1001/vite-plugin-svg-symbols',
-    npm: 'vite-plugin-svg-symbols',
-  },
   links: {
     github: 'https://github.com/werty1001/vite-plugin-svg-symbols',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-symbols',
     website: 'https://github.com/werty1001/vite-plugin-svg-symbols',
+  },
+  source: {
+    github: 'werty1001/vite-plugin-svg-symbols',
+    npm: 'vite-plugin-svg-symbols',
   },
   stats: {
     stars: 4,

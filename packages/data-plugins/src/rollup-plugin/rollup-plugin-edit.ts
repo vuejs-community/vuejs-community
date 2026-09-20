@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'edit',
   ],
-  source: {
-    github: 'Arnesfield/rollup-plugin-edit',
-    npm: 'rollup-plugin-edit',
-  },
   links: {
     github: 'https://github.com/Arnesfield/rollup-plugin-edit',
     npm: 'https://www.npmjs.com/package/rollup-plugin-edit',
     website: 'https://github.com/Arnesfield/rollup-plugin-edit#readme',
+  },
+  source: {
+    github: 'Arnesfield/rollup-plugin-edit',
+    npm: 'rollup-plugin-edit',
   },
   stats: {
     stars: 1,

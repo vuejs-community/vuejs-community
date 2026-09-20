@@ -20,11 +20,11 @@ export default defineProjectMeta({
     'svelte',
     'vite',
   ],
-  source: {
-    npm: '@sigmaui-kit/unplugin-stylex',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@sigmaui-kit/unplugin-stylex',
+  },
+  source: {
+    npm: '@sigmaui-kit/unplugin-stylex',
   },
   stats: {
     stars: 0,

@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'whitespace',
     'minify',
   ],
-  source: {
-    github: 'SegaraRai/strip-whitespace',
-    npm: 'unplugin-strip-whitespace',
-  },
   links: {
     github: 'https://github.com/SegaraRai/strip-whitespace',
     npm: 'https://www.npmjs.com/package/unplugin-strip-whitespace',
     website: 'https://github.com/SegaraRai/strip-whitespace#readme',
+  },
+  source: {
+    github: 'SegaraRai/strip-whitespace',
+    npm: 'unplugin-strip-whitespace',
   },
   stats: {
     stars: 0,

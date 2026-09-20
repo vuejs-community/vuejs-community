@@ -12,12 +12,12 @@ export default defineProjectMeta({
     'rollup-plugin',
     'typescript',
   ],
-  source: {
-    npm: 'rollup-plugin-typescript-resolve',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-typescript-resolve',
     website: 'https://github.com/jacobmischka/rollup-plugin-typescript-resolve#readme',
+  },
+  source: {
+    npm: 'rollup-plugin-typescript-resolve',
   },
   stats: {
     stars: 0,

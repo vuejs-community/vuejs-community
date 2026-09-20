@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'nqdy666/vite-plugin-smart-restart',
-    npm: 'vite-plugin-smart-restart',
-  },
   links: {
     github: 'https://github.com/nqdy666/vite-plugin-smart-restart',
     npm: 'https://www.npmjs.com/package/vite-plugin-smart-restart',
     website: 'https://github.com/nqdy666/vite-plugin-smart-restart',
+  },
+  source: {
+    github: 'nqdy666/vite-plugin-smart-restart',
+    npm: 'vite-plugin-smart-restart',
   },
   stats: {
     stars: 0,

@@ -39,14 +39,14 @@ export default defineProjectMeta({
     'pagination',
     'aria',
   ],
-  source: {
-    github: 'dxtmisha/dxt-ui',
-    npm: '@dxtmisha/d1',
-  },
   links: {
     github: 'https://github.com/dxtmisha/dxt-ui',
     npm: 'https://www.npmjs.com/package/@dxtmisha/d1',
     website: 'https://github.com/dxtmisha/dxt-ui/tree/main/packages/d1',
+  },
+  source: {
+    github: 'dxtmisha/dxt-ui',
+    npm: '@dxtmisha/d1',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'nuxt',
     'transform',
   ],
-  source: {
-    github: 'so1ve/unplugin-vue-tsx-auto-props',
-    npm: 'unplugin-vue-tsx-auto-props',
-  },
   links: {
     github: 'https://github.com/so1ve/unplugin-vue-tsx-auto-props',
     npm: 'https://www.npmjs.com/package/unplugin-vue-tsx-auto-props',
     website: 'https://github.com/so1ve/unplugin-vue-tsx-auto-props#readme',
+  },
+  source: {
+    github: 'so1ve/unplugin-vue-tsx-auto-props',
+    npm: 'unplugin-vue-tsx-auto-props',
   },
   stats: {
     stars: 39,

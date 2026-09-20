@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'oxc',
     'rust',
   ],
-  source: {
-    github: 'rayinfinite/rolldown-plugin-external-globals',
-    npm: 'rolldown-plugin-external-globals',
-  },
   links: {
     github: 'https://github.com/rayinfinite/rolldown-plugin-external-globals',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-external-globals',
     website: 'https://github.com/rayinfinite/rolldown-plugin-external-globals#readme',
+  },
+  source: {
+    github: 'rayinfinite/rolldown-plugin-external-globals',
+    npm: 'rolldown-plugin-external-globals',
   },
   stats: {
     stars: 0,

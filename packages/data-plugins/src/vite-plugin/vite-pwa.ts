@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'vite-pwa-plugin',
     'vite-plugin-pwa',
   ],
-  source: {
-    github: 'NazmusSayad/vite-pwa',
-    npm: 'vite-pwa',
-  },
   links: {
     github: 'https://github.com/NazmusSayad/vite-pwa',
     npm: 'https://www.npmjs.com/package/vite-pwa',
     website: 'https://github.com/NazmusSayad/vite-pwa#readme',
+  },
+  source: {
+    github: 'NazmusSayad/vite-pwa',
+    npm: 'vite-pwa',
   },
   stats: {
     stars: 5,

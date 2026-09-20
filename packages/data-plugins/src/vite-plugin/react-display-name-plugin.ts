@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'typescript',
     'types',
   ],
-  source: {
-    github: 'mockingjay-io/react-display-name-plugin',
-    npm: 'react-display-name-plugin',
-  },
   links: {
     github: 'https://github.com/mockingjay-io/react-display-name-plugin',
     npm: 'https://www.npmjs.com/package/react-display-name-plugin',
     website: 'https://github.com/mockingjay-io/react-display-name-plugin#readme',
+  },
+  source: {
+    github: 'mockingjay-io/react-display-name-plugin',
+    npm: 'react-display-name-plugin',
   },
   stats: {
     stars: 0,

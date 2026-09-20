@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'vike',
     'tanstack-start',
   ],
-  source: {
-    npm: '@edgeone/vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@edgeone/vite',
+  },
+  source: {
+    npm: '@edgeone/vite',
   },
   stats: {
     stars: 0,

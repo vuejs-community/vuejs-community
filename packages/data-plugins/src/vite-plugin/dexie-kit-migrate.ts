@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'webpack-plugin',
   ],
-  source: {
-    github: 'abdussamadbello/dexie-kit-migrate',
-    npm: '@dexie-kit/migrate',
-  },
   links: {
     github: 'https://github.com/abdussamadbello/dexie-kit-migrate',
     npm: 'https://www.npmjs.com/package/@dexie-kit/migrate',
     website: 'https://github.com/abdussamadbello/dexie-kit-migrate#readme',
+  },
+  source: {
+    github: 'abdussamadbello/dexie-kit-migrate',
+    npm: '@dexie-kit/migrate',
   },
   stats: {
     stars: 1,

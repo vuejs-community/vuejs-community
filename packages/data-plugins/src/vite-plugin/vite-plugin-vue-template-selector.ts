@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'template',
     'template-selector',
   ],
-  source: {
-    github: 'tomheaton/vite-plugin-vue-template-selector',
-    npm: 'vite-plugin-vue-template-selector',
-  },
   links: {
     github: 'https://github.com/tomheaton/vite-plugin-vue-template-selector',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-template-selector',
     website: 'https://github.com/tomheaton/vite-plugin-vue-template-selector',
+  },
+  source: {
+    github: 'tomheaton/vite-plugin-vue-template-selector',
+    npm: 'vite-plugin-vue-template-selector',
   },
   stats: {
     stars: 3,

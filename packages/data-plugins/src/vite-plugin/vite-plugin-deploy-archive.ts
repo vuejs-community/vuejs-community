@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'ssh',
     'backup',
   ],
-  source: {
-    npm: 'vite-plugin-deploy-archive',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-deploy-archive',
+  },
+  source: {
+    npm: 'vite-plugin-deploy-archive',
   },
   stats: {
     stars: 0,

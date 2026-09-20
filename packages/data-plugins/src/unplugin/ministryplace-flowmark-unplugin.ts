@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'ministryplace/flowmark',
-    npm: '@ministryplace/flowmark-unplugin',
-  },
   links: {
     github: 'https://github.com/ministryplace/flowmark',
     npm: 'https://www.npmjs.com/package/@ministryplace/flowmark-unplugin',
     website: 'https://github.com/ministryplace/flowmark#readme',
+  },
+  source: {
+    github: 'ministryplace/flowmark',
+    npm: '@ministryplace/flowmark-unplugin',
   },
   stats: {
     stars: 0,

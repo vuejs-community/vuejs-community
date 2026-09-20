@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'apple-touch-icon',
     'maskable',
   ],
-  source: {
-    github: 'cpswsg/vite-plugin-favicon-pwa',
-    npm: 'vite-plugin-favicon-pwa',
-  },
   links: {
     github: 'https://github.com/cpswsg/vite-plugin-favicon-pwa',
     npm: 'https://www.npmjs.com/package/vite-plugin-favicon-pwa',
     website: 'https://github.com/cpswsg/vite-plugin-favicon-pwa#readme',
+  },
+  source: {
+    github: 'cpswsg/vite-plugin-favicon-pwa',
+    npm: 'vite-plugin-favicon-pwa',
   },
   stats: {
     stars: 1,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'javascript',
     'preprocessor',
   ],
-  source: {
-    github: 'edwardcoolson/rollup-plugin-include',
-    npm: 'rollup-plugin-include',
-  },
   links: {
     github: 'https://github.com/edwardcoolson/rollup-plugin-include',
     npm: 'https://www.npmjs.com/package/rollup-plugin-include',
     website: 'https://github.com/edwardcoolson/rollup-plugin-include',
+  },
+  source: {
+    github: 'edwardcoolson/rollup-plugin-include',
+    npm: 'rollup-plugin-include',
   },
   stats: {
     stars: 0,

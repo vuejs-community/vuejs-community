@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'jsx',
     'tsx',
   ],
-  source: {
-    npm: 'vite-plugin-estrela',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-estrela',
+  },
+  source: {
+    npm: 'vite-plugin-estrela',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'unplugin-hot-export',
   ],
-  source: {
-    github: 'sudongyuer/unplugin-hot-export',
-    npm: 'unplugin-hot-export',
-  },
   links: {
     github: 'https://github.com/sudongyuer/unplugin-hot-export',
     npm: 'https://www.npmjs.com/package/unplugin-hot-export',
     website: 'https://github.com/sudongyuer/unplugin-hot-export#readme',
+  },
+  source: {
+    github: 'sudongyuer/unplugin-hot-export',
+    npm: 'unplugin-hot-export',
   },
   stats: {
     stars: 2,

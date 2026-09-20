@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'svelte',
     'webpack',
   ],
-  source: {
-    github: 'pikax/verter',
-    npm: '@verter/unplugin',
-  },
   links: {
     github: 'https://github.com/pikax/verter',
     npm: 'https://www.npmjs.com/package/@verter/unplugin',
     website: 'https://verterjs.dev/',
+  },
+  source: {
+    github: 'pikax/verter',
+    npm: '@verter/unplugin',
   },
   stats: {
     stars: 109,

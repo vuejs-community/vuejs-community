@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'typescript',
     'runtime',
   ],
-  source: {
-    github: 'rttist/rttist',
-    npm: 'vite-plugin-rttist',
-  },
   links: {
     github: 'https://github.com/rttist/rttist',
     npm: 'https://www.npmjs.com/package/vite-plugin-rttist',
     website: 'https://rttist.org',
+  },
+  source: {
+    github: 'rttist/rttist',
+    npm: 'vite-plugin-rttist',
   },
   stats: {
     stars: 34,

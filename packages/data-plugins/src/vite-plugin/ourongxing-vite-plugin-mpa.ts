@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'mpa',
     'html',
   ],
-  source: {
-    github: 'ourongxing/vite-plugin-mpa',
-    npm: '@ourongxing/vite-plugin-mpa',
-  },
   links: {
     github: 'https://github.com/ourongxing/vite-plugin-mpa',
     npm: 'https://www.npmjs.com/package/@ourongxing/vite-plugin-mpa',
     website: 'https://github.com/ourongxing/vite-plugin-mpa#readme',
+  },
+  source: {
+    github: 'ourongxing/vite-plugin-mpa',
+    npm: '@ourongxing/vite-plugin-mpa',
   },
   stats: {
     stars: 0,

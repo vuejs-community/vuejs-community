@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'devtools',
     'ng-annotate',
   ],
-  source: {
-    github: 'yngvebn/ngagentify',
-    npm: '@ng-annotate/vite-plugin',
-  },
   links: {
     github: 'https://github.com/yngvebn/ngagentify',
     npm: 'https://www.npmjs.com/package/@ng-annotate/vite-plugin',
     website: 'https://github.com/yngvebn/ngagentify#readme',
+  },
+  source: {
+    github: 'yngvebn/ngagentify',
+    npm: '@ng-annotate/vite-plugin',
   },
   stats: {
     stars: 0,

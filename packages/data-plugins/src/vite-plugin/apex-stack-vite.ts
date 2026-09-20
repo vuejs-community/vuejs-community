@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'apex',
     'apexjs',
   ],
-  source: {
-    github: 'andrecorugda/apexjs',
-    npm: '@apex-stack/vite',
-  },
   links: {
     github: 'https://github.com/andrecorugda/apexjs',
     npm: 'https://www.npmjs.com/package/@apex-stack/vite',
     website: 'https://apexjs.site',
+  },
+  source: {
+    github: 'andrecorugda/apexjs',
+    npm: '@apex-stack/vite',
   },
   stats: {
     stars: 3,

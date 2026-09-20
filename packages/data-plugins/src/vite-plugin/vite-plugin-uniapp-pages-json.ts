@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite-plugin-uniapp-pages',
     'vite-plugin-uniapp-pages-json',
   ],
-  source: {
-    npm: 'vite-plugin-uniapp-pages-json',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-uniapp-pages-json',
+  },
+  source: {
+    npm: 'vite-plugin-uniapp-pages-json',
   },
   stats: {
     stars: 0,

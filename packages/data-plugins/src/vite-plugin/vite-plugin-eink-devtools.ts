@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'eink',
     'devtools',
   ],
-  source: {
-    github: 'ypetremann/vite-plugin-eink-devtools',
-    npm: 'vite-plugin-eink-devtools',
-  },
   links: {
     github: 'https://github.com/ypetremann/vite-plugin-eink-devtools',
     npm: 'https://www.npmjs.com/package/vite-plugin-eink-devtools',
     website: 'https://github.com/ypetremann/vite-plugin-eink-devtools',
+  },
+  source: {
+    github: 'ypetremann/vite-plugin-eink-devtools',
+    npm: 'vite-plugin-eink-devtools',
   },
   stats: {
     stars: 0,

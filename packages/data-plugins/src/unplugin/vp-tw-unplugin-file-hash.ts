@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'file-hash',
     'deterministic',
   ],
-  source: {
-    github: 'vp-tw/unplugin-file-hash',
-    npm: '@vp-tw/unplugin-file-hash',
-  },
   links: {
     github: 'https://github.com/vp-tw/unplugin-file-hash',
     npm: 'https://www.npmjs.com/package/@vp-tw/unplugin-file-hash',
     website: 'https://github.com/vp-tw/unplugin-file-hash#readme',
+  },
+  source: {
+    github: 'vp-tw/unplugin-file-hash',
+    npm: '@vp-tw/unplugin-file-hash',
   },
   stats: {
     stars: 2,

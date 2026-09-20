@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'development',
     'dev-only',
   ],
-  source: {
-    github: 'ThilinaTLM/vite-plugin-oidc-auth',
-    npm: 'vite-plugin-oidc-auth',
-  },
   links: {
     github: 'https://github.com/ThilinaTLM/vite-plugin-oidc-auth',
     npm: 'https://www.npmjs.com/package/vite-plugin-oidc-auth',
     website: 'https://github.com/ThilinaTLM/vite-plugin-oidc-auth#readme',
+  },
+  source: {
+    github: 'ThilinaTLM/vite-plugin-oidc-auth',
+    npm: 'vite-plugin-oidc-auth',
   },
   stats: {
     stars: 6,

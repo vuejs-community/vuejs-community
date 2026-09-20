@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'hackycy/vite-plugin-extra-app-config',
-    npm: 'vite-plugin-extra-app-config',
-  },
   links: {
     github: 'https://github.com/hackycy/vite-plugin-extra-app-config',
     npm: 'https://www.npmjs.com/package/vite-plugin-extra-app-config',
     website: 'https://github.com/hackycy/vite-plugin-extra-app-config#readme',
+  },
+  source: {
+    github: 'hackycy/vite-plugin-extra-app-config',
+    npm: 'vite-plugin-extra-app-config',
   },
   stats: {
     stars: 2,

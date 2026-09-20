@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'yulin96/vite-plugin-organize-resource',
-    npm: 'vite-plugin-organize-resource',
-  },
   links: {
     github: 'https://github.com/yulin96/vite-plugin-organize-resource',
     npm: 'https://www.npmjs.com/package/vite-plugin-organize-resource',
     website: 'https://github.com/yulin96/vite-plugin-organize-resource',
+  },
+  source: {
+    github: 'yulin96/vite-plugin-organize-resource',
+    npm: 'vite-plugin-organize-resource',
   },
   stats: {
     stars: 0,

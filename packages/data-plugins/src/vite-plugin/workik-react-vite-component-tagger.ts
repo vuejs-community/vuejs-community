@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'component-tagger',
   ],
-  source: {
-    npm: '@workik/react-vite-component-tagger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@workik/react-vite-component-tagger',
+  },
+  source: {
+    npm: '@workik/react-vite-component-tagger',
   },
   stats: {
     stars: 0,

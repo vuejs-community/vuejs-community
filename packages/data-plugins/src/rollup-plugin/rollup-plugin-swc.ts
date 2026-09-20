@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'modules',
     'rollup-plugin',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-swc',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-swc',
     website: 'https://github.com/rollup/plugins/tree/master/packages/swc#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-swc',
   },
   stats: {
     stars: 0,

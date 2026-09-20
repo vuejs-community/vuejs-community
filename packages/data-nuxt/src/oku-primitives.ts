@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://primitives.oku-ui.com',
   },
   source: {
-    github: 'oku-ui/primitives#main/packages/core',
+    github: 'oku-ui/primitives',
     npm: '@oku-ui/primitives',
   },
 })

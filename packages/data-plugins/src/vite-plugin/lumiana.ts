@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'lumiana',
   ],
-  source: {
-    npm: 'lumiana',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/lumiana',
+  },
+  source: {
+    npm: 'lumiana',
   },
   stats: {
     stars: 0,

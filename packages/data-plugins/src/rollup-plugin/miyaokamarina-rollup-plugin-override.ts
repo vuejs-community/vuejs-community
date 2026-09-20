@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'replace',
     'define',
   ],
-  source: {
-    github: 'miyaokamarina/rollup-plugin-override',
-    npm: '@miyaokamarina/rollup-plugin-override',
-  },
   links: {
     github: 'https://github.com/miyaokamarina/rollup-plugin-override',
     npm: 'https://www.npmjs.com/package/@miyaokamarina/rollup-plugin-override',
+  },
+  source: {
+    github: 'miyaokamarina/rollup-plugin-override',
+    npm: '@miyaokamarina/rollup-plugin-override',
   },
   stats: {
     stars: 0,

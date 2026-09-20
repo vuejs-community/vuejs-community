@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'resolve',
     'alias',
   ],
-  source: {
-    github: 'adriantoine/rollup-plugin-strict-alias',
-    npm: 'rollup-plugin-strict-alias',
-  },
   links: {
     github: 'https://github.com/adriantoine/rollup-plugin-strict-alias',
     npm: 'https://www.npmjs.com/package/rollup-plugin-strict-alias',
     website: 'https://github.com/adriantoine/rollup-plugin-strict-alias#readme',
+  },
+  source: {
+    github: 'adriantoine/rollup-plugin-strict-alias',
+    npm: 'rollup-plugin-strict-alias',
   },
   stats: {
     stars: 0,

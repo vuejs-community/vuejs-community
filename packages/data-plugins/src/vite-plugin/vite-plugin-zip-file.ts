@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'zip',
     'compress',
   ],
-  source: {
-    github: 'Ssis53/vite-plugin-zip',
-    npm: 'vite-plugin-zip-file',
-  },
   links: {
     github: 'https://github.com/Ssis53/vite-plugin-zip',
     npm: 'https://www.npmjs.com/package/vite-plugin-zip-file',
     website: 'https://github.com/Ssis53/vite-plugin-zip#readme',
+  },
+  source: {
+    github: 'Ssis53/vite-plugin-zip',
+    npm: 'vite-plugin-zip-file',
   },
   stats: {
     stars: 21,

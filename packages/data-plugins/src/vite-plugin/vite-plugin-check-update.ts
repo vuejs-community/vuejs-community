@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    npm: 'vite-plugin-check-update',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-check-update',
+  },
+  source: {
+    npm: 'vite-plugin-check-update',
   },
   stats: {
     stars: 0,

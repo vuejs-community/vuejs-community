@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'ruby2js/ruby2js',
-    npm: '@ruby2js/vite-plugin',
-  },
   links: {
     github: 'https://github.com/ruby2js/ruby2js',
     npm: 'https://www.npmjs.com/package/@ruby2js/vite-plugin',
     website: 'https://github.com/ruby2js/ruby2js/tree/master/packages/rollup-plugin#readme',
+  },
+  source: {
+    github: 'ruby2js/ruby2js',
+    npm: '@ruby2js/vite-plugin',
   },
   stats: {
     stars: 491,

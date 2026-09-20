@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'decoco-plugin',
   ],
-  source: {
-    npm: '@decoco/rollup-plugin-macros',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@decoco/rollup-plugin-macros',
+  },
+  source: {
+    npm: '@decoco/rollup-plugin-macros',
   },
   stats: {
     stars: 0,

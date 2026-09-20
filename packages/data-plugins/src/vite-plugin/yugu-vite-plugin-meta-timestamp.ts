@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'meta',
     'timestamp',
   ],
-  source: {
-    npm: '@yugu/vite-plugin-meta-timestamp',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@yugu/vite-plugin-meta-timestamp',
+  },
+  source: {
+    npm: '@yugu/vite-plugin-meta-timestamp',
   },
   stats: {
     stars: 0,

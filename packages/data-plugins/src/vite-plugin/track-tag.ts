@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'analytics',
     'tracking',
   ],
-  source: {
-    npm: 'track-tag',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/track-tag',
+  },
+  source: {
+    npm: 'track-tag',
   },
   stats: {
     stars: 0,

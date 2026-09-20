@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'sope/sope',
-    npm: 'unplugin-vjit',
-  },
   links: {
     github: 'https://github.com/sope/sope',
     npm: 'https://www.npmjs.com/package/unplugin-vjit',
+  },
+  source: {
+    github: 'sope/sope',
+    npm: 'unplugin-vjit',
   },
   stats: {
     stars: 0,

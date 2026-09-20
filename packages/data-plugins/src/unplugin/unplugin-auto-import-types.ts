@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'Cheng-DX/unplugin-test',
-    npm: 'unplugin-auto-import-types',
-  },
   links: {
     github: 'https://github.com/Cheng-DX/unplugin-test',
     npm: 'https://www.npmjs.com/package/unplugin-auto-import-types',
     website: 'https://github.com/Cheng-DX/unplugin-test#readme',
+  },
+  source: {
+    github: 'Cheng-DX/unplugin-test',
+    npm: 'unplugin-auto-import-types',
   },
   stats: {
     stars: 0,

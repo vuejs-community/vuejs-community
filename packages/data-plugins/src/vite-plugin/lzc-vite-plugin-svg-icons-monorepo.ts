@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'svgo',
     'vben',
   ],
-  source: {
-    github: 'anncwb/vite-plugin-svg-icons',
-    npm: 'lzc-vite-plugin-svg-icons-monorepo',
-  },
   links: {
     github: 'https://github.com/anncwb/vite-plugin-svg-icons',
     npm: 'https://www.npmjs.com/package/lzc-vite-plugin-svg-icons-monorepo',
     website: 'https://github.com/anncwb/vite-plugin-svg-icons/tree/master/#readme',
+  },
+  source: {
+    github: 'anncwb/vite-plugin-svg-icons',
+    npm: 'lzc-vite-plugin-svg-icons-monorepo',
   },
   stats: {
     stars: 0,

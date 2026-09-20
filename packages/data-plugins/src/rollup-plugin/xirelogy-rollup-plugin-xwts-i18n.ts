@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'xwts',
     'xwts-i18n',
   ],
-  source: {
-    github: 'xirelogy/rollup-plugin-xwts-i18n',
-    npm: '@xirelogy/rollup-plugin-xwts-i18n',
-  },
   links: {
     github: 'https://github.com/xirelogy/rollup-plugin-xwts-i18n',
     npm: 'https://www.npmjs.com/package/@xirelogy/rollup-plugin-xwts-i18n',
     website: 'https://github.com/xirelogy/rollup-plugin-xwts-i18n#readme',
+  },
+  source: {
+    github: 'xirelogy/rollup-plugin-xwts-i18n',
+    npm: '@xirelogy/rollup-plugin-xwts-i18n',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'require.context',
     'lerna',
   ],
-  source: {
-    github: 'kanfashidoufu/vite-plugin-require-context-lerna',
-    npm: 'vite-plugin-require-context-lerna',
-  },
   links: {
     github: 'https://github.com/kanfashidoufu/vite-plugin-require-context-lerna',
     npm: 'https://www.npmjs.com/package/vite-plugin-require-context-lerna',
     website: 'https://github.com/kanfashidoufu/vite-plugin-require-context-lerna#readme',
+  },
+  source: {
+    github: 'kanfashidoufu/vite-plugin-require-context-lerna',
+    npm: 'vite-plugin-require-context-lerna',
   },
   stats: {
     stars: 1,

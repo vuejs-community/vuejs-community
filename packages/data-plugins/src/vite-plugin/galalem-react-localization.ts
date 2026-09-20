@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'galalem/react',
-    npm: '@galalem/react-localization',
-  },
   links: {
     github: 'https://github.com/galalem/react',
     npm: 'https://www.npmjs.com/package/@galalem/react-localization',
     website: 'https://github.com/galalem/react/tree/main/@galalem/react-localization#readme',
+  },
+  source: {
+    github: 'galalem/react',
+    npm: '@galalem/react-localization',
   },
   stats: {
     stars: 0,

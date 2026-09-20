@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'licenses',
     'third-party',
   ],
-  source: {
-    npm: 'rolldown-license-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rolldown-license-plugin',
     website: 'https://github.com/silverwind/rolldown-license-plugin#readme',
+  },
+  source: {
+    npm: 'rolldown-license-plugin',
   },
   stats: {
     stars: 0,

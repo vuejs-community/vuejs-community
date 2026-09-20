@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'thedevdojo/create-alpine-app-vite-plugin',
-    npm: 'create-alpine-app-vite-plugin',
-  },
   links: {
     github: 'https://github.com/thedevdojo/create-alpine-app-vite-plugin',
     npm: 'https://www.npmjs.com/package/create-alpine-app-vite-plugin',
     website: 'https://github.com/thedevdojo/create-alpine-app-vite-plugin',
+  },
+  source: {
+    github: 'thedevdojo/create-alpine-app-vite-plugin',
+    npm: 'create-alpine-app-vite-plugin',
   },
   stats: {
     stars: 0,

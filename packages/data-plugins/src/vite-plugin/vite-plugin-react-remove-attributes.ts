@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'react-remove-attributes',
   ],
-  source: {
-    github: 'l-mbert/vite-plugin-react-remove-attributes',
-    npm: 'vite-plugin-react-remove-attributes',
-  },
   links: {
     github: 'https://github.com/l-mbert/vite-plugin-react-remove-attributes',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-remove-attributes',
     website: 'https://github.com/l-mbert/vite-plugin-react-remove-attributes/tree/main/#readme',
+  },
+  source: {
+    github: 'l-mbert/vite-plugin-react-remove-attributes',
+    npm: 'vite-plugin-react-remove-attributes',
   },
   stats: {
     stars: 21,

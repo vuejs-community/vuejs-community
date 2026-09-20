@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plus',
   ],
-  source: {
-    github: 'GGGLHHH/vite-plugin-openapi-codegen',
-    npm: 'vite-plugin-openapi-codegen',
-  },
   links: {
     github: 'https://github.com/GGGLHHH/vite-plugin-openapi-codegen',
     npm: 'https://www.npmjs.com/package/vite-plugin-openapi-codegen',
     website: 'https://github.com/GGGLHHH/vite-plugin-openapi-codegen#readme',
+  },
+  source: {
+    github: 'GGGLHHH/vite-plugin-openapi-codegen',
+    npm: 'vite-plugin-openapi-codegen',
   },
   stats: {
     stars: 1,

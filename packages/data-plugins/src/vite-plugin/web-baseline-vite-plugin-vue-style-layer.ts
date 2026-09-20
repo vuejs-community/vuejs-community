@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'css',
     'css layer',
   ],
-  source: {
-    github: 'web-baseline/vite-plugin-vue-style-layer',
-    npm: '@web-baseline/vite-plugin-vue-style-layer',
-  },
   links: {
     github: 'https://github.com/web-baseline/vite-plugin-vue-style-layer',
     npm: 'https://www.npmjs.com/package/@web-baseline/vite-plugin-vue-style-layer',
     website: 'https://github.com/web-baseline/vite-plugin-vue-style-layer#readme',
+  },
+  source: {
+    github: 'web-baseline/vite-plugin-vue-style-layer',
+    npm: '@web-baseline/vite-plugin-vue-style-layer',
   },
   stats: {
     stars: 0,

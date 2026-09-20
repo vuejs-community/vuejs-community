@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'file-based-routing',
     'react-router',
   ],
-  source: {
-    github: 'sontie/vite-plugin-tsr-next',
-    npm: 'vite-plugin-tsr-next',
-  },
   links: {
     github: 'https://github.com/sontie/vite-plugin-tsr-next',
     npm: 'https://www.npmjs.com/package/vite-plugin-tsr-next',
     website: 'https://github.com/sontie/vite-plugin-tsr-next#readme',
+  },
+  source: {
+    github: 'sontie/vite-plugin-tsr-next',
+    npm: 'vite-plugin-tsr-next',
   },
   stats: {
     stars: 0,

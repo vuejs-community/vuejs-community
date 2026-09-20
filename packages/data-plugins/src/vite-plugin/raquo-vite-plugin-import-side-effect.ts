@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'scala',
     'scala-js',
   ],
-  source: {
-    github: 'raquo/vite-plugin-import-side-effect',
-    npm: '@raquo/vite-plugin-import-side-effect',
-  },
   links: {
     github: 'https://github.com/raquo/vite-plugin-import-side-effect',
     npm: 'https://www.npmjs.com/package/@raquo/vite-plugin-import-side-effect',
     website: 'https://github.com/raquo/vite-plugin-side-effect',
+  },
+  source: {
+    github: 'raquo/vite-plugin-import-side-effect',
+    npm: '@raquo/vite-plugin-import-side-effect',
   },
   stats: {
     stars: 3,

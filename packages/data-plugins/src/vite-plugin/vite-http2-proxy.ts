@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'http2',
   ],
-  source: {
-    github: 'BanShan-Alec/vite-plugin-http2Proxy',
-    npm: 'vite-http2-proxy',
-  },
   links: {
     github: 'https://github.com/BanShan-Alec/vite-plugin-http2Proxy',
     npm: 'https://www.npmjs.com/package/vite-http2-proxy',
     website: 'https://github.com/BanShan-Alec/vite-plugin-http2Proxy#readme',
+  },
+  source: {
+    github: 'BanShan-Alec/vite-plugin-http2Proxy',
+    npm: 'vite-http2-proxy',
   },
   stats: {
     stars: 1,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'gutenberg',
     '10up',
   ],
-  source: {
-    github: '10up/wp-vite-plugins',
-    npm: '@10up/wp-vite-plugins',
-  },
   links: {
     github: 'https://github.com/10up/wp-vite-plugins',
     npm: 'https://www.npmjs.com/package/@10up/wp-vite-plugins',
     website: 'https://github.com/10up/wp-vite-plugins#readme',
+  },
+  source: {
+    github: '10up/wp-vite-plugins',
+    npm: '@10up/wp-vite-plugins',
   },
   stats: {
     stars: 0,

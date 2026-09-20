@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'unplugin',
     'unplugin-compress-image',
   ],
-  source: {
-    github: 'pzehrel/compress-image-tinypng-web',
-    npm: 'compress-image-tinypng-web',
-  },
   links: {
     github: 'https://github.com/pzehrel/compress-image-tinypng-web',
     npm: 'https://www.npmjs.com/package/compress-image-tinypng-web',
     website: 'https://github.com/pzehrel/compress-image-tinypng-web#readme',
+  },
+  source: {
+    github: 'pzehrel/compress-image-tinypng-web',
+    npm: 'compress-image-tinypng-web',
   },
   stats: {
     stars: 0,

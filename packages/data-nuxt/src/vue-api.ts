@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://vue-api.dewib.com/',
   },
   source: {
-    github: 'gaetansenn/vue-api#main/packages/nuxt',
+    github: 'gaetansenn/vue-api',
     npm: '@vue-api/nuxt',
   },
 })

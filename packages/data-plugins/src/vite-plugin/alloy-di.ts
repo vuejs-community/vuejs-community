@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'webpack',
   ],
-  source: {
-    github: 'ciddan/alloy-di',
-    npm: 'alloy-di',
-  },
   links: {
     github: 'https://github.com/ciddan/alloy-di',
     npm: 'https://www.npmjs.com/package/alloy-di',
     website: 'https://alloy-di.dev',
+  },
+  source: {
+    github: 'ciddan/alloy-di',
+    npm: 'alloy-di',
   },
   stats: {
     stars: 0,

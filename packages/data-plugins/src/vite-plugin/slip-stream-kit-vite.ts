@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'proxy',
     'monorepo',
   ],
-  source: {
-    npm: '@slip-stream-kit/vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@slip-stream-kit/vite',
+  },
+  source: {
+    npm: '@slip-stream-kit/vite',
   },
   stats: {
     stars: 0,

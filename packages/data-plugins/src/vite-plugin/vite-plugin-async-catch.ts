@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'async function',
     'try catch',
   ],
-  source: {
-    github: 'WJCHumble/vite-plugin-async-catch',
-    npm: 'vite-plugin-async-catch',
-  },
   links: {
     github: 'https://github.com/WJCHumble/vite-plugin-async-catch',
     npm: 'https://www.npmjs.com/package/vite-plugin-async-catch',
     website: 'https://github.com/WJCHumble/vite-plugin-async-catch',
+  },
+  source: {
+    github: 'WJCHumble/vite-plugin-async-catch',
+    npm: 'vite-plugin-async-catch',
   },
   stats: {
     stars: 12,

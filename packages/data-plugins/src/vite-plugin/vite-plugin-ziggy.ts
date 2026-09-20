@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'ziggy',
   ],
-  source: {
-    npm: 'vite-plugin-ziggy',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-ziggy',
+  },
+  source: {
+    npm: 'vite-plugin-ziggy',
   },
   stats: {
     stars: 0,

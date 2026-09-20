@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'bundler',
     'rollup-plugin',
   ],
-  source: {
-    github: 'tivac/rollup-plugin-sizes',
-    npm: 'rollup-plugin-sizes',
-  },
   links: {
     github: 'https://github.com/tivac/rollup-plugin-sizes',
     npm: 'https://www.npmjs.com/package/rollup-plugin-sizes',
     website: 'https://github.com/tivac/rollup-plugin-sizes#readme',
+  },
+  source: {
+    github: 'tivac/rollup-plugin-sizes',
+    npm: 'rollup-plugin-sizes',
   },
   stats: {
     stars: 90,

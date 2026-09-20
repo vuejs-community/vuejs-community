@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'jsx',
   ],
-  source: {
-    github: 'volynetstyle/Reflex',
-    npm: '@volynets/reflex-vite-plugin',
-  },
   links: {
     github: 'https://github.com/volynetstyle/Reflex',
     npm: 'https://www.npmjs.com/package/@volynets/reflex-vite-plugin',
     website: 'https://github.com/volynetstyle/Reflex/tree/main/plugins/@vite/reflex-vite-plugin#readme',
+  },
+  source: {
+    github: 'volynetstyle/Reflex',
+    npm: '@volynets/reflex-vite-plugin',
   },
   stats: {
     stars: 2,

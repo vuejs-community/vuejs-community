@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'antfu/unplugin-starter',
-    npm: 'vite-plugin-swagger-typescript-api-transform',
-  },
   links: {
     github: 'https://github.com/antfu/unplugin-starter',
     npm: 'https://www.npmjs.com/package/vite-plugin-swagger-typescript-api-transform',
     website: 'https://github.com/antfu/unplugin-starter#readme',
+  },
+  source: {
+    github: 'antfu/unplugin-starter',
+    npm: 'vite-plugin-swagger-typescript-api-transform',
   },
   stats: {
     stars: 176,

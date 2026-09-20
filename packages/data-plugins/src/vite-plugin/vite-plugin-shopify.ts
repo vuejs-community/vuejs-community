@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'shopify',
     'vite-plugin',
   ],
-  source: {
-    github: 'barrel/shopify-vite',
-    npm: 'vite-plugin-shopify',
-  },
   links: {
     github: 'https://github.com/barrel/shopify-vite',
     npm: 'https://www.npmjs.com/package/vite-plugin-shopify',
     website: 'https://github.com/barrel/shopify-vite#readme',
+  },
+  source: {
+    github: 'barrel/shopify-vite',
+    npm: 'vite-plugin-shopify',
   },
   stats: {
     stars: 0,

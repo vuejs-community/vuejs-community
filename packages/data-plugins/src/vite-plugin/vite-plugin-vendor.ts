@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vendor',
   ],
-  source: {
-    github: 'bent10/vite-plugins',
-    npm: 'vite-plugin-vendor',
-  },
   links: {
     github: 'https://github.com/bent10/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-vendor',
     website: 'https://github.com/bent10/vite-plugins/tree/main/packages/plugin-vendor',
+  },
+  source: {
+    github: 'bent10/vite-plugins',
+    npm: 'vite-plugin-vendor',
   },
   stats: {
     stars: 0,

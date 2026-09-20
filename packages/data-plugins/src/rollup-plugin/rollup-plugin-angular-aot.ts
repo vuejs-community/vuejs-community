@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'inliner',
     'rollup-plugin',
   ],
-  source: {
-    github: 'cankayacan/rollup-plugin-angular',
-    npm: 'rollup-plugin-angular-aot',
-  },
   links: {
     github: 'https://github.com/cankayacan/rollup-plugin-angular',
     npm: 'https://www.npmjs.com/package/rollup-plugin-angular-aot',
     website: 'https://github.com/cankayacan/rollup-plugin-angular#readme',
+  },
+  source: {
+    github: 'cankayacan/rollup-plugin-angular',
+    npm: 'rollup-plugin-angular-aot',
   },
   stats: {
     stars: 1,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'setup-component',
     'unplugin',
   ],
-  source: {
-    github: 'vue-macros/vue-macros',
-    npm: '@vue-macros/setup-component',
-  },
   links: {
     github: 'https://github.com/vue-macros/vue-macros',
     npm: 'https://www.npmjs.com/package/@vue-macros/setup-component',
     website: 'https://vue-macros.dev',
+  },
+  source: {
+    github: 'vue-macros/vue-macros',
+    npm: '@vue-macros/setup-component',
   },
   stats: {
     stars: 0,

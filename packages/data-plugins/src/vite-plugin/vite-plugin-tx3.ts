@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'blockchain',
     'cardano',
   ],
-  source: {
-    github: 'txpipe/tx3',
-    npm: 'vite-plugin-tx3',
-  },
   links: {
     github: 'https://github.com/txpipe/tx3',
     npm: 'https://www.npmjs.com/package/vite-plugin-tx3',
     website: 'https://github.com/txpipe/tx3#readme',
+  },
+  source: {
+    github: 'txpipe/tx3',
+    npm: 'vite-plugin-tx3',
   },
   stats: {
     stars: 69,

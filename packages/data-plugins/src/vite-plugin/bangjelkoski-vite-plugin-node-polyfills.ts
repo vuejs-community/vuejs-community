@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'voracious/vite-plugin-node-polyfills',
-    npm: '@bangjelkoski/vite-plugin-node-polyfills',
-  },
   links: {
     github: 'https://github.com/voracious/vite-plugin-node-polyfills',
     npm: 'https://www.npmjs.com/package/@bangjelkoski/vite-plugin-node-polyfills',
     website: 'https://github.com/voracious/vite-plugin-node-polyfills',
+  },
+  source: {
+    github: 'voracious/vite-plugin-node-polyfills',
+    npm: '@bangjelkoski/vite-plugin-node-polyfills',
   },
   stats: {
     stars: 424,

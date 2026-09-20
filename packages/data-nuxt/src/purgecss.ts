@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/Developmint/nuxt-purgecss',
   },
   source: {
-    github: 'Developmint/nuxt-purgecss#main',
+    github: 'Developmint/nuxt-purgecss',
     npm: 'nuxt-purgecss',
   },
 })

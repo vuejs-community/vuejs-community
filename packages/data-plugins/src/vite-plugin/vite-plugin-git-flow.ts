@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'console',
     'pipeline',
   ],
-  source: {
-    npm: 'vite-plugin-git-flow',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-git-flow',
+  },
+  source: {
+    npm: 'vite-plugin-git-flow',
   },
   stats: {
     stars: 0,

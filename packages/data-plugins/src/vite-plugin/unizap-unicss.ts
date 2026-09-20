@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'postcss',
     'vite-plugin',
   ],
-  source: {
-    github: 'unizap-git/unicss',
-    npm: '@unizap/unicss',
-  },
   links: {
     github: 'https://github.com/unizap-git/unicss',
     npm: 'https://www.npmjs.com/package/@unizap/unicss',
     website: 'https://unicss-docs.onrender.com',
+  },
+  source: {
+    github: 'unizap-git/unicss',
+    npm: '@unizap/unicss',
   },
   stats: {
     stars: 0,

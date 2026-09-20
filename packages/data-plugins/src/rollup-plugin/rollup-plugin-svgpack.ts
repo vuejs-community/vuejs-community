@@ -19,11 +19,11 @@ export default defineProjectMeta({
     'frontend',
     'performance',
   ],
-  source: {
-    npm: 'rollup-plugin-svgpack',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-svgpack',
+  },
+  source: {
+    npm: 'rollup-plugin-svgpack',
   },
   stats: {
     stars: 0,

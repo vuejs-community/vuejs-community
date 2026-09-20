@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'farm',
     'bun',
   ],
-  source: {
-    github: 'kazupon/vrowzer',
-    npm: '@vrowzer/unplugin-service-worker',
-  },
   links: {
     github: 'https://github.com/kazupon/vrowzer',
     npm: 'https://www.npmjs.com/package/@vrowzer/unplugin-service-worker',
     website: 'https://github.com/kazupon/vrowzer/tree/main/packages/unplugin-service-worker#readme',
+  },
+  source: {
+    github: 'kazupon/vrowzer',
+    npm: '@vrowzer/unplugin-service-worker',
   },
   stats: {
     stars: 12,

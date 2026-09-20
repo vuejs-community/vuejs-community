@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'inliner',
     'rollup-plugin',
   ],
-  source: {
-    github: 'z-jingqi/rollup-plugin-angular',
-    npm: 'rollup-coeus-angular-modules',
-  },
   links: {
     github: 'https://github.com/z-jingqi/rollup-plugin-angular',
     npm: 'https://www.npmjs.com/package/rollup-coeus-angular-modules',
     website: 'https://github.com/z-jingqi/rollup-plugin-angular#readme',
+  },
+  source: {
+    github: 'z-jingqi/rollup-plugin-angular',
+    npm: 'rollup-coeus-angular-modules',
   },
   stats: {
     stars: 0,

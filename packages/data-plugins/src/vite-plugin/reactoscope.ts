@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'stress-test',
     'reactoscope',
   ],
-  source: {
-    github: 'BAJ-/reactoscope',
-    npm: 'reactoscope',
-  },
   links: {
     github: 'https://github.com/BAJ-/reactoscope',
     npm: 'https://www.npmjs.com/package/reactoscope',
     website: 'https://github.com/BAJ-/reactoscope#readme',
+  },
+  source: {
+    github: 'BAJ-/reactoscope',
+    npm: 'reactoscope',
   },
   stats: {
     stars: 0,

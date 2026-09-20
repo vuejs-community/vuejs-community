@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'svelte',
   ],
-  source: {
-    github: 'StarLederer/vite-plugin-content',
-    npm: '@vite-cms/content',
-  },
   links: {
     github: 'https://github.com/StarLederer/vite-plugin-content',
     npm: 'https://www.npmjs.com/package/@vite-cms/content',
     website: 'https://github.com/StarLederer/vite-plugin-content#readme',
+  },
+  source: {
+    github: 'StarLederer/vite-plugin-content',
+    npm: '@vite-cms/content',
   },
   stats: {
     stars: 0,

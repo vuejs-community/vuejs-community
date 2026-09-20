@@ -27,14 +27,14 @@ export default defineProjectMeta({
     '云函数',
     'uni-helper',
   ],
-  source: {
-    github: 'JsonLee12138/vite-plugin-uni-cloudfunctions',
-    npm: 'vite-plugin-uni-cloudfunctions',
-  },
   links: {
     github: 'https://github.com/JsonLee12138/vite-plugin-uni-cloudfunctions',
     npm: 'https://www.npmjs.com/package/vite-plugin-uni-cloudfunctions',
     website: 'https://github.com/JsonLee12138/vite-plugin-uni-cloudfunctions#readme',
+  },
+  source: {
+    github: 'JsonLee12138/vite-plugin-uni-cloudfunctions',
+    npm: 'vite-plugin-uni-cloudfunctions',
   },
   stats: {
     stars: 2,

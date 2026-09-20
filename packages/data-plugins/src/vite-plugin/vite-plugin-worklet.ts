@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'worklet',
     'typescript',
   ],
-  source: {
-    npm: 'vite-plugin-worklet',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-worklet',
+  },
+  source: {
+    npm: 'vite-plugin-worklet',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'solid',
     'solidjs',
   ],
-  source: {
-    github: 'jfgodoy/vite-plugin-solid-svg',
-    npm: 'vite-plugin-solid-svg',
-  },
   links: {
     github: 'https://github.com/jfgodoy/vite-plugin-solid-svg',
     npm: 'https://www.npmjs.com/package/vite-plugin-solid-svg',
     website: 'https://github.com/jfgodoy/vite-plugin-solid-svg#readme',
+  },
+  source: {
+    github: 'jfgodoy/vite-plugin-solid-svg',
+    npm: 'vite-plugin-solid-svg',
   },
   stats: {
     stars: 93,

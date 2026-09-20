@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'compiler',
     'zero-vdom',
   ],
-  source: {
-    github: 'rbm3267/sola-air',
-    npm: '@sola-air-ui/vite-plugin-sola',
-  },
   links: {
     github: 'https://github.com/rbm3267/sola-air',
     npm: 'https://www.npmjs.com/package/@sola-air-ui/vite-plugin-sola',
     website: 'https://sola-air.dev',
+  },
+  source: {
+    github: 'rbm3267/sola-air',
+    npm: '@sola-air-ui/vite-plugin-sola',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'mock',
     'typescript',
   ],
-  source: {
-    github: 'minjs1cn/vite-plugin-mocker',
-    npm: 'vite-plugin-mocker',
-  },
   links: {
     github: 'https://github.com/minjs1cn/vite-plugin-mocker',
     npm: 'https://www.npmjs.com/package/vite-plugin-mocker',
     website: 'https://github.com/minjs1cn/vite-plugin-mocker#readme',
+  },
+  source: {
+    github: 'minjs1cn/vite-plugin-mocker',
+    npm: 'vite-plugin-mocker',
   },
   stats: {
     stars: 3,

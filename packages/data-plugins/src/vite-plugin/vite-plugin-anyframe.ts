@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'css-framework',
   ],
-  source: {
-    npm: 'vite-plugin-anyframe',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-anyframe',
+  },
+  source: {
+    npm: 'vite-plugin-anyframe',
   },
   stats: {
     stars: 0,

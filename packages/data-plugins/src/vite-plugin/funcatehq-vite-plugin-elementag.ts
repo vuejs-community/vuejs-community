@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'jsx',
     'react',
   ],
-  source: {
-    npm: '@funcatehq/vite-plugin-elementag',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@funcatehq/vite-plugin-elementag',
+  },
+  source: {
+    npm: '@funcatehq/vite-plugin-elementag',
   },
   stats: {
     stars: 0,

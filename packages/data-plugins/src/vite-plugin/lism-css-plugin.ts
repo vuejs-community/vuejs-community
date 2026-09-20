@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'astro-integration',
   ],
-  source: {
-    github: 'lism-css/lism-css',
-    npm: '@lism-css/plugin',
-  },
   links: {
     github: 'https://github.com/lism-css/lism-css',
     npm: 'https://www.npmjs.com/package/@lism-css/plugin',
     website: 'https://lism-css.com/',
+  },
+  source: {
+    github: 'lism-css/lism-css',
+    npm: '@lism-css/plugin',
   },
   stats: {
     stars: 185,

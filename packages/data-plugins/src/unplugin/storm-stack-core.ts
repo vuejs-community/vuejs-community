@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'webpack',
     'astro',
   ],
-  source: {
-    github: 'storm-software/storm-stack',
-    npm: '@storm-stack/core',
-  },
   links: {
     github: 'https://github.com/storm-software/storm-stack',
     npm: 'https://www.npmjs.com/package/@storm-stack/core',
     website: 'https://stormsoftware.com',
+  },
+  source: {
+    github: 'storm-software/storm-stack',
+    npm: '@storm-stack/core',
   },
   stats: {
     stars: 0,

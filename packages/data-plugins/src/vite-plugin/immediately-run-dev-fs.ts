@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'filesystem',
     'dev',
   ],
-  source: {
-    github: 'immediately-run/dev-fs',
-    npm: '@immediately-run/dev-fs',
-  },
   links: {
     github: 'https://github.com/immediately-run/dev-fs',
     npm: 'https://www.npmjs.com/package/@immediately-run/dev-fs',
     website: 'https://github.com/immediately-run/dev-fs#readme',
+  },
+  source: {
+    github: 'immediately-run/dev-fs',
+    npm: '@immediately-run/dev-fs',
   },
   stats: {
     stars: 0,

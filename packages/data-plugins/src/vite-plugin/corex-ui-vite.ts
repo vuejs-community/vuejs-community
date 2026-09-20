@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'static',
     'render',
   ],
-  source: {
-    github: 'corex-ui/corex-ui',
-    npm: '@corex-ui/vite',
-  },
   links: {
     github: 'https://github.com/corex-ui/corex-ui',
     npm: 'https://www.npmjs.com/package/@corex-ui/vite',
     website: 'https://corex-ui.com',
+  },
+  source: {
+    github: 'corex-ui/corex-ui',
+    npm: '@corex-ui/vite',
   },
   stats: {
     stars: 18,

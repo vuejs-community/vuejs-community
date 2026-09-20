@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'unplugin',
     'compiler',
   ],
-  source: {
-    github: 'zeroc-ice/ice',
-    npm: '@zeroc/slice2js',
-  },
   links: {
     github: 'https://github.com/zeroc-ice/ice',
     npm: 'https://www.npmjs.com/package/@zeroc/slice2js',
     website: 'https://zeroc.com',
+  },
+  source: {
+    github: 'zeroc-ice/ice',
+    npm: '@zeroc/slice2js',
   },
   stats: {
     stars: 2192,

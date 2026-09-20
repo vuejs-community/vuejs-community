@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'legacy',
   ],
-  source: {
-    github: 'nalikiru-dev/nalth.js',
-    npm: '@nalth/plugin-legacy',
-  },
   links: {
     github: 'https://github.com/nalikiru-dev/nalth.js',
     npm: 'https://www.npmjs.com/package/@nalth/plugin-legacy',
     website: 'https://github.com/nalikiru-dev/nalth.js/tree/main/packages/plugin-legacy#readme',
+  },
+  source: {
+    github: 'nalikiru-dev/nalth.js',
+    npm: '@nalth/plugin-legacy',
   },
   stats: {
     stars: 19,

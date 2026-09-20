@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'ts',
     'vitest',
   ],
-  source: {
-    github: 'steciuk/vite-plugin-inline-imports',
-    npm: 'vite-plugin-inline-imports',
-  },
   links: {
     github: 'https://github.com/steciuk/vite-plugin-inline-imports',
     npm: 'https://www.npmjs.com/package/vite-plugin-inline-imports',
     website: 'https://github.com/steciuk/vite-plugin-inline-imports#readme',
+  },
+  source: {
+    github: 'steciuk/vite-plugin-inline-imports',
+    npm: 'vite-plugin-inline-imports',
   },
   stats: {
     stars: 0,

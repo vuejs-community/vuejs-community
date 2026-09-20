@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'seo',
     'structured-data',
   ],
-  source: {
-    github: 'theschemacompany/sdks',
-    npm: '@schemacompany/vite',
-  },
   links: {
     github: 'https://github.com/theschemacompany/sdks',
     npm: 'https://www.npmjs.com/package/@schemacompany/vite',
     website: 'https://github.com/theschemacompany/sdks#readme',
+  },
+  source: {
+    github: 'theschemacompany/sdks',
+    npm: '@schemacompany/vite',
   },
   stats: {
     stars: 0,

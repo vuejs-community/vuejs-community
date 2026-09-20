@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'minify',
   ],
-  source: {
-    github: 'jsweb/rollup-plugin-esmin',
-    npm: 'rollup-plugin-esmin',
-  },
   links: {
     github: 'https://github.com/jsweb/rollup-plugin-esmin',
     npm: 'https://www.npmjs.com/package/rollup-plugin-esmin',
     website: 'https://github.com/jsweb/rollup-plugin-esmin#readme',
+  },
+  source: {
+    github: 'jsweb/rollup-plugin-esmin',
+    npm: 'rollup-plugin-esmin',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'ci',
     'build',
   ],
-  source: {
-    github: 'Yuan993-Creator/vite-miniprogram-ci',
-    npm: 'vite-miniprogram-ci',
-  },
   links: {
     github: 'https://github.com/Yuan993-Creator/vite-miniprogram-ci',
     npm: 'https://www.npmjs.com/package/vite-miniprogram-ci',
     website: 'https://github.com/Yuan993-Creator/vite-miniprogram-ci#readme',
+  },
+  source: {
+    github: 'Yuan993-Creator/vite-miniprogram-ci',
+    npm: 'vite-miniprogram-ci',
   },
   stats: {
     stars: 0,

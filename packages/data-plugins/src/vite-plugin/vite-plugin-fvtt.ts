@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'foundryvtt',
   ],
-  source: {
-    github: 'MatyeusM/vite-plugin-fvtt',
-    npm: 'vite-plugin-fvtt',
-  },
   links: {
     github: 'https://github.com/MatyeusM/vite-plugin-fvtt',
     npm: 'https://www.npmjs.com/package/vite-plugin-fvtt',
     website: 'https://github.com/MatyeusM/vite-plugin-fvtt#readme',
+  },
+  source: {
+    github: 'MatyeusM/vite-plugin-fvtt',
+    npm: 'vite-plugin-fvtt',
   },
   stats: {
     stars: 0,

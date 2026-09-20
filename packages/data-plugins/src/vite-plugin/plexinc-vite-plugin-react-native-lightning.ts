@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'react-native',
     'lightning-js',
   ],
-  source: {
-    github: 'plexinc/react-lightning',
-    npm: '@plexinc/vite-plugin-react-native-lightning',
-  },
   links: {
     github: 'https://github.com/plexinc/react-lightning',
     npm: 'https://www.npmjs.com/package/@plexinc/vite-plugin-react-native-lightning',
     website: 'https://github.com/plexinc/react-lightning#readme',
+  },
+  source: {
+    github: 'plexinc/react-lightning',
+    npm: '@plexinc/vite-plugin-react-native-lightning',
   },
   stats: {
     stars: 0,

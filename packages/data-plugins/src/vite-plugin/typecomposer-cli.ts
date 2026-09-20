@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'framework',
   ],
-  source: {
-    github: 'zico15/typecomposer-cli',
-    npm: 'typecomposer-cli',
-  },
   links: {
     github: 'https://github.com/zico15/typecomposer-cli',
     npm: 'https://www.npmjs.com/package/typecomposer-cli',
     website: 'https://github.com/zico15/typecomposer-cli#readme',
+  },
+  source: {
+    github: 'zico15/typecomposer-cli',
+    npm: 'typecomposer-cli',
   },
   stats: {
     stars: 0,

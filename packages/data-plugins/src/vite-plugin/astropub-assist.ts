@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: '@astropub/assist',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@astropub/assist',
+  },
+  source: {
+    npm: '@astropub/assist',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: '12errh/r1-tauriweb-runtime-v1',
-    npm: '@r1-runtime/vite-plugin',
-  },
   links: {
     github: 'https://github.com/12errh/r1-tauriweb-runtime-v1',
     npm: 'https://www.npmjs.com/package/@r1-runtime/vite-plugin',
     website: 'https://github.com/12errh/r1-tauriweb-runtime-v1#readme',
+  },
+  source: {
+    github: '12errh/r1-tauriweb-runtime-v1',
+    npm: '@r1-runtime/vite-plugin',
   },
   stats: {
     stars: 9,

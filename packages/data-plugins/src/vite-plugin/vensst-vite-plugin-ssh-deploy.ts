@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'backup',
     'rollback',
   ],
-  source: {
-    npm: '@vensst/vite-plugin-ssh-deploy',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@vensst/vite-plugin-ssh-deploy',
+  },
+  source: {
+    npm: '@vensst/vite-plugin-ssh-deploy',
   },
   stats: {
     stars: 0,

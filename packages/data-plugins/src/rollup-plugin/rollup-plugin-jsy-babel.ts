@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'jsy-lang/rollup-plugin-jsy-babel',
-    npm: 'rollup-plugin-jsy-babel',
-  },
   links: {
     github: 'https://github.com/jsy-lang/rollup-plugin-jsy-babel',
     npm: 'https://www.npmjs.com/package/rollup-plugin-jsy-babel',
     website: 'https://github.com/jsy-lang/rollup-plugin-jsy-babel#readme',
+  },
+  source: {
+    github: 'jsy-lang/rollup-plugin-jsy-babel',
+    npm: 'rollup-plugin-jsy-babel',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'unplugin',
     'web-ext',
   ],
-  source: {
-    github: 'jwr12135/unplugin-web-ext',
-    npm: 'unplugin-web-ext',
-  },
   links: {
     github: 'https://github.com/jwr12135/unplugin-web-ext',
     npm: 'https://www.npmjs.com/package/unplugin-web-ext',
     website: 'https://github.com/jwr12135/unplugin-web-ext#readme',
+  },
+  source: {
+    github: 'jwr12135/unplugin-web-ext',
+    npm: 'unplugin-web-ext',
   },
   stats: {
     stars: 6,

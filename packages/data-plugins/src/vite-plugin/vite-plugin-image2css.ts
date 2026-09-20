@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'image2css',
     'img2css',
   ],
-  source: {
-    npm: 'vite-plugin-image2css',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-image2css',
+  },
+  source: {
+    npm: 'vite-plugin-image2css',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup',
     'iife',
   ],
-  source: {
-    github: 'eight04/rollup-plugin-iife',
-    npm: 'rollup-plugin-iife',
-  },
   links: {
     github: 'https://github.com/eight04/rollup-plugin-iife',
     npm: 'https://www.npmjs.com/package/rollup-plugin-iife',
     website: 'https://github.com/eight04/rollup-plugin-iife#readme',
+  },
+  source: {
+    github: 'eight04/rollup-plugin-iife',
+    npm: 'rollup-plugin-iife',
   },
   stats: {
     stars: 43,

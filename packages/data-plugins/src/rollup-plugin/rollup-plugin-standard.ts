@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'standard',
   ],
-  source: {
-    github: 'termosa/rollup-plugin-standard',
-    npm: 'rollup-plugin-standard',
-  },
   links: {
     github: 'https://github.com/termosa/rollup-plugin-standard',
     npm: 'https://www.npmjs.com/package/rollup-plugin-standard',
     website: 'https://github.com/termosa/rollup-plugin-standard#readme',
+  },
+  source: {
+    github: 'termosa/rollup-plugin-standard',
+    npm: 'rollup-plugin-standard',
   },
   stats: {
     stars: 1,

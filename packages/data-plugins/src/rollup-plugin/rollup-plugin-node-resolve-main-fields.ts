@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'npm',
     'modules',
   ],
-  source: {
-    github: 'rollup/rollup-plugin-node-resolve',
-    npm: 'rollup-plugin-node-resolve-main-fields',
-  },
   links: {
     github: 'https://github.com/rollup/rollup-plugin-node-resolve',
     npm: 'https://www.npmjs.com/package/rollup-plugin-node-resolve-main-fields',
     website: 'https://github.com/rollup/rollup-plugin-node-resolve#readme',
+  },
+  source: {
+    github: 'rollup/rollup-plugin-node-resolve',
+    npm: 'rollup-plugin-node-resolve-main-fields',
   },
   stats: {
     stars: 0,

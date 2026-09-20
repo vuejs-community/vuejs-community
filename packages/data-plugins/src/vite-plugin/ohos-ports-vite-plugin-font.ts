@@ -32,13 +32,13 @@ export default defineProjectMeta({
     'font-subset',
     'cjk',
   ],
-  source: {
-    github: 'ohos-ports/ohos-ports',
-    npm: '@ohos-ports/vite-plugin-font',
-  },
   links: {
     github: 'https://github.com/ohos-ports/ohos-ports',
     npm: 'https://www.npmjs.com/package/@ohos-ports/vite-plugin-font',
     website: 'https://chinese-font.netlify.app',
+  },
+  source: {
+    github: 'ohos-ports/ohos-ports',
+    npm: '@ohos-ports/vite-plugin-font',
   },
 })

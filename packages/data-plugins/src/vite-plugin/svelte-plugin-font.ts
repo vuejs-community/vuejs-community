@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'cls',
     'tailwindcss',
   ],
-  source: {
-    github: 'svelte-plugin/font',
-    npm: '@svelte-plugin/font',
-  },
   links: {
     github: 'https://github.com/svelte-plugin/font',
     npm: 'https://www.npmjs.com/package/@svelte-plugin/font',
     website: 'https://github.com/svelte-plugin/font#readme',
+  },
+  source: {
+    github: 'svelte-plugin/font',
+    npm: '@svelte-plugin/font',
   },
   stats: {
     stars: 0,

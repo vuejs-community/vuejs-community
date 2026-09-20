@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'm0ksem/unplugin-print-type',
-    npm: 'unplugin-print-type',
-  },
   links: {
     github: 'https://github.com/m0ksem/unplugin-print-type',
     npm: 'https://www.npmjs.com/package/unplugin-print-type',
     website: 'https://github.com/m0ksem/unplugin-print-type#readme',
+  },
+  source: {
+    github: 'm0ksem/unplugin-print-type',
+    npm: 'unplugin-print-type',
   },
   stats: {
     stars: 1,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'stylus',
     'css',
   ],
-  source: {
-    github: 'robhicks/rollup-plugin-stylus-to-css',
-    npm: 'rollup-plugin-stylus-to-css',
-  },
   links: {
     github: 'https://github.com/robhicks/rollup-plugin-stylus-to-css',
     npm: 'https://www.npmjs.com/package/rollup-plugin-stylus-to-css',
     website: 'https://github.com/robhicks/rollup-plugin-stylus-to-css',
+  },
+  source: {
+    github: 'robhicks/rollup-plugin-stylus-to-css',
+    npm: 'rollup-plugin-stylus-to-css',
   },
   stats: {
     stars: 1,

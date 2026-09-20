@@ -20,12 +20,12 @@ export default defineProjectMeta({
     'rehype',
     'ssr',
   ],
-  source: {
-    npm: '@skavex/skavex',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@skavex/skavex',
     website: 'https://pages.hu-tao.dev/skavex/skavex/docs/',
+  },
+  source: {
+    npm: '@skavex/skavex',
   },
   stats: {
     stars: 0,

@@ -32,14 +32,14 @@ export default defineProjectMeta({
     'font-subset',
     'cjk',
   ],
-  source: {
-    github: 'KonghaYao/cn-font-split',
-    npm: 'vite-plugin-font',
-  },
   links: {
     github: 'https://github.com/KonghaYao/cn-font-split',
     npm: 'https://www.npmjs.com/package/vite-plugin-font',
     website: 'https://chinese-font.netlify.app',
+  },
+  source: {
+    github: 'KonghaYao/cn-font-split',
+    npm: 'vite-plugin-font',
   },
   stats: {
     stars: 0,

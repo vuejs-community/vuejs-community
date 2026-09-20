@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'source-map',
     'vite-plugin',
   ],
-  source: {
-    npm: '@tingyun-common/vite-plugin-source-map',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@tingyun-common/vite-plugin-source-map',
+  },
+  source: {
+    npm: '@tingyun-common/vite-plugin-source-map',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'assets',
   ],
-  source: {
-    github: 'tsne/rollup-plugin-assetize',
-    npm: 'rollup-plugin-assetize',
-  },
   links: {
     github: 'https://github.com/tsne/rollup-plugin-assetize',
     npm: 'https://www.npmjs.com/package/rollup-plugin-assetize',
     website: 'https://github.com/tsne/rollup-plugin-assetize',
+  },
+  source: {
+    github: 'tsne/rollup-plugin-assetize',
+    npm: 'rollup-plugin-assetize',
   },
   stats: {
     stars: 1,

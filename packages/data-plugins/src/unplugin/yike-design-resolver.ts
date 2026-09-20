@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'unplugin',
     'resolver',
   ],
-  source: {
-    github: 'ecaps1038/yike-design-dev',
-    npm: '@yike-design/resolver',
-  },
   links: {
     github: 'https://github.com/ecaps1038/yike-design-dev',
     npm: 'https://www.npmjs.com/package/@yike-design/resolver',
     website: 'https://github.com/ecaps1038/yike-design-dev#readme',
+  },
+  source: {
+    github: 'ecaps1038/yike-design-dev',
+    npm: '@yike-design/resolver',
   },
   stats: {
     stars: 458,

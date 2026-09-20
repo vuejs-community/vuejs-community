@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'moonbit',
     'wite',
   ],
-  source: {
-    npm: 'vite-plugin-wite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-wite',
+  },
+  source: {
+    npm: 'vite-plugin-wite',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'svg',
     'typescript',
   ],
-  source: {
-    github: 'raycnwong/ts-svg',
-    npm: '@ts-svg/core',
-  },
   links: {
     github: 'https://github.com/raycnwong/ts-svg',
     npm: 'https://www.npmjs.com/package/@ts-svg/core',
     website: 'https://github.com/raycnwong/ts-svg#readme',
+  },
+  source: {
+    github: 'raycnwong/ts-svg',
+    npm: '@ts-svg/core',
   },
   stats: {
     stars: 0,

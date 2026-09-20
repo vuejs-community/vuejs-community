@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'icon',
     'cheetah-grid',
   ],
-  source: {
-    github: 'future-architect/cheetah-grid',
-    npm: 'unplugin-cheetah-grid-icon-svg',
-  },
   links: {
     github: 'https://github.com/future-architect/cheetah-grid',
     npm: 'https://www.npmjs.com/package/unplugin-cheetah-grid-icon-svg',
     website: 'https://github.com/future-architect/cheetah-grid/tree/master/packages/unplugin-cheetah-grid-icon-svg',
+  },
+  source: {
+    github: 'future-architect/cheetah-grid',
+    npm: 'unplugin-cheetah-grid-icon-svg',
   },
   stats: {
     stars: 1538,

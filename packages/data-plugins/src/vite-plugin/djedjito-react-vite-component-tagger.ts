@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'react',
     'djedjito',
   ],
-  source: {
-    npm: '@djedjito/react-vite-component-tagger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@djedjito/react-vite-component-tagger',
+  },
+  source: {
+    npm: '@djedjito/react-vite-component-tagger',
   },
   stats: {
     stars: 0,

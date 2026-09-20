@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'svgicon',
     '@yzfe/svgicon',
   ],
-  source: {
-    npm: 'vite-plugin-svgicon',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-svgicon',
     website: 'https://github.com/MMF-FE/svgicon',
+  },
+  source: {
+    npm: 'vite-plugin-svgicon',
   },
   stats: {
     stars: 0,

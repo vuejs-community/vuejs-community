@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'css-module',
     'vite-plugin-setting-css-module',
   ],
-  source: {
-    github: 'ProgrameBoy/vite-plugin-setting-css-module',
-    npm: 'vite-plugin-setting-css-module',
-  },
   links: {
     github: 'https://github.com/ProgrameBoy/vite-plugin-setting-css-module',
     npm: 'https://www.npmjs.com/package/vite-plugin-setting-css-module',
     website: 'https://github.com/ProgrameBoy/vite-plugin-setting-css-module',
+  },
+  source: {
+    github: 'ProgrameBoy/vite-plugin-setting-css-module',
+    npm: 'vite-plugin-setting-css-module',
   },
   stats: {
     stars: 0,

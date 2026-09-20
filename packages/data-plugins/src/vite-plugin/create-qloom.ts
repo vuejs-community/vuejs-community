@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'scaffold',
     'create',
   ],
-  source: {
-    github: 'JohnSColeman/qloom',
-    npm: 'create-qloom',
-  },
   links: {
     github: 'https://github.com/JohnSColeman/qloom',
     npm: 'https://www.npmjs.com/package/create-qloom',
     website: 'https://github.com/JohnSColeman/qloom#readme',
+  },
+  source: {
+    github: 'JohnSColeman/qloom',
+    npm: 'create-qloom',
   },
   stats: {
     stars: 0,

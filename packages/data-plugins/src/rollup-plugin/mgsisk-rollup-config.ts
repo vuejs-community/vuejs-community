@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-config',
     'rollup-plugin',
   ],
-  source: {
-    github: 'mgsisk/rollup-config',
-    npm: '@mgsisk/rollup-config',
-  },
   links: {
     github: 'https://github.com/mgsisk/rollup-config',
     npm: 'https://www.npmjs.com/package/@mgsisk/rollup-config',
     website: 'https://github.com/mgsisk/rollup-config',
+  },
+  source: {
+    github: 'mgsisk/rollup-config',
+    npm: '@mgsisk/rollup-config',
   },
   stats: {
     stars: 0,

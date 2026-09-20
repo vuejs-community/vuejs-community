@@ -12,12 +12,12 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: '@chipunderblade/vite-plugin-mpa',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@chipunderblade/vite-plugin-mpa',
     website: 'https://github.com/pfjhyyj/vite-plugin-mpa',
+  },
+  source: {
+    npm: '@chipunderblade/vite-plugin-mpa',
   },
   stats: {
     stars: 0,

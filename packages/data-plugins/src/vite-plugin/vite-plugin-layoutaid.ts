@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'layoutaid',
     'devtool',
   ],
-  source: {
-    github: 'leoboyerbx/layout-aid',
-    npm: 'vite-plugin-layoutaid',
-  },
   links: {
     github: 'https://github.com/leoboyerbx/layout-aid',
     npm: 'https://www.npmjs.com/package/vite-plugin-layoutaid',
     website: 'https://github.com/leoboyerbx/layout-aid#readme',
+  },
+  source: {
+    github: 'leoboyerbx/layout-aid',
+    npm: 'vite-plugin-layoutaid',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'pngquant',
     'svgo',
   ],
-  source: {
-    github: 'alloc/vite-plugin-compress',
-    npm: 'vite-plugin-compress',
-  },
   links: {
     github: 'https://github.com/alloc/vite-plugin-compress',
     npm: 'https://www.npmjs.com/package/vite-plugin-compress',
     website: 'https://github.com/alloc/vite-plugin-compress#readme',
+  },
+  source: {
+    github: 'alloc/vite-plugin-compress',
+    npm: 'vite-plugin-compress',
   },
   stats: {
     stars: 133,

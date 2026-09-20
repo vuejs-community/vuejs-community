@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'rollup',
     'browser',
   ],
-  source: {
-    github: 'zhanghongen/vite-plugin-sandbox',
-    npm: 'vite-plugin-sandbox',
-  },
   links: {
     github: 'https://github.com/zhanghongen/vite-plugin-sandbox',
     npm: 'https://www.npmjs.com/package/vite-plugin-sandbox',
     website: 'https://github.com/zhanghongen/vite-plugin-sandbox#readme',
+  },
+  source: {
+    github: 'zhanghongen/vite-plugin-sandbox',
+    npm: 'vite-plugin-sandbox',
   },
   stats: {
     stars: 0,

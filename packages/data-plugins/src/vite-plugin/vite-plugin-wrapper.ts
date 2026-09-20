@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'bundler',
     'esm',
   ],
-  source: {
-    github: 'magne4000/vite-plugin-wrapper',
-    npm: 'vite-plugin-wrapper',
-  },
   links: {
     github: 'https://github.com/magne4000/vite-plugin-wrapper',
     npm: 'https://www.npmjs.com/package/vite-plugin-wrapper',
     website: 'https://github.com/magne4000/vite-plugin-wrapper#readme',
+  },
+  source: {
+    github: 'magne4000/vite-plugin-wrapper',
+    npm: 'vite-plugin-wrapper',
   },
   stats: {
     stars: 0,

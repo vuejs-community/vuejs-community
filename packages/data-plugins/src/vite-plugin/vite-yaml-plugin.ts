@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'yml',
     'import',
   ],
-  source: {
-    npm: 'vite-yaml-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-yaml-plugin',
     website: 'https://github.com/silverwind/vite-yaml-plugin#readme',
+  },
+  source: {
+    npm: 'vite-yaml-plugin',
   },
   stats: {
     stars: 0,

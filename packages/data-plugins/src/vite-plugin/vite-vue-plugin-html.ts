@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'minify',
     'vite-plugin',
   ],
-  source: {
-    github: 'xingyuv/vite-vue-plugin-html',
-    npm: 'vite-vue-plugin-html',
-  },
   links: {
     github: 'https://github.com/xingyuv/vite-vue-plugin-html',
     npm: 'https://www.npmjs.com/package/vite-vue-plugin-html',
     website: 'https://github.com/xingyuv/vite-vue-plugin-html/tree/master/#readme',
+  },
+  source: {
+    github: 'xingyuv/vite-vue-plugin-html',
+    npm: 'vite-vue-plugin-html',
   },
   stats: {
     stars: 1,

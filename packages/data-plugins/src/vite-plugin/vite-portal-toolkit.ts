@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'remote-config',
     'react',
   ],
-  source: {
-    npm: 'vite-portal-toolkit',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-portal-toolkit',
+  },
+  source: {
+    npm: 'vite-portal-toolkit',
   },
   stats: {
     stars: 0,

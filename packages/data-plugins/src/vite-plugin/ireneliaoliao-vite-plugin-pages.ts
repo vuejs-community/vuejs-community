@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'routes',
     'auto-import',
   ],
-  source: {
-    npm: '@ireneliaoliao/vite-plugin-pages',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ireneliaoliao/vite-plugin-pages',
+  },
+  source: {
+    npm: '@ireneliaoliao/vite-plugin-pages',
   },
   stats: {
     stars: 0,

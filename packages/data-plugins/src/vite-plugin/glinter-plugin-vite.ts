@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'react-refresh',
     'fast refresh',
   ],
-  source: {
-    github: 'poprize/vite-plugin',
-    npm: 'glinter-plugin-vite',
-  },
   links: {
     github: 'https://github.com/poprize/vite-plugin',
     npm: 'https://www.npmjs.com/package/glinter-plugin-vite',
     website: 'https://github.com/poprize/vite-plugin#readme',
+  },
+  source: {
+    github: 'poprize/vite-plugin',
+    npm: 'glinter-plugin-vite',
   },
   stats: {
     stars: 0,

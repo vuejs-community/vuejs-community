@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'build',
     'version',
   ],
-  source: {
-    github: 'Webming19/vite-plugin-build-version',
-    npm: 'vite-plugin-build-version',
-  },
   links: {
     github: 'https://github.com/Webming19/vite-plugin-build-version',
     npm: 'https://www.npmjs.com/package/vite-plugin-build-version',
     website: 'https://github.com/Webming19/vite-plugin-build-version',
+  },
+  source: {
+    github: 'Webming19/vite-plugin-build-version',
+    npm: 'vite-plugin-build-version',
   },
   stats: {
     stars: 0,

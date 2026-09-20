@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'inspector',
     'debug',
   ],
-  source: {
-    github: 'webfansplz/vite-plugin-vue-inspector',
-    npm: 'unplugin-vue-inspect',
-  },
   links: {
     github: 'https://github.com/webfansplz/vite-plugin-vue-inspector',
     npm: 'https://www.npmjs.com/package/unplugin-vue-inspect',
     website: 'https://github.com/webfansplz/vite-plugin-vue-inspector#readme',
+  },
+  source: {
+    github: 'webfansplz/vite-plugin-vue-inspector',
+    npm: 'unplugin-vue-inspect',
   },
   stats: {
     stars: 0,

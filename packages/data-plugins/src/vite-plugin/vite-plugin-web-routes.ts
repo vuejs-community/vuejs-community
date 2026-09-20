@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'code-splitting',
     'typescript',
   ],
-  source: {
-    github: 'yracnet/vite-plugin-web-routes',
-    npm: 'vite-plugin-web-routes',
-  },
   links: {
     github: 'https://github.com/yracnet/vite-plugin-web-routes',
     npm: 'https://www.npmjs.com/package/vite-plugin-web-routes',
     website: 'https://github.com/yracnet/vite-plugin-web-routes#readme',
+  },
+  source: {
+    github: 'yracnet/vite-plugin-web-routes',
+    npm: 'vite-plugin-web-routes',
   },
   stats: {
     stars: 0,

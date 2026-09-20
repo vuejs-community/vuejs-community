@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'inliner',
     'rollup-plugin',
   ],
-  source: {
-    github: 'cebor/rollup-plugin-angular-ivy',
-    npm: 'rollup-plugin-angular-ivy',
-  },
   links: {
     github: 'https://github.com/cebor/rollup-plugin-angular-ivy',
     npm: 'https://www.npmjs.com/package/rollup-plugin-angular-ivy',
     website: 'https://github.com/cebor/rollup-plugin-angular-ivy#readme',
+  },
+  source: {
+    github: 'cebor/rollup-plugin-angular-ivy',
+    npm: 'rollup-plugin-angular-ivy',
   },
   stats: {
     stars: 0,

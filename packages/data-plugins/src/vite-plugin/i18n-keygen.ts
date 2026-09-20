@@ -32,14 +32,14 @@ export default defineProjectMeta({
     'react-i18next',
     'ngx-translate',
   ],
-  source: {
-    github: 'gagle/i18n-keygen',
-    npm: 'i18n-keygen',
-  },
   links: {
     github: 'https://github.com/gagle/i18n-keygen',
     npm: 'https://www.npmjs.com/package/i18n-keygen',
     website: 'https://github.com/gagle/i18n-keygen#readme',
+  },
+  source: {
+    github: 'gagle/i18n-keygen',
+    npm: 'i18n-keygen',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'less',
     'rollup-plugin',
   ],
-  source: {
-    github: 'raybooysen/rollup-plugin-less',
-    npm: '@raybooysen/rollup-plugin-less',
-  },
   links: {
     github: 'https://github.com/raybooysen/rollup-plugin-less',
     npm: 'https://www.npmjs.com/package/@raybooysen/rollup-plugin-less',
     website: 'https://github.com/raybooysen/rollup-plugin-less#readme',
+  },
+  source: {
+    github: 'raybooysen/rollup-plugin-less',
+    npm: '@raybooysen/rollup-plugin-less',
   },
   stats: {
     stars: 0,

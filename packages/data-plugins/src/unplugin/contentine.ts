@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'baroshem/contentine',
-    npm: 'contentine',
-  },
   links: {
     github: 'https://github.com/baroshem/contentine',
     npm: 'https://www.npmjs.com/package/contentine',
     website: 'https://github.com/baroshem/contentine#readme',
+  },
+  source: {
+    github: 'baroshem/contentine',
+    npm: 'contentine',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vue-i18n',
     'vue-plugin',
   ],
-  source: {
-    github: 'cawa-93/vite-plugin-vue-chrome-i18n',
-    npm: 'vite-plugin-vue-chrome-i18n',
-  },
   links: {
     github: 'https://github.com/cawa-93/vite-plugin-vue-chrome-i18n',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-chrome-i18n',
     website: 'https://github.com/cawa-93/vite-plugin-vue-chrome-i18n#readme',
+  },
+  source: {
+    github: 'cawa-93/vite-plugin-vue-chrome-i18n',
+    npm: 'vite-plugin-vue-chrome-i18n',
   },
   stats: {
     stars: 2,

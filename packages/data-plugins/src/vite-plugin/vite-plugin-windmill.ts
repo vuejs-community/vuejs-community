@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'windmill',
   ],
-  source: {
-    github: 'jkker/vite-plugin-windmill',
-    npm: 'vite-plugin-windmill',
-  },
   links: {
     github: 'https://github.com/jkker/vite-plugin-windmill',
     npm: 'https://www.npmjs.com/package/vite-plugin-windmill',
     website: 'https://github.com/jkker/vite-plugin-windmill#readme',
+  },
+  source: {
+    github: 'jkker/vite-plugin-windmill',
+    npm: 'vite-plugin-windmill',
   },
   stats: {
     stars: 0,

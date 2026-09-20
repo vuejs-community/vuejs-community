@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'jqhtml',
     'templates',
   ],
-  source: {
-    github: 'jqhtml/vite-plugin',
-    npm: '@jqhtml/vite-plugin',
-  },
   links: {
     github: 'https://github.com/jqhtml/vite-plugin',
     npm: 'https://www.npmjs.com/package/@jqhtml/vite-plugin',
     website: 'https://github.com/jqhtml/vite-plugin#readme',
+  },
+  source: {
+    github: 'jqhtml/vite-plugin',
+    npm: '@jqhtml/vite-plugin',
   },
   stats: {
     stars: 0,

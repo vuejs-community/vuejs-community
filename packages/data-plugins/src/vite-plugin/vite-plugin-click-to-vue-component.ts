@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'inspector',
     'debug',
   ],
-  source: {
-    npm: 'vite-plugin-click-to-vue-component',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-click-to-vue-component',
+  },
+  source: {
+    npm: 'vite-plugin-click-to-vue-component',
   },
   stats: {
     stars: 0,

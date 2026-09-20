@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    github: 'DerYeger/yeger',
-    npm: 'vue-fast-mount',
-  },
   links: {
     github: 'https://github.com/DerYeger/yeger',
     npm: 'https://www.npmjs.com/package/vue-fast-mount',
     website: 'https://github.com/DerYeger/yeger/tree/main/packages/vue-fast-mount',
+  },
+  source: {
+    github: 'DerYeger/yeger',
+    npm: 'vue-fast-mount',
   },
   stats: {
     stars: 383,

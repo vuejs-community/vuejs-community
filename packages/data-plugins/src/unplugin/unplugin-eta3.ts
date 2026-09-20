@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'eta',
   ],
-  source: {
-    github: 'badasintended/unplugin-eta3',
-    npm: 'unplugin-eta3',
-  },
   links: {
     github: 'https://github.com/badasintended/unplugin-eta3',
     npm: 'https://www.npmjs.com/package/unplugin-eta3',
     website: 'https://github.com/badasintended/unplugin-eta3#readme',
+  },
+  source: {
+    github: 'badasintended/unplugin-eta3',
+    npm: 'unplugin-eta3',
   },
   stats: {
     stars: 0,

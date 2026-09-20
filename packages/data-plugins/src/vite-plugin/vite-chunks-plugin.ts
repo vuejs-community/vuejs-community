@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'tyteen4a03/vite-chunks-plugin',
-    npm: 'vite-chunks-plugin',
-  },
   links: {
     github: 'https://github.com/tyteen4a03/vite-chunks-plugin',
     npm: 'https://www.npmjs.com/package/vite-chunks-plugin',
     website: 'https://github.com/tyteen4a03/vite-chunks-plugin#readme',
+  },
+  source: {
+    github: 'tyteen4a03/vite-chunks-plugin',
+    npm: 'vite-chunks-plugin',
   },
   stats: {
     stars: 0,

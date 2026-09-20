@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'layerwise',
   ],
-  source: {
-    npm: '@layerwise/vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@layerwise/vite',
+  },
+  source: {
+    npm: '@layerwise/vite',
   },
   stats: {
     stars: 0,

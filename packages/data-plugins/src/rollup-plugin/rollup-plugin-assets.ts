@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'vue',
   ],
-  source: {
-    github: 'fulicat/rollup-plugin-assets',
-    npm: 'rollup-plugin-assets',
-  },
   links: {
     github: 'https://github.com/fulicat/rollup-plugin-assets',
     npm: 'https://www.npmjs.com/package/rollup-plugin-assets',
     website: 'https://github.com/fulicat/rollup-plugin-assets#readme',
+  },
+  source: {
+    github: 'fulicat/rollup-plugin-assets',
+    npm: 'rollup-plugin-assets',
   },
   stats: {
     stars: 1,

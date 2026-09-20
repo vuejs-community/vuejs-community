@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'plugin',
     'url',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-url',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-url',
     website: 'https://github.com/rollup/plugins/tree/master/packages/url/#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-url',
   },
   stats: {
     stars: 0,

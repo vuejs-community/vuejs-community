@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'byot',
     'federation',
   ],
-  source: {
-    github: 'NUMU-IO/numu-theme-plugin',
-    npm: '@numueg/theme-plugin',
-  },
   links: {
     github: 'https://github.com/NUMU-IO/numu-theme-plugin',
     npm: 'https://www.npmjs.com/package/@numueg/theme-plugin',
     website: 'https://numueg.app/docs/cli-plugin/vite-plugin',
+  },
+  source: {
+    github: 'NUMU-IO/numu-theme-plugin',
+    npm: '@numueg/theme-plugin',
   },
   stats: {
     stars: 0,

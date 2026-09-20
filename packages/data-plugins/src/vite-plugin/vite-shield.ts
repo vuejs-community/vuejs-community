@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'clickjacking',
     'vite-plugin',
   ],
-  source: {
-    github: 'Power70/vite-shield',
-    npm: 'vite-shield',
-  },
   links: {
     github: 'https://github.com/Power70/vite-shield',
     npm: 'https://www.npmjs.com/package/vite-shield',
     website: 'https://github.com/Power70/vite-shield#readme',
+  },
+  source: {
+    github: 'Power70/vite-shield',
+    npm: 'vite-shield',
   },
   stats: {
     stars: 0,

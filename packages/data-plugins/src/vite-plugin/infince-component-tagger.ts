@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'debug',
     'infince',
   ],
-  source: {
-    npm: '@infince/component-tagger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@infince/component-tagger',
+  },
+  source: {
+    npm: '@infince/component-tagger',
   },
   stats: {
     stars: 0,

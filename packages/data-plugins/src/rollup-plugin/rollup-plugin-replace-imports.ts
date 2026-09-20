@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin-replace-imports',
     'rollup-plugin',
   ],
-  source: {
-    github: 'fengxinming/rollup-plugins',
-    npm: 'rollup-plugin-replace-imports',
-  },
   links: {
     github: 'https://github.com/fengxinming/rollup-plugins',
     npm: 'https://www.npmjs.com/package/rollup-plugin-replace-imports',
     website: 'https://github.com/fengxinming/rollup-plugins/tree/master/packages/rollup-plugin-replace-imports#readme',
+  },
+  source: {
+    github: 'fengxinming/rollup-plugins',
+    npm: 'rollup-plugin-replace-imports',
   },
   stats: {
     stars: 0,

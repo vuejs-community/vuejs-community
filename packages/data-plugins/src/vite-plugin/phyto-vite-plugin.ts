@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'testing',
     'e2e',
   ],
-  source: {
-    github: 'coniferous-dev/phyto',
-    npm: '@phyto/vite-plugin',
-  },
   links: {
     github: 'https://github.com/coniferous-dev/phyto',
     npm: 'https://www.npmjs.com/package/@phyto/vite-plugin',
     website: 'https://github.com/coniferous-dev/phyto#readme',
+  },
+  source: {
+    github: 'coniferous-dev/phyto',
+    npm: '@phyto/vite-plugin',
   },
   stats: {
     stars: 0,

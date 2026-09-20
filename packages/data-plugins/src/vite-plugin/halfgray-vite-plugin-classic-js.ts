@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    github: 'jack126guy/vite-plugin-classic-js',
-    npm: '@halfgray/vite-plugin-classic-js',
-  },
   links: {
     github: 'https://github.com/jack126guy/vite-plugin-classic-js',
     npm: 'https://www.npmjs.com/package/@halfgray/vite-plugin-classic-js',
     website: 'https://github.com/jack126guy/vite-plugin-classic-js#readme',
+  },
+  source: {
+    github: 'jack126guy/vite-plugin-classic-js',
+    npm: '@halfgray/vite-plugin-classic-js',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'seo',
     'content-negotiation',
   ],
-  source: {
-    github: 'codeusb/vite-plugin-llm-friendly',
-    npm: 'vite-plugin-llm-friendly',
-  },
   links: {
     github: 'https://github.com/codeusb/vite-plugin-llm-friendly',
     npm: 'https://www.npmjs.com/package/vite-plugin-llm-friendly',
     website: 'https://github.com/codeusb/vite-plugin-llm-friendly#readme',
+  },
+  source: {
+    github: 'codeusb/vite-plugin-llm-friendly',
+    npm: 'vite-plugin-llm-friendly',
   },
   stats: {
     stars: 1,

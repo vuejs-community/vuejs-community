@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'rollup',
   ],
-  source: {
-    github: 'lunapress/npm-packages',
-    npm: '@lunapress/rollup-plugin-external',
-  },
   links: {
     github: 'https://github.com/lunapress/npm-packages',
     npm: 'https://www.npmjs.com/package/@lunapress/rollup-plugin-external',
     website: 'https://github.com/lunapress/npm-packages#readme',
+  },
+  source: {
+    github: 'lunapress/npm-packages',
+    npm: '@lunapress/rollup-plugin-external',
   },
   stats: {
     stars: 0,

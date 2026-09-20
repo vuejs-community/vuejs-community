@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'certificate',
     'https',
   ],
-  source: {
-    github: 'vitejs/vite-plugin-basic-ssl',
-    npm: '@vitejs/plugin-basic-ssl',
-  },
   links: {
     github: 'https://github.com/vitejs/vite-plugin-basic-ssl',
     npm: 'https://www.npmjs.com/package/@vitejs/plugin-basic-ssl',
     website: 'https://github.com/vitejs/vite-plugin-basic-ssl/#readme',
+  },
+  source: {
+    github: 'vitejs/vite-plugin-basic-ssl',
+    npm: '@vitejs/plugin-basic-ssl',
   },
   stats: {
     stars: 516,

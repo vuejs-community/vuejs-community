@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'FlandreDaisuki/vite-plugin-userscript',
-    npm: 'vite-plugin-userscript',
-  },
   links: {
     github: 'https://github.com/FlandreDaisuki/vite-plugin-userscript',
     npm: 'https://www.npmjs.com/package/vite-plugin-userscript',
     website: 'https://github.com/FlandreDaisuki/vite-plugin-userscript#readme',
+  },
+  source: {
+    github: 'FlandreDaisuki/vite-plugin-userscript',
+    npm: 'vite-plugin-userscript',
   },
   stats: {
     stars: 7,

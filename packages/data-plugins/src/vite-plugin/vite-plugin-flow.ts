@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'javascript',
     'vite-plugin',
   ],
-  source: {
-    github: 'Eazymov/vite-plugin-flow',
-    npm: 'vite-plugin-flow',
-  },
   links: {
     github: 'https://github.com/Eazymov/vite-plugin-flow',
     npm: 'https://www.npmjs.com/package/vite-plugin-flow',
     website: 'https://github.com/Eazymov/vite-plugin-flow#readme',
+  },
+  source: {
+    github: 'Eazymov/vite-plugin-flow',
+    npm: 'vite-plugin-flow',
   },
   stats: {
     stars: 3,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'novlan1/plugin-light',
-    npm: '@plugin-light/vite-plugin-gen-version',
-  },
   links: {
     github: 'https://github.com/novlan1/plugin-light',
     npm: 'https://www.npmjs.com/package/@plugin-light/vite-plugin-gen-version',
     website: 'https://novlan1.github.io/docs/plugin-light/zh/vite-plugin-gen-version.html',
+  },
+  source: {
+    github: 'novlan1/plugin-light',
+    npm: '@plugin-light/vite-plugin-gen-version',
   },
   stats: {
     stars: 0,

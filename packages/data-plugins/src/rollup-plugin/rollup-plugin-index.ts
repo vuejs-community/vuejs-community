@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'plugin',
     'rollup-plugin',
   ],
-  source: {
-    npm: 'rollup-plugin-index',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-index',
+  },
+  source: {
+    npm: 'rollup-plugin-index',
   },
   stats: {
     stars: 0,

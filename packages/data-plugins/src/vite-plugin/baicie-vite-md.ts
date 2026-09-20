@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'md',
   ],
-  source: {
-    npm: '@baicie/vite-md',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@baicie/vite-md',
+  },
+  source: {
+    npm: '@baicie/vite-md',
   },
   stats: {
     stars: 0,

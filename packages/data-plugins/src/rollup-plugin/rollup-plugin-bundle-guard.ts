@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'static-import',
     'dynamic-import',
   ],
-  source: {
-    github: 'tjenkinson/rollup-plugin-bundle-guard',
-    npm: 'rollup-plugin-bundle-guard',
-  },
   links: {
     github: 'https://github.com/tjenkinson/rollup-plugin-bundle-guard',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bundle-guard',
     website: 'https://github.com/tjenkinson/rollup-plugin-bundle-guard#readme',
+  },
+  source: {
+    github: 'tjenkinson/rollup-plugin-bundle-guard',
+    npm: 'rollup-plugin-bundle-guard',
   },
   stats: {
     stars: 1,

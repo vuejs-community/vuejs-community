@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitepress',
   ],
-  source: {
-    npm: '@mistyjs/vite-plugin-vitepress',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@mistyjs/vite-plugin-vitepress',
+  },
+  source: {
+    npm: '@mistyjs/vite-plugin-vitepress',
   },
   stats: {
     stars: 0,

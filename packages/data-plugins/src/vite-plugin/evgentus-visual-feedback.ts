@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'visual-feedback',
   ],
-  source: {
-    github: 'evgentus-cy/visual-feedback',
-    npm: '@evgentus/visual-feedback',
-  },
   links: {
     github: 'https://github.com/evgentus-cy/visual-feedback',
     npm: 'https://www.npmjs.com/package/@evgentus/visual-feedback',
     website: 'https://github.com/evgentus-cy/visual-feedback#readme',
+  },
+  source: {
+    github: 'evgentus-cy/visual-feedback',
+    npm: '@evgentus/visual-feedback',
   },
   stats: {
     stars: 0,

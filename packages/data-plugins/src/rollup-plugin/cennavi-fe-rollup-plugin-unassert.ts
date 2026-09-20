@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'rollup-plugin',
     'unassert',
   ],
-  source: {
-    npm: '@cennavi-fe/rollup-plugin-unassert',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@cennavi-fe/rollup-plugin-unassert',
     website: 'https://gitlab.navinfo.com/CenNavi/MineData/MineMap/npm-store/mm-rollup-plugin-unassert',
+  },
+  source: {
+    npm: '@cennavi-fe/rollup-plugin-unassert',
   },
   stats: {
     stars: 0,

@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'remove',
     'slchalk',
   ],
-  source: {
-    npm: 'vite-plugin-cy-remove-slchalk',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-cy-remove-slchalk',
+  },
+  source: {
+    npm: 'vite-plugin-cy-remove-slchalk',
   },
   stats: {
     stars: 0,

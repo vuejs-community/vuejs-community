@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'favicon',
     'favicon-generator',
   ],
-  source: {
-    github: 'axelrindle/vite-plugin-favicon',
-    npm: '@axelrindle/vite-plugin-favicon',
-  },
   links: {
     github: 'https://github.com/axelrindle/vite-plugin-favicon',
     npm: 'https://www.npmjs.com/package/@axelrindle/vite-plugin-favicon',
     website: 'https://github.com/axelrindle/vite-plugin-favicon#readme',
+  },
+  source: {
+    github: 'axelrindle/vite-plugin-favicon',
+    npm: '@axelrindle/vite-plugin-favicon',
   },
   stats: {
     stars: 0,

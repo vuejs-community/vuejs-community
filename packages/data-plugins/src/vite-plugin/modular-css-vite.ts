@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'modular-css',
     'postcss',
   ],
-  source: {
-    github: 'tivac/modular-css',
-    npm: '@modular-css/vite',
-  },
   links: {
     github: 'https://github.com/tivac/modular-css',
     npm: 'https://www.npmjs.com/package/@modular-css/vite',
     website: 'https://m-css.com',
+  },
+  source: {
+    github: 'tivac/modular-css',
+    npm: '@modular-css/vite',
   },
   stats: {
     stars: 291,

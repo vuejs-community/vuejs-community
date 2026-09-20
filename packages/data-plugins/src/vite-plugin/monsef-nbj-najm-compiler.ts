@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'najm',
   ],
-  source: {
-    github: 'Monsef-Noubadji/Najm',
-    npm: '@monsef-nbj/najm-compiler',
-  },
   links: {
     github: 'https://github.com/Monsef-Noubadji/Najm',
     npm: 'https://www.npmjs.com/package/@monsef-nbj/najm-compiler',
     website: 'https://github.com/Monsef-Noubadji/Najm#readme',
+  },
+  source: {
+    github: 'Monsef-Noubadji/Najm',
+    npm: '@monsef-nbj/najm-compiler',
   },
   stats: {
     stars: 1,

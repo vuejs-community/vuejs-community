@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vue3',
     'loader',
   ],
-  source: {
-    github: 'ChaconneLuo/vite-plugin-svgs',
-    npm: 'vite-plugin-vue-svgs',
-  },
   links: {
     github: 'https://github.com/ChaconneLuo/vite-plugin-svgs',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-svgs',
     website: 'https://github.com/ChaconneLuo/vite-plugin-svgs#readme',
+  },
+  source: {
+    github: 'ChaconneLuo/vite-plugin-svgs',
+    npm: 'vite-plugin-vue-svgs',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'html',
   ],
-  source: {
-    github: 'eliduty/plugin',
-    npm: 'vite-plugin-config-html',
-  },
   links: {
     github: 'https://github.com/eliduty/plugin',
     npm: 'https://www.npmjs.com/package/vite-plugin-config-html',
     website: 'https://github.com/eliduty/plugin/blob/main/packages/vite-plugin-config-html/README.md',
+  },
+  source: {
+    github: 'eliduty/plugin',
+    npm: 'vite-plugin-config-html',
   },
   stats: {
     stars: 6,

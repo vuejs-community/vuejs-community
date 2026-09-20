@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'holochain',
     'ad4m',
   ],
-  source: {
-    github: 'coasys/rollup-plugin-dna',
-    npm: '@coasys/rollup-plugin-holochain',
-  },
   links: {
     github: 'https://github.com/coasys/rollup-plugin-dna',
     npm: 'https://www.npmjs.com/package/@coasys/rollup-plugin-holochain',
     website: 'https://github.com/coasys/rollup-plugin-dna#readme',
+  },
+  source: {
+    github: 'coasys/rollup-plugin-dna',
+    npm: '@coasys/rollup-plugin-holochain',
   },
   stats: {
     stars: 0,

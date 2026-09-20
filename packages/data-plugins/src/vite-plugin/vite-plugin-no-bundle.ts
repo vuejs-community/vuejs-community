@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'unbundle',
   ],
-  source: {
-    github: 'ManBearTM/vite-plugin-no-bundle',
-    npm: 'vite-plugin-no-bundle',
-  },
   links: {
     github: 'https://github.com/ManBearTM/vite-plugin-no-bundle',
     npm: 'https://www.npmjs.com/package/vite-plugin-no-bundle',
     website: 'https://github.com/ManBearTM/vite-plugin-no-bundle#readme',
+  },
+  source: {
+    github: 'ManBearTM/vite-plugin-no-bundle',
+    npm: 'vite-plugin-no-bundle',
   },
   stats: {
     stars: 69,

@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'Jscherbe/vite-virtual-modules-sanity-loader',
-    npm: '@ulu/vite-virtual-modules-sanity-loader',
-  },
   links: {
     github: 'https://github.com/Jscherbe/vite-virtual-modules-sanity-loader',
     npm: 'https://www.npmjs.com/package/@ulu/vite-virtual-modules-sanity-loader',
     website: 'https://github.com/Jscherbe/vite-virtual-modules-sanity-loader#readme',
+  },
+  source: {
+    github: 'Jscherbe/vite-virtual-modules-sanity-loader',
+    npm: '@ulu/vite-virtual-modules-sanity-loader',
   },
   stats: {
     stars: 0,

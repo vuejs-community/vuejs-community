@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'environment',
     'global variable',
   ],
-  source: {
-    npm: '@wry-smile/vite-plugin-global-variable',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@wry-smile/vite-plugin-global-variable',
+  },
+  source: {
+    npm: '@wry-smile/vite-plugin-global-variable',
   },
   stats: {
     stars: 0,

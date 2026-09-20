@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'rollup-plugin',
   ],
-  source: {
-    github: 'launchcodedev/app-config',
-    npm: '@app-config/rollup',
-  },
   links: {
     github: 'https://github.com/launchcodedev/app-config',
     npm: 'https://www.npmjs.com/package/@app-config/rollup',
     website: 'https://github.com/launchcodedev/app-config#readme',
+  },
+  source: {
+    github: 'launchcodedev/app-config',
+    npm: '@app-config/rollup',
   },
   stats: {
     stars: 75,

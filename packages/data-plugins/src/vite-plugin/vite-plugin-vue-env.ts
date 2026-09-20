@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vue',
     'vue-cli',
   ],
-  source: {
-    github: 'notiv-nt/vite-plugin-vue-env',
-    npm: 'vite-plugin-vue-env',
-  },
   links: {
     github: 'https://github.com/notiv-nt/vite-plugin-vue-env',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-env',
     website: 'https://github.com/notiv-nt/vite-plugin-vue-env#readme',
+  },
+  source: {
+    github: 'notiv-nt/vite-plugin-vue-env',
+    npm: 'vite-plugin-vue-env',
   },
   stats: {
     stars: 4,

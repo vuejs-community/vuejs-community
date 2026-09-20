@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'minify',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-html-transform',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-html-transform',
+  },
+  source: {
+    npm: 'vite-plugin-html-transform',
   },
   stats: {
     stars: 0,

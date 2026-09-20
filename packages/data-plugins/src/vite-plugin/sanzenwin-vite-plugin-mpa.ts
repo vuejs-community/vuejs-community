@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'mpa',
   ],
-  source: {
-    github: 'sanzenwin/vite-plugin-mpa',
-    npm: '@sanzenwin/vite-plugin-mpa',
-  },
   links: {
     github: 'https://github.com/sanzenwin/vite-plugin-mpa',
     npm: 'https://www.npmjs.com/package/@sanzenwin/vite-plugin-mpa',
     website: 'https://github.com/sanzenwin/vite-plugin-mpa#readme',
+  },
+  source: {
+    github: 'sanzenwin/vite-plugin-mpa',
+    npm: '@sanzenwin/vite-plugin-mpa',
   },
   stats: {
     stars: 0,

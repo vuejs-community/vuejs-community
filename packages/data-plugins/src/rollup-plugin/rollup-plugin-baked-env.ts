@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'constants',
     'process.env',
   ],
-  source: {
-    github: 'victornpb/rollup-plugin-baked-env',
-    npm: 'rollup-plugin-baked-env',
-  },
   links: {
     github: 'https://github.com/victornpb/rollup-plugin-baked-env',
     npm: 'https://www.npmjs.com/package/rollup-plugin-baked-env',
     website: 'https://github.com/victornpb/rollup-plugin-baked-env',
+  },
+  source: {
+    github: 'victornpb/rollup-plugin-baked-env',
+    npm: 'rollup-plugin-baked-env',
   },
   stats: {
     stars: 4,

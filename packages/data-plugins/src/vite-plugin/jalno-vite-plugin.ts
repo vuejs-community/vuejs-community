@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'jalno-vite-plugin',
   ],
-  source: {
-    github: 'jalno/vite-plugin',
-    npm: '@jalno/vite-plugin',
-  },
   links: {
     github: 'https://github.com/jalno/vite-plugin',
     npm: 'https://www.npmjs.com/package/@jalno/vite-plugin',
     website: 'https://github.com/jalno/vite-plugin',
+  },
+  source: {
+    github: 'jalno/vite-plugin',
+    npm: '@jalno/vite-plugin',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'web-worker',
     'worker',
   ],
-  source: {
-    github: 'darionco/rollup-plugin-web-worker-loader',
-    npm: '@qortal/rollup-plugin-web-worker-loader',
-  },
   links: {
     github: 'https://github.com/darionco/rollup-plugin-web-worker-loader',
     npm: 'https://www.npmjs.com/package/@qortal/rollup-plugin-web-worker-loader',
     website: 'https://github.com/darionco/rollup-plugin-web-worker-loader#readme',
+  },
+  source: {
+    github: 'darionco/rollup-plugin-web-worker-loader',
+    npm: '@qortal/rollup-plugin-web-worker-loader',
   },
   stats: {
     stars: 0,

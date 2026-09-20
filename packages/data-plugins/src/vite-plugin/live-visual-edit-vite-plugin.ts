@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'jsx',
     'visual-editor',
   ],
-  source: {
-    github: 'mir-dev/live-visual-edit',
-    npm: '@live-visual-edit/vite-plugin',
-  },
   links: {
     github: 'https://github.com/mir-dev/live-visual-edit',
     npm: 'https://www.npmjs.com/package/@live-visual-edit/vite-plugin',
     website: 'https://github.com/mir-dev/live-visual-edit#readme',
+  },
+  source: {
+    github: 'mir-dev/live-visual-edit',
+    npm: '@live-visual-edit/vite-plugin',
   },
   stats: {
     stars: 0,

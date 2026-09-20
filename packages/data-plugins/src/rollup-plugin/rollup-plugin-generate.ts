@@ -12,12 +12,12 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    npm: 'rollup-plugin-generate',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-generate',
     website: 'https://github.com/sadan4/rollup-plugin-generate',
+  },
+  source: {
+    npm: 'rollup-plugin-generate',
   },
   stats: {
     stars: 0,

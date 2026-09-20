@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'env-vars',
     'schema-validation',
   ],
-  source: {
-    github: 'leroyanders/Ness.js',
-    npm: '@nessframework/env',
-  },
   links: {
     github: 'https://github.com/leroyanders/Ness.js',
     npm: 'https://www.npmjs.com/package/@nessframework/env',
     website: 'https://nessjs.com/docs/plugins/env',
+  },
+  source: {
+    github: 'leroyanders/Ness.js',
+    npm: '@nessframework/env',
   },
   stats: {
     stars: 0,

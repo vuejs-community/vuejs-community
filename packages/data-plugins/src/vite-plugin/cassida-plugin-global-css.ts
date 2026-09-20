@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'preflight',
     'cascade-layer',
   ],
-  source: {
-    github: 'pishio/cassida',
-    npm: '@cassida/plugin-global-css',
-  },
   links: {
     github: 'https://github.com/pishio/cassida',
     npm: 'https://www.npmjs.com/package/@cassida/plugin-global-css',
     website: 'https://github.com/pishio/cassida/tree/main/packages/plugin-global-css#readme',
+  },
+  source: {
+    github: 'pishio/cassida',
+    npm: '@cassida/plugin-global-css',
   },
   stats: {
     stars: 2,

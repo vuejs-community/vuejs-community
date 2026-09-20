@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'components',
     'atlas',
   ],
-  source: {
-    npm: 'vite-plugin-atlas',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-atlas',
+  },
+  source: {
+    npm: 'vite-plugin-atlas',
   },
   stats: {
     stars: 0,

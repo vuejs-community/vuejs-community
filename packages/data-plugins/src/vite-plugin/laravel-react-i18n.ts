@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'i18n',
     'inertiajs',
   ],
-  source: {
-    github: 'EugeneMeles/laravel-react-i18n',
-    npm: 'laravel-react-i18n',
-  },
   links: {
     github: 'https://github.com/EugeneMeles/laravel-react-i18n',
     npm: 'https://www.npmjs.com/package/laravel-react-i18n',
     website: 'https://github.com/EugeneMeles/laravel-react-i18n#readme',
+  },
+  source: {
+    github: 'EugeneMeles/laravel-react-i18n',
+    npm: 'laravel-react-i18n',
   },
   stats: {
     stars: 112,

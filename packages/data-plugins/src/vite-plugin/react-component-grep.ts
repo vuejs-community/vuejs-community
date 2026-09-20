@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'developer-tools',
     'inspector',
   ],
-  source: {
-    npm: 'react-component-grep',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/react-component-grep',
+  },
+  source: {
+    npm: 'react-component-grep',
   },
   stats: {
     stars: 0,

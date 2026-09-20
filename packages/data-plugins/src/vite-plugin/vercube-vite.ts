@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'environment-api',
     'framework',
   ],
-  source: {
-    github: 'vercube/vercube',
-    npm: '@vercube/vite',
-  },
   links: {
     github: 'https://github.com/vercube/vercube',
     npm: 'https://www.npmjs.com/package/@vercube/vite',
+  },
+  source: {
+    github: 'vercube/vercube',
+    npm: '@vercube/vite',
   },
   stats: {
     stars: 112,

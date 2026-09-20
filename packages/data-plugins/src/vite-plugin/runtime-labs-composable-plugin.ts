@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'inspector',
     'dx',
   ],
-  source: {
-    github: 'runtime-labs/vue-composable-observer',
-    npm: '@runtime-labs/composable-plugin',
-  },
   links: {
     github: 'https://github.com/runtime-labs/vue-composable-observer',
     npm: 'https://www.npmjs.com/package/@runtime-labs/composable-plugin',
     website: 'https://github.com/runtime-labs/vue-composable-observer',
+  },
+  source: {
+    github: 'runtime-labs/vue-composable-observer',
+    npm: '@runtime-labs/composable-plugin',
   },
   stats: {
     stars: 3,

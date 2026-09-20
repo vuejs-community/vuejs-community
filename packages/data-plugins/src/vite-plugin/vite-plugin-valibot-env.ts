@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'valibot',
   ],
-  source: {
-    github: 'idleberg/vite-plugin-valibot-env',
-    npm: 'vite-plugin-valibot-env',
-  },
   links: {
     github: 'https://github.com/idleberg/vite-plugin-valibot-env',
     npm: 'https://www.npmjs.com/package/vite-plugin-valibot-env',
     website: 'https://github.com/idleberg/vite-plugin-valibot-env#readme',
+  },
+  source: {
+    github: 'idleberg/vite-plugin-valibot-env',
+    npm: 'vite-plugin-valibot-env',
   },
   stats: {
     stars: 8,

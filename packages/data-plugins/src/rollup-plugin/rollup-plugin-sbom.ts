@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'dependency',
     'spdx',
   ],
-  source: {
-    github: 'janbiasi/rollup-plugin-sbom',
-    npm: 'rollup-plugin-sbom',
-  },
   links: {
     github: 'https://github.com/janbiasi/rollup-plugin-sbom',
     npm: 'https://www.npmjs.com/package/rollup-plugin-sbom',
     website: 'https://github.com/janbiasi/rollup-plugin-sbom#readme',
+  },
+  source: {
+    github: 'janbiasi/rollup-plugin-sbom',
+    npm: 'rollup-plugin-sbom',
   },
   stats: {
     stars: 0,

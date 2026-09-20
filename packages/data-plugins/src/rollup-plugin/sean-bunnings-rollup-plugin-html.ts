@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'html',
   ],
-  source: {
-    github: 'sean-bunnings/rollup-plugin-html',
-    npm: '@sean-bunnings/rollup-plugin-html',
-  },
   links: {
     github: 'https://github.com/sean-bunnings/rollup-plugin-html',
     npm: 'https://www.npmjs.com/package/@sean-bunnings/rollup-plugin-html',
     website: 'https://github.com/sean-bunnings/rollup-plugin-html',
+  },
+  source: {
+    github: 'sean-bunnings/rollup-plugin-html',
+    npm: '@sean-bunnings/rollup-plugin-html',
   },
   stats: {
     stars: 0,

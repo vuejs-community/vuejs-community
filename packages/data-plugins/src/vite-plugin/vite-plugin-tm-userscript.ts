@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    github: 'asadahimeka/vite-plugin-tm-userscript',
-    npm: 'vite-plugin-tm-userscript',
-  },
   links: {
     github: 'https://github.com/asadahimeka/vite-plugin-tm-userscript',
     npm: 'https://www.npmjs.com/package/vite-plugin-tm-userscript',
     website: 'https://github.com/asadahimeka/vite-plugin-tm-userscript#readme',
+  },
+  source: {
+    github: 'asadahimeka/vite-plugin-tm-userscript',
+    npm: 'vite-plugin-tm-userscript',
   },
   stats: {
     stars: 18,

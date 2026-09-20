@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'tauri-plugin',
   ],
-  source: {
-    github: 'Eudritch/vite-tauri-plugin',
-    npm: 'vite-tauri-plugin',
-  },
   links: {
     github: 'https://github.com/Eudritch/vite-tauri-plugin',
     npm: 'https://www.npmjs.com/package/vite-tauri-plugin',
     website: 'https://github.com/Eudritch/vite-tauri-plugin#readme',
+  },
+  source: {
+    github: 'Eudritch/vite-tauri-plugin',
+    npm: 'vite-tauri-plugin',
   },
   stats: {
     stars: 0,

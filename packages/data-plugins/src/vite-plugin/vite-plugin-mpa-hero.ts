@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'react',
     'vue',
   ],
-  source: {
-    github: 'BBREEZE/vite-plugin-mpa-hero',
-    npm: 'vite-plugin-mpa-hero',
-  },
   links: {
     github: 'https://github.com/BBREEZE/vite-plugin-mpa-hero',
     npm: 'https://www.npmjs.com/package/vite-plugin-mpa-hero',
     website: 'https://github.com/BBREEZE/vite-plugin-mpa-hero#readme',
+  },
+  source: {
+    github: 'BBREEZE/vite-plugin-mpa-hero',
+    npm: 'vite-plugin-mpa-hero',
   },
   stats: {
     stars: 0,

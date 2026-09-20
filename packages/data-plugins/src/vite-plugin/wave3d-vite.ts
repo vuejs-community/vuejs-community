@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'wave',
     'webgl',
   ],
-  source: {
-    github: 'Amir-Abushanab/wave3d',
-    npm: '@wave3d/vite',
-  },
   links: {
     github: 'https://github.com/Amir-Abushanab/wave3d',
     npm: 'https://www.npmjs.com/package/@wave3d/vite',
     website: 'https://github.com/Amir-Abushanab/wave3d/tree/main/packages/vite#readme',
+  },
+  source: {
+    github: 'Amir-Abushanab/wave3d',
+    npm: '@wave3d/vite',
   },
   stats: {
     stars: 2,

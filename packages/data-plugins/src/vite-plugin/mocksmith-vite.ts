@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'mock',
     'testing',
   ],
-  source: {
-    github: 'georg3103/mocksmith',
-    npm: '@mocksmith/vite',
-  },
   links: {
     github: 'https://github.com/georg3103/mocksmith',
     npm: 'https://www.npmjs.com/package/@mocksmith/vite',
     website: 'https://github.com/georg3103/mocksmith#readme',
+  },
+  source: {
+    github: 'georg3103/mocksmith',
+    npm: '@mocksmith/vite',
   },
   stats: {
     stars: 1,

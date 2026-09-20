@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'HeliosLang/rollup-plugin',
-    npm: '@helios-lang/rollup-plugin',
-  },
   links: {
     github: 'https://github.com/HeliosLang/rollup-plugin',
     npm: 'https://www.npmjs.com/package/@helios-lang/rollup-plugin',
     website: 'https://github.com/HeliosLang/rollup-plugin#readme',
+  },
+  source: {
+    github: 'HeliosLang/rollup-plugin',
+    npm: '@helios-lang/rollup-plugin',
   },
   stats: {
     stars: 0,

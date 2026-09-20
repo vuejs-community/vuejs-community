@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'indexnow',
     'ai-search',
   ],
-  source: {
-    github: 'tuld01061/sitegraph',
-    npm: 'sitegraph',
-  },
   links: {
     github: 'https://github.com/tuld01061/sitegraph',
     npm: 'https://www.npmjs.com/package/sitegraph',
     website: 'https://github.com/tuld01061/sitegraph#readme',
+  },
+  source: {
+    github: 'tuld01061/sitegraph',
+    npm: 'sitegraph',
   },
   stats: {
     stars: 0,

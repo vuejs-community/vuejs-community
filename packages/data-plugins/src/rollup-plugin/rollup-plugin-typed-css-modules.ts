@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'modules',
     'ts',
   ],
-  source: {
-    github: 'GZLiew/typed-css-modules-rollup-plugin',
-    npm: 'rollup-plugin-typed-css-modules',
-  },
   links: {
     github: 'https://github.com/GZLiew/typed-css-modules-rollup-plugin',
     npm: 'https://www.npmjs.com/package/rollup-plugin-typed-css-modules',
     website: 'https://github.com/GZLiew/typed-css-modules-rollup-plugin#readme',
+  },
+  source: {
+    github: 'GZLiew/typed-css-modules-rollup-plugin',
+    npm: 'rollup-plugin-typed-css-modules',
   },
   stats: {
     stars: 1,

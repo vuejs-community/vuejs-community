@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'MoritzLoewenstein/vite-plugin-zip',
-    npm: '@moritzloewenstein/vite-plugin-zip',
-  },
   links: {
     github: 'https://github.com/MoritzLoewenstein/vite-plugin-zip',
     npm: 'https://www.npmjs.com/package/@moritzloewenstein/vite-plugin-zip',
     website: 'https://github.com/MoritzLoewenstein/vite-plugin-zip#readme',
+  },
+  source: {
+    github: 'MoritzLoewenstein/vite-plugin-zip',
+    npm: '@moritzloewenstein/vite-plugin-zip',
   },
   stats: {
     stars: 0,

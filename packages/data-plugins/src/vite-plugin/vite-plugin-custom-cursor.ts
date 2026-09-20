@@ -21,12 +21,12 @@ export default defineProjectMeta({
     'transform',
     'generate',
   ],
-  source: {
-    npm: 'vite-plugin-custom-cursor',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-custom-cursor',
     website: 'https://github.com/eogic/vite-plugin-custom-cursor',
+  },
+  source: {
+    npm: 'vite-plugin-custom-cursor',
   },
   stats: {
     stars: 0,

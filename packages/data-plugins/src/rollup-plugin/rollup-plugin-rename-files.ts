@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'node_modules',
     'rename',
   ],
-  source: {
-    github: 'cxsowo/rollup-plugin-rename-files',
-    npm: 'rollup-plugin-rename-files',
-  },
   links: {
     github: 'https://github.com/cxsowo/rollup-plugin-rename-files',
     npm: 'https://www.npmjs.com/package/rollup-plugin-rename-files',
     website: 'https://github.com/cxsowo/rollup-plugin-rename-files#readme',
+  },
+  source: {
+    github: 'cxsowo/rollup-plugin-rename-files',
+    npm: 'rollup-plugin-rename-files',
   },
   stats: {
     stars: 0,

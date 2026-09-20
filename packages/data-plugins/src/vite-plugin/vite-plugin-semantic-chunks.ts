@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'tjx666/vite-plugin-semantic-chunks',
-    npm: 'vite-plugin-semantic-chunks',
-  },
   links: {
     github: 'https://github.com/tjx666/vite-plugin-semantic-chunks',
     npm: 'https://www.npmjs.com/package/vite-plugin-semantic-chunks',
     website: 'https://github.com/tjx666/vite-plugin-semantic-chunks#readme',
+  },
+  source: {
+    github: 'tjx666/vite-plugin-semantic-chunks',
+    npm: 'vite-plugin-semantic-chunks',
   },
   stats: {
     stars: 8,

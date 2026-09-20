@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://vue-final-modal.org/',
   },
   source: {
-    github: 'vue-final/vue-final-modal#master/packages/nuxt',
+    github: 'vue-final/vue-final-modal',
     npm: '@vue-final-modal/nuxt',
   },
 })

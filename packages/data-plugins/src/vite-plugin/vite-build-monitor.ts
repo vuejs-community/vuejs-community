@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'rss',
     'diagnostics',
   ],
-  source: {
-    github: 'BINGWU2003/vite-build-monitor',
-    npm: 'vite-build-monitor',
-  },
   links: {
     github: 'https://github.com/BINGWU2003/vite-build-monitor',
     npm: 'https://www.npmjs.com/package/vite-build-monitor',
     website: 'https://github.com/BINGWU2003/vite-build-monitor#readme',
+  },
+  source: {
+    github: 'BINGWU2003/vite-build-monitor',
+    npm: 'vite-build-monitor',
   },
   stats: {
     stars: 0,

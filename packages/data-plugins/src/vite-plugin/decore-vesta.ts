@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'server',
     'ssr',
   ],
-  source: {
-    github: 'stenin-nikita/decore-monorepo',
-    npm: '@decore/vesta',
-  },
   links: {
     github: 'https://github.com/stenin-nikita/decore-monorepo',
     npm: 'https://www.npmjs.com/package/@decore/vesta',
     website: 'https://github.com/stenin-nikita/decore-monorepo#readme',
+  },
+  source: {
+    github: 'stenin-nikita/decore-monorepo',
+    npm: '@decore/vesta',
   },
   stats: {
     stars: 0,

@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'vue',
     'vite-plugin',
   ],
-  source: {
-    npm: '@kviewui/vite-plugin-autocss',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@kviewui/vite-plugin-autocss',
     website: 'https://gitcode.net/kviewui/vite-plugin-autocss',
+  },
+  source: {
+    npm: '@kviewui/vite-plugin-autocss',
   },
   stats: {
     stars: 0,

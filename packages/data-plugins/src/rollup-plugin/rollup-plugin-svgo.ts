@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'svg',
     'svgo',
   ],
-  source: {
-    github: 'porsager/rollup-plugin-svgo',
-    npm: 'rollup-plugin-svgo',
-  },
   links: {
     github: 'https://github.com/porsager/rollup-plugin-svgo',
     npm: 'https://www.npmjs.com/package/rollup-plugin-svgo',
     website: 'https://github.com/porsager/rollup-plugin-svgo#readme',
+  },
+  source: {
+    github: 'porsager/rollup-plugin-svgo',
+    npm: 'rollup-plugin-svgo',
   },
   stats: {
     stars: 23,

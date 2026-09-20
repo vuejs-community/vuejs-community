@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'rollup-plugin',
     'shebang',
   ],
-  source: {
-    npm: 'rollup-plugin-resolve-shebang',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-resolve-shebang',
     website: 'https://github.com/mister-hope/rollup-plugin-resolve-shebang#readme',
+  },
+  source: {
+    npm: 'rollup-plugin-resolve-shebang',
   },
   stats: {
     stars: 0,

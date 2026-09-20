@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'sass',
     'scss',
   ],
-  source: {
-    github: 'ruintterra/rollup-plugin-scss',
-    npm: '@morlz/rollup-plugin-scss',
-  },
   links: {
     github: 'https://github.com/ruintterra/rollup-plugin-scss',
     npm: 'https://www.npmjs.com/package/@morlz/rollup-plugin-scss',
     website: 'https://github.com/ruintterra/rollup-plugin-scss',
+  },
+  source: {
+    github: 'ruintterra/rollup-plugin-scss',
+    npm: '@morlz/rollup-plugin-scss',
   },
   stats: {
     stars: 0,

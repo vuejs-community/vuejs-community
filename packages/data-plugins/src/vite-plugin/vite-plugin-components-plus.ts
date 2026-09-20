@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-components-plus',
   ],
-  source: {
-    npm: 'vite-plugin-components-plus',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-components-plus',
+  },
+  source: {
+    npm: 'vite-plugin-components-plus',
   },
   stats: {
     stars: 0,

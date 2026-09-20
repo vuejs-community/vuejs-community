@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'typescript',
     'javascript',
   ],
-  source: {
-    github: 'stacksjs/tlsx',
-    npm: 'vite-plugin-tlsx',
-  },
   links: {
     github: 'https://github.com/stacksjs/tlsx',
     npm: 'https://www.npmjs.com/package/vite-plugin-tlsx',
     website: 'https://github.com/stacksjs/tlsx',
+  },
+  source: {
+    github: 'stacksjs/tlsx',
+    npm: 'vite-plugin-tlsx',
   },
   stats: {
     stars: 47,

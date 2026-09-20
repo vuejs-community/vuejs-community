@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'vite-dev-logger',
     'vite-morgan',
   ],
-  source: {
-    github: 'EyalShapiro/vite-plugin-request-logger',
-    npm: 'vite-plugin-request-logger',
-  },
   links: {
     github: 'https://github.com/EyalShapiro/vite-plugin-request-logger',
     npm: 'https://www.npmjs.com/package/vite-plugin-request-logger',
     website: 'https://www.npmjs.com/package/vite-plugin-request-logger',
+  },
+  source: {
+    github: 'EyalShapiro/vite-plugin-request-logger',
+    npm: 'vite-plugin-request-logger',
   },
   stats: {
     stars: 1,

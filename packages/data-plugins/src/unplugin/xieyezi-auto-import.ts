@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'auto-import',
     'transform',
   ],
-  source: {
-    npm: '@xieyezi/auto-import',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xieyezi/auto-import',
+  },
+  source: {
+    npm: '@xieyezi/auto-import',
   },
   stats: {
     stars: 0,

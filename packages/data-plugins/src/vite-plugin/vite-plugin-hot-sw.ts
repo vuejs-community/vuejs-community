@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'hot-reload',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-hot-sw',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-hot-sw',
+  },
+  source: {
+    npm: 'vite-plugin-hot-sw',
   },
   stats: {
     stars: 0,

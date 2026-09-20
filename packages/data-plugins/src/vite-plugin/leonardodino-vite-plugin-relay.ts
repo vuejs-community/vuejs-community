@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-relay',
   ],
-  source: {
-    github: 'leonardodino/vite-plugin-relay',
-    npm: '@leonardodino/vite-plugin-relay',
-  },
   links: {
     github: 'https://github.com/leonardodino/vite-plugin-relay',
     npm: 'https://www.npmjs.com/package/@leonardodino/vite-plugin-relay',
     website: 'https://github.com/leonardodino/vite-plugin-relay#readme',
+  },
+  source: {
+    github: 'leonardodino/vite-plugin-relay',
+    npm: '@leonardodino/vite-plugin-relay',
   },
   stats: {
     stars: 0,

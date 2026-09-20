@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup',
     'make',
   ],
-  source: {
-    github: 'btmorex/rollup-plugin-make',
-    npm: 'rollup-plugin-make',
-  },
   links: {
     github: 'https://github.com/btmorex/rollup-plugin-make',
     npm: 'https://www.npmjs.com/package/rollup-plugin-make',
     website: 'https://github.com/btmorex/rollup-plugin-make',
+  },
+  source: {
+    github: 'btmorex/rollup-plugin-make',
+    npm: 'rollup-plugin-make',
   },
   stats: {
     stars: 2,

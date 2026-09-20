@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'unicode',
     'mltt',
   ],
-  source: {
-    github: 'Anit-K-Peter/MadhuMLTT',
-    npm: '@madhu-mltt/vite',
-  },
   links: {
     github: 'https://github.com/Anit-K-Peter/MadhuMLTT',
     npm: 'https://www.npmjs.com/package/@madhu-mltt/vite',
     website: 'https://github.com/Anit-K-Peter/MadhuMLTT#readme',
+  },
+  source: {
+    github: 'Anit-K-Peter/MadhuMLTT',
+    npm: '@madhu-mltt/vite',
   },
   stats: {
     stars: 2,

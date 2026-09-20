@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'css-module',
   ],
-  source: {
-    github: 'tongtannan/vite-plugin-for-load-css-module',
-    npm: 'vite-plugin-for-load-css-module',
-  },
   links: {
     github: 'https://github.com/tongtannan/vite-plugin-for-load-css-module',
     npm: 'https://www.npmjs.com/package/vite-plugin-for-load-css-module',
     website: 'https://github.com/tongtannan/vite-plugin-for-load-css-module',
+  },
+  source: {
+    github: 'tongtannan/vite-plugin-for-load-css-module',
+    npm: 'vite-plugin-for-load-css-module',
   },
   stats: {
     stars: 1,

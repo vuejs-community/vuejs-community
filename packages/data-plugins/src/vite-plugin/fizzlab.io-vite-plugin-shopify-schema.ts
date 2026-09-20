@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'shopify',
     'vite-plugin',
   ],
-  source: {
-    github: 'fizzlab-io/packages',
-    npm: '@fizzlab.io/vite-plugin-shopify-schema',
-  },
   links: {
     github: 'https://github.com/fizzlab-io/packages',
     npm: 'https://www.npmjs.com/package/@fizzlab.io/vite-plugin-shopify-schema',
     website: 'https://github.com/fizzlab-io/packages#readme',
+  },
+  source: {
+    github: 'fizzlab-io/packages',
+    npm: '@fizzlab.io/vite-plugin-shopify-schema',
   },
   stats: {
     stars: 0,

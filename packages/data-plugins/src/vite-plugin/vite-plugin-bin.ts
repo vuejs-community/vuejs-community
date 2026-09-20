@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'shebang',
     'executable',
   ],
-  source: {
-    github: 'Shakeskeyboarde/vite-plugin-bin',
-    npm: 'vite-plugin-bin',
-  },
   links: {
     github: 'https://github.com/Shakeskeyboarde/vite-plugin-bin',
     npm: 'https://www.npmjs.com/package/vite-plugin-bin',
     website: 'https://github.com/Shakeskeyboarde/vite-plugin-bin#readme',
+  },
+  source: {
+    github: 'Shakeskeyboarde/vite-plugin-bin',
+    npm: 'vite-plugin-bin',
   },
   stats: {
     stars: 1,

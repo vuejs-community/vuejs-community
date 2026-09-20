@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'auto-import',
     'zc-ui',
   ],
-  source: {
-    github: 'zcais/zc-ui',
-    npm: '@zc-ui/resolver',
-  },
   links: {
     github: 'https://github.com/zcais/zc-ui',
     npm: 'https://www.npmjs.com/package/@zc-ui/resolver',
     website: 'https://zcais.github.io/zc-ui',
+  },
+  source: {
+    github: 'zcais/zc-ui',
+    npm: '@zc-ui/resolver',
   },
   stats: {
     stars: 0,

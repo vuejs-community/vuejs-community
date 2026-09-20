@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'ember-intl/ember-intl',
-    npm: '@ember-intl/vite',
-  },
   links: {
     github: 'https://github.com/ember-intl/ember-intl',
     npm: 'https://www.npmjs.com/package/@ember-intl/vite',
     website: 'https://ember-intl.github.io/ember-intl/',
+  },
+  source: {
+    github: 'ember-intl/ember-intl',
+    npm: '@ember-intl/vite',
   },
   stats: {
     stars: 439,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'typescript',
     'hot module replacement',
   ],
-  source: {
-    github: 'x8BitRain/vite-plugin-ts-sw-hmr',
-    npm: 'vite-plugin-ts-sw-hmr',
-  },
   links: {
     github: 'https://github.com/x8BitRain/vite-plugin-ts-sw-hmr',
     npm: 'https://www.npmjs.com/package/vite-plugin-ts-sw-hmr',
     website: 'https://github.com/x8BitRain/vite-plugin-ts-sw-hmr#readme',
+  },
+  source: {
+    github: 'x8BitRain/vite-plugin-ts-sw-hmr',
+    npm: 'vite-plugin-ts-sw-hmr',
   },
   stats: {
     stars: 4,

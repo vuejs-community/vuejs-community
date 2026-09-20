@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'preload',
     'prefetch',
   ],
-  source: {
-    github: 'kevinfarrugia/vite-plugin-preload-prefetch',
-    npm: 'vite-plugin-preload-prefetch',
-  },
   links: {
     github: 'https://github.com/kevinfarrugia/vite-plugin-preload-prefetch',
     npm: 'https://www.npmjs.com/package/vite-plugin-preload-prefetch',
     website: 'https://github.com/kevinfarrugia/vite-plugin-preload-prefetch#readme',
+  },
+  source: {
+    github: 'kevinfarrugia/vite-plugin-preload-prefetch',
+    npm: 'vite-plugin-preload-prefetch',
   },
   stats: {
     stars: 1,

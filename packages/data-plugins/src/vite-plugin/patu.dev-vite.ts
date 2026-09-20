@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'webp',
     'cdn',
   ],
-  source: {
-    github: 'Gheop/patu-js',
-    npm: '@patu.dev/vite',
-  },
   links: {
     github: 'https://github.com/Gheop/patu-js',
     npm: 'https://www.npmjs.com/package/@patu.dev/vite',
     website: 'https://github.com/Gheop/patu-js/tree/main/packages/vite#readme',
+  },
+  source: {
+    github: 'Gheop/patu-js',
+    npm: '@patu.dev/vite',
   },
   stats: {
     stars: 0,

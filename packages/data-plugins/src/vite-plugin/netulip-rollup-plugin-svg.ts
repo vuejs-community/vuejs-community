@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'netulip/rollup-plugin-svg',
-    npm: '@netulip/rollup-plugin-svg',
-  },
   links: {
     github: 'https://github.com/netulip/rollup-plugin-svg',
     npm: 'https://www.npmjs.com/package/@netulip/rollup-plugin-svg',
     website: 'https://github.com/netulip/rollup-plugin-svg#readme',
+  },
+  source: {
+    github: 'netulip/rollup-plugin-svg',
+    npm: '@netulip/rollup-plugin-svg',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'canvascat/unplugin-svgr',
-    npm: 'unplugin-svgr2',
-  },
   links: {
     github: 'https://github.com/canvascat/unplugin-svgr',
     npm: 'https://www.npmjs.com/package/unplugin-svgr2',
     website: 'https://github.com/canvascat/unplugin-svgr#readme',
+  },
+  source: {
+    github: 'canvascat/unplugin-svgr',
+    npm: 'unplugin-svgr2',
   },
   stats: {
     stars: 0,

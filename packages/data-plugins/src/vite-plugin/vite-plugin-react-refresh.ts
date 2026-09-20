@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin-react-refresh',
     '@vitejs/plugin-react-refresh',
   ],
-  source: {
-    github: 'fengxinming/vite-plugins',
-    npm: 'vite-plugin-react-refresh',
-  },
   links: {
     github: 'https://github.com/fengxinming/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-refresh',
     website: 'https://github.com/fengxinming/vite-plugins#readme',
+  },
+  source: {
+    github: 'fengxinming/vite-plugins',
+    npm: 'vite-plugin-react-refresh',
   },
   stats: {
     stars: 0,

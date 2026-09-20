@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'optimization',
     'build-tool',
   ],
-  source: {
-    github: 'vinayjampana/vite-plugin-bundle-size-tracker',
-    npm: 'vite-plugin-bundle-size-tracker',
-  },
   links: {
     github: 'https://github.com/vinayjampana/vite-plugin-bundle-size-tracker',
     npm: 'https://www.npmjs.com/package/vite-plugin-bundle-size-tracker',
     website: 'https://github.com/vinayjampana/vite-plugin-bundle-size-tracker#readme',
+  },
+  source: {
+    github: 'vinayjampana/vite-plugin-bundle-size-tracker',
+    npm: 'vite-plugin-bundle-size-tracker',
   },
   stats: {
     stars: 1,

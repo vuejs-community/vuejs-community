@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'config',
     'internetstiftelsen',
   ],
-  source: {
-    github: 'sewebb/standards-and-conventions',
-    npm: '@internetstiftelsen/vite-plugin',
-  },
   links: {
     github: 'https://github.com/sewebb/standards-and-conventions',
     npm: 'https://www.npmjs.com/package/@internetstiftelsen/vite-plugin',
     website: 'https://github.com/sewebb/standards-and-conventions#readme',
+  },
+  source: {
+    github: 'sewebb/standards-and-conventions',
+    npm: '@internetstiftelsen/vite-plugin',
   },
   stats: {
     stars: 0,

@@ -20,12 +20,12 @@ export default defineProjectMeta({
     'ark',
     'arckode',
   ],
-  source: {
-    npm: 'arckode-ui',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/arckode-ui',
     website: 'https://gitlab.com/underworf/arckode-ui',
+  },
+  source: {
+    npm: 'arckode-ui',
   },
   stats: {
     stars: 0,

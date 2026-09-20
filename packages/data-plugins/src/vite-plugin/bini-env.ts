@@ -29,14 +29,14 @@ export default defineProjectMeta({
     'cloudflare-workers',
     'runtime-agnostic',
   ],
-  source: {
-    github: 'Binidu01/Bini-Env',
-    npm: 'bini-env',
-  },
   links: {
     github: 'https://github.com/Binidu01/Bini-Env',
     npm: 'https://www.npmjs.com/package/bini-env',
     website: 'https://github.com/Binidu01/Bini-Env#readme',
+  },
+  source: {
+    github: 'Binidu01/Bini-Env',
+    npm: 'bini-env',
   },
   stats: {
     stars: 1,

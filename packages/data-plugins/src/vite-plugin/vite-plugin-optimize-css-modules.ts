@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'css',
     'minify',
   ],
-  source: {
-    github: 'simonwep/vite-plugin-optimize-css-modules',
-    npm: 'vite-plugin-optimize-css-modules',
-  },
   links: {
     github: 'https://github.com/simonwep/vite-plugin-optimize-css-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-optimize-css-modules',
     website: 'https://github.com/simonwep/vite-plugin-optimize-css-modules',
+  },
+  source: {
+    github: 'simonwep/vite-plugin-optimize-css-modules',
+    npm: 'vite-plugin-optimize-css-modules',
   },
   stats: {
     stars: 48,

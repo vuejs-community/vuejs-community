@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'block-editor',
     'typescript',
   ],
-  source: {
-    github: 'JonImmsWordpressDev/StrataWP',
-    npm: '@stratawp/vite-plugin',
-  },
   links: {
     github: 'https://github.com/JonImmsWordpressDev/StrataWP',
     npm: 'https://www.npmjs.com/package/@stratawp/vite-plugin',
     website: 'https://github.com/JonImmsWordpressDev/StrataWP#readme',
+  },
+  source: {
+    github: 'JonImmsWordpressDev/StrataWP',
+    npm: '@stratawp/vite-plugin',
   },
   stats: {
     stars: 0,

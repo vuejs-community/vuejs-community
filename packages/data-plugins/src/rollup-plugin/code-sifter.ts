@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'conditional',
     'compilation',
   ],
-  source: {
-    github: 'ShueyYuen/CodeSifter',
-    npm: 'code-sifter',
-  },
   links: {
     github: 'https://github.com/ShueyYuen/CodeSifter',
     npm: 'https://www.npmjs.com/package/code-sifter',
     website: 'https://github.com/ShueyYuen/CodeSifter#readme',
+  },
+  source: {
+    github: 'ShueyYuen/CodeSifter',
+    npm: 'code-sifter',
   },
   stats: {
     stars: 1,

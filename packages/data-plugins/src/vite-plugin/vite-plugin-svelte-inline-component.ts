@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'vitest',
     'vite',
   ],
-  source: {
-    npm: 'vite-plugin-svelte-inline-component',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-svelte-inline-component',
+  },
+  source: {
+    npm: 'vite-plugin-svelte-inline-component',
   },
   stats: {
     stars: 0,

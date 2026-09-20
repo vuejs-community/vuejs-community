@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'web-components',
     'lit',
   ],
-  source: {
-    github: 'gracile-web/gracile',
-    npm: 'vite-plugin-standard-css-modules',
-  },
   links: {
     github: 'https://github.com/gracile-web/gracile',
     npm: 'https://www.npmjs.com/package/vite-plugin-standard-css-modules',
     website: 'https://gracile.js.org',
+  },
+  source: {
+    github: 'gracile-web/gracile',
+    npm: 'vite-plugin-standard-css-modules',
   },
   stats: {
     stars: 0,

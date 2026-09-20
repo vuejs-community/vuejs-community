@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'bkuri/rollup-plugin-coffeescript',
-    npm: '@bkuri/rollup-plugin-coffeescript',
-  },
   links: {
     github: 'https://github.com/bkuri/rollup-plugin-coffeescript',
     npm: 'https://www.npmjs.com/package/@bkuri/rollup-plugin-coffeescript',
     website: 'https://github.com/bkuri/rollup-plugin-coffeescript',
+  },
+  source: {
+    github: 'bkuri/rollup-plugin-coffeescript',
+    npm: '@bkuri/rollup-plugin-coffeescript',
   },
   stats: {
     stars: 6,

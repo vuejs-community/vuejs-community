@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'kenzo-pj/unifast',
-    npm: '@unifast/vite',
-  },
   links: {
     github: 'https://github.com/kenzo-pj/unifast',
     npm: 'https://www.npmjs.com/package/@unifast/vite',
     website: 'https://unifast.dev',
+  },
+  source: {
+    github: 'kenzo-pj/unifast',
+    npm: '@unifast/vite',
   },
   stats: {
     stars: 19,

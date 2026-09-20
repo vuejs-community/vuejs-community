@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'unplugin',
     'vite',
   ],
-  source: {
-    github: 'hayatosc/hono-email',
-    npm: '@hono-email/tailwind-plugin',
-  },
   links: {
     github: 'https://github.com/hayatosc/hono-email',
     npm: 'https://www.npmjs.com/package/@hono-email/tailwind-plugin',
     website: 'https://github.com/hayatosc/hono-email#readme',
+  },
+  source: {
+    github: 'hayatosc/hono-email',
+    npm: '@hono-email/tailwind-plugin',
   },
   stats: {
     stars: 1,

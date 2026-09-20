@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'check',
     'unplugin',
   ],
-  source: {
-    github: 'GoogleFeud/ts-runtime-checks',
-    npm: 'ts-runtime-checks',
-  },
   links: {
     github: 'https://github.com/GoogleFeud/ts-runtime-checks',
     npm: 'https://www.npmjs.com/package/ts-runtime-checks',
     website: 'https://github.com/GoogleFeud/ts-runtime-checks#readme',
+  },
+  source: {
+    github: 'GoogleFeud/ts-runtime-checks',
+    npm: 'ts-runtime-checks',
   },
   stats: {
     stars: 406,

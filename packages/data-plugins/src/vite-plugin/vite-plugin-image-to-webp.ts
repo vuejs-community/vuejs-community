@@ -20,12 +20,12 @@ export default defineProjectMeta({
     'typescript',
     'adjustable',
   ],
-  source: {
-    npm: 'vite-plugin-image-to-webp',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-image-to-webp',
     website: 'https://gitlab.com/gdur.mugen/vite-plugin-image-to-webp#readme',
+  },
+  source: {
+    npm: 'vite-plugin-image-to-webp',
   },
   stats: {
     stars: 0,

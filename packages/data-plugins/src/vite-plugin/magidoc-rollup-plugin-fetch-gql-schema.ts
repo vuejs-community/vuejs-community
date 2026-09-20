@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'graphql-schema',
     'magidoc',
   ],
-  source: {
-    github: 'magidoc-org/magidoc',
-    npm: '@magidoc/rollup-plugin-fetch-gql-schema',
-  },
   links: {
     github: 'https://github.com/magidoc-org/magidoc',
     npm: 'https://www.npmjs.com/package/@magidoc/rollup-plugin-fetch-gql-schema',
     website: 'https://magidoc.js.org/plugins/rollup-fetch-graphql-schema',
+  },
+  source: {
+    github: 'magidoc-org/magidoc',
+    npm: '@magidoc/rollup-plugin-fetch-gql-schema',
   },
   stats: {
     stars: 285,

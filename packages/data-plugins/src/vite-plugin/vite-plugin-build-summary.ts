@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'TheSunset/vite-plugin-build-summary',
-    npm: 'vite-plugin-build-summary',
-  },
   links: {
     github: 'https://github.com/TheSunset/vite-plugin-build-summary',
     npm: 'https://www.npmjs.com/package/vite-plugin-build-summary',
     website: 'https://github.com/TheSunset/vite-plugin-build-summary#readme',
+  },
+  source: {
+    github: 'TheSunset/vite-plugin-build-summary',
+    npm: 'vite-plugin-build-summary',
   },
   stats: {
     stars: 0,

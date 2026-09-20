@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'vicinage',
   ],
-  source: {
-    github: 'chbybnwr/vicinage-unplugin',
-    npm: '@vicinage/unplugin',
-  },
   links: {
     github: 'https://github.com/chbybnwr/vicinage-unplugin',
     npm: 'https://www.npmjs.com/package/@vicinage/unplugin',
     website: 'https://github.com/chbybnwr/vicinage-unplugin',
+  },
+  source: {
+    github: 'chbybnwr/vicinage-unplugin',
+    npm: '@vicinage/unplugin',
   },
   stats: {
     stars: 1,

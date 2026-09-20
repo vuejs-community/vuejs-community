@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'fiber',
     'dx',
   ],
-  source: {
-    npm: 'react-inspect-overlay',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/react-inspect-overlay',
+  },
+  source: {
+    npm: 'react-inspect-overlay',
   },
   stats: {
     stars: 0,

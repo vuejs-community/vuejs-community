@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'import',
     'buffer',
   ],
-  source: {
-    github: 'JadedBlueEyes/vite-plugin-import-buffer',
-    npm: 'vite-plugin-import-buffer',
-  },
   links: {
     github: 'https://github.com/JadedBlueEyes/vite-plugin-import-buffer',
     npm: 'https://www.npmjs.com/package/vite-plugin-import-buffer',
     website: 'https://github.com/JadedBlueEyes/vite-plugin-import-buffer#readme',
+  },
+  source: {
+    github: 'JadedBlueEyes/vite-plugin-import-buffer',
+    npm: 'vite-plugin-import-buffer',
   },
   stats: {
     stars: 0,

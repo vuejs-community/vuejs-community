@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'lib',
     'dts',
   ],
-  source: {
-    github: 'alloc/vite-dts',
-    npm: '@rexxars/vite-dts',
-  },
   links: {
     github: 'https://github.com/alloc/vite-dts',
     npm: 'https://www.npmjs.com/package/@rexxars/vite-dts',
     website: 'https://github.com/alloc/vite-dts#readme',
+  },
+  source: {
+    github: 'alloc/vite-dts',
+    npm: '@rexxars/vite-dts',
   },
   stats: {
     stars: 87,

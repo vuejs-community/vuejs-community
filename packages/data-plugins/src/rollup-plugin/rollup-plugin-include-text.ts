@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'text',
     'extract',
   ],
-  source: {
-    npm: 'rollup-plugin-include-text',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-include-text',
+  },
+  source: {
+    npm: 'rollup-plugin-include-text',
   },
   stats: {
     stars: 0,

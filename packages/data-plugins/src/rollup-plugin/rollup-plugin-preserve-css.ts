@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'rollup',
     'css',
   ],
-  source: {
-    npm: 'rollup-plugin-preserve-css',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-preserve-css',
+  },
+  source: {
+    npm: 'rollup-plugin-preserve-css',
   },
   stats: {
     stars: 0,

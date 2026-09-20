@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'remark',
     'toc',
   ],
-  source: {
-    github: 'sveltek/markdown',
-    npm: '@sveltek/remark-toc',
-  },
   links: {
     github: 'https://github.com/sveltek/markdown',
     npm: 'https://www.npmjs.com/package/@sveltek/remark-toc',
     website: 'https://github.com/sveltek/markdown',
+  },
+  source: {
+    github: 'sveltek/markdown',
+    npm: '@sveltek/remark-toc',
   },
   stats: {
     stars: 0,

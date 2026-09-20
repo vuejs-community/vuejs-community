@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'antfu/vite-plugin-pwa',
-    npm: '@knows/vite-plugin-pwa',
-  },
   links: {
     github: 'https://github.com/antfu/vite-plugin-pwa',
     npm: 'https://www.npmjs.com/package/@knows/vite-plugin-pwa',
     website: 'https://github.com/antfu/vite-plugin-pwa',
+  },
+  source: {
+    github: 'antfu/vite-plugin-pwa',
+    npm: '@knows/vite-plugin-pwa',
   },
   stats: {
     stars: 4269,

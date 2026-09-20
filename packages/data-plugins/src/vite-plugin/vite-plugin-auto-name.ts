@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-auto-name',
   ],
-  source: {
-    npm: 'vite-plugin-auto-name',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-name',
     website: 'https://github.com/dengwenj/vite-plugins',
+  },
+  source: {
+    npm: 'vite-plugin-auto-name',
   },
   stats: {
     stars: 0,

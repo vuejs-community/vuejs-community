@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'manifest V3',
     'chorme extension',
   ],
-  source: {
-    github: 'JingHong0202/vite-plugin-br-ext',
-    npm: 'vite-plugin-br-ext',
-  },
   links: {
     github: 'https://github.com/JingHong0202/vite-plugin-br-ext',
     npm: 'https://www.npmjs.com/package/vite-plugin-br-ext',
     website: 'https://github.com/JingHong0202/vite-plugin-br-ext#readme',
+  },
+  source: {
+    github: 'JingHong0202/vite-plugin-br-ext',
+    npm: 'vite-plugin-br-ext',
   },
   stats: {
     stars: 1,

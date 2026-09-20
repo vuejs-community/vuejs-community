@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'unplugin',
     'ai-agents',
   ],
-  source: {
-    github: 'dennation/typebook',
-    npm: '@dennation/typebook',
-  },
   links: {
     github: 'https://github.com/dennation/typebook',
     npm: 'https://www.npmjs.com/package/@dennation/typebook',
     website: 'https://github.com/dennation/typebook#readme',
+  },
+  source: {
+    github: 'dennation/typebook',
+    npm: '@dennation/typebook',
   },
   stats: {
     stars: 0,

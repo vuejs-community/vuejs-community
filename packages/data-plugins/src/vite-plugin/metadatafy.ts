@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'code-analysis',
     'ast',
   ],
-  source: {
-    npm: 'metadatafy',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/metadatafy',
+  },
+  source: {
+    npm: 'metadatafy',
   },
   stats: {
     stars: 0,

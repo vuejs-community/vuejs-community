@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'markdown',
     'vite-plugin',
   ],
-  source: {
-    github: 'reactjser/vite-plugin-vue-md',
-    npm: 'vite-plugin-vue-md',
-  },
   links: {
     github: 'https://github.com/reactjser/vite-plugin-vue-md',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-md',
     website: 'https://github.com/reactjser/vite-plugin-vue-md#readme',
+  },
+  source: {
+    github: 'reactjser/vite-plugin-vue-md',
+    npm: 'vite-plugin-vue-md',
   },
   stats: {
     stars: 1,

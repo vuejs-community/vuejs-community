@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'html',
     'bundle-html',
   ],
-  source: {
-    github: 'haifeng2013/rollup-plugin-bundle-html',
-    npm: 'rollup-plugin-bundle-html',
-  },
   links: {
     github: 'https://github.com/haifeng2013/rollup-plugin-bundle-html',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bundle-html',
     website: 'https://github.com/haifeng2013/rollup-plugin-bundle-html#readme',
+  },
+  source: {
+    github: 'haifeng2013/rollup-plugin-bundle-html',
+    npm: 'rollup-plugin-bundle-html',
   },
   stats: {
     stars: 27,

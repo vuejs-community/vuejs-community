@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'bundle',
   ],
-  source: {
-    github: 'run-z/rollup-plugin-unbundle',
-    npm: 'rollup-plugin-unbundle',
-  },
   links: {
     github: 'https://github.com/run-z/rollup-plugin-unbundle',
     npm: 'https://www.npmjs.com/package/rollup-plugin-unbundle',
     website: 'https://github.com/run-z/rollup-plugin-unbundle',
+  },
+  source: {
+    github: 'run-z/rollup-plugin-unbundle',
+    npm: 'rollup-plugin-unbundle',
   },
   stats: {
     stars: 0,

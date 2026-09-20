@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite静态资源复制',
   ],
-  source: {
-    github: 'crx-96/vite-plugin-file-copy',
-    npm: 'vite-plugin-file-copy',
-  },
   links: {
     github: 'https://github.com/crx-96/vite-plugin-file-copy',
     npm: 'https://www.npmjs.com/package/vite-plugin-file-copy',
     website: 'https://github.com/crx-96/vite-plugin-file-copy#readme',
+  },
+  source: {
+    github: 'crx-96/vite-plugin-file-copy',
+    npm: 'vite-plugin-file-copy',
   },
   stats: {
     stars: 0,

@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'router',
     'cmiot',
   ],
-  source: {
-    npm: 'zerg-cmiot-vite-plugin-auto-routes',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/zerg-cmiot-vite-plugin-auto-routes',
+  },
+  source: {
+    npm: 'zerg-cmiot-vite-plugin-auto-routes',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'tree-shaking',
     'auto-import',
   ],
-  source: {
-    github: 'thegrowthtech/vuetify-vite-plugin',
-    npm: 'vuetify-vite-plugin',
-  },
   links: {
     github: 'https://github.com/thegrowthtech/vuetify-vite-plugin',
     npm: 'https://www.npmjs.com/package/vuetify-vite-plugin',
     website: 'https://github.com/thegrowthtech/vuetify-vite-plugin#readme',
+  },
+  source: {
+    github: 'thegrowthtech/vuetify-vite-plugin',
+    npm: 'vuetify-vite-plugin',
   },
   stats: {
     stars: 0,

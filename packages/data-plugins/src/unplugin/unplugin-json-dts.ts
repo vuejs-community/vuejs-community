@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rollup',
     'webpack',
   ],
-  source: {
-    github: 'flixcor/unplugin-json-dts',
-    npm: 'unplugin-json-dts',
-  },
   links: {
     github: 'https://github.com/flixcor/unplugin-json-dts',
     npm: 'https://www.npmjs.com/package/unplugin-json-dts',
     website: 'https://github.com/flixcor/unplugin-json-dts#readme',
+  },
+  source: {
+    github: 'flixcor/unplugin-json-dts',
+    npm: 'unplugin-json-dts',
   },
   stats: {
     stars: 16,

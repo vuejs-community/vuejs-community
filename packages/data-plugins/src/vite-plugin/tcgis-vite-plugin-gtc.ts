@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'Cesium',
     'gtc-sdk',
   ],
-  source: {
-    npm: '@tcgis/vite-plugin-gtc',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@tcgis/vite-plugin-gtc',
+  },
+  source: {
+    npm: '@tcgis/vite-plugin-gtc',
   },
   stats: {
     stars: 0,

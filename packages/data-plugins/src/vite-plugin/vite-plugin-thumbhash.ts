@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'image',
     'avif',
   ],
-  source: {
-    github: 'cijiugechu/vite-plugin-thumbhash',
-    npm: 'vite-plugin-thumbhash',
-  },
   links: {
     github: 'https://github.com/cijiugechu/vite-plugin-thumbhash',
     npm: 'https://www.npmjs.com/package/vite-plugin-thumbhash',
     website: 'https://github.com/cijiugechu/vite-plugin-thumbhash',
+  },
+  source: {
+    github: 'cijiugechu/vite-plugin-thumbhash',
+    npm: 'vite-plugin-thumbhash',
   },
   stats: {
     stars: 11,

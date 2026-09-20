@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dev-server',
     'static',
   ],
-  source: {
-    github: 'genie88/rollup-plugin-server',
-    npm: 'rollup-plugin-dev-server',
-  },
   links: {
     github: 'https://github.com/genie88/rollup-plugin-server',
     npm: 'https://www.npmjs.com/package/rollup-plugin-dev-server',
     website: 'https://github.com/genie88/rollup-plugin-server',
+  },
+  source: {
+    github: 'genie88/rollup-plugin-server',
+    npm: 'rollup-plugin-dev-server',
   },
   stats: {
     stars: 0,

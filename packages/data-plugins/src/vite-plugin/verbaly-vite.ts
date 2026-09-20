@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'verbaly',
   ],
-  source: {
-    github: 'AronSoto/verbaly',
-    npm: '@verbaly/vite',
-  },
   links: {
     github: 'https://github.com/AronSoto/verbaly',
     npm: 'https://www.npmjs.com/package/@verbaly/vite',
     website: 'https://verbaly-web.vercel.app/docs/frameworks/vite',
+  },
+  source: {
+    github: 'AronSoto/verbaly',
+    npm: '@verbaly/vite',
   },
   stats: {
     stars: 4,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'unified',
     'html',
   ],
-  source: {
-    github: 'keplersj/rollup-plugin-rehype',
-    npm: 'rollup-plugin-rehype',
-  },
   links: {
     github: 'https://github.com/keplersj/rollup-plugin-rehype',
     npm: 'https://www.npmjs.com/package/rollup-plugin-rehype',
     website: 'https://github.com/keplersj/rollup-plugin-rehype#readme',
+  },
+  source: {
+    github: 'keplersj/rollup-plugin-rehype',
+    npm: 'rollup-plugin-rehype',
   },
   stats: {
     stars: 0,

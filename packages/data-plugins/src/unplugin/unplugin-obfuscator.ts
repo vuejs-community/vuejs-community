@@ -22,11 +22,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'webpack-plugin',
   ],
-  source: {
-    npm: 'unplugin-obfuscator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-obfuscator',
+  },
+  source: {
+    npm: 'unplugin-obfuscator',
   },
   stats: {
     stars: 0,

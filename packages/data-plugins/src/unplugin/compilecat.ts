@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'javascript',
     'performance',
   ],
-  source: {
-    github: 'isaac-mason/compilecat',
-    npm: 'compilecat',
-  },
   links: {
     github: 'https://github.com/isaac-mason/compilecat',
     npm: 'https://www.npmjs.com/package/compilecat',
     website: 'https://github.com/isaac-mason/compilecat',
+  },
+  source: {
+    github: 'isaac-mason/compilecat',
+    npm: 'compilecat',
   },
   stats: {
     stars: 72,

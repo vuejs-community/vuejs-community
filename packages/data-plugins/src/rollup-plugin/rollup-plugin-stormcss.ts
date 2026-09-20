@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'stormcss',
     'tailwindcss',
   ],
-  source: {
-    github: 'stormcss-dev/wite-plugin-stormcss',
-    npm: 'rollup-plugin-stormcss',
-  },
   links: {
     github: 'https://github.com/stormcss-dev/wite-plugin-stormcss',
     npm: 'https://www.npmjs.com/package/rollup-plugin-stormcss',
     website: 'https://github.com/stormcss-dev/wite-plugin-stormcss',
+  },
+  source: {
+    github: 'stormcss-dev/wite-plugin-stormcss',
+    npm: 'rollup-plugin-stormcss',
   },
   stats: {
     stars: 0,

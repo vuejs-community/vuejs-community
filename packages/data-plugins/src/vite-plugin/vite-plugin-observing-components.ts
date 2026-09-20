@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'reactive',
     'mobx',
   ],
-  source: {
-    github: 'christianalfoni/observing-components',
-    npm: 'vite-plugin-observing-components',
-  },
   links: {
     github: 'https://github.com/christianalfoni/observing-components',
     npm: 'https://www.npmjs.com/package/vite-plugin-observing-components',
     website: 'https://github.com/christianalfoni/observing-components#readme',
+  },
+  source: {
+    github: 'christianalfoni/observing-components',
+    npm: 'vite-plugin-observing-components',
   },
   stats: {
     stars: 7,

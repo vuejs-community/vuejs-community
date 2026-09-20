@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'jhwz/vite-plugin-typed-css-modules',
-    npm: 'vite-plugin-typed-css-modules',
-  },
   links: {
     github: 'https://github.com/jhwz/vite-plugin-typed-css-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-typed-css-modules',
     website: 'https://github.com/jhwz/vite-plugin-typed-css-modules#readme',
+  },
+  source: {
+    github: 'jhwz/vite-plugin-typed-css-modules',
+    npm: 'vite-plugin-typed-css-modules',
   },
   stats: {
     stars: 18,

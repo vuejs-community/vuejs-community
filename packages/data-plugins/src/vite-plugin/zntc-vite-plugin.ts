@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'zntc',
   ],
-  source: {
-    github: 'ohah/zntc',
-    npm: '@zntc/vite-plugin',
-  },
   links: {
     github: 'https://github.com/ohah/zntc',
     npm: 'https://www.npmjs.com/package/@zntc/vite-plugin',
     website: 'https://ohah.github.io/zntc',
+  },
+  source: {
+    github: 'ohah/zntc',
+    npm: '@zntc/vite-plugin',
   },
   stats: {
     stars: 4,

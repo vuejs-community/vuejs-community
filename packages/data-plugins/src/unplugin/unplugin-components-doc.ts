@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'kortin99/unplugin-components-doc',
-    npm: 'unplugin-components-doc',
-  },
   links: {
     github: 'https://github.com/kortin99/unplugin-components-doc',
     npm: 'https://www.npmjs.com/package/unplugin-components-doc',
     website: 'https://github.com/kortin99/unplugin-components-doc#readme',
+  },
+  source: {
+    github: 'kortin99/unplugin-components-doc',
+    npm: 'unplugin-components-doc',
   },
   stats: {
     stars: 0,

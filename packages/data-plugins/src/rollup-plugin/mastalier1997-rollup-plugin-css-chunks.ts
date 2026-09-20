@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'css',
   ],
-  source: {
-    github: 'domingues/rollup-plugin-css-chunks',
-    npm: '@mastalier1997/rollup-plugin-css-chunks',
-  },
   links: {
     github: 'https://github.com/domingues/rollup-plugin-css-chunks',
     npm: 'https://www.npmjs.com/package/@mastalier1997/rollup-plugin-css-chunks',
     website: 'https://github.com/mastalier1997/rollup-plugin-css-chunks',
+  },
+  source: {
+    github: 'domingues/rollup-plugin-css-chunks',
+    npm: '@mastalier1997/rollup-plugin-css-chunks',
   },
   stats: {
     stars: 0,

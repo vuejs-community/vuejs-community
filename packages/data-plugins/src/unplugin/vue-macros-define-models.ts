@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'define-models',
     'unplugin',
   ],
-  source: {
-    github: 'vue-macros/vue-macros',
-    npm: '@vue-macros/define-models',
-  },
   links: {
     github: 'https://github.com/vue-macros/vue-macros',
     npm: 'https://www.npmjs.com/package/@vue-macros/define-models',
     website: 'https://vue-macros.dev',
+  },
+  source: {
+    github: 'vue-macros/vue-macros',
+    npm: '@vue-macros/define-models',
   },
   stats: {
     stars: 0,

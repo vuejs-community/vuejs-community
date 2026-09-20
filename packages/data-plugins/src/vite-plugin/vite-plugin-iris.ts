@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'css',
     'design-tokens',
   ],
-  source: {
-    github: 'esmeccy/iris',
-    npm: 'vite-plugin-iris',
-  },
   links: {
     github: 'https://github.com/esmeccy/iris',
     npm: 'https://www.npmjs.com/package/vite-plugin-iris',
     website: 'https://github.com/esmeccy/iris#readme',
+  },
+  source: {
+    github: 'esmeccy/iris',
+    npm: 'vite-plugin-iris',
   },
   stats: {
     stars: 2,

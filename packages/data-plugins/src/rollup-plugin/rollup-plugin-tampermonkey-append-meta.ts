@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'tampermonkey',
   ],
-  source: {
-    npm: 'rollup-plugin-tampermonkey-append-meta',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-tampermonkey-append-meta',
+  },
+  source: {
+    npm: 'rollup-plugin-tampermonkey-append-meta',
   },
   stats: {
     stars: 0,

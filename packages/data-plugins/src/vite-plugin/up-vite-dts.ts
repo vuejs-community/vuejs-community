@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dts',
     'typescript',
   ],
-  source: {
-    github: 'jhonjtoloza/vite-plugin-dts',
-    npm: 'up-vite-dts',
-  },
   links: {
     github: 'https://github.com/jhonjtoloza/vite-plugin-dts',
     npm: 'https://www.npmjs.com/package/up-vite-dts',
     website: 'https://github.com/jhonjtoloza/vite-plugin-dts#readme',
+  },
+  source: {
+    github: 'jhonjtoloza/vite-plugin-dts',
+    npm: 'up-vite-dts',
   },
   stats: {
     stars: 0,

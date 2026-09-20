@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'full',
     'reload',
   ],
-  source: {
-    github: 'ermolaev/vite-plugin-full-reload',
-    npm: 'vite-plugin-turbo-reload',
-  },
   links: {
     github: 'https://github.com/ermolaev/vite-plugin-full-reload',
     npm: 'https://www.npmjs.com/package/vite-plugin-turbo-reload',
     website: 'https://github.com/ermolaev/vite-plugin-full-reload',
+  },
+  source: {
+    github: 'ermolaev/vite-plugin-full-reload',
+    npm: 'vite-plugin-turbo-reload',
   },
   stats: {
     stars: 8,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'storybook',
     'responsive',
   ],
-  source: {
-    github: 'kate-lastoskie/nora',
-    npm: 'vite-plugin-nora',
-  },
   links: {
     github: 'https://github.com/kate-lastoskie/nora',
     npm: 'https://www.npmjs.com/package/vite-plugin-nora',
     website: 'https://github.com/kate-lastoskie/nora#readme',
+  },
+  source: {
+    github: 'kate-lastoskie/nora',
+    npm: 'vite-plugin-nora',
   },
   stats: {
     stars: 0,

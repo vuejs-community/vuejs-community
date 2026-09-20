@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'ai-agent',
     'devtools',
   ],
-  source: {
-    github: 'YoungDan-hero/agentlens',
-    npm: '@agentlensjs/vite-plugin',
-  },
   links: {
     github: 'https://github.com/YoungDan-hero/agentlens',
     npm: 'https://www.npmjs.com/package/@agentlensjs/vite-plugin',
+  },
+  source: {
+    github: 'YoungDan-hero/agentlens',
+    npm: '@agentlensjs/vite-plugin',
   },
   stats: {
     stars: 1,

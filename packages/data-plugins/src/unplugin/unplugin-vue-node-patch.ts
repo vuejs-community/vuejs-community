@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'nooooooom/unplugin-vue-node-patch',
-    npm: 'unplugin-vue-node-patch',
-  },
   links: {
     github: 'https://github.com/nooooooom/unplugin-vue-node-patch',
     npm: 'https://www.npmjs.com/package/unplugin-vue-node-patch',
     website: 'https://github.com/nooooooom/unplugin-vue-node-patch#readme',
+  },
+  source: {
+    github: 'nooooooom/unplugin-vue-node-patch',
+    npm: 'unplugin-vue-node-patch',
   },
   stats: {
     stars: 1,

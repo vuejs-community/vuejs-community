@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'mpa',
     'vite-plugin',
   ],
-  source: {
-    github: 'cforcloud/vite-plugin-html-page',
-    npm: 'vite-plugin-html-page',
-  },
   links: {
     github: 'https://github.com/cforcloud/vite-plugin-html-page',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-page',
     website: 'https://github.com/cforcloud/vite-plugin-html-page',
+  },
+  source: {
+    github: 'cforcloud/vite-plugin-html-page',
+    npm: 'vite-plugin-html-page',
   },
   stats: {
     stars: 0,

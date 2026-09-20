@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'watch',
     'guard',
   ],
-  source: {
-    github: 'klondikemarlen/vite-plugin-guard-like-watch',
-    npm: 'vite-plugin-guard-like-watch',
-  },
   links: {
     github: 'https://github.com/klondikemarlen/vite-plugin-guard-like-watch',
     npm: 'https://www.npmjs.com/package/vite-plugin-guard-like-watch',
     website: 'https://github.com/klondikemarlen/vite-plugin-guard-like-watch#readme',
+  },
+  source: {
+    github: 'klondikemarlen/vite-plugin-guard-like-watch',
+    npm: 'vite-plugin-guard-like-watch',
   },
   stats: {
     stars: 0,

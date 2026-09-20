@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'git',
     'html',
   ],
-  source: {
-    github: 'LouieJiang/vite-plugin-build-stamp',
-    npm: 'vite-plugin-build-stamp',
-  },
   links: {
     github: 'https://github.com/LouieJiang/vite-plugin-build-stamp',
     npm: 'https://www.npmjs.com/package/vite-plugin-build-stamp',
     website: 'https://github.com/LouieJiang/vite-plugin-build-stamp#readme',
+  },
+  source: {
+    github: 'LouieJiang/vite-plugin-build-stamp',
+    npm: 'vite-plugin-build-stamp',
   },
   stats: {
     stars: 0,

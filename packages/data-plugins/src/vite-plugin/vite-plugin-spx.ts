@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'dan-shields/vite-plugin-spx',
-    npm: 'vite-plugin-spx',
-  },
   links: {
     github: 'https://github.com/dan-shields/vite-plugin-spx',
     npm: 'https://www.npmjs.com/package/vite-plugin-spx',
     website: 'https://github.com/dan-shields/vite-plugin-spx#readme',
+  },
+  source: {
+    github: 'dan-shields/vite-plugin-spx',
+    npm: 'vite-plugin-spx',
   },
   stats: {
     stars: 0,

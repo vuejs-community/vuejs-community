@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'chain-call',
     'unplugin',
   ],
-  source: {
-    github: 'vue-macros/vue-macros',
-    npm: '@vue-macros/chain-call',
-  },
   links: {
     github: 'https://github.com/vue-macros/vue-macros',
     npm: 'https://www.npmjs.com/package/@vue-macros/chain-call',
     website: 'https://vue-macros.dev',
+  },
+  source: {
+    github: 'vue-macros/vue-macros',
+    npm: '@vue-macros/chain-call',
   },
   stats: {
     stars: 0,

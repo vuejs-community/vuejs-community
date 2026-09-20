@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'svelte-vitals',
   ],
-  source: {
-    github: 'oekazuma/svelte-vitals',
-    npm: '@svelte-vitals/vite',
-  },
   links: {
     github: 'https://github.com/oekazuma/svelte-vitals',
     npm: 'https://www.npmjs.com/package/@svelte-vitals/vite',
     website: 'https://github.com/oekazuma/svelte-vitals#readme',
+  },
+  source: {
+    github: 'oekazuma/svelte-vitals',
+    npm: '@svelte-vitals/vite',
   },
   stats: {
     stars: 21,

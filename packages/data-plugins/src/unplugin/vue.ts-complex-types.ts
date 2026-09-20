@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'vue.ts',
     'webpack',
   ],
-  source: {
-    github: 'so1ve/vue.ts',
-    npm: '@vue.ts/complex-types',
-  },
   links: {
     github: 'https://github.com/so1ve/vue.ts',
     npm: 'https://www.npmjs.com/package/@vue.ts/complex-types',
     website: 'https://github.com/so1ve/vue.ts/tree/main/packages/language#readme',
+  },
+  source: {
+    github: 'so1ve/vue.ts',
+    npm: '@vue.ts/complex-types',
   },
   stats: {
     stars: 112,

@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'inspector',
     'debug',
   ],
-  source: {
-    github: 'hellof2e/vite-plugin-dev-inspector',
-    npm: 'vite-plugin-dev-inspector',
-  },
   links: {
     github: 'https://github.com/hellof2e/vite-plugin-dev-inspector',
     npm: 'https://www.npmjs.com/package/vite-plugin-dev-inspector',
     website: 'https://github.com/hellof2e/vite-plugin-dev-inspector#readme',
+  },
+  source: {
+    github: 'hellof2e/vite-plugin-dev-inspector',
+    npm: 'vite-plugin-dev-inspector',
   },
   stats: {
     stars: 51,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'utools',
   ],
-  source: {
-    github: 'uxiew/vite-plugin-utools',
-    npm: '@ver5/vite-plugin-utools',
-  },
   links: {
     github: 'https://github.com/uxiew/vite-plugin-utools',
     npm: 'https://www.npmjs.com/package/@ver5/vite-plugin-utools',
     website: 'https://github.com/uxiew/vite-plugin-utools#readme',
+  },
+  source: {
+    github: 'uxiew/vite-plugin-utools',
+    npm: '@ver5/vite-plugin-utools',
   },
   stats: {
     stars: 0,

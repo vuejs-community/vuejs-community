@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'aryasaatvik/vite-plugin-agent-skills',
-    npm: 'vite-plugin-skills',
-  },
   links: {
     github: 'https://github.com/aryasaatvik/vite-plugin-agent-skills',
     npm: 'https://www.npmjs.com/package/vite-plugin-skills',
     website: 'https://github.com/aryasaatvik/vite-plugin-agent-skills#readme',
+  },
+  source: {
+    github: 'aryasaatvik/vite-plugin-agent-skills',
+    npm: 'vite-plugin-skills',
   },
   stats: {
     stars: 0,

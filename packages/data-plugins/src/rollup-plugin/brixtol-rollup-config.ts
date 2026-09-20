@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'config',
     'brixtol',
   ],
-  source: {
-    github: 'brixtol/rollup-config',
-    npm: '@brixtol/rollup-config',
-  },
   links: {
     github: 'https://github.com/brixtol/rollup-config',
     npm: 'https://www.npmjs.com/package/@brixtol/rollup-config',
     website: 'https://github.com/brixtol/rollup-config',
+  },
+  source: {
+    github: 'brixtol/rollup-config',
+    npm: '@brixtol/rollup-config',
   },
   stats: {
     stars: 0,

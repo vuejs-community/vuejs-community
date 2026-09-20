@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vue-tsc',
     'volar',
   ],
-  source: {
-    github: 'beda-software/vite-plugin-dts',
-    npm: '@beda.software/vite-plugin-dts',
-  },
   links: {
     github: 'https://github.com/beda-software/vite-plugin-dts',
     npm: 'https://www.npmjs.com/package/@beda.software/vite-plugin-dts',
     website: 'https://github.com/beda-software/vite-plugin-dts#readme',
+  },
+  source: {
+    github: 'beda-software/vite-plugin-dts',
+    npm: '@beda.software/vite-plugin-dts',
   },
   stats: {
     stars: 0,

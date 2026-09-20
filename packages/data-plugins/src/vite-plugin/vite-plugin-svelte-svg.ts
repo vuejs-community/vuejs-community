@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'metafy-gg/vite-plugin-svelte-svg',
-    npm: 'vite-plugin-svelte-svg',
-  },
   links: {
     github: 'https://github.com/metafy-gg/vite-plugin-svelte-svg',
     npm: 'https://www.npmjs.com/package/vite-plugin-svelte-svg',
     website: 'https://github.com/metafy-gg/vite-plugin-svelte-svg#readme',
+  },
+  source: {
+    github: 'metafy-gg/vite-plugin-svelte-svg',
+    npm: 'vite-plugin-svelte-svg',
   },
   stats: {
     stars: 23,

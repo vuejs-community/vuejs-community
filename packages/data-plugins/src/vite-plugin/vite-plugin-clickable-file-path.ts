@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'console',
     'terminal',
   ],
-  source: {
-    github: 'GoldingAustin/vite-plugin-clickable-file-path',
-    npm: 'vite-plugin-clickable-file-path',
-  },
   links: {
     github: 'https://github.com/GoldingAustin/vite-plugin-clickable-file-path',
     npm: 'https://www.npmjs.com/package/vite-plugin-clickable-file-path',
     website: 'https://github.com/GoldingAustin/vite-plugin-clickable-file-path#readme',
+  },
+  source: {
+    github: 'GoldingAustin/vite-plugin-clickable-file-path',
+    npm: 'vite-plugin-clickable-file-path',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'websocket',
     'xhr',
   ],
-  source: {
-    github: 'songforthemute/browse-sent-event',
-    npm: '@browse-sent-event/plugin-vite',
-  },
   links: {
     github: 'https://github.com/songforthemute/browse-sent-event',
     npm: 'https://www.npmjs.com/package/@browse-sent-event/plugin-vite',
     website: 'https://songforthemute.github.io/browse-sent-event/',
+  },
+  source: {
+    github: 'songforthemute/browse-sent-event',
+    npm: '@browse-sent-event/plugin-vite',
   },
   stats: {
     stars: 0,

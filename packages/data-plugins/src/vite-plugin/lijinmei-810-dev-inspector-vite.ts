@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'devtools',
     'css-inspector',
   ],
-  source: {
-    github: 'lijinmei915/dev-inspector',
-    npm: '@lijinmei-810/dev-inspector-vite',
-  },
   links: {
     github: 'https://github.com/lijinmei915/dev-inspector',
     npm: 'https://www.npmjs.com/package/@lijinmei-810/dev-inspector-vite',
     website: 'https://github.com/lijinmei915/dev-inspector#readme',
+  },
+  source: {
+    github: 'lijinmei915/dev-inspector',
+    npm: '@lijinmei-810/dev-inspector-vite',
   },
   stats: {
     stars: 0,

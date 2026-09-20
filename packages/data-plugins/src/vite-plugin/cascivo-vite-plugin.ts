@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'cascivo/cascivo',
-    npm: '@cascivo/vite-plugin',
-  },
   links: {
     github: 'https://github.com/cascivo/cascivo',
     npm: 'https://www.npmjs.com/package/@cascivo/vite-plugin',
     website: 'https://github.com/cascivo/cascivo/tree/main/packages/vite-plugin#readme',
+  },
+  source: {
+    github: 'cascivo/cascivo',
+    npm: '@cascivo/vite-plugin',
   },
   stats: {
     stars: 1,

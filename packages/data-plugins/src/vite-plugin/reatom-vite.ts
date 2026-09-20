@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'jsx',
     'reatom',
   ],
-  source: {
-    github: 'reatom/reatom',
-    npm: '@reatom/vite',
-  },
   links: {
     github: 'https://github.com/reatom/reatom',
     npm: 'https://www.npmjs.com/package/@reatom/vite',
     website: 'https://www.reatom.dev/reference/vite',
+  },
+  source: {
+    github: 'reatom/reatom',
+    npm: '@reatom/vite',
   },
   stats: {
     stars: 1372,

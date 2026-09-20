@@ -37,14 +37,14 @@ export default defineProjectMeta({
     'rollup',
     'vite-plugin-singlefile',
   ],
-  source: {
-    github: 'bddjr/vite-plugin-singlefile',
-    npm: '@bddjr/vite-plugin-singlefile',
-  },
   links: {
     github: 'https://github.com/bddjr/vite-plugin-singlefile',
     npm: 'https://www.npmjs.com/package/@bddjr/vite-plugin-singlefile',
     website: 'https://bddjr.github.io/vite-plugin-singlefile/#/',
+  },
+  source: {
+    github: 'bddjr/vite-plugin-singlefile',
+    npm: '@bddjr/vite-plugin-singlefile',
   },
   stats: {
     stars: 1,

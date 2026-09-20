@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'html',
     'template',
   ],
-  source: {
-    npm: 'vite-plugin-htmls',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-htmls',
+  },
+  source: {
+    npm: 'vite-plugin-htmls',
   },
   stats: {
     stars: 0,

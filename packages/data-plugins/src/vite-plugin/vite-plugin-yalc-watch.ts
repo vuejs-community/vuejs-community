@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'yalc',
   ],
-  source: {
-    github: 'Zhaoyi-Flyhigher/vite-plugin-yalc-watch',
-    npm: 'vite-plugin-yalc-watch',
-  },
   links: {
     github: 'https://github.com/Zhaoyi-Flyhigher/vite-plugin-yalc-watch',
     npm: 'https://www.npmjs.com/package/vite-plugin-yalc-watch',
     website: 'https://github.com/Zhaoyi-Flyhigher/vite-plugin-yalc-watch#readme',
+  },
+  source: {
+    github: 'Zhaoyi-Flyhigher/vite-plugin-yalc-watch',
+    npm: 'vite-plugin-yalc-watch',
   },
   stats: {
     stars: 2,

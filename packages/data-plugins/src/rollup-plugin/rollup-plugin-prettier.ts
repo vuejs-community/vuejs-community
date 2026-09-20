@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'prettier',
   ],
-  source: {
-    github: 'mjeanroy/rollup-plugin-prettier',
-    npm: 'rollup-plugin-prettier',
-  },
   links: {
     github: 'https://github.com/mjeanroy/rollup-plugin-prettier',
     npm: 'https://www.npmjs.com/package/rollup-plugin-prettier',
     website: 'https://github.com/mjeanroy/rollup-plugin-prettier#readme',
+  },
+  source: {
+    github: 'mjeanroy/rollup-plugin-prettier',
+    npm: 'rollup-plugin-prettier',
   },
   stats: {
     stars: 64,

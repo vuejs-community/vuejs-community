@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'graphiql',
     'graphql',
   ],
-  source: {
-    github: 'mammadataei/vite-plugin-graphiql',
-    npm: 'vite-plugin-graphiql',
-  },
   links: {
     github: 'https://github.com/mammadataei/vite-plugin-graphiql',
     npm: 'https://www.npmjs.com/package/vite-plugin-graphiql',
     website: 'https://github.com/mammadataei/vite-plugin-graphiql#readme',
+  },
+  source: {
+    github: 'mammadataei/vite-plugin-graphiql',
+    npm: 'vite-plugin-graphiql',
   },
   stats: {
     stars: 8,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'oauth2',
     'development',
   ],
-  source: {
-    github: 'kouki-miura2/vite-plugin-oidc',
-    npm: 'vite-plugin-oidc',
-  },
   links: {
     github: 'https://github.com/kouki-miura2/vite-plugin-oidc',
     npm: 'https://www.npmjs.com/package/vite-plugin-oidc',
     website: 'https://github.com/kouki-miura2/vite-plugin-oidc#readme',
+  },
+  source: {
+    github: 'kouki-miura2/vite-plugin-oidc',
+    npm: 'vite-plugin-oidc',
   },
   stats: {
     stars: 0,

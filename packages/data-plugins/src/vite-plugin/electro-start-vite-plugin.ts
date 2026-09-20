@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'electrobun',
     'rpc',
   ],
-  source: {
-    github: 'mellofordev/electro-start',
-    npm: '@electro-start/vite-plugin',
-  },
   links: {
     github: 'https://github.com/mellofordev/electro-start',
     npm: 'https://www.npmjs.com/package/@electro-start/vite-plugin',
     website: 'https://github.com/mellofordev/electro-start#readme',
+  },
+  source: {
+    github: 'mellofordev/electro-start',
+    npm: '@electro-start/vite-plugin',
   },
   stats: {
     stars: 1,

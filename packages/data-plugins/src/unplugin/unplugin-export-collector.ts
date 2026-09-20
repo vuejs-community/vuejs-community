@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'type',
     'utils',
   ],
-  source: {
-    github: 's3xysteak/unplugin-export-collector',
-    npm: 'unplugin-export-collector',
-  },
   links: {
     github: 'https://github.com/s3xysteak/unplugin-export-collector',
     npm: 'https://www.npmjs.com/package/unplugin-export-collector',
     website: 'https://github.com/s3xysteak/unplugin-export-collector',
+  },
+  source: {
+    github: 's3xysteak/unplugin-export-collector',
+    npm: 'unplugin-export-collector',
   },
   stats: {
     stars: 2,

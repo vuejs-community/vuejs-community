@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'source-map',
     'sourceMappingURL',
   ],
-  source: {
-    github: '2wce/rollup-plugin-sourcemaps2',
-    npm: 'rollup-plugin-sourcemaps2',
-  },
   links: {
     github: 'https://github.com/2wce/rollup-plugin-sourcemaps2',
     npm: 'https://www.npmjs.com/package/rollup-plugin-sourcemaps2',
     website: 'https://github.com/2wce/rollup-plugin-sourcemaps2#readme',
+  },
+  source: {
+    github: '2wce/rollup-plugin-sourcemaps2',
+    npm: 'rollup-plugin-sourcemaps2',
   },
   stats: {
     stars: 24,

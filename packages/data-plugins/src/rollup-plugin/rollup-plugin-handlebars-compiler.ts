@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'helpers',
     'precompile',
   ],
-  source: {
-    github: 'JohannIsaac/rollup-plugin-handlebars-compiler',
-    npm: 'rollup-plugin-handlebars-compiler',
-  },
   links: {
     github: 'https://github.com/JohannIsaac/rollup-plugin-handlebars-compiler',
     npm: 'https://www.npmjs.com/package/rollup-plugin-handlebars-compiler',
     website: 'https://github.com/JohannIsaac/rollup-plugin-handlebars-compiler#readme',
+  },
+  source: {
+    github: 'JohannIsaac/rollup-plugin-handlebars-compiler',
+    npm: 'rollup-plugin-handlebars-compiler',
   },
   stats: {
     stars: 1,

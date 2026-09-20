@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'gseok/vite-plugin-strip-block',
-    npm: 'vite-plugin-strip-block',
-  },
   links: {
     github: 'https://github.com/gseok/vite-plugin-strip-block',
     npm: 'https://www.npmjs.com/package/vite-plugin-strip-block',
     website: 'https://github.com/gseok/vite-plugin-strip-block',
+  },
+  source: {
+    github: 'gseok/vite-plugin-strip-block',
+    npm: 'vite-plugin-strip-block',
   },
   stats: {
     stars: 1,

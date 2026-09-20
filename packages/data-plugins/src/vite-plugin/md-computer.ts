@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'codegen',
     'vite-plugin',
   ],
-  source: {
-    github: 'vladzima/md-computer',
-    npm: 'md-computer',
-  },
   links: {
     github: 'https://github.com/vladzima/md-computer',
     npm: 'https://www.npmjs.com/package/md-computer',
     website: 'https://github.com/vladzima/md-computer#readme',
+  },
+  source: {
+    github: 'vladzima/md-computer',
+    npm: 'md-computer',
   },
   stats: {
     stars: 0,

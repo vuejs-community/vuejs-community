@@ -12,13 +12,13 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'krmax44/rollup-plugin-computed',
-    npm: 'rollup-plugin-computed',
-  },
   links: {
     github: 'https://github.com/krmax44/rollup-plugin-computed',
     npm: 'https://www.npmjs.com/package/rollup-plugin-computed',
+  },
+  source: {
+    github: 'krmax44/rollup-plugin-computed',
+    npm: 'rollup-plugin-computed',
   },
   stats: {
     stars: 0,

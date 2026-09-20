@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'miniprogram',
     'mini-program',
   ],
-  source: {
-    github: 'uni-helper/vite-plugin-uni-tailwind',
-    npm: 'vite-plugin-uni-tailwind-no-pnpm',
-  },
   links: {
     github: 'https://github.com/uni-helper/vite-plugin-uni-tailwind',
     npm: 'https://www.npmjs.com/package/vite-plugin-uni-tailwind-no-pnpm',
     website: 'https://github.com/uni-helper/vite-plugin-uni-tailwind#readme',
+  },
+  source: {
+    github: 'uni-helper/vite-plugin-uni-tailwind',
+    npm: 'vite-plugin-uni-tailwind-no-pnpm',
   },
   stats: {
     stars: 45,

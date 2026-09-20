@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'twelve-factor',
     'dotenv',
   ],
-  source: {
-    github: 'runtime-env/import-meta-env',
-    npm: '@import-meta-env/unplugin',
-  },
   links: {
     github: 'https://github.com/runtime-env/import-meta-env',
     npm: 'https://www.npmjs.com/package/@import-meta-env/unplugin',
     website: 'https://github.com/runtime-env/import-meta-env/tree/main/packages/unplugin#readme',
+  },
+  source: {
+    github: 'runtime-env/import-meta-env',
+    npm: '@import-meta-env/unplugin',
   },
   stats: {
     stars: 276,

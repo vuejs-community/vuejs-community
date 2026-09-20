@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vue',
     'loading',
   ],
-  source: {
-    github: 'sha-chong/vite-plugin-auto-loading',
-    npm: 'vite-plugin-auto-loading',
-  },
   links: {
     github: 'https://github.com/sha-chong/vite-plugin-auto-loading',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-loading',
     website: 'https://github.com/sha-chong/vite-plugin-auto-loading#readme',
+  },
+  source: {
+    github: 'sha-chong/vite-plugin-auto-loading',
+    npm: 'vite-plugin-auto-loading',
   },
   stats: {
     stars: 0,

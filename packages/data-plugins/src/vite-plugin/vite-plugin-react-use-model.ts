@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-react',
   ],
-  source: {
-    npm: 'vite-plugin-react-use-model',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-react-use-model',
     website: 'https://github.com/RThong/vite-plugin-react-use-model',
+  },
+  source: {
+    npm: 'vite-plugin-react-use-model',
   },
   stats: {
     stars: 0,

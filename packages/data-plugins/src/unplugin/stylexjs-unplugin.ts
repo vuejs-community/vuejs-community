@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'webpack',
     'rspack',
   ],
-  source: {
-    npm: '@stylexjs/unplugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@stylexjs/unplugin',
+  },
+  source: {
+    npm: '@stylexjs/unplugin',
   },
   stats: {
     stars: 0,

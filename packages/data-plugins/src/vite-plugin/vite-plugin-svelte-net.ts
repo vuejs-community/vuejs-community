@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'aspnet',
     'c#',
   ],
-  source: {
-    github: 'datstarkey/vite-plugin-svelte-net',
-    npm: 'vite-plugin-svelte-net',
-  },
   links: {
     github: 'https://github.com/datstarkey/vite-plugin-svelte-net',
     npm: 'https://www.npmjs.com/package/vite-plugin-svelte-net',
     website: 'https://github.com/datstarkey/vite-plugin-svelte-net#readme',
+  },
+  source: {
+    github: 'datstarkey/vite-plugin-svelte-net',
+    npm: 'vite-plugin-svelte-net',
   },
   stats: {
     stars: 0,

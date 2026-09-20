@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'lf',
     'crlf',
   ],
-  source: {
-    github: 'pfaciana/rollup-plugin-eol',
-    npm: 'rollup-plugin-eol',
-  },
   links: {
     github: 'https://github.com/pfaciana/rollup-plugin-eol',
     npm: 'https://www.npmjs.com/package/rollup-plugin-eol',
     website: 'https://github.com/pfaciana/rollup-plugin-eol',
+  },
+  source: {
+    github: 'pfaciana/rollup-plugin-eol',
+    npm: 'rollup-plugin-eol',
   },
   stats: {
     stars: 0,

@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'spritesheet',
     'css-sprite',
   ],
-  source: {
-    npm: 'hyp-sprites-img',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/hyp-sprites-img',
+  },
+  source: {
+    npm: 'hyp-sprites-img',
   },
   stats: {
     stars: 0,

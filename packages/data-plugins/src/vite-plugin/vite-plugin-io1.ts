@@ -19,12 +19,12 @@ export default defineProjectMeta({
     'share',
     'dev-server',
   ],
-  source: {
-    npm: 'vite-plugin-io1',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-io1',
     website: 'https://io1.io/vite',
+  },
+  source: {
+    npm: 'vite-plugin-io1',
   },
   stats: {
     stars: 0,

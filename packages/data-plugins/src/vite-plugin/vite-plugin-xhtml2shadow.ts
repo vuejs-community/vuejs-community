@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'p-jack/dubc',
-    npm: 'vite-plugin-xhtml2shadow',
-  },
   links: {
     github: 'https://github.com/p-jack/dubc',
     npm: 'https://www.npmjs.com/package/vite-plugin-xhtml2shadow',
     website: 'https://github.com/p-jack/dubc#readme',
+  },
+  source: {
+    github: 'p-jack/dubc',
+    npm: 'vite-plugin-xhtml2shadow',
   },
   stats: {
     stars: 0,

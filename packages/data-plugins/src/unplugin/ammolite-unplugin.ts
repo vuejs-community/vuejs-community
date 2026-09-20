@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'js',
     'javascript',
   ],
-  source: {
-    github: 'gemvale/ammolite',
-    npm: '@ammolite/unplugin',
-  },
   links: {
     github: 'https://github.com/gemvale/ammolite',
     npm: 'https://www.npmjs.com/package/@ammolite/unplugin',
     website: 'https://gemvale.github.io',
+  },
+  source: {
+    github: 'gemvale/ammolite',
+    npm: '@ammolite/unplugin',
   },
   stats: {
     stars: 1,

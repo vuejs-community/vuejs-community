@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'i18n',
     'plural',
   ],
-  source: {
-    github: 'fluent-vue/unplugin-fluent-vue',
-    npm: 'unplugin-fluent-vue',
-  },
   links: {
     github: 'https://github.com/fluent-vue/unplugin-fluent-vue',
     npm: 'https://www.npmjs.com/package/unplugin-fluent-vue',
     website: 'https://fluent-vue.demivan.me/integrations/unplugin.html',
+  },
+  source: {
+    github: 'fluent-vue/unplugin-fluent-vue',
+    npm: 'unplugin-fluent-vue',
   },
   stats: {
     stars: 8,

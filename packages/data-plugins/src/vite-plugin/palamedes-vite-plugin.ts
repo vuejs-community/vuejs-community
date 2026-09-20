@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'sebastian-software/palamedes',
-    npm: '@palamedes/vite-plugin',
-  },
   links: {
     github: 'https://github.com/sebastian-software/palamedes',
     npm: 'https://www.npmjs.com/package/@palamedes/vite-plugin',
     website: 'https://github.com/sebastian-software/palamedes',
+  },
+  source: {
+    github: 'sebastian-software/palamedes',
+    npm: '@palamedes/vite-plugin',
   },
   stats: {
     stars: 1,

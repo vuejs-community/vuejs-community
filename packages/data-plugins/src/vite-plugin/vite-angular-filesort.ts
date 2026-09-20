@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'topological-sort',
     'gulp-angular-filesort',
   ],
-  source: {
-    npm: 'vite-angular-filesort',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-angular-filesort',
+  },
+  source: {
+    npm: 'vite-angular-filesort',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'i18n',
     'inertiajs',
   ],
-  source: {
-    github: 'JensvandeWiel/laravel-react-internationalization',
-    npm: 'laravel-react-internationalization',
-  },
   links: {
     github: 'https://github.com/JensvandeWiel/laravel-react-internationalization',
     npm: 'https://www.npmjs.com/package/laravel-react-internationalization',
     website: 'https://github.com/JensvandeWiel/laravel-react-internationalization#readme',
+  },
+  source: {
+    github: 'JensvandeWiel/laravel-react-internationalization',
+    npm: 'laravel-react-internationalization',
   },
   stats: {
     stars: 4,

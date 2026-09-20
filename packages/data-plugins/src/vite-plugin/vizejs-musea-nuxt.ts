@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'nuxt',
     'vite-plugin',
   ],
-  source: {
-    github: 'ubugeeei-prod/vize',
-    npm: '@vizejs/musea-nuxt',
-  },
   links: {
     github: 'https://github.com/ubugeeei-prod/vize',
     npm: 'https://www.npmjs.com/package/@vizejs/musea-nuxt',
     website: 'https://github.com/ubugeeei-prod/vize',
+  },
+  source: {
+    github: 'ubugeeei-prod/vize',
+    npm: '@vizejs/musea-nuxt',
   },
   stats: {
     stars: 895,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'android',
     'mobile',
   ],
-  source: {
-    github: 'YanChenBai/vite-capacitor',
-    npm: 'vite-capacitor',
-  },
   links: {
     github: 'https://github.com/YanChenBai/vite-capacitor',
     npm: 'https://www.npmjs.com/package/vite-capacitor',
     website: 'https://github.com/YanChenBai/vite-capacitor#readme',
+  },
+  source: {
+    github: 'YanChenBai/vite-capacitor',
+    npm: 'vite-capacitor',
   },
   stats: {
     stars: 1,

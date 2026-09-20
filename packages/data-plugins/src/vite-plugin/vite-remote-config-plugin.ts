@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'config-helper',
     'websoket-server',
   ],
-  source: {
-    npm: 'vite-remote-config-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-remote-config-plugin',
+  },
+  source: {
+    npm: 'vite-remote-config-plugin',
   },
   stats: {
     stars: 0,

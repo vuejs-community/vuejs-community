@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'webpack',
     'rollup',
   ],
-  source: {
-    github: 'gympass/unplugins',
-    npm: 'unplugin-resolve-esm-ts-paths',
-  },
   links: {
     github: 'https://github.com/gympass/unplugins',
     npm: 'https://www.npmjs.com/package/unplugin-resolve-esm-ts-paths',
     website: 'https://github.com/gympass/unplugins#readme',
+  },
+  source: {
+    github: 'gympass/unplugins',
+    npm: 'unplugin-resolve-esm-ts-paths',
   },
   stats: {
     stars: 0,

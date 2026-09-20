@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'api',
     'api mocks',
   ],
-  source: {
-    github: 'indielayer/vite-plugin-api-mocks',
-    npm: 'vite-plugin-api-mocks',
-  },
   links: {
     github: 'https://github.com/indielayer/vite-plugin-api-mocks',
     npm: 'https://www.npmjs.com/package/vite-plugin-api-mocks',
     website: 'https://github.com/indielayer/vite-plugin-api-mocks#readme',
+  },
+  source: {
+    github: 'indielayer/vite-plugin-api-mocks',
+    npm: 'vite-plugin-api-mocks',
   },
   stats: {
     stars: 0,

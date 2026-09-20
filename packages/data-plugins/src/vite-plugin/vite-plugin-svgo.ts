@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'svg',
     'svgo',
   ],
-  source: {
-    github: 'r3dDoX/vite-plugin-svgo',
-    npm: 'vite-plugin-svgo',
-  },
   links: {
     github: 'https://github.com/r3dDoX/vite-plugin-svgo',
     npm: 'https://www.npmjs.com/package/vite-plugin-svgo',
     website: 'https://github.com/r3dDoX/vite-plugin-svgo#readme',
+  },
+  source: {
+    github: 'r3dDoX/vite-plugin-svgo',
+    npm: 'vite-plugin-svgo',
   },
   stats: {
     stars: 37,

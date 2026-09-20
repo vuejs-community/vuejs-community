@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'ssl',
     'dev-certs',
   ],
-  source: {
-    github: 'CMeeg/phoria',
-    npm: '@phoria/vite-plugin-dotnet-dev-certs',
-  },
   links: {
     github: 'https://github.com/CMeeg/phoria',
     npm: 'https://www.npmjs.com/package/@phoria/vite-plugin-dotnet-dev-certs',
     website: 'https://github.com/CMeeg/phoria#readme',
+  },
+  source: {
+    github: 'CMeeg/phoria',
+    npm: '@phoria/vite-plugin-dotnet-dev-certs',
   },
   stats: {
     stars: 0,

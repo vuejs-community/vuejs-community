@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'kintone',
   ],
-  source: {
-    github: 'GuSanle/vite-plugin-kintone-dev',
-    npm: 'vite-plugin-kintone-dev',
-  },
   links: {
     github: 'https://github.com/GuSanle/vite-plugin-kintone-dev',
     npm: 'https://www.npmjs.com/package/vite-plugin-kintone-dev',
     website: 'https://github.com/GuSanle/vite-plugin-kintone-dev',
+  },
+  source: {
+    github: 'GuSanle/vite-plugin-kintone-dev',
+    npm: 'vite-plugin-kintone-dev',
   },
   stats: {
     stars: 11,

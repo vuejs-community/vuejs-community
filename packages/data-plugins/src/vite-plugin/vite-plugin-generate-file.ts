@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'generate',
     'vite-plugin',
   ],
-  source: {
-    github: 'sumy7/vite-plugin-generate-file',
-    npm: 'vite-plugin-generate-file',
-  },
   links: {
     github: 'https://github.com/sumy7/vite-plugin-generate-file',
     npm: 'https://www.npmjs.com/package/vite-plugin-generate-file',
     website: 'https://github.com/sumy7/vite-plugin-generate-file#readme',
+  },
+  source: {
+    github: 'sumy7/vite-plugin-generate-file',
+    npm: 'vite-plugin-generate-file',
   },
   stats: {
     stars: 16,

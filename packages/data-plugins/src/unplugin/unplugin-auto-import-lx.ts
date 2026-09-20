@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'auto-import',
     'transform',
   ],
-  source: {
-    github: 'antfu/unplugin-auto-import',
-    npm: 'unplugin-auto-import-lx',
-  },
   links: {
     github: 'https://github.com/antfu/unplugin-auto-import',
     npm: 'https://www.npmjs.com/package/unplugin-auto-import-lx',
     website: 'https://github.com/antfu/unplugin-auto-import#readme',
+  },
+  source: {
+    github: 'antfu/unplugin-auto-import',
+    npm: 'unplugin-auto-import-lx',
   },
   stats: {
     stars: 3797,

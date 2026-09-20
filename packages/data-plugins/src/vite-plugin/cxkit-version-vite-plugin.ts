@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'build-id',
     'cache-busting',
   ],
-  source: {
-    npm: '@cxkit/version-vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@cxkit/version-vite-plugin',
+  },
+  source: {
+    npm: '@cxkit/version-vite-plugin',
   },
   stats: {
     stars: 0,

@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'copilot',
     'developer-tools',
   ],
-  source: {
-    github: 'auenger/cc-prompter',
-    npm: 'cc-prompter',
-  },
   links: {
     github: 'https://github.com/auenger/cc-prompter',
     npm: 'https://www.npmjs.com/package/cc-prompter',
     website: 'https://auenger.github.io/cc-prompter/',
+  },
+  source: {
+    github: 'auenger/cc-prompter',
+    npm: 'cc-prompter',
   },
   stats: {
     stars: 3,

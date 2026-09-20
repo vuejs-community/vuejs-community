@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'auto-import',
     'transform',
   ],
-  source: {
-    github: 'antfu/unplugin-auto-import',
-    npm: '@wyatex/unplugin-auto-import',
-  },
   links: {
     github: 'https://github.com/antfu/unplugin-auto-import',
     npm: 'https://www.npmjs.com/package/@wyatex/unplugin-auto-import',
     website: 'https://github.com/antfu/unplugin-auto-import#readme',
+  },
+  source: {
+    github: 'antfu/unplugin-auto-import',
+    npm: '@wyatex/unplugin-auto-import',
   },
   stats: {
     stars: 0,

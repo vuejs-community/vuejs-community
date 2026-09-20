@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'i18n',
     'sfc',
   ],
-  source: {
-    github: 'M1CK431/vite-plugin-vue-i18n-sfc-auto-import',
-    npm: 'vite-plugin-vue-i18n-sfc-auto-import',
-  },
   links: {
     github: 'https://github.com/M1CK431/vite-plugin-vue-i18n-sfc-auto-import',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-i18n-sfc-auto-import',
     website: 'https://github.com/M1CK431/vite-plugin-vue-i18n-sfc-auto-import#readme',
+  },
+  source: {
+    github: 'M1CK431/vite-plugin-vue-i18n-sfc-auto-import',
+    npm: 'vite-plugin-vue-i18n-sfc-auto-import',
   },
   stats: {
     stars: 1,

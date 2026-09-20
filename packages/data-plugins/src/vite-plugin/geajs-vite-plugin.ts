@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'transform',
     'compile-time',
   ],
-  source: {
-    github: 'dashersw/gea',
-    npm: '@geajs/vite-plugin',
-  },
   links: {
     github: 'https://github.com/dashersw/gea',
     npm: 'https://www.npmjs.com/package/@geajs/vite-plugin',
     website: 'https://github.com/dashersw/gea#readme',
+  },
+  source: {
+    github: 'dashersw/gea',
+    npm: '@geajs/vite-plugin',
   },
   stats: {
     stars: 1246,

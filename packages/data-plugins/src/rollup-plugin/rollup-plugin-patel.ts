@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'PatEL',
   ],
-  source: {
-    npm: 'rollup-plugin-patel',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-patel',
+  },
+  source: {
+    npm: 'rollup-plugin-patel',
   },
   stats: {
     stars: 0,

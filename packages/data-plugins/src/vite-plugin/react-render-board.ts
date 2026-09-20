@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'webpack-plugin',
   ],
-  source: {
-    github: 'yoonjaehong26/react-render-board',
-    npm: 'react-render-board',
-  },
   links: {
     github: 'https://github.com/yoonjaehong26/react-render-board',
     npm: 'https://www.npmjs.com/package/react-render-board',
     website: 'https://github.com/yoonjaehong26/react-render-board#readme',
+  },
+  source: {
+    github: 'yoonjaehong26/react-render-board',
+    npm: 'react-render-board',
   },
   stats: {
     stars: 0,

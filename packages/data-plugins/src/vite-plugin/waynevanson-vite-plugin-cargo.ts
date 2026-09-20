@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'waynevanson/vite-plugin-cargo',
-    npm: '@waynevanson/vite-plugin-cargo',
-  },
   links: {
     github: 'https://github.com/waynevanson/vite-plugin-cargo',
     npm: 'https://www.npmjs.com/package/@waynevanson/vite-plugin-cargo',
     website: 'https://github.com/waynevanson/vite-plugin-cargo#readme',
+  },
+  source: {
+    github: 'waynevanson/vite-plugin-cargo',
+    npm: '@waynevanson/vite-plugin-cargo',
   },
   stats: {
     stars: 2,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'webfonts',
     'manifest',
   ],
-  source: {
-    github: 'daun/vite-plugin-font-manifest',
-    npm: 'vite-plugin-font-manifest',
-  },
   links: {
     github: 'https://github.com/daun/vite-plugin-font-manifest',
     npm: 'https://www.npmjs.com/package/vite-plugin-font-manifest',
     website: 'http://github.com/daun/vite-plugin-font-manifest#readme',
+  },
+  source: {
+    github: 'daun/vite-plugin-font-manifest',
+    npm: 'vite-plugin-font-manifest',
   },
   stats: {
     stars: 1,

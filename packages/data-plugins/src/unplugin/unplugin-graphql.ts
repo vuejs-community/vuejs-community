@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'wzc520pyfm/unplugin-graphql',
-    npm: 'unplugin-graphql',
-  },
   links: {
     github: 'https://github.com/wzc520pyfm/unplugin-graphql',
     npm: 'https://www.npmjs.com/package/unplugin-graphql',
     website: 'https://github.com/wzc520pyfm/unplugin-graphql#readme',
+  },
+  source: {
+    github: 'wzc520pyfm/unplugin-graphql',
+    npm: 'unplugin-graphql',
   },
   stats: {
     stars: 1,

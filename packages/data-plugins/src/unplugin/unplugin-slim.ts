@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'Alex1990/unplugin-slim',
-    npm: 'unplugin-slim',
-  },
   links: {
     github: 'https://github.com/Alex1990/unplugin-slim',
     npm: 'https://www.npmjs.com/package/unplugin-slim',
     website: 'https://github.com/Alex1990/unplugin-slim#readme',
+  },
+  source: {
+    github: 'Alex1990/unplugin-slim',
+    npm: 'unplugin-slim',
   },
   stats: {
     stars: 0,

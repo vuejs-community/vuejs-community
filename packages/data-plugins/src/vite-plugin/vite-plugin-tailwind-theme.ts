@@ -21,11 +21,11 @@ export default defineProjectMeta({
     'optimized import',
     'typescript',
   ],
-  source: {
-    npm: 'vite-plugin-tailwind-theme',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-tailwind-theme',
+  },
+  source: {
+    npm: 'vite-plugin-tailwind-theme',
   },
   stats: {
     stars: 0,

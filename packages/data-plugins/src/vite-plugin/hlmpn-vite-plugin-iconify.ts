@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'icon',
     'iconify',
   ],
-  source: {
-    github: 'hlpmenu/vite-plugin-iconify',
-    npm: '@hlmpn/vite-plugin-iconify',
-  },
   links: {
     github: 'https://github.com/hlpmenu/vite-plugin-iconify',
     npm: 'https://www.npmjs.com/package/@hlmpn/vite-plugin-iconify',
     website: 'https://github.com/hlpmenu/vite-plugin-iconify#readme',
+  },
+  source: {
+    github: 'hlpmenu/vite-plugin-iconify',
+    npm: '@hlmpn/vite-plugin-iconify',
   },
   stats: {
     stars: 1,

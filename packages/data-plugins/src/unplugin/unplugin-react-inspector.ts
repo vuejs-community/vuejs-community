@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'react',
     'react-inspector',
   ],
-  source: {
-    github: 'qiuqfang/unplugin-react-inspector',
-    npm: 'unplugin-react-inspector',
-  },
   links: {
     github: 'https://github.com/qiuqfang/unplugin-react-inspector',
     npm: 'https://www.npmjs.com/package/unplugin-react-inspector',
     website: 'https://github.com/qiuqfang/unplugin-react-inspector#readme',
+  },
+  source: {
+    github: 'qiuqfang/unplugin-react-inspector',
+    npm: 'unplugin-react-inspector',
   },
   stats: {
     stars: 1,

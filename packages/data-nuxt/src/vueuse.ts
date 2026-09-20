@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://vueuse.org',
   },
   source: {
-    github: 'vueuse/vueuse#main/packages/nuxt',
+    github: 'vueuse/vueuse',
     npm: '@vueuse/nuxt',
   },
 })

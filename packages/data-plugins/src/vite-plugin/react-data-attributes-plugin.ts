@@ -28,14 +28,14 @@ export default defineProjectMeta({
     'bundler',
     'universal',
   ],
-  source: {
-    github: 'syukronarie/react-data-attributes-plugin',
-    npm: 'react-data-attributes-plugin',
-  },
   links: {
     github: 'https://github.com/syukronarie/react-data-attributes-plugin',
     npm: 'https://www.npmjs.com/package/react-data-attributes-plugin',
     website: 'https://github.com/syukronarie/react-data-attributes-plugin#readme',
+  },
+  source: {
+    github: 'syukronarie/react-data-attributes-plugin',
+    npm: 'react-data-attributes-plugin',
   },
   stats: {
     stars: 2,

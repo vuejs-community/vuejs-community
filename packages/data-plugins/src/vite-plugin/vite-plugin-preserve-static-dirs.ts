@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'preserve',
     'directory',
   ],
-  source: {
-    npm: 'vite-plugin-preserve-static-dirs',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-preserve-static-dirs',
+  },
+  source: {
+    npm: 'vite-plugin-preserve-static-dirs',
   },
   stats: {
     stars: 0,

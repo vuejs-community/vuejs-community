@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'minificator',
     'ligature',
   ],
-  source: {
-    github: 'a3mitskevich/vite-font-extractor-plugin',
-    npm: 'vite-font-extractor-plugin',
-  },
   links: {
     github: 'https://github.com/a3mitskevich/vite-font-extractor-plugin',
     npm: 'https://www.npmjs.com/package/vite-font-extractor-plugin',
     website: 'https://github.com/a3mitskevich/vite-font-extractor-plugin',
+  },
+  source: {
+    github: 'a3mitskevich/vite-font-extractor-plugin',
+    npm: 'vite-font-extractor-plugin',
   },
   stats: {
     stars: 9,

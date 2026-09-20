@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'whooksh',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/whooksh',
+  },
+  source: {
+    npm: 'whooksh',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-devtools',
     'dx',
   ],
-  source: {
-    github: 'webfansplz/vite-devtools',
-    npm: 'vite-devtools',
-  },
   links: {
     github: 'https://github.com/webfansplz/vite-devtools',
     npm: 'https://www.npmjs.com/package/vite-devtools',
     website: 'https://github.com/webfansplz/vite-devtools#readme',
+  },
+  source: {
+    github: 'webfansplz/vite-devtools',
+    npm: 'vite-devtools',
   },
   stats: {
     stars: 0,

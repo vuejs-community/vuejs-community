@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'web-bundle',
     'isolated-web-app',
   ],
-  source: {
-    github: 'GoogleChromeLabs/webbundle-plugins',
-    npm: 'rollup-plugin-webbundle',
-  },
   links: {
     github: 'https://github.com/GoogleChromeLabs/webbundle-plugins',
     npm: 'https://www.npmjs.com/package/rollup-plugin-webbundle',
     website: 'https://github.com/GoogleChromeLabs/webbundle-plugins#readme',
+  },
+  source: {
+    github: 'GoogleChromeLabs/webbundle-plugins',
+    npm: 'rollup-plugin-webbundle',
   },
   stats: {
     stars: 64,

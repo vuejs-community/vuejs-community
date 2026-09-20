@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'images',
     'modules',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-image',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-image',
     website: 'https://github.com/rollup/plugins/tree/master/packages/image/#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-image',
   },
   stats: {
     stars: 0,

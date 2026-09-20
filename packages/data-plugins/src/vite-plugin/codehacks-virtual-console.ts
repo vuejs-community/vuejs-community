@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'eruda',
     'vconsole',
   ],
-  source: {
-    github: 'codehacks-io/virtual-console',
-    npm: '@codehacks/virtual-console',
-  },
   links: {
     github: 'https://github.com/codehacks-io/virtual-console',
     npm: 'https://www.npmjs.com/package/@codehacks/virtual-console',
     website: 'https://github.com/codehacks-io/virtual-console#readme',
+  },
+  source: {
+    github: 'codehacks-io/virtual-console',
+    npm: '@codehacks/virtual-console',
   },
   stats: {
     stars: 1,

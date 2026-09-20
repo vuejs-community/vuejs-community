@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'alisas',
   ],
-  source: {
-    npm: 'vite-plugin-alias-plus',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-alias-plus',
+  },
+  source: {
+    npm: 'vite-plugin-alias-plus',
   },
   stats: {
     stars: 0,

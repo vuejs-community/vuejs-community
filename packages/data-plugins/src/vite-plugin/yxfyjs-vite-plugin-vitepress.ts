@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: '@yxfyjs/vite-plugin-vitepress',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@yxfyjs/vite-plugin-vitepress',
+  },
+  source: {
+    npm: '@yxfyjs/vite-plugin-vitepress',
   },
   stats: {
     stars: 0,

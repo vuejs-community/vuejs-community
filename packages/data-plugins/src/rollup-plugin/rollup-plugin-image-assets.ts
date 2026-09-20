@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'image',
   ],
-  source: {
-    github: 'dongyuwei/rollup-plugin-images',
-    npm: 'rollup-plugin-image-assets',
-  },
   links: {
     github: 'https://github.com/dongyuwei/rollup-plugin-images',
     npm: 'https://www.npmjs.com/package/rollup-plugin-image-assets',
     website: 'https://github.com/dongyuwei/rollup-plugin-images#readme',
+  },
+  source: {
+    github: 'dongyuwei/rollup-plugin-images',
+    npm: 'rollup-plugin-image-assets',
   },
   stats: {
     stars: 1,

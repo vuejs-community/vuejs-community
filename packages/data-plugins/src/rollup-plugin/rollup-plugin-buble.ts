@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'npm',
     'modules',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-buble',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-buble',
     website: 'https://github.com/rollup/plugins/tree/master/packages/buble/#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-buble',
   },
   stats: {
     stars: 0,

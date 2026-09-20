@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'webpack-plugin',
     'remote deploy',
   ],
-  source: {
-    npm: 'vite-build-remote-deploy',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-build-remote-deploy',
+  },
+  source: {
+    npm: 'vite-build-remote-deploy',
   },
   stats: {
     stars: 0,

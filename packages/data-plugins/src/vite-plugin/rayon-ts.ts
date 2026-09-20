@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'atomics',
     'data-parallelism',
   ],
-  source: {
-    github: 'inaridiy/rayon-ts',
-    npm: 'rayon-ts',
-  },
   links: {
     github: 'https://github.com/inaridiy/rayon-ts',
     npm: 'https://www.npmjs.com/package/rayon-ts',
     website: 'https://github.com/inaridiy/rayon-ts#readme',
+  },
+  source: {
+    github: 'inaridiy/rayon-ts',
+    npm: 'rayon-ts',
   },
   stats: {
     stars: 3,

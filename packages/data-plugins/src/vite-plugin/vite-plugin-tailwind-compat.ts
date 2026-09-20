@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'KiriRainCat/vite-plugin-tailwind-compat',
-    npm: 'vite-plugin-tailwind-compat',
-  },
   links: {
     github: 'https://github.com/KiriRainCat/vite-plugin-tailwind-compat',
     npm: 'https://www.npmjs.com/package/vite-plugin-tailwind-compat',
     website: 'https://github.com/KiriRainCat/vite-plugin-tailwind-compat#readme',
+  },
+  source: {
+    github: 'KiriRainCat/vite-plugin-tailwind-compat',
+    npm: 'vite-plugin-tailwind-compat',
   },
   stats: {
     stars: 0,

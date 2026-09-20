@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'SegaraRai/vite-plugin-modular-tailwindcss',
-    npm: 'vite-plugin-modular-tailwindcss',
-  },
   links: {
     github: 'https://github.com/SegaraRai/vite-plugin-modular-tailwindcss',
     npm: 'https://www.npmjs.com/package/vite-plugin-modular-tailwindcss',
     website: 'https://github.com/SegaraRai/vite-plugin-modular-tailwindcss#readme',
+  },
+  source: {
+    github: 'SegaraRai/vite-plugin-modular-tailwindcss',
+    npm: 'vite-plugin-modular-tailwindcss',
   },
   stats: {
     stars: 1,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'aissistant',
   ],
-  source: {
-    github: 'basslagter/aissistant',
-    npm: '@basslagter/aissistant',
-  },
   links: {
     github: 'https://github.com/basslagter/aissistant',
     npm: 'https://www.npmjs.com/package/@basslagter/aissistant',
     website: 'https://github.com/basslagter/aissistant#readme',
+  },
+  source: {
+    github: 'basslagter/aissistant',
+    npm: '@basslagter/aissistant',
   },
   stats: {
     stars: 0,

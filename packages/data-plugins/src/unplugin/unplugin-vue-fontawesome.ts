@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'fontawesome',
     'icons',
   ],
-  source: {
-    github: 'minetoblend/unplugin-vue-fontawesome',
-    npm: 'unplugin-vue-fontawesome',
-  },
   links: {
     github: 'https://github.com/minetoblend/unplugin-vue-fontawesome',
     npm: 'https://www.npmjs.com/package/unplugin-vue-fontawesome',
     website: 'https://github.com/minetoblend/unplugin-vue-fontawesome',
+  },
+  source: {
+    github: 'minetoblend/unplugin-vue-fontawesome',
+    npm: 'unplugin-vue-fontawesome',
   },
   stats: {
     stars: 1,

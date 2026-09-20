@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'plugin',
     'build',
   ],
-  source: {
-    github: 'qianyongdong/vite-plugin-build-file',
-    npm: 'vite-plugin-build-file',
-  },
   links: {
     github: 'https://github.com/qianyongdong/vite-plugin-build-file',
     npm: 'https://www.npmjs.com/package/vite-plugin-build-file',
     website: 'https://github.com/qianyongdong/vite-plugin-build-file.git#readme',
+  },
+  source: {
+    github: 'qianyongdong/vite-plugin-build-file',
+    npm: 'vite-plugin-build-file',
   },
   stats: {
     stars: 0,

@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: '@rubennl/vite-plugin-graphql-codegen-optimized',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@rubennl/vite-plugin-graphql-codegen-optimized',
+  },
+  source: {
+    npm: '@rubennl/vite-plugin-graphql-codegen-optimized',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    github: 'CMeeg/phoria',
-    npm: '@phoria/phoria-vue',
-  },
   links: {
     github: 'https://github.com/CMeeg/phoria',
     npm: 'https://www.npmjs.com/package/@phoria/phoria-vue',
     website: 'https://github.com/CMeeg/phoria#readme',
+  },
+  source: {
+    github: 'CMeeg/phoria',
+    npm: '@phoria/phoria-vue',
   },
   stats: {
     stars: 0,

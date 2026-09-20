@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'ai-agent',
   ],
-  source: {
-    github: 'quazardous/qdadm',
-    npm: '@quazardous/qdadm-mcp',
-  },
   links: {
     github: 'https://github.com/quazardous/qdadm',
     npm: 'https://www.npmjs.com/package/@quazardous/qdadm-mcp',
     website: 'https://github.com/quazardous/qdadm/tree/main/packages/qdadm-mcp#readme',
+  },
+  source: {
+    github: 'quazardous/qdadm',
+    npm: '@quazardous/qdadm-mcp',
   },
   stats: {
     stars: 8,

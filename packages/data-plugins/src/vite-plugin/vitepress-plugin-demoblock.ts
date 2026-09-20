@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vitepress-code-block-demo',
     'vitepress-demo',
   ],
-  source: {
-    github: 'LorexIQ/vitepress-plugin-demoblock',
-    npm: 'vitepress-plugin-demoblock',
-  },
   links: {
     github: 'https://github.com/LorexIQ/vitepress-plugin-demoblock',
     npm: 'https://www.npmjs.com/package/vitepress-plugin-demoblock',
     website: 'https://github.com/LorexIQ/vitepress-plugin-demoblock/#readme',
+  },
+  source: {
+    github: 'LorexIQ/vitepress-plugin-demoblock',
+    npm: 'vitepress-plugin-demoblock',
   },
   stats: {
     stars: 0,

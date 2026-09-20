@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'chendingwei364/vite-jeecg-earth-static-copy',
-    npm: 'vite-plugin-static-copy-jeecg-earth',
-  },
   links: {
     github: 'https://github.com/chendingwei364/vite-jeecg-earth-static-copy',
     npm: 'https://www.npmjs.com/package/vite-plugin-static-copy-jeecg-earth',
     website: 'https://github.com/chendingwei364/vite-jeecg-earth-static-copy#readme',
+  },
+  source: {
+    github: 'chendingwei364/vite-jeecg-earth-static-copy',
+    npm: 'vite-plugin-static-copy-jeecg-earth',
   },
   stats: {
     stars: 0,

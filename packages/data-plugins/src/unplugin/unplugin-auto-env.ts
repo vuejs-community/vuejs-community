@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'elonehoo/unplugin-auto-env',
-    npm: 'unplugin-auto-env',
-  },
   links: {
     github: 'https://github.com/elonehoo/unplugin-auto-env',
     npm: 'https://www.npmjs.com/package/unplugin-auto-env',
     website: 'https://github.com/elonehoo/unplugin-auto-env#readme',
+  },
+  source: {
+    github: 'elonehoo/unplugin-auto-env',
+    npm: 'unplugin-auto-env',
   },
   stats: {
     stars: 0,

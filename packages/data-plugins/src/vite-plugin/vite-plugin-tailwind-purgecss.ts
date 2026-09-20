@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'skeleton',
   ],
-  source: {
-    github: 'AdrianGonz97/vite-plugin-tailwind-purgecss',
-    npm: 'vite-plugin-tailwind-purgecss',
-  },
   links: {
     github: 'https://github.com/AdrianGonz97/vite-plugin-tailwind-purgecss',
     npm: 'https://www.npmjs.com/package/vite-plugin-tailwind-purgecss',
     website: 'https://github.com/AdrianGonz97/vite-plugin-tailwind-purgecss#readme',
+  },
+  source: {
+    github: 'AdrianGonz97/vite-plugin-tailwind-purgecss',
+    npm: 'vite-plugin-tailwind-purgecss',
   },
   stats: {
     stars: 41,

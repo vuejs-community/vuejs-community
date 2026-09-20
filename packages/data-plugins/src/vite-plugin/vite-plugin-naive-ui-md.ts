@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'marked',
     'naive-ui',
   ],
-  source: {
-    github: 'Volankey/vite-plugin-naive-ui-md',
-    npm: 'vite-plugin-naive-ui-md',
-  },
   links: {
     github: 'https://github.com/Volankey/vite-plugin-naive-ui-md',
     npm: 'https://www.npmjs.com/package/vite-plugin-naive-ui-md',
     website: 'https://github.com/Volankey/vite-plugin-naive-ui-md#readme',
+  },
+  source: {
+    github: 'Volankey/vite-plugin-naive-ui-md',
+    npm: 'vite-plugin-naive-ui-md',
   },
   stats: {
     stars: 12,

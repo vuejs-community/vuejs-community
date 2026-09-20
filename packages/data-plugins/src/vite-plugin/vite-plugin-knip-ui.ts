@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dead-code',
     'devtools',
   ],
-  source: {
-    github: 'kuttyhub/vite-plugin-knip-ui',
-    npm: 'vite-plugin-knip-ui',
-  },
   links: {
     github: 'https://github.com/kuttyhub/vite-plugin-knip-ui',
     npm: 'https://www.npmjs.com/package/vite-plugin-knip-ui',
     website: 'https://github.com/kuttyhub/vite-plugin-knip-ui#readme',
+  },
+  source: {
+    github: 'kuttyhub/vite-plugin-knip-ui',
+    npm: 'vite-plugin-knip-ui',
   },
   stats: {
     stars: 2,

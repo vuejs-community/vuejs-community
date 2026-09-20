@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'types',
     'typed',
   ],
-  source: {
-    github: 'sankeyangshu/unplugin-react-router',
-    npm: 'unplugin-react-router',
-  },
   links: {
     github: 'https://github.com/sankeyangshu/unplugin-react-router',
     npm: 'https://www.npmjs.com/package/unplugin-react-router',
     website: 'https://github.com/sankeyangshu/unplugin-react-router#readme',
+  },
+  source: {
+    github: 'sankeyangshu/unplugin-react-router',
+    npm: 'unplugin-react-router',
   },
   stats: {
     stars: 0,

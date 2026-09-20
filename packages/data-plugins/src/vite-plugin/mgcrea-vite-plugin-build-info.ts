@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'version',
     'build-info',
   ],
-  source: {
-    github: 'mgcrea/vite-plugin-build-info',
-    npm: '@mgcrea/vite-plugin-build-info',
-  },
   links: {
     github: 'https://github.com/mgcrea/vite-plugin-build-info',
     npm: 'https://www.npmjs.com/package/@mgcrea/vite-plugin-build-info',
     website: 'https://github.com/mgcrea/vite-plugin-build-info#readme',
+  },
+  source: {
+    github: 'mgcrea/vite-plugin-build-info',
+    npm: '@mgcrea/vite-plugin-build-info',
   },
   stats: {
     stars: 0,

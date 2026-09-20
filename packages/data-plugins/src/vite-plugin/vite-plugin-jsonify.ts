@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'ebrahimmfadae/vite-plugin-jsonify',
-    npm: 'vite-plugin-jsonify',
-  },
   links: {
     github: 'https://github.com/ebrahimmfadae/vite-plugin-jsonify',
     npm: 'https://www.npmjs.com/package/vite-plugin-jsonify',
     website: 'https://github.com/ebrahimmfadae/vite-plugin-jsonify#readme',
+  },
+  source: {
+    github: 'ebrahimmfadae/vite-plugin-jsonify',
+    npm: 'vite-plugin-jsonify',
   },
   stats: {
     stars: 0,

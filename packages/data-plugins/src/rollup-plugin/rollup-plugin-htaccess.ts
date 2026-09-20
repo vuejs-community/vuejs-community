@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'htaccess',
     'apache',
   ],
-  source: {
-    github: 'marekdedic/rollup-plugin-htaccess',
-    npm: 'rollup-plugin-htaccess',
-  },
   links: {
     github: 'https://github.com/marekdedic/rollup-plugin-htaccess',
     npm: 'https://www.npmjs.com/package/rollup-plugin-htaccess',
     website: 'https://github.com/marekdedic/rollup-plugin-htaccess',
+  },
+  source: {
+    github: 'marekdedic/rollup-plugin-htaccess',
+    npm: 'rollup-plugin-htaccess',
   },
   stats: {
     stars: 0,

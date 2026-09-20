@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'yaml',
     'rollup-plugin',
   ],
-  source: {
-    github: 'messageformat/messageformat',
-    npm: 'rollup-plugin-messageformat',
-  },
   links: {
     github: 'https://github.com/messageformat/messageformat',
     npm: 'https://www.npmjs.com/package/rollup-plugin-messageformat',
     website: 'https://messageformat.github.io/',
+  },
+  source: {
+    github: 'messageformat/messageformat',
+    npm: 'rollup-plugin-messageformat',
   },
   stats: {
     stars: 1769,

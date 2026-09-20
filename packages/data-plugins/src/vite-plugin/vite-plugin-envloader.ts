@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'NicolaSpadari/vite-plugin-envloader',
-    npm: 'vite-plugin-envloader',
-  },
   links: {
     github: 'https://github.com/NicolaSpadari/vite-plugin-envloader',
     npm: 'https://www.npmjs.com/package/vite-plugin-envloader',
     website: 'https://github.com/NicolaSpadari/vite-plugin-envloader',
+  },
+  source: {
+    github: 'NicolaSpadari/vite-plugin-envloader',
+    npm: 'vite-plugin-envloader',
   },
   stats: {
     stars: 0,

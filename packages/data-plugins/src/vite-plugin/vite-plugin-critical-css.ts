@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'inline',
     'defer',
   ],
-  source: {
-    github: 'Effeilo/vite-plugin-critical-css',
-    npm: 'vite-plugin-critical-css',
-  },
   links: {
     github: 'https://github.com/Effeilo/vite-plugin-critical-css',
     npm: 'https://www.npmjs.com/package/vite-plugin-critical-css',
     website: 'https://github.com/Effeilo/vite-plugin-critical-css',
+  },
+  source: {
+    github: 'Effeilo/vite-plugin-critical-css',
+    npm: 'vite-plugin-critical-css',
   },
   stats: {
     stars: 0,

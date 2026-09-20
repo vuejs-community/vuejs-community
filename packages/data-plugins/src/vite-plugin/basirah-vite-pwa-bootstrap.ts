@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'asset-manifest',
     'gzip-loader',
   ],
-  source: {
-    github: 'BaserahThing/vite-pwa-bootstrap',
-    npm: '@basirah/vite-pwa-bootstrap',
-  },
   links: {
     github: 'https://github.com/BaserahThing/vite-pwa-bootstrap',
     npm: 'https://www.npmjs.com/package/@basirah/vite-pwa-bootstrap',
     website: 'https://github.com/BaserahThing/vite-pwa-bootstrap#readme',
+  },
+  source: {
+    github: 'BaserahThing/vite-pwa-bootstrap',
+    npm: '@basirah/vite-pwa-bootstrap',
   },
   stats: {
     stars: 0,

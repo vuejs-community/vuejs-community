@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'cesium',
   ],
-  source: {
-    npm: '@tcgis/vite-plugin-dpimap',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@tcgis/vite-plugin-dpimap',
+  },
+  source: {
+    npm: '@tcgis/vite-plugin-dpimap',
   },
   stats: {
     stars: 0,

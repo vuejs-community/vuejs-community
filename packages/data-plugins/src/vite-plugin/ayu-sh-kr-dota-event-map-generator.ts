@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'application-event-map',
     'typescript',
   ],
-  source: {
-    github: 'ayu-sh-kr/dota-workspace',
-    npm: '@ayu-sh-kr/dota-event-map-generator',
-  },
   links: {
     github: 'https://github.com/ayu-sh-kr/dota-workspace',
     npm: 'https://www.npmjs.com/package/@ayu-sh-kr/dota-event-map-generator',
     website: 'https://github.com/ayu-sh-kr/dota-workspace#readme',
+  },
+  source: {
+    github: 'ayu-sh-kr/dota-workspace',
+    npm: '@ayu-sh-kr/dota-event-map-generator',
   },
   stats: {
     stars: 0,

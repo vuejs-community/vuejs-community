@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'jamiedavenport/onyx',
-    npm: '@jxdltd/onyx-vite',
-  },
   links: {
     github: 'https://github.com/jamiedavenport/onyx',
     npm: 'https://www.npmjs.com/package/@jxdltd/onyx-vite',
     website: 'https://github.com/jamiedavenport/onyx/tree/main/published/vite#readme',
+  },
+  source: {
+    github: 'jamiedavenport/onyx',
+    npm: '@jxdltd/onyx-vite',
   },
   stats: {
     stars: 0,

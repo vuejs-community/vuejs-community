@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'css',
     'js',
   ],
-  source: {
-    github: 'caiguanhao/vite-plugin-css-injected-by-js',
-    npm: '@caiguanhao/vite-plugin-css-injected-by-js',
-  },
   links: {
     github: 'https://github.com/caiguanhao/vite-plugin-css-injected-by-js',
     npm: 'https://www.npmjs.com/package/@caiguanhao/vite-plugin-css-injected-by-js',
     website: 'https://github.com/caiguanhao/vite-plugin-css-injected-by-js#readme',
+  },
+  source: {
+    github: 'caiguanhao/vite-plugin-css-injected-by-js',
+    npm: '@caiguanhao/vite-plugin-css-injected-by-js',
   },
   stats: {
     stars: 0,

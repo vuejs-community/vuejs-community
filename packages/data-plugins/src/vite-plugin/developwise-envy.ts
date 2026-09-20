@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'zod',
   ],
-  source: {
-    github: 'its-tim-lee/developwise',
-    npm: '@developwise/envy',
-  },
   links: {
     github: 'https://github.com/its-tim-lee/developwise',
     npm: 'https://www.npmjs.com/package/@developwise/envy',
     website: 'https://github.com/its-tim-lee/developwise/tree/main/packages/envy#readme',
+  },
+  source: {
+    github: 'its-tim-lee/developwise',
+    npm: '@developwise/envy',
   },
   stats: {
     stars: 1,

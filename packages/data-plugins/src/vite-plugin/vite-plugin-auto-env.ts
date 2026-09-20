@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'auto',
     'env',
   ],
-  source: {
-    github: 'elonehoo/vite-plugin-auto-env',
-    npm: 'vite-plugin-auto-env',
-  },
   links: {
     github: 'https://github.com/elonehoo/vite-plugin-auto-env',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-env',
     website: 'https://github.com/elonehoo/vite-plugin-auto-env',
+  },
+  source: {
+    github: 'elonehoo/vite-plugin-auto-env',
+    npm: 'vite-plugin-auto-env',
   },
   stats: {
     stars: 0,

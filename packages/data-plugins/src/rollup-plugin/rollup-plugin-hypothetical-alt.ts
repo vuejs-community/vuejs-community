@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'Permutatrix/rollup-plugin-hypothetical',
-    npm: 'rollup-plugin-hypothetical-alt',
-  },
   links: {
     github: 'https://github.com/Permutatrix/rollup-plugin-hypothetical',
     npm: 'https://www.npmjs.com/package/rollup-plugin-hypothetical-alt',
     website: 'https://github.com/Permutatrix/rollup-plugin-hypothetical#readme',
+  },
+  source: {
+    github: 'Permutatrix/rollup-plugin-hypothetical',
+    npm: 'rollup-plugin-hypothetical-alt',
   },
   stats: {
     stars: 47,

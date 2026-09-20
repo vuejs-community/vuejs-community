@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'InertiaCore/vite-plugin',
-    npm: '@inertiacore/vite-plugin',
-  },
   links: {
     github: 'https://github.com/InertiaCore/vite-plugin',
     npm: 'https://www.npmjs.com/package/@inertiacore/vite-plugin',
     website: 'https://github.com/InertiaCore/vite-plugin',
+  },
+  source: {
+    github: 'InertiaCore/vite-plugin',
+    npm: '@inertiacore/vite-plugin',
   },
   stats: {
     stars: 0,

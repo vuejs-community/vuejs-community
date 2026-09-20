@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'minify',
     'css',
   ],
-  source: {
-    npm: 'vite-minify-css-module',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-minify-css-module',
+  },
+  source: {
+    npm: 'vite-minify-css-module',
   },
   stats: {
     stars: 0,

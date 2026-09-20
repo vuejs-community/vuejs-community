@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'adapter',
     'ssr',
   ],
-  source: {
-    npm: '@chuckcchen/vite-adapter-react-router',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@chuckcchen/vite-adapter-react-router',
+  },
+  source: {
+    npm: '@chuckcchen/vite-adapter-react-router',
   },
   stats: {
     stars: 0,

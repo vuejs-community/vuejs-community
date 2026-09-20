@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    github: 'Mini-ghost/vite-plugin-clean-css',
-    npm: 'vite-plugin-clean-css',
-  },
   links: {
     github: 'https://github.com/Mini-ghost/vite-plugin-clean-css',
     npm: 'https://www.npmjs.com/package/vite-plugin-clean-css',
     website: 'https://github.com/Mini-ghost/vite-plugin-clean-css',
+  },
+  source: {
+    github: 'Mini-ghost/vite-plugin-clean-css',
+    npm: 'vite-plugin-clean-css',
   },
   stats: {
     stars: 24,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'PBK-B/vite-plugin-build-id',
-    npm: '@tzmax/vite-plugin-build-id',
-  },
   links: {
     github: 'https://github.com/PBK-B/vite-plugin-build-id',
     npm: 'https://www.npmjs.com/package/@tzmax/vite-plugin-build-id',
     website: 'https://github.com/PBK-B/vite-plugin-build-id.git',
+  },
+  source: {
+    github: 'PBK-B/vite-plugin-build-id',
+    npm: '@tzmax/vite-plugin-build-id',
   },
   stats: {
     stars: 0,

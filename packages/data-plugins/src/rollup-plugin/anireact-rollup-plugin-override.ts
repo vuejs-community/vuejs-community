@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'replace',
     'define',
   ],
-  source: {
-    github: 'anireact/rollup-plugin-override',
-    npm: '@anireact/rollup-plugin-override',
-  },
   links: {
     github: 'https://github.com/anireact/rollup-plugin-override',
     npm: 'https://www.npmjs.com/package/@anireact/rollup-plugin-override',
+  },
+  source: {
+    github: 'anireact/rollup-plugin-override',
+    npm: '@anireact/rollup-plugin-override',
   },
   stats: {
     stars: 1,

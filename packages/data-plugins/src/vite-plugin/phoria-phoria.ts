@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'svelte',
     'vue',
   ],
-  source: {
-    github: 'CMeeg/phoria',
-    npm: '@phoria/phoria',
-  },
   links: {
     github: 'https://github.com/CMeeg/phoria',
     npm: 'https://www.npmjs.com/package/@phoria/phoria',
     website: 'https://github.com/CMeeg/phoria#readme',
+  },
+  source: {
+    github: 'CMeeg/phoria',
+    npm: '@phoria/phoria',
   },
   stats: {
     stars: 0,

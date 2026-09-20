@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'jianxing-xu/unplugin-dns-prefetch',
-    npm: 'unplugin-prefetch-dns',
-  },
   links: {
     github: 'https://github.com/jianxing-xu/unplugin-dns-prefetch',
     npm: 'https://www.npmjs.com/package/unplugin-prefetch-dns',
     website: 'https://github.com/jianxing-xu/unplugin-dns-prefetch#readme',
+  },
+  source: {
+    github: 'jianxing-xu/unplugin-dns-prefetch',
+    npm: 'unplugin-prefetch-dns',
   },
   stats: {
     stars: 1,

@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/netlify/framework-adapters#readme',
   },
   source: {
-    github: 'netlify/framework-adapters#main/packages/nuxt-module',
+    github: 'netlify/framework-adapters',
     npm: '@netlify/nuxt',
   },
 })

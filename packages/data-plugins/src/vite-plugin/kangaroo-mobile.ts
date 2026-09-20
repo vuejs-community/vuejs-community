@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'framework',
     'vite-plugin',
   ],
-  source: {
-    npm: 'kangaroo-mobile',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/kangaroo-mobile',
+  },
+  source: {
+    npm: 'kangaroo-mobile',
   },
   stats: {
     stars: 0,

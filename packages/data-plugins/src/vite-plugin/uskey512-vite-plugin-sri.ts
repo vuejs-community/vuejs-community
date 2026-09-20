@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'sri',
   ],
-  source: {
-    github: 'uskey512/vite-plugin-sri',
-    npm: '@uskey512/vite-plugin-sri',
-  },
   links: {
     github: 'https://github.com/uskey512/vite-plugin-sri',
     npm: 'https://www.npmjs.com/package/@uskey512/vite-plugin-sri',
     website: 'https://github.com/uskey512/vite-plugin-sri',
+  },
+  source: {
+    github: 'uskey512/vite-plugin-sri',
+    npm: '@uskey512/vite-plugin-sri',
   },
   stats: {
     stars: 0,

@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'upload',
     'bucket',
   ],
-  source: {
-    npm: 'rollup-plugin-google-cloud-storage',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-google-cloud-storage',
+  },
+  source: {
+    npm: 'rollup-plugin-google-cloud-storage',
   },
   stats: {
     stars: 0,

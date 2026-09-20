@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    github: 'hsml-lab/vite-plugin-vue-hsml',
-    npm: 'vite-plugin-vue-hsml',
-  },
   links: {
     github: 'https://github.com/hsml-lab/vite-plugin-vue-hsml',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-hsml',
     website: 'https://github.com/hsml-lab/vite-plugin-vue-hsml#readme',
+  },
+  source: {
+    github: 'hsml-lab/vite-plugin-vue-hsml',
+    npm: 'vite-plugin-vue-hsml',
   },
   stats: {
     stars: 0,

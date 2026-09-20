@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://nuxt-safe-runtime-config.onmax.me',
   },
   source: {
-    github: 'onmax/nuxt-safe-runtime-config#main',
+    github: 'onmax/nuxt-safe-runtime-config',
     npm: 'nuxt-safe-runtime-config',
   },
 })

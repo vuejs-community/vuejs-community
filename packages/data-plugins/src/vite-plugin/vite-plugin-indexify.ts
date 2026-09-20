@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'index',
     'listing',
   ],
-  source: {
-    github: 'klm127/vite-plugin-indexify',
-    npm: 'vite-plugin-indexify',
-  },
   links: {
     github: 'https://github.com/klm127/vite-plugin-indexify',
     npm: 'https://www.npmjs.com/package/vite-plugin-indexify',
     website: 'https://github.com/klm127/vite-plugin-indexify',
+  },
+  source: {
+    github: 'klm127/vite-plugin-indexify',
+    npm: 'vite-plugin-indexify',
   },
   stats: {
     stars: 1,

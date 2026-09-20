@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'auth',
     'dev',
   ],
-  source: {
-    github: 'utk09/vite-dev-auth-plugin',
-    npm: '@utk09/vite-dev-auth-plugin',
-  },
   links: {
     github: 'https://github.com/utk09/vite-dev-auth-plugin',
     npm: 'https://www.npmjs.com/package/@utk09/vite-dev-auth-plugin',
     website: 'https://github.com/utk09/vite-dev-auth-plugin#readme',
+  },
+  source: {
+    github: 'utk09/vite-dev-auth-plugin',
+    npm: '@utk09/vite-dev-auth-plugin',
   },
   stats: {
     stars: 0,

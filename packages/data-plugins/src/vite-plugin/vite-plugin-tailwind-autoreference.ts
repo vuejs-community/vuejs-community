@@ -20,11 +20,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    npm: 'vite-plugin-tailwind-autoreference',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-tailwind-autoreference',
+  },
+  source: {
+    npm: 'vite-plugin-tailwind-autoreference',
   },
   stats: {
     stars: 0,

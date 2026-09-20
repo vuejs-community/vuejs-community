@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'polyfill',
     'stackline',
   ],
-  source: {
-    github: 'alexandroit/stackline-rollup-plugin-polyfill-node',
-    npm: '@stackline/rollup-plugin-polyfill-node',
-  },
   links: {
     github: 'https://github.com/alexandroit/stackline-rollup-plugin-polyfill-node',
     npm: 'https://www.npmjs.com/package/@stackline/rollup-plugin-polyfill-node',
     website: 'https://alexandro.net/docs/vanilla/rollup-plugin-polyfill-node/',
+  },
+  source: {
+    github: 'alexandroit/stackline-rollup-plugin-polyfill-node',
+    npm: '@stackline/rollup-plugin-polyfill-node',
   },
   stats: {
     stars: 0,

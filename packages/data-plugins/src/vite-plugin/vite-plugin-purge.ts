@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'purgecss',
     'postcss',
   ],
-  source: {
-    github: 'bent10/vite-plugins',
-    npm: 'vite-plugin-purge',
-  },
   links: {
     github: 'https://github.com/bent10/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-purge',
     website: 'https://github.com/bent10/vite-plugins/tree/main/packages/plugin-purge',
+  },
+  source: {
+    github: 'bent10/vite-plugins',
+    npm: 'vite-plugin-purge',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'mcp',
     'modelcontextprotocol',
   ],
-  source: {
-    github: 'situ2001/unplugin-mcp',
-    npm: 'rollup-plugin-mcp',
-  },
   links: {
     github: 'https://github.com/situ2001/unplugin-mcp',
     npm: 'https://www.npmjs.com/package/rollup-plugin-mcp',
     website: 'https://github.com/situ2001/unplugin-mcp#readme',
+  },
+  source: {
+    github: 'situ2001/unplugin-mcp',
+    npm: 'rollup-plugin-mcp',
   },
   stats: {
     stars: 31,

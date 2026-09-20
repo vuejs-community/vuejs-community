@@ -20,13 +20,13 @@ export default defineProjectMeta({
     'gas',
     'clasp',
   ],
-  source: {
-    github: 'wakita181009/gas-plugin',
-    npm: '@gas-plugin/unplugin',
-  },
   links: {
     github: 'https://github.com/wakita181009/gas-plugin',
     npm: 'https://www.npmjs.com/package/@gas-plugin/unplugin',
+  },
+  source: {
+    github: 'wakita181009/gas-plugin',
+    npm: '@gas-plugin/unplugin',
   },
   stats: {
     stars: 0,

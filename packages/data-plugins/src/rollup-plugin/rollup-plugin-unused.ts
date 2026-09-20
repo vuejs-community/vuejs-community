@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'import',
     'module',
   ],
-  source: {
-    github: 'ls-age/devtools',
-    npm: 'rollup-plugin-unused',
-  },
   links: {
     github: 'https://github.com/ls-age/devtools',
     npm: 'https://www.npmjs.com/package/rollup-plugin-unused',
     website: 'https://github.com/ls-age/devtools/tree/master/packages/rollup-plugin-unused#readme',
+  },
+  source: {
+    github: 'ls-age/devtools',
+    npm: 'rollup-plugin-unused',
   },
   stats: {
     stars: 2,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'dotnet',
     'vite',
   ],
-  source: {
-    github: 'yamachu/vite-plugin-dotnet-wasm',
-    npm: '@yamachu/vite-plugin-dotnet-wasm',
-  },
   links: {
     github: 'https://github.com/yamachu/vite-plugin-dotnet-wasm',
     npm: 'https://www.npmjs.com/package/@yamachu/vite-plugin-dotnet-wasm',
     website: 'https://github.com/yamachu/vite-plugin-dotnet-wasm#readme',
+  },
+  source: {
+    github: 'yamachu/vite-plugin-dotnet-wasm',
+    npm: '@yamachu/vite-plugin-dotnet-wasm',
   },
   stats: {
     stars: 3,

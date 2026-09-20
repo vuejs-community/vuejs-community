@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'angular',
   ],
-  source: {
-    github: 'analogjs/analog',
-    npm: '@analogjs/vite-plugin-angular',
-  },
   links: {
     github: 'https://github.com/analogjs/analog',
     npm: 'https://www.npmjs.com/package/@analogjs/vite-plugin-angular',
     website: 'https://github.com/analogjs/analog#readme',
+  },
+  source: {
+    github: 'analogjs/analog',
+    npm: '@analogjs/vite-plugin-angular',
   },
   stats: {
     stars: 3178,

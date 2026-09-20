@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'uni-app',
     'miniprogram',
   ],
-  source: {
-    github: 'gd4Ark/vite-plugin-uni-subpackage-copy',
-    npm: 'vite-plugin-uni-subpackage-copy',
-  },
   links: {
     github: 'https://github.com/gd4Ark/vite-plugin-uni-subpackage-copy',
     npm: 'https://www.npmjs.com/package/vite-plugin-uni-subpackage-copy',
     website: 'https://github.com/gd4Ark/vite-plugin-uni-subpackage-copy#readme',
+  },
+  source: {
+    github: 'gd4Ark/vite-plugin-uni-subpackage-copy',
+    npm: 'vite-plugin-uni-subpackage-copy',
   },
   stats: {
     stars: 0,

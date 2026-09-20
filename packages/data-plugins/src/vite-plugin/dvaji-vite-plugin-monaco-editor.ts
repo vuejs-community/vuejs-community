@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-8',
     'rolldown',
   ],
-  source: {
-    github: 'dvaJi/vite-plugin-monaco-editor',
-    npm: '@dvaji/vite-plugin-monaco-editor',
-  },
   links: {
     github: 'https://github.com/dvaJi/vite-plugin-monaco-editor',
     npm: 'https://www.npmjs.com/package/@dvaji/vite-plugin-monaco-editor',
     website: 'https://github.com/dvaJi/vite-plugin-monaco-editor#readme',
+  },
+  source: {
+    github: 'dvaJi/vite-plugin-monaco-editor',
+    npm: '@dvaji/vite-plugin-monaco-editor',
   },
   stats: {
     stars: 0,

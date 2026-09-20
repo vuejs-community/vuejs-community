@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'dlight.js',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-dlight-server',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-dlight-server',
+  },
+  source: {
+    npm: 'vite-plugin-dlight-server',
   },
   stats: {
     stars: 0,

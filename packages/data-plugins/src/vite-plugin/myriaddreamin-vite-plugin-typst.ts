@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'typst',
   ],
-  source: {
-    github: 'Myriad-Dreamin/typst.ts',
-    npm: '@myriaddreamin/vite-plugin-typst',
-  },
   links: {
     github: 'https://github.com/Myriad-Dreamin/typst.ts',
     npm: 'https://www.npmjs.com/package/@myriaddreamin/vite-plugin-typst',
     website: 'https://github.com/Myriad-Dreamin/typst.ts#readme',
+  },
+  source: {
+    github: 'Myriad-Dreamin/typst.ts',
+    npm: '@myriaddreamin/vite-plugin-typst',
   },
   stats: {
     stars: 1217,

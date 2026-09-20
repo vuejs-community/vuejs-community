@@ -12,12 +12,12 @@ export default defineProjectMeta({
     'rollup-plugin',
     'minifier',
   ],
-  source: {
-    npm: 'rollup-plugin-mergecss',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-mergecss',
     website: 'https://next.ernestbadu.me',
+  },
+  source: {
+    npm: 'rollup-plugin-mergecss',
   },
   stats: {
     stars: 0,

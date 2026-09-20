@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup',
     'source',
   ],
-  source: {
-    github: 'jhildenbiddle/rollup-plugin-source-hash',
-    npm: 'rollup-plugin-source-hash',
-  },
   links: {
     github: 'https://github.com/jhildenbiddle/rollup-plugin-source-hash',
     npm: 'https://www.npmjs.com/package/rollup-plugin-source-hash',
     website: 'https://github.com/jhildenbiddle/rollup-plugin-source-hash#readme',
+  },
+  source: {
+    github: 'jhildenbiddle/rollup-plugin-source-hash',
+    npm: 'rollup-plugin-source-hash',
   },
   stats: {
     stars: 1,

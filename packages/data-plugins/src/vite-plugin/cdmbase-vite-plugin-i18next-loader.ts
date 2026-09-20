@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'yaml',
     'json',
   ],
-  source: {
-    github: 'alienfast/vite-plugin-i18next-loader',
-    npm: '@cdmbase/vite-plugin-i18next-loader',
-  },
   links: {
     github: 'https://github.com/alienfast/vite-plugin-i18next-loader',
     npm: 'https://www.npmjs.com/package/@cdmbase/vite-plugin-i18next-loader',
     website: 'https://github.com/alienfast/vite-plugin-i18next-loader',
+  },
+  source: {
+    github: 'alienfast/vite-plugin-i18next-loader',
+    npm: '@cdmbase/vite-plugin-i18next-loader',
   },
   stats: {
     stars: 54,

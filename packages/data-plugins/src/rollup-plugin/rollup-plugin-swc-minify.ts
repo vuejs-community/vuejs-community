@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'minify',
     'swc',
   ],
-  source: {
-    github: 'prantlf/rollup-plugin-swc-minify',
-    npm: 'rollup-plugin-swc-minify',
-  },
   links: {
     github: 'https://github.com/prantlf/rollup-plugin-swc-minify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-swc-minify',
     website: 'http://github.com/prantlf/rollup-plugin-swc-minify/',
+  },
+  source: {
+    github: 'prantlf/rollup-plugin-swc-minify',
+    npm: 'rollup-plugin-swc-minify',
   },
   stats: {
     stars: 2,

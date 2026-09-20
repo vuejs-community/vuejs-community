@@ -21,13 +21,13 @@ export default defineProjectMeta({
     'folders',
     'glob',
   ],
-  source: {
-    github: 'rixo/rollup-plugin-copy-watch',
-    npm: 'rollup-plugin-copy-watch',
-  },
   links: {
     github: 'https://github.com/rixo/rollup-plugin-copy-watch',
     npm: 'https://www.npmjs.com/package/rollup-plugin-copy-watch',
+  },
+  source: {
+    github: 'rixo/rollup-plugin-copy-watch',
+    npm: 'rollup-plugin-copy-watch',
   },
   stats: {
     stars: 0,

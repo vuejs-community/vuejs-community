@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'web-devtools',
     'devtools',
   ],
-  source: {
-    github: 'zjxxxxxxxxx/open-editor',
-    npm: '@open-editor/rollup',
-  },
   links: {
     github: 'https://github.com/zjxxxxxxxxx/open-editor',
     npm: 'https://www.npmjs.com/package/@open-editor/rollup',
     website: 'https://github.com/zjxxxxxxxxx/open-editor#readme',
+  },
+  source: {
+    github: 'zjxxxxxxxxx/open-editor',
+    npm: '@open-editor/rollup',
   },
   stats: {
     stars: 0,

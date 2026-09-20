@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'obciid',
     'eslint-config',
   ],
-  source: {
-    npm: 'unplugin-plugin-eslint',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-plugin-eslint',
+  },
+  source: {
+    npm: 'unplugin-plugin-eslint',
   },
   stats: {
     stars: 0,

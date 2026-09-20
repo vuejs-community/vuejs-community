@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'image',
     'convert',
   ],
-  source: {
-    npm: 'vite-plugin-png2webp',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-png2webp',
+  },
+  source: {
+    npm: 'vite-plugin-png2webp',
   },
   stats: {
     stars: 0,

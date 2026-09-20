@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'pixi.js',
   ],
-  source: {
-    github: 'minetoblend/unplugin-pixi-assets',
-    npm: 'unplugin-pixi-assets',
-  },
   links: {
     github: 'https://github.com/minetoblend/unplugin-pixi-assets',
     npm: 'https://www.npmjs.com/package/unplugin-pixi-assets',
     website: 'https://github.com/minetoblend/unplugin-pixi-assets#readme',
+  },
+  source: {
+    github: 'minetoblend/unplugin-pixi-assets',
+    npm: 'unplugin-pixi-assets',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vue2',
     'vue',
   ],
-  source: {
-    github: 'kingyue737/vite-plugin-vue2-svg',
-    npm: '@kingyue/vite-plugin-vue2-svg',
-  },
   links: {
     github: 'https://github.com/kingyue737/vite-plugin-vue2-svg',
     npm: 'https://www.npmjs.com/package/@kingyue/vite-plugin-vue2-svg',
     website: 'https://github.com/kingyue737/vite-plugin-vue2-svg#readme',
+  },
+  source: {
+    github: 'kingyue737/vite-plugin-vue2-svg',
+    npm: '@kingyue/vite-plugin-vue2-svg',
   },
   stats: {
     stars: 2,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'purge-icons',
   ],
-  source: {
-    github: 'antfu/purge-icons',
-    npm: 'rollup-plugin-purge-icons',
-  },
   links: {
     github: 'https://github.com/antfu/purge-icons',
     npm: 'https://www.npmjs.com/package/rollup-plugin-purge-icons',
     website: 'https://github.com/antfu/purge-icons/tree/master/packages/rollup-plugin-purge-icons#readme',
+  },
+  source: {
+    github: 'antfu/purge-icons',
+    npm: 'rollup-plugin-purge-icons',
   },
   stats: {
     stars: 233,

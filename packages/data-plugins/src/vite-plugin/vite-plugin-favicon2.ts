@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'image',
     'generate',
   ],
-  source: {
-    github: 'khalwat/vite-plugin-favicon',
-    npm: 'vite-plugin-favicon2',
-  },
   links: {
     github: 'https://github.com/khalwat/vite-plugin-favicon',
     npm: 'https://www.npmjs.com/package/vite-plugin-favicon2',
     website: 'https://github.com/khalwat/vite-plugin-favicon#readme',
+  },
+  source: {
+    github: 'khalwat/vite-plugin-favicon',
+    npm: 'vite-plugin-favicon2',
   },
   stats: {
     stars: 16,

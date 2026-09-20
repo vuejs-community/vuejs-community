@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'variable',
     'injection',
   ],
-  source: {
-    npm: 'rollup-plugin-inject-env',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-inject-env',
+  },
+  source: {
+    npm: 'rollup-plugin-inject-env',
   },
   stats: {
     stars: 0,

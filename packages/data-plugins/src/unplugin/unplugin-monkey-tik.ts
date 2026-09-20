@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'antfu/unplugin-monkey-tik',
-    npm: 'unplugin-monkey-tik',
-  },
   links: {
     github: 'https://github.com/antfu/unplugin-monkey-tik',
     npm: 'https://www.npmjs.com/package/unplugin-monkey-tik',
     website: 'https://github.com/antfu/unplugin-monkey-tik#readme',
+  },
+  source: {
+    github: 'antfu/unplugin-monkey-tik',
+    npm: 'unplugin-monkey-tik',
   },
   stats: {
     stars: 0,

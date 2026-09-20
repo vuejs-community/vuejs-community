@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'haiya6/vite-plugin-html-resolve-alias',
-    npm: 'vite-plugin-html-resolve-alias',
-  },
   links: {
     github: 'https://github.com/haiya6/vite-plugin-html-resolve-alias',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-resolve-alias',
     website: 'https://github.com/haiya6/vite-plugin-html-resolve-alias#readme',
+  },
+  source: {
+    github: 'haiya6/vite-plugin-html-resolve-alias',
+    npm: 'vite-plugin-html-resolve-alias',
   },
   stats: {
     stars: 7,

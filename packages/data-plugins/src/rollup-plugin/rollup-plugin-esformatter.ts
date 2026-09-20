@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'esformatter',
   ],
-  source: {
-    github: 'mjeanroy/rollup-plugin-esformatter',
-    npm: 'rollup-plugin-esformatter',
-  },
   links: {
     github: 'https://github.com/mjeanroy/rollup-plugin-esformatter',
     npm: 'https://www.npmjs.com/package/rollup-plugin-esformatter',
     website: 'https://github.com/mjeanroy/rollup-plugin-esformatter#readme',
+  },
+  source: {
+    github: 'mjeanroy/rollup-plugin-esformatter',
+    npm: 'rollup-plugin-esformatter',
   },
   stats: {
     stars: 4,

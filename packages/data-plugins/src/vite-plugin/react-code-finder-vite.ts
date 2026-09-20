@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'devtools',
     'inspector',
   ],
-  source: {
-    github: 'Jonghakseo/react-code-finder',
-    npm: '@react-code-finder/vite',
-  },
   links: {
     github: 'https://github.com/Jonghakseo/react-code-finder',
     npm: 'https://www.npmjs.com/package/@react-code-finder/vite',
     website: 'https://github.com/Jonghakseo/react-code-finder#readme',
+  },
+  source: {
+    github: 'Jonghakseo/react-code-finder',
+    npm: '@react-code-finder/vite',
   },
   stats: {
     stars: 0,

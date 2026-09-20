@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-output-plugin',
     'vite-chrome-extension',
   ],
-  source: {
-    github: 'myudak/vite-plugin-flatten-output',
-    npm: 'vite-plugin-flatten-output',
-  },
   links: {
     github: 'https://github.com/myudak/vite-plugin-flatten-output',
     npm: 'https://www.npmjs.com/package/vite-plugin-flatten-output',
     website: 'https://myudak.site/projects/vite-plugin-flatten-output',
+  },
+  source: {
+    github: 'myudak/vite-plugin-flatten-output',
+    npm: 'vite-plugin-flatten-output',
   },
   stats: {
     stars: 2,

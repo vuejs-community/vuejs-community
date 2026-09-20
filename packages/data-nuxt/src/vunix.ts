@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://vunix.dewib.com/',
   },
   source: {
-    github: 'gaetansenn/vunix#main/packages/nuxt',
+    github: 'gaetansenn/vunix',
     npm: '@vunix/nuxt',
   },
 })

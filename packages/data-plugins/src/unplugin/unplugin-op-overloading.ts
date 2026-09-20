@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'esbuild',
     'farm',
   ],
-  source: {
-    github: 'arafathusayn/unplugin-op-overloading',
-    npm: 'unplugin-op-overloading',
-  },
   links: {
     github: 'https://github.com/arafathusayn/unplugin-op-overloading',
     npm: 'https://www.npmjs.com/package/unplugin-op-overloading',
     website: 'https://github.com/arafathusayn/unplugin-op-overloading#readme',
+  },
+  source: {
+    github: 'arafathusayn/unplugin-op-overloading',
+    npm: 'unplugin-op-overloading',
   },
   stats: {
     stars: 3,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'tinker',
   ],
-  source: {
-    github: 'tinkerapp/tinker-app-electron',
-    npm: '@tinkerapp/vite',
-  },
   links: {
     github: 'https://github.com/tinkerapp/tinker-app-electron',
     npm: 'https://www.npmjs.com/package/@tinkerapp/vite',
     website: 'https://github.com/tinkerapp/tinker-app-electron#readme',
+  },
+  source: {
+    github: 'tinkerapp/tinker-app-electron',
+    npm: '@tinkerapp/vite',
   },
   stats: {
     stars: 0,

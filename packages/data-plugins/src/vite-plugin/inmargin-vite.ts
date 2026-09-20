@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'jamiedavenport/margin',
-    npm: '@inmargin/vite',
-  },
   links: {
     github: 'https://github.com/jamiedavenport/margin',
     npm: 'https://www.npmjs.com/package/@inmargin/vite',
     website: 'https://inmargin.io',
+  },
+  source: {
+    github: 'jamiedavenport/margin',
+    npm: '@inmargin/vite',
   },
   stats: {
     stars: 0,

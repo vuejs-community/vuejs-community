@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'vite',
     'rollup',
   ],
-  source: {
-    github: 'Ghosty920/unplugin-minify-html',
-    npm: 'unplugin-minify-html',
-  },
   links: {
     github: 'https://github.com/Ghosty920/unplugin-minify-html',
     npm: 'https://www.npmjs.com/package/unplugin-minify-html',
     website: 'https://github.com/Ghosty920/unplugin-minify-html#readme',
+  },
+  source: {
+    github: 'Ghosty920/unplugin-minify-html',
+    npm: 'unplugin-minify-html',
   },
 })

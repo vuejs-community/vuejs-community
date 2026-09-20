@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vue',
     'vue3',
   ],
-  source: {
-    github: 'haunv0609/vite-plugin-vue-electron-haunv',
-    npm: 'vite-plugin-vue-electron-haunv',
-  },
   links: {
     github: 'https://github.com/haunv0609/vite-plugin-vue-electron-haunv',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-electron-haunv',
     website: 'https://github.com/haunv0609/vite-plugin-vue-electron-haunv#readme',
+  },
+  source: {
+    github: 'haunv0609/vite-plugin-vue-electron-haunv',
+    npm: 'vite-plugin-vue-electron-haunv',
   },
   stats: {
     stars: 0,

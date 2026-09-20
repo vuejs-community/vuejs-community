@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'three.js',
     'transform',
   ],
-  source: {
-    github: 'rollup/rollup-plugin-legacy',
-    npm: 'rollup-plugin-threejs-legacy-import',
-  },
   links: {
     github: 'https://github.com/rollup/rollup-plugin-legacy',
     npm: 'https://www.npmjs.com/package/rollup-plugin-threejs-legacy-import',
     website: 'https://github.com/tiborsaas/rollup-plugin-threejs-legacy-import#README',
+  },
+  source: {
+    github: 'rollup/rollup-plugin-legacy',
+    npm: 'rollup-plugin-threejs-legacy-import',
   },
   stats: {
     stars: 10,

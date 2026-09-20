@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vue-tsx',
     'mdx',
   ],
-  source: {
-    github: 'widcardw/vite-plugin-vue3-mdx',
-    npm: 'vite-plugin-vue3-mdx',
-  },
   links: {
     github: 'https://github.com/widcardw/vite-plugin-vue3-mdx',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue3-mdx',
     website: 'https://github.com/widcardw/vite-plugin-vue3-mdx#readme',
+  },
+  source: {
+    github: 'widcardw/vite-plugin-vue3-mdx',
+    npm: 'vite-plugin-vue3-mdx',
   },
   stats: {
     stars: 0,

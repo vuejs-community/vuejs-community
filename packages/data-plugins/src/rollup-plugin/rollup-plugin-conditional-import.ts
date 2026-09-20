@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'conditional',
     'import',
   ],
-  source: {
-    github: 'vinny-silveira/rollup-plugin-conditional-import',
-    npm: 'rollup-plugin-conditional-import',
-  },
   links: {
     github: 'https://github.com/vinny-silveira/rollup-plugin-conditional-import',
     npm: 'https://www.npmjs.com/package/rollup-plugin-conditional-import',
     website: 'https://github.com/vinny-silveira/rollup-plugin-conditional-import',
+  },
+  source: {
+    github: 'vinny-silveira/rollup-plugin-conditional-import',
+    npm: 'rollup-plugin-conditional-import',
   },
   stats: {
     stars: 0,

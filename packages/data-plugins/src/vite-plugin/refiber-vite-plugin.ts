@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'refiber/vite-plugin',
-    npm: 'refiber-vite-plugin',
-  },
   links: {
     github: 'https://github.com/refiber/vite-plugin',
     npm: 'https://www.npmjs.com/package/refiber-vite-plugin',
     website: 'https://github.com/refiber/vite-plugin#readme',
+  },
+  source: {
+    github: 'refiber/vite-plugin',
+    npm: 'refiber-vite-plugin',
   },
   stats: {
     stars: 0,

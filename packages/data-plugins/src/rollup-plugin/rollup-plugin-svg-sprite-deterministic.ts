@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'extract',
     'minify',
   ],
-  source: {
-    github: 'mhassan1/rollup-plugin-svg-sprite',
-    npm: 'rollup-plugin-svg-sprite-deterministic',
-  },
   links: {
     github: 'https://github.com/mhassan1/rollup-plugin-svg-sprite',
     npm: 'https://www.npmjs.com/package/rollup-plugin-svg-sprite-deterministic',
     website: 'https://github.com/mhassan1/rollup-plugin-svg-sprite#readme',
+  },
+  source: {
+    github: 'mhassan1/rollup-plugin-svg-sprite',
+    npm: 'rollup-plugin-svg-sprite-deterministic',
   },
   stats: {
     stars: 1,

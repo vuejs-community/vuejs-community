@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'export',
     'rolldown-plugin',
   ],
-  source: {
-    github: 'luthpg/rolldown-plugin-remove-export',
-    npm: 'rolldown-plugin-remove-export',
-  },
   links: {
     github: 'https://github.com/luthpg/rolldown-plugin-remove-export',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-remove-export',
     website: 'https://github.com/luthpg/rolldown-plugin-remove-export#readme',
+  },
+  source: {
+    github: 'luthpg/rolldown-plugin-remove-export',
+    npm: 'rolldown-plugin-remove-export',
   },
   stats: {
     stars: 0,

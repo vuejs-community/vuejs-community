@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'alias',
     'resolve',
   ],
-  source: {
-    github: 'zheeeng/vite-plugin-shared-modules',
-    npm: 'vite-plugin-shared-modules',
-  },
   links: {
     github: 'https://github.com/zheeeng/vite-plugin-shared-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-shared-modules',
     website: 'https://github.com/zheeeng/vite-plugin-shared-modules#readme',
+  },
+  source: {
+    github: 'zheeeng/vite-plugin-shared-modules',
+    npm: 'vite-plugin-shared-modules',
   },
   stats: {
     stars: 34,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'error-monitoring',
     'proliferate',
   ],
-  source: {
-    github: 'YOUR_ORG/proliferation',
-    npm: '@proliferate_ai/rollup-plugin',
-  },
   links: {
     github: 'https://github.com/YOUR_ORG/proliferation',
     npm: 'https://www.npmjs.com/package/@proliferate_ai/rollup-plugin',
     website: 'https://github.com/YOUR_ORG/proliferation#readme',
+  },
+  source: {
+    github: 'YOUR_ORG/proliferation',
+    npm: '@proliferate_ai/rollup-plugin',
   },
   stats: {
     stars: 0,

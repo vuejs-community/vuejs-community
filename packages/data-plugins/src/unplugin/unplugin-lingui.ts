@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'rspack',
     'webpack',
   ],
-  source: {
-    github: 'Debbl/unplugin-lingui',
-    npm: 'unplugin-lingui',
-  },
   links: {
     github: 'https://github.com/Debbl/unplugin-lingui',
     npm: 'https://www.npmjs.com/package/unplugin-lingui',
     website: 'https://github.com/Debbl/unplugin-lingui#readme',
+  },
+  source: {
+    github: 'Debbl/unplugin-lingui',
+    npm: 'unplugin-lingui',
   },
   stats: {
     stars: 2,

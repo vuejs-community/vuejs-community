@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'assertions',
   ],
-  source: {
-    github: 'scenetest/scenetest-js',
-    npm: '@scenetest/vite-plugin',
-  },
   links: {
     github: 'https://github.com/scenetest/scenetest-js',
     npm: 'https://www.npmjs.com/package/@scenetest/vite-plugin',
     website: 'https://github.com/scenetest/scenetest-js#readme',
+  },
+  source: {
+    github: 'scenetest/scenetest-js',
+    npm: '@scenetest/vite-plugin',
   },
   stats: {
     stars: 12,

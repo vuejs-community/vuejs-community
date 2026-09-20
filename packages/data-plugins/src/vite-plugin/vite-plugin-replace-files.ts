@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'elwin013/vite-plugin-replace-files',
-    npm: 'vite-plugin-replace-files',
-  },
   links: {
     github: 'https://github.com/elwin013/vite-plugin-replace-files',
     npm: 'https://www.npmjs.com/package/vite-plugin-replace-files',
     website: 'https://github.com/elwin013/vite-plugin-replace-files#readme',
+  },
+  source: {
+    github: 'elwin013/vite-plugin-replace-files',
+    npm: 'vite-plugin-replace-files',
   },
   stats: {
     stars: 10,

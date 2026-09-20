@@ -20,12 +20,12 @@ export default defineProjectMeta({
     'farm',
     'rolldown',
   ],
-  source: {
-    npm: 'unplugin-external',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-external',
     website: 'https://github.com/litingyes/unplugin-external#readme',
+  },
+  source: {
+    npm: 'unplugin-external',
   },
   stats: {
     stars: 0,

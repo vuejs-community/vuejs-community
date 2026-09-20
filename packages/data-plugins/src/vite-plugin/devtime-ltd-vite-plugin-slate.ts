@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'proxy',
     'hmr',
   ],
-  source: {
-    github: 'devtime-ltd/slate',
-    npm: '@devtime-ltd/vite-plugin-slate',
-  },
   links: {
     github: 'https://github.com/devtime-ltd/slate',
     npm: 'https://www.npmjs.com/package/@devtime-ltd/vite-plugin-slate',
     website: 'https://github.com/devtime-ltd/slate/tree/main/vite-plugin-slate#readme',
+  },
+  source: {
+    github: 'devtime-ltd/slate',
+    npm: '@devtime-ltd/vite-plugin-slate',
   },
   stats: {
     stars: 0,

@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'assets',
     'url-transform',
   ],
-  source: {
-    github: 'misits/vite-plugin-wordpress-alias',
-    npm: 'vite-plugin-wordpress-alias',
-  },
   links: {
     github: 'https://github.com/misits/vite-plugin-wordpress-alias',
     npm: 'https://www.npmjs.com/package/vite-plugin-wordpress-alias',
     website: 'https://github.com/misits/vite-plugin-wordpress-alias#readme',
+  },
+  source: {
+    github: 'misits/vite-plugin-wordpress-alias',
+    npm: 'vite-plugin-wordpress-alias',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'minify',
     'vite-plugin',
   ],
-  source: {
-    github: 'vbenjs/vite-plugin-html',
-    npm: 'vite-plugin-vue-setup-name-support',
-  },
   links: {
     github: 'https://github.com/vbenjs/vite-plugin-html',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-setup-name-support',
     website: 'https://github.com/vbenjs/vite-plugin-html/tree/master/#readme',
+  },
+  source: {
+    github: 'vbenjs/vite-plugin-html',
+    npm: 'vite-plugin-vue-setup-name-support',
   },
   stats: {
     stars: 0,

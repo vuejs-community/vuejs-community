@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'html',
     'vue',
   ],
-  source: {
-    npm: 'vite-plugin-vue-word2vue',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-word2vue',
+  },
+  source: {
+    npm: 'vite-plugin-vue-word2vue',
   },
   stats: {
     stars: 0,

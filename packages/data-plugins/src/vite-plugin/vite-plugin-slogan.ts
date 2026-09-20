@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'typescript',
   ],
-  source: {
-    github: 'OceanPresentChao/vite-plugin-slogan',
-    npm: 'vite-plugin-slogan',
-  },
   links: {
     github: 'https://github.com/OceanPresentChao/vite-plugin-slogan',
     npm: 'https://www.npmjs.com/package/vite-plugin-slogan',
     website: 'https://github.com/OceanPresentChao/vite-plugin-slogan',
+  },
+  source: {
+    github: 'OceanPresentChao/vite-plugin-slogan',
+    npm: 'vite-plugin-slogan',
   },
   stats: {
     stars: 2,

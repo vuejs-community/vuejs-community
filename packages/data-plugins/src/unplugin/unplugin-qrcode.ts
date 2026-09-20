@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'webpack',
     'rollup',
   ],
-  source: {
-    github: 'stella100np/unplugin-qrcode',
-    npm: 'unplugin-qrcode',
-  },
   links: {
     github: 'https://github.com/stella100np/unplugin-qrcode',
     npm: 'https://www.npmjs.com/package/unplugin-qrcode',
     website: 'https://github.com/stella100np/unplugin-qrcode#readme',
+  },
+  source: {
+    github: 'stella100np/unplugin-qrcode',
+    npm: 'unplugin-qrcode',
   },
   stats: {
     stars: 0,

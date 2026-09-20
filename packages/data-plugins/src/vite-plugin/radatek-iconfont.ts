@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'fontawesome',
     'lucide',
   ],
-  source: {
-    github: 'radateklt/iconfont',
-    npm: '@radatek/iconfont',
-  },
   links: {
     github: 'https://github.com/radateklt/iconfont',
     npm: 'https://www.npmjs.com/package/@radatek/iconfont',
     website: 'https://github.com/radateklt/iconfont#readme',
+  },
+  source: {
+    github: 'radateklt/iconfont',
+    npm: '@radatek/iconfont',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'aspnetcore',
     'manifest',
   ],
-  source: {
-    github: 'flixcor/minimalhtml',
-    npm: '@minimalhtml/vite',
-  },
   links: {
     github: 'https://github.com/flixcor/minimalhtml',
     npm: 'https://www.npmjs.com/package/@minimalhtml/vite',
     website: 'https://github.com/flixcor/minimalhtml/tree/main/npm/vite',
+  },
+  source: {
+    github: 'flixcor/minimalhtml',
+    npm: '@minimalhtml/vite',
   },
   stats: {
     stars: 0,

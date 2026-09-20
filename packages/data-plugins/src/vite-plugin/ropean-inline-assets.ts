@@ -30,14 +30,14 @@ export default defineProjectMeta({
     'zero-dependency',
     'bundler',
   ],
-  source: {
-    github: 'ropean/inline-assets',
-    npm: '@ropean/inline-assets',
-  },
   links: {
     github: 'https://github.com/ropean/inline-assets',
     npm: 'https://www.npmjs.com/package/@ropean/inline-assets',
     website: 'https://inline-assets.ropean.org',
+  },
+  source: {
+    github: 'ropean/inline-assets',
+    npm: '@ropean/inline-assets',
   },
   stats: {
     stars: 0,

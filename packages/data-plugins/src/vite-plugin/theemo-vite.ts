@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'design tokens',
     'vite-plugin',
   ],
-  source: {
-    github: 'theemo-tokens/theemo',
-    npm: '@theemo/vite',
-  },
   links: {
     github: 'https://github.com/theemo-tokens/theemo',
     npm: 'https://www.npmjs.com/package/@theemo/vite',
     website: 'https://theemo.io',
+  },
+  source: {
+    github: 'theemo-tokens/theemo',
+    npm: '@theemo/vite',
   },
   stats: {
     stars: 0,

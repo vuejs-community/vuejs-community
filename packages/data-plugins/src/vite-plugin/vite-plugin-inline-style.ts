@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'styling',
     'inline',
   ],
-  source: {
-    github: 'headercat/vite-plugin-inline-style',
-    npm: 'vite-plugin-inline-style',
-  },
   links: {
     github: 'https://github.com/headercat/vite-plugin-inline-style',
     npm: 'https://www.npmjs.com/package/vite-plugin-inline-style',
     website: 'https://github.com/headercat/vite-plugin-inline-style#readme',
+  },
+  source: {
+    github: 'headercat/vite-plugin-inline-style',
+    npm: 'vite-plugin-inline-style',
   },
   stats: {
     stars: 2,

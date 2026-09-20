@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'cary-mao/rollup-plugin-codefilter',
-    npm: 'rollup-plugin-codefilter',
-  },
   links: {
     github: 'https://github.com/cary-mao/rollup-plugin-codefilter',
     npm: 'https://www.npmjs.com/package/rollup-plugin-codefilter',
     website: 'https://github.com/cary-mao/rollup-plugin-codefilter#readme',
+  },
+  source: {
+    github: 'cary-mao/rollup-plugin-codefilter',
+    npm: 'rollup-plugin-codefilter',
   },
   stats: {
     stars: 0,

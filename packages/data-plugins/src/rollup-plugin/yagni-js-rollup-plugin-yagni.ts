@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'yagni-js',
     'rollup-plugin',
   ],
-  source: {
-    github: 'yagni-js/rollup-plugin-yagni',
-    npm: '@yagni-js/rollup-plugin-yagni',
-  },
   links: {
     github: 'https://github.com/yagni-js/rollup-plugin-yagni',
     npm: 'https://www.npmjs.com/package/@yagni-js/rollup-plugin-yagni',
     website: 'https://github.com/yagni-js/rollup-plugin-yagni#readme',
+  },
+  source: {
+    github: 'yagni-js/rollup-plugin-yagni',
+    npm: '@yagni-js/rollup-plugin-yagni',
   },
   stats: {
     stars: 1,

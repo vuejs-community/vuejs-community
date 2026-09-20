@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    npm: '@0x-jerry/unplugin-env',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@0x-jerry/unplugin-env',
+  },
+  source: {
+    npm: '@0x-jerry/unplugin-env',
   },
   stats: {
     stars: 0,

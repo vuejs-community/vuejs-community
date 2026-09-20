@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'theoephraim/nmbl',
-    npm: '@nmbl-lang/vite-plugin',
-  },
   links: {
     github: 'https://github.com/theoephraim/nmbl',
     npm: 'https://www.npmjs.com/package/@nmbl-lang/vite-plugin',
     website: 'https://nmbl.tools',
+  },
+  source: {
+    github: 'theoephraim/nmbl',
+    npm: '@nmbl-lang/vite-plugin',
   },
   stats: {
     stars: 4,

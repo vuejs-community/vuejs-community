@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'solidjs/prerender-crawler',
-    npm: 'prerender-crawler',
-  },
   links: {
     github: 'https://github.com/solidjs/prerender-crawler',
     npm: 'https://www.npmjs.com/package/prerender-crawler',
     website: 'https://github.com/solidjs/prerender-crawler/tree/main/packages/crawler#readme',
+  },
+  source: {
+    github: 'solidjs/prerender-crawler',
+    npm: 'prerender-crawler',
   },
   stats: {
     stars: 5,

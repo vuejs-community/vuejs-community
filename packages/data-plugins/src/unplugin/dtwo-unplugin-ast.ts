@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'kdjs-dev/unplugin-ast',
-    npm: '@dtwo/unplugin-ast',
-  },
   links: {
     github: 'https://github.com/kdjs-dev/unplugin-ast',
     npm: 'https://www.npmjs.com/package/@dtwo/unplugin-ast',
     website: 'https://github.com/kdjs-dev/unplugin-ast#readme',
+  },
+  source: {
+    github: 'kdjs-dev/unplugin-ast',
+    npm: '@dtwo/unplugin-ast',
   },
   stats: {
     stars: 0,

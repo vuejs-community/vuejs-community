@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'capacitor',
     'spa',
   ],
-  source: {
-    npm: 'vite-plugin-file-router',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-file-router',
+  },
+  source: {
+    npm: 'vite-plugin-file-router',
   },
   stats: {
     stars: 0,

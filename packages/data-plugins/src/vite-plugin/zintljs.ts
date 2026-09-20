@@ -33,14 +33,14 @@ export default defineProjectMeta({
     'zero-runtime',
     'zintl',
   ],
-  source: {
-    github: 'zintljs/zintl',
-    npm: 'zintljs',
-  },
   links: {
     github: 'https://github.com/zintljs/zintl',
     npm: 'https://www.npmjs.com/package/zintljs',
     website: 'https://github.com/zintljs/zintl#readme',
+  },
+  source: {
+    github: 'zintljs/zintl',
+    npm: 'zintljs',
   },
   stats: {
     stars: 1,

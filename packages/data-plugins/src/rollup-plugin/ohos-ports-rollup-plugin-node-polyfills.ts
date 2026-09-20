@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'ohos-ports/ohos-ports',
-    npm: '@ohos-ports/rollup-plugin-node-polyfills',
-  },
   links: {
     github: 'https://github.com/ohos-ports/ohos-ports',
     npm: 'https://www.npmjs.com/package/@ohos-ports/rollup-plugin-node-polyfills',
     website: 'https://github.com/ohos-ports/ohos-ports#readme',
+  },
+  source: {
+    github: 'ohos-ports/ohos-ports',
+    npm: '@ohos-ports/rollup-plugin-node-polyfills',
   },
   stats: {
     stars: 0,

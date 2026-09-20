@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'critical-css',
     'performance',
   ],
-  source: {
-    npm: '@rk-web/vite-plugin-critical',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@rk-web/vite-plugin-critical',
+  },
+  source: {
+    npm: '@rk-web/vite-plugin-critical',
   },
   stats: {
     stars: 0,

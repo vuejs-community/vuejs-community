@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'protibimbok/vite-hotfile',
-    npm: 'vite-hotfile',
-  },
   links: {
     github: 'https://github.com/protibimbok/vite-hotfile',
     npm: 'https://www.npmjs.com/package/vite-hotfile',
     website: 'https://github.com/protibimbok/vite-hotfile#readme',
+  },
+  source: {
+    github: 'protibimbok/vite-hotfile',
+    npm: 'vite-hotfile',
   },
   stats: {
     stars: 2,

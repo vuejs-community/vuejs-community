@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'require-transform',
     'unplugin-require-transform',
   ],
-  source: {
-    github: 'tangdaoyuan/unplugin-require-transform',
-    npm: 'unplugin-require-transform',
-  },
   links: {
     github: 'https://github.com/tangdaoyuan/unplugin-require-transform',
     npm: 'https://www.npmjs.com/package/unplugin-require-transform',
     website: 'https://github.com/tangdaoyuan/unplugin-require-transform#readme',
+  },
+  source: {
+    github: 'tangdaoyuan/unplugin-require-transform',
+    npm: 'unplugin-require-transform',
   },
   stats: {
     stars: 1,

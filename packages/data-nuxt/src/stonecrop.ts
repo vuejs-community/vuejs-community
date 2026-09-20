@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://stonecrop.io/',
   },
   source: {
-    github: 'agritheory/stonecrop#development/nuxt',
+    github: 'agritheory/stonecrop',
     npm: '@stonecrop/nuxt',
   },
 })

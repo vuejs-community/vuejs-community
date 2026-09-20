@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'woff',
     'woff2',
   ],
-  source: {
-    github: 'darkobits/vite-plugin-webfonts',
-    npm: 'vite-plugin-webfonts',
-  },
   links: {
     github: 'https://github.com/darkobits/vite-plugin-webfonts',
     npm: 'https://www.npmjs.com/package/vite-plugin-webfonts',
     website: 'https://github.com/darkobits/vite-plugin-webfonts#readme',
+  },
+  source: {
+    github: 'darkobits/vite-plugin-webfonts',
+    npm: 'vite-plugin-webfonts',
   },
   stats: {
     stars: 3,

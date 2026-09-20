@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'critical-css',
     'ssg',
   ],
-  source: {
-    npm: '@unterberg/vite-beasties-output',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@unterberg/vite-beasties-output',
+  },
+  source: {
+    npm: '@unterberg/vite-beasties-output',
   },
   stats: {
     stars: 0,

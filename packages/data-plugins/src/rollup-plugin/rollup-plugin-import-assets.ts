@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'assets',
   ],
-  source: {
-    github: 'domingues/rollup-plugin-import-assets',
-    npm: 'rollup-plugin-import-assets',
-  },
   links: {
     github: 'https://github.com/domingues/rollup-plugin-import-assets',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-assets',
     website: 'https://github.com/domingues/rollup-plugin-import-assets',
+  },
+  source: {
+    github: 'domingues/rollup-plugin-import-assets',
+    npm: 'rollup-plugin-import-assets',
   },
   stats: {
     stars: 0,

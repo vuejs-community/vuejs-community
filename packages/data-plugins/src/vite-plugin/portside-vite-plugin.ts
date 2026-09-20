@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: '0xSalik/portside',
-    npm: 'portside-vite-plugin',
-  },
   links: {
     github: 'https://github.com/0xSalik/portside',
     npm: 'https://www.npmjs.com/package/portside-vite-plugin',
     website: 'https://github.com/0xSalik/portside#readme',
+  },
+  source: {
+    github: '0xSalik/portside',
+    npm: 'portside-vite-plugin',
   },
   stats: {
     stars: 0,

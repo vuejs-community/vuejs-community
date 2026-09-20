@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'code-splitting',
     'translations',
   ],
-  source: {
-    github: 'havelaer/traduki',
-    npm: '@traduki/vite-plugin-traduki',
-  },
   links: {
     github: 'https://github.com/havelaer/traduki',
     npm: 'https://www.npmjs.com/package/@traduki/vite-plugin-traduki',
     website: 'https://github.com/havelaer/traduki#readme',
+  },
+  source: {
+    github: 'havelaer/traduki',
+    npm: '@traduki/vite-plugin-traduki',
   },
   stats: {
     stars: 2,

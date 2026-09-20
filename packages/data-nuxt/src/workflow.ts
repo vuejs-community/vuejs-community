@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://workflow-sdk.dev/',
   },
   source: {
-    github: 'vercel/workflow#main/packages/workflow',
+    github: 'vercel/workflow',
     npm: 'workflow',
   },
 })

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'translation',
     'typescript',
   ],
-  source: {
-    github: 'IbraimovEr1an/react-ultra-language',
-    npm: 'react-ultra-language',
-  },
   links: {
     github: 'https://github.com/IbraimovEr1an/react-ultra-language',
     npm: 'https://www.npmjs.com/package/react-ultra-language',
     website: 'https://github.com/IbraimovEr1an/react-ultra-language#readme',
+  },
+  source: {
+    github: 'IbraimovEr1an/react-ultra-language',
+    npm: 'react-ultra-language',
   },
   stats: {
     stars: 0,

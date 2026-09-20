@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'useRuntimeConfig',
   ],
-  source: {
-    github: 'yanuaraditia/config',
-    npm: '@yanuaraditia/config-vite',
-  },
   links: {
     github: 'https://github.com/yanuaraditia/config',
     npm: 'https://www.npmjs.com/package/@yanuaraditia/config-vite',
     website: 'https://github.com/yanuaraditia/config#readme',
+  },
+  source: {
+    github: 'yanuaraditia/config',
+    npm: '@yanuaraditia/config-vite',
   },
   stats: {
     stars: 0,

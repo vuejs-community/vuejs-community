@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'clear',
     'clean',
   ],
-  source: {
-    github: 'DongShelton/rollup-plugin-clear',
-    npm: 'rollup-plugin-clear',
-  },
   links: {
     github: 'https://github.com/DongShelton/rollup-plugin-clear',
     npm: 'https://www.npmjs.com/package/rollup-plugin-clear',
     website: 'https://github.com/DongShelton/rollup-plugin-clear#readme',
+  },
+  source: {
+    github: 'DongShelton/rollup-plugin-clear',
+    npm: 'rollup-plugin-clear',
   },
   stats: {
     stars: 13,

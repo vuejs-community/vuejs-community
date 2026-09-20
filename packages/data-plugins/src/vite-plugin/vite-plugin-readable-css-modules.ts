@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'css-modules',
     'css',
   ],
-  source: {
-    github: 'arusak/vite-plugin-readable-css-modules',
-    npm: 'vite-plugin-readable-css-modules',
-  },
   links: {
     github: 'https://github.com/arusak/vite-plugin-readable-css-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-readable-css-modules',
     website: 'https://github.com/arusak/vite-plugin-readable-css-modules',
+  },
+  source: {
+    github: 'arusak/vite-plugin-readable-css-modules',
+    npm: 'vite-plugin-readable-css-modules',
   },
   stats: {
     stars: 1,

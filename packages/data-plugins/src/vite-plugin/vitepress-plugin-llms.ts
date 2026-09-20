@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vitepress',
     'vitepress-plugin',
   ],
-  source: {
-    github: 'okineadev/vitepress-plugin-llms',
-    npm: 'vitepress-plugin-llms',
-  },
   links: {
     github: 'https://github.com/okineadev/vitepress-plugin-llms',
     npm: 'https://www.npmjs.com/package/vitepress-plugin-llms',
     website: 'https://github.com/okineadev/vitepress-plugin-llms#readme',
+  },
+  source: {
+    github: 'okineadev/vitepress-plugin-llms',
+    npm: 'vitepress-plugin-llms',
   },
   stats: {
     stars: 0,

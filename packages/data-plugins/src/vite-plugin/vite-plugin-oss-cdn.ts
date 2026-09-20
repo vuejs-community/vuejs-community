@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'oss',
     'cdn',
   ],
-  source: {
-    npm: 'vite-plugin-oss-cdn',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-oss-cdn',
+  },
+  source: {
+    npm: 'vite-plugin-oss-cdn',
   },
   stats: {
     stars: 0,

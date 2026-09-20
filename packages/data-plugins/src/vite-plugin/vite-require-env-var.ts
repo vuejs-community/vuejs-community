@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'Thesoreon/vite-require-environment-variable',
-    npm: 'vite-require-env-var',
-  },
   links: {
     github: 'https://github.com/Thesoreon/vite-require-environment-variable',
     npm: 'https://www.npmjs.com/package/vite-require-env-var',
     website: 'https://github.com/Thesoreon/vite-require-environment-variable',
+  },
+  source: {
+    github: 'Thesoreon/vite-require-environment-variable',
+    npm: 'vite-require-env-var',
   },
   stats: {
     stars: 2,

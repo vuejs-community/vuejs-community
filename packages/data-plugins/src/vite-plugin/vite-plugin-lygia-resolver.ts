@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'webgl-shaders',
     'webgpu-shaders',
   ],
-  source: {
-    github: 'Nek/vite-plugin-lygia',
-    npm: 'vite-plugin-lygia-resolver',
-  },
   links: {
     github: 'https://github.com/Nek/vite-plugin-lygia',
     npm: 'https://www.npmjs.com/package/vite-plugin-lygia-resolver',
     website: 'https://github.com/Nek/vite-plugin-lygia#readme',
+  },
+  source: {
+    github: 'Nek/vite-plugin-lygia',
+    npm: 'vite-plugin-lygia-resolver',
   },
   stats: {
     stars: 0,

@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'vue.ts',
     'webpack',
   ],
-  source: {
-    github: 'so1ve/vue.ts',
-    npm: '@vue.ts/tsx-auto-props',
-  },
   links: {
     github: 'https://github.com/so1ve/vue.ts',
     npm: 'https://www.npmjs.com/package/@vue.ts/tsx-auto-props',
     website: 'https://github.com/so1ve/vue.ts/tree/main/packages/tsx-auto-props#readme',
+  },
+  source: {
+    github: 'so1ve/vue.ts',
+    npm: '@vue.ts/tsx-auto-props',
   },
   stats: {
     stars: 0,

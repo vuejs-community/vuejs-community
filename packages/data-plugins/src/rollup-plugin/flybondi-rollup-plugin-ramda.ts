@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'modules',
     'ramda',
   ],
-  source: {
-    github: 'flybondi/rollup-plugin-ramda',
-    npm: '@flybondi/rollup-plugin-ramda',
-  },
   links: {
     github: 'https://github.com/flybondi/rollup-plugin-ramda',
     npm: 'https://www.npmjs.com/package/@flybondi/rollup-plugin-ramda',
     website: 'https://github.com/flybondi/rollup-plugin-ramda#readme',
+  },
+  source: {
+    github: 'flybondi/rollup-plugin-ramda',
+    npm: '@flybondi/rollup-plugin-ramda',
   },
   stats: {
     stars: 0,

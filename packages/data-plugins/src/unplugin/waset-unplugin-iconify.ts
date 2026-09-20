@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'waset/unplugin-iconify',
-    npm: '@waset/unplugin-iconify',
-  },
   links: {
     github: 'https://github.com/waset/unplugin-iconify',
     npm: 'https://www.npmjs.com/package/@waset/unplugin-iconify',
     website: 'https://github.com/waset/unplugin-iconify#readme',
+  },
+  source: {
+    github: 'waset/unplugin-iconify',
+    npm: '@waset/unplugin-iconify',
   },
   stats: {
     stars: 2,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'upstat-io/warpkit',
-    npm: '@warpkit/vite-plugin',
-  },
   links: {
     github: 'https://github.com/upstat-io/warpkit',
     npm: 'https://www.npmjs.com/package/@warpkit/vite-plugin',
     website: 'https://github.com/upstat-io/warpkit#readme',
+  },
+  source: {
+    github: 'upstat-io/warpkit',
+    npm: '@warpkit/vite-plugin',
   },
   stats: {
     stars: 41,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'magic-string',
     'rollup',
   ],
-  source: {
-    github: 'sxzz/rolldown-string',
-    npm: 'rolldown-string',
-  },
   links: {
     github: 'https://github.com/sxzz/rolldown-string',
     npm: 'https://www.npmjs.com/package/rolldown-string',
     website: 'https://github.com/sxzz/rolldown-string#readme',
+  },
+  source: {
+    github: 'sxzz/rolldown-string',
+    npm: 'rolldown-string',
   },
   stats: {
     stars: 10,

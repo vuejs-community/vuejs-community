@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'proxy',
     'rewrite',
   ],
-  source: {
-    npm: 'vite-plugin-proxy-page',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-proxy-page',
     website: 'https://macarthur.me/posts/project-local-spa-onto-production-page',
+  },
+  source: {
+    npm: 'vite-plugin-proxy-page',
   },
   stats: {
     stars: 0,

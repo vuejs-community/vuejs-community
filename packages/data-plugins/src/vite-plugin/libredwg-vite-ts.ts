@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'wasm',
     'webassembly',
   ],
-  source: {
-    npm: 'libredwg-vite-ts',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/libredwg-vite-ts',
+  },
+  source: {
+    npm: 'libredwg-vite-ts',
   },
   stats: {
     stars: 0,

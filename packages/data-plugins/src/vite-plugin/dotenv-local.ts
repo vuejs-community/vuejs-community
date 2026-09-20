@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'load',
     'nodejs',
   ],
-  source: {
-    github: 'yracnet/dotenv-local',
-    npm: 'dotenv-local',
-  },
   links: {
     github: 'https://github.com/yracnet/dotenv-local',
     npm: 'https://www.npmjs.com/package/dotenv-local',
     website: 'https://github.com/yracnet/dotenv-local',
+  },
+  source: {
+    github: 'yracnet/dotenv-local',
+    npm: 'dotenv-local',
   },
   stats: {
     stars: 0,

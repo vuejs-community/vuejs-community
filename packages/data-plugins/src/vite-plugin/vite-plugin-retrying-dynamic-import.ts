@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'dynamic import',
   ],
-  source: {
-    github: 'cj0x39e/retrying-dynamic-import',
-    npm: 'vite-plugin-retrying-dynamic-import',
-  },
   links: {
     github: 'https://github.com/cj0x39e/retrying-dynamic-import',
     npm: 'https://www.npmjs.com/package/vite-plugin-retrying-dynamic-import',
     website: 'https://github.com/cj0x39e/retrying-dynamic-import#readme',
+  },
+  source: {
+    github: 'cj0x39e/retrying-dynamic-import',
+    npm: 'vite-plugin-retrying-dynamic-import',
   },
   stats: {
     stars: 19,

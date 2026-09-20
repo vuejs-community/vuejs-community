@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'zenso',
     'e-ink',
   ],
-  source: {
-    github: 'zensoink/vite-plugin',
-    npm: '@zenso/vite-plugin',
-  },
   links: {
     github: 'https://github.com/zensoink/vite-plugin',
     npm: 'https://www.npmjs.com/package/@zenso/vite-plugin',
     website: 'https://github.com/zensoink/vite-plugin',
+  },
+  source: {
+    github: 'zensoink/vite-plugin',
+    npm: '@zenso/vite-plugin',
   },
   stats: {
     stars: 0,

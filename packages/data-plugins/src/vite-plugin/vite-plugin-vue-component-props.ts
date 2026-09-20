@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'setup',
     'component-name',
   ],
-  source: {
-    github: 'tttxdxd/vite-plugin-vue-component-props',
-    npm: 'vite-plugin-vue-component-props',
-  },
   links: {
     github: 'https://github.com/tttxdxd/vite-plugin-vue-component-props',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-component-props',
     website: 'https://github.com/tttxdxd/vite-plugin-vue-component-props#readme',
+  },
+  source: {
+    github: 'tttxdxd/vite-plugin-vue-component-props',
+    npm: 'vite-plugin-vue-component-props',
   },
   stats: {
     stars: 0,

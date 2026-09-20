@@ -29,11 +29,11 @@ export default defineProjectMeta({
     'ssr-only-plugin-vite-plugin-ripple',
     'ssg-only-plugin-vite-plugin-ripple',
   ],
-  source: {
-    npm: 'ripplex-test',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/ripplex-test',
+  },
+  source: {
+    npm: 'ripplex-test',
   },
   stats: {
     stars: 0,

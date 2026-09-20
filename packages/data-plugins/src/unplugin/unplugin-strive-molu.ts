@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'unplugin',
     'vite',
   ],
-  source: {
-    github: 'zhoubaos/unplugin-strive-molu',
-    npm: 'unplugin-strive-molu',
-  },
   links: {
     github: 'https://github.com/zhoubaos/unplugin-strive-molu',
     npm: 'https://www.npmjs.com/package/unplugin-strive-molu',
     website: 'https://github.com/zhoubaos/unplugin-strive-molu#readme',
+  },
+  source: {
+    github: 'zhoubaos/unplugin-strive-molu',
+    npm: 'unplugin-strive-molu',
   },
   stats: {
     stars: 0,

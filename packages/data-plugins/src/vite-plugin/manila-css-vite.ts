@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'styling',
     'vite-plugin',
   ],
-  source: {
-    github: 'alexamy/manila-css',
-    npm: '@manila-css/vite',
-  },
   links: {
     github: 'https://github.com/alexamy/manila-css',
     npm: 'https://www.npmjs.com/package/@manila-css/vite',
     website: 'https://github.com/alexamy/manila-css#readme',
+  },
+  source: {
+    github: 'alexamy/manila-css',
+    npm: '@manila-css/vite',
   },
   stats: {
     stars: 0,

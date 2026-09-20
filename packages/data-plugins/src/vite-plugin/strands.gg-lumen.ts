@@ -21,11 +21,11 @@ export default defineProjectMeta({
     'nuxt-module',
     'vite-plugin',
   ],
-  source: {
-    npm: '@strands.gg/lumen',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@strands.gg/lumen',
+  },
+  source: {
+    npm: '@strands.gg/lumen',
   },
   stats: {
     stars: 0,

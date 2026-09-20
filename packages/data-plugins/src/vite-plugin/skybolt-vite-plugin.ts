@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'performance',
     'assets',
   ],
-  source: {
-    github: 'JensRoland/skybolt',
-    npm: '@skybolt/vite-plugin',
-  },
   links: {
     github: 'https://github.com/JensRoland/skybolt',
     npm: 'https://www.npmjs.com/package/@skybolt/vite-plugin',
     website: 'https://github.com/JensRoland/skybolt#readme',
+  },
+  source: {
+    github: 'JensRoland/skybolt',
+    npm: '@skybolt/vite-plugin',
   },
   stats: {
     stars: 5,

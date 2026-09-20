@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'hmr',
     'hot-module-replacement',
   ],
-  source: {
-    github: 'artkrsk/vite-plugin-wp-hmr',
-    npm: '@artemsemkin/vite-plugin-wp-hmr',
-  },
   links: {
     github: 'https://github.com/artkrsk/vite-plugin-wp-hmr',
     npm: 'https://www.npmjs.com/package/@artemsemkin/vite-plugin-wp-hmr',
     website: 'https://github.com/artkrsk/vite-plugin-wp-hmr#readme',
+  },
+  source: {
+    github: 'artkrsk/vite-plugin-wp-hmr',
+    npm: '@artemsemkin/vite-plugin-wp-hmr',
   },
   stats: {
     stars: 0,

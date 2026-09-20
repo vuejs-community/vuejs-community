@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'ssr',
     'server',
   ],
-  source: {
-    github: 'kadeangell/vite-plugin-native-rust',
-    npm: 'vite-plugin-native-rust',
-  },
   links: {
     github: 'https://github.com/kadeangell/vite-plugin-native-rust',
     npm: 'https://www.npmjs.com/package/vite-plugin-native-rust',
     website: 'https://github.com/kadeangell/vite-plugin-native-rust#readme',
+  },
+  source: {
+    github: 'kadeangell/vite-plugin-native-rust',
+    npm: 'vite-plugin-native-rust',
   },
   stats: {
     stars: 0,

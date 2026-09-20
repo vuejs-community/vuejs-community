@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'Caspeco/LocalSSLVite',
-    npm: '@caspeco/vite-plugin-local-ssl',
-  },
   links: {
     github: 'https://github.com/Caspeco/LocalSSLVite',
     npm: 'https://www.npmjs.com/package/@caspeco/vite-plugin-local-ssl',
     website: 'https://github.com/Caspeco/LocalSSLVite',
+  },
+  source: {
+    github: 'Caspeco/LocalSSLVite',
+    npm: '@caspeco/vite-plugin-local-ssl',
   },
   stats: {
     stars: 0,

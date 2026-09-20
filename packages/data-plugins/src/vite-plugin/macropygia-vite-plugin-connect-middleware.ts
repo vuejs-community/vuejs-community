@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'connect',
     'middleware',
   ],
-  source: {
-    github: 'macropygia/static-site-stack',
-    npm: '@macropygia/vite-plugin-connect-middleware',
-  },
   links: {
     github: 'https://github.com/macropygia/static-site-stack',
     npm: 'https://www.npmjs.com/package/@macropygia/vite-plugin-connect-middleware',
     website: 'https://github.com/macropygia/static-site-stack/tree/main/packages/vite-plugin-connect-middleware#readme',
+  },
+  source: {
+    github: 'macropygia/static-site-stack',
+    npm: '@macropygia/vite-plugin-connect-middleware',
   },
   stats: {
     stars: 6,

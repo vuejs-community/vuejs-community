@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'ZhongxuYang/vite-plugin-version-mark',
-    npm: 'vite-plugin-version-mark',
-  },
   links: {
     github: 'https://github.com/ZhongxuYang/vite-plugin-version-mark',
     npm: 'https://www.npmjs.com/package/vite-plugin-version-mark',
     website: 'https://github.com/ZhongxuYang/vite-plugin-version-mark.git',
+  },
+  source: {
+    github: 'ZhongxuYang/vite-plugin-version-mark',
+    npm: 'vite-plugin-version-mark',
   },
   stats: {
     stars: 0,

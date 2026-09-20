@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'lyric-zemin/unplugin-vue-auto-img',
-    npm: 'unplugin-vue-auto-img',
-  },
   links: {
     github: 'https://github.com/lyric-zemin/unplugin-vue-auto-img',
     npm: 'https://www.npmjs.com/package/unplugin-vue-auto-img',
     website: 'https://github.com/lyric-zemin/unplugin-vue-auto-img#readme',
+  },
+  source: {
+    github: 'lyric-zemin/unplugin-vue-auto-img',
+    npm: 'unplugin-vue-auto-img',
   },
   stats: {
     stars: 2,

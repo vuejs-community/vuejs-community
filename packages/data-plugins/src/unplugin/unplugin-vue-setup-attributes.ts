@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'zedyuan999/unplugin-vue-setup-attributes',
-    npm: 'unplugin-vue-setup-attributes',
-  },
   links: {
     github: 'https://github.com/zedyuan999/unplugin-vue-setup-attributes',
     npm: 'https://www.npmjs.com/package/unplugin-vue-setup-attributes',
     website: 'https://github.com/zedyuan999/unplugin-vue-setup-attributes/blob/main/README.md',
+  },
+  source: {
+    github: 'zedyuan999/unplugin-vue-setup-attributes',
+    npm: 'unplugin-vue-setup-attributes',
   },
   stats: {
     stars: 3,

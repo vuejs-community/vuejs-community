@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'file-move',
     'build',
   ],
-  source: {
-    npm: 'vite-file-move-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-file-move-plugin',
+  },
+  source: {
+    npm: 'vite-file-move-plugin',
   },
   stats: {
     stars: 0,

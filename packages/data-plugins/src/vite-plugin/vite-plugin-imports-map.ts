@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'imports map',
     'externals',
   ],
-  source: {
-    npm: 'vite-plugin-imports-map',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-imports-map',
+  },
+  source: {
+    npm: 'vite-plugin-imports-map',
   },
   stats: {
     stars: 0,

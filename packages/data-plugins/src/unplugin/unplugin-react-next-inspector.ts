@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'plugin',
     'debug',
   ],
-  source: {
-    github: 'Triumph-light/unplugin-react-inspector',
-    npm: 'unplugin-react-next-inspector',
-  },
   links: {
     github: 'https://github.com/Triumph-light/unplugin-react-inspector',
     npm: 'https://www.npmjs.com/package/unplugin-react-next-inspector',
     website: 'https://github.com/Triumph-light/unplugin-react-inspector/README.md',
+  },
+  source: {
+    github: 'Triumph-light/unplugin-react-inspector',
+    npm: 'unplugin-react-next-inspector',
   },
   stats: {
     stars: 2,

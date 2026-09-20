@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'build',
     'serve',
   ],
-  source: {
-    npm: 'vite-plugin-argv',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-argv',
+  },
+  source: {
+    npm: 'vite-plugin-argv',
   },
   stats: {
     stars: 0,

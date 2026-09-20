@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rolldown',
     'rolldown-plugin',
   ],
-  source: {
-    github: 'pioug/rolldown-plugin-angularjs-annotate',
-    npm: 'rolldown-plugin-angularjs-annotate',
-  },
   links: {
     github: 'https://github.com/pioug/rolldown-plugin-angularjs-annotate',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-angularjs-annotate',
     website: 'https://github.com/pioug/rolldown-plugin-angularjs-annotate#readme',
+  },
+  source: {
+    github: 'pioug/rolldown-plugin-angularjs-annotate',
+    npm: 'rolldown-plugin-angularjs-annotate',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'hunzhiwange/ruejs',
-    npm: '@rue-js/rsc',
-  },
   links: {
     github: 'https://github.com/hunzhiwange/ruejs',
     npm: 'https://www.npmjs.com/package/@rue-js/rsc',
     website: 'https://github.com/hunzhiwange/ruejs/tree/main/packages/rue-rsc#readme',
+  },
+  source: {
+    github: 'hunzhiwange/ruejs',
+    npm: '@rue-js/rsc',
   },
   stats: {
     stars: 7,

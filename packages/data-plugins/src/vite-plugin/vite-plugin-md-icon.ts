@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'mwc',
     'minify',
   ],
-  source: {
-    github: 'vdegenne/vite-plugin-md-icon',
-    npm: 'vite-plugin-md-icon',
-  },
   links: {
     github: 'https://github.com/vdegenne/vite-plugin-md-icon',
     npm: 'https://www.npmjs.com/package/vite-plugin-md-icon',
     website: 'https://github.com/vdegenne/vite-plugin-md-icon#readme',
+  },
+  source: {
+    github: 'vdegenne/vite-plugin-md-icon',
+    npm: 'vite-plugin-md-icon',
   },
   stats: {
     stars: 0,

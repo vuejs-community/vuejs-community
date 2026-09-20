@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'map',
     'tmx',
   ],
-  source: {
-    github: 'konsumer/rollup-plugin-tiled',
-    npm: 'rollup-plugin-tiled',
-  },
   links: {
     github: 'https://github.com/konsumer/rollup-plugin-tiled',
     npm: 'https://www.npmjs.com/package/rollup-plugin-tiled',
     website: 'https://github.com/konsumer/rollup-plugin-tiled#readme',
+  },
+  source: {
+    github: 'konsumer/rollup-plugin-tiled',
+    npm: 'rollup-plugin-tiled',
   },
   stats: {
     stars: 0,

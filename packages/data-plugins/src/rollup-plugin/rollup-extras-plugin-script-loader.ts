@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'inline',
     'concatenation',
   ],
-  source: {
-    github: 'kshutkin/rollup-extras',
-    npm: '@rollup-extras/plugin-script-loader',
-  },
   links: {
     github: 'https://github.com/kshutkin/rollup-extras',
     npm: 'https://www.npmjs.com/package/@rollup-extras/plugin-script-loader',
     website: 'https://github.com/kshutkin/rollup-extras/blob/main/plugin-script-loader/README.md',
+  },
+  source: {
+    github: 'kshutkin/rollup-extras',
+    npm: '@rollup-extras/plugin-script-loader',
   },
   stats: {
     stars: 0,

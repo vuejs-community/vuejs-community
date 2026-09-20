@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'claude',
     'iteration',
   ],
-  source: {
-    github: 'aaroi/iso-iterate',
-    npm: 'iso-iterate',
-  },
   links: {
     github: 'https://github.com/aaroi/iso-iterate',
     npm: 'https://www.npmjs.com/package/iso-iterate',
     website: 'https://github.com/aaroi/iso-iterate#readme',
+  },
+  source: {
+    github: 'aaroi/iso-iterate',
+    npm: 'iso-iterate',
   },
   stats: {
     stars: 0,

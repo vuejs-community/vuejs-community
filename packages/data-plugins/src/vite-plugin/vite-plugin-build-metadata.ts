@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'daniil4udo/vite-plugin-build-metadata',
-    npm: 'vite-plugin-build-metadata',
-  },
   links: {
     github: 'https://github.com/daniil4udo/vite-plugin-build-metadata',
     npm: 'https://www.npmjs.com/package/vite-plugin-build-metadata',
     website: 'https://github.com/daniil4udo/vite-plugin-build-metadata',
+  },
+  source: {
+    github: 'daniil4udo/vite-plugin-build-metadata',
+    npm: 'vite-plugin-build-metadata',
   },
   stats: {
     stars: 3,

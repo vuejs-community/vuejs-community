@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'toml',
   ],
-  source: {
-    github: 'fbraem/rollup-plugin-toml',
-    npm: '@fbraem/rollup-plugin-toml',
-  },
   links: {
     github: 'https://github.com/fbraem/rollup-plugin-toml',
     npm: 'https://www.npmjs.com/package/@fbraem/rollup-plugin-toml',
     website: 'https://github.com/fbraem/rollup-plugin-toml#readme',
+  },
+  source: {
+    github: 'fbraem/rollup-plugin-toml',
+    npm: '@fbraem/rollup-plugin-toml',
   },
   stats: {
     stars: 1,

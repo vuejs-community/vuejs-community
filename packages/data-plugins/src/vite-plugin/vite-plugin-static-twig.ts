@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'html',
     'i18n',
   ],
-  source: {
-    github: 'michaeldk/vite-plugin-static-twig',
-    npm: 'vite-plugin-static-twig',
-  },
   links: {
     github: 'https://github.com/michaeldk/vite-plugin-static-twig',
     npm: 'https://www.npmjs.com/package/vite-plugin-static-twig',
     website: 'https://github.com/michaeldk/vite-plugin-static-twig#readme',
+  },
+  source: {
+    github: 'michaeldk/vite-plugin-static-twig',
+    npm: 'vite-plugin-static-twig',
   },
   stats: {
     stars: 0,

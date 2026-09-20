@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'monaco',
     'mermaid',
   ],
-  source: {
-    github: 'elisherer/vite-plugin-static-copy-modules',
-    npm: 'vite-plugin-static-copy-modules',
-  },
   links: {
     github: 'https://github.com/elisherer/vite-plugin-static-copy-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-static-copy-modules',
     website: 'https://github.com/elisherer/vite-plugin-static-copy-modules#readme',
+  },
+  source: {
+    github: 'elisherer/vite-plugin-static-copy-modules',
+    npm: 'vite-plugin-static-copy-modules',
   },
   stats: {
     stars: 1,

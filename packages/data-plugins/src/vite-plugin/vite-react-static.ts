@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'react',
     'react-ssg',
   ],
-  source: {
-    github: 'jayzoou/vite-react-static',
-    npm: 'vite-react-static',
-  },
   links: {
     github: 'https://github.com/jayzoou/vite-react-static',
     npm: 'https://www.npmjs.com/package/vite-react-static',
     website: 'https://github.com/jayzoou/vite-react-static',
+  },
+  source: {
+    github: 'jayzoou/vite-react-static',
+    npm: 'vite-react-static',
   },
   stats: {
     stars: 1,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'static-site',
     'SPA',
   ],
-  source: {
-    github: 'Effeilo/vite-plugin-seo-files',
-    npm: 'vite-plugin-seo-files',
-  },
   links: {
     github: 'https://github.com/Effeilo/vite-plugin-seo-files',
     npm: 'https://www.npmjs.com/package/vite-plugin-seo-files',
     website: 'https://github.com/Effeilo/vite-plugin-seo-files',
+  },
+  source: {
+    github: 'Effeilo/vite-plugin-seo-files',
+    npm: 'vite-plugin-seo-files',
   },
   stats: {
     stars: 2,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'multi-page',
     'html',
   ],
-  source: {
-    github: 'strugglerx/vite-mpa-plugin',
-    npm: '@struggler/vite-plugin-mpa',
-  },
   links: {
     github: 'https://github.com/strugglerx/vite-mpa-plugin',
     npm: 'https://www.npmjs.com/package/@struggler/vite-plugin-mpa',
     website: 'https://github.com/strugglerx/vite-mpa-plugin#readme',
+  },
+  source: {
+    github: 'strugglerx/vite-mpa-plugin',
+    npm: '@struggler/vite-plugin-mpa',
   },
   stats: {
     stars: 1,

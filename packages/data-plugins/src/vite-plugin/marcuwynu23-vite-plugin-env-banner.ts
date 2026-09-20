@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'environment',
     'banner',
   ],
-  source: {
-    github: 'marcuwynu23/vite-plugin-env-banner',
-    npm: '@marcuwynu23/vite-plugin-env-banner',
-  },
   links: {
     github: 'https://github.com/marcuwynu23/vite-plugin-env-banner',
     npm: 'https://www.npmjs.com/package/@marcuwynu23/vite-plugin-env-banner',
     website: 'https://github.com/marcuwynu23/vite-plugin-env-banner',
+  },
+  source: {
+    github: 'marcuwynu23/vite-plugin-env-banner',
+    npm: '@marcuwynu23/vite-plugin-env-banner',
   },
   stats: {
     stars: 2,

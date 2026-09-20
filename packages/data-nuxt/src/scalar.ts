@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/scalar/scalar/tree/main/integrations/nuxt',
   },
   source: {
-    github: 'scalar/scalar#main/integrations/nuxt',
+    github: 'scalar/scalar',
     npm: '@scalar/nuxt',
   },
 })

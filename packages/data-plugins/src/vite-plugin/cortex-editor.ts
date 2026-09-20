@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'mcp',
     'devtools',
   ],
-  source: {
-    github: 'zerofog/cortex',
-    npm: 'cortex-editor',
-  },
   links: {
     github: 'https://github.com/zerofog/cortex',
     npm: 'https://www.npmjs.com/package/cortex-editor',
     website: 'https://github.com/zerofog/cortex#readme',
+  },
+  source: {
+    github: 'zerofog/cortex',
+    npm: 'cortex-editor',
   },
   stats: {
     stars: 0,

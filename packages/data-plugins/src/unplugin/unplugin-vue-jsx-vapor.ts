@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'volar',
     'vapor',
   ],
-  source: {
-    github: 'unplugin/unplugin-vue-jsx-vapor',
-    npm: 'unplugin-vue-jsx-vapor',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-vue-jsx-vapor',
     npm: 'https://www.npmjs.com/package/unplugin-vue-jsx-vapor',
     website: 'https://github.com/unplugin/unplugin-vue-jsx-vapor#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-vue-jsx-vapor',
+    npm: 'unplugin-vue-jsx-vapor',
   },
   stats: {
     stars: 311,

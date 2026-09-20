@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'wasm-bindgen',
     'wasm-pack',
   ],
-  source: {
-    github: 'wasm-tool/rollup-plugin-rust',
-    npm: '@wasm-tool/rollup-plugin-rust',
-  },
   links: {
     github: 'https://github.com/wasm-tool/rollup-plugin-rust',
     npm: 'https://www.npmjs.com/package/@wasm-tool/rollup-plugin-rust',
     website: 'https://github.com/wasm-tool/rollup-plugin-rust#readme',
+  },
+  source: {
+    github: 'wasm-tool/rollup-plugin-rust',
+    npm: '@wasm-tool/rollup-plugin-rust',
   },
   stats: {
     stars: 224,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'inline-assets',
     'inline_asset_content',
   ],
-  source: {
-    github: 'marioloncarek/vite-plugin-shopify-critical',
-    npm: 'vite-plugin-shopify-critical',
-  },
   links: {
     github: 'https://github.com/marioloncarek/vite-plugin-shopify-critical',
     npm: 'https://www.npmjs.com/package/vite-plugin-shopify-critical',
     website: 'https://github.com/marioloncarek/vite-plugin-shopify-critical#readme',
+  },
+  source: {
+    github: 'marioloncarek/vite-plugin-shopify-critical',
+    npm: 'vite-plugin-shopify-critical',
   },
   stats: {
     stars: 2,

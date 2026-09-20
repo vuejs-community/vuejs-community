@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'webpack-loader',
     'ast',
   ],
-  source: {
-    github: 'smilezyl2023/smile-design',
-    npm: '@smile-design/inspector',
-  },
   links: {
     github: 'https://github.com/smilezyl2023/smile-design',
     npm: 'https://www.npmjs.com/package/@smile-design/inspector',
     website: 'https://github.com/smilezyl2023/smile-design',
+  },
+  source: {
+    github: 'smilezyl2023/smile-design',
+    npm: '@smile-design/inspector',
   },
   stats: {
     stars: 0,

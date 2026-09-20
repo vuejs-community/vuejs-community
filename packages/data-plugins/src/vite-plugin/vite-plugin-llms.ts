@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'llms',
     'markdown',
   ],
-  source: {
-    github: 'saschaseniuk/vite-plugin-llms',
-    npm: 'vite-plugin-llms',
-  },
   links: {
     github: 'https://github.com/saschaseniuk/vite-plugin-llms',
     npm: 'https://www.npmjs.com/package/vite-plugin-llms',
     website: 'https://github.com/saschaseniuk/vite-plugin-llms#readme',
+  },
+  source: {
+    github: 'saschaseniuk/vite-plugin-llms',
+    npm: 'vite-plugin-llms',
   },
   stats: {
     stars: 35,

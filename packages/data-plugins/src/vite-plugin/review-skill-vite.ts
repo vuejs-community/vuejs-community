@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'markdown',
     'agent',
   ],
-  source: {
-    npm: '@review-skill/vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@review-skill/vite',
+  },
+  source: {
+    npm: '@review-skill/vite',
   },
   stats: {
     stars: 0,

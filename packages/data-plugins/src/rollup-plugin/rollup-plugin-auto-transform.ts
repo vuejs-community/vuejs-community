@@ -11,13 +11,13 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'calvinmetcalf/rollup-plugin-auto-transform',
-    npm: 'rollup-plugin-auto-transform',
-  },
   links: {
     github: 'https://github.com/calvinmetcalf/rollup-plugin-auto-transform',
     npm: 'https://www.npmjs.com/package/rollup-plugin-auto-transform',
+  },
+  source: {
+    github: 'calvinmetcalf/rollup-plugin-auto-transform',
+    npm: 'rollup-plugin-auto-transform',
   },
   stats: {
     stars: 5,

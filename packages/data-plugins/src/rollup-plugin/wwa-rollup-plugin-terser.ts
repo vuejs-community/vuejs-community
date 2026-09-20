@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'sjinks/rollup-plugin-terser',
-    npm: '@wwa/rollup-plugin-terser',
-  },
   links: {
     github: 'https://github.com/sjinks/rollup-plugin-terser',
     npm: 'https://www.npmjs.com/package/@wwa/rollup-plugin-terser',
     website: 'https://github.com/sjinks/rollup-plugin-terser#readme',
+  },
+  source: {
+    github: 'sjinks/rollup-plugin-terser',
+    npm: '@wwa/rollup-plugin-terser',
   },
   stats: {
     stars: 6,

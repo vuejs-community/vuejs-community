@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'const',
     'global',
   ],
-  source: {
-    github: 'censujiang/vite-plugin-global-const',
-    npm: 'vite-plugin-global-const',
-  },
   links: {
     github: 'https://github.com/censujiang/vite-plugin-global-const',
     npm: 'https://www.npmjs.com/package/vite-plugin-global-const',
     website: 'https://github.com/censujiang/vite-plugin-global-const',
+  },
+  source: {
+    github: 'censujiang/vite-plugin-global-const',
+    npm: 'vite-plugin-global-const',
   },
   stats: {
     stars: 11,

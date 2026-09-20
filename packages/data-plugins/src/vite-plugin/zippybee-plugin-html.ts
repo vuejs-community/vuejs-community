@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'minify',
     'vite-plugin',
   ],
-  source: {
-    npm: '@zippybee/plugin-html',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@zippybee/plugin-html',
     website: 'https://dreams88.coding.net/p/zippybee-cli/d/zippybee-cli/git/tree/master/packages/zippybee-plugin-html/README.MD',
+  },
+  source: {
+    npm: '@zippybee/plugin-html',
   },
   stats: {
     stars: 0,

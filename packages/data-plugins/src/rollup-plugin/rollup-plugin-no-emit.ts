@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'ignore',
     'skip',
   ],
-  source: {
-    github: 'Arnesfield/rollup-plugin-no-emit',
-    npm: 'rollup-plugin-no-emit',
-  },
   links: {
     github: 'https://github.com/Arnesfield/rollup-plugin-no-emit',
     npm: 'https://www.npmjs.com/package/rollup-plugin-no-emit',
     website: 'https://github.com/Arnesfield/rollup-plugin-no-emit#readme',
+  },
+  source: {
+    github: 'Arnesfield/rollup-plugin-no-emit',
+    npm: 'rollup-plugin-no-emit',
   },
   stats: {
     stars: 1,

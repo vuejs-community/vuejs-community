@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'typescript',
   ],
-  source: {
-    github: 'mohd-akram/rollup-plugin-typescript',
-    npm: 'rollup-plugin-typescript3',
-  },
   links: {
     github: 'https://github.com/mohd-akram/rollup-plugin-typescript',
     npm: 'https://www.npmjs.com/package/rollup-plugin-typescript3',
     website: 'https://github.com/mohd-akram/rollup-plugin-typescript#readme',
+  },
+  source: {
+    github: 'mohd-akram/rollup-plugin-typescript',
+    npm: 'rollup-plugin-typescript3',
   },
   stats: {
     stars: 1,

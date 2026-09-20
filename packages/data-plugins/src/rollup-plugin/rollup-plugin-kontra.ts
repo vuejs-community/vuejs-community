@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'kontra',
     'js13k',
   ],
-  source: {
-    npm: 'rollup-plugin-kontra',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-kontra',
+  },
+  source: {
+    npm: 'rollup-plugin-kontra',
   },
   stats: {
     stars: 0,

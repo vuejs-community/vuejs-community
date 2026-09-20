@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'asset processer',
     'asset',
   ],
-  source: {
-    github: 'tylerbeck/rollup-plugin-inline',
-    npm: 'rollup-plugin-inline',
-  },
   links: {
     github: 'https://github.com/tylerbeck/rollup-plugin-inline',
     npm: 'https://www.npmjs.com/package/rollup-plugin-inline',
     website: 'https://github.com/tylerbeck/rollup-plugin-inline#readme',
+  },
+  source: {
+    github: 'tylerbeck/rollup-plugin-inline',
+    npm: 'rollup-plugin-inline',
   },
   stats: {
     stars: 2,

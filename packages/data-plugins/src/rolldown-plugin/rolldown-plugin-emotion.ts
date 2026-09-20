@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rolldown',
     'rolldown-plugin',
   ],
-  source: {
-    github: 'rolldown/plugins',
-    npm: '@rolldown/plugin-emotion',
-  },
   links: {
     github: 'https://github.com/rolldown/plugins',
     npm: 'https://www.npmjs.com/package/@rolldown/plugin-emotion',
     website: 'https://github.com/rolldown/plugins/tree/main/packages/emotion#readme',
+  },
+  source: {
+    github: 'rolldown/plugins',
+    npm: '@rolldown/plugin-emotion',
   },
   stats: {
     stars: 0,

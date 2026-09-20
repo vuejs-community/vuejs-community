@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-inject-css-to-js',
   ],
-  source: {
-    github: 'Levix/vite-plugin-inject-css-to-js',
-    npm: 'vite-plugin-inject-css-to-js',
-  },
   links: {
     github: 'https://github.com/Levix/vite-plugin-inject-css-to-js',
     npm: 'https://www.npmjs.com/package/vite-plugin-inject-css-to-js',
     website: 'https://github.com/Levix/vite-plugin-inject-css-to-js',
+  },
+  source: {
+    github: 'Levix/vite-plugin-inject-css-to-js',
+    npm: 'vite-plugin-inject-css-to-js',
   },
   stats: {
     stars: 3,

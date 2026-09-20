@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'monitoring',
     'error-tracking',
   ],
-  source: {
-    github: 'your-username/vite-plugin-upload-sourcemap',
-    npm: '@zzzzzzhaopu/vite-plugin-upload-sourcemap',
-  },
   links: {
     github: 'https://github.com/your-username/vite-plugin-upload-sourcemap',
     npm: 'https://www.npmjs.com/package/@zzzzzzhaopu/vite-plugin-upload-sourcemap',
     website: 'https://github.com/your-username/vite-plugin-upload-sourcemap#readme',
+  },
+  source: {
+    github: 'your-username/vite-plugin-upload-sourcemap',
+    npm: '@zzzzzzhaopu/vite-plugin-upload-sourcemap',
   },
   stats: {
     stars: 0,

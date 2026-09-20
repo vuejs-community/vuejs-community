@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'nano_kit',
     'react',
   ],
-  source: {
-    github: 'TrigenSoftware/nano_kit',
-    npm: '@nano_kit/react-ssr',
-  },
   links: {
     github: 'https://github.com/TrigenSoftware/nano_kit',
     npm: 'https://www.npmjs.com/package/@nano_kit/react-ssr',
     website: 'https://nano-kit.js.org/integrations/react-ssr',
+  },
+  source: {
+    github: 'TrigenSoftware/nano_kit',
+    npm: '@nano_kit/react-ssr',
   },
   stats: {
     stars: 0,

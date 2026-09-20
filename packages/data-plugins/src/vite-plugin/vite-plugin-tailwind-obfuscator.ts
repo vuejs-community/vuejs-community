@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'css',
     'anti-scraping',
   ],
-  source: {
-    github: 'Segfaultd/vite-plugin-tailwind-obfuscator',
-    npm: 'vite-plugin-tailwind-obfuscator',
-  },
   links: {
     github: 'https://github.com/Segfaultd/vite-plugin-tailwind-obfuscator',
     npm: 'https://www.npmjs.com/package/vite-plugin-tailwind-obfuscator',
     website: 'https://github.com/Segfaultd/vite-plugin-tailwind-obfuscator#readme',
+  },
+  source: {
+    github: 'Segfaultd/vite-plugin-tailwind-obfuscator',
+    npm: 'vite-plugin-tailwind-obfuscator',
   },
   stats: {
     stars: 2,

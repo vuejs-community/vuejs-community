@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'encrypt-webpack-loader',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/encrypt-webpack-loader',
+  },
+  source: {
+    npm: 'encrypt-webpack-loader',
   },
   stats: {
     stars: 0,

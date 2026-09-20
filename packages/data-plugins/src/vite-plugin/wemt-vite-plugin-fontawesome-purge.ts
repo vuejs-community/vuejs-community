@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'fontawesome',
     'purge',
   ],
-  source: {
-    npm: '@wemt/vite-plugin-fontawesome-purge',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@wemt/vite-plugin-fontawesome-purge',
+  },
+  source: {
+    npm: '@wemt/vite-plugin-fontawesome-purge',
   },
   stats: {
     stars: 0,

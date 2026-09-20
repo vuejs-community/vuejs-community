@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'devtools',
     'chrome',
   ],
-  source: {
-    github: 'silvenon/vite-plugin-devtools-json',
-    npm: '@silvenon/vite-plugin-devtools-json',
-  },
   links: {
     github: 'https://github.com/silvenon/vite-plugin-devtools-json',
     npm: 'https://www.npmjs.com/package/@silvenon/vite-plugin-devtools-json',
     website: 'https://github.com/silvenon/vite-plugin-devtools-json#readme',
+  },
+  source: {
+    github: 'silvenon/vite-plugin-devtools-json',
+    npm: '@silvenon/vite-plugin-devtools-json',
   },
   stats: {
     stars: 1,

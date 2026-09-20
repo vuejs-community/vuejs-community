@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'astra-void/loom',
-    npm: '@loom-dev/preview',
-  },
   links: {
     github: 'https://github.com/astra-void/loom',
     npm: 'https://www.npmjs.com/package/@loom-dev/preview',
     website: 'https://github.com/astra-void/loom#readme',
+  },
+  source: {
+    github: 'astra-void/loom',
+    npm: '@loom-dev/preview',
   },
   stats: {
     stars: 0,

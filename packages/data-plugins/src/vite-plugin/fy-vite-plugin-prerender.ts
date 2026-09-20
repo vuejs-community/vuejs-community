@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'prerender',
     'Rudeus3Greyrat',
   ],
-  source: {
-    npm: 'fy-vite-plugin-prerender',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/fy-vite-plugin-prerender',
     website: 'https://gitee.com/sco_x/web_package/tree/master/fy-vite-plugin-prerender',
+  },
+  source: {
+    npm: 'fy-vite-plugin-prerender',
   },
   stats: {
     stars: 0,

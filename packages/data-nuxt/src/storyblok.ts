@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/storyblok/monoblok/tree/main/packages/nuxt',
   },
   source: {
-    github: 'storyblok/monoblok#main/packages/nuxt',
+    github: 'storyblok/monoblok',
     npm: '@storyblok/nuxt',
   },
 })

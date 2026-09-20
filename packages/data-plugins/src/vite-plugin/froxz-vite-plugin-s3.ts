@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'do-spaces',
   ],
-  source: {
-    github: 'SergkeiM/vite-plugin-s3',
-    npm: '@froxz/vite-plugin-s3',
-  },
   links: {
     github: 'https://github.com/SergkeiM/vite-plugin-s3',
     npm: 'https://www.npmjs.com/package/@froxz/vite-plugin-s3',
     website: 'https://github.com/SergkeiM/vite-plugin-s3',
+  },
+  source: {
+    github: 'SergkeiM/vite-plugin-s3',
+    npm: '@froxz/vite-plugin-s3',
   },
   stats: {
     stars: 48,

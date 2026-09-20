@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'auto-import',
   ],
-  source: {
-    npm: 'vite-plugin-auto-imp',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-imp',
+  },
+  source: {
+    npm: 'vite-plugin-auto-imp',
   },
   stats: {
     stars: 0,

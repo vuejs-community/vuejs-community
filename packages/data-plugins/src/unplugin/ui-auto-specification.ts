@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'placeholder',
     'ui',
   ],
-  source: {
-    github: 'GezelligheidLin/ui-auto-specification',
-    npm: 'ui-auto-specification',
-  },
   links: {
     github: 'https://github.com/GezelligheidLin/ui-auto-specification',
     npm: 'https://www.npmjs.com/package/ui-auto-specification',
     website: 'https://github.com/GezelligheidLin/ui-auto-specification#readme',
+  },
+  source: {
+    github: 'GezelligheidLin/ui-auto-specification',
+    npm: 'ui-auto-specification',
   },
   stats: {
     stars: 0,

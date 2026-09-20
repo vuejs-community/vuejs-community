@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'calebeby/rollup-plugin-netlify-optimize',
-    npm: 'rollup-plugin-netlify-optimize',
-  },
   links: {
     github: 'https://github.com/calebeby/rollup-plugin-netlify-optimize',
     npm: 'https://www.npmjs.com/package/rollup-plugin-netlify-optimize',
     website: 'https://github.com/calebeby/rollup-plugin-netlify-optimize#readme',
+  },
+  source: {
+    github: 'calebeby/rollup-plugin-netlify-optimize',
+    npm: 'rollup-plugin-netlify-optimize',
   },
   stats: {
     stars: 0,

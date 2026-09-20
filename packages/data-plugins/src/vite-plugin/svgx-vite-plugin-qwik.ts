@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'rollup',
   ],
-  source: {
-    github: 'salihbenlalla/svgx',
-    npm: '@svgx/vite-plugin-qwik',
-  },
   links: {
     github: 'https://github.com/salihbenlalla/svgx',
     npm: 'https://www.npmjs.com/package/@svgx/vite-plugin-qwik',
     website: 'https://github.com/salihbenlalla/svgx/blob/main/packages/vite-plugin-qwik',
+  },
+  source: {
+    github: 'salihbenlalla/svgx',
+    npm: '@svgx/vite-plugin-qwik',
   },
   stats: {
     stars: 0,

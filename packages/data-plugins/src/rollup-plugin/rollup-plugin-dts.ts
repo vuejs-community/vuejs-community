@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'dts',
     '@types',
   ],
-  source: {
-    github: 'Swatinem/rollup-plugin-dts',
-    npm: 'rollup-plugin-dts',
-  },
   links: {
     github: 'https://github.com/Swatinem/rollup-plugin-dts',
     npm: 'https://www.npmjs.com/package/rollup-plugin-dts',
     website: 'https://github.com/Swatinem/rollup-plugin-dts#readme',
+  },
+  source: {
+    github: 'Swatinem/rollup-plugin-dts',
+    npm: 'rollup-plugin-dts',
   },
   stats: {
     stars: 0,

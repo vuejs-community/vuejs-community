@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'precompile',
   ],
-  source: {
-    npm: 'vite-plugin-solarite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-solarite',
+  },
+  source: {
+    npm: 'vite-plugin-solarite',
   },
   stats: {
     stars: 0,

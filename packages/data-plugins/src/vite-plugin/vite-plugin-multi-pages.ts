@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'MPA',
     'multi-page',
   ],
-  source: {
-    github: 'Miofly/vite-plugin-multi-pages',
-    npm: 'vite-plugin-multi-pages',
-  },
   links: {
     github: 'https://github.com/Miofly/vite-plugin-multi-pages',
     npm: 'https://www.npmjs.com/package/vite-plugin-multi-pages',
     website: 'https://github.com/Miofly/vite-plugin-multi-pages',
+  },
+  source: {
+    github: 'Miofly/vite-plugin-multi-pages',
+    npm: 'vite-plugin-multi-pages',
   },
   stats: {
     stars: 36,

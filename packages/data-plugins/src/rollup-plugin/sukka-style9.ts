@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'johanholmerin/style9',
-    npm: '@sukka/style9',
-  },
   links: {
     github: 'https://github.com/johanholmerin/style9',
     npm: 'https://www.npmjs.com/package/@sukka/style9',
     website: 'https://github.com/johanholmerin/style9#readme',
+  },
+  source: {
+    github: 'johanholmerin/style9',
+    npm: '@sukka/style9',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'zig',
     'rollup-plugin',
   ],
-  source: {
-    github: 'chung-leong/zigar',
-    npm: 'rollup-plugin-zigar',
-  },
   links: {
     github: 'https://github.com/chung-leong/zigar',
     npm: 'https://www.npmjs.com/package/rollup-plugin-zigar',
     website: 'https://github.com/chung-leong/zigar/wiki',
+  },
+  source: {
+    github: 'chung-leong/zigar',
+    npm: 'rollup-plugin-zigar',
   },
   stats: {
     stars: 435,

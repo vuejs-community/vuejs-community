@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'json',
     'json-md',
   ],
-  source: {
-    github: 'altrusl/vite-plugin-json-md',
-    npm: 'vite-plugin-json-md',
-  },
   links: {
     github: 'https://github.com/altrusl/vite-plugin-json-md',
     npm: 'https://www.npmjs.com/package/vite-plugin-json-md',
     website: 'https://github.com/altrusl/vite-plugin-json-md',
+  },
+  source: {
+    github: 'altrusl/vite-plugin-json-md',
+    npm: 'vite-plugin-json-md',
   },
   stats: {
     stars: 0,

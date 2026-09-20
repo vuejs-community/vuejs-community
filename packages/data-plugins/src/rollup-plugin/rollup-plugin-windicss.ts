@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'windicss',
     'tailwindcss',
   ],
-  source: {
-    github: 'antfu/vite-plugin-windicss',
-    npm: 'rollup-plugin-windicss',
-  },
   links: {
     github: 'https://github.com/antfu/vite-plugin-windicss',
     npm: 'https://www.npmjs.com/package/rollup-plugin-windicss',
     website: 'https://github.com/antfu/vite-plugin-windicss',
+  },
+  source: {
+    github: 'antfu/vite-plugin-windicss',
+    npm: 'rollup-plugin-windicss',
   },
   stats: {
     stars: 0,

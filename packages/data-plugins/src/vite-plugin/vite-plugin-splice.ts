@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'woff2',
     'performance',
   ],
-  source: {
-    github: 'madenowhere/vite-plugin-splice',
-    npm: 'vite-plugin-splice',
-  },
   links: {
     github: 'https://github.com/madenowhere/vite-plugin-splice',
     npm: 'https://www.npmjs.com/package/vite-plugin-splice',
     website: 'https://github.com/madenowhere/vite-plugin-splice#readme',
+  },
+  source: {
+    github: 'madenowhere/vite-plugin-splice',
+    npm: 'vite-plugin-splice',
   },
   stats: {
     stars: 0,

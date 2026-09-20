@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'napi-rs',
     'performance',
   ],
-  source: {
-    github: 'Medico-Mind/rolldown-compression',
-    npm: '@medicomind/rolldown-compression-wasm32-wasi',
-  },
   links: {
     github: 'https://github.com/Medico-Mind/rolldown-compression',
     npm: 'https://www.npmjs.com/package/@medicomind/rolldown-compression-wasm32-wasi',
     website: 'https://github.com/Medico-Mind/rolldown-compression#readme',
+  },
+  source: {
+    github: 'Medico-Mind/rolldown-compression',
+    npm: '@medicomind/rolldown-compression-wasm32-wasi',
   },
   stats: {
     stars: 3,

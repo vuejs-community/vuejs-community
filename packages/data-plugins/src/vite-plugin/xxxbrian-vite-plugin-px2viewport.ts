@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'xxxbrian/vite-plugin-px2viewport',
-    npm: '@xxxbrian/vite-plugin-px2viewport',
-  },
   links: {
     github: 'https://github.com/xxxbrian/vite-plugin-px2viewport',
     npm: 'https://www.npmjs.com/package/@xxxbrian/vite-plugin-px2viewport',
     website: 'https://github.com/xxxbrian/vite-plugin-px2viewport#readme',
+  },
+  source: {
+    github: 'xxxbrian/vite-plugin-px2viewport',
+    npm: '@xxxbrian/vite-plugin-px2viewport',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'mv',
     'move',
   ],
-  source: {
-    github: 'Lazyuki/rollup-plugin-mv',
-    npm: 'rollup-plugin-mv',
-  },
   links: {
     github: 'https://github.com/Lazyuki/rollup-plugin-mv',
     npm: 'https://www.npmjs.com/package/rollup-plugin-mv',
     website: 'https://github.com/Lazyuki/rollup-plugin-mv#readme',
+  },
+  source: {
+    github: 'Lazyuki/rollup-plugin-mv',
+    npm: 'rollup-plugin-mv',
   },
   stats: {
     stars: 3,

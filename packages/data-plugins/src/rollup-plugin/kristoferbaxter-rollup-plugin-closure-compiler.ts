@@ -11,13 +11,13 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'kristoferbaxter/rollup-plugin-closure-compiler',
-    npm: '@kristoferbaxter/rollup-plugin-closure-compiler',
-  },
   links: {
     github: 'https://github.com/kristoferbaxter/rollup-plugin-closure-compiler',
     npm: 'https://www.npmjs.com/package/@kristoferbaxter/rollup-plugin-closure-compiler',
+  },
+  source: {
+    github: 'kristoferbaxter/rollup-plugin-closure-compiler',
+    npm: '@kristoferbaxter/rollup-plugin-closure-compiler',
   },
   stats: {
     stars: 0,

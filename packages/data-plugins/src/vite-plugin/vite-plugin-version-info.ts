@@ -18,12 +18,12 @@ export default defineProjectMeta({
     'branch',
     'date',
   ],
-  source: {
-    npm: 'vite-plugin-version-info',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-version-info',
     website: 'https://codeberg.org/lightrain/vite-plugin-version-info#readme',
+  },
+  source: {
+    npm: 'vite-plugin-version-info',
   },
   stats: {
     stars: 0,

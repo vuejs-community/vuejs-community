@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'decap-cms',
   ],
-  source: {
-    github: 'ghostrider-05/vite-plugin-decap-cms',
-    npm: 'vite-plugin-decap-cms',
-  },
   links: {
     github: 'https://github.com/ghostrider-05/vite-plugin-decap-cms',
     npm: 'https://www.npmjs.com/package/vite-plugin-decap-cms',
     website: 'https://github.com/ghostrider-05/vite-plugin-decap-cms',
+  },
+  source: {
+    github: 'ghostrider-05/vite-plugin-decap-cms',
+    npm: 'vite-plugin-decap-cms',
   },
   stats: {
     stars: 6,

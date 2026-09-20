@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'DominusKelvin/sails-vite-plugin',
-    npm: 'sails-vite-plugin',
-  },
   links: {
     github: 'https://github.com/DominusKelvin/sails-vite-plugin',
     npm: 'https://www.npmjs.com/package/sails-vite-plugin',
     website: 'https://github.com/DominusKelvin/sails-vite-plugin#readme',
+  },
+  source: {
+    github: 'DominusKelvin/sails-vite-plugin',
+    npm: 'sails-vite-plugin',
   },
   stats: {
     stars: 0,

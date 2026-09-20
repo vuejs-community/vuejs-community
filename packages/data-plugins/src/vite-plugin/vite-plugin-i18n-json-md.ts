@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'json',
     'json-md',
   ],
-  source: {
-    github: 'vuesence/vite-plugin-i18n-json-md',
-    npm: 'vite-plugin-i18n-json-md',
-  },
   links: {
     github: 'https://github.com/vuesence/vite-plugin-i18n-json-md',
     npm: 'https://www.npmjs.com/package/vite-plugin-i18n-json-md',
     website: 'https://github.com/vuesence/vite-plugin-i18n-json-md',
+  },
+  source: {
+    github: 'vuesence/vite-plugin-i18n-json-md',
+    npm: 'vite-plugin-i18n-json-md',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'dev-server',
     'deterministic',
   ],
-  source: {
-    github: 'BridgerB/port-from-name',
-    npm: '@bridgerb/port-from-name',
-  },
   links: {
     github: 'https://github.com/BridgerB/port-from-name',
     npm: 'https://www.npmjs.com/package/@bridgerb/port-from-name',
     website: 'https://github.com/BridgerB/port-from-name#readme',
+  },
+  source: {
+    github: 'BridgerB/port-from-name',
+    npm: '@bridgerb/port-from-name',
   },
   stats: {
     stars: 0,

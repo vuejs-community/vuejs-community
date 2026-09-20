@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-testing',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-testing',
+  },
+  source: {
+    npm: 'vite-plugin-testing',
   },
   stats: {
     stars: 0,

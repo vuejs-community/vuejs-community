@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'bem',
     'vite',
   ],
-  source: {
-    npm: 'vite-plugin-bemoji',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-bemoji',
+  },
+  source: {
+    npm: 'vite-plugin-bemoji',
   },
   stats: {
     stars: 0,

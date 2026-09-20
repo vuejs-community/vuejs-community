@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'tailwindcss',
     'hmr',
   ],
-  source: {
-    github: 'huibizhang/vitawind',
-    npm: 'vitawind',
-  },
   links: {
     github: 'https://github.com/huibizhang/vitawind',
     npm: 'https://www.npmjs.com/package/vitawind',
     website: 'https://vitawind.vercel.app/guide-for-vitawind/',
+  },
+  source: {
+    github: 'huibizhang/vitawind',
+    npm: 'vitawind',
   },
   stats: {
     stars: 0,

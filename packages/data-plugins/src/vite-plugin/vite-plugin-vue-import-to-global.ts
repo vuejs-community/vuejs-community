@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'micro-frontend',
     'vue-import-to-global',
   ],
-  source: {
-    npm: 'vite-plugin-vue-import-to-global',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-import-to-global',
+  },
+  source: {
+    npm: 'vite-plugin-vue-import-to-global',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'terser',
     'minify',
   ],
-  source: {
-    github: 'el3um4s/rollup-plugin-terser',
-    npm: '@el3um4s/rollup-plugin-terser',
-  },
   links: {
     github: 'https://github.com/el3um4s/rollup-plugin-terser',
     npm: 'https://www.npmjs.com/package/@el3um4s/rollup-plugin-terser',
     website: 'https://github.com/el3um4s/rollup-plugin-terser',
+  },
+  source: {
+    github: 'el3um4s/rollup-plugin-terser',
+    npm: '@el3um4s/rollup-plugin-terser',
   },
   stats: {
     stars: 1,

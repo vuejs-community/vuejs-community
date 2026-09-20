@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'cautionyourblast/rollup-plugin-node-builtins',
-    npm: '@cautionyourblast/rollup-plugin-node-builtins',
-  },
   links: {
     github: 'https://github.com/cautionyourblast/rollup-plugin-node-builtins',
     npm: 'https://www.npmjs.com/package/@cautionyourblast/rollup-plugin-node-builtins',
     website: 'https://github.com/cautionyourblast/rollup-plugin-node-builtins#readme',
+  },
+  source: {
+    github: 'cautionyourblast/rollup-plugin-node-builtins',
+    npm: '@cautionyourblast/rollup-plugin-node-builtins',
   },
   stats: {
     stars: 0,

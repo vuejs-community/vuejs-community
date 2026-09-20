@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'sunburst',
     'diagram',
   ],
-  source: {
-    github: 'btd/rollup-plugin-visualizer',
-    npm: '@aklinker1/rollup-plugin-visualizer',
-  },
   links: {
     github: 'https://github.com/btd/rollup-plugin-visualizer',
     npm: 'https://www.npmjs.com/package/@aklinker1/rollup-plugin-visualizer',
     website: 'https://github.com/btd/rollup-plugin-visualizer',
+  },
+  source: {
+    github: 'btd/rollup-plugin-visualizer',
+    npm: '@aklinker1/rollup-plugin-visualizer',
   },
   stats: {
     stars: 2421,

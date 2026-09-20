@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'velastack',
   ],
-  source: {
-    github: 'velastack/cms',
-    npm: '@velastack/cms',
-  },
   links: {
     github: 'https://github.com/velastack/cms',
     npm: 'https://www.npmjs.com/package/@velastack/cms',
     website: 'https://github.com/velastack/cms#readme',
+  },
+  source: {
+    github: 'velastack/cms',
+    npm: '@velastack/cms',
   },
   stats: {
     stars: 0,

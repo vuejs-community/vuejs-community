@@ -14,13 +14,13 @@ export default defineProjectMeta({
     'tui',
     'vite-plugin',
   ],
-  source: {
-    github: 'benface/monowind',
-    npm: '@monowind/vite',
-  },
   links: {
     github: 'https://github.com/benface/monowind',
     npm: 'https://www.npmjs.com/package/@monowind/vite',
+  },
+  source: {
+    github: 'benface/monowind',
+    npm: '@monowind/vite',
   },
   stats: {
     stars: 4,

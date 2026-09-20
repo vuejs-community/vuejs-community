@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitepress',
   ],
-  source: {
-    github: 'pradeepmouli/skillit',
-    npm: '@skillit/vitepress',
-  },
   links: {
     github: 'https://github.com/pradeepmouli/skillit',
     npm: 'https://www.npmjs.com/package/@skillit/vitepress',
     website: 'https://github.com/pradeepmouli/skillit/tree/develop/packages/vitepress#readme',
+  },
+  source: {
+    github: 'pradeepmouli/skillit',
+    npm: '@skillit/vitepress',
   },
   stats: {
     stars: 7,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'svgo',
     'sharp.js',
   ],
-  source: {
-    github: 'datarose-net/vite-plugin-media-optimize',
-    npm: '@datarose/vite-plugin-media-optimize',
-  },
   links: {
     github: 'https://github.com/datarose-net/vite-plugin-media-optimize',
     npm: 'https://www.npmjs.com/package/@datarose/vite-plugin-media-optimize',
     website: 'https://github.com/datarose-net/vite-plugin-media-optimize#readme',
+  },
+  source: {
+    github: 'datarose-net/vite-plugin-media-optimize',
+    npm: '@datarose/vite-plugin-media-optimize',
   },
   stats: {
     stars: 0,

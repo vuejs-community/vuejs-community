@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vue-cli',
     'build-version',
   ],
-  source: {
-    github: 'QINGYUAI/build-version-json',
-    npm: 'build-version-json',
-  },
   links: {
     github: 'https://github.com/QINGYUAI/build-version-json',
     npm: 'https://www.npmjs.com/package/build-version-json',
     website: 'https://github.com/QINGYUAI/build-version-json#readme',
+  },
+  source: {
+    github: 'QINGYUAI/build-version-json',
+    npm: 'build-version-json',
   },
   stats: {
     stars: 1,

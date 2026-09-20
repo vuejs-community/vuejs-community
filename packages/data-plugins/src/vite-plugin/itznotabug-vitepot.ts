@@ -31,14 +31,14 @@ export default defineProjectMeta({
     'static security',
     'docs security',
   ],
-  source: {
-    github: 'ItzNotABug/vitepot',
-    npm: '@itznotabug/vitepot',
-  },
   links: {
     github: 'https://github.com/ItzNotABug/vitepot',
     npm: 'https://www.npmjs.com/package/@itznotabug/vitepot',
     website: 'https://github.com/ItzNotABug/vitepot',
+  },
+  source: {
+    github: 'ItzNotABug/vitepot',
+    npm: '@itznotabug/vitepot',
   },
   stats: {
     stars: 3,

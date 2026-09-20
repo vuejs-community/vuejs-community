@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-reverse-proxy',
   ],
-  source: {
-    github: 'fengxinming/vite-plugins',
-    npm: 'vite-plugin-reverse-proxy',
-  },
   links: {
     github: 'https://github.com/fengxinming/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-reverse-proxy',
     website: 'https://github.com/fengxinming/vite-plugins#readme',
+  },
+  source: {
+    github: 'fengxinming/vite-plugins',
+    npm: 'vite-plugin-reverse-proxy',
   },
   stats: {
     stars: 0,

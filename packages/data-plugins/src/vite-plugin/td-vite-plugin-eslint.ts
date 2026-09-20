@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'eslint',
     'vite-plugin',
   ],
-  source: {
-    github: 'includeios/vite-plugin-eslint',
-    npm: 'td-vite-plugin-eslint',
-  },
   links: {
     github: 'https://github.com/includeios/vite-plugin-eslint',
     npm: 'https://www.npmjs.com/package/td-vite-plugin-eslint',
     website: 'https://github.com/includeios/vite-plugin-eslint',
+  },
+  source: {
+    github: 'includeios/vite-plugin-eslint',
+    npm: 'td-vite-plugin-eslint',
   },
   stats: {
     stars: 0,

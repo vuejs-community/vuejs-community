@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'cls',
     'performance',
   ],
-  source: {
-    github: 'BALOTIAS/vite-pretext',
-    npm: 'vite-pretext',
-  },
   links: {
     github: 'https://github.com/BALOTIAS/vite-pretext',
     npm: 'https://www.npmjs.com/package/vite-pretext',
     website: 'https://github.com/BALOTIAS/vite-pretext',
+  },
+  source: {
+    github: 'BALOTIAS/vite-pretext',
+    npm: 'vite-pretext',
   },
   stats: {
     stars: 4,

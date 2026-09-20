@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'riot',
     'rollup-plugin',
   ],
-  source: {
-    github: 'riot/rollup-plugin-riot',
-    npm: 'rollup-plugin-riot',
-  },
   links: {
     github: 'https://github.com/riot/rollup-plugin-riot',
     npm: 'https://www.npmjs.com/package/rollup-plugin-riot',
     website: 'https://github.com/riot/rollup-plugin-riot#readme',
+  },
+  source: {
+    github: 'riot/rollup-plugin-riot',
+    npm: 'rollup-plugin-riot',
   },
   stats: {
     stars: 28,

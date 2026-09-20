@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'tree-shaking',
     'vite-plugin',
   ],
-  source: {
-    github: 'eddow/pure-glyf',
-    npm: 'pure-glyf',
-  },
   links: {
     github: 'https://github.com/eddow/pure-glyf',
     npm: 'https://www.npmjs.com/package/pure-glyf',
     website: 'https://github.com/eddow/pure-glyf#readme',
+  },
+  source: {
+    github: 'eddow/pure-glyf',
+    npm: 'pure-glyf',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'react-devtools',
     'inspector',
   ],
-  source: {
-    github: 'Dogtiti/vite-plugin-react-mcp',
-    npm: '@dogtiti/vite-plugin-react-mcp',
-  },
   links: {
     github: 'https://github.com/Dogtiti/vite-plugin-react-mcp',
     npm: 'https://www.npmjs.com/package/@dogtiti/vite-plugin-react-mcp',
     website: 'https://github.com/Dogtiti/vite-plugin-react-mcp',
+  },
+  source: {
+    github: 'Dogtiti/vite-plugin-react-mcp',
+    npm: '@dogtiti/vite-plugin-react-mcp',
   },
   stats: {
     stars: 6,

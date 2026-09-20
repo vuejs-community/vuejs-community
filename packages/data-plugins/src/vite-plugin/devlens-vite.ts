@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'devtools',
     'debug',
   ],
-  source: {
-    github: 'crashsense/devlens',
-    npm: '@devlens/vite',
-  },
   links: {
     github: 'https://github.com/crashsense/devlens',
     npm: 'https://www.npmjs.com/package/@devlens/vite',
     website: 'https://github.com/crashsense/devlens#readme',
+  },
+  source: {
+    github: 'crashsense/devlens',
+    npm: '@devlens/vite',
   },
   stats: {
     stars: 3,

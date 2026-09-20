@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'svg-icons',
     'react-components',
   ],
-  source: {
-    github: 'gyuha/vite-plugin-svgr-indexer',
-    npm: 'vite-plugin-svgr-indexer',
-  },
   links: {
     github: 'https://github.com/gyuha/vite-plugin-svgr-indexer',
     npm: 'https://www.npmjs.com/package/vite-plugin-svgr-indexer',
     website: 'https://github.com/gyuha/vite-plugin-svgr-indexer#readme',
+  },
+  source: {
+    github: 'gyuha/vite-plugin-svgr-indexer',
+    npm: 'vite-plugin-svgr-indexer',
   },
   stats: {
     stars: 0,

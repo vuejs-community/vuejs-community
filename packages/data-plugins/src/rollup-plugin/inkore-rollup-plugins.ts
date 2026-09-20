@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'inkore',
     'plugin',
   ],
-  source: {
-    github: 'iNKORE-NET/Nodejs.RollupPlugins',
-    npm: '@inkore/rollup-plugins',
-  },
   links: {
     github: 'https://github.com/iNKORE-NET/Nodejs.RollupPlugins',
     npm: 'https://www.npmjs.com/package/@inkore/rollup-plugins',
     website: 'https://docs.inkore.net/rollup-plugins',
+  },
+  source: {
+    github: 'iNKORE-NET/Nodejs.RollupPlugins',
+    npm: '@inkore/rollup-plugins',
   },
   stats: {
     stars: 1,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    github: 'timor-m/vue-dev-plugin',
-    npm: 'vue-dev-vite-plugin',
-  },
   links: {
     github: 'https://github.com/timor-m/vue-dev-plugin',
     npm: 'https://www.npmjs.com/package/vue-dev-vite-plugin',
     website: 'https://github.com/timor-m/vue-dev-plugin#readme',
+  },
+  source: {
+    github: 'timor-m/vue-dev-plugin',
+    npm: 'vue-dev-vite-plugin',
   },
   stats: {
     stars: 4,

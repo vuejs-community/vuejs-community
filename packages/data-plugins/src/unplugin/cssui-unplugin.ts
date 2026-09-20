@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'auto-import',
     'resolver',
   ],
-  source: {
-    npm: '@cssui/unplugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@cssui/unplugin',
+  },
+  source: {
+    npm: '@cssui/unplugin',
   },
   stats: {
     stars: 0,

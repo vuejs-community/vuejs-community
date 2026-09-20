@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'react-fine-grained-signals',
     'alien-signals',
   ],
-  source: {
-    github: 'sakzw/react-fine-grained-signals',
-    npm: 'unplugin-react-fine-grained-signals',
-  },
   links: {
     github: 'https://github.com/sakzw/react-fine-grained-signals',
     npm: 'https://www.npmjs.com/package/unplugin-react-fine-grained-signals',
     website: 'https://github.com/sakzw/react-fine-grained-signals/tree/main/packages/unplugin-react-fine-grained-signals#readme',
+  },
+  source: {
+    github: 'sakzw/react-fine-grained-signals',
+    npm: 'unplugin-react-fine-grained-signals',
   },
   stats: {
     stars: 0,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'build-time',
     'code-splitting',
   ],
-  source: {
-    github: 'usefluenti/fluenti',
-    npm: '@fluenti/vite-plugin',
-  },
   links: {
     github: 'https://github.com/usefluenti/fluenti',
     npm: 'https://www.npmjs.com/package/@fluenti/vite-plugin',
     website: 'https://fluenti.dev',
+  },
+  source: {
+    github: 'usefluenti/fluenti',
+    npm: '@fluenti/vite-plugin',
   },
   stats: {
     stars: 5,

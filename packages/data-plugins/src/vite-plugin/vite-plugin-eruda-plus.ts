@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'eruda',
     'plugin',
   ],
-  source: {
-    npm: 'vite-plugin-eruda-plus',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-eruda-plus',
+  },
+  source: {
+    npm: 'vite-plugin-eruda-plus',
   },
   stats: {
     stars: 0,

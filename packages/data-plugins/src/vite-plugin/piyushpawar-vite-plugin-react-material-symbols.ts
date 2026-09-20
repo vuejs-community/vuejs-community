@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'react',
     'material-symbols-icons',
   ],
-  source: {
-    github: 'piyush-pawar-17/vite-plugin-react-material-symbols',
-    npm: '@piyushpawar/vite-plugin-react-material-symbols',
-  },
   links: {
     github: 'https://github.com/piyush-pawar-17/vite-plugin-react-material-symbols',
     npm: 'https://www.npmjs.com/package/@piyushpawar/vite-plugin-react-material-symbols',
     website: 'https://github.com/piyush-pawar-17/vite-plugin-react-material-symbols#readme',
+  },
+  source: {
+    github: 'piyush-pawar-17/vite-plugin-react-material-symbols',
+    npm: '@piyushpawar/vite-plugin-react-material-symbols',
   },
   stats: {
     stars: 2,

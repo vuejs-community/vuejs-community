@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'ecommerce',
     'vite-plugin',
   ],
-  source: {
-    github: 'manta-js/dashboard',
-    npm: '@mantajs/dashboard',
-  },
   links: {
     github: 'https://github.com/manta-js/dashboard',
     npm: 'https://www.npmjs.com/package/@mantajs/dashboard',
     website: 'https://github.com/manta-js/dashboard#readme',
+  },
+  source: {
+    github: 'manta-js/dashboard',
+    npm: '@mantajs/dashboard',
   },
   stats: {
     stars: 2,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'developer-tools',
     'widget',
   ],
-  source: {
-    github: 'techdivision-rnd/cosmux',
-    npm: 'cosmux',
-  },
   links: {
     github: 'https://github.com/techdivision-rnd/cosmux',
     npm: 'https://www.npmjs.com/package/cosmux',
     website: 'https://github.com/techdivision-rnd/cosmux#readme',
+  },
+  source: {
+    github: 'techdivision-rnd/cosmux',
+    npm: 'cosmux',
   },
   stats: {
     stars: 0,

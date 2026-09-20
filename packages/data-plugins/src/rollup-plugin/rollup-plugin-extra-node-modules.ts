@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'xiaosen7/rollup-plugin-extra-node-modules',
-    npm: 'rollup-plugin-extra-node-modules',
-  },
   links: {
     github: 'https://github.com/xiaosen7/rollup-plugin-extra-node-modules',
     npm: 'https://www.npmjs.com/package/rollup-plugin-extra-node-modules',
     website: 'https://github.com/xiaosen7/rollup-plugin-extra-node-modules/tree/main#readme',
+  },
+  source: {
+    github: 'xiaosen7/rollup-plugin-extra-node-modules',
+    npm: 'rollup-plugin-extra-node-modules',
   },
   stats: {
     stars: 1,

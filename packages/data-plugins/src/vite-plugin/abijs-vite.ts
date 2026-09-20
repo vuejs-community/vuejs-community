@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vitejs',
     'vite-plugin',
   ],
-  source: {
-    github: 'abi-js/abi',
-    npm: '@abijs/vite',
-  },
   links: {
     github: 'https://github.com/abi-js/abi',
     npm: 'https://www.npmjs.com/package/@abijs/vite',
     website: 'https://abi.js.org',
+  },
+  source: {
+    github: 'abi-js/abi',
+    npm: '@abijs/vite',
   },
   stats: {
     stars: 5,

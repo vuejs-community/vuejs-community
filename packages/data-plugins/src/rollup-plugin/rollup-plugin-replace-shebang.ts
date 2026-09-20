@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'cli',
     'bundler',
   ],
-  source: {
-    github: 'saqqdy/rollup-plugin-replace-shebang',
-    npm: 'rollup-plugin-replace-shebang',
-  },
   links: {
     github: 'https://github.com/saqqdy/rollup-plugin-replace-shebang',
     npm: 'https://www.npmjs.com/package/rollup-plugin-replace-shebang',
     website: 'https://github.com/saqqdy/rollup-plugin-replace-shebang#readme',
+  },
+  source: {
+    github: 'saqqdy/rollup-plugin-replace-shebang',
+    npm: 'rollup-plugin-replace-shebang',
   },
   stats: {
     stars: 5,

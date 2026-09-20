@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'vitejs/vite-plugin-react',
-    npm: '@vitejs/plugin-rsc',
-  },
   links: {
     github: 'https://github.com/vitejs/vite-plugin-react',
     npm: 'https://www.npmjs.com/package/@vitejs/plugin-rsc',
     website: 'https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-rsc',
+  },
+  source: {
+    github: 'vitejs/vite-plugin-react',
+    npm: '@vitejs/plugin-rsc',
   },
   stats: {
     stars: 0,

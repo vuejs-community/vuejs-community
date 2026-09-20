@@ -14,14 +14,14 @@ export default defineProjectMeta({
     '3d',
     'scenecheck',
   ],
-  source: {
-    github: 'ycy-0510/scenecheck',
-    npm: '@scenecheck/vite',
-  },
   links: {
     github: 'https://github.com/ycy-0510/scenecheck',
     npm: 'https://www.npmjs.com/package/@scenecheck/vite',
     website: 'https://github.com/ycy-0510/scenecheck#readme',
+  },
+  source: {
+    github: 'ycy-0510/scenecheck',
+    npm: '@scenecheck/vite',
   },
   stats: {
     stars: 0,

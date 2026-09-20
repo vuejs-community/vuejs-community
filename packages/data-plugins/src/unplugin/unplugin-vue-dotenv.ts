@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'chris-zhu/unplugin-vue-dotenv',
-    npm: 'unplugin-vue-dotenv',
-  },
   links: {
     github: 'https://github.com/chris-zhu/unplugin-vue-dotenv',
     npm: 'https://www.npmjs.com/package/unplugin-vue-dotenv',
     website: 'https://github.com/chris-zhu/unplugin-vue-dotenv#readme',
+  },
+  source: {
+    github: 'chris-zhu/unplugin-vue-dotenv',
+    npm: 'unplugin-vue-dotenv',
   },
   stats: {
     stars: 8,

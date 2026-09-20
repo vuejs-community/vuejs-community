@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'webpack-loader',
   ],
-  source: {
-    github: 'turalowski/react-props-parser',
-    npm: 'react-props-parser',
-  },
   links: {
     github: 'https://github.com/turalowski/react-props-parser',
     npm: 'https://www.npmjs.com/package/react-props-parser',
     website: 'https://github.com/turalowski/react-props-parser#readme',
+  },
+  source: {
+    github: 'turalowski/react-props-parser',
+    npm: 'react-props-parser',
   },
   stats: {
     stars: 2,

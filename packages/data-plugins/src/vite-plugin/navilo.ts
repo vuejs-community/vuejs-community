@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'router',
     'file-based-routing',
   ],
-  source: {
-    npm: 'navilo',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/navilo',
+  },
+  source: {
+    npm: 'navilo',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'setup',
     'vite-plugin',
   ],
-  source: {
-    github: 'iTHuangziyi/vite-plugin-vue-setup-support',
-    npm: 'vite-plugin-vue-setup-support',
-  },
   links: {
     github: 'https://github.com/iTHuangziyi/vite-plugin-vue-setup-support',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-setup-support',
     website: 'https://github.com/iTHuangziyi/vite-plugin-vue-setup-support/tree/master/#readme',
+  },
+  source: {
+    github: 'iTHuangziyi/vite-plugin-vue-setup-support',
+    npm: 'vite-plugin-vue-setup-support',
   },
   stats: {
     stars: 2,

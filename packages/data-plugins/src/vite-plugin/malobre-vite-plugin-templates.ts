@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'template',
   ],
-  source: {
-    github: 'malobre/vite-plugin-templates',
-    npm: '@malobre/vite-plugin-templates',
-  },
   links: {
     github: 'https://github.com/malobre/vite-plugin-templates',
     npm: 'https://www.npmjs.com/package/@malobre/vite-plugin-templates',
     website: 'https://github.com/malobre/vite-plugin-templates',
+  },
+  source: {
+    github: 'malobre/vite-plugin-templates',
+    npm: '@malobre/vite-plugin-templates',
   },
   stats: {
     stars: 0,

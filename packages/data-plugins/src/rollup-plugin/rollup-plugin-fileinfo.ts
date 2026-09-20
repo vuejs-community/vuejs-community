@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup',
     'filesizes',
   ],
-  source: {
-    github: 'hoyeungw/rollup-plugin-fileinfo',
-    npm: 'rollup-plugin-fileinfo',
-  },
   links: {
     github: 'https://github.com/hoyeungw/rollup-plugin-fileinfo',
     npm: 'https://www.npmjs.com/package/rollup-plugin-fileinfo',
     website: 'https://github.com/hoyeungw/rollup-plugin-fileinfo#readme',
+  },
+  source: {
+    github: 'hoyeungw/rollup-plugin-fileinfo',
+    npm: 'rollup-plugin-fileinfo',
   },
   stats: {
     stars: 0,

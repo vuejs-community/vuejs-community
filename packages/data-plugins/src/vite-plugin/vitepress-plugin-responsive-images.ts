@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'sharp',
     'markdown-it',
   ],
-  source: {
-    github: 'shishengkai/vitepress-plugin-responsive-images',
-    npm: 'vitepress-plugin-responsive-images',
-  },
   links: {
     github: 'https://github.com/shishengkai/vitepress-plugin-responsive-images',
     npm: 'https://www.npmjs.com/package/vitepress-plugin-responsive-images',
     website: 'https://github.com/shishengkai/vitepress-plugin-responsive-images#readme',
+  },
+  source: {
+    github: 'shishengkai/vitepress-plugin-responsive-images',
+    npm: 'vitepress-plugin-responsive-images',
   },
   stats: {
     stars: 2,

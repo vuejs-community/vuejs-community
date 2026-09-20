@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://clerk.com/docs/reference/nuxt/overview',
   },
   source: {
-    github: 'clerk/javascript#main/packages/nuxt',
+    github: 'clerk/javascript',
     npm: '@clerk/nuxt',
   },
 })

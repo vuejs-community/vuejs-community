@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'node',
     'rpc',
   ],
-  source: {
-    github: 'inaridiy/create-nodejs-fn',
-    npm: 'create-nodejs-fn',
-  },
   links: {
     github: 'https://github.com/inaridiy/create-nodejs-fn',
     npm: 'https://www.npmjs.com/package/create-nodejs-fn',
     website: 'https://github.com/inaridiy/create-nodejs-fn#readme',
+  },
+  source: {
+    github: 'inaridiy/create-nodejs-fn',
+    npm: 'create-nodejs-fn',
   },
   stats: {
     stars: 25,

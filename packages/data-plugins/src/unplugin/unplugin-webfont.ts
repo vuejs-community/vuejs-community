@@ -28,11 +28,11 @@ export default defineProjectMeta({
     'rollup',
     'iconfont',
   ],
-  source: {
-    npm: 'unplugin-webfont',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-webfont',
+  },
+  source: {
+    npm: 'unplugin-webfont',
   },
   stats: {
     stars: 0,

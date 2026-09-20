@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'frontend-guard',
     'static-analysis',
   ],
-  source: {
-    npm: 'fe-guard-vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/fe-guard-vite-plugin',
+  },
+  source: {
+    npm: 'fe-guard-vite-plugin',
   },
   stats: {
     stars: 0,

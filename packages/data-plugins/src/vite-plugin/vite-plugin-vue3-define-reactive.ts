@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'reactive',
     'macro',
   ],
-  source: {
-    github: 'facexl/vite-plugin-vue3-define-reactive',
-    npm: 'vite-plugin-vue3-define-reactive',
-  },
   links: {
     github: 'https://github.com/facexl/vite-plugin-vue3-define-reactive',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue3-define-reactive',
     website: 'https://github.com/facexl/vite-plugin-vue3-define-reactive',
+  },
+  source: {
+    github: 'facexl/vite-plugin-vue3-define-reactive',
+    npm: 'vite-plugin-vue3-define-reactive',
   },
   stats: {
     stars: 16,

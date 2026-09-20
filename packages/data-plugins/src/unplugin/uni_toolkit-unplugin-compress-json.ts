@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'json',
     'compress',
   ],
-  source: {
-    github: 'uni-toolkit/uni-toolkit',
-    npm: '@uni_toolkit/unplugin-compress-json',
-  },
   links: {
     github: 'https://github.com/uni-toolkit/uni-toolkit',
     npm: 'https://www.npmjs.com/package/@uni_toolkit/unplugin-compress-json',
     website: 'https://github.com/uni-toolkit/uni-toolkit/tree/main/packages/unplugin-compress-json',
+  },
+  source: {
+    github: 'uni-toolkit/uni-toolkit',
+    npm: '@uni_toolkit/unplugin-compress-json',
   },
   stats: {
     stars: 29,

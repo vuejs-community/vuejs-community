@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'export-render',
     'unplugin',
   ],
-  source: {
-    github: 'vue-macros/vue-macros',
-    npm: '@vue-macros/export-render',
-  },
   links: {
     github: 'https://github.com/vue-macros/vue-macros',
     npm: 'https://www.npmjs.com/package/@vue-macros/export-render',
     website: 'https://vue-macros.dev',
+  },
+  source: {
+    github: 'vue-macros/vue-macros',
+    npm: '@vue-macros/export-render',
   },
   stats: {
     stars: 0,

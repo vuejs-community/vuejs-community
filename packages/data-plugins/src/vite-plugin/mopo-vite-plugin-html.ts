@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'minify',
     'vite-plugin',
   ],
-  source: {
-    npm: '@mopo/vite-plugin-html',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@mopo/vite-plugin-html',
+  },
+  source: {
+    npm: '@mopo/vite-plugin-html',
   },
   stats: {
     stars: 0,

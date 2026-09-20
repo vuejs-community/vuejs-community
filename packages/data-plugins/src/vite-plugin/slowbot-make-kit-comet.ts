@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'design-system',
     'vite-plugin',
   ],
-  source: {
-    github: 'slowbot/make-kit-comet',
-    npm: '@slowbot/make-kit-comet',
-  },
   links: {
     github: 'https://github.com/slowbot/make-kit-comet',
     npm: 'https://www.npmjs.com/package/@slowbot/make-kit-comet',
     website: 'https://github.com/slowbot/make-kit-comet#readme',
+  },
+  source: {
+    github: 'slowbot/make-kit-comet',
+    npm: '@slowbot/make-kit-comet',
   },
   stats: {
     stars: 0,

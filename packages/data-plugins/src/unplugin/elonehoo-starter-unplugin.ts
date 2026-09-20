@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'elonehoo/starter-unplugin',
-    npm: '@elonehoo/starter-unplugin',
-  },
   links: {
     github: 'https://github.com/elonehoo/starter-unplugin',
     npm: 'https://www.npmjs.com/package/@elonehoo/starter-unplugin',
     website: 'https://github.com/elonehoo/starter-unplugin#readme',
+  },
+  source: {
+    github: 'elonehoo/starter-unplugin',
+    npm: '@elonehoo/starter-unplugin',
   },
   stats: {
     stars: 1,

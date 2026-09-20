@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://docs.tresjs.org/getting-started/installation#nuxt-project',
   },
   source: {
-    github: 'tresjs/tres#main/packages/nuxt',
+    github: 'tresjs/tres',
     npm: '@tresjs/nuxt',
   },
 })

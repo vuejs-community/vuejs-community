@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'claude',
     'vite-plugin',
   ],
-  source: {
-    npm: '@haystackeditor/verify',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@haystackeditor/verify',
+  },
+  source: {
+    npm: '@haystackeditor/verify',
   },
   stats: {
     stars: 0,

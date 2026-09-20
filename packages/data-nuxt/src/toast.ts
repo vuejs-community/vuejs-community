@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/nuxt-community/legacy-modules/tree/master/packages/toast',
   },
   source: {
-    github: 'nuxt-community/legacy-modules#master/packages/toast',
+    github: 'nuxt-community/legacy-modules',
     npm: '@nuxtjs/toast',
   },
 })

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'web-components',
     'swc',
   ],
-  source: {
-    github: 'mantou132/gem',
-    npm: 'unplugin-gem',
-  },
   links: {
     github: 'https://github.com/mantou132/gem',
     npm: 'https://www.npmjs.com/package/unplugin-gem',
     website: 'https://github.com/mantou132/gem#readme',
+  },
+  source: {
+    github: 'mantou132/gem',
+    npm: 'unplugin-gem',
   },
   stats: {
     stars: 49,

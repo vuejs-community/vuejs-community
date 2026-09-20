@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rolldown',
     'transform',
   ],
-  source: {
-    github: 'lisonge/unplugin-data',
-    npm: 'unplugin-data',
-  },
   links: {
     github: 'https://github.com/lisonge/unplugin-data',
     npm: 'https://www.npmjs.com/package/unplugin-data',
     website: 'https://github.com/lisonge/unplugin-data#readme',
+  },
+  source: {
+    github: 'lisonge/unplugin-data',
+    npm: 'unplugin-data',
   },
   stats: {
     stars: 5,

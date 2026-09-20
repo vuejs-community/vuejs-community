@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'static-site-generation',
     'ssr',
   ],
-  source: {
-    npm: '@deadsimpleseo/vite-deadsimpleseo',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@deadsimpleseo/vite-deadsimpleseo',
+  },
+  source: {
+    npm: '@deadsimpleseo/vite-deadsimpleseo',
   },
   stats: {
     stars: 0,

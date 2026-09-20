@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'swagger',
     'openapi',
   ],
-  source: {
-    npm: 'vite-plugin-shauns-api-generator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-shauns-api-generator',
+  },
+  source: {
+    npm: 'vite-plugin-shauns-api-generator',
   },
   stats: {
     stars: 0,

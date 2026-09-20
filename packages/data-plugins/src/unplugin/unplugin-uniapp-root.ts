@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'component',
     'unplugin',
   ],
-  source: {
-    github: 'Enside/unplugin-uniapp-root',
-    npm: 'unplugin-uniapp-root',
-  },
   links: {
     github: 'https://github.com/Enside/unplugin-uniapp-root',
     npm: 'https://www.npmjs.com/package/unplugin-uniapp-root',
     website: 'https://github.com/Enside/unplugin-uniapp-root#readme',
+  },
+  source: {
+    github: 'Enside/unplugin-uniapp-root',
+    npm: 'unplugin-uniapp-root',
   },
   stats: {
     stars: 0,

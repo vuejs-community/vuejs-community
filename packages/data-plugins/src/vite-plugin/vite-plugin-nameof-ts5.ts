@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'vitejs',
     'awesome',
   ],
-  source: {
-    npm: 'vite-plugin-nameof-ts5',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-nameof-ts5',
+  },
+  source: {
+    npm: 'vite-plugin-nameof-ts5',
   },
   stats: {
     stars: 0,

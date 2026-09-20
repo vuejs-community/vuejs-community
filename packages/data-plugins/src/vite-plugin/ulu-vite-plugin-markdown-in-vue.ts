@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'markdown-vue',
     'vue-markdown',
   ],
-  source: {
-    github: 'Jscherbe/vite-plugin-markdown-in-vue',
-    npm: '@ulu/vite-plugin-markdown-in-vue',
-  },
   links: {
     github: 'https://github.com/Jscherbe/vite-plugin-markdown-in-vue',
     npm: 'https://www.npmjs.com/package/@ulu/vite-plugin-markdown-in-vue',
     website: 'https://github.com/Jscherbe/vite-plugin-markdown-in-vue#readme',
+  },
+  source: {
+    github: 'Jscherbe/vite-plugin-markdown-in-vue',
+    npm: '@ulu/vite-plugin-markdown-in-vue',
   },
   stats: {
     stars: 0,

@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin-dbg',
   ],
-  source: {
-    npm: 'vite-plugin-dbg',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-dbg',
+  },
+  source: {
+    npm: 'vite-plugin-dbg',
   },
   stats: {
     stars: 0,

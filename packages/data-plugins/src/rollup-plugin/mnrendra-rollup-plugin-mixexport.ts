@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'mixexport',
     'mixexports',
   ],
-  source: {
-    github: 'mnrendra/rollup-plugin-mixexport',
-    npm: '@mnrendra/rollup-plugin-mixexport',
-  },
   links: {
     github: 'https://github.com/mnrendra/rollup-plugin-mixexport',
     npm: 'https://www.npmjs.com/package/@mnrendra/rollup-plugin-mixexport',
     website: 'https://github.com/mnrendra/rollup-plugin-mixexport#readme',
+  },
+  source: {
+    github: 'mnrendra/rollup-plugin-mixexport',
+    npm: '@mnrendra/rollup-plugin-mixexport',
   },
   stats: {
     stars: 4,

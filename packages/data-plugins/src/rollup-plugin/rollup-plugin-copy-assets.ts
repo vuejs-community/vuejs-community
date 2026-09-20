@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'assets',
   ],
-  source: {
-    github: 'bengsfort/rollup-plugin-copy-assets',
-    npm: 'rollup-plugin-copy-assets',
-  },
   links: {
     github: 'https://github.com/bengsfort/rollup-plugin-copy-assets',
     npm: 'https://www.npmjs.com/package/rollup-plugin-copy-assets',
     website: 'https://github.com/bengsfort/rollup-plugin-copy-assets#readme',
+  },
+  source: {
+    github: 'bengsfort/rollup-plugin-copy-assets',
+    npm: 'rollup-plugin-copy-assets',
   },
   stats: {
     stars: 22,

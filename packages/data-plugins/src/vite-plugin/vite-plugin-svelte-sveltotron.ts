@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'svelte',
   ],
-  source: {
-    npm: 'vite-plugin-svelte-sveltotron',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-svelte-sveltotron',
+  },
+  source: {
+    npm: 'vite-plugin-svelte-sveltotron',
   },
   stats: {
     stars: 0,

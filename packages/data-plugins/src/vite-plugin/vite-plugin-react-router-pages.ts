@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'react-router-v6',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-react-router-pages',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-react-router-pages',
+  },
+  source: {
+    npm: 'vite-plugin-react-router-pages',
   },
   stats: {
     stars: 0,

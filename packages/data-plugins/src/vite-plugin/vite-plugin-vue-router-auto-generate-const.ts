@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vue',
     'vue-router',
   ],
-  source: {
-    github: 'xfl12345/vite-plugin-vue-router-auto-generate-const',
-    npm: 'vite-plugin-vue-router-auto-generate-const',
-  },
   links: {
     github: 'https://github.com/xfl12345/vite-plugin-vue-router-auto-generate-const',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-router-auto-generate-const',
     website: 'https://github.com/xfl12345/vite-plugin-vue-router-auto-generate-const#readme',
+  },
+  source: {
+    github: 'xfl12345/vite-plugin-vue-router-auto-generate-const',
+    npm: 'vite-plugin-vue-router-auto-generate-const',
   },
   stats: {
     stars: 0,

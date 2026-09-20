@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'offline',
     'token',
   ],
-  source: {
-    github: 'WangJiangJiaoZi/vite-plugin-mapbox-gl-offline',
-    npm: 'vite-plugin-mapbox-gl-offline',
-  },
   links: {
     github: 'https://github.com/WangJiangJiaoZi/vite-plugin-mapbox-gl-offline',
     npm: 'https://www.npmjs.com/package/vite-plugin-mapbox-gl-offline',
     website: 'https://github.com/WangJiangJiaoZi/vite-plugin-mapbox-gl-offline#readme',
+  },
+  source: {
+    github: 'WangJiangJiaoZi/vite-plugin-mapbox-gl-offline',
+    npm: 'vite-plugin-mapbox-gl-offline',
   },
   stats: {
     stars: 0,

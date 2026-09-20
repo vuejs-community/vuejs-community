@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-uniapp-routes',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-uniapp-routes',
+  },
+  source: {
+    npm: 'vite-plugin-uniapp-routes',
   },
   stats: {
     stars: 0,

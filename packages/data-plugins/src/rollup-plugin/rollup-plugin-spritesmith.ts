@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'apathyjade/rollup-plugin-spritesmith',
-    npm: 'rollup-plugin-spritesmith',
-  },
   links: {
     github: 'https://github.com/apathyjade/rollup-plugin-spritesmith',
     npm: 'https://www.npmjs.com/package/rollup-plugin-spritesmith',
     website: 'https://github.com/apathyjade/rollup-plugin-spritesmith#readme',
+  },
+  source: {
+    github: 'apathyjade/rollup-plugin-spritesmith',
+    npm: 'rollup-plugin-spritesmith',
   },
   stats: {
     stars: 0,

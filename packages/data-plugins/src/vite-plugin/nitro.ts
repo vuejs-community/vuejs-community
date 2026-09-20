@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'web',
   ],
-  source: {
-    github: 'nitrojs/nitro',
-    npm: 'nitro',
-  },
   links: {
     github: 'https://github.com/nitrojs/nitro',
     npm: 'https://www.npmjs.com/package/nitro',
     website: 'https://nitro.build',
+  },
+  source: {
+    github: 'nitrojs/nitro',
+    npm: 'nitro',
   },
   stats: {
     stars: 0,

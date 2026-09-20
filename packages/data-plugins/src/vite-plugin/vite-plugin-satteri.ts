@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'bruits/satteri',
-    npm: 'vite-plugin-satteri',
-  },
   links: {
     github: 'https://github.com/bruits/satteri',
     npm: 'https://www.npmjs.com/package/vite-plugin-satteri',
     website: 'https://github.com/bruits/satteri#readme',
+  },
+  source: {
+    github: 'bruits/satteri',
+    npm: 'vite-plugin-satteri',
   },
   stats: {
     stars: 1257,

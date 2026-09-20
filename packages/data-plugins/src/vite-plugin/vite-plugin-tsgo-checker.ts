@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'type-checker',
     'native',
   ],
-  source: {
-    github: 'ashley-hunter/vite-plugin-tsgo-checker',
-    npm: 'vite-plugin-tsgo-checker',
-  },
   links: {
     github: 'https://github.com/ashley-hunter/vite-plugin-tsgo-checker',
     npm: 'https://www.npmjs.com/package/vite-plugin-tsgo-checker',
     website: 'https://github.com/ashley-hunter/vite-plugin-tsgo-checker',
+  },
+  source: {
+    github: 'ashley-hunter/vite-plugin-tsgo-checker',
+    npm: 'vite-plugin-tsgo-checker',
   },
   stats: {
     stars: 0,

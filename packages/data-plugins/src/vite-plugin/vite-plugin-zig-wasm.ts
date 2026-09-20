@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'wasm',
     'zig',
   ],
-  source: {
-    github: 'nikeee/vite-plugin-zig-wasm',
-    npm: 'vite-plugin-zig-wasm',
-  },
   links: {
     github: 'https://github.com/nikeee/vite-plugin-zig-wasm',
     npm: 'https://www.npmjs.com/package/vite-plugin-zig-wasm',
     website: 'https://github.com/nikeee/vite-plugin-zig-wasm#readme',
+  },
+  source: {
+    github: 'nikeee/vite-plugin-zig-wasm',
+    npm: 'vite-plugin-zig-wasm',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'modular',
     'libraries',
   ],
-  source: {
-    github: 'ayan4m1/rollup-plugin-multi-input',
-    npm: '@ayan4m1/rollup-plugin-multi-input',
-  },
   links: {
     github: 'https://github.com/ayan4m1/rollup-plugin-multi-input',
     npm: 'https://www.npmjs.com/package/@ayan4m1/rollup-plugin-multi-input',
     website: 'https://github.com/ayan4m1/rollup-plugin-multi-input#readme',
+  },
+  source: {
+    github: 'ayan4m1/rollup-plugin-multi-input',
+    npm: '@ayan4m1/rollup-plugin-multi-input',
   },
   stats: {
     stars: 0,

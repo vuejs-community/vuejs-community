@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'watcher',
     'file-system',
   ],
-  source: {
-    github: 'GriffinCanCode/Retrigger',
-    npm: '@retrigger/core',
-  },
   links: {
     github: 'https://github.com/GriffinCanCode/Retrigger',
     npm: 'https://www.npmjs.com/package/@retrigger/core',
     website: 'https://github.com/GriffinCanCode/Retrigger#readme',
+  },
+  source: {
+    github: 'GriffinCanCode/Retrigger',
+    npm: '@retrigger/core',
   },
   stats: {
     stars: 0,

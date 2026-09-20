@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'css',
     'atomic-css',
   ],
-  source: {
-    npm: '@strato-css/vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@strato-css/vite',
+  },
+  source: {
+    npm: '@strato-css/vite',
   },
   stats: {
     stars: 0,

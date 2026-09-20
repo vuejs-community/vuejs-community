@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'css-tokens',
     'hot-reload',
   ],
-  source: {
-    github: 'dennis-di/spoon',
-    npm: 'vite-plugin-spoon',
-  },
   links: {
     github: 'https://github.com/dennis-di/spoon',
     npm: 'https://www.npmjs.com/package/vite-plugin-spoon',
     website: 'https://github.com/dennis-di/spoon#readme',
+  },
+  source: {
+    github: 'dennis-di/spoon',
+    npm: 'vite-plugin-spoon',
   },
   stats: {
     stars: 0,

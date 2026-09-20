@@ -20,12 +20,12 @@ export default defineProjectMeta({
     'expo-router',
     'capacitor',
   ],
-  source: {
-    npm: 'unplugin-react-router-dom',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-react-router-dom',
     website: 'https://gitee.com/ws18250840411/capacitor-template/tree/master/packages/unplugin-react-router-dom',
+  },
+  source: {
+    npm: 'unplugin-react-router-dom',
   },
   stats: {
     stars: 0,

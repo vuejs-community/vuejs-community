@@ -11,13 +11,13 @@ export default defineProjectMeta({
   tags: [
     'unplugin',
   ],
-  source: {
-    github: 'xuyimingwork/unplugin-ts-ku',
-    npm: 'unplugin-ts-ku',
-  },
   links: {
     github: 'https://github.com/xuyimingwork/unplugin-ts-ku',
     npm: 'https://www.npmjs.com/package/unplugin-ts-ku',
+  },
+  source: {
+    github: 'xuyimingwork/unplugin-ts-ku',
+    npm: 'unplugin-ts-ku',
   },
   stats: {
     stars: 0,

@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'decoco-plugin',
   ],
-  source: {
-    npm: '@decoco/rollup-plugin-auto-inject-component',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@decoco/rollup-plugin-auto-inject-component',
+  },
+  source: {
+    npm: '@decoco/rollup-plugin-auto-inject-component',
   },
   stats: {
     stars: 0,

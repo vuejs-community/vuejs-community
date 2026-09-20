@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'sfc',
     'vite-plugin',
   ],
-  source: {
-    github: 'roman4e/uidetox',
-    npm: 'ui-detox',
-  },
   links: {
     github: 'https://github.com/roman4e/uidetox',
     npm: 'https://www.npmjs.com/package/ui-detox',
     website: 'https://github.com/roman4e/uidetox#readme',
+  },
+  source: {
+    github: 'roman4e/uidetox',
+    npm: 'ui-detox',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'eruda',
   ],
-  source: {
-    github: 'zhaojjiang/vite-plugin-eruda',
-    npm: '@zhaojjiang/vite-plugin-eruda',
-  },
   links: {
     github: 'https://github.com/zhaojjiang/vite-plugin-eruda',
     npm: 'https://www.npmjs.com/package/@zhaojjiang/vite-plugin-eruda',
     website: 'https://github.com/zhaojjiang/vite-plugin-eruda#readme',
+  },
+  source: {
+    github: 'zhaojjiang/vite-plugin-eruda',
+    npm: '@zhaojjiang/vite-plugin-eruda',
   },
   stats: {
     stars: 0,

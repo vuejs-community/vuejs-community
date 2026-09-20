@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'interop',
     'default-import',
   ],
-  source: {
-    github: 'erikchan1000/vite-default-opt-plugin',
-    npm: 'vite-default-opt',
-  },
   links: {
     github: 'https://github.com/erikchan1000/vite-default-opt-plugin',
     npm: 'https://www.npmjs.com/package/vite-default-opt',
     website: 'https://github.com/erikchan1000/vite-default-opt-plugin#readme',
+  },
+  source: {
+    github: 'erikchan1000/vite-default-opt-plugin',
+    npm: 'vite-default-opt',
   },
   stats: {
     stars: 1,

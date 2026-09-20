@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'xml',
     'rss',
   ],
-  source: {
-    github: 'ec965/vite-plugin-rss',
-    npm: 'vite-plugin-rss',
-  },
   links: {
     github: 'https://github.com/ec965/vite-plugin-rss',
     npm: 'https://www.npmjs.com/package/vite-plugin-rss',
     website: 'https://github.com/ec965/vite-plugin-rss#readme',
+  },
+  source: {
+    github: 'ec965/vite-plugin-rss',
+    npm: 'vite-plugin-rss',
   },
   stats: {
     stars: 1,

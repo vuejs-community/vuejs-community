@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'build-time',
     'inject',
   ],
-  source: {
-    npm: '@xtliyq/vite-plugin-version',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xtliyq/vite-plugin-version',
+  },
+  source: {
+    npm: '@xtliyq/vite-plugin-version',
   },
   stats: {
     stars: 0,

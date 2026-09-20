@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'uglify',
     'minify',
   ],
-  source: {
-    github: 'lwiseman/rollup-plugin-prettyuglify',
-    npm: 'rollup-plugin-prettyuglify',
-  },
   links: {
     github: 'https://github.com/lwiseman/rollup-plugin-prettyuglify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-prettyuglify',
     website: 'https://github.com/lwiseman/rollup-plugin-prettyuglify#readme',
+  },
+  source: {
+    github: 'lwiseman/rollup-plugin-prettyuglify',
+    npm: 'rollup-plugin-prettyuglify',
   },
   stats: {
     stars: 7,

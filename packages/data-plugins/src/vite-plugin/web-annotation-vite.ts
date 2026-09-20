@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'source-metadata',
     'annotation',
   ],
-  source: {
-    github: '1260215278/webAnnotation',
-    npm: '@web-annotation/vite',
-  },
   links: {
     github: 'https://github.com/1260215278/webAnnotation',
     npm: 'https://www.npmjs.com/package/@web-annotation/vite',
     website: 'https://github.com/1260215278/webAnnotation#readme',
+  },
+  source: {
+    github: '1260215278/webAnnotation',
+    npm: '@web-annotation/vite',
   },
   stats: {
     stars: 0,

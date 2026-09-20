@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'base64',
     'binary2base64',
   ],
-  source: {
-    github: 'czizzy/rollup-plugin-binary2base64',
-    npm: 'rollup-plugin-binary2base64',
-  },
   links: {
     github: 'https://github.com/czizzy/rollup-plugin-binary2base64',
     npm: 'https://www.npmjs.com/package/rollup-plugin-binary2base64',
     website: 'https://github.com/czizzy/rollup-plugin-binary2base64',
+  },
+  source: {
+    github: 'czizzy/rollup-plugin-binary2base64',
+    npm: 'rollup-plugin-binary2base64',
   },
   stats: {
     stars: 1,

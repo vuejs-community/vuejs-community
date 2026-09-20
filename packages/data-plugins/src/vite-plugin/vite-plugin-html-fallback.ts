@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-html-fallback',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-html-fallback',
+  },
+  source: {
+    npm: 'vite-plugin-html-fallback',
   },
   stats: {
     stars: 0,

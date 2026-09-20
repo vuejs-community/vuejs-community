@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'pure annotation',
     'rollup-plugin',
   ],
-  source: {
-    github: 'fairysword/rollup-plugin-pure-annotation',
-    npm: 'rollup-plugin-pure-annotation',
-  },
   links: {
     github: 'https://github.com/fairysword/rollup-plugin-pure-annotation',
     npm: 'https://www.npmjs.com/package/rollup-plugin-pure-annotation',
     website: 'https://github.com/fairysword/rollup-plugin-pure-annotation#readme',
+  },
+  source: {
+    github: 'fairysword/rollup-plugin-pure-annotation',
+    npm: 'rollup-plugin-pure-annotation',
   },
   stats: {
     stars: 0,

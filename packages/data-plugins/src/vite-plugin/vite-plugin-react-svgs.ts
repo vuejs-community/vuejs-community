@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'react',
     'loader',
   ],
-  source: {
-    github: 'ChaconneLuo/vite-plugin-svgs',
-    npm: 'vite-plugin-react-svgs',
-  },
   links: {
     github: 'https://github.com/ChaconneLuo/vite-plugin-svgs',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-svgs',
     website: 'https://github.com/ChaconneLuo/vite-plugin-svgs#readme',
+  },
+  source: {
+    github: 'ChaconneLuo/vite-plugin-svgs',
+    npm: 'vite-plugin-react-svgs',
   },
   stats: {
     stars: 4,

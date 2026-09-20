@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'demand',
     'pro',
   ],
-  source: {
-    npm: 'vue-pro-componentcxl',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vue-pro-componentcxl',
+  },
+  source: {
+    npm: 'vue-pro-componentcxl',
   },
   stats: {
     stars: 0,

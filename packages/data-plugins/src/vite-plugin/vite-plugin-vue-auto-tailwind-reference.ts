@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'sfc',
     'tailwind',
   ],
-  source: {
-    github: 'alaa-abdallah1/vite-plugin-vue-auto-tailwind-reference',
-    npm: 'vite-plugin-vue-auto-tailwind-reference',
-  },
   links: {
     github: 'https://github.com/alaa-abdallah1/vite-plugin-vue-auto-tailwind-reference',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-auto-tailwind-reference',
     website: 'https://github.com/alaa-abdallah1/vite-plugin-vue-auto-tailwind-reference#readme',
+  },
+  source: {
+    github: 'alaa-abdallah1/vite-plugin-vue-auto-tailwind-reference',
+    npm: 'vite-plugin-vue-auto-tailwind-reference',
   },
   stats: {
     stars: 2,

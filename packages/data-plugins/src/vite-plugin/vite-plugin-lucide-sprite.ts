@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'lucide',
     'svg-sprite',
   ],
-  source: {
-    github: 'mustafa0x/vite-plugin-lucide-sprite',
-    npm: 'vite-plugin-lucide-sprite',
-  },
   links: {
     github: 'https://github.com/mustafa0x/vite-plugin-lucide-sprite',
     npm: 'https://www.npmjs.com/package/vite-plugin-lucide-sprite',
     website: 'https://github.com/mustafa0x/vite-plugin-lucide-sprite#readme',
+  },
+  source: {
+    github: 'mustafa0x/vite-plugin-lucide-sprite',
+    npm: 'vite-plugin-lucide-sprite',
   },
   stats: {
     stars: 1,

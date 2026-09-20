@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'devtools',
     'source-mapping',
   ],
-  source: {
-    github: 'waleedmustafa971/React-surgeon',
-    npm: '@react-surgeon/vite-plugin',
-  },
   links: {
     github: 'https://github.com/waleedmustafa971/React-surgeon',
     npm: 'https://www.npmjs.com/package/@react-surgeon/vite-plugin',
     website: 'https://github.com/waleedmustafa971/React-surgeon#readme',
+  },
+  source: {
+    github: 'waleedmustafa971/React-surgeon',
+    npm: '@react-surgeon/vite-plugin',
   },
   stats: {
     stars: 0,

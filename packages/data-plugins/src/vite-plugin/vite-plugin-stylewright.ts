@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'inspector',
     'hmr',
   ],
-  source: {
-    github: 'Greg-J/vite-plugin-stylewright',
-    npm: 'vite-plugin-stylewright',
-  },
   links: {
     github: 'https://github.com/Greg-J/vite-plugin-stylewright',
     npm: 'https://www.npmjs.com/package/vite-plugin-stylewright',
     website: 'https://github.com/Greg-J/vite-plugin-stylewright#readme',
+  },
+  source: {
+    github: 'Greg-J/vite-plugin-stylewright',
+    npm: 'vite-plugin-stylewright',
   },
   stats: {
     stars: 2,

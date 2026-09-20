@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'static-analysis',
     'devtools',
   ],
-  source: {
-    github: 'amirrr1987/vue-sentinel-x',
-    npm: 'vue-sentinel-x-vite-plugin',
-  },
   links: {
     github: 'https://github.com/amirrr1987/vue-sentinel-x',
     npm: 'https://www.npmjs.com/package/vue-sentinel-x-vite-plugin',
     website: 'https://github.com/amirrr1987/vue-sentinel-x#readme',
+  },
+  source: {
+    github: 'amirrr1987/vue-sentinel-x',
+    npm: 'vue-sentinel-x-vite-plugin',
   },
   stats: {
     stars: 0,

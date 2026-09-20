@@ -29,14 +29,14 @@ export default defineProjectMeta({
     'jit',
     'scss',
   ],
-  source: {
-    github: 'vueland/vueland',
-    npm: '@vueland/utils-jit',
-  },
   links: {
     github: 'https://github.com/vueland/vueland',
     npm: 'https://www.npmjs.com/package/@vueland/utils-jit',
     website: 'https://vueland.github.io/vueland/en/plugins/utils-jit/getting-started',
+  },
+  source: {
+    github: 'vueland/vueland',
+    npm: '@vueland/utils-jit',
   },
   stats: {
     stars: 2,

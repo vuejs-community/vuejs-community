@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'image',
   ],
-  source: {
-    github: 'alwaysonlinetxm/rollup-plugin-img',
-    npm: '@lomray/rollup-plugin-img',
-  },
   links: {
     github: 'https://github.com/alwaysonlinetxm/rollup-plugin-img',
     npm: 'https://www.npmjs.com/package/@lomray/rollup-plugin-img',
     website: 'https://github.com/alwaysonlinetxm/rollup-plugin-img#readme',
+  },
+  source: {
+    github: 'alwaysonlinetxm/rollup-plugin-img',
+    npm: '@lomray/rollup-plugin-img',
   },
   stats: {
     stars: 26,

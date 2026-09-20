@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'frontend-monitor',
     'error-tracking',
   ],
-  source: {
-    npm: '@tourmind-frontend/monitor-plugin-vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@tourmind-frontend/monitor-plugin-vite',
+  },
+  source: {
+    npm: '@tourmind-frontend/monitor-plugin-vite',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'monorepo',
     'local-development',
   ],
-  source: {
-    github: 'EnixCoda/vite-plugin-virtual-link',
-    npm: 'vite-plugin-virtual-link',
-  },
   links: {
     github: 'https://github.com/EnixCoda/vite-plugin-virtual-link',
     npm: 'https://www.npmjs.com/package/vite-plugin-virtual-link',
     website: 'https://github.com/EnixCoda/vite-plugin-virtual-link',
+  },
+  source: {
+    github: 'EnixCoda/vite-plugin-virtual-link',
+    npm: 'vite-plugin-virtual-link',
   },
   stats: {
     stars: 1,

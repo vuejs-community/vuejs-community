@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'RedStar071/unplugin-version-injector',
-    npm: '@redstardev/unplugin-version-injector',
-  },
   links: {
     github: 'https://github.com/RedStar071/unplugin-version-injector',
     npm: 'https://www.npmjs.com/package/@redstardev/unplugin-version-injector',
     website: 'https://redstar071.dev',
+  },
+  source: {
+    github: 'RedStar071/unplugin-version-injector',
+    npm: '@redstardev/unplugin-version-injector',
   },
   stats: {
     stars: 1,

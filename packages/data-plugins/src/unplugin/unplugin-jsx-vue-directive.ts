@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'zhiyuanzmj/unplugin-jsx-vue-directive',
-    npm: 'unplugin-jsx-vue-directive',
-  },
   links: {
     github: 'https://github.com/zhiyuanzmj/unplugin-jsx-vue-directive',
     npm: 'https://www.npmjs.com/package/unplugin-jsx-vue-directive',
     website: 'https://github.com/zhiyuanzmj/unplugin-jsx-vue-directive#readme',
+  },
+  source: {
+    github: 'zhiyuanzmj/unplugin-jsx-vue-directive',
+    npm: 'unplugin-jsx-vue-directive',
   },
   stats: {
     stars: 18,

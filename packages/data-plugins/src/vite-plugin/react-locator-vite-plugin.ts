@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'devtools',
     'vscode',
   ],
-  source: {
-    github: 'kunalkarpe/React-Locator',
-    npm: 'react-locator-vite-plugin',
-  },
   links: {
     github: 'https://github.com/kunalkarpe/React-Locator',
     npm: 'https://www.npmjs.com/package/react-locator-vite-plugin',
     website: 'https://github.com/kunalkarpe/React-Locator#readme',
+  },
+  source: {
+    github: 'kunalkarpe/React-Locator',
+    npm: 'react-locator-vite-plugin',
   },
   stats: {
     stars: 0,

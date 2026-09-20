@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'js',
     'javascript',
   ],
-  source: {
-    github: 'alpheusday/unplugin-compat',
-    npm: 'unplugin-compat',
-  },
   links: {
     github: 'https://github.com/alpheusday/unplugin-compat',
     npm: 'https://www.npmjs.com/package/unplugin-compat',
     website: 'https://github.com/alpheusday/unplugin-compat',
+  },
+  source: {
+    github: 'alpheusday/unplugin-compat',
+    npm: 'unplugin-compat',
   },
   stats: {
     stars: 0,

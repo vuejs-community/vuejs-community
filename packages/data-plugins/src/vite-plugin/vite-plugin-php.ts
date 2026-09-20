@@ -29,14 +29,14 @@ export default defineProjectMeta({
     'bundler',
     'asset-bundler',
   ],
-  source: {
-    github: 'donnikitos/vite-plugin-php',
-    npm: 'vite-plugin-php',
-  },
   links: {
     github: 'https://github.com/donnikitos/vite-plugin-php',
     npm: 'https://www.npmjs.com/package/vite-plugin-php',
     website: 'https://vite-php.nititech.de/',
+  },
+  source: {
+    github: 'donnikitos/vite-plugin-php',
+    npm: 'vite-plugin-php',
   },
   stats: {
     stars: 78,

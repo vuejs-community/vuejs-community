@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'wasm',
     'vite-plugin',
   ],
-  source: {
-    npm: 'hikvision-h5player',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/hikvision-h5player',
+  },
+  source: {
+    npm: 'hikvision-h5player',
   },
   stats: {
     stars: 0,

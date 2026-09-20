@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'auto-import',
     'transform',
   ],
-  source: {
-    npm: '@stargram/generate-routes',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@stargram/generate-routes',
+  },
+  source: {
+    npm: '@stargram/generate-routes',
   },
   stats: {
     stars: 0,

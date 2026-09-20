@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'hummingbird-me/graphql-minify-schema',
-    npm: 'rollup-plugin-graphql-minify-schema',
-  },
   links: {
     github: 'https://github.com/hummingbird-me/graphql-minify-schema',
     npm: 'https://www.npmjs.com/package/rollup-plugin-graphql-minify-schema',
     website: 'https://github.com/hummingbird-me/graphql-minify-schema#readme',
+  },
+  source: {
+    github: 'hummingbird-me/graphql-minify-schema',
+    npm: 'rollup-plugin-graphql-minify-schema',
   },
   stats: {
     stars: 0,

@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'css',
     'mecss',
   ],
-  source: {
-    npm: 'vite-plugin-mecss',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-mecss',
     website: 'https://github.com/ccakee/vite-plugin-mecss',
+  },
+  source: {
+    npm: 'vite-plugin-mecss',
   },
   stats: {
     stars: 0,

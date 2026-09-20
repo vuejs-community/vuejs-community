@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'vituum/vite-plugin-send',
-    npm: '@vituum/vite-plugin-send',
-  },
   links: {
     github: 'https://github.com/vituum/vite-plugin-send',
     npm: 'https://www.npmjs.com/package/@vituum/vite-plugin-send',
     website: 'https://github.com/vituum/vite-plugin-send#readme',
+  },
+  source: {
+    github: 'vituum/vite-plugin-send',
+    npm: '@vituum/vite-plugin-send',
   },
   stats: {
     stars: 0,

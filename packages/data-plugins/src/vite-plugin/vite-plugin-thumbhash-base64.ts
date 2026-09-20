@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'avif',
     'base64',
   ],
-  source: {
-    github: 'iamriajul/vite-plugin-thumbhash',
-    npm: 'vite-plugin-thumbhash-base64',
-  },
   links: {
     github: 'https://github.com/iamriajul/vite-plugin-thumbhash',
     npm: 'https://www.npmjs.com/package/vite-plugin-thumbhash-base64',
     website: 'https://github.com/iamriajul/vite-plugin-thumbhash',
+  },
+  source: {
+    github: 'iamriajul/vite-plugin-thumbhash',
+    npm: 'vite-plugin-thumbhash-base64',
   },
   stats: {
     stars: 0,

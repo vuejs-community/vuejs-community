@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    github: 'ubugeeei-prod/vize',
-    npm: '@vizejs/vite-plugin-musea',
-  },
   links: {
     github: 'https://github.com/ubugeeei-prod/vize',
     npm: 'https://www.npmjs.com/package/@vizejs/vite-plugin-musea',
     website: 'https://github.com/ubugeeei-prod/vize',
+  },
+  source: {
+    github: 'ubugeeei-prod/vize',
+    npm: '@vizejs/vite-plugin-musea',
   },
   stats: {
     stars: 0,

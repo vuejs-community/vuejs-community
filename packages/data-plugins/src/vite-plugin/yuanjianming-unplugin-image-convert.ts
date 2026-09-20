@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'webpack-plugin',
     'sharp',
   ],
-  source: {
-    github: 'yuan66-hub/unplugin-image-convert',
-    npm: '@yuanjianming/unplugin-image-convert',
-  },
   links: {
     github: 'https://github.com/yuan66-hub/unplugin-image-convert',
     npm: 'https://www.npmjs.com/package/@yuanjianming/unplugin-image-convert',
     website: 'https://github.com/yuan66-hub/unplugin-image-convert#readme',
+  },
+  source: {
+    github: 'yuan66-hub/unplugin-image-convert',
+    npm: '@yuanjianming/unplugin-image-convert',
   },
   stats: {
     stars: 2,

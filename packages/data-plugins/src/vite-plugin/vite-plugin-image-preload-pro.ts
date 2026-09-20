@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'prefetch',
     'image',
   ],
-  source: {
-    npm: 'vite-plugin-image-preload-pro',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-image-preload-pro',
+  },
+  source: {
+    npm: 'vite-plugin-image-preload-pro',
   },
   stats: {
     stars: 0,

@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'tinyfy',
   ],
-  source: {
-    npm: 'vite-plugin-tinyfy',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-tinyfy',
+  },
+  source: {
+    npm: 'vite-plugin-tinyfy',
   },
   stats: {
     stars: 0,

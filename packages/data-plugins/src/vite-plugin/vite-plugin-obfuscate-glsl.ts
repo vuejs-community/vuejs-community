@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'webgl',
     'threejs',
   ],
-  source: {
-    github: 'epascal/vite-plugin-obfuscate-glsl',
-    npm: 'vite-plugin-obfuscate-glsl',
-  },
   links: {
     github: 'https://github.com/epascal/vite-plugin-obfuscate-glsl',
     npm: 'https://www.npmjs.com/package/vite-plugin-obfuscate-glsl',
     website: 'https://github.com/epascal/vite-plugin-obfuscate-glsl',
+  },
+  source: {
+    github: 'epascal/vite-plugin-obfuscate-glsl',
+    npm: 'vite-plugin-obfuscate-glsl',
   },
   stats: {
     stars: 0,

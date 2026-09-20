@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'gas',
     'clasp',
   ],
-  source: {
-    github: 'hd140283/vite-plugin-gas-hoist',
-    npm: 'vite-plugin-gas-hoist',
-  },
   links: {
     github: 'https://github.com/hd140283/vite-plugin-gas-hoist',
     npm: 'https://www.npmjs.com/package/vite-plugin-gas-hoist',
     website: 'https://github.com/hd140283/vite-plugin-gas-hoist#readme',
+  },
+  source: {
+    github: 'hd140283/vite-plugin-gas-hoist',
+    npm: 'vite-plugin-gas-hoist',
   },
   stats: {
     stars: 0,

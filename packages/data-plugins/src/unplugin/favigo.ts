@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'manifest',
     'apple-touch-icon',
   ],
-  source: {
-    github: 'jog1t/favigo',
-    npm: 'favigo',
-  },
   links: {
     github: 'https://github.com/jog1t/favigo',
     npm: 'https://www.npmjs.com/package/favigo',
     website: 'https://github.com/jog1t/favigo#readme',
+  },
+  source: {
+    github: 'jog1t/favigo',
+    npm: 'favigo',
   },
   stats: {
     stars: 3,

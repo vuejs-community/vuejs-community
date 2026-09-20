@@ -24,11 +24,11 @@ export default defineProjectMeta({
     'jsx',
     'tsx',
   ],
-  source: {
-    npm: 'vite-plugin-css-prefix-auto',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-css-prefix-auto',
+  },
+  source: {
+    npm: 'vite-plugin-css-prefix-auto',
   },
   stats: {
     stars: 0,

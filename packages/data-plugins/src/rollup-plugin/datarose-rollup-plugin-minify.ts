@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'minify',
     'esbuild',
   ],
-  source: {
-    github: 'datarose-net/rollup-plugin-minify',
-    npm: '@datarose/rollup-plugin-minify',
-  },
   links: {
     github: 'https://github.com/datarose-net/rollup-plugin-minify',
     npm: 'https://www.npmjs.com/package/@datarose/rollup-plugin-minify',
     website: 'https://github.com/datarose-net/rollup-plugin-minify#readme',
+  },
+  source: {
+    github: 'datarose-net/rollup-plugin-minify',
+    npm: '@datarose/rollup-plugin-minify',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vue',
     'vue2',
   ],
-  source: {
-    github: 'vuejs/rollup-plugin-vue',
-    npm: 'rollup-plugin-ue2',
-  },
   links: {
     github: 'https://github.com/vuejs/rollup-plugin-vue',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ue2',
     website: 'https://github.com/vuejs/rollup-plugin-vue#readme',
+  },
+  source: {
+    github: 'vuejs/rollup-plugin-vue',
+    npm: 'rollup-plugin-ue2',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'rolldown-plugin',
   ],
-  source: {
-    github: 'gw31415/qstyle',
-    npm: '@qstyle/vite',
-  },
   links: {
     github: 'https://github.com/gw31415/qstyle',
     npm: 'https://www.npmjs.com/package/@qstyle/vite',
     website: 'https://github.com/gw31415/qstyle#readme',
+  },
+  source: {
+    github: 'gw31415/qstyle',
+    npm: '@qstyle/vite',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'tsconfig',
   ],
-  source: {
-    github: 'alienfast/vite-plugin-tsconfig',
-    npm: 'vite-plugin-tsconfig',
-  },
   links: {
     github: 'https://github.com/alienfast/vite-plugin-tsconfig',
     npm: 'https://www.npmjs.com/package/vite-plugin-tsconfig',
     website: 'https://github.com/alienfast/vite-plugin-tsconfig',
+  },
+  source: {
+    github: 'alienfast/vite-plugin-tsconfig',
+    npm: 'vite-plugin-tsconfig',
   },
   stats: {
     stars: 6,

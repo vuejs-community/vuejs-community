@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'remix',
     'i18n',
   ],
-  source: {
-    github: 'tgds/vite-plugin-remix-i18n',
-    npm: 'vite-plugin-remix-i18n',
-  },
   links: {
     github: 'https://github.com/tgds/vite-plugin-remix-i18n',
     npm: 'https://www.npmjs.com/package/vite-plugin-remix-i18n',
     website: 'https://github.com/tgds/vite-plugin-remix-i18n#readme',
+  },
+  source: {
+    github: 'tgds/vite-plugin-remix-i18n',
+    npm: 'vite-plugin-remix-i18n',
   },
   stats: {
     stars: 0,

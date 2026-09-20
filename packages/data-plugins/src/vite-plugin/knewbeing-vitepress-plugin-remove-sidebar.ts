@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'typescript',
   ],
-  source: {
-    github: 'VitepressAwesome/vitepress-plugin-blogs',
-    npm: '@knewbeing/vitepress-plugin-remove-sidebar',
-  },
   links: {
     github: 'https://github.com/VitepressAwesome/vitepress-plugin-blogs',
     npm: 'https://www.npmjs.com/package/@knewbeing/vitepress-plugin-remove-sidebar',
     website: 'https://github.com/VitepressAwesome/vitepress-plugin-blogs#readme',
+  },
+  source: {
+    github: 'VitepressAwesome/vitepress-plugin-blogs',
+    npm: '@knewbeing/vitepress-plugin-remove-sidebar',
   },
   stats: {
     stars: 0,

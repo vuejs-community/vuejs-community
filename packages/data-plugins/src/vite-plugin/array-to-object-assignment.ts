@@ -21,11 +21,11 @@ export default defineProjectMeta({
     'object-destructuring',
     'performance',
   ],
-  source: {
-    npm: 'array-to-object-assignment',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/array-to-object-assignment',
+  },
+  source: {
+    npm: 'array-to-object-assignment',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vue',
     'ssr',
   ],
-  source: {
-    github: 'maximomussini/vite-islands',
-    npm: 'vite-islands',
-  },
   links: {
     github: 'https://github.com/maximomussini/vite-islands',
     npm: 'https://www.npmjs.com/package/vite-islands',
     website: 'https://github.com/maximomussini/vite-islands',
+  },
+  source: {
+    github: 'maximomussini/vite-islands',
+    npm: 'vite-islands',
   },
   stats: {
     stars: 0,

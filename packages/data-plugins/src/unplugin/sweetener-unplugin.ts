@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'bun',
     'unplugin',
   ],
-  source: {
-    github: 'sweetener-ts/sweetener',
-    npm: '@sweetener/unplugin',
-  },
   links: {
     github: 'https://github.com/sweetener-ts/sweetener',
     npm: 'https://www.npmjs.com/package/@sweetener/unplugin',
     website: 'https://github.com/sweetener-ts/sweetener/tree/main/packages/unplugin#readme',
+  },
+  source: {
+    github: 'sweetener-ts/sweetener',
+    npm: '@sweetener/unplugin',
   },
   stats: {
     stars: 0,

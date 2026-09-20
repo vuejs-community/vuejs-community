@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rolldown-plugin',
     'testing',
   ],
-  source: {
-    github: 'rolldown/plugins',
-    npm: '@rolldown/plugin-jsx-remove-attributes',
-  },
   links: {
     github: 'https://github.com/rolldown/plugins',
     npm: 'https://www.npmjs.com/package/@rolldown/plugin-jsx-remove-attributes',
     website: 'https://github.com/rolldown/plugins/tree/main/packages/jsx-remove-attributes#readme',
+  },
+  source: {
+    github: 'rolldown/plugins',
+    npm: '@rolldown/plugin-jsx-remove-attributes',
   },
   stats: {
     stars: 0,

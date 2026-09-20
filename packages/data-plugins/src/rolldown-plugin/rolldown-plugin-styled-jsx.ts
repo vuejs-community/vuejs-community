@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rolldown-plugin',
     'styled-jsx',
   ],
-  source: {
-    github: 'rolldown/plugins',
-    npm: '@rolldown/plugin-styled-jsx',
-  },
   links: {
     github: 'https://github.com/rolldown/plugins',
     npm: 'https://www.npmjs.com/package/@rolldown/plugin-styled-jsx',
     website: 'https://github.com/rolldown/plugins/tree/main/packages/styled-jsx#readme',
+  },
+  source: {
+    github: 'rolldown/plugins',
+    npm: '@rolldown/plugin-styled-jsx',
   },
   stats: {
     stars: 0,

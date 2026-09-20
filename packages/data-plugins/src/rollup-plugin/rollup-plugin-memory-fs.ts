@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'memory-fs',
     'memory',
   ],
-  source: {
-    github: 'mrnateriver/rollup-plugin-memory-fs',
-    npm: 'rollup-plugin-memory-fs',
-  },
   links: {
     github: 'https://github.com/mrnateriver/rollup-plugin-memory-fs',
     npm: 'https://www.npmjs.com/package/rollup-plugin-memory-fs',
     website: 'https://github.com/mrnateriver/rollup-plugin-memory-fs',
+  },
+  source: {
+    github: 'mrnateriver/rollup-plugin-memory-fs',
+    npm: 'rollup-plugin-memory-fs',
   },
   stats: {
     stars: 6,

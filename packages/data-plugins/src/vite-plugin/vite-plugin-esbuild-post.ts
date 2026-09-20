@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild-post',
     'yangdan8',
   ],
-  source: {
-    github: 'yangdan8/vite-plugin-esbuild-post',
-    npm: 'vite-plugin-esbuild-post',
-  },
   links: {
     github: 'https://github.com/yangdan8/vite-plugin-esbuild-post',
     npm: 'https://www.npmjs.com/package/vite-plugin-esbuild-post',
     website: 'https://github.com/yangdan8/vite-plugin-esbuild-post#readme',
+  },
+  source: {
+    github: 'yangdan8/vite-plugin-esbuild-post',
+    npm: 'vite-plugin-esbuild-post',
   },
   stats: {
     stars: 1,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'error-monitoring',
     'proliferate',
   ],
-  source: {
-    github: 'withkeystone/proliferation',
-    npm: '@proliferateai/vite-plugin',
-  },
   links: {
     github: 'https://github.com/withkeystone/proliferation',
     npm: 'https://www.npmjs.com/package/@proliferateai/vite-plugin',
     website: 'https://github.com/withkeystone/proliferation#readme',
+  },
+  source: {
+    github: 'withkeystone/proliferation',
+    npm: '@proliferateai/vite-plugin',
   },
   stats: {
     stars: 0,

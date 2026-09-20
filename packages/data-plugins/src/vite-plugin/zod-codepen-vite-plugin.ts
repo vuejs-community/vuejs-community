@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'code-generation',
     'typescript',
   ],
-  source: {
-    npm: '@zod-codepen/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@zod-codepen/vite-plugin',
+  },
+  source: {
+    npm: '@zod-codepen/vite-plugin',
   },
   stats: {
     stars: 0,

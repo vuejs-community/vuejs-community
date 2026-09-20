@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'stempler',
     'php',
   ],
-  source: {
-    github: 'chianglintu/vite-plugin-spiral',
-    npm: 'vite-plugin-spiral',
-  },
   links: {
     github: 'https://github.com/chianglintu/vite-plugin-spiral',
     npm: 'https://www.npmjs.com/package/vite-plugin-spiral',
     website: 'https://github.com/chianglintu/vite-plugin-spiral#readme',
+  },
+  source: {
+    github: 'chianglintu/vite-plugin-spiral',
+    npm: 'vite-plugin-spiral',
   },
   stats: {
     stars: 0,

@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'yandex',
   ],
-  source: {
-    github: 'daks-dev/svelte',
-    npm: '@daks.dev/svelte.sdk',
-  },
   links: {
     github: 'https://github.com/daks-dev/svelte',
     npm: 'https://www.npmjs.com/package/@daks.dev/svelte.sdk',
     website: 'https://svelte.daks.dev',
+  },
+  source: {
+    github: 'daks-dev/svelte',
+    npm: '@daks.dev/svelte.sdk',
   },
   stats: {
     stars: 0,

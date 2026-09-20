@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'css',
     'css-in-js',
   ],
-  source: {
-    npm: 'rollup-plugin-nano-css',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-nano-css',
     website: 'https://bitbucket.org/TheBosZ/rollup-plugin-nano-css',
+  },
+  source: {
+    npm: 'rollup-plugin-nano-css',
   },
   stats: {
     stars: 0,

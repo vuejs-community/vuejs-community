@@ -12,12 +12,12 @@ export default defineProjectMeta({
     'web2paper',
     'vite-plugin',
   ],
-  source: {
-    npm: '@web2paper/vite-plugin-ts-schema',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@web2paper/vite-plugin-ts-schema',
     website: 'https://web2paper.com',
+  },
+  source: {
+    npm: '@web2paper/vite-plugin-ts-schema',
   },
   stats: {
     stars: 0,

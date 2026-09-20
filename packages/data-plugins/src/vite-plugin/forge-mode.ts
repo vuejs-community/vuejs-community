@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'tailwind',
     'devtools',
   ],
-  source: {
-    github: 'NoahHendrickson/the-forge',
-    npm: 'forge-mode',
-  },
   links: {
     github: 'https://github.com/NoahHendrickson/the-forge',
     npm: 'https://www.npmjs.com/package/forge-mode',
     website: 'https://github.com/NoahHendrickson/the-forge#readme',
+  },
+  source: {
+    github: 'NoahHendrickson/the-forge',
+    npm: 'forge-mode',
   },
   stats: {
     stars: 0,

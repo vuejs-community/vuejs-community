@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://solar-icons.vercel.app/docs/packages/nuxt',
   },
   source: {
-    github: 'saoudi-h/solar-icons#main/packages/nuxt',
+    github: 'saoudi-h/solar-icons',
     npm: '@solar-icons/nuxt',
   },
 })

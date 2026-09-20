@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'AlexAegis/js-tooling',
-    npm: 'vite-plugin-pakk',
-  },
   links: {
     github: 'https://github.com/AlexAegis/js-tooling',
     npm: 'https://www.npmjs.com/package/vite-plugin-pakk',
     website: 'https://www.github.com/AlexAegis/js-tooling#readme',
+  },
+  source: {
+    github: 'AlexAegis/js-tooling',
+    npm: 'vite-plugin-pakk',
   },
   stats: {
     stars: 8,

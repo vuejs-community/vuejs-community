@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'zero-runtime',
   ],
-  source: {
-    github: 'codecaaron/animus',
-    npm: '@animus-ui/vite-plugin',
-  },
   links: {
     github: 'https://github.com/codecaaron/animus',
     npm: 'https://www.npmjs.com/package/@animus-ui/vite-plugin',
     website: 'https://github.com/codecaaron/animus/tree/main/packages/vite-plugin#readme',
+  },
+  source: {
+    github: 'codecaaron/animus',
+    npm: '@animus-ui/vite-plugin',
   },
   stats: {
     stars: 9,

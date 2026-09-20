@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-biome-patched-1',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-biome-patched-1',
     website: 'https://github.com/colelawrence/vite-plugin-biome',
+  },
+  source: {
+    npm: 'vite-plugin-biome-patched-1',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'wyatex/unplugin-gen-uniapp-components-dts',
-    npm: '@wyatex/unplugin-gen-uniapp-components-dts',
-  },
   links: {
     github: 'https://github.com/wyatex/unplugin-gen-uniapp-components-dts',
     npm: 'https://www.npmjs.com/package/@wyatex/unplugin-gen-uniapp-components-dts',
     website: 'https://github.com/wyatex/unplugin-gen-uniapp-components-dts#readme',
+  },
+  source: {
+    github: 'wyatex/unplugin-gen-uniapp-components-dts',
+    npm: '@wyatex/unplugin-gen-uniapp-components-dts',
   },
   stats: {
     stars: 0,

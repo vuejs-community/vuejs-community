@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'cdn',
     'link',
   ],
-  source: {
-    github: 'HiTeochew/vite-plugin-cdn-link',
-    npm: 'vite-plugin-cdn-link',
-  },
   links: {
     github: 'https://github.com/HiTeochew/vite-plugin-cdn-link',
     npm: 'https://www.npmjs.com/package/vite-plugin-cdn-link',
     website: 'https://github.com/HiTeochew/vite-plugin-cdn-link',
+  },
+  source: {
+    github: 'HiTeochew/vite-plugin-cdn-link',
+    npm: 'vite-plugin-cdn-link',
   },
   stats: {
     stars: 1,

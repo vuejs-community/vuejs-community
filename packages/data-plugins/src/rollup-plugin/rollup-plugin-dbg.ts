@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin-dbg',
     'vite-plugin',
   ],
-  source: {
-    github: 'CGQAQ/rollup-plugin-dbg',
-    npm: 'rollup-plugin-dbg',
-  },
   links: {
     github: 'https://github.com/CGQAQ/rollup-plugin-dbg',
     npm: 'https://www.npmjs.com/package/rollup-plugin-dbg',
     website: 'https://github.com/CGQAQ/rollup-plugin-dbg#readme',
+  },
+  source: {
+    github: 'CGQAQ/rollup-plugin-dbg',
+    npm: 'rollup-plugin-dbg',
   },
   stats: {
     stars: 17,

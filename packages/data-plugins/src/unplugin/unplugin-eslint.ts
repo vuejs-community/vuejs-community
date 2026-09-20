@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'wzc520pyfm/unplugin-eslint',
-    npm: 'unplugin-eslint',
-  },
   links: {
     github: 'https://github.com/wzc520pyfm/unplugin-eslint',
     npm: 'https://www.npmjs.com/package/unplugin-eslint',
     website: 'https://github.com/wzc520pyfm/unplugin-eslint#readme',
+  },
+  source: {
+    github: 'wzc520pyfm/unplugin-eslint',
+    npm: 'unplugin-eslint',
   },
   stats: {
     stars: 1,

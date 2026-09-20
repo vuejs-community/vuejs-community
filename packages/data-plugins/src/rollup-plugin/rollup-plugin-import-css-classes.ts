@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'javascript',
     'emcascript',
   ],
-  source: {
-    github: 'Kycermann/rollup-plugin-import-css-classes',
-    npm: 'rollup-plugin-import-css-classes',
-  },
   links: {
     github: 'https://github.com/Kycermann/rollup-plugin-import-css-classes',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-css-classes',
     website: 'https://github.com/Kycermann/rollup-plugin-import-css-classes#readme',
+  },
+  source: {
+    github: 'Kycermann/rollup-plugin-import-css-classes',
+    npm: 'rollup-plugin-import-css-classes',
   },
   stats: {
     stars: 0,

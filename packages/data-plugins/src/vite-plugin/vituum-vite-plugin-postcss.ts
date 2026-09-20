@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'vituum/vite-plugin-postcss',
-    npm: '@vituum/vite-plugin-postcss',
-  },
   links: {
     github: 'https://github.com/vituum/vite-plugin-postcss',
     npm: 'https://www.npmjs.com/package/@vituum/vite-plugin-postcss',
     website: 'https://github.com/vituum/vite-plugin-postcss#readme',
+  },
+  source: {
+    github: 'vituum/vite-plugin-postcss',
+    npm: '@vituum/vite-plugin-postcss',
   },
   stats: {
     stars: 0,

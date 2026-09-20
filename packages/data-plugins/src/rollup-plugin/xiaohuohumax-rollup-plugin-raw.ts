@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'file',
     'base64',
   ],
-  source: {
-    github: 'xiaohuohumax/rollup-plugins',
-    npm: '@xiaohuohumax/rollup-plugin-raw',
-  },
   links: {
     github: 'https://github.com/xiaohuohumax/rollup-plugins',
     npm: 'https://www.npmjs.com/package/@xiaohuohumax/rollup-plugin-raw',
     website: 'https://github.com/xiaohuohumax/rollup-plugins/tree/main/packages/rollup-plugin-raw#readme',
+  },
+  source: {
+    github: 'xiaohuohumax/rollup-plugins',
+    npm: '@xiaohuohumax/rollup-plugin-raw',
   },
   stats: {
     stars: 0,

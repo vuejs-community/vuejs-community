@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'uni-app',
     'miniprogram',
   ],
-  source: {
-    github: 'gd4Ark/vite-plugin-uni-virtual-host',
-    npm: 'vite-plugin-uni-virtual-host',
-  },
   links: {
     github: 'https://github.com/gd4Ark/vite-plugin-uni-virtual-host',
     npm: 'https://www.npmjs.com/package/vite-plugin-uni-virtual-host',
     website: 'https://github.com/gd4Ark/vite-plugin-uni-virtual-host#readme',
+  },
+  source: {
+    github: 'gd4Ark/vite-plugin-uni-virtual-host',
+    npm: 'vite-plugin-uni-virtual-host',
   },
   stats: {
     stars: 0,

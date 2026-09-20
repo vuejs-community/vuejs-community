@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'html',
     'template',
   ],
-  source: {
-    npm: '@rk-web/vite-plugin-html-template',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@rk-web/vite-plugin-html-template',
+  },
+  source: {
+    npm: '@rk-web/vite-plugin-html-template',
   },
   stats: {
     stars: 0,

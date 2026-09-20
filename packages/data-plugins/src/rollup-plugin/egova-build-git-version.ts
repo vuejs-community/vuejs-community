@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'egova-build-git-version',
     'version',
   ],
-  source: {
-    github: 'peritot/rollup-plugin-build-git-version',
-    npm: 'egova-build-git-version',
-  },
   links: {
     github: 'https://github.com/peritot/rollup-plugin-build-git-version',
     npm: 'https://www.npmjs.com/package/egova-build-git-version',
     website: 'https://github.com/peritot/rollup-plugin-build-git-version#readme',
+  },
+  source: {
+    github: 'peritot/rollup-plugin-build-git-version',
+    npm: 'egova-build-git-version',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'react',
     'svg',
   ],
-  source: {
-    github: 'ArnaudBarre/vite-plugin-fast-react-svg',
-    npm: 'vite-plugin-fast-react-svg',
-  },
   links: {
     github: 'https://github.com/ArnaudBarre/vite-plugin-fast-react-svg',
     npm: 'https://www.npmjs.com/package/vite-plugin-fast-react-svg',
     website: 'https://github.com/ArnaudBarre/vite-plugin-fast-react-svg#readme',
+  },
+  source: {
+    github: 'ArnaudBarre/vite-plugin-fast-react-svg',
+    npm: 'vite-plugin-fast-react-svg',
   },
   stats: {
     stars: 15,

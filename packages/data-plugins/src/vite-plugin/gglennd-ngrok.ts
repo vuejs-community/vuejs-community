@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'localhost',
     'dev-server',
   ],
-  source: {
-    github: 'gglennd/ngrok',
-    npm: '@gglennd/ngrok',
-  },
   links: {
     github: 'https://github.com/gglennd/ngrok',
     npm: 'https://www.npmjs.com/package/@gglennd/ngrok',
     website: 'https://github.com/gglennd/ngrok#readme',
+  },
+  source: {
+    github: 'gglennd/ngrok',
+    npm: '@gglennd/ngrok',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'api',
     'doc',
   ],
-  source: {
-    github: 'issue9/cmfx',
-    npm: '@cmfx/vite-plugin-api',
-  },
   links: {
     github: 'https://github.com/issue9/cmfx',
     npm: 'https://www.npmjs.com/package/@cmfx/vite-plugin-api',
     website: 'https://github.com/issue9/cmfx',
+  },
+  source: {
+    github: 'issue9/cmfx',
+    npm: '@cmfx/vite-plugin-api',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vue2',
     'template-compiler',
   ],
-  source: {
-    github: 'thgh/rollup-plugin-vue2',
-    npm: 'rollup-plugin-vue2',
-  },
   links: {
     github: 'https://github.com/thgh/rollup-plugin-vue2',
     npm: 'https://www.npmjs.com/package/rollup-plugin-vue2',
     website: 'https://github.com/thgh/rollup-plugin-vue2#readme',
+  },
+  source: {
+    github: 'thgh/rollup-plugin-vue2',
+    npm: 'rollup-plugin-vue2',
   },
   stats: {
     stars: 61,

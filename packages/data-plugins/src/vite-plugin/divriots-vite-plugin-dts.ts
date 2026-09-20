@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dts',
     'typescript',
   ],
-  source: {
-    github: 'qmhc/vite-plugin-dts',
-    npm: '@divriots/vite-plugin-dts',
-  },
   links: {
     github: 'https://github.com/qmhc/vite-plugin-dts',
     npm: 'https://www.npmjs.com/package/@divriots/vite-plugin-dts',
     website: 'https://github.com/qmhc/vite-plugin-dts#readme',
+  },
+  source: {
+    github: 'qmhc/vite-plugin-dts',
+    npm: '@divriots/vite-plugin-dts',
   },
   stats: {
     stars: 0,

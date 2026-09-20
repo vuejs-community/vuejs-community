@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'manifest V2',
     'manifest V3',
   ],
-  source: {
-    github: 'ugurkellecioglu/vite-plugin-web-extension',
-    npm: '@ugurkellecioglu/vite-plugin-web-extension',
-  },
   links: {
     github: 'https://github.com/ugurkellecioglu/vite-plugin-web-extension',
     npm: 'https://www.npmjs.com/package/@ugurkellecioglu/vite-plugin-web-extension',
     website: 'https://github.com/ugurkellecioglu/vite-plugin-web-extension#readme',
+  },
+  source: {
+    github: 'ugurkellecioglu/vite-plugin-web-extension',
+    npm: '@ugurkellecioglu/vite-plugin-web-extension',
   },
   stats: {
     stars: 0,

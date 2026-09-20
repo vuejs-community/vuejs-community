@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'astro-plugin',
   ],
-  source: {
-    npm: 'unplugin-auto-import-api',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-auto-import-api',
+  },
+  source: {
+    npm: 'unplugin-auto-import-api',
   },
   stats: {
     stars: 0,

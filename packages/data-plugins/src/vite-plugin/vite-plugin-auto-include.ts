@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'babel-plugin-import',
   ],
-  source: {
-    github: 'cx690/vite-plugin-auto-include',
-    npm: 'vite-plugin-auto-include',
-  },
   links: {
     github: 'https://github.com/cx690/vite-plugin-auto-include',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-include',
     website: 'https://github.com/cx690/vite-plugin-auto-include#readme',
+  },
+  source: {
+    github: 'cx690/vite-plugin-auto-include',
+    npm: 'vite-plugin-auto-include',
   },
   stats: {
     stars: 0,

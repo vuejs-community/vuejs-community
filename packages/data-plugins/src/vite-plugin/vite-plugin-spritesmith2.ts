@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'spritesmith',
     'sprite',
   ],
-  source: {
-    github: 'yanyue404/vite-plugin-spritesmith2',
-    npm: 'vite-plugin-spritesmith2',
-  },
   links: {
     github: 'https://github.com/yanyue404/vite-plugin-spritesmith2',
     npm: 'https://www.npmjs.com/package/vite-plugin-spritesmith2',
     website: 'https://github.com/yanyue404/vite-plugin-spritesmith2#readme',
+  },
+  source: {
+    github: 'yanyue404/vite-plugin-spritesmith2',
+    npm: 'vite-plugin-spritesmith2',
   },
   stats: {
     stars: 0,

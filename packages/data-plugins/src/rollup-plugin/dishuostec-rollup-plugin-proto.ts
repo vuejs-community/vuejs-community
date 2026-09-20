@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'protobuf',
   ],
-  source: {
-    github: 'dishuostec/rollup-plugin-proto',
-    npm: '@dishuostec/rollup-plugin-proto',
-  },
   links: {
     github: 'https://github.com/dishuostec/rollup-plugin-proto',
     npm: 'https://www.npmjs.com/package/@dishuostec/rollup-plugin-proto',
     website: 'https://github.com/dishuostec/rollup-plugin-proto#readme',
+  },
+  source: {
+    github: 'dishuostec/rollup-plugin-proto',
+    npm: '@dishuostec/rollup-plugin-proto',
   },
   stats: {
     stars: 2,

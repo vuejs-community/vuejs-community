@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'handlebars',
   ],
-  source: {
-    github: 'yoichiro/vite-plugin-handlebars',
-    npm: '@yoichiro/vite-plugin-handlebars',
-  },
   links: {
     github: 'https://github.com/yoichiro/vite-plugin-handlebars',
     npm: 'https://www.npmjs.com/package/@yoichiro/vite-plugin-handlebars',
     website: 'https://github.com/yoichiro/vite-plugin-handlebars',
+  },
+  source: {
+    github: 'yoichiro/vite-plugin-handlebars',
+    npm: '@yoichiro/vite-plugin-handlebars',
   },
   stats: {
     stars: 8,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'typescript',
     'ts',
   ],
-  source: {
-    github: 'HussainTaj-W/rollup-plugin-import-yaml',
-    npm: 'rollup-plugin-import-yaml',
-  },
   links: {
     github: 'https://github.com/HussainTaj-W/rollup-plugin-import-yaml',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-yaml',
     website: 'https://github.com/HussainTaj-W/rollup-plugin-import-yaml#readme',
+  },
+  source: {
+    github: 'HussainTaj-W/rollup-plugin-import-yaml',
+    npm: 'rollup-plugin-import-yaml',
   },
   stats: {
     stars: 0,

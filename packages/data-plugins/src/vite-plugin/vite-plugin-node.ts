@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'node',
     'hmr',
   ],
-  source: {
-    github: 'axe-me/vite-plugin-node',
-    npm: 'vite-plugin-node',
-  },
   links: {
     github: 'https://github.com/axe-me/vite-plugin-node',
     npm: 'https://www.npmjs.com/package/vite-plugin-node',
     website: 'https://github.com/axe-me/vite-plugin-node#readme',
+  },
+  source: {
+    github: 'axe-me/vite-plugin-node',
+    npm: 'vite-plugin-node',
   },
   stats: {
     stars: 0,

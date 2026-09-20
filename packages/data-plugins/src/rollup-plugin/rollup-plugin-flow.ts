@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'flowtype',
     'strip',
   ],
-  source: {
-    github: 'leebyron/rollup-plugin-flow',
-    npm: 'rollup-plugin-flow',
-  },
   links: {
     github: 'https://github.com/leebyron/rollup-plugin-flow',
     npm: 'https://www.npmjs.com/package/rollup-plugin-flow',
     website: 'https://github.com/leebyron/rollup-plugin-flow',
+  },
+  source: {
+    github: 'leebyron/rollup-plugin-flow',
+    npm: 'rollup-plugin-flow',
   },
   stats: {
     stars: 81,

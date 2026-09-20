@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'auto translation',
     'i18n',
   ],
-  source: {
-    github: 'sjx1995/unplugin-i18n-translation',
-    npm: '@sunly95/unplugin-i18n-translation',
-  },
   links: {
     github: 'https://github.com/sjx1995/unplugin-i18n-translation',
     npm: 'https://www.npmjs.com/package/@sunly95/unplugin-i18n-translation',
     website: 'https://github.com/sjx1995/unplugin-i18n-translation#readme',
+  },
+  source: {
+    github: 'sjx1995/unplugin-i18n-translation',
+    npm: '@sunly95/unplugin-i18n-translation',
   },
   stats: {
     stars: 0,

@@ -20,11 +20,11 @@ export default defineProjectMeta({
     'html-tagger',
     'component-tagger',
   ],
-  source: {
-    npm: '@dhiwise/component-tagger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@dhiwise/component-tagger',
+  },
+  source: {
+    npm: '@dhiwise/component-tagger',
   },
   stats: {
     stars: 0,

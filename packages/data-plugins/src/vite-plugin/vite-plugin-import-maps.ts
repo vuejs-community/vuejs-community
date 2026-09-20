@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'import-map',
     'importmap',
   ],
-  source: {
-    github: 'pakholeung37/vite-plugin-import-maps',
-    npm: 'vite-plugin-import-maps',
-  },
   links: {
     github: 'https://github.com/pakholeung37/vite-plugin-import-maps',
     npm: 'https://www.npmjs.com/package/vite-plugin-import-maps',
+  },
+  source: {
+    github: 'pakholeung37/vite-plugin-import-maps',
+    npm: 'vite-plugin-import-maps',
   },
   stats: {
     stars: 17,

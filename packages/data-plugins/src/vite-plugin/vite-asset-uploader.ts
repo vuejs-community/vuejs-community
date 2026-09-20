@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'multer',
     'vite-plugin',
   ],
-  source: {
-    github: 'Posterior-AI/vite-asset-uploader',
-    npm: 'vite-asset-uploader',
-  },
   links: {
     github: 'https://github.com/Posterior-AI/vite-asset-uploader',
     npm: 'https://www.npmjs.com/package/vite-asset-uploader',
     website: 'https://github.com/Posterior-AI/vite-asset-uploader#readme',
+  },
+  source: {
+    github: 'Posterior-AI/vite-asset-uploader',
+    npm: 'vite-asset-uploader',
   },
   stats: {
     stars: 0,

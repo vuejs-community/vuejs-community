@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'sope/sope',
-    npm: 'unplugin-tailwindcss',
-  },
   links: {
     github: 'https://github.com/sope/sope',
     npm: 'https://www.npmjs.com/package/unplugin-tailwindcss',
     website: 'https://github.com/sope/sope#readme',
+  },
+  source: {
+    github: 'sope/sope',
+    npm: 'unplugin-tailwindcss',
   },
   stats: {
     stars: 0,

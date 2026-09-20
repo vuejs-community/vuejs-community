@@ -31,14 +31,14 @@ export default defineProjectMeta({
     'vite-plugin-tagging',
     'vite-tagger',
   ],
-  source: {
-    github: 'lidorbt/ghostmark',
-    npm: 'ghostmark',
-  },
   links: {
     github: 'https://github.com/lidorbt/ghostmark',
     npm: 'https://www.npmjs.com/package/ghostmark',
     website: 'https://github.com/lidorbt/ghostmark#readme',
+  },
+  source: {
+    github: 'lidorbt/ghostmark',
+    npm: 'ghostmark',
   },
   stats: {
     stars: 3,

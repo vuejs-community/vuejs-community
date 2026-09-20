@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'rollup',
     'rolldown',
   ],
-  source: {
-    github: 'nianyi778/unplugin-version-injector',
-    npm: 'unplugin-version-injector',
-  },
   links: {
     github: 'https://github.com/nianyi778/unplugin-version-injector',
     npm: 'https://www.npmjs.com/package/unplugin-version-injector',
     website: 'https://github.com/nianyi778/unplugin-version-injector#readme',
+  },
+  source: {
+    github: 'nianyi778/unplugin-version-injector',
+    npm: 'unplugin-version-injector',
   },
   stats: {
     stars: 19,

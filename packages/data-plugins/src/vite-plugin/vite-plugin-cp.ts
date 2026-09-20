@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-cp',
   ],
-  source: {
-    github: 'fengxinming/vite-plugins',
-    npm: 'vite-plugin-cp',
-  },
   links: {
     github: 'https://github.com/fengxinming/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-cp',
     website: 'https://fengxinming.github.io/vite-plugins/plugins/vite-plugin-cp/quick-start',
+  },
+  source: {
+    github: 'fengxinming/vite-plugins',
+    npm: 'vite-plugin-cp',
   },
   stats: {
     stars: 0,

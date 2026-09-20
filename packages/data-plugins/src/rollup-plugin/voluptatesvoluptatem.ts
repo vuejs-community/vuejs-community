@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'at',
     'uglify',
   ],
-  source: {
-    github: 'ColleenPollich/voluptatesvoluptatem',
-    npm: 'voluptatesvoluptatem',
-  },
   links: {
     github: 'https://github.com/ColleenPollich/voluptatesvoluptatem',
     npm: 'https://www.npmjs.com/package/voluptatesvoluptatem',
     website: 'https://github.com/ColleenPollich/voluptatesvoluptatem.git',
+  },
+  source: {
+    github: 'ColleenPollich/voluptatesvoluptatem',
+    npm: 'voluptatesvoluptatem',
   },
   stats: {
     stars: 0,

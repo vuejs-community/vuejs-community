@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'css-in-js',
     'css-in-jsx',
   ],
-  source: {
-    github: 'dolanmiu/vite-plugin-scope-tailwind',
-    npm: 'vite-plugin-scope-tailwind',
-  },
   links: {
     github: 'https://github.com/dolanmiu/vite-plugin-scope-tailwind',
     npm: 'https://www.npmjs.com/package/vite-plugin-scope-tailwind',
     website: 'https://github.com/dolanmiu/vite-plugin-scope-tailwind#readme',
+  },
+  source: {
+    github: 'dolanmiu/vite-plugin-scope-tailwind',
+    npm: 'vite-plugin-scope-tailwind',
   },
   stats: {
     stars: 28,

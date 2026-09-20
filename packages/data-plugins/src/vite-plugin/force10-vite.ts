@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'laravel',
     'force10',
   ],
-  source: {
-    github: 'benshawuk/force10',
-    npm: 'force10-vite',
-  },
   links: {
     github: 'https://github.com/benshawuk/force10',
     npm: 'https://www.npmjs.com/package/force10-vite',
     website: 'https://github.com/benshawuk/force10#readme',
+  },
+  source: {
+    github: 'benshawuk/force10',
+    npm: 'force10-vite',
   },
   stats: {
     stars: 0,

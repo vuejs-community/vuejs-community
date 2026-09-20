@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'ruby',
     'javascript',
   ],
-  source: {
-    github: 'stofu1234/opal-vite',
-    npm: 'vite-plugin-opal',
-  },
   links: {
     github: 'https://github.com/stofu1234/opal-vite',
     npm: 'https://www.npmjs.com/package/vite-plugin-opal',
     website: 'https://stofu1234.github.io/opal-vite/',
+  },
+  source: {
+    github: 'stofu1234/opal-vite',
+    npm: 'vite-plugin-opal',
   },
   stats: {
     stars: 1,

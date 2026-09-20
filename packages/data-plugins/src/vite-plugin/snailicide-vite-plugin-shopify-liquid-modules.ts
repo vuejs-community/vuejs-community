@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'shopify',
     'vite-plugin',
   ],
-  source: {
-    github: 'gbtunney/snailicide-monorepo',
-    npm: '@snailicide/vite-plugin-shopify-liquid-modules',
-  },
   links: {
     github: 'https://github.com/gbtunney/snailicide-monorepo',
     npm: 'https://www.npmjs.com/package/@snailicide/vite-plugin-shopify-liquid-modules',
     website: 'https://github.com/gbtunney/snailicide-monorepo/tree/main/packages/vite-plugin-shopify-liquid-modules#readme',
+  },
+  source: {
+    github: 'gbtunney/snailicide-monorepo',
+    npm: '@snailicide/vite-plugin-shopify-liquid-modules',
   },
   stats: {
     stars: 5,

@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'error-tracking',
     'nreactive',
   ],
-  source: {
-    npm: '@nreactive/vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@nreactive/vite',
     website: 'https://nreactive.com',
+  },
+  source: {
+    npm: '@nreactive/vite',
   },
   stats: {
     stars: 0,

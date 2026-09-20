@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vconsole',
   ],
-  source: {
-    github: 'zhaojjiang/vite-plugin-vconsole',
-    npm: '@zhaojjiang/vite-plugin-vconsole',
-  },
   links: {
     github: 'https://github.com/zhaojjiang/vite-plugin-vconsole',
     npm: 'https://www.npmjs.com/package/@zhaojjiang/vite-plugin-vconsole',
     website: 'https://github.com/zhaojjiang/vite-plugin-vconsole#readme',
+  },
+  source: {
+    github: 'zhaojjiang/vite-plugin-vconsole',
+    npm: '@zhaojjiang/vite-plugin-vconsole',
   },
   stats: {
     stars: 0,

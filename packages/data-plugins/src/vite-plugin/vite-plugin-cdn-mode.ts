@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-cdn',
   ],
-  source: {
-    github: 'Javency/vite-plugin-cdn-mode',
-    npm: 'vite-plugin-cdn-mode',
-  },
   links: {
     github: 'https://github.com/Javency/vite-plugin-cdn-mode',
     npm: 'https://www.npmjs.com/package/vite-plugin-cdn-mode',
     website: 'https://github.com/Javency/vite-plugin-cdn-mode#readme',
+  },
+  source: {
+    github: 'Javency/vite-plugin-cdn-mode',
+    npm: 'vite-plugin-cdn-mode',
   },
   stats: {
     stars: 0,

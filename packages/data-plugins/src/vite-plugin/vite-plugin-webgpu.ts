@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    npm: 'vite-plugin-webgpu',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-webgpu',
+  },
+  source: {
+    npm: 'vite-plugin-webgpu',
   },
   stats: {
     stars: 0,

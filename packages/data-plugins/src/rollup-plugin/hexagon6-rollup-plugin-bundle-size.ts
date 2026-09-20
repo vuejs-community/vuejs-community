@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'hexagon6/rollup-plugin-bundle-size',
-    npm: '@hexagon6/rollup-plugin-bundle-size',
-  },
   links: {
     github: 'https://github.com/hexagon6/rollup-plugin-bundle-size',
     npm: 'https://www.npmjs.com/package/@hexagon6/rollup-plugin-bundle-size',
     website: 'https://github.com/hexagon6/rollup-plugin-bundle-size',
+  },
+  source: {
+    github: 'hexagon6/rollup-plugin-bundle-size',
+    npm: '@hexagon6/rollup-plugin-bundle-size',
   },
   stats: {
     stars: 0,

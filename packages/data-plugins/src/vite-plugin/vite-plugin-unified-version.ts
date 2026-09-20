@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'build-time',
     'meta',
   ],
-  source: {
-    github: 'jywud/vite-plugin-unified-version',
-    npm: 'vite-plugin-unified-version',
-  },
   links: {
     github: 'https://github.com/jywud/vite-plugin-unified-version',
     npm: 'https://www.npmjs.com/package/vite-plugin-unified-version',
     website: 'https://github.com/jywud/vite-plugin-unified-version#readme',
+  },
+  source: {
+    github: 'jywud/vite-plugin-unified-version',
+    npm: 'vite-plugin-unified-version',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'minze',
     'minzejs',
   ],
-  source: {
-    github: 'sergejcodes/minze',
-    npm: 'vite-plugin-minze',
-  },
   links: {
     github: 'https://github.com/sergejcodes/minze',
     npm: 'https://www.npmjs.com/package/vite-plugin-minze',
     website: 'https://github.com/sergejcodes/minze/tree/main/packages/vite-plugin-minze#readme',
+  },
+  source: {
+    github: 'sergejcodes/minze',
+    npm: 'vite-plugin-minze',
   },
   stats: {
     stars: 571,

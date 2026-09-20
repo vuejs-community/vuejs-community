@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'Levix/unplugin-inject-js-snippet',
-    npm: 'unplugin-inject-js-snippet',
-  },
   links: {
     github: 'https://github.com/Levix/unplugin-inject-js-snippet',
     npm: 'https://www.npmjs.com/package/unplugin-inject-js-snippet',
     website: 'https://github.com/Levix/unplugin-inject-js-snippet#readme',
+  },
+  source: {
+    github: 'Levix/unplugin-inject-js-snippet',
+    npm: 'unplugin-inject-js-snippet',
   },
   stats: {
     stars: 3,

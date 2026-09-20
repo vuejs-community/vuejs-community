@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin-import',
     'rollup-plugin',
   ],
-  source: {
-    github: 'cx690/vite-plugin-import2',
-    npm: 'vite-plugin-import2',
-  },
   links: {
     github: 'https://github.com/cx690/vite-plugin-import2',
     npm: 'https://www.npmjs.com/package/vite-plugin-import2',
     website: 'https://github.com/cx690/vite-plugin-import2#readme',
+  },
+  source: {
+    github: 'cx690/vite-plugin-import2',
+    npm: 'vite-plugin-import2',
   },
   stats: {
     stars: 4,

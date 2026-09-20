@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'modular-css',
     'postcss',
   ],
-  source: {
-    github: 'tivac/modular-css',
-    npm: '@modular-css/svelte',
-  },
   links: {
     github: 'https://github.com/tivac/modular-css',
     npm: 'https://www.npmjs.com/package/@modular-css/svelte',
     website: 'https://m-css.com',
+  },
+  source: {
+    github: 'tivac/modular-css',
+    npm: '@modular-css/svelte',
   },
   stats: {
     stars: 0,

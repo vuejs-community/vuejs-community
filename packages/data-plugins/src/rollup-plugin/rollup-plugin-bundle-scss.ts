@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'scss',
     'vue',
   ],
-  source: {
-    github: 'weizhenye/rollup-plugin-bundle-scss',
-    npm: 'rollup-plugin-bundle-scss',
-  },
   links: {
     github: 'https://github.com/weizhenye/rollup-plugin-bundle-scss',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bundle-scss',
     website: 'https://github.com/weizhenye/rollup-plugin-bundle-scss#readme',
+  },
+  source: {
+    github: 'weizhenye/rollup-plugin-bundle-scss',
+    npm: 'rollup-plugin-bundle-scss',
   },
   stats: {
     stars: 0,

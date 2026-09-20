@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'leanix',
   ],
-  source: {
-    github: 'SAP/leanix-custom-report-tools',
-    npm: '@sap/vite-plugin-leanix-custom-report',
-  },
   links: {
     github: 'https://github.com/SAP/leanix-custom-report-tools',
     npm: 'https://www.npmjs.com/package/@sap/vite-plugin-leanix-custom-report',
     website: 'https://github.com/SAP/leanix-custom-report-tools#readme',
+  },
+  source: {
+    github: 'SAP/leanix-custom-report-tools',
+    npm: '@sap/vite-plugin-leanix-custom-report',
   },
   stats: {
     stars: 1,

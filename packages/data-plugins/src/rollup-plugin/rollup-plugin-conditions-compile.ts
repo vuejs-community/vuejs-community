@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'conditions',
     'compile',
   ],
-  source: {
-    github: 'zlq333/rollup-plugin-conditions-compile',
-    npm: 'rollup-plugin-conditions-compile',
-  },
   links: {
     github: 'https://github.com/zlq333/rollup-plugin-conditions-compile',
     npm: 'https://www.npmjs.com/package/rollup-plugin-conditions-compile',
     website: 'https://github.com/zlq333/rollup-plugin-conditions-compile#readme',
+  },
+  source: {
+    github: 'zlq333/rollup-plugin-conditions-compile',
+    npm: 'rollup-plugin-conditions-compile',
   },
   stats: {
     stars: 0,

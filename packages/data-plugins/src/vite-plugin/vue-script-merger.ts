@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'merger',
     'code-splitting',
   ],
-  source: {
-    github: 'aitools-hub/vue-script-merger',
-    npm: 'vue-script-merger',
-  },
   links: {
     github: 'https://github.com/aitools-hub/vue-script-merger',
     npm: 'https://www.npmjs.com/package/vue-script-merger',
     website: 'https://github.com/aitools-hub/vue-script-merger#readme',
+  },
+  source: {
+    github: 'aitools-hub/vue-script-merger',
+    npm: 'vue-script-merger',
   },
   stats: {
     stars: 1,

@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'game-development',
     'game-ui',
   ],
-  source: {
-    github: 'Michael--/phaserjsx',
-    npm: '@number10/jsx-icon-generator',
-  },
   links: {
     github: 'https://github.com/Michael--/phaserjsx',
     npm: 'https://www.npmjs.com/package/@number10/jsx-icon-generator',
     website: 'https://phaserjsx.number10.de/',
+  },
+  source: {
+    github: 'Michael--/phaserjsx',
+    npm: '@number10/jsx-icon-generator',
   },
   stats: {
     stars: 5,

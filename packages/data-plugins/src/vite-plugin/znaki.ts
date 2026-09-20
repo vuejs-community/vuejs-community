@@ -23,13 +23,13 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'knst0/znaki',
-    npm: 'znaki',
-  },
   links: {
     github: 'https://github.com/knst0/znaki',
     npm: 'https://www.npmjs.com/package/znaki',
+  },
+  source: {
+    github: 'knst0/znaki',
+    npm: 'znaki',
   },
   stats: {
     stars: 0,

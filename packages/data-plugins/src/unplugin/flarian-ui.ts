@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'nuxt',
     'unplugin',
   ],
-  source: {
-    github: 'FlarianWeb/flarian-ui',
-    npm: '@flarian/ui',
-  },
   links: {
     github: 'https://github.com/FlarianWeb/flarian-ui',
     npm: 'https://www.npmjs.com/package/@flarian/ui',
     website: 'https://github.com/FlarianWeb/flarian-ui#readme',
+  },
+  source: {
+    github: 'FlarianWeb/flarian-ui',
+    npm: '@flarian/ui',
   },
   stats: {
     stars: 1,

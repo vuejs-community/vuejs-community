@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'borela-tech/multiline-tailwindcss',
-    npm: '@borela-tech/vite-plugin-multiline-tailwindcss',
-  },
   links: {
     github: 'https://github.com/borela-tech/multiline-tailwindcss',
     npm: 'https://www.npmjs.com/package/@borela-tech/vite-plugin-multiline-tailwindcss',
     website: 'https://github.com/borela-tech/multiline-tailwindcss#readme',
+  },
+  source: {
+    github: 'borela-tech/multiline-tailwindcss',
+    npm: '@borela-tech/vite-plugin-multiline-tailwindcss',
   },
   stats: {
     stars: 5,

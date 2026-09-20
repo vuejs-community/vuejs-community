@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'jamstack',
     'zero-dependency',
   ],
-  source: {
-    github: 'nerds-with-keyboards/routerino',
-    npm: 'routerino',
-  },
   links: {
     github: 'https://github.com/nerds-with-keyboards/routerino',
     npm: 'https://www.npmjs.com/package/routerino',
     website: 'https://github.com/nerds-with-keyboards/routerino#readme',
+  },
+  source: {
+    github: 'nerds-with-keyboards/routerino',
+    npm: 'routerino',
   },
   stats: {
     stars: 18,

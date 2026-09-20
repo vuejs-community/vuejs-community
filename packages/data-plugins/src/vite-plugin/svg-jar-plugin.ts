@@ -33,14 +33,14 @@ export default defineProjectMeta({
     'web-component',
     'inline-svg',
   ],
-  source: {
-    github: 'svg-jar/plugin',
-    npm: '@svg-jar/plugin',
-  },
   links: {
     github: 'https://github.com/svg-jar/plugin',
     npm: 'https://www.npmjs.com/package/@svg-jar/plugin',
     website: 'https://github.com/svg-jar/plugin#readme',
+  },
+  source: {
+    github: 'svg-jar/plugin',
+    npm: '@svg-jar/plugin',
   },
   stats: {
     stars: 0,

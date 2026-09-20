@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'pigeonposse/svaio',
-    npm: '@svaio/media',
-  },
   links: {
     github: 'https://github.com/pigeonposse/svaio',
     npm: 'https://www.npmjs.com/package/@svaio/media',
     website: 'https://svaio.pigeonposse.com/guide/media',
+  },
+  source: {
+    github: 'pigeonposse/svaio',
+    npm: '@svaio/media',
   },
   stats: {
     stars: 0,

@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'j-boettcher/vite-plugin-html-partial',
-    npm: 'vite-plugin-html-partial',
-  },
   links: {
     github: 'https://github.com/j-boettcher/vite-plugin-html-partial',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-partial',
     website: 'https://github.com/j-boettcher/vite-plugin-html-partial#readme',
+  },
+  source: {
+    github: 'j-boettcher/vite-plugin-html-partial',
+    npm: 'vite-plugin-html-partial',
   },
   stats: {
     stars: 0,

@@ -28,14 +28,14 @@ export default defineProjectMeta({
     'specifier-resolution',
     'typescript',
   ],
-  source: {
-    github: 'OGS-GmbH/rolldown-plugin-extensions',
-    npm: '@ogs-gmbh/rolldown-plugin-extensions',
-  },
   links: {
     github: 'https://github.com/OGS-GmbH/rolldown-plugin-extensions',
     npm: 'https://www.npmjs.com/package/@ogs-gmbh/rolldown-plugin-extensions',
     website: 'https://ogs-gmbh.github.io/rolldown-plugin-extensions/',
+  },
+  source: {
+    github: 'OGS-GmbH/rolldown-plugin-extensions',
+    npm: '@ogs-gmbh/rolldown-plugin-extensions',
   },
   stats: {
     stars: 1,

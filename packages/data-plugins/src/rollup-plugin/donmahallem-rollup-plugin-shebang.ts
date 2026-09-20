@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'shebang',
   ],
-  source: {
-    github: 'donmahallem/rollup-plugin-shebang',
-    npm: '@donmahallem/rollup-plugin-shebang',
-  },
   links: {
     github: 'https://github.com/donmahallem/rollup-plugin-shebang',
     npm: 'https://www.npmjs.com/package/@donmahallem/rollup-plugin-shebang',
     website: 'https://github.com/donmahallem/rollup-plugin-shebang/',
+  },
+  source: {
+    github: 'donmahallem/rollup-plugin-shebang',
+    npm: '@donmahallem/rollup-plugin-shebang',
   },
   stats: {
     stars: 0,

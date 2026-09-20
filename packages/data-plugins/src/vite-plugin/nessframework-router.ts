@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'file-system-routing',
     'dynamic-routes',
   ],
-  source: {
-    github: 'leroyanders/Ness.js',
-    npm: '@nessframework/router',
-  },
   links: {
     github: 'https://github.com/leroyanders/Ness.js',
     npm: 'https://www.npmjs.com/package/@nessframework/router',
     website: 'https://nessjs.com/docs/documentation/router',
+  },
+  source: {
+    github: 'leroyanders/Ness.js',
+    npm: '@nessframework/router',
   },
   stats: {
     stars: 0,

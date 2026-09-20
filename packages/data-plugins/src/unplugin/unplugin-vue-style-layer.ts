@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'css-layer',
     'vite',
   ],
-  source: {
-    github: 'shunnNet/vue-style-layer',
-    npm: 'unplugin-vue-style-layer',
-  },
   links: {
     github: 'https://github.com/shunnNet/vue-style-layer',
     npm: 'https://www.npmjs.com/package/unplugin-vue-style-layer',
     website: 'https://github.com/shunnNet/vue-style-layer#readme',
+  },
+  source: {
+    github: 'shunnNet/vue-style-layer',
+    npm: 'unplugin-vue-style-layer',
   },
   stats: {
     stars: 0,

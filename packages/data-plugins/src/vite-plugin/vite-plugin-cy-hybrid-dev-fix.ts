@@ -13,11 +13,11 @@ export default defineProjectMeta({
     '白屏',
     'hybrid',
   ],
-  source: {
-    npm: 'vite-plugin-cy-hybrid-dev-fix',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-cy-hybrid-dev-fix',
+  },
+  source: {
+    npm: 'vite-plugin-cy-hybrid-dev-fix',
   },
   stats: {
     stars: 0,

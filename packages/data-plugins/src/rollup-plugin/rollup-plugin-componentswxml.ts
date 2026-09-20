@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: '1eeing/rollup-plugin-wx-components',
-    npm: 'rollup-plugin-componentswxml',
-  },
   links: {
     github: 'https://github.com/1eeing/rollup-plugin-wx-components',
     npm: 'https://www.npmjs.com/package/rollup-plugin-componentswxml',
     website: 'https://github.com/1eeing/rollup-plugin-wx-components',
+  },
+  source: {
+    github: '1eeing/rollup-plugin-wx-components',
+    npm: 'rollup-plugin-componentswxml',
   },
   stats: {
     stars: 0,

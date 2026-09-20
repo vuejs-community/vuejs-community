@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'lodash',
     'es-toolkit',
   ],
-  source: {
-    github: 'wojtekmaj/vite-plugin-es-toolkit',
-    npm: 'vite-plugin-es-toolkit',
-  },
   links: {
     github: 'https://github.com/wojtekmaj/vite-plugin-es-toolkit',
     npm: 'https://www.npmjs.com/package/vite-plugin-es-toolkit',
     website: 'https://github.com/wojtekmaj/vite-plugin-es-toolkit#readme',
+  },
+  source: {
+    github: 'wojtekmaj/vite-plugin-es-toolkit',
+    npm: 'vite-plugin-es-toolkit',
   },
   stats: {
     stars: 39,

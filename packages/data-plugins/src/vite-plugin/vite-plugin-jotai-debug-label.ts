@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'react',
     'debug',
   ],
-  source: {
-    github: 'AkagiYui/vite-plugin-jotai-debug-label',
-    npm: 'vite-plugin-jotai-debug-label',
-  },
   links: {
     github: 'https://github.com/AkagiYui/vite-plugin-jotai-debug-label',
     npm: 'https://www.npmjs.com/package/vite-plugin-jotai-debug-label',
     website: 'https://github.com/AkagiYui/vite-plugin-jotai-debug-label',
+  },
+  source: {
+    github: 'AkagiYui/vite-plugin-jotai-debug-label',
+    npm: 'vite-plugin-jotai-debug-label',
   },
   stats: {
     stars: 0,

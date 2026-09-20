@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'sourcemap',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-rollbar-sourcemap',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-rollbar-sourcemap',
     website: 'https://github.com/madogiwa0124/vite-plugin-rollbar-sourcemap#readme',
+  },
+  source: {
+    npm: 'vite-plugin-rollbar-sourcemap',
   },
   stats: {
     stars: 0,

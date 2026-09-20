@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'craft-cms',
     'nystudio107',
   ],
-  source: {
-    github: 'onedarnleyroad/vite-plugin-svg-sprite',
-    npm: '@onedarnleyroad/vite-plugin-svg-sprite',
-  },
   links: {
     github: 'https://github.com/onedarnleyroad/vite-plugin-svg-sprite',
     npm: 'https://www.npmjs.com/package/@onedarnleyroad/vite-plugin-svg-sprite',
     website: 'https://github.com/onedarnleyroad/vite-plugin-svg-sprite#readme',
+  },
+  source: {
+    github: 'onedarnleyroad/vite-plugin-svg-sprite',
+    npm: '@onedarnleyroad/vite-plugin-svg-sprite',
   },
   stats: {
     stars: 0,

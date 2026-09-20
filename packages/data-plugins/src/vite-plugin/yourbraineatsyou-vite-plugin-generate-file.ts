@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'generate',
     'vite-plugin',
   ],
-  source: {
-    github: 'yourbraineatsyou/vite-plugin-generate-file',
-    npm: '@yourbraineatsyou/vite-plugin-generate-file',
-  },
   links: {
     github: 'https://github.com/yourbraineatsyou/vite-plugin-generate-file',
     npm: 'https://www.npmjs.com/package/@yourbraineatsyou/vite-plugin-generate-file',
     website: 'https://github.com/yourbraineatsyou/vite-plugin-generate-file#readme',
+  },
+  source: {
+    github: 'yourbraineatsyou/vite-plugin-generate-file',
+    npm: '@yourbraineatsyou/vite-plugin-generate-file',
   },
   stats: {
     stars: 0,

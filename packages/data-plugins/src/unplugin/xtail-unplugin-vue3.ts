@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'xtail',
     'x-tail',
   ],
-  source: {
-    npm: '@xtail/unplugin-vue3',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xtail/unplugin-vue3',
+  },
+  source: {
+    npm: '@xtail/unplugin-vue3',
   },
   stats: {
     stars: 0,

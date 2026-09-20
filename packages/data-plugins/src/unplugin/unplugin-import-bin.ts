@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    npm: 'unplugin-import-bin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-import-bin',
+  },
+  source: {
+    npm: 'unplugin-import-bin',
   },
   stats: {
     stars: 0,

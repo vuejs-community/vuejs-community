@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'ohos-ports/ohos-ports',
-    npm: '@ohos-ports/vite-plugin-rails',
-  },
   links: {
     github: 'https://github.com/ohos-ports/ohos-ports',
     npm: 'https://www.npmjs.com/package/@ohos-ports/vite-plugin-rails',
     website: 'https://github.com/ohos-ports/ohos-ports/tree/main/ports/vite-plugin-rails/0.6.0',
+  },
+  source: {
+    github: 'ohos-ports/ohos-ports',
+    npm: '@ohos-ports/vite-plugin-rails',
   },
   stats: {
     stars: 0,

@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'vscode-extension',
     'webview',
   ],
-  source: {
-    npm: '@multiplatform.one/vite-plugin-vscode',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@multiplatform.one/vite-plugin-vscode',
     website: 'https://multiplatform.one',
+  },
+  source: {
+    npm: '@multiplatform.one/vite-plugin-vscode',
   },
   stats: {
     stars: 0,

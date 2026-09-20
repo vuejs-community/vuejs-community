@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'loader',
     'icons',
   ],
-  source: {
-    github: 'njesenberger/rollup-plugin-svg-symbols',
-    npm: 'rollup-plugin-svg-symbols',
-  },
   links: {
     github: 'https://github.com/njesenberger/rollup-plugin-svg-symbols',
     npm: 'https://www.npmjs.com/package/rollup-plugin-svg-symbols',
     website: 'https://github.com/njesenberger/rollup-plugin-svg-symbols#readme',
+  },
+  source: {
+    github: 'njesenberger/rollup-plugin-svg-symbols',
+    npm: 'rollup-plugin-svg-symbols',
   },
   stats: {
     stars: 0,

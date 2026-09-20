@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'perf',
     'seo',
   ],
-  source: {
-    github: 'rishi-raj-jain/vite-font',
-    npm: 'vite-font',
-  },
   links: {
     github: 'https://github.com/rishi-raj-jain/vite-font',
     npm: 'https://www.npmjs.com/package/vite-font',
     website: 'https://github.com/rishi-raj-jain/vite-font/tree/main/packages/vite-font#readme',
+  },
+  source: {
+    github: 'rishi-raj-jain/vite-font',
+    npm: 'vite-font',
   },
   stats: {
     stars: 0,

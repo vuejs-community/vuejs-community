@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    github: 'ubugeeei-prod/ox-content',
-    npm: '@ox-content/vite-plugin-vue',
-  },
   links: {
     github: 'https://github.com/ubugeeei-prod/ox-content',
     npm: 'https://www.npmjs.com/package/@ox-content/vite-plugin-vue',
     website: 'https://github.com/ubugeeei-prod/ox-content#readme',
+  },
+  source: {
+    github: 'ubugeeei-prod/ox-content',
+    npm: '@ox-content/vite-plugin-vue',
   },
   stats: {
     stars: 0,

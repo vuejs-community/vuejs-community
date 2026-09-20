@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'hazelcaffe/veyl',
-    npm: '@skylvi/veyl-vite-plugin',
-  },
   links: {
     github: 'https://github.com/hazelcaffe/veyl',
     npm: 'https://www.npmjs.com/package/@skylvi/veyl-vite-plugin',
     website: 'https://github.com/hazelcaffe/veyl#readme',
+  },
+  source: {
+    github: 'hazelcaffe/veyl',
+    npm: '@skylvi/veyl-vite-plugin',
   },
   stats: {
     stars: 1,

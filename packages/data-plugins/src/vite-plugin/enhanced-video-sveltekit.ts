@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'lazy',
     'transcoding',
   ],
-  source: {
-    github: 'voadk/enhanced-video-sveltekit',
-    npm: 'enhanced-video-sveltekit',
-  },
   links: {
     github: 'https://github.com/voadk/enhanced-video-sveltekit',
     npm: 'https://www.npmjs.com/package/enhanced-video-sveltekit',
     website: 'https://github.com/voadk/enhanced-video-sveltekit#readme',
+  },
+  source: {
+    github: 'voadk/enhanced-video-sveltekit',
+    npm: 'enhanced-video-sveltekit',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'esbuild',
     'transform',
   ],
-  source: {
-    github: 'formkit/unplugin-formkit',
-    npm: 'unplugin-formkit',
-  },
   links: {
     github: 'https://github.com/formkit/unplugin-formkit',
     npm: 'https://www.npmjs.com/package/unplugin-formkit',
     website: 'https://github.com/formkit/unplugin-formkit#readme',
+  },
+  source: {
+    github: 'formkit/unplugin-formkit',
+    npm: 'unplugin-formkit',
   },
   stats: {
     stars: 14,

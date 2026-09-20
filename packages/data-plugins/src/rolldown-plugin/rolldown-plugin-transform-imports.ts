@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'transform-imports',
     'tree-shaking',
   ],
-  source: {
-    github: 'rolldown/plugins',
-    npm: '@rolldown/plugin-transform-imports',
-  },
   links: {
     github: 'https://github.com/rolldown/plugins',
     npm: 'https://www.npmjs.com/package/@rolldown/plugin-transform-imports',
     website: 'https://github.com/rolldown/plugins/tree/main/packages/transform-imports#readme',
+  },
+  source: {
+    github: 'rolldown/plugins',
+    npm: '@rolldown/plugin-transform-imports',
   },
   stats: {
     stars: 0,

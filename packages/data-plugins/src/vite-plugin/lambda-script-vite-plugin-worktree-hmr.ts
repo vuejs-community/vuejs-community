@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'chokidar',
     'dev-server',
   ],
-  source: {
-    github: 'lambda-script/vite-plugin-worktree-hmr',
-    npm: '@lambda-script/vite-plugin-worktree-hmr',
-  },
   links: {
     github: 'https://github.com/lambda-script/vite-plugin-worktree-hmr',
     npm: 'https://www.npmjs.com/package/@lambda-script/vite-plugin-worktree-hmr',
     website: 'https://github.com/lambda-script/vite-plugin-worktree-hmr',
+  },
+  source: {
+    github: 'lambda-script/vite-plugin-worktree-hmr',
+    npm: '@lambda-script/vite-plugin-worktree-hmr',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'version',
     'git',
   ],
-  source: {
-    github: 'achuan9/achuan9-ecosystem',
-    npm: '@achuan9/vite-plugin-version-log',
-  },
   links: {
     github: 'https://github.com/achuan9/achuan9-ecosystem',
     npm: 'https://www.npmjs.com/package/@achuan9/vite-plugin-version-log',
     website: 'https://github.com/achuan9/achuan9-ecosystem/blob/master/packages/vite-plugins/vite-plugin-version-log#readme',
+  },
+  source: {
+    github: 'achuan9/achuan9-ecosystem',
+    npm: '@achuan9/vite-plugin-version-log',
   },
   stats: {
     stars: 0,

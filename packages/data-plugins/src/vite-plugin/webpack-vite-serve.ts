@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'react',
     'vite-plugin',
   ],
-  source: {
-    github: 'ATQQ/webpack-vite-serve',
-    npm: 'webpack-vite-serve',
-  },
   links: {
     github: 'https://github.com/ATQQ/webpack-vite-serve',
     npm: 'https://www.npmjs.com/package/webpack-vite-serve',
     website: 'https://github.com/ATQQ/webpack-vite-serve#readme',
+  },
+  source: {
+    github: 'ATQQ/webpack-vite-serve',
+    npm: 'webpack-vite-serve',
   },
   stats: {
     stars: 15,

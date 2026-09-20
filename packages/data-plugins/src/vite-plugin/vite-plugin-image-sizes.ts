@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'size',
     'cls',
   ],
-  source: {
-    github: 'ozekimasaki/vite-plugin-image-sizes',
-    npm: 'vite-plugin-image-sizes',
-  },
   links: {
     github: 'https://github.com/ozekimasaki/vite-plugin-image-sizes',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-sizes',
     website: 'https://github.com/ozekimasaki/vite-plugin-image-sizes#readme',
+  },
+  source: {
+    github: 'ozekimasaki/vite-plugin-image-sizes',
+    npm: 'vite-plugin-image-sizes',
   },
   stats: {
     stars: 1,

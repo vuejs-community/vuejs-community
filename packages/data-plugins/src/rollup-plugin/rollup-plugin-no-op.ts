@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'no-op',
     'noop',
   ],
-  source: {
-    github: 'dmnsgn/rollup-plugin-no-op',
-    npm: 'rollup-plugin-no-op',
-  },
   links: {
     github: 'https://github.com/dmnsgn/rollup-plugin-no-op',
     npm: 'https://www.npmjs.com/package/rollup-plugin-no-op',
     website: 'https://github.com/dmnsgn/rollup-plugin-no-op',
+  },
+  source: {
+    github: 'dmnsgn/rollup-plugin-no-op',
+    npm: 'rollup-plugin-no-op',
   },
   stats: {
     stars: 1,

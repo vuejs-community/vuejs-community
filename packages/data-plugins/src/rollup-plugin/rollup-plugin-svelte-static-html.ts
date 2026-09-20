@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'ssr',
     'generate',
   ],
-  source: {
-    github: 'vladshcherbin/rollup-plugin-svelte-static-html',
-    npm: 'rollup-plugin-svelte-static-html',
-  },
   links: {
     github: 'https://github.com/vladshcherbin/rollup-plugin-svelte-static-html',
     npm: 'https://www.npmjs.com/package/rollup-plugin-svelte-static-html',
     website: 'https://github.com/vladshcherbin/rollup-plugin-svelte-static-html#readme',
+  },
+  source: {
+    github: 'vladshcherbin/rollup-plugin-svelte-static-html',
+    npm: 'rollup-plugin-svelte-static-html',
   },
   stats: {
     stars: 19,

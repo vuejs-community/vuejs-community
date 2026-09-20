@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'twig',
   ],
-  source: {
-    github: 'Fulcrum-SaaS/vite-plugin-twig',
-    npm: '@fulcrumsaas/vite-plugin-twig',
-  },
   links: {
     github: 'https://github.com/Fulcrum-SaaS/vite-plugin-twig',
     npm: 'https://www.npmjs.com/package/@fulcrumsaas/vite-plugin-twig',
     website: 'https://github.com/Fulcrum-SaaS/vite-plugin-twig#readme',
+  },
+  source: {
+    github: 'Fulcrum-SaaS/vite-plugin-twig',
+    npm: '@fulcrumsaas/vite-plugin-twig',
   },
   stats: {
     stars: 0,

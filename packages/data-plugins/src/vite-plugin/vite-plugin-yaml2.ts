@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'yaml',
   ],
-  source: {
-    github: 'mzaini30/vite-plugin-yaml2',
-    npm: 'vite-plugin-yaml2',
-  },
   links: {
     github: 'https://github.com/mzaini30/vite-plugin-yaml2',
     npm: 'https://www.npmjs.com/package/vite-plugin-yaml2',
     website: 'https://github.com/mzaini30/vite-plugin-yaml2#readme',
+  },
+  source: {
+    github: 'mzaini30/vite-plugin-yaml2',
+    npm: 'vite-plugin-yaml2',
   },
   stats: {
     stars: 6,

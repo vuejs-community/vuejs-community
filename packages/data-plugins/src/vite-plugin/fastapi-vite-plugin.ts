@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'fastapi-startkit/fastapi-startkit-modules',
-    npm: 'fastapi-vite-plugin',
-  },
   links: {
     github: 'https://github.com/fastapi-startkit/fastapi-startkit-modules',
     npm: 'https://www.npmjs.com/package/fastapi-vite-plugin',
     website: 'https://fastapi-startkit.github.io/',
+  },
+  source: {
+    github: 'fastapi-startkit/fastapi-startkit-modules',
+    npm: 'fastapi-vite-plugin',
   },
   stats: {
     stars: 1,

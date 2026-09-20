@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'diegohaz/rolldown-plugin-react-forward-ref',
-    npm: 'rolldown-plugin-react-forward-ref',
-  },
   links: {
     github: 'https://github.com/diegohaz/rolldown-plugin-react-forward-ref',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-react-forward-ref',
     website: 'https://github.com/diegohaz/rolldown-plugin-react-forward-ref#readme',
+  },
+  source: {
+    github: 'diegohaz/rolldown-plugin-react-forward-ref',
+    npm: 'rolldown-plugin-react-forward-ref',
   },
   stats: {
     stars: 2,

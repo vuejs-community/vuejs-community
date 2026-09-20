@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'validation',
     'security',
   ],
-  source: {
-    github: 'ibnushahraa/dotenv-guard',
-    npm: '@ibnushahraa/vite-plugin-dotenv-guard',
-  },
   links: {
     github: 'https://github.com/ibnushahraa/dotenv-guard',
     npm: 'https://www.npmjs.com/package/@ibnushahraa/vite-plugin-dotenv-guard',
     website: 'https://github.com/ibnushahraa/dotenv-guard/tree/main/packages/vite-plugin#readme',
+  },
+  source: {
+    github: 'ibnushahraa/dotenv-guard',
+    npm: '@ibnushahraa/vite-plugin-dotenv-guard',
   },
   stats: {
     stars: 0,

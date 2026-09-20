@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'store',
     'svgo',
   ],
-  source: {
-    github: 'uphg/vite-plugin-svg-store',
-    npm: 'vite-plugin-svg-store',
-  },
   links: {
     github: 'https://github.com/uphg/vite-plugin-svg-store',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-store',
     website: 'https://github.com/uphg/vite-plugin-svg-store#readme',
+  },
+  source: {
+    github: 'uphg/vite-plugin-svg-store',
+    npm: 'vite-plugin-svg-store',
   },
   stats: {
     stars: 0,

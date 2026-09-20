@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'Saber-Kurama/unplugin-statics-env',
-    npm: '@dangojs/unplugin-statics-env',
-  },
   links: {
     github: 'https://github.com/Saber-Kurama/unplugin-statics-env',
     npm: 'https://www.npmjs.com/package/@dangojs/unplugin-statics-env',
     website: 'https://github.com/Saber-Kurama/unplugin-statics-env#readme',
+  },
+  source: {
+    github: 'Saber-Kurama/unplugin-statics-env',
+    npm: '@dangojs/unplugin-statics-env',
   },
   stats: {
     stars: 0,

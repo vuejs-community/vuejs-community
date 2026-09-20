@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'cdn',
     'vite-plugin-cdn',
   ],
-  source: {
-    github: 'toimc/vite-plugin-cdn-next',
-    npm: 'vite-plugin-cdn-next',
-  },
   links: {
     github: 'https://github.com/toimc/vite-plugin-cdn-next',
     npm: 'https://www.npmjs.com/package/vite-plugin-cdn-next',
     website: 'https://github.com/toimc/vite-plugin-cdn-next',
+  },
+  source: {
+    github: 'toimc/vite-plugin-cdn-next',
+    npm: 'vite-plugin-cdn-next',
   },
   stats: {
     stars: 1,

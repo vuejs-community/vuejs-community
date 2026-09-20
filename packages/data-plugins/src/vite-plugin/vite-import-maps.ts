@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'microfrontend',
     'plugin',
   ],
-  source: {
-    github: 'riccardoperra/vite-import-maps',
-    npm: 'vite-import-maps',
-  },
   links: {
     github: 'https://github.com/riccardoperra/vite-import-maps',
     npm: 'https://www.npmjs.com/package/vite-import-maps',
     website: 'https://github.com/riccardoperra/vite-import-maps',
+  },
+  source: {
+    github: 'riccardoperra/vite-import-maps',
+    npm: 'vite-import-maps',
   },
   stats: {
     stars: 15,

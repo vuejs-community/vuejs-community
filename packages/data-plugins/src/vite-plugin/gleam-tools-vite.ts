@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'albizures/gleam-tools',
-    npm: '@gleam-tools/vite',
-  },
   links: {
     github: 'https://github.com/albizures/gleam-tools',
     npm: 'https://www.npmjs.com/package/@gleam-tools/vite',
     website: 'https://github.com/albizures/gleam-tools/tree/main#readme',
+  },
+  source: {
+    github: 'albizures/gleam-tools',
+    npm: '@gleam-tools/vite',
   },
   stats: {
     stars: 3,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'wip-elonehoo/unplugin-build-info',
-    npm: 'unplugin-build-info',
-  },
   links: {
     github: 'https://github.com/wip-elonehoo/unplugin-build-info',
     npm: 'https://www.npmjs.com/package/unplugin-build-info',
     website: 'https://github.com/wip-elonehoo/unplugin-build-info#readme',
+  },
+  source: {
+    github: 'wip-elonehoo/unplugin-build-info',
+    npm: 'unplugin-build-info',
   },
   stats: {
     stars: 0,

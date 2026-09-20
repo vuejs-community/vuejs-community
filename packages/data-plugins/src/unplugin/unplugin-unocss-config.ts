@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'nuxt-module',
   ],
-  source: {
-    github: 'unpreset/unplugin-unocss-config',
-    npm: 'unplugin-unocss-config',
-  },
   links: {
     github: 'https://github.com/unpreset/unplugin-unocss-config',
     npm: 'https://www.npmjs.com/package/unplugin-unocss-config',
     website: 'https://github.com/unpreset/unplugin-unocss-config#readme',
+  },
+  source: {
+    github: 'unpreset/unplugin-unocss-config',
+    npm: 'unplugin-unocss-config',
   },
   stats: {
     stars: 10,

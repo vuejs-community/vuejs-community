@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'awesome',
     'buildtime',
   ],
-  source: {
-    npm: 'vite-plugin-build-timespend',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-build-timespend',
+  },
+  source: {
+    npm: 'vite-plugin-build-timespend',
   },
   stats: {
     stars: 0,

@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'wgpu',
     'wgsl',
   ],
-  source: {
-    github: 'software-mansion/TypeGPU',
-    npm: 'unplugin-typegpu',
-  },
   links: {
     github: 'https://github.com/software-mansion/TypeGPU',
     npm: 'https://www.npmjs.com/package/unplugin-typegpu',
     website: 'https://typegpu.com',
+  },
+  source: {
+    github: 'software-mansion/TypeGPU',
+    npm: 'unplugin-typegpu',
   },
   stats: {
     stars: 3197,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'gas',
     'google-app-script',
   ],
-  source: {
-    github: 'gahojin/rolldown-gas-plugin',
-    npm: '@gahojin-inc/rolldown-gas-plugin',
-  },
   links: {
     github: 'https://github.com/gahojin/rolldown-gas-plugin',
     npm: 'https://www.npmjs.com/package/@gahojin-inc/rolldown-gas-plugin',
     website: 'https://github.com/gahojin/rolldown-gas-plugin#readme',
+  },
+  source: {
+    github: 'gahojin/rolldown-gas-plugin',
+    npm: '@gahojin-inc/rolldown-gas-plugin',
   },
   stats: {
     stars: 1,

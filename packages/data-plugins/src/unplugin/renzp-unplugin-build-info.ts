@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rspack',
     'rsbuild',
   ],
-  source: {
-    github: 'renzp94/unplugin-build-info',
-    npm: '@renzp/unplugin-build-info',
-  },
   links: {
     github: 'https://github.com/renzp94/unplugin-build-info',
     npm: 'https://www.npmjs.com/package/@renzp/unplugin-build-info',
     website: 'https://github.com/renzp94/unplugin-build-info#readme',
+  },
+  source: {
+    github: 'renzp94/unplugin-build-info',
+    npm: '@renzp/unplugin-build-info',
   },
   stats: {
     stars: 8,

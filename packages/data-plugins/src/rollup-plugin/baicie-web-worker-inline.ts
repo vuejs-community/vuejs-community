@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'service-worker',
     'shared-worker',
   ],
-  source: {
-    github: 'baicie/rollup-plugin-web-worker-loader',
-    npm: '@baicie/web-worker-inline',
-  },
   links: {
     github: 'https://github.com/baicie/rollup-plugin-web-worker-loader',
     npm: 'https://www.npmjs.com/package/@baicie/web-worker-inline',
     website: 'https://github.com/baicie/rollup-plugin-web-worker-loader#readme',
+  },
+  source: {
+    github: 'baicie/rollup-plugin-web-worker-loader',
+    npm: '@baicie/web-worker-inline',
   },
   stats: {
     stars: 1,

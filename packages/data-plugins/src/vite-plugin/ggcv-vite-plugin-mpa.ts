@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    github: 'ggchivalrous/vite-plugins',
-    npm: '@ggcv/vite-plugin-mpa',
-  },
   links: {
     github: 'https://github.com/ggchivalrous/vite-plugins',
     npm: 'https://www.npmjs.com/package/@ggcv/vite-plugin-mpa',
     website: 'https://github.com/ggchivalrous/vite-plugins/tree/master/packages/vite-mpa#readme',
+  },
+  source: {
+    github: 'ggchivalrous/vite-plugins',
+    npm: '@ggcv/vite-plugin-mpa',
   },
   stats: {
     stars: 1,

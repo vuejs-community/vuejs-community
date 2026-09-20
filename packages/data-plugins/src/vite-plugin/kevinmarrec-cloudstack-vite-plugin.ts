@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'kevinmarrec/cloudstack',
-    npm: '@kevinmarrec/cloudstack-vite-plugin',
-  },
   links: {
     github: 'https://github.com/kevinmarrec/cloudstack',
     npm: 'https://www.npmjs.com/package/@kevinmarrec/cloudstack-vite-plugin',
     website: 'https://github.com/kevinmarrec/cloudstack/tree/main/packages/vite-plugin#readme',
+  },
+  source: {
+    github: 'kevinmarrec/cloudstack',
+    npm: '@kevinmarrec/cloudstack-vite-plugin',
   },
   stats: {
     stars: 2,

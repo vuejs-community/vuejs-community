@@ -26,13 +26,13 @@ export default defineProjectMeta({
     'vitejs',
     'vite-plugin',
   ],
-  source: {
-    github: 'RobinTail/vite-plugin-material-symbols',
-    npm: 'vite-plugin-material-symbols',
-  },
   links: {
     github: 'https://github.com/RobinTail/vite-plugin-material-symbols',
     npm: 'https://www.npmjs.com/package/vite-plugin-material-symbols',
+  },
+  source: {
+    github: 'RobinTail/vite-plugin-material-symbols',
+    npm: 'vite-plugin-material-symbols',
   },
   stats: {
     stars: 8,

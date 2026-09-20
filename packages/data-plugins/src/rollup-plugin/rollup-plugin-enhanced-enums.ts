@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'enum',
   ],
-  source: {
-    github: 'cyyynthia/rollup-plugin-enhanced-enums',
-    npm: 'rollup-plugin-enhanced-enums',
-  },
   links: {
     github: 'https://github.com/cyyynthia/rollup-plugin-enhanced-enums',
     npm: 'https://www.npmjs.com/package/rollup-plugin-enhanced-enums',
     website: 'https://github.com/cyyynthia/rollup-plugin-enhanced-enums#readme',
+  },
+  source: {
+    github: 'cyyynthia/rollup-plugin-enhanced-enums',
+    npm: 'rollup-plugin-enhanced-enums',
   },
   stats: {
     stars: 1,

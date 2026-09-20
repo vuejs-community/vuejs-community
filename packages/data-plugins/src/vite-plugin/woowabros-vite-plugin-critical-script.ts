@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'react-router',
     'tanstack-start',
   ],
-  source: {
-    github: 'woowabros/critical-script',
-    npm: '@woowabros/vite-plugin-critical-script',
-  },
   links: {
     github: 'https://github.com/woowabros/critical-script',
     npm: 'https://www.npmjs.com/package/@woowabros/vite-plugin-critical-script',
     website: 'https://woowabros.github.io/critical-script',
+  },
+  source: {
+    github: 'woowabros/critical-script',
+    npm: '@woowabros/vite-plugin-critical-script',
   },
   stats: {
     stars: 213,

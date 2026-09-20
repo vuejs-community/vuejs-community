@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'react',
     'preact',
   ],
-  source: {
-    github: 'edwinwong90/vite-plugin-react-router-file-gen',
-    npm: 'vite-plugin-react-router-file-gen',
-  },
   links: {
     github: 'https://github.com/edwinwong90/vite-plugin-react-router-file-gen',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-router-file-gen',
     website: 'https://github.com/edwinwong90/vite-plugin-react-router-file-gen#readme',
+  },
+  source: {
+    github: 'edwinwong90/vite-plugin-react-router-file-gen',
+    npm: 'vite-plugin-react-router-file-gen',
   },
   stats: {
     stars: 0,

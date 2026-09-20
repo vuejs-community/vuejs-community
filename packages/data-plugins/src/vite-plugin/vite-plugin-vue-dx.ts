@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vue',
     'dx',
   ],
-  source: {
-    npm: 'vite-plugin-vue-dx',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-dx',
+  },
+  source: {
+    npm: 'vite-plugin-vue-dx',
   },
   stats: {
     stars: 0,

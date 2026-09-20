@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'ai-assistant',
     'vite-plugin',
   ],
-  source: {
-    npm: '@aini_ai/ai-assistant',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@aini_ai/ai-assistant',
+  },
+  source: {
+    npm: '@aini_ai/ai-assistant',
   },
   stats: {
     stars: 0,

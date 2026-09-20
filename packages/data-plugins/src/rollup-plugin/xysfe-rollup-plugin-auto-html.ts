@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'auto-html',
   ],
-  source: {
-    npm: '@xysfe/rollup-plugin-auto-html',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xysfe/rollup-plugin-auto-html',
+  },
+  source: {
+    npm: '@xysfe/rollup-plugin-auto-html',
   },
   stats: {
     stars: 0,

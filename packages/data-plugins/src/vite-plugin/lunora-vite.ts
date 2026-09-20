@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'codegen',
     'wrangler',
   ],
-  source: {
-    github: 'anolilab/lunora',
-    npm: '@lunora/vite',
-  },
   links: {
     github: 'https://github.com/anolilab/lunora',
     npm: 'https://www.npmjs.com/package/@lunora/vite',
     website: 'https://lunora.sh',
+  },
+  source: {
+    github: 'anolilab/lunora',
+    npm: '@lunora/vite',
   },
   stats: {
     stars: 270,

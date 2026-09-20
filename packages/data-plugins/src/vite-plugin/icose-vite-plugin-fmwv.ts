@@ -12,12 +12,12 @@ export default defineProjectMeta({
     'vite-plugin',
     'filemaker',
   ],
-  source: {
-    npm: '@icose/vite-plugin-fmwv',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@icose/vite-plugin-fmwv',
     website: 'https://github.com/icoseuk/vite-plugin-fmwv#readme',
+  },
+  source: {
+    npm: '@icose/vite-plugin-fmwv',
   },
   stats: {
     stars: 0,

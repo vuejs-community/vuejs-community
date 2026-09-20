@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'ilhajs/imprensa',
-    npm: 'imprensa',
-  },
   links: {
     github: 'https://github.com/ilhajs/imprensa',
     npm: 'https://www.npmjs.com/package/imprensa',
     website: 'https://github.com/ilhajs/imprensa#readme',
+  },
+  source: {
+    github: 'ilhajs/imprensa',
+    npm: 'imprensa',
   },
   stats: {
     stars: 0,

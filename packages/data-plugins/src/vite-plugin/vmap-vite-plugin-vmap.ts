@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vmap',
   ],
-  source: {
-    github: 'parselife/vmap',
-    npm: '@vmap/vite-plugin-vmap',
-  },
   links: {
     github: 'https://github.com/parselife/vmap',
     npm: 'https://www.npmjs.com/package/@vmap/vite-plugin-vmap',
     website: 'https://github.com/parselife/vmap',
+  },
+  source: {
+    github: 'parselife/vmap',
+    npm: '@vmap/vite-plugin-vmap',
   },
   stats: {
     stars: 0,

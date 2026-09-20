@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'gasstack/gasstack',
-    npm: '@gasstack/manifest',
-  },
   links: {
     github: 'https://github.com/gasstack/gasstack',
     npm: 'https://www.npmjs.com/package/@gasstack/manifest',
     website: 'https://github.com/gasstack/gasstack#readme',
+  },
+  source: {
+    github: 'gasstack/gasstack',
+    npm: '@gasstack/manifest',
   },
   stats: {
     stars: 3,

@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'islands',
     'mariner-fe',
   ],
-  source: {
-    github: 'Xenossolitarius/mariner',
-    npm: 'mariner-fe',
-  },
   links: {
     github: 'https://github.com/Xenossolitarius/mariner',
     npm: 'https://www.npmjs.com/package/mariner-fe',
     website: 'https://github.com/Xenossolitarius/mariner#readme',
+  },
+  source: {
+    github: 'Xenossolitarius/mariner',
+    npm: 'mariner-fe',
   },
   stats: {
     stars: 7,

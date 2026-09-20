@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'unplugin',
     'i18n',
   ],
-  source: {
-    github: 'yysanf/vite-plugin-i18n-helper',
-    npm: '@cnhis-frontend/unplugin-i18n-helper',
-  },
   links: {
     github: 'https://github.com/yysanf/vite-plugin-i18n-helper',
     npm: 'https://www.npmjs.com/package/@cnhis-frontend/unplugin-i18n-helper',
     website: 'https://github.com/yysanf/vite-plugin-i18n-helper/tree/unplugin/dev#readme',
+  },
+  source: {
+    github: 'yysanf/vite-plugin-i18n-helper',
+    npm: '@cnhis-frontend/unplugin-i18n-helper',
   },
   stats: {
     stars: 2,

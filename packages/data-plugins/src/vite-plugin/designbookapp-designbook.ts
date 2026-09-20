@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'storybook-alternative',
     'react',
   ],
-  source: {
-    github: 'designbookapp/designbook',
-    npm: '@designbookapp/designbook',
-  },
   links: {
     github: 'https://github.com/designbookapp/designbook',
     npm: 'https://www.npmjs.com/package/@designbookapp/designbook',
     website: 'https://designbook.app',
+  },
+  source: {
+    github: 'designbookapp/designbook',
+    npm: '@designbookapp/designbook',
   },
   stats: {
     stars: 0,

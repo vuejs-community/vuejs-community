@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'automatic-i18n',
     'lightweight',
   ],
-  source: {
-    github: 'wuchalejs/wuchale',
-    npm: 'wuchale',
-  },
   links: {
     github: 'https://github.com/wuchalejs/wuchale',
     npm: 'https://www.npmjs.com/package/wuchale',
     website: 'https://wuchale.dev',
+  },
+  source: {
+    github: 'wuchalejs/wuchale',
+    npm: 'wuchale',
   },
   stats: {
     stars: 0,

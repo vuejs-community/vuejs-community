@@ -13,13 +13,13 @@ export default defineProjectMeta({
     'vite',
     'esbuild',
   ],
-  source: {
-    github: 'yangyanhui1217/vite-plugins-related',
-    npm: 'vite-plugin-transform__require-to-import',
-  },
   links: {
     github: 'https://github.com/yangyanhui1217/vite-plugins-related',
     npm: 'https://www.npmjs.com/package/vite-plugin-transform__require-to-import',
+  },
+  source: {
+    github: 'yangyanhui1217/vite-plugins-related',
+    npm: 'vite-plugin-transform__require-to-import',
   },
   stats: {
     stars: 0,

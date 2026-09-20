@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'bundler',
     'auditor',
   ],
-  source: {
-    github: 'samrey-framework/samrey',
-    npm: '@samrey/cli',
-  },
   links: {
     github: 'https://github.com/samrey-framework/samrey',
     npm: 'https://www.npmjs.com/package/@samrey/cli',
     website: 'https://samrey.dev',
+  },
+  source: {
+    github: 'samrey-framework/samrey',
+    npm: '@samrey/cli',
   },
   stats: {
     stars: 0,

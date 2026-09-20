@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'eta',
     'template',
   ],
-  source: {
-    github: 'stateful/rollup-plugin-eta',
-    npm: 'rollup-plugin-eta',
-  },
   links: {
     github: 'https://github.com/stateful/rollup-plugin-eta',
     npm: 'https://www.npmjs.com/package/rollup-plugin-eta',
     website: 'https://github.com/stateful/rollup-plugin-eta',
+  },
+  source: {
+    github: 'stateful/rollup-plugin-eta',
+    npm: 'rollup-plugin-eta',
   },
   stats: {
     stars: 4,

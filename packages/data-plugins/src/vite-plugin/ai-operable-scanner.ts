@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'scanner',
   ],
-  source: {
-    github: 'FantasticPerson/ai-native-framework',
-    npm: '@ai-operable/scanner',
-  },
   links: {
     github: 'https://github.com/FantasticPerson/ai-native-framework',
     npm: 'https://www.npmjs.com/package/@ai-operable/scanner',
     website: 'https://github.com/FantasticPerson/ai-native-framework#readme',
+  },
+  source: {
+    github: 'FantasticPerson/ai-native-framework',
+    npm: '@ai-operable/scanner',
   },
   stats: {
     stars: 0,

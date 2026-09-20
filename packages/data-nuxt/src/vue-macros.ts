@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://vue-macros.dev/',
   },
   source: {
-    github: 'vue-macros/vue-macros#main/packages/nuxt',
+    github: 'vue-macros/vue-macros',
     npm: '@vue-macros/nuxt',
   },
 })

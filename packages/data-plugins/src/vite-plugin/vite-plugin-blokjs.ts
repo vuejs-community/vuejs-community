@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'auto-discovery',
     'components',
   ],
-  source: {
-    github: 'maleta/blokjs',
-    npm: 'vite-plugin-blokjs',
-  },
   links: {
     github: 'https://github.com/maleta/blokjs',
     npm: 'https://www.npmjs.com/package/vite-plugin-blokjs',
     website: 'https://github.com/maleta/blokjs/tree/main/packages/vite-plugin-blokjs',
+  },
+  source: {
+    github: 'maleta/blokjs',
+    npm: 'vite-plugin-blokjs',
   },
   stats: {
     stars: 4,

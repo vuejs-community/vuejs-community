@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'jm2097/siete',
-    npm: '@siete/vite',
-  },
   links: {
     github: 'https://github.com/jm2097/siete',
     npm: 'https://www.npmjs.com/package/@siete/vite',
     website: 'https://github.com/jm2097/siete/tree/main/packages/vite#readme',
+  },
+  source: {
+    github: 'jm2097/siete',
+    npm: '@siete/vite',
   },
   stats: {
     stars: 0,

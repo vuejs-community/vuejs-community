@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'build-info',
     'manifest',
   ],
-  source: {
-    github: 'astrapi69/pwa-update-kit',
-    npm: '@astrapi69/vite-plugin-build-version',
-  },
   links: {
     github: 'https://github.com/astrapi69/pwa-update-kit',
     npm: 'https://www.npmjs.com/package/@astrapi69/vite-plugin-build-version',
     website: 'https://github.com/astrapi69/pwa-update-kit#readme',
+  },
+  source: {
+    github: 'astrapi69/pwa-update-kit',
+    npm: '@astrapi69/vite-plugin-build-version',
   },
   stats: {
     stars: 0,

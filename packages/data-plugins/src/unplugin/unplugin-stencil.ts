@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'stencil-community/unplugin-stencil',
-    npm: 'unplugin-stencil',
-  },
   links: {
     github: 'https://github.com/stencil-community/unplugin-stencil',
     npm: 'https://www.npmjs.com/package/unplugin-stencil',
     website: 'https://github.com/stencil-community/unplugin-stencil#readme',
+  },
+  source: {
+    github: 'stencil-community/unplugin-stencil',
+    npm: 'unplugin-stencil',
   },
   stats: {
     stars: 0,

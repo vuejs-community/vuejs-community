@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'dedent',
   ],
-  source: {
-    github: 'LucasOe/rollup-plugin-dedent',
-    npm: 'rollup-plugin-dedent',
-  },
   links: {
     github: 'https://github.com/LucasOe/rollup-plugin-dedent',
     npm: 'https://www.npmjs.com/package/rollup-plugin-dedent',
     website: 'https://github.com/LucasOe/rollup-plugin-dedent#readme',
+  },
+  source: {
+    github: 'LucasOe/rollup-plugin-dedent',
+    npm: 'rollup-plugin-dedent',
   },
   stats: {
     stars: 0,

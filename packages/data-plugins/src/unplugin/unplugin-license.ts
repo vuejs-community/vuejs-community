@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rolldown-plugin',
     'esbuild-plugin',
   ],
-  source: {
-    github: 'ryuapp/unplugin-license',
-    npm: 'unplugin-license',
-  },
   links: {
     github: 'https://github.com/ryuapp/unplugin-license',
     npm: 'https://www.npmjs.com/package/unplugin-license',
     website: 'https://github.com/ryuapp/unplugin-license#readme',
+  },
+  source: {
+    github: 'ryuapp/unplugin-license',
+    npm: 'unplugin-license',
   },
   stats: {
     stars: 0,

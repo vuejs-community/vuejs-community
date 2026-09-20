@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'ariesclark/unplugin-macros',
-    npm: '@ariesclark/unplugin-macros',
-  },
   links: {
     github: 'https://github.com/ariesclark/unplugin-macros',
     npm: 'https://www.npmjs.com/package/@ariesclark/unplugin-macros',
     website: 'https://github.com/ariesclark/unplugin-macros#readme',
+  },
+  source: {
+    github: 'ariesclark/unplugin-macros',
+    npm: '@ariesclark/unplugin-macros',
   },
   stats: {
     stars: 0,

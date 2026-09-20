@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'storybook',
   ],
-  source: {
-    github: 'ramirezcgn/htl-to-js',
-    npm: 'htl-to-js',
-  },
   links: {
     github: 'https://github.com/ramirezcgn/htl-to-js',
     npm: 'https://www.npmjs.com/package/htl-to-js',
     website: 'https://github.com/ramirezcgn/htl-to-js#readme',
+  },
+  source: {
+    github: 'ramirezcgn/htl-to-js',
+    npm: 'htl-to-js',
   },
   stats: {
     stars: 0,

@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'dev-server',
     'cache',
   ],
-  source: {
-    github: 'kolodny/vite-optimize-persist',
-    npm: 'vite-optimize-persist',
-  },
   links: {
     github: 'https://github.com/kolodny/vite-optimize-persist',
     npm: 'https://www.npmjs.com/package/vite-optimize-persist',
     website: 'https://github.com/kolodny/vite-optimize-persist#readme',
+  },
+  source: {
+    github: 'kolodny/vite-optimize-persist',
+    npm: 'vite-optimize-persist',
   },
   stats: {
     stars: 0,

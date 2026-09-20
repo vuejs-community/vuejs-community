@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: '@yujia-asiic/vite-plugin-auth-extractor',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@yujia-asiic/vite-plugin-auth-extractor',
+  },
+  source: {
+    npm: '@yujia-asiic/vite-plugin-auth-extractor',
   },
   stats: {
     stars: 0,

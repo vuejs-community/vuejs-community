@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'source-maps',
     'release',
   ],
-  source: {
-    npm: '@proliferate_ai/build-plugins',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@proliferate_ai/build-plugins',
+  },
+  source: {
+    npm: '@proliferate_ai/build-plugins',
   },
   stats: {
     stars: 0,

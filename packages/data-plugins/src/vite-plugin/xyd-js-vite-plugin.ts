@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'docs',
     'documentation',
   ],
-  source: {
-    npm: '@xyd-js/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xyd-js/vite-plugin',
+  },
+  source: {
+    npm: '@xyd-js/vite-plugin',
   },
   stats: {
     stars: 0,

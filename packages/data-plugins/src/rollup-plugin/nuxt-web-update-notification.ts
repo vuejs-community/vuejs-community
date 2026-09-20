@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'nuxt-module',
     'web-update-notification',
   ],
-  source: {
-    github: 'yanyue404/nuxt-web-update-notification',
-    npm: 'nuxt-web-update-notification',
-  },
   links: {
     github: 'https://github.com/yanyue404/nuxt-web-update-notification',
     npm: 'https://www.npmjs.com/package/nuxt-web-update-notification',
     website: 'https://github.com/yanyue404/nuxt-web-update-notification#readme',
+  },
+  source: {
+    github: 'yanyue404/nuxt-web-update-notification',
+    npm: 'nuxt-web-update-notification',
   },
   stats: {
     stars: 0,

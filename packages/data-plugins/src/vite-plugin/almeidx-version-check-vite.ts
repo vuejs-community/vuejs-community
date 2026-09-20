@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'almeidx/version-check',
-    npm: '@almeidx/version-check-vite',
-  },
   links: {
     github: 'https://github.com/almeidx/version-check',
     npm: 'https://www.npmjs.com/package/@almeidx/version-check-vite',
     website: 'https://github.com/almeidx/version-check/tree/main/packages/vite#readme',
+  },
+  source: {
+    github: 'almeidx/version-check',
+    npm: '@almeidx/version-check-vite',
   },
   stats: {
     stars: 0,

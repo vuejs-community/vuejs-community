@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'automation',
     'render-function',
   ],
-  source: {
-    github: 'reusely/reusely-vue-testid',
-    npm: 'reusely-vite-testid',
-  },
   links: {
     github: 'https://github.com/reusely/reusely-vue-testid',
     npm: 'https://www.npmjs.com/package/reusely-vite-testid',
     website: 'https://github.com/reusely/reusely-vue-testid#readme',
+  },
+  source: {
+    github: 'reusely/reusely-vue-testid',
+    npm: 'reusely-vite-testid',
   },
   stats: {
     stars: 0,

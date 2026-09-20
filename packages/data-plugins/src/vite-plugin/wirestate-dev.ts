@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'dependency-injection',
     'typescript',
   ],
-  source: {
-    github: 'Neloreck/wirestate',
-    npm: '@wirestate/dev',
-  },
   links: {
     github: 'https://github.com/Neloreck/wirestate',
     npm: 'https://www.npmjs.com/package/@wirestate/dev',
     website: 'https://github.com/Neloreck/wirestate#readme',
+  },
+  source: {
+    github: 'Neloreck/wirestate',
+    npm: '@wirestate/dev',
   },
   stats: {
     stars: 0,

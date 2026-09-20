@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'update',
     'watcher',
   ],
-  source: {
-    npm: 'vite-plugin-version-watcher',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-version-watcher',
+  },
+  source: {
+    npm: 'vite-plugin-version-watcher',
   },
   stats: {
     stars: 0,

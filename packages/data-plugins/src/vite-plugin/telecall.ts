@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'babel-plugin',
   ],
-  source: {
-    github: 'beeplin/telecall',
-    npm: 'telecall',
-  },
   links: {
     github: 'https://github.com/beeplin/telecall',
     npm: 'https://www.npmjs.com/package/telecall',
     website: 'https://github.com/beeplin/telecall#readme',
+  },
+  source: {
+    github: 'beeplin/telecall',
+    npm: 'telecall',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'primevue',
     'resolver',
   ],
-  source: {
-    github: 'F1nnM/unplugin-primevue-resolver',
-    npm: 'unplugin-primevue-resolver',
-  },
   links: {
     github: 'https://github.com/F1nnM/unplugin-primevue-resolver',
     npm: 'https://www.npmjs.com/package/unplugin-primevue-resolver',
     website: 'https://github.com/F1nnM/unplugin-primevue-resolver#readme',
+  },
+  source: {
+    github: 'F1nnM/unplugin-primevue-resolver',
+    npm: 'unplugin-primevue-resolver',
   },
   stats: {
     stars: 1,

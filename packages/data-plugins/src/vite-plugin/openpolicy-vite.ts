@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'privacy-policy',
     'vite-plugin',
   ],
-  source: {
-    github: 'jamiedavenport/openpolicy',
-    npm: '@openpolicy/vite',
-  },
   links: {
     github: 'https://github.com/jamiedavenport/openpolicy',
     npm: 'https://www.npmjs.com/package/@openpolicy/vite',
     website: 'https://github.com/jamiedavenport/openpolicy#readme',
+  },
+  source: {
+    github: 'jamiedavenport/openpolicy',
+    npm: '@openpolicy/vite',
   },
   stats: {
     stars: 0,

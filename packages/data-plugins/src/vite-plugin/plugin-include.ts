@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'copy',
     'assets',
   ],
-  source: {
-    github: 'jayf0x/plugin-include',
-    npm: 'plugin-include',
-  },
   links: {
     github: 'https://github.com/jayf0x/plugin-include',
     npm: 'https://www.npmjs.com/package/plugin-include',
     website: 'https://github.com/jayf0x/plugin-include#readme',
+  },
+  source: {
+    github: 'jayf0x/plugin-include',
+    npm: 'plugin-include',
   },
   stats: {
     stars: 0,

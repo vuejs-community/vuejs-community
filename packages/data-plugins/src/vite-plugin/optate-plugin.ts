@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'react',
     'ai',
   ],
-  source: {
-    github: 'bala-aji/optate',
-    npm: '@optate/plugin',
-  },
   links: {
     github: 'https://github.com/bala-aji/optate',
     npm: 'https://www.npmjs.com/package/@optate/plugin',
     website: 'https://optate.vercel.app',
+  },
+  source: {
+    github: 'bala-aji/optate',
+    npm: '@optate/plugin',
   },
   stats: {
     stars: 0,

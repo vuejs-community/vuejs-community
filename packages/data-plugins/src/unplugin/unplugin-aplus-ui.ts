@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'esbuild',
     'plugin',
   ],
-  source: {
-    npm: 'unplugin-aplus-ui',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-aplus-ui',
+  },
+  source: {
+    npm: 'unplugin-aplus-ui',
   },
   stats: {
     stars: 0,

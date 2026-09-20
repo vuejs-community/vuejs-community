@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'svgo',
     'sharp.js',
   ],
-  source: {
-    github: 'FatehAK/vite-plugin-image-optimizer',
-    npm: 'vite-plugin-image-optimizer',
-  },
   links: {
     github: 'https://github.com/FatehAK/vite-plugin-image-optimizer',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-optimizer',
     website: 'https://github.com/FatehAK/vite-plugin-image-optimizer#readme',
+  },
+  source: {
+    github: 'FatehAK/vite-plugin-image-optimizer',
+    npm: 'vite-plugin-image-optimizer',
   },
   stats: {
     stars: 517,

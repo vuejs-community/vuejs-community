@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'template',
     'injection',
   ],
-  source: {
-    github: 'mario-aleo/rollup-plugin-html-scaffold',
-    npm: 'rollup-plugin-html-scaffold',
-  },
   links: {
     github: 'https://github.com/mario-aleo/rollup-plugin-html-scaffold',
     npm: 'https://www.npmjs.com/package/rollup-plugin-html-scaffold',
     website: 'https://github.com/mario-aleo/rollup-plugin-html-scaffold#readme',
+  },
+  source: {
+    github: 'mario-aleo/rollup-plugin-html-scaffold',
+    npm: 'rollup-plugin-html-scaffold',
   },
   stats: {
     stars: 4,

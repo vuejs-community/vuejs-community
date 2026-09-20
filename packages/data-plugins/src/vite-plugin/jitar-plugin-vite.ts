@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'jitar',
   ],
-  source: {
-    github: 'MaskingTechnology/jitar',
-    npm: '@jitar/plugin-vite',
-  },
   links: {
     github: 'https://github.com/MaskingTechnology/jitar',
     npm: 'https://www.npmjs.com/package/@jitar/plugin-vite',
     website: 'https://jitar.dev',
+  },
+  source: {
+    github: 'MaskingTechnology/jitar',
+    npm: '@jitar/plugin-vite',
   },
   stats: {
     stars: 167,

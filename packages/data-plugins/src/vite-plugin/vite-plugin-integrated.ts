@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'vite plugin',
     'vite',
   ],
-  source: {
-    npm: 'vite-plugin-integrated',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-integrated',
     website: 'https://github.com/Traineratwot/vite-plugin-integrated#readme',
+  },
+  source: {
+    npm: 'vite-plugin-integrated',
   },
   stats: {
     stars: 0,

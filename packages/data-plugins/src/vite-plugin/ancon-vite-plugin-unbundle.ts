@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'unbundle',
   ],
-  source: {
-    npm: '@ancon/vite-plugin-unbundle',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ancon/vite-plugin-unbundle',
+  },
+  source: {
+    npm: '@ancon/vite-plugin-unbundle',
   },
   stats: {
     stars: 0,

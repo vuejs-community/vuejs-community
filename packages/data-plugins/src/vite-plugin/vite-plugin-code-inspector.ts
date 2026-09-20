@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'inspector',
     'debug',
   ],
-  source: {
-    github: 'jm-niu/vite-plugin-code-inspector',
-    npm: 'vite-plugin-code-inspector',
-  },
   links: {
     github: 'https://github.com/jm-niu/vite-plugin-code-inspector',
     npm: 'https://www.npmjs.com/package/vite-plugin-code-inspector',
     website: 'https://github.com/jm-niu/vite-plugin-code-inspector/blob/main/README.md',
+  },
+  source: {
+    github: 'jm-niu/vite-plugin-code-inspector',
+    npm: 'vite-plugin-code-inspector',
   },
   stats: {
     stars: 5,

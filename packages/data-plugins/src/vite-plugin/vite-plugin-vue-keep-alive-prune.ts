@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-vue-keep-alive-prune',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-keep-alive-prune',
+  },
+  source: {
+    npm: 'vite-plugin-vue-keep-alive-prune',
   },
   stats: {
     stars: 0,

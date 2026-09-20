@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'workflows',
     'vite-plugin',
   ],
-  source: {
-    github: 'oselvar/sveltekit-add-worker-exports',
-    npm: '@oselvar/sveltekit-add-worker-exports',
-  },
   links: {
     github: 'https://github.com/oselvar/sveltekit-add-worker-exports',
     npm: 'https://www.npmjs.com/package/@oselvar/sveltekit-add-worker-exports',
     website: 'https://github.com/oselvar/sveltekit-add-worker-exports#readme',
+  },
+  source: {
+    github: 'oselvar/sveltekit-add-worker-exports',
+    npm: '@oselvar/sveltekit-add-worker-exports',
   },
   stats: {
     stars: 12,

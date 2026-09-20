@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vitejs',
     'vite-plugin',
   ],
-  source: {
-    github: 'lukonik/oh-image',
-    npm: '@lonik/oh-image',
-  },
   links: {
     github: 'https://github.com/lukonik/oh-image',
     npm: 'https://www.npmjs.com/package/@lonik/oh-image',
     website: 'https://github.com/lukonik/oh-image#readme',
+  },
+  source: {
+    github: 'lukonik/oh-image',
+    npm: '@lonik/oh-image',
   },
   stats: {
     stars: 20,

@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'vue',
     'react',
   ],
-  source: {
-    npm: '@fengxingxingyun/automaticversion',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@fengxingxingyun/automaticversion',
+  },
+  source: {
+    npm: '@fengxingxingyun/automaticversion',
   },
   stats: {
     stars: 0,

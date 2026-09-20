@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'divriots/vite-plugin-bundled-entry',
-    npm: 'vite-plugin-bundled-entry',
-  },
   links: {
     github: 'https://github.com/divriots/vite-plugin-bundled-entry',
     npm: 'https://www.npmjs.com/package/vite-plugin-bundled-entry',
     website: 'https://github.com/divriots/vite-plugin-bundled-entry',
+  },
+  source: {
+    github: 'divriots/vite-plugin-bundled-entry',
+    npm: 'vite-plugin-bundled-entry',
   },
   stats: {
     stars: 25,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'agent',
     'llm',
   ],
-  source: {
-    github: 'preactjs/signals',
-    npm: '@preact/signals-agent-vite',
-  },
   links: {
     github: 'https://github.com/preactjs/signals',
     npm: 'https://www.npmjs.com/package/@preact/signals-agent-vite',
     website: 'https://preactjs.com',
+  },
+  source: {
+    github: 'preactjs/signals',
+    npm: '@preact/signals-agent-vite',
   },
   stats: {
     stars: 4484,

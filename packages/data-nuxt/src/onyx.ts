@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://onyx.schwarz/development/packages/nuxt.html',
   },
   source: {
-    github: 'SchwarzIT/onyx#main/packages/nuxt',
+    github: 'SchwarzIT/onyx',
     npm: '@sit-onyx/nuxt',
   },
 })

@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'vue',
     'vue-router',
   ],
-  source: {
-    npm: '@sgysldz/vue-auto-router',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@sgysldz/vue-auto-router',
+  },
+  source: {
+    npm: '@sgysldz/vue-auto-router',
   },
   stats: {
     stars: 0,

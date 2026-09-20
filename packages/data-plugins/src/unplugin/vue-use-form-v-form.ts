@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'vue-use-form/vue-use-form',
-    npm: '@vue-use-form/v-form',
-  },
   links: {
     github: 'https://github.com/vue-use-form/vue-use-form',
     npm: 'https://www.npmjs.com/package/@vue-use-form/v-form',
     website: 'https://github.com/vue-use-form/vue-use-form/tree/master/packages/unplugin-vForm#readme',
+  },
+  source: {
+    github: 'vue-use-form/vue-use-form',
+    npm: '@vue-use-form/v-form',
   },
   stats: {
     stars: 109,

@@ -23,13 +23,13 @@ export default defineProjectMeta({
     'concat',
     'merge',
   ],
-  source: {
-    github: 'syJSdev/rollup-plugin-copy-merge',
-    npm: 'rollup-plugin-copy-merge',
-  },
   links: {
     github: 'https://github.com/syJSdev/rollup-plugin-copy-merge',
     npm: 'https://www.npmjs.com/package/rollup-plugin-copy-merge',
+  },
+  source: {
+    github: 'syJSdev/rollup-plugin-copy-merge',
+    npm: 'rollup-plugin-copy-merge',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'ts-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'gleam-br/ts-plugin-gleam',
-    npm: 'ts-plugin-gleam',
-  },
   links: {
     github: 'https://github.com/gleam-br/ts-plugin-gleam',
     npm: 'https://www.npmjs.com/package/ts-plugin-gleam',
     website: 'https://github.com/gleam-br/ts-plugin-gleam#readme',
+  },
+  source: {
+    github: 'gleam-br/ts-plugin-gleam',
+    npm: 'ts-plugin-gleam',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'sfc',
     'file-based-routing',
   ],
-  source: {
-    github: 'HansKristoffer/tanstack-router-vue-sfc',
-    npm: 'tanstack-router-sfc',
-  },
   links: {
     github: 'https://github.com/HansKristoffer/tanstack-router-vue-sfc',
     npm: 'https://www.npmjs.com/package/tanstack-router-sfc',
     website: 'https://github.com/HansKristoffer/tanstack-router-vue-sfc#readme',
+  },
+  source: {
+    github: 'HansKristoffer/tanstack-router-vue-sfc',
+    npm: 'tanstack-router-sfc',
   },
   stats: {
     stars: 0,

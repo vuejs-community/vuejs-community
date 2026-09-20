@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'vite-plugin',
     'css-in-js',
   ],
-  source: {
-    npm: 'vite-plugin-toad',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-toad',
     website: 'https://github.com/MrFoxPro/vite-plugin-toad',
+  },
+  source: {
+    npm: 'vite-plugin-toad',
   },
   stats: {
     stars: 0,

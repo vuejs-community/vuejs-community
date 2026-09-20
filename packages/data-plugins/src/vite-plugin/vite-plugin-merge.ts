@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'NixySoftware/vite-plugin-merge',
-    npm: 'vite-plugin-merge',
-  },
   links: {
     github: 'https://github.com/NixySoftware/vite-plugin-merge',
     npm: 'https://www.npmjs.com/package/vite-plugin-merge',
     website: 'https://github.com/NixySoftware/vite-plugin-merge#readme',
+  },
+  source: {
+    github: 'NixySoftware/vite-plugin-merge',
+    npm: 'vite-plugin-merge',
   },
   stats: {
     stars: 0,

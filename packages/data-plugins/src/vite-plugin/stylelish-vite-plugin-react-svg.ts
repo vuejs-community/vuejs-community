@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'icon',
     'component',
   ],
-  source: {
-    github: 'StyleList94/plugin-baby',
-    npm: '@stylelish/vite-plugin-react-svg',
-  },
   links: {
     github: 'https://github.com/StyleList94/plugin-baby',
     npm: 'https://www.npmjs.com/package/@stylelish/vite-plugin-react-svg',
     website: 'https://github.com/StyleList94/plugin-baby/tree/main/packages/vite-plugin-react-svg#readme',
+  },
+  source: {
+    github: 'StyleList94/plugin-baby',
+    npm: '@stylelish/vite-plugin-react-svg',
   },
   stats: {
     stars: 0,

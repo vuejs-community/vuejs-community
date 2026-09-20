@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'version-manifest',
     'build-metadata',
   ],
-  source: {
-    github: 'jgdonas/vite-plugin-version-manifest',
-    npm: '@jose.donas/vite-plugin-version-manifest',
-  },
   links: {
     github: 'https://github.com/jgdonas/vite-plugin-version-manifest',
     npm: 'https://www.npmjs.com/package/@jose.donas/vite-plugin-version-manifest',
     website: 'https://github.com/jgdonas/vite-plugin-version-manifest#readme',
+  },
+  source: {
+    github: 'jgdonas/vite-plugin-version-manifest',
+    npm: '@jose.donas/vite-plugin-version-manifest',
   },
   stats: {
     stars: 0,

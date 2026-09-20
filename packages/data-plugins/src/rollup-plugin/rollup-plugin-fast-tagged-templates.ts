@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'css',
     'html',
   ],
-  source: {
-    github: 'radium-v/rollup-plugin-fast-tagged-templates',
-    npm: 'rollup-plugin-fast-tagged-templates',
-  },
   links: {
     github: 'https://github.com/radium-v/rollup-plugin-fast-tagged-templates',
     npm: 'https://www.npmjs.com/package/rollup-plugin-fast-tagged-templates',
     website: 'https://github.com/radium-v/rollup-plugin-fast-tagged-templates#readme',
+  },
+  source: {
+    github: 'radium-v/rollup-plugin-fast-tagged-templates',
+    npm: 'rollup-plugin-fast-tagged-templates',
   },
   stats: {
     stars: 2,

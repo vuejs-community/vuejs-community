@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'cueaz/vite-plugin-inline-css-modules',
-    npm: '@cueaz/vite-plugin-inline-css-modules',
-  },
   links: {
     github: 'https://github.com/cueaz/vite-plugin-inline-css-modules',
     npm: 'https://www.npmjs.com/package/@cueaz/vite-plugin-inline-css-modules',
     website: 'https://github.com/cueaz/vite-plugin-inline-css-modules#readme',
+  },
+  source: {
+    github: 'cueaz/vite-plugin-inline-css-modules',
+    npm: '@cueaz/vite-plugin-inline-css-modules',
   },
   stats: {
     stars: 1,

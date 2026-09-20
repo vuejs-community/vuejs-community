@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'generator',
     'import',
   ],
-  source: {
-    github: 'davidbonnet/vite-plugin-module-list',
-    npm: 'vite-plugin-module-list',
-  },
   links: {
     github: 'https://github.com/davidbonnet/vite-plugin-module-list',
     npm: 'https://www.npmjs.com/package/vite-plugin-module-list',
     website: 'https://github.com/davidbonnet/vite-plugin-module-list#readme',
+  },
+  source: {
+    github: 'davidbonnet/vite-plugin-module-list',
+    npm: 'vite-plugin-module-list',
   },
   stats: {
     stars: 3,

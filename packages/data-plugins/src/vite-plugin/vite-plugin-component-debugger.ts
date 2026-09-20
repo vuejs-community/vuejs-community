@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'component-tracking',
     'customizable',
   ],
-  source: {
-    github: 'canadianeagle/vite-plugin-component-debugger',
-    npm: 'vite-plugin-component-debugger',
-  },
   links: {
     github: 'https://github.com/canadianeagle/vite-plugin-component-debugger',
     npm: 'https://www.npmjs.com/package/vite-plugin-component-debugger',
     website: 'https://www.tonyebrown.com/apps/vite-plugin-component-debugger',
+  },
+  source: {
+    github: 'canadianeagle/vite-plugin-component-debugger',
+    npm: 'vite-plugin-component-debugger',
   },
   stats: {
     stars: 5,

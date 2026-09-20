@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'islands',
     'zero-hydration',
   ],
-  source: {
-    github: 'ChandanBose666/Bosejs',
-    npm: '@bosejs/core',
-  },
   links: {
     github: 'https://github.com/ChandanBose666/Bosejs',
     npm: 'https://www.npmjs.com/package/@bosejs/core',
     website: 'https://github.com/ChandanBose666/Bosejs#readme',
+  },
+  source: {
+    github: 'ChandanBose666/Bosejs',
+    npm: '@bosejs/core',
   },
   stats: {
     stars: 3,

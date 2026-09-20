@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'mock',
     'typescript',
   ],
-  source: {
-    github: 'leitingting08/vite-plugin-easy-mock',
-    npm: 'vite-plugin-easy-mock',
-  },
   links: {
     github: 'https://github.com/leitingting08/vite-plugin-easy-mock',
     npm: 'https://www.npmjs.com/package/vite-plugin-easy-mock',
     website: 'https://github.com/leitingting08/vite-plugin-easy-mock#readme',
+  },
+  source: {
+    github: 'leitingting08/vite-plugin-easy-mock',
+    npm: 'vite-plugin-easy-mock',
   },
   stats: {
     stars: 1,

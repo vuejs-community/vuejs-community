@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'buildless-optional',
   ],
-  source: {
-    github: 'vera-js/vera',
-    npm: '@verajs/jsx',
-  },
   links: {
     github: 'https://github.com/vera-js/vera',
     npm: 'https://www.npmjs.com/package/@verajs/jsx',
     website: 'https://verajs.dev',
+  },
+  source: {
+    github: 'vera-js/vera',
+    npm: '@verajs/jsx',
   },
   stats: {
     stars: 0,

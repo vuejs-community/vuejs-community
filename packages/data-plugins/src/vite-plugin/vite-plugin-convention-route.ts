@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'react',
     'react-router',
   ],
-  source: {
-    npm: 'vite-plugin-convention-route',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-convention-route',
     website: 'https://github.com/lovetingyuan/vite-plugin-convention-route',
+  },
+  source: {
+    npm: 'vite-plugin-convention-route',
   },
   stats: {
     stars: 0,

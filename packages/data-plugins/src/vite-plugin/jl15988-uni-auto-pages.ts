@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'auto-pages.js',
     'auto-pages.ts',
   ],
-  source: {
-    npm: '@jl15988/uni-auto-pages',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@jl15988/uni-auto-pages',
+  },
+  source: {
+    npm: '@jl15988/uni-auto-pages',
   },
   stats: {
     stars: 0,

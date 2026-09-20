@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'pi-extension',
     'agent-presence',
   ],
-  source: {
-    npm: 'vite-plugin-agent-presence',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-agent-presence',
+  },
+  source: {
+    npm: 'vite-plugin-agent-presence',
   },
   stats: {
     stars: 0,

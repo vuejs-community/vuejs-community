@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'query',
     'static assets',
   ],
-  source: {
-    github: 'yue1123/vite-plugin-data-url',
-    npm: 'vite-plugin-data-url',
-  },
   links: {
     github: 'https://github.com/yue1123/vite-plugin-data-url',
     npm: 'https://www.npmjs.com/package/vite-plugin-data-url',
     website: 'https://github.com/yue1123/vite-plugin-data-url',
+  },
+  source: {
+    github: 'yue1123/vite-plugin-data-url',
+    npm: 'vite-plugin-data-url',
   },
   stats: {
     stars: 1,

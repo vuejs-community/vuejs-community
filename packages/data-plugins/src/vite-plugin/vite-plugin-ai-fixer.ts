@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'build-error',
     'error-analysis',
   ],
-  source: {
-    npm: 'vite-plugin-ai-fixer',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-ai-fixer',
+  },
+  source: {
+    npm: 'vite-plugin-ai-fixer',
   },
   stats: {
     stars: 0,

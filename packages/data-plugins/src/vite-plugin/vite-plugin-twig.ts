@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'twig',
   ],
-  source: {
-    github: 'fiadone/vite-plugin-twig',
-    npm: 'vite-plugin-twig',
-  },
   links: {
     github: 'https://github.com/fiadone/vite-plugin-twig',
     npm: 'https://www.npmjs.com/package/vite-plugin-twig',
     website: 'https://github.com/fiadone/vite-plugin-twig#readme',
+  },
+  source: {
+    github: 'fiadone/vite-plugin-twig',
+    npm: 'vite-plugin-twig',
   },
   stats: {
     stars: 0,

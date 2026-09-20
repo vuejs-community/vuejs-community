@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'plugin',
   ],
-  source: {
-    npm: '@nadi.js/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@nadi.js/vite-plugin',
+  },
+  source: {
+    npm: '@nadi.js/vite-plugin',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'paths',
     'absolute-paths',
   ],
-  source: {
-    github: 'saroroce/absolutify-paths-vite-react',
-    npm: 'absolutify-paths-vite-react',
-  },
   links: {
     github: 'https://github.com/saroroce/absolutify-paths-vite-react',
     npm: 'https://www.npmjs.com/package/absolutify-paths-vite-react',
     website: 'https://github.com/saroroce/absolutify-paths-vite-react#readme',
+  },
+  source: {
+    github: 'saroroce/absolutify-paths-vite-react',
+    npm: 'absolutify-paths-vite-react',
   },
   stats: {
     stars: 1,

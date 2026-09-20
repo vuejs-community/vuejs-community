@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'rolldown',
     'esbuild',
   ],
-  source: {
-    github: 'tractorbeamai/unplugin-datadog-apm',
-    npm: 'unplugin-datadog-apm',
-  },
   links: {
     github: 'https://github.com/tractorbeamai/unplugin-datadog-apm',
     npm: 'https://www.npmjs.com/package/unplugin-datadog-apm',
     website: 'https://github.com/tractorbeamai/unplugin-datadog-apm#readme',
+  },
+  source: {
+    github: 'tractorbeamai/unplugin-datadog-apm',
+    npm: 'unplugin-datadog-apm',
   },
   stats: {
     stars: 0,

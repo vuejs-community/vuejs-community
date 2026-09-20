@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'esbuild',
     'nextjs',
   ],
-  source: {
-    github: 'vocoder-i18n/sdk',
-    npm: '@vocoder/plugin',
-  },
   links: {
     github: 'https://github.com/vocoder-i18n/sdk',
     npm: 'https://www.npmjs.com/package/@vocoder/plugin',
     website: 'https://github.com/vocoder-i18n/sdk#readme',
+  },
+  source: {
+    github: 'vocoder-i18n/sdk',
+    npm: '@vocoder/plugin',
   },
   stats: {
     stars: 0,

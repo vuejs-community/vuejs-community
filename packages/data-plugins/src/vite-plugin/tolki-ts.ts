@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'tolki',
   ],
-  source: {
-    github: 'abetwothree/tolki',
-    npm: '@tolki/ts',
-  },
   links: {
     github: 'https://github.com/abetwothree/tolki',
     npm: 'https://www.npmjs.com/package/@tolki/ts',
     website: 'https://tolki.abe.dev/ts/',
+  },
+  source: {
+    github: 'abetwothree/tolki',
+    npm: '@tolki/ts',
   },
   stats: {
     stars: 0,

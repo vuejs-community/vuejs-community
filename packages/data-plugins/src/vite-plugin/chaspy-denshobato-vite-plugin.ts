@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'jsx-transform',
     'denshobato',
   ],
-  source: {
-    github: 'chaspy/denshobato-studio',
-    npm: '@chaspy/denshobato-vite-plugin',
-  },
   links: {
     github: 'https://github.com/chaspy/denshobato-studio',
     npm: 'https://www.npmjs.com/package/@chaspy/denshobato-vite-plugin',
     website: 'https://github.com/chaspy/denshobato-studio#readme',
+  },
+  source: {
+    github: 'chaspy/denshobato-studio',
+    npm: '@chaspy/denshobato-vite-plugin',
   },
   stats: {
     stars: 0,

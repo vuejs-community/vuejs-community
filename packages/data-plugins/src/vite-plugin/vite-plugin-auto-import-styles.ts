@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'auto-import',
     'vite-plugin',
   ],
-  source: {
-    github: 'Asaki-M/vite-plugin-auto-import-styles',
-    npm: 'vite-plugin-auto-import-styles',
-  },
   links: {
     github: 'https://github.com/Asaki-M/vite-plugin-auto-import-styles',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-import-styles',
     website: 'https://github.com/Asaki-M/vite-plugin-auto-import-styles#readme',
+  },
+  source: {
+    github: 'Asaki-M/vite-plugin-auto-import-styles',
+    npm: 'vite-plugin-auto-import-styles',
   },
   stats: {
     stars: 2,

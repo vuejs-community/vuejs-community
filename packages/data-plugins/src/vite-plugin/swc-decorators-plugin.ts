@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'class-fields',
     'rolldown',
   ],
-  source: {
-    github: 'js2me/swc-decorators-plugin',
-    npm: 'swc-decorators-plugin',
-  },
   links: {
     github: 'https://github.com/js2me/swc-decorators-plugin',
     npm: 'https://www.npmjs.com/package/swc-decorators-plugin',
     website: 'https://github.com/js2me/swc-decorators-plugin#readme',
+  },
+  source: {
+    github: 'js2me/swc-decorators-plugin',
+    npm: 'swc-decorators-plugin',
   },
   stats: {
     stars: 0,

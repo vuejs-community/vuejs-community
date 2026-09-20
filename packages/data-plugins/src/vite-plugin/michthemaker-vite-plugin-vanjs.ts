@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'michthemaker/vanjs',
-    npm: '@michthemaker/vite-plugin-vanjs',
-  },
   links: {
     github: 'https://github.com/michthemaker/vanjs',
     npm: 'https://www.npmjs.com/package/@michthemaker/vite-plugin-vanjs',
     website: 'https://github.com/michthemaker/vanjs/tree/main/packages/vite-plugin-vanjs',
+  },
+  source: {
+    github: 'michthemaker/vanjs',
+    npm: '@michthemaker/vite-plugin-vanjs',
   },
   stats: {
     stars: 3,

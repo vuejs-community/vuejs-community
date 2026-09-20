@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'shanewholloway/rollup-plugin-dgnotify',
-    npm: 'rollup-plugin-dgnotify',
-  },
   links: {
     github: 'https://github.com/shanewholloway/rollup-plugin-dgnotify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-dgnotify',
     website: 'https://github.com/shanewholloway/rollup-plugin-dgnotify#readme',
+  },
+  source: {
+    github: 'shanewholloway/rollup-plugin-dgnotify',
+    npm: 'rollup-plugin-dgnotify',
   },
   stats: {
     stars: 0,

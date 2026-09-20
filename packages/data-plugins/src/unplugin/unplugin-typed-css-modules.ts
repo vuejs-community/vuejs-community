@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'typescript',
     'generator',
   ],
-  source: {
-    github: 'RichDom2185/unplugin-typed-css-modules',
-    npm: 'unplugin-typed-css-modules',
-  },
   links: {
     github: 'https://github.com/RichDom2185/unplugin-typed-css-modules',
     npm: 'https://www.npmjs.com/package/unplugin-typed-css-modules',
     website: 'https://github.com/RichDom2185/unplugin-typed-css-modules#readme',
+  },
+  source: {
+    github: 'RichDom2185/unplugin-typed-css-modules',
+    npm: 'unplugin-typed-css-modules',
   },
   stats: {
     stars: 2,

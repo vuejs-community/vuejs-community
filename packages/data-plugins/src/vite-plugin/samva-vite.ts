@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'whatsapp',
   ],
-  source: {
-    github: 'AryaLabsHQ/samva',
-    npm: '@samva/vite',
-  },
   links: {
     github: 'https://github.com/AryaLabsHQ/samva',
     npm: 'https://www.npmjs.com/package/@samva/vite',
     website: 'https://samva.dev',
+  },
+  source: {
+    github: 'AryaLabsHQ/samva',
+    npm: '@samva/vite',
   },
   stats: {
     stars: 0,

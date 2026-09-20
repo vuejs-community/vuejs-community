@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'cloudflare/workers-sdk',
-    npm: 'brettimus-cloudflare-vite-plugin',
-  },
   links: {
     github: 'https://github.com/cloudflare/workers-sdk',
     npm: 'https://www.npmjs.com/package/brettimus-cloudflare-vite-plugin',
     website: 'https://github.com/cloudflare/workers-sdk/tree/main/packages/vite-plugin-cloudflare#readme',
+  },
+  source: {
+    github: 'cloudflare/workers-sdk',
+    npm: 'brettimus-cloudflare-vite-plugin',
   },
   stats: {
     stars: 0,

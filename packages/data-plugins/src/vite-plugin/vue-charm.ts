@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vue-charm',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vue-charm',
+  },
+  source: {
+    npm: 'vue-charm',
   },
   stats: {
     stars: 0,

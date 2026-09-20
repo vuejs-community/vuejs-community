@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esm',
     'babel',
   ],
-  source: {
-    github: 'AjCu/vite-plugin-esm-to-systemjs',
-    npm: 'vite-plugin-esm-to-systemjs',
-  },
   links: {
     github: 'https://github.com/AjCu/vite-plugin-esm-to-systemjs',
     npm: 'https://www.npmjs.com/package/vite-plugin-esm-to-systemjs',
     website: 'https://github.com/AjCu/vite-plugin-esm-to-systemjs',
+  },
+  source: {
+    github: 'AjCu/vite-plugin-esm-to-systemjs',
+    npm: 'vite-plugin-esm-to-systemjs',
   },
   stats: {
     stars: 0,

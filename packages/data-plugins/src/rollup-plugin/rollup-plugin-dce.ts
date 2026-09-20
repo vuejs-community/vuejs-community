@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'Swatinem/rollup-plugin-dce',
-    npm: 'rollup-plugin-dce',
-  },
   links: {
     github: 'https://github.com/Swatinem/rollup-plugin-dce',
     npm: 'https://www.npmjs.com/package/rollup-plugin-dce',
     website: 'https://github.com/Swatinem/rollup-plugin-dce#readme',
+  },
+  source: {
+    github: 'Swatinem/rollup-plugin-dce',
+    npm: 'rollup-plugin-dce',
   },
   stats: {
     stars: 0,

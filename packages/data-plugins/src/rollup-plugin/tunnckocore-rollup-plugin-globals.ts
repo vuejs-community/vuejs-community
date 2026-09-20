@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    npm: '@tunnckocore/rollup-plugin-globals',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@tunnckocore/rollup-plugin-globals',
+  },
+  source: {
+    npm: '@tunnckocore/rollup-plugin-globals',
   },
   stats: {
     stars: 0,

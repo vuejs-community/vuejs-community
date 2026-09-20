@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://nuxt-freeform.fh-softdev.de',
   },
   source: {
-    github: 'Flo0806/nuxt-freeform#main/packages/nuxt-freeform',
+    github: 'Flo0806/nuxt-freeform',
     npm: 'nuxt-freeform',
   },
 })

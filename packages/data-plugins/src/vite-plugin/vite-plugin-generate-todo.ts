@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'todo',
     'md',
   ],
-  source: {
-    github: 'DonggunLim/vite-plugin-generate-todo',
-    npm: 'vite-plugin-generate-todo',
-  },
   links: {
     github: 'https://github.com/DonggunLim/vite-plugin-generate-todo',
     npm: 'https://www.npmjs.com/package/vite-plugin-generate-todo',
     website: 'https://github.com/DonggunLim/vite-plugin-generate-todo#readme',
+  },
+  source: {
+    github: 'DonggunLim/vite-plugin-generate-todo',
+    npm: 'vite-plugin-generate-todo',
   },
   stats: {
     stars: 0,

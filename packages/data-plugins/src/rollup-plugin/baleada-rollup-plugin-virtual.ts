@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'virtual',
   ],
-  source: {
-    github: 'baleada/rollup-plugin-virtual',
-    npm: '@baleada/rollup-plugin-virtual',
-  },
   links: {
     github: 'https://github.com/baleada/rollup-plugin-virtual',
     npm: 'https://www.npmjs.com/package/@baleada/rollup-plugin-virtual',
     website: 'https://baleada.netlify.com',
+  },
+  source: {
+    github: 'baleada/rollup-plugin-virtual',
+    npm: '@baleada/rollup-plugin-virtual',
   },
   stats: {
     stars: 0,

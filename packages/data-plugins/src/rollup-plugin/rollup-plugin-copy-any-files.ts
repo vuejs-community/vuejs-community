@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'copy',
   ],
-  source: {
-    github: 'pingan8787/rollup-plugin-copy-files',
-    npm: 'rollup-plugin-copy-any-files',
-  },
   links: {
     github: 'https://github.com/pingan8787/rollup-plugin-copy-files',
     npm: 'https://www.npmjs.com/package/rollup-plugin-copy-any-files',
     website: 'https://github.com/pingan8787/rollup-plugin-copy-files#readme',
+  },
+  source: {
+    github: 'pingan8787/rollup-plugin-copy-files',
+    npm: 'rollup-plugin-copy-any-files',
   },
   stats: {
     stars: 1,

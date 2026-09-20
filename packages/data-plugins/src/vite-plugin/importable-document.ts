@@ -43,14 +43,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'importables/importable',
-    npm: '@importable/document',
-  },
   links: {
     github: 'https://github.com/importables/importable',
     npm: 'https://www.npmjs.com/package/@importable/document',
     website: 'https://github.com/importables/importable/',
+  },
+  source: {
+    github: 'importables/importable',
+    npm: '@importable/document',
   },
   stats: {
     stars: 30,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'css-module',
   ],
-  source: {
-    github: 'jsonz1993/vite-plugin-load-css-module',
-    npm: 'vite-plugin-load-css-module',
-  },
   links: {
     github: 'https://github.com/jsonz1993/vite-plugin-load-css-module',
     npm: 'https://www.npmjs.com/package/vite-plugin-load-css-module',
     website: 'https://github.com/jsonz1993/vite-plugin-load-css-module',
+  },
+  source: {
+    github: 'jsonz1993/vite-plugin-load-css-module',
+    npm: 'vite-plugin-load-css-module',
   },
   stats: {
     stars: 20,

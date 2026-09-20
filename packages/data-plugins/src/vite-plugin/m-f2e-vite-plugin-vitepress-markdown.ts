@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vitepress',
     'vite-plugin',
   ],
-  source: {
-    npm: '@m-f2e/vite-plugin-vitepress-markdown',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@m-f2e/vite-plugin-vitepress-markdown',
+  },
+  source: {
+    npm: '@m-f2e/vite-plugin-vitepress-markdown',
   },
   stats: {
     stars: 0,

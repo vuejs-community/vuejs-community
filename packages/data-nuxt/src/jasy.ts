@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://jasy.dev',
   },
   source: {
-    github: 'jasy-pdf/jasy#main/packages/nuxt',
+    github: 'jasy-pdf/jasy',
     npm: '@jasy/nuxt',
   },
 })

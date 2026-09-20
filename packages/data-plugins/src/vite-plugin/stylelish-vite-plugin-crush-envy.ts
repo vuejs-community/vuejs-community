@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'dts',
     'autocompletion',
   ],
-  source: {
-    github: 'StyleList94/plugin-baby',
-    npm: '@stylelish/vite-plugin-crush-envy',
-  },
   links: {
     github: 'https://github.com/StyleList94/plugin-baby',
     npm: 'https://www.npmjs.com/package/@stylelish/vite-plugin-crush-envy',
     website: 'https://github.com/StyleList94/plugin-baby/tree/main/packages/vite-plugin-crush-envy#readme',
+  },
+  source: {
+    github: 'StyleList94/plugin-baby',
+    npm: '@stylelish/vite-plugin-crush-envy',
   },
   stats: {
     stars: 0,

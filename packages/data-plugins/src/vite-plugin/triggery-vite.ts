@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'virtual-module',
     'hmr',
   ],
-  source: {
-    github: 'triggeryjs/triggery',
-    npm: '@triggery/vite',
-  },
   links: {
     github: 'https://github.com/triggeryjs/triggery',
     npm: 'https://www.npmjs.com/package/@triggery/vite',
     website: 'https://triggeryjs.github.io',
+  },
+  source: {
+    github: 'triggeryjs/triggery',
+    npm: '@triggery/vite',
   },
   stats: {
     stars: 0,

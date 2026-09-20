@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'dotenv',
   ],
-  source: {
-    github: 'mato533/rollup-plugin-typed-dotenv',
-    npm: 'rollup-plugin-typed-dotenv',
-  },
   links: {
     github: 'https://github.com/mato533/rollup-plugin-typed-dotenv',
     npm: 'https://www.npmjs.com/package/rollup-plugin-typed-dotenv',
     website: 'https://github.com/mato533/rollup-plugin-typed-dotenv#readme',
+  },
+  source: {
+    github: 'mato533/rollup-plugin-typed-dotenv',
+    npm: 'rollup-plugin-typed-dotenv',
   },
   stats: {
     stars: 0,

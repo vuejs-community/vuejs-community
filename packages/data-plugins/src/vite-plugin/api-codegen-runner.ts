@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'cli',
     'vite-plugin',
   ],
-  source: {
-    github: 'XSIJIE975/api-codegen-runner',
-    npm: 'api-codegen-runner',
-  },
   links: {
     github: 'https://github.com/XSIJIE975/api-codegen-runner',
     npm: 'https://www.npmjs.com/package/api-codegen-runner',
     website: 'https://github.com/XSIJIE975/api-codegen-runner#readme',
+  },
+  source: {
+    github: 'XSIJIE975/api-codegen-runner',
+    npm: 'api-codegen-runner',
   },
   stats: {
     stars: 1,

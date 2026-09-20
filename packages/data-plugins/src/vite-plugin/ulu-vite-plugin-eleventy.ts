@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'static-site-generator',
     'ssg',
   ],
-  source: {
-    github: 'Jscherbe/vite-plugin-eleventy',
-    npm: '@ulu/vite-plugin-eleventy',
-  },
   links: {
     github: 'https://github.com/Jscherbe/vite-plugin-eleventy',
     npm: 'https://www.npmjs.com/package/@ulu/vite-plugin-eleventy',
     website: 'https://github.com/Jscherbe/vite-plugin-eleventy#readme',
+  },
+  source: {
+    github: 'Jscherbe/vite-plugin-eleventy',
+    npm: '@ulu/vite-plugin-eleventy',
   },
   stats: {
     stars: 0,

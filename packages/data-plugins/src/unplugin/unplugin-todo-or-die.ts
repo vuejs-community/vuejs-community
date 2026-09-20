@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'so1ve/unplugin-todo-or-die',
-    npm: 'unplugin-todo-or-die',
-  },
   links: {
     github: 'https://github.com/so1ve/unplugin-todo-or-die',
     npm: 'https://www.npmjs.com/package/unplugin-todo-or-die',
     website: 'https://github.com/so1ve/unplugin-todo-or-die#readme',
+  },
+  source: {
+    github: 'so1ve/unplugin-todo-or-die',
+    npm: 'unplugin-todo-or-die',
   },
   stats: {
     stars: 22,

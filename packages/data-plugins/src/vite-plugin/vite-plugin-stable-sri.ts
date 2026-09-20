@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'reproducible',
     'deterministic',
   ],
-  source: {
-    github: 'justinformentin/vite-plugin-stable-sri',
-    npm: 'vite-plugin-stable-sri',
-  },
   links: {
     github: 'https://github.com/justinformentin/vite-plugin-stable-sri',
     npm: 'https://www.npmjs.com/package/vite-plugin-stable-sri',
     website: 'https://github.com/justinformentin/vite-plugin-stable-sri#readme',
+  },
+  source: {
+    github: 'justinformentin/vite-plugin-stable-sri',
+    npm: 'vite-plugin-stable-sri',
   },
   stats: {
     stars: 0,

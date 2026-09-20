@@ -25,11 +25,11 @@ export default defineProjectMeta({
     'redirect',
     'collection',
   ],
-  source: {
-    npm: '@xysfe/vite-plugins',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xysfe/vite-plugins',
+  },
+  source: {
+    npm: '@xysfe/vite-plugins',
   },
   stats: {
     stars: 0,

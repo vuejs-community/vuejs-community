@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'viewer',
     'evaluation',
   ],
-  source: {
-    github: 'ideonate/evals-viewer',
-    npm: '@ideonate/evals-viewer-server',
-  },
   links: {
     github: 'https://github.com/ideonate/evals-viewer',
     npm: 'https://www.npmjs.com/package/@ideonate/evals-viewer-server',
     website: 'https://github.com/ideonate/evals-viewer#readme',
+  },
+  source: {
+    github: 'ideonate/evals-viewer',
+    npm: '@ideonate/evals-viewer-server',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'json',
     'template',
   ],
-  source: {
-    github: 'iltimasd/rollup-plugin-string',
-    npm: 'rollup-plugin-hjson',
-  },
   links: {
     github: 'https://github.com/iltimasd/rollup-plugin-string',
     npm: 'https://www.npmjs.com/package/rollup-plugin-hjson',
     website: 'https://github.com/iltimasd/rollup-plugin-string',
+  },
+  source: {
+    github: 'iltimasd/rollup-plugin-string',
+    npm: 'rollup-plugin-hjson',
   },
   stats: {
     stars: 0,

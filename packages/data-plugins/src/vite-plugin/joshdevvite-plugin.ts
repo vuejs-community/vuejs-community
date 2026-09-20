@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'hmr',
     'asset-management',
   ],
-  source: {
-    github: 'joshdevkit/vite-plugin-joshdevfr',
-    npm: 'joshdevvite-plugin',
-  },
   links: {
     github: 'https://github.com/joshdevkit/vite-plugin-joshdevfr',
     npm: 'https://www.npmjs.com/package/joshdevvite-plugin',
     website: 'https://github.com/joshdevkit/vite-plugin-joshdevfr#readme',
+  },
+  source: {
+    github: 'joshdevkit/vite-plugin-joshdevfr',
+    npm: 'joshdevvite-plugin',
   },
   stats: {
     stars: 0,

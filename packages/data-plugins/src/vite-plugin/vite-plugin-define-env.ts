@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vue-cli',
     'vue',
   ],
-  source: {
-    github: 'onlymisaky/vite-plugin-define-env',
-    npm: 'vite-plugin-define-env',
-  },
   links: {
     github: 'https://github.com/onlymisaky/vite-plugin-define-env',
     npm: 'https://www.npmjs.com/package/vite-plugin-define-env',
     website: 'https://github.com/onlymisaky/vite-plugin-define-env#readme',
+  },
+  source: {
+    github: 'onlymisaky/vite-plugin-define-env',
+    npm: 'vite-plugin-define-env',
   },
   stats: {
     stars: 1,

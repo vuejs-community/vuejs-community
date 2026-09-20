@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vue',
     'webpack',
   ],
-  source: {
-    github: 'ubugeeei-prod/vize',
-    npm: '@vizejs/unplugin',
-  },
   links: {
     github: 'https://github.com/ubugeeei-prod/vize',
     npm: 'https://www.npmjs.com/package/@vizejs/unplugin',
     website: 'https://github.com/ubugeeei-prod/vize',
+  },
+  source: {
+    github: 'ubugeeei-prod/vize',
+    npm: '@vizejs/unplugin',
   },
   stats: {
     stars: 0,

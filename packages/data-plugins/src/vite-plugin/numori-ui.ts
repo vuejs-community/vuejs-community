@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'ui',
     'numori',
   ],
-  source: {
-    github: 'Numori-Ecosystem/Numori-UI',
-    npm: 'numori-ui',
-  },
   links: {
     github: 'https://github.com/Numori-Ecosystem/Numori-UI',
     npm: 'https://www.npmjs.com/package/numori-ui',
     website: 'https://github.com/Numori-Ecosystem/Numori-UI',
+  },
+  source: {
+    github: 'Numori-Ecosystem/Numori-UI',
+    npm: 'numori-ui',
   },
   stats: {
     stars: 0,

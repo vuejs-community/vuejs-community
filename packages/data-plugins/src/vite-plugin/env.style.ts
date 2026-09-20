@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'staging',
     'preview',
   ],
-  source: {
-    github: 'QuadDepo/env.style',
-    npm: 'env.style',
-  },
   links: {
     github: 'https://github.com/QuadDepo/env.style',
     npm: 'https://www.npmjs.com/package/env.style',
     website: 'https://github.com/QuadDepo/env.style#readme',
+  },
+  source: {
+    github: 'QuadDepo/env.style',
+    npm: 'env.style',
   },
   stats: {
     stars: 225,

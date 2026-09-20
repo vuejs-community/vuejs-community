@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'react',
     'components',
   ],
-  source: {
-    github: 'kuzivany/rollup-plugin-svgi',
-    npm: 'rollup-plugin-svgi',
-  },
   links: {
     github: 'https://github.com/kuzivany/rollup-plugin-svgi',
     npm: 'https://www.npmjs.com/package/rollup-plugin-svgi',
     website: 'https://github.com/kuzivany/rollup-plugin-svgi',
+  },
+  source: {
+    github: 'kuzivany/rollup-plugin-svgi',
+    npm: 'rollup-plugin-svgi',
   },
   stats: {
     stars: 4,

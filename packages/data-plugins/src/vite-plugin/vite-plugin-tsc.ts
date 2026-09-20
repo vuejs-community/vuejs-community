@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'kazuma1989/vite-plugin-tsc',
-    npm: 'vite-plugin-tsc',
-  },
   links: {
     github: 'https://github.com/kazuma1989/vite-plugin-tsc',
     npm: 'https://www.npmjs.com/package/vite-plugin-tsc',
     website: 'https://github.com/kazuma1989/vite-plugin-tsc#readme',
+  },
+  source: {
+    github: 'kazuma1989/vite-plugin-tsc',
+    npm: 'vite-plugin-tsc',
   },
   stats: {
     stars: 0,

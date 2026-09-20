@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'DAEIL',
     'DIC',
   ],
-  source: {
-    github: 'YoonYoeungJun/vesdic-security',
-    npm: 'vesdic-security',
-  },
   links: {
     github: 'https://github.com/YoonYoeungJun/vesdic-security',
     npm: 'https://www.npmjs.com/package/vesdic-security',
     website: 'http://dicorp.co.kr',
+  },
+  source: {
+    github: 'YoonYoeungJun/vesdic-security',
+    npm: 'vesdic-security',
   },
   stats: {
     stars: 0,

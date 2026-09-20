@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'scan',
     'vite-plugin',
   ],
-  source: {
-    npm: '@nwire/scan',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@nwire/scan',
+  },
+  source: {
+    npm: '@nwire/scan',
   },
   stats: {
     stars: 0,

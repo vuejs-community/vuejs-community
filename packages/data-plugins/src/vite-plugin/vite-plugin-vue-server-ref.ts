@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'antfu/vite-plugin-vue-server-ref',
-    npm: 'vite-plugin-vue-server-ref',
-  },
   links: {
     github: 'https://github.com/antfu/vite-plugin-vue-server-ref',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-server-ref',
     website: 'https://github.com/antfu/vite-plugin-vue-server-ref#readme',
+  },
+  source: {
+    github: 'antfu/vite-plugin-vue-server-ref',
+    npm: 'vite-plugin-vue-server-ref',
   },
   stats: {
     stars: 75,

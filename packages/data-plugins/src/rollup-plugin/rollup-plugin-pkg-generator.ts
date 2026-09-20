@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'plugin',
     'rollup-plugin',
   ],
-  source: {
-    github: 'savantly-net/rollup-plugin-pkg-generator',
-    npm: 'rollup-plugin-pkg-generator',
-  },
   links: {
     github: 'https://github.com/savantly-net/rollup-plugin-pkg-generator',
     npm: 'https://www.npmjs.com/package/rollup-plugin-pkg-generator',
     website: 'https://github.com/savantly-net/rollup-plugin-pkg-generator#readme',
+  },
+  source: {
+    github: 'savantly-net/rollup-plugin-pkg-generator',
+    npm: 'rollup-plugin-pkg-generator',
   },
   stats: {
     stars: 0,

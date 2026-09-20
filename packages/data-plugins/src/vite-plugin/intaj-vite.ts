@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'ssg',
     'spa',
   ],
-  source: {
-    github: 'intaj-dev/intaj',
-    npm: '@intaj/vite',
-  },
   links: {
     github: 'https://github.com/intaj-dev/intaj',
     npm: 'https://www.npmjs.com/package/@intaj/vite',
     website: 'https://github.com/intaj-dev/intaj#readme',
+  },
+  source: {
+    github: 'intaj-dev/intaj',
+    npm: '@intaj/vite',
   },
   stats: {
     stars: 0,

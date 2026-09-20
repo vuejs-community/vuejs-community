@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'sse',
     'ai',
   ],
-  source: {
-    github: 'quanzhiyuan/vite-plugin-ai-mock',
-    npm: 'vite-plugin-ai-mock',
-  },
   links: {
     github: 'https://github.com/quanzhiyuan/vite-plugin-ai-mock',
     npm: 'https://www.npmjs.com/package/vite-plugin-ai-mock',
     website: 'https://github.com/quanzhiyuan/vite-plugin-ai-mock#readme',
+  },
+  source: {
+    github: 'quanzhiyuan/vite-plugin-ai-mock',
+    npm: 'vite-plugin-ai-mock',
   },
   stats: {
     stars: 0,

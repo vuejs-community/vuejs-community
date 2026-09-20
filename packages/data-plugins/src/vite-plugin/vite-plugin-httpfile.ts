@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'httpfile',
   ],
-  source: {
-    github: 'servicex-sh/vite-plugin-httpfile',
-    npm: 'vite-plugin-httpfile',
-  },
   links: {
     github: 'https://github.com/servicex-sh/vite-plugin-httpfile',
     npm: 'https://www.npmjs.com/package/vite-plugin-httpfile',
     website: 'https://github.com/servicex-sh/vite-plugin-httpfile#readme',
+  },
+  source: {
+    github: 'servicex-sh/vite-plugin-httpfile',
+    npm: 'vite-plugin-httpfile',
   },
   stats: {
     stars: 1,

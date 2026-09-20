@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'xieyhn/vite-plugin-lottie',
-    npm: 'vite-plugin-lottie',
-  },
   links: {
     github: 'https://github.com/xieyhn/vite-plugin-lottie',
     npm: 'https://www.npmjs.com/package/vite-plugin-lottie',
     website: 'https://github.com/xieyhn/vite-plugin-lottie#readme',
+  },
+  source: {
+    github: 'xieyhn/vite-plugin-lottie',
+    npm: 'vite-plugin-lottie',
   },
   stats: {
     stars: 8,

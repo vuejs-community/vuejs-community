@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'kryops/rollup-plugin-gzip',
-    npm: 'rollup-plugin-gzip',
-  },
   links: {
     github: 'https://github.com/kryops/rollup-plugin-gzip',
     npm: 'https://www.npmjs.com/package/rollup-plugin-gzip',
     website: 'https://github.com/kryops/rollup-plugin-gzip#readme',
+  },
+  source: {
+    github: 'kryops/rollup-plugin-gzip',
+    npm: 'rollup-plugin-gzip',
   },
   stats: {
     stars: 59,

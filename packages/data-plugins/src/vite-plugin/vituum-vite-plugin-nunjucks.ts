@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'vituum/vite-plugin-nunjucks',
-    npm: '@vituum/vite-plugin-nunjucks',
-  },
   links: {
     github: 'https://github.com/vituum/vite-plugin-nunjucks',
     npm: 'https://www.npmjs.com/package/@vituum/vite-plugin-nunjucks',
     website: 'https://github.com/vituum/vite-plugin-nunjucks#readme',
+  },
+  source: {
+    github: 'vituum/vite-plugin-nunjucks',
+    npm: '@vituum/vite-plugin-nunjucks',
   },
   stats: {
     stars: 14,

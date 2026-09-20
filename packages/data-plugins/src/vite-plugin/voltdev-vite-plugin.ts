@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'volt',
   ],
-  source: {
-    github: 'volt-js/volt',
-    npm: '@voltdev/vite-plugin',
-  },
   links: {
     github: 'https://github.com/volt-js/volt',
     npm: 'https://www.npmjs.com/package/@voltdev/vite-plugin',
     website: 'https://voltjs.dev',
+  },
+  source: {
+    github: 'volt-js/volt',
+    npm: '@voltdev/vite-plugin',
   },
   stats: {
     stars: 0,

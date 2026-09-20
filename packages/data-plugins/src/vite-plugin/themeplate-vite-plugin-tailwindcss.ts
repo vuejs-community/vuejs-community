@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'wordpress',
     'themeplate',
   ],
-  source: {
-    github: 'ThemePlate/vite-plugin-tailwindcss',
-    npm: '@themeplate/vite-plugin-tailwindcss',
-  },
   links: {
     github: 'https://github.com/ThemePlate/vite-plugin-tailwindcss',
     npm: 'https://www.npmjs.com/package/@themeplate/vite-plugin-tailwindcss',
     website: 'https://github.com/ThemePlate/vite-plugin-tailwindcss#readme',
+  },
+  source: {
+    github: 'ThemePlate/vite-plugin-tailwindcss',
+    npm: '@themeplate/vite-plugin-tailwindcss',
   },
   stats: {
     stars: 0,

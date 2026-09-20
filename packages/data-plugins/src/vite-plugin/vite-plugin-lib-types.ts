@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'typescript',
     'dts',
   ],
-  source: {
-    github: 'keuby/vite-plugin-lib-types',
-    npm: 'vite-plugin-lib-types',
-  },
   links: {
     github: 'https://github.com/keuby/vite-plugin-lib-types',
     npm: 'https://www.npmjs.com/package/vite-plugin-lib-types',
     website: 'https://github.com/keuby/vite-plugin-lib-types/blob/main/README.md',
+  },
+  source: {
+    github: 'keuby/vite-plugin-lib-types',
+    npm: 'vite-plugin-lib-types',
   },
   stats: {
     stars: 7,

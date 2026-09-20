@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'Dative-GPI/foundation-shared-ui',
-    npm: '@dative-gpi/foundation-shared-loader',
-  },
   links: {
     github: 'https://github.com/Dative-GPI/foundation-shared-ui',
     npm: 'https://www.npmjs.com/package/@dative-gpi/foundation-shared-loader',
     website: 'https://github.com/Dative-GPI/foundation-shared-ui#readme',
+  },
+  source: {
+    github: 'Dative-GPI/foundation-shared-ui',
+    npm: '@dative-gpi/foundation-shared-loader',
   },
   stats: {
     stars: 0,

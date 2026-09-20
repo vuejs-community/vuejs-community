@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rolldown',
     'rolldown-plugin',
   ],
-  source: {
-    github: 'jotaijs/jotai-rolldown',
-    npm: 'jotai-rolldown',
-  },
   links: {
     github: 'https://github.com/jotaijs/jotai-rolldown',
     npm: 'https://www.npmjs.com/package/jotai-rolldown',
     website: 'https://github.com/jotaijs/jotai-rolldown#readme',
+  },
+  source: {
+    github: 'jotaijs/jotai-rolldown',
+    npm: 'jotai-rolldown',
   },
   stats: {
     stars: 2,

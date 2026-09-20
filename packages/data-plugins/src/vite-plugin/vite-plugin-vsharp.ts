@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'sharp.js',
   ],
-  source: {
-    github: 'jw-12138/vite-plugin-vsharp',
-    npm: 'vite-plugin-vsharp',
-  },
   links: {
     github: 'https://github.com/jw-12138/vite-plugin-vsharp',
     npm: 'https://www.npmjs.com/package/vite-plugin-vsharp',
     website: 'https://github.com/jw-12138/vite-plugin-vsharp#readme',
+  },
+  source: {
+    github: 'jw-12138/vite-plugin-vsharp',
+    npm: 'vite-plugin-vsharp',
   },
   stats: {
     stars: 55,

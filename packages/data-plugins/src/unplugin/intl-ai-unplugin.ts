@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'sigilco/intl-ai',
-    npm: '@intl-ai/unplugin',
-  },
   links: {
     github: 'https://github.com/sigilco/intl-ai',
     npm: 'https://www.npmjs.com/package/@intl-ai/unplugin',
     website: 'https://intl-ai.pages.dev',
+  },
+  source: {
+    github: 'sigilco/intl-ai',
+    npm: '@intl-ai/unplugin',
   },
   stats: {
     stars: 1,

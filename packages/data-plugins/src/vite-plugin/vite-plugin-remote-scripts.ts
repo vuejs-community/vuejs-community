@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'iMuFeng/vite-plugin-remote-scripts',
-    npm: 'vite-plugin-remote-scripts',
-  },
   links: {
     github: 'https://github.com/iMuFeng/vite-plugin-remote-scripts',
     npm: 'https://www.npmjs.com/package/vite-plugin-remote-scripts',
     website: 'https://github.com/iMuFeng/vite-plugin-remote-scripts#readme',
+  },
+  source: {
+    github: 'iMuFeng/vite-plugin-remote-scripts',
+    npm: 'vite-plugin-remote-scripts',
   },
   stats: {
     stars: 0,

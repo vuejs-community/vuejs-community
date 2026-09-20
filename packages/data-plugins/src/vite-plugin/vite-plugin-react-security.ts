@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'build-plugin',
     'security-plugin',
   ],
-  source: {
-    github: 'ereddate/react-security-scanner',
-    npm: 'vite-plugin-react-security',
-  },
   links: {
     github: 'https://github.com/ereddate/react-security-scanner',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-security',
     website: 'https://github.com/ereddate/react-security-scanner#readme',
+  },
+  source: {
+    github: 'ereddate/react-security-scanner',
+    npm: 'vite-plugin-react-security',
   },
   stats: {
     stars: 0,

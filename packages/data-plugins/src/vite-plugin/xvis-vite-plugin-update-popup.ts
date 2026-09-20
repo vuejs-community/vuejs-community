@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'popup',
     'version',
   ],
-  source: {
-    npm: '@xvis/vite-plugin-update-popup',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xvis/vite-plugin-update-popup',
+  },
+  source: {
+    npm: '@xvis/vite-plugin-update-popup',
   },
   stats: {
     stars: 0,

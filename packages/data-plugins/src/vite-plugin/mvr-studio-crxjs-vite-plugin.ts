@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'browser',
     'browser-extension',
   ],
-  source: {
-    github: 'crxjs/rollup-plugin-chrome-extension',
-    npm: '@mvr-studio/crxjs-vite-plugin',
-  },
   links: {
     github: 'https://github.com/crxjs/rollup-plugin-chrome-extension',
     npm: 'https://www.npmjs.com/package/@mvr-studio/crxjs-vite-plugin',
     website: 'https://github.com/crxjs/rollup-plugin-chrome-extension',
+  },
+  source: {
+    github: 'crxjs/rollup-plugin-chrome-extension',
+    npm: '@mvr-studio/crxjs-vite-plugin',
   },
   stats: {
     stars: 0,

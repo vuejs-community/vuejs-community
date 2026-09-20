@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'antfu/zeitreise',
-    npm: '@zeitreise/vite',
-  },
   links: {
     github: 'https://github.com/antfu/zeitreise',
     npm: 'https://www.npmjs.com/package/@zeitreise/vite',
     website: 'https://github.com/antfu/zeitreise#readme',
+  },
+  source: {
+    github: 'antfu/zeitreise',
+    npm: '@zeitreise/vite',
   },
   stats: {
     stars: 0,

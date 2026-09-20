@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin-asset-manager',
     'react-vite-plugin',
   ],
-  source: {
-    github: 'ejirocodes/vite-plugin-asset-manager',
-    npm: 'vite-plugin-asset-manager',
-  },
   links: {
     github: 'https://github.com/ejirocodes/vite-plugin-asset-manager',
     npm: 'https://www.npmjs.com/package/vite-plugin-asset-manager',
     website: 'https://github.com/ejirocodes/vite-plugin-asset-manager#readme',
+  },
+  source: {
+    github: 'ejirocodes/vite-plugin-asset-manager',
+    npm: 'vite-plugin-asset-manager',
   },
   stats: {
     stars: 0,

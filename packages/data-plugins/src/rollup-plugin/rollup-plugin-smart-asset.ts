@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'copy',
     'inline',
   ],
-  source: {
-    github: 'sormy/rollup-plugin-smart-asset',
-    npm: 'rollup-plugin-smart-asset',
-  },
   links: {
     github: 'https://github.com/sormy/rollup-plugin-smart-asset',
     npm: 'https://www.npmjs.com/package/rollup-plugin-smart-asset',
     website: 'https://github.com/sormy/rollup-plugin-smart-asset#readme',
+  },
+  source: {
+    github: 'sormy/rollup-plugin-smart-asset',
+    npm: 'rollup-plugin-smart-asset',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'component-tree',
     'developer-tools',
   ],
-  source: {
-    github: 'Danendz/vite-dev-tools',
-    npm: '@danendz/vite-dev-tools',
-  },
   links: {
     github: 'https://github.com/Danendz/vite-dev-tools',
     npm: 'https://www.npmjs.com/package/@danendz/vite-dev-tools',
     website: 'https://github.com/Danendz/vite-dev-tools#readme',
+  },
+  source: {
+    github: 'Danendz/vite-dev-tools',
+    npm: '@danendz/vite-dev-tools',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'generator',
     'async',
   ],
-  source: {
-    github: 'notruth/rollup-plugin-regenerator',
-    npm: 'rollup-plugin-regenerator',
-  },
   links: {
     github: 'https://github.com/notruth/rollup-plugin-regenerator',
     npm: 'https://www.npmjs.com/package/rollup-plugin-regenerator',
     website: 'https://github.com/notruth/rollup-plugin-regenerator',
+  },
+  source: {
+    github: 'notruth/rollup-plugin-regenerator',
+    npm: 'rollup-plugin-regenerator',
   },
   stats: {
     stars: 10,

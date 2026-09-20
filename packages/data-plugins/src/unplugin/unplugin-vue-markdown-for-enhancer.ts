@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'markdown-it',
     'markdown-it-enhancer',
   ],
-  source: {
-    npm: 'unplugin-vue-markdown-for-enhancer',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-vue-markdown-for-enhancer',
+  },
+  source: {
+    npm: 'unplugin-vue-markdown-for-enhancer',
   },
   stats: {
     stars: 0,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'agent',
     'dx',
   ],
-  source: {
-    github: 'ekarya0x/peek',
-    npm: '@peektree/vite-plugin',
-  },
   links: {
     github: 'https://github.com/ekarya0x/peek',
     npm: 'https://www.npmjs.com/package/@peektree/vite-plugin',
     website: 'https://github.com/ekarya0x/peek',
+  },
+  source: {
+    github: 'ekarya0x/peek',
+    npm: '@peektree/vite-plugin',
   },
   stats: {
     stars: 5,

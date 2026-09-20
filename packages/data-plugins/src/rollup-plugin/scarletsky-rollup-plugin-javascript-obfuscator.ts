@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'obfuscation',
     'javascript-obfuscator',
   ],
-  source: {
-    npm: '@scarletsky/rollup-plugin-javascript-obfuscator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@scarletsky/rollup-plugin-javascript-obfuscator',
+  },
+  source: {
+    npm: '@scarletsky/rollup-plugin-javascript-obfuscator',
   },
   stats: {
     stars: 0,

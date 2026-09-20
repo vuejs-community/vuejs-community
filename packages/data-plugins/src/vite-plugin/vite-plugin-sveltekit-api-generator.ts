@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'swagger',
     'openapi',
   ],
-  source: {
-    npm: 'vite-plugin-sveltekit-api-generator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-sveltekit-api-generator',
+  },
+  source: {
+    npm: 'vite-plugin-sveltekit-api-generator',
   },
   stats: {
     stars: 0,

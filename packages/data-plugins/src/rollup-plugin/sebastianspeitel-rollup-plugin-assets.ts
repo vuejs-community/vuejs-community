@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'assets',
   ],
-  source: {
-    github: 'SebastianSpeitel/rollup-plugin-assets',
-    npm: '@sebastianspeitel/rollup-plugin-assets',
-  },
   links: {
     github: 'https://github.com/SebastianSpeitel/rollup-plugin-assets',
     npm: 'https://www.npmjs.com/package/@sebastianspeitel/rollup-plugin-assets',
     website: 'https://github.com/SebastianSpeitel/rollup-plugin-assets#readme',
+  },
+  source: {
+    github: 'SebastianSpeitel/rollup-plugin-assets',
+    npm: '@sebastianspeitel/rollup-plugin-assets',
   },
   stats: {
     stars: 0,

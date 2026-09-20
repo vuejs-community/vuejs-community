@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'url',
     'esm',
   ],
-  source: {
-    github: 'trygve-lie/rollup-plugin-esm-import-to-url',
-    npm: 'rollup-plugin-eik-import-map',
-  },
   links: {
     github: 'https://github.com/trygve-lie/rollup-plugin-esm-import-to-url',
     npm: 'https://www.npmjs.com/package/rollup-plugin-eik-import-map',
     website: 'https://github.com/trygve-lie/rollup-plugin-esm-import-to-url#readme',
+  },
+  source: {
+    github: 'trygve-lie/rollup-plugin-esm-import-to-url',
+    npm: 'rollup-plugin-eik-import-map',
   },
   stats: {
     stars: 18,

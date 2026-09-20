@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'wangsizhu0504/unplugin-monitor-update',
-    npm: 'unplugin-monitor-update',
-  },
   links: {
     github: 'https://github.com/wangsizhu0504/unplugin-monitor-update',
     npm: 'https://www.npmjs.com/package/unplugin-monitor-update',
     website: 'https://github.com/wangsizhu0504/unplugin-monitor-update#readme',
+  },
+  source: {
+    github: 'wangsizhu0504/unplugin-monitor-update',
+    npm: 'unplugin-monitor-update',
   },
   stats: {
     stars: 0,

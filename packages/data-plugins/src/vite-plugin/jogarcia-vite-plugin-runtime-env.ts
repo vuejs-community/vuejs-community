@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: '@jogarcia/vite-plugin-runtime-env',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@jogarcia/vite-plugin-runtime-env',
+  },
+  source: {
+    npm: '@jogarcia/vite-plugin-runtime-env',
   },
   stats: {
     stars: 0,

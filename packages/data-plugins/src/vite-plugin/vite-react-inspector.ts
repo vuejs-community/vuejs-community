@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'source-map',
     'click-to-source',
   ],
-  source: {
-    github: 'ddcech/vite-react-inspector',
-    npm: 'vite-react-inspector',
-  },
   links: {
     github: 'https://github.com/ddcech/vite-react-inspector',
     npm: 'https://www.npmjs.com/package/vite-react-inspector',
     website: 'https://github.com/ddcech/vite-react-inspector/tree/main/packages/vite-react-inspector#readme',
+  },
+  source: {
+    github: 'ddcech/vite-react-inspector',
+    npm: 'vite-react-inspector',
   },
   stats: {
     stars: 0,

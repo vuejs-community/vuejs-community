@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'react',
     'vite-plugin',
   ],
-  source: {
-    github: 'B-Commissions/Gantry',
-    npm: 'gantry-web',
-  },
   links: {
     github: 'https://github.com/B-Commissions/Gantry',
     npm: 'https://www.npmjs.com/package/gantry-web',
     website: 'https://github.com/B-Commissions/Gantry',
+  },
+  source: {
+    github: 'B-Commissions/Gantry',
+    npm: 'gantry-web',
   },
   stats: {
     stars: 0,

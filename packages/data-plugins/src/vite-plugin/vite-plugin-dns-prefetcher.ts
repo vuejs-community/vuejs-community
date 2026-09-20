@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'vue',
     'react',
   ],
-  source: {
-    npm: 'vite-plugin-dns-prefetcher',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-dns-prefetcher',
     website: 'https://github.com/CrisChr/vite-plugin-dns-prefetcher',
+  },
+  source: {
+    npm: 'vite-plugin-dns-prefetcher',
   },
   stats: {
     stars: 0,

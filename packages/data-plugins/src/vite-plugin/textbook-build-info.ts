@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'textbook/build-info',
-    npm: '@textbook/build-info',
-  },
   links: {
     github: 'https://github.com/textbook/build-info',
     npm: 'https://www.npmjs.com/package/@textbook/build-info',
     website: 'https://github.com/textbook/build-info#readme',
+  },
+  source: {
+    github: 'textbook/build-info',
+    npm: '@textbook/build-info',
   },
   stats: {
     stars: 0,

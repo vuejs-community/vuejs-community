@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'server',
     'fullstack',
   ],
-  source: {
-    github: 'dan2dev/vite-plugin-server-sugar',
-    npm: 'vite-plugin-server-sugar',
-  },
   links: {
     github: 'https://github.com/dan2dev/vite-plugin-server-sugar',
     npm: 'https://www.npmjs.com/package/vite-plugin-server-sugar',
     website: 'https://github.com/dan2dev/vite-plugin-server-sugar#readme',
+  },
+  source: {
+    github: 'dan2dev/vite-plugin-server-sugar',
+    npm: 'vite-plugin-server-sugar',
   },
   stats: {
     stars: 5,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'web-worker',
     'worker',
   ],
-  source: {
-    github: 'pixijs/rollup-plugin-web-worker-loader',
-    npm: '@pixi/rollup-plugin-web-worker-loader',
-  },
   links: {
     github: 'https://github.com/pixijs/rollup-plugin-web-worker-loader',
     npm: 'https://www.npmjs.com/package/@pixi/rollup-plugin-web-worker-loader',
     website: 'https://github.com/pixijs/rollup-plugin-web-worker-loader#readme',
+  },
+  source: {
+    github: 'pixijs/rollup-plugin-web-worker-loader',
+    npm: '@pixi/rollup-plugin-web-worker-loader',
   },
   stats: {
     stars: 0,

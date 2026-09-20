@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'ssam',
     'vite-plugin',
   ],
-  source: {
-    github: 'cdaein/vite-plugin-ssam-git',
-    npm: 'vite-plugin-ssam-git',
-  },
   links: {
     github: 'https://github.com/cdaein/vite-plugin-ssam-git',
     npm: 'https://www.npmjs.com/package/vite-plugin-ssam-git',
     website: 'https://github.com/cdaein/vite-plugin-ssam-git#readme',
+  },
+  source: {
+    github: 'cdaein/vite-plugin-ssam-git',
+    npm: 'vite-plugin-ssam-git',
   },
   stats: {
     stars: 2,

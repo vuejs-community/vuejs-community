@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'PengJiyuan/vite-plugin-svgr',
-    npm: '@arco-plugins/vite-plugin-svgr',
-  },
   links: {
     github: 'https://github.com/PengJiyuan/vite-plugin-svgr',
     npm: 'https://www.npmjs.com/package/@arco-plugins/vite-plugin-svgr',
     website: 'https://github.com/PengJiyuan/vite-plugin-svgr#readme',
+  },
+  source: {
+    github: 'PengJiyuan/vite-plugin-svgr',
+    npm: '@arco-plugins/vite-plugin-svgr',
   },
   stats: {
     stars: 1,

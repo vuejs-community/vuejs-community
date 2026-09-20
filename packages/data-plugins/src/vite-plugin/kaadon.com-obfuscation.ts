@@ -22,12 +22,12 @@ export default defineProjectMeta({
     'end-to-end-encryption',
     'code-protection',
   ],
-  source: {
-    npm: '@kaadon.com/obfuscation',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@kaadon.com/obfuscation',
     website: 'https://git.boolcdn.net/kaadon/kaadon-obfuscation/tree/master/packages/plugin#readme',
+  },
+  source: {
+    npm: '@kaadon.com/obfuscation',
   },
   stats: {
     stars: 0,

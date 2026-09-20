@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'ayatkyo/vite-plugin-html-import',
-    npm: '@ayatkyo/vite-plugin-html-import',
-  },
   links: {
     github: 'https://github.com/ayatkyo/vite-plugin-html-import',
     npm: 'https://www.npmjs.com/package/@ayatkyo/vite-plugin-html-import',
     website: 'https://github.com/ayatkyo/vite-plugin-html-import',
+  },
+  source: {
+    github: 'ayatkyo/vite-plugin-html-import',
+    npm: '@ayatkyo/vite-plugin-html-import',
   },
   stats: {
     stars: 1,

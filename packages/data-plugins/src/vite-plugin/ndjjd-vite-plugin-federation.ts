@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'remote-component',
     'vr-module',
   ],
-  source: {
-    npm: 'ndjjd-vite-plugin-federation',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/ndjjd-vite-plugin-federation',
+  },
+  source: {
+    npm: 'ndjjd-vite-plugin-federation',
   },
   stats: {
     stars: 0,

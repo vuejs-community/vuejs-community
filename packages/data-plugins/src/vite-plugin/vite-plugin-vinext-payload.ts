@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'block65/vite-plugin-vinext-payload',
-    npm: 'vite-plugin-vinext-payload',
-  },
   links: {
     github: 'https://github.com/block65/vite-plugin-vinext-payload',
     npm: 'https://www.npmjs.com/package/vite-plugin-vinext-payload',
     website: 'https://github.com/block65/vite-plugin-vinext-payload#readme',
+  },
+  source: {
+    github: 'block65/vite-plugin-vinext-payload',
+    npm: 'vite-plugin-vinext-payload',
   },
   stats: {
     stars: 4,

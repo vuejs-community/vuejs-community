@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'peggy',
     'rollup-plugin',
   ],
-  source: {
-    github: 'caleb531/rollup-plugin-peggy',
-    npm: 'rollup-plugin-peggy',
-  },
   links: {
     github: 'https://github.com/caleb531/rollup-plugin-peggy',
     npm: 'https://www.npmjs.com/package/rollup-plugin-peggy',
     website: 'https://github.com/caleb531/rollup-plugin-peggy',
+  },
+  source: {
+    github: 'caleb531/rollup-plugin-peggy',
+    npm: 'rollup-plugin-peggy',
   },
   stats: {
     stars: 2,

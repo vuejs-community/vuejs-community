@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'netlify',
   ],
-  source: {
-    github: 'netlify/remix-compute',
-    npm: '@netlify/vite-plugin-react-router',
-  },
   links: {
     github: 'https://github.com/netlify/remix-compute',
     npm: 'https://www.npmjs.com/package/@netlify/vite-plugin-react-router',
     website: 'https://github.com/netlify/remix-compute#readme',
+  },
+  source: {
+    github: 'netlify/remix-compute',
+    npm: '@netlify/vite-plugin-react-router',
   },
   stats: {
     stars: 36,

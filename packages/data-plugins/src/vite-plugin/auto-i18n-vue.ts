@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'matias',
     'matiastang',
   ],
-  source: {
-    github: 'matiastang/auto-i18n',
-    npm: 'auto-i18n-vue',
-  },
   links: {
     github: 'https://github.com/matiastang/auto-i18n',
     npm: 'https://www.npmjs.com/package/auto-i18n-vue',
     website: 'https://github.com/matiastang/auto-i18n#readme',
+  },
+  source: {
+    github: 'matiastang/auto-i18n',
+    npm: 'auto-i18n-vue',
   },
   stats: {
     stars: 1,

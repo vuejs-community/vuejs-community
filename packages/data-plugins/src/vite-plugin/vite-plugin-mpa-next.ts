@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'MPA',
     'multi-page',
   ],
-  source: {
-    github: 'lzq035/vite-plugin-mpa-next',
-    npm: 'vite-plugin-mpa-next',
-  },
   links: {
     github: 'https://github.com/lzq035/vite-plugin-mpa-next',
     npm: 'https://www.npmjs.com/package/vite-plugin-mpa-next',
     website: 'https://github.com/lzq035/vite-plugin-mpa-next',
+  },
+  source: {
+    github: 'lzq035/vite-plugin-mpa-next',
+    npm: 'vite-plugin-mpa-next',
   },
   stats: {
     stars: 0,

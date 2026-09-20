@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'types',
   ],
-  source: {
-    github: 'TwoKe945/vite-plugin-uniapp-pages',
-    npm: '@twoke/vite-plugin-uniapp-pages',
-  },
   links: {
     github: 'https://github.com/TwoKe945/vite-plugin-uniapp-pages',
     npm: 'https://www.npmjs.com/package/@twoke/vite-plugin-uniapp-pages',
     website: 'https://github.com/TwoKe945/vite-plugin-uniapp-pages#readme',
+  },
+  source: {
+    github: 'TwoKe945/vite-plugin-uniapp-pages',
+    npm: '@twoke/vite-plugin-uniapp-pages',
   },
   stats: {
     stars: 0,

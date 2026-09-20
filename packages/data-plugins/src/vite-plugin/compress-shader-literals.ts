@@ -35,14 +35,14 @@ export default defineProjectMeta({
     'esbuild-plugin',
     'unplugin',
   ],
-  source: {
-    github: 'jayf0x/compress-shader-literals',
-    npm: 'compress-shader-literals',
-  },
   links: {
     github: 'https://github.com/jayf0x/compress-shader-literals',
     npm: 'https://www.npmjs.com/package/compress-shader-literals',
     website: 'https://github.com/jayf0x/compress-shader-literals#readme',
+  },
+  source: {
+    github: 'jayf0x/compress-shader-literals',
+    npm: 'compress-shader-literals',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'minify',
     'vite-plugin',
   ],
-  source: {
-    github: 'ConanXie/vite-plugin-html',
-    npm: '@c0nanxie/vite-plugin-html',
-  },
   links: {
     github: 'https://github.com/ConanXie/vite-plugin-html',
     npm: 'https://www.npmjs.com/package/@c0nanxie/vite-plugin-html',
     website: 'https://github.com/ConanXie/vite-plugin-html/tree/master/#readme',
+  },
+  source: {
+    github: 'ConanXie/vite-plugin-html',
+    npm: '@c0nanxie/vite-plugin-html',
   },
   stats: {
     stars: 0,

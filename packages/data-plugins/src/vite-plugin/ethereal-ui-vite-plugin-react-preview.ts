@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'react',
   ],
-  source: {
-    github: 'ethereal-ui/ethereal-ui',
-    npm: '@ethereal-ui/vite-plugin-react-preview',
-  },
   links: {
     github: 'https://github.com/ethereal-ui/ethereal-ui',
     npm: 'https://www.npmjs.com/package/@ethereal-ui/vite-plugin-react-preview',
     website: 'https://github.com/ethereal-ui/ethereal-ui#readme',
+  },
+  source: {
+    github: 'ethereal-ui/ethereal-ui',
+    npm: '@ethereal-ui/vite-plugin-react-preview',
   },
   stats: {
     stars: 1,

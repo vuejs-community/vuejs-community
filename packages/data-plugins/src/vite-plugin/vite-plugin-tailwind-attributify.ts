@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'deslunes/vite-plugin-tailwind-attributify',
-    npm: 'vite-plugin-tailwind-attributify',
-  },
   links: {
     github: 'https://github.com/deslunes/vite-plugin-tailwind-attributify',
     npm: 'https://www.npmjs.com/package/vite-plugin-tailwind-attributify',
     website: 'https://github.com/deslunes/vite-plugin-tailwind-attributify#readme',
+  },
+  source: {
+    github: 'deslunes/vite-plugin-tailwind-attributify',
+    npm: 'vite-plugin-tailwind-attributify',
   },
   stats: {
     stars: 0,

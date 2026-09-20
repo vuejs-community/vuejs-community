@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'sushichan044/vite-plugin-dev-server-gateway',
-    npm: 'vite-plugin-dev-server-gateway',
-  },
   links: {
     github: 'https://github.com/sushichan044/vite-plugin-dev-server-gateway',
     npm: 'https://www.npmjs.com/package/vite-plugin-dev-server-gateway',
     website: 'https://github.com/sushichan044/vite-plugin-dev-server-gateway#readme',
+  },
+  source: {
+    github: 'sushichan044/vite-plugin-dev-server-gateway',
+    npm: 'vite-plugin-dev-server-gateway',
   },
   stats: {
     stars: 4,

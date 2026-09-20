@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'webpack-plugin',
     'unplugin',
   ],
-  source: {
-    github: 'Krishnesh-Mishra/domflax',
-    npm: 'domflax',
-  },
   links: {
     github: 'https://github.com/Krishnesh-Mishra/domflax',
     npm: 'https://www.npmjs.com/package/domflax',
     website: 'https://github.com/Krishnesh-Mishra/domflax#readme',
+  },
+  source: {
+    github: 'Krishnesh-Mishra/domflax',
+    npm: 'domflax',
   },
   stats: {
     stars: 1,

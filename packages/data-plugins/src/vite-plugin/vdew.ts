@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue-like',
   ],
-  source: {
-    github: 'dudu/vdew',
-    npm: 'vdew',
-  },
   links: {
     github: 'https://github.com/dudu/vdew',
     npm: 'https://www.npmjs.com/package/vdew',
     website: 'https://github.com/dudu/vdew#readme',
+  },
+  source: {
+    github: 'dudu/vdew',
+    npm: 'vdew',
   },
   stats: {
     stars: 0,

@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vue',
     'remix',
   ],
-  source: {
-    github: 'MyEasyFarm/vite-plugin-icons-spritesheet',
-    npm: '@myeasyfarm/vite-plugin-icons-spritesheet',
-  },
   links: {
     github: 'https://github.com/MyEasyFarm/vite-plugin-icons-spritesheet',
     npm: 'https://www.npmjs.com/package/@myeasyfarm/vite-plugin-icons-spritesheet',
     website: 'https://github.com/MyEasyFarm/vite-plugin-icons-spritesheet#readme',
+  },
+  source: {
+    github: 'MyEasyFarm/vite-plugin-icons-spritesheet',
+    npm: '@myeasyfarm/vite-plugin-icons-spritesheet',
   },
   stats: {
     stars: 0,

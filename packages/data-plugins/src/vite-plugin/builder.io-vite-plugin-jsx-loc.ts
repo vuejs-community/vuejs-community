@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'debug',
     'development',
   ],
-  source: {
-    npm: '@builder.io/vite-plugin-jsx-loc',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@builder.io/vite-plugin-jsx-loc',
+  },
+  source: {
+    npm: '@builder.io/vite-plugin-jsx-loc',
   },
   stats: {
     stars: 0,

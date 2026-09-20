@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'markdown-to-html',
     'vite-plugin-markdown-to-html',
   ],
-  source: {
-    github: 'saurabhdaware/vite-plugin-md-to-html',
-    npm: 'vite-plugin-md-to-html',
-  },
   links: {
     github: 'https://github.com/saurabhdaware/vite-plugin-md-to-html',
     npm: 'https://www.npmjs.com/package/vite-plugin-md-to-html',
     website: 'https://github.com/saurabhdaware/vite-plugin-md-to-html#readme',
+  },
+  source: {
+    github: 'saurabhdaware/vite-plugin-md-to-html',
+    npm: 'vite-plugin-md-to-html',
   },
   stats: {
     stars: 20,

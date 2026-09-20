@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'angularjs',
     'annotate',
   ],
-  source: {
-    github: 'FulgaSer/rollup-plugin-ng-annotate2',
-    npm: 'rollup-plugin-ng-annotate-patched',
-  },
   links: {
     github: 'https://github.com/FulgaSer/rollup-plugin-ng-annotate2',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ng-annotate-patched',
     website: 'https://github.com/clouway/rollup-plugin-ng-annotate-patched',
+  },
+  source: {
+    github: 'FulgaSer/rollup-plugin-ng-annotate2',
+    npm: 'rollup-plugin-ng-annotate-patched',
   },
   stats: {
     stars: 1,

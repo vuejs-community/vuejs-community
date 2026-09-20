@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'markdown-it',
   ],
-  source: {
-    github: 'antfu/vite-plugin-md',
-    npm: 'vite-plugin-md-temp',
-  },
   links: {
     github: 'https://github.com/antfu/vite-plugin-md',
     npm: 'https://www.npmjs.com/package/vite-plugin-md-temp',
     website: 'https://github.com/antfu/vite-plugin-md',
+  },
+  source: {
+    github: 'antfu/vite-plugin-md',
+    npm: 'vite-plugin-md-temp',
   },
   stats: {
     stars: 0,

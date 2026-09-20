@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'scala',
     'scala-js',
   ],
-  source: {
-    github: 'raquo/vite-plugin-glob-resolver',
-    npm: '@raquo/vite-plugin-glob-resolver',
-  },
   links: {
     github: 'https://github.com/raquo/vite-plugin-glob-resolver',
     npm: 'https://www.npmjs.com/package/@raquo/vite-plugin-glob-resolver',
     website: 'https://github.com/raquo/vite-plugin-glob-resolver',
+  },
+  source: {
+    github: 'raquo/vite-plugin-glob-resolver',
+    npm: '@raquo/vite-plugin-glob-resolver',
   },
   stats: {
     stars: 2,

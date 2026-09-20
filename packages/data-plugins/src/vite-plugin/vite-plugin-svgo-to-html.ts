@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'svg',
     'svgo',
   ],
-  source: {
-    github: 'Abunuo/vite-plugin-svgo-to-html',
-    npm: 'vite-plugin-svgo-to-html',
-  },
   links: {
     github: 'https://github.com/Abunuo/vite-plugin-svgo-to-html',
     npm: 'https://www.npmjs.com/package/vite-plugin-svgo-to-html',
     website: 'https://github.com/Abunuo/vite-plugin-svgo-to-html#readme',
+  },
+  source: {
+    github: 'Abunuo/vite-plugin-svgo-to-html',
+    npm: 'vite-plugin-svgo-to-html',
   },
   stats: {
     stars: 0,

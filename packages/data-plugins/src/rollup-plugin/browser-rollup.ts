@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'plugins',
     'rollup-plugin',
   ],
-  source: {
-    npm: 'browser-rollup',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/browser-rollup',
+  },
+  source: {
+    npm: 'browser-rollup',
   },
   stats: {
     stars: 0,

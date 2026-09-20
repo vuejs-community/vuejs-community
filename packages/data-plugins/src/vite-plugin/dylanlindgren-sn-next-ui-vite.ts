@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'web-components',
   ],
-  source: {
-    github: 'dylanlindgren/sn-next-ui',
-    npm: '@dylanlindgren/sn-next-ui-vite',
-  },
   links: {
     github: 'https://github.com/dylanlindgren/sn-next-ui',
     npm: 'https://www.npmjs.com/package/@dylanlindgren/sn-next-ui-vite',
     website: 'https://github.com/dylanlindgren/sn-next-ui/tree/main/packages/core#readme',
+  },
+  source: {
+    github: 'dylanlindgren/sn-next-ui',
+    npm: '@dylanlindgren/sn-next-ui-vite',
   },
   stats: {
     stars: 0,

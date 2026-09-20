@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'Yama-Tomo/codegen-client-preset-transform',
-    npm: '@yamatomo/codegen-client-preset-transform',
-  },
   links: {
     github: 'https://github.com/Yama-Tomo/codegen-client-preset-transform',
     npm: 'https://www.npmjs.com/package/@yamatomo/codegen-client-preset-transform',
     website: 'https://github.com/Yama-Tomo/codegen-client-preset-transform',
+  },
+  source: {
+    github: 'Yama-Tomo/codegen-client-preset-transform',
+    npm: '@yamatomo/codegen-client-preset-transform',
   },
   stats: {
     stars: 2,

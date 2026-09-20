@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'oss',
     'ftp',
   ],
-  source: {
-    github: 'lwp2333/vite-plugin-publish',
-    npm: 'vite-plugin-publish',
-  },
   links: {
     github: 'https://github.com/lwp2333/vite-plugin-publish',
     npm: 'https://www.npmjs.com/package/vite-plugin-publish',
     website: 'https://github.com/lwp2333/vite-plugin-publish/tree/master/#readme',
+  },
+  source: {
+    github: 'lwp2333/vite-plugin-publish',
+    npm: 'vite-plugin-publish',
   },
   stats: {
     stars: 9,

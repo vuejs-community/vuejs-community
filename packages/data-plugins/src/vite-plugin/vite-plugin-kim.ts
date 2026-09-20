@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'enlarge',
     'font',
   ],
-  source: {
-    npm: 'vite-plugin-kim',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-kim',
+  },
+  source: {
+    npm: 'vite-plugin-kim',
   },
   stats: {
     stars: 0,

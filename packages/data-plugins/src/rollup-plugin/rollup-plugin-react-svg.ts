@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'boopathi/react-svg-loader',
-    npm: 'rollup-plugin-react-svg',
-  },
   links: {
     github: 'https://github.com/boopathi/react-svg-loader',
     npm: 'https://www.npmjs.com/package/rollup-plugin-react-svg',
     website: 'https://github.com/boopathi/react-svg-loader/tree/master/packages/rollup-plugin-react-svg',
+  },
+  source: {
+    github: 'boopathi/react-svg-loader',
+    npm: 'rollup-plugin-react-svg',
   },
   stats: {
     stars: 637,

@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'solid',
     'tanstack-query',
   ],
-  source: {
-    github: 'omniaura/scenario-sim',
-    npm: '@omniaura/scenario-sim',
-  },
   links: {
     github: 'https://github.com/omniaura/scenario-sim',
     npm: 'https://www.npmjs.com/package/@omniaura/scenario-sim',
     website: 'https://github.com/omniaura/scenario-sim#readme',
+  },
+  source: {
+    github: 'omniaura/scenario-sim',
+    npm: '@omniaura/scenario-sim',
   },
   stats: {
     stars: 1,

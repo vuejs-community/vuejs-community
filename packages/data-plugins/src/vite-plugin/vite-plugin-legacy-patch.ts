@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-legacy-patch',
   ],
-  source: {
-    github: 'Alioth1017/vite-plugin-legacy-patch',
-    npm: 'vite-plugin-legacy-patch',
-  },
   links: {
     github: 'https://github.com/Alioth1017/vite-plugin-legacy-patch',
     npm: 'https://www.npmjs.com/package/vite-plugin-legacy-patch',
     website: 'https://github.com/Alioth1017/vite-plugin-legacy-patch#readme',
+  },
+  source: {
+    github: 'Alioth1017/vite-plugin-legacy-patch',
+    npm: 'vite-plugin-legacy-patch',
   },
   stats: {
     stars: 0,

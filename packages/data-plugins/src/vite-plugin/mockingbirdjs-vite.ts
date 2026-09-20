@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'replay',
     'fixtures',
   ],
-  source: {
-    github: 'wizenheimer/mockingbird',
-    npm: '@mockingbirdjs/vite',
-  },
   links: {
     github: 'https://github.com/wizenheimer/mockingbird',
     npm: 'https://www.npmjs.com/package/@mockingbirdjs/vite',
     website: 'https://github.com/wizenheimer/mockingbird#readme',
+  },
+  source: {
+    github: 'wizenheimer/mockingbird',
+    npm: '@mockingbirdjs/vite',
   },
   stats: {
     stars: 2,

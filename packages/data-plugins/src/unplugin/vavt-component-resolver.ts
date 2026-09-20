@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vue',
     'react',
   ],
-  source: {
-    github: 'imzbf/component-resolver',
-    npm: '@vavt/component-resolver',
-  },
   links: {
     github: 'https://github.com/imzbf/component-resolver',
     npm: 'https://www.npmjs.com/package/@vavt/component-resolver',
     website: 'https://github.com/imzbf/component-resolver#readme',
+  },
+  source: {
+    github: 'imzbf/component-resolver',
+    npm: '@vavt/component-resolver',
   },
   stats: {
     stars: 0,

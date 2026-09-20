@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'flexbase-eng/vite-plugin-runtime',
-    npm: 'vite-plugin-runtime',
-  },
   links: {
     github: 'https://github.com/flexbase-eng/vite-plugin-runtime',
     npm: 'https://www.npmjs.com/package/vite-plugin-runtime',
     website: 'https://github.com/flexbase-eng/vite-plugin-runtime#readme',
+  },
+  source: {
+    github: 'flexbase-eng/vite-plugin-runtime',
+    npm: 'vite-plugin-runtime',
   },
   stats: {
     stars: 8,

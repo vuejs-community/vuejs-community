@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'ssr',
     'framework',
   ],
-  source: {
-    github: 'p-arndt/jslop',
-    npm: '@jslop/vite',
-  },
   links: {
     github: 'https://github.com/p-arndt/jslop',
     npm: 'https://www.npmjs.com/package/@jslop/vite',
     website: 'https://github.com/p-arndt/jslop#readme',
+  },
+  source: {
+    github: 'p-arndt/jslop',
+    npm: '@jslop/vite',
   },
   stats: {
     stars: 0,

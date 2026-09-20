@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin-ssr',
     'i18n',
   ],
-  source: {
-    github: 'zeyuyuan/vite-plugin-ssr-i18n',
-    npm: 'vite-plugin-ssr-i18n',
-  },
   links: {
     github: 'https://github.com/zeyuyuan/vite-plugin-ssr-i18n',
     npm: 'https://www.npmjs.com/package/vite-plugin-ssr-i18n',
     website: 'https://github.com/zeyuyuan/vite-plugin-ssr-i18n#readme',
+  },
+  source: {
+    github: 'zeyuyuan/vite-plugin-ssr-i18n',
+    npm: 'vite-plugin-ssr-i18n',
   },
   stats: {
     stars: 0,

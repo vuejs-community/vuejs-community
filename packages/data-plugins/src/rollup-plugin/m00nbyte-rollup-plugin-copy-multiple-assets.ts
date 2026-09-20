@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'assets',
     'typescript',
   ],
-  source: {
-    github: 'm00nbyte/rollup-plugin-copy-multiple-assets',
-    npm: '@m00nbyte/rollup-plugin-copy-multiple-assets',
-  },
   links: {
     github: 'https://github.com/m00nbyte/rollup-plugin-copy-multiple-assets',
     npm: 'https://www.npmjs.com/package/@m00nbyte/rollup-plugin-copy-multiple-assets',
     website: 'https://github.com/m00nbyte/rollup-plugin-copy-multiple-assets#readme',
+  },
+  source: {
+    github: 'm00nbyte/rollup-plugin-copy-multiple-assets',
+    npm: '@m00nbyte/rollup-plugin-copy-multiple-assets',
   },
   stats: {
     stars: 1,

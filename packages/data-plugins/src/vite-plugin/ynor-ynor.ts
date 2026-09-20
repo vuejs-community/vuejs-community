@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'next-gen',
     'lightweight',
   ],
-  source: {
-    github: 'ynor-app/.ynor',
-    npm: '@ynor/ynor',
-  },
   links: {
     github: 'https://github.com/ynor-app/.ynor',
     npm: 'https://www.npmjs.com/package/@ynor/ynor',
     website: 'https://ynor.app',
+  },
+  source: {
+    github: 'ynor-app/.ynor',
+    npm: '@ynor/ynor',
   },
   stats: {
     stars: 0,

@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'build-cache',
     'incremental-build',
   ],
-  source: {
-    npm: 'rollup-plugin-smart-cache',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-smart-cache',
+  },
+  source: {
+    npm: 'rollup-plugin-smart-cache',
   },
   stats: {
     stars: 0,

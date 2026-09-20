@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'transform',
     'npm-package',
   ],
-  source: {
-    github: 'kitschpatrol/unplugin-aphex',
-    npm: '@kitschpatrol/unplugin-aphex',
-  },
   links: {
     github: 'https://github.com/kitschpatrol/unplugin-aphex',
     npm: 'https://www.npmjs.com/package/@kitschpatrol/unplugin-aphex',
     website: 'https://github.com/kitschpatrol/unplugin-aphex',
+  },
+  source: {
+    github: 'kitschpatrol/unplugin-aphex',
+    npm: '@kitschpatrol/unplugin-aphex',
   },
   stats: {
     stars: 1,

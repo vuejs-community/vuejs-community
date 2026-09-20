@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'esbuild',
     'imagemin',
   ],
-  source: {
-    npm: '@ashu_guo/unplugin-imagemin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ashu_guo/unplugin-imagemin',
+  },
+  source: {
+    npm: '@ashu_guo/unplugin-imagemin',
   },
   stats: {
     stars: 0,

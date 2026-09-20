@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'hikmaui',
   ],
-  source: {
-    npm: '@hikmaui/vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@hikmaui/vite',
+  },
+  source: {
+    npm: '@hikmaui/vite',
   },
   stats: {
     stars: 0,

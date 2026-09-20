@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'html-loader',
     'loader',
   ],
-  source: {
-    github: 'CNLHB/vite-plugin-html-rename',
-    npm: 'vite-plugin-html-rename',
-  },
   links: {
     github: 'https://github.com/CNLHB/vite-plugin-html-rename',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-rename',
     website: 'https://github.com/CNLHB/vite-plugin-html-rename#readme',
+  },
+  source: {
+    github: 'CNLHB/vite-plugin-html-rename',
+    npm: 'vite-plugin-html-rename',
   },
   stats: {
     stars: 1,

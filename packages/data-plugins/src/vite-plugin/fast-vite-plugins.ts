@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'fast-vite-plugins',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/fast-vite-plugins',
     website: 'https://fastdotnet.com',
+  },
+  source: {
+    npm: 'fast-vite-plugins',
   },
   stats: {
     stars: 0,

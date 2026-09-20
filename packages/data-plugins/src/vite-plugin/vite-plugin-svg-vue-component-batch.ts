@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vue',
     'plugin',
   ],
-  source: {
-    github: 'benbensy/vite-plugin-svg-vue-component-batch',
-    npm: 'vite-plugin-svg-vue-component-batch',
-  },
   links: {
     github: 'https://github.com/benbensy/vite-plugin-svg-vue-component-batch',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-vue-component-batch',
     website: 'https://github.com/benbensy/vite-plugin-svg-vue-component-batch#readme',
+  },
+  source: {
+    github: 'benbensy/vite-plugin-svg-vue-component-batch',
+    npm: 'vite-plugin-svg-vue-component-batch',
   },
   stats: {
     stars: 0,

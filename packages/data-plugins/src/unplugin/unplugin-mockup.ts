@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'mockup',
   ],
-  source: {
-    github: 'iyyybz/unplugin-mockup',
-    npm: 'unplugin-mockup',
-  },
   links: {
     github: 'https://github.com/iyyybz/unplugin-mockup',
     npm: 'https://www.npmjs.com/package/unplugin-mockup',
     website: 'https://github.com/iyyybz/unplugin-mockup#readme',
+  },
+  source: {
+    github: 'iyyybz/unplugin-mockup',
+    npm: 'unplugin-mockup',
   },
   stats: {
     stars: 0,

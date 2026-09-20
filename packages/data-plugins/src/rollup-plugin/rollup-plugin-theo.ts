@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'limitlessloop/rollup-plugin-theo',
-    npm: 'rollup-plugin-theo',
-  },
   links: {
     github: 'https://github.com/limitlessloop/rollup-plugin-theo',
     npm: 'https://www.npmjs.com/package/rollup-plugin-theo',
     website: 'https://github.com/mindthetic/rollup-plugin-theo#readme',
+  },
+  source: {
+    github: 'limitlessloop/rollup-plugin-theo',
+    npm: 'rollup-plugin-theo',
   },
   stats: {
     stars: 4,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'jacobs63/vite-laravel-valet-tls-plugin',
-    npm: 'vite-laravel-valet-tls-plugin',
-  },
   links: {
     github: 'https://github.com/jacobs63/vite-laravel-valet-tls-plugin',
     npm: 'https://www.npmjs.com/package/vite-laravel-valet-tls-plugin',
     website: 'https://github.com/jacobs63/vite-laravel-valet-tls-plugin',
+  },
+  source: {
+    github: 'jacobs63/vite-laravel-valet-tls-plugin',
+    npm: 'vite-laravel-valet-tls-plugin',
   },
   stats: {
     stars: 0,

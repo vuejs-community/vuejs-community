@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'static-site',
     'frontend',
   ],
-  source: {
-    github: 'Wyndace/vite-plugin-twig-builder',
-    npm: 'vite-plugin-twig-builder',
-  },
   links: {
     github: 'https://github.com/Wyndace/vite-plugin-twig-builder',
     npm: 'https://www.npmjs.com/package/vite-plugin-twig-builder',
     website: 'https://github.com/Wyndace/vite-plugin-twig-builder#readme',
+  },
+  source: {
+    github: 'Wyndace/vite-plugin-twig-builder',
+    npm: 'vite-plugin-twig-builder',
   },
   stats: {
     stars: 1,

@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'debugging',
     'click-capture',
   ],
-  source: {
-    github: 'sanderdatema/see_my_clicks',
-    npm: 'see-my-clicks',
-  },
   links: {
     github: 'https://github.com/sanderdatema/see_my_clicks',
     npm: 'https://www.npmjs.com/package/see-my-clicks',
     website: 'https://github.com/sanderdatema/see_my_clicks#readme',
+  },
+  source: {
+    github: 'sanderdatema/see_my_clicks',
+    npm: 'see-my-clicks',
   },
   stats: {
     stars: 0,

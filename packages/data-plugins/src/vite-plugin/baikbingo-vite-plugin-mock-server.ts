@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: '@baikbingo/vite-plugin-mock-server',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@baikbingo/vite-plugin-mock-server',
+  },
+  source: {
+    npm: '@baikbingo/vite-plugin-mock-server',
   },
   stats: {
     stars: 0,

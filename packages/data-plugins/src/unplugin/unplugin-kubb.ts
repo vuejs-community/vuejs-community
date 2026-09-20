@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'kubb-labs/kubb',
-    npm: 'unplugin-kubb',
-  },
   links: {
     github: 'https://github.com/kubb-labs/kubb',
     npm: 'https://www.npmjs.com/package/unplugin-kubb',
     website: 'https://kubb.dev',
+  },
+  source: {
+    github: 'kubb-labs/kubb',
+    npm: 'unplugin-kubb',
   },
   stats: {
     stars: 1802,

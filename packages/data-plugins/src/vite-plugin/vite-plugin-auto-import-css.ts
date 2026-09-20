@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'sass',
     'less',
   ],
-  source: {
-    github: 'yaooooooooo/vite-plugin-transform-classname',
-    npm: 'vite-plugin-auto-import-css',
-  },
   links: {
     github: 'https://github.com/yaooooooooo/vite-plugin-transform-classname',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-import-css',
     website: 'https://github.com/yaooooooooo/vite-plugin-transform-classname#readme',
+  },
+  source: {
+    github: 'yaooooooooo/vite-plugin-transform-classname',
+    npm: 'vite-plugin-auto-import-css',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'webfunny',
     'monitoring',
   ],
-  source: {
-    github: 'a597873885/webfunny-vite-plugin',
-    npm: 'webfunny-vite-plugin',
-  },
   links: {
     github: 'https://github.com/a597873885/webfunny-vite-plugin',
     npm: 'https://www.npmjs.com/package/webfunny-vite-plugin',
     website: 'https://github.com/a597873885/webfunny-vite-plugin#readme',
+  },
+  source: {
+    github: 'a597873885/webfunny-vite-plugin',
+    npm: 'webfunny-vite-plugin',
   },
   stats: {
     stars: 0,

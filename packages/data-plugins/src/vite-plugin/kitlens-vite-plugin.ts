@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'design-system',
     'static-analysis',
   ],
-  source: {
-    github: 'okrahul/kitLens',
-    npm: '@kitlens/vite-plugin',
-  },
   links: {
     github: 'https://github.com/okrahul/kitLens',
     npm: 'https://www.npmjs.com/package/@kitlens/vite-plugin',
     website: 'https://github.com/okrahul/kitLens#readme',
+  },
+  source: {
+    github: 'okrahul/kitLens',
+    npm: '@kitlens/vite-plugin',
   },
   stats: {
     stars: 0,

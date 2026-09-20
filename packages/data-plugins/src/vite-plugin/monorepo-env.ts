@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'nuxt',
     'vite-plugin',
   ],
-  source: {
-    github: 'dapotatoman/monorepo-env',
-    npm: 'monorepo-env',
-  },
   links: {
     github: 'https://github.com/dapotatoman/monorepo-env',
     npm: 'https://www.npmjs.com/package/monorepo-env',
     website: 'https://github.com/dapotatoman/monorepo-env#readme',
+  },
+  source: {
+    github: 'dapotatoman/monorepo-env',
+    npm: 'monorepo-env',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'feature-flag',
     'feature-toggle',
   ],
-  source: {
-    github: 'diligent-rookie/vite-plugin-feature-flag',
-    npm: 'vite-plugin-feature-flag',
-  },
   links: {
     github: 'https://github.com/diligent-rookie/vite-plugin-feature-flag',
     npm: 'https://www.npmjs.com/package/vite-plugin-feature-flag',
     website: 'https://github.com/diligent-rookie/vite-plugin-feature-flag#readme',
+  },
+  source: {
+    github: 'diligent-rookie/vite-plugin-feature-flag',
+    npm: 'vite-plugin-feature-flag',
   },
   stats: {
     stars: 2,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'resolve',
     'alias',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-alias',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-alias',
     website: 'https://github.com/rollup/plugins/tree/master/packages/alias#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-alias',
   },
   stats: {
     stars: 0,

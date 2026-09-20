@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'multi-entry',
     'html',
   ],
-  source: {
-    github: 'simposons/vite-plugin-mpa',
-    npm: '@simposons/vite-plugin-mpa',
-  },
   links: {
     github: 'https://github.com/simposons/vite-plugin-mpa',
     npm: 'https://www.npmjs.com/package/@simposons/vite-plugin-mpa',
     website: 'https://github.com/simposons/vite-plugin-mpa#readme',
+  },
+  source: {
+    github: 'simposons/vite-plugin-mpa',
+    npm: '@simposons/vite-plugin-mpa',
   },
   stats: {
     stars: 1,

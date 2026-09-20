@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'dependencies',
     'watch',
   ],
-  source: {
-    github: 'Shakeskeyboarde/vite-plugin-refresh',
-    npm: 'vite-plugin-refresh',
-  },
   links: {
     github: 'https://github.com/Shakeskeyboarde/vite-plugin-refresh',
     npm: 'https://www.npmjs.com/package/vite-plugin-refresh',
     website: 'https://github.com/Shakeskeyboarde/vite-plugin-refresh#readme',
+  },
+  source: {
+    github: 'Shakeskeyboarde/vite-plugin-refresh',
+    npm: 'vite-plugin-refresh',
   },
   stats: {
     stars: 0,

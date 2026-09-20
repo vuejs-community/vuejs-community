@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'utilityProcess',
     'fork',
   ],
-  source: {
-    github: 'linonetwo/vite-plugin-electron-utility-process',
-    npm: 'vite-plugin-electron-utility-process',
-  },
   links: {
     github: 'https://github.com/linonetwo/vite-plugin-electron-utility-process',
     npm: 'https://www.npmjs.com/package/vite-plugin-electron-utility-process',
     website: 'https://github.com/linonetwo/vite-plugin-electron-utility-process#readme',
+  },
+  source: {
+    github: 'linonetwo/vite-plugin-electron-utility-process',
+    npm: 'vite-plugin-electron-utility-process',
   },
   stats: {
     stars: 0,

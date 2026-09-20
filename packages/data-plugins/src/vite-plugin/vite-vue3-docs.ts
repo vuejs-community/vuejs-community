@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'palxiao/front-end-arsenal',
-    npm: 'vite-vue3-docs',
-  },
   links: {
     github: 'https://github.com/palxiao/front-end-arsenal',
     npm: 'https://www.npmjs.com/package/vite-vue3-docs',
     website: 'https://github.com/palxiao/front-end-arsenal#readme',
+  },
+  source: {
+    github: 'palxiao/front-end-arsenal',
+    npm: 'vite-vue3-docs',
   },
   stats: {
     stars: 22,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'rollup',
     'unplugin',
   ],
-  source: {
-    github: 'inspecto-dev/inspecto',
-    npm: '@inspecto-dev/plugin',
-  },
   links: {
     github: 'https://github.com/inspecto-dev/inspecto',
     npm: 'https://www.npmjs.com/package/@inspecto-dev/plugin',
     website: 'https://github.com/inspecto-dev/inspecto/tree/main/packages/plugin#readme',
+  },
+  source: {
+    github: 'inspecto-dev/inspecto',
+    npm: '@inspecto-dev/plugin',
   },
   stats: {
     stars: 23,

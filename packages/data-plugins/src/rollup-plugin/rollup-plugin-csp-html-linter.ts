@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup-plugin-csp-html-linter',
     'content security policy html linting',
   ],
-  source: {
-    github: 'mdownes/rollup-plugin-csp-html-linter',
-    npm: 'rollup-plugin-csp-html-linter',
-  },
   links: {
     github: 'https://github.com/mdownes/rollup-plugin-csp-html-linter',
     npm: 'https://www.npmjs.com/package/rollup-plugin-csp-html-linter',
     website: 'https://github.com/mdownes/rollup-plugin-csp-html-linter#readme',
+  },
+  source: {
+    github: 'mdownes/rollup-plugin-csp-html-linter',
+    npm: 'rollup-plugin-csp-html-linter',
   },
   stats: {
     stars: 1,

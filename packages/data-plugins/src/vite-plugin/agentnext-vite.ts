@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'ai-agent',
   ],
-  source: {
-    github: 'your-org/agentnext',
-    npm: '@agentnext/vite',
-  },
   links: {
     github: 'https://github.com/your-org/agentnext',
     npm: 'https://www.npmjs.com/package/@agentnext/vite',
     website: 'https://github.com/your-org/agentnext#readme',
+  },
+  source: {
+    github: 'your-org/agentnext',
+    npm: '@agentnext/vite',
   },
   stats: {
     stars: 0,

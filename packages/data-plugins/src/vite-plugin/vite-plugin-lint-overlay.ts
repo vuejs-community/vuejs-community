@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'error-overlay',
     'frontend',
   ],
-  source: {
-    github: 'max-matinpalo/vite-lint-overlay',
-    npm: 'vite-plugin-lint-overlay',
-  },
   links: {
     github: 'https://github.com/max-matinpalo/vite-lint-overlay',
     npm: 'https://www.npmjs.com/package/vite-plugin-lint-overlay',
     website: 'https://github.com/max-matinpalo/vite-lint-overlay#readme',
+  },
+  source: {
+    github: 'max-matinpalo/vite-lint-overlay',
+    npm: 'vite-plugin-lint-overlay',
   },
   stats: {
     stars: 0,

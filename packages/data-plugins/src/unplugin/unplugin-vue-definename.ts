@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'ray-d-song/unplugin-vue-definename',
-    npm: 'unplugin-vue-definename',
-  },
   links: {
     github: 'https://github.com/ray-d-song/unplugin-vue-definename',
     npm: 'https://www.npmjs.com/package/unplugin-vue-definename',
     website: 'https://github.com/ray-d-song/unplugin-vue-definename',
+  },
+  source: {
+    github: 'ray-d-song/unplugin-vue-definename',
+    npm: 'unplugin-vue-definename',
   },
   stats: {
     stars: 0,

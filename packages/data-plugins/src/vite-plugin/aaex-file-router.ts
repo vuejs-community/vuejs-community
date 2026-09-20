@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'router',
     'vite-plugin',
   ],
-  source: {
-    npm: 'aaex-file-router',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/aaex-file-router',
+  },
+  source: {
+    npm: 'aaex-file-router',
   },
   stats: {
     stars: 0,

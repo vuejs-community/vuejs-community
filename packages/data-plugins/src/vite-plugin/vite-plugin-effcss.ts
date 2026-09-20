@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'css-in-js',
     'zero-config',
   ],
-  source: {
-    github: 'msabitov/vite-plugin-effcss',
-    npm: 'vite-plugin-effcss',
-  },
   links: {
     github: 'https://github.com/msabitov/vite-plugin-effcss',
     npm: 'https://www.npmjs.com/package/vite-plugin-effcss',
     website: 'https://github.com/msabitov/vite-plugin-effcss/',
+  },
+  source: {
+    github: 'msabitov/vite-plugin-effcss',
+    npm: 'vite-plugin-effcss',
   },
   stats: {
     stars: 0,

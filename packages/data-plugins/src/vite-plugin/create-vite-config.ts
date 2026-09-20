@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'create-vite-config',
   ],
-  source: {
-    npm: 'create-vite-config',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/create-vite-config',
+  },
+  source: {
+    npm: 'create-vite-config',
   },
   stats: {
     stars: 0,

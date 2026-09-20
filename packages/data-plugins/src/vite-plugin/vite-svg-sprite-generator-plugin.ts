@@ -30,14 +30,14 @@ export default defineProjectMeta({
     'bundle-optimization',
     'production',
   ],
-  source: {
-    github: 'gkarev/vite-svg-sprite-generator-plugin',
-    npm: 'vite-svg-sprite-generator-plugin',
-  },
   links: {
     github: 'https://github.com/gkarev/vite-svg-sprite-generator-plugin',
     npm: 'https://www.npmjs.com/package/vite-svg-sprite-generator-plugin',
     website: 'https://github.com/gkarev/vite-svg-sprite-generator-plugin#readme',
+  },
+  source: {
+    github: 'gkarev/vite-svg-sprite-generator-plugin',
+    npm: 'vite-svg-sprite-generator-plugin',
   },
   stats: {
     stars: 0,

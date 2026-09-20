@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'wituijs/vite-plugin-bar',
-    npm: 'vite-plugin-bar',
-  },
   links: {
     github: 'https://github.com/wituijs/vite-plugin-bar',
     npm: 'https://www.npmjs.com/package/vite-plugin-bar',
     website: 'https://github.com/wituijs/vite-plugin-bar#readme',
+  },
+  source: {
+    github: 'wituijs/vite-plugin-bar',
+    npm: 'vite-plugin-bar',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'injection',
   ],
-  source: {
-    github: 'jiatln/vite-plugin-injection',
-    npm: 'vite-plugin-injection',
-  },
   links: {
     github: 'https://github.com/jiatln/vite-plugin-injection',
     npm: 'https://www.npmjs.com/package/vite-plugin-injection',
     website: 'https://github.com/jiatln/vite-plugin-injection#readme',
+  },
+  source: {
+    github: 'jiatln/vite-plugin-injection',
+    npm: 'vite-plugin-injection',
   },
   stats: {
     stars: 1,

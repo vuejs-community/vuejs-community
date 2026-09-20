@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite7',
     'react19',
   ],
-  source: {
-    github: 'toohard2explain/laravel-i18n-react',
-    npm: 'laravel-i18n-react',
-  },
   links: {
     github: 'https://github.com/toohard2explain/laravel-i18n-react',
     npm: 'https://www.npmjs.com/package/laravel-i18n-react',
     website: 'https://github.com/toohard2explain/laravel-i18n-react#readme',
+  },
+  source: {
+    github: 'toohard2explain/laravel-i18n-react',
+    npm: 'laravel-i18n-react',
   },
   stats: {
     stars: 0,

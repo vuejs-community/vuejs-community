@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'posthtml',
   ],
-  source: {
-    github: 'malobre/vite-plugin-posthtml',
-    npm: '@malobre/vite-plugin-posthtml',
-  },
   links: {
     github: 'https://github.com/malobre/vite-plugin-posthtml',
     npm: 'https://www.npmjs.com/package/@malobre/vite-plugin-posthtml',
     website: 'https://github.com/malobre/vite-plugin-posthtml',
+  },
+  source: {
+    github: 'malobre/vite-plugin-posthtml',
+    npm: '@malobre/vite-plugin-posthtml',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin-copy',
     'vite-plugin-copy2',
   ],
-  source: {
-    github: 'qinzhuguang/vite-plugin-copy2',
-    npm: 'vite-plugin-copy2',
-  },
   links: {
     github: 'https://github.com/qinzhuguang/vite-plugin-copy2',
     npm: 'https://www.npmjs.com/package/vite-plugin-copy2',
     website: 'https://github.com/qinzhuguang/vite-plugin-copy2#readme',
+  },
+  source: {
+    github: 'qinzhuguang/vite-plugin-copy2',
+    npm: 'vite-plugin-copy2',
   },
   stats: {
     stars: 0,

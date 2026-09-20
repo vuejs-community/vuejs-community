@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'react',
     'jsx',
   ],
-  source: {
-    github: 'LuongHaMinhVy/SongMa',
-    npm: 'vite-plugin-songma',
-  },
   links: {
     github: 'https://github.com/LuongHaMinhVy/SongMa',
     npm: 'https://www.npmjs.com/package/vite-plugin-songma',
     website: 'https://github.com/LuongHaMinhVy/SongMa',
+  },
+  source: {
+    github: 'LuongHaMinhVy/SongMa',
+    npm: 'vite-plugin-songma',
   },
   stats: {
     stars: 0,

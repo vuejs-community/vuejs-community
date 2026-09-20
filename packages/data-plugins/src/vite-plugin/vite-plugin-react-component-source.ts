@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'source-map',
     'developer-tools',
   ],
-  source: {
-    npm: 'vite-plugin-react-component-source',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-react-component-source',
+  },
+  source: {
+    npm: 'vite-plugin-react-component-source',
   },
   stats: {
     stars: 0,

@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'uniapp',
     'chokidar',
   ],
-  source: {
-    npm: 'uniapp-routerx',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/uniapp-routerx',
+  },
+  source: {
+    npm: 'uniapp-routerx',
   },
   stats: {
     stars: 0,

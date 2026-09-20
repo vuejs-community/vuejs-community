@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'codegen',
     'schemas',
   ],
-  source: {
-    github: 'modelschemas/modelschemas',
-    npm: '@modelschemas/vite',
-  },
   links: {
     github: 'https://github.com/modelschemas/modelschemas',
     npm: 'https://www.npmjs.com/package/@modelschemas/vite',
     website: 'https://modelschemas.com',
+  },
+  source: {
+    github: 'modelschemas/modelschemas',
+    npm: '@modelschemas/vite',
   },
   stats: {
     stars: 0,

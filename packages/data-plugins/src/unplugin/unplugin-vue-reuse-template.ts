@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'reuse',
     'typescript',
   ],
-  source: {
-    github: 'liulinboyi/unplugin-vue-reuse-template',
-    npm: 'unplugin-vue-reuse-template',
-  },
   links: {
     github: 'https://github.com/liulinboyi/unplugin-vue-reuse-template',
     npm: 'https://www.npmjs.com/package/unplugin-vue-reuse-template',
     website: 'https://github.com/liulinboyi/unplugin-vue-reuse-template',
+  },
+  source: {
+    github: 'liulinboyi/unplugin-vue-reuse-template',
+    npm: 'unplugin-vue-reuse-template',
   },
   stats: {
     stars: 10,

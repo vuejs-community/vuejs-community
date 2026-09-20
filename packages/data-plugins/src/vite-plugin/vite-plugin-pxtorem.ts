@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'w2xi/vite-plugin-collections',
-    npm: 'vite-plugin-pxtorem',
-  },
   links: {
     github: 'https://github.com/w2xi/vite-plugin-collections',
     npm: 'https://www.npmjs.com/package/vite-plugin-pxtorem',
     website: 'https://github.com/w2xi/vite-plugin-collections/tree/main/packages/vite-plugin-pxtorem#readme',
+  },
+  source: {
+    github: 'w2xi/vite-plugin-collections',
+    npm: 'vite-plugin-pxtorem',
   },
   stats: {
     stars: 0,

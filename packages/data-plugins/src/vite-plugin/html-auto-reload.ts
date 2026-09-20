@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'resource-update',
     'frontend',
   ],
-  source: {
-    github: 'dufan3715/html-auto-reload',
-    npm: 'html-auto-reload',
-  },
   links: {
     github: 'https://github.com/dufan3715/html-auto-reload',
     npm: 'https://www.npmjs.com/package/html-auto-reload',
     website: 'https://github.com/dufan3715/html-auto-reload',
+  },
+  source: {
+    github: 'dufan3715/html-auto-reload',
+    npm: 'html-auto-reload',
   },
   stats: {
     stars: 0,

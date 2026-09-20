@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'html',
   ],
-  source: {
-    github: 'bdadam/rollup-plugin-html',
-    npm: '@movable/rollup-plugin-html',
-  },
   links: {
     github: 'https://github.com/bdadam/rollup-plugin-html',
     npm: 'https://www.npmjs.com/package/@movable/rollup-plugin-html',
     website: 'https://github.com/bdadam/rollup-plugin-html',
+  },
+  source: {
+    github: 'bdadam/rollup-plugin-html',
+    npm: '@movable/rollup-plugin-html',
   },
   stats: {
     stars: 38,

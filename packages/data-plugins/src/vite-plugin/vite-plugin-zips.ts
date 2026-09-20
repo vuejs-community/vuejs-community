@@ -28,11 +28,11 @@ export default defineProjectMeta({
     'auto-zip',
     'post-build',
   ],
-  source: {
-    npm: 'vite-plugin-zips',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-zips',
+  },
+  source: {
+    npm: 'vite-plugin-zips',
   },
   stats: {
     stars: 0,

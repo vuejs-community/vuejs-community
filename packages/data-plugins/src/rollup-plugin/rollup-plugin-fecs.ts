@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'fecs',
     'lint',
   ],
-  source: {
-    github: 'SidKwok/rollup-plugin-fecs',
-    npm: 'rollup-plugin-fecs',
-  },
   links: {
     github: 'https://github.com/SidKwok/rollup-plugin-fecs',
     npm: 'https://www.npmjs.com/package/rollup-plugin-fecs',
     website: 'https://github.com/SidKwok/rollup-plugin-fecs#readme',
+  },
+  source: {
+    github: 'SidKwok/rollup-plugin-fecs',
+    npm: 'rollup-plugin-fecs',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'unplugin',
     'unplugin-vue2-multiple-bindings',
   ],
-  source: {
-    github: 'tangdaoyuan/unplugin-vue2-multiple-bindings',
-    npm: 'unplugin-vue2-multiple-bindings',
-  },
   links: {
     github: 'https://github.com/tangdaoyuan/unplugin-vue2-multiple-bindings',
     npm: 'https://www.npmjs.com/package/unplugin-vue2-multiple-bindings',
     website: 'https://github.com/tangdaoyuan/unplugin-vue2-multiple-bindings#readme',
+  },
+  source: {
+    github: 'tangdaoyuan/unplugin-vue2-multiple-bindings',
+    npm: 'unplugin-vue2-multiple-bindings',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'watch',
   ],
-  source: {
-    github: 'pmwmedia/rollup-plugin-auto-reload',
-    npm: 'rollup-plugin-auto-reload',
-  },
   links: {
     github: 'https://github.com/pmwmedia/rollup-plugin-auto-reload',
     npm: 'https://www.npmjs.com/package/rollup-plugin-auto-reload',
     website: 'https://github.com/pmwmedia/rollup-plugin-auto-reload',
+  },
+  source: {
+    github: 'pmwmedia/rollup-plugin-auto-reload',
+    npm: 'rollup-plugin-auto-reload',
   },
   stats: {
     stars: 3,

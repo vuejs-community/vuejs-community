@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'i18n',
     'auto-i18n',
   ],
-  source: {
-    npm: '@kapo/i18n-transformer',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@kapo/i18n-transformer',
+  },
+  source: {
+    npm: '@kapo/i18n-transformer',
   },
   stats: {
     stars: 0,

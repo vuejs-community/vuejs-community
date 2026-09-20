@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'inspect',
     'vite-plugin',
   ],
-  source: {
-    github: 'zhylmzr/vue-jsx-inspect',
-    npm: 'vue-jsx-inspect',
-  },
   links: {
     github: 'https://github.com/zhylmzr/vue-jsx-inspect',
     npm: 'https://www.npmjs.com/package/vue-jsx-inspect',
     website: 'https://github.com/zhylmzr/vue-jsx-inspect#readme',
+  },
+  source: {
+    github: 'zhylmzr/vue-jsx-inspect',
+    npm: 'vue-jsx-inspect',
   },
   stats: {
     stars: 0,

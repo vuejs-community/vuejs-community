@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'antfu/unplugin-dynamic-import-vars',
-    npm: 'unplugin-dynamic-import-vars',
-  },
   links: {
     github: 'https://github.com/antfu/unplugin-dynamic-import-vars',
     npm: 'https://www.npmjs.com/package/unplugin-dynamic-import-vars',
     website: 'https://github.com/antfu/unplugin-dynamic-import-vars#readme',
+  },
+  source: {
+    github: 'antfu/unplugin-dynamic-import-vars',
+    npm: 'unplugin-dynamic-import-vars',
   },
   stats: {
     stars: 0,

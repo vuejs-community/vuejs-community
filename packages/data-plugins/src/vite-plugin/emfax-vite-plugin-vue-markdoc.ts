@@ -14,13 +14,13 @@ export default defineProjectMeta({
     'vue',
     'vite',
   ],
-  source: {
-    github: 'emfax/vite-plugin-vue-markdoc',
-    npm: '@emfax/vite-plugin-vue-markdoc',
-  },
   links: {
     github: 'https://github.com/emfax/vite-plugin-vue-markdoc',
     npm: 'https://www.npmjs.com/package/@emfax/vite-plugin-vue-markdoc',
+  },
+  source: {
+    github: 'emfax/vite-plugin-vue-markdoc',
+    npm: '@emfax/vite-plugin-vue-markdoc',
   },
   stats: {
     stars: 0,

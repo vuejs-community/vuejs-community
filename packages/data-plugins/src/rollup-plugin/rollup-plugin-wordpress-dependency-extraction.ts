@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'extraction',
     'rollup',
   ],
-  source: {
-    github: '0zd0/rollup-plugin-wordpress-dependency-extraction',
-    npm: 'rollup-plugin-wordpress-dependency-extraction',
-  },
   links: {
     github: 'https://github.com/0zd0/rollup-plugin-wordpress-dependency-extraction',
     npm: 'https://www.npmjs.com/package/rollup-plugin-wordpress-dependency-extraction',
     website: 'https://github.com/0zd0/rollup-plugin-wordpress-dependency-extraction#readme',
+  },
+  source: {
+    github: '0zd0/rollup-plugin-wordpress-dependency-extraction',
+    npm: 'rollup-plugin-wordpress-dependency-extraction',
   },
   stats: {
     stars: 0,

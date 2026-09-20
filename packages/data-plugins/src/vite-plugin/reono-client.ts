@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rest-client',
     'code-generation',
   ],
-  source: {
-    github: 'Ntropish/reono',
-    npm: '@reono/client',
-  },
   links: {
     github: 'https://github.com/Ntropish/reono',
     npm: 'https://www.npmjs.com/package/@reono/client',
     website: 'https://github.com/Ntropish/reono#readme',
+  },
+  source: {
+    github: 'Ntropish/reono',
+    npm: '@reono/client',
   },
   stats: {
     stars: 0,

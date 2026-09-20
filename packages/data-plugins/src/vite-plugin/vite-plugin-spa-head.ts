@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'open-graph',
     'twitter-card',
   ],
-  source: {
-    npm: 'vite-plugin-spa-head',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-spa-head',
+  },
+  source: {
+    npm: 'vite-plugin-spa-head',
   },
   stats: {
     stars: 0,

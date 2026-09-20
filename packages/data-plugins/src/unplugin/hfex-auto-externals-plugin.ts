@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin-externals',
   ],
-  source: {
-    github: 'UzumakiHan/hfex-auto-externals-plugin',
-    npm: 'hfex-auto-externals-plugin',
-  },
   links: {
     github: 'https://github.com/UzumakiHan/hfex-auto-externals-plugin',
     npm: 'https://www.npmjs.com/package/hfex-auto-externals-plugin',
     website: 'https://github.com/UzumakiHan/hfex-auto-externals-plugin#readme',
+  },
+  source: {
+    github: 'UzumakiHan/hfex-auto-externals-plugin',
+    npm: 'hfex-auto-externals-plugin',
   },
   stats: {
     stars: 1,

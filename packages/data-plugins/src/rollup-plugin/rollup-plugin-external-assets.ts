@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'import',
     'external',
   ],
-  source: {
-    github: 'recursive-beast/rollup-plugin-external-assets',
-    npm: 'rollup-plugin-external-assets',
-  },
   links: {
     github: 'https://github.com/recursive-beast/rollup-plugin-external-assets',
     npm: 'https://www.npmjs.com/package/rollup-plugin-external-assets',
     website: 'https://github.com/recursive-beast/rollup-plugin-external-assets#readme',
+  },
+  source: {
+    github: 'recursive-beast/rollup-plugin-external-assets',
+    npm: 'rollup-plugin-external-assets',
   },
   stats: {
     stars: 2,

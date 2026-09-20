@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'css',
     'tailwind',
   ],
-  source: {
-    github: 'vertesia/composableai',
-    npm: '@vertesia/plugin-builder',
-  },
   links: {
     github: 'https://github.com/vertesia/composableai',
     npm: 'https://www.npmjs.com/package/@vertesia/plugin-builder',
     website: 'https://docs.vertesiahq.com',
+  },
+  source: {
+    github: 'vertesia/composableai',
+    npm: '@vertesia/plugin-builder',
   },
   stats: {
     stars: 0,

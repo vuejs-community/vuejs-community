@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'sass',
     'preprocessor',
   ],
-  source: {
-    npm: 'my24-vite-plugin-theme-preprocessor',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/my24-vite-plugin-theme-preprocessor',
+  },
+  source: {
+    npm: 'my24-vite-plugin-theme-preprocessor',
   },
   stats: {
     stars: 0,

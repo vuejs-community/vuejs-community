@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'JonasLeonhard/vite-plugin-twigjs-loader',
-    npm: 'vite-plugin-twigjs-loader',
-  },
   links: {
     github: 'https://github.com/JonasLeonhard/vite-plugin-twigjs-loader',
     npm: 'https://www.npmjs.com/package/vite-plugin-twigjs-loader',
     website: 'https://github.com/JonasLeonhard/vite-plugin-twigjs-loader#readme',
+  },
+  source: {
+    github: 'JonasLeonhard/vite-plugin-twigjs-loader',
+    npm: 'vite-plugin-twigjs-loader',
   },
   stats: {
     stars: 0,

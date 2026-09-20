@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'small byte',
     'vite',
   ],
-  source: {
-    github: 'KongYanHHHH/vite-plugin-small-css-merged-into-js',
-    npm: 'vite-plugin-small-css-merged-into-js',
-  },
   links: {
     github: 'https://github.com/KongYanHHHH/vite-plugin-small-css-merged-into-js',
     npm: 'https://www.npmjs.com/package/vite-plugin-small-css-merged-into-js',
     website: 'https://github.com/KongYanHHHH/vite-plugin-small-css-merged-into-js',
+  },
+  source: {
+    github: 'KongYanHHHH/vite-plugin-small-css-merged-into-js',
+    npm: 'vite-plugin-small-css-merged-into-js',
   },
   stats: {
     stars: 0,

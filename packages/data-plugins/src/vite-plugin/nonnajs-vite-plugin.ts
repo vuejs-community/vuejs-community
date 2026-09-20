@@ -18,13 +18,13 @@ export default defineProjectMeta({
     'browser',
     'shim',
   ],
-  source: {
-    github: 'nonnajs/nonna',
-    npm: '@nonnajs/vite-plugin',
-  },
   links: {
     github: 'https://github.com/nonnajs/nonna',
     npm: 'https://www.npmjs.com/package/@nonnajs/vite-plugin',
     website: 'https://github.com/nonnajs/nonna#readme',
+  },
+  source: {
+    github: 'nonnajs/nonna',
+    npm: '@nonnajs/vite-plugin',
   },
 })

@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'shell',
     'electron',
   ],
-  source: {
-    npm: '@genkit/vite-plugin-execute',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@genkit/vite-plugin-execute',
+  },
+  source: {
+    npm: '@genkit/vite-plugin-execute',
   },
   stats: {
     stars: 0,

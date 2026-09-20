@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'minify',
   ],
-  source: {
-    github: 'dotcore64/rollup-plugin-tdewolff-minify',
-    npm: 'rollup-plugin-tdewolff-minify',
-  },
   links: {
     github: 'https://github.com/dotcore64/rollup-plugin-tdewolff-minify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-tdewolff-minify',
     website: 'https://github.com/dotcore64/rollup-plugin-tdewolff-minify#readme',
+  },
+  source: {
+    github: 'dotcore64/rollup-plugin-tdewolff-minify',
+    npm: 'rollup-plugin-tdewolff-minify',
   },
   stats: {
     stars: 2,

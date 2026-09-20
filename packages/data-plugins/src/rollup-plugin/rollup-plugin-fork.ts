@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'spawn',
     'worker',
   ],
-  source: {
-    github: 'ianpurvis/rollup-plugin-fork',
-    npm: 'rollup-plugin-fork',
-  },
   links: {
     github: 'https://github.com/ianpurvis/rollup-plugin-fork',
     npm: 'https://www.npmjs.com/package/rollup-plugin-fork',
     website: 'https://github.com/ianpurvis/rollup-plugin-fork#readme',
+  },
+  source: {
+    github: 'ianpurvis/rollup-plugin-fork',
+    npm: 'rollup-plugin-fork',
   },
   stats: {
     stars: 1,

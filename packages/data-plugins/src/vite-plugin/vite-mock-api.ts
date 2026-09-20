@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'mocking',
     'api-test',
   ],
-  source: {
-    github: 'lunaticscode/vite-mock-api',
-    npm: 'vite-mock-api',
-  },
   links: {
     github: 'https://github.com/lunaticscode/vite-mock-api',
     npm: 'https://www.npmjs.com/package/vite-mock-api',
     website: 'https://github.com/lunaticscode/vite-mock-api#readme',
+  },
+  source: {
+    github: 'lunaticscode/vite-mock-api',
+    npm: 'vite-mock-api',
   },
   stats: {
     stars: 0,

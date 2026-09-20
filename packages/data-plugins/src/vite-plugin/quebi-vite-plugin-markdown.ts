@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'quebi-gmbh/vite-markdown',
-    npm: '@quebi/vite-plugin-markdown',
-  },
   links: {
     github: 'https://github.com/quebi-gmbh/vite-markdown',
     npm: 'https://www.npmjs.com/package/@quebi/vite-plugin-markdown',
     website: 'https://github.com/quebi-gmbh/vite-markdown#readme',
+  },
+  source: {
+    github: 'quebi-gmbh/vite-markdown',
+    npm: '@quebi/vite-plugin-markdown',
   },
   stats: {
     stars: 1,

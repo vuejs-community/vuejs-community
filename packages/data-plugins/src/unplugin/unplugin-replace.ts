@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'unplugin/unplugin-replace',
-    npm: 'unplugin-replace',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-replace',
     npm: 'https://www.npmjs.com/package/unplugin-replace',
     website: 'https://github.com/unplugin/unplugin-replace#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-replace',
+    npm: 'unplugin-replace',
   },
   stats: {
     stars: 21,

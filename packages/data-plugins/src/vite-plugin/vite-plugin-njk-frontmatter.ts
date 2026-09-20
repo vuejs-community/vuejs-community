@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'frontmatter',
     'template-engine',
   ],
-  source: {
-    github: 'vinyardrip/vite-plugin-njk-frontmatter',
-    npm: 'vite-plugin-njk-frontmatter',
-  },
   links: {
     github: 'https://github.com/vinyardrip/vite-plugin-njk-frontmatter',
     npm: 'https://www.npmjs.com/package/vite-plugin-njk-frontmatter',
     website: 'https://github.com/vinyardrip/vite-plugin-njk-frontmatter#readme',
+  },
+  source: {
+    github: 'vinyardrip/vite-plugin-njk-frontmatter',
+    npm: 'vite-plugin-njk-frontmatter',
   },
   stats: {
     stars: 0,

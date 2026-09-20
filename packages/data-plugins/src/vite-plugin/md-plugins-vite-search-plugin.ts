@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'md-plugins/md-plugins',
-    npm: '@md-plugins/vite-search-plugin',
-  },
   links: {
     github: 'https://github.com/md-plugins/md-plugins',
     npm: 'https://www.npmjs.com/package/@md-plugins/vite-search-plugin',
     website: 'https://github.com/md-plugins',
+  },
+  source: {
+    github: 'md-plugins/md-plugins',
+    npm: '@md-plugins/vite-search-plugin',
   },
   stats: {
     stars: 0,

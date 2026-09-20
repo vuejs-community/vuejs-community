@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'sveltekit',
     'dev',
   ],
-  source: {
-    github: 'nikitapn/nprpc',
-    npm: '@nprpc/vite-plugin',
-  },
   links: {
     github: 'https://github.com/nikitapn/nprpc',
     npm: 'https://www.npmjs.com/package/@nprpc/vite-plugin',
     website: 'https://github.com/nikitapn/nprpc#readme',
+  },
+  source: {
+    github: 'nikitapn/nprpc',
+    npm: '@nprpc/vite-plugin',
   },
   stats: {
     stars: 3,

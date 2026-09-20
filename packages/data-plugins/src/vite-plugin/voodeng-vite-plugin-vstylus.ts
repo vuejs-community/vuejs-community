@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'voodeng/vite-plugin-vstylus',
-    npm: '@voodeng/vite-plugin-vstylus',
-  },
   links: {
     github: 'https://github.com/voodeng/vite-plugin-vstylus',
     npm: 'https://www.npmjs.com/package/@voodeng/vite-plugin-vstylus',
     website: 'https://github.com/voodeng/vite-plugin-vstylus#readme',
+  },
+  source: {
+    github: 'voodeng/vite-plugin-vstylus',
+    npm: '@voodeng/vite-plugin-vstylus',
   },
   stats: {
     stars: 1,

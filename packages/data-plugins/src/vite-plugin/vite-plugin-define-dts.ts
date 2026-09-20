@@ -21,12 +21,12 @@ export default defineProjectMeta({
     'constants',
     'generate',
   ],
-  source: {
-    npm: 'vite-plugin-define-dts',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-define-dts',
     website: 'https://github.com/eogic/vite-plugin-define-dts',
+  },
+  source: {
+    npm: 'vite-plugin-define-dts',
   },
   stats: {
     stars: 0,

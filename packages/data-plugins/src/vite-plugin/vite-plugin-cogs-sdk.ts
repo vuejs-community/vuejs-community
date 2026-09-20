@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'cogs',
     'vite-plugin',
   ],
-  source: {
-    github: 'clockwork-dog/cogs-sdk',
-    npm: 'vite-plugin-cogs-sdk',
-  },
   links: {
     github: 'https://github.com/clockwork-dog/cogs-sdk',
     npm: 'https://www.npmjs.com/package/vite-plugin-cogs-sdk',
     website: 'https://github.com/clockwork-dog/cogs-sdk/tree/main/packages/vite-plugin',
+  },
+  source: {
+    github: 'clockwork-dog/cogs-sdk',
+    npm: 'vite-plugin-cogs-sdk',
   },
   stats: {
     stars: 4,

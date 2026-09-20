@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'browser-os',
     'vite-plugin',
   ],
-  source: {
-    npm: '@aurvo.ai/sandbox',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@aurvo.ai/sandbox',
+  },
+  source: {
+    npm: '@aurvo.ai/sandbox',
   },
   stats: {
     stars: 0,

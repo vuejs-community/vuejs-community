@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'fetch',
     'xhr',
   ],
-  source: {
-    github: 'Charley3d/magic-mock',
-    npm: '@magicmock/unplugin',
-  },
   links: {
     github: 'https://github.com/Charley3d/magic-mock',
     npm: 'https://www.npmjs.com/package/@magicmock/unplugin',
     website: 'https://github.com/Charley3d/magic-mock/tree/main/packages/unplugin#readme',
+  },
+  source: {
+    github: 'Charley3d/magic-mock',
+    npm: '@magicmock/unplugin',
   },
   stats: {
     stars: 0,

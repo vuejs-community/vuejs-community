@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dom-inspector',
     'ai-design',
   ],
-  source: {
-    github: 'smilezyl2023/smile-design',
-    npm: '@smile-design/inspector-plugin',
-  },
   links: {
     github: 'https://github.com/smilezyl2023/smile-design',
     npm: 'https://www.npmjs.com/package/@smile-design/inspector-plugin',
     website: 'https://github.com/smilezyl2023/smile-design',
+  },
+  source: {
+    github: 'smilezyl2023/smile-design',
+    npm: '@smile-design/inspector-plugin',
   },
   stats: {
     stars: 1,

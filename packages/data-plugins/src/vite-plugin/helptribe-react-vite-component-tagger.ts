@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'react',
     'helptribe',
   ],
-  source: {
-    npm: '@helptribe/react-vite-component-tagger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@helptribe/react-vite-component-tagger',
+  },
+  source: {
+    npm: '@helptribe/react-vite-component-tagger',
   },
   stats: {
     stars: 0,

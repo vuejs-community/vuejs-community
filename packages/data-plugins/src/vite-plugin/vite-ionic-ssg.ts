@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'ssg',
     'ssr',
   ],
-  source: {
-    github: 'antfu/vite-ssg',
-    npm: 'vite-ionic-ssg',
-  },
   links: {
     github: 'https://github.com/antfu/vite-ssg',
     npm: 'https://www.npmjs.com/package/vite-ionic-ssg',
     website: 'https://github.com/antfu/vite-ssg',
+  },
+  source: {
+    github: 'antfu/vite-ssg',
+    npm: 'vite-ionic-ssg',
   },
   stats: {
     stars: 0,

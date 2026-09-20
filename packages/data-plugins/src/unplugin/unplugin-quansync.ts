@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'esbuild',
     'farm',
   ],
-  source: {
-    github: 'quansync-dev/unplugin-quansync',
-    npm: 'unplugin-quansync',
-  },
   links: {
     github: 'https://github.com/quansync-dev/unplugin-quansync',
     npm: 'https://www.npmjs.com/package/unplugin-quansync',
     website: 'https://github.com/quansync-dev/unplugin-quansync#readme',
+  },
+  source: {
+    github: 'quansync-dev/unplugin-quansync',
+    npm: 'unplugin-quansync',
   },
   stats: {
     stars: 85,

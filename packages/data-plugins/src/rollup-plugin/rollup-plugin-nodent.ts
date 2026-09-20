@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'async',
     'await',
   ],
-  source: {
-    github: 'oligot/rollup-plugin-nodent',
-    npm: 'rollup-plugin-nodent',
-  },
   links: {
     github: 'https://github.com/oligot/rollup-plugin-nodent',
     npm: 'https://www.npmjs.com/package/rollup-plugin-nodent',
     website: 'https://github.com/oligot/rollup-plugin-nodent#readme',
+  },
+  source: {
+    github: 'oligot/rollup-plugin-nodent',
+    npm: 'rollup-plugin-nodent',
   },
   stats: {
     stars: 28,

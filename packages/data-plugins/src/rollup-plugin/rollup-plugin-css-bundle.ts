@@ -12,13 +12,13 @@ export default defineProjectMeta({
     'rollup-plugin',
     'css',
   ],
-  source: {
-    github: 'Evercoder/rollup-plugin-css-bundle',
-    npm: 'rollup-plugin-css-bundle',
-  },
   links: {
     github: 'https://github.com/Evercoder/rollup-plugin-css-bundle',
     npm: 'https://www.npmjs.com/package/rollup-plugin-css-bundle',
+  },
+  source: {
+    github: 'Evercoder/rollup-plugin-css-bundle',
+    npm: 'rollup-plugin-css-bundle',
   },
   stats: {
     stars: 10,

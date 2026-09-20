@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'npm',
     'modules',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-node-resolve',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-node-resolve',
     website: 'https://github.com/rollup/plugins/tree/master/packages/node-resolve/#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-node-resolve',
   },
   stats: {
     stars: 0,

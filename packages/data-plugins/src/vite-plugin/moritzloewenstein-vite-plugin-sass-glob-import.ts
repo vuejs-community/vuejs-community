@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'sass',
   ],
-  source: {
-    github: 'MoritzLoewenstein/vite-plugin-sass-glob-import',
-    npm: '@moritzloewenstein/vite-plugin-sass-glob-import',
-  },
   links: {
     github: 'https://github.com/MoritzLoewenstein/vite-plugin-sass-glob-import',
     npm: 'https://www.npmjs.com/package/@moritzloewenstein/vite-plugin-sass-glob-import',
     website: 'https://github.com/MoritzLoewenstein/vite-plugin-sass-glob-import#readme',
+  },
+  source: {
+    github: 'MoritzLoewenstein/vite-plugin-sass-glob-import',
+    npm: '@moritzloewenstein/vite-plugin-sass-glob-import',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'automation',
     'vite-plugin',
   ],
-  source: {
-    github: 'SaaSTEMLY/sveltekit-auto-openapi',
-    npm: 'sveltekit-auto-openapi',
-  },
   links: {
     github: 'https://github.com/SaaSTEMLY/sveltekit-auto-openapi',
     npm: 'https://www.npmjs.com/package/sveltekit-auto-openapi',
     website: 'https://www.sveltekit-auto-openapi.saastemly.com',
+  },
+  source: {
+    github: 'SaaSTEMLY/sveltekit-auto-openapi',
+    npm: 'sveltekit-auto-openapi',
   },
   stats: {
     stars: 16,

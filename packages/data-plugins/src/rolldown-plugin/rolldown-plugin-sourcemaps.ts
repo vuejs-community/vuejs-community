@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'source-map',
     'sourceMappingURL',
   ],
-  source: {
-    github: 'rtvision/rolldown-plugin-sourcemaps',
-    npm: 'rolldown-plugin-sourcemaps',
-  },
   links: {
     github: 'https://github.com/rtvision/rolldown-plugin-sourcemaps',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-sourcemaps',
     website: 'https://github.com/rtvision/rolldown-plugin-sourcemaps#readme',
+  },
+  source: {
+    github: 'rtvision/rolldown-plugin-sourcemaps',
+    npm: 'rolldown-plugin-sourcemaps',
   },
   stats: {
     stars: 0,

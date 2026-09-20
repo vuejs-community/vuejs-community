@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'sentry',
     'stacktrace',
   ],
-  source: {
-    github: 'javadtavakoli/vite-plugin-dep-sourcemaps',
-    npm: 'vite-plugin-dep-sourcemaps',
-  },
   links: {
     github: 'https://github.com/javadtavakoli/vite-plugin-dep-sourcemaps',
     npm: 'https://www.npmjs.com/package/vite-plugin-dep-sourcemaps',
     website: 'https://github.com/javadtavakoli/vite-plugin-dep-sourcemaps#readme',
+  },
+  source: {
+    github: 'javadtavakoli/vite-plugin-dep-sourcemaps',
+    npm: 'vite-plugin-dep-sourcemaps',
   },
   stats: {
     stars: 0,

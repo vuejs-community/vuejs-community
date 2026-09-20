@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'glsl',
     'plugin',
   ],
-  source: {
-    github: 'renderlayer/rollup-shader-chunks',
-    npm: '@renderlayer/rollup-shader-chunks',
-  },
   links: {
     github: 'https://github.com/renderlayer/rollup-shader-chunks',
     npm: 'https://www.npmjs.com/package/@renderlayer/rollup-shader-chunks',
     website: 'https://github.com/renderlayer/rollup-shader-chunks#readme',
+  },
+  source: {
+    github: 'renderlayer/rollup-shader-chunks',
+    npm: '@renderlayer/rollup-shader-chunks',
   },
   stats: {
     stars: 1,

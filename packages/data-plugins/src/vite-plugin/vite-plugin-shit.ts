@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'shit',
   ],
-  source: {
-    github: 'guoyunhe/vite-plugin-shit',
-    npm: 'vite-plugin-shit',
-  },
   links: {
     github: 'https://github.com/guoyunhe/vite-plugin-shit',
     npm: 'https://www.npmjs.com/package/vite-plugin-shit',
     website: 'https://github.com/guoyunhe/vite-plugin-shit#readme',
+  },
+  source: {
+    github: 'guoyunhe/vite-plugin-shit',
+    npm: 'vite-plugin-shit',
   },
   stats: {
     stars: 1,

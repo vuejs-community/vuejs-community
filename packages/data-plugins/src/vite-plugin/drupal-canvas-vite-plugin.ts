@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'drupal',
     'vite-plugin',
   ],
-  source: {
-    npm: '@drupal-canvas/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@drupal-canvas/vite-plugin',
+  },
+  source: {
+    npm: '@drupal-canvas/vite-plugin',
   },
   stats: {
     stars: 0,

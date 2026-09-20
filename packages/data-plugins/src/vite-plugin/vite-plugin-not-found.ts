@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'project',
     'version',
   ],
-  source: {
-    github: 'xkloveme/vite-plugin-not-found',
-    npm: 'vite-plugin-not-found',
-  },
   links: {
     github: 'https://github.com/xkloveme/vite-plugin-not-found',
     npm: 'https://www.npmjs.com/package/vite-plugin-not-found',
     website: 'https://github.com/xkloveme/vite-plugin-not-found#readme',
+  },
+  source: {
+    github: 'xkloveme/vite-plugin-not-found',
+    npm: 'vite-plugin-not-found',
   },
   stats: {
     stars: 0,

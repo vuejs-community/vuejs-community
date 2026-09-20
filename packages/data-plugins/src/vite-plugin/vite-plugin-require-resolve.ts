@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'require-resolve',
     'require.resolve',
   ],
-  source: {
-    github: 'keenghost/vite-plugin-require-resolve',
-    npm: 'vite-plugin-require-resolve',
-  },
   links: {
     github: 'https://github.com/keenghost/vite-plugin-require-resolve',
     npm: 'https://www.npmjs.com/package/vite-plugin-require-resolve',
     website: 'https://github.com/keenghost/vite-plugin-require-resolve#readme',
+  },
+  source: {
+    github: 'keenghost/vite-plugin-require-resolve',
+    npm: 'vite-plugin-require-resolve',
   },
   stats: {
     stars: 2,

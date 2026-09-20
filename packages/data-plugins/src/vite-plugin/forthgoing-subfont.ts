@@ -25,11 +25,11 @@ export default defineProjectMeta({
     'performance',
     'perf',
   ],
-  source: {
-    npm: '@forthgoing/subfont',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@forthgoing/subfont',
+  },
+  source: {
+    npm: '@forthgoing/subfont',
   },
   stats: {
     stars: 0,

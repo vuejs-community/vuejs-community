@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'react',
     'solid',
   ],
-  source: {
-    github: 'AkagiYui/vite-plugin-devtools-pack',
-    npm: 'vite-plugin-devtools-pack',
-  },
   links: {
     github: 'https://github.com/AkagiYui/vite-plugin-devtools-pack',
     npm: 'https://www.npmjs.com/package/vite-plugin-devtools-pack',
     website: 'https://github.com/AkagiYui/vite-plugin-devtools-pack',
+  },
+  source: {
+    github: 'AkagiYui/vite-plugin-devtools-pack',
+    npm: 'vite-plugin-devtools-pack',
   },
   stats: {
     stars: 0,

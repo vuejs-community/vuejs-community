@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'react',
     'codeduet',
   ],
-  source: {
-    npm: '@codeduet-sh/react-vite-component-tagger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@codeduet-sh/react-vite-component-tagger',
+  },
+  source: {
+    npm: '@codeduet-sh/react-vite-component-tagger',
   },
   stats: {
     stars: 0,

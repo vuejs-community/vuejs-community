@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'openapi',
     'typescript',
   ],
-  source: {
-    github: 'AlexChadwickPex/openapi-kit',
-    npm: '@alexchadwickp/openapi-kit-vite-plugin',
-  },
   links: {
     github: 'https://github.com/AlexChadwickPex/openapi-kit',
     npm: 'https://www.npmjs.com/package/@alexchadwickp/openapi-kit-vite-plugin',
     website: 'https://github.com/AlexChadwickPex/openapi-kit#readme',
+  },
+  source: {
+    github: 'AlexChadwickPex/openapi-kit',
+    npm: '@alexchadwickp/openapi-kit-vite-plugin',
   },
   stats: {
     stars: 0,

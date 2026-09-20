@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'reactive',
   ],
-  source: {
-    github: 'mowtwo/tu',
-    npm: '@tu-lang/vite',
-  },
   links: {
     github: 'https://github.com/mowtwo/tu',
     npm: 'https://www.npmjs.com/package/@tu-lang/vite',
     website: 'https://mowtwo.github.io/tu/',
+  },
+  source: {
+    github: 'mowtwo/tu',
+    npm: '@tu-lang/vite',
   },
   stats: {
     stars: 0,

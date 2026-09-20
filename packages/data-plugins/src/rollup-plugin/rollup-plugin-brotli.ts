@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'brotli',
     'compress',
   ],
-  source: {
-    github: 'keithamus/rollup-plugin-brotli',
-    npm: 'rollup-plugin-brotli',
-  },
   links: {
     github: 'https://github.com/keithamus/rollup-plugin-brotli',
     npm: 'https://www.npmjs.com/package/rollup-plugin-brotli',
     website: 'https://github.com/keithamus/rollup-plugin-brotli#readme',
+  },
+  source: {
+    github: 'keithamus/rollup-plugin-brotli',
+    npm: 'rollup-plugin-brotli',
   },
   stats: {
     stars: 17,

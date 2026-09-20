@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'rolldown',
     'rspack',
   ],
-  source: {
-    github: 'luxass/actions-kit',
-    npm: 'unplugin-actions-kit',
-  },
   links: {
     github: 'https://github.com/luxass/actions-kit',
     npm: 'https://www.npmjs.com/package/unplugin-actions-kit',
     website: 'https://github.com/luxass/actions-kit',
+  },
+  source: {
+    github: 'luxass/actions-kit',
+    npm: 'unplugin-actions-kit',
   },
   stats: {
     stars: 0,

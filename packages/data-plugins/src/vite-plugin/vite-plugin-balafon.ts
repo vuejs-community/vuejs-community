@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'tools',
     'vuejs',
   ],
-  source: {
-    npm: 'vite-plugin-balafon',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-balafon',
+  },
+  source: {
+    npm: 'vite-plugin-balafon',
   },
   stats: {
     stars: 0,

@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'adapter',
     'core',
   ],
-  source: {
-    npm: '@chuckcchen/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@chuckcchen/vite-plugin',
+  },
+  source: {
+    npm: '@chuckcchen/vite-plugin',
   },
   stats: {
     stars: 0,

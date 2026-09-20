@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'cli',
   ],
-  source: {
-    github: 'drawcall-ai/v43',
-    npm: '@v43/plugin-cli',
-  },
   links: {
     github: 'https://github.com/drawcall-ai/v43',
     npm: 'https://www.npmjs.com/package/@v43/plugin-cli',
     website: 'https://github.com/drawcall-ai/v43#readme',
+  },
+  source: {
+    github: 'drawcall-ai/v43',
+    npm: '@v43/plugin-cli',
   },
   stats: {
     stars: 0,

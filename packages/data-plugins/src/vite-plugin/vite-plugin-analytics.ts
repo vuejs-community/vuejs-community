@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    github: 'yjl9903/unplugin-analytics',
-    npm: 'vite-plugin-analytics',
-  },
   links: {
     github: 'https://github.com/yjl9903/unplugin-analytics',
     npm: 'https://www.npmjs.com/package/vite-plugin-analytics',
     website: 'https://github.com/yjl9903/unplugin-analytics#readme',
+  },
+  source: {
+    github: 'yjl9903/unplugin-analytics',
+    npm: 'vite-plugin-analytics',
   },
   stats: {
     stars: 6,

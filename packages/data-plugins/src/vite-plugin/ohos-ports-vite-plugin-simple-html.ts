@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'plugin',
     'html',
   ],
-  source: {
-    github: 'ohos-ports/ohos-ports',
-    npm: '@ohos-ports/vite-plugin-simple-html',
-  },
   links: {
     github: 'https://github.com/ohos-ports/ohos-ports',
     npm: 'https://www.npmjs.com/package/@ohos-ports/vite-plugin-simple-html',
     website: 'https://github.com/ohos-ports/ohos-ports#readme',
+  },
+  source: {
+    github: 'ohos-ports/ohos-ports',
+    npm: '@ohos-ports/vite-plugin-simple-html',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'yaml',
     'generator',
   ],
-  source: {
-    github: 'tonpseudo/vite-plugin-openapi-generator',
-    npm: 'vite-plugin-openapi-generator',
-  },
   links: {
     github: 'https://github.com/tonpseudo/vite-plugin-openapi-generator',
     npm: 'https://www.npmjs.com/package/vite-plugin-openapi-generator',
     website: 'https://github.com/tonpseudo/vite-plugin-openapi-generator#readme',
+  },
+  source: {
+    github: 'tonpseudo/vite-plugin-openapi-generator',
+    npm: 'vite-plugin-openapi-generator',
   },
   stats: {
     stars: 0,

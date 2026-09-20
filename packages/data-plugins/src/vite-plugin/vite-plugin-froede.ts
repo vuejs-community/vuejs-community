@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'jsx',
     'devtools',
   ],
-  source: {
-    github: 'Mun1to/froede',
-    npm: 'vite-plugin-froede',
-  },
   links: {
     github: 'https://github.com/Mun1to/froede',
     npm: 'https://www.npmjs.com/package/vite-plugin-froede',
     website: 'https://github.com/Mun1to/froede#readme',
+  },
+  source: {
+    github: 'Mun1to/froede',
+    npm: 'vite-plugin-froede',
   },
   stats: {
     stars: 4,

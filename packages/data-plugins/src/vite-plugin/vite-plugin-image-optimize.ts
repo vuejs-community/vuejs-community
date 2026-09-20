@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite-plugin-avif',
     'vite-plugin-image-optimize',
   ],
-  source: {
-    github: 'Effeilo/vite-plugin-image-optimize',
-    npm: 'vite-plugin-image-optimize',
-  },
   links: {
     github: 'https://github.com/Effeilo/vite-plugin-image-optimize',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-optimize',
     website: 'https://github.com/Effeilo/vite-plugin-image-optimize',
+  },
+  source: {
+    github: 'Effeilo/vite-plugin-image-optimize',
+    npm: 'vite-plugin-image-optimize',
   },
   stats: {
     stars: 0,

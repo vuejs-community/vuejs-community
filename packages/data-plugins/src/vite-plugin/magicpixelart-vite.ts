@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'sprites',
     'hmr',
   ],
-  source: {
-    github: 'handpoke/magicpixel-vite',
-    npm: '@magicpixelart/vite',
-  },
   links: {
     github: 'https://github.com/handpoke/magicpixel-vite',
     npm: 'https://www.npmjs.com/package/@magicpixelart/vite',
     website: 'https://magicpixel.art',
+  },
+  source: {
+    github: 'handpoke/magicpixel-vite',
+    npm: '@magicpixelart/vite',
   },
   stats: {
     stars: 0,

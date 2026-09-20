@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'typescript',
     'leancode',
   ],
-  source: {
-    github: 'leancodepl/js_corelibrary',
-    npm: '@leancodepl/force-update',
-  },
   links: {
     github: 'https://github.com/leancodepl/js_corelibrary',
     npm: 'https://www.npmjs.com/package/@leancodepl/force-update',
     website: 'https://github.com/leancodepl/js_corelibrary',
+  },
+  source: {
+    github: 'leancodepl/js_corelibrary',
+    npm: '@leancodepl/force-update',
   },
   stats: {
     stars: 4,

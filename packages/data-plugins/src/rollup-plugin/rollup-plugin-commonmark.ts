@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'commonmark',
     'html',
   ],
-  source: {
-    npm: 'rollup-plugin-commonmark',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-commonmark',
+  },
+  source: {
+    npm: 'rollup-plugin-commonmark',
   },
   stats: {
     stars: 0,

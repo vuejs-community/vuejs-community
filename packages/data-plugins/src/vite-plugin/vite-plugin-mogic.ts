@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'html',
     'mogic',
   ],
-  source: {
-    npm: 'vite-plugin-mogic',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-mogic',
     website: 'https://github.com/ourongxing/vite-plugin-mogic#readme',
+  },
+  source: {
+    npm: 'vite-plugin-mogic',
   },
   stats: {
     stars: 0,

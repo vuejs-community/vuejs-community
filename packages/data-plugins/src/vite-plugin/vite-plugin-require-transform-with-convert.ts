@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'require',
   ],
-  source: {
-    github: 'winchesHe/vite-plugin-require-transform',
-    npm: 'vite-plugin-require-transform-with-convert',
-  },
   links: {
     github: 'https://github.com/winchesHe/vite-plugin-require-transform',
     npm: 'https://www.npmjs.com/package/vite-plugin-require-transform-with-convert',
     website: 'https://github.com/winchesHe/vite-plugin-require-transform#readme',
+  },
+  source: {
+    github: 'winchesHe/vite-plugin-require-transform',
+    npm: 'vite-plugin-require-transform-with-convert',
   },
   stats: {
     stars: 0,

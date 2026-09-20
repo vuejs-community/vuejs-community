@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'design-tokens',
     'tokens',
   ],
-  source: {
-    github: 'kanso-labs/unplugin-style-dictionary',
-    npm: '@kanso-labs/unplugin-style-dictionary',
-  },
   links: {
     github: 'https://github.com/kanso-labs/unplugin-style-dictionary',
     npm: 'https://www.npmjs.com/package/@kanso-labs/unplugin-style-dictionary',
     website: 'https://github.com/kanso-labs/unplugin-style-dictionary#readme',
+  },
+  source: {
+    github: 'kanso-labs/unplugin-style-dictionary',
+    npm: '@kanso-labs/unplugin-style-dictionary',
   },
   stats: {
     stars: 0,

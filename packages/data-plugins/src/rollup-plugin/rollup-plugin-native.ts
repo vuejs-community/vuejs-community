@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'native',
     'napi',
   ],
-  source: {
-    github: 'arlac77/rollup-plugin-native',
-    npm: 'rollup-plugin-native',
-  },
   links: {
     github: 'https://github.com/arlac77/rollup-plugin-native',
     npm: 'https://www.npmjs.com/package/rollup-plugin-native',
     website: 'https://github.com/arlac77/rollup-plugin-native#readme',
+  },
+  source: {
+    github: 'arlac77/rollup-plugin-native',
+    npm: 'rollup-plugin-native',
   },
   stats: {
     stars: 2,

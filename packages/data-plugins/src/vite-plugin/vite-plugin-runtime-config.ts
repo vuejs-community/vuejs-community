@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'configuration',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-runtime-config',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-runtime-config',
     website: 'https://github.com/Viva-con-Agua/vite-plugin-runtime-config',
+  },
+  source: {
+    npm: 'vite-plugin-runtime-config',
   },
   stats: {
     stars: 0,

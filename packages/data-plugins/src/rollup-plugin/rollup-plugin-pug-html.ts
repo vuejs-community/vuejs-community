@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'jade',
     'pug',
   ],
-  source: {
-    github: 'tycho01/rollup-plugin-pug-html',
-    npm: 'rollup-plugin-pug-html',
-  },
   links: {
     github: 'https://github.com/tycho01/rollup-plugin-pug-html',
     npm: 'https://www.npmjs.com/package/rollup-plugin-pug-html',
     website: 'https://github.com/tycho01/rollup-plugin-pug-html#readme',
+  },
+  source: {
+    github: 'tycho01/rollup-plugin-pug-html',
+    npm: 'rollup-plugin-pug-html',
   },
   stats: {
     stars: 3,

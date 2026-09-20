@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-send2server',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-send2server',
+  },
+  source: {
+    npm: 'vite-plugin-send2server',
   },
   stats: {
     stars: 0,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'typescript',
     'bundler',
   ],
-  source: {
-    github: 'alfredosalzillo/modular-library',
-    npm: 'modular-library',
-  },
   links: {
     github: 'https://github.com/alfredosalzillo/modular-library',
     npm: 'https://www.npmjs.com/package/modular-library',
     website: 'https://github.com/alfredosalzillo/modular-library#readme',
+  },
+  source: {
+    github: 'alfredosalzillo/modular-library',
+    npm: 'modular-library',
   },
   stats: {
     stars: 2,

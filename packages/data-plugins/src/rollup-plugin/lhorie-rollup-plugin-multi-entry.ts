@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'rollup/rollup-plugin-multi-entry',
-    npm: '@lhorie/rollup-plugin-multi-entry',
-  },
   links: {
     github: 'https://github.com/rollup/rollup-plugin-multi-entry',
     npm: 'https://www.npmjs.com/package/@lhorie/rollup-plugin-multi-entry',
     website: 'https://github.com/rollup/rollup-plugin-multi-entry#readme',
+  },
+  source: {
+    github: 'rollup/rollup-plugin-multi-entry',
+    npm: '@lhorie/rollup-plugin-multi-entry',
   },
   stats: {
     stars: 171,

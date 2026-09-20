@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'ssr',
     'server-side-rendering',
   ],
-  source: {
-    github: 'joetifa2003/inertigo',
-    npm: 'inertigo-vite',
-  },
   links: {
     github: 'https://github.com/joetifa2003/inertigo',
     npm: 'https://www.npmjs.com/package/inertigo-vite',
     website: 'https://github.com/joetifa2003/inertigo#readme',
+  },
+  source: {
+    github: 'joetifa2003/inertigo',
+    npm: 'inertigo-vite',
   },
   stats: {
     stars: 1,

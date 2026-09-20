@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'inheritAttrs',
     'babel',
   ],
-  source: {
-    github: 'liyang8246/solid-inheritattrs',
-    npm: '@liyang8246/solid-inheritattrs',
-  },
   links: {
     github: 'https://github.com/liyang8246/solid-inheritattrs',
     npm: 'https://www.npmjs.com/package/@liyang8246/solid-inheritattrs',
     website: 'https://github.com/liyang8246/solid-inheritattrs#readme',
+  },
+  source: {
+    github: 'liyang8246/solid-inheritattrs',
+    npm: '@liyang8246/solid-inheritattrs',
   },
   stats: {
     stars: 0,

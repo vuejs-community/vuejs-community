@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'marko',
   ],
-  source: {
-    github: 'marko-js/markoify',
-    npm: 'rollup-plugin-marko',
-  },
   links: {
     github: 'https://github.com/marko-js/markoify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-marko',
     website: 'https://github.com/marko-js/markoify#readme',
+  },
+  source: {
+    github: 'marko-js/markoify',
+    npm: 'rollup-plugin-marko',
   },
   stats: {
     stars: 6,

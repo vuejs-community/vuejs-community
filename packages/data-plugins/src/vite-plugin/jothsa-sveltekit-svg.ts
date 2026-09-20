@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'poppa/sveltekit-svg',
-    npm: '@jothsa/sveltekit-svg',
-  },
   links: {
     github: 'https://github.com/poppa/sveltekit-svg',
     npm: 'https://www.npmjs.com/package/@jothsa/sveltekit-svg',
     website: 'https://github.com/poppa/sveltekit-svg#readme',
+  },
+  source: {
+    github: 'poppa/sveltekit-svg',
+    npm: '@jothsa/sveltekit-svg',
   },
   stats: {
     stars: 298,

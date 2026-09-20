@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'ai-agent',
     'developer-experience',
   ],
-  source: {
-    github: 'ichiragshah/vite-plugin-agent-quiet',
-    npm: 'vite-plugin-agent-quiet',
-  },
   links: {
     github: 'https://github.com/ichiragshah/vite-plugin-agent-quiet',
     npm: 'https://www.npmjs.com/package/vite-plugin-agent-quiet',
     website: 'https://github.com/ichiragshah/vite-plugin-agent-quiet#readme',
+  },
+  source: {
+    github: 'ichiragshah/vite-plugin-agent-quiet',
+    npm: 'vite-plugin-agent-quiet',
   },
   stats: {
     stars: 0,

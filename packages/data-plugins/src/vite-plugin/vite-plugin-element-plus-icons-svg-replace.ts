@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'element-plus',
     'icons',
   ],
-  source: {
-    github: 'nqdy666/vite-plugin-element-plus-icons-svg-replace',
-    npm: 'vite-plugin-element-plus-icons-svg-replace',
-  },
   links: {
     github: 'https://github.com/nqdy666/vite-plugin-element-plus-icons-svg-replace',
     npm: 'https://www.npmjs.com/package/vite-plugin-element-plus-icons-svg-replace',
     website: 'https://github.com/nqdy666/vite-plugin-element-plus-icons-svg-replace',
+  },
+  source: {
+    github: 'nqdy666/vite-plugin-element-plus-icons-svg-replace',
+    npm: 'vite-plugin-element-plus-icons-svg-replace',
   },
   stats: {
     stars: 0,

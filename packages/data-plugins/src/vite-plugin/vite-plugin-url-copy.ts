@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'copy server url',
     'vite-plugin-url-copy',
   ],
-  source: {
-    github: 'XioDone/vite-plugin-url-copy',
-    npm: 'vite-plugin-url-copy',
-  },
   links: {
     github: 'https://github.com/XioDone/vite-plugin-url-copy',
     npm: 'https://www.npmjs.com/package/vite-plugin-url-copy',
     website: 'https://github.com/XioDone/vite-plugin-url-copy#readme',
+  },
+  source: {
+    github: 'XioDone/vite-plugin-url-copy',
+    npm: 'vite-plugin-url-copy',
   },
   stats: {
     stars: 6,

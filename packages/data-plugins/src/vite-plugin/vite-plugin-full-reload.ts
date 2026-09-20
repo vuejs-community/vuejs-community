@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'full',
     'reload',
   ],
-  source: {
-    github: 'ElMassimo/vite-plugin-full-reload',
-    npm: 'vite-plugin-full-reload',
-  },
   links: {
     github: 'https://github.com/ElMassimo/vite-plugin-full-reload',
     npm: 'https://www.npmjs.com/package/vite-plugin-full-reload',
     website: 'https://github.com/ElMassimo/vite-plugin-full-reload',
+  },
+  source: {
+    github: 'ElMassimo/vite-plugin-full-reload',
+    npm: 'vite-plugin-full-reload',
   },
   stats: {
     stars: 176,

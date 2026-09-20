@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'react',
     'vue',
   ],
-  source: {
-    github: 'Ahn1/vite-plugin-css-position',
-    npm: 'vite-plugin-css-position',
-  },
   links: {
     github: 'https://github.com/Ahn1/vite-plugin-css-position',
     npm: 'https://www.npmjs.com/package/vite-plugin-css-position',
     website: 'https://github.com/Ahn1/vite-plugin-css-position',
+  },
+  source: {
+    github: 'Ahn1/vite-plugin-css-position',
+    npm: 'vite-plugin-css-position',
   },
   stats: {
     stars: 5,

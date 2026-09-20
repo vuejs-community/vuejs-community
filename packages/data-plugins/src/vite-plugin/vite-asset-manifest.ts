@@ -42,14 +42,14 @@ export default defineProjectMeta({
     'esm',
     'typescript',
   ],
-  source: {
-    github: 'ilyasakin/vite-asset-manifest',
-    npm: 'vite-asset-manifest',
-  },
   links: {
     github: 'https://github.com/ilyasakin/vite-asset-manifest',
     npm: 'https://www.npmjs.com/package/vite-asset-manifest',
     website: 'https://github.com/ilyasakin/vite-asset-manifest#readme',
+  },
+  source: {
+    github: 'ilyasakin/vite-asset-manifest',
+    npm: 'vite-asset-manifest',
   },
   stats: {
     stars: 4,

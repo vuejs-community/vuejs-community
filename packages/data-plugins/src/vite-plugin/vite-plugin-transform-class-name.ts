@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'yulaughing/vite-plugin-transform-classname',
-    npm: 'vite-plugin-transform-class-name',
-  },
   links: {
     github: 'https://github.com/yulaughing/vite-plugin-transform-classname',
     npm: 'https://www.npmjs.com/package/vite-plugin-transform-class-name',
     website: 'https://github.com/yulaughing/vite-plugin-transform-classname#readme',
+  },
+  source: {
+    github: 'yulaughing/vite-plugin-transform-classname',
+    npm: 'vite-plugin-transform-class-name',
   },
   stats: {
     stars: 1,

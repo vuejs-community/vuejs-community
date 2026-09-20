@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'unplugin',
     'resolver',
   ],
-  source: {
-    github: 'LoicOuth/inertia-vue3-unplugin-resolver',
-    npm: '@louth/inertia-vue3-unplugin-resolver',
-  },
   links: {
     github: 'https://github.com/LoicOuth/inertia-vue3-unplugin-resolver',
     npm: 'https://www.npmjs.com/package/@louth/inertia-vue3-unplugin-resolver',
     website: 'https://github.com/LoicOuth/inertia-vue3-unplugin-resolver#readme',
+  },
+  source: {
+    github: 'LoicOuth/inertia-vue3-unplugin-resolver',
+    npm: '@louth/inertia-vue3-unplugin-resolver',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'atlas',
     'spine',
   ],
-  source: {
-    github: 'wetrustinprize/vite-plugin-minverversion',
-    npm: 'vite-plugin-spine-dynamic-url',
-  },
   links: {
     github: 'https://github.com/wetrustinprize/vite-plugin-minverversion',
     npm: 'https://www.npmjs.com/package/vite-plugin-spine-dynamic-url',
     website: 'https://github.com/wetrustinprize/vite-plugin-minverversion#readme',
+  },
+  source: {
+    github: 'wetrustinprize/vite-plugin-minverversion',
+    npm: 'vite-plugin-spine-dynamic-url',
   },
   stats: {
     stars: 0,

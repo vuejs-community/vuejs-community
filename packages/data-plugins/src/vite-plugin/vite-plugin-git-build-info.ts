@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'version',
     'metadata',
   ],
-  source: {
-    github: 'lei-mu/vite-plugin-git-build-info',
-    npm: 'vite-plugin-git-build-info',
-  },
   links: {
     github: 'https://github.com/lei-mu/vite-plugin-git-build-info',
     npm: 'https://www.npmjs.com/package/vite-plugin-git-build-info',
     website: 'https://github.com/lei-mu/vite-plugin-git-build-info#readme',
+  },
+  source: {
+    github: 'lei-mu/vite-plugin-git-build-info',
+    npm: 'vite-plugin-git-build-info',
   },
   stats: {
     stars: 1,

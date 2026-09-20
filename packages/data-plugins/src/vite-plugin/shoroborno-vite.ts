@@ -15,10 +15,10 @@ export default defineProjectMeta({
     'vite-plugin',
     'soroborno',
   ],
-  source: {
-    npm: '@shoroborno/vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@shoroborno/vite',
+  },
+  source: {
+    npm: '@shoroborno/vite',
   },
 })

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'TorchAuth/vite-plugin-wrangler-spa',
-    npm: '@torchauth/vite-plugin-wrangler-spa',
-  },
   links: {
     github: 'https://github.com/TorchAuth/vite-plugin-wrangler-spa',
     npm: 'https://www.npmjs.com/package/@torchauth/vite-plugin-wrangler-spa',
     website: 'https://github.com/TorchAuth/vite-plugin-wrangler-spa.git',
+  },
+  source: {
+    github: 'TorchAuth/vite-plugin-wrangler-spa',
+    npm: '@torchauth/vite-plugin-wrangler-spa',
   },
   stats: {
     stars: 0,

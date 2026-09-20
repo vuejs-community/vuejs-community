@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://builder.vueform.com',
   },
   source: {
-    github: 'vueform/builder#main/nuxt',
+    github: 'vueform/builder',
     npm: '@vueform/builder-nuxt',
   },
 })

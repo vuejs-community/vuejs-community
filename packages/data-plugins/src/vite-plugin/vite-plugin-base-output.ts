@@ -19,11 +19,11 @@ export default defineProjectMeta({
     'dist',
     'public-path',
   ],
-  source: {
-    npm: 'vite-plugin-base-output',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-base-output',
+  },
+  source: {
+    npm: 'vite-plugin-base-output',
   },
   stats: {
     stars: 0,

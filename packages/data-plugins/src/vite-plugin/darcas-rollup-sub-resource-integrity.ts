@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'web-security',
   ],
-  source: {
-    github: 'DarCas/rollup-sub-resource-integrity',
-    npm: '@darcas/rollup-sub-resource-integrity',
-  },
   links: {
     github: 'https://github.com/DarCas/rollup-sub-resource-integrity',
     npm: 'https://www.npmjs.com/package/@darcas/rollup-sub-resource-integrity',
     website: 'https://sri.os.darcas.app',
+  },
+  source: {
+    github: 'DarCas/rollup-sub-resource-integrity',
+    npm: '@darcas/rollup-sub-resource-integrity',
   },
   stats: {
     stars: 1,

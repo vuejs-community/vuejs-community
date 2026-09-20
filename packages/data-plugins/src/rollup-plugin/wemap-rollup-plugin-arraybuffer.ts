@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'arraybuffer',
   ],
-  source: {
-    github: 'wemap/rollup-plugin-arraybuffer',
-    npm: '@wemap/rollup-plugin-arraybuffer',
-  },
   links: {
     github: 'https://github.com/wemap/rollup-plugin-arraybuffer',
     npm: 'https://www.npmjs.com/package/@wemap/rollup-plugin-arraybuffer',
     website: 'https://github.com/wemap/rollup-plugin-arraybuffer',
+  },
+  source: {
+    github: 'wemap/rollup-plugin-arraybuffer',
+    npm: '@wemap/rollup-plugin-arraybuffer',
   },
   stats: {
     stars: 2,

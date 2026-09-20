@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rolldown-plugin',
     'testing',
   ],
-  source: {
-    github: 'IIIMADDINIII/rolldown-plugin-access-privates',
-    npm: 'rolldown-plugin-access-privates',
-  },
   links: {
     github: 'https://github.com/IIIMADDINIII/rolldown-plugin-access-privates',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-access-privates',
     website: 'https://github.com/IIIMADDINIII/rolldown-plugin-access-privates#readme',
+  },
+  source: {
+    github: 'IIIMADDINIII/rolldown-plugin-access-privates',
+    npm: 'rolldown-plugin-access-privates',
   },
   stats: {
     stars: 0,

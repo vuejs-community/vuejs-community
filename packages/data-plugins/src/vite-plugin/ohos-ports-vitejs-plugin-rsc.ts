@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'ohos-ports/ohos-ports',
-    npm: '@ohos-ports/vitejs-plugin-rsc',
-  },
   links: {
     github: 'https://github.com/ohos-ports/ohos-ports',
     npm: 'https://www.npmjs.com/package/@ohos-ports/vitejs-plugin-rsc',
     website: 'https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-rsc',
+  },
+  source: {
+    github: 'ohos-ports/ohos-ports',
+    npm: '@ohos-ports/vitejs-plugin-rsc',
   },
   stats: {
     stars: 0,

@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'window.chia',
     'decentralized',
   ],
-  source: {
-    github: 'DIG-Network/dig-framework-adapters',
-    npm: '@dignetwork/vite-plugin-dig',
-  },
   links: {
     github: 'https://github.com/DIG-Network/dig-framework-adapters',
     npm: 'https://www.npmjs.com/package/@dignetwork/vite-plugin-dig',
     website: 'https://github.com/DIG-Network/dig-framework-adapters/tree/main/packages/vite-plugin-dig#readme',
+  },
+  source: {
+    github: 'DIG-Network/dig-framework-adapters',
+    npm: '@dignetwork/vite-plugin-dig',
   },
   stats: {
     stars: 0,

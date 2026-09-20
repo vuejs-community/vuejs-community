@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'markdown-it',
   ],
-  source: {
-    github: 'clover-you/unplugin-react-markdown',
-    npm: 'unplugin-react-markdown',
-  },
   links: {
     github: 'https://github.com/clover-you/unplugin-react-markdown',
     npm: 'https://www.npmjs.com/package/unplugin-react-markdown',
     website: 'https://github.com/clover-you/unplugin-react-markdown#readme',
+  },
+  source: {
+    github: 'clover-you/unplugin-react-markdown',
+    npm: 'unplugin-react-markdown',
   },
   stats: {
     stars: 1,

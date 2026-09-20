@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'christopherwk210/vite-simple-reload-utils',
-    npm: 'vite-simple-reload-utils',
-  },
   links: {
     github: 'https://github.com/christopherwk210/vite-simple-reload-utils',
     npm: 'https://www.npmjs.com/package/vite-simple-reload-utils',
     website: 'https://github.com/christopherwk210/vite-simple-reload-utils/#readme',
+  },
+  source: {
+    github: 'christopherwk210/vite-simple-reload-utils',
+    npm: 'vite-simple-reload-utils',
   },
   stats: {
     stars: 0,

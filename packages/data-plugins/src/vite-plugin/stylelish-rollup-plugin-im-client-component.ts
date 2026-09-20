@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'server-components',
     'directive',
   ],
-  source: {
-    github: 'StyleList94/plugin-baby',
-    npm: '@stylelish/rollup-plugin-im-client-component',
-  },
   links: {
     github: 'https://github.com/StyleList94/plugin-baby',
     npm: 'https://www.npmjs.com/package/@stylelish/rollup-plugin-im-client-component',
     website: 'https://github.com/StyleList94/plugin-baby/tree/main/packages/rollup-plugin-im-client-component#readme',
+  },
+  source: {
+    github: 'StyleList94/plugin-baby',
+    npm: '@stylelish/rollup-plugin-im-client-component',
   },
   stats: {
     stars: 0,

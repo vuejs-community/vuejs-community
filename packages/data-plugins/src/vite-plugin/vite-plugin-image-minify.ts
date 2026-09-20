@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'squoosh',
     'svgo',
   ],
-  source: {
-    github: 'fisker/vite-plugin-image-minify',
-    npm: 'vite-plugin-image-minify',
-  },
   links: {
     github: 'https://github.com/fisker/vite-plugin-image-minify',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-minify',
     website: 'https://github.com/fisker/vite-plugin-image-minify#readme',
+  },
+  source: {
+    github: 'fisker/vite-plugin-image-minify',
+    npm: 'vite-plugin-image-minify',
   },
   stats: {
     stars: 0,

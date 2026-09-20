@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'ui',
     'web-component',
   ],
-  source: {
-    npm: 'vite-plugin-trae-solo-badge',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-trae-solo-badge',
+  },
+  source: {
+    npm: 'vite-plugin-trae-solo-badge',
   },
   stats: {
     stars: 0,

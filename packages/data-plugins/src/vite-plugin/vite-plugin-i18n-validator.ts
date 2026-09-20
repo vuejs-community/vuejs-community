@@ -18,12 +18,12 @@ export default defineProjectMeta({
     'Internationalization',
     'textlint',
   ],
-  source: {
-    npm: 'vite-plugin-i18n-validator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-i18n-validator',
     website: 'https://github.com/activeguild/vite-plugin-i18n-validator#readme',
+  },
+  source: {
+    npm: 'vite-plugin-i18n-validator',
   },
   stats: {
     stars: 0,

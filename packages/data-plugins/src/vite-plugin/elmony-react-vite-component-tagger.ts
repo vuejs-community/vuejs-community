@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'react',
     'elmony',
   ],
-  source: {
-    npm: '@elmony/react-vite-component-tagger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@elmony/react-vite-component-tagger',
+  },
+  source: {
+    npm: '@elmony/react-vite-component-tagger',
   },
   stats: {
     stars: 0,

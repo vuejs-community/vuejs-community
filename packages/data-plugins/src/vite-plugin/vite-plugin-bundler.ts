@@ -31,14 +31,14 @@ export default defineProjectMeta({
     'react',
     'typescript',
   ],
-  source: {
-    github: 'riyajath-ahamed/vite-plugin-bundler',
-    npm: 'vite-plugin-bundler',
-  },
   links: {
     github: 'https://github.com/riyajath-ahamed/vite-plugin-bundler',
     npm: 'https://www.npmjs.com/package/vite-plugin-bundler',
     website: 'https://github.com/riyajath-ahamed/vite-plugin-bundler#readme',
+  },
+  source: {
+    github: 'riyajath-ahamed/vite-plugin-bundler',
+    npm: 'vite-plugin-bundler',
   },
   stats: {
     stars: 5,

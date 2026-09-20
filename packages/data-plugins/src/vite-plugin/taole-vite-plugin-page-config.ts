@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'page-config',
   ],
-  source: {
-    npm: '@taole/vite-plugin-page-config',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@taole/vite-plugin-page-config',
+  },
+  source: {
+    npm: '@taole/vite-plugin-page-config',
   },
   stats: {
     stars: 0,

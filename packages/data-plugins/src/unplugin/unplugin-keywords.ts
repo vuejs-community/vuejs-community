@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'minification',
     'obfuscation',
   ],
-  source: {
-    github: 'cueaz/unplugin-keywords',
-    npm: 'unplugin-keywords',
-  },
   links: {
     github: 'https://github.com/cueaz/unplugin-keywords',
     npm: 'https://www.npmjs.com/package/unplugin-keywords',
     website: 'https://github.com/cueaz/unplugin-keywords#readme',
+  },
+  source: {
+    github: 'cueaz/unplugin-keywords',
+    npm: 'unplugin-keywords',
   },
   stats: {
     stars: 2,

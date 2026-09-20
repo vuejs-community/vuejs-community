@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'plugin',
     'astroturf',
   ],
-  source: {
-    github: 'RianFuro/rollup-plugin-astroturf',
-    npm: 'rollup-plugin-astroturf',
-  },
   links: {
     github: 'https://github.com/RianFuro/rollup-plugin-astroturf',
     npm: 'https://www.npmjs.com/package/rollup-plugin-astroturf',
     website: 'https://github.com/RianFuro/rollup-plugin-astroturf',
+  },
+  source: {
+    github: 'RianFuro/rollup-plugin-astroturf',
+    npm: 'rollup-plugin-astroturf',
   },
   stats: {
     stars: 3,

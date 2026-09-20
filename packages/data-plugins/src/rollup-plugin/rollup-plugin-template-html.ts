@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'html',
     'fill-html',
   ],
-  source: {
-    github: 'lucker2046/rollup-plugin-template-html',
-    npm: 'rollup-plugin-template-html',
-  },
   links: {
     github: 'https://github.com/lucker2046/rollup-plugin-template-html',
     npm: 'https://www.npmjs.com/package/rollup-plugin-template-html',
     website: 'https://github.com/lucker2046/rollup-plugin-template-html#readme',
+  },
+  source: {
+    github: 'lucker2046/rollup-plugin-template-html',
+    npm: 'rollup-plugin-template-html',
   },
   stats: {
     stars: 1,

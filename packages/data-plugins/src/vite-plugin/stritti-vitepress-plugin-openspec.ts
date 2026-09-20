@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'documentation',
     'api-docs',
   ],
-  source: {
-    github: 'stritti/vitepress-plugin-openspec',
-    npm: '@stritti/vitepress-plugin-openspec',
-  },
   links: {
     github: 'https://github.com/stritti/vitepress-plugin-openspec',
     npm: 'https://www.npmjs.com/package/@stritti/vitepress-plugin-openspec',
     website: 'https://github.com/stritti/vitepress-plugin-openspec#readme',
+  },
+  source: {
+    github: 'stritti/vitepress-plugin-openspec',
+    npm: '@stritti/vitepress-plugin-openspec',
   },
   stats: {
     stars: 1,

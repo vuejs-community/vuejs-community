@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'wasm',
     'zig',
   ],
-  source: {
-    github: 'pluvial/vite-plugin-zig',
-    npm: 'vite-plugin-zig',
-  },
   links: {
     github: 'https://github.com/pluvial/vite-plugin-zig',
     npm: 'https://www.npmjs.com/package/vite-plugin-zig',
     website: 'https://github.com/pluvial/vite-plugin-zig#readme',
+  },
+  source: {
+    github: 'pluvial/vite-plugin-zig',
+    npm: 'vite-plugin-zig',
   },
   stats: {
     stars: 24,

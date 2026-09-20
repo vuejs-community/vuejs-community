@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'yathink3/vite-proxy-redirects-plugin',
-    npm: 'vite-proxy-redirects-plugin',
-  },
   links: {
     github: 'https://github.com/yathink3/vite-proxy-redirects-plugin',
     npm: 'https://www.npmjs.com/package/vite-proxy-redirects-plugin',
     website: 'https://github.com/yathink3/vite-proxy-redirects-plugin#readme',
+  },
+  source: {
+    github: 'yathink3/vite-proxy-redirects-plugin',
+    npm: 'vite-proxy-redirects-plugin',
   },
   stats: {
     stars: 2,

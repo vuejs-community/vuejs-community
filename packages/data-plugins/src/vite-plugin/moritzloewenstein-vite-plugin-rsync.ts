@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'MoritzLoewenstein/vite-plugin-rsync',
-    npm: '@moritzloewenstein/vite-plugin-rsync',
-  },
   links: {
     github: 'https://github.com/MoritzLoewenstein/vite-plugin-rsync',
     npm: 'https://www.npmjs.com/package/@moritzloewenstein/vite-plugin-rsync',
     website: 'https://github.com/MoritzLoewenstein/vite-plugin-rsync#readme',
+  },
+  source: {
+    github: 'MoritzLoewenstein/vite-plugin-rsync',
+    npm: '@moritzloewenstein/vite-plugin-rsync',
   },
   stats: {
     stars: 1,

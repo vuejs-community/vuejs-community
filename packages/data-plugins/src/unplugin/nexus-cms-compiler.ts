@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'unplugin',
     'nexus-cms',
   ],
-  source: {
-    github: 'forged-tools/cms',
-    npm: '@nexus-cms/compiler',
-  },
   links: {
     github: 'https://github.com/forged-tools/cms',
     npm: 'https://www.npmjs.com/package/@nexus-cms/compiler',
     website: 'https://nexus.mkiteg.com/docs',
+  },
+  source: {
+    github: 'forged-tools/cms',
+    npm: '@nexus-cms/compiler',
   },
   stats: {
     stars: 0,

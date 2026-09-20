@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'wasm-bindgen',
     'cpp-to-wasm',
   ],
-  source: {
-    github: 'francomay3/vite-cpp-loader',
-    npm: 'vite-plugin-cpp-loader',
-  },
   links: {
     github: 'https://github.com/francomay3/vite-cpp-loader',
     npm: 'https://www.npmjs.com/package/vite-plugin-cpp-loader',
     website: 'https://github.com/francomay3/vite-cpp-loader#readme',
+  },
+  source: {
+    github: 'francomay3/vite-cpp-loader',
+    npm: 'vite-plugin-cpp-loader',
   },
   stats: {
     stars: 0,

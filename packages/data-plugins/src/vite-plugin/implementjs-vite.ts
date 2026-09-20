@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'ssr',
     'prerender',
   ],
-  source: {
-    github: 'ieedan/implement',
-    npm: '@implementjs/vite',
-  },
   links: {
     github: 'https://github.com/ieedan/implement',
     npm: 'https://www.npmjs.com/package/@implementjs/vite',
     website: 'https://implementjs.dev/docs/vite',
+  },
+  source: {
+    github: 'ieedan/implement',
+    npm: '@implementjs/vite',
   },
   stats: {
     stars: 1,

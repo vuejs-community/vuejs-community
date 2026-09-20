@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'neutralino',
     'neutralinojs',
   ],
-  source: {
-    github: 'PromiseAll/vite-plugin-neutralino',
-    npm: 'vite-plugin-neutralino',
-  },
   links: {
     github: 'https://github.com/PromiseAll/vite-plugin-neutralino',
     npm: 'https://www.npmjs.com/package/vite-plugin-neutralino',
     website: 'https://github.com/PromiseAll/vite-plugin-neutralino',
+  },
+  source: {
+    github: 'PromiseAll/vite-plugin-neutralino',
+    npm: 'vite-plugin-neutralino',
   },
   stats: {
     stars: 8,

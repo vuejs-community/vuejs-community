@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'ZauJulio/indago',
-    npm: '@indago/hyper-down',
-  },
   links: {
     github: 'https://github.com/ZauJulio/indago',
     npm: 'https://www.npmjs.com/package/@indago/hyper-down',
     website: 'https://github.com/ZauJulio/indago/tree/main/packages/HyperDown',
+  },
+  source: {
+    github: 'ZauJulio/indago',
+    npm: '@indago/hyper-down',
   },
   stats: {
     stars: 0,

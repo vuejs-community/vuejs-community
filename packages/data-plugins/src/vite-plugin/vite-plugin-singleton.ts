@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'port',
     'pid',
   ],
-  source: {
-    npm: 'vite-plugin-singleton',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-singleton',
+  },
+  source: {
+    npm: 'vite-plugin-singleton',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'fixtures',
     'design-system',
   ],
-  source: {
-    github: 'aussieljk/uight',
-    npm: '@aussieljk/uight',
-  },
   links: {
     github: 'https://github.com/aussieljk/uight',
     npm: 'https://www.npmjs.com/package/@aussieljk/uight',
     website: 'https://github.com/aussieljk/uight#readme',
+  },
+  source: {
+    github: 'aussieljk/uight',
+    npm: '@aussieljk/uight',
   },
   stats: {
     stars: 0,

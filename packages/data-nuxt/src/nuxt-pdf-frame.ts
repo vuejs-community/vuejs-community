@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://www.pdf-frame.org',
   },
   source: {
-    github: 'i2djs/pdf-frame#main/packages/pdf-frame-nuxt',
+    github: 'i2djs/pdf-frame',
     npm: '@i2d/nuxt-pdf-frame',
   },
 })

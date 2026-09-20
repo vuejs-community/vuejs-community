@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'console.log',
   ],
-  source: {
-    npm: 'rollup-plugin-consolelogplus',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-consolelogplus',
+  },
+  source: {
+    npm: 'rollup-plugin-consolelogplus',
   },
   stats: {
     stars: 0,

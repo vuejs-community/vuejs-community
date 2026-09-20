@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'build',
     'zip',
   ],
-  source: {
-    github: 'DaYePython/unplugin-build-zip',
-    npm: '@daye-cli/unplugin-build-zip',
-  },
   links: {
     github: 'https://github.com/DaYePython/unplugin-build-zip',
     npm: 'https://www.npmjs.com/package/@daye-cli/unplugin-build-zip',
     website: 'https://github.com/DaYePython/unplugin-build-zip#readme',
+  },
+  source: {
+    github: 'DaYePython/unplugin-build-zip',
+    npm: '@daye-cli/unplugin-build-zip',
   },
   stats: {
     stars: 2,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'tagged',
     'lit-html',
   ],
-  source: {
-    github: 'asyncLiz/rollup-plugin-minify-html-literals',
-    npm: 'rollup-plugin-minify-html-literals-cjs-rollup3',
-  },
   links: {
     github: 'https://github.com/asyncLiz/rollup-plugin-minify-html-literals',
     npm: 'https://www.npmjs.com/package/rollup-plugin-minify-html-literals-cjs-rollup3',
     website: 'https://github.com/asyncLiz/rollup-plugin-minify-html-literals#readme',
+  },
+  source: {
+    github: 'asyncLiz/rollup-plugin-minify-html-literals',
+    npm: 'rollup-plugin-minify-html-literals-cjs-rollup3',
   },
   stats: {
     stars: 65,

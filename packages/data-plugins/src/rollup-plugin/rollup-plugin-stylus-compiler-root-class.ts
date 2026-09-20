@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'stylus',
     'css',
   ],
-  source: {
-    github: 'gstelmaczonek/rollup-plugin-stylus-compiler',
-    npm: 'rollup-plugin-stylus-compiler-root-class',
-  },
   links: {
     github: 'https://github.com/gstelmaczonek/rollup-plugin-stylus-compiler',
     npm: 'https://www.npmjs.com/package/rollup-plugin-stylus-compiler-root-class',
     website: 'https://github.com/gstelmaczonek/rollup-plugin-stylus-compiler',
+  },
+  source: {
+    github: 'gstelmaczonek/rollup-plugin-stylus-compiler',
+    npm: 'rollup-plugin-stylus-compiler-root-class',
   },
   stats: {
     stars: 0,

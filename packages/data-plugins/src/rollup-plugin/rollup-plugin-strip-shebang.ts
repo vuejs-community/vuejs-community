@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'extract',
     'strip',
   ],
-  source: {
-    github: 'manferlo81/rollup-plugin-strip-shebang',
-    npm: 'rollup-plugin-strip-shebang',
-  },
   links: {
     github: 'https://github.com/manferlo81/rollup-plugin-strip-shebang',
     npm: 'https://www.npmjs.com/package/rollup-plugin-strip-shebang',
     website: 'https://github.com/manferlo81/rollup-plugin-strip-shebang#readme',
+  },
+  source: {
+    github: 'manferlo81/rollup-plugin-strip-shebang',
+    npm: 'rollup-plugin-strip-shebang',
   },
   stats: {
     stars: 1,

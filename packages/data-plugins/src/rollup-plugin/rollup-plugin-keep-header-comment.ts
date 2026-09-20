@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'comment',
   ],
-  source: {
-    github: 'peachest/rollup-plugin-keep-header-comment',
-    npm: 'rollup-plugin-keep-header-comment',
-  },
   links: {
     github: 'https://github.com/peachest/rollup-plugin-keep-header-comment',
     npm: 'https://www.npmjs.com/package/rollup-plugin-keep-header-comment',
     website: 'https://github.com/peachest/rollup-plugin-keep-header-comment',
+  },
+  source: {
+    github: 'peachest/rollup-plugin-keep-header-comment',
+    npm: 'rollup-plugin-keep-header-comment',
   },
   stats: {
     stars: 0,

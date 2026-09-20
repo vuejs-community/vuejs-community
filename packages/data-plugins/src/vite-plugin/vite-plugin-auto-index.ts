@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'leviat-tech/vite-plugin-auto-index',
-    npm: 'vite-plugin-auto-index',
-  },
   links: {
     github: 'https://github.com/leviat-tech/vite-plugin-auto-index',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-index',
     website: 'https://github.com/leviat-tech/vite-plugin-auto-index#readme',
+  },
+  source: {
+    github: 'leviat-tech/vite-plugin-auto-index',
+    npm: 'vite-plugin-auto-index',
   },
   stats: {
     stars: 3,

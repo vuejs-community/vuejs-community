@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'file-system',
     'file-based',
   ],
-  source: {
-    github: 'nDriaDev/vite-plugin-universal-api',
-    npm: '@ndriadev/vite-plugin-universal-api',
-  },
   links: {
     github: 'https://github.com/nDriaDev/vite-plugin-universal-api',
     npm: 'https://www.npmjs.com/package/@ndriadev/vite-plugin-universal-api',
     website: 'https://github.com/nDriaDev/vite-plugin-universal-api',
+  },
+  source: {
+    github: 'nDriaDev/vite-plugin-universal-api',
+    npm: '@ndriadev/vite-plugin-universal-api',
   },
   stats: {
     stars: 0,

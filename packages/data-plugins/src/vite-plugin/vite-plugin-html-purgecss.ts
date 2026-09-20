@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'purgecss',
   ],
-  source: {
-    github: 'Jax-p/vite-plugin-html-purgecss',
-    npm: 'vite-plugin-html-purgecss',
-  },
   links: {
     github: 'https://github.com/Jax-p/vite-plugin-html-purgecss',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-purgecss',
     website: 'https://github.com/Jax-p/vite-plugin-html-purgecss#readme',
+  },
+  source: {
+    github: 'Jax-p/vite-plugin-html-purgecss',
+    npm: 'vite-plugin-html-purgecss',
   },
   stats: {
     stars: 16,

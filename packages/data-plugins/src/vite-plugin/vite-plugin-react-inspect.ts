@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'inspector',
     'debug',
   ],
-  source: {
-    github: 'MartinBspheroid/vite-plugin-react-vue-inspector',
-    npm: 'vite-plugin-react-inspect',
-  },
   links: {
     github: 'https://github.com/MartinBspheroid/vite-plugin-react-vue-inspector',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-inspect',
     website: 'https://github.com/MartinBspheroid/vite-plugin-react-vue-inspector#readme',
+  },
+  source: {
+    github: 'MartinBspheroid/vite-plugin-react-vue-inspector',
+    npm: 'vite-plugin-react-inspect',
   },
   stats: {
     stars: 0,

@@ -14,13 +14,13 @@ export default defineProjectMeta({
     'html',
     'fill-html',
   ],
-  source: {
-    github: 'Fer0x/rollup-plugin-fill-html',
-    npm: '@fer0x/rollup-plugin-fill-html',
-  },
   links: {
     github: 'https://github.com/Fer0x/rollup-plugin-fill-html',
     npm: 'https://www.npmjs.com/package/@fer0x/rollup-plugin-fill-html',
+  },
+  source: {
+    github: 'Fer0x/rollup-plugin-fill-html',
+    npm: '@fer0x/rollup-plugin-fill-html',
   },
   stats: {
     stars: 0,

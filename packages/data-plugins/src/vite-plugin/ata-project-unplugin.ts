@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'typescript',
     'codegen',
   ],
-  source: {
-    github: 'ata-core/unplugin-ata',
-    npm: '@ata-project/unplugin',
-  },
   links: {
     github: 'https://github.com/ata-core/unplugin-ata',
     npm: 'https://www.npmjs.com/package/@ata-project/unplugin',
     website: 'https://github.com/ata-core/unplugin-ata#readme',
+  },
+  source: {
+    github: 'ata-core/unplugin-ata',
+    npm: '@ata-project/unplugin',
   },
   stats: {
     stars: 5,

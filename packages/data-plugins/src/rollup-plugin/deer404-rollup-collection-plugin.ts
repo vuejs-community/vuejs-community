@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'directives',
     'use strict',
   ],
-  source: {
-    npm: '@deer404/rollup-collection-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@deer404/rollup-collection-plugin',
+  },
+  source: {
+    npm: '@deer404/rollup-collection-plugin',
   },
   stats: {
     stars: 0,

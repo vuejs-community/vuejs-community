@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'auto-import',
     'transform',
   ],
-  source: {
-    github: 'BobbieGoede/unplugin-auto-declare',
-    npm: 'unplugin-auto-declare',
-  },
   links: {
     github: 'https://github.com/BobbieGoede/unplugin-auto-declare',
     npm: 'https://www.npmjs.com/package/unplugin-auto-declare',
     website: 'https://github.com/BobbieGoede/unplugin-auto-declare#readme',
+  },
+  source: {
+    github: 'BobbieGoede/unplugin-auto-declare',
+    npm: 'unplugin-auto-declare',
   },
   stats: {
     stars: 2,

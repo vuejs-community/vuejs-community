@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'zess',
   ],
-  source: {
-    github: 'rpsffx/zess',
-    npm: '@zessjs/vite-plugin',
-  },
   links: {
     github: 'https://github.com/rpsffx/zess',
     npm: 'https://www.npmjs.com/package/@zessjs/vite-plugin',
     website: 'https://github.com/rpsffx/zess/tree/main/packages/plugin#readme',
+  },
+  source: {
+    github: 'rpsffx/zess',
+    npm: '@zessjs/vite-plugin',
   },
   stats: {
     stars: 29,

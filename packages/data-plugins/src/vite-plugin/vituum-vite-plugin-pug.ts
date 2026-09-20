@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'vituum/vite-plugin-pug',
-    npm: '@vituum/vite-plugin-pug',
-  },
   links: {
     github: 'https://github.com/vituum/vite-plugin-pug',
     npm: 'https://www.npmjs.com/package/@vituum/vite-plugin-pug',
     website: 'https://github.com/vituum/vite-plugin-pug#readme',
+  },
+  source: {
+    github: 'vituum/vite-plugin-pug',
+    npm: '@vituum/vite-plugin-pug',
   },
   stats: {
     stars: 14,

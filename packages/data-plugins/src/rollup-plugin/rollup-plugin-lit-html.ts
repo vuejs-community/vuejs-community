@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'lit-html',
     'html',
   ],
-  source: {
-    npm: 'rollup-plugin-lit-html',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-lit-html',
     website: 'https://gitlab.com/rockerest/rollup-plugin-lit-html#readme',
+  },
+  source: {
+    npm: 'rollup-plugin-lit-html',
   },
   stats: {
     stars: 0,

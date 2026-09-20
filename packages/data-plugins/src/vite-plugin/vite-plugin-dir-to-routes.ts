@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vue',
     'routing',
   ],
-  source: {
-    npm: 'vite-plugin-dir-to-routes',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-dir-to-routes',
+  },
+  source: {
+    npm: 'vite-plugin-dir-to-routes',
   },
   stats: {
     stars: 0,

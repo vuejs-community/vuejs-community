@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'svg',
     'components',
   ],
-  source: {
-    github: 'CodeFoxDev/honeyjs-vite-loader',
-    npm: '@honeyjs/vite-loader',
-  },
   links: {
     github: 'https://github.com/CodeFoxDev/honeyjs-vite-loader',
     npm: 'https://www.npmjs.com/package/@honeyjs/vite-loader',
     website: 'https://github.com/codefoxdev/honeyjs-vite-loader#readme',
+  },
+  source: {
+    github: 'CodeFoxDev/honeyjs-vite-loader',
+    npm: '@honeyjs/vite-loader',
   },
   stats: {
     stars: 1,

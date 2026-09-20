@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'auto-export',
     'codegen',
   ],
-  source: {
-    github: 'chrock-studio/unplugin-auto-export',
-    npm: '@chrock-studio/unplugin-auto-export',
-  },
   links: {
     github: 'https://github.com/chrock-studio/unplugin-auto-export',
     npm: 'https://www.npmjs.com/package/@chrock-studio/unplugin-auto-export',
     website: 'https://github.com/chrock-studio/unplugin-auto-export/tree/main/packages/unplugin-auto-export',
+  },
+  source: {
+    github: 'chrock-studio/unplugin-auto-export',
+    npm: '@chrock-studio/unplugin-auto-export',
   },
   stats: {
     stars: 1,

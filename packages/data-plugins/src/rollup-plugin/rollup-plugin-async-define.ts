@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'amd',
     'plugin',
   ],
-  source: {
-    github: 'sithmel/rollup-plugin-async-define',
-    npm: 'rollup-plugin-async-define',
-  },
   links: {
     github: 'https://github.com/sithmel/rollup-plugin-async-define',
     npm: 'https://www.npmjs.com/package/rollup-plugin-async-define',
     website: 'https://github.com/sithmel/rollup-plugin-async-define#readme',
+  },
+  source: {
+    github: 'sithmel/rollup-plugin-async-define',
+    npm: 'rollup-plugin-async-define',
   },
   stats: {
     stars: 0,

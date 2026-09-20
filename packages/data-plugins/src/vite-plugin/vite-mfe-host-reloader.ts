@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'hmr',
     'microfrontend',
   ],
-  source: {
-    npm: 'vite-mfe-host-reloader',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-mfe-host-reloader',
+  },
+  source: {
+    npm: 'vite-mfe-host-reloader',
   },
   stats: {
     stars: 0,

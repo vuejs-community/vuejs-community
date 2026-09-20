@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-dgb',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-dgb',
+  },
+  source: {
+    npm: 'vite-plugin-dgb',
   },
   stats: {
     stars: 0,

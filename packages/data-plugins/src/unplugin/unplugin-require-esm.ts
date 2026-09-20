@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'unplugin',
     'typescript',
   ],
-  source: {
-    github: 'err-require-esm/unplugin-require-esm',
-    npm: 'unplugin-require-esm',
-  },
   links: {
     github: 'https://github.com/err-require-esm/unplugin-require-esm',
     npm: 'https://www.npmjs.com/package/unplugin-require-esm',
     website: 'https://github.com/err-require-esm/unplugin-require-esm',
+  },
+  source: {
+    github: 'err-require-esm/unplugin-require-esm',
+    npm: 'unplugin-require-esm',
   },
   stats: {
     stars: 3,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'nikkolast88/unplugin-env',
-    npm: 'unplugin-env',
-  },
   links: {
     github: 'https://github.com/nikkolast88/unplugin-env',
     npm: 'https://www.npmjs.com/package/unplugin-env',
     website: 'https://github.com/nikkolast88/unplugin-env#readme',
+  },
+  source: {
+    github: 'nikkolast88/unplugin-env',
+    npm: 'unplugin-env',
   },
   stats: {
     stars: 1,

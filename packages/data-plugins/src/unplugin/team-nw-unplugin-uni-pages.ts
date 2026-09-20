@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'webpack',
     'transform',
   ],
-  source: {
-    github: 'team-nw/unplugin-uni-pages',
-    npm: '@team-nw/unplugin-uni-pages',
-  },
   links: {
     github: 'https://github.com/team-nw/unplugin-uni-pages',
     npm: 'https://www.npmjs.com/package/@team-nw/unplugin-uni-pages',
     website: 'https://github.com/team-nw/unplugin-uni-pages#readme',
+  },
+  source: {
+    github: 'team-nw/unplugin-uni-pages',
+    npm: '@team-nw/unplugin-uni-pages',
   },
   stats: {
     stars: 1,

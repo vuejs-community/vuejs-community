@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vue3',
     'components',
   ],
-  source: {
-    npm: '@qigy/vite-plugin-svg',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@qigy/vite-plugin-svg',
+  },
+  source: {
+    npm: '@qigy/vite-plugin-svg',
   },
   stats: {
     stars: 0,

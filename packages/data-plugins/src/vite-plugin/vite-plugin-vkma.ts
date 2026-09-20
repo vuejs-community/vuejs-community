@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vk-apps',
     'vkminiapps',
   ],
-  source: {
-    github: 'maxi-team/vite-plugin-vkma',
-    npm: 'vite-plugin-vkma',
-  },
   links: {
     github: 'https://github.com/maxi-team/vite-plugin-vkma',
     npm: 'https://www.npmjs.com/package/vite-plugin-vkma',
     website: 'https://github.com/maxi-team/vite-plugin-vkma',
+  },
+  source: {
+    github: 'maxi-team/vite-plugin-vkma',
+    npm: 'vite-plugin-vkma',
   },
   stats: {
     stars: 0,

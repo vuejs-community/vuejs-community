@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'lightningcss',
     'vite',
   ],
-  source: {
-    github: 'jk2908/cxx',
-    npm: '@jk2908/cxx',
-  },
   links: {
     github: 'https://github.com/jk2908/cxx',
     npm: 'https://www.npmjs.com/package/@jk2908/cxx',
     website: 'https://github.com/jk2908/cxx#readme',
+  },
+  source: {
+    github: 'jk2908/cxx',
+    npm: '@jk2908/cxx',
   },
   stats: {
     stars: 1,

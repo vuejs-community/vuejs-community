@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'file-system routing',
     'unplugin',
   ],
-  source: {
-    github: 'rossipedia/remix-fs-routes',
-    npm: 'remix-fs-routes',
-  },
   links: {
     github: 'https://github.com/rossipedia/remix-fs-routes',
     npm: 'https://www.npmjs.com/package/remix-fs-routes',
     website: 'https://github.com/rossipedia/remix-fs-routes#readme',
+  },
+  source: {
+    github: 'rossipedia/remix-fs-routes',
+    npm: 'remix-fs-routes',
   },
   stats: {
     stars: 2,

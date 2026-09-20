@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    npm: '@ctrlc/vite-plugin-vue-html-insert',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ctrlc/vite-plugin-vue-html-insert',
+  },
+  source: {
+    npm: '@ctrlc/vite-plugin-vue-html-insert',
   },
   stats: {
     stars: 0,

@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'extract',
     'minify',
   ],
-  source: {
-    github: 'vladshcherbin/rollup-plugin-svg-sprite',
-    npm: 'rollup-plugin-svg-sprite',
-  },
   links: {
     github: 'https://github.com/vladshcherbin/rollup-plugin-svg-sprite',
     npm: 'https://www.npmjs.com/package/rollup-plugin-svg-sprite',
     website: 'https://github.com/vladshcherbin/rollup-plugin-svg-sprite#readme',
+  },
+  source: {
+    github: 'vladshcherbin/rollup-plugin-svg-sprite',
+    npm: 'rollup-plugin-svg-sprite',
   },
   stats: {
     stars: 21,

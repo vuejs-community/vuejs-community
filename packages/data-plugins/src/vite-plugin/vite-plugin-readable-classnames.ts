@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'css module name',
     'scss module class name',
   ],
-  source: {
-    github: 'teplostanski/vite-plugin-readable-classnames',
-    npm: 'vite-plugin-readable-classnames',
-  },
   links: {
     github: 'https://github.com/teplostanski/vite-plugin-readable-classnames',
     npm: 'https://www.npmjs.com/package/vite-plugin-readable-classnames',
     website: 'https://vite-plugin-readable-classnames.js.org',
+  },
+  source: {
+    github: 'teplostanski/vite-plugin-readable-classnames',
+    npm: 'vite-plugin-readable-classnames',
   },
   stats: {
     stars: 0,

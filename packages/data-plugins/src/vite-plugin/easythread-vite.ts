@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'web-workers',
     'easythread',
   ],
-  source: {
-    github: 'leka74/easythread',
-    npm: '@easythread/vite',
-  },
   links: {
     github: 'https://github.com/leka74/easythread',
     npm: 'https://www.npmjs.com/package/@easythread/vite',
     website: 'https://github.com/leka74/easythread#readme',
+  },
+  source: {
+    github: 'leka74/easythread',
+    npm: '@easythread/vite',
   },
   stats: {
     stars: 4,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'typescript',
   ],
-  source: {
-    github: 'MrCat33/auto-export',
-    npm: 'ts-auto-export',
-  },
   links: {
     github: 'https://github.com/MrCat33/auto-export',
     npm: 'https://www.npmjs.com/package/ts-auto-export',
     website: 'https://github.com/MrCat33/auto-export',
+  },
+  source: {
+    github: 'MrCat33/auto-export',
+    npm: 'ts-auto-export',
   },
   stats: {
     stars: 0,

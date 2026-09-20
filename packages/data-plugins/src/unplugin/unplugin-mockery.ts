@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'YunYouJun/unplugin-mockery',
-    npm: 'unplugin-mockery',
-  },
   links: {
     github: 'https://github.com/YunYouJun/unplugin-mockery',
     npm: 'https://www.npmjs.com/package/unplugin-mockery',
     website: 'https://github.com/YunYouJun/unplugin-mockery#readme',
+  },
+  source: {
+    github: 'YunYouJun/unplugin-mockery',
+    npm: 'unplugin-mockery',
   },
   stats: {
     stars: 4,

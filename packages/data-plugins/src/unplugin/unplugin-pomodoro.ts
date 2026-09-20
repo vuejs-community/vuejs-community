@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'pomodoro',
     'vite',
   ],
-  source: {
-    github: 'InfiniteXyy/unplugin-pomodoro',
-    npm: 'unplugin-pomodoro',
-  },
   links: {
     github: 'https://github.com/InfiniteXyy/unplugin-pomodoro',
     npm: 'https://www.npmjs.com/package/unplugin-pomodoro',
     website: 'https://github.com/InfiniteXyy/unplugin-pomodoro#readme',
+  },
+  source: {
+    github: 'InfiniteXyy/unplugin-pomodoro',
+    npm: 'unplugin-pomodoro',
   },
   stats: {
     stars: 0,

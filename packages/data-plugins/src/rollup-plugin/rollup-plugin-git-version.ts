@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'semver',
     'version',
   ],
-  source: {
-    npm: 'rollup-plugin-git-version',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-git-version',
     website: 'https://gitlab.com/IvanSanchez/rollup-plugin-git-version',
+  },
+  source: {
+    npm: 'rollup-plugin-git-version',
   },
   stats: {
     stars: 0,

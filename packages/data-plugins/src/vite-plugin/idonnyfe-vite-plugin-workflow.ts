@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'deploy server',
     'deploy npm',
   ],
-  source: {
-    github: 'donnyfe/vite-plugin-workflow',
-    npm: '@idonnyfe/vite-plugin-workflow',
-  },
   links: {
     github: 'https://github.com/donnyfe/vite-plugin-workflow',
     npm: 'https://www.npmjs.com/package/@idonnyfe/vite-plugin-workflow',
     website: 'https://github.com/donnyfe/vite-plugin-workflow/README.md',
+  },
+  source: {
+    github: 'donnyfe/vite-plugin-workflow',
+    npm: '@idonnyfe/vite-plugin-workflow',
   },
   stats: {
     stars: 1,

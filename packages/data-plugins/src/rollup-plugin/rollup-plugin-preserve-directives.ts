@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'Ephem/rollup-plugin-preserve-directives',
-    npm: 'rollup-plugin-preserve-directives',
-  },
   links: {
     github: 'https://github.com/Ephem/rollup-plugin-preserve-directives',
     npm: 'https://www.npmjs.com/package/rollup-plugin-preserve-directives',
     website: 'https://github.com/Ephem/rollup-plugin-preserve-directives#readme',
+  },
+  source: {
+    github: 'Ephem/rollup-plugin-preserve-directives',
+    npm: 'rollup-plugin-preserve-directives',
   },
   stats: {
     stars: 72,

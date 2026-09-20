@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'plugin',
   ],
-  source: {
-    github: 'ducphu0ng/vite-plugin-html-sri',
-    npm: 'vite-plugin-html-sri',
-  },
   links: {
     github: 'https://github.com/ducphu0ng/vite-plugin-html-sri',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-sri',
     website: 'https://github.com/ducphu0ng/vite-plugin-html-sri#readme',
+  },
+  source: {
+    github: 'ducphu0ng/vite-plugin-html-sri',
+    npm: 'vite-plugin-html-sri',
   },
   stats: {
     stars: 4,

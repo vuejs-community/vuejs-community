@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'http2',
     'proxy',
   ],
-  source: {
-    github: 'liamdon/vite-plugin-proxy-http2',
-    npm: 'vite-plugin-proxy-http2',
-  },
   links: {
     github: 'https://github.com/liamdon/vite-plugin-proxy-http2',
     npm: 'https://www.npmjs.com/package/vite-plugin-proxy-http2',
     website: 'https://github.com/liamdon/vite-plugin-proxy-http2#readme',
+  },
+  source: {
+    github: 'liamdon/vite-plugin-proxy-http2',
+    npm: 'vite-plugin-proxy-http2',
   },
   stats: {
     stars: 1,

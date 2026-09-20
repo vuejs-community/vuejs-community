@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'debug',
     'error',
   ],
-  source: {
-    github: 'privatenumber/rollup-plugin-import-trace',
-    npm: 'rollup-plugin-import-trace',
-  },
   links: {
     github: 'https://github.com/privatenumber/rollup-plugin-import-trace',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-trace',
     website: 'https://github.com/privatenumber/rollup-plugin-import-trace#readme',
+  },
+  source: {
+    github: 'privatenumber/rollup-plugin-import-trace',
+    npm: 'rollup-plugin-import-trace',
   },
   stats: {
     stars: 6,

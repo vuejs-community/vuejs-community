@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'preact',
   ],
-  source: {
-    npm: '@citizendev/vite-plugin-preact-bubble',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@citizendev/vite-plugin-preact-bubble',
+  },
+  source: {
+    npm: '@citizendev/vite-plugin-preact-bubble',
   },
   stats: {
     stars: 0,

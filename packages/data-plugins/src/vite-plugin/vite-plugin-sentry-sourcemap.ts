@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'sentry-cli',
     'sourcemap',
   ],
-  source: {
-    github: 'jiangqi-ola/vite-plugin-sentry-sourcemap',
-    npm: 'vite-plugin-sentry-sourcemap',
-  },
   links: {
     github: 'https://github.com/jiangqi-ola/vite-plugin-sentry-sourcemap',
     npm: 'https://www.npmjs.com/package/vite-plugin-sentry-sourcemap',
     website: 'https://github.com/jiangqi-ola/vite-plugin-sentry-sourcemap',
+  },
+  source: {
+    github: 'jiangqi-ola/vite-plugin-sentry-sourcemap',
+    npm: 'vite-plugin-sentry-sourcemap',
   },
   stats: {
     stars: 0,

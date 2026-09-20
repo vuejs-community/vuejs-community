@@ -14,11 +14,11 @@ export default defineProjectMeta({
     '@web-update-notify/vite',
     'web-update-notification',
   ],
-  source: {
-    npm: '@web-update-notify/vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@web-update-notify/vite',
+  },
+  source: {
+    npm: '@web-update-notify/vite',
   },
   stats: {
     stars: 0,

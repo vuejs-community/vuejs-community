@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'auto-reload',
     'chunk-recovery',
   ],
-  source: {
-    npm: '@qq1766141548/web-version-refresh',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@qq1766141548/web-version-refresh',
+  },
+  source: {
+    npm: '@qq1766141548/web-version-refresh',
   },
   stats: {
     stars: 0,

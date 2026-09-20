@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'easy-vite/plugin-html',
-    npm: '@easy-vite/plugin-html',
-  },
   links: {
     github: 'https://github.com/easy-vite/plugin-html',
     npm: 'https://www.npmjs.com/package/@easy-vite/plugin-html',
     website: 'https://github.com/easy-vite/plugin-html/tree/master/#readme',
+  },
+  source: {
+    github: 'easy-vite/plugin-html',
+    npm: '@easy-vite/plugin-html',
   },
   stats: {
     stars: 5,

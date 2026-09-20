@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'mdx',
     'react',
   ],
-  source: {
-    github: 'LiamDochartaigh/vite-plugin-mdx-content',
-    npm: 'vite-plugin-mdx-content',
-  },
   links: {
     github: 'https://github.com/LiamDochartaigh/vite-plugin-mdx-content',
     npm: 'https://www.npmjs.com/package/vite-plugin-mdx-content',
     website: 'https://github.com/LiamDochartaigh/vite-plugin-mdx-content#readme',
+  },
+  source: {
+    github: 'LiamDochartaigh/vite-plugin-mdx-content',
+    npm: 'vite-plugin-mdx-content',
   },
   stats: {
     stars: 0,

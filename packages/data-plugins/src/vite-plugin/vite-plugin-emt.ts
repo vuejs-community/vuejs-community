@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'emt',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-emt',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-emt',
+  },
+  source: {
+    npm: 'vite-plugin-emt',
   },
   stats: {
     stars: 0,

@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'typography',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-capsize-radix',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-capsize-radix',
+  },
+  source: {
+    npm: 'vite-plugin-capsize-radix',
   },
   stats: {
     stars: 0,

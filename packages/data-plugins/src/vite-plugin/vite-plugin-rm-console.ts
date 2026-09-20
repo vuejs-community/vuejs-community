@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-rm-console',
   ],
-  source: {
-    github: 'ylcjwq/vite-plugin-rm-console',
-    npm: 'vite-plugin-rm-console',
-  },
   links: {
     github: 'https://github.com/ylcjwq/vite-plugin-rm-console',
     npm: 'https://www.npmjs.com/package/vite-plugin-rm-console',
     website: 'https://github.com/ylcjwq/vite-plugin-rm-console#readme',
+  },
+  source: {
+    github: 'ylcjwq/vite-plugin-rm-console',
+    npm: 'vite-plugin-rm-console',
   },
   stats: {
     stars: 0,

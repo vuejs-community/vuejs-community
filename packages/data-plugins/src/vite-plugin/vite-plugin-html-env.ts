@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'html',
     'compiler',
   ],
-  source: {
-    github: 'lxs24sxl/vite-plugin-html-env',
-    npm: 'vite-plugin-html-env',
-  },
   links: {
     github: 'https://github.com/lxs24sxl/vite-plugin-html-env',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-env',
     website: 'https://github.com/lxs24sxl/vite-plugin-html-env#README.md',
+  },
+  source: {
+    github: 'lxs24sxl/vite-plugin-html-env',
+    npm: 'vite-plugin-html-env',
   },
   stats: {
     stars: 81,

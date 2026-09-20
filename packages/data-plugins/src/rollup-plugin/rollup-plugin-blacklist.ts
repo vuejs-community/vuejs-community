@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'dumbmatter/rollup-plugin-blacklist',
-    npm: 'rollup-plugin-blacklist',
-  },
   links: {
     github: 'https://github.com/dumbmatter/rollup-plugin-blacklist',
     npm: 'https://www.npmjs.com/package/rollup-plugin-blacklist',
     website: 'https://github.com/dumbmatter/rollup-plugin-blacklist#readme',
+  },
+  source: {
+    github: 'dumbmatter/rollup-plugin-blacklist',
+    npm: 'rollup-plugin-blacklist',
   },
   stats: {
     stars: 0,

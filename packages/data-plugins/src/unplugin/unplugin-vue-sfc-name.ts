@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'elonehoo/unplugin-vue-sfc-name',
-    npm: 'unplugin-vue-sfc-name',
-  },
   links: {
     github: 'https://github.com/elonehoo/unplugin-vue-sfc-name',
     npm: 'https://www.npmjs.com/package/unplugin-vue-sfc-name',
     website: 'https://github.com/elonehoo/unplugin-vue-sfc-name#readme',
+  },
+  source: {
+    github: 'elonehoo/unplugin-vue-sfc-name',
+    npm: 'unplugin-vue-sfc-name',
   },
   stats: {
     stars: 2,

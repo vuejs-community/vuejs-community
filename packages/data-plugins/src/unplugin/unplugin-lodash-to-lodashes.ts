@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'Zephyrrro/unplugin-lodash-to-lodashes',
-    npm: 'unplugin-lodash-to-lodashes',
-  },
   links: {
     github: 'https://github.com/Zephyrrro/unplugin-lodash-to-lodashes',
     npm: 'https://www.npmjs.com/package/unplugin-lodash-to-lodashes',
     website: 'https://github.com/Zephyrrro/unplugin-lodash-to-lodashes#readme',
+  },
+  source: {
+    github: 'Zephyrrro/unplugin-lodash-to-lodashes',
+    npm: 'unplugin-lodash-to-lodashes',
   },
   stats: {
     stars: 0,

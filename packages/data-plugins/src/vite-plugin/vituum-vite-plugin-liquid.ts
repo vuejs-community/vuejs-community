@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'vituum/vite-plugin-liquid',
-    npm: '@vituum/vite-plugin-liquid',
-  },
   links: {
     github: 'https://github.com/vituum/vite-plugin-liquid',
     npm: 'https://www.npmjs.com/package/@vituum/vite-plugin-liquid',
     website: 'https://github.com/vituum/vite-plugin-liquid#readme',
+  },
+  source: {
+    github: 'vituum/vite-plugin-liquid',
+    npm: '@vituum/vite-plugin-liquid',
   },
   stats: {
     stars: 15,

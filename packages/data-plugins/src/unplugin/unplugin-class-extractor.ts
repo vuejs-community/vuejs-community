@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'className',
     'automation',
   ],
-  source: {
-    github: 'Simon-He95/unplugin-class-extractor',
-    npm: 'unplugin-class-extractor',
-  },
   links: {
     github: 'https://github.com/Simon-He95/unplugin-class-extractor',
     npm: 'https://www.npmjs.com/package/unplugin-class-extractor',
     website: 'https://github.com/Simon-He95/unplugin-class-extractor#readme',
+  },
+  source: {
+    github: 'Simon-He95/unplugin-class-extractor',
+    npm: 'unplugin-class-extractor',
   },
   stats: {
     stars: 3,

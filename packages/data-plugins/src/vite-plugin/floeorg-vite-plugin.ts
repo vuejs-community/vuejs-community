@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'floe',
   ],
-  source: {
-    github: 'floeorg/floe',
-    npm: '@floeorg/vite-plugin',
-  },
   links: {
     github: 'https://github.com/floeorg/floe',
     npm: 'https://www.npmjs.com/package/@floeorg/vite-plugin',
     website: 'https://github.com/floeorg/floe',
+  },
+  source: {
+    github: 'floeorg/floe',
+    npm: '@floeorg/vite-plugin',
   },
   stats: {
     stars: 7,

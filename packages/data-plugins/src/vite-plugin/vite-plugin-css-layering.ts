@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'layers',
     'cascade-layers',
   ],
-  source: {
-    github: 'kburich/vite-plugin-css-layering',
-    npm: 'vite-plugin-css-layering',
-  },
   links: {
     github: 'https://github.com/kburich/vite-plugin-css-layering',
     npm: 'https://www.npmjs.com/package/vite-plugin-css-layering',
     website: 'https://github.com/kburich/vite-plugin-css-layering#readme',
+  },
+  source: {
+    github: 'kburich/vite-plugin-css-layering',
+    npm: 'vite-plugin-css-layering',
   },
   stats: {
     stars: 0,

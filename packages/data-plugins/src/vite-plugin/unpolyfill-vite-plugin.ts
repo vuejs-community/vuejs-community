@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'performance',
     'bundle-size',
   ],
-  source: {
-    github: 'unpolyfill/vite-plugin',
-    npm: '@unpolyfill/vite-plugin',
-  },
   links: {
     github: 'https://github.com/unpolyfill/vite-plugin',
     npm: 'https://www.npmjs.com/package/@unpolyfill/vite-plugin',
     website: 'https://github.com/unpolyfill/vite-plugin#readme',
+  },
+  source: {
+    github: 'unpolyfill/vite-plugin',
+    npm: '@unpolyfill/vite-plugin',
   },
   stats: {
     stars: 0,

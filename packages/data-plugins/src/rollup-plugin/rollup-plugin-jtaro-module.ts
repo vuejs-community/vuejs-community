@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'jtaro-module',
     'rollup-plugin',
   ],
-  source: {
-    github: 'chjtx/rollup-plugin-jtaro-module',
-    npm: 'rollup-plugin-jtaro-module',
-  },
   links: {
     github: 'https://github.com/chjtx/rollup-plugin-jtaro-module',
     npm: 'https://www.npmjs.com/package/rollup-plugin-jtaro-module',
     website: 'https://github.com/chjtx/rollup-plugin-jtaro-module#readme',
+  },
+  source: {
+    github: 'chjtx/rollup-plugin-jtaro-module',
+    npm: 'rollup-plugin-jtaro-module',
   },
   stats: {
     stars: 0,

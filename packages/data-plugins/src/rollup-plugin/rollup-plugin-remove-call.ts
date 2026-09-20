@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'function',
     'remove call',
   ],
-  source: {
-    github: 'hakocat/rollup-plugin-remove-call',
-    npm: 'rollup-plugin-remove-call',
-  },
   links: {
     github: 'https://github.com/hakocat/rollup-plugin-remove-call',
     npm: 'https://www.npmjs.com/package/rollup-plugin-remove-call',
     website: 'https://github.com/hakocat/rollup-plugin-remove-call#readme',
+  },
+  source: {
+    github: 'hakocat/rollup-plugin-remove-call',
+    npm: 'rollup-plugin-remove-call',
   },
   stats: {
     stars: 0,

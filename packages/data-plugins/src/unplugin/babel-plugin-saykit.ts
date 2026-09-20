@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'k0d13/saykit',
-    npm: 'babel-plugin-saykit',
-  },
   links: {
     github: 'https://github.com/k0d13/saykit',
     npm: 'https://www.npmjs.com/package/babel-plugin-saykit',
     website: 'https://github.com/k0d13/saykit#readme',
+  },
+  source: {
+    github: 'k0d13/saykit',
+    npm: 'babel-plugin-saykit',
   },
   stats: {
     stars: 7,

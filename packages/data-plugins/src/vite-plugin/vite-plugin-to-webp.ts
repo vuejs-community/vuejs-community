@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'images',
     'sharp',
   ],
-  source: {
-    npm: 'vite-plugin-to-webp',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-to-webp',
+  },
+  source: {
+    npm: 'vite-plugin-to-webp',
   },
   stats: {
     stars: 0,

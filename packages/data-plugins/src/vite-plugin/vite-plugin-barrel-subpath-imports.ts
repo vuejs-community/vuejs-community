@@ -16,13 +16,13 @@ export default defineProjectMeta({
     'sourcemap',
     'dev-server-performance',
   ],
-  source: {
-    github: 'ramirezcgn/vite-plugin-barrel-subpath-imports',
-    npm: 'vite-plugin-barrel-subpath-imports',
-  },
   links: {
     github: 'https://github.com/ramirezcgn/vite-plugin-barrel-subpath-imports',
     npm: 'https://www.npmjs.com/package/vite-plugin-barrel-subpath-imports',
     website: 'https://github.com/ramirezcgn/vite-plugin-barrel-subpath-imports#readme',
+  },
+  source: {
+    github: 'ramirezcgn/vite-plugin-barrel-subpath-imports',
+    npm: 'vite-plugin-barrel-subpath-imports',
   },
 })

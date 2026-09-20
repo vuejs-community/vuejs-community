@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'leafsphp/vite-plugin',
-    npm: '@leafphp/vite-plugin',
-  },
   links: {
     github: 'https://github.com/leafsphp/vite-plugin',
     npm: 'https://www.npmjs.com/package/@leafphp/vite-plugin',
     website: 'https://github.com/leafsphp/vite-plugin',
+  },
+  source: {
+    github: 'leafsphp/vite-plugin',
+    npm: '@leafphp/vite-plugin',
   },
   stats: {
     stars: 2,

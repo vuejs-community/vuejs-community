@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite plugin',
     'vite banner',
   ],
-  source: {
-    github: 'chengpeiquan/vite-plugin-banner',
-    npm: 'vite-plugin-banner',
-  },
   links: {
     github: 'https://github.com/chengpeiquan/vite-plugin-banner',
     npm: 'https://www.npmjs.com/package/vite-plugin-banner',
     website: 'https://github.com/chengpeiquan/vite-plugin-banner',
+  },
+  source: {
+    github: 'chengpeiquan/vite-plugin-banner',
+    npm: 'vite-plugin-banner',
   },
   stats: {
     stars: 113,

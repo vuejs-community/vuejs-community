@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'microsoft',
     'control-add-in',
   ],
-  source: {
-    github: 'Hugos68/vite-plugin-control-add-in',
-    npm: 'vite-plugin-control-add-in',
-  },
   links: {
     github: 'https://github.com/Hugos68/vite-plugin-control-add-in',
     npm: 'https://www.npmjs.com/package/vite-plugin-control-add-in',
     website: 'https://github.com/Hugos68/vite-plugin-control-add-in#readme',
+  },
+  source: {
+    github: 'Hugos68/vite-plugin-control-add-in',
+    npm: 'vite-plugin-control-add-in',
   },
   stats: {
     stars: 0,

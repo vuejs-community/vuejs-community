@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'wzc520pyfm/unplugin-dsv',
-    npm: 'unplugin-dsv',
-  },
   links: {
     github: 'https://github.com/wzc520pyfm/unplugin-dsv',
     npm: 'https://www.npmjs.com/package/unplugin-dsv',
     website: 'https://github.com/wzc520pyfm/unplugin-dsv#readme',
+  },
+  source: {
+    github: 'wzc520pyfm/unplugin-dsv',
+    npm: 'unplugin-dsv',
   },
   stats: {
     stars: 1,

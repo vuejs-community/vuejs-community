@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-compile-sass-to-public',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-compile-sass-to-public',
+  },
+  source: {
+    npm: 'vite-plugin-compile-sass-to-public',
   },
   stats: {
     stars: 0,

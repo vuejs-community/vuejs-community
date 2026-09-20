@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'chicory',
     'chicory-lang',
   ],
-  source: {
-    github: 'chicory-lang/vite-plugin-chicory',
-    npm: '@chicory-lang/vite-plugin-chicory',
-  },
   links: {
     github: 'https://github.com/chicory-lang/vite-plugin-chicory',
     npm: 'https://www.npmjs.com/package/@chicory-lang/vite-plugin-chicory',
     website: 'https://github.com/chicory-lang/vite-plugin-chicory#readme',
+  },
+  source: {
+    github: 'chicory-lang/vite-plugin-chicory',
+    npm: '@chicory-lang/vite-plugin-chicory',
   },
   stats: {
     stars: 0,

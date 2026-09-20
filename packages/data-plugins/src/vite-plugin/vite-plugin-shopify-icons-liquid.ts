@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'theme',
     'snippets',
   ],
-  source: {
-    github: 'johnrock16/vite-plugin-shopify-icons-liquid',
-    npm: 'vite-plugin-shopify-icons-liquid',
-  },
   links: {
     github: 'https://github.com/johnrock16/vite-plugin-shopify-icons-liquid',
     npm: 'https://www.npmjs.com/package/vite-plugin-shopify-icons-liquid',
     website: 'https://github.com/johnrock16/vite-plugin-shopify-icons-liquid#readme',
+  },
+  source: {
+    github: 'johnrock16/vite-plugin-shopify-icons-liquid',
+    npm: 'vite-plugin-shopify-icons-liquid',
   },
   stats: {
     stars: 1,

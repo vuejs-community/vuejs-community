@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'svelte',
     'svelte-auto-import',
   ],
-  source: {
-    github: 'Mohamed-Kaizen/unplugin-svelte-components',
-    npm: 'unplugin-svelte-components',
-  },
   links: {
     github: 'https://github.com/Mohamed-Kaizen/unplugin-svelte-components',
     npm: 'https://www.npmjs.com/package/unplugin-svelte-components',
     website: 'https://github.com/Mohamed-Kaizen/unplugin-svelte-components',
+  },
+  source: {
+    github: 'Mohamed-Kaizen/unplugin-svelte-components',
+    npm: 'unplugin-svelte-components',
   },
   stats: {
     stars: 38,

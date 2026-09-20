@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'query-keys',
     'plugin',
   ],
-  source: {
-    github: 'Codezzzz/gen-query-key',
-    npm: '@query-key-gen/generator',
-  },
   links: {
     github: 'https://github.com/Codezzzz/gen-query-key',
     npm: 'https://www.npmjs.com/package/@query-key-gen/generator',
     website: 'https://github.com/Codezzzz/gen-query-key#readme',
+  },
+  source: {
+    github: 'Codezzzz/gen-query-key',
+    npm: '@query-key-gen/generator',
   },
   stats: {
     stars: 0,

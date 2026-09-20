@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-history',
     'history-api-fallback',
   ],
-  source: {
-    github: 'Create-Peace/vite-plugin-history-api-fallback',
-    npm: 'vite-plugin-history-api-fallback',
-  },
   links: {
     github: 'https://github.com/Create-Peace/vite-plugin-history-api-fallback',
     npm: 'https://www.npmjs.com/package/vite-plugin-history-api-fallback',
     website: 'https://github.com/Create-Peace/vite-plugin-history-api-fallback#readme',
+  },
+  source: {
+    github: 'Create-Peace/vite-plugin-history-api-fallback',
+    npm: 'vite-plugin-history-api-fallback',
   },
   stats: {
     stars: 3,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'source',
     'line',
   ],
-  source: {
-    github: 'GlitchyByte/dlog',
-    npm: '@glitchybyte/dlog',
-  },
   links: {
     github: 'https://github.com/GlitchyByte/dlog',
     npm: 'https://www.npmjs.com/package/@glitchybyte/dlog',
     website: 'https://github.com/GlitchyByte/dlog#readme',
+  },
+  source: {
+    github: 'GlitchyByte/dlog',
+    npm: '@glitchybyte/dlog',
   },
   stats: {
     stars: 0,

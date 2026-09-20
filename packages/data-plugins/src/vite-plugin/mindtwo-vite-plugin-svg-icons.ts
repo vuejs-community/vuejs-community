@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'svgo',
     'mindtwo',
   ],
-  source: {
-    github: 'mindtwo/vite-plugin-svg-icons',
-    npm: '@mindtwo/vite-plugin-svg-icons',
-  },
   links: {
     github: 'https://github.com/mindtwo/vite-plugin-svg-icons',
     npm: 'https://www.npmjs.com/package/@mindtwo/vite-plugin-svg-icons',
     website: 'https://github.com/mindtwo/vite-plugin-svg-icons/tree/main/#readme',
+  },
+  source: {
+    github: 'mindtwo/vite-plugin-svg-icons',
+    npm: '@mindtwo/vite-plugin-svg-icons',
   },
   stats: {
     stars: 0,

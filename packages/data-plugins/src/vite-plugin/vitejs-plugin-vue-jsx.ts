@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    github: 'vitejs/vite-plugin-vue',
-    npm: '@vitejs/plugin-vue-jsx',
-  },
   links: {
     github: 'https://github.com/vitejs/vite-plugin-vue',
     npm: 'https://www.npmjs.com/package/@vitejs/plugin-vue-jsx',
     website: 'https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue-jsx#readme',
+  },
+  source: {
+    github: 'vitejs/vite-plugin-vue',
+    npm: '@vitejs/plugin-vue-jsx',
   },
   stats: {
     stars: 0,

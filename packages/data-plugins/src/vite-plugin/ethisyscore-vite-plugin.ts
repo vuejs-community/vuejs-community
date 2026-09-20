@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'sdui',
     'contract-a',
   ],
-  source: {
-    github: 'ethisysltd/ethisyscore-plugin-sdk',
-    npm: '@ethisyscore/vite-plugin',
-  },
   links: {
     github: 'https://github.com/ethisysltd/ethisyscore-plugin-sdk',
     npm: 'https://www.npmjs.com/package/@ethisyscore/vite-plugin',
     website: 'https://github.com/ethisysltd/ethisyscore-plugin-sdk#readme',
+  },
+  source: {
+    github: 'ethisysltd/ethisyscore-plugin-sdk',
+    npm: '@ethisyscore/vite-plugin',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'pruner',
     'bonsaicss',
   ],
-  source: {
-    github: 'Bonsai-CSS/bonsaicss',
-    npm: '@bonsaicss/rollup-plugin',
-  },
   links: {
     github: 'https://github.com/Bonsai-CSS/bonsaicss',
     npm: 'https://www.npmjs.com/package/@bonsaicss/rollup-plugin',
     website: 'https://github.com/Bonsai-CSS/bonsaicss#readme',
+  },
+  source: {
+    github: 'Bonsai-CSS/bonsaicss',
+    npm: '@bonsaicss/rollup-plugin',
   },
   stats: {
     stars: 0,

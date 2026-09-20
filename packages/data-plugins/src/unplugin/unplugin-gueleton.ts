@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'skeleton',
   ],
-  source: {
-    github: 'siaikin/unplugin-gueleton',
-    npm: 'unplugin-gueleton',
-  },
   links: {
     github: 'https://github.com/siaikin/unplugin-gueleton',
     npm: 'https://www.npmjs.com/package/unplugin-gueleton',
     website: 'https://github.com/siaikin/unplugin-gueleton#readme',
+  },
+  source: {
+    github: 'siaikin/unplugin-gueleton',
+    npm: 'unplugin-gueleton',
   },
   stats: {
     stars: 0,

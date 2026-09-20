@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vscode',
     'unplugin',
   ],
-  source: {
-    github: 's3xysteak/unplugin-iconify-generator',
-    npm: 'unplugin-iconify-generator',
-  },
   links: {
     github: 'https://github.com/s3xysteak/unplugin-iconify-generator',
     npm: 'https://www.npmjs.com/package/unplugin-iconify-generator',
     website: 'https://github.com/s3xysteak/unplugin-iconify-generator',
+  },
+  source: {
+    github: 's3xysteak/unplugin-iconify-generator',
+    npm: 'unplugin-iconify-generator',
   },
   stats: {
     stars: 6,

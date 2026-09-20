@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-electron-dev',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-electron-dev',
+  },
+  source: {
+    npm: 'vite-plugin-electron-dev',
   },
   stats: {
     stars: 0,

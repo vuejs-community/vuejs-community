@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'Vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'StaticAssets/static-assets-vite',
-    npm: '@static-assets/vite',
-  },
   links: {
     github: 'https://github.com/StaticAssets/static-assets-vite',
     npm: 'https://www.npmjs.com/package/@static-assets/vite',
     website: 'https://github.com/StaticAssets/static-assets-vite#readme',
+  },
+  source: {
+    github: 'StaticAssets/static-assets-vite',
+    npm: '@static-assets/vite',
   },
   stats: {
     stars: 0,

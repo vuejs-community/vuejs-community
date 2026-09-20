@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'manifest',
     'pwa',
   ],
-  source: {
-    github: 'adamzerella/rollup-plugin-manifest-json',
-    npm: 'rollup-plugin-manifest-json',
-  },
   links: {
     github: 'https://github.com/adamzerella/rollup-plugin-manifest-json',
     npm: 'https://www.npmjs.com/package/rollup-plugin-manifest-json',
     website: 'https://github.com/azerella/rollup-plugin-manifest-json#readme',
+  },
+  source: {
+    github: 'adamzerella/rollup-plugin-manifest-json',
+    npm: 'rollup-plugin-manifest-json',
   },
   stats: {
     stars: 14,

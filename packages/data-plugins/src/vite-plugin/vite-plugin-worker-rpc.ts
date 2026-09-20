@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rpc',
     'typescript',
   ],
-  source: {
-    github: 'fenghengzhi/vite-plugin-worker-rpc',
-    npm: 'vite-plugin-worker-rpc',
-  },
   links: {
     github: 'https://github.com/fenghengzhi/vite-plugin-worker-rpc',
     npm: 'https://www.npmjs.com/package/vite-plugin-worker-rpc',
     website: 'https://github.com/fenghengzhi/vite-plugin-worker-rpc#readme',
+  },
+  source: {
+    github: 'fenghengzhi/vite-plugin-worker-rpc',
+    npm: 'vite-plugin-worker-rpc',
   },
   stats: {
     stars: 0,

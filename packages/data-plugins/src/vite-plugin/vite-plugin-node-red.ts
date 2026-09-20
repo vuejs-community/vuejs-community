@@ -12,13 +12,13 @@ export default defineProjectMeta({
     'vite-plugin',
     'node-red',
   ],
-  source: {
-    github: 'iamtheyammer/vite-plugin-node-red',
-    npm: 'vite-plugin-node-red',
-  },
   links: {
     github: 'https://github.com/iamtheyammer/vite-plugin-node-red',
     npm: 'https://www.npmjs.com/package/vite-plugin-node-red',
+  },
+  source: {
+    github: 'iamtheyammer/vite-plugin-node-red',
+    npm: 'vite-plugin-node-red',
   },
   stats: {
     stars: 0,

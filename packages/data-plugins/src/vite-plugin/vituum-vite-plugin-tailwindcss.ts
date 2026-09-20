@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'vituum/vite-plugin-tailwindcss',
-    npm: '@vituum/vite-plugin-tailwindcss',
-  },
   links: {
     github: 'https://github.com/vituum/vite-plugin-tailwindcss',
     npm: 'https://www.npmjs.com/package/@vituum/vite-plugin-tailwindcss',
     website: 'https://github.com/vituum/vite-plugin-tailwindcss#readme',
+  },
+  source: {
+    github: 'vituum/vite-plugin-tailwindcss',
+    npm: '@vituum/vite-plugin-tailwindcss',
   },
   stats: {
     stars: 1,

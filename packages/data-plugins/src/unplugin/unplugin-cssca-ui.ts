@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'esbuild',
     'plugin',
   ],
-  source: {
-    npm: 'unplugin-cssca-ui',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-cssca-ui',
+  },
+  source: {
+    npm: 'unplugin-cssca-ui',
   },
   stats: {
     stars: 0,

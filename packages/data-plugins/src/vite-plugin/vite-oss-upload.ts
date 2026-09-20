@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'upload',
     'cdn',
   ],
-  source: {
-    github: 'chendaleiQ/vite-oss-upload',
-    npm: 'vite-oss-upload',
-  },
   links: {
     github: 'https://github.com/chendaleiQ/vite-oss-upload',
     npm: 'https://www.npmjs.com/package/vite-oss-upload',
     website: 'https://github.com/chendaleiQ/vite-oss-upload',
+  },
+  source: {
+    github: 'chendaleiQ/vite-oss-upload',
+    npm: 'vite-oss-upload',
   },
   stats: {
     stars: 2,

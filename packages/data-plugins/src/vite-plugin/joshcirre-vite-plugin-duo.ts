@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'offline',
     'duo',
   ],
-  source: {
-    github: 'joshcirre/duo',
-    npm: '@joshcirre/vite-plugin-duo',
-  },
   links: {
     github: 'https://github.com/joshcirre/duo',
     npm: 'https://www.npmjs.com/package/@joshcirre/vite-plugin-duo',
     website: 'https://github.com/joshcirre/duo#readme',
+  },
+  source: {
+    github: 'joshcirre/duo',
+    npm: '@joshcirre/vite-plugin-duo',
   },
   stats: {
     stars: 36,

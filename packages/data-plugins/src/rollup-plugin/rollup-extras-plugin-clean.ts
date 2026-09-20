@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'clean',
     'delete',
   ],
-  source: {
-    github: 'kshutkin/rollup-extras',
-    npm: '@rollup-extras/plugin-clean',
-  },
   links: {
     github: 'https://github.com/kshutkin/rollup-extras',
     npm: 'https://www.npmjs.com/package/@rollup-extras/plugin-clean',
     website: 'https://github.com/kshutkin/rollup-extras/blob/main/plugin-clean/README.md',
+  },
+  source: {
+    github: 'kshutkin/rollup-extras',
+    npm: '@rollup-extras/plugin-clean',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'transform',
     'hmr',
   ],
-  source: {
-    github: 'Binbiubiubiu/unplugin-vue-jsx-hmr',
-    npm: 'unplugin-vue-jsx-hmr',
-  },
   links: {
     github: 'https://github.com/Binbiubiubiu/unplugin-vue-jsx-hmr',
     npm: 'https://www.npmjs.com/package/unplugin-vue-jsx-hmr',
     website: 'https://github.com/Binbiubiubiu/unplugin-vue-jsx-hmr#readme',
+  },
+  source: {
+    github: 'Binbiubiubiu/unplugin-vue-jsx-hmr',
+    npm: 'unplugin-vue-jsx-hmr',
   },
   stats: {
     stars: 1,

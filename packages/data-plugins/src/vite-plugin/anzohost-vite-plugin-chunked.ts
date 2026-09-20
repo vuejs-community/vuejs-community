@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'cdn',
     'download-manager',
   ],
-  source: {
-    npm: '@anzohost/vite-plugin-chunked',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@anzohost/vite-plugin-chunked',
+  },
+  source: {
+    npm: '@anzohost/vite-plugin-chunked',
   },
   stats: {
     stars: 0,

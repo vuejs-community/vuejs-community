@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'ryuu',
   ],
-  source: {
-    npm: 'vite-plugin-domo-proxy',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-domo-proxy',
+  },
+  source: {
+    npm: 'vite-plugin-domo-proxy',
   },
   stats: {
     stars: 0,

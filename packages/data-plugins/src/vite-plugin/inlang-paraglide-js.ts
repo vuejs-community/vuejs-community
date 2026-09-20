@@ -36,14 +36,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'rollup-plugin',
   ],
-  source: {
-    github: 'opral/paraglide-js',
-    npm: '@inlang/paraglide-js',
-  },
   links: {
     github: 'https://github.com/opral/paraglide-js',
     npm: 'https://www.npmjs.com/package/@inlang/paraglide-js',
     website: 'https://paraglidejs.com',
+  },
+  source: {
+    github: 'opral/paraglide-js',
+    npm: '@inlang/paraglide-js',
   },
   stats: {
     stars: 695,

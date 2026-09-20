@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'assets',
     'static-assets',
   ],
-  source: {
-    github: 'jsxtools/rollup-utils',
-    npm: '@jsxtools/rollup-plugin-copy',
-  },
   links: {
     github: 'https://github.com/jsxtools/rollup-utils',
     npm: 'https://www.npmjs.com/package/@jsxtools/rollup-plugin-copy',
     website: 'https://github.com/jsxtools/rollup-utils/tree/main/packages/rollup-plugin-copy',
+  },
+  source: {
+    github: 'jsxtools/rollup-utils',
+    npm: '@jsxtools/rollup-plugin-copy',
   },
   stats: {
     stars: 0,

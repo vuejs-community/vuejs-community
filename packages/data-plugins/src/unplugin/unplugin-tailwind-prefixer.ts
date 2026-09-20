@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'prefix',
     'plugin',
   ],
-  source: {
-    github: 'dantxal/unplugin-tailwind-prefixer',
-    npm: 'unplugin-tailwind-prefixer',
-  },
   links: {
     github: 'https://github.com/dantxal/unplugin-tailwind-prefixer',
     npm: 'https://www.npmjs.com/package/unplugin-tailwind-prefixer',
     website: 'https://github.com/dantxal/unplugin-tailwind-prefixer#readme',
+  },
+  source: {
+    github: 'dantxal/unplugin-tailwind-prefixer',
+    npm: 'unplugin-tailwind-prefixer',
   },
   stats: {
     stars: 1,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'webpack',
     'printer',
   ],
-  source: {
-    github: 'webfansplz/unplugin-printer',
-    npm: 'unplugin-printer',
-  },
   links: {
     github: 'https://github.com/webfansplz/unplugin-printer',
     npm: 'https://www.npmjs.com/package/unplugin-printer',
     website: 'https://github.com/webfansplz/unplugin-printer#readme',
+  },
+  source: {
+    github: 'webfansplz/unplugin-printer',
+    npm: 'unplugin-printer',
   },
   stats: {
     stars: 32,

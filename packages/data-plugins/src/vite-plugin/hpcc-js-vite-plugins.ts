@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'dojo',
     'amd',
   ],
-  source: {
-    github: 'hpcc-systems/hpcc-js-wasm',
-    npm: '@hpcc-js/vite-plugins',
-  },
   links: {
     github: 'https://github.com/hpcc-systems/hpcc-js-wasm',
     npm: 'https://www.npmjs.com/package/@hpcc-js/vite-plugins',
     website: 'https://hpcc-systems.github.io/hpcc-js-wasm/',
+  },
+  source: {
+    github: 'hpcc-systems/hpcc-js-wasm',
+    npm: '@hpcc-js/vite-plugins',
   },
   stats: {
     stars: 391,

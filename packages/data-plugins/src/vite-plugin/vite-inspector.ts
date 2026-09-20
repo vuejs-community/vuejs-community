@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-inspector',
   ],
-  source: {
-    github: 'vite-inspector/vite-inspector',
-    npm: 'vite-inspector',
-  },
   links: {
     github: 'https://github.com/vite-inspector/vite-inspector',
     npm: 'https://www.npmjs.com/package/vite-inspector',
     website: 'https://github.com/vite-inspector/vite-inspector#readme',
+  },
+  source: {
+    github: 'vite-inspector/vite-inspector',
+    npm: 'vite-inspector',
   },
   stats: {
     stars: 11,

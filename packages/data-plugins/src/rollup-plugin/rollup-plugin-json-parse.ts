@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'optimisation',
     'performance',
   ],
-  source: {
-    github: 'tjenkinson/rollup-plugin-json-parse',
-    npm: 'rollup-plugin-json-parse',
-  },
   links: {
     github: 'https://github.com/tjenkinson/rollup-plugin-json-parse',
     npm: 'https://www.npmjs.com/package/rollup-plugin-json-parse',
     website: 'https://github.com/tjenkinson/rollup-plugin-json-parse#readme',
+  },
+  source: {
+    github: 'tjenkinson/rollup-plugin-json-parse',
+    npm: 'rollup-plugin-json-parse',
   },
   stats: {
     stars: 7,

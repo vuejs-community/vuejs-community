@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'web',
     'components',
   ],
-  source: {
-    github: 'cardoso/vite-plugin-lwc',
-    npm: 'vite-plugin-lwc',
-  },
   links: {
     github: 'https://github.com/cardoso/vite-plugin-lwc',
     npm: 'https://www.npmjs.com/package/vite-plugin-lwc',
     website: 'https://github.com/cardoso/vite-plugin-lwc/tree/main/packages/vite-plugin-lwc#readme',
+  },
+  source: {
+    github: 'cardoso/vite-plugin-lwc',
+    npm: 'vite-plugin-lwc',
   },
   stats: {
     stars: 6,

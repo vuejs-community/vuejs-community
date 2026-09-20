@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'sftp',
     'swcbo',
   ],
-  source: {
-    github: 'swcbo/vite-plugin-sftp',
-    npm: 'vite-plugin-sftp',
-  },
   links: {
     github: 'https://github.com/swcbo/vite-plugin-sftp',
     npm: 'https://www.npmjs.com/package/vite-plugin-sftp',
     website: 'https://github.com/swcbo/vite-plugin-sftp#readme',
+  },
+  source: {
+    github: 'swcbo/vite-plugin-sftp',
+    npm: 'vite-plugin-sftp',
   },
   stats: {
     stars: 3,

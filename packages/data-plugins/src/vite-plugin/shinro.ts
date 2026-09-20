@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'typescript',
     'vite-plugin',
   ],
-  source: {
-    github: 'arikchakma/shinro',
-    npm: 'shinro',
-  },
   links: {
     github: 'https://github.com/arikchakma/shinro',
     npm: 'https://www.npmjs.com/package/shinro',
     website: 'https://github.com/arikchakma/shinro#readme',
+  },
+  source: {
+    github: 'arikchakma/shinro',
+    npm: 'shinro',
   },
   stats: {
     stars: 5,

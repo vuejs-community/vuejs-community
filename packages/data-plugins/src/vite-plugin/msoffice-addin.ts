@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'nuxt',
     'vite-plugin',
   ],
-  source: {
-    github: 'dapotatoman/msoffice-addin',
-    npm: 'msoffice-addin',
-  },
   links: {
     github: 'https://github.com/dapotatoman/msoffice-addin',
     npm: 'https://www.npmjs.com/package/msoffice-addin',
     website: 'https://github.com/dapotatoman/msoffice-addin#readme',
+  },
+  source: {
+    github: 'dapotatoman/msoffice-addin',
+    npm: 'msoffice-addin',
   },
   stats: {
     stars: 0,

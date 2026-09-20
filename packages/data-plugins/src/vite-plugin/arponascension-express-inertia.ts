@@ -31,14 +31,14 @@ export default defineProjectMeta({
     'typescript',
     'hmr',
   ],
-  source: {
-    github: 'arponascension/express-inertia',
-    npm: '@arponascension/express-inertia',
-  },
   links: {
     github: 'https://github.com/arponascension/express-inertia',
     npm: 'https://www.npmjs.com/package/@arponascension/express-inertia',
     website: 'https://github.com/arponascension/express-inertia#readme',
+  },
+  source: {
+    github: 'arponascension/express-inertia',
+    npm: '@arponascension/express-inertia',
   },
   stats: {
     stars: 2,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'controlla',
     'proxy',
   ],
-  source: {
-    github: 'Krombik/controlla-unplugin',
-    npm: 'controlla-unplugin',
-  },
   links: {
     github: 'https://github.com/Krombik/controlla-unplugin',
     npm: 'https://www.npmjs.com/package/controlla-unplugin',
     website: 'https://github.com/Krombik/controlla-unplugin#readme',
+  },
+  source: {
+    github: 'Krombik/controlla-unplugin',
+    npm: 'controlla-unplugin',
   },
   stats: {
     stars: 0,

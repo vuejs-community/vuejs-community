@@ -22,12 +22,12 @@ export default defineProjectMeta({
     'shield',
     'shieldmycode',
   ],
-  source: {
-    npm: 'shieldmycode-vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/shieldmycode-vite-plugin',
     website: 'https://shieldmycode.com',
+  },
+  source: {
+    npm: 'shieldmycode-vite-plugin',
   },
   stats: {
     stars: 0,

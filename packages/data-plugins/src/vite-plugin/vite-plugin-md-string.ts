@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    github: 'social-uni/vite-plugin-md-string',
-    npm: 'vite-plugin-md-string',
-  },
   links: {
     github: 'https://github.com/social-uni/vite-plugin-md-string',
     npm: 'https://www.npmjs.com/package/vite-plugin-md-string',
     website: 'https://github.com/social-uni/vite-plugin-md-string',
+  },
+  source: {
+    github: 'social-uni/vite-plugin-md-string',
+    npm: 'vite-plugin-md-string',
   },
   stats: {
     stars: 0,

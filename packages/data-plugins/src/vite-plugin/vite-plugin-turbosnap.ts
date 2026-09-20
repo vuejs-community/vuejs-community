@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'snapshot',
   ],
-  source: {
-    github: 'IanVS/vite-plugin-turbosnap',
-    npm: 'vite-plugin-turbosnap',
-  },
   links: {
     github: 'https://github.com/IanVS/vite-plugin-turbosnap',
     npm: 'https://www.npmjs.com/package/vite-plugin-turbosnap',
     website: 'https://github.com/IanVS/vite-plugin-turbosnap#readme',
+  },
+  source: {
+    github: 'IanVS/vite-plugin-turbosnap',
+    npm: 'vite-plugin-turbosnap',
   },
   stats: {
     stars: 77,

@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'bundle-analyzer',
   ],
-  source: {
-    npm: 'rollup-bundle-analyzer',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-bundle-analyzer',
+  },
+  source: {
+    npm: 'rollup-bundle-analyzer',
   },
   stats: {
     stars: 0,

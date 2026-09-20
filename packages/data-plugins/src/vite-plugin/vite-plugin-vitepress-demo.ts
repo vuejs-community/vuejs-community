@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vitepress-code-block-demo',
     'vitepress-demo',
   ],
-  source: {
-    github: 'aibayanyu20/vite-plugins',
-    npm: 'vite-plugin-vitepress-demo',
-  },
   links: {
     github: 'https://github.com/aibayanyu20/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-vitepress-demo',
     website: 'https://github.com/aibayanyu20/vite-plugins/#readme',
+  },
+  source: {
+    github: 'aibayanyu20/vite-plugins',
+    npm: 'vite-plugin-vitepress-demo',
   },
   stats: {
     stars: 0,

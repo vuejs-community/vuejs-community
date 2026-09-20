@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'qrcode',
   ],
-  source: {
-    github: 'svitejs/vite-plugin-qrcode',
-    npm: 'vite-plugin-qrcode',
-  },
   links: {
     github: 'https://github.com/svitejs/vite-plugin-qrcode',
     npm: 'https://www.npmjs.com/package/vite-plugin-qrcode',
     website: 'https://github.com/svitejs/vite-plugin-qrcode#readme',
+  },
+  source: {
+    github: 'svitejs/vite-plugin-qrcode',
+    npm: 'vite-plugin-qrcode',
   },
   stats: {
     stars: 217,

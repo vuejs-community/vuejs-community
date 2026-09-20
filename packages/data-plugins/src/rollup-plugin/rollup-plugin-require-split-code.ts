@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'splitting',
     'transform',
   ],
-  source: {
-    github: 'eight04/rollup-plugin-require-split-code',
-    npm: 'rollup-plugin-require-split-code',
-  },
   links: {
     github: 'https://github.com/eight04/rollup-plugin-require-split-code',
     npm: 'https://www.npmjs.com/package/rollup-plugin-require-split-code',
     website: 'https://github.com/eight04/rollup-plugin-require-split-code#readme',
+  },
+  source: {
+    github: 'eight04/rollup-plugin-require-split-code',
+    npm: 'rollup-plugin-require-split-code',
   },
   stats: {
     stars: 1,

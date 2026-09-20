@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'laikacms',
     'content-management',
   ],
-  source: {
-    github: 'laikacms/laikacms',
-    npm: '@laikacms/vite-plugin',
-  },
   links: {
     github: 'https://github.com/laikacms/laikacms',
     npm: 'https://www.npmjs.com/package/@laikacms/vite-plugin',
     website: 'https://github.com/laikacms/laikacms',
+  },
+  source: {
+    github: 'laikacms/laikacms',
+    npm: '@laikacms/vite-plugin',
   },
   stats: {
     stars: 1,

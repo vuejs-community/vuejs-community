@@ -17,11 +17,11 @@ export default defineProjectMeta({
     '3dgis',
     'webgis',
   ],
-  source: {
-    npm: 'vite-plugin-lightboat',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-lightboat',
+  },
+  source: {
+    npm: 'vite-plugin-lightboat',
   },
   stats: {
     stars: 0,

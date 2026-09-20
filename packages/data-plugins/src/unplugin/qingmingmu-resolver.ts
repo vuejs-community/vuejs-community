@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'vue3',
     'component-library',
   ],
-  source: {
-    npm: '@qingmingmu/resolver',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@qingmingmu/resolver',
+  },
+  source: {
+    npm: '@qingmingmu/resolver',
   },
   stats: {
     stars: 0,

@@ -19,11 +19,11 @@ export default defineProjectMeta({
     'share',
     'development',
   ],
-  source: {
-    npm: '@ash013/vite-plugin-devshare',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ash013/vite-plugin-devshare',
+  },
+  source: {
+    npm: '@ash013/vite-plugin-devshare',
   },
   stats: {
     stars: 0,

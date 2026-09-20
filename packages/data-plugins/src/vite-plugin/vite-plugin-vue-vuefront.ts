@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vuefront',
   ],
-  source: {
-    npm: 'vite-plugin-vue-vuefront',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-vuefront',
+  },
+  source: {
+    npm: 'vite-plugin-vue-vuefront',
   },
   stats: {
     stars: 0,

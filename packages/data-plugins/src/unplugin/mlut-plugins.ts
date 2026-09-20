@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'mlutcss/mlut',
-    npm: '@mlut/plugins',
-  },
   links: {
     github: 'https://github.com/mlutcss/mlut',
     npm: 'https://www.npmjs.com/package/@mlut/plugins',
     website: 'https://mlut.style/',
+  },
+  source: {
+    github: 'mlutcss/mlut',
+    npm: '@mlut/plugins',
   },
   stats: {
     stars: 285,

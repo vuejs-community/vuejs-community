@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'import',
     'npm-package',
   ],
-  source: {
-    github: 'kitschpatrol/vite-plugin-iife',
-    npm: 'vite-plugin-iife',
-  },
   links: {
     github: 'https://github.com/kitschpatrol/vite-plugin-iife',
     npm: 'https://www.npmjs.com/package/vite-plugin-iife',
     website: 'https://github.com/kitschpatrol/vite-plugin-iife',
+  },
+  source: {
+    github: 'kitschpatrol/vite-plugin-iife',
+    npm: 'vite-plugin-iife',
   },
   stats: {
     stars: 2,

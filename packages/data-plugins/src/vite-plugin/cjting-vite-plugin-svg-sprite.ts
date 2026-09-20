@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'svg',
     'sprite',
   ],
-  source: {
-    github: 'cj1128/vite-plugin-svg-sprite',
-    npm: '@cjting/vite-plugin-svg-sprite',
-  },
   links: {
     github: 'https://github.com/cj1128/vite-plugin-svg-sprite',
     npm: 'https://www.npmjs.com/package/@cjting/vite-plugin-svg-sprite',
     website: 'https://github.com/cj1128/vite-plugin-svg-sprite/tree/master/#readme',
+  },
+  source: {
+    github: 'cj1128/vite-plugin-svg-sprite',
+    npm: '@cjting/vite-plugin-svg-sprite',
   },
   stats: {
     stars: 0,

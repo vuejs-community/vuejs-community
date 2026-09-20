@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'javascript',
     'gulp',
   ],
-  source: {
-    github: 'adessoSE/vite-plugin-legacy-js-concat',
-    npm: '@adesso-se/vite-plugin-legacy-js-concat',
-  },
   links: {
     github: 'https://github.com/adessoSE/vite-plugin-legacy-js-concat',
     npm: 'https://www.npmjs.com/package/@adesso-se/vite-plugin-legacy-js-concat',
     website: 'https://github.com/adessoSE/vite-plugin-legacy-js-concat',
+  },
+  source: {
+    github: 'adessoSE/vite-plugin-legacy-js-concat',
+    npm: '@adesso-se/vite-plugin-legacy-js-concat',
   },
   stats: {
     stars: 0,

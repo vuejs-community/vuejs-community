@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'ivesia/vite-plugin-rewrite-all',
-    npm: '@thirdroom/vite-plugin-rewrite-all',
-  },
   links: {
     github: 'https://github.com/ivesia/vite-plugin-rewrite-all',
     npm: 'https://www.npmjs.com/package/@thirdroom/vite-plugin-rewrite-all',
     website: 'https://github.com/ivesia/vite-plugin-rewrite-all',
+  },
+  source: {
+    github: 'ivesia/vite-plugin-rewrite-all',
+    npm: '@thirdroom/vite-plugin-rewrite-all',
   },
   stats: {
     stars: 0,

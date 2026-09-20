@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'vapier/rollup-plugin-git-info',
-    npm: 'rollup-plugin-git-info',
-  },
   links: {
     github: 'https://github.com/vapier/rollup-plugin-git-info',
     npm: 'https://www.npmjs.com/package/rollup-plugin-git-info',
     website: 'https://github.com/vapier/rollup-plugin-git-info',
+  },
+  source: {
+    github: 'vapier/rollup-plugin-git-info',
+    npm: 'rollup-plugin-git-info',
   },
   stats: {
     stars: 1,

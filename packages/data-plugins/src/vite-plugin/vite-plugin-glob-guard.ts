@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'glob',
     'tooling',
   ],
-  source: {
-    npm: 'vite-plugin-glob-guard',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-glob-guard',
+  },
+  source: {
+    npm: 'vite-plugin-glob-guard',
   },
   stats: {
     stars: 0,

@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'dapp-agent',
   ],
-  source: {
-    npm: '@dapp-agent/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@dapp-agent/vite-plugin',
+  },
+  source: {
+    npm: '@dapp-agent/vite-plugin',
   },
   stats: {
     stars: 0,

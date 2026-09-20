@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    npm: 'rollup-plugin-node-resolve-next',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-node-resolve-next',
+  },
+  source: {
+    npm: 'rollup-plugin-node-resolve-next',
   },
   stats: {
     stars: 0,

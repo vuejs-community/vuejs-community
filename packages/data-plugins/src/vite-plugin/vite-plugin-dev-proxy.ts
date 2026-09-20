@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'proxy',
   ],
-  source: {
-    npm: 'vite-plugin-dev-proxy',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-dev-proxy',
+  },
+  source: {
+    npm: 'vite-plugin-dev-proxy',
   },
   stats: {
     stars: 0,

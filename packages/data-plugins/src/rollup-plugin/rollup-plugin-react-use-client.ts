@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'server components',
     'use client',
   ],
-  source: {
-    github: 'almadoro/react-just',
-    npm: 'rollup-plugin-react-use-client',
-  },
   links: {
     github: 'https://github.com/almadoro/react-just',
     npm: 'https://www.npmjs.com/package/rollup-plugin-react-use-client',
     website: 'https://github.com/almadoro/react-just#readme',
+  },
+  source: {
+    github: 'almadoro/react-just',
+    npm: 'rollup-plugin-react-use-client',
   },
   stats: {
     stars: 0,

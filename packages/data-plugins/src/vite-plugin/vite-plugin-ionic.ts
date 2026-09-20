@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'svelte',
     'mithril',
   ],
-  source: {
-    github: 'DeJy/vite-plugin-ionic',
-    npm: 'vite-plugin-ionic',
-  },
   links: {
     github: 'https://github.com/DeJy/vite-plugin-ionic',
     npm: 'https://www.npmjs.com/package/vite-plugin-ionic',
     website: 'https://github.com/DeJy/vite-plugin-ionic#readme',
+  },
+  source: {
+    github: 'DeJy/vite-plugin-ionic',
+    npm: 'vite-plugin-ionic',
   },
   stats: {
     stars: 0,

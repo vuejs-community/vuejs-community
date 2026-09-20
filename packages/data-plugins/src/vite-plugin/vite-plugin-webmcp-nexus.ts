@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'typescript',
     'build-plugin',
   ],
-  source: {
-    github: 'alibaba/webmcp-nexus',
-    npm: 'vite-plugin-webmcp-nexus',
-  },
   links: {
     github: 'https://github.com/alibaba/webmcp-nexus',
     npm: 'https://www.npmjs.com/package/vite-plugin-webmcp-nexus',
     website: 'https://github.com/alibaba/webmcp-nexus#readme',
+  },
+  source: {
+    github: 'alibaba/webmcp-nexus',
+    npm: 'vite-plugin-webmcp-nexus',
   },
   stats: {
     stars: 41,

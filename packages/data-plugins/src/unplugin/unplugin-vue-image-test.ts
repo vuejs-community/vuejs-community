@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'image',
   ],
-  source: {
-    github: 'chris-zhu/unplugin-vue-image',
-    npm: 'unplugin-vue-image-test',
-  },
   links: {
     github: 'https://github.com/chris-zhu/unplugin-vue-image',
     npm: 'https://www.npmjs.com/package/unplugin-vue-image-test',
     website: 'https://github.com/chris-zhu/unplugin-vue-image#readme',
+  },
+  source: {
+    github: 'chris-zhu/unplugin-vue-image',
+    npm: 'unplugin-vue-image-test',
   },
   stats: {
     stars: 38,

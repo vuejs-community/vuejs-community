@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'JSY',
   ],
-  source: {
-    github: 'jsy-lang/rollup-plugin-jsy',
-    npm: 'rollup-plugin-jsy',
-  },
   links: {
     github: 'https://github.com/jsy-lang/rollup-plugin-jsy',
     npm: 'https://www.npmjs.com/package/rollup-plugin-jsy',
     website: 'https://github.com/jsy-lang/rollup-plugin-jsy#readme',
+  },
+  source: {
+    github: 'jsy-lang/rollup-plugin-jsy',
+    npm: 'rollup-plugin-jsy',
   },
   stats: {
     stars: 0,

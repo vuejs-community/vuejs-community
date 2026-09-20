@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'require',
     'rollup-plugin',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-commonjs',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-commonjs',
     website: 'https://github.com/rollup/plugins/tree/master/packages/commonjs/#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-commonjs',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'lf',
     'cross-platform',
   ],
-  source: {
-    github: 'memorylovers/vite-plugin-auto-line-ending',
-    npm: 'vite-plugin-auto-line-ending',
-  },
   links: {
     github: 'https://github.com/memorylovers/vite-plugin-auto-line-ending',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-line-ending',
     website: 'https://github.com/memorylovers/vite-plugin-auto-line-ending#readme',
+  },
+  source: {
+    github: 'memorylovers/vite-plugin-auto-line-ending',
+    npm: 'vite-plugin-auto-line-ending',
   },
   stats: {
     stars: 0,

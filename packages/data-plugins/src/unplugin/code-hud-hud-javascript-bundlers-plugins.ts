@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    npm: '@code-hud/hud-javascript-bundlers-plugins',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@code-hud/hud-javascript-bundlers-plugins',
+  },
+  source: {
+    npm: '@code-hud/hud-javascript-bundlers-plugins',
   },
   stats: {
     stars: 0,

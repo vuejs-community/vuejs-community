@@ -19,12 +19,12 @@ export default defineProjectMeta({
     'dotEnv',
     'import',
   ],
-  source: {
-    npm: 'vite-plugin-env-parse',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-env-parse',
     website: 'https://github.com/yue1123/vite-plugin-env-parse/#readme',
+  },
+  source: {
+    npm: 'vite-plugin-env-parse',
   },
   stats: {
     stars: 0,

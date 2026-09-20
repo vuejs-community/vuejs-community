@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dynamic-environment',
     'build-tools',
   ],
-  source: {
-    github: '37bytes/public-packages',
-    npm: '@37bytes/vite-dynamic-environments',
-  },
   links: {
     github: 'https://github.com/37bytes/public-packages',
     npm: 'https://www.npmjs.com/package/@37bytes/vite-dynamic-environments',
     website: 'https://github.com/37bytes/public-packages#readme',
+  },
+  source: {
+    github: '37bytes/public-packages',
+    npm: '@37bytes/vite-dynamic-environments',
   },
   stats: {
     stars: 0,

@@ -32,14 +32,14 @@ export default defineProjectMeta({
     'typescript',
     'vue-design-system',
   ],
-  source: {
-    github: 'jarias-prime/micro-core-ui',
-    npm: 'micro-core-ui',
-  },
   links: {
     github: 'https://github.com/jarias-prime/micro-core-ui',
     npm: 'https://www.npmjs.com/package/micro-core-ui',
     website: 'https://github.com/jarias-prime/micro-core-ui#readme',
+  },
+  source: {
+    github: 'jarias-prime/micro-core-ui',
+    npm: 'micro-core-ui',
   },
   stats: {
     stars: 0,

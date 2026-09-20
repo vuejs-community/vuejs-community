@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'spring-boot',
   ],
-  source: {
-    github: 'Angelillo15/spring-vite-plugin',
-    npm: 'spring-vite-plugin',
-  },
   links: {
     github: 'https://github.com/Angelillo15/spring-vite-plugin',
     npm: 'https://www.npmjs.com/package/spring-vite-plugin',
     website: 'https://github.com/Angelillo15/spring-vite-plugin',
+  },
+  source: {
+    github: 'Angelillo15/spring-vite-plugin',
+    npm: 'spring-vite-plugin',
   },
   stats: {
     stars: 0,

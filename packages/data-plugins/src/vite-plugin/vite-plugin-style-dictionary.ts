@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'design-tokens',
     'tokens',
   ],
-  source: {
-    github: 'kaii-zen/vite-plugin-style-dictionary',
-    npm: 'vite-plugin-style-dictionary',
-  },
   links: {
     github: 'https://github.com/kaii-zen/vite-plugin-style-dictionary',
     npm: 'https://www.npmjs.com/package/vite-plugin-style-dictionary',
     website: 'https://github.com/kaii-zen/vite-plugin-style-dictionary#readme',
+  },
+  source: {
+    github: 'kaii-zen/vite-plugin-style-dictionary',
+    npm: 'vite-plugin-style-dictionary',
   },
   stats: {
     stars: 0,

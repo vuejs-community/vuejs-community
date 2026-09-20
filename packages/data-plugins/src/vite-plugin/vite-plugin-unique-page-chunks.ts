@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'unique',
     'page',
   ],
-  source: {
-    github: 'fecym/vite-plugin-unique-page-chunks',
-    npm: 'vite-plugin-unique-page-chunks',
-  },
   links: {
     github: 'https://github.com/fecym/vite-plugin-unique-page-chunks',
     npm: 'https://www.npmjs.com/package/vite-plugin-unique-page-chunks',
     website: 'https://github.com/fecym/vite-plugin-unique-page-chunks#readme',
+  },
+  source: {
+    github: 'fecym/vite-plugin-unique-page-chunks',
+    npm: 'vite-plugin-unique-page-chunks',
   },
   stats: {
     stars: 1,

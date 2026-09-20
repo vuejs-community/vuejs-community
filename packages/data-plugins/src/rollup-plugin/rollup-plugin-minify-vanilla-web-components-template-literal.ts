@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'tagged',
     'lit',
   ],
-  source: {
-    github: 'awsome-dev/rollup-plugin-minify-vanilla-web-components-template-literal',
-    npm: 'rollup-plugin-minify-vanilla-web-components-template-literal',
-  },
   links: {
     github: 'https://github.com/awsome-dev/rollup-plugin-minify-vanilla-web-components-template-literal',
     npm: 'https://www.npmjs.com/package/rollup-plugin-minify-vanilla-web-components-template-literal',
     website: 'https://github.com/awsome-dev/rollup-plugin-minify-vanilla-web-components-template-literal#readme',
+  },
+  source: {
+    github: 'awsome-dev/rollup-plugin-minify-vanilla-web-components-template-literal',
+    npm: 'rollup-plugin-minify-vanilla-web-components-template-literal',
   },
   stats: {
     stars: 0,

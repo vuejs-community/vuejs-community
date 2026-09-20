@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'wordpress',
   ],
-  source: {
-    github: 'roots/vite-plugin',
-    npm: '@roots/vite-plugin',
-  },
   links: {
     github: 'https://github.com/roots/vite-plugin',
     npm: 'https://www.npmjs.com/package/@roots/vite-plugin',
     website: 'https://github.com/roots/vite-plugin',
+  },
+  source: {
+    github: 'roots/vite-plugin',
+    npm: '@roots/vite-plugin',
   },
   stats: {
     stars: 59,

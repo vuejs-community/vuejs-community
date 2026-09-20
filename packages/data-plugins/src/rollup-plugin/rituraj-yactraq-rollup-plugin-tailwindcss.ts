@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'tailwind',
     'tailwindcss',
   ],
-  source: {
-    github: 'alexdilley/rollup-plugin-tailwindcss',
-    npm: '@rituraj-yactraq/rollup-plugin-tailwindcss',
-  },
   links: {
     github: 'https://github.com/alexdilley/rollup-plugin-tailwindcss',
     npm: 'https://www.npmjs.com/package/@rituraj-yactraq/rollup-plugin-tailwindcss',
     website: 'https://github.com/alexdilley/rollup-plugin-tailwindcss#readme',
+  },
+  source: {
+    github: 'alexdilley/rollup-plugin-tailwindcss',
+    npm: '@rituraj-yactraq/rollup-plugin-tailwindcss',
   },
   stats: {
     stars: 13,

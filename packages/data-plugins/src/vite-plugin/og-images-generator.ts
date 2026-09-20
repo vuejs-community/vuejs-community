@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'withastro',
     'api',
   ],
-  source: {
-    github: 'gracile-web/gracile',
-    npm: 'og-images-generator',
-  },
   links: {
     github: 'https://github.com/gracile-web/gracile',
     npm: 'https://www.npmjs.com/package/og-images-generator',
     website: 'https://github.com/gracile-web/gracile#readme',
+  },
+  source: {
+    github: 'gracile-web/gracile',
+    npm: 'og-images-generator',
   },
   stats: {
     stars: 0,

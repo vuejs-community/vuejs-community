@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'precise-arithmetic',
   ],
-  source: {
-    npm: 'vite-plugin-precise-arithmetic',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-precise-arithmetic',
+  },
+  source: {
+    npm: 'vite-plugin-precise-arithmetic',
   },
   stats: {
     stars: 0,

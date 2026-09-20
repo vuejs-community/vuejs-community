@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'ko',
   ],
-  source: {
-    github: 'differui/rollup-plugin-ko',
-    npm: 'rollup-plugin-ko',
-  },
   links: {
     github: 'https://github.com/differui/rollup-plugin-ko',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ko',
     website: 'https://github.com/differui/rollup-plugin-ko#readme',
+  },
+  source: {
+    github: 'differui/rollup-plugin-ko',
+    npm: 'rollup-plugin-ko',
   },
   stats: {
     stars: 0,

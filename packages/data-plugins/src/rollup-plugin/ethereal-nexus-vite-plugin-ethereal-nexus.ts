@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'diconium/ethereal-nexus',
-    npm: '@ethereal-nexus/vite-plugin-ethereal-nexus',
-  },
   links: {
     github: 'https://github.com/diconium/ethereal-nexus',
     npm: 'https://www.npmjs.com/package/@ethereal-nexus/vite-plugin-ethereal-nexus',
     website: 'https://github.com/diconium/ethereal-nexus#readme',
+  },
+  source: {
+    github: 'diconium/ethereal-nexus',
+    npm: '@ethereal-nexus/vite-plugin-ethereal-nexus',
   },
   stats: {
     stars: 5,

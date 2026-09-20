@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vue3',
     'vue',
   ],
-  source: {
-    github: 'jaw52/vite-svg-vue-components',
-    npm: 'vite-svg-vue-component',
-  },
   links: {
     github: 'https://github.com/jaw52/vite-svg-vue-components',
     npm: 'https://www.npmjs.com/package/vite-svg-vue-component',
     website: 'https://github.com/jaw52/vite-svg-vue-components#readme',
+  },
+  source: {
+    github: 'jaw52/vite-svg-vue-components',
+    npm: 'vite-svg-vue-component',
   },
   stats: {
     stars: 2,

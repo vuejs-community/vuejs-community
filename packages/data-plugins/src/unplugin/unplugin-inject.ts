@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'wzc520pyfm/unplugin-inject',
-    npm: 'unplugin-inject',
-  },
   links: {
     github: 'https://github.com/wzc520pyfm/unplugin-inject',
     npm: 'https://www.npmjs.com/package/unplugin-inject',
     website: 'https://github.com/wzc520pyfm/unplugin-inject#readme',
+  },
+  source: {
+    github: 'wzc520pyfm/unplugin-inject',
+    npm: 'unplugin-inject',
   },
   stats: {
     stars: 1,

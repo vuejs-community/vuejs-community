@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'css',
     'auto-import',
   ],
-  source: {
-    github: 'SpacesoulsL/unplugin-import-global-css',
-    npm: 'unplugin-import-global-css',
-  },
   links: {
     github: 'https://github.com/SpacesoulsL/unplugin-import-global-css',
     npm: 'https://www.npmjs.com/package/unplugin-import-global-css',
     website: 'https://github.com/SpacesoulsL/unplugin-import-global-css',
+  },
+  source: {
+    github: 'SpacesoulsL/unplugin-import-global-css',
+    npm: 'unplugin-import-global-css',
   },
   stats: {
     stars: 1,

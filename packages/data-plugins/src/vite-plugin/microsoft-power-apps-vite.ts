@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'powerapps',
     'power-apps',
   ],
-  source: {
-    npm: '@microsoft/power-apps-vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@microsoft/power-apps-vite',
+  },
+  source: {
+    npm: '@microsoft/power-apps-vite',
   },
   stats: {
     stars: 0,

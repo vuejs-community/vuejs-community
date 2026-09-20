@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'es2015',
     'es6',
   ],
-  source: {
-    github: 'jetiny/rollup-plugin-babel-standalone',
-    npm: 'rollup-plugin-babel-standalone',
-  },
   links: {
     github: 'https://github.com/jetiny/rollup-plugin-babel-standalone',
     npm: 'https://www.npmjs.com/package/rollup-plugin-babel-standalone',
     website: 'https://github.com/jetiny/rollup-plugin-babel-standalone',
+  },
+  source: {
+    github: 'jetiny/rollup-plugin-babel-standalone',
+    npm: 'rollup-plugin-babel-standalone',
   },
   stats: {
     stars: 1,

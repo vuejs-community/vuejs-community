@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'dotuix',
     'uix',
   ],
-  source: {
-    npm: '@dotuix/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@dotuix/vite-plugin',
+  },
+  source: {
+    npm: '@dotuix/vite-plugin',
   },
   stats: {
     stars: 0,

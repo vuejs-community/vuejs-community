@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'signature',
     'web-signature',
   ],
-  source: {
-    github: 'Pinbib/signature',
-    npm: 'vite-signature',
-  },
   links: {
     github: 'https://github.com/Pinbib/signature',
     npm: 'https://www.npmjs.com/package/vite-signature',
     website: 'https://github.com/Pinbib/signature#readme',
+  },
+  source: {
+    github: 'Pinbib/signature',
+    npm: 'vite-signature',
   },
   stats: {
     stars: 2,

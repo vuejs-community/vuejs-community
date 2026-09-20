@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'unified',
   ],
-  source: {
-    github: 'antfu/unplugin-unified',
-    npm: 'unplugin-unified',
-  },
   links: {
     github: 'https://github.com/antfu/unplugin-unified',
     npm: 'https://www.npmjs.com/package/unplugin-unified',
     website: 'https://github.com/antfu/unplugin-unified#readme',
+  },
+  source: {
+    github: 'antfu/unplugin-unified',
+    npm: 'unplugin-unified',
   },
   stats: {
     stars: 12,

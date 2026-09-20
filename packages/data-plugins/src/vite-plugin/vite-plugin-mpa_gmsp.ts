@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'MPA',
     'multi-page',
   ],
-  source: {
-    npm: 'vite-plugin-mpa_gmsp',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-mpa_gmsp',
+  },
+  source: {
+    npm: 'vite-plugin-mpa_gmsp',
   },
   stats: {
     stars: 0,

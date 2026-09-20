@@ -12,12 +12,12 @@ export default defineProjectMeta({
     'web2paper',
     'vite-plugin',
   ],
-  source: {
-    npm: '@web2paper/vite-plugin-custom-index',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@web2paper/vite-plugin-custom-index',
     website: 'https://web2paper.com',
+  },
+  source: {
+    npm: '@web2paper/vite-plugin-custom-index',
   },
   stats: {
     stars: 0,

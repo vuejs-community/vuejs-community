@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'fine-grained',
     'declarative-shadow-dom',
   ],
-  source: {
-    github: 'jjordy/rogue',
-    npm: '@jjordy/rogue',
-  },
   links: {
     github: 'https://github.com/jjordy/rogue',
     npm: 'https://www.npmjs.com/package/@jjordy/rogue',
     website: 'https://github.com/jjordy/rogue#readme',
+  },
+  source: {
+    github: 'jjordy/rogue',
+    npm: '@jjordy/rogue',
   },
   stats: {
     stars: 0,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'convertor',
     'converter',
   ],
-  source: {
-    github: 'yunzzng/vite-plugin-optimize-image',
-    npm: 'vite-plugin-optimize-image',
-  },
   links: {
     github: 'https://github.com/yunzzng/vite-plugin-optimize-image',
     npm: 'https://www.npmjs.com/package/vite-plugin-optimize-image',
     website: 'https://github.com/yunzzng/vite-plugin-optimize-image#readme',
+  },
+  source: {
+    github: 'yunzzng/vite-plugin-optimize-image',
+    npm: 'vite-plugin-optimize-image',
   },
   stats: {
     stars: 0,

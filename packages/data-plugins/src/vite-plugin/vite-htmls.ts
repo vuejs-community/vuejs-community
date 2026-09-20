@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'minify',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-htmls',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-htmls',
+  },
+  source: {
+    npm: 'vite-htmls',
   },
   stats: {
     stars: 0,

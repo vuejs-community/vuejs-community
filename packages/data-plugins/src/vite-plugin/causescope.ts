@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'provenance',
     'typescript',
   ],
-  source: {
-    github: 'stackloomdev/causescope',
-    npm: 'causescope',
-  },
   links: {
     github: 'https://github.com/stackloomdev/causescope',
     npm: 'https://www.npmjs.com/package/causescope',
     website: 'https://stackloomdev.github.io/causescope/',
+  },
+  source: {
+    github: 'stackloomdev/causescope',
+    npm: 'causescope',
   },
   stats: {
     stars: 1,

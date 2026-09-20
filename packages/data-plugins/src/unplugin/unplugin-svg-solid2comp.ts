@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'antfu/unplugin-svg2solidcomp',
-    npm: 'unplugin-svg-solid2comp',
-  },
   links: {
     github: 'https://github.com/antfu/unplugin-svg2solidcomp',
     npm: 'https://www.npmjs.com/package/unplugin-svg-solid2comp',
     website: 'https://github.com/antfu/unplugin-svg2solidcomp#readme',
+  },
+  source: {
+    github: 'antfu/unplugin-svg2solidcomp',
+    npm: 'unplugin-svg-solid2comp',
   },
   stats: {
     stars: 0,

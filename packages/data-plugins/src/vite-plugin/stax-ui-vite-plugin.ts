@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'ssr',
   ],
-  source: {
-    github: 'stax-ui/stax',
-    npm: '@stax-ui/vite-plugin',
-  },
   links: {
     github: 'https://github.com/stax-ui/stax',
     npm: 'https://www.npmjs.com/package/@stax-ui/vite-plugin',
     website: 'https://github.com/stax-ui/stax#readme',
+  },
+  source: {
+    github: 'stax-ui/stax',
+    npm: '@stax-ui/vite-plugin',
   },
   stats: {
     stars: 2,

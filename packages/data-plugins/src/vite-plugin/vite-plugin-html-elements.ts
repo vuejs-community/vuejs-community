@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'elements',
     'static',
   ],
-  source: {
-    github: 'nexusocean8/vite-plugin-html-elements',
-    npm: 'vite-plugin-html-elements',
-  },
   links: {
     github: 'https://github.com/nexusocean8/vite-plugin-html-elements',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-elements',
     website: 'https://htmlelements.dev',
+  },
+  source: {
+    github: 'nexusocean8/vite-plugin-html-elements',
+    npm: 'vite-plugin-html-elements',
   },
   stats: {
     stars: 0,

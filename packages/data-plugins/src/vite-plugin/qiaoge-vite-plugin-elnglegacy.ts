@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'autoprefixer',
     'core-js',
   ],
-  source: {
-    npm: '@qiaoge/vite-plugin-elnglegacy',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@qiaoge/vite-plugin-elnglegacy',
+  },
+  source: {
+    npm: '@qiaoge/vite-plugin-elnglegacy',
   },
   stats: {
     stars: 0,

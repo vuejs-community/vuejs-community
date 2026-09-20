@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'source-map',
     'sourceMappingURL',
   ],
-  source: {
-    github: 'IIIMADDINIII/rollup-plugin-include-sourcemaps',
-    npm: 'rollup-plugin-include-sourcemaps',
-  },
   links: {
     github: 'https://github.com/IIIMADDINIII/rollup-plugin-include-sourcemaps',
     npm: 'https://www.npmjs.com/package/rollup-plugin-include-sourcemaps',
     website: 'https://github.com/IIIMADDINIII/rollup-plugin-include-sourcemaps#readme',
+  },
+  source: {
+    github: 'IIIMADDINIII/rollup-plugin-include-sourcemaps',
+    npm: 'rollup-plugin-include-sourcemaps',
   },
   stats: {
     stars: 0,

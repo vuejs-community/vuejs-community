@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://shuimo.design',
   },
   source: {
-    github: 'shuimo-design/shuimo-ui#main/plugins/nuxt',
+    github: 'shuimo-design/shuimo-ui',
     npm: '@shuimo-design/shuimo-ui-nuxt',
   },
 })

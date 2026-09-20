@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    npm: 'rollup-plugin-dependency-flow',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-dependency-flow',
+  },
+  source: {
+    npm: 'rollup-plugin-dependency-flow',
   },
   stats: {
     stars: 0,

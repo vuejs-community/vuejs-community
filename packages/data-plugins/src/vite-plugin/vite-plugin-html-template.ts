@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'html-template',
     'virtual-html',
   ],
-  source: {
-    github: 'IndexXuan/vite-plugin-html-template',
-    npm: 'vite-plugin-html-template',
-  },
   links: {
     github: 'https://github.com/IndexXuan/vite-plugin-html-template',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-template',
     website: 'https://github.com/IndexXuan/vite-plugin-html-template',
+  },
+  source: {
+    github: 'IndexXuan/vite-plugin-html-template',
+    npm: 'vite-plugin-html-template',
   },
   stats: {
     stars: 121,

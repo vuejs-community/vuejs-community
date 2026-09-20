@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'readme',
     'inject',
   ],
-  source: {
-    github: 'Omochice/vite-plugin-inject-readme',
-    npm: '@omochice/vite-plugin-inject-readme',
-  },
   links: {
     github: 'https://github.com/Omochice/vite-plugin-inject-readme',
     npm: 'https://www.npmjs.com/package/@omochice/vite-plugin-inject-readme',
     website: 'https://github.com/Omochice/vite-plugin-inject-readme#readme',
+  },
+  source: {
+    github: 'Omochice/vite-plugin-inject-readme',
+    npm: '@omochice/vite-plugin-inject-readme',
   },
   stats: {
     stars: 0,

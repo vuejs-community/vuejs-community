@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'vitejs',
     'web-framework',
   ],
-  source: {
-    github: 'node-ecosystem/vike-lite',
-    npm: 'vike-lite-react',
-  },
   links: {
     github: 'https://github.com/node-ecosystem/vike-lite',
     npm: 'https://www.npmjs.com/package/vike-lite-react',
     website: 'https://github.com/node-ecosystem/vike-lite#readme',
+  },
+  source: {
+    github: 'node-ecosystem/vike-lite',
+    npm: 'vike-lite-react',
   },
   stats: {
     stars: 4,

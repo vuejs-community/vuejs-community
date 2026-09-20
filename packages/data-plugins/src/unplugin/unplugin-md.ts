@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'lrr/unplugin-md',
-    npm: 'unplugin-md',
-  },
   links: {
     github: 'https://github.com/lrr/unplugin-md',
     npm: 'https://www.npmjs.com/package/unplugin-md',
     website: 'https://github.com/lrr/unplugin-md#readme',
+  },
+  source: {
+    github: 'lrr/unplugin-md',
+    npm: 'unplugin-md',
   },
   stats: {
     stars: 0,

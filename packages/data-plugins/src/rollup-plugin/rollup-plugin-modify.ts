@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'magic-string',
     'transform',
   ],
-  source: {
-    github: 'porsager/rollup-plugin-modify',
-    npm: 'rollup-plugin-modify',
-  },
   links: {
     github: 'https://github.com/porsager/rollup-plugin-modify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-modify',
     website: 'https://github.com/porsager/rollup-plugin-modify#readme',
+  },
+  source: {
+    github: 'porsager/rollup-plugin-modify',
+    npm: 'rollup-plugin-modify',
   },
   stats: {
     stars: 14,

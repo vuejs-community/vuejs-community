@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    github: 'jagreehal/mountly',
-    npm: 'mountly-mcp',
-  },
   links: {
     github: 'https://github.com/jagreehal/mountly',
     npm: 'https://www.npmjs.com/package/mountly-mcp',
     website: 'https://github.com/jagreehal/mountly#readme',
+  },
+  source: {
+    github: 'jagreehal/mountly',
+    npm: 'mountly-mcp',
   },
   stats: {
     stars: 0,

@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://vercel.com/docs/speed-insights',
   },
   source: {
-    github: 'vercel/speed-insights#main/packages/web',
+    github: 'vercel/speed-insights',
     npm: '@vercel/speed-insights',
   },
 })

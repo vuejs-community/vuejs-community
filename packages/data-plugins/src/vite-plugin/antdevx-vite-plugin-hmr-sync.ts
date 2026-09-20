@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'module-federation',
     '@antdevx/vite-plugin-hmr-sync',
   ],
-  source: {
-    github: 'antdevx/vite-plugin-hmr-sync',
-    npm: '@antdevx/vite-plugin-hmr-sync',
-  },
   links: {
     github: 'https://github.com/antdevx/vite-plugin-hmr-sync',
     npm: 'https://www.npmjs.com/package/@antdevx/vite-plugin-hmr-sync',
     website: 'https://github.com/antdevx/vite-plugin-hmr-sync#readme',
+  },
+  source: {
+    github: 'antdevx/vite-plugin-hmr-sync',
+    npm: '@antdevx/vite-plugin-hmr-sync',
   },
   stats: {
     stars: 7,

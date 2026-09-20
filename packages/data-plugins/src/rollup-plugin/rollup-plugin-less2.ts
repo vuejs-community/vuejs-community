@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'css modules',
   ],
-  source: {
-    github: 'Katochimoto/rollup-plugin-less2',
-    npm: 'rollup-plugin-less2',
-  },
   links: {
     github: 'https://github.com/Katochimoto/rollup-plugin-less2',
     npm: 'https://www.npmjs.com/package/rollup-plugin-less2',
     website: 'https://github.com/Katochimoto/rollup-plugin-less2#readme',
+  },
+  source: {
+    github: 'Katochimoto/rollup-plugin-less2',
+    npm: 'rollup-plugin-less2',
   },
   stats: {
     stars: 2,

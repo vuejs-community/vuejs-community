@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'size',
     'gzip',
   ],
-  source: {
-    github: 'Arnesfield/rollup-plugin-output-size',
-    npm: 'rollup-plugin-output-size',
-  },
   links: {
     github: 'https://github.com/Arnesfield/rollup-plugin-output-size',
     npm: 'https://www.npmjs.com/package/rollup-plugin-output-size',
     website: 'https://github.com/Arnesfield/rollup-plugin-output-size#readme',
+  },
+  source: {
+    github: 'Arnesfield/rollup-plugin-output-size',
+    npm: 'rollup-plugin-output-size',
   },
   stats: {
     stars: 4,

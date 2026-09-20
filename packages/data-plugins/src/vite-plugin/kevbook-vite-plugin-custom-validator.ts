@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'validation',
   ],
-  source: {
-    npm: '@kevbook/vite-plugin-custom-validator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@kevbook/vite-plugin-custom-validator',
+  },
+  source: {
+    npm: '@kevbook/vite-plugin-custom-validator',
   },
   stats: {
     stars: 0,

@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'astro',
   ],
-  source: {
-    npm: '@moreplease/rollup-plugin-build-info',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@moreplease/rollup-plugin-build-info',
+  },
+  source: {
+    npm: '@moreplease/rollup-plugin-build-info',
   },
   stats: {
     stars: 0,

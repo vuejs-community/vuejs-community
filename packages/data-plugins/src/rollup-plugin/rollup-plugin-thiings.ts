@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'es2015',
     'es6',
   ],
-  source: {
-    github: 'thiings/npm-rollup-plugin',
-    npm: 'rollup-plugin-thiings',
-  },
   links: {
     github: 'https://github.com/thiings/npm-rollup-plugin',
     npm: 'https://www.npmjs.com/package/rollup-plugin-thiings',
     website: 'https://github.com/thiings/npm-rollup-plugin#readme',
+  },
+  source: {
+    github: 'thiings/npm-rollup-plugin',
+    npm: 'rollup-plugin-thiings',
   },
   stats: {
     stars: 0,

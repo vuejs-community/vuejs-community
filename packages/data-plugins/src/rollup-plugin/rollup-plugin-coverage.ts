@@ -18,12 +18,12 @@ export default defineProjectMeta({
     'instrumenter',
     'coverage',
   ],
-  source: {
-    npm: 'rollup-plugin-coverage',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-coverage',
     website: 'https://gitlab.com/kflash/rollup-plugin-coverage',
+  },
+  source: {
+    npm: 'rollup-plugin-coverage',
   },
   stats: {
     stars: 0,

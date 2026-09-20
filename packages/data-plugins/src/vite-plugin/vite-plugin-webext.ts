@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'firefox',
     'edge',
   ],
-  source: {
-    github: 'graygalaxy/vite-webext',
-    npm: 'vite-plugin-webext',
-  },
   links: {
     github: 'https://github.com/graygalaxy/vite-webext',
     npm: 'https://www.npmjs.com/package/vite-plugin-webext',
     website: 'https://github.com/graygalaxy/vite-webext#readme',
+  },
+  source: {
+    github: 'graygalaxy/vite-webext',
+    npm: 'vite-plugin-webext',
   },
   stats: {
     stars: 2,

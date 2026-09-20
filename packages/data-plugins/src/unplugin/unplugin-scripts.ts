@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'antfu/unplugin-scripts',
-    npm: 'unplugin-scripts',
-  },
   links: {
     github: 'https://github.com/antfu/unplugin-scripts',
     npm: 'https://www.npmjs.com/package/unplugin-scripts',
     website: 'https://github.com/antfu/unplugin-scripts#readme',
+  },
+  source: {
+    github: 'antfu/unplugin-scripts',
+    npm: 'unplugin-scripts',
   },
   stats: {
     stars: 0,

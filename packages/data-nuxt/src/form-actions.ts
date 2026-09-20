@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://form-actions-nuxt.pages.dev/',
   },
   source: {
-    github: 'Hebilicious/form-actions-nuxt#main/packages/form-actions-nuxt',
+    github: 'Hebilicious/form-actions-nuxt',
     npm: '@hebilicious/form-actions-nuxt',
   },
 })

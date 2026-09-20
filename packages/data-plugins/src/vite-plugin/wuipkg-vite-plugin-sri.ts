@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'sri',
     'integrity',
   ],
-  source: {
-    npm: '@wuipkg/vite-plugin-sri',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@wuipkg/vite-plugin-sri',
+  },
+  source: {
+    npm: '@wuipkg/vite-plugin-sri',
   },
   stats: {
     stars: 0,

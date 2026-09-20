@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'vite-plugin',
     'importmap',
   ],
-  source: {
-    npm: 'vite-plugin-importmap',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-importmap',
     website: 'https://github.com/yuexiaoliang/vite-plugin-importmap',
+  },
+  source: {
+    npm: 'vite-plugin-importmap',
   },
   stats: {
     stars: 0,

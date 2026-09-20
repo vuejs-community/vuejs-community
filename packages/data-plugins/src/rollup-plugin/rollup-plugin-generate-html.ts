@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'html',
     'template',
   ],
-  source: {
-    github: 'vladshcherbin/rollup-plugin-generate-html',
-    npm: 'rollup-plugin-generate-html',
-  },
   links: {
     github: 'https://github.com/vladshcherbin/rollup-plugin-generate-html',
     npm: 'https://www.npmjs.com/package/rollup-plugin-generate-html',
     website: 'https://github.com/vladshcherbin/rollup-plugin-generate-html#readme',
+  },
+  source: {
+    github: 'vladshcherbin/rollup-plugin-generate-html',
+    npm: 'rollup-plugin-generate-html',
   },
   stats: {
     stars: 0,

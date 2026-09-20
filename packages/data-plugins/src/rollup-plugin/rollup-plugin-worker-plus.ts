@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'rollup-plugin',
   ],
-  source: {
-    github: 'Mr-Fubowen/rollup-plugin-worker',
-    npm: 'rollup-plugin-worker-plus',
-  },
   links: {
     github: 'https://github.com/Mr-Fubowen/rollup-plugin-worker',
     npm: 'https://www.npmjs.com/package/rollup-plugin-worker-plus',
     website: 'https://github.com/Mr-Fubowen/rollup-plugin-worker#readme',
+  },
+  source: {
+    github: 'Mr-Fubowen/rollup-plugin-worker',
+    npm: 'rollup-plugin-worker-plus',
   },
   stats: {
     stars: 0,

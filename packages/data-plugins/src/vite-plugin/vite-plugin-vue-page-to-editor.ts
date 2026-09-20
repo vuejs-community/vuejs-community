@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'cuiyiming1998/vite-plugin-vue-page-to-editor',
-    npm: 'vite-plugin-vue-page-to-editor',
-  },
   links: {
     github: 'https://github.com/cuiyiming1998/vite-plugin-vue-page-to-editor',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-page-to-editor',
     website: 'https://github.com/cuiyiming1998/vite-plugin-vue-page-to-editor#readme',
+  },
+  source: {
+    github: 'cuiyiming1998/vite-plugin-vue-page-to-editor',
+    npm: 'vite-plugin-vue-page-to-editor',
   },
   stats: {
     stars: 3,

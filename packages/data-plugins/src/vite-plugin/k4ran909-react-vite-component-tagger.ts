@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'react',
     'orbix',
   ],
-  source: {
-    npm: '@k4ran909/react-vite-component-tagger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@k4ran909/react-vite-component-tagger',
+  },
+  source: {
+    npm: '@k4ran909/react-vite-component-tagger',
   },
   stats: {
     stars: 0,

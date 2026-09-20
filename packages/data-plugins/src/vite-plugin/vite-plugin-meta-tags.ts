@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'meta-tags',
     'meta',
   ],
-  source: {
-    github: 'byr0n3/vite-plugin-meta-tags',
-    npm: 'vite-plugin-meta-tags',
-  },
   links: {
     github: 'https://github.com/byr0n3/vite-plugin-meta-tags',
     npm: 'https://www.npmjs.com/package/vite-plugin-meta-tags',
     website: 'https://github.com/byr0n3/vite-plugin-meta-tags#readme',
+  },
+  source: {
+    github: 'byr0n3/vite-plugin-meta-tags',
+    npm: 'vite-plugin-meta-tags',
   },
   stats: {
     stars: 3,

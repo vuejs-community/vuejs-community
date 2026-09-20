@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'postcss',
     'css d.ts',
   ],
-  source: {
-    github: 'lemon-clown/web-play-ground',
-    npm: '@lemon-clown-wpg/rollup-plugin-postcss-dts',
-  },
   links: {
     github: 'https://github.com/lemon-clown/web-play-ground',
     npm: 'https://www.npmjs.com/package/@lemon-clown-wpg/rollup-plugin-postcss-dts',
     website: 'https://github.com/lemon-clown/web-play-ground/tree/master/scaffold/rollup-plugin-postcss-dts#readme',
+  },
+  source: {
+    github: 'lemon-clown/web-play-ground',
+    npm: '@lemon-clown-wpg/rollup-plugin-postcss-dts',
   },
   stats: {
     stars: 0,

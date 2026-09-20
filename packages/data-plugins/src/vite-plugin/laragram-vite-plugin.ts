@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'laraxgram/vite-plugin',
-    npm: 'laragram-vite-plugin',
-  },
   links: {
     github: 'https://github.com/laraxgram/vite-plugin',
     npm: 'https://www.npmjs.com/package/laragram-vite-plugin',
     website: 'https://github.com/laraxgram/vite-plugin',
+  },
+  source: {
+    github: 'laraxgram/vite-plugin',
+    npm: 'laragram-vite-plugin',
   },
   stats: {
     stars: 4,

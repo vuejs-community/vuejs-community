@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'zephyr',
   ],
-  source: {
-    github: 'ZephyrCloudIO/zephyr-packages',
-    npm: 'vite-plugin-zephyr',
-  },
   links: {
     github: 'https://github.com/ZephyrCloudIO/zephyr-packages',
     npm: 'https://www.npmjs.com/package/vite-plugin-zephyr',
     website: 'https://github.com/ZephyrCloudIO/zephyr-packages#readme',
+  },
+  source: {
+    github: 'ZephyrCloudIO/zephyr-packages',
+    npm: 'vite-plugin-zephyr',
   },
   stats: {
     stars: 0,

@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'build-info',
     'git-hash',
   ],
-  source: {
-    npm: 'vite-plugin-version-outdir',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-version-outdir',
+  },
+  source: {
+    npm: 'vite-plugin-version-outdir',
   },
   stats: {
     stars: 0,

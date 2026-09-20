@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'xtail',
     'x-tail',
   ],
-  source: {
-    npm: '@xtail/unplugin-core',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xtail/unplugin-core',
+  },
+  source: {
+    npm: '@xtail/unplugin-core',
   },
   stats: {
     stars: 0,

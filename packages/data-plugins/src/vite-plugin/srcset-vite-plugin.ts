@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'TrigenSoftware/srcset',
-    npm: '@srcset/vite-plugin',
-  },
   links: {
     github: 'https://github.com/TrigenSoftware/srcset',
     npm: 'https://www.npmjs.com/package/@srcset/vite-plugin',
     website: 'https://srcset.js.org/integrations/vite-plugin/',
+  },
+  source: {
+    github: 'TrigenSoftware/srcset',
+    npm: '@srcset/vite-plugin',
   },
   stats: {
     stars: 0,

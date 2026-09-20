@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'transfrom',
     'conditioonal definition',
   ],
-  source: {
-    github: 'lykl/unplugin-conditional-compilation',
-    npm: 'unplugin-conditional-definition',
-  },
   links: {
     github: 'https://github.com/lykl/unplugin-conditional-compilation',
     npm: 'https://www.npmjs.com/package/unplugin-conditional-definition',
     website: 'https://github.com/lykl/unplugin-conditional-compilation#readme',
+  },
+  source: {
+    github: 'lykl/unplugin-conditional-compilation',
+    npm: 'unplugin-conditional-definition',
   },
   stats: {
     stars: 0,

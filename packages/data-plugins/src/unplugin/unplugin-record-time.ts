@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'elonehoo/unplugin-record-time',
-    npm: 'unplugin-record-time',
-  },
   links: {
     github: 'https://github.com/elonehoo/unplugin-record-time',
     npm: 'https://www.npmjs.com/package/unplugin-record-time',
     website: 'https://github.com/elonehoo/unplugin-record-time#readme',
+  },
+  source: {
+    github: 'elonehoo/unplugin-record-time',
+    npm: 'unplugin-record-time',
   },
   stats: {
     stars: 1,

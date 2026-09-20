@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: '@bambuser/vite-plugin-bam-app-runtime',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@bambuser/vite-plugin-bam-app-runtime',
+  },
+  source: {
+    npm: '@bambuser/vite-plugin-bam-app-runtime',
   },
   stats: {
     stars: 0,

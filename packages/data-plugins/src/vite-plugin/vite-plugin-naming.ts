@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'naming',
     'naming-conventions',
   ],
-  source: {
-    npm: 'vite-plugin-naming',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-naming',
+  },
+  source: {
+    npm: 'vite-plugin-naming',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'utility-first',
     'css-framework',
   ],
-  source: {
-    github: '63200475/mini-tw',
-    npm: 'mini-tw-vite',
-  },
   links: {
     github: 'https://github.com/63200475/mini-tw',
     npm: 'https://www.npmjs.com/package/mini-tw-vite',
     website: 'https://github.com/63200475/mini-tw#readme',
+  },
+  source: {
+    github: '63200475/mini-tw',
+    npm: 'mini-tw-vite',
   },
   stats: {
     stars: 0,

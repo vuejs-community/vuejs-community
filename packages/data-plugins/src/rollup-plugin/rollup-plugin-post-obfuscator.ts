@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'obfuscator',
     'supports dynamic import obfuscation',
   ],
-  source: {
-    github: 'KongYanHHHH/rollup-plugin-post-obfuscator',
-    npm: 'rollup-plugin-post-obfuscator',
-  },
   links: {
     github: 'https://github.com/KongYanHHHH/rollup-plugin-post-obfuscator',
     npm: 'https://www.npmjs.com/package/rollup-plugin-post-obfuscator',
     website: 'https://github.com/KongYanHHHH/rollup-plugin-post-obfuscator',
+  },
+  source: {
+    github: 'KongYanHHHH/rollup-plugin-post-obfuscator',
+    npm: 'rollup-plugin-post-obfuscator',
   },
   stats: {
     stars: 0,

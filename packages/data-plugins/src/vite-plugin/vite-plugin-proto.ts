@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'Levyks/vite-plugin-proto',
-    npm: 'vite-plugin-proto',
-  },
   links: {
     github: 'https://github.com/Levyks/vite-plugin-proto',
     npm: 'https://www.npmjs.com/package/vite-plugin-proto',
     website: 'https://github.com/Levyks/vite-plugin-proto#readme',
+  },
+  source: {
+    github: 'Levyks/vite-plugin-proto',
+    npm: 'vite-plugin-proto',
   },
   stats: {
     stars: 0,

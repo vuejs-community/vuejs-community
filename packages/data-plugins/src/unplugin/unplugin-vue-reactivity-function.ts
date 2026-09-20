@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'zhiyuanzmj/unplugin-vue-reactivity-function',
-    npm: 'unplugin-vue-reactivity-function',
-  },
   links: {
     github: 'https://github.com/zhiyuanzmj/unplugin-vue-reactivity-function',
     npm: 'https://www.npmjs.com/package/unplugin-vue-reactivity-function',
     website: 'https://github.com/zhiyuanzmj/unplugin-vue-reactivity-function#readme',
+  },
+  source: {
+    github: 'zhiyuanzmj/unplugin-vue-reactivity-function',
+    npm: 'unplugin-vue-reactivity-function',
   },
   stats: {
     stars: 8,

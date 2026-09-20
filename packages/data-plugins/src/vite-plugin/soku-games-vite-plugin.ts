@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'soku-games',
     'vite-plugin',
   ],
-  source: {
-    github: 'Board-Game-Bot/vite-plugin',
-    npm: '@soku-games/vite-plugin',
-  },
   links: {
     github: 'https://github.com/Board-Game-Bot/vite-plugin',
     npm: 'https://www.npmjs.com/package/@soku-games/vite-plugin',
     website: 'https://github.com/Board-Game-Bot/vite-plugin#readme',
+  },
+  source: {
+    github: 'Board-Game-Bot/vite-plugin',
+    npm: '@soku-games/vite-plugin',
   },
   stats: {
     stars: 0,

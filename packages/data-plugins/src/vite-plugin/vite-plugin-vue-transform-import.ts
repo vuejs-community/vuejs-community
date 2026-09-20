@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'wensiyuanseven/transform-import',
-    npm: 'vite-plugin-vue-transform-import',
-  },
   links: {
     github: 'https://github.com/wensiyuanseven/transform-import',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-transform-import',
     website: 'https://github.com/wensiyuanseven/transform-import#readme',
+  },
+  source: {
+    github: 'wensiyuanseven/transform-import',
+    npm: 'vite-plugin-vue-transform-import',
   },
   stats: {
     stars: 1,

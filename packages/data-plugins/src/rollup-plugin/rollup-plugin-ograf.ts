@@ -12,13 +12,13 @@ export default defineProjectMeta({
     'rollup-plugin',
     'ograf',
   ],
-  source: {
-    github: 'lucyydotp/rollup-plugin-ograf',
-    npm: 'rollup-plugin-ograf',
-  },
   links: {
     github: 'https://github.com/lucyydotp/rollup-plugin-ograf',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ograf',
+  },
+  source: {
+    github: 'lucyydotp/rollup-plugin-ograf',
+    npm: 'rollup-plugin-ograf',
   },
   stats: {
     stars: 0,

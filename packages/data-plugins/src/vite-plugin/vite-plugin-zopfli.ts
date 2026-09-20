@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'compress',
     'zopfli',
   ],
-  source: {
-    github: 'Team-EPS/vite-plugin-zopfli',
-    npm: 'vite-plugin-zopfli',
-  },
   links: {
     github: 'https://github.com/Team-EPS/vite-plugin-zopfli',
     npm: 'https://www.npmjs.com/package/vite-plugin-zopfli',
     website: 'https://github.com/Team-EPS/vite-plugin-zopfli#readme',
+  },
+  source: {
+    github: 'Team-EPS/vite-plugin-zopfli',
+    npm: 'vite-plugin-zopfli',
   },
   stats: {
     stars: 1,

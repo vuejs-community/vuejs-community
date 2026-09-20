@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'resolver',
   ],
-  source: {
-    github: 'Binbiubiubiu/unplugin-conditional-compilation',
-    npm: 'unplugin-conditional-compilation',
-  },
   links: {
     github: 'https://github.com/Binbiubiubiu/unplugin-conditional-compilation',
     npm: 'https://www.npmjs.com/package/unplugin-conditional-compilation',
     website: 'https://github.com/Binbiubiubiu/unplugin-conditional-compilation#readme',
+  },
+  source: {
+    github: 'Binbiubiubiu/unplugin-conditional-compilation',
+    npm: 'unplugin-conditional-compilation',
   },
   stats: {
     stars: 1,

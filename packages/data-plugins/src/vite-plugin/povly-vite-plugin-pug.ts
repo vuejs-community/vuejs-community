@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'pug',
     'jade',
   ],
-  source: {
-    github: 'povly/vite-plugin-pug',
-    npm: '@povly/vite-plugin-pug',
-  },
   links: {
     github: 'https://github.com/povly/vite-plugin-pug',
     npm: 'https://www.npmjs.com/package/@povly/vite-plugin-pug',
     website: 'https://github.com/povly/vite-plugin-pug#readme',
+  },
+  source: {
+    github: 'povly/vite-plugin-pug',
+    npm: '@povly/vite-plugin-pug',
   },
   stats: {
     stars: 1,

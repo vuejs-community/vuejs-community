@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'webpack-plugin',
   ],
-  source: {
-    github: 'moostjs/atscript',
-    npm: 'unplugin-atscript',
-  },
   links: {
     github: 'https://github.com/moostjs/atscript',
     npm: 'https://www.npmjs.com/package/unplugin-atscript',
     website: 'https://github.com/moostjs/atscript/tree/main/packages/unplugin#readme',
+  },
+  source: {
+    github: 'moostjs/atscript',
+    npm: 'unplugin-atscript',
   },
   stats: {
     stars: 2,

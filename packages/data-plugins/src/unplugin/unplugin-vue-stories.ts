@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'storybook',
     'vue3',
   ],
-  source: {
-    github: 'jojk0/unplugin-vue-stories',
-    npm: 'unplugin-vue-stories',
-  },
   links: {
     github: 'https://github.com/jojk0/unplugin-vue-stories',
     npm: 'https://www.npmjs.com/package/unplugin-vue-stories',
     website: 'https://github.com/jojk0/unplugin-vue-stories#readme',
+  },
+  source: {
+    github: 'jojk0/unplugin-vue-stories',
+    npm: 'unplugin-vue-stories',
   },
   stats: {
     stars: 0,

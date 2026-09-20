@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'img-responsiver',
   ],
-  source: {
-    npm: 'vite-plugin-img-responsiver',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-img-responsiver',
+  },
+  source: {
+    npm: 'vite-plugin-img-responsiver',
   },
   stats: {
     stars: 0,

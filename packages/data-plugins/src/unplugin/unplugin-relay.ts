@@ -41,14 +41,14 @@ export default defineProjectMeta({
     'webpack-plugin',
     'webpack-plugin-relay',
   ],
-  source: {
-    github: 'PatrykWalach/unplugin-relay',
-    npm: 'unplugin-relay',
-  },
   links: {
     github: 'https://github.com/PatrykWalach/unplugin-relay',
     npm: 'https://www.npmjs.com/package/unplugin-relay',
     website: 'https://github.com/PatrykWalach/unplugin-relay#readme',
+  },
+  source: {
+    github: 'PatrykWalach/unplugin-relay',
+    npm: 'unplugin-relay',
   },
   stats: {
     stars: 1,

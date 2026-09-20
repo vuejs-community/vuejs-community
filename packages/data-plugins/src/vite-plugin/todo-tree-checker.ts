@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'webpack-plugin',
     'check',
   ],
-  source: {
-    github: 'tcguoxing/todo-tree-checker',
-    npm: 'todo-tree-checker',
-  },
   links: {
     github: 'https://github.com/tcguoxing/todo-tree-checker',
     npm: 'https://www.npmjs.com/package/todo-tree-checker',
     website: 'https://github.com/tcguoxing/todo-tree-checker#readme',
+  },
+  source: {
+    github: 'tcguoxing/todo-tree-checker',
+    npm: 'todo-tree-checker',
   },
   stats: {
     stars: 0,

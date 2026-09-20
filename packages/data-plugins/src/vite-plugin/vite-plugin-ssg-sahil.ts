@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'static-site-generation',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-ssg-sahil',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-ssg-sahil',
+  },
+  source: {
+    npm: 'vite-plugin-ssg-sahil',
   },
   stats: {
     stars: 0,

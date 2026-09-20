@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'tamagui',
     'vite-plugin',
   ],
-  source: {
-    npm: '@multiplatform.one/vite-plugin-gnome',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@multiplatform.one/vite-plugin-gnome',
     website: 'https://multiplatform.one',
+  },
+  source: {
+    npm: '@multiplatform.one/vite-plugin-gnome',
   },
   stats: {
     stars: 0,

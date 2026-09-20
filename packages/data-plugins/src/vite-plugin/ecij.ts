@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rolldown-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'nstepien/ecij',
-    npm: 'ecij',
-  },
   links: {
     github: 'https://github.com/nstepien/ecij',
     npm: 'https://www.npmjs.com/package/ecij',
     website: 'https://github.com/nstepien/ecij#readme',
+  },
+  source: {
+    github: 'nstepien/ecij',
+    npm: 'ecij',
   },
   stats: {
     stars: 8,

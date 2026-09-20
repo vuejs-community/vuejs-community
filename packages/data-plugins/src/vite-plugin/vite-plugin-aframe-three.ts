@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'aframe',
   ],
-  source: {
-    github: 'mrxz/vite-plugin-aframe-three',
-    npm: 'vite-plugin-aframe-three',
-  },
   links: {
     github: 'https://github.com/mrxz/vite-plugin-aframe-three',
     npm: 'https://www.npmjs.com/package/vite-plugin-aframe-three',
     website: 'https://github.com/mrxz/vite-plugin-aframe-three#readme',
+  },
+  source: {
+    github: 'mrxz/vite-plugin-aframe-three',
+    npm: 'vite-plugin-aframe-three',
   },
   stats: {
     stars: 1,

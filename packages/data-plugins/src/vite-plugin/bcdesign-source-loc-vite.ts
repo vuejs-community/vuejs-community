@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'visual-editor',
     'devtools',
   ],
-  source: {
-    npm: '@bcdesign/source-loc-vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@bcdesign/source-loc-vite',
+  },
+  source: {
+    npm: '@bcdesign/source-loc-vite',
   },
   stats: {
     stars: 0,

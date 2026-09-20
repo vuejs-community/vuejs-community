@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'httpfile',
   ],
-  source: {
-    github: 'servicex-sh/rollup-plugin-httpfile',
-    npm: 'rollup-plugin-httpfile',
-  },
   links: {
     github: 'https://github.com/servicex-sh/rollup-plugin-httpfile',
     npm: 'https://www.npmjs.com/package/rollup-plugin-httpfile',
     website: 'https://github.com/servicex-sh/rollup-plugin-httpfile#readme',
+  },
+  source: {
+    github: 'servicex-sh/rollup-plugin-httpfile',
+    npm: 'rollup-plugin-httpfile',
   },
   stats: {
     stars: 0,

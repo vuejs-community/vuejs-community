@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'development',
     'navigation',
   ],
-  source: {
-    github: 'zenobia-pay/vite-plugin-iframe-communication',
-    npm: 'vite-plugin-iframe-communication',
-  },
   links: {
     github: 'https://github.com/zenobia-pay/vite-plugin-iframe-communication',
     npm: 'https://www.npmjs.com/package/vite-plugin-iframe-communication',
     website: 'https://github.com/zenobia-pay/vite-plugin-iframe-communication#readme',
+  },
+  source: {
+    github: 'zenobia-pay/vite-plugin-iframe-communication',
+    npm: 'vite-plugin-iframe-communication',
   },
   stats: {
     stars: 0,

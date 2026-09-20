@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'cesium',
   ],
-  source: {
-    npm: 'vite-plugin-dpimap',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-dpimap',
+  },
+  source: {
+    npm: 'vite-plugin-dpimap',
   },
   stats: {
     stars: 0,

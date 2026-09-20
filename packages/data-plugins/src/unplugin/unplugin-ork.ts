@@ -19,11 +19,11 @@ export default defineProjectMeta({
     'orm',
     'virtual-modules',
   ],
-  source: {
-    npm: 'unplugin-ork',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-ork',
+  },
+  source: {
+    npm: 'unplugin-ork',
   },
   stats: {
     stars: 0,

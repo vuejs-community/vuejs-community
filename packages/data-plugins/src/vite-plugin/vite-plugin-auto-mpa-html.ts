@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'mpa',
     'html',
   ],
-  source: {
-    github: 'iamspark1e/vite-plugin-auto-mpa-html',
-    npm: 'vite-plugin-auto-mpa-html',
-  },
   links: {
     github: 'https://github.com/iamspark1e/vite-plugin-auto-mpa-html',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-mpa-html',
     website: 'https://github.com/iamspark1e/vite-plugin-auto-mpa-html#readme',
+  },
+  source: {
+    github: 'iamspark1e/vite-plugin-auto-mpa-html',
+    npm: 'vite-plugin-auto-mpa-html',
   },
   stats: {
     stars: 11,

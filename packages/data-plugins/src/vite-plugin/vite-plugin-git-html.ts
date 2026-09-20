@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'git',
     'html',
   ],
-  source: {
-    npm: 'vite-plugin-git-html',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-git-html',
+  },
+  source: {
+    npm: 'vite-plugin-git-html',
   },
   stats: {
     stars: 0,

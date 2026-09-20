@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'zero-intrusion',
     'typescript',
   ],
-  source: {
-    github: 'your-username/front-universal-optimizer',
-    npm: 'front-universal-optimizer',
-  },
   links: {
     github: 'https://github.com/your-username/front-universal-optimizer',
     npm: 'https://www.npmjs.com/package/front-universal-optimizer',
     website: 'https://github.com/your-username/front-universal-optimizer#readme',
+  },
+  source: {
+    github: 'your-username/front-universal-optimizer',
+    npm: 'front-universal-optimizer',
   },
   stats: {
     stars: 0,

@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'webpack',
     'typescript',
   ],
-  source: {
-    github: 'daboluoxigua/mc-markets-ui',
-    npm: '@mc-markets/ui',
-  },
   links: {
     github: 'https://github.com/daboluoxigua/mc-markets-ui',
     npm: 'https://www.npmjs.com/package/@mc-markets/ui',
     website: 'https://daboluoxigua.github.io/mc-markets-ui/',
+  },
+  source: {
+    github: 'daboluoxigua/mc-markets-ui',
+    npm: '@mc-markets/ui',
   },
   stats: {
     stars: 1,

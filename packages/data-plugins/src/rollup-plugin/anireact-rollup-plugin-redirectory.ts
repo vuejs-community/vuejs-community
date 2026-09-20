@@ -17,13 +17,13 @@ export default defineProjectMeta({
     'overlayfs',
     'mergefs',
   ],
-  source: {
-    github: 'anireact/rollup-plugin-redirectory',
-    npm: '@anireact/rollup-plugin-redirectory',
-  },
   links: {
     github: 'https://github.com/anireact/rollup-plugin-redirectory',
     npm: 'https://www.npmjs.com/package/@anireact/rollup-plugin-redirectory',
+  },
+  source: {
+    github: 'anireact/rollup-plugin-redirectory',
+    npm: '@anireact/rollup-plugin-redirectory',
   },
   stats: {
     stars: 1,

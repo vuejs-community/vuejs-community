@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'code-splitting',
     'clasp',
   ],
-  source: {
-    github: 'sarfrajadstreaks/gas-react',
-    npm: 'vite-plugin-gas-react',
-  },
   links: {
     github: 'https://github.com/sarfrajadstreaks/gas-react',
     npm: 'https://www.npmjs.com/package/vite-plugin-gas-react',
     website: 'https://github.com/sarfrajadstreaks/gas-react/tree/main/packages/vite-plugin',
+  },
+  source: {
+    github: 'sarfrajadstreaks/gas-react',
+    npm: 'vite-plugin-gas-react',
   },
   stats: {
     stars: 1,

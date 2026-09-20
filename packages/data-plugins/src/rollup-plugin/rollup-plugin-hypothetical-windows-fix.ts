@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'AndyOGo/rollup-plugin-hypothetical',
-    npm: 'rollup-plugin-hypothetical-windows-fix',
-  },
   links: {
     github: 'https://github.com/AndyOGo/rollup-plugin-hypothetical',
     npm: 'https://www.npmjs.com/package/rollup-plugin-hypothetical-windows-fix',
     website: 'https://github.com/Permutatrix/rollup-plugin-hypothetical#readme',
+  },
+  source: {
+    github: 'AndyOGo/rollup-plugin-hypothetical',
+    npm: 'rollup-plugin-hypothetical-windows-fix',
   },
   stats: {
     stars: 0,

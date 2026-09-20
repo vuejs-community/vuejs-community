@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'singlefile',
     'inline',
   ],
-  source: {
-    npm: 'vite-plugin-pngine',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-pngine',
     website: 'https://hugodaniel.com/pages/pngine',
+  },
+  source: {
+    npm: 'vite-plugin-pngine',
   },
   stats: {
     stars: 0,

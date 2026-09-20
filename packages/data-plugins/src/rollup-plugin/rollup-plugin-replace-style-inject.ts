@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'style-inject',
     'replace-style-inject',
   ],
-  source: {
-    github: 'ZedByl/rollup-plugin-replace-style-inject',
-    npm: 'rollup-plugin-replace-style-inject',
-  },
   links: {
     github: 'https://github.com/ZedByl/rollup-plugin-replace-style-inject',
     npm: 'https://www.npmjs.com/package/rollup-plugin-replace-style-inject',
     website: 'https://github.com/ZedByl/rollup-plugin-replace-style-inject#readme',
+  },
+  source: {
+    github: 'ZedByl/rollup-plugin-replace-style-inject',
+    npm: 'rollup-plugin-replace-style-inject',
   },
   stats: {
     stars: 3,

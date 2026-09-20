@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'wordpress',
     'vite-plugin',
   ],
-  source: {
-    npm: '@kcroyweb/vite-plugin-wp-helper',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@kcroyweb/vite-plugin-wp-helper',
     website: 'https://git.kcroywebservices.com/packages/vite-plugin-wp-helper#readme',
+  },
+  source: {
+    npm: '@kcroyweb/vite-plugin-wp-helper',
   },
   stats: {
     stars: 0,

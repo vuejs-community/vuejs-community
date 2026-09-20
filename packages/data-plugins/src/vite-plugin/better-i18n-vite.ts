@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'ssr',
     'better-i18n',
   ],
-  source: {
-    github: 'better-i18n/better-i18n',
-    npm: '@better-i18n/vite',
-  },
   links: {
     github: 'https://github.com/better-i18n/better-i18n',
     npm: 'https://www.npmjs.com/package/@better-i18n/vite',
     website: 'https://github.com/better-i18n/better-i18n/tree/main/packages/vite',
+  },
+  source: {
+    github: 'better-i18n/better-i18n',
+    npm: '@better-i18n/vite',
   },
   stats: {
     stars: 0,

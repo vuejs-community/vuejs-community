@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'webpack',
     'withastro',
   ],
-  source: {
-    github: 'filipsobol/sonda',
-    npm: 'sonda',
-  },
   links: {
     github: 'https://github.com/filipsobol/sonda',
     npm: 'https://www.npmjs.com/package/sonda',
     website: 'https://sonda.dev',
+  },
+  source: {
+    github: 'filipsobol/sonda',
+    npm: 'sonda',
   },
   stats: {
     stars: 786,

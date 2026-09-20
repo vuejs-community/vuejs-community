@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'react',
     'codelive',
   ],
-  source: {
-    npm: 'codelive-react-vite-component-tagger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/codelive-react-vite-component-tagger',
+  },
+  source: {
+    npm: 'codelive-react-vite-component-tagger',
   },
   stats: {
     stars: 0,

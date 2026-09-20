@@ -23,14 +23,14 @@ export default defineProjectMeta({
     '3d',
     'webgl',
   ],
-  source: {
-    github: 'michealparks/threlte-minify',
-    npm: 'threlte-minify',
-  },
   links: {
     github: 'https://github.com/michealparks/threlte-minify',
     npm: 'https://www.npmjs.com/package/threlte-minify',
     website: 'https://github.com/michealparks/threlte-minify#readme',
+  },
+  source: {
+    github: 'michealparks/threlte-minify',
+    npm: 'threlte-minify',
   },
   stats: {
     stars: 0,

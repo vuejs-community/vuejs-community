@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup',
     'sourcemaps',
   ],
-  source: {
-    github: 'gordonmleigh/rollup-plugin-sourcemaps',
-    npm: '@gordonmleigh/rollup-plugin-sourcemaps',
-  },
   links: {
     github: 'https://github.com/gordonmleigh/rollup-plugin-sourcemaps',
     npm: 'https://www.npmjs.com/package/@gordonmleigh/rollup-plugin-sourcemaps',
     website: 'https://github.com/gordonmleigh/rollup-plugin-sourcemaps#readme',
+  },
+  source: {
+    github: 'gordonmleigh/rollup-plugin-sourcemaps',
+    npm: '@gordonmleigh/rollup-plugin-sourcemaps',
   },
   stats: {
     stars: 1,

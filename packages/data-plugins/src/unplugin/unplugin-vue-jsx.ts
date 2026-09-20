@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'webpack',
     'rolldown',
   ],
-  source: {
-    github: 'unplugin/unplugin-vue-jsx',
-    npm: 'unplugin-vue-jsx',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-vue-jsx',
     npm: 'https://www.npmjs.com/package/unplugin-vue-jsx',
     website: 'https://github.com/unplugin/unplugin-vue-jsx#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-vue-jsx',
+    npm: 'unplugin-vue-jsx',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'martypdx/rollup-plugin-diamond',
-    npm: 'rollup-plugin-diamond',
-  },
   links: {
     github: 'https://github.com/martypdx/rollup-plugin-diamond',
     npm: 'https://www.npmjs.com/package/rollup-plugin-diamond',
     website: 'https://github.com/martypdx/rollup-plugin-diamond#readme',
+  },
+  source: {
+    github: 'martypdx/rollup-plugin-diamond',
+    npm: 'rollup-plugin-diamond',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'version',
   ],
-  source: {
-    github: 'zhuchaoling/vite-plugin-git-info',
-    npm: 'vite-plugin-git-info',
-  },
   links: {
     github: 'https://github.com/zhuchaoling/vite-plugin-git-info',
     npm: 'https://www.npmjs.com/package/vite-plugin-git-info',
     website: 'https://github.com/zhuchaoling/vite-plugin-git-info#readme',
+  },
+  source: {
+    github: 'zhuchaoling/vite-plugin-git-info',
+    npm: 'vite-plugin-git-info',
   },
   stats: {
     stars: 0,

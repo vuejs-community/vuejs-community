@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'directory-route',
     'file-based-route',
   ],
-  source: {
-    github: 'ai-forks/vite-plugin-vue-page-route',
-    npm: '@ai-lion/vite-plugin-vue-page-route',
-  },
   links: {
     github: 'https://github.com/ai-forks/vite-plugin-vue-page-route',
     npm: 'https://www.npmjs.com/package/@ai-lion/vite-plugin-vue-page-route',
     website: 'https://github.com/ai-forks/vite-plugin-vue-page-route',
+  },
+  source: {
+    github: 'ai-forks/vite-plugin-vue-page-route',
+    npm: '@ai-lion/vite-plugin-vue-page-route',
   },
   stats: {
     stars: 0,

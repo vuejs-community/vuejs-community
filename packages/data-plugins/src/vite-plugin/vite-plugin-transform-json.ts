@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'KovalchukDanil0/vite-plugin-transform-json',
-    npm: 'vite-plugin-transform-json',
-  },
   links: {
     github: 'https://github.com/KovalchukDanil0/vite-plugin-transform-json',
     npm: 'https://www.npmjs.com/package/vite-plugin-transform-json',
     website: 'https://github.com/KovalchukDanil0/vite-plugin-transform-json',
+  },
+  source: {
+    github: 'KovalchukDanil0/vite-plugin-transform-json',
+    npm: 'vite-plugin-transform-json',
   },
   stats: {
     stars: 0,

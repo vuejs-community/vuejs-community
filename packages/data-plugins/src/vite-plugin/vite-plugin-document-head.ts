@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'Yoliani/vite-plugin-document-head',
-    npm: 'vite-plugin-document-head',
-  },
   links: {
     github: 'https://github.com/Yoliani/vite-plugin-document-head',
     npm: 'https://www.npmjs.com/package/vite-plugin-document-head',
     website: 'https://github.com/Yoliani/vite-plugin-document-head#readme',
+  },
+  source: {
+    github: 'Yoliani/vite-plugin-document-head',
+    npm: 'vite-plugin-document-head',
   },
   stats: {
     stars: 0,

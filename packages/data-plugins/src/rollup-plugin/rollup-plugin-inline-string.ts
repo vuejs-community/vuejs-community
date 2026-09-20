@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'rollup-plugin-inline',
     'rollup-plugin-inline-string',
   ],
-  source: {
-    npm: 'rollup-plugin-inline-string',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-inline-string',
+  },
+  source: {
+    npm: 'rollup-plugin-inline-string',
   },
   stats: {
     stars: 0,

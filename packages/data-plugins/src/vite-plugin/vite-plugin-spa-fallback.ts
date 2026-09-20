@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'gluck/vite-plugin-spa-fallback',
-    npm: 'vite-plugin-spa-fallback',
-  },
   links: {
     github: 'https://github.com/gluck/vite-plugin-spa-fallback',
     npm: 'https://www.npmjs.com/package/vite-plugin-spa-fallback',
     website: 'https://github.com/gluck/vite-plugin-spa-fallback',
+  },
+  source: {
+    github: 'gluck/vite-plugin-spa-fallback',
+    npm: 'vite-plugin-spa-fallback',
   },
   stats: {
     stars: 0,

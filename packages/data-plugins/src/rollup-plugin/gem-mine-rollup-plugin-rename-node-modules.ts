@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'node_modules',
     'rename',
   ],
-  source: {
-    github: 'Lazyuki/rollup-plugin-rename-node-modules',
-    npm: '@gem-mine/rollup-plugin-rename-node-modules',
-  },
   links: {
     github: 'https://github.com/Lazyuki/rollup-plugin-rename-node-modules',
     npm: 'https://www.npmjs.com/package/@gem-mine/rollup-plugin-rename-node-modules',
     website: 'https://github.com/Lazyuki/rollup-plugin-rename-node-modules#readme',
+  },
+  source: {
+    github: 'Lazyuki/rollup-plugin-rename-node-modules',
+    npm: '@gem-mine/rollup-plugin-rename-node-modules',
   },
   stats: {
     stars: 23,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'icons',
     'bootstrap-icons',
   ],
-  source: {
-    github: 'Mexican-Man/vite-plugin-purge-bootstrap-icons',
-    npm: 'vite-plugin-purge-bootstrap-icons',
-  },
   links: {
     github: 'https://github.com/Mexican-Man/vite-plugin-purge-bootstrap-icons',
     npm: 'https://www.npmjs.com/package/vite-plugin-purge-bootstrap-icons',
     website: 'https://github.com/Mexican-Man/vite-plugin-purge-bootstrap-icons#readme',
+  },
+  source: {
+    github: 'Mexican-Man/vite-plugin-purge-bootstrap-icons',
+    npm: 'vite-plugin-purge-bootstrap-icons',
   },
   stats: {
     stars: 0,

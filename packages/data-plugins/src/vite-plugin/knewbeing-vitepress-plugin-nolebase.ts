@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'typescript',
   ],
-  source: {
-    npm: '@knewbeing/vitepress-plugin-nolebase',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@knewbeing/vitepress-plugin-nolebase',
+  },
+  source: {
+    npm: '@knewbeing/vitepress-plugin-nolebase',
   },
   stats: {
     stars: 0,

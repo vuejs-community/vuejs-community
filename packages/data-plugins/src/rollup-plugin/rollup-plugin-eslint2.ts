@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'es6',
     'lint',
   ],
-  source: {
-    github: 'Col0ring/rollup-plugin-eslint2',
-    npm: 'rollup-plugin-eslint2',
-  },
   links: {
     github: 'https://github.com/Col0ring/rollup-plugin-eslint2',
     npm: 'https://www.npmjs.com/package/rollup-plugin-eslint2',
     website: 'https://github.com/Col0ring/rollup-plugin-eslint2',
+  },
+  source: {
+    github: 'Col0ring/rollup-plugin-eslint2',
+    npm: 'rollup-plugin-eslint2',
   },
   stats: {
     stars: 0,

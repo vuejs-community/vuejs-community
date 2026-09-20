@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/sandoche/nuxt-floating-prompt-module',
   },
   source: {
-    github: 'sandoche/nuxt-floating-prompt-module#main',
+    github: 'sandoche/nuxt-floating-prompt-module',
     npm: 'nuxt-floating-prompt-module',
   },
 })

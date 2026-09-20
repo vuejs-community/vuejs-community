@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'render',
     'templates',
   ],
-  source: {
-    github: 'Toilal/vite-plugin-render',
-    npm: 'vite-plugin-render',
-  },
   links: {
     github: 'https://github.com/Toilal/vite-plugin-render',
     npm: 'https://www.npmjs.com/package/vite-plugin-render',
     website: 'https://github.com/Toilal/vite-plugin-render',
+  },
+  source: {
+    github: 'Toilal/vite-plugin-render',
+    npm: 'vite-plugin-render',
   },
   stats: {
     stars: 0,

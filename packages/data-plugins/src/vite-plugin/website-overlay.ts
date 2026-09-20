@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'webpack-plugin',
   ],
-  source: {
-    github: 'aryanjain1891/website-overlay',
-    npm: 'website-overlay',
-  },
   links: {
     github: 'https://github.com/aryanjain1891/website-overlay',
     npm: 'https://www.npmjs.com/package/website-overlay',
     website: 'https://github.com/aryanjain1891/website-overlay',
+  },
+  source: {
+    github: 'aryanjain1891/website-overlay',
+    npm: 'website-overlay',
   },
   stats: {
     stars: 0,

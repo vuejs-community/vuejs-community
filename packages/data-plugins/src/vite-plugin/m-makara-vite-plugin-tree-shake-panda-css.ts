@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'm-makara/vite-plugin-tree-shake-panda-css',
-    npm: '@m-makara/vite-plugin-tree-shake-panda-css',
-  },
   links: {
     github: 'https://github.com/m-makara/vite-plugin-tree-shake-panda-css',
     npm: 'https://www.npmjs.com/package/@m-makara/vite-plugin-tree-shake-panda-css',
     website: 'https://github.com/m-makara/vite-plugin-tree-shake-panda-css#readme',
+  },
+  source: {
+    github: 'm-makara/vite-plugin-tree-shake-panda-css',
+    npm: '@m-makara/vite-plugin-tree-shake-panda-css',
   },
   stats: {
     stars: 0,

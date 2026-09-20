@@ -28,14 +28,14 @@ export default defineProjectMeta({
     'components',
     'html-fragments',
   ],
-  source: {
-    github: 'ishaanparlikar/vite-plugin-astro-prerender',
-    npm: 'vite-plugin-astro-prerender',
-  },
   links: {
     github: 'https://github.com/ishaanparlikar/vite-plugin-astro-prerender',
     npm: 'https://www.npmjs.com/package/vite-plugin-astro-prerender',
     website: 'https://ishaanparlikar.github.io/astro-lazy-plugin-demo',
+  },
+  source: {
+    github: 'ishaanparlikar/vite-plugin-astro-prerender',
+    npm: 'vite-plugin-astro-prerender',
   },
   stats: {
     stars: 1,

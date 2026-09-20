@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'external',
     'node',
   ],
-  source: {
-    github: 'kshutkin/rollup-extras',
-    npm: '@rollup-extras/plugin-externals',
-  },
   links: {
     github: 'https://github.com/kshutkin/rollup-extras',
     npm: 'https://www.npmjs.com/package/@rollup-extras/plugin-externals',
     website: 'https://github.com/kshutkin/rollup-extras/blob/main/plugin-externals/README.md',
+  },
+  source: {
+    github: 'kshutkin/rollup-extras',
+    npm: '@rollup-extras/plugin-externals',
   },
   stats: {
     stars: 0,

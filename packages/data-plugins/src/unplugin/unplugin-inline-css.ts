@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'LoTwT/unplugin-inline-css',
-    npm: 'unplugin-inline-css',
-  },
   links: {
     github: 'https://github.com/LoTwT/unplugin-inline-css',
     npm: 'https://www.npmjs.com/package/unplugin-inline-css',
     website: 'https://github.com/LoTwT/unplugin-inline-css#readme',
+  },
+  source: {
+    github: 'LoTwT/unplugin-inline-css',
+    npm: 'unplugin-inline-css',
   },
   stats: {
     stars: 0,

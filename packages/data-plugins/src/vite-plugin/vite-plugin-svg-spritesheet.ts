@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'svg',
     'svgo',
   ],
-  source: {
-    npm: 'vite-plugin-svg-spritesheet',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-spritesheet',
+  },
+  source: {
+    npm: 'vite-plugin-svg-spritesheet',
   },
   stats: {
     stars: 0,

@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'RichieAHB/rollup-plugin-flow-defs',
-    npm: 'rollup-plugin-flow-defs',
-  },
   links: {
     github: 'https://github.com/RichieAHB/rollup-plugin-flow-defs',
     npm: 'https://www.npmjs.com/package/rollup-plugin-flow-defs',
     website: 'https://github.com/RichieAHB/rollup-plugin-flow-defs#readme',
+  },
+  source: {
+    github: 'RichieAHB/rollup-plugin-flow-defs',
+    npm: 'rollup-plugin-flow-defs',
   },
   stats: {
     stars: 0,

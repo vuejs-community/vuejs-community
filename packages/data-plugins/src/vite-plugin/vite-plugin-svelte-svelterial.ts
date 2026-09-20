@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'svelte',
     'svelterial',
   ],
-  source: {
-    github: 'svelterialjs/integrations',
-    npm: 'vite-plugin-svelte-svelterial',
-  },
   links: {
     github: 'https://github.com/svelterialjs/integrations',
     npm: 'https://www.npmjs.com/package/vite-plugin-svelte-svelterial',
     website: 'https://github.com/svelterialjs/integrations/tree/main/packages/vite-plugin#readme',
+  },
+  source: {
+    github: 'svelterialjs/integrations',
+    npm: 'vite-plugin-svelte-svelterial',
   },
   stats: {
     stars: 0,

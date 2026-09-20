@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vike-plugin',
     'vike-vite-plugin',
   ],
-  source: {
-    github: 'welpie21/vike-rss-generator',
-    npm: 'vike-rss-generator',
-  },
   links: {
     github: 'https://github.com/welpie21/vike-rss-generator',
     npm: 'https://www.npmjs.com/package/vike-rss-generator',
     website: 'https://github.com/welpie21/vike-rss-generator#readme',
+  },
+  source: {
+    github: 'welpie21/vike-rss-generator',
+    npm: 'vike-rss-generator',
   },
   stats: {
     stars: 0,

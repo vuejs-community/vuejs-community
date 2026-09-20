@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'splash-screen',
   ],
-  source: {
-    github: 'new1333/vite-plugin-splash-screen',
-    npm: 'vite-plugin-boot-screen',
-  },
   links: {
     github: 'https://github.com/new1333/vite-plugin-splash-screen',
     npm: 'https://www.npmjs.com/package/vite-plugin-boot-screen',
     website: 'https://github.com/new1333/vite-plugin-splash-screen#readme',
+  },
+  source: {
+    github: 'new1333/vite-plugin-splash-screen',
+    npm: 'vite-plugin-boot-screen',
   },
   stats: {
     stars: 0,

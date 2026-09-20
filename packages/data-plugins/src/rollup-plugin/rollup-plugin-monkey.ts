@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'UserScripts',
     'UserScript',
   ],
-  source: {
-    github: 'wdssmq/rollup-plugin-monkey',
-    npm: 'rollup-plugin-monkey',
-  },
   links: {
     github: 'https://github.com/wdssmq/rollup-plugin-monkey',
     npm: 'https://www.npmjs.com/package/rollup-plugin-monkey',
     website: 'https://github.com/wdssmq/rollup-plugin-monkey#readme',
+  },
+  source: {
+    github: 'wdssmq/rollup-plugin-monkey',
+    npm: 'rollup-plugin-monkey',
   },
   stats: {
     stars: 10,

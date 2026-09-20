@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'devtools',
     'theming',
   ],
-  source: {
-    github: 'stevenmckinnon/xray',
-    npm: '@stevenmckinnon/xray',
-  },
   links: {
     github: 'https://github.com/stevenmckinnon/xray',
     npm: 'https://www.npmjs.com/package/@stevenmckinnon/xray',
     website: 'https://github.com/stevenmckinnon/xray#readme',
+  },
+  source: {
+    github: 'stevenmckinnon/xray',
+    npm: '@stevenmckinnon/xray',
   },
   stats: {
     stars: 0,

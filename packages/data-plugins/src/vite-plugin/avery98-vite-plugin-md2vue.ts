@@ -20,11 +20,11 @@ export default defineProjectMeta({
     'code-highlight',
     'math-formula',
   ],
-  source: {
-    npm: '@avery98/vite-plugin-md2vue',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@avery98/vite-plugin-md2vue',
+  },
+  source: {
+    npm: '@avery98/vite-plugin-md2vue',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'i18n',
     'rollup-plugin',
   ],
-  source: {
-    github: 'ksc-fe/i18never',
-    npm: 'rollup-plugin-i18never',
-  },
   links: {
     github: 'https://github.com/ksc-fe/i18never',
     npm: 'https://www.npmjs.com/package/rollup-plugin-i18never',
     website: 'https://github.com/ksc-fe/i18never#readme',
+  },
+  source: {
+    github: 'ksc-fe/i18never',
+    npm: 'rollup-plugin-i18never',
   },
   stats: {
     stars: 0,

@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'auto-router',
     'file-system-routing',
   ],
-  source: {
-    npm: '@hf-/vite-plugin-auto-router',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@hf-/vite-plugin-auto-router',
+  },
+  source: {
+    npm: '@hf-/vite-plugin-auto-router',
   },
   stats: {
     stars: 0,

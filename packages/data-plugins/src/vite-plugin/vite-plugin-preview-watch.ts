@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rebuild',
     'live-reload',
   ],
-  source: {
-    github: 'andrzej-stepien/vite-plugin-preview-watch',
-    npm: 'vite-plugin-preview-watch',
-  },
   links: {
     github: 'https://github.com/andrzej-stepien/vite-plugin-preview-watch',
     npm: 'https://www.npmjs.com/package/vite-plugin-preview-watch',
     website: 'https://github.com/andrzej-stepien/vite-plugin-preview-watch#readme',
+  },
+  source: {
+    github: 'andrzej-stepien/vite-plugin-preview-watch',
+    npm: 'vite-plugin-preview-watch',
   },
   stats: {
     stars: 3,

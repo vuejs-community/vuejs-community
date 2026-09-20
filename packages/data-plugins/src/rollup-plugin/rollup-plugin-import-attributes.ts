@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'json',
     'css',
   ],
-  source: {
-    github: 'swiing/rollup-plugin-import-attributes',
-    npm: 'rollup-plugin-import-attributes',
-  },
   links: {
     github: 'https://github.com/swiing/rollup-plugin-import-attributes',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-attributes',
     website: 'https://github.com/swiing/rollup-plugin-import-attributes#readme',
+  },
+  source: {
+    github: 'swiing/rollup-plugin-import-attributes',
+    npm: 'rollup-plugin-import-attributes',
   },
   stats: {
     stars: 6,

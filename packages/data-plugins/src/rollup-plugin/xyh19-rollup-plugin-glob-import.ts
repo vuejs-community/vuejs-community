@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'glob',
     'plugin',
   ],
-  source: {
-    npm: '@xyh19/rollup-plugin-glob-import',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xyh19/rollup-plugin-glob-import',
     website: 'https://gitee.com/xxXyh1908/rollup-plugin-glob-import/#readme',
+  },
+  source: {
+    npm: '@xyh19/rollup-plugin-glob-import',
   },
   stats: {
     stars: 0,

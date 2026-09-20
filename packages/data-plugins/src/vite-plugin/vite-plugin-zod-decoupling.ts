@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-zod-decoupling',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-zod-decoupling',
     website: 'https://github.com/FLchs/vite-plugin-zod-decoupling',
+  },
+  source: {
+    npm: 'vite-plugin-zod-decoupling',
   },
   stats: {
     stars: 0,

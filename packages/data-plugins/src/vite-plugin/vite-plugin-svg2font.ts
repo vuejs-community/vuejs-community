@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'svg2font',
   ],
-  source: {
-    github: 'scrapooo/vite-plugin-svg2font',
-    npm: 'vite-plugin-svg2font',
-  },
   links: {
     github: 'https://github.com/scrapooo/vite-plugin-svg2font',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg2font',
     website: 'https://github.com/scrapooo/vite-plugin-svg2font.git',
+  },
+  source: {
+    github: 'scrapooo/vite-plugin-svg2font',
+    npm: 'vite-plugin-svg2font',
   },
   stats: {
     stars: 0,

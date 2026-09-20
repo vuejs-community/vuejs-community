@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'webpack',
     'zip',
   ],
-  source: {
-    github: 'sxzz/unplugin-starter',
-    npm: 'unplugin-zip',
-  },
   links: {
     github: 'https://github.com/sxzz/unplugin-starter',
     npm: 'https://www.npmjs.com/package/unplugin-zip',
     website: 'https://github.com/sxzz/unplugin-starter#readme',
+  },
+  source: {
+    github: 'sxzz/unplugin-starter',
+    npm: 'unplugin-zip',
   },
   stats: {
     stars: 17,

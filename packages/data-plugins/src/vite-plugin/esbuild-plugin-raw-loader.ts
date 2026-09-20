@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'divriots/esbuild-plugin-raw-loader',
-    npm: 'esbuild-plugin-raw-loader',
-  },
   links: {
     github: 'https://github.com/divriots/esbuild-plugin-raw-loader',
     npm: 'https://www.npmjs.com/package/esbuild-plugin-raw-loader',
     website: 'https://github.com/divriots/esbuild-plugin-raw-loader',
+  },
+  source: {
+    github: 'divriots/esbuild-plugin-raw-loader',
+    npm: 'esbuild-plugin-raw-loader',
   },
   stats: {
     stars: 1,

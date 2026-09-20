@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'offload',
     'wasm',
   ],
-  source: {
-    github: 'kermage/vite-plugin-offload-wasm',
-    npm: 'vite-plugin-offload-wasm',
-  },
   links: {
     github: 'https://github.com/kermage/vite-plugin-offload-wasm',
     npm: 'https://www.npmjs.com/package/vite-plugin-offload-wasm',
     website: 'https://github.com/kermage/vite-plugin-offload-wasm#readme',
+  },
+  source: {
+    github: 'kermage/vite-plugin-offload-wasm',
+    npm: 'vite-plugin-offload-wasm',
   },
   stats: {
     stars: 0,

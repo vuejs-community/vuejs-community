@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'macros',
     'unplugin',
   ],
-  source: {
-    github: 'vue-macros/vue-macros',
-    npm: 'unplugin-vue-macros',
-  },
   links: {
     github: 'https://github.com/vue-macros/vue-macros',
     npm: 'https://www.npmjs.com/package/unplugin-vue-macros',
     website: 'https://vue-macros.dev',
+  },
+  source: {
+    github: 'vue-macros/vue-macros',
+    npm: 'unplugin-vue-macros',
   },
   stats: {
     stars: 0,

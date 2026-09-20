@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'warmup',
   ],
-  source: {
-    github: 'bluwy/vite-plugin-warmup',
-    npm: 'vite-plugin-warmup',
-  },
   links: {
     github: 'https://github.com/bluwy/vite-plugin-warmup',
     npm: 'https://www.npmjs.com/package/vite-plugin-warmup',
     website: 'https://github.com/bluwy/vite-plugin-warmup#readme',
+  },
+  source: {
+    github: 'bluwy/vite-plugin-warmup',
+    npm: 'vite-plugin-warmup',
   },
   stats: {
     stars: 216,

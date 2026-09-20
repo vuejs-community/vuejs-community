@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'static-site-generator',
     'content',
   ],
-  source: {
-    github: 'kamansoft/vite-plugin-flatwave-react',
-    npm: '@kamansoft/vite-plugin-flatwave-react',
-  },
   links: {
     github: 'https://github.com/kamansoft/vite-plugin-flatwave-react',
     npm: 'https://www.npmjs.com/package/@kamansoft/vite-plugin-flatwave-react',
     website: 'https://github.com/kamansoft/vite-plugin-flatwave-react/tree/main/packages/vite-plugin-flatwave-react',
+  },
+  source: {
+    github: 'kamansoft/vite-plugin-flatwave-react',
+    npm: '@kamansoft/vite-plugin-flatwave-react',
   },
   stats: {
     stars: 0,

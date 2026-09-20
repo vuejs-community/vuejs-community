@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'wasm',
     'webassembly',
   ],
-  source: {
-    github: 'gzuidhof/rollup-plugin-base64',
-    npm: 'rollup-plugin-base64',
-  },
   links: {
     github: 'https://github.com/gzuidhof/rollup-plugin-base64',
     npm: 'https://www.npmjs.com/package/rollup-plugin-base64',
     website: 'https://github.com/gzuidhof/rollup-plugin-base64',
+  },
+  source: {
+    github: 'gzuidhof/rollup-plugin-base64',
+    npm: 'rollup-plugin-base64',
   },
   stats: {
     stars: 7,

@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'rspack-plugin',
     'rolldown-plugin',
   ],
-  source: {
-    github: 'pikacss/pikacss',
-    npm: '@pikacss/unplugin-pikacss',
-  },
   links: {
     github: 'https://github.com/pikacss/pikacss',
     npm: 'https://www.npmjs.com/package/@pikacss/unplugin-pikacss',
     website: 'https://pikacss.github.io',
+  },
+  source: {
+    github: 'pikacss/pikacss',
+    npm: '@pikacss/unplugin-pikacss',
   },
   stats: {
     stars: 7,

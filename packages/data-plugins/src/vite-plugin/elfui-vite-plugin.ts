@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'macro-components',
     'typescript',
   ],
-  source: {
-    github: 'bloom-lmh/elfui',
-    npm: '@elfui/vite-plugin',
-  },
   links: {
     github: 'https://github.com/bloom-lmh/elfui',
     npm: 'https://www.npmjs.com/package/@elfui/vite-plugin',
     website: 'https://github.com/bloom-lmh/elfui/tree/main/packages/vite-plugin',
+  },
+  source: {
+    github: 'bloom-lmh/elfui',
+    npm: '@elfui/vite-plugin',
   },
   stats: {
     stars: 0,

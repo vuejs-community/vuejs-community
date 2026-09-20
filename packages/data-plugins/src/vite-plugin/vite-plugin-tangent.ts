@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'ai-code',
     'live-editing',
   ],
-  source: {
-    github: 'mingyouagi/tangent',
-    npm: 'vite-plugin-tangent',
-  },
   links: {
     github: 'https://github.com/mingyouagi/tangent',
     npm: 'https://www.npmjs.com/package/vite-plugin-tangent',
     website: 'https://github.com/mingyouagi/tangent#readme',
+  },
+  source: {
+    github: 'mingyouagi/tangent',
+    npm: 'vite-plugin-tangent',
   },
   stats: {
     stars: 6,

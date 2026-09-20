@@ -30,13 +30,13 @@ export default defineProjectMeta({
     'svelte-to-react',
     'svelte2react',
   ],
-  source: {
-    github: 'canbaykar/svelte2react',
-    npm: '@baykar/unplugin-svelte2react',
-  },
   links: {
     github: 'https://github.com/canbaykar/svelte2react',
     npm: 'https://www.npmjs.com/package/@baykar/unplugin-svelte2react',
+  },
+  source: {
+    github: 'canbaykar/svelte2react',
+    npm: '@baykar/unplugin-svelte2react',
   },
   stats: {
     stars: 0,

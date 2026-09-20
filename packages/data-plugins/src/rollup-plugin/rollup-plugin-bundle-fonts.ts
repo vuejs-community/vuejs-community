@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'mgreminger/rollup-plugin-bundle-fonts',
-    npm: 'rollup-plugin-bundle-fonts',
-  },
   links: {
     github: 'https://github.com/mgreminger/rollup-plugin-bundle-fonts',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bundle-fonts',
     website: 'https://github.com/mgreminger/rollup-plugin-bundle-fonts',
+  },
+  source: {
+    github: 'mgreminger/rollup-plugin-bundle-fonts',
+    npm: 'rollup-plugin-bundle-fonts',
   },
   stats: {
     stars: 2,

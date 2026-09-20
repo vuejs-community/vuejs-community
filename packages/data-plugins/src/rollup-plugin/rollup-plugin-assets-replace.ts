@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'assets',
     'replace',
   ],
-  source: {
-    github: 'sugarshin/rollup-plugin-assets-replace',
-    npm: 'rollup-plugin-assets-replace',
-  },
   links: {
     github: 'https://github.com/sugarshin/rollup-plugin-assets-replace',
     npm: 'https://www.npmjs.com/package/rollup-plugin-assets-replace',
     website: 'https://github.com/sugarshin/rollup-plugin-assets-replace#readme',
+  },
+  source: {
+    github: 'sugarshin/rollup-plugin-assets-replace',
+    npm: 'rollup-plugin-assets-replace',
   },
   stats: {
     stars: 0,

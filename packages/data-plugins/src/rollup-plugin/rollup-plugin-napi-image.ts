@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'jpg',
     'jpeg',
   ],
-  source: {
-    github: 'cijiugechu/rollup-plugin-napi-image',
-    npm: 'rollup-plugin-napi-image',
-  },
   links: {
     github: 'https://github.com/cijiugechu/rollup-plugin-napi-image',
     npm: 'https://www.npmjs.com/package/rollup-plugin-napi-image',
     website: 'https://github.com/cijiugechu/rollup-plugin-napi-image#readme',
+  },
+  source: {
+    github: 'cijiugechu/rollup-plugin-napi-image',
+    npm: 'rollup-plugin-napi-image',
   },
   stats: {
     stars: 10,

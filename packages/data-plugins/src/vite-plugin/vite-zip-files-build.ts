@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'build',
     'files',
   ],
-  source: {
-    github: 'mendesjorge/vite-zip-files-build',
-    npm: 'vite-zip-files-build',
-  },
   links: {
     github: 'https://github.com/mendesjorge/vite-zip-files-build',
     npm: 'https://www.npmjs.com/package/vite-zip-files-build',
     website: 'https://github.com/mendesjorge/vite-zip-files-build',
+  },
+  source: {
+    github: 'mendesjorge/vite-zip-files-build',
+    npm: 'vite-zip-files-build',
   },
   stats: {
     stars: 0,

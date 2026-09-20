@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'ejs',
     'vite-plugin-ejs',
   ],
-  source: {
-    github: 'skymoonya/vite-plugin-htmlx',
-    npm: 'vite-plugin-htmlx',
-  },
   links: {
     github: 'https://github.com/skymoonya/vite-plugin-htmlx',
     npm: 'https://www.npmjs.com/package/vite-plugin-htmlx',
     website: 'https://github.com/skymoonya/vite-plugin-htmlx',
+  },
+  source: {
+    github: 'skymoonya/vite-plugin-htmlx',
+    npm: 'vite-plugin-htmlx',
   },
   stats: {
     stars: 3,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'parquet',
     'vite-plugin',
   ],
-  source: {
-    github: 'mako-ai/mako',
-    npm: '@makoai/app-sdk',
-  },
   links: {
     github: 'https://github.com/mako-ai/mako',
     npm: 'https://www.npmjs.com/package/@makoai/app-sdk',
     website: 'https://docs.mako.ai/mcp-server/',
+  },
+  source: {
+    github: 'mako-ai/mako',
+    npm: '@makoai/app-sdk',
   },
   stats: {
     stars: 14,

@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/Hebilicious/server-block-nuxt#readme',
   },
   source: {
-    github: 'Hebilicious/server-block-nuxt#main/packages/server-block-nuxt',
+    github: 'Hebilicious/server-block-nuxt',
     npm: '@hebilicious/server-block-nuxt',
   },
 })

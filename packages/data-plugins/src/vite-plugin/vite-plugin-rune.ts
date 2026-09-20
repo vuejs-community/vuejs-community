@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'rune',
   ],
-  source: {
-    github: 'rune/rune',
-    npm: 'vite-plugin-rune',
-  },
   links: {
     github: 'https://github.com/rune/rune',
     npm: 'https://www.npmjs.com/package/vite-plugin-rune',
     website: 'https://github.com/rune/rune#readme',
+  },
+  source: {
+    github: 'rune/rune',
+    npm: 'vite-plugin-rune',
   },
   stats: {
     stars: 424,

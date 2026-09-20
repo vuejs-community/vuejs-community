@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'inject',
     'output',
   ],
-  source: {
-    github: 'eight04/rollup-plugin-write-output',
-    npm: 'rollup-plugin-write-output',
-  },
   links: {
     github: 'https://github.com/eight04/rollup-plugin-write-output',
     npm: 'https://www.npmjs.com/package/rollup-plugin-write-output',
     website: 'https://github.com/eight04/rollup-plugin-write-output#readme',
+  },
+  source: {
+    github: 'eight04/rollup-plugin-write-output',
+    npm: 'rollup-plugin-write-output',
   },
   stats: {
     stars: 0,

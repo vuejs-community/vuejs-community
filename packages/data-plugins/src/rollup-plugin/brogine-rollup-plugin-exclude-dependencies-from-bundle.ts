@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'exclude',
     'bundle',
   ],
-  source: {
-    github: 'brogine/rollup-plugin-exclude-dependencies-from-bundle',
-    npm: '@brogine/rollup-plugin-exclude-dependencies-from-bundle',
-  },
   links: {
     github: 'https://github.com/brogine/rollup-plugin-exclude-dependencies-from-bundle',
     npm: 'https://www.npmjs.com/package/@brogine/rollup-plugin-exclude-dependencies-from-bundle',
     website: 'https://brogine.github.io/rollup-plugin-exclude-dependencies-from-bundle',
+  },
+  source: {
+    github: 'brogine/rollup-plugin-exclude-dependencies-from-bundle',
+    npm: '@brogine/rollup-plugin-exclude-dependencies-from-bundle',
   },
   stats: {
     stars: 0,

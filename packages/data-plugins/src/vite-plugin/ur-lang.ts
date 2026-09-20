@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'electron',
     'bhailang',
   ],
-  source: {
-    github: 'Shahid-khan5/ur-lang',
-    npm: 'ur-lang',
-  },
   links: {
     github: 'https://github.com/Shahid-khan5/ur-lang',
     npm: 'https://www.npmjs.com/package/ur-lang',
     website: 'https://github.com/Shahid-khan5/ur-lang#readme',
+  },
+  source: {
+    github: 'Shahid-khan5/ur-lang',
+    npm: 'ur-lang',
   },
   stats: {
     stars: 0,

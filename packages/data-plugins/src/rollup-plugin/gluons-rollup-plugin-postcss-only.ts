@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'css',
     'postcss',
   ],
-  source: {
-    npm: '@gluons/rollup-plugin-postcss-only',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@gluons/rollup-plugin-postcss-only',
     website: 'https://gitlab.com/gluons/rollup-plugin-postcss-only',
+  },
+  source: {
+    npm: '@gluons/rollup-plugin-postcss-only',
   },
   stats: {
     stars: 0,

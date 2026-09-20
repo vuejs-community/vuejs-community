@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'plugin',
     'html',
   ],
-  source: {
-    github: 'wojtekmaj/vite-plugin-simple-html',
-    npm: 'vite-plugin-simple-html',
-  },
   links: {
     github: 'https://github.com/wojtekmaj/vite-plugin-simple-html',
     npm: 'https://www.npmjs.com/package/vite-plugin-simple-html',
     website: 'https://github.com/wojtekmaj/vite-plugin-simple-html#readme',
+  },
+  source: {
+    github: 'wojtekmaj/vite-plugin-simple-html',
+    npm: 'vite-plugin-simple-html',
   },
   stats: {
     stars: 32,

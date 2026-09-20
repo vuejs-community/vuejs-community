@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'typed-css',
     'classnames',
   ],
-  source: {
-    github: 'vkalinichev/gemcss',
-    npm: 'gemcss',
-  },
   links: {
     github: 'https://github.com/vkalinichev/gemcss',
     npm: 'https://www.npmjs.com/package/gemcss',
     website: 'https://github.com/vkalinichev/gemcss#readme',
+  },
+  source: {
+    github: 'vkalinichev/gemcss',
+    npm: 'gemcss',
   },
   stats: {
     stars: 0,

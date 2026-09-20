@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'mono-client',
   ],
-  source: {
-    npm: 'mono-client-vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/mono-client-vite-plugin',
+  },
+  source: {
+    npm: 'mono-client-vite-plugin',
   },
   stats: {
     stars: 0,

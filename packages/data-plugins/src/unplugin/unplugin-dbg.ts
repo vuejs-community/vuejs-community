@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'swc',
     'debug',
   ],
-  source: {
-    npm: 'unplugin-dbg',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-dbg',
+  },
+  source: {
+    npm: 'unplugin-dbg',
   },
   stats: {
     stars: 0,

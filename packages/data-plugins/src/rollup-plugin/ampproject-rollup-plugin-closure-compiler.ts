@@ -11,13 +11,13 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'ampproject/rollup-plugin-closure-compiler',
-    npm: '@ampproject/rollup-plugin-closure-compiler',
-  },
   links: {
     github: 'https://github.com/ampproject/rollup-plugin-closure-compiler',
     npm: 'https://www.npmjs.com/package/@ampproject/rollup-plugin-closure-compiler',
+  },
+  source: {
+    github: 'ampproject/rollup-plugin-closure-compiler',
+    npm: '@ampproject/rollup-plugin-closure-compiler',
   },
   stats: {
     stars: 293,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'inject',
     'injection',
   ],
-  source: {
-    github: 'altrusl/vite-plugin-html-injection',
-    npm: 'vite-plugin-html-injection',
-  },
   links: {
     github: 'https://github.com/altrusl/vite-plugin-html-injection',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-injection',
     website: 'https://github.com/altrusl/vite-plugin-html-injection',
+  },
+  source: {
+    github: 'altrusl/vite-plugin-html-injection',
+    npm: 'vite-plugin-html-injection',
   },
   stats: {
     stars: 42,

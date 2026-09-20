@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'permissions',
     'configuration',
   ],
-  source: {
-    github: 'Eoion/salesive-dev-tools',
-    npm: 'salesive-dev-tools',
-  },
   links: {
     github: 'https://github.com/Eoion/salesive-dev-tools',
     npm: 'https://www.npmjs.com/package/salesive-dev-tools',
     website: 'https://github.com/Eoion/salesive-dev-tools#readme',
+  },
+  source: {
+    github: 'Eoion/salesive-dev-tools',
+    npm: 'salesive-dev-tools',
   },
   stats: {
     stars: 0,

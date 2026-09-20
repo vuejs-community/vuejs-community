@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin-mettle',
     'vite-plugin',
   ],
-  source: {
-    github: 'maomincoding/babel-plugin-mettle',
-    npm: 'vite-plugin-mettle',
-  },
   links: {
     github: 'https://github.com/maomincoding/babel-plugin-mettle',
     npm: 'https://www.npmjs.com/package/vite-plugin-mettle',
     website: 'https://github.com/maomincoding/babel-plugin-mettle#readme',
+  },
+  source: {
+    github: 'maomincoding/babel-plugin-mettle',
+    npm: 'vite-plugin-mettle',
   },
   stats: {
     stars: 1,

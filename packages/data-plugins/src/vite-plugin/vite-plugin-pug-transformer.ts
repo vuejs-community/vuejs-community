@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'pug',
     'vite',
   ],
-  source: {
-    github: 'TheSeally/vite-plugin-pug-transformer',
-    npm: 'vite-plugin-pug-transformer',
-  },
   links: {
     github: 'https://github.com/TheSeally/vite-plugin-pug-transformer',
     npm: 'https://www.npmjs.com/package/vite-plugin-pug-transformer',
     website: 'https://github.com/TheSeally/vite-plugin-pug-transformer#readme',
+  },
+  source: {
+    github: 'TheSeally/vite-plugin-pug-transformer',
+    npm: 'vite-plugin-pug-transformer',
   },
   stats: {
     stars: 43,

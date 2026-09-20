@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'idkwtm',
   ],
-  source: {
-    github: 'spencersokol/simple-posts',
-    npm: '@idkwtm/simple-posts',
-  },
   links: {
     github: 'https://github.com/spencersokol/simple-posts',
     npm: 'https://www.npmjs.com/package/@idkwtm/simple-posts',
     website: 'https://github.com/spencersokol/simple-posts#readme',
+  },
+  source: {
+    github: 'spencersokol/simple-posts',
+    npm: '@idkwtm/simple-posts',
   },
   stats: {
     stars: 0,

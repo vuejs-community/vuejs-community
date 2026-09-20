@@ -35,14 +35,14 @@ export default defineProjectMeta({
     'vite-react-style-to-vw-plugin',
     'vite-react-style-to-vw-plugin',
   ],
-  source: {
-    github: 'cq112233/vite-plugin-style-to-vw',
-    npm: 'vite-plugin-style-to-vw',
-  },
   links: {
     github: 'https://github.com/cq112233/vite-plugin-style-to-vw',
     npm: 'https://www.npmjs.com/package/vite-plugin-style-to-vw',
     website: 'https://github.com/cq112233/vite-plugin-style-to-vw#readme',
+  },
+  source: {
+    github: 'cq112233/vite-plugin-style-to-vw',
+    npm: 'vite-plugin-style-to-vw',
   },
   stats: {
     stars: 9,

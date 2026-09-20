@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'https',
     'localhost',
   ],
-  source: {
-    npm: 'vite-plugin-mkcert-ssl',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-mkcert-ssl',
+  },
+  source: {
+    npm: 'vite-plugin-mkcert-ssl',
   },
   stats: {
     stars: 0,

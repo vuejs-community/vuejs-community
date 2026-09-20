@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'liquid',
     'shopify',
   ],
-  source: {
-    npm: 'rollup-plugin-shopify-liquid-script',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-shopify-liquid-script',
+  },
+  source: {
+    npm: 'rollup-plugin-shopify-liquid-script',
   },
   stats: {
     stars: 0,

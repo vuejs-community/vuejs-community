@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'decimal.js-light',
     'big.js',
   ],
-  source: {
-    github: 'lyumg/unplugin-auto-decimal',
-    npm: 'unplugin-auto-decimal',
-  },
   links: {
     github: 'https://github.com/lyumg/unplugin-auto-decimal',
     npm: 'https://www.npmjs.com/package/unplugin-auto-decimal',
     website: 'https://lyumg.github.io/unplugin-auto-decimal/',
+  },
+  source: {
+    github: 'lyumg/unplugin-auto-decimal',
+    npm: 'unplugin-auto-decimal',
   },
   stats: {
     stars: 13,

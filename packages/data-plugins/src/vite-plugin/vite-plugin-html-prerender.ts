@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'saeedafzal/vite-plugin-html-prerender',
-    npm: 'vite-plugin-html-prerender',
-  },
   links: {
     github: 'https://github.com/saeedafzal/vite-plugin-html-prerender',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-prerender',
     website: 'https://github.com/saeedafzal/vite-plugin-html-prerender#readme',
+  },
+  source: {
+    github: 'saeedafzal/vite-plugin-html-prerender',
+    npm: 'vite-plugin-html-prerender',
   },
   stats: {
     stars: 17,

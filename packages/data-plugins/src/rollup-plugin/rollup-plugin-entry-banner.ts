@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'banner',
     'chunk',
   ],
-  source: {
-    github: 'jackluson/rollup-plugin-entry-banner',
-    npm: 'rollup-plugin-entry-banner',
-  },
   links: {
     github: 'https://github.com/jackluson/rollup-plugin-entry-banner',
     npm: 'https://www.npmjs.com/package/rollup-plugin-entry-banner',
     website: 'https://github.com/jackluson/rollup-plugin-entry-banner',
+  },
+  source: {
+    github: 'jackluson/rollup-plugin-entry-banner',
+    npm: 'rollup-plugin-entry-banner',
   },
   stats: {
     stars: 1,

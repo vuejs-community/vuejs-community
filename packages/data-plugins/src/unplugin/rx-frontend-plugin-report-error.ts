@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    npm: '@rx-frontend/plugin-report-error',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@rx-frontend/plugin-report-error',
     website: 'https://gitee.com/rx-front-end-development/web-error-reporting/tree/master/plugin',
+  },
+  source: {
+    npm: '@rx-frontend/plugin-report-error',
   },
   stats: {
     stars: 0,

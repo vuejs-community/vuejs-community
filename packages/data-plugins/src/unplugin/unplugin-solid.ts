@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'unplugin/unplugin-solid',
-    npm: 'unplugin-solid',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-solid',
     npm: 'https://www.npmjs.com/package/unplugin-solid',
     website: 'https://github.com/unplugin/unplugin-solid#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-solid',
+    npm: 'unplugin-solid',
   },
   stats: {
     stars: 9,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'Tylerian/rollup-plugin-atomizer',
-    npm: 'rollup-plugin-atomizer',
-  },
   links: {
     github: 'https://github.com/Tylerian/rollup-plugin-atomizer',
     npm: 'https://www.npmjs.com/package/rollup-plugin-atomizer',
     website: 'https://github.com/Tylerian/rollup-plugin-atomizer#readme',
+  },
+  source: {
+    github: 'Tylerian/rollup-plugin-atomizer',
+    npm: 'rollup-plugin-atomizer',
   },
   stats: {
     stars: 1,

@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'tree-shaking',
     'html5-game',
   ],
-  source: {
-    npm: '@fps-games/vite-plugins',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@fps-games/vite-plugins',
+  },
+  source: {
+    npm: '@fps-games/vite-plugins',
   },
   stats: {
     stars: 0,

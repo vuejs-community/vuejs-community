@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'subresource-integrity',
     'security',
   ],
-  source: {
-    github: 'JonasKruckenberg/rollup-plugin-sri',
-    npm: 'rollup-plugin-sri',
-  },
   links: {
     github: 'https://github.com/JonasKruckenberg/rollup-plugin-sri',
     npm: 'https://www.npmjs.com/package/rollup-plugin-sri',
     website: 'https://github.com/JonasKruckenberg/rollup-plugin-sri',
+  },
+  source: {
+    github: 'JonasKruckenberg/rollup-plugin-sri',
+    npm: 'rollup-plugin-sri',
   },
   stats: {
     stars: 26,

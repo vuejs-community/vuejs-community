@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'kirklin/boot-unplugin',
-    npm: 'boot-unplugin',
-  },
   links: {
     github: 'https://github.com/kirklin/boot-unplugin',
     npm: 'https://www.npmjs.com/package/boot-unplugin',
     website: 'https://github.com/kirklin/boot-unplugin#readme',
+  },
+  source: {
+    github: 'kirklin/boot-unplugin',
+    npm: 'boot-unplugin',
   },
   stats: {
     stars: 3,

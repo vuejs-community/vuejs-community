@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'qiankun',
   ],
-  source: {
-    github: 'sh-winter/vite-plugin-qiankun',
-    npm: '@sh-winter/vite-plugin-qiankun',
-  },
   links: {
     github: 'https://github.com/sh-winter/vite-plugin-qiankun',
     npm: 'https://www.npmjs.com/package/@sh-winter/vite-plugin-qiankun',
     website: 'https://github.com/sh-winter/vite-plugin-qiankun#readme',
+  },
+  source: {
+    github: 'sh-winter/vite-plugin-qiankun',
+    npm: '@sh-winter/vite-plugin-qiankun',
   },
   stats: {
     stars: 7,

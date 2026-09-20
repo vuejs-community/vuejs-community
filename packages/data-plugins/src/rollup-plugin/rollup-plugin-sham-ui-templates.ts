@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'sham-ui',
   ],
-  source: {
-    github: 'sham-ui/rollup-plugin-sham-ui-templates',
-    npm: 'rollup-plugin-sham-ui-templates',
-  },
   links: {
     github: 'https://github.com/sham-ui/rollup-plugin-sham-ui-templates',
     npm: 'https://www.npmjs.com/package/rollup-plugin-sham-ui-templates',
     website: 'https://github.com/sham-ui/rollup-plugin-sham-ui-templates#readme',
+  },
+  source: {
+    github: 'sham-ui/rollup-plugin-sham-ui-templates',
+    npm: 'rollup-plugin-sham-ui-templates',
   },
   stats: {
     stars: 0,

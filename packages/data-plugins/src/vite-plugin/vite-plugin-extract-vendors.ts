@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vendors',
     'code-splitting',
   ],
-  source: {
-    github: 'daniakash/vite-plugin-extract-vendors',
-    npm: 'vite-plugin-extract-vendors',
-  },
   links: {
     github: 'https://github.com/daniakash/vite-plugin-extract-vendors',
     npm: 'https://www.npmjs.com/package/vite-plugin-extract-vendors',
     website: 'https://github.com/daniakash/vite-plugin-extract-vendors#readme',
+  },
+  source: {
+    github: 'daniakash/vite-plugin-extract-vendors',
+    npm: 'vite-plugin-extract-vendors',
   },
   stats: {
     stars: 0,

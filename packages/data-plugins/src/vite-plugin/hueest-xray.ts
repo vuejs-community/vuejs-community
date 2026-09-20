@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'hueest/xray',
-    npm: '@hueest/xray',
-  },
   links: {
     github: 'https://github.com/hueest/xray',
     npm: 'https://www.npmjs.com/package/@hueest/xray',
     website: 'https://xray-js.dev',
+  },
+  source: {
+    github: 'hueest/xray',
+    npm: '@hueest/xray',
   },
   stats: {
     stars: 2,

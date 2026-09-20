@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'rollup-plugin',
     'mjml',
   ],
-  source: {
-    npm: 'rollup-plugin-mjml',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-mjml',
     website: 'https://github.com/daankauwenberg/rollup-plugin-mjml',
+  },
+  source: {
+    npm: 'rollup-plugin-mjml',
   },
   stats: {
     stars: 0,

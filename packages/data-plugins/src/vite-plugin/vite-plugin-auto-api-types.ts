@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'api',
     'types',
   ],
-  source: {
-    github: 'legend402/vite-plugin-auto-api-types',
-    npm: 'vite-plugin-auto-api-types',
-  },
   links: {
     github: 'https://github.com/legend402/vite-plugin-auto-api-types',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-api-types',
     website: 'https://github.com/legend402/vite-plugin-auto-api-types#readme',
+  },
+  source: {
+    github: 'legend402/vite-plugin-auto-api-types',
+    npm: 'vite-plugin-auto-api-types',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'compress',
   ],
-  source: {
-    github: 'nonzzz/vite-plugin-compression',
-    npm: 'vite-plugin-compression2',
-  },
   links: {
     github: 'https://github.com/nonzzz/vite-plugin-compression',
     npm: 'https://www.npmjs.com/package/vite-plugin-compression2',
     website: 'https://github.com/nonzzz/vite-plugin-compression#readme',
+  },
+  source: {
+    github: 'nonzzz/vite-plugin-compression',
+    npm: 'vite-plugin-compression2',
   },
   stats: {
     stars: 325,

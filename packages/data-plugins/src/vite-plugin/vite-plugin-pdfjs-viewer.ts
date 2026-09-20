@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'viewer',
     'pdfjs',
   ],
-  source: {
-    npm: 'vite-plugin-pdfjs-viewer',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-pdfjs-viewer',
     website: 'https://gitlab.com/beehiveor/rollup-plugin-pdfjs-viewer#readme',
+  },
+  source: {
+    npm: 'vite-plugin-pdfjs-viewer',
   },
   stats: {
     stars: 0,

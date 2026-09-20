@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'bbcvc/unplugin-auto-upload',
-    npm: 'unplugin-auto-upload',
-  },
   links: {
     github: 'https://github.com/bbcvc/unplugin-auto-upload',
     npm: 'https://www.npmjs.com/package/unplugin-auto-upload',
     website: 'https://github.com/bbcvc/unplugin-auto-upload#readme',
+  },
+  source: {
+    github: 'bbcvc/unplugin-auto-upload',
+    npm: 'unplugin-auto-upload',
   },
   stats: {
     stars: 1,

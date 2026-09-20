@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'material-design',
     'build',
   ],
-  source: {
-    github: 'vdegenne/rollup-plugin-material-all',
-    npm: 'rollup-plugin-material-all',
-  },
   links: {
     github: 'https://github.com/vdegenne/rollup-plugin-material-all',
     npm: 'https://www.npmjs.com/package/rollup-plugin-material-all',
     website: 'https://github.com/vdegenne/rollup-plugin-material-all#readme',
+  },
+  source: {
+    github: 'vdegenne/rollup-plugin-material-all',
+    npm: 'rollup-plugin-material-all',
   },
   stats: {
     stars: 0,

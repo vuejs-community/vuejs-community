@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'docker-deploy-vite-plugin',
     'vite-plugin-docker-deploy',
   ],
-  source: {
-    github: 'yxb123456cy/vite-plugin-docker-deploy',
-    npm: '@qy-utils/vite-plugin-docker-deploy',
-  },
   links: {
     github: 'https://github.com/yxb123456cy/vite-plugin-docker-deploy',
     npm: 'https://www.npmjs.com/package/@qy-utils/vite-plugin-docker-deploy',
     website: 'https://github.com/yxb123456cy/vite-plugin-docker-deploy',
+  },
+  source: {
+    github: 'yxb123456cy/vite-plugin-docker-deploy',
+    npm: '@qy-utils/vite-plugin-docker-deploy',
   },
   stats: {
     stars: 0,

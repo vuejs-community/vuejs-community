@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'xtail',
     'x-tail',
   ],
-  source: {
-    npm: '@xtail/unplugin-electron',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xtail/unplugin-electron',
+  },
+  source: {
+    npm: '@xtail/unplugin-electron',
   },
   stats: {
     stars: 0,

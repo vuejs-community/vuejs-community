@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup',
     'filesizes',
   ],
-  source: {
-    github: 'hoyeungw/csproj-version',
-    npm: 'csproj-version',
-  },
   links: {
     github: 'https://github.com/hoyeungw/csproj-version',
     npm: 'https://www.npmjs.com/package/csproj-version',
     website: 'https://github.com/hoyeungw/csproj-version#readme',
+  },
+  source: {
+    github: 'hoyeungw/csproj-version',
+    npm: 'csproj-version',
   },
   stats: {
     stars: 0,

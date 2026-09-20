@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'diff-compiler',
     'transform',
   ],
-  source: {
-    github: 'FliPPeDround/vite-plugin-diff-compiler',
-    npm: 'vite-plugin-diff-compiler',
-  },
   links: {
     github: 'https://github.com/FliPPeDround/vite-plugin-diff-compiler',
     npm: 'https://www.npmjs.com/package/vite-plugin-diff-compiler',
     website: 'https://github.com/FliPPeDround/vite-plugin-diff-compiler#readme',
+  },
+  source: {
+    github: 'FliPPeDround/vite-plugin-diff-compiler',
+    npm: 'vite-plugin-diff-compiler',
   },
   stats: {
     stars: 1,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'console',
     'pipeline',
   ],
-  source: {
-    github: 'zhangbowy/vite-plugin-aliyun-flow',
-    npm: 'vite-plugin-aliyun-flow',
-  },
   links: {
     github: 'https://github.com/zhangbowy/vite-plugin-aliyun-flow',
     npm: 'https://www.npmjs.com/package/vite-plugin-aliyun-flow',
     website: 'https://github.com/zhangbowy/vite-plugin-aliyun-flow#readme',
+  },
+  source: {
+    github: 'zhangbowy/vite-plugin-aliyun-flow',
+    npm: 'vite-plugin-aliyun-flow',
   },
   stats: {
     stars: 7,

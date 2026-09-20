@@ -12,12 +12,12 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    npm: 'rollup-plugin-i18n-auto',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-i18n-auto',
     website: 'https://github.com/pekonchan/rollup-plugin-i18n-auto#readme',
+  },
+  source: {
+    npm: 'rollup-plugin-i18n-auto',
   },
   stats: {
     stars: 0,

@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: '@altack/vite-angular-preprocessor',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@altack/vite-angular-preprocessor',
+  },
+  source: {
+    npm: '@altack/vite-angular-preprocessor',
   },
   stats: {
     stars: 0,

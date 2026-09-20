@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'keys',
     'injector',
   ],
-  source: {
-    github: 'whispererWJ/vite-plugin-pem-injector',
-    npm: '@whisperer07/vite-plugin-pem-injector',
-  },
   links: {
     github: 'https://github.com/whispererWJ/vite-plugin-pem-injector',
     npm: 'https://www.npmjs.com/package/@whisperer07/vite-plugin-pem-injector',
     website: 'https://github.com/whispererWJ/vite-plugin-pem-injector#readme',
+  },
+  source: {
+    github: 'whispererWJ/vite-plugin-pem-injector',
+    npm: '@whisperer07/vite-plugin-pem-injector',
   },
   stats: {
     stars: 0,

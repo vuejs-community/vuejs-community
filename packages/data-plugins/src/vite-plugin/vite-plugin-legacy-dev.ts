@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'legacy',
     'legacy-dev',
   ],
-  source: {
-    npm: 'vite-plugin-legacy-dev',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-legacy-dev',
+  },
+  source: {
+    npm: 'vite-plugin-legacy-dev',
   },
   stats: {
     stars: 0,

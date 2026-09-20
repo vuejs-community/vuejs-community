@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'webgpu',
     'wgsl',
   ],
-  source: {
-    github: 'ubugeeei-prod/vite-plugin-shader-languages',
-    npm: 'vite-plugin-shader-languages',
-  },
   links: {
     github: 'https://github.com/ubugeeei-prod/vite-plugin-shader-languages',
     npm: 'https://www.npmjs.com/package/vite-plugin-shader-languages',
     website: 'https://github.com/ubugeeei-prod/vite-plugin-shader-languages#readme',
+  },
+  source: {
+    github: 'ubugeeei-prod/vite-plugin-shader-languages',
+    npm: 'vite-plugin-shader-languages',
   },
   stats: {
     stars: 4,

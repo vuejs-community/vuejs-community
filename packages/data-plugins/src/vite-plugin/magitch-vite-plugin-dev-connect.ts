@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'iframe',
     'postmessage',
   ],
-  source: {
-    github: 'magitch/vite-plugin-dev-connect',
-    npm: '@magitch/vite-plugin-dev-connect',
-  },
   links: {
     github: 'https://github.com/magitch/vite-plugin-dev-connect',
     npm: 'https://www.npmjs.com/package/@magitch/vite-plugin-dev-connect',
     website: 'https://magitch.app',
+  },
+  source: {
+    github: 'magitch/vite-plugin-dev-connect',
+    npm: '@magitch/vite-plugin-dev-connect',
   },
   stats: {
     stars: 0,

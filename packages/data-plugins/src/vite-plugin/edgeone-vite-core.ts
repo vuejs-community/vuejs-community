@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'adapter',
     'core',
   ],
-  source: {
-    npm: '@edgeone/vite-core',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@edgeone/vite-core',
+  },
+  source: {
+    npm: '@edgeone/vite-core',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'vituum/vite-plugin-handlebars',
-    npm: '@vituum/vite-plugin-handlebars',
-  },
   links: {
     github: 'https://github.com/vituum/vite-plugin-handlebars',
     npm: 'https://www.npmjs.com/package/@vituum/vite-plugin-handlebars',
     website: 'https://github.com/vituum/vite-plugin-handlebars#readme',
+  },
+  source: {
+    github: 'vituum/vite-plugin-handlebars',
+    npm: '@vituum/vite-plugin-handlebars',
   },
   stats: {
     stars: 8,

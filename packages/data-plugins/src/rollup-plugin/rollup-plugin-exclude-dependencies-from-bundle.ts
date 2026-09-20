@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'exclude',
     'bundle',
   ],
-  source: {
-    github: 'basselalaraaj/rollup-plugin-exclude-dependencies-from-bundle',
-    npm: 'rollup-plugin-exclude-dependencies-from-bundle',
-  },
   links: {
     github: 'https://github.com/basselalaraaj/rollup-plugin-exclude-dependencies-from-bundle',
     npm: 'https://www.npmjs.com/package/rollup-plugin-exclude-dependencies-from-bundle',
     website: 'https://basselalaraaj.github.io/rollup-plugin-exclude-dependencies-from-bundle',
+  },
+  source: {
+    github: 'basselalaraaj/rollup-plugin-exclude-dependencies-from-bundle',
+    npm: 'rollup-plugin-exclude-dependencies-from-bundle',
   },
   stats: {
     stars: 11,

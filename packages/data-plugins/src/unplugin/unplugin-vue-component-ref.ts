@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'setup',
     'ref',
   ],
-  source: {
-    github: 'so11y/unplugin-vue-component-ref',
-    npm: 'unplugin-vue-component-ref',
-  },
   links: {
     github: 'https://github.com/so11y/unplugin-vue-component-ref',
     npm: 'https://www.npmjs.com/package/unplugin-vue-component-ref',
     website: 'https://github.com/so11y/unplugin-vue-component-ref#readme',
+  },
+  source: {
+    github: 'so11y/unplugin-vue-component-ref',
+    npm: 'unplugin-vue-component-ref',
   },
   stats: {
     stars: 11,

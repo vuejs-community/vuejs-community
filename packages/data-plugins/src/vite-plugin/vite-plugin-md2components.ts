@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'markdown',
     'blog',
   ],
-  source: {
-    github: 'Karrynana/vite-plugin-md2components',
-    npm: 'vite-plugin-md2components',
-  },
   links: {
     github: 'https://github.com/Karrynana/vite-plugin-md2components',
     npm: 'https://www.npmjs.com/package/vite-plugin-md2components',
     website: 'https://github.com/Karrynana/vite-plugin-md2components#readme',
+  },
+  source: {
+    github: 'Karrynana/vite-plugin-md2components',
+    npm: 'vite-plugin-md2components',
   },
   stats: {
     stars: 0,

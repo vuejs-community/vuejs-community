@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'local',
     'https',
   ],
-  source: {
-    github: 'mustafa0x/vite-plugin-domain',
-    npm: 'vite-plugin-domain',
-  },
   links: {
     github: 'https://github.com/mustafa0x/vite-plugin-domain',
     npm: 'https://www.npmjs.com/package/vite-plugin-domain',
     website: 'https://github.com/mustafa0x/vite-plugin-domain#readme',
+  },
+  source: {
+    github: 'mustafa0x/vite-plugin-domain',
+    npm: 'vite-plugin-domain',
   },
   stats: {
     stars: 9,

@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'devtools',
     'developer-tools',
   ],
-  source: {
-    github: 'Cyran777/image-audit',
-    npm: 'image-audit',
-  },
   links: {
     github: 'https://github.com/Cyran777/image-audit',
     npm: 'https://www.npmjs.com/package/image-audit',
     website: 'https://github.com/Cyran777/image-audit#readme',
+  },
+  source: {
+    github: 'Cyran777/image-audit',
+    npm: 'image-audit',
   },
   stats: {
     stars: 0,

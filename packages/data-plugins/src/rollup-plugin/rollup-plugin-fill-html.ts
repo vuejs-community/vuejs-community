@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'html',
     'fill-html',
   ],
-  source: {
-    github: 'alwaysonlinetxm/rollup-plugin-fill-html',
-    npm: 'rollup-plugin-fill-html',
-  },
   links: {
     github: 'https://github.com/alwaysonlinetxm/rollup-plugin-fill-html',
     npm: 'https://www.npmjs.com/package/rollup-plugin-fill-html',
     website: 'https://github.com/alwaysonlinetxm/rollup-plugin-fill-html#readme',
+  },
+  source: {
+    github: 'alwaysonlinetxm/rollup-plugin-fill-html',
+    npm: 'rollup-plugin-fill-html',
   },
   stats: {
     stars: 17,

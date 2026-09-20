@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'minify',
     'vite-plugin',
   ],
-  source: {
-    github: 'DraculaPrince/vite-plugin-html',
-    npm: 'vite-plugin-html-multipage',
-  },
   links: {
     github: 'https://github.com/DraculaPrince/vite-plugin-html',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-multipage',
     website: 'https://github.com/DraculaPrince/vite-plugin-html/#readme',
+  },
+  source: {
+    github: 'DraculaPrince/vite-plugin-html',
+    npm: 'vite-plugin-html-multipage',
   },
   stats: {
     stars: 0,

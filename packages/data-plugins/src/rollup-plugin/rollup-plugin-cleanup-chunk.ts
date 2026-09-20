@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'rollup-plugin-cleanup',
     'typescript',
   ],
-  source: {
-    github: 'gavar/wrench',
-    npm: 'rollup-plugin-cleanup-chunk',
-  },
   links: {
     github: 'https://github.com/gavar/wrench',
     npm: 'https://www.npmjs.com/package/rollup-plugin-cleanup-chunk',
     website: 'https://github.com/gavar/wrench/tree/master/packages/rollup-plugin-cleanup-chunk#readme',
+  },
+  source: {
+    github: 'gavar/wrench',
+    npm: 'rollup-plugin-cleanup-chunk',
   },
   stats: {
     stars: 0,

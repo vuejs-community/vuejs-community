@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'hmr',
     'sandbox',
   ],
-  source: {
-    npm: 'vite-plugin-phpsandbox',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-phpsandbox',
+  },
+  source: {
+    npm: 'vite-plugin-phpsandbox',
   },
   stats: {
     stars: 0,

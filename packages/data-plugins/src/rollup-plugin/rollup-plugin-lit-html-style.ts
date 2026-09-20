@@ -20,13 +20,13 @@ export default defineProjectMeta({
     'literal',
     'minify',
   ],
-  source: {
-    github: 'odinr/rollup',
-    npm: 'rollup-plugin-lit-html-style',
-  },
   links: {
     github: 'https://github.com/odinr/rollup',
     npm: 'https://www.npmjs.com/package/rollup-plugin-lit-html-style',
+  },
+  source: {
+    github: 'odinr/rollup',
+    npm: 'rollup-plugin-lit-html-style',
   },
   stats: {
     stars: 6,

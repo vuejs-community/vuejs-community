@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'image',
     'vite-plugin',
   ],
-  source: {
-    github: 'ohos-ports/ohos-ports',
-    npm: '@ohos-ports/vite-imagetools',
-  },
   links: {
     github: 'https://github.com/ohos-ports/ohos-ports',
     npm: 'https://www.npmjs.com/package/@ohos-ports/vite-imagetools',
     website: 'https://github.com/JonasKruckenberg/imagetools/tree/main/packages/vite',
+  },
+  source: {
+    github: 'ohos-ports/ohos-ports',
+    npm: '@ohos-ports/vite-imagetools',
   },
   stats: {
     stars: 4,

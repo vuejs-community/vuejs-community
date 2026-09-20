@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'esm',
     'polyfill',
   ],
-  source: {
-    github: 'cprecioso/rollup-plugin-wasm',
-    npm: '@cprecioso/rollup-plugin-wasm',
-  },
   links: {
     github: 'https://github.com/cprecioso/rollup-plugin-wasm',
     npm: 'https://www.npmjs.com/package/@cprecioso/rollup-plugin-wasm',
     website: 'https://github.com/cprecioso/rollup-plugin-wasm#readme',
+  },
+  source: {
+    github: 'cprecioso/rollup-plugin-wasm',
+    npm: '@cprecioso/rollup-plugin-wasm',
   },
   stats: {
     stars: 0,

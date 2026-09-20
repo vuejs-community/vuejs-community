@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'eleventy',
   ],
-  source: {
-    github: 'rohenha/vite-plugin-eleventy',
-    npm: '@rohenha/vite-plugin-eleventy',
-  },
   links: {
     github: 'https://github.com/rohenha/vite-plugin-eleventy',
     npm: 'https://www.npmjs.com/package/@rohenha/vite-plugin-eleventy',
     website: 'https://github.com/rohenha/vite-plugin-eleventy#readme',
+  },
+  source: {
+    github: 'rohenha/vite-plugin-eleventy',
+    npm: '@rohenha/vite-plugin-eleventy',
   },
   stats: {
     stars: 0,

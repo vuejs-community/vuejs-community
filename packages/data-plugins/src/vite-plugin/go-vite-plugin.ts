@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'geekr-dev/go-vite-plugin',
-    npm: 'go-vite-plugin',
-  },
   links: {
     github: 'https://github.com/geekr-dev/go-vite-plugin',
     npm: 'https://www.npmjs.com/package/go-vite-plugin',
     website: 'https://github.com/geekr-dev/go-vite-plugin',
+  },
+  source: {
+    github: 'geekr-dev/go-vite-plugin',
+    npm: 'go-vite-plugin',
   },
   stats: {
     stars: 0,

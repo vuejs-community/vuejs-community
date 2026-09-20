@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'zod',
     'zod to zod/mini',
   ],
-  source: {
-    github: 'felixmosh/unplugin-zod-to-mini',
-    npm: 'unplugin-zod-to-mini',
-  },
   links: {
     github: 'https://github.com/felixmosh/unplugin-zod-to-mini',
     npm: 'https://www.npmjs.com/package/unplugin-zod-to-mini',
     website: 'https://github.com/felixmosh/unplugin-zod-to-mini#readme',
+  },
+  source: {
+    github: 'felixmosh/unplugin-zod-to-mini',
+    npm: 'unplugin-zod-to-mini',
   },
   stats: {
     stars: 3,

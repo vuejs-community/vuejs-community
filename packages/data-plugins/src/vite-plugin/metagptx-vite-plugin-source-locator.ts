@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'source',
     'locator',
   ],
-  source: {
-    npm: '@metagptx/vite-plugin-source-locator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@metagptx/vite-plugin-source-locator',
+  },
+  source: {
+    npm: '@metagptx/vite-plugin-source-locator',
   },
   stats: {
     stars: 0,

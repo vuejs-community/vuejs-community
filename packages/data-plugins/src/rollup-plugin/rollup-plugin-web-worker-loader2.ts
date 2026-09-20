@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'web-worker',
     'worker',
   ],
-  source: {
-    github: 'htoooth/rollup-plugin-web-worker-loader',
-    npm: 'rollup-plugin-web-worker-loader2',
-  },
   links: {
     github: 'https://github.com/htoooth/rollup-plugin-web-worker-loader',
     npm: 'https://www.npmjs.com/package/rollup-plugin-web-worker-loader2',
     website: 'https://github.com/htoooth/rollup-plugin-web-worker-loader#readme',
+  },
+  source: {
+    github: 'htoooth/rollup-plugin-web-worker-loader',
+    npm: 'rollup-plugin-web-worker-loader2',
   },
   stats: {
     stars: 0,

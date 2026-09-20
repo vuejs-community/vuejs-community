@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'jail',
     'chroot',
   ],
-  source: {
-    github: 'rezzza/rollup-plugin-node-resolve',
-    npm: 'rollup-plugin-node-resolve-jail',
-  },
   links: {
     github: 'https://github.com/rezzza/rollup-plugin-node-resolve',
     npm: 'https://www.npmjs.com/package/rollup-plugin-node-resolve-jail',
     website: 'https://github.com/rezzza/rollup-plugin-node-resolve#readme',
+  },
+  source: {
+    github: 'rezzza/rollup-plugin-node-resolve',
+    npm: 'rollup-plugin-node-resolve-jail',
   },
   stats: {
     stars: 0,

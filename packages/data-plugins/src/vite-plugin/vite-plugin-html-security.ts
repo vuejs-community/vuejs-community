@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'html-security',
   ],
-  source: {
-    github: 'zys8119/vite-plugin-html-security',
-    npm: 'vite-plugin-html-security',
-  },
   links: {
     github: 'https://github.com/zys8119/vite-plugin-html-security',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-security',
     website: 'https://github.com/zys8119/vite-plugin-html-security',
+  },
+  source: {
+    github: 'zys8119/vite-plugin-html-security',
+    npm: 'vite-plugin-html-security',
   },
   stats: {
     stars: 0,

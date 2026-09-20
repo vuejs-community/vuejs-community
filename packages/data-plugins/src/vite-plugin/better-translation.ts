@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'NoQuarterTeam/better-translation',
-    npm: 'better-translation',
-  },
   links: {
     github: 'https://github.com/NoQuarterTeam/better-translation',
     npm: 'https://www.npmjs.com/package/better-translation',
     website: 'https://www.better-translation.dev',
+  },
+  source: {
+    github: 'NoQuarterTeam/better-translation',
+    npm: 'better-translation',
   },
   stats: {
     stars: 5,

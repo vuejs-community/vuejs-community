@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'Herob527/vite-plugin-svgr',
-    npm: '@herob191/vite-plugin-svgr',
-  },
   links: {
     github: 'https://github.com/Herob527/vite-plugin-svgr',
     npm: 'https://www.npmjs.com/package/@herob191/vite-plugin-svgr',
     website: 'https://github.com/Herob527/vite-plugin-svgr#readme',
+  },
+  source: {
+    github: 'Herob527/vite-plugin-svgr',
+    npm: '@herob191/vite-plugin-svgr',
   },
   stats: {
     stars: 0,

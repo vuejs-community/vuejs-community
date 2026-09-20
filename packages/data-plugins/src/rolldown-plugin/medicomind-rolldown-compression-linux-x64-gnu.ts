@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'zstd',
     'napi-rs',
   ],
-  source: {
-    github: 'Medico-Mind/rolldown-compression',
-    npm: '@medicomind/rolldown-compression-linux-x64-gnu',
-  },
   links: {
     github: 'https://github.com/Medico-Mind/rolldown-compression',
     npm: 'https://www.npmjs.com/package/@medicomind/rolldown-compression-linux-x64-gnu',
     website: 'https://github.com/Medico-Mind/rolldown-compression#readme',
+  },
+  source: {
+    github: 'Medico-Mind/rolldown-compression',
+    npm: '@medicomind/rolldown-compression-linux-x64-gnu',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin-scrub',
     'scrub',
   ],
-  source: {
-    github: 'rav2040/rollup-plugin-scrub',
-    npm: 'rollup-plugin-scrub',
-  },
   links: {
     github: 'https://github.com/rav2040/rollup-plugin-scrub',
     npm: 'https://www.npmjs.com/package/rollup-plugin-scrub',
     website: 'https://github.com/rav2040/rollup-plugin-scrub#readme',
+  },
+  source: {
+    github: 'rav2040/rollup-plugin-scrub',
+    npm: 'rollup-plugin-scrub',
   },
   stats: {
     stars: 1,

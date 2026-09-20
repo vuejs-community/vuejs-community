@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'nextjs',
     'static-site',
   ],
-  source: {
-    github: 'getappz/pageflare-js',
-    npm: 'pageflare',
-  },
   links: {
     github: 'https://github.com/getappz/pageflare-js',
     npm: 'https://www.npmjs.com/package/pageflare',
     website: 'https://pageflare.dev',
+  },
+  source: {
+    github: 'getappz/pageflare-js',
+    npm: 'pageflare',
   },
   stats: {
     stars: 0,

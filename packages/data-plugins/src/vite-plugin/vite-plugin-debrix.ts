@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'debrix',
   ],
-  source: {
-    github: 'debrixjs/debrix',
-    npm: 'vite-plugin-debrix',
-  },
   links: {
     github: 'https://github.com/debrixjs/debrix',
     npm: 'https://www.npmjs.com/package/vite-plugin-debrix',
     website: 'https://github.com/debrixjs/debrix/tree/main/packages/vite-plugin-debrix#readme',
+  },
+  source: {
+    github: 'debrixjs/debrix',
+    npm: 'vite-plugin-debrix',
   },
   stats: {
     stars: 3,

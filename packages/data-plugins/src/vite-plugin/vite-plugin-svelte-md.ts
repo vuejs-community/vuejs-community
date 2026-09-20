@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'markdown-it',
     'markdown-exit',
   ],
-  source: {
-    github: 'ota-meshi/vite-plugin-svelte-md',
-    npm: 'vite-plugin-svelte-md',
-  },
   links: {
     github: 'https://github.com/ota-meshi/vite-plugin-svelte-md',
     npm: 'https://www.npmjs.com/package/vite-plugin-svelte-md',
     website: 'https://github.com/ota-meshi/vite-plugin-svelte-md#readme',
+  },
+  source: {
+    github: 'ota-meshi/vite-plugin-svelte-md',
+    npm: 'vite-plugin-svelte-md',
   },
   stats: {
     stars: 17,

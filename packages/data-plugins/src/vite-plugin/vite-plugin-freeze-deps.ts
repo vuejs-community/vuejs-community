@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'dev-server',
     'cache',
   ],
-  source: {
-    github: 'kolodny/vite-plugin-freeze-deps',
-    npm: 'vite-plugin-freeze-deps',
-  },
   links: {
     github: 'https://github.com/kolodny/vite-plugin-freeze-deps',
     npm: 'https://www.npmjs.com/package/vite-plugin-freeze-deps',
     website: 'https://github.com/kolodny/vite-plugin-freeze-deps#readme',
+  },
+  source: {
+    github: 'kolodny/vite-plugin-freeze-deps',
+    npm: 'vite-plugin-freeze-deps',
   },
   stats: {
     stars: 0,

@@ -12,12 +12,12 @@ export default defineProjectMeta({
     'rollup-plugin',
     'typora-plugin',
   ],
-  source: {
-    npm: '@typora-community-plugin/rollup-plugin-typora',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@typora-community-plugin/rollup-plugin-typora',
     website: 'https://github.com/typora-community-plugin/typora-community-plugin/tree/main/packages/rollup-plugin#README.md',
+  },
+  source: {
+    npm: '@typora-community-plugin/rollup-plugin-typora',
   },
   stats: {
     stars: 0,

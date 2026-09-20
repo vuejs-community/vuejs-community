@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'tags',
     'rollup-plugin',
   ],
-  source: {
-    github: 'avivkeller/rollup-plugin-tidy-templates',
-    npm: 'rollup-plugin-tidy-templates',
-  },
   links: {
     github: 'https://github.com/avivkeller/rollup-plugin-tidy-templates',
     npm: 'https://www.npmjs.com/package/rollup-plugin-tidy-templates',
     website: 'https://github.com/avivkeller/rollup-plugin-tidy-templates#readme',
+  },
+  source: {
+    github: 'avivkeller/rollup-plugin-tidy-templates',
+    npm: 'rollup-plugin-tidy-templates',
   },
   stats: {
     stars: 0,

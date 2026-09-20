@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'import',
     'npm-package',
   ],
-  source: {
-    github: 'kitschpatrol/vite-plugin-tldraw',
-    npm: '@kitschpatrol/vite-plugin-tldraw',
-  },
   links: {
     github: 'https://github.com/kitschpatrol/vite-plugin-tldraw',
     npm: 'https://www.npmjs.com/package/@kitschpatrol/vite-plugin-tldraw',
     website: 'https://github.com/kitschpatrol/vite-plugin-tldraw',
+  },
+  source: {
+    github: 'kitschpatrol/vite-plugin-tldraw',
+    npm: '@kitschpatrol/vite-plugin-tldraw',
   },
   stats: {
     stars: 3,

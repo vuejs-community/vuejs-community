@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'electron',
     'vite-plugin',
   ],
-  source: {
-    npm: '@xyh19/vite-plugin-electron',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xyh19/vite-plugin-electron',
     website: 'https://gitee.com/xxXyh1908/vite-plugin-electron/#readme',
+  },
+  source: {
+    npm: '@xyh19/vite-plugin-electron',
   },
   stats: {
     stars: 0,

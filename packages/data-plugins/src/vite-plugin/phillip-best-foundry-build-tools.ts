@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    github: 'Pjb518/foundry-build-tools',
-    npm: '@phillip-best/foundry-build-tools',
-  },
   links: {
     github: 'https://github.com/Pjb518/foundry-build-tools',
     npm: 'https://www.npmjs.com/package/@phillip-best/foundry-build-tools',
     website: 'https://github.com/Pjb518/foundry-build-tools#readme',
+  },
+  source: {
+    github: 'Pjb518/foundry-build-tools',
+    npm: '@phillip-best/foundry-build-tools',
   },
   stats: {
     stars: 0,

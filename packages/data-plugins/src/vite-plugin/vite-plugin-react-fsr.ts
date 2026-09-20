@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'router',
     'vite',
   ],
-  source: {
-    github: 'mammadataei/vite-plugin-react-fsr',
-    npm: 'vite-plugin-react-fsr',
-  },
   links: {
     github: 'https://github.com/mammadataei/vite-plugin-react-fsr',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-fsr',
     website: 'https://github.com/mammadataei/vite-plugin-react-fsr#readme',
+  },
+  source: {
+    github: 'mammadataei/vite-plugin-react-fsr',
+    npm: 'vite-plugin-react-fsr',
   },
   stats: {
     stars: 25,

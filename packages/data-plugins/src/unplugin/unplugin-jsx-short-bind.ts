@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'zhiyuanzmj/unplugin-jsx-short-bind',
-    npm: 'unplugin-jsx-short-bind',
-  },
   links: {
     github: 'https://github.com/zhiyuanzmj/unplugin-jsx-short-bind',
     npm: 'https://www.npmjs.com/package/unplugin-jsx-short-bind',
     website: 'https://github.com/zhiyuanzmj/unplugin-jsx-short-bind#readme',
+  },
+  source: {
+    github: 'zhiyuanzmj/unplugin-jsx-short-bind',
+    npm: 'unplugin-jsx-short-bind',
   },
   stats: {
     stars: 3,

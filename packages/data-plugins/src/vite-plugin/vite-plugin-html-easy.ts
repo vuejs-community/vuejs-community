@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'minify',
     'vite-plugin',
   ],
-  source: {
-    github: 'TengChongChong/vite-plugin-html',
-    npm: 'vite-plugin-html-easy',
-  },
   links: {
     github: 'https://github.com/TengChongChong/vite-plugin-html',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-easy',
     website: 'https://github.com/TengChongChong/vite-plugin-html/tree/master/#readme',
+  },
+  source: {
+    github: 'TengChongChong/vite-plugin-html',
+    npm: 'vite-plugin-html-easy',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'files',
     'assets',
   ],
-  source: {
-    github: 'jleeson/rollup-plugin-watch',
-    npm: 'rollup-plugin-watch',
-  },
   links: {
     github: 'https://github.com/jleeson/rollup-plugin-watch',
     npm: 'https://www.npmjs.com/package/rollup-plugin-watch',
     website: 'https://github.com/jleeson/rollup-plugin-watch#readme',
+  },
+  source: {
+    github: 'jleeson/rollup-plugin-watch',
+    npm: 'rollup-plugin-watch',
   },
   stats: {
     stars: 8,

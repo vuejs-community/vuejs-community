@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'build-info',
     'git-commit',
   ],
-  source: {
-    npm: 'vite-plugin-release-badge',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-release-badge',
     website: 'https://gitee.com/qq942684961/npm-package-vite-plugin-release-badge',
+  },
+  source: {
+    npm: 'vite-plugin-release-badge',
   },
   stats: {
     stars: 0,

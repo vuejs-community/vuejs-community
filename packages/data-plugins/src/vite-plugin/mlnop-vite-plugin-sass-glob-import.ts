@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'sass-glob-import',
     'sass-glob-import-vite-plugin',
   ],
-  source: {
-    github: 'LaTableRouge/vite-plugin-sass-glob-import',
-    npm: '@mlnop/vite-plugin-sass-glob-import',
-  },
   links: {
     github: 'https://github.com/LaTableRouge/vite-plugin-sass-glob-import',
     npm: 'https://www.npmjs.com/package/@mlnop/vite-plugin-sass-glob-import',
     website: 'https://github.com/LaTableRouge/vite-plugin-sass-glob-import#readme',
+  },
+  source: {
+    github: 'LaTableRouge/vite-plugin-sass-glob-import',
+    npm: '@mlnop/vite-plugin-sass-glob-import',
   },
   stats: {
     stars: 0,

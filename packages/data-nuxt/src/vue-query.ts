@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/Hebilicious/vue-query-nuxt#readme',
   },
   source: {
-    github: 'Hebilicious/vue-query-nuxt#main/packages/vue-query-nuxt',
+    github: 'Hebilicious/vue-query-nuxt',
     npm: '@hebilicious/vue-query-nuxt',
   },
 })

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'reference',
     'apply',
   ],
-  source: {
-    github: 'awaiden/vite-plugin-tailwind-ref',
-    npm: 'vite-plugin-tailwind-ref',
-  },
   links: {
     github: 'https://github.com/awaiden/vite-plugin-tailwind-ref',
     npm: 'https://www.npmjs.com/package/vite-plugin-tailwind-ref',
     website: 'https://github.com/awaiden/vite-plugin-tailwind-ref#readme',
+  },
+  source: {
+    github: 'awaiden/vite-plugin-tailwind-ref',
+    npm: 'vite-plugin-tailwind-ref',
   },
   stats: {
     stars: 0,

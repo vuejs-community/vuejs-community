@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rsbuild',
     'nuxt',
   ],
-  source: {
-    github: 'alwaysmeticulous/meticulous-sdk',
-    npm: '@alwaysmeticulous/recorder-plugin',
-  },
   links: {
     github: 'https://github.com/alwaysmeticulous/meticulous-sdk',
     npm: 'https://www.npmjs.com/package/@alwaysmeticulous/recorder-plugin',
     website: 'https://github.com/alwaysmeticulous/meticulous-sdk',
+  },
+  source: {
+    github: 'alwaysmeticulous/meticulous-sdk',
+    npm: '@alwaysmeticulous/recorder-plugin',
   },
   stats: {
     stars: 28,

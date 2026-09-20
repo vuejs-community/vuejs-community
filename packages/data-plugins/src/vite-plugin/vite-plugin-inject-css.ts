@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'css',
     'js',
   ],
-  source: {
-    npm: 'vite-plugin-inject-css',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-inject-css',
     website: 'https://gitlab.com/Ori6033/vite-plugin-inject-css#readme',
+  },
+  source: {
+    npm: 'vite-plugin-inject-css',
   },
   stats: {
     stars: 0,

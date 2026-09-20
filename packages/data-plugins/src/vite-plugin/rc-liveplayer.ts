@@ -16,14 +16,14 @@ export default defineProjectMeta({
     '@liveqing/liveplayer',
     'liveqing',
   ],
-  source: {
-    github: 'lf7817/react-liveplayer',
-    npm: 'rc-liveplayer',
-  },
   links: {
     github: 'https://github.com/lf7817/react-liveplayer',
     npm: 'https://www.npmjs.com/package/rc-liveplayer',
     website: 'https://github.com/lf7817/react-liveplayer',
+  },
+  source: {
+    github: 'lf7817/react-liveplayer',
+    npm: 'rc-liveplayer',
   },
   stats: {
     stars: 0,

@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'mobile',
     'debug',
   ],
-  source: {
-    npm: 'vite-plugin-console',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-console',
+  },
+  source: {
+    npm: 'vite-plugin-console',
   },
   stats: {
     stars: 0,

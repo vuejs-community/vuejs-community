@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'graph',
     'visualization',
   ],
-  source: {
-    github: 'Hal-Spidernight/vite-plugin-vue-pulse',
-    npm: 'vite-plugin-vue-pulse',
-  },
   links: {
     github: 'https://github.com/Hal-Spidernight/vite-plugin-vue-pulse',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-pulse',
     website: 'https://github.com/Hal-Spidernight/vite-plugin-vue-pulse#readme',
+  },
+  source: {
+    github: 'Hal-Spidernight/vite-plugin-vue-pulse',
+    npm: 'vite-plugin-vue-pulse',
   },
   stats: {
     stars: 3,

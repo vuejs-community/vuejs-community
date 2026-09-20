@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'resolve',
     'alias',
   ],
-  source: {
-    github: 'watertank/rollup-plugin-alias',
-    npm: 'maptalks-rollup-plugin-alias',
-  },
   links: {
     github: 'https://github.com/watertank/rollup-plugin-alias',
     npm: 'https://www.npmjs.com/package/maptalks-rollup-plugin-alias',
     website: 'https://github.com/watertank/rollup-plugin-aliar#readme',
+  },
+  source: {
+    github: 'watertank/rollup-plugin-alias',
+    npm: 'maptalks-rollup-plugin-alias',
   },
   stats: {
     stars: 0,

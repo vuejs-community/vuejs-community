@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'phtmlorg/rollup-plugin-phtml',
-    npm: 'rollup-plugin-phtml',
-  },
   links: {
     github: 'https://github.com/phtmlorg/rollup-plugin-phtml',
     npm: 'https://www.npmjs.com/package/rollup-plugin-phtml',
     website: 'https://github.com/phtmlorg/rollup-plugin-phtml#readme',
+  },
+  source: {
+    github: 'phtmlorg/rollup-plugin-phtml',
+    npm: 'rollup-plugin-phtml',
   },
   stats: {
     stars: 4,

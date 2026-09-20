@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'svelte',
     'sveltekit',
   ],
-  source: {
-    github: 'erbelion/vite-plugin-sveltekit-purgecss',
-    npm: '@erbelion/vite-plugin-sveltekit-purgecss',
-  },
   links: {
     github: 'https://github.com/erbelion/vite-plugin-sveltekit-purgecss',
     npm: 'https://www.npmjs.com/package/@erbelion/vite-plugin-sveltekit-purgecss',
     website: 'https://github.com/erbelion/vite-plugin-sveltekit-purgecss#readme',
+  },
+  source: {
+    github: 'erbelion/vite-plugin-sveltekit-purgecss',
+    npm: '@erbelion/vite-plugin-sveltekit-purgecss',
   },
   stats: {
     stars: 4,

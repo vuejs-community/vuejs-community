@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'electron',
     'electron-builder',
   ],
-  source: {
-    npm: '@tekclaw/vix-electron',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@tekclaw/vix-electron',
+  },
+  source: {
+    npm: '@tekclaw/vix-electron',
   },
   stats: {
     stars: 0,

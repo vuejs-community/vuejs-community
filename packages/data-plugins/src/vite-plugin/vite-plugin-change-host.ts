@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'host',
     'localhost',
   ],
-  source: {
-    github: 'livemehere/vite-plugin-change-host',
-    npm: 'vite-plugin-change-host',
-  },
   links: {
     github: 'https://github.com/livemehere/vite-plugin-change-host',
     npm: 'https://www.npmjs.com/package/vite-plugin-change-host',
+  },
+  source: {
+    github: 'livemehere/vite-plugin-change-host',
+    npm: 'vite-plugin-change-host',
   },
   stats: {
     stars: 1,

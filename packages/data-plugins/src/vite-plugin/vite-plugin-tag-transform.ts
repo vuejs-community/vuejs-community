@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vue3',
     'html-transform',
   ],
-  source: {
-    npm: 'vite-plugin-tag-transform',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-tag-transform',
+  },
+  source: {
+    npm: 'vite-plugin-tag-transform',
   },
   stats: {
     stars: 0,

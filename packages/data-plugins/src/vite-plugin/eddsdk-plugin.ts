@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'Cesium',
     'eddsdk',
   ],
-  source: {
-    github: 'liyu022/eddsdk-plugin',
-    npm: 'eddsdk-plugin',
-  },
   links: {
     github: 'https://github.com/liyu022/eddsdk-plugin',
     npm: 'https://www.npmjs.com/package/eddsdk-plugin',
     website: 'https://github.com/liyu022/eddsdk-plugin#readme',
+  },
+  source: {
+    github: 'liyu022/eddsdk-plugin',
+    npm: 'eddsdk-plugin',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'semi-ui',
   ],
-  source: {
-    github: 'boenfu/vite-plugin-semi-theme',
-    npm: 'vite-plugin-semi-theme',
-  },
   links: {
     github: 'https://github.com/boenfu/vite-plugin-semi-theme',
     npm: 'https://www.npmjs.com/package/vite-plugin-semi-theme',
     website: 'https://github.com/boenfu/vite-plugin-semi-theme#readme',
+  },
+  source: {
+    github: 'boenfu/vite-plugin-semi-theme',
+    npm: 'vite-plugin-semi-theme',
   },
   stats: {
     stars: 14,

@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'environment',
     'sync',
   ],
-  source: {
-    npm: 'vite-plugin-env-sync',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-env-sync',
+  },
+  source: {
+    npm: 'vite-plugin-env-sync',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'aegisrunner',
     'localhost',
   ],
-  source: {
-    github: 'Aegis-Runner/AegisRunner',
-    npm: '@aegisrunner/vite',
-  },
   links: {
     github: 'https://github.com/Aegis-Runner/AegisRunner',
     npm: 'https://www.npmjs.com/package/@aegisrunner/vite',
     website: 'https://aegisrunner.com',
+  },
+  source: {
+    github: 'Aegis-Runner/AegisRunner',
+    npm: '@aegisrunner/vite',
   },
   stats: {
     stars: 2,

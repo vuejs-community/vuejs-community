@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'easycom',
     'cross-subpackage',
   ],
-  source: {
-    github: 'houqiangxie/vite-plugin-uni-subpackage-placeholder',
-    npm: 'vite-plugin-uni-subpackage-placeholder',
-  },
   links: {
     github: 'https://github.com/houqiangxie/vite-plugin-uni-subpackage-placeholder',
     npm: 'https://www.npmjs.com/package/vite-plugin-uni-subpackage-placeholder',
     website: 'https://github.com/houqiangxie/vite-plugin-uni-subpackage-placeholder#readme',
+  },
+  source: {
+    github: 'houqiangxie/vite-plugin-uni-subpackage-placeholder',
+    npm: 'vite-plugin-uni-subpackage-placeholder',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'browser-sync',
   ],
-  source: {
-    github: 'robinloeffel/rollup-plugin-browser-sync',
-    npm: '@rbnlffl/rollup-plugin-browser-sync',
-  },
   links: {
     github: 'https://github.com/robinloeffel/rollup-plugin-browser-sync',
     npm: 'https://www.npmjs.com/package/@rbnlffl/rollup-plugin-browser-sync',
     website: 'https://github.com/robinloeffel/rollup-plugin-browser-sync',
+  },
+  source: {
+    github: 'robinloeffel/rollup-plugin-browser-sync',
+    npm: '@rbnlffl/rollup-plugin-browser-sync',
   },
   stats: {
     stars: 0,

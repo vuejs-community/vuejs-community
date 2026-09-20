@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'proxy',
     'baishu',
   ],
-  source: {
-    npm: '@baishuyun/vite-plugin-dev-proxy',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@baishuyun/vite-plugin-dev-proxy',
     website: 'https://gitlab.baishuyun.com/bsy/bsy-ui-monorepo',
+  },
+  source: {
+    npm: '@baishuyun/vite-plugin-dev-proxy',
   },
   stats: {
     stars: 0,

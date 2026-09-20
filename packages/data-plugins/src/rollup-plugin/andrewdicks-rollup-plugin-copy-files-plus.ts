@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'AndrewDicks/rollup-plugin-copy-files-plus',
-    npm: '@andrewdicks/rollup-plugin-copy-files-plus',
-  },
   links: {
     github: 'https://github.com/AndrewDicks/rollup-plugin-copy-files-plus',
     npm: 'https://www.npmjs.com/package/@andrewdicks/rollup-plugin-copy-files-plus',
     website: 'https://github.com/AndrewDicks/rollup-plugin-copy-files-plus#readme',
+  },
+  source: {
+    github: 'AndrewDicks/rollup-plugin-copy-files-plus',
+    npm: '@andrewdicks/rollup-plugin-copy-files-plus',
   },
   stats: {
     stars: 0,

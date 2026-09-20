@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'scss',
     'components',
   ],
-  source: {
-    github: 'vuluu2k/rollup-plugin-shopify-components',
-    npm: 'rollup-plugin-shopify-components',
-  },
   links: {
     github: 'https://github.com/vuluu2k/rollup-plugin-shopify-components',
     npm: 'https://www.npmjs.com/package/rollup-plugin-shopify-components',
     website: 'https://github.com/vuluu2k/rollup-plugin-shopify-components#readme',
+  },
+  source: {
+    github: 'vuluu2k/rollup-plugin-shopify-components',
+    npm: 'rollup-plugin-shopify-components',
   },
   stats: {
     stars: 1,

@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'site',
     'template',
   ],
-  source: {
-    npm: 'rollup-plugin-static-site',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-static-site',
     website: 'https://gitlab.com/thekelvinliu/rollup-plugin-static-site#readme',
+  },
+  source: {
+    npm: 'rollup-plugin-static-site',
   },
   stats: {
     stars: 0,

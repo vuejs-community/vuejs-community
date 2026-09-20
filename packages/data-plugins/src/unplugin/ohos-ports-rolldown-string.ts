@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'magic-string',
     'rollup',
   ],
-  source: {
-    github: 'ohos-ports/ohos-ports',
-    npm: '@ohos-ports/rolldown-string',
-  },
   links: {
     github: 'https://github.com/ohos-ports/ohos-ports',
     npm: 'https://www.npmjs.com/package/@ohos-ports/rolldown-string',
     website: 'https://github.com/sxzz/rolldown-string#readme',
+  },
+  source: {
+    github: 'ohos-ports/ohos-ports',
+    npm: '@ohos-ports/rolldown-string',
   },
   stats: {
     stars: 0,

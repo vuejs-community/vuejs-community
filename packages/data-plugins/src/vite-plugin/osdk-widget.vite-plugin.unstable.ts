@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'palantir/osdk-ts',
-    npm: '@osdk/widget.vite-plugin.unstable',
-  },
   links: {
     github: 'https://github.com/palantir/osdk-ts',
     npm: 'https://www.npmjs.com/package/@osdk/widget.vite-plugin.unstable',
     website: 'https://github.com/palantir/osdk-ts#readme',
+  },
+  source: {
+    github: 'palantir/osdk-ts',
+    npm: '@osdk/widget.vite-plugin.unstable',
   },
   stats: {
     stars: 0,

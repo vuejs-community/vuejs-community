@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'webgl-shaders',
     'webgpu-shaders',
   ],
-  source: {
-    github: 'UstymUkhman/vite-plugin-glsl',
-    npm: 'vite-plugin-glsl',
-  },
   links: {
     github: 'https://github.com/UstymUkhman/vite-plugin-glsl',
     npm: 'https://www.npmjs.com/package/vite-plugin-glsl',
     website: 'https://github.com/UstymUkhman/vite-plugin-glsl#readme',
+  },
+  source: {
+    github: 'UstymUkhman/vite-plugin-glsl',
+    npm: 'vite-plugin-glsl',
   },
   stats: {
     stars: 423,

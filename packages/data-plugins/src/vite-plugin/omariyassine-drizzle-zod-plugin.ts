@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'schema',
     'virtual-module',
   ],
-  source: {
-    npm: '@omariyassine/drizzle-zod-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@omariyassine/drizzle-zod-plugin',
+  },
+  source: {
+    npm: '@omariyassine/drizzle-zod-plugin',
   },
   stats: {
     stars: 0,

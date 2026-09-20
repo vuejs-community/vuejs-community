@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'binify',
   ],
-  source: {
-    github: 'kshutkin/rollup-extras',
-    npm: '@rollup-extras/plugin-binify',
-  },
   links: {
     github: 'https://github.com/kshutkin/rollup-extras',
     npm: 'https://www.npmjs.com/package/@rollup-extras/plugin-binify',
     website: 'https://github.com/kshutkin/rollup-extras/blob/main/plugin-binify/README.md',
+  },
+  source: {
+    github: 'kshutkin/rollup-extras',
+    npm: '@rollup-extras/plugin-binify',
   },
   stats: {
     stars: 0,

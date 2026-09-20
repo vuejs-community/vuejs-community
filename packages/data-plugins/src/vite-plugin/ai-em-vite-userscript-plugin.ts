@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'greasemonkey',
     'violentmonkey',
   ],
-  source: {
-    github: 'crashmax-dev/vite-userscript-plugin',
-    npm: '@ai-em/vite-userscript-plugin',
-  },
   links: {
     github: 'https://github.com/crashmax-dev/vite-userscript-plugin',
     npm: 'https://www.npmjs.com/package/@ai-em/vite-userscript-plugin',
     website: 'https://github.com/crashmax-dev/vite-userscript-plugin#readme',
+  },
+  source: {
+    github: 'crashmax-dev/vite-userscript-plugin',
+    npm: '@ai-em/vite-userscript-plugin',
   },
   stats: {
     stars: 64,

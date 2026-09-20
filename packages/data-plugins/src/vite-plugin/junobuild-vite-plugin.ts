@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'junobuild/plugins',
-    npm: '@junobuild/vite-plugin',
-  },
   links: {
     github: 'https://github.com/junobuild/plugins',
     npm: 'https://www.npmjs.com/package/@junobuild/vite-plugin',
     website: 'https://juno.build',
+  },
+  source: {
+    github: 'junobuild/plugins',
+    npm: '@junobuild/vite-plugin',
   },
   stats: {
     stars: 3,

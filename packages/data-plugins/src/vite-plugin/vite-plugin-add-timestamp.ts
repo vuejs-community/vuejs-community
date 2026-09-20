@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'wensiyuanseven/vite-add-timestamp',
-    npm: 'vite-plugin-add-timestamp',
-  },
   links: {
     github: 'https://github.com/wensiyuanseven/vite-add-timestamp',
     npm: 'https://www.npmjs.com/package/vite-plugin-add-timestamp',
     website: 'https://github.com/wensiyuanseven/vite-add-timestamp#readme',
+  },
+  source: {
+    github: 'wensiyuanseven/vite-add-timestamp',
+    npm: 'vite-plugin-add-timestamp',
   },
   stats: {
     stars: 3,

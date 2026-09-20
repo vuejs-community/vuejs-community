@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'assets',
     'copy',
   ],
-  source: {
-    github: 'sakitam-fdd/rollup-plugin-copied',
-    npm: 'rollup-plugin-copied',
-  },
   links: {
     github: 'https://github.com/sakitam-fdd/rollup-plugin-copied',
     npm: 'https://www.npmjs.com/package/rollup-plugin-copied',
     website: 'https://github.com/sakitam-fdd/rollup-plugin-copied#README',
+  },
+  source: {
+    github: 'sakitam-fdd/rollup-plugin-copied',
+    npm: 'rollup-plugin-copied',
   },
   stats: {
     stars: 2,

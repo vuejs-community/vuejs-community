@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'prefix-localstorage',
   ],
-  source: {
-    github: 'vhxubo/rollup-plugin-prefix-localstorage',
-    npm: 'rollup-plugin-prefix-localstorage',
-  },
   links: {
     github: 'https://github.com/vhxubo/rollup-plugin-prefix-localstorage',
     npm: 'https://www.npmjs.com/package/rollup-plugin-prefix-localstorage',
     website: 'https://github.com/vhxubo/rollup-plugin-prefix-localstorage#readme',
+  },
+  source: {
+    github: 'vhxubo/rollup-plugin-prefix-localstorage',
+    npm: 'rollup-plugin-prefix-localstorage',
   },
   stats: {
     stars: 0,

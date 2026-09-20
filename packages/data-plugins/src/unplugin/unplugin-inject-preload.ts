@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'preload',
     'inject',
   ],
-  source: {
-    github: 'applelo/unplugin-inject-preload',
-    npm: 'unplugin-inject-preload',
-  },
   links: {
     github: 'https://github.com/applelo/unplugin-inject-preload',
     npm: 'https://www.npmjs.com/package/unplugin-inject-preload',
     website: 'https://github.com/applelo/unplugin-inject-preload#readme',
+  },
+  source: {
+    github: 'applelo/unplugin-inject-preload',
+    npm: 'unplugin-inject-preload',
   },
   stats: {
     stars: 39,

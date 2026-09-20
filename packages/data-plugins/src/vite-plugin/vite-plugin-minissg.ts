@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'ssg',
     'ssr',
   ],
-  source: {
-    github: 'uenoB/minissg',
-    npm: 'vite-plugin-minissg',
-  },
   links: {
     github: 'https://github.com/uenoB/minissg',
     npm: 'https://www.npmjs.com/package/vite-plugin-minissg',
     website: 'https://github.com/uenoB/minissg/tree/main/packages/vite-plugin-minissg/#readme',
+  },
+  source: {
+    github: 'uenoB/minissg',
+    npm: 'vite-plugin-minissg',
   },
   stats: {
     stars: 4,

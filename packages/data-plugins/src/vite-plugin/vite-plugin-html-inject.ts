@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'html-loader',
     'loader',
   ],
-  source: {
-    github: 'donnikitos/vite-plugin-html-inject',
-    npm: 'vite-plugin-html-inject',
-  },
   links: {
     github: 'https://github.com/donnikitos/vite-plugin-html-inject',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-inject',
     website: 'https://github.com/donnikitos/vite-plugin-html-inject#readme',
+  },
+  source: {
+    github: 'donnikitos/vite-plugin-html-inject',
+    npm: 'vite-plugin-html-inject',
   },
   stats: {
     stars: 88,

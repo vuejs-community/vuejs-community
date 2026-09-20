@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'goodswifter/unplugin-images',
-    npm: 'unplugin-images',
-  },
   links: {
     github: 'https://github.com/goodswifter/unplugin-images',
     npm: 'https://www.npmjs.com/package/unplugin-images',
     website: 'https://github.com/goodswifter/unplugin-images#readme',
+  },
+  source: {
+    github: 'goodswifter/unplugin-images',
+    npm: 'unplugin-images',
   },
   stats: {
     stars: 1,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'tree-shaking',
   ],
-  source: {
-    github: 'facebook/lexical',
-    npm: '@lexical/compiler',
-  },
   links: {
     github: 'https://github.com/facebook/lexical',
     npm: 'https://www.npmjs.com/package/@lexical/compiler',
     website: 'https://lexical.dev/docs/packages/lexical-compiler',
+  },
+  source: {
+    github: 'facebook/lexical',
+    npm: '@lexical/compiler',
   },
   stats: {
     stars: 23859,

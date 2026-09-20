@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'easy-react',
     'jsx',
   ],
-  source: {
-    npm: 'easy-react-vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/easy-react-vite-plugin',
+  },
+  source: {
+    npm: 'easy-react-vite-plugin',
   },
   stats: {
     stars: 0,

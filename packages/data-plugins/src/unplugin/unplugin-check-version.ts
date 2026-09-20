@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'CoutinhoTTS/unplugin-versions-check',
-    npm: 'unplugin-check-version',
-  },
   links: {
     github: 'https://github.com/CoutinhoTTS/unplugin-versions-check',
     npm: 'https://www.npmjs.com/package/unplugin-check-version',
     website: 'https://github.com/CoutinhoTTS/unplugin-versions-check#readme',
+  },
+  source: {
+    github: 'CoutinhoTTS/unplugin-versions-check',
+    npm: 'unplugin-check-version',
   },
   stats: {
     stars: 10,

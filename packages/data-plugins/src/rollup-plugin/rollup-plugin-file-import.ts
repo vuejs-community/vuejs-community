@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'file',
     'require',
   ],
-  source: {
-    github: 'r0kan/rollup-plugin-file-import',
-    npm: 'rollup-plugin-file-import',
-  },
   links: {
     github: 'https://github.com/r0kan/rollup-plugin-file-import',
     npm: 'https://www.npmjs.com/package/rollup-plugin-file-import',
     website: 'https://github.com/r0kan/rollup-plugin-file-import#readme',
+  },
+  source: {
+    github: 'r0kan/rollup-plugin-file-import',
+    npm: 'rollup-plugin-file-import',
   },
   stats: {
     stars: 0,

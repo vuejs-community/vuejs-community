@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'renderer',
     'ipc',
   ],
-  source: {
-    github: 'brettlamy/vite-plugin-use-electron',
-    npm: 'vite-plugin-use-electron',
-  },
   links: {
     github: 'https://github.com/brettlamy/vite-plugin-use-electron',
     npm: 'https://www.npmjs.com/package/vite-plugin-use-electron',
     website: 'https://github.com/brettlamy/vite-plugin-use-electron#readme',
+  },
+  source: {
+    github: 'brettlamy/vite-plugin-use-electron',
+    npm: 'vite-plugin-use-electron',
   },
   stats: {
     stars: 0,

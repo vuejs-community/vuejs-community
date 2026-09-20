@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'unnoq-unplugin',
     'unplugin',
   ],
-  source: {
-    github: 'unnoq/unnoq',
-    npm: '@unnoq/unplugin',
-  },
   links: {
     github: 'https://github.com/unnoq/unnoq',
     npm: 'https://www.npmjs.com/package/@unnoq/unplugin',
     website: 'https://github.com/unnoq/unnoq',
+  },
+  source: {
+    github: 'unnoq/unnoq',
+    npm: '@unnoq/unplugin',
   },
   stats: {
     stars: 1,

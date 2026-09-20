@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'modules',
     'es2022',
   ],
-  source: {
-    github: 'zOadT/concurrent-top-level-await-plugins',
-    npm: 'rollup-plugin-concurrent-top-level-await',
-  },
   links: {
     github: 'https://github.com/zOadT/concurrent-top-level-await-plugins',
     npm: 'https://www.npmjs.com/package/rollup-plugin-concurrent-top-level-await',
     website: 'https://github.com/zOadT/concurrent-top-level-await-plugins/tree/main/packages/rollup-plugin#readme',
+  },
+  source: {
+    github: 'zOadT/concurrent-top-level-await-plugins',
+    npm: 'rollup-plugin-concurrent-top-level-await',
   },
   stats: {
     stars: 0,

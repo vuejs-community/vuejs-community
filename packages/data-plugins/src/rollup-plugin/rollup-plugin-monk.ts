@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'npm',
     'modules',
   ],
-  source: {
-    github: 'JavaGT/rollup-plugin-monk',
-    npm: 'rollup-plugin-monk',
-  },
   links: {
     github: 'https://github.com/JavaGT/rollup-plugin-monk',
     npm: 'https://www.npmjs.com/package/rollup-plugin-monk',
     website: 'https://github.com/JavaGT/rollup-plugin-monk#readme',
+  },
+  source: {
+    github: 'JavaGT/rollup-plugin-monk',
+    npm: 'rollup-plugin-monk',
   },
   stats: {
     stars: 0,

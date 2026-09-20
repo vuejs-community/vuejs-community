@@ -39,14 +39,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'yaml',
   ],
-  source: {
-    github: 'importables/importable',
-    npm: '@importable/yaml',
-  },
   links: {
     github: 'https://github.com/importables/importable',
     npm: 'https://www.npmjs.com/package/@importable/yaml',
     website: 'https://github.com/importables/importable/',
+  },
+  source: {
+    github: 'importables/importable',
+    npm: '@importable/yaml',
   },
   stats: {
     stars: 0,

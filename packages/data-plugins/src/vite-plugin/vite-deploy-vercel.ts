@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'adapter',
     'vercel',
   ],
-  source: {
-    github: 'web-runes/vite-deploy',
-    npm: '@vite-deploy/vercel',
-  },
   links: {
     github: 'https://github.com/web-runes/vite-deploy',
     npm: 'https://www.npmjs.com/package/@vite-deploy/vercel',
     website: 'https://vite-deploy.web-runes.dev',
+  },
+  source: {
+    github: 'web-runes/vite-deploy',
+    npm: '@vite-deploy/vercel',
   },
   stats: {
     stars: 0,

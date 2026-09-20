@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'static',
     'pug',
   ],
-  source: {
-    github: 'macropygia/static-site-stack',
-    npm: '@macropygia/vite-plugin-pug-static',
-  },
   links: {
     github: 'https://github.com/macropygia/static-site-stack',
     npm: 'https://www.npmjs.com/package/@macropygia/vite-plugin-pug-static',
     website: 'https://github.com/macropygia/static-site-stack/tree/main/packages/vite-plugin-pug-static#readme',
+  },
+  source: {
+    github: 'macropygia/static-site-stack',
+    npm: '@macropygia/vite-plugin-pug-static',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'git',
   ],
-  source: {
-    github: 'jinbekim/vite-plugin-git-info',
-    npm: 'vite-plugin-git-info-env',
-  },
   links: {
     github: 'https://github.com/jinbekim/vite-plugin-git-info',
     npm: 'https://www.npmjs.com/package/vite-plugin-git-info-env',
     website: 'https://github.com/jinbekim/vite-plugin-git-info#readme',
+  },
+  source: {
+    github: 'jinbekim/vite-plugin-git-info',
+    npm: 'vite-plugin-git-info-env',
   },
   stats: {
     stars: 0,

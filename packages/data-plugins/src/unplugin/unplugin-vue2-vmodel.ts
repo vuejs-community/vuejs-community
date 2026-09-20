@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'moliyu/unplugin-vue2-vmodel',
-    npm: 'unplugin-vue2-vmodel',
-  },
   links: {
     github: 'https://github.com/moliyu/unplugin-vue2-vmodel',
     npm: 'https://www.npmjs.com/package/unplugin-vue2-vmodel',
     website: 'https://github.com/moliyu/unplugin-vue2-vmodel#readme',
+  },
+  source: {
+    github: 'moliyu/unplugin-vue2-vmodel',
+    npm: 'unplugin-vue2-vmodel',
   },
   stats: {
     stars: 1,

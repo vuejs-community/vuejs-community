@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'hmvc',
   ],
-  source: {
-    github: 'pinoox/vite-plugin',
-    npm: '@pinooxhq/vite-plugin',
-  },
   links: {
     github: 'https://github.com/pinoox/vite-plugin',
     npm: 'https://www.npmjs.com/package/@pinooxhq/vite-plugin',
     website: 'https://github.com/pinoox/vite-plugin#readme',
+  },
+  source: {
+    github: 'pinoox/vite-plugin',
+    npm: '@pinooxhq/vite-plugin',
   },
   stats: {
     stars: 2,

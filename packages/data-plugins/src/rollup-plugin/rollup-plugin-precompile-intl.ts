@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'translations',
     'i18n',
   ],
-  source: {
-    github: 'cibernox/rollup-plugin-precompile-intl',
-    npm: 'rollup-plugin-precompile-intl',
-  },
   links: {
     github: 'https://github.com/cibernox/rollup-plugin-precompile-intl',
     npm: 'https://www.npmjs.com/package/rollup-plugin-precompile-intl',
     website: 'https://github.com/cibernox/rollup-plugin-precompile-intl#readme',
+  },
+  source: {
+    github: 'cibernox/rollup-plugin-precompile-intl',
+    npm: 'rollup-plugin-precompile-intl',
   },
   stats: {
     stars: 0,

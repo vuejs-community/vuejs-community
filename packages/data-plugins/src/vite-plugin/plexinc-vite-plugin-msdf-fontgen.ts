@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'plexinc/react-lightning',
-    npm: '@plexinc/vite-plugin-msdf-fontgen',
-  },
   links: {
     github: 'https://github.com/plexinc/react-lightning',
     npm: 'https://www.npmjs.com/package/@plexinc/vite-plugin-msdf-fontgen',
     website: 'https://github.com/plexinc/react-lightning#readme',
+  },
+  source: {
+    github: 'plexinc/react-lightning',
+    npm: '@plexinc/vite-plugin-msdf-fontgen',
   },
   stats: {
     stars: 18,

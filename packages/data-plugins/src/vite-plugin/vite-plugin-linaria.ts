@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'css',
     'vite-plugin',
   ],
-  source: {
-    github: 'denn1s/vite-plugin-linaria',
-    npm: 'vite-plugin-linaria',
-  },
   links: {
     github: 'https://github.com/denn1s/vite-plugin-linaria',
     npm: 'https://www.npmjs.com/package/vite-plugin-linaria',
     website: 'https://github.com/denn1s/vite-plugin-linaria/tree/master/#readme',
+  },
+  source: {
+    github: 'denn1s/vite-plugin-linaria',
+    npm: 'vite-plugin-linaria',
   },
   stats: {
     stars: 29,

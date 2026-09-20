@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'cloudflare',
     'vercel',
   ],
-  source: {
-    github: 'JoviDeCroock/pracht',
-    npm: '@pracht/vite-plugin',
-  },
   links: {
     github: 'https://github.com/JoviDeCroock/pracht',
     npm: 'https://www.npmjs.com/package/@pracht/vite-plugin',
     website: 'https://github.com/JoviDeCroock/pracht/tree/main/packages/vite-plugin',
+  },
+  source: {
+    github: 'JoviDeCroock/pracht',
+    npm: '@pracht/vite-plugin',
   },
   stats: {
     stars: 97,

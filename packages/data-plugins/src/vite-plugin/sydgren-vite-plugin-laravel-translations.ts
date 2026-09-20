@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'json',
     'php',
   ],
-  source: {
-    github: 'sydgren/vite-plugin-laravel-translations',
-    npm: '@sydgren/vite-plugin-laravel-translations',
-  },
   links: {
     github: 'https://github.com/sydgren/vite-plugin-laravel-translations',
     npm: 'https://www.npmjs.com/package/@sydgren/vite-plugin-laravel-translations',
     website: 'https://github.com/sydgren/vite-plugin-laravel-translations#readme',
+  },
+  source: {
+    github: 'sydgren/vite-plugin-laravel-translations',
+    npm: '@sydgren/vite-plugin-laravel-translations',
   },
   stats: {
     stars: 0,

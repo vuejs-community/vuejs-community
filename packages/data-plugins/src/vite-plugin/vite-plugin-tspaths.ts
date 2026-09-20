@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'typescript',
     'tsconfig',
   ],
-  source: {
-    npm: 'vite-plugin-tspaths',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-tspaths',
+  },
+  source: {
+    npm: 'vite-plugin-tspaths',
   },
   stats: {
     stars: 0,

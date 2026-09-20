@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'dark-mode',
     'theme-switcher',
   ],
-  source: {
-    github: 'yvygyyth/theme-css',
-    npm: 'vite-plugin-theme-css',
-  },
   links: {
     github: 'https://github.com/yvygyyth/theme-css',
     npm: 'https://www.npmjs.com/package/vite-plugin-theme-css',
     website: 'https://github.com/yvygyyth/theme-css#readme',
+  },
+  source: {
+    github: 'yvygyyth/theme-css',
+    npm: 'vite-plugin-theme-css',
   },
   stats: {
     stars: 0,

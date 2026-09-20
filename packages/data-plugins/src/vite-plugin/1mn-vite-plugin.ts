@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'error-tracking',
     'sentry',
   ],
-  source: {
-    github: 'usefulagents/1mn-sdk',
-    npm: '@1mn/vite-plugin',
-  },
   links: {
     github: 'https://github.com/usefulagents/1mn-sdk',
     npm: 'https://www.npmjs.com/package/@1mn/vite-plugin',
     website: 'https://github.com/usefulagents/1mn-sdk/tree/main/vite-plugin#readme',
+  },
+  source: {
+    github: 'usefulagents/1mn-sdk',
+    npm: '@1mn/vite-plugin',
   },
   stats: {
     stars: 0,

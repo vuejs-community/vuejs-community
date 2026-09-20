@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'mpa',
   ],
-  source: {
-    github: 'iyyybz/unplugin-mpa',
-    npm: 'unplugin-mpa',
-  },
   links: {
     github: 'https://github.com/iyyybz/unplugin-mpa',
     npm: 'https://www.npmjs.com/package/unplugin-mpa',
     website: 'https://github.com/iyyybz/unplugin-mpa#readme',
+  },
+  source: {
+    github: 'iyyybz/unplugin-mpa',
+    npm: 'unplugin-mpa',
   },
   stats: {
     stars: 0,

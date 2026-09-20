@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'instrument',
     'middleware',
   ],
-  source: {
-    github: 'fargass/vite-node-plugin',
-    npm: 'vite-node-plugin',
-  },
   links: {
     github: 'https://github.com/fargass/vite-node-plugin',
     npm: 'https://www.npmjs.com/package/vite-node-plugin',
     website: 'https://github.com/fargass/vite-node-plugin',
+  },
+  source: {
+    github: 'fargass/vite-node-plugin',
+    npm: 'vite-node-plugin',
   },
   stats: {
     stars: 0,

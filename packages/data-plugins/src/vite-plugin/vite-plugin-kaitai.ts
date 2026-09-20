@@ -12,13 +12,13 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'theaninova/vite-plugin-kaitai',
-    npm: 'vite-plugin-kaitai',
-  },
   links: {
     github: 'https://github.com/theaninova/vite-plugin-kaitai',
     npm: 'https://www.npmjs.com/package/vite-plugin-kaitai',
+  },
+  source: {
+    github: 'theaninova/vite-plugin-kaitai',
+    npm: 'vite-plugin-kaitai',
   },
   stats: {
     stars: 2,

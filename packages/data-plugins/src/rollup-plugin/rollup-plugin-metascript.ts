@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'metascript',
   ],
-  source: {
-    github: '125m125/splconfigurator',
-    npm: 'rollup-plugin-metascript',
-  },
   links: {
     github: 'https://github.com/125m125/splconfigurator',
     npm: 'https://www.npmjs.com/package/rollup-plugin-metascript',
     website: 'https://github.com/125m125/splconfigurator#readme',
+  },
+  source: {
+    github: '125m125/splconfigurator',
+    npm: 'rollup-plugin-metascript',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'domutils',
     'dom-serializer',
   ],
-  source: {
-    github: 'bent10/vite-plugins',
-    npm: 'vite-plugin-dom',
-  },
   links: {
     github: 'https://github.com/bent10/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-dom',
     website: 'https://github.com/bent10/vite-plugins/tree/main/packages/plugin-dom',
+  },
+  source: {
+    github: 'bent10/vite-plugins',
+    npm: 'vite-plugin-dom',
   },
   stats: {
     stars: 0,

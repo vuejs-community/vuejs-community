@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'zod',
   ],
-  source: {
-    github: 'pyyupsk/vite-env',
-    npm: '@vite-env/core',
-  },
   links: {
     github: 'https://github.com/pyyupsk/vite-env',
     npm: 'https://www.npmjs.com/package/@vite-env/core',
     website: 'https://github.com/pyyupsk/vite-env#readme',
+  },
+  source: {
+    github: 'pyyupsk/vite-env',
+    npm: '@vite-env/core',
   },
   stats: {
     stars: 4,

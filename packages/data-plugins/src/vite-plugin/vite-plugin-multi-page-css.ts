@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite-plugin-multi-page',
     'vite-plugin-multi-page-css',
   ],
-  source: {
-    npm: 'vite-plugin-multi-page-css',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-multi-page-css',
+  },
+  source: {
+    npm: 'vite-plugin-multi-page-css',
   },
   stats: {
     stars: 0,

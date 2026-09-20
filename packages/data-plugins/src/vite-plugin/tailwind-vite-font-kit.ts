@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'web-vitals',
     'size-adjust',
   ],
-  source: {
-    github: 'hbmartin/tailwind-vite-font-kit',
-    npm: 'tailwind-vite-font-kit',
-  },
   links: {
     github: 'https://github.com/hbmartin/tailwind-vite-font-kit',
     npm: 'https://www.npmjs.com/package/tailwind-vite-font-kit',
     website: 'https://github.com/hbmartin/tailwind-vite-font-kit#readme',
+  },
+  source: {
+    github: 'hbmartin/tailwind-vite-font-kit',
+    npm: 'tailwind-vite-font-kit',
   },
   stats: {
     stars: 0,

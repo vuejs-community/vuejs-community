@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'templateUrl',
     'styleUrl',
   ],
-  source: {
-    github: 'IonCna/ng-js-vite',
-    npm: 'ng-js-vite',
-  },
   links: {
     github: 'https://github.com/IonCna/ng-js-vite',
     npm: 'https://www.npmjs.com/package/ng-js-vite',
     website: 'https://github.com/IonCna/ng-js-vite#readme',
+  },
+  source: {
+    github: 'IonCna/ng-js-vite',
+    npm: 'ng-js-vite',
   },
   stats: {
     stars: 0,

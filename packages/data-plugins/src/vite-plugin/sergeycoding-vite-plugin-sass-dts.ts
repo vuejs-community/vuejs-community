@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'generics',
     'cssmodules',
   ],
-  source: {
-    github: 'sergeycoding/vite-plugin-sass-dts',
-    npm: '@sergeycoding/vite-plugin-sass-dts',
-  },
   links: {
     github: 'https://github.com/sergeycoding/vite-plugin-sass-dts',
     npm: 'https://www.npmjs.com/package/@sergeycoding/vite-plugin-sass-dts',
     website: 'https://github.com/sergeycoding/vite-plugin-sass-dts#readme',
+  },
+  source: {
+    github: 'sergeycoding/vite-plugin-sass-dts',
+    npm: '@sergeycoding/vite-plugin-sass-dts',
   },
   stats: {
     stars: 0,

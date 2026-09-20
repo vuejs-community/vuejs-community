@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'module federation',
     'microfrontend',
   ],
-  source: {
-    github: 'module-federation/vite',
-    npm: '@module-federation/vite',
-  },
   links: {
     github: 'https://github.com/module-federation/vite',
     npm: 'https://www.npmjs.com/package/@module-federation/vite',
     website: 'https://github.com/module-federation/vite#readme',
+  },
+  source: {
+    github: 'module-federation/vite',
+    npm: '@module-federation/vite',
   },
   stats: {
     stars: 873,

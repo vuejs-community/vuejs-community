@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'claude-code',
     'dev-tools',
   ],
-  source: {
-    github: 'hong-arch/click-and-review',
-    npm: 'click-review',
-  },
   links: {
     github: 'https://github.com/hong-arch/click-and-review',
     npm: 'https://www.npmjs.com/package/click-review',
     website: 'https://github.com/hong-arch/click-and-review',
+  },
+  source: {
+    github: 'hong-arch/click-and-review',
+    npm: 'click-review',
   },
   stats: {
     stars: 0,

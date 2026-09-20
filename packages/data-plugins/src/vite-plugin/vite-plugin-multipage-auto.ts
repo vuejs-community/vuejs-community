@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite',
     'multipage-auto',
   ],
-  source: {
-    npm: 'vite-plugin-multipage-auto',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-multipage-auto',
+  },
+  source: {
+    npm: 'vite-plugin-multipage-auto',
   },
   stats: {
     stars: 0,

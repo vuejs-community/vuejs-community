@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'devtool',
     'vibe-coding',
   ],
-  source: {
-    github: 'larsien/waipoint',
-    npm: 'waipoint',
-  },
   links: {
     github: 'https://github.com/larsien/waipoint',
     npm: 'https://www.npmjs.com/package/waipoint',
     website: 'https://github.com/larsien/waipoint',
+  },
+  source: {
+    github: 'larsien/waipoint',
+    npm: 'waipoint',
   },
   stats: {
     stars: 2,

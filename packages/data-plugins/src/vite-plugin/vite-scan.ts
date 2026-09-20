@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'performance',
     'scan',
   ],
-  source: {
-    github: 'arashsheyda/vite-scan',
-    npm: 'vite-scan',
-  },
   links: {
     github: 'https://github.com/arashsheyda/vite-scan',
     npm: 'https://www.npmjs.com/package/vite-scan',
     website: 'https://github.com/arashsheyda/vite-scan#readme',
+  },
+  source: {
+    github: 'arashsheyda/vite-scan',
+    npm: 'vite-scan',
   },
   stats: {
     stars: 1,

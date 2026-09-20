@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'app-version',
     'release',
   ],
-  source: {
-    github: 'ishizakahiroshi/vite-plugin-git-version',
-    npm: '@ishizakahiroshi/vite-plugin-git-version',
-  },
   links: {
     github: 'https://github.com/ishizakahiroshi/vite-plugin-git-version',
     npm: 'https://www.npmjs.com/package/@ishizakahiroshi/vite-plugin-git-version',
     website: 'https://github.com/ishizakahiroshi/vite-plugin-git-version#readme',
+  },
+  source: {
+    github: 'ishizakahiroshi/vite-plugin-git-version',
+    npm: '@ishizakahiroshi/vite-plugin-git-version',
   },
   stats: {
     stars: 0,

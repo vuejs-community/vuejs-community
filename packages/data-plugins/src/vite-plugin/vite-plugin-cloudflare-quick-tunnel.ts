@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'trycloudflare',
     'quick-tunnel',
   ],
-  source: {
-    github: 'alyyousuf7/vite-plugin-cloudflare-quick-tunnel',
-    npm: 'vite-plugin-cloudflare-quick-tunnel',
-  },
   links: {
     github: 'https://github.com/alyyousuf7/vite-plugin-cloudflare-quick-tunnel',
     npm: 'https://www.npmjs.com/package/vite-plugin-cloudflare-quick-tunnel',
     website: 'https://github.com/alyyousuf7/vite-plugin-cloudflare-quick-tunnel#readme',
+  },
+  source: {
+    github: 'alyyousuf7/vite-plugin-cloudflare-quick-tunnel',
+    npm: 'vite-plugin-cloudflare-quick-tunnel',
   },
   stats: {
     stars: 1,

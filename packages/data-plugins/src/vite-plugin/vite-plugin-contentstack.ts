@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'contentstack',
   ],
-  source: {
-    github: 'rodneysantos/vite-plugin-contentstack',
-    npm: 'vite-plugin-contentstack',
-  },
   links: {
     github: 'https://github.com/rodneysantos/vite-plugin-contentstack',
     npm: 'https://www.npmjs.com/package/vite-plugin-contentstack',
     website: 'https://github.com/rodneysantos/vite-plugin-contentstack#readme',
+  },
+  source: {
+    github: 'rodneysantos/vite-plugin-contentstack',
+    npm: 'vite-plugin-contentstack',
   },
   stats: {
     stars: 0,

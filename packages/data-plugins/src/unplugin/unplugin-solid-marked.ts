@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'lxsmnsyc/solid-marked',
-    npm: 'unplugin-solid-marked',
-  },
   links: {
     github: 'https://github.com/lxsmnsyc/solid-marked',
     npm: 'https://www.npmjs.com/package/unplugin-solid-marked',
     website: 'https://github.com/lxsmnsyc/solid-marked/tree/main/packages/unplugin',
+  },
+  source: {
+    github: 'lxsmnsyc/solid-marked',
+    npm: 'unplugin-solid-marked',
   },
   stats: {
     stars: 0,

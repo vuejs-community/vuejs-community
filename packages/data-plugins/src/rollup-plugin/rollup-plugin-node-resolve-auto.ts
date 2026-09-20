@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'npm',
     'modules',
   ],
-  source: {
-    github: 'nolanlawson/rollup-plugin-node-resolve-auto',
-    npm: 'rollup-plugin-node-resolve-auto',
-  },
   links: {
     github: 'https://github.com/nolanlawson/rollup-plugin-node-resolve-auto',
     npm: 'https://www.npmjs.com/package/rollup-plugin-node-resolve-auto',
     website: 'https://github.com/nolanlawson/rollup-plugin-node-resolve-auto#readme',
+  },
+  source: {
+    github: 'nolanlawson/rollup-plugin-node-resolve-auto',
+    npm: 'rollup-plugin-node-resolve-auto',
   },
   stats: {
     stars: 1,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'openapi-spec',
     'rest-api',
   ],
-  source: {
-    github: 'Michael-Obele/sveltekit-api-gen',
-    npm: 'sveltekit-openapi-generator',
-  },
   links: {
     github: 'https://github.com/Michael-Obele/sveltekit-api-gen',
     npm: 'https://www.npmjs.com/package/sveltekit-openapi-generator',
     website: 'https://oapi.svelte-apps.me/',
+  },
+  source: {
+    github: 'Michael-Obele/sveltekit-api-gen',
+    npm: 'sveltekit-openapi-generator',
   },
   stats: {
     stars: 0,

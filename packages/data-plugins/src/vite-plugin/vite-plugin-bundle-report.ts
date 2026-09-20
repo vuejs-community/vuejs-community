@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'analyzer',
     'dependencies',
   ],
-  source: {
-    npm: 'vite-plugin-bundle-report',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-bundle-report',
+  },
+  source: {
+    npm: 'vite-plugin-bundle-report',
   },
   stats: {
     stars: 0,

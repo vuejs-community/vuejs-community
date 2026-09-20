@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'single-file',
     'html',
   ],
-  source: {
-    github: 'waerhert/vite-plugin-encrypted-html',
-    npm: 'vite-plugin-encrypted-html',
-  },
   links: {
     github: 'https://github.com/waerhert/vite-plugin-encrypted-html',
     npm: 'https://www.npmjs.com/package/vite-plugin-encrypted-html',
     website: 'https://github.com/waerhert/vite-plugin-encrypted-html#readme',
+  },
+  source: {
+    github: 'waerhert/vite-plugin-encrypted-html',
+    npm: 'vite-plugin-encrypted-html',
   },
   stats: {
     stars: 0,

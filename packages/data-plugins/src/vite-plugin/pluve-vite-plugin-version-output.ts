@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'vite-plugin',
     '@pluve/vite-plugin-version-output',
   ],
-  source: {
-    npm: '@pluve/vite-plugin-version-output',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@pluve/vite-plugin-version-output',
     website: 'https://gitlab.pharmacyyf.com/frontend-common/vite-plugin-version-output',
+  },
+  source: {
+    npm: '@pluve/vite-plugin-version-output',
   },
   stats: {
     stars: 0,

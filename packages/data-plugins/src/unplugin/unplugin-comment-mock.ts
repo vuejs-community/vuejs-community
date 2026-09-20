@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'dixdiydiz/unplugin-comment-mock',
-    npm: 'unplugin-comment-mock',
-  },
   links: {
     github: 'https://github.com/dixdiydiz/unplugin-comment-mock',
     npm: 'https://www.npmjs.com/package/unplugin-comment-mock',
     website: 'https://github.com/dixdiydiz/unplugin-comment-mock#readme',
+  },
+  source: {
+    github: 'dixdiydiz/unplugin-comment-mock',
+    npm: 'unplugin-comment-mock',
   },
   stats: {
     stars: 4,

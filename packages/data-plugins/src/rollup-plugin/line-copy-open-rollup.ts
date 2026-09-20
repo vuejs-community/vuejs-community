@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vue-devtools',
     'react-devtools',
   ],
-  source: {
-    github: 'zjxxxxxxxxx/open-editor',
-    npm: '@line-copy-open/rollup',
-  },
   links: {
     github: 'https://github.com/zjxxxxxxxxx/open-editor',
     npm: 'https://www.npmjs.com/package/@line-copy-open/rollup',
     website: 'https://github.com/zjxxxxxxxxx/open-editor#readme',
+  },
+  source: {
+    github: 'zjxxxxxxxxx/open-editor',
+    npm: '@line-copy-open/rollup',
   },
   stats: {
     stars: 0,

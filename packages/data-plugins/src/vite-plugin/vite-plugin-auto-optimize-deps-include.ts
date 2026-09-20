@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-auto-optimize-deps-include',
   ],
-  source: {
-    github: 'laihaojie/vite-plugin-auto-optimize-deps-include',
-    npm: 'vite-plugin-auto-optimize-deps-include',
-  },
   links: {
     github: 'https://github.com/laihaojie/vite-plugin-auto-optimize-deps-include',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-optimize-deps-include',
     website: 'https://github.com/laihaojie/vite-plugin-auto-optimize-deps-include#readme',
+  },
+  source: {
+    github: 'laihaojie/vite-plugin-auto-optimize-deps-include',
+    npm: 'vite-plugin-auto-optimize-deps-include',
   },
   stats: {
     stars: 1,

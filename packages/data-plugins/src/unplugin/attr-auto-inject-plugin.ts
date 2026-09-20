@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'tsx',
     'automatic generation',
   ],
-  source: {
-    github: 'EgorChindyasov/attr-auto-inject-plugin',
-    npm: 'attr-auto-inject-plugin',
-  },
   links: {
     github: 'https://github.com/EgorChindyasov/attr-auto-inject-plugin',
     npm: 'https://www.npmjs.com/package/attr-auto-inject-plugin',
     website: 'https://github.com/EgorChindyasov/attr-auto-inject-plugin',
+  },
+  source: {
+    github: 'EgorChindyasov/attr-auto-inject-plugin',
+    npm: 'attr-auto-inject-plugin',
   },
   stats: {
     stars: 0,

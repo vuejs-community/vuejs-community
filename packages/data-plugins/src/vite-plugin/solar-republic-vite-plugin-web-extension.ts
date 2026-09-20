@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'manifest V2',
     'manifest V3',
   ],
-  source: {
-    github: 'samrum/vite-plugin-web-extension',
-    npm: '@solar-republic/vite-plugin-web-extension',
-  },
   links: {
     github: 'https://github.com/samrum/vite-plugin-web-extension',
     npm: 'https://www.npmjs.com/package/@solar-republic/vite-plugin-web-extension',
     website: 'https://github.com/samrum/vite-plugin-web-extension#readme',
+  },
+  source: {
+    github: 'samrum/vite-plugin-web-extension',
+    npm: '@solar-republic/vite-plugin-web-extension',
   },
   stats: {
     stars: 0,

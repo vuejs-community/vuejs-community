@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'blinko',
   ],
-  source: {
-    npm: 'vite-plugin-blinko',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-blinko',
+  },
+  source: {
+    npm: 'vite-plugin-blinko',
   },
   stats: {
     stars: 0,

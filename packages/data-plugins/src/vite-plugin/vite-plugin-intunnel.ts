@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'intunnel',
   ],
-  source: {
-    github: 'Coder-King3/vite-plugin-intunnel',
-    npm: 'vite-plugin-intunnel',
-  },
   links: {
     github: 'https://github.com/Coder-King3/vite-plugin-intunnel',
     npm: 'https://www.npmjs.com/package/vite-plugin-intunnel',
     website: 'https://github.com/Coder-King3/vite-plugin-intunnel',
+  },
+  source: {
+    github: 'Coder-King3/vite-plugin-intunnel',
+    npm: 'vite-plugin-intunnel',
   },
   stats: {
     stars: 1,

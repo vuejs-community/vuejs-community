@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'unplugin',
     'vue',
   ],
-  source: {
-    npm: '@moment-design/resolver',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@moment-design/resolver',
     website: 'https://ui.tp.shopping818.com/',
+  },
+  source: {
+    npm: '@moment-design/resolver',
   },
   stats: {
     stars: 0,

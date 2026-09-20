@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vue3',
     'vue',
   ],
-  source: {
-    github: 'jaw52/unplugin-svg-vue-component',
-    npm: 'unplugin-svg-vue-component',
-  },
   links: {
     github: 'https://github.com/jaw52/unplugin-svg-vue-component',
     npm: 'https://www.npmjs.com/package/unplugin-svg-vue-component',
     website: 'https://github.com/jaw52/unplugin-svg-vue-component#readme',
+  },
+  source: {
+    github: 'jaw52/unplugin-svg-vue-component',
+    npm: 'unplugin-svg-vue-component',
   },
   stats: {
     stars: 3,

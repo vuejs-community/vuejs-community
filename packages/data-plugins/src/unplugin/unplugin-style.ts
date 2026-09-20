@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'kirklin/unplugin-style',
-    npm: 'unplugin-style',
-  },
   links: {
     github: 'https://github.com/kirklin/unplugin-style',
     npm: 'https://www.npmjs.com/package/unplugin-style',
     website: 'https://github.com/kirklin/unplugin-style#readme',
+  },
+  source: {
+    github: 'kirklin/unplugin-style',
+    npm: 'unplugin-style',
   },
   stats: {
     stars: 0,

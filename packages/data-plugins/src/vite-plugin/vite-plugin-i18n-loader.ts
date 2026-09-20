@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'yaml',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-i18n-loader',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-i18n-loader',
+  },
+  source: {
+    npm: 'vite-plugin-i18n-loader',
   },
   stats: {
     stars: 0,

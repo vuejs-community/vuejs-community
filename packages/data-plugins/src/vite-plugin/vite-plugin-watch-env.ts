@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'dot-env',
     'env',
   ],
-  source: {
-    github: 'Enoooch/vite-plugin-watch-env',
-    npm: 'vite-plugin-watch-env',
-  },
   links: {
     github: 'https://github.com/Enoooch/vite-plugin-watch-env',
     npm: 'https://www.npmjs.com/package/vite-plugin-watch-env',
     website: 'https://github.com/Enoooch/vite-plugin-watch-env',
+  },
+  source: {
+    github: 'Enoooch/vite-plugin-watch-env',
+    npm: 'vite-plugin-watch-env',
   },
   stats: {
     stars: 0,

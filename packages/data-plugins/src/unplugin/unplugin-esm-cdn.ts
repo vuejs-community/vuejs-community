@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'lemonfog/unplugin-esm-cdn',
-    npm: 'unplugin-esm-cdn',
-  },
   links: {
     github: 'https://github.com/lemonfog/unplugin-esm-cdn',
     npm: 'https://www.npmjs.com/package/unplugin-esm-cdn',
     website: 'https://github.com/lemonfog/unplugin-esm-cdn#readme',
+  },
+  source: {
+    github: 'lemonfog/unplugin-esm-cdn',
+    npm: 'unplugin-esm-cdn',
   },
   stats: {
     stars: 2,

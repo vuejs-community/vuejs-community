@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-spa',
     'vite-plugin',
   ],
-  source: {
-    github: 'kaivanwong/vite-plugin-app',
-    npm: 'vite-plugin-app',
-  },
   links: {
     github: 'https://github.com/kaivanwong/vite-plugin-app',
     npm: 'https://www.npmjs.com/package/vite-plugin-app',
     website: 'https://github.com/kaivanwong/vite-plugin-app#readme',
+  },
+  source: {
+    github: 'kaivanwong/vite-plugin-app',
+    npm: 'vite-plugin-app',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'sourcemaps',
     'production',
   ],
-  source: {
-    github: 'clinggroup/vite-plugin-rollbar',
-    npm: 'vite-plugin-rollbar',
-  },
   links: {
     github: 'https://github.com/clinggroup/vite-plugin-rollbar',
     npm: 'https://www.npmjs.com/package/vite-plugin-rollbar',
     website: 'https://github.com/clinggroup/vite-plugin-rollbar#readme',
+  },
+  source: {
+    github: 'clinggroup/vite-plugin-rollbar',
+    npm: 'vite-plugin-rollbar',
   },
   stats: {
     stars: 6,

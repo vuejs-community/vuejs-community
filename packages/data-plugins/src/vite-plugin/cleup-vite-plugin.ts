@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'cleup/vite-plugin',
-    npm: 'cleup-vite-plugin',
-  },
   links: {
     github: 'https://github.com/cleup/vite-plugin',
     npm: 'https://www.npmjs.com/package/cleup-vite-plugin',
     website: 'https://github.com/cleup/vite-plugin',
+  },
+  source: {
+    github: 'cleup/vite-plugin',
+    npm: 'cleup-vite-plugin',
   },
   stats: {
     stars: 0,

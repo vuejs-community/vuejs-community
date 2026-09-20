@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'posthtml',
   ],
-  source: {
-    github: 'chromeos/static-site-scaffold-modules',
-    npm: 'vite-plugin-posthtml',
-  },
   links: {
     github: 'https://github.com/chromeos/static-site-scaffold-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-posthtml',
     website: 'https://github.com/chromeos/static-site-scaffold-modules#readme',
+  },
+  source: {
+    github: 'chromeos/static-site-scaffold-modules',
+    npm: 'vite-plugin-posthtml',
   },
   stats: {
     stars: 59,

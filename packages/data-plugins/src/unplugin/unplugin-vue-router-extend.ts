@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'unplugin-vue-router',
   ],
-  source: {
-    github: 'zhiyuanzmj/unplugin-vue-router-extend',
-    npm: 'unplugin-vue-router-extend',
-  },
   links: {
     github: 'https://github.com/zhiyuanzmj/unplugin-vue-router-extend',
     npm: 'https://www.npmjs.com/package/unplugin-vue-router-extend',
     website: 'https://github.com/zhiyuanzmj/unplugin-vue-router-extend#readme',
+  },
+  source: {
+    github: 'zhiyuanzmj/unplugin-vue-router-extend',
+    npm: 'unplugin-vue-router-extend',
   },
   stats: {
     stars: 4,

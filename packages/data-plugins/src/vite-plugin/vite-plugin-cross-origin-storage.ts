@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'content-addressed',
     'performance',
   ],
-  source: {
-    github: 'danielroe/cross-origin-storage',
-    npm: 'vite-plugin-cross-origin-storage',
-  },
   links: {
     github: 'https://github.com/danielroe/cross-origin-storage',
     npm: 'https://www.npmjs.com/package/vite-plugin-cross-origin-storage',
     website: 'https://github.com/danielroe/cross-origin-storage#readme',
+  },
+  source: {
+    github: 'danielroe/cross-origin-storage',
+    npm: 'vite-plugin-cross-origin-storage',
   },
   stats: {
     stars: 33,

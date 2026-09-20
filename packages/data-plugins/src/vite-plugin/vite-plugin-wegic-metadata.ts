@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'jsx',
     'metadata',
   ],
-  source: {
-    npm: 'vite-plugin-wegic-metadata',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-wegic-metadata',
+  },
+  source: {
+    npm: 'vite-plugin-wegic-metadata',
   },
   stats: {
     stars: 0,

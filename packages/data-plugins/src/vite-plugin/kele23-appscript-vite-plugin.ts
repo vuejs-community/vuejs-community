@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'appscript',
     'gas',
   ],
-  source: {
-    github: 'kele23/appscript-vite-plugin',
-    npm: '@kele23/appscript-vite-plugin',
-  },
   links: {
     github: 'https://github.com/kele23/appscript-vite-plugin',
     npm: 'https://www.npmjs.com/package/@kele23/appscript-vite-plugin',
     website: 'https://github.com/kele23/appscript-vite-plugin#readme',
+  },
+  source: {
+    github: 'kele23/appscript-vite-plugin',
+    npm: '@kele23/appscript-vite-plugin',
   },
   stats: {
     stars: 0,

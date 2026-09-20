@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'devtools',
     'ai',
   ],
-  source: {
-    github: 'robonen/vite-vue-mcp-inspect',
-    npm: 'vite-vue-mcp-inspect',
-  },
   links: {
     github: 'https://github.com/robonen/vite-vue-mcp-inspect',
     npm: 'https://www.npmjs.com/package/vite-vue-mcp-inspect',
     website: 'https://github.com/robonen/vite-vue-mcp-inspect#readme',
+  },
+  source: {
+    github: 'robonen/vite-vue-mcp-inspect',
+    npm: 'vite-vue-mcp-inspect',
   },
   stats: {
     stars: 0,

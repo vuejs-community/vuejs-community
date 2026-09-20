@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'webpack',
     'rollup',
   ],
-  source: {
-    github: 'gympass/unplugins',
-    npm: 'unplugin-graphql-parse',
-  },
   links: {
     github: 'https://github.com/gympass/unplugins',
     npm: 'https://www.npmjs.com/package/unplugin-graphql-parse',
     website: 'https://github.com/gympass/unplugins#readme',
+  },
+  source: {
+    github: 'gympass/unplugins',
+    npm: 'unplugin-graphql-parse',
   },
   stats: {
     stars: 2,

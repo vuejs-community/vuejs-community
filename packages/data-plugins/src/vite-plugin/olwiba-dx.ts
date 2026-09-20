@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'figlet',
     'eslint-config',
   ],
-  source: {
-    github: 'Olwiba/olwibaDX',
-    npm: '@olwiba/dx',
-  },
   links: {
     github: 'https://github.com/Olwiba/olwibaDX',
     npm: 'https://www.npmjs.com/package/@olwiba/dx',
     website: 'https://github.com/Olwiba/olwibaDX#readme',
+  },
+  source: {
+    github: 'Olwiba/olwibaDX',
+    npm: '@olwiba/dx',
   },
   stats: {
     stars: 0,

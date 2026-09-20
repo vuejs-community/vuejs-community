@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'information',
     'dump',
   ],
-  source: {
-    github: 'eight04/rollup-plugin-es-info',
-    npm: 'rollup-plugin-es-info',
-  },
   links: {
     github: 'https://github.com/eight04/rollup-plugin-es-info',
     npm: 'https://www.npmjs.com/package/rollup-plugin-es-info',
     website: 'https://github.com/eight04/rollup-plugin-es-info#readme',
+  },
+  source: {
+    github: 'eight04/rollup-plugin-es-info',
+    npm: 'rollup-plugin-es-info',
   },
   stats: {
     stars: 0,

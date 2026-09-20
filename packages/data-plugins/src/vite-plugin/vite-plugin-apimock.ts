@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'apimock',
   ],
-  source: {
-    github: 'pangxiaoli/vite-plugin-ApiMock',
-    npm: 'vite-plugin-apimock',
-  },
   links: {
     github: 'https://github.com/pangxiaoli/vite-plugin-ApiMock',
     npm: 'https://www.npmjs.com/package/vite-plugin-apimock',
     website: 'https://github.com/pangxiaoli/vite-plugin-ApiMock',
+  },
+  source: {
+    github: 'pangxiaoli/vite-plugin-ApiMock',
+    npm: 'vite-plugin-apimock',
   },
   stats: {
     stars: 1,

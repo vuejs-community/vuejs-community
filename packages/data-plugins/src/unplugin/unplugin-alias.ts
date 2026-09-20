@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'alias',
   ],
-  source: {
-    github: 'LoTwT/unplugin-alias',
-    npm: 'unplugin-alias',
-  },
   links: {
     github: 'https://github.com/LoTwT/unplugin-alias',
     npm: 'https://www.npmjs.com/package/unplugin-alias',
     website: 'https://github.com/LoTwT/unplugin-alias#readme',
+  },
+  source: {
+    github: 'LoTwT/unplugin-alias',
+    npm: 'unplugin-alias',
   },
   stats: {
     stars: 0,

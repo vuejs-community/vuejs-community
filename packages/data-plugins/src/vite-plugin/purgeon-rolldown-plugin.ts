@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'tree-shaking',
     'vite-plugin',
   ],
-  source: {
-    github: 'knst0/purgeon',
-    npm: '@purgeon/rolldown-plugin',
-  },
   links: {
     github: 'https://github.com/knst0/purgeon',
     npm: 'https://www.npmjs.com/package/@purgeon/rolldown-plugin',
+  },
+  source: {
+    github: 'knst0/purgeon',
+    npm: '@purgeon/rolldown-plugin',
   },
   stats: {
     stars: 0,

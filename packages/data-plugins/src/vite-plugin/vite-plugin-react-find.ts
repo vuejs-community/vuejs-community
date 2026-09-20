@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin-react-inspector',
     'vite-plugin-react-find',
   ],
-  source: {
-    github: 'MkinG2k0/vite-plugin-react-find',
-    npm: 'vite-plugin-react-find',
-  },
   links: {
     github: 'https://github.com/MkinG2k0/vite-plugin-react-find',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-find',
     website: 'https://github.com/MkinG2k0/vite-plugin-react-find#readme',
+  },
+  source: {
+    github: 'MkinG2k0/vite-plugin-react-find',
+    npm: 'vite-plugin-react-find',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'modding',
   ],
-  source: {
-    github: 'DooDesch-Mods/ScheduleOne-Sideload',
-    npm: '@doodesch/sideload-vite',
-  },
   links: {
     github: 'https://github.com/DooDesch-Mods/ScheduleOne-Sideload',
     npm: 'https://www.npmjs.com/package/@doodesch/sideload-vite',
     website: 'https://github.com/DooDesch-Mods/ScheduleOne-Sideload#readme',
+  },
+  source: {
+    github: 'DooDesch-Mods/ScheduleOne-Sideload',
+    npm: '@doodesch/sideload-vite',
   },
   stats: {
     stars: 2,

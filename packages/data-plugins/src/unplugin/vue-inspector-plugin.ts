@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'varHarrie/vue-inspector-plugin',
-    npm: 'vue-inspector-plugin',
-  },
   links: {
     github: 'https://github.com/varHarrie/vue-inspector-plugin',
     npm: 'https://www.npmjs.com/package/vue-inspector-plugin',
     website: 'https://github.com/varHarrie/vue-inspector-plugin#readme',
+  },
+  source: {
+    github: 'varHarrie/vue-inspector-plugin',
+    npm: 'vue-inspector-plugin',
   },
   stats: {
     stars: 2,

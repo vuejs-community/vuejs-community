@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'i18n',
     'internationalization',
   ],
-  source: {
-    github: 'padcom/vue-i18n-kudutsa',
-    npm: '@padcom/vite-plugin-vue-i18n-kudutsa',
-  },
   links: {
     github: 'https://github.com/padcom/vue-i18n-kudutsa',
     npm: 'https://www.npmjs.com/package/@padcom/vite-plugin-vue-i18n-kudutsa',
     website: 'https://github.com/padcom/vue-i18n-kudutsa#readme',
+  },
+  source: {
+    github: 'padcom/vue-i18n-kudutsa',
+    npm: '@padcom/vite-plugin-vue-i18n-kudutsa',
   },
   stats: {
     stars: 0,

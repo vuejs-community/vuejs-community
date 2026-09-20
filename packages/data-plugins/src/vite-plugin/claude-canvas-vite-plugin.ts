@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'annotation',
     'devtools',
   ],
-  source: {
-    github: 'whdudguq/claude-canvas',
-    npm: '@claude-canvas/vite-plugin',
-  },
   links: {
     github: 'https://github.com/whdudguq/claude-canvas',
     npm: 'https://www.npmjs.com/package/@claude-canvas/vite-plugin',
     website: 'https://github.com/whdudguq/claude-canvas#readme',
+  },
+  source: {
+    github: 'whdudguq/claude-canvas',
+    npm: '@claude-canvas/vite-plugin',
   },
   stats: {
     stars: 0,

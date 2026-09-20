@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'jariberg/vite-plugin-svg-plus',
-    npm: 'vite-plugin-svg-plus',
-  },
   links: {
     github: 'https://github.com/jariberg/vite-plugin-svg-plus',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-plus',
     website: 'https://github.com/jariberg/vite-plugin-svg-plus#readme',
+  },
+  source: {
+    github: 'jariberg/vite-plugin-svg-plus',
+    npm: 'vite-plugin-svg-plus',
   },
   stats: {
     stars: 0,

@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'spa',
     'reload',
   ],
-  source: {
-    npm: 'vite-plugin-spa-reload',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-spa-reload',
+  },
+  source: {
+    npm: 'vite-plugin-spa-reload',
   },
   stats: {
     stars: 0,

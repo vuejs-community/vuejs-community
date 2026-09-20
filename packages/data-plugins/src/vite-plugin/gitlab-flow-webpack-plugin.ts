@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'console',
     'pipeline',
   ],
-  source: {
-    github: 'zhangbowy/gitlab-flow-webpack-plugin',
-    npm: 'gitlab-flow-webpack-plugin',
-  },
   links: {
     github: 'https://github.com/zhangbowy/gitlab-flow-webpack-plugin',
     npm: 'https://www.npmjs.com/package/gitlab-flow-webpack-plugin',
     website: 'https://github.com/zhangbowy/gitlab-flow-webpack-plugin#readme',
+  },
+  source: {
+    github: 'zhangbowy/gitlab-flow-webpack-plugin',
+    npm: 'gitlab-flow-webpack-plugin',
   },
   stats: {
     stars: 0,

@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'solid',
     'preact',
   ],
-  source: {
-    github: 'jackBoVip/vite-enhance',
-    npm: 'vite-enhance',
-  },
   links: {
     github: 'https://github.com/jackBoVip/vite-enhance',
     npm: 'https://www.npmjs.com/package/vite-enhance',
     website: 'https://github.com/jackBoVip/vite-enhance#readme',
+  },
+  source: {
+    github: 'jackBoVip/vite-enhance',
+    npm: 'vite-enhance',
   },
   stats: {
     stars: 1,

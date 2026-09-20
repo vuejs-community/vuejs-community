@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'git',
     'CI',
   ],
-  source: {
-    github: 'yjl9903/unplugin-info',
-    npm: '@woomai/unplugin-info',
-  },
   links: {
     github: 'https://github.com/yjl9903/unplugin-info',
     npm: 'https://www.npmjs.com/package/@woomai/unplugin-info',
     website: 'https://github.com/yjl9903/unplugin-info#readme',
+  },
+  source: {
+    github: 'yjl9903/unplugin-info',
+    npm: '@woomai/unplugin-info',
   },
   stats: {
     stars: 0,

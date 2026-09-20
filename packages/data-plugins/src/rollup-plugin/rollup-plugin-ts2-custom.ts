@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rollup',
     'npm',
   ],
-  source: {
-    github: 'ezolenko/rollup-plugin-typescript2',
-    npm: 'rollup-plugin-ts2-custom',
-  },
   links: {
     github: 'https://github.com/ezolenko/rollup-plugin-typescript2',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ts2-custom',
     website: 'https://github.com/ezolenko/rollup-plugin-typescript2',
+  },
+  source: {
+    github: 'ezolenko/rollup-plugin-typescript2',
+    npm: 'rollup-plugin-ts2-custom',
   },
   stats: {
     stars: 0,

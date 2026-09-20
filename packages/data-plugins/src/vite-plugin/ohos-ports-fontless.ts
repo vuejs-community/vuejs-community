@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'css',
     'javascript',
   ],
-  source: {
-    github: 'ohos-ports/ohos-ports',
-    npm: '@ohos-ports/fontless',
-  },
   links: {
     github: 'https://github.com/ohos-ports/ohos-ports',
     npm: 'https://www.npmjs.com/package/@ohos-ports/fontless',
     website: 'https://github.com/ohos-ports/ohos-ports#readme',
+  },
+  source: {
+    github: 'ohos-ports/ohos-ports',
+    npm: '@ohos-ports/fontless',
   },
 })

@@ -24,14 +24,14 @@ export default defineProjectMeta({
     '预渲染',
     '静态化',
   ],
-  source: {
-    github: 'lzwme/prerender-kit',
-    npm: '@lzwme/prerender-kit',
-  },
   links: {
     github: 'https://github.com/lzwme/prerender-kit',
     npm: 'https://www.npmjs.com/package/@lzwme/prerender-kit',
     website: 'https://github.com/lzwme/prerender-kit',
+  },
+  source: {
+    github: 'lzwme/prerender-kit',
+    npm: '@lzwme/prerender-kit',
   },
   stats: {
     stars: 1,

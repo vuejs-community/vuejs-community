@@ -15,10 +15,10 @@ export default defineProjectMeta({
     'version-json',
     'cache-refresh',
   ],
-  source: {
-    npm: '@gitlon/version',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@gitlon/version',
+  },
+  source: {
+    npm: '@gitlon/version',
   },
 })

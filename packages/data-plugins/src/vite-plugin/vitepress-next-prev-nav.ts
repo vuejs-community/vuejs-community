@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'navigation',
     'docs',
   ],
-  source: {
-    github: 'truonghoangnguyen/vitepress-next-prev-nav',
-    npm: 'vitepress-next-prev-nav',
-  },
   links: {
     github: 'https://github.com/truonghoangnguyen/vitepress-next-prev-nav',
     npm: 'https://www.npmjs.com/package/vitepress-next-prev-nav',
     website: 'https://github.com/truonghoangnguyen/vitepress-next-prev-nav',
+  },
+  source: {
+    github: 'truonghoangnguyen/vitepress-next-prev-nav',
+    npm: 'vitepress-next-prev-nav',
   },
   stats: {
     stars: 0,

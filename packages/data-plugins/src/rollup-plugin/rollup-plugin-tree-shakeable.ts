@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'tree-shaking',
   ],
-  source: {
-    github: 'TomerAberbach/rollup-plugin-tree-shakeable',
-    npm: 'rollup-plugin-tree-shakeable',
-  },
   links: {
     github: 'https://github.com/TomerAberbach/rollup-plugin-tree-shakeable',
     npm: 'https://www.npmjs.com/package/rollup-plugin-tree-shakeable',
     website: 'https://github.com/TomerAberbach/rollup-plugin-tree-shakeable',
+  },
+  source: {
+    github: 'TomerAberbach/rollup-plugin-tree-shakeable',
+    npm: 'rollup-plugin-tree-shakeable',
   },
   stats: {
     stars: 10,

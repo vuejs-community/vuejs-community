@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'ipc',
     'typescript',
   ],
-  source: {
-    npm: 'vite-plugin-use-ipc',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-use-ipc',
+  },
+  source: {
+    npm: 'vite-plugin-use-ipc',
   },
   stats: {
     stars: 0,

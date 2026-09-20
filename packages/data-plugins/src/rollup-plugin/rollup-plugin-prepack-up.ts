@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'plugin',
     'rollup',
   ],
-  source: {
-    github: 'joseluisq/rollup-plugin-prepack-up',
-    npm: 'rollup-plugin-prepack-up',
-  },
   links: {
     github: 'https://github.com/joseluisq/rollup-plugin-prepack-up',
     npm: 'https://www.npmjs.com/package/rollup-plugin-prepack-up',
     website: 'https://github.com/joseluisq/rollup-plugin-prepack-up#readme',
+  },
+  source: {
+    github: 'joseluisq/rollup-plugin-prepack-up',
+    npm: 'rollup-plugin-prepack-up',
   },
   stats: {
     stars: 1,

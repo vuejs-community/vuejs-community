@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'blakearoberts/visage',
-    npm: '@blakearoberts/visage',
-  },
   links: {
     github: 'https://github.com/blakearoberts/visage',
     npm: 'https://www.npmjs.com/package/@blakearoberts/visage',
     website: 'https://github.com/blakearoberts/visage#readme',
+  },
+  source: {
+    github: 'blakearoberts/visage',
+    npm: '@blakearoberts/visage',
   },
   stats: {
     stars: 1,

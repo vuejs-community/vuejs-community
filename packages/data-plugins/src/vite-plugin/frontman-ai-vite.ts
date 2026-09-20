@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'development',
     'middleware',
   ],
-  source: {
-    github: 'frontman-ai/frontman',
-    npm: '@frontman-ai/vite',
-  },
   links: {
     github: 'https://github.com/frontman-ai/frontman',
     npm: 'https://www.npmjs.com/package/@frontman-ai/vite',
     website: 'https://frontman.sh',
+  },
+  source: {
+    github: 'frontman-ai/frontman',
+    npm: '@frontman-ai/vite',
   },
   stats: {
     stars: 697,

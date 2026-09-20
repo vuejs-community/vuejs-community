@@ -13,13 +13,13 @@ export default defineProjectMeta({
     'vite-plugin',
     'fathom',
   ],
-  source: {
-    github: 'robbevp/vite-plugin-fathom',
-    npm: 'vite-plugin-fathom',
-  },
   links: {
     github: 'https://github.com/robbevp/vite-plugin-fathom',
     npm: 'https://www.npmjs.com/package/vite-plugin-fathom',
+  },
+  source: {
+    github: 'robbevp/vite-plugin-fathom',
+    npm: 'vite-plugin-fathom',
   },
   stats: {
     stars: 0,

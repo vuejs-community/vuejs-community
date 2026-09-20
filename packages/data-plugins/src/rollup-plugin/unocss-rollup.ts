@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'rolldown-plugin',
   ],
-  source: {
-    github: 'unocss/unocss',
-    npm: '@unocss/rollup',
-  },
   links: {
     github: 'https://github.com/unocss/unocss',
     npm: 'https://www.npmjs.com/package/@unocss/rollup',
     website: 'https://unocss.dev',
+  },
+  source: {
+    github: 'unocss/unocss',
+    npm: '@unocss/rollup',
   },
   stats: {
     stars: 0,

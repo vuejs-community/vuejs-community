@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'types',
     'unplugin',
   ],
-  source: {
-    github: 'freb97/discofetch',
-    npm: 'discofetch',
-  },
   links: {
     github: 'https://github.com/freb97/discofetch',
     npm: 'https://www.npmjs.com/package/discofetch',
     website: 'https://github.com/freb97/discofetch#readme',
+  },
+  source: {
+    github: 'freb97/discofetch',
+    npm: 'discofetch',
   },
   stats: {
     stars: 21,

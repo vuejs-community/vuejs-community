@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'debug',
     'inspector',
   ],
-  source: {
-    github: 'chrislentz/svelte-devtools',
-    npm: '@svelte-devtools/vite-plugin',
-  },
   links: {
     github: 'https://github.com/chrislentz/svelte-devtools',
     npm: 'https://www.npmjs.com/package/@svelte-devtools/vite-plugin',
     website: 'https://github.com/chrislentz/svelte-devtools#readme',
+  },
+  source: {
+    github: 'chrislentz/svelte-devtools',
+    npm: '@svelte-devtools/vite-plugin',
   },
   stats: {
     stars: 9,

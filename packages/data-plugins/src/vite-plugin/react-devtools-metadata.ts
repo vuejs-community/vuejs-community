@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'debugging',
     'source-maps',
   ],
-  source: {
-    github: 'yourusername/react-devtools-metadata',
-    npm: 'react-devtools-metadata',
-  },
   links: {
     github: 'https://github.com/yourusername/react-devtools-metadata',
     npm: 'https://www.npmjs.com/package/react-devtools-metadata',
     website: 'https://github.com/yourusername/react-devtools-metadata#readme',
+  },
+  source: {
+    github: 'yourusername/react-devtools-metadata',
+    npm: 'react-devtools-metadata',
   },
   stats: {
     stars: 0,

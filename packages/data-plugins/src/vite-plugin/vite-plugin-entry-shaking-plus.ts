@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'entry',
     'tree shaking',
   ],
-  source: {
-    github: 'Dschungelabenteuer/vite-plugin-entry-shaking',
-    npm: 'vite-plugin-entry-shaking-plus',
-  },
   links: {
     github: 'https://github.com/Dschungelabenteuer/vite-plugin-entry-shaking',
     npm: 'https://www.npmjs.com/package/vite-plugin-entry-shaking-plus',
     website: 'https://github.com/Dschungelabenteuer/vite-plugin-entry-shaking/tree/main/#readme',
+  },
+  source: {
+    github: 'Dschungelabenteuer/vite-plugin-entry-shaking',
+    npm: 'vite-plugin-entry-shaking-plus',
   },
   stats: {
     stars: 0,

@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-pagedata',
   ],
-  source: {
-    npm: 'vite-plugin-pagedata',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-pagedata',
+  },
+  source: {
+    npm: 'vite-plugin-pagedata',
   },
   stats: {
     stars: 0,

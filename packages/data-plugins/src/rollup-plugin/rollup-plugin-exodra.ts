@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'jsx',
   ],
-  source: {
-    github: 'abaikov/exodra',
-    npm: 'rollup-plugin-exodra',
-  },
   links: {
     github: 'https://github.com/abaikov/exodra',
     npm: 'https://www.npmjs.com/package/rollup-plugin-exodra',
     website: 'https://exodra.org',
+  },
+  source: {
+    github: 'abaikov/exodra',
+    npm: 'rollup-plugin-exodra',
   },
   stats: {
     stars: 0,

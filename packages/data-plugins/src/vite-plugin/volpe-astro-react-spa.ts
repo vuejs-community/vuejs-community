@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'spa',
     'file-based-routing',
   ],
-  source: {
-    npm: '@volpe/astro-react-spa',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@volpe/astro-react-spa',
+  },
+  source: {
+    npm: '@volpe/astro-react-spa',
   },
   stats: {
     stars: 0,

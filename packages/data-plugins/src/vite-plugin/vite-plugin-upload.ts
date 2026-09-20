@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'oss',
     'alioss',
   ],
-  source: {
-    github: 'yulin96/vite-plugin-upload',
-    npm: 'vite-plugin-upload',
-  },
   links: {
     github: 'https://github.com/yulin96/vite-plugin-upload',
     npm: 'https://www.npmjs.com/package/vite-plugin-upload',
     website: 'https://github.com/yulin96/vite-plugin-upload#readme',
+  },
+  source: {
+    github: 'yulin96/vite-plugin-upload',
+    npm: 'vite-plugin-upload',
   },
   stats: {
     stars: 1,

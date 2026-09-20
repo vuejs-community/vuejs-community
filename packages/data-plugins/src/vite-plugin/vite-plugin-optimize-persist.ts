@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'antfu/vite-plugin-optimize-persist',
-    npm: 'vite-plugin-optimize-persist',
-  },
   links: {
     github: 'https://github.com/antfu/vite-plugin-optimize-persist',
     npm: 'https://www.npmjs.com/package/vite-plugin-optimize-persist',
     website: 'https://github.com/antfu/vite-plugin-optimize-persist#readme',
+  },
+  source: {
+    github: 'antfu/vite-plugin-optimize-persist',
+    npm: 'vite-plugin-optimize-persist',
   },
   stats: {
     stars: 161,

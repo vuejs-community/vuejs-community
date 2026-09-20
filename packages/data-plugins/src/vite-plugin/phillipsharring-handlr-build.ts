@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'build',
   ],
-  source: {
-    npm: '@phillipsharring/handlr-build',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@phillipsharring/handlr-build',
+  },
+  source: {
+    npm: '@phillipsharring/handlr-build',
   },
   stats: {
     stars: 0,

@@ -25,11 +25,11 @@ export default defineProjectMeta({
     'command-line-tool',
     'generate-react-library',
   ],
-  source: {
-    npm: 'generate-react-lib',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/generate-react-lib',
+  },
+  source: {
+    npm: 'generate-react-lib',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'html',
     'bundle-html',
   ],
-  source: {
-    github: 'ThomZz/rollup-plugin-bundle-html-thomzz',
-    npm: 'rollup-plugin-bundle-html-thomzz',
-  },
   links: {
     github: 'https://github.com/ThomZz/rollup-plugin-bundle-html-thomzz',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bundle-html-thomzz',
     website: 'https://github.com/ThomZz/rollup-plugin-bundle-html-thomzz#readme',
+  },
+  source: {
+    github: 'ThomZz/rollup-plugin-bundle-html-thomzz',
+    npm: 'rollup-plugin-bundle-html-thomzz',
   },
   stats: {
     stars: 0,

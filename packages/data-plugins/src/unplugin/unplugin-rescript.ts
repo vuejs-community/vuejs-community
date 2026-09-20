@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'farm',
     'rescript',
   ],
-  source: {
-    github: 'r17x/js',
-    npm: 'unplugin-rescript',
-  },
   links: {
     github: 'https://github.com/r17x/js',
     npm: 'https://www.npmjs.com/package/unplugin-rescript',
     website: 'https://github.com/r17x/js/tree/main/packages/unplugin-rescript#readme',
+  },
+  source: {
+    github: 'r17x/js',
+    npm: 'unplugin-rescript',
   },
   stats: {
     stars: 0,

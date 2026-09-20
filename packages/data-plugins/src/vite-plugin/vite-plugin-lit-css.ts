@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'lit-css',
     'vite-plugin-lit-css',
   ],
-  source: {
-    github: 'redfox-mx/vite-lit-css',
-    npm: 'vite-plugin-lit-css',
-  },
   links: {
     github: 'https://github.com/redfox-mx/vite-lit-css',
     npm: 'https://www.npmjs.com/package/vite-plugin-lit-css',
     website: 'https://github.com/redfox-mx/vite-lit-css#readme',
+  },
+  source: {
+    github: 'redfox-mx/vite-lit-css',
+    npm: 'vite-plugin-lit-css',
   },
   stats: {
     stars: 10,

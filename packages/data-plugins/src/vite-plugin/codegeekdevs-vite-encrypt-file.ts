@@ -18,12 +18,12 @@ export default defineProjectMeta({
     'security',
     'environment',
   ],
-  source: {
-    npm: '@codegeekdevs/vite-encrypt-file',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@codegeekdevs/vite-encrypt-file',
     website: 'https://gitlab.com/codegeekdev/node-package-vite-encrypt-file#readme',
+  },
+  source: {
+    npm: '@codegeekdevs/vite-encrypt-file',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'env',
     'front-end',
   ],
-  source: {
-    github: 'd8corp/rollup-plugin-process-env',
-    npm: 'rollup-plugin-process-env',
-  },
   links: {
     github: 'https://github.com/d8corp/rollup-plugin-process-env',
     npm: 'https://www.npmjs.com/package/rollup-plugin-process-env',
     website: 'https://github.com/d8corp/rollup-plugin-process-env',
+  },
+  source: {
+    github: 'd8corp/rollup-plugin-process-env',
+    npm: 'rollup-plugin-process-env',
   },
   stats: {
     stars: 0,

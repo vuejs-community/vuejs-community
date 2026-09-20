@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'jsx',
     'fynix',
   ],
-  source: {
-    npm: '@fynixjs-ui/vite-plugin-fynix',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@fynixjs-ui/vite-plugin-fynix',
+  },
+  source: {
+    npm: '@fynixjs-ui/vite-plugin-fynix',
   },
   stats: {
     stars: 0,

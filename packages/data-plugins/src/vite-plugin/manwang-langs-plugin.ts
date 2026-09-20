@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'compile-time',
   ],
-  source: {
-    npm: '@manwang/langs-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@manwang/langs-plugin',
+  },
+  source: {
+    npm: '@manwang/langs-plugin',
   },
   stats: {
     stars: 0,

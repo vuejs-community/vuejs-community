@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'vue-tsc',
     'volar',
   ],
-  source: {
-    github: 'qmhc/vite-plugin-dts',
-    npm: '@depup/vite-plugin-dts',
-  },
   links: {
     github: 'https://github.com/qmhc/vite-plugin-dts',
     npm: 'https://www.npmjs.com/package/@depup/vite-plugin-dts',
     website: 'https://github.com/qmhc/vite-plugin-dts#readme',
+  },
+  source: {
+    github: 'qmhc/vite-plugin-dts',
+    npm: '@depup/vite-plugin-dts',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'documentation',
     'typescript',
   ],
-  source: {
-    github: 'olton/rollup-plugin-typedoc',
-    npm: '@olton/rollup-plugin-typedoc',
-  },
   links: {
     github: 'https://github.com/olton/rollup-plugin-typedoc',
     npm: 'https://www.npmjs.com/package/@olton/rollup-plugin-typedoc',
     website: 'https://github.com/olton/rollup-plugin-typedoc',
+  },
+  source: {
+    github: 'olton/rollup-plugin-typedoc',
+    npm: '@olton/rollup-plugin-typedoc',
   },
   stats: {
     stars: 0,

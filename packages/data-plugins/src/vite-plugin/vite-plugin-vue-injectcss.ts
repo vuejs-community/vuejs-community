@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vue',
     'injectCssIntoJs',
   ],
-  source: {
-    npm: 'vite-plugin-vue-injectcss',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-injectcss',
+  },
+  source: {
+    npm: 'vite-plugin-vue-injectcss',
   },
   stats: {
     stars: 0,

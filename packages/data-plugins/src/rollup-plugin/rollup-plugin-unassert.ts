@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'unassert',
   ],
-  source: {
-    github: 'mourner/rollup-plugin-unassert',
-    npm: 'rollup-plugin-unassert',
-  },
   links: {
     github: 'https://github.com/mourner/rollup-plugin-unassert',
     npm: 'https://www.npmjs.com/package/rollup-plugin-unassert',
     website: 'https://github.com/mourner/rollup-plugin-unassert',
+  },
+  source: {
+    github: 'mourner/rollup-plugin-unassert',
+    npm: 'rollup-plugin-unassert',
   },
   stats: {
     stars: 5,

@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'router',
     'app',
   ],
-  source: {
-    github: 'FrontEndDev-org/vite-plugin-app',
-    npm: 'vite-plugin-react-app',
-  },
   links: {
     github: 'https://github.com/FrontEndDev-org/vite-plugin-app',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-app',
     website: 'https://github.com/FrontEndDev-org/vite-plugin-app',
+  },
+  source: {
+    github: 'FrontEndDev-org/vite-plugin-app',
+    npm: 'vite-plugin-react-app',
   },
   stats: {
     stars: 0,

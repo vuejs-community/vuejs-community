@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'file-preview',
     'self-hosted',
   ],
-  source: {
-    github: 'flyfish-dev/file-viewer',
-    npm: '@file-viewer/vite-plugin',
-  },
   links: {
     github: 'https://github.com/flyfish-dev/file-viewer',
     npm: 'https://www.npmjs.com/package/@file-viewer/vite-plugin',
     website: 'https://doc.file-viewer.app/guide/on-demand-renderers',
+  },
+  source: {
+    github: 'flyfish-dev/file-viewer',
+    npm: '@file-viewer/vite-plugin',
   },
   stats: {
     stars: 2331,

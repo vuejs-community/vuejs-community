@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'webpack-plugin',
     'performance',
   ],
-  source: {
-    github: 'josegabrielcruz/foxlight',
-    npm: '@foxlight/bundle',
-  },
   links: {
     github: 'https://github.com/josegabrielcruz/foxlight',
     npm: 'https://www.npmjs.com/package/@foxlight/bundle',
     website: 'https://github.com/josegabrielcruz/foxlight/tree/master/packages/bundle#readme',
+  },
+  source: {
+    github: 'josegabrielcruz/foxlight',
+    npm: '@foxlight/bundle',
   },
   stats: {
     stars: 0,

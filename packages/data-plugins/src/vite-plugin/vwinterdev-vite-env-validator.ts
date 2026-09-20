@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'env-validator',
     'vite-plugin',
   ],
-  source: {
-    github: 'vwinterdev/env-validator-vite',
-    npm: '@vwinterdev/vite-env-validator',
-  },
   links: {
     github: 'https://github.com/vwinterdev/env-validator-vite',
     npm: 'https://www.npmjs.com/package/@vwinterdev/vite-env-validator',
     website: 'https://github.com/vwinterdev/env-validator-vite#readme',
+  },
+  source: {
+    github: 'vwinterdev/env-validator-vite',
+    npm: '@vwinterdev/vite-env-validator',
   },
   stats: {
     stars: 0,

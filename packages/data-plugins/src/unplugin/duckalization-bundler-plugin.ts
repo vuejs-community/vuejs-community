@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'webpack',
     'esbuild',
   ],
-  source: {
-    github: 'soska/duckalization',
-    npm: '@duckalization/bundler-plugin',
-  },
   links: {
     github: 'https://github.com/soska/duckalization',
     npm: 'https://www.npmjs.com/package/@duckalization/bundler-plugin',
     website: 'https://github.com/soska/duckalization#readme',
+  },
+  source: {
+    github: 'soska/duckalization',
+    npm: '@duckalization/bundler-plugin',
   },
   stats: {
     stars: 0,

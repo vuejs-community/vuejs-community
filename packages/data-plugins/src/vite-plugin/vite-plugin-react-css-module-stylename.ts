@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'vite-react-stylename',
     'react-stylename',
   ],
-  source: {
-    github: 'shimmer-carl-cui/vite-plugin-react-css-module-stylename',
-    npm: 'vite-plugin-react-css-module-stylename',
-  },
   links: {
     github: 'https://github.com/shimmer-carl-cui/vite-plugin-react-css-module-stylename',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-css-module-stylename',
     website: 'https://github.com/shimmer-carl-cui/vite-plugin-react-css-module-stylename',
+  },
+  source: {
+    github: 'shimmer-carl-cui/vite-plugin-react-css-module-stylename',
+    npm: 'vite-plugin-react-css-module-stylename',
   },
   stats: {
     stars: 6,

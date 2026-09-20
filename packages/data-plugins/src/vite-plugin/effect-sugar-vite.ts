@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'syntactic-sugar',
     'gen-blocks',
   ],
-  source: {
-    github: 'clayroach/effect-sugar',
-    npm: 'effect-sugar-vite',
-  },
   links: {
     github: 'https://github.com/clayroach/effect-sugar',
     npm: 'https://www.npmjs.com/package/effect-sugar-vite',
     website: 'https://github.com/clayroach/effect-sugar#readme',
+  },
+  source: {
+    github: 'clayroach/effect-sugar',
+    npm: 'effect-sugar-vite',
   },
   stats: {
     stars: 0,

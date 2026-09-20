@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'monorepo',
   ],
-  source: {
-    github: 'fi3ework/vite-plugin-mono-source',
-    npm: 'vite-plugin-mono-source',
-  },
   links: {
     github: 'https://github.com/fi3ework/vite-plugin-mono-source',
     npm: 'https://www.npmjs.com/package/vite-plugin-mono-source',
     website: 'https://github.com/fi3ework/vite-plugin-mono-source#readme',
+  },
+  source: {
+    github: 'fi3ework/vite-plugin-mono-source',
+    npm: 'vite-plugin-mono-source',
   },
   stats: {
     stars: 0,

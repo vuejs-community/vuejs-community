@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'util',
     'plugin',
   ],
-  source: {
-    npm: 'rollup-plugin-internal-exports',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-internal-exports',
     website: 'https://gitlab.com/ltngames/rollup-plugin-internal-exports#README',
+  },
+  source: {
+    npm: 'rollup-plugin-internal-exports',
   },
   stats: {
     stars: 0,

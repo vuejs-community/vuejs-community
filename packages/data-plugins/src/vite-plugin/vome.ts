@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'browser',
     'browser-extension',
   ],
-  source: {
-    npm: 'vome',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vome',
+  },
+  source: {
+    npm: 'vome',
   },
   stats: {
     stars: 0,

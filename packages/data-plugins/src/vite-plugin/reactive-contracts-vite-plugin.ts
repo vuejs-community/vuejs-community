@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'typescript',
     'hmr',
   ],
-  source: {
-    github: 'creativoma/reactive-contracts',
-    npm: '@reactive-contracts/vite-plugin',
-  },
   links: {
     github: 'https://github.com/creativoma/reactive-contracts',
     npm: 'https://www.npmjs.com/package/@reactive-contracts/vite-plugin',
     website: 'https://github.com/creativoma/reactive-contracts',
+  },
+  source: {
+    github: 'creativoma/reactive-contracts',
+    npm: '@reactive-contracts/vite-plugin',
   },
   stats: {
     stars: 1,

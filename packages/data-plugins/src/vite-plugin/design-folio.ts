@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'viewer',
     'vite-plugin',
   ],
-  source: {
-    npm: 'design-folio',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/design-folio',
+  },
+  source: {
+    npm: 'design-folio',
   },
   stats: {
     stars: 0,

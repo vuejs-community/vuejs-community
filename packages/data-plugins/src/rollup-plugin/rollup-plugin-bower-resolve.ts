@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'bower',
   ],
-  source: {
-    github: 'mjeanroy/rollup-plugin-bower-resolve',
-    npm: 'rollup-plugin-bower-resolve',
-  },
   links: {
     github: 'https://github.com/mjeanroy/rollup-plugin-bower-resolve',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bower-resolve',
     website: 'https://github.com/mjeanroy/rollup-plugin-bower-resolve#readme',
+  },
+  source: {
+    github: 'mjeanroy/rollup-plugin-bower-resolve',
+    npm: 'rollup-plugin-bower-resolve',
   },
   stats: {
     stars: 8,

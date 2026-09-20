@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'image',
     'telegram',
   ],
-  source: {
-    npm: 'vite-plugin-tgimg',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-tgimg',
+  },
+  source: {
+    npm: 'vite-plugin-tgimg',
   },
   stats: {
     stars: 0,

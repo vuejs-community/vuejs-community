@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'hmpl-language/vite-plugin-hmpl',
-    npm: 'vite-plugin-hmpl',
-  },
   links: {
     github: 'https://github.com/hmpl-language/vite-plugin-hmpl',
     npm: 'https://www.npmjs.com/package/vite-plugin-hmpl',
     website: 'https://hmpl-lang.dev/vite-plugin.html',
+  },
+  source: {
+    github: 'hmpl-language/vite-plugin-hmpl',
+    npm: 'vite-plugin-hmpl',
   },
   stats: {
     stars: 1,

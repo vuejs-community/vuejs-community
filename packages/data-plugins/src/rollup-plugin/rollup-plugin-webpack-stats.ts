@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'stats',
     'bundle-stats',
   ],
-  source: {
-    github: 'relative-ci/rollup-plugin-webpack-stats',
-    npm: 'rollup-plugin-webpack-stats',
-  },
   links: {
     github: 'https://github.com/relative-ci/rollup-plugin-webpack-stats',
     npm: 'https://www.npmjs.com/package/rollup-plugin-webpack-stats',
     website: 'https://github.com/relative-ci/rollup-plugin-webpack-stats/blob/master/#readme',
+  },
+  source: {
+    github: 'relative-ci/rollup-plugin-webpack-stats',
+    npm: 'rollup-plugin-webpack-stats',
   },
   stats: {
     stars: 7,

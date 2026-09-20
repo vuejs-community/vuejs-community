@@ -23,14 +23,14 @@ export default defineProjectMeta({
     '包体积优化',
     '无效资源检测',
   ],
-  source: {
-    github: 'shilimingY/vite-plugin-resource-waste',
-    npm: 'vite-plugin-resource-waste',
-  },
   links: {
     github: 'https://github.com/shilimingY/vite-plugin-resource-waste',
     npm: 'https://www.npmjs.com/package/vite-plugin-resource-waste',
     website: 'https://github.com/shilimingY/vite-plugin-resource-waste#readme',
+  },
+  source: {
+    github: 'shilimingY/vite-plugin-resource-waste',
+    npm: 'vite-plugin-resource-waste',
   },
   stats: {
     stars: 20,

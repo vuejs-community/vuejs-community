@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'happydom',
     'embroider',
   ],
-  source: {
-    github: 'evoactivity/vite-ember-ssr',
-    npm: '@st-h/vite-ember-ssr',
-  },
   links: {
     github: 'https://github.com/evoactivity/vite-ember-ssr',
     npm: 'https://www.npmjs.com/package/@st-h/vite-ember-ssr',
     website: 'https://github.com/evoactivity/vite-ember-ssr/tree/main/packages/vite-ember-ssr#readme',
+  },
+  source: {
+    github: 'evoactivity/vite-ember-ssr',
+    npm: '@st-h/vite-ember-ssr',
   },
   stats: {
     stars: 4,

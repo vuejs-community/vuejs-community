@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'litestar-org/litestar-vite',
-    npm: 'litestar-vite-plugin',
-  },
   links: {
     github: 'https://github.com/litestar-org/litestar-vite',
     npm: 'https://www.npmjs.com/package/litestar-vite-plugin',
     website: 'https://github.com/litestar-org/litestar-vite',
+  },
+  source: {
+    github: 'litestar-org/litestar-vite',
+    npm: 'litestar-vite-plugin',
   },
   stats: {
     stars: 36,

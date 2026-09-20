@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'googleappsscript',
     'vite-plugin',
   ],
-  source: {
-    github: 'luthpg/vite-plugin-google-apps-script',
-    npm: 'vite-plugin-google-apps-script',
-  },
   links: {
     github: 'https://github.com/luthpg/vite-plugin-google-apps-script',
     npm: 'https://www.npmjs.com/package/vite-plugin-google-apps-script',
     website: 'https://github.com/luthpg/vite-plugin-google-apps-script#readme',
+  },
+  source: {
+    github: 'luthpg/vite-plugin-google-apps-script',
+    npm: 'vite-plugin-google-apps-script',
   },
   stats: {
     stars: 1,

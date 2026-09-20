@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'entrypoints',
     'json',
   ],
-  source: {
-    github: 'roberekson/rollup-plugin-entrypoints-output',
-    npm: 'rollup-plugin-entrypoints-output',
-  },
   links: {
     github: 'https://github.com/roberekson/rollup-plugin-entrypoints-output',
     npm: 'https://www.npmjs.com/package/rollup-plugin-entrypoints-output',
     website: 'https://github.com/roberekson/rollup-plugin-entyrpoints-output#readme',
+  },
+  source: {
+    github: 'roberekson/rollup-plugin-entrypoints-output',
+    npm: 'rollup-plugin-entrypoints-output',
   },
   stats: {
     stars: 0,

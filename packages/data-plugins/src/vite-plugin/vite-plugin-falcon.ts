@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'cesium',
   ],
-  source: {
-    npm: 'vite-plugin-falcon',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-falcon',
+  },
+  source: {
+    npm: 'vite-plugin-falcon',
   },
   stats: {
     stars: 0,

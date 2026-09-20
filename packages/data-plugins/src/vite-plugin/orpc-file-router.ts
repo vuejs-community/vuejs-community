@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'openapi',
   ],
-  source: {
-    github: 'Prains/orpc-file-router',
-    npm: 'orpc-file-router',
-  },
   links: {
     github: 'https://github.com/Prains/orpc-file-router',
     npm: 'https://www.npmjs.com/package/orpc-file-router',
     website: 'https://github.com/Prains/orpc-file-router#readme',
+  },
+  source: {
+    github: 'Prains/orpc-file-router',
+    npm: 'orpc-file-router',
   },
   stats: {
     stars: 3,

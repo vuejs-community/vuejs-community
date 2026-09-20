@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'language',
     'localization',
   ],
-  source: {
-    npm: 'vite-plugin-monaco-editor-i18n',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-monaco-editor-i18n',
+  },
+  source: {
+    npm: 'vite-plugin-monaco-editor-i18n',
   },
   stats: {
     stars: 0,

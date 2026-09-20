@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'js',
     'vue',
   ],
-  source: {
-    npm: 'vite-plugin-img-reload',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-img-reload',
+  },
+  source: {
+    npm: 'vite-plugin-img-reload',
   },
   stats: {
     stars: 0,

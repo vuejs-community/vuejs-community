@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'build',
     'dist',
   ],
-  source: {
-    github: 'JuanQP/vite-plugin-make-offline',
-    npm: 'vite-plugin-make-offline',
-  },
   links: {
     github: 'https://github.com/JuanQP/vite-plugin-make-offline',
     npm: 'https://www.npmjs.com/package/vite-plugin-make-offline',
     website: 'https://github.com/JuanQP/vite-plugin-make-offline#readme',
+  },
+  source: {
+    github: 'JuanQP/vite-plugin-make-offline',
+    npm: 'vite-plugin-make-offline',
   },
   stats: {
     stars: 15,

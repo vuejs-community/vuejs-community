@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vitejs',
     'plugin',
   ],
-  source: {
-    github: 'entur/vite-plugin-assets-json',
-    npm: '@entur/vite-plugin-assets-json',
-  },
   links: {
     github: 'https://github.com/entur/vite-plugin-assets-json',
     npm: 'https://www.npmjs.com/package/@entur/vite-plugin-assets-json',
     website: 'https://github.com/entur/vite-plugin-assets-json',
+  },
+  source: {
+    github: 'entur/vite-plugin-assets-json',
+    npm: '@entur/vite-plugin-assets-json',
   },
   stats: {
     stars: 0,

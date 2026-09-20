@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vue',
     'webpack',
   ],
-  source: {
-    github: 'unplugin/unplugin-vue-complex-types',
-    npm: 'unplugin-vue-complex-types',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-vue-complex-types',
     npm: 'https://www.npmjs.com/package/unplugin-vue-complex-types',
     website: 'https://github.com/unplugin/unplugin-vue-complex-types#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-vue-complex-types',
+    npm: 'unplugin-vue-complex-types',
   },
   stats: {
     stars: 112,

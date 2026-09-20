@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'qiankun',
     'routes',
   ],
-  source: {
-    npm: '@lemon-fe/vite-plugin-micro-frontend',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@lemon-fe/vite-plugin-micro-frontend',
+  },
+  source: {
+    npm: '@lemon-fe/vite-plugin-micro-frontend',
   },
   stats: {
     stars: 0,

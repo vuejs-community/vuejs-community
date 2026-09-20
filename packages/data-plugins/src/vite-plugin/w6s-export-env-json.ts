@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'workplusfe',
     'export-env-json',
   ],
-  source: {
-    github: 'WorkPlusFE/vite-plugin-export-env-json',
-    npm: '@w6s/export-env-json',
-  },
   links: {
     github: 'https://github.com/WorkPlusFE/vite-plugin-export-env-json',
     npm: 'https://www.npmjs.com/package/@w6s/export-env-json',
     website: 'https://github.com/WorkPlusFE/vite-plugin-export-env-json#readme',
+  },
+  source: {
+    github: 'WorkPlusFE/vite-plugin-export-env-json',
+    npm: '@w6s/export-env-json',
   },
   stats: {
     stars: 0,

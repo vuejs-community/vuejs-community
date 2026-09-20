@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'plugin',
     'rollup-plugin',
   ],
-  source: {
-    github: 'dgkimpton/rollup-plugin-folder-input',
-    npm: 'rollup-plugin-folder-input',
-  },
   links: {
     github: 'https://github.com/dgkimpton/rollup-plugin-folder-input',
     npm: 'https://www.npmjs.com/package/rollup-plugin-folder-input',
     website: 'https://github.com/dgkimpton/rollup-plugin-folder-input#readme',
+  },
+  source: {
+    github: 'dgkimpton/rollup-plugin-folder-input',
+    npm: 'rollup-plugin-folder-input',
   },
   stats: {
     stars: 3,

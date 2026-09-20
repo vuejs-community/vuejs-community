@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'css-isolation',
     'dom-isolation',
   ],
-  source: {
-    github: 'ariel-salgado/vite-plugins',
-    npm: '@ariel-salgado/vite-plugin-shadow-dom',
-  },
   links: {
     github: 'https://github.com/ariel-salgado/vite-plugins',
     npm: 'https://www.npmjs.com/package/@ariel-salgado/vite-plugin-shadow-dom',
     website: 'https://github.com/ariel-salgado/vite-plugins/tree/main/packages/vite-plugin-shadow-dom#readme',
+  },
+  source: {
+    github: 'ariel-salgado/vite-plugins',
+    npm: '@ariel-salgado/vite-plugin-shadow-dom',
   },
   stats: {
     stars: 0,

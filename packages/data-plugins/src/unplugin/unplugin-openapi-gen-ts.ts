@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'codegen',
     'vite-plugin',
   ],
-  source: {
-    npm: 'unplugin-openapi-gen-ts',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-openapi-gen-ts',
     website: 'https://github.com/uneva/unplugin-openapi-gen-ts',
+  },
+  source: {
+    npm: 'unplugin-openapi-gen-ts',
   },
   stats: {
     stars: 0,

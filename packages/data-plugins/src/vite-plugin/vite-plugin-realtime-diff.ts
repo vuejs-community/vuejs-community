@@ -22,11 +22,11 @@ export default defineProjectMeta({
     'diff-site',
     'diff-website',
   ],
-  source: {
-    npm: 'vite-plugin-realtime-diff',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-realtime-diff',
+  },
+  source: {
+    npm: 'vite-plugin-realtime-diff',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'plugin',
     'rollup-plugin',
   ],
-  source: {
-    github: 'lovelope/rollup-plugin-cpy',
-    npm: 'rollup-plugin-cpy2',
-  },
   links: {
     github: 'https://github.com/lovelope/rollup-plugin-cpy',
     npm: 'https://www.npmjs.com/package/rollup-plugin-cpy2',
     website: 'https://github.com/lovelope/rollup-plugin-cpy#readme',
+  },
+  source: {
+    github: 'lovelope/rollup-plugin-cpy',
+    npm: 'rollup-plugin-cpy2',
   },
   stats: {
     stars: 0,

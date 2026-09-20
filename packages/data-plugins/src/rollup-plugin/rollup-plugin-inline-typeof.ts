@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'npm',
     'modules',
   ],
-  source: {
-    github: 'nolanlawson/rollup-plugin-inline-typeof',
-    npm: 'rollup-plugin-inline-typeof',
-  },
   links: {
     github: 'https://github.com/nolanlawson/rollup-plugin-inline-typeof',
     npm: 'https://www.npmjs.com/package/rollup-plugin-inline-typeof',
     website: 'https://github.com/nolanlawson/rollup-plugin-inline-typeof#readme',
+  },
+  source: {
+    github: 'nolanlawson/rollup-plugin-inline-typeof',
+    npm: 'rollup-plugin-inline-typeof',
   },
   stats: {
     stars: 3,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'weixin',
     'vite-plugin',
   ],
-  source: {
-    github: 'macheteHot/css-generator-plugin',
-    npm: 'css-generator-script',
-  },
   links: {
     github: 'https://github.com/macheteHot/css-generator-plugin',
     npm: 'https://www.npmjs.com/package/css-generator-script',
     website: 'https://github.com/macheteHot/css-generator-plugin#readme',
+  },
+  source: {
+    github: 'macheteHot/css-generator-plugin',
+    npm: 'css-generator-script',
   },
   stats: {
     stars: 28,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'react',
     'jsx',
   ],
-  source: {
-    github: 'dravenww/vite-plugin-react-js-support',
-    npm: 'vite-plugin-react-js-support',
-  },
   links: {
     github: 'https://github.com/dravenww/vite-plugin-react-js-support',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-js-support',
     website: 'https://github.com/dravenww/vite-plugin-react-js-support#readme',
+  },
+  source: {
+    github: 'dravenww/vite-plugin-react-js-support',
+    npm: 'vite-plugin-react-js-support',
   },
   stats: {
     stars: 7,

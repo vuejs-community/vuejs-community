@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'svimg',
     'image',
   ],
-  source: {
-    github: 'xiphux/rollup-plugin-markdown-svimg',
-    npm: 'rollup-plugin-markdown-svimg',
-  },
   links: {
     github: 'https://github.com/xiphux/rollup-plugin-markdown-svimg',
     npm: 'https://www.npmjs.com/package/rollup-plugin-markdown-svimg',
     website: 'https://github.com/xiphux/rollup-plugin-markdown-svimg',
+  },
+  source: {
+    github: 'xiphux/rollup-plugin-markdown-svimg',
+    npm: 'rollup-plugin-markdown-svimg',
   },
   stats: {
     stars: 1,

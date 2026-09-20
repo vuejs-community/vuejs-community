@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'i18n',
     'csv',
   ],
-  source: {
-    github: 'voodoochild/rollup-plugin-i18n-csv',
-    npm: 'rollup-plugin-i18n-csv',
-  },
   links: {
     github: 'https://github.com/voodoochild/rollup-plugin-i18n-csv',
     npm: 'https://www.npmjs.com/package/rollup-plugin-i18n-csv',
     website: 'https://github.com/voodoochild/rollup-plugin-i18n-csv#readme',
+  },
+  source: {
+    github: 'voodoochild/rollup-plugin-i18n-csv',
+    npm: 'rollup-plugin-i18n-csv',
   },
   stats: {
     stars: 2,

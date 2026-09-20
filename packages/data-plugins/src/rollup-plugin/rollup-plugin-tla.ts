@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'iife',
     'umd',
   ],
-  source: {
-    github: 'lisonge/rollup-plugin-tla',
-    npm: 'rollup-plugin-tla',
-  },
   links: {
     github: 'https://github.com/lisonge/rollup-plugin-tla',
     npm: 'https://www.npmjs.com/package/rollup-plugin-tla',
     website: 'https://github.com/lisonge/rollup-plugin-tla#readme',
+  },
+  source: {
+    github: 'lisonge/rollup-plugin-tla',
+    npm: 'rollup-plugin-tla',
   },
   stats: {
     stars: 12,

@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'chrome extension',
     'manifest version 3',
   ],
-  source: {
-    npm: 'vite-vue-ce',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-vue-ce',
+  },
+  source: {
+    npm: 'vite-vue-ce',
   },
   stats: {
     stars: 0,

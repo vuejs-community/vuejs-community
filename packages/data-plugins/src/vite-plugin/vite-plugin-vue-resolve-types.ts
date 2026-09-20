@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    github: 'aibayanyu20/vite-plugins',
-    npm: 'vite-plugin-vue-resolve-types',
-  },
   links: {
     github: 'https://github.com/aibayanyu20/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-resolve-types',
     website: 'https://github.com/aibayanyu20/vite-plugins/#readme',
+  },
+  source: {
+    github: 'aibayanyu20/vite-plugins',
+    npm: 'vite-plugin-vue-resolve-types',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'heap',
     'heap-memory',
   ],
-  source: {
-    github: 'shinobiwps/vite-plugin-mempeak',
-    npm: 'vite-plugin-mempeak',
-  },
   links: {
     github: 'https://github.com/shinobiwps/vite-plugin-mempeak',
     npm: 'https://www.npmjs.com/package/vite-plugin-mempeak',
     website: 'https://github.com/shinobiwps/vite-plugin-mempeak',
+  },
+  source: {
+    github: 'shinobiwps/vite-plugin-mempeak',
+    npm: 'vite-plugin-mempeak',
   },
   stats: {
     stars: 0,

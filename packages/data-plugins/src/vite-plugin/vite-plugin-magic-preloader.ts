@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'preload',
     'prefetch',
   ],
-  source: {
-    github: 'rzzf/vite-plugin-magic-preloader',
-    npm: 'vite-plugin-magic-preloader',
-  },
   links: {
     github: 'https://github.com/rzzf/vite-plugin-magic-preloader',
     npm: 'https://www.npmjs.com/package/vite-plugin-magic-preloader',
     website: 'https://github.com/rzzf/vite-plugin-magic-preloader/tree/main/#readme',
+  },
+  source: {
+    github: 'rzzf/vite-plugin-magic-preloader',
+    npm: 'vite-plugin-magic-preloader',
   },
   stats: {
     stars: 42,

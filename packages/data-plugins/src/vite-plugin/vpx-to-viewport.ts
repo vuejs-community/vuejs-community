@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'fluid-design',
     'vpx-to-viewport',
   ],
-  source: {
-    github: 'EquinoxHZ/vpx-to-viewport',
-    npm: 'vpx-to-viewport',
-  },
   links: {
     github: 'https://github.com/EquinoxHZ/vpx-to-viewport',
     npm: 'https://www.npmjs.com/package/vpx-to-viewport',
     website: 'https://github.com/EquinoxHZ/vpx-to-viewport#readme',
+  },
+  source: {
+    github: 'EquinoxHZ/vpx-to-viewport',
+    npm: 'vpx-to-viewport',
   },
   stats: {
     stars: 5,

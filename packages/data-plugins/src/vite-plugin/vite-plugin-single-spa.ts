@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'micro-frontend',
     'root-config',
   ],
-  source: {
-    github: 'WJSoftware/vite-plugin-single-spa',
-    npm: 'vite-plugin-single-spa',
-  },
   links: {
     github: 'https://github.com/WJSoftware/vite-plugin-single-spa',
     npm: 'https://www.npmjs.com/package/vite-plugin-single-spa',
     website: 'https://github.com/WJSoftware/vite-plugin-single-spa#readme',
+  },
+  source: {
+    github: 'WJSoftware/vite-plugin-single-spa',
+    npm: 'vite-plugin-single-spa',
   },
   stats: {
     stars: 78,

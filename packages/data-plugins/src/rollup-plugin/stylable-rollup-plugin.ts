@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'Stylable',
   ],
-  source: {
-    github: 'wix/stylable',
-    npm: '@stylable/rollup-plugin',
-  },
   links: {
     github: 'https://github.com/wix/stylable',
     npm: 'https://www.npmjs.com/package/@stylable/rollup-plugin',
     website: 'https://github.com/wix/stylable/tree/master#readme',
+  },
+  source: {
+    github: 'wix/stylable',
+    npm: '@stylable/rollup-plugin',
   },
   stats: {
     stars: 1273,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'MPA',
     'multi-page',
   ],
-  source: {
-    github: 'IndexXuan/vite-plugin-mpa',
-    npm: 'vite-plugin-mpa',
-  },
   links: {
     github: 'https://github.com/IndexXuan/vite-plugin-mpa',
     npm: 'https://www.npmjs.com/package/vite-plugin-mpa',
     website: 'https://github.com/IndexXuan/vite-plugin-mpa',
+  },
+  source: {
+    github: 'IndexXuan/vite-plugin-mpa',
+    npm: 'vite-plugin-mpa',
   },
   stats: {
     stars: 241,

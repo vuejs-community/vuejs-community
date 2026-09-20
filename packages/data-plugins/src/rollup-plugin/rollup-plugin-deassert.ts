@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'RebeccaStevens/deassert',
-    npm: 'rollup-plugin-deassert',
-  },
   links: {
     github: 'https://github.com/RebeccaStevens/deassert',
     npm: 'https://www.npmjs.com/package/rollup-plugin-deassert',
     website: 'https://github.com/RebeccaStevens/deassert/tree/main/packages/rollup-plugin#readme',
+  },
+  source: {
+    github: 'RebeccaStevens/deassert',
+    npm: 'rollup-plugin-deassert',
   },
   stats: {
     stars: 2,

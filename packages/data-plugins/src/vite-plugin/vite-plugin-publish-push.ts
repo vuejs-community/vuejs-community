@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'push',
     '推送',
   ],
-  source: {
-    npm: 'vite-plugin-publish-push',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-publish-push',
+  },
+  source: {
+    npm: 'vite-plugin-publish-push',
   },
   stats: {
     stars: 0,

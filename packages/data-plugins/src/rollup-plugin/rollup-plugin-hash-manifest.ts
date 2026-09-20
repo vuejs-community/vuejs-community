@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'hash',
     'rev',
   ],
-  source: {
-    github: 'monsonjeremy/rollup-plugin-hash',
-    npm: 'rollup-plugin-hash-manifest',
-  },
   links: {
     github: 'https://github.com/monsonjeremy/rollup-plugin-hash',
     npm: 'https://www.npmjs.com/package/rollup-plugin-hash-manifest',
     website: 'https://github.com/monsonjeremy/rollup-plugin-hash#readme',
+  },
+  source: {
+    github: 'monsonjeremy/rollup-plugin-hash',
+    npm: 'rollup-plugin-hash-manifest',
   },
   stats: {
     stars: 0,

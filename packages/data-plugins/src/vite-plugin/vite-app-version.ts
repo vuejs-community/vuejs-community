@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'auto-reload',
     'deploy',
   ],
-  source: {
-    github: '960602906/vite-app-version',
-    npm: 'vite-app-version',
-  },
   links: {
     github: 'https://github.com/960602906/vite-app-version',
     npm: 'https://www.npmjs.com/package/vite-app-version',
     website: 'https://github.com/960602906/vite-app-version#readme',
+  },
+  source: {
+    github: '960602906/vite-app-version',
+    npm: 'vite-app-version',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'modules',
     'ramda',
   ],
-  source: {
-    github: 'idmitriev/rollup-plugin-ramda',
-    npm: 'rollup-plugin-ramda',
-  },
   links: {
     github: 'https://github.com/idmitriev/rollup-plugin-ramda',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ramda',
     website: 'https://github.com/idmitriev/rollup-plugin-ramda#readme',
+  },
+  source: {
+    github: 'idmitriev/rollup-plugin-ramda',
+    npm: 'rollup-plugin-ramda',
   },
   stats: {
     stars: 8,

@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'auto-decimal',
     'plugin',
   ],
-  source: {
-    npm: '@slaykit/auto-decimal-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@slaykit/auto-decimal-plugin',
+  },
+  source: {
+    npm: '@slaykit/auto-decimal-plugin',
   },
   stats: {
     stars: 0,

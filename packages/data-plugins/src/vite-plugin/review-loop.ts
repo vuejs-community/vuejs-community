@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'ai-agents',
     'code-review',
   ],
-  source: {
-    github: 'viv/review-loop',
-    npm: 'review-loop',
-  },
   links: {
     github: 'https://github.com/viv/review-loop',
     npm: 'https://www.npmjs.com/package/review-loop',
     website: 'https://github.com/viv/review-loop#readme',
+  },
+  source: {
+    github: 'viv/review-loop',
+    npm: 'review-loop',
   },
   stats: {
     stars: 1,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'repeat',
     'dependencies',
   ],
-  source: {
-    github: 'tjx666/unplugin-detect-duplicated-deps',
-    npm: 'unplugin-detect-duplicated-deps',
-  },
   links: {
     github: 'https://github.com/tjx666/unplugin-detect-duplicated-deps',
     npm: 'https://www.npmjs.com/package/unplugin-detect-duplicated-deps',
     website: 'https://github.com/tjx666/unplugin-detect-duplicated-deps#readme',
+  },
+  source: {
+    github: 'tjx666/unplugin-detect-duplicated-deps',
+    npm: 'unplugin-detect-duplicated-deps',
   },
   stats: {
     stars: 82,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'unplugin',
     'compiler',
   ],
-  source: {
-    github: 'DigUu-RL/fulcro',
-    npm: '@fulcro/transform-core',
-  },
   links: {
     github: 'https://github.com/DigUu-RL/fulcro',
     npm: 'https://www.npmjs.com/package/@fulcro/transform-core',
     website: 'https://github.com/DigUu-RL/fulcro/tree/main/packages/transform-core#readme',
+  },
+  source: {
+    github: 'DigUu-RL/fulcro',
+    npm: '@fulcro/transform-core',
   },
   stats: {
     stars: 0,

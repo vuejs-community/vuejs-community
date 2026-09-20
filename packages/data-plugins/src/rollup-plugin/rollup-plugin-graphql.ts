@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'modules',
     'rollup-plugin',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-graphql',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-graphql',
     website: 'https://github.com/rollup/plugins/tree/master/packages/graphql#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-graphql',
   },
   stats: {
     stars: 0,

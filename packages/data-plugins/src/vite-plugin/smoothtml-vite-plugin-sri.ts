@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'csp',
     'security',
   ],
-  source: {
-    github: 'smoothtml/vite-plugin-sri',
-    npm: '@smoothtml/vite-plugin-sri',
-  },
   links: {
     github: 'https://github.com/smoothtml/vite-plugin-sri',
     npm: 'https://www.npmjs.com/package/@smoothtml/vite-plugin-sri',
     website: 'https://github.com/smoothtml/vite-plugin-sri#readme',
+  },
+  source: {
+    github: 'smoothtml/vite-plugin-sri',
+    npm: '@smoothtml/vite-plugin-sri',
   },
   stats: {
     stars: 1,

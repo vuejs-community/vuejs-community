@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'webpack',
     'webpack-plugin',
   ],
-  source: {
-    github: 'acss-io/atomizer',
-    npm: 'atomizer-plugins',
-  },
   links: {
     github: 'https://github.com/acss-io/atomizer',
     npm: 'https://www.npmjs.com/package/atomizer-plugins',
     website: 'https://github.com/acss-io/atomizer#readme',
+  },
+  source: {
+    github: 'acss-io/atomizer',
+    npm: 'atomizer-plugins',
   },
   stats: {
     stars: 1548,

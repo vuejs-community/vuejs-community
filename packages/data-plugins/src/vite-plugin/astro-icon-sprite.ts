@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'astro-integration',
   ],
-  source: {
-    github: 'Livog/astro-icon-sprite',
-    npm: 'astro-icon-sprite',
-  },
   links: {
     github: 'https://github.com/Livog/astro-icon-sprite',
     npm: 'https://www.npmjs.com/package/astro-icon-sprite',
     website: 'https://github.com/Livog/astro-icon-sprite#readme',
+  },
+  source: {
+    github: 'Livog/astro-icon-sprite',
+    npm: 'astro-icon-sprite',
   },
   stats: {
     stars: 1,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'generate',
     'csp',
   ],
-  source: {
-    github: 'RJQingHuan/vite-plugin-html-meta',
-    npm: 'vite-plugin-html-meta',
-  },
   links: {
     github: 'https://github.com/RJQingHuan/vite-plugin-html-meta',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-meta',
     website: 'https://github.com/RJQingHuan/vite-plugin-html-meta#readme',
+  },
+  source: {
+    github: 'RJQingHuan/vite-plugin-html-meta',
+    npm: 'vite-plugin-html-meta',
   },
   stats: {
     stars: 1,

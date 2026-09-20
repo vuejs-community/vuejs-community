@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rust',
     'hmr',
   ],
-  source: {
-    github: 'coralogix/galeforce-css',
-    npm: '@coralogix/vite-plugin-galeforcecss',
-  },
   links: {
     github: 'https://github.com/coralogix/galeforce-css',
     npm: 'https://www.npmjs.com/package/@coralogix/vite-plugin-galeforcecss',
     website: 'https://github.com/coralogix/galeforce-css',
+  },
+  source: {
+    github: 'coralogix/galeforce-css',
+    npm: '@coralogix/vite-plugin-galeforcecss',
   },
   stats: {
     stars: 9,

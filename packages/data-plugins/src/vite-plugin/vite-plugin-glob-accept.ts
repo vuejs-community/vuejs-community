@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'hot module replacement',
     'hmr',
   ],
-  source: {
-    github: 'NWYLZW/jiek',
-    npm: 'vite-plugin-glob-accept',
-  },
   links: {
     github: 'https://github.com/NWYLZW/jiek',
     npm: 'https://www.npmjs.com/package/vite-plugin-glob-accept',
     website: 'https://github.com/NWYLZW/jiek/blob/master/packages/vite-plugins/glob-accept/README.md',
+  },
+  source: {
+    github: 'NWYLZW/jiek',
+    npm: 'vite-plugin-glob-accept',
   },
   stats: {
     stars: 15,

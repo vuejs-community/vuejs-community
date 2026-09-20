@@ -16,13 +16,13 @@ export default defineProjectMeta({
     'dynamic-import',
     'absolute-url',
   ],
-  source: {
-    github: 'ramirezcgn/vite-plugin-absolute-dynamic-imports',
-    npm: 'vite-plugin-absolute-dynamic-imports',
-  },
   links: {
     github: 'https://github.com/ramirezcgn/vite-plugin-absolute-dynamic-imports',
     npm: 'https://www.npmjs.com/package/vite-plugin-absolute-dynamic-imports',
     website: 'https://github.com/ramirezcgn/vite-plugin-absolute-dynamic-imports#readme',
+  },
+  source: {
+    github: 'ramirezcgn/vite-plugin-absolute-dynamic-imports',
+    npm: 'vite-plugin-absolute-dynamic-imports',
   },
 })

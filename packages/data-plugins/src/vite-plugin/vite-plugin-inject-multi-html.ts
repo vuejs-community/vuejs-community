@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'placeholder',
     'plugin',
   ],
-  source: {
-    github: 'cmdsreedev/vite-plugin-inject-multi-html',
-    npm: 'vite-plugin-inject-multi-html',
-  },
   links: {
     github: 'https://github.com/cmdsreedev/vite-plugin-inject-multi-html',
     npm: 'https://www.npmjs.com/package/vite-plugin-inject-multi-html',
     website: 'https://github.com/cmdsreedev/vite-plugin-inject-multi-html#readme',
+  },
+  source: {
+    github: 'cmdsreedev/vite-plugin-inject-multi-html',
+    npm: 'vite-plugin-inject-multi-html',
   },
   stats: {
     stars: 0,

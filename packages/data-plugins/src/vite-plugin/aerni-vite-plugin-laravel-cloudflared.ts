@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'cloudflared',
     'tunnel',
   ],
-  source: {
-    github: 'aerni/vite-plugin-laravel-cloudflared',
-    npm: '@aerni/vite-plugin-laravel-cloudflared',
-  },
   links: {
     github: 'https://github.com/aerni/vite-plugin-laravel-cloudflared',
     npm: 'https://www.npmjs.com/package/@aerni/vite-plugin-laravel-cloudflared',
     website: 'https://github.com/aerni/vite-plugin-laravel-cloudflared',
+  },
+  source: {
+    github: 'aerni/vite-plugin-laravel-cloudflared',
+    npm: '@aerni/vite-plugin-laravel-cloudflared',
   },
   stats: {
     stars: 13,

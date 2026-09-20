@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'typescript',
   ],
-  source: {
-    github: 'LukeHackett/vite-plugin-build-info-file',
-    npm: 'vite-plugin-build-info-file',
-  },
   links: {
     github: 'https://github.com/LukeHackett/vite-plugin-build-info-file',
     npm: 'https://www.npmjs.com/package/vite-plugin-build-info-file',
     website: 'https://github.com/LukeHackett/vite-plugin-build-info-file#readme',
+  },
+  source: {
+    github: 'LukeHackett/vite-plugin-build-info-file',
+    npm: 'vite-plugin-build-info-file',
   },
   stats: {
     stars: 3,

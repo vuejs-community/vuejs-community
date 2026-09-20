@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'lit',
     'styles',
   ],
-  source: {
-    github: 'blake-mealey/rollup-plugin-lit-styles',
-    npm: 'rollup-plugin-lit-styles',
-  },
   links: {
     github: 'https://github.com/blake-mealey/rollup-plugin-lit-styles',
     npm: 'https://www.npmjs.com/package/rollup-plugin-lit-styles',
     website: 'https://github.com/blake-mealey/rollup-plugin-lit-styles#readme',
+  },
+  source: {
+    github: 'blake-mealey/rollup-plugin-lit-styles',
+    npm: 'rollup-plugin-lit-styles',
   },
   stats: {
     stars: 3,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'nodejs',
     'easythread',
   ],
-  source: {
-    github: 'leka74/easythread',
-    npm: '@easythread/rollup',
-  },
   links: {
     github: 'https://github.com/leka74/easythread',
     npm: 'https://www.npmjs.com/package/@easythread/rollup',
     website: 'https://github.com/leka74/easythread#readme',
+  },
+  source: {
+    github: 'leka74/easythread',
+    npm: '@easythread/rollup',
   },
   stats: {
     stars: 0,

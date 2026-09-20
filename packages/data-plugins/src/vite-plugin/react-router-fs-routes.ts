@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'react',
     'react-router',
   ],
-  source: {
-    npm: 'react-router-fs-routes',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/react-router-fs-routes',
+  },
+  source: {
+    npm: 'react-router-fs-routes',
   },
   stats: {
     stars: 0,

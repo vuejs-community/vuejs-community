@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'local-development',
     'tailscale',
   ],
-  source: {
-    github: 'dendotai/devsite',
-    npm: '@den-ai/devsite',
-  },
   links: {
     github: 'https://github.com/dendotai/devsite',
     npm: 'https://www.npmjs.com/package/@den-ai/devsite',
     website: 'https://github.com/dendotai/devsite#readme',
+  },
+  source: {
+    github: 'dendotai/devsite',
+    npm: '@den-ai/devsite',
   },
   stats: {
     stars: 0,

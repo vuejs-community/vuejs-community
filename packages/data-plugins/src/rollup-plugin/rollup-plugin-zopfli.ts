@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'gzip',
     'compress',
   ],
-  source: {
-    github: 'kryops/rollup-plugin-gzip',
-    npm: 'rollup-plugin-zopfli',
-  },
   links: {
     github: 'https://github.com/kryops/rollup-plugin-gzip',
     npm: 'https://www.npmjs.com/package/rollup-plugin-zopfli',
     website: 'https://github.com/kryops/rollup-plugin-gzip#readme',
+  },
+  source: {
+    github: 'kryops/rollup-plugin-gzip',
+    npm: 'rollup-plugin-zopfli',
   },
   stats: {
     stars: 0,

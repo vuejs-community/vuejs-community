@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'file',
     'assets',
   ],
-  source: {
-    github: 'aaronhargrove-grub/rollup-plugin-rebase',
-    npm: '@aaronmh/rollup-plugin-rebase',
-  },
   links: {
     github: 'https://github.com/aaronhargrove-grub/rollup-plugin-rebase',
     npm: 'https://www.npmjs.com/package/@aaronmh/rollup-plugin-rebase',
     website: 'https://github.com/aaronhargrove-grub/rollup-plugin-rebase#readme',
+  },
+  source: {
+    github: 'aaronhargrove-grub/rollup-plugin-rebase',
+    npm: '@aaronmh/rollup-plugin-rebase',
   },
   stats: {
     stars: 0,

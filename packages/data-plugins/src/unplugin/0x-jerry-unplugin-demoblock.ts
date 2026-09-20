@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    npm: '@0x-jerry/unplugin-demoblock',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@0x-jerry/unplugin-demoblock',
+  },
+  source: {
+    npm: '@0x-jerry/unplugin-demoblock',
   },
   stats: {
     stars: 0,

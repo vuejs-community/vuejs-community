@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    github: '0ahz/vite-plugin-babel-import',
-    npm: 'vite-plugin-babel-import',
-  },
   links: {
     github: 'https://github.com/0ahz/vite-plugin-babel-import',
     npm: 'https://www.npmjs.com/package/vite-plugin-babel-import',
     website: 'https://github.com/0ahz/vite-plugin-babel-import#readme',
+  },
+  source: {
+    github: '0ahz/vite-plugin-babel-import',
+    npm: 'vite-plugin-babel-import',
   },
   stats: {
     stars: 0,

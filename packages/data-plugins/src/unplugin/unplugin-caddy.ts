@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'farm',
     'astro',
   ],
-  source: {
-    github: 'o-az/unplugin-caddy',
-    npm: 'unplugin-caddy',
-  },
   links: {
     github: 'https://github.com/o-az/unplugin-caddy',
     npm: 'https://www.npmjs.com/package/unplugin-caddy',
     website: 'https://github.com/o-az/unplugin-caddy#readme',
+  },
+  source: {
+    github: 'o-az/unplugin-caddy',
+    npm: 'unplugin-caddy',
   },
   stats: {
     stars: 1,

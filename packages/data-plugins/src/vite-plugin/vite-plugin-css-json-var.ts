@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'css',
     'css-variable',
   ],
-  source: {
-    github: 'kyohei-23/vite-plugin-css-json-var',
-    npm: 'vite-plugin-css-json-var',
-  },
   links: {
     github: 'https://github.com/kyohei-23/vite-plugin-css-json-var',
     npm: 'https://www.npmjs.com/package/vite-plugin-css-json-var',
     website: 'https://github.com/kyohei-23/vite-plugin-css-json-var#readme',
+  },
+  source: {
+    github: 'kyohei-23/vite-plugin-css-json-var',
+    npm: 'vite-plugin-css-json-var',
   },
   stats: {
     stars: 1,

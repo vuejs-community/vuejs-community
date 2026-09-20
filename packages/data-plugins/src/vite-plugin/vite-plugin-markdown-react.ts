@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'mdx',
     'md',
   ],
-  source: {
-    github: 'Lxdll/vite-plugin-markdown-react',
-    npm: 'vite-plugin-markdown-react',
-  },
   links: {
     github: 'https://github.com/Lxdll/vite-plugin-markdown-react',
     npm: 'https://www.npmjs.com/package/vite-plugin-markdown-react',
     website: 'https://github.com/Lxdll/vite-plugin-markdown-react#readme',
+  },
+  source: {
+    github: 'Lxdll/vite-plugin-markdown-react',
+    npm: 'vite-plugin-markdown-react',
   },
   stats: {
     stars: 0,

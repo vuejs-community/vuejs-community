@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-kapar',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-kapar',
+  },
+  source: {
+    npm: 'vite-plugin-kapar',
   },
   stats: {
     stars: 0,

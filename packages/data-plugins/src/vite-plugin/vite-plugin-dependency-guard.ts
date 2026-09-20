@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'supply-chain',
     'dependency',
   ],
-  source: {
-    github: 'JonathanSchndr/vite-plugin-dependency-guard',
-    npm: 'vite-plugin-dependency-guard',
-  },
   links: {
     github: 'https://github.com/JonathanSchndr/vite-plugin-dependency-guard',
     npm: 'https://www.npmjs.com/package/vite-plugin-dependency-guard',
     website: 'https://github.com/JonathanSchndr/vite-plugin-dependency-guard#readme',
+  },
+  source: {
+    github: 'JonathanSchndr/vite-plugin-dependency-guard',
+    npm: 'vite-plugin-dependency-guard',
   },
   stats: {
     stars: 1,

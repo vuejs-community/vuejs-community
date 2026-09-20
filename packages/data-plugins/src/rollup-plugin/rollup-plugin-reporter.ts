@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'report',
     'reporter',
   ],
-  source: {
-    github: 'vovkabelov/rollup-plugin-reporter',
-    npm: 'rollup-plugin-reporter',
-  },
   links: {
     github: 'https://github.com/vovkabelov/rollup-plugin-reporter',
     npm: 'https://www.npmjs.com/package/rollup-plugin-reporter',
     website: 'https://github.com/vovkabelov/rollup-plugin-reporter#readme',
+  },
+  source: {
+    github: 'vovkabelov/rollup-plugin-reporter',
+    npm: 'rollup-plugin-reporter',
   },
   stats: {
     stars: 0,

@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'astahmer/unplugin-jsx-source',
-    npm: 'unplugin-jsx-source',
-  },
   links: {
     github: 'https://github.com/astahmer/unplugin-jsx-source',
     npm: 'https://www.npmjs.com/package/unplugin-jsx-source',
     website: 'https://github.com/astahmer/unplugin-jsx-source#readme',
+  },
+  source: {
+    github: 'astahmer/unplugin-jsx-source',
+    npm: 'unplugin-jsx-source',
   },
   stats: {
     stars: 37,

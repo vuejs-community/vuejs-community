@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'dev',
     'build',
   ],
-  source: {
-    github: 'netlify/framework-adapters',
-    npm: '@netlify/vite-plugin-tanstack-start',
-  },
   links: {
     github: 'https://github.com/netlify/framework-adapters',
     npm: 'https://www.npmjs.com/package/@netlify/vite-plugin-tanstack-start',
     website: 'https://github.com/netlify/framework-adapters#readme',
+  },
+  source: {
+    github: 'netlify/framework-adapters',
+    npm: '@netlify/vite-plugin-tanstack-start',
   },
   stats: {
     stars: 1,

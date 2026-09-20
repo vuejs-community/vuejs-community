@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'file-based-routing',
     'react-router',
   ],
-  source: {
-    github: 'calcifux/vite-plugin-milpa',
-    npm: 'vite-plugin-milpa',
-  },
   links: {
     github: 'https://github.com/calcifux/vite-plugin-milpa',
     npm: 'https://www.npmjs.com/package/vite-plugin-milpa',
     website: 'https://github.com/calcifux/vite-plugin-milpa#readme',
+  },
+  source: {
+    github: 'calcifux/vite-plugin-milpa',
+    npm: 'vite-plugin-milpa',
   },
   stats: {
     stars: 1,

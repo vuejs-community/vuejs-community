@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'build-time',
     'set-build-time',
   ],
-  source: {
-    npm: 'vite-plugin-set-build-time',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-set-build-time',
+  },
+  source: {
+    npm: 'vite-plugin-set-build-time',
   },
   stats: {
     stars: 0,

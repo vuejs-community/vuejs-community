@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'design-system',
     'bundle-analysis',
   ],
-  source: {
-    github: 'IgorToroshin/vite-plugin-ds-insights',
-    npm: 'vite-plugin-ds-insights',
-  },
   links: {
     github: 'https://github.com/IgorToroshin/vite-plugin-ds-insights',
     npm: 'https://www.npmjs.com/package/vite-plugin-ds-insights',
     website: 'https://github.com/IgorToroshin/vite-plugin-ds-insights/tree/master/packages/vite-plugin-ds-insights#readme',
+  },
+  source: {
+    github: 'IgorToroshin/vite-plugin-ds-insights',
+    npm: 'vite-plugin-ds-insights',
   },
   stats: {
     stars: 0,

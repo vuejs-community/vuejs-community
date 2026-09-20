@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'multi-page',
     'html',
   ],
-  source: {
-    github: 'zhoumutou/vite-plugin-mpa',
-    npm: '@zhoumutou/vite-plugin-mpa',
-  },
   links: {
     github: 'https://github.com/zhoumutou/vite-plugin-mpa',
     npm: 'https://www.npmjs.com/package/@zhoumutou/vite-plugin-mpa',
     website: 'https://github.com/zhoumutou/vite-plugin-mpa#readme',
+  },
+  source: {
+    github: 'zhoumutou/vite-plugin-mpa',
+    npm: '@zhoumutou/vite-plugin-mpa',
   },
   stats: {
     stars: 1,

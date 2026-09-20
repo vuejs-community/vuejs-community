@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'maizzle',
   ],
-  source: {
-    npm: 'vite-plugin-maizzle',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-maizzle',
+  },
+  source: {
+    npm: 'vite-plugin-maizzle',
   },
   stats: {
     stars: 0,

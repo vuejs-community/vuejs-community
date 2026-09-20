@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'ssr',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-cjs-interop',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-cjs-interop',
     website: 'https://github.com/cyco130/vite-plugin-cjs-interop#readme',
+  },
+  source: {
+    npm: 'vite-plugin-cjs-interop',
   },
   stats: {
     stars: 0,

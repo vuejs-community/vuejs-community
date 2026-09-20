@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'velite',
     'content',
   ],
-  source: {
-    npm: '@velite/plugin-vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@velite/plugin-vite',
+  },
+  source: {
+    npm: '@velite/plugin-vite',
   },
   stats: {
     stars: 0,

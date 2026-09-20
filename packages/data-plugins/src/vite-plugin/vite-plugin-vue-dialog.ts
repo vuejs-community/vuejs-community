@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-pligin-vue-dialog',
   ],
-  source: {
-    npm: 'vite-plugin-vue-dialog',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-dialog',
+  },
+  source: {
+    npm: 'vite-plugin-vue-dialog',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'typed-scss-modules',
     'typed-less-modules',
   ],
-  source: {
-    github: 'zhangone233/vite-plugin-gen-typed-css-modules',
-    npm: 'vite-plugin-gen-typed-css-modules',
-  },
   links: {
     github: 'https://github.com/zhangone233/vite-plugin-gen-typed-css-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-gen-typed-css-modules',
     website: 'https://github.com/zhangone233/vite-plugin-gen-typed-css-modules#readme',
+  },
+  source: {
+    github: 'zhangone233/vite-plugin-gen-typed-css-modules',
+    npm: 'vite-plugin-gen-typed-css-modules',
   },
   stats: {
     stars: 1,

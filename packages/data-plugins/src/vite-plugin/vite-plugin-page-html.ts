@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'vite-cdn',
     'vite-plugin',
   ],
-  source: {
-    github: 'Marinerer/vite-plugins',
-    npm: 'vite-plugin-page-html',
-  },
   links: {
     github: 'https://github.com/Marinerer/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-page-html',
     website: 'https://github.com/Marinerer/vite-plugins',
+  },
+  source: {
+    github: 'Marinerer/vite-plugins',
+    npm: 'vite-plugin-page-html',
   },
   stats: {
     stars: 0,

@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'vue2',
     'vue',
   ],
-  source: {
-    github: 'pakholeung37/vite-plugin-vue2-svg',
-    npm: 'vite-plugin-vue2-svg',
-  },
   links: {
     github: 'https://github.com/pakholeung37/vite-plugin-vue2-svg',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue2-svg',
+  },
+  source: {
+    github: 'pakholeung37/vite-plugin-vue2-svg',
+    npm: 'vite-plugin-vue2-svg',
   },
   stats: {
     stars: 19,

@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'vue',
     'vue-router',
   ],
-  source: {
-    npm: '@sgysldz/version-check',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@sgysldz/version-check',
+  },
+  source: {
+    npm: '@sgysldz/version-check',
   },
   stats: {
     stars: 0,

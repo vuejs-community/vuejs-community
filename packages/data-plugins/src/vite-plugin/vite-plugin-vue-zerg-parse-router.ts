@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'parse',
   ],
-  source: {
-    npm: 'vite-plugin-vue-zerg-parse-router',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-zerg-parse-router',
+  },
+  source: {
+    npm: 'vite-plugin-vue-zerg-parse-router',
   },
   stats: {
     stars: 0,

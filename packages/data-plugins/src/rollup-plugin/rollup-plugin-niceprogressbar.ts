@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'progressbar',
     'rollup-plugin',
   ],
-  source: {
-    github: 'gwynne/rollup-plugin-niceprogressbar',
-    npm: 'rollup-plugin-niceprogressbar',
-  },
   links: {
     github: 'https://github.com/gwynne/rollup-plugin-niceprogressbar',
     npm: 'https://www.npmjs.com/package/rollup-plugin-niceprogressbar',
     website: 'https://github.com/gwynne/rollup-plugin-niceprogressbar#readme',
+  },
+  source: {
+    github: 'gwynne/rollup-plugin-niceprogressbar',
+    npm: 'rollup-plugin-niceprogressbar',
   },
   stats: {
     stars: 0,

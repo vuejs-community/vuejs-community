@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'pact-lang',
     'kadena',
   ],
-  source: {
-    github: 'kadena-community/pact-toolbox',
-    npm: '@pact-toolbox/unplugin',
-  },
   links: {
     github: 'https://github.com/kadena-community/pact-toolbox',
     npm: 'https://www.npmjs.com/package/@pact-toolbox/unplugin',
     website: 'https://github.com/kadena-community/pact-toolbox#readme',
+  },
+  source: {
+    github: 'kadena-community/pact-toolbox',
+    npm: '@pact-toolbox/unplugin',
   },
   stats: {
     stars: 2,

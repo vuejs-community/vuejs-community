@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'progressbar',
     'rollup-plugin',
   ],
-  source: {
-    github: 'juxtacode/rollup-plugin-showprogress',
-    npm: '@juxtacode/rollup-plugin-showprogress',
-  },
   links: {
     github: 'https://github.com/juxtacode/rollup-plugin-showprogress',
     npm: 'https://www.npmjs.com/package/@juxtacode/rollup-plugin-showprogress',
     website: 'https://github.com/juxtacode/rollup-plugin-showprogress#readme',
+  },
+  source: {
+    github: 'juxtacode/rollup-plugin-showprogress',
+    npm: '@juxtacode/rollup-plugin-showprogress',
   },
   stats: {
     stars: 0,

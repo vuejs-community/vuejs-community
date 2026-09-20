@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'holochain',
     'ad4m',
   ],
-  source: {
-    github: 'perspect3vism/rollup-plugin-dna',
-    npm: '@perspect3vism/rollup-plugin-dna',
-  },
   links: {
     github: 'https://github.com/perspect3vism/rollup-plugin-dna',
     npm: 'https://www.npmjs.com/package/@perspect3vism/rollup-plugin-dna',
     website: 'https://github.com/perspect3vism/rollup-plugin-dna#readme',
+  },
+  source: {
+    github: 'perspect3vism/rollup-plugin-dna',
+    npm: '@perspect3vism/rollup-plugin-dna',
   },
   stats: {
     stars: 0,

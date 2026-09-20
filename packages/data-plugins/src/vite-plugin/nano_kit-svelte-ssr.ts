@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'nano_kit',
     'svelte',
   ],
-  source: {
-    github: 'TrigenSoftware/nano_kit',
-    npm: '@nano_kit/svelte-ssr',
-  },
   links: {
     github: 'https://github.com/TrigenSoftware/nano_kit',
     npm: 'https://www.npmjs.com/package/@nano_kit/svelte-ssr',
     website: 'https://nano-kit.js.org/integrations/svelte-ssr',
+  },
+  source: {
+    github: 'TrigenSoftware/nano_kit',
+    npm: '@nano_kit/svelte-ssr',
   },
   stats: {
     stars: 0,

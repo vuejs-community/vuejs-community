@@ -11,13 +11,13 @@ export default defineProjectMeta({
   tags: [
     'unplugin',
   ],
-  source: {
-    github: 'let-value/translate',
-    npm: '@let-value/translate-loader',
-  },
   links: {
     github: 'https://github.com/let-value/translate',
     npm: 'https://www.npmjs.com/package/@let-value/translate-loader',
+  },
+  source: {
+    github: 'let-value/translate',
+    npm: '@let-value/translate-loader',
   },
   stats: {
     stars: 0,

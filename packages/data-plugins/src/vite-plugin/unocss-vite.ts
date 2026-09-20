@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'unocss/unocss',
-    npm: '@unocss/vite',
-  },
   links: {
     github: 'https://github.com/unocss/unocss',
     npm: 'https://www.npmjs.com/package/@unocss/vite',
     website: 'https://unocss.dev',
+  },
+  source: {
+    github: 'unocss/unocss',
+    npm: '@unocss/vite',
   },
   stats: {
     stars: 0,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'esmodules',
     'development',
   ],
-  source: {
-    github: 'Wroud/foundation',
-    npm: '@wroud/vite-plugin-tsc',
-  },
   links: {
     github: 'https://github.com/Wroud/foundation',
     npm: 'https://www.npmjs.com/package/@wroud/vite-plugin-tsc',
     website: 'https://wroud.dev',
+  },
+  source: {
+    github: 'Wroud/foundation',
+    npm: '@wroud/vite-plugin-tsc',
   },
   stats: {
     stars: 0,

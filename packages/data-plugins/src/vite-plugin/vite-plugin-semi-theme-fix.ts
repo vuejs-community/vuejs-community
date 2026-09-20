@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'semi-ui',
   ],
-  source: {
-    github: 'hechaoqun/vite-plugin-semi-theme-fix',
-    npm: 'vite-plugin-semi-theme-fix',
-  },
   links: {
     github: 'https://github.com/hechaoqun/vite-plugin-semi-theme-fix',
     npm: 'https://www.npmjs.com/package/vite-plugin-semi-theme-fix',
     website: 'https://github.com/hechaoqun/vite-plugin-semi-theme-fix#readme',
+  },
+  source: {
+    github: 'hechaoqun/vite-plugin-semi-theme-fix',
+    npm: 'vite-plugin-semi-theme-fix',
   },
   stats: {
     stars: 0,

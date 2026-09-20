@@ -37,14 +37,14 @@ export default defineProjectMeta({
     'vite-awesome-svg-loader',
     'svgo',
   ],
-  source: {
-    github: 'matafokka/vite-awesome-svg-loader',
-    npm: 'vite-awesome-svg-loader',
-  },
   links: {
     github: 'https://github.com/matafokka/vite-awesome-svg-loader',
     npm: 'https://www.npmjs.com/package/vite-awesome-svg-loader',
     website: 'https://matafokka.github.io/vite-awesome-svg-loader',
+  },
+  source: {
+    github: 'matafokka/vite-awesome-svg-loader',
+    npm: 'vite-awesome-svg-loader',
   },
   stats: {
     stars: 25,

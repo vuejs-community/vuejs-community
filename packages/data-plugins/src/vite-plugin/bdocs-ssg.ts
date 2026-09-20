@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'ssr',
     'react',
   ],
-  source: {
-    npm: '@bdocs/ssg',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@bdocs/ssg',
+  },
+  source: {
+    npm: '@bdocs/ssg',
   },
   stats: {
     stars: 0,

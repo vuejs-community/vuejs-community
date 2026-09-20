@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'optimization',
     'ffmpeg',
   ],
-  source: {
-    github: 'jaaymes/vite-plugin-optimize-videos',
-    npm: 'vite-plugin-optimize-videos',
-  },
   links: {
     github: 'https://github.com/jaaymes/vite-plugin-optimize-videos',
     npm: 'https://www.npmjs.com/package/vite-plugin-optimize-videos',
     website: 'https://github.com/jaaymes/vite-plugin-optimize-videos#readme',
+  },
+  source: {
+    github: 'jaaymes/vite-plugin-optimize-videos',
+    npm: 'vite-plugin-optimize-videos',
   },
   stats: {
     stars: 2,

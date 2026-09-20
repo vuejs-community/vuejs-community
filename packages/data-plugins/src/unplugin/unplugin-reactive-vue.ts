@@ -18,12 +18,12 @@ export default defineProjectMeta({
     'vue',
     'vue-macros',
   ],
-  source: {
-    npm: 'unplugin-reactive-vue',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-reactive-vue',
     website: 'https://git.ulra.eu/adro/unplugin-reactive-vue',
+  },
+  source: {
+    npm: 'unplugin-reactive-vue',
   },
   stats: {
     stars: 0,

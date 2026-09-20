@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'webasyst',
     'vite-plugin',
   ],
-  source: {
-    github: 'Articus-Company/vite-plugin-webasyst',
-    npm: 'vite-plugin-webasyst',
-  },
   links: {
     github: 'https://github.com/Articus-Company/vite-plugin-webasyst',
     npm: 'https://www.npmjs.com/package/vite-plugin-webasyst',
     website: 'https://github.com/Articus-Company/vite-plugin-webasyst#readme',
+  },
+  source: {
+    github: 'Articus-Company/vite-plugin-webasyst',
+    npm: 'vite-plugin-webasyst',
   },
   stats: {
     stars: 0,

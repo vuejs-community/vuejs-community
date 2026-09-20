@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'webpack',
     'rspack',
   ],
-  source: {
-    npm: 'vibe-web-devtools',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vibe-web-devtools',
+  },
+  source: {
+    npm: 'vibe-web-devtools',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'visualization',
     'debugging',
   ],
-  source: {
-    github: 'logicart/logicart-vite-plugin',
-    npm: 'logicart-vite-plugin',
-  },
   links: {
     github: 'https://github.com/logicart/logicart-vite-plugin',
     npm: 'https://www.npmjs.com/package/logicart-vite-plugin',
     website: 'https://github.com/logicart/logicart-vite-plugin#readme',
+  },
+  source: {
+    github: 'logicart/logicart-vite-plugin',
+    npm: 'logicart-vite-plugin',
   },
   stats: {
     stars: 0,

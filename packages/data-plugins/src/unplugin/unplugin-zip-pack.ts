@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'pack',
     'bundle',
   ],
-  source: {
-    github: 'iamspark1e/unplugin-zip-pack',
-    npm: 'unplugin-zip-pack',
-  },
   links: {
     github: 'https://github.com/iamspark1e/unplugin-zip-pack',
     npm: 'https://www.npmjs.com/package/unplugin-zip-pack',
     website: 'https://github.com/iamspark1e/unplugin-zip-pack#readme',
+  },
+  source: {
+    github: 'iamspark1e/unplugin-zip-pack',
+    npm: 'unplugin-zip-pack',
   },
   stats: {
     stars: 6,

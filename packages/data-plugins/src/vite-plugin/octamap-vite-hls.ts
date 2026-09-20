@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'video-streaming',
     'stream video',
   ],
-  source: {
-    github: 'octamap/vite-hls',
-    npm: '@octamap/vite-hls',
-  },
   links: {
     github: 'https://github.com/octamap/vite-hls',
     npm: 'https://www.npmjs.com/package/@octamap/vite-hls',
     website: 'https://github.com/octamap/vite-hls#readme',
+  },
+  source: {
+    github: 'octamap/vite-hls',
+    npm: '@octamap/vite-hls',
   },
   stats: {
     stars: 11,

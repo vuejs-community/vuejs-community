@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'replace',
   ],
-  source: {
-    github: 'imingyu/rollup-plugin-modify',
-    npm: 'imingyu-rollup-plugin-modify',
-  },
   links: {
     github: 'https://github.com/imingyu/rollup-plugin-modify',
     npm: 'https://www.npmjs.com/package/imingyu-rollup-plugin-modify',
     website: 'https://github.com/imingyu/rollup-plugin-modify#readme',
+  },
+  source: {
+    github: 'imingyu/rollup-plugin-modify',
+    npm: 'imingyu-rollup-plugin-modify',
   },
   stats: {
     stars: 0,

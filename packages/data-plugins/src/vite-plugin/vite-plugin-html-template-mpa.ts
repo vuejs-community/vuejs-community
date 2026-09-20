@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'multi-page',
     'html-template',
   ],
-  source: {
-    github: 'Miofly/vite-plugin-html-template-mpa',
-    npm: 'vite-plugin-html-template-mpa',
-  },
   links: {
     github: 'https://github.com/Miofly/vite-plugin-html-template-mpa',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-template-mpa',
     website: 'https://github.com/Miofly/vite-plugin-html-template-mpa',
+  },
+  source: {
+    github: 'Miofly/vite-plugin-html-template-mpa',
+    npm: 'vite-plugin-html-template-mpa',
   },
   stats: {
     stars: 31,

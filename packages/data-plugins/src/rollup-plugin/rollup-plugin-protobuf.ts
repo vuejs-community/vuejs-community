@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'protobuf',
   ],
-  source: {
-    npm: 'rollup-plugin-protobuf',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-protobuf',
+  },
+  source: {
+    npm: 'rollup-plugin-protobuf',
   },
   stats: {
     stars: 0,

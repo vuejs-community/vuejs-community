@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'code-analysis',
     'vue',
   ],
-  source: {
-    github: 'rocktntz/vite-plugin-security-scan',
-    npm: 'vite-plugin-security-scan',
-  },
   links: {
     github: 'https://github.com/rocktntz/vite-plugin-security-scan',
     npm: 'https://www.npmjs.com/package/vite-plugin-security-scan',
     website: 'https://github.com/rocktntz/vite-plugin-security-scan#readme',
+  },
+  source: {
+    github: 'rocktntz/vite-plugin-security-scan',
+    npm: 'vite-plugin-security-scan',
   },
   stats: {
     stars: 1,

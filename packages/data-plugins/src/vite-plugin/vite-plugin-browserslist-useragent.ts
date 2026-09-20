@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'useragent',
   ],
-  source: {
-    github: 'kingyue737/vite-plugin-browserslist-useragent',
-    npm: 'vite-plugin-browserslist-useragent',
-  },
   links: {
     github: 'https://github.com/kingyue737/vite-plugin-browserslist-useragent',
     npm: 'https://www.npmjs.com/package/vite-plugin-browserslist-useragent',
     website: 'https://github.com/kingyue737/vite-plugin-browserslist-useragent#readme',
+  },
+  source: {
+    github: 'kingyue737/vite-plugin-browserslist-useragent',
+    npm: 'vite-plugin-browserslist-useragent',
   },
   stats: {
     stars: 17,

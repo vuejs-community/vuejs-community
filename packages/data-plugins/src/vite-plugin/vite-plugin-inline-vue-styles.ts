@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'inline vue styles',
     'inline vue CSS',
   ],
-  source: {
-    npm: 'vite-plugin-inline-vue-styles',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-inline-vue-styles',
+  },
+  source: {
+    npm: 'vite-plugin-inline-vue-styles',
   },
   stats: {
     stars: 0,

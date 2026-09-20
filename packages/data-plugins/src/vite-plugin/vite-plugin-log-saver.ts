@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'debug',
     'development',
   ],
-  source: {
-    github: 'Tajigaqzh/vite-plugin-log-saver',
-    npm: 'vite-plugin-log-saver',
-  },
   links: {
     github: 'https://github.com/Tajigaqzh/vite-plugin-log-saver',
     npm: 'https://www.npmjs.com/package/vite-plugin-log-saver',
     website: 'https://github.com/Tajigaqzh/vite-plugin-log-saver#readme',
+  },
+  source: {
+    github: 'Tajigaqzh/vite-plugin-log-saver',
+    npm: 'vite-plugin-log-saver',
   },
   stats: {
     stars: 0,

@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vue',
     'svg',
   ],
-  source: {
-    npm: 'vite-plugin-svg-import',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-import',
+  },
+  source: {
+    npm: 'vite-plugin-svg-import',
   },
   stats: {
     stars: 0,

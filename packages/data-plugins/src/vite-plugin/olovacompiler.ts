@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'component',
   ],
-  source: {
-    github: 'yourusername/olovacompiler',
-    npm: 'olovacompiler',
-  },
   links: {
     github: 'https://github.com/yourusername/olovacompiler',
     npm: 'https://www.npmjs.com/package/olovacompiler',
     website: 'https://github.com/yourusername/olovacompiler#readme',
+  },
+  source: {
+    github: 'yourusername/olovacompiler',
+    npm: 'olovacompiler',
   },
   stats: {
     stars: 0,

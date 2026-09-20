@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'ionic-team/rollup-plugin-node-polyfills',
-    npm: '@jimpick/rollup-plugin-node-polyfills',
-  },
   links: {
     github: 'https://github.com/ionic-team/rollup-plugin-node-polyfills',
     npm: 'https://www.npmjs.com/package/@jimpick/rollup-plugin-node-polyfills',
     website: 'https://github.com/ionic-team/rollup-plugin-node-polyfills#readme',
+  },
+  source: {
+    github: 'ionic-team/rollup-plugin-node-polyfills',
+    npm: '@jimpick/rollup-plugin-node-polyfills',
   },
   stats: {
     stars: 0,

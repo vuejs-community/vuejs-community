@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'typescript',
     'codegen',
   ],
-  source: {
-    github: 'spokbjorn/openapi-typescript',
-    npm: '@spokbjorn/vite-plugin-openapi-typescript',
-  },
   links: {
     github: 'https://github.com/spokbjorn/openapi-typescript',
     npm: 'https://www.npmjs.com/package/@spokbjorn/vite-plugin-openapi-typescript',
     website: 'https://github.com/spokbjorn/openapi-typescript',
+  },
+  source: {
+    github: 'spokbjorn/openapi-typescript',
+    npm: '@spokbjorn/vite-plugin-openapi-typescript',
   },
   stats: {
     stars: 0,

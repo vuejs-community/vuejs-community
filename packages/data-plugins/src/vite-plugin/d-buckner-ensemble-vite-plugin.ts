@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'bundler',
     'typescript',
   ],
-  source: {
-    github: 'd-buckner/ensemble',
-    npm: '@d-buckner/ensemble-vite-plugin',
-  },
   links: {
     github: 'https://github.com/d-buckner/ensemble',
     npm: 'https://www.npmjs.com/package/@d-buckner/ensemble-vite-plugin',
     website: 'https://github.com/d-buckner/ensemble#readme',
+  },
+  source: {
+    github: 'd-buckner/ensemble',
+    npm: '@d-buckner/ensemble-vite-plugin',
   },
   stats: {
     stars: 0,

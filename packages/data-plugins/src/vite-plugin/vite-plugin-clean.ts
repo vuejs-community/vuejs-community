@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'vite-plugin-clean',
     'vite-plugin-remove',
   ],
-  source: {
-    github: 'z-ti/vite-plugin-clean',
-    npm: 'vite-plugin-clean',
-  },
   links: {
     github: 'https://github.com/z-ti/vite-plugin-clean',
     npm: 'https://www.npmjs.com/package/vite-plugin-clean',
     website: 'https://github.com/z-ti/vite-plugin-clean',
+  },
+  source: {
+    github: 'z-ti/vite-plugin-clean',
+    npm: 'vite-plugin-clean',
   },
   stats: {
     stars: 13,

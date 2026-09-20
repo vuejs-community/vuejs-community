@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'vite-pwa/astro',
-    npm: '@vite-pwa/astro',
-  },
   links: {
     github: 'https://github.com/vite-pwa/astro',
     npm: 'https://www.npmjs.com/package/@vite-pwa/astro',
     website: 'https://github.com/vite-pwa/astro#readme',
+  },
+  source: {
+    github: 'vite-pwa/astro',
+    npm: '@vite-pwa/astro',
   },
   stats: {
     stars: 320,

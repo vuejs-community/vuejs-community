@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-eslint',
     'vite-plugin-eslint',
   ],
-  source: {
-    github: 'wai-lin/vite-plugin-eslinter',
-    npm: 'vite-plugin-eslinter',
-  },
   links: {
     github: 'https://github.com/wai-lin/vite-plugin-eslinter',
     npm: 'https://www.npmjs.com/package/vite-plugin-eslinter',
     website: 'https://github.com/wai-lin/vite-plugin-eslinter#readme',
+  },
+  source: {
+    github: 'wai-lin/vite-plugin-eslinter',
+    npm: 'vite-plugin-eslinter',
   },
   stats: {
     stars: 1,

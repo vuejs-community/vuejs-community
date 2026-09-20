@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'jimp',
     'icons',
   ],
-  source: {
-    github: 'kaze-k/rollup-plugin-generate-icon',
-    npm: 'rollup-plugin-generate-icon',
-  },
   links: {
     github: 'https://github.com/kaze-k/rollup-plugin-generate-icon',
     npm: 'https://www.npmjs.com/package/rollup-plugin-generate-icon',
     website: 'https://github.com/kaze-k/rollup-plugin-generate-icon',
+  },
+  source: {
+    github: 'kaze-k/rollup-plugin-generate-icon',
+    npm: 'rollup-plugin-generate-icon',
   },
   stats: {
     stars: 0,

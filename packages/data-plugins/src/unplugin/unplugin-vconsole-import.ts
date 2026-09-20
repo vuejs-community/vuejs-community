@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'fightwithtiger/unplugin-vconsole-import',
-    npm: 'unplugin-vconsole-import',
-  },
   links: {
     github: 'https://github.com/fightwithtiger/unplugin-vconsole-import',
     npm: 'https://www.npmjs.com/package/unplugin-vconsole-import',
     website: 'https://github.com/fightwithtiger',
+  },
+  source: {
+    github: 'fightwithtiger/unplugin-vconsole-import',
+    npm: 'unplugin-vconsole-import',
   },
   stats: {
     stars: 1,

@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-sveltekit-telephone-dev',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-sveltekit-telephone-dev',
+  },
+  source: {
+    npm: 'vite-plugin-sveltekit-telephone-dev',
   },
   stats: {
     stars: 0,

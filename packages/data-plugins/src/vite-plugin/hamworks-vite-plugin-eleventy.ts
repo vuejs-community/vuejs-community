@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'eleventy',
   ],
-  source: {
-    github: 'hamworks/vite-plugin-eleventy',
-    npm: '@hamworks/vite-plugin-eleventy',
-  },
   links: {
     github: 'https://github.com/hamworks/vite-plugin-eleventy',
     npm: 'https://www.npmjs.com/package/@hamworks/vite-plugin-eleventy',
     website: 'https://github.com/hamworks/vite-plugin-eleventy#readme',
+  },
+  source: {
+    github: 'hamworks/vite-plugin-eleventy',
+    npm: '@hamworks/vite-plugin-eleventy',
   },
   stats: {
     stars: 0,

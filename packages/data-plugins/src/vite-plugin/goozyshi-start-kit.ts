@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'template-generator',
     'i18n',
   ],
-  source: {
-    github: 'goozyshi/start-kit',
-    npm: '@goozyshi/start-kit',
-  },
   links: {
     github: 'https://github.com/goozyshi/start-kit',
     npm: 'https://www.npmjs.com/package/@goozyshi/start-kit',
     website: 'https://github.com/goozyshi/start-kit#readme',
+  },
+  source: {
+    github: 'goozyshi/start-kit',
+    npm: '@goozyshi/start-kit',
   },
   stats: {
     stars: 0,

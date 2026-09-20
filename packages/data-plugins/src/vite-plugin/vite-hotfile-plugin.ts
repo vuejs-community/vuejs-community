@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'hotfile',
   ],
-  source: {
-    github: 'neuerituale/vite-hot-file',
-    npm: 'vite-hotfile-plugin',
-  },
   links: {
     github: 'https://github.com/neuerituale/vite-hot-file',
     npm: 'https://www.npmjs.com/package/vite-hotfile-plugin',
     website: 'https://github.com/neuerituale/vite-hot-file#readme',
+  },
+  source: {
+    github: 'neuerituale/vite-hot-file',
+    npm: 'vite-hotfile-plugin',
   },
   stats: {
     stars: 3,

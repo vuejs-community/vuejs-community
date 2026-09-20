@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'iclient3d',
     'supermap3d',
   ],
-  source: {
-    npm: '@supermapgis/vite-plugin-loadsdk',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@supermapgis/vite-plugin-loadsdk',
+  },
+  source: {
+    npm: '@supermapgis/vite-plugin-loadsdk',
   },
   stats: {
     stars: 0,

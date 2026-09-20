@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://arkenv.js.org',
   },
   source: {
-    github: 'yamcodes/arkenv#main/packages/nuxt',
+    github: 'yamcodes/arkenv',
     npm: '@arkenv/nuxt',
   },
 })

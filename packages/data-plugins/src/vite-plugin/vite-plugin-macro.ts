@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'babel',
     'vite-plugin',
   ],
-  source: {
-    github: 'viteland/vite-plugin-macro',
-    npm: 'vite-plugin-macro',
-  },
   links: {
     github: 'https://github.com/viteland/vite-plugin-macro',
     npm: 'https://www.npmjs.com/package/vite-plugin-macro',
     website: 'https://github.com/viteland/vite-plugin-macro/',
+  },
+  source: {
+    github: 'viteland/vite-plugin-macro',
+    npm: 'vite-plugin-macro',
   },
   stats: {
     stars: 142,

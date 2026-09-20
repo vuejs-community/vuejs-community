@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'markdown',
     'static-site',
   ],
-  source: {
-    github: 'shadowdara/samengine',
-    npm: 'vite-plugin-minisite',
-  },
   links: {
     github: 'https://github.com/shadowdara/samengine',
     npm: 'https://www.npmjs.com/package/vite-plugin-minisite',
     website: 'https://github.com/shadowdara/samengine#readme',
+  },
+  source: {
+    github: 'shadowdara/samengine',
+    npm: 'vite-plugin-minisite',
   },
   stats: {
     stars: 0,

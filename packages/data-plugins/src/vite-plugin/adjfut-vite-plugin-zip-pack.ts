@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'bundler',
     'compressing',
   ],
-  source: {
-    github: '153264/vite-plugin-zip-pack',
-    npm: '@adjfut/vite-plugin-zip-pack',
-  },
   links: {
     github: 'https://github.com/153264/vite-plugin-zip-pack',
     npm: 'https://www.npmjs.com/package/@adjfut/vite-plugin-zip-pack',
     website: 'https://github.com/153264/vite-plugin-zip-pack#readme',
+  },
+  source: {
+    github: '153264/vite-plugin-zip-pack',
+    npm: '@adjfut/vite-plugin-zip-pack',
   },
   stats: {
     stars: 1,

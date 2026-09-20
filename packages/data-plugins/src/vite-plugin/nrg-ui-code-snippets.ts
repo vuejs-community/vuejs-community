@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'virtual-module',
     'hot-reload',
   ],
-  source: {
-    github: 'knoxville-utilities-board/nrg-ui',
-    npm: '@nrg-ui/code-snippets',
-  },
   links: {
     github: 'https://github.com/knoxville-utilities-board/nrg-ui',
     npm: 'https://www.npmjs.com/package/@nrg-ui/code-snippets',
     website: 'https://github.com/knoxville-utilities-board/nrg-ui#readme',
+  },
+  source: {
+    github: 'knoxville-utilities-board/nrg-ui',
+    npm: '@nrg-ui/code-snippets',
   },
   stats: {
     stars: 0,

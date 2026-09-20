@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'template',
     'cleaner',
   ],
-  source: {
-    npm: 'vite-plugin-html-template-cleaner',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-html-template-cleaner',
+  },
+  source: {
+    npm: 'vite-plugin-html-template-cleaner',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    github: 'mistjs/vite-plugin-starter',
-    npm: '@m-f2e/vite-plugin-css-injected-bundle',
-  },
   links: {
     github: 'https://github.com/mistjs/vite-plugin-starter',
     npm: 'https://www.npmjs.com/package/@m-f2e/vite-plugin-css-injected-bundle',
     website: 'https://github.com/m-f2e/vite-plugin-css-injected-bundle.git#readme',
+  },
+  source: {
+    github: 'mistjs/vite-plugin-starter',
+    npm: '@m-f2e/vite-plugin-css-injected-bundle',
   },
   stats: {
     stars: 0,

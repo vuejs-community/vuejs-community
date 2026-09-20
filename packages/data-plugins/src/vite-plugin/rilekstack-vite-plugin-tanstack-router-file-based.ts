@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-tanstack-router-file-based',
   ],
-  source: {
-    github: 'rilek/vite-plugin-tanstack-router-file-based',
-    npm: '@rilekstack/vite-plugin-tanstack-router-file-based',
-  },
   links: {
     github: 'https://github.com/rilek/vite-plugin-tanstack-router-file-based',
     npm: 'https://www.npmjs.com/package/@rilekstack/vite-plugin-tanstack-router-file-based',
     website: 'https://github.com/rilek/vite-plugin-tanstack-router-file-based#readme',
+  },
+  source: {
+    github: 'rilek/vite-plugin-tanstack-router-file-based',
+    npm: '@rilekstack/vite-plugin-tanstack-router-file-based',
   },
   stats: {
     stars: 0,

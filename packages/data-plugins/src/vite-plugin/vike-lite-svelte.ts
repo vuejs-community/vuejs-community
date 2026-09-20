@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'vitejs',
     'web-framework',
   ],
-  source: {
-    github: 'node-ecosystem/vike-lite',
-    npm: 'vike-lite-svelte',
-  },
   links: {
     github: 'https://github.com/node-ecosystem/vike-lite',
     npm: 'https://www.npmjs.com/package/vike-lite-svelte',
     website: 'https://github.com/node-ecosystem/vike-lite#readme',
+  },
+  source: {
+    github: 'node-ecosystem/vike-lite',
+    npm: 'vike-lite-svelte',
   },
   stats: {
     stars: 0,

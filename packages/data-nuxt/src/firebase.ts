@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://firebase.nuxtjs.org',
   },
   source: {
-    github: 'nuxt-community/firebase-module#master/packages/firebase-module',
+    github: 'nuxt-community/firebase-module',
     npm: '@nuxtjs/firebase',
   },
 })

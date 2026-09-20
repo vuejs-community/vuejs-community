@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'inline',
     'commonjs',
   ],
-  source: {
-    github: 'Jacobinwwey/vite-plugin-singlefile-offline',
-    npm: 'vite-plugin-singlefile-offline',
-  },
   links: {
     github: 'https://github.com/Jacobinwwey/vite-plugin-singlefile-offline',
     npm: 'https://www.npmjs.com/package/vite-plugin-singlefile-offline',
     website: 'https://github.com/Jacobinwwey/vite-plugin-singlefile-offline',
+  },
+  source: {
+    github: 'Jacobinwwey/vite-plugin-singlefile-offline',
+    npm: 'vite-plugin-singlefile-offline',
   },
   stats: {
     stars: 0,

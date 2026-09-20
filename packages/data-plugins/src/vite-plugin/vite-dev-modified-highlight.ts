@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'highlight',
     'mtime',
   ],
-  source: {
-    npm: 'vite-dev-modified-highlight',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-dev-modified-highlight',
+  },
+  source: {
+    npm: 'vite-dev-modified-highlight',
   },
   stats: {
     stars: 0,

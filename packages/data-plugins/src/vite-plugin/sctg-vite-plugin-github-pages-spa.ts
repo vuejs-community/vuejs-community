@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vue',
     'svelte',
   ],
-  source: {
-    github: 'sctg-development/vite-plugin-github-pages-spa',
-    npm: '@sctg/vite-plugin-github-pages-spa',
-  },
   links: {
     github: 'https://github.com/sctg-development/vite-plugin-github-pages-spa',
     npm: 'https://www.npmjs.com/package/@sctg/vite-plugin-github-pages-spa',
     website: 'https://github.com/sctg-development/vite-plugin-github-pages-spa#readme',
+  },
+  source: {
+    github: 'sctg-development/vite-plugin-github-pages-spa',
+    npm: '@sctg/vite-plugin-github-pages-spa',
   },
   stats: {
     stars: 17,

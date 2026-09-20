@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'build',
     'versioning',
   ],
-  source: {
-    github: 'i486/vite-plugin-version-increment',
-    npm: 'vite-plugin-version-increment',
-  },
   links: {
     github: 'https://github.com/i486/vite-plugin-version-increment',
     npm: 'https://www.npmjs.com/package/vite-plugin-version-increment',
     website: 'https://github.com/i486/vite-plugin-version-increment#readme',
+  },
+  source: {
+    github: 'i486/vite-plugin-version-increment',
+    npm: 'vite-plugin-version-increment',
   },
   stats: {
     stars: 0,

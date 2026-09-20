@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'northernCold/unplugin-tailwindcss-shortener',
-    npm: 'unplugin-tailwindcss-shortener',
-  },
   links: {
     github: 'https://github.com/northernCold/unplugin-tailwindcss-shortener',
     npm: 'https://www.npmjs.com/package/unplugin-tailwindcss-shortener',
     website: 'https://github.com/northernCold/unplugin-tailwindcss-shortener#readme',
+  },
+  source: {
+    github: 'northernCold/unplugin-tailwindcss-shortener',
+    npm: 'unplugin-tailwindcss-shortener',
   },
   stats: {
     stars: 4,

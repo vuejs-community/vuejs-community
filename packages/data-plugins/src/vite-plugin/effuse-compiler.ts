@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'babel',
     'transform',
   ],
-  source: {
-    github: 'chrismichaelps/effuse',
-    npm: '@effuse/compiler',
-  },
   links: {
     github: 'https://github.com/chrismichaelps/effuse',
     npm: 'https://www.npmjs.com/package/@effuse/compiler',
     website: 'https://github.com/chrismichaelps/effuse#readme',
+  },
+  source: {
+    github: 'chrismichaelps/effuse',
+    npm: '@effuse/compiler',
   },
   stats: {
     stars: 1,

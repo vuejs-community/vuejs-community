@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'vite plugin',
     'vite',
   ],
-  source: {
-    npm: '@responsive-image/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@responsive-image/vite-plugin',
     website: 'https://github.com/simonihmig/responsive-image#readme',
+  },
+  source: {
+    npm: '@responsive-image/vite-plugin',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'svelte',
   ],
-  source: {
-    github: 'sveltejs/vite-plugin-svelte',
-    npm: '@sveltejs/vite-plugin-svelte-inspector',
-  },
   links: {
     github: 'https://github.com/sveltejs/vite-plugin-svelte',
     npm: 'https://www.npmjs.com/package/@sveltejs/vite-plugin-svelte-inspector',
     website: 'https://github.com/sveltejs/vite-plugin-svelte#readme',
+  },
+  source: {
+    github: 'sveltejs/vite-plugin-svelte',
+    npm: '@sveltejs/vite-plugin-svelte-inspector',
   },
   stats: {
     stars: 1041,

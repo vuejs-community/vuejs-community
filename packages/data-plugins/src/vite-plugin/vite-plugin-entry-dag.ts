@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'route',
     'dynamic-import',
   ],
-  source: {
-    npm: 'vite-plugin-entry-dag',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-entry-dag',
+  },
+  source: {
+    npm: 'vite-plugin-entry-dag',
   },
   stats: {
     stars: 0,

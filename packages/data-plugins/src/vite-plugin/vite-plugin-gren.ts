@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'gren-lang/vite-plugin-gren',
-    npm: 'vite-plugin-gren',
-  },
   links: {
     github: 'https://github.com/gren-lang/vite-plugin-gren',
     npm: 'https://www.npmjs.com/package/vite-plugin-gren',
     website: 'https://github.com/gren-lang/vite-plugin-gren',
+  },
+  source: {
+    github: 'gren-lang/vite-plugin-gren',
+    npm: 'vite-plugin-gren',
   },
   stats: {
     stars: 4,

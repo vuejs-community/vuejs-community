@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'web',
     'service-worker',
   ],
-  source: {
-    github: 'serwist/serwist',
-    npm: 'vite-plugin-serwist',
-  },
   links: {
     github: 'https://github.com/serwist/serwist',
     npm: 'https://www.npmjs.com/package/vite-plugin-serwist',
     website: 'https://serwist.pages.dev',
+  },
+  source: {
+    github: 'serwist/serwist',
+    npm: 'vite-plugin-serwist',
   },
   stats: {
     stars: 0,

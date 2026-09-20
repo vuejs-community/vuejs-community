@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'tbrannam/rollup-plugin-polyfill-node',
-    npm: '@tbrannam/rollup-plugin-polyfill-node',
-  },
   links: {
     github: 'https://github.com/tbrannam/rollup-plugin-polyfill-node',
     npm: 'https://www.npmjs.com/package/@tbrannam/rollup-plugin-polyfill-node',
     website: 'https://github.com/tbrannam/rollup-plugin-polyfill-node#readme',
+  },
+  source: {
+    github: 'tbrannam/rollup-plugin-polyfill-node',
+    npm: '@tbrannam/rollup-plugin-polyfill-node',
   },
   stats: {
     stars: 0,

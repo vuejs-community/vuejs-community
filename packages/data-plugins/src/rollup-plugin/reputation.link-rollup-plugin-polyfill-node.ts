@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'snowpackjs/rollup-plugin-polyfill-node',
-    npm: '@reputation.link/rollup-plugin-polyfill-node',
-  },
   links: {
     github: 'https://github.com/snowpackjs/rollup-plugin-polyfill-node',
     npm: 'https://www.npmjs.com/package/@reputation.link/rollup-plugin-polyfill-node',
     website: 'https://github.com/snowpackjs/rollup-plugin-polyfill-node#readme',
+  },
+  source: {
+    github: 'snowpackjs/rollup-plugin-polyfill-node',
+    npm: '@reputation.link/rollup-plugin-polyfill-node',
   },
   stats: {
     stars: 0,

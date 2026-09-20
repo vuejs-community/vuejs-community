@@ -12,12 +12,12 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-file-create',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-file-create',
     website: 'https://github.com/Hxy1992/vite-plugin-file-create',
+  },
+  source: {
+    npm: 'vite-plugin-file-create',
   },
   stats: {
     stars: 0,

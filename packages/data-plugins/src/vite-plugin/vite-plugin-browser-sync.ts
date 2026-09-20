@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'Applelo/vite-plugin-browser-sync',
-    npm: 'vite-plugin-browser-sync',
-  },
   links: {
     github: 'https://github.com/Applelo/vite-plugin-browser-sync',
     npm: 'https://www.npmjs.com/package/vite-plugin-browser-sync',
     website: 'https://github.com/Applelo/vite-plugin-browser-sync',
+  },
+  source: {
+    github: 'Applelo/vite-plugin-browser-sync',
+    npm: 'vite-plugin-browser-sync',
   },
   stats: {
     stars: 91,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'tanstack',
     'sitemap',
   ],
-  source: {
-    github: 'thrivcompany/vite-plugin-tanstack-sitemap',
-    npm: 'vite-plugin-tanstack-sitemap',
-  },
   links: {
     github: 'https://github.com/thrivcompany/vite-plugin-tanstack-sitemap',
     npm: 'https://www.npmjs.com/package/vite-plugin-tanstack-sitemap',
     website: 'https://github.com/thrivcompany/vite-plugin-tanstack-sitemap#readme',
+  },
+  source: {
+    github: 'thrivcompany/vite-plugin-tanstack-sitemap',
+    npm: 'vite-plugin-tanstack-sitemap',
   },
   stats: {
     stars: 0,

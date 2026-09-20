@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'cdn',
     'external',
   ],
-  source: {
-    npm: 'vite-plugin-external-cdn',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-external-cdn',
+  },
+  source: {
+    npm: 'vite-plugin-external-cdn',
   },
   stats: {
     stars: 0,

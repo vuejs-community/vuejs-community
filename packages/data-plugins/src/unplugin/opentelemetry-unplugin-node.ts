@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'webpack',
     'esbuild',
   ],
-  source: {
-    github: 'DrewCorlin/opentelemetry-node-bundler-plugins',
-    npm: 'opentelemetry-unplugin-node',
-  },
   links: {
     github: 'https://github.com/DrewCorlin/opentelemetry-node-bundler-plugins',
     npm: 'https://www.npmjs.com/package/opentelemetry-unplugin-node',
     website: 'https://github.com/DrewCorlin/opentelemetry-node-bundler-plugins#readme',
+  },
+  source: {
+    github: 'DrewCorlin/opentelemetry-node-bundler-plugins',
+    npm: 'opentelemetry-unplugin-node',
   },
   stats: {
     stars: 10,

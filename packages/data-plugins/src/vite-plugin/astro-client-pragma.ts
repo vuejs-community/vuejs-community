@@ -29,14 +29,14 @@ export default defineProjectMeta({
     'web-components',
     'static-site',
   ],
-  source: {
-    github: 'mohamedradime/astro-client-pragma',
-    npm: 'astro-client-pragma',
-  },
   links: {
     github: 'https://github.com/mohamedradime/astro-client-pragma',
     npm: 'https://www.npmjs.com/package/astro-client-pragma',
     website: 'https://github.com/mohamedradime/astro-client-pragma#readme',
+  },
+  source: {
+    github: 'mohamedradime/astro-client-pragma',
+    npm: 'astro-client-pragma',
   },
   stats: {
     stars: 2,

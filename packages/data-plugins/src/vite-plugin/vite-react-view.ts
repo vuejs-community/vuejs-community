@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'router',
     'react-router',
   ],
-  source: {
-    npm: 'vite-react-view',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-react-view',
+  },
+  source: {
+    npm: 'vite-react-view',
   },
   stats: {
     stars: 0,

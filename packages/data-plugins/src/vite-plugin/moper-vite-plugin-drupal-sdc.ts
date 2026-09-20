@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'sdc',
     'single-directory-components',
   ],
-  source: {
-    npm: '@moper/vite-plugin-drupal-sdc',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@moper/vite-plugin-drupal-sdc',
+  },
+  source: {
+    npm: '@moper/vite-plugin-drupal-sdc',
   },
   stats: {
     stars: 0,

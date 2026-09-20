@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'elgato',
     'stream-deck',
   ],
-  source: {
-    github: 'fcannizzaro/rollup-stream-deck-package',
-    npm: '@fcannizzaro/rollup-stream-deck-package',
-  },
   links: {
     github: 'https://github.com/fcannizzaro/rollup-stream-deck-package',
     npm: 'https://www.npmjs.com/package/@fcannizzaro/rollup-stream-deck-package',
     website: 'https://github.com/fcannizzaro/rollup-stream-deck-package#readme',
+  },
+  source: {
+    github: 'fcannizzaro/rollup-stream-deck-package',
+    npm: '@fcannizzaro/rollup-stream-deck-package',
   },
   stats: {
     stars: 0,

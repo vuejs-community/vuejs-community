@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'svelte',
     'mithril',
   ],
-  source: {
-    github: 'DeJy/vite-plugin-ionic-icons',
-    npm: 'vite-plugin-ionic-icons',
-  },
   links: {
     github: 'https://github.com/DeJy/vite-plugin-ionic-icons',
     npm: 'https://www.npmjs.com/package/vite-plugin-ionic-icons',
     website: 'https://github.com/DeJy/vite-plugin-ionic-icons#readme',
+  },
+  source: {
+    github: 'DeJy/vite-plugin-ionic-icons',
+    npm: 'vite-plugin-ionic-icons',
   },
   stats: {
     stars: 0,

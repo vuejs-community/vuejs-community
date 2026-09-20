@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vue-magie',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vue-magie',
+  },
+  source: {
+    npm: 'vue-magie',
   },
   stats: {
     stars: 0,

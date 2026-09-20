@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'timezone',
     'tz',
   ],
-  source: {
-    github: 'cbetori/vite-plugin-moment-timezone',
-    npm: 'vite-plugin-moment-timezone',
-  },
   links: {
     github: 'https://github.com/cbetori/vite-plugin-moment-timezone',
     npm: 'https://www.npmjs.com/package/vite-plugin-moment-timezone',
     website: 'https://github.com/cbetori/vite-plugin-moment-timezone#readme',
+  },
+  source: {
+    github: 'cbetori/vite-plugin-moment-timezone',
+    npm: 'vite-plugin-moment-timezone',
   },
   stats: {
     stars: 2,

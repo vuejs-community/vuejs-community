@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'react-intl',
     'vite-plugin',
   ],
-  source: {
-    github: 'formatjs/formatjs',
-    npm: '@formatjs/vite-plugin',
-  },
   links: {
     github: 'https://github.com/formatjs/formatjs',
     npm: 'https://www.npmjs.com/package/@formatjs/vite-plugin',
     website: 'https://github.com/formatjs/formatjs#readme',
+  },
+  source: {
+    github: 'formatjs/formatjs',
+    npm: '@formatjs/vite-plugin',
   },
   stats: {
     stars: 14745,

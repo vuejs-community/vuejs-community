@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'relative-path',
     'no-relative-path',
   ],
-  source: {
-    github: 'zengnificant/vite-plugin-local-scoped-modules',
-    npm: 'vite-plugin-local-scoped-modules',
-  },
   links: {
     github: 'https://github.com/zengnificant/vite-plugin-local-scoped-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-local-scoped-modules',
     website: 'https://github.com/zengnificant/vite-plugin-local-scoped-modules#readme',
+  },
+  source: {
+    github: 'zengnificant/vite-plugin-local-scoped-modules',
+    npm: 'vite-plugin-local-scoped-modules',
   },
   stats: {
     stars: 0,

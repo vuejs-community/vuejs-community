@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin-runtime-cdn',
     'runtime-cdn',
   ],
-  source: {
-    github: 'Levix/vite-plugin-runtime-cdn',
-    npm: 'vite-plugin-runtime-cdn',
-  },
   links: {
     github: 'https://github.com/Levix/vite-plugin-runtime-cdn',
     npm: 'https://www.npmjs.com/package/vite-plugin-runtime-cdn',
     website: 'https://github.com/Levix/vite-plugin-runtime-cdn#readme',
+  },
+  source: {
+    github: 'Levix/vite-plugin-runtime-cdn',
+    npm: 'vite-plugin-runtime-cdn',
   },
   stats: {
     stars: 1,

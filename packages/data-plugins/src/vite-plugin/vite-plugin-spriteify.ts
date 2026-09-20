@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'svg',
     'svgo',
   ],
-  source: {
-    github: 'rasyidf/vite-plugin-spriteify',
-    npm: 'vite-plugin-spriteify',
-  },
   links: {
     github: 'https://github.com/rasyidf/vite-plugin-spriteify',
     npm: 'https://www.npmjs.com/package/vite-plugin-spriteify',
     website: 'https://github.com/rasyidf/vite-plugin-spriteify#readme',
+  },
+  source: {
+    github: 'rasyidf/vite-plugin-spriteify',
+    npm: 'vite-plugin-spriteify',
   },
   stats: {
     stars: 1,

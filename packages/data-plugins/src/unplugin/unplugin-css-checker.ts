@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'He110te4m/unplugin-css-checker',
-    npm: 'unplugin-css-checker',
-  },
   links: {
     github: 'https://github.com/He110te4m/unplugin-css-checker',
     npm: 'https://www.npmjs.com/package/unplugin-css-checker',
     website: 'https://github.com/He110te4m/unplugin-css-checker#readme',
+  },
+  source: {
+    github: 'He110te4m/unplugin-css-checker',
+    npm: 'unplugin-css-checker',
   },
   stats: {
     stars: 0,

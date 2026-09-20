@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'rollup-plugin',
   ],
-  source: {
-    github: 'william-xue/code-sweeper',
-    npm: '@fe-fast/code-sweeper',
-  },
   links: {
     github: 'https://github.com/william-xue/code-sweeper',
     npm: 'https://www.npmjs.com/package/@fe-fast/code-sweeper',
     website: 'https://github.com/william-xue/code-sweeper#readme',
+  },
+  source: {
+    github: 'william-xue/code-sweeper',
+    npm: '@fe-fast/code-sweeper',
   },
   stats: {
     stars: 1,

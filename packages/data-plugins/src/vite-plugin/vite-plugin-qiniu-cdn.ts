@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'qiniu',
   ],
-  source: {
-    github: 'liliuzhu/vite-plugin-qiniu-cdn',
-    npm: 'vite-plugin-qiniu-cdn',
-  },
   links: {
     github: 'https://github.com/liliuzhu/vite-plugin-qiniu-cdn',
     npm: 'https://www.npmjs.com/package/vite-plugin-qiniu-cdn',
     website: 'https://github.com/liliuzhu/vite-plugin-qiniu-cdn.git#readme',
+  },
+  source: {
+    github: 'liliuzhu/vite-plugin-qiniu-cdn',
+    npm: 'vite-plugin-qiniu-cdn',
   },
   stats: {
     stars: 1,

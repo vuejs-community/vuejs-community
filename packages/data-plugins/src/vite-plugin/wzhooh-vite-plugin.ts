@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'live-preview',
     'wzhooh',
   ],
-  source: {
-    github: 'MIZUDINOV/wzhooh-back',
-    npm: '@wzhooh/vite-plugin',
-  },
   links: {
     github: 'https://github.com/MIZUDINOV/wzhooh-back',
     npm: 'https://www.npmjs.com/package/@wzhooh/vite-plugin',
     website: 'https://github.com/MIZUDINOV/wzhooh-back#readme',
+  },
+  source: {
+    github: 'MIZUDINOV/wzhooh-back',
+    npm: '@wzhooh/vite-plugin',
   },
   stats: {
     stars: 0,

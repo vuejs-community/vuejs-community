@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'css',
     'js',
   ],
-  source: {
-    github: 'Marco-Prontera/vite-plugin-css-injected-by-js',
-    npm: '@atomic.nz/vite-plugin-css-injected-by-js',
-  },
   links: {
     github: 'https://github.com/Marco-Prontera/vite-plugin-css-injected-by-js',
     npm: 'https://www.npmjs.com/package/@atomic.nz/vite-plugin-css-injected-by-js',
     website: 'https://github.com/Marco-Prontera/vite-plugin-css-injected-by-js#readme',
+  },
+  source: {
+    github: 'Marco-Prontera/vite-plugin-css-injected-by-js',
+    npm: '@atomic.nz/vite-plugin-css-injected-by-js',
   },
   stats: {
     stars: 506,

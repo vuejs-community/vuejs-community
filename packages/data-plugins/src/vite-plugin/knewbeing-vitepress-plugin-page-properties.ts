@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'typescript',
   ],
-  source: {
-    github: 'VitepressAwesome/vitepress-plugin-blogs',
-    npm: '@knewbeing/vitepress-plugin-page-properties',
-  },
   links: {
     github: 'https://github.com/VitepressAwesome/vitepress-plugin-blogs',
     npm: 'https://www.npmjs.com/package/@knewbeing/vitepress-plugin-page-properties',
     website: 'https://github.com/VitepressAwesome/vitepress-plugin-blogs#readme',
+  },
+  source: {
+    github: 'VitepressAwesome/vitepress-plugin-blogs',
+    npm: '@knewbeing/vitepress-plugin-page-properties',
   },
   stats: {
     stars: 0,

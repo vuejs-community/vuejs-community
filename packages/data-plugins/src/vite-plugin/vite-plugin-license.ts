@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'typescript',
     'license',
   ],
-  source: {
-    github: 'tasshi-me/vite-plugin-license',
-    npm: 'vite-plugin-license',
-  },
   links: {
     github: 'https://github.com/tasshi-me/vite-plugin-license',
     npm: 'https://www.npmjs.com/package/vite-plugin-license',
     website: 'https://github.com/tasshi-me/vite-plugin-license',
+  },
+  source: {
+    github: 'tasshi-me/vite-plugin-license',
+    npm: 'vite-plugin-license',
   },
   stats: {
     stars: 0,

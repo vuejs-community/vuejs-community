@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'magic-string',
     'transform',
   ],
-  source: {
-    github: 'kingyue737/rollup-plugin-modify',
-    npm: 'rollup-plugin-regexp',
-  },
   links: {
     github: 'https://github.com/kingyue737/rollup-plugin-modify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-regexp',
     website: 'https://github.com/kingyue737/rollup-plugin-modify#readme',
+  },
+  source: {
+    github: 'kingyue737/rollup-plugin-modify',
+    npm: 'rollup-plugin-regexp',
   },
   stats: {
     stars: 0,

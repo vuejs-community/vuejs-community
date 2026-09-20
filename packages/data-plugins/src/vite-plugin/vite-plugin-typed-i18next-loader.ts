@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'typescript',
     'loader',
   ],
-  source: {
-    github: 'rowellx68/i18next-utilities',
-    npm: 'vite-plugin-typed-i18next-loader',
-  },
   links: {
     github: 'https://github.com/rowellx68/i18next-utilities',
     npm: 'https://www.npmjs.com/package/vite-plugin-typed-i18next-loader',
     website: 'https://github.com/rowellx68/i18next-utilities#readme',
+  },
+  source: {
+    github: 'rowellx68/i18next-utilities',
+    npm: 'vite-plugin-typed-i18next-loader',
   },
   stats: {
     stars: 0,

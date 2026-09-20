@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'safari',
     'dev-server',
   ],
-  source: {
-    github: 'babpulss/vite-plugin-sec-fetch-dest',
-    npm: 'vite-plugin-sec-fetch-dest',
-  },
   links: {
     github: 'https://github.com/babpulss/vite-plugin-sec-fetch-dest',
     npm: 'https://www.npmjs.com/package/vite-plugin-sec-fetch-dest',
     website: 'https://github.com/babpulss/vite-plugin-sec-fetch-dest#readme',
+  },
+  source: {
+    github: 'babpulss/vite-plugin-sec-fetch-dest',
+    npm: 'vite-plugin-sec-fetch-dest',
   },
   stats: {
     stars: 0,

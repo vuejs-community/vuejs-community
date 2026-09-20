@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'optimize-js',
     'performance',
   ],
-  source: {
-    github: 'ezekielchentnik/rollup-plugin-optimize-js',
-    npm: 'rollup-plugin-optimize-js',
-  },
   links: {
     github: 'https://github.com/ezekielchentnik/rollup-plugin-optimize-js',
     npm: 'https://www.npmjs.com/package/rollup-plugin-optimize-js',
     website: 'https://github.com/ezekielchentnik/rollup-plugin-optimize-js',
+  },
+  source: {
+    github: 'ezekielchentnik/rollup-plugin-optimize-js',
+    npm: 'rollup-plugin-optimize-js',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'css module',
     'postcss',
   ],
-  source: {
-    github: 'paul-veevers/rollup-plugin-css-module',
-    npm: 'rollup-plugin-css-module',
-  },
   links: {
     github: 'https://github.com/paul-veevers/rollup-plugin-css-module',
     npm: 'https://www.npmjs.com/package/rollup-plugin-css-module',
     website: 'https://github.com/paul-veevers/rollup-plugin-css-module#readme',
+  },
+  source: {
+    github: 'paul-veevers/rollup-plugin-css-module',
+    npm: 'rollup-plugin-css-module',
   },
   stats: {
     stars: 1,

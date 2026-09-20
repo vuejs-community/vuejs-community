@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'substrate-system/vite-plugin-externalize-deps',
-    npm: '@substrate-system/vite-plugin-externalize-deps',
-  },
   links: {
     github: 'https://github.com/substrate-system/vite-plugin-externalize-deps',
     npm: 'https://www.npmjs.com/package/@substrate-system/vite-plugin-externalize-deps',
     website: 'https://github.com/substrate-system/vite-plugin-externalize-deps',
+  },
+  source: {
+    github: 'substrate-system/vite-plugin-externalize-deps',
+    npm: '@substrate-system/vite-plugin-externalize-deps',
   },
   stats: {
     stars: 0,

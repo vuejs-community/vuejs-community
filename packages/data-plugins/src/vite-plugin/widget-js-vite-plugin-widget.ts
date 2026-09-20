@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: '@widget-js/vite-plugin-widget',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@widget-js/vite-plugin-widget',
+  },
+  source: {
+    npm: '@widget-js/vite-plugin-widget',
   },
   stats: {
     stars: 0,

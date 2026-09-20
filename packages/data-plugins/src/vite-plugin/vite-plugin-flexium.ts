@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'jsx',
     'hmr',
   ],
-  source: {
-    github: 'Wick-Lim/flexium.js',
-    npm: 'vite-plugin-flexium',
-  },
   links: {
     github: 'https://github.com/Wick-Lim/flexium.js',
     npm: 'https://www.npmjs.com/package/vite-plugin-flexium',
     website: 'https://flexium.junhyuk.im',
+  },
+  source: {
+    github: 'Wick-Lim/flexium.js',
+    npm: 'vite-plugin-flexium',
   },
   stats: {
     stars: 0,

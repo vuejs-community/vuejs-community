@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'ssg',
     'ssr',
   ],
-  source: {
-    github: 'GaZaTu/vite-ssg',
-    npm: '@gazatu/vite-ssg',
-  },
   links: {
     github: 'https://github.com/GaZaTu/vite-ssg',
     npm: 'https://www.npmjs.com/package/@gazatu/vite-ssg',
     website: 'https://github.com/GaZaTu/vite-ssg#readme',
+  },
+  source: {
+    github: 'GaZaTu/vite-ssg',
+    npm: '@gazatu/vite-ssg',
   },
   stats: {
     stars: 1,

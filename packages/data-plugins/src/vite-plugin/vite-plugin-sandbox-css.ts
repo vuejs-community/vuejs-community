@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'micro-frontend',
     'scoped-css',
   ],
-  source: {
-    github: 'zhanghongen/vite-plugin-sandbox',
-    npm: 'vite-plugin-sandbox-css',
-  },
   links: {
     github: 'https://github.com/zhanghongen/vite-plugin-sandbox',
     npm: 'https://www.npmjs.com/package/vite-plugin-sandbox-css',
     website: 'https://github.com/zhanghongen/vite-plugin-sandbox#readme',
+  },
+  source: {
+    github: 'zhanghongen/vite-plugin-sandbox',
+    npm: 'vite-plugin-sandbox-css',
   },
   stats: {
     stars: 2,

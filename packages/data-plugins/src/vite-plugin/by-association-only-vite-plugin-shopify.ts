@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'shopify',
     'vite-plugin',
   ],
-  source: {
-    npm: '@by-association-only/vite-plugin-shopify',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@by-association-only/vite-plugin-shopify',
+  },
+  source: {
+    npm: '@by-association-only/vite-plugin-shopify',
   },
   stats: {
     stars: 0,

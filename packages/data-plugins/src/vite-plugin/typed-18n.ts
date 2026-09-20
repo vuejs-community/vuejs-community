@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'localization',
     'generator',
   ],
-  source: {
-    github: 'samuelneff/typed-i18n',
-    npm: 'typed-18n',
-  },
   links: {
     github: 'https://github.com/samuelneff/typed-i18n',
     npm: 'https://www.npmjs.com/package/typed-18n',
     website: 'https://github.com/samuelneff/typed-i18n#readme',
+  },
+  source: {
+    github: 'samuelneff/typed-i18n',
+    npm: 'typed-18n',
   },
   stats: {
     stars: 0,

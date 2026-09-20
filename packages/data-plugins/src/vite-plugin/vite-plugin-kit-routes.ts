@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'jycouet/kitql',
-    npm: 'vite-plugin-kit-routes',
-  },
   links: {
     github: 'https://github.com/jycouet/kitql',
     npm: 'https://www.npmjs.com/package/vite-plugin-kit-routes',
     website: 'https://www.kitql.dev/',
+  },
+  source: {
+    github: 'jycouet/kitql',
+    npm: 'vite-plugin-kit-routes',
   },
   stats: {
     stars: 455,

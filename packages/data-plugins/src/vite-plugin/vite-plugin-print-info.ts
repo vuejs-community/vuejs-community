@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'tjx666/vite-plugin-print-info',
-    npm: 'vite-plugin-print-info',
-  },
   links: {
     github: 'https://github.com/tjx666/vite-plugin-print-info',
     npm: 'https://www.npmjs.com/package/vite-plugin-print-info',
     website: 'https://github.com/tjx666/vite-plugin-print-info#readme',
+  },
+  source: {
+    github: 'tjx666/vite-plugin-print-info',
+    npm: 'vite-plugin-print-info',
   },
   stats: {
     stars: 1,

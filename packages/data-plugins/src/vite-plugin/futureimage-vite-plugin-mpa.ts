@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'MPA',
     'multi-page',
   ],
-  source: {
-    github: 'Davidyanlong/vite-plugin-mpa',
-    npm: '@futureimage/vite-plugin-mpa',
-  },
   links: {
     github: 'https://github.com/Davidyanlong/vite-plugin-mpa',
     npm: 'https://www.npmjs.com/package/@futureimage/vite-plugin-mpa',
     website: 'https://github.com/Davidyanlong/vite-plugin-mpa',
+  },
+  source: {
+    github: 'Davidyanlong/vite-plugin-mpa',
+    npm: '@futureimage/vite-plugin-mpa',
   },
   stats: {
     stars: 0,

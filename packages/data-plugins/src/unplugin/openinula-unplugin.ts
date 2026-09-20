@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    npm: '@openinula/unplugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@openinula/unplugin',
+  },
+  source: {
+    npm: '@openinula/unplugin',
   },
   stats: {
     stars: 0,

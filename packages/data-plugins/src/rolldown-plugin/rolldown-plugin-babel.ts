@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rolldown',
     'rolldown-plugin',
   ],
-  source: {
-    github: 'rolldown/plugins',
-    npm: '@rolldown/plugin-babel',
-  },
   links: {
     github: 'https://github.com/rolldown/plugins',
     npm: 'https://www.npmjs.com/package/@rolldown/plugin-babel',
     website: 'https://github.com/rolldown/plugins/tree/main/packages/babel#readme',
+  },
+  source: {
+    github: 'rolldown/plugins',
+    npm: '@rolldown/plugin-babel',
   },
   stats: {
     stars: 18,

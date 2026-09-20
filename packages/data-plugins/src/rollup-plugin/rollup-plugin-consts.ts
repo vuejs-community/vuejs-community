@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'consts',
     'constant',
   ],
-  source: {
-    github: 'NotWoods/rollup-plugin-consts',
-    npm: 'rollup-plugin-consts',
-  },
   links: {
     github: 'https://github.com/NotWoods/rollup-plugin-consts',
     npm: 'https://www.npmjs.com/package/rollup-plugin-consts',
     website: 'https://github.com/NotWoods/rollup-plugin-consts#readme',
+  },
+  source: {
+    github: 'NotWoods/rollup-plugin-consts',
+    npm: 'rollup-plugin-consts',
   },
   stats: {
     stars: 11,

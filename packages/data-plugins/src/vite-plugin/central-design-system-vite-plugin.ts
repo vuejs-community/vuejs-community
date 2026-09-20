@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'design system',
     'vue',
   ],
-  source: {
-    npm: '@central-design-system/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@central-design-system/vite-plugin',
+  },
+  source: {
+    npm: '@central-design-system/vite-plugin',
   },
   stats: {
     stars: 0,

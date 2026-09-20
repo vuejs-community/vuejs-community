@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'kongweigen/vite-plugin-jump-code',
-    npm: 'vite-plugin-jump-code',
-  },
   links: {
     github: 'https://github.com/kongweigen/vite-plugin-jump-code',
     npm: 'https://www.npmjs.com/package/vite-plugin-jump-code',
     website: 'https://github.com/kongweigen/vite-plugin-jump-code#readme',
+  },
+  source: {
+    github: 'kongweigen/vite-plugin-jump-code',
+    npm: 'vite-plugin-jump-code',
   },
   stats: {
     stars: 5,

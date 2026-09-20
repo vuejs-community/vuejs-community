@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vue',
   ],
-  source: {
-    npm: '@kobecan/rollup-plugin-mdvue',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@kobecan/rollup-plugin-mdvue',
+  },
+  source: {
+    npm: '@kobecan/rollup-plugin-mdvue',
   },
   stats: {
     stars: 0,

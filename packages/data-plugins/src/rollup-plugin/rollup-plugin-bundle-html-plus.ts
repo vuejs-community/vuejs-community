@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'html',
     'bundle-html',
   ],
-  source: {
-    github: 'PaulMaly/rollup-plugin-bundle-html-plus',
-    npm: 'rollup-plugin-bundle-html-plus',
-  },
   links: {
     github: 'https://github.com/PaulMaly/rollup-plugin-bundle-html-plus',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bundle-html-plus',
     website: 'https://github.com/PaulMaly/rollup-plugin-bundle-html-plus#readme',
+  },
+  source: {
+    github: 'PaulMaly/rollup-plugin-bundle-html-plus',
+    npm: 'rollup-plugin-bundle-html-plus',
   },
   stats: {
     stars: 2,

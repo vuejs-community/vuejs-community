@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'html',
     'element',
   ],
-  source: {
-    github: 'VandeurenGlenn/rollup-plugin-inject-template',
-    npm: 'rollup-plugin-inject-template',
-  },
   links: {
     github: 'https://github.com/VandeurenGlenn/rollup-plugin-inject-template',
     npm: 'https://www.npmjs.com/package/rollup-plugin-inject-template',
     website: 'https://github.com/VandeurenGlenn/rollup-plugin-inject-template#readme',
+  },
+  source: {
+    github: 'VandeurenGlenn/rollup-plugin-inject-template',
+    npm: 'rollup-plugin-inject-template',
   },
   stats: {
     stars: 0,

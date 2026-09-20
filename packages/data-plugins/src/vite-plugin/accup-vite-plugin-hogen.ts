@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: '@accup/vite-plugin-hogen',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@accup/vite-plugin-hogen',
+  },
+  source: {
+    npm: '@accup/vite-plugin-hogen',
   },
   stats: {
     stars: 0,

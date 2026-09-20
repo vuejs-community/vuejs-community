@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vendor',
     'build',
   ],
-  source: {
-    github: 'suileyan/vite-plugin-ops',
-    npm: 'vite-plugin-ops',
-  },
   links: {
     github: 'https://github.com/suileyan/vite-plugin-ops',
     npm: 'https://www.npmjs.com/package/vite-plugin-ops',
     website: 'https://github.com/suileyan/vite-plugin-ops#readme',
+  },
+  source: {
+    github: 'suileyan/vite-plugin-ops',
+    npm: 'vite-plugin-ops',
   },
   stats: {
     stars: 1,

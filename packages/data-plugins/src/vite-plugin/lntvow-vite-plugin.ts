@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'lntvow/vite-plugin',
-    npm: '@lntvow/vite-plugin',
-  },
   links: {
     github: 'https://github.com/lntvow/vite-plugin',
     npm: 'https://www.npmjs.com/package/@lntvow/vite-plugin',
     website: 'https://github.com/lntvow/vite-plugin#readme',
+  },
+  source: {
+    github: 'lntvow/vite-plugin',
+    npm: '@lntvow/vite-plugin',
   },
   stats: {
     stars: 0,

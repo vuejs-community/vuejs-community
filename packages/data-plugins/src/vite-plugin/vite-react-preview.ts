@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'swiftui',
   ],
-  source: {
-    github: 'ShionKoga/vite-react-preview',
-    npm: 'vite-react-preview',
-  },
   links: {
     github: 'https://github.com/ShionKoga/vite-react-preview',
     npm: 'https://www.npmjs.com/package/vite-react-preview',
     website: 'https://github.com/ShionKoga/vite-react-preview#readme',
+  },
+  source: {
+    github: 'ShionKoga/vite-react-preview',
+    npm: 'vite-react-preview',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'webeach/ecss',
-    npm: '@ecss/vite-plugin',
-  },
   links: {
     github: 'https://github.com/webeach/ecss',
     npm: 'https://www.npmjs.com/package/@ecss/vite-plugin',
     website: 'https://ecss.webea.ch',
+  },
+  source: {
+    github: 'webeach/ecss',
+    npm: '@ecss/vite-plugin',
   },
   stats: {
     stars: 0,

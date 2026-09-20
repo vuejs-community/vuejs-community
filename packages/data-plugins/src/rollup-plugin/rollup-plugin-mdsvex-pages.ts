@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'markdown',
     'documentation',
   ],
-  source: {
-    github: 'knightss27/rollup-plugin-mdsvex-pages',
-    npm: 'rollup-plugin-mdsvex-pages',
-  },
   links: {
     github: 'https://github.com/knightss27/rollup-plugin-mdsvex-pages',
     npm: 'https://www.npmjs.com/package/rollup-plugin-mdsvex-pages',
     website: 'https://github.com/knightss27/rollup-plugin-mdsvex-pages#readme',
+  },
+  source: {
+    github: 'knightss27/rollup-plugin-mdsvex-pages',
+    npm: 'rollup-plugin-mdsvex-pages',
   },
   stats: {
     stars: 1,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-mp',
   ],
-  source: {
-    github: 'zhuweiyou/vite-plugin-mp',
-    npm: 'vite-plugin-mp',
-  },
   links: {
     github: 'https://github.com/zhuweiyou/vite-plugin-mp',
     npm: 'https://www.npmjs.com/package/vite-plugin-mp',
     website: 'https://github.com/zhuweiyou/vite-plugin-mp#readme',
+  },
+  source: {
+    github: 'zhuweiyou/vite-plugin-mp',
+    npm: 'vite-plugin-mp',
   },
   stats: {
     stars: 24,

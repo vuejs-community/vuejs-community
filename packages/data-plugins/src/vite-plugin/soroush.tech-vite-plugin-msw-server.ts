@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vike',
     'testing',
   ],
-  source: {
-    github: 'soroush-tech/core',
-    npm: '@soroush.tech/vite-plugin-msw-server',
-  },
   links: {
     github: 'https://github.com/soroush-tech/core',
     npm: 'https://www.npmjs.com/package/@soroush.tech/vite-plugin-msw-server',
     website: 'https://soroush.tech/vite-plugin-msw-server/',
+  },
+  source: {
+    github: 'soroush-tech/core',
+    npm: '@soroush.tech/vite-plugin-msw-server',
   },
   stats: {
     stars: 0,

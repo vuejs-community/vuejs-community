@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'content-management',
     'frontmatter',
   ],
-  source: {
-    github: 'jk2908/mdsrc',
-    npm: '@jk2908/mdsrc',
-  },
   links: {
     github: 'https://github.com/jk2908/mdsrc',
     npm: 'https://www.npmjs.com/package/@jk2908/mdsrc',
     website: 'https://github.com/jk2908/mdsrc#readme',
+  },
+  source: {
+    github: 'jk2908/mdsrc',
+    npm: '@jk2908/mdsrc',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'modyo',
     'rollup',
   ],
-  source: {
-    github: 'dynamic-framework/vite-plugin-transform-dynamic-imports',
-    npm: '@dynamic-framework/vite-plugin-transform-dynamic-imports',
-  },
   links: {
     github: 'https://github.com/dynamic-framework/vite-plugin-transform-dynamic-imports',
     npm: 'https://www.npmjs.com/package/@dynamic-framework/vite-plugin-transform-dynamic-imports',
     website: 'https://github.com/dynamic-framework/vite-plugin-transform-dynamic-imports#readme',
+  },
+  source: {
+    github: 'dynamic-framework/vite-plugin-transform-dynamic-imports',
+    npm: '@dynamic-framework/vite-plugin-transform-dynamic-imports',
   },
   stats: {
     stars: 0,

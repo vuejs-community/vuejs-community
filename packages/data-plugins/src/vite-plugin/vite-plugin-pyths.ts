@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'react',
     'fast-refresh',
   ],
-  source: {
-    github: 'swetmr/pythscribe',
-    npm: 'vite-plugin-pyths',
-  },
   links: {
     github: 'https://github.com/swetmr/pythscribe',
     npm: 'https://www.npmjs.com/package/vite-plugin-pyths',
     website: 'https://github.com/swetmr/pythscribe#readme',
+  },
+  source: {
+    github: 'swetmr/pythscribe',
+    npm: 'vite-plugin-pyths',
   },
   stats: {
     stars: 0,

@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'aicblock',
     'import-component',
   ],
-  source: {
-    npm: '@aicblock/vite-plugin-import-component',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@aicblock/vite-plugin-import-component',
+  },
+  source: {
+    npm: '@aicblock/vite-plugin-import-component',
   },
   stats: {
     stars: 0,

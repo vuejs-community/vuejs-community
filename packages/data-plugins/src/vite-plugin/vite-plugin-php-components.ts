@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'php processing',
     'components',
   ],
-  source: {
-    github: 'nititech/vite-plugin-php-components',
-    npm: 'vite-plugin-php-components',
-  },
   links: {
     github: 'https://github.com/nititech/vite-plugin-php-components',
     npm: 'https://www.npmjs.com/package/vite-plugin-php-components',
     website: 'https://github.com/nititech/vite-plugin-php-components',
+  },
+  source: {
+    github: 'nititech/vite-plugin-php-components',
+    npm: 'vite-plugin-php-components',
   },
   stats: {
     stars: 1,

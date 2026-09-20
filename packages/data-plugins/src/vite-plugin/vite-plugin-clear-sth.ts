@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'catanswer/vite-plugin-clear-sth',
-    npm: 'vite-plugin-clear-sth',
-  },
   links: {
     github: 'https://github.com/catanswer/vite-plugin-clear-sth',
     npm: 'https://www.npmjs.com/package/vite-plugin-clear-sth',
     website: 'https://github.com/catanswer/vite-plugin-clear-sth#readme',
+  },
+  source: {
+    github: 'catanswer/vite-plugin-clear-sth',
+    npm: 'vite-plugin-clear-sth',
   },
   stats: {
     stars: 1,

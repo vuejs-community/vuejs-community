@@ -30,14 +30,14 @@ export default defineProjectMeta({
     'performance-optimization',
     'cli-tool',
   ],
-  source: {
-    github: 'Simon-He95/transformToUnocss',
-    npm: 'transform-to-unocss',
-  },
   links: {
     github: 'https://github.com/Simon-He95/transformToUnocss',
     npm: 'https://www.npmjs.com/package/transform-to-unocss',
     website: 'https://github.com/Simon-He95/transformToUnocss#readme',
+  },
+  source: {
+    github: 'Simon-He95/transformToUnocss',
+    npm: 'transform-to-unocss',
   },
   stats: {
     stars: 0,

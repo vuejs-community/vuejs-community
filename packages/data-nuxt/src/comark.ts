@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://comark.dev/',
   },
   source: {
-    github: 'comarkdown/comark#main/packages/comark-nuxt',
+    github: 'comarkdown/comark',
     npm: '@comark/nuxt',
   },
 })

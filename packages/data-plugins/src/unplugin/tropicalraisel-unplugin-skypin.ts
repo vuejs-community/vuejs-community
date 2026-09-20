@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'esbuild',
     'skypin',
   ],
-  source: {
-    github: 'tropicalraisel/unplugin-skypin',
-    npm: '@tropicalraisel/unplugin-skypin',
-  },
   links: {
     github: 'https://github.com/tropicalraisel/unplugin-skypin',
     npm: 'https://www.npmjs.com/package/@tropicalraisel/unplugin-skypin',
     website: 'https://github.com/tropicalraisel/unplugin-skypin#readme',
+  },
+  source: {
+    github: 'tropicalraisel/unplugin-skypin',
+    npm: '@tropicalraisel/unplugin-skypin',
   },
   stats: {
     stars: 0,

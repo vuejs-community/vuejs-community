@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'middleware',
     'express',
   ],
-  source: {
-    github: 'HelgeSverre/vite-plugin-server-actions',
-    npm: 'vite-plugin-server-actions',
-  },
   links: {
     github: 'https://github.com/HelgeSverre/vite-plugin-server-actions',
     npm: 'https://www.npmjs.com/package/vite-plugin-server-actions',
     website: 'https://serveractions.dev',
+  },
+  source: {
+    github: 'HelgeSverre/vite-plugin-server-actions',
+    npm: 'vite-plugin-server-actions',
   },
   stats: {
     stars: 31,

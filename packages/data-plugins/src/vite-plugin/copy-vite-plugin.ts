@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'copy',
   ],
-  source: {
-    github: 'WangYuLue/copy-vite-plugin',
-    npm: 'copy-vite-plugin',
-  },
   links: {
     github: 'https://github.com/WangYuLue/copy-vite-plugin',
     npm: 'https://www.npmjs.com/package/copy-vite-plugin',
     website: 'https://github.com/WangYuLue/copy-vite-plugin#readme',
+  },
+  source: {
+    github: 'WangYuLue/copy-vite-plugin',
+    npm: 'copy-vite-plugin',
   },
   stats: {
     stars: 1,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'wzc520pyfm/unplugin-alias',
-    npm: 'unplugin-alias2',
-  },
   links: {
     github: 'https://github.com/wzc520pyfm/unplugin-alias',
     npm: 'https://www.npmjs.com/package/unplugin-alias2',
     website: 'https://github.com/wzc520pyfm/unplugin-alias#readme',
+  },
+  source: {
+    github: 'wzc520pyfm/unplugin-alias',
+    npm: 'unplugin-alias2',
   },
   stats: {
     stars: 1,

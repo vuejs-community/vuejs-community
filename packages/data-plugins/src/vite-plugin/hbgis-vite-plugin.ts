@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'Cesium',
     'dc-sdk',
   ],
-  source: {
-    npm: '@hbgis/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@hbgis/vite-plugin',
+  },
+  source: {
+    npm: '@hbgis/vite-plugin',
   },
   stats: {
     stars: 0,

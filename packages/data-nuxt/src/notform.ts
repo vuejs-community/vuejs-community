@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://notformdocs.vercel.app',
   },
   source: {
-    github: 'favorodera/notform#main/packages/nuxt',
+    github: 'favorodera/notform',
     npm: 'notform-nuxt',
   },
 })

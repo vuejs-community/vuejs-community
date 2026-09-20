@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'component-inspector',
     'vite-plugin',
   ],
-  source: {
-    npm: '@mijull/naturalui-editor',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@mijull/naturalui-editor',
+  },
+  source: {
+    npm: '@mijull/naturalui-editor',
   },
   stats: {
     stars: 0,

@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'tolki',
   ],
-  source: {
-    github: 'abetwothree/tolki',
-    npm: '@tolki/enum',
-  },
   links: {
     github: 'https://github.com/abetwothree/tolki',
     npm: 'https://www.npmjs.com/package/@tolki/enum',
     website: 'https://tolki.abe.dev/enums/',
+  },
+  source: {
+    github: 'abetwothree/tolki',
+    npm: '@tolki/enum',
   },
   stats: {
     stars: 0,

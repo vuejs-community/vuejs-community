@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'webpack',
     'rollup',
   ],
-  source: {
-    github: 'nailyjs/unplugin-reflector',
-    npm: 'unplugin-naily-reflector',
-  },
   links: {
     github: 'https://github.com/nailyjs/unplugin-reflector',
     npm: 'https://www.npmjs.com/package/unplugin-naily-reflector',
     website: 'https://github.com/nailyjs/unplugin-reflector',
+  },
+  source: {
+    github: 'nailyjs/unplugin-reflector',
+    npm: 'unplugin-naily-reflector',
   },
   stats: {
     stars: 1,

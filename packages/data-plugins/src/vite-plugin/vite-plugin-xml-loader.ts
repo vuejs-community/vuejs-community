@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'xml',
   ],
-  source: {
-    github: 'lorenzoc25/vite-plugin-xml-loader',
-    npm: 'vite-plugin-xml-loader',
-  },
   links: {
     github: 'https://github.com/lorenzoc25/vite-plugin-xml-loader',
     npm: 'https://www.npmjs.com/package/vite-plugin-xml-loader',
     website: 'https://github.com/lorenzoc25/vite-plugin-xml-loader#readme',
+  },
+  source: {
+    github: 'lorenzoc25/vite-plugin-xml-loader',
+    npm: 'vite-plugin-xml-loader',
   },
   stats: {
     stars: 16,

@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'sharp.js',
   ],
-  source: {
-    npm: 'vite-plugin-image-compress',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-image-compress',
+  },
+  source: {
+    npm: 'vite-plugin-image-compress',
   },
   stats: {
     stars: 0,

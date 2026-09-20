@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'drupal-t',
     'formatPlural',
   ],
-  source: {
-    github: 'rang501/vite-plugin-drupal-t',
-    npm: 'vite-plugin-drupal-t',
-  },
   links: {
     github: 'https://github.com/rang501/vite-plugin-drupal-t',
     npm: 'https://www.npmjs.com/package/vite-plugin-drupal-t',
     website: 'https://github.com/rang501/vite-plugin-drupal-t#readme',
+  },
+  source: {
+    github: 'rang501/vite-plugin-drupal-t',
+    npm: 'vite-plugin-drupal-t',
   },
   stats: {
     stars: 0,

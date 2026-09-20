@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'c',
     'preprocessor',
   ],
-  source: {
-    npm: 'rollup-plugin-preprocessor',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-preprocessor',
+  },
+  source: {
+    npm: 'rollup-plugin-preprocessor',
   },
   stats: {
     stars: 0,

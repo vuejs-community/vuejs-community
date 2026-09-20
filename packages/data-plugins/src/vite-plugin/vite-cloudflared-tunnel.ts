@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-cloudflared-tunnel',
   ],
-  source: {
-    github: 'ahmedrowaihi/vite-cloudflared-tunnel',
-    npm: 'vite-cloudflared-tunnel',
-  },
   links: {
     github: 'https://github.com/ahmedrowaihi/vite-cloudflared-tunnel',
     npm: 'https://www.npmjs.com/package/vite-cloudflared-tunnel',
     website: 'https://github.com/ahmedrowaihi/vite-cloudflared-tunnel',
+  },
+  source: {
+    github: 'ahmedrowaihi/vite-cloudflared-tunnel',
+    npm: 'vite-cloudflared-tunnel',
   },
   stats: {
     stars: 1,

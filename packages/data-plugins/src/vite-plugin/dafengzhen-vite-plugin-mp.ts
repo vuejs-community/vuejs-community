@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'wxml',
     'wxss',
   ],
-  source: {
-    github: 'dafengzhen/vite-plugin-mp',
-    npm: '@dafengzhen/vite-plugin-mp',
-  },
   links: {
     github: 'https://github.com/dafengzhen/vite-plugin-mp',
     npm: 'https://www.npmjs.com/package/@dafengzhen/vite-plugin-mp',
     website: 'https://github.com/dafengzhen/vite-plugin-mp#readme',
+  },
+  source: {
+    github: 'dafengzhen/vite-plugin-mp',
+    npm: '@dafengzhen/vite-plugin-mp',
   },
   stats: {
     stars: 2,

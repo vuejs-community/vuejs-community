@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: '0x31/oxc-remove-attributes',
-    npm: 'oxc-remove-attributes',
-  },
   links: {
     github: 'https://github.com/0x31/oxc-remove-attributes',
     npm: 'https://www.npmjs.com/package/oxc-remove-attributes',
     website: 'https://github.com/0x31/oxc-remove-attributes#readme',
+  },
+  source: {
+    github: '0x31/oxc-remove-attributes',
+    npm: 'oxc-remove-attributes',
   },
   stats: {
     stars: 0,

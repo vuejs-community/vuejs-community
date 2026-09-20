@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'spfx',
     'vite-plugin',
   ],
-  source: {
-    github: 'Ayax0/vite-plugin-spfx',
-    npm: 'vite-plugin-spfx',
-  },
   links: {
     github: 'https://github.com/Ayax0/vite-plugin-spfx',
     npm: 'https://www.npmjs.com/package/vite-plugin-spfx',
     website: 'https://github.com/Ayax0/vite-plugin-spfx#readme',
+  },
+  source: {
+    github: 'Ayax0/vite-plugin-spfx',
+    npm: 'vite-plugin-spfx',
   },
   stats: {
     stars: 1,

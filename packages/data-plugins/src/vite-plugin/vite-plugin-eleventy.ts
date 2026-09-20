@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'eleventy',
   ],
-  source: {
-    github: 'Snugug/vite-plugin-eleventy',
-    npm: 'vite-plugin-eleventy',
-  },
   links: {
     github: 'https://github.com/Snugug/vite-plugin-eleventy',
     npm: 'https://www.npmjs.com/package/vite-plugin-eleventy',
     website: 'https://github.com/Snugug/vite-plugin-eleventy#readme',
+  },
+  source: {
+    github: 'Snugug/vite-plugin-eleventy',
+    npm: 'vite-plugin-eleventy',
   },
   stats: {
     stars: 36,

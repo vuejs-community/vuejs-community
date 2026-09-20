@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'plugin',
     'esbuild',
   ],
-  source: {
-    github: 'mnrendra/rollup-plugin-esbuild',
-    npm: '@mnrendra/rollup-plugin-esbuild',
-  },
   links: {
     github: 'https://github.com/mnrendra/rollup-plugin-esbuild',
     npm: 'https://www.npmjs.com/package/@mnrendra/rollup-plugin-esbuild',
     website: 'https://github.com/mnrendra/rollup-plugin-esbuild#readme',
+  },
+  source: {
+    github: 'mnrendra/rollup-plugin-esbuild',
+    npm: '@mnrendra/rollup-plugin-esbuild',
   },
   stats: {
     stars: 2,

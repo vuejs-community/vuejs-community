@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'legacy',
     'swc',
   ],
-  source: {
-    github: 'CyanSalt/vite-plugin-legacy-swc',
-    npm: 'vite-plugin-legacy-swc',
-  },
   links: {
     github: 'https://github.com/CyanSalt/vite-plugin-legacy-swc',
     npm: 'https://www.npmjs.com/package/vite-plugin-legacy-swc',
     website: 'https://github.com/CyanSalt/vite-plugin-legacy-swc#readme',
+  },
+  source: {
+    github: 'CyanSalt/vite-plugin-legacy-swc',
+    npm: 'vite-plugin-legacy-swc',
   },
   stats: {
     stars: 70,

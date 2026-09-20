@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'css-in-js',
     'typescript',
   ],
-  source: {
-    github: 'sylphxltd/silk',
-    npm: '@sylphx/silk-vite-plugin',
-  },
   links: {
     github: 'https://github.com/sylphxltd/silk',
     npm: 'https://www.npmjs.com/package/@sylphx/silk-vite-plugin',
     website: 'https://sylphx.com',
+  },
+  source: {
+    github: 'sylphxltd/silk',
+    npm: '@sylphx/silk-vite-plugin',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'theme',
     'twgen',
   ],
-  source: {
-    github: 'hunterdavisdev/twgen',
-    npm: '@twgen/vite',
-  },
   links: {
     github: 'https://github.com/hunterdavisdev/twgen',
     npm: 'https://www.npmjs.com/package/@twgen/vite',
     website: 'https://github.com/hunterdavisdev/twgen#readme',
+  },
+  source: {
+    github: 'hunterdavisdev/twgen',
+    npm: '@twgen/vite',
   },
   stats: {
     stars: 0,

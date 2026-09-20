@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'bib-loader',
     'bib-file',
   ],
-  source: {
-    github: 'tonyketcham/unplugin-bib',
-    npm: 'unplugin-bib',
-  },
   links: {
     github: 'https://github.com/tonyketcham/unplugin-bib',
     npm: 'https://www.npmjs.com/package/unplugin-bib',
     website: 'https://github.com/tonyketcham/unplugin-bib#readme',
+  },
+  source: {
+    github: 'tonyketcham/unplugin-bib',
+    npm: 'unplugin-bib',
   },
   stats: {
     stars: 0,

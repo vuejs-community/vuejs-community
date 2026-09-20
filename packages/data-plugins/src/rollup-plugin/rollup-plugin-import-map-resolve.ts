@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'mvromer/rollup-plugin-import-map-resolve',
-    npm: 'rollup-plugin-import-map-resolve',
-  },
   links: {
     github: 'https://github.com/mvromer/rollup-plugin-import-map-resolve',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-map-resolve',
     website: 'https://github.com/mvromer/rollup-plugin-import-map-resolve#readme',
+  },
+  source: {
+    github: 'mvromer/rollup-plugin-import-map-resolve',
+    npm: 'rollup-plugin-import-map-resolve',
   },
   stats: {
     stars: 0,

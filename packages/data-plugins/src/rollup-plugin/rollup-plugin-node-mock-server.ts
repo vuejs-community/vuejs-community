@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'swagger',
     'rest api',
   ],
-  source: {
-    github: 'dschulten/rollup-plugin-node-mock-server',
-    npm: 'rollup-plugin-node-mock-server',
-  },
   links: {
     github: 'https://github.com/dschulten/rollup-plugin-node-mock-server',
     npm: 'https://www.npmjs.com/package/rollup-plugin-node-mock-server',
     website: 'https://github.com/dschulten/rollup-plugin-node-mock-server',
+  },
+  source: {
+    github: 'dschulten/rollup-plugin-node-mock-server',
+    npm: 'rollup-plugin-node-mock-server',
   },
   stats: {
     stars: 0,

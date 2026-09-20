@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'source transform',
   ],
-  source: {
-    github: 'baleada/parcel-transformer',
-    npm: '@baleada/parcel-transformer',
-  },
   links: {
     github: 'https://github.com/baleada/parcel-transformer',
     npm: 'https://www.npmjs.com/package/@baleada/parcel-transformer',
     website: 'https://baleada.netlify.com',
+  },
+  source: {
+    github: 'baleada/parcel-transformer',
+    npm: '@baleada/parcel-transformer',
   },
   stats: {
     stars: 0,

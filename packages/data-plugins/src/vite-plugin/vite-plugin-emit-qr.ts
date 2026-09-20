@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'qr-code',
   ],
-  source: {
-    npm: 'vite-plugin-emit-qr',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-emit-qr',
+  },
+  source: {
+    npm: 'vite-plugin-emit-qr',
   },
   stats: {
     stars: 0,

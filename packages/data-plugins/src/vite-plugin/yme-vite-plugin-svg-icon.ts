@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'minosss/vite-plugins',
-    npm: '@yme/vite-plugin-svg-icon',
-  },
   links: {
     github: 'https://github.com/minosss/vite-plugins',
     npm: 'https://www.npmjs.com/package/@yme/vite-plugin-svg-icon',
     website: 'https://github.com/minosss/vite-plugins#readme',
+  },
+  source: {
+    github: 'minosss/vite-plugins',
+    npm: '@yme/vite-plugin-svg-icon',
   },
   stats: {
     stars: 0,

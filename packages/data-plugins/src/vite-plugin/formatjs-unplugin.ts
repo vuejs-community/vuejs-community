@@ -21,12 +21,12 @@ export default defineProjectMeta({
     'vite-plugin',
     'webpack-plugin',
   ],
-  source: {
-    npm: '@formatjs/unplugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@formatjs/unplugin',
     website: 'https://github.com/formatjs/formatjs#readme',
+  },
+  source: {
+    npm: '@formatjs/unplugin',
   },
   stats: {
     stars: 0,

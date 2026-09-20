@@ -19,11 +19,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'frontend',
   ],
-  source: {
-    npm: '@chaochao12138/build-insight',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@chaochao12138/build-insight',
+  },
+  source: {
+    npm: '@chaochao12138/build-insight',
   },
   stats: {
     stars: 0,

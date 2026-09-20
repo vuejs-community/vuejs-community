@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'typescript',
     'codegen',
   ],
-  source: {
-    github: 'DevWizardHQ/vite-plugin-enumify',
-    npm: '@devwizard/vite-plugin-enumify',
-  },
   links: {
     github: 'https://github.com/DevWizardHQ/vite-plugin-enumify',
     npm: 'https://www.npmjs.com/package/@devwizard/vite-plugin-enumify',
     website: 'https://github.com/DevWizardHQ/vite-plugin-enumify#readme',
+  },
+  source: {
+    github: 'DevWizardHQ/vite-plugin-enumify',
+    npm: '@devwizard/vite-plugin-enumify',
   },
   stats: {
     stars: 6,

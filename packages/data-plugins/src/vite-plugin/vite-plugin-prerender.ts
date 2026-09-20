@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'prerender',
     'Rudeus3Greyrat',
   ],
-  source: {
-    github: 'Rudeus3Greyrat/vite-plugin-prerender',
-    npm: 'vite-plugin-prerender',
-  },
   links: {
     github: 'https://github.com/Rudeus3Greyrat/vite-plugin-prerender',
     npm: 'https://www.npmjs.com/package/vite-plugin-prerender',
     website: 'https://github.com/Rudeus3Greyrat/vite-plugin-prerender/tree/master/#readme',
+  },
+  source: {
+    github: 'Rudeus3Greyrat/vite-plugin-prerender',
+    npm: 'vite-plugin-prerender',
   },
   stats: {
     stars: 0,

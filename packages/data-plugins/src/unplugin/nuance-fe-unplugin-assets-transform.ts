@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'rspack',
     'esbuild',
   ],
-  source: {
-    npm: '@nuance-fe/unplugin-assets-transform',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@nuance-fe/unplugin-assets-transform',
+  },
+  source: {
+    npm: '@nuance-fe/unplugin-assets-transform',
   },
   stats: {
     stars: 0,

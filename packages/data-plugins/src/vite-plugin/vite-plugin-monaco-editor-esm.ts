@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'editor',
     'monaco editor',
   ],
-  source: {
-    github: 'tanghaojie/vite-plugin-monaco-editor-esm',
-    npm: 'vite-plugin-monaco-editor-esm',
-  },
   links: {
     github: 'https://github.com/tanghaojie/vite-plugin-monaco-editor-esm',
     npm: 'https://www.npmjs.com/package/vite-plugin-monaco-editor-esm',
     website: 'https://github.com/tanghaojie/vite-plugin-monaco-editor-esm#readme',
+  },
+  source: {
+    github: 'tanghaojie/vite-plugin-monaco-editor-esm',
+    npm: 'vite-plugin-monaco-editor-esm',
   },
   stats: {
     stars: 26,

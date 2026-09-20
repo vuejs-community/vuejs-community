@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'scss',
     'sass',
   ],
-  source: {
-    npm: 'vite-plugin-vue-ecss',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-ecss',
+  },
+  source: {
+    npm: 'vite-plugin-vue-ecss',
   },
   stats: {
     stars: 0,

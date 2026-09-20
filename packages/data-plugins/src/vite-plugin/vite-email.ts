@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'markdown',
     'email',
   ],
-  source: {
-    github: 'yjl9903/vite-email',
-    npm: 'vite-email',
-  },
   links: {
     github: 'https://github.com/yjl9903/vite-email',
     npm: 'https://www.npmjs.com/package/vite-email',
     website: 'https://github.com/yjl9903/vite-email#readme',
+  },
+  source: {
+    github: 'yjl9903/vite-email',
+    npm: 'vite-email',
   },
   stats: {
     stars: 2,

@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'component-inspector',
     'component-border',
   ],
-  source: {
-    npm: '@test328932/test328932',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@test328932/test328932',
+  },
+  source: {
+    npm: '@test328932/test328932',
   },
   stats: {
     stars: 0,

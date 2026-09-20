@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'qutrit',
     'free',
   ],
-  source: {
-    github: 'quantum-native/quantum-forge',
-    npm: 'quantum-forge',
-  },
   links: {
     github: 'https://github.com/quantum-native/quantum-forge',
     npm: 'https://www.npmjs.com/package/quantum-forge',
     website: 'https://github.com/quantum-native/quantum-forge#readme',
+  },
+  source: {
+    github: 'quantum-native/quantum-forge',
+    npm: 'quantum-forge',
   },
   stats: {
     stars: 0,

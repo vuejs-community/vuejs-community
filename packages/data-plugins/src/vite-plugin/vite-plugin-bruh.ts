@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'bruh',
     'prerender',
   ],
-  source: {
-    github: 'Technical-Source/bruh',
-    npm: 'vite-plugin-bruh',
-  },
   links: {
     github: 'https://github.com/Technical-Source/bruh',
     npm: 'https://www.npmjs.com/package/vite-plugin-bruh',
     website: 'https://github.com/Technical-Source/bruh/tree/main/packages/vite-plugin-bruh#readme',
+  },
+  source: {
+    github: 'Technical-Source/bruh',
+    npm: 'vite-plugin-bruh',
   },
   stats: {
     stars: 44,

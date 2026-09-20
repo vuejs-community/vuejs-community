@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'svg-sprite',
     'svg-sprite-loader',
   ],
-  source: {
-    npm: 'rollup-plugin-svg-sprites',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-svg-sprites',
     website: 'https://github.com/godxiaoji/rollup-plugin-svg-sprites#readme',
+  },
+  source: {
+    npm: 'rollup-plugin-svg-sprites',
   },
   stats: {
     stars: 0,

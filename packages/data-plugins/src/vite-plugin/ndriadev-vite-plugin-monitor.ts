@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'monitoring',
     'logging',
   ],
-  source: {
-    github: 'nDriaDev/vite-plugin-monitor',
-    npm: '@ndriadev/vite-plugin-monitor',
-  },
   links: {
     github: 'https://github.com/nDriaDev/vite-plugin-monitor',
     npm: 'https://www.npmjs.com/package/@ndriadev/vite-plugin-monitor',
     website: 'https://github.com/nDriaDev/vite-plugin-monitor',
+  },
+  source: {
+    github: 'nDriaDev/vite-plugin-monitor',
+    npm: '@ndriadev/vite-plugin-monitor',
   },
   stats: {
     stars: 0,

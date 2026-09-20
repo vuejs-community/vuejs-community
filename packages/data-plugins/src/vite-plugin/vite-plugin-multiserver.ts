@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'server',
     'http-server',
   ],
-  source: {
-    github: 'idleberg/vite-plugin-multiserver',
-    npm: 'vite-plugin-multiserver',
-  },
   links: {
     github: 'https://github.com/idleberg/vite-plugin-multiserver',
     npm: 'https://www.npmjs.com/package/vite-plugin-multiserver',
     website: 'https://github.com/idleberg/vite-plugin-multiserver#readme',
+  },
+  source: {
+    github: 'idleberg/vite-plugin-multiserver',
+    npm: 'vite-plugin-multiserver',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'Simon-Bin/vite-plugin-auto-install',
-    npm: 'vite-plugin-auto-install',
-  },
   links: {
     github: 'https://github.com/Simon-Bin/vite-plugin-auto-install',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-install',
     website: 'https://github.com/Simon-Bin/vite-plugin-auto-install#readme',
+  },
+  source: {
+    github: 'Simon-Bin/vite-plugin-auto-install',
+    npm: 'vite-plugin-auto-install',
   },
   stats: {
     stars: 5,

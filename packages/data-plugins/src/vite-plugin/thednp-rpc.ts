@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'koa',
     'h3',
   ],
-  source: {
-    github: 'thednp/rpc',
-    npm: '@thednp/rpc',
-  },
   links: {
     github: 'https://github.com/thednp/rpc',
     npm: 'https://www.npmjs.com/package/@thednp/rpc',
     website: 'https://github.com/thednp/rpc#readme',
+  },
+  source: {
+    github: 'thednp/rpc',
+    npm: '@thednp/rpc',
   },
   stats: {
     stars: 0,

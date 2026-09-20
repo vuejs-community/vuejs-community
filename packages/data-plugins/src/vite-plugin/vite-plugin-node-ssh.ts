@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'node-ssh',
     'ssh-promise',
   ],
-  source: {
-    github: 'AFine970/vite-plugin-node-ssh',
-    npm: 'vite-plugin-node-ssh',
-  },
   links: {
     github: 'https://github.com/AFine970/vite-plugin-node-ssh',
     npm: 'https://www.npmjs.com/package/vite-plugin-node-ssh',
     website: 'https://github.com/AFine970/vite-plugin-node-ssh#readme',
+  },
+  source: {
+    github: 'AFine970/vite-plugin-node-ssh',
+    npm: 'vite-plugin-node-ssh',
   },
   stats: {
     stars: 0,

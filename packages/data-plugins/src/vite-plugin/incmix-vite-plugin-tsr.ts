@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'rollup-plugin',
   ],
-  source: {
-    npm: '@incmix/vite-plugin-tsr',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@incmix/vite-plugin-tsr',
+  },
+  source: {
+    npm: '@incmix/vite-plugin-tsr',
   },
   stats: {
     stars: 0,

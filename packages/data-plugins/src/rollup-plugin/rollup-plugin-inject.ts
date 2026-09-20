@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'npm',
     'modules',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-inject',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-inject',
     website: 'https://github.com/rollup/plugins/tree/master/packages/inject#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-inject',
   },
   stats: {
     stars: 0,

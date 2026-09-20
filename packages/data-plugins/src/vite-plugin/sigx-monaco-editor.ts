@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'code-editor',
     'vite-plugin',
   ],
-  source: {
-    github: 'signalxjs/monaco-editor',
-    npm: '@sigx/monaco-editor',
-  },
   links: {
     github: 'https://github.com/signalxjs/monaco-editor',
     npm: 'https://www.npmjs.com/package/@sigx/monaco-editor',
     website: 'https://sigx.dev/monaco/',
+  },
+  source: {
+    github: 'signalxjs/monaco-editor',
+    npm: '@sigx/monaco-editor',
   },
   stats: {
     stars: 0,

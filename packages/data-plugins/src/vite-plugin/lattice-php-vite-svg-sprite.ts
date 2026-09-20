@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'sprite',
     'icons',
   ],
-  source: {
-    github: 'lattice-php/vite-svg-sprite',
-    npm: '@lattice-php/vite-svg-sprite',
-  },
   links: {
     github: 'https://github.com/lattice-php/vite-svg-sprite',
     npm: 'https://www.npmjs.com/package/@lattice-php/vite-svg-sprite',
     website: 'https://github.com/lattice-php/vite-svg-sprite#readme',
+  },
+  source: {
+    github: 'lattice-php/vite-svg-sprite',
+    npm: '@lattice-php/vite-svg-sprite',
   },
   stats: {
     stars: 0,

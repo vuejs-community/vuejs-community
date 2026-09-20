@@ -34,14 +34,14 @@ export default defineProjectMeta({
     'static-site',
     'static-assets',
   ],
-  source: {
-    github: 'pinely-international/svg-bbox',
-    npm: 'vite-mermaid-svg',
-  },
   links: {
     github: 'https://github.com/pinely-international/svg-bbox',
     npm: 'https://www.npmjs.com/package/vite-mermaid-svg',
     website: 'https://github.com/pinely-international/svg-bbox#readme',
+  },
+  source: {
+    github: 'pinely-international/svg-bbox',
+    npm: 'vite-mermaid-svg',
   },
   stats: {
     stars: 0,

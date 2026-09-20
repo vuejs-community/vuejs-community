@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'RuSenLi/unplugin-build-notifier',
-    npm: 'unplugin-build-notifier',
-  },
   links: {
     github: 'https://github.com/RuSenLi/unplugin-build-notifier',
     npm: 'https://www.npmjs.com/package/unplugin-build-notifier',
     website: 'https://github.com/RuSenLi/unplugin-build-notifier#readme',
+  },
+  source: {
+    github: 'RuSenLi/unplugin-build-notifier',
+    npm: 'unplugin-build-notifier',
   },
   stats: {
     stars: 0,

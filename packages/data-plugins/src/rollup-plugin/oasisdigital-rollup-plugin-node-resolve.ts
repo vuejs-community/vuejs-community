@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'npm',
     'modules',
   ],
-  source: {
-    github: 'rollup/rollup-plugin-node-resolve',
-    npm: '@oasisdigital/rollup-plugin-node-resolve',
-  },
   links: {
     github: 'https://github.com/rollup/rollup-plugin-node-resolve',
     npm: 'https://www.npmjs.com/package/@oasisdigital/rollup-plugin-node-resolve',
     website: 'https://github.com/rollup/rollup-plugin-node-resolve#readme',
+  },
+  source: {
+    github: 'rollup/rollup-plugin-node-resolve',
+    npm: '@oasisdigital/rollup-plugin-node-resolve',
   },
   stats: {
     stars: 0,

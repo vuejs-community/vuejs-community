@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'livereload',
     'lr',
   ],
-  source: {
-    github: 'thgh/rollup-plugin-livereload',
-    npm: 'rollup-plugin-livereload',
-  },
   links: {
     github: 'https://github.com/thgh/rollup-plugin-livereload',
     npm: 'https://www.npmjs.com/package/rollup-plugin-livereload',
     website: 'https://github.com/thgh/rollup-plugin-livereload',
+  },
+  source: {
+    github: 'thgh/rollup-plugin-livereload',
+    npm: 'rollup-plugin-livereload',
   },
   stats: {
     stars: 161,

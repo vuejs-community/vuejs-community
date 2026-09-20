@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'cesium',
   ],
-  source: {
-    npm: '@xintao1105/vite-plugin-cesium',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xintao1105/vite-plugin-cesium',
+  },
+  source: {
+    npm: '@xintao1105/vite-plugin-cesium',
   },
   stats: {
     stars: 0,

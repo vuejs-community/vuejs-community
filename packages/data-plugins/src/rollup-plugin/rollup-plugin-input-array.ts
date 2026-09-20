@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'tsne/rollup-plugin-input-array',
-    npm: 'rollup-plugin-input-array',
-  },
   links: {
     github: 'https://github.com/tsne/rollup-plugin-input-array',
     npm: 'https://www.npmjs.com/package/rollup-plugin-input-array',
     website: 'https://github.com/tsne/rollup-plugin-input-array',
+  },
+  source: {
+    github: 'tsne/rollup-plugin-input-array',
+    npm: 'rollup-plugin-input-array',
   },
   stats: {
     stars: 1,

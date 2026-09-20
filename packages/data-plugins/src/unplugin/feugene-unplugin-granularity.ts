@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'granularity',
     'design-system',
   ],
-  source: {
-    github: 'efureev/granularity',
-    npm: '@feugene/unplugin-granularity',
-  },
   links: {
     github: 'https://github.com/efureev/granularity',
     npm: 'https://www.npmjs.com/package/@feugene/unplugin-granularity',
     website: 'https://efureev.github.io/granularity',
+  },
+  source: {
+    github: 'efureev/granularity',
+    npm: '@feugene/unplugin-granularity',
   },
   stats: {
     stars: 1,

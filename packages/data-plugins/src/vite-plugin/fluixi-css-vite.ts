@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'utility-css',
   ],
-  source: {
-    github: 'fluixi/css',
-    npm: '@fluixi-css/vite',
-  },
   links: {
     github: 'https://github.com/fluixi/css',
     npm: 'https://www.npmjs.com/package/@fluixi-css/vite',
     website: 'https://github.com/fluixi/css#readme',
+  },
+  source: {
+    github: 'fluixi/css',
+    npm: '@fluixi-css/vite',
   },
   stats: {
     stars: 0,

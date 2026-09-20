@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rum',
     'error-tracking',
   ],
-  source: {
-    github: 'sirilerklab/vite-plugin-openobserve-sourcemap',
-    npm: 'vite-plugin-openobserve-sourcemap',
-  },
   links: {
     github: 'https://github.com/sirilerklab/vite-plugin-openobserve-sourcemap',
     npm: 'https://www.npmjs.com/package/vite-plugin-openobserve-sourcemap',
     website: 'https://github.com/sirilerklab/vite-plugin-openobserve-sourcemap#readme',
+  },
+  source: {
+    github: 'sirilerklab/vite-plugin-openobserve-sourcemap',
+    npm: 'vite-plugin-openobserve-sourcemap',
   },
   stats: {
     stars: 1,

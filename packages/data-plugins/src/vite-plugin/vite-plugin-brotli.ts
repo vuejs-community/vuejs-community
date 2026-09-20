@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'yourusername/vite-plugin-brotli',
-    npm: 'vite-plugin-brotli',
-  },
   links: {
     github: 'https://github.com/yourusername/vite-plugin-brotli',
     npm: 'https://www.npmjs.com/package/vite-plugin-brotli',
     website: 'https://github.com/yourusername/vite-plugin-brotli#readme',
+  },
+  source: {
+    github: 'yourusername/vite-plugin-brotli',
+    npm: 'vite-plugin-brotli',
   },
   stats: {
     stars: 0,

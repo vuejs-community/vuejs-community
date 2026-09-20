@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'devtools',
     'chrome',
   ],
-  source: {
-    github: 'ChromeDevTools/vite-plugin-devtools-json',
-    npm: '@improvements/vite-plugin-devtools-json',
-  },
   links: {
     github: 'https://github.com/ChromeDevTools/vite-plugin-devtools-json',
     npm: 'https://www.npmjs.com/package/@improvements/vite-plugin-devtools-json',
     website: 'https://github.com/ChromeDevTools/vite-plugin-devtools-json#readme',
+  },
+  source: {
+    github: 'ChromeDevTools/vite-plugin-devtools-json',
+    npm: '@improvements/vite-plugin-devtools-json',
   },
   stats: {
     stars: 405,

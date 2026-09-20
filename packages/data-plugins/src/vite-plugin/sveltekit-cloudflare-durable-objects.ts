@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'workers',
     'cloudflare-workers',
   ],
-  source: {
-    github: 'jillesme/sveltekit-cloudflare-durable-objects',
-    npm: 'sveltekit-cloudflare-durable-objects',
-  },
   links: {
     github: 'https://github.com/jillesme/sveltekit-cloudflare-durable-objects',
     npm: 'https://www.npmjs.com/package/sveltekit-cloudflare-durable-objects',
     website: 'https://github.com/jillesme/sveltekit-cloudflare-durable-objects#readme',
+  },
+  source: {
+    github: 'jillesme/sveltekit-cloudflare-durable-objects',
+    npm: 'sveltekit-cloudflare-durable-objects',
   },
   stats: {
     stars: 0,

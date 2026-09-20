@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'ga4',
     'route-prediction',
   ],
-  source: {
-    npm: 'vite-plugin-smart-prefetch',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-smart-prefetch',
+  },
+  source: {
+    npm: 'vite-plugin-smart-prefetch',
   },
   stats: {
     stars: 0,

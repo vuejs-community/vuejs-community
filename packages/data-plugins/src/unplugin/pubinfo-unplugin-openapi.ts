@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'openapi',
   ],
-  source: {
-    github: 'werheng/pubinfo-openapi',
-    npm: '@pubinfo/unplugin-openapi',
-  },
   links: {
     github: 'https://github.com/werheng/pubinfo-openapi',
     npm: 'https://www.npmjs.com/package/@pubinfo/unplugin-openapi',
     website: 'https://github.com/werheng/pubinfo-openapi#readme',
+  },
+  source: {
+    github: 'werheng/pubinfo-openapi',
+    npm: '@pubinfo/unplugin-openapi',
   },
   stats: {
     stars: 0,

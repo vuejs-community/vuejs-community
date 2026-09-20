@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'self-hosting',
     'performance',
   ],
-  source: {
-    github: 'ZainW/vite-fonts',
-    npm: 'vite-fonts',
-  },
   links: {
     github: 'https://github.com/ZainW/vite-fonts',
     npm: 'https://www.npmjs.com/package/vite-fonts',
     website: 'https://github.com/ZainW/vite-fonts#readme',
+  },
+  source: {
+    github: 'ZainW/vite-fonts',
+    npm: 'vite-fonts',
   },
   stats: {
     stars: 0,

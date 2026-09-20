@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'dusk',
   ],
-  source: {
-    github: 'dusk-gg/dusk',
-    npm: 'vite-plugin-dusk',
-  },
   links: {
     github: 'https://github.com/dusk-gg/dusk',
     npm: 'https://www.npmjs.com/package/vite-plugin-dusk',
     website: 'https://github.com/dusk-gg/dusk#readme',
+  },
+  source: {
+    github: 'dusk-gg/dusk',
+    npm: 'vite-plugin-dusk',
   },
   stats: {
     stars: 424,

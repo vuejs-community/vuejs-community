@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'commonjs',
   ],
-  source: {
-    github: 'kckst8/vite-plugins',
-    npm: '@kckst8/vite-plugin-commonjs',
-  },
   links: {
     github: 'https://github.com/kckst8/vite-plugins',
     npm: 'https://www.npmjs.com/package/@kckst8/vite-plugin-commonjs',
     website: 'https://github.com/kckst8/vite-plugins/tree/main/packages/vite-plugin-commonjs',
+  },
+  source: {
+    github: 'kckst8/vite-plugins',
+    npm: '@kckst8/vite-plugin-commonjs',
   },
   stats: {
     stars: 0,

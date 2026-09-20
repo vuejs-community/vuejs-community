@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'build',
     'bundle',
   ],
-  source: {
-    github: 'rednil/rollup-plugin-version-injector',
-    npm: '@rednil/rollup-plugin-version-injector',
-  },
   links: {
     github: 'https://github.com/rednil/rollup-plugin-version-injector',
     npm: 'https://www.npmjs.com/package/@rednil/rollup-plugin-version-injector',
     website: 'https://github.com/djhouseknecht/rollup-plugin-version-injector#readme',
+  },
+  source: {
+    github: 'rednil/rollup-plugin-version-injector',
+    npm: '@rednil/rollup-plugin-version-injector',
   },
   stats: {
     stars: 0,

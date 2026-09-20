@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://scripts.nuxt.com',
   },
   source: {
-    github: 'nuxt/scripts#main/packages/script',
+    github: 'nuxt/scripts',
     npm: '@nuxt/scripts',
   },
 })

@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://mcp-toolkit.nuxt.dev/getting-started/installation',
   },
   source: {
-    github: 'nuxt-modules/mcp-toolkit#main/packages/nuxt-mcp-toolkit',
+    github: 'nuxt-modules/mcp-toolkit',
     npm: '@nuxtjs/mcp-toolkit',
   },
 })

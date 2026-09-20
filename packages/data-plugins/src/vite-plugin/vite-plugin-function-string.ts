@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'function',
     'toString',
   ],
-  source: {
-    npm: 'vite-plugin-function-string',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-function-string',
+  },
+  source: {
+    npm: 'vite-plugin-function-string',
   },
   stats: {
     stars: 0,

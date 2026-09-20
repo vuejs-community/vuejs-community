@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'jump',
     'code-navigation',
   ],
-  source: {
-    github: 'yourusername/vtjump',
-    npm: 'vtjump',
-  },
   links: {
     github: 'https://github.com/yourusername/vtjump',
     npm: 'https://www.npmjs.com/package/vtjump',
     website: 'https://github.com/yourusername/vtjump#readme',
+  },
+  source: {
+    github: 'yourusername/vtjump',
+    npm: 'vtjump',
   },
   stats: {
     stars: 0,

@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'typescript',
     'runtime-errors',
   ],
-  source: {
-    github: 'Binidu01/bini-overlay',
-    npm: 'bini-overlay',
-  },
   links: {
     github: 'https://github.com/Binidu01/bini-overlay',
     npm: 'https://www.npmjs.com/package/bini-overlay',
     website: 'https://bini.js.org',
+  },
+  source: {
+    github: 'Binidu01/bini-overlay',
+    npm: 'bini-overlay',
   },
   stats: {
     stars: 1,

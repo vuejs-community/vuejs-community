@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'docfy',
     'documentation',
   ],
-  source: {
-    github: 'josemarluedke/docfy',
-    npm: '@docfy/ember-vite',
-  },
   links: {
     github: 'https://github.com/josemarluedke/docfy',
     npm: 'https://www.npmjs.com/package/@docfy/ember-vite',
     website: 'https://github.com/josemarluedke/docfy#readme',
+  },
+  source: {
+    github: 'josemarluedke/docfy',
+    npm: '@docfy/ember-vite',
   },
   stats: {
     stars: 74,

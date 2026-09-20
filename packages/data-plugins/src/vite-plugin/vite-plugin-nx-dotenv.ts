@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'nx',
     'dotenv',
   ],
-  source: {
-    github: 'chf007/vite-plugin-nx-dotenv',
-    npm: 'vite-plugin-nx-dotenv',
-  },
   links: {
     github: 'https://github.com/chf007/vite-plugin-nx-dotenv',
     npm: 'https://www.npmjs.com/package/vite-plugin-nx-dotenv',
     website: 'https://github.com/chf007/vite-plugin-nx-dotenv#readme',
+  },
+  source: {
+    github: 'chf007/vite-plugin-nx-dotenv',
+    npm: 'vite-plugin-nx-dotenv',
   },
   stats: {
     stars: 1,

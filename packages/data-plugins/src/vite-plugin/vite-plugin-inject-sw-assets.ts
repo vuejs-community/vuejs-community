@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'precache',
     'static-assets',
   ],
-  source: {
-    github: 'Effeilo/vite-plugin-inject-sw-assets',
-    npm: 'vite-plugin-inject-sw-assets',
-  },
   links: {
     github: 'https://github.com/Effeilo/vite-plugin-inject-sw-assets',
     npm: 'https://www.npmjs.com/package/vite-plugin-inject-sw-assets',
     website: 'https://github.com/Effeilo/vite-plugin-inject-sw-assets',
+  },
+  source: {
+    github: 'Effeilo/vite-plugin-inject-sw-assets',
+    npm: 'vite-plugin-inject-sw-assets',
   },
   stats: {
     stars: 0,

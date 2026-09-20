@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'sandbox',
     'frontend-monitoring',
   ],
-  source: {
-    npm: 'vite-plugin-client-error-logger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-client-error-logger',
+  },
+  source: {
+    npm: 'vite-plugin-client-error-logger',
   },
   stats: {
     stars: 0,

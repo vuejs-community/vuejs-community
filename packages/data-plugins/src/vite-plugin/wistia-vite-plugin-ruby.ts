@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'wistia/vite_ruby',
-    npm: '@wistia/vite-plugin-ruby',
-  },
   links: {
     github: 'https://github.com/wistia/vite_ruby',
     npm: 'https://www.npmjs.com/package/@wistia/vite-plugin-ruby',
     website: 'https://github.com/wistia/vite_ruby/blob/main/vite-plugin-ruby',
+  },
+  source: {
+    github: 'wistia/vite_ruby',
+    npm: '@wistia/vite-plugin-ruby',
   },
   stats: {
     stars: 0,

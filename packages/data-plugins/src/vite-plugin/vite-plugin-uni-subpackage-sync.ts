@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'uni-app',
     'miniprogram',
   ],
-  source: {
-    npm: 'vite-plugin-uni-subpackage-sync',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-uni-subpackage-sync',
+  },
+  source: {
+    npm: 'vite-plugin-uni-subpackage-sync',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'uniapp-to-group',
     'vite-plugin',
   ],
-  source: {
-    github: 'jonsen-liu/vite-plugin-uniapp-to-group',
-    npm: 'vite-plugin-uniapp-to-group',
-  },
   links: {
     github: 'https://github.com/jonsen-liu/vite-plugin-uniapp-to-group',
     npm: 'https://www.npmjs.com/package/vite-plugin-uniapp-to-group',
     website: 'https://github.com/jonsen-liu/vite-plugin-uniapp-to-group#readme',
+  },
+  source: {
+    github: 'jonsen-liu/vite-plugin-uniapp-to-group',
+    npm: 'vite-plugin-uniapp-to-group',
   },
   stats: {
     stars: 0,

@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'tsdown',
     'rolldown',
   ],
-  source: {
-    github: 'biw/swift-node',
-    npm: 'swift-node-unplugin',
-  },
   links: {
     github: 'https://github.com/biw/swift-node',
     npm: 'https://www.npmjs.com/package/swift-node-unplugin',
     website: 'https://github.com/biw/swift-node#readme',
+  },
+  source: {
+    github: 'biw/swift-node',
+    npm: 'swift-node-unplugin',
   },
   stats: {
     stars: 4,

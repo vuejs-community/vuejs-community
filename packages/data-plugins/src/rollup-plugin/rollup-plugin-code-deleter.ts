@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'delete-code',
     'rollup-plugin-code-deleter',
   ],
-  source: {
-    github: 'Shunjun/rollup-plugin-code-deleter',
-    npm: 'rollup-plugin-code-deleter',
-  },
   links: {
     github: 'https://github.com/Shunjun/rollup-plugin-code-deleter',
     npm: 'https://www.npmjs.com/package/rollup-plugin-code-deleter',
     website: 'https://github.com/Shunjun/rollup-plugin-code-deleter#readme',
+  },
+  source: {
+    github: 'Shunjun/rollup-plugin-code-deleter',
+    npm: 'rollup-plugin-code-deleter',
   },
   stats: {
     stars: 0,

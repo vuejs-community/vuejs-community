@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'built-by',
     'alkarartech',
   ],
-  source: {
-    github: 'alkarartech/alkarartech-tagger',
-    npm: 'alkarartech-tagger',
-  },
   links: {
     github: 'https://github.com/alkarartech/alkarartech-tagger',
     npm: 'https://www.npmjs.com/package/alkarartech-tagger',
     website: 'https://alkarartech.com',
+  },
+  source: {
+    github: 'alkarartech/alkarartech-tagger',
+    npm: 'alkarartech-tagger',
   },
   stats: {
     stars: 0,

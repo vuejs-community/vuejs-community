@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: '@wix/vite-plugin-wix-manifest',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@wix/vite-plugin-wix-manifest',
+  },
+  source: {
+    npm: '@wix/vite-plugin-wix-manifest',
   },
   stats: {
     stars: 0,

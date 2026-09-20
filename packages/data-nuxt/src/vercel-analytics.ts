@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://vercel.com/docs/analytics',
   },
   source: {
-    github: 'vercel/analytics#main/packages/web',
+    github: 'vercel/analytics',
     npm: '@vercel/analytics',
   },
 })

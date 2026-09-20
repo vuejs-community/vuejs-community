@@ -16,14 +16,14 @@ export default defineProjectMeta({
     '腾讯云',
     '腾讯云对象存储',
   ],
-  source: {
-    github: 'taosiqi/vite-plugin-tencent-oss',
-    npm: 'vite-plugin-tencent-oss',
-  },
   links: {
     github: 'https://github.com/taosiqi/vite-plugin-tencent-oss',
     npm: 'https://www.npmjs.com/package/vite-plugin-tencent-oss',
     website: 'https://github.com/taosiqi/vite-plugin-tencent-oss',
+  },
+  source: {
+    github: 'taosiqi/vite-plugin-tencent-oss',
+    npm: 'vite-plugin-tencent-oss',
   },
   stats: {
     stars: 0,

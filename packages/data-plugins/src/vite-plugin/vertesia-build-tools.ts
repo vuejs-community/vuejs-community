@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'zod',
     'validation',
   ],
-  source: {
-    github: 'vertesia/composableai',
-    npm: '@vertesia/build-tools',
-  },
   links: {
     github: 'https://github.com/vertesia/composableai',
     npm: 'https://www.npmjs.com/package/@vertesia/build-tools',
     website: 'https://github.com/vertesia/composableai#readme',
+  },
+  source: {
+    github: 'vertesia/composableai',
+    npm: '@vertesia/build-tools',
   },
   stats: {
     stars: 5,

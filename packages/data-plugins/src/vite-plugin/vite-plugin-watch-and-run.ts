@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'jycouet/kitql',
-    npm: 'vite-plugin-watch-and-run',
-  },
   links: {
     github: 'https://github.com/jycouet/kitql',
     npm: 'https://www.npmjs.com/package/vite-plugin-watch-and-run',
     website: 'https://www.kitql.dev/',
+  },
+  source: {
+    github: 'jycouet/kitql',
+    npm: 'vite-plugin-watch-and-run',
   },
   stats: {
     stars: 0,

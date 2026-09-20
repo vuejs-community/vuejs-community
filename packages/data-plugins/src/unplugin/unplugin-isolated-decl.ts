@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'unplugin/unplugin-isolated-decl',
-    npm: 'unplugin-isolated-decl',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-isolated-decl',
     npm: 'https://www.npmjs.com/package/unplugin-isolated-decl',
     website: 'https://github.com/unplugin/unplugin-isolated-decl#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-isolated-decl',
+    npm: 'unplugin-isolated-decl',
   },
   stats: {
     stars: 193,

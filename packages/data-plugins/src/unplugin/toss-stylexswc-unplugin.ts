@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'Dwlad90/stylex-swc-plugin',
-    npm: '@toss/stylexswc-unplugin',
-  },
   links: {
     github: 'https://github.com/Dwlad90/stylex-swc-plugin',
     npm: 'https://www.npmjs.com/package/@toss/stylexswc-unplugin',
     website: 'https://github.com/Dwlad90/stylex-swc-plugin/tree/develop/packages/unplugin#readme',
+  },
+  source: {
+    github: 'Dwlad90/stylex-swc-plugin',
+    npm: '@toss/stylexswc-unplugin',
   },
   stats: {
     stars: 0,

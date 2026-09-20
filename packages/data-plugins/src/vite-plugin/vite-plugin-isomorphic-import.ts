@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'import',
     'ssr',
   ],
-  source: {
-    github: 'LyzSg/vite-plugin-isomorphic-import',
-    npm: 'vite-plugin-isomorphic-import',
-  },
   links: {
     github: 'https://github.com/LyzSg/vite-plugin-isomorphic-import',
     npm: 'https://www.npmjs.com/package/vite-plugin-isomorphic-import',
     website: 'https://github.com/LyzSg/vite-plugin-isomorphic-import#readme',
+  },
+  source: {
+    github: 'LyzSg/vite-plugin-isomorphic-import',
+    npm: 'vite-plugin-isomorphic-import',
   },
   stats: {
     stars: 2,

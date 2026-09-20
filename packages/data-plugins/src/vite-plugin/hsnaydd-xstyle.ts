@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'typescript',
     'vite-plugin',
   ],
-  source: {
-    github: 'hsnaydd/xstyle',
-    npm: '@hsnaydd/xstyle',
-  },
   links: {
     github: 'https://github.com/hsnaydd/xstyle',
     npm: 'https://www.npmjs.com/package/@hsnaydd/xstyle',
     website: 'https://github.com/hsnaydd/xstyle#readme',
+  },
+  source: {
+    github: 'hsnaydd/xstyle',
+    npm: '@hsnaydd/xstyle',
   },
   stats: {
     stars: 0,

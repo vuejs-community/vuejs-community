@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'cms',
     'editrelay',
   ],
-  source: {
-    github: 'EditRelay/webapp',
-    npm: 'editrelay-stamp',
-  },
   links: {
     github: 'https://github.com/EditRelay/webapp',
     npm: 'https://www.npmjs.com/package/editrelay-stamp',
     website: 'https://editrelay.com',
+  },
+  source: {
+    github: 'EditRelay/webapp',
+    npm: 'editrelay-stamp',
   },
   stats: {
     stars: 0,

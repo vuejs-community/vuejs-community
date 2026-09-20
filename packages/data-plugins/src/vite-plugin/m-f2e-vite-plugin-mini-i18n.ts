@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'm-f2e/vite-plugin-mini-i18n',
-    npm: '@m-f2e/vite-plugin-mini-i18n',
-  },
   links: {
     github: 'https://github.com/m-f2e/vite-plugin-mini-i18n',
     npm: 'https://www.npmjs.com/package/@m-f2e/vite-plugin-mini-i18n',
     website: 'https://github.com/m-f2e/vite-plugin-mini-i18n#readme',
+  },
+  source: {
+    github: 'm-f2e/vite-plugin-mini-i18n',
+    npm: '@m-f2e/vite-plugin-mini-i18n',
   },
   stats: {
     stars: 1,

@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'microsoft-apps',
   ],
-  source: {
-    npm: '@microsoft/apps-vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@microsoft/apps-vite-plugin',
+  },
+  source: {
+    npm: '@microsoft/apps-vite-plugin',
   },
   stats: {
     stars: 0,

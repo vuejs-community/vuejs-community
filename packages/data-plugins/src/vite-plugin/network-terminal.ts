@@ -20,11 +20,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'network-terminal',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/network-terminal',
+  },
+  source: {
+    npm: 'network-terminal',
   },
   stats: {
     stars: 0,

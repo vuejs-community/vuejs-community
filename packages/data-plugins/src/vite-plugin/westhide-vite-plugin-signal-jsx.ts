@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'signal-jsx',
   ],
-  source: {
-    npm: '@westhide/vite-plugin-signal-jsx',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@westhide/vite-plugin-signal-jsx',
+  },
+  source: {
+    npm: '@westhide/vite-plugin-signal-jsx',
   },
   stats: {
     stars: 0,

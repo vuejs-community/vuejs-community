@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'micro-frontend',
     'module-federation',
   ],
-  source: {
-    npm: '@jiayouzuo/vite-plugin-css-scope',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@jiayouzuo/vite-plugin-css-scope',
+  },
+  source: {
+    npm: '@jiayouzuo/vite-plugin-css-scope',
   },
   stats: {
     stars: 0,

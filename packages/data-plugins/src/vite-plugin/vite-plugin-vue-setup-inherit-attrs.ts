@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'vue',
     'inherit-attrs',
   ],
-  source: {
-    npm: 'vite-plugin-vue-setup-inherit-attrs',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-setup-inherit-attrs',
     website: 'https://github.com/kalimahapps/vite-plugin-vue-setup-inherit-attrs/tree/master/#readme',
+  },
+  source: {
+    npm: 'vite-plugin-vue-setup-inherit-attrs',
   },
   stats: {
     stars: 0,

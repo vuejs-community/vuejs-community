@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'vite-i18n',
     'validation',
   ],
-  source: {
-    github: 'allenstu6311/vite-plugin-i18n-checker',
-    npm: 'vite-plugin-i18n-checker',
-  },
   links: {
     github: 'https://github.com/allenstu6311/vite-plugin-i18n-checker',
     npm: 'https://www.npmjs.com/package/vite-plugin-i18n-checker',
     website: 'https://github.com/allenstu6311/vite-plugin-i18n-checker#readme',
+  },
+  source: {
+    github: 'allenstu6311/vite-plugin-i18n-checker',
+    npm: 'vite-plugin-i18n-checker',
   },
   stats: {
     stars: 10,

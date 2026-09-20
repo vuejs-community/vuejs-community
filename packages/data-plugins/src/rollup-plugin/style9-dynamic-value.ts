@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'rodrigojcmello/style9',
-    npm: 'style9-dynamic-value',
-  },
   links: {
     github: 'https://github.com/rodrigojcmello/style9',
     npm: 'https://www.npmjs.com/package/style9-dynamic-value',
     website: 'https://github.com/rodrigojcmello/style9#readme',
+  },
+  source: {
+    github: 'rodrigojcmello/style9',
+    npm: 'style9-dynamic-value',
   },
   stats: {
     stars: 0,

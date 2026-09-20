@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'serve-static',
   ],
-  source: {
-    github: 'Rapidys/vite-proxy-serve-static',
-    npm: 'vite-proxy-serve-static',
-  },
   links: {
     github: 'https://github.com/Rapidys/vite-proxy-serve-static',
     npm: 'https://www.npmjs.com/package/vite-proxy-serve-static',
     website: 'https://github.com/Rapidys/vite-proxy-serve-static#readme',
+  },
+  source: {
+    github: 'Rapidys/vite-proxy-serve-static',
+    npm: 'vite-proxy-serve-static',
   },
   stats: {
     stars: 1,

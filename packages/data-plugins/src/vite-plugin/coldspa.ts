@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'ssr',
     'hydration',
   ],
-  source: {
-    github: 'crutchcorn/coldspa',
-    npm: 'coldspa',
-  },
   links: {
     github: 'https://github.com/crutchcorn/coldspa',
     npm: 'https://www.npmjs.com/package/coldspa',
     website: 'https://github.com/crutchcorn/coldspa#readme',
+  },
+  source: {
+    github: 'crutchcorn/coldspa',
+    npm: 'coldspa',
   },
   stats: {
     stars: 7,

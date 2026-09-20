@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'css',
   ],
-  source: {
-    github: 'alexdilley/rollup-plugin-css-asset',
-    npm: 'rollup-plugin-css-asset',
-  },
   links: {
     github: 'https://github.com/alexdilley/rollup-plugin-css-asset',
     npm: 'https://www.npmjs.com/package/rollup-plugin-css-asset',
     website: 'https://github.com/alexdilley/rollup-plugin-css-asset#readme',
+  },
+  source: {
+    github: 'alexdilley/rollup-plugin-css-asset',
+    npm: 'rollup-plugin-css-asset',
   },
   stats: {
     stars: 0,

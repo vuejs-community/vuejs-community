@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'source code',
     'DX',
   ],
-  source: {
-    github: 'antfu/unplugin-monorepo',
-    npm: 'unplugin-monorepo',
-  },
   links: {
     github: 'https://github.com/antfu/unplugin-monorepo',
     npm: 'https://www.npmjs.com/package/unplugin-monorepo',
     website: 'https://github.com/antfu/unplugin-monorepo#readme',
+  },
+  source: {
+    github: 'antfu/unplugin-monorepo',
+    npm: 'unplugin-monorepo',
   },
   stats: {
     stars: 0,

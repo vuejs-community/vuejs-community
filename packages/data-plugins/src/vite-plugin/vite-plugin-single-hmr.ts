@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    npm: 'vite-plugin-single-hmr',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-single-hmr',
+  },
+  source: {
+    npm: 'vite-plugin-single-hmr',
   },
   stats: {
     stars: 0,

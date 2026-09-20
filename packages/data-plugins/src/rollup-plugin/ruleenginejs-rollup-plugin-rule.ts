@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'ruleengine',
     'rollup-plugin',
   ],
-  source: {
-    github: 'ruleenginejs/rollup-plugin-rule',
-    npm: '@ruleenginejs/rollup-plugin-rule',
-  },
   links: {
     github: 'https://github.com/ruleenginejs/rollup-plugin-rule',
     npm: 'https://www.npmjs.com/package/@ruleenginejs/rollup-plugin-rule',
     website: 'https://github.com/ruleenginejs/rollup-plugin-rule#readme',
+  },
+  source: {
+    github: 'ruleenginejs/rollup-plugin-rule',
+    npm: '@ruleenginejs/rollup-plugin-rule',
   },
   stats: {
     stars: 0,

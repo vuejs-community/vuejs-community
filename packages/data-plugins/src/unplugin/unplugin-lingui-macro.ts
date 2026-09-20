@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'SegaraRai/lingui-for',
-    npm: 'unplugin-lingui-macro',
-  },
   links: {
     github: 'https://github.com/SegaraRai/lingui-for',
     npm: 'https://www.npmjs.com/package/unplugin-lingui-macro',
     website: 'https://lingui-for.roundtrip.dev/guides/install-and-first-translation',
+  },
+  source: {
+    github: 'SegaraRai/lingui-for',
+    npm: 'unplugin-lingui-macro',
   },
   stats: {
     stars: 0,

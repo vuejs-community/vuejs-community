@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'testem',
     'testing',
   ],
-  source: {
-    github: 'Gaurav0/vite-plugin-testem',
-    npm: 'vite-plugin-testem',
-  },
   links: {
     github: 'https://github.com/Gaurav0/vite-plugin-testem',
     npm: 'https://www.npmjs.com/package/vite-plugin-testem',
     website: 'https://github.com/Gaurav0/vite-plugin-testem#readme',
+  },
+  source: {
+    github: 'Gaurav0/vite-plugin-testem',
+    npm: 'vite-plugin-testem',
   },
   stats: {
     stars: 0,

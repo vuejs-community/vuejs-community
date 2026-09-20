@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'exports',
     'resolve',
   ],
-  source: {
-    github: 'Shakeskeyboarde/vite-plugin-data',
-    npm: 'vite-plugin-data',
-  },
   links: {
     github: 'https://github.com/Shakeskeyboarde/vite-plugin-data',
     npm: 'https://www.npmjs.com/package/vite-plugin-data',
     website: 'https://github.com/Shakeskeyboarde/vite-plugin-data/blob/main/packages/plugin/README.md',
+  },
+  source: {
+    github: 'Shakeskeyboarde/vite-plugin-data',
+    npm: 'vite-plugin-data',
   },
   stats: {
     stars: 2,

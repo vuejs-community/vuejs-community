@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue-cli',
   ],
-  source: {
-    github: 'IndexXuan/vite-plugin-vue-cli',
-    npm: 'vite-plugin-vue-cli',
-  },
   links: {
     github: 'https://github.com/IndexXuan/vite-plugin-vue-cli',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-cli',
     website: 'https://github.com/IndexXuan/vite-plugin-vue-cli',
+  },
+  source: {
+    github: 'IndexXuan/vite-plugin-vue-cli',
+    npm: 'vite-plugin-vue-cli',
   },
   stats: {
     stars: 5,

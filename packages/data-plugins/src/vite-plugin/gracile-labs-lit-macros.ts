@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'oxc',
     'web-components',
   ],
-  source: {
-    github: 'gracile-web/gracile',
-    npm: '@gracile-labs/lit-macros',
-  },
   links: {
     github: 'https://github.com/gracile-web/gracile',
     npm: 'https://www.npmjs.com/package/@gracile-labs/lit-macros',
     website: 'https://github.com/gracile-web/gracile#readme',
+  },
+  source: {
+    github: 'gracile-web/gracile',
+    npm: '@gracile-labs/lit-macros',
   },
   stats: {
     stars: 54,

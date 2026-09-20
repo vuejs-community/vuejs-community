@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'clean-architecture',
   ],
-  source: {
-    github: 'wrikka/create-docs',
-    npm: '@wrikka/create-docs',
-  },
   links: {
     github: 'https://github.com/wrikka/create-docs',
     npm: 'https://www.npmjs.com/package/@wrikka/create-docs',
     website: 'https://github.com/wrikka/create-docs#readme',
+  },
+  source: {
+    github: 'wrikka/create-docs',
+    npm: '@wrikka/create-docs',
   },
   stats: {
     stars: 0,

@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'web',
     'compatibility',
   ],
-  source: {
-    npm: 'vite-plugin-react-native',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-react-native',
+  },
+  source: {
+    npm: 'vite-plugin-react-native',
   },
   stats: {
     stars: 0,

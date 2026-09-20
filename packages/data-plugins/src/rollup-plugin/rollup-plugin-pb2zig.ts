@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'pixel-bender',
     'pbk',
   ],
-  source: {
-    github: 'chung-leong/pb2zig',
-    npm: 'rollup-plugin-pb2zig',
-  },
   links: {
     github: 'https://github.com/chung-leong/pb2zig',
     npm: 'https://www.npmjs.com/package/rollup-plugin-pb2zig',
     website: 'https://github.com/chung-leong/pb2zig#readme',
+  },
+  source: {
+    github: 'chung-leong/pb2zig',
+    npm: 'rollup-plugin-pb2zig',
   },
   stats: {
     stars: 25,

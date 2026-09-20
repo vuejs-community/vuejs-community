@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'openfl',
   ],
-  source: {
-    npm: '@im-nassinger/vite-plugin-openfl',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@im-nassinger/vite-plugin-openfl',
+  },
+  source: {
+    npm: '@im-nassinger/vite-plugin-openfl',
   },
   stats: {
     stars: 0,

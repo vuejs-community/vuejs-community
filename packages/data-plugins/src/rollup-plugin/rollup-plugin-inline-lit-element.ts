@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup',
     'plugin',
   ],
-  source: {
-    github: 'aelbore/rollup-plugin-inline-lit-element',
-    npm: 'rollup-plugin-inline-lit-element',
-  },
   links: {
     github: 'https://github.com/aelbore/rollup-plugin-inline-lit-element',
     npm: 'https://www.npmjs.com/package/rollup-plugin-inline-lit-element',
     website: 'https://github.com/aelbore/rollup-plugin-inline-lit-element#readme',
+  },
+  source: {
+    github: 'aelbore/rollup-plugin-inline-lit-element',
+    npm: 'rollup-plugin-inline-lit-element',
   },
   stats: {
     stars: 11,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'generate',
     'generator',
   ],
-  source: {
-    github: 'peterekjs/vite-plugin-favicons',
-    npm: '@peterek/vite-plugin-favicons',
-  },
   links: {
     github: 'https://github.com/peterekjs/vite-plugin-favicons',
     npm: 'https://www.npmjs.com/package/@peterek/vite-plugin-favicons',
     website: 'https://github.com/peterekjs/vite-plugin-favicons#readme',
+  },
+  source: {
+    github: 'peterekjs/vite-plugin-favicons',
+    npm: '@peterek/vite-plugin-favicons',
   },
   stats: {
     stars: 13,

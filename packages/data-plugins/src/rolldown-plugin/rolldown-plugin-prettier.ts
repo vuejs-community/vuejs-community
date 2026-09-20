@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'plugin',
     'prettier',
   ],
-  source: {
-    github: 'samualtnorman/rolldown-plugin-prettier',
-    npm: 'rolldown-plugin-prettier',
-  },
   links: {
     github: 'https://github.com/samualtnorman/rolldown-plugin-prettier',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-prettier',
     website: 'https://github.com/samualtnorman/rolldown-plugin-prettier#readme',
+  },
+  source: {
+    github: 'samualtnorman/rolldown-plugin-prettier',
+    npm: 'rolldown-plugin-prettier',
   },
   stats: {
     stars: 0,

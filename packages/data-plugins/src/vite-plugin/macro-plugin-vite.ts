@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'macro',
     'macro-plugin',
   ],
-  source: {
-    github: 'macro-plugin/macros',
-    npm: '@macro-plugin/vite',
-  },
   links: {
     github: 'https://github.com/macro-plugin/macros',
     npm: 'https://www.npmjs.com/package/@macro-plugin/vite',
     website: 'https://github.com/macro-plugin/macros/tree/main/packages/vite',
+  },
+  source: {
+    github: 'macro-plugin/macros',
+    npm: '@macro-plugin/vite',
   },
   stats: {
     stars: 16,

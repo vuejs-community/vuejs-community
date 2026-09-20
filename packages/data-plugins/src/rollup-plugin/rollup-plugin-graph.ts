@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'ondras/rollup-plugin-graph',
-    npm: 'rollup-plugin-graph',
-  },
   links: {
     github: 'https://github.com/ondras/rollup-plugin-graph',
     npm: 'https://www.npmjs.com/package/rollup-plugin-graph',
     website: 'https://github.com/ondras/rollup-plugin-graph',
+  },
+  source: {
+    github: 'ondras/rollup-plugin-graph',
+    npm: 'rollup-plugin-graph',
   },
   stats: {
     stars: 32,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'peynman/vue-ts-auto-props',
-    npm: 'vue-ts-auto-props',
-  },
   links: {
     github: 'https://github.com/peynman/vue-ts-auto-props',
     npm: 'https://www.npmjs.com/package/vue-ts-auto-props',
     website: 'https://github.com/peynman/vue-ts-auto-props#readme',
+  },
+  source: {
+    github: 'peynman/vue-ts-auto-props',
+    npm: 'vue-ts-auto-props',
   },
   stats: {
     stars: 0,

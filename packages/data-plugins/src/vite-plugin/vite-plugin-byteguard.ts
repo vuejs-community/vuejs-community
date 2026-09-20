@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'capacitor',
     'electron',
   ],
-  source: {
-    github: 'firejune/byteguard',
-    npm: 'vite-plugin-byteguard',
-  },
   links: {
     github: 'https://github.com/firejune/byteguard',
     npm: 'https://www.npmjs.com/package/vite-plugin-byteguard',
     website: 'https://github.com/firejune/byteguard#readme',
+  },
+  source: {
+    github: 'firejune/byteguard',
+    npm: 'vite-plugin-byteguard',
   },
   stats: {
     stars: 1,

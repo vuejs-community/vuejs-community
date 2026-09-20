@@ -21,11 +21,11 @@ export default defineProjectMeta({
     'bundler',
     'compressing',
   ],
-  source: {
-    npm: 'vite-plugin-zip-pack-svelte',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-zip-pack-svelte',
+  },
+  source: {
+    npm: 'vite-plugin-zip-pack-svelte',
   },
   stats: {
     stars: 0,

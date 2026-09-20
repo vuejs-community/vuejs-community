@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'html',
     'vite-plugin',
   ],
-  source: {
-    github: 'yzydeveloper/vite-plugin-mpa-plus',
-    npm: 'vite-plugin-mpa-plus',
-  },
   links: {
     github: 'https://github.com/yzydeveloper/vite-plugin-mpa-plus',
     npm: 'https://www.npmjs.com/package/vite-plugin-mpa-plus',
     website: 'https://github.com/yzydeveloper/vite-plugin-mpa-plus',
+  },
+  source: {
+    github: 'yzydeveloper/vite-plugin-mpa-plus',
+    npm: 'vite-plugin-mpa-plus',
   },
   stats: {
     stars: 88,

@@ -34,14 +34,14 @@ export default defineProjectMeta({
     'dynamic-templates',
     'client-side-templates',
   ],
-  source: {
-    github: 'HunterAkeriano/vite-plugin-hulak-tools',
-    npm: 'vite-plugin-hulak-tools',
-  },
   links: {
     github: 'https://github.com/HunterAkeriano/vite-plugin-hulak-tools',
     npm: 'https://www.npmjs.com/package/vite-plugin-hulak-tools',
     website: 'https://github.com/HunterAkeriano/vite-plugin-hulak-tools#readme',
+  },
+  source: {
+    github: 'HunterAkeriano/vite-plugin-hulak-tools',
+    npm: 'vite-plugin-hulak-tools',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'ai',
     'vite-plugin',
   ],
-  source: {
-    github: 'aminarshadinia/clicktocode',
-    npm: '@clicktocode/react',
-  },
   links: {
     github: 'https://github.com/aminarshadinia/clicktocode',
     npm: 'https://www.npmjs.com/package/@clicktocode/react',
     website: 'https://github.com/aminarshadinia/clicktocode/tree/main/packages/react#readme',
+  },
+  source: {
+    github: 'aminarshadinia/clicktocode',
+    npm: '@clicktocode/react',
   },
   stats: {
     stars: 0,

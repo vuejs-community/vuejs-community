@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'react',
     'jsx',
   ],
-  source: {
-    github: 'hendiko/vite-plugin-react-js-as-jsx',
-    npm: 'vite-plugin-react-js-as-jsx',
-  },
   links: {
     github: 'https://github.com/hendiko/vite-plugin-react-js-as-jsx',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-js-as-jsx',
     website: 'https://github.com/hendiko/vite-plugin-react-js-as-jsx#readme',
+  },
+  source: {
+    github: 'hendiko/vite-plugin-react-js-as-jsx',
+    npm: 'vite-plugin-react-js-as-jsx',
   },
   stats: {
     stars: 2,

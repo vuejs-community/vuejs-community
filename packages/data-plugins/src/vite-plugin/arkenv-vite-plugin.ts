@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'yamcodes/arkenv',
-    npm: '@arkenv/vite-plugin',
-  },
   links: {
     github: 'https://github.com/yamcodes/arkenv',
     npm: 'https://www.npmjs.com/package/@arkenv/vite-plugin',
     website: 'https://arkenv.js.org',
+  },
+  source: {
+    github: 'yamcodes/arkenv',
+    npm: '@arkenv/vite-plugin',
   },
   stats: {
     stars: 141,

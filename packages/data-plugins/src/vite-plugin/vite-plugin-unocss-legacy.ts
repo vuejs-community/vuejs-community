@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-unocss-legacy',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-unocss-legacy',
+  },
+  source: {
+    npm: 'vite-plugin-unocss-legacy',
   },
   stats: {
     stars: 0,

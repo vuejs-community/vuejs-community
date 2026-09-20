@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'react-reanimated',
     'lightning-js',
   ],
-  source: {
-    github: 'plexinc/react-lightning',
-    npm: '@plexinc/vite-plugin-react-reanimated-lightning',
-  },
   links: {
     github: 'https://github.com/plexinc/react-lightning',
     npm: 'https://www.npmjs.com/package/@plexinc/vite-plugin-react-reanimated-lightning',
     website: 'https://github.com/plexinc/react-lightning#readme',
+  },
+  source: {
+    github: 'plexinc/react-lightning',
+    npm: '@plexinc/vite-plugin-react-reanimated-lightning',
   },
   stats: {
     stars: 0,

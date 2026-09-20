@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'chunk',
     'vite-plugin',
   ],
-  source: {
-    github: 'MrQinYQ/vite-plugin-dynamic-chunk',
-    npm: 'vite-plugin-dynamic-chunk',
-  },
   links: {
     github: 'https://github.com/MrQinYQ/vite-plugin-dynamic-chunk',
     npm: 'https://www.npmjs.com/package/vite-plugin-dynamic-chunk',
     website: 'https://github.com/MrQinYQ/vite-plugin-dynamic-chunk#readme',
+  },
+  source: {
+    github: 'MrQinYQ/vite-plugin-dynamic-chunk',
+    npm: 'vite-plugin-dynamic-chunk',
   },
   stats: {
     stars: 17,

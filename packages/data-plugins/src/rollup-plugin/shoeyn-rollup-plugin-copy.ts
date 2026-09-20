@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'folders',
     'glob',
   ],
-  source: {
-    github: 'shoeyn/rollup-plugin-copy',
-    npm: '@shoeyn/rollup-plugin-copy',
-  },
   links: {
     github: 'https://github.com/shoeyn/rollup-plugin-copy',
     npm: 'https://www.npmjs.com/package/@shoeyn/rollup-plugin-copy',
     website: 'https://github.com/shoeyn/rollup-plugin-copy#readme',
+  },
+  source: {
+    github: 'shoeyn/rollup-plugin-copy',
+    npm: '@shoeyn/rollup-plugin-copy',
   },
   stats: {
     stars: 0,

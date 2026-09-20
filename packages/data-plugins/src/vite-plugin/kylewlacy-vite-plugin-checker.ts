@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'typescript',
   ],
-  source: {
-    github: 'kylewlacy/vite-plugin-checker',
-    npm: '@kylewlacy/vite-plugin-checker',
-  },
   links: {
     github: 'https://github.com/kylewlacy/vite-plugin-checker',
     npm: 'https://www.npmjs.com/package/@kylewlacy/vite-plugin-checker',
     website: 'https://github.com/kylewlacy/vite-plugin-checker',
+  },
+  source: {
+    github: 'kylewlacy/vite-plugin-checker',
+    npm: '@kylewlacy/vite-plugin-checker',
   },
   stats: {
     stars: 0,

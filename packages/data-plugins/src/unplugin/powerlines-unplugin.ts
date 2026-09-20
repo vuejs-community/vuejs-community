@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'astro',
     'storm-software',
   ],
-  source: {
-    github: 'storm-software/powerlines',
-    npm: '@powerlines/unplugin',
-  },
   links: {
     github: 'https://github.com/storm-software/powerlines',
     npm: 'https://www.npmjs.com/package/@powerlines/unplugin',
     website: 'https://stormsoftware.com',
+  },
+  source: {
+    github: 'storm-software/powerlines',
+    npm: '@powerlines/unplugin',
   },
   stats: {
     stars: 3,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'rollup',
     'esbuild',
   ],
-  source: {
-    github: 'mnenie/unplugin-oxc-minifier',
-    npm: 'unplugin-oxc-minifier',
-  },
   links: {
     github: 'https://github.com/mnenie/unplugin-oxc-minifier',
     npm: 'https://www.npmjs.com/package/unplugin-oxc-minifier',
     website: 'https://github.com/mnenie/unplugin-oxc-minifier#readme',
+  },
+  source: {
+    github: 'mnenie/unplugin-oxc-minifier',
+    npm: 'unplugin-oxc-minifier',
   },
   stats: {
     stars: 0,

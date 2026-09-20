@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'browser',
     'browser-extension',
   ],
-  source: {
-    github: 'crxjs/rollup-plugin-chrome-extension',
-    npm: 'vite-wave-plugin',
-  },
   links: {
     github: 'https://github.com/crxjs/rollup-plugin-chrome-extension',
     npm: 'https://www.npmjs.com/package/vite-wave-plugin',
     website: 'https://github.com/crxjs/rollup-plugin-chrome-extension',
+  },
+  source: {
+    github: 'crxjs/rollup-plugin-chrome-extension',
+    npm: 'vite-wave-plugin',
   },
   stats: {
     stars: 0,

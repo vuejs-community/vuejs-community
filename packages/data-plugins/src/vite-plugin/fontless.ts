@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'css',
     'javascript',
   ],
-  source: {
-    github: 'unjs/fontaine',
-    npm: 'fontless',
-  },
   links: {
     github: 'https://github.com/unjs/fontaine',
     npm: 'https://www.npmjs.com/package/fontless',
     website: 'https://github.com/unjs/fontaine#readme',
+  },
+  source: {
+    github: 'unjs/fontaine',
+    npm: 'fontless',
   },
   stats: {
     stars: 1990,

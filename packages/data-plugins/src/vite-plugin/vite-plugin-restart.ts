@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'antfu/vite-plugin-restart',
-    npm: 'vite-plugin-restart',
-  },
   links: {
     github: 'https://github.com/antfu/vite-plugin-restart',
     npm: 'https://www.npmjs.com/package/vite-plugin-restart',
     website: 'https://github.com/antfu/vite-plugin-restart',
+  },
+  source: {
+    github: 'antfu/vite-plugin-restart',
+    npm: 'vite-plugin-restart',
   },
   stats: {
     stars: 214,

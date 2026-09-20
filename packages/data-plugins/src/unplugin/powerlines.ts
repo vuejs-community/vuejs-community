@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'webpack',
     'astro',
   ],
-  source: {
-    github: 'storm-software/powerlines',
-    npm: 'powerlines',
-  },
   links: {
     github: 'https://github.com/storm-software/powerlines',
     npm: 'https://www.npmjs.com/package/powerlines',
     website: 'https://stormsoftware.com',
+  },
+  source: {
+    github: 'storm-software/powerlines',
+    npm: 'powerlines',
   },
   stats: {
     stars: 0,

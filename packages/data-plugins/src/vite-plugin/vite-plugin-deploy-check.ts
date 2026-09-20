@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'onthia/vite-plugin-version-check',
-    npm: 'vite-plugin-deploy-check',
-  },
   links: {
     github: 'https://github.com/onthia/vite-plugin-version-check',
     npm: 'https://www.npmjs.com/package/vite-plugin-deploy-check',
     website: 'https://github.com/onthia/vite-plugin-version-check#readme',
+  },
+  source: {
+    github: 'onthia/vite-plugin-version-check',
+    npm: 'vite-plugin-deploy-check',
   },
   stats: {
     stars: 0,

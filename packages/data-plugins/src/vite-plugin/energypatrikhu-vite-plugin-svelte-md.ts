@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'markdown',
     'markdown-it',
   ],
-  source: {
-    github: 'energypatrikhu/vite-plugin-svelte-md',
-    npm: '@energypatrikhu/vite-plugin-svelte-md',
-  },
   links: {
     github: 'https://github.com/energypatrikhu/vite-plugin-svelte-md',
     npm: 'https://www.npmjs.com/package/@energypatrikhu/vite-plugin-svelte-md',
     website: 'https://github.com/energypatrikhu/vite-plugin-svelte-md#readme',
+  },
+  source: {
+    github: 'energypatrikhu/vite-plugin-svelte-md',
+    npm: '@energypatrikhu/vite-plugin-svelte-md',
   },
   stats: {
     stars: 0,

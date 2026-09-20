@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'spacetimedb',
   ],
-  source: {
-    npm: 'rolldown-plugin-spacetimedb',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rolldown-plugin-spacetimedb',
+  },
+  source: {
+    npm: 'rolldown-plugin-spacetimedb',
   },
   stats: {
     stars: 0,

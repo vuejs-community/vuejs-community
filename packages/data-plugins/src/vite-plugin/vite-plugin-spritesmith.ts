@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'spritesmith',
     'sprite',
   ],
-  source: {
-    github: 'evont/vite-plugin-spritesmith',
-    npm: 'vite-plugin-spritesmith',
-  },
   links: {
     github: 'https://github.com/evont/vite-plugin-spritesmith',
     npm: 'https://www.npmjs.com/package/vite-plugin-spritesmith',
     website: 'https://github.com/evont/vite-plugin-spritesmith#readme',
+  },
+  source: {
+    github: 'evont/vite-plugin-spritesmith',
+    npm: 'vite-plugin-spritesmith',
   },
   stats: {
     stars: 21,

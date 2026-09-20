@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'angular',
     'svelte',
   ],
-  source: {
-    github: 'Codefend/rollup-plugin-codefend',
-    npm: 'rollup-plugin-codefend',
-  },
   links: {
     github: 'https://github.com/Codefend/rollup-plugin-codefend',
     npm: 'https://www.npmjs.com/package/rollup-plugin-codefend',
     website: 'https://github.com/Codefend/rollup-plugin-codefend.git',
+  },
+  source: {
+    github: 'Codefend/rollup-plugin-codefend',
+    npm: 'rollup-plugin-codefend',
   },
   stats: {
     stars: 5,

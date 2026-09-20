@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'cklwblove/unplugin-source-build',
-    npm: '@winner-fed/unplugin-source-build',
-  },
   links: {
     github: 'https://github.com/cklwblove/unplugin-source-build',
     npm: 'https://www.npmjs.com/package/@winner-fed/unplugin-source-build',
     website: 'https://github.com/cklwblove/unplugin-source-build#readme',
+  },
+  source: {
+    github: 'cklwblove/unplugin-source-build',
+    npm: '@winner-fed/unplugin-source-build',
   },
   stats: {
     stars: 1,

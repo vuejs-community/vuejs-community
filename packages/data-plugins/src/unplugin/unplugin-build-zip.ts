@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'zip',
   ],
-  source: {
-    github: 'wip-elonehoo/unplugin-zip',
-    npm: 'unplugin-build-zip',
-  },
   links: {
     github: 'https://github.com/wip-elonehoo/unplugin-zip',
     npm: 'https://www.npmjs.com/package/unplugin-build-zip',
     website: 'https://github.com/wip-elonehoo/unplugin-zip#readme',
+  },
+  source: {
+    github: 'wip-elonehoo/unplugin-zip',
+    npm: 'unplugin-build-zip',
   },
   stats: {
     stars: 0,

@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://docs.sentry.io/platforms/javascript/guides/nuxt',
   },
   source: {
-    github: 'getsentry/sentry-javascript#HEAD/packages/nuxt',
+    github: 'getsentry/sentry-javascript',
     npm: '@sentry/nuxt',
   },
 })

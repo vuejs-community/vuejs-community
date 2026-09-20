@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'dark-mode',
     'accessibility',
   ],
-  source: {
-    github: 'tinyland-inc/tinyland.dev',
-    npm: '@tummycrypt/vite-plugin-skeleton-colors',
-  },
   links: {
     github: 'https://github.com/tinyland-inc/tinyland.dev',
     npm: 'https://www.npmjs.com/package/@tummycrypt/vite-plugin-skeleton-colors',
     website: 'https://github.com/tinyland-inc/tinyland.dev#readme',
+  },
+  source: {
+    github: 'tinyland-inc/tinyland.dev',
+    npm: '@tummycrypt/vite-plugin-skeleton-colors',
   },
   stats: {
     stars: 0,

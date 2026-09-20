@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-preset',
     'preset',
   ],
-  source: {
-    github: 'preactjs/preset-vite',
-    npm: '@preact/preset-vite',
-  },
   links: {
     github: 'https://github.com/preactjs/preset-vite',
     npm: 'https://www.npmjs.com/package/@preact/preset-vite',
     website: 'https://github.com/preactjs/preset-vite#readme',
+  },
+  source: {
+    github: 'preactjs/preset-vite',
+    npm: '@preact/preset-vite',
   },
   stats: {
     stars: 308,

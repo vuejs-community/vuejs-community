@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'vite-plugin',
     'SSG',
   ],
-  source: {
-    npm: 'vite-plugin-universal',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-universal',
     website: 'https://github.com/MrFoxPro/vite-plugin-universal',
+  },
+  source: {
+    npm: 'vite-plugin-universal',
   },
   stats: {
     stars: 0,

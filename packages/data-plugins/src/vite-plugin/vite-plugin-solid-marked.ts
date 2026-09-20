@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'lxsmnsyc/solid-marked',
-    npm: 'vite-plugin-solid-marked',
-  },
   links: {
     github: 'https://github.com/lxsmnsyc/solid-marked',
     npm: 'https://www.npmjs.com/package/vite-plugin-solid-marked',
     website: 'https://github.com/lxsmnsyc/solid-marked/tree/main/packages/vite',
+  },
+  source: {
+    github: 'lxsmnsyc/solid-marked',
+    npm: 'vite-plugin-solid-marked',
   },
   stats: {
     stars: 74,

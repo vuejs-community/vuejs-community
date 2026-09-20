@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'next-plugin',
   ],
-  source: {
-    github: 'kh4f/voicss',
-    npm: 'voicss',
-  },
   links: {
     github: 'https://github.com/kh4f/voicss',
     npm: 'https://www.npmjs.com/package/voicss',
     website: 'https://github.com/kh4f/voicss',
+  },
+  source: {
+    github: 'kh4f/voicss',
+    npm: 'voicss',
   },
   stats: {
     stars: 1,

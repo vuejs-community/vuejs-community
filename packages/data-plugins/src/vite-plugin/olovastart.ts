@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'static-site-generation',
     'server-side-rendering',
   ],
-  source: {
-    npm: 'olovastart',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/olovastart',
+  },
+  source: {
+    npm: 'olovastart',
   },
   stats: {
     stars: 0,

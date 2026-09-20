@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/harlan-zw/nuxt-webpack-optimisations',
   },
   source: {
-    github: 'harlan-zw/nuxt-webpack-optimisations#main/packages/nuxt-webpack-optimisations',
+    github: 'harlan-zw/nuxt-webpack-optimisations',
     npm: 'nuxt-webpack-optimisations',
   },
 })

@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'didavid61202/unfire',
-    npm: 'unfire',
-  },
   links: {
     github: 'https://github.com/didavid61202/unfire',
     npm: 'https://www.npmjs.com/package/unfire',
     website: 'https://github.com/didavid61202/unfire#readme',
+  },
+  source: {
+    github: 'didavid61202/unfire',
+    npm: 'unfire',
   },
   stats: {
     stars: 0,

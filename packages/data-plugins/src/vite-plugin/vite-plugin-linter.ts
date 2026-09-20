@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'typescript',
     'vite-plugin',
   ],
-  source: {
-    github: 'unimorphic/vite-plugin-linter',
-    npm: 'vite-plugin-linter',
-  },
   links: {
     github: 'https://github.com/unimorphic/vite-plugin-linter',
     npm: 'https://www.npmjs.com/package/vite-plugin-linter',
     website: 'https://github.com/unimorphic/vite-plugin-linter',
+  },
+  source: {
+    github: 'unimorphic/vite-plugin-linter',
+    npm: 'vite-plugin-linter',
   },
   stats: {
     stars: 1,

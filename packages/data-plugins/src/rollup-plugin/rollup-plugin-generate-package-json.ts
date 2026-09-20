@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'generate',
     'package.json',
   ],
-  source: {
-    github: 'vladshcherbin/rollup-plugin-generate-package-json',
-    npm: 'rollup-plugin-generate-package-json',
-  },
   links: {
     github: 'https://github.com/vladshcherbin/rollup-plugin-generate-package-json',
     npm: 'https://www.npmjs.com/package/rollup-plugin-generate-package-json',
     website: 'https://github.com/vladshcherbin/rollup-plugin-generate-package-json#readme',
+  },
+  source: {
+    github: 'vladshcherbin/rollup-plugin-generate-package-json',
+    npm: 'rollup-plugin-generate-package-json',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'localization',
     'csv',
   ],
-  source: {
-    github: 'gyuha/vite-plugin-excel-to-i18n',
-    npm: 'vite-plugin-excel-to-i18n',
-  },
   links: {
     github: 'https://github.com/gyuha/vite-plugin-excel-to-i18n',
     npm: 'https://www.npmjs.com/package/vite-plugin-excel-to-i18n',
     website: 'https://github.com/gyuha/vite-plugin-excel-to-i18n#readme',
+  },
+  source: {
+    github: 'gyuha/vite-plugin-excel-to-i18n',
+    npm: 'vite-plugin-excel-to-i18n',
   },
   stats: {
     stars: 0,

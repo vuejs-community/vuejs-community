@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'vue',
     'unplugin',
   ],
-  source: {
-    npm: 'unplugin-vue-open-ide',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-vue-open-ide',
+  },
+  source: {
+    npm: 'unplugin-vue-open-ide',
   },
   stats: {
     stars: 0,

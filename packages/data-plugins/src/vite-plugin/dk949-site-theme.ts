@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'theme',
     'vite-plugin',
   ],
-  source: {
-    github: 'dk949/site-theme',
-    npm: '@dk949/site-theme',
-  },
   links: {
     github: 'https://github.com/dk949/site-theme',
     npm: 'https://www.npmjs.com/package/@dk949/site-theme',
     website: 'https://github.com/dk949/site-theme#readme',
+  },
+  source: {
+    github: 'dk949/site-theme',
+    npm: '@dk949/site-theme',
   },
   stats: {
     stars: 0,

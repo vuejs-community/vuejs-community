@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'openrouter',
     'llm',
   ],
-  source: {
-    github: 'gace-ai/vaac',
-    npm: '@gace/vaac',
-  },
   links: {
     github: 'https://github.com/gace-ai/vaac',
     npm: 'https://www.npmjs.com/package/@gace/vaac',
     website: 'https://github.com/gace-ai/vaac#readme',
+  },
+  source: {
+    github: 'gace-ai/vaac',
+    npm: '@gace/vaac',
   },
   stats: {
     stars: 4,

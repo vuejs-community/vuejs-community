@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'gladejs',
     'rollup-plugin',
   ],
-  source: {
-    github: 'gladejs/gladejs',
-    npm: '@gladejs/rollup',
-  },
   links: {
     github: 'https://github.com/gladejs/gladejs',
     npm: 'https://www.npmjs.com/package/@gladejs/rollup',
     website: 'https://gladejs.com',
+  },
+  source: {
+    github: 'gladejs/gladejs',
+    npm: '@gladejs/rollup',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'never use',
     'useless',
   ],
-  source: {
-    github: 'IndexXuan/vite-plugin-sleep',
-    npm: 'vite-plugin-sleep',
-  },
   links: {
     github: 'https://github.com/IndexXuan/vite-plugin-sleep',
     npm: 'https://www.npmjs.com/package/vite-plugin-sleep',
     website: 'https://github.com/IndexXuan/vite-plugin-sleep',
+  },
+  source: {
+    github: 'IndexXuan/vite-plugin-sleep',
+    npm: 'vite-plugin-sleep',
   },
   stats: {
     stars: 82,

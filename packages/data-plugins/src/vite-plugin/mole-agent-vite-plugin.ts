@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'jsx',
     'mole-agent',
   ],
-  source: {
-    npm: '@mole-agent/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@mole-agent/vite-plugin',
+  },
+  source: {
+    npm: '@mole-agent/vite-plugin',
   },
   stats: {
     stars: 0,

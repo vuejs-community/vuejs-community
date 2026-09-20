@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'regexp',
     'transform',
   ],
-  source: {
-    github: 'moke8/vite-plugin-rewrite',
-    npm: 'vite-plugin-rewrite',
-  },
   links: {
     github: 'https://github.com/moke8/vite-plugin-rewrite',
     npm: 'https://www.npmjs.com/package/vite-plugin-rewrite',
     website: 'https://github.com/moke8/vite-plugin-rewrite#readme',
+  },
+  source: {
+    github: 'moke8/vite-plugin-rewrite',
+    npm: 'vite-plugin-rewrite',
   },
   stats: {
     stars: 1,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'statechart',
     'devtools',
   ],
-  source: {
-    github: 'mjbeswick/xstate-devtools',
-    npm: '@xstate-devtools/vite-plugin',
-  },
   links: {
     github: 'https://github.com/mjbeswick/xstate-devtools',
     npm: 'https://www.npmjs.com/package/@xstate-devtools/vite-plugin',
     website: 'https://github.com/mjbeswick/xstate-devtools#readme',
+  },
+  source: {
+    github: 'mjbeswick/xstate-devtools',
+    npm: '@xstate-devtools/vite-plugin',
   },
   stats: {
     stars: 6,

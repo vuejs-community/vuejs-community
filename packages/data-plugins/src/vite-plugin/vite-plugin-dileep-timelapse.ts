@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'dileep',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-dileep-timelapse',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-dileep-timelapse',
+  },
+  source: {
+    npm: 'vite-plugin-dileep-timelapse',
   },
   stats: {
     stars: 0,

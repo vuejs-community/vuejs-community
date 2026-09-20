@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'tutao/tutanota',
-    npm: '@tutao/tuta-wasm-loader',
-  },
   links: {
     github: 'https://github.com/tutao/tutanota',
     npm: 'https://www.npmjs.com/package/@tutao/tuta-wasm-loader',
     website: 'https://github.com/tutao/tutanota#readme',
+  },
+  source: {
+    github: 'tutao/tutanota',
+    npm: '@tutao/tuta-wasm-loader',
   },
   stats: {
     stars: 7919,

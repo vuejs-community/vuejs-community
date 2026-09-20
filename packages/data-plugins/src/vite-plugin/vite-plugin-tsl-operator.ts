@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'transform',
     'babel',
   ],
-  source: {
-    github: 'makio64/vite-plugin-tsl-operator',
-    npm: 'vite-plugin-tsl-operator',
-  },
   links: {
     github: 'https://github.com/makio64/vite-plugin-tsl-operator',
     npm: 'https://www.npmjs.com/package/vite-plugin-tsl-operator',
     website: 'https://github.com/makio64/vite-plugin-tsl-operator#readme',
+  },
+  source: {
+    github: 'makio64/vite-plugin-tsl-operator',
+    npm: 'vite-plugin-tsl-operator',
   },
   stats: {
     stars: 103,

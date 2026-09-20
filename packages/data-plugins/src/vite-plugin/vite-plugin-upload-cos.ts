@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'plugin',
     'upload-cos',
   ],
-  source: {
-    github: 'JayHowe/vite-plugin-upload-cos',
-    npm: 'vite-plugin-upload-cos',
-  },
   links: {
     github: 'https://github.com/JayHowe/vite-plugin-upload-cos',
     npm: 'https://www.npmjs.com/package/vite-plugin-upload-cos',
     website: 'https://github.com/JayHowe/vite-plugin-upload-cos#readme',
+  },
+  source: {
+    github: 'JayHowe/vite-plugin-upload-cos',
+    npm: 'vite-plugin-upload-cos',
   },
   stats: {
     stars: 3,

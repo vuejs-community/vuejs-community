@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'assets',
     'generator',
   ],
-  source: {
-    npm: 'vite-plugin-ubox',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-ubox',
+  },
+  source: {
+    npm: 'vite-plugin-ubox',
   },
   stats: {
     stars: 0,

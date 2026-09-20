@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'inline',
     'optimization',
   ],
-  source: {
-    github: 'SpiderUnderUrBed/vite-plugin-multipage-inline',
-    npm: 'vite-plugin-inline-multipage',
-  },
   links: {
     github: 'https://github.com/SpiderUnderUrBed/vite-plugin-multipage-inline',
     npm: 'https://www.npmjs.com/package/vite-plugin-inline-multipage',
     website: 'https://github.com/SpiderUnderUrBed/vite-plugin-multipage-inline#readme',
+  },
+  source: {
+    github: 'SpiderUnderUrBed/vite-plugin-multipage-inline',
+    npm: 'vite-plugin-inline-multipage',
   },
   stats: {
     stars: 0,

@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'importmap',
   ],
-  source: {
-    npm: '@leaflink/vite-plugin-importmap',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@leaflink/vite-plugin-importmap',
+  },
+  source: {
+    npm: '@leaflink/vite-plugin-importmap',
   },
   stats: {
     stars: 0,

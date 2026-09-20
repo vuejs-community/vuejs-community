@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'cursor',
     'devtools',
   ],
-  source: {
-    github: 'arsen-ask-lx/agent-ui-kit',
-    npm: 'agent-ui-kit',
-  },
   links: {
     github: 'https://github.com/arsen-ask-lx/agent-ui-kit',
     npm: 'https://www.npmjs.com/package/agent-ui-kit',
     website: 'https://github.com/arsen-ask-lx/agent-ui-kit#readme',
+  },
+  source: {
+    github: 'arsen-ask-lx/agent-ui-kit',
+    npm: 'agent-ui-kit',
   },
   stats: {
     stars: 0,

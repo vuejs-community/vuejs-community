@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'auto-import',
     'vue-components',
   ],
-  source: {
-    npm: '@frameui/vite-plugin-unplugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@frameui/vite-plugin-unplugin',
+  },
+  source: {
+    npm: '@frameui/vite-plugin-unplugin',
   },
   stats: {
     stars: 0,

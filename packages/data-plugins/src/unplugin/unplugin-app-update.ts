@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'plugin',
     'update',
   ],
-  source: {
-    github: 'Vgbire/unplugin-app-update',
-    npm: 'unplugin-app-update',
-  },
   links: {
     github: 'https://github.com/Vgbire/unplugin-app-update',
     npm: 'https://www.npmjs.com/package/unplugin-app-update',
     website: 'https://github.com/Vgbire/unplugin-app-update',
+  },
+  source: {
+    github: 'Vgbire/unplugin-app-update',
+    npm: 'unplugin-app-update',
   },
   stats: {
     stars: 0,

@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'navigation',
     'documentation',
   ],
-  source: {
-    github: 'ItzNotABug/routex',
-    npm: '@itznotabug/routex',
-  },
   links: {
     github: 'https://github.com/ItzNotABug/routex',
     npm: 'https://www.npmjs.com/package/@itznotabug/routex',
     website: 'https://github.com/ItzNotABug/routex',
+  },
+  source: {
+    github: 'ItzNotABug/routex',
+    npm: '@itznotabug/routex',
   },
   stats: {
     stars: 6,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'greenyas/inferno-svgr',
-    npm: 'svgr-rollup-inferno',
-  },
   links: {
     github: 'https://github.com/greenyas/inferno-svgr',
     npm: 'https://www.npmjs.com/package/svgr-rollup-inferno',
     website: 'https://react-svgr.com',
+  },
+  source: {
+    github: 'greenyas/inferno-svgr',
+    npm: 'svgr-rollup-inferno',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'mock',
     'api',
   ],
-  source: {
-    github: 'baicie/vite-plugin-faker',
-    npm: '@baicie/vite-plugin-faker',
-  },
   links: {
     github: 'https://github.com/baicie/vite-plugin-faker',
     npm: 'https://www.npmjs.com/package/@baicie/vite-plugin-faker',
     website: 'https://github.com/baicie/vite-plugin-faker#readme',
+  },
+  source: {
+    github: 'baicie/vite-plugin-faker',
+    npm: '@baicie/vite-plugin-faker',
   },
   stats: {
     stars: 1,

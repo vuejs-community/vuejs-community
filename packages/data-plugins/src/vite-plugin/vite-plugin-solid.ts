@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'solid',
   ],
-  source: {
-    github: 'solidjs/vite-plugin-solid',
-    npm: 'vite-plugin-solid',
-  },
   links: {
     github: 'https://github.com/solidjs/vite-plugin-solid',
     npm: 'https://www.npmjs.com/package/vite-plugin-solid',
     website: 'https://github.com/solidjs/vite-plugin-solid#readme',
+  },
+  source: {
+    github: 'solidjs/vite-plugin-solid',
+    npm: 'vite-plugin-solid',
   },
   stats: {
     stars: 0,

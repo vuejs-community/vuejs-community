@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'kekonic/diagrams',
-    npm: '@kekonic/diagrams-unplugin',
-  },
   links: {
     github: 'https://github.com/kekonic/diagrams',
     npm: 'https://www.npmjs.com/package/@kekonic/diagrams-unplugin',
     website: 'https://github.com/kekonic/diagrams#readme',
+  },
+  source: {
+    github: 'kekonic/diagrams',
+    npm: '@kekonic/diagrams-unplugin',
   },
   stats: {
     stars: 0,

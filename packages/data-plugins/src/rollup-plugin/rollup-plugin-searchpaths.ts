@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'plugin',
     'rollup-plugin',
   ],
-  source: {
-    npm: 'rollup-plugin-searchpaths',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-searchpaths',
+  },
+  source: {
+    npm: 'rollup-plugin-searchpaths',
   },
   stats: {
     stars: 0,

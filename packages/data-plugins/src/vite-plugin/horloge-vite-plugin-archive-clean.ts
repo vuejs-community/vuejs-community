@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'bundler',
     'compressing',
   ],
-  source: {
-    github: 'wdlnydhcg/fe-utils',
-    npm: '@horloge/vite-plugin-archive-clean',
-  },
   links: {
     github: 'https://github.com/wdlnydhcg/fe-utils',
     npm: 'https://www.npmjs.com/package/@horloge/vite-plugin-archive-clean',
     website: 'https://github.com/wdlnydhcg/fe-utils#readme',
+  },
+  source: {
+    github: 'wdlnydhcg/fe-utils',
+    npm: '@horloge/vite-plugin-archive-clean',
   },
   stats: {
     stars: 0,

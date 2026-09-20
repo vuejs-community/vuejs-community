@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'shortcuts',
   ],
-  source: {
-    github: 'kinfuy/vite-plugin-shortcuts',
-    npm: 'vite-plugin-shortcuts',
-  },
   links: {
     github: 'https://github.com/kinfuy/vite-plugin-shortcuts',
     npm: 'https://www.npmjs.com/package/vite-plugin-shortcuts',
     website: 'https://github.com/kinfuy/vite-plugin-shortcuts#readme',
+  },
+  source: {
+    github: 'kinfuy/vite-plugin-shortcuts',
+    npm: 'vite-plugin-shortcuts',
   },
   stats: {
     stars: 10,

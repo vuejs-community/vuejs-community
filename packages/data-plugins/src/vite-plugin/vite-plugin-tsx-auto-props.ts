@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'aibayanyu20/vite-plugins',
-    npm: 'vite-plugin-tsx-auto-props',
-  },
   links: {
     github: 'https://github.com/aibayanyu20/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-tsx-auto-props',
     website: 'https://github.com/aibayanyu20/vite-plugins/#readme',
+  },
+  source: {
+    github: 'aibayanyu20/vite-plugins',
+    npm: 'vite-plugin-tsx-auto-props',
   },
   stats: {
     stars: 0,

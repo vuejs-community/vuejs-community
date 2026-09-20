@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'yaml',
     'json',
   ],
-  source: {
-    github: 'kainstar/vite-plugin-i18next-loader',
-    npm: '@kainstar/vite-plugin-i18next-loader',
-  },
   links: {
     github: 'https://github.com/kainstar/vite-plugin-i18next-loader',
     npm: 'https://www.npmjs.com/package/@kainstar/vite-plugin-i18next-loader',
     website: 'https://github.com/kainstar/vite-plugin-i18next-loader#readme',
+  },
+  source: {
+    github: 'kainstar/vite-plugin-i18next-loader',
+    npm: '@kainstar/vite-plugin-i18next-loader',
   },
   stats: {
     stars: 0,

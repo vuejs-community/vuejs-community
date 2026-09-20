@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'meetqy/vite-plugin-vue-docs',
-    npm: 'vite-plugin-vue-docs',
-  },
   links: {
     github: 'https://github.com/meetqy/vite-plugin-vue-docs',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-docs',
     website: 'https://github.com/meetqy/vite-plugin-vue-docs#readme',
+  },
+  source: {
+    github: 'meetqy/vite-plugin-vue-docs',
+    npm: 'vite-plugin-vue-docs',
   },
   stats: {
     stars: 53,

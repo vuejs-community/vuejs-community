@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'elliots/typical',
-    npm: '@elliots/unplugin-typical',
-  },
   links: {
     github: 'https://github.com/elliots/typical',
     npm: 'https://www.npmjs.com/package/@elliots/unplugin-typical',
     website: 'https://github.com/elliots/typical#readme',
+  },
+  source: {
+    github: 'elliots/typical',
+    npm: '@elliots/unplugin-typical',
   },
   stats: {
     stars: 38,

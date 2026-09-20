@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    npm: 'unplugin-uni-app-vue3-data-log',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-uni-app-vue3-data-log',
+  },
+  source: {
+    npm: 'unplugin-uni-app-vue3-data-log',
   },
   stats: {
     stars: 0,

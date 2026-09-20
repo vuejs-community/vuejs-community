@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'ssr',
     'react',
   ],
-  source: {
-    github: 'dchenk/vite-ssr',
-    npm: 'vite-ssr-react',
-  },
   links: {
     github: 'https://github.com/dchenk/vite-ssr',
     npm: 'https://www.npmjs.com/package/vite-ssr-react',
     website: 'https://github.com/dchenk/vite-ssr#readme',
+  },
+  source: {
+    github: 'dchenk/vite-ssr',
+    npm: 'vite-ssr-react',
   },
   stats: {
     stars: 1,

@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'graph',
     'vite-plugin-structure-graph',
   ],
-  source: {
-    github: 'z-ti/vite-plugin-structure-graph',
-    npm: 'vite-plugin-structure-graph',
-  },
   links: {
     github: 'https://github.com/z-ti/vite-plugin-structure-graph',
     npm: 'https://www.npmjs.com/package/vite-plugin-structure-graph',
     website: 'https://github.com/z-ti/vite-plugin-structure-graph',
+  },
+  source: {
+    github: 'z-ti/vite-plugin-structure-graph',
+    npm: 'vite-plugin-structure-graph',
   },
   stats: {
     stars: 0,

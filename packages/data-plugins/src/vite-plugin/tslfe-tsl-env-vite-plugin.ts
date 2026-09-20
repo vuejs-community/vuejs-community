@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'env',
     'runtime-env',
   ],
-  source: {
-    npm: '@tslfe/tsl-env-vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@tslfe/tsl-env-vite-plugin',
+  },
+  source: {
+    npm: '@tslfe/tsl-env-vite-plugin',
   },
   stats: {
     stars: 0,

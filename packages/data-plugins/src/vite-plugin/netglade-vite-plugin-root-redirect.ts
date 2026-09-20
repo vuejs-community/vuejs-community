@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'netglade/vite-plugin-root-redirect',
-    npm: '@netglade/vite-plugin-root-redirect',
-  },
   links: {
     github: 'https://github.com/netglade/vite-plugin-root-redirect',
     npm: 'https://www.npmjs.com/package/@netglade/vite-plugin-root-redirect',
     website: 'https://github.com/netglade/vite-plugin-root-redirect#readme',
+  },
+  source: {
+    github: 'netglade/vite-plugin-root-redirect',
+    npm: '@netglade/vite-plugin-root-redirect',
   },
   stats: {
     stars: 0,

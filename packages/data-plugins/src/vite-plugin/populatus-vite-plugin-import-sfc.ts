@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-import',
   ],
-  source: {
-    github: 'populatus/vite-plugin-import-sfc',
-    npm: '@populatus/vite-plugin-import-sfc',
-  },
   links: {
     github: 'https://github.com/populatus/vite-plugin-import-sfc',
     npm: 'https://www.npmjs.com/package/@populatus/vite-plugin-import-sfc',
     website: 'https://github.com/populatus/vite-plugin-import-sfc#readme',
+  },
+  source: {
+    github: 'populatus/vite-plugin-import-sfc',
+    npm: '@populatus/vite-plugin-import-sfc',
   },
   stats: {
     stars: 2,

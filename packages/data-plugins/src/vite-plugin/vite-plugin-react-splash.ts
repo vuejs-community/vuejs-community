@@ -38,14 +38,14 @@ export default defineProjectMeta({
     'frontend',
     'ui',
   ],
-  source: {
-    github: 'mohamadgarmabi/vite-plugin-react-splash',
-    npm: 'vite-plugin-react-splash',
-  },
   links: {
     github: 'https://github.com/mohamadgarmabi/vite-plugin-react-splash',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-splash',
     website: 'https://github.com/mohamadgarmabi/vite-plugin-react-splash#readme',
+  },
+  source: {
+    github: 'mohamadgarmabi/vite-plugin-react-splash',
+    npm: 'vite-plugin-react-splash',
   },
   stats: {
     stars: 0,

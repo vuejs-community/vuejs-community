@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'jump-ide',
   ],
-  source: {
-    github: 'jump-ide/vite-plugin-open-ide',
-    npm: 'vite-plugin-open-ide',
-  },
   links: {
     github: 'https://github.com/jump-ide/vite-plugin-open-ide',
     npm: 'https://www.npmjs.com/package/vite-plugin-open-ide',
     website: 'https://github.com/jump-ide/vite-plugin-open-ide#readme',
+  },
+  source: {
+    github: 'jump-ide/vite-plugin-open-ide',
+    npm: 'vite-plugin-open-ide',
   },
   stats: {
     stars: 11,

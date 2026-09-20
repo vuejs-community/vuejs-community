@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'jjeem/vite-plugin-electron-actions',
-    npm: 'vite-plugin-electron-actions',
-  },
   links: {
     github: 'https://github.com/jjeem/vite-plugin-electron-actions',
     npm: 'https://www.npmjs.com/package/vite-plugin-electron-actions',
     website: 'https://github.com/jjeem/vite-plugin-electron-actions',
+  },
+  source: {
+    github: 'jjeem/vite-plugin-electron-actions',
+    npm: 'vite-plugin-electron-actions',
   },
   stats: {
     stars: 3,

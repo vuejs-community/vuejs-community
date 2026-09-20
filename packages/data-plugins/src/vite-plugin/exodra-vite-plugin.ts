@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'typescript',
     'jsx',
   ],
-  source: {
-    github: 'abaikov/exodra',
-    npm: '@exodra/vite-plugin',
-  },
   links: {
     github: 'https://github.com/abaikov/exodra',
     npm: 'https://www.npmjs.com/package/@exodra/vite-plugin',
     website: 'https://exodra.org',
+  },
+  source: {
+    github: 'abaikov/exodra',
+    npm: '@exodra/vite-plugin',
   },
   stats: {
     stars: 1,

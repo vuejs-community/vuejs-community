@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'minify',
     'transpile',
   ],
-  source: {
-    github: 'dsathyakumar/rollup-plugin-lasso',
-    npm: 'rollup-plugin-lasso',
-  },
   links: {
     github: 'https://github.com/dsathyakumar/rollup-plugin-lasso',
     npm: 'https://www.npmjs.com/package/rollup-plugin-lasso',
     website: 'https://github.com/dsathyakumar/rollup-plugin-lasso#readme',
+  },
+  source: {
+    github: 'dsathyakumar/rollup-plugin-lasso',
+    npm: 'rollup-plugin-lasso',
   },
   stats: {
     stars: 2,

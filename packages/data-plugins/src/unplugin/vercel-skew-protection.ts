@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'transform',
     'deployment',
   ],
-  source: {
-    github: 'ryoid/vercel-skew-protection',
-    npm: 'vercel-skew-protection',
-  },
   links: {
     github: 'https://github.com/ryoid/vercel-skew-protection',
     npm: 'https://www.npmjs.com/package/vercel-skew-protection',
     website: 'https://github.com/ryoid/vercel-skew-protection#readme',
+  },
+  source: {
+    github: 'ryoid/vercel-skew-protection',
+    npm: 'vercel-skew-protection',
   },
   stats: {
     stars: 0,

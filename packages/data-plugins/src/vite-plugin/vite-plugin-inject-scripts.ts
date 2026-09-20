@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'inject-script',
     'module',
   ],
-  source: {
-    github: 'otomad/vite-plugin-inject-scripts',
-    npm: 'vite-plugin-inject-scripts',
-  },
   links: {
     github: 'https://github.com/otomad/vite-plugin-inject-scripts',
     npm: 'https://www.npmjs.com/package/vite-plugin-inject-scripts',
     website: 'https://github.com/otomad/vite-plugin-inject-scripts#readme',
+  },
+  source: {
+    github: 'otomad/vite-plugin-inject-scripts',
+    npm: 'vite-plugin-inject-scripts',
   },
   stats: {
     stars: 0,

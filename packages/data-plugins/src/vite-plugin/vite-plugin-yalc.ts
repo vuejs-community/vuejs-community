@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'yalc',
     'yalc-plugin',
   ],
-  source: {
-    github: 'ehubbell/vite-plugin-yalc',
-    npm: 'vite-plugin-yalc',
-  },
   links: {
     github: 'https://github.com/ehubbell/vite-plugin-yalc',
     npm: 'https://www.npmjs.com/package/vite-plugin-yalc',
     website: 'https://github.com/ehubbell/vite-plugin-yalc#readme',
+  },
+  source: {
+    github: 'ehubbell/vite-plugin-yalc',
+    npm: 'vite-plugin-yalc',
   },
   stats: {
     stars: 1,

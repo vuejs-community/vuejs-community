@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'decodelabs/vite-plugin-castaway',
-    npm: '@decodelabs/vite-plugin-castaway',
-  },
   links: {
     github: 'https://github.com/decodelabs/vite-plugin-castaway',
     npm: 'https://www.npmjs.com/package/@decodelabs/vite-plugin-castaway',
     website: 'https://github.com/decodelabs/vite-plugin-castaway#readme',
+  },
+  source: {
+    github: 'decodelabs/vite-plugin-castaway',
+    npm: '@decodelabs/vite-plugin-castaway',
   },
   stats: {
     stars: 0,

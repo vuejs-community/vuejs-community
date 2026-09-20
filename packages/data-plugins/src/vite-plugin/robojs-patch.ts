@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'typescript',
     'vite-plugin',
   ],
-  source: {
-    npm: '@robojs/patch',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@robojs/patch',
+  },
+  source: {
+    npm: '@robojs/patch',
   },
   stats: {
     stars: 0,

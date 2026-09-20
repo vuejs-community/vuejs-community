@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'alloc/vite-plugin-mobile',
-    npm: 'vite-plugin-mobile',
-  },
   links: {
     github: 'https://github.com/alloc/vite-plugin-mobile',
     npm: 'https://www.npmjs.com/package/vite-plugin-mobile',
     website: 'https://github.com/alloc/vite-plugin-mobile#readme',
+  },
+  source: {
+    github: 'alloc/vite-plugin-mobile',
+    npm: 'vite-plugin-mobile',
   },
   stats: {
     stars: 7,

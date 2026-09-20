@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'html',
     'html-generate',
   ],
-  source: {
-    github: 'zenoplex/rollup-plugin-generate-html',
-    npm: '@beyonk/rollup-plugin-html-esm',
-  },
   links: {
     github: 'https://github.com/zenoplex/rollup-plugin-generate-html',
     npm: 'https://www.npmjs.com/package/@beyonk/rollup-plugin-html-esm',
     website: 'https://github.com/zenoplex/rollup-plugin-generate-html#readme',
+  },
+  source: {
+    github: 'zenoplex/rollup-plugin-generate-html',
+    npm: '@beyonk/rollup-plugin-html-esm',
   },
   stats: {
     stars: 3,

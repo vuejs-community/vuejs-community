@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'custardcream98/msw-devtools',
-    npm: '@custardcream/vite-plugin-msw-devtools',
-  },
   links: {
     github: 'https://github.com/custardcream98/msw-devtools',
     npm: 'https://www.npmjs.com/package/@custardcream/vite-plugin-msw-devtools',
     website: 'https://github.com/custardcream98/msw-devtools#readme',
+  },
+  source: {
+    github: 'custardcream98/msw-devtools',
+    npm: '@custardcream/vite-plugin-msw-devtools',
   },
   stats: {
     stars: 13,

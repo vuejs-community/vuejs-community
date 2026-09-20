@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'sass',
     'scss',
   ],
-  source: {
-    github: 'kstiehl/rollup-plugin-simple-scss',
-    npm: 'rollup-plugin-simple-scss',
-  },
   links: {
     github: 'https://github.com/kstiehl/rollup-plugin-simple-scss',
     npm: 'https://www.npmjs.com/package/rollup-plugin-simple-scss',
     website: 'https://github.com/kstiehl/rollup-plugin-simple-scss',
+  },
+  source: {
+    github: 'kstiehl/rollup-plugin-simple-scss',
+    npm: 'rollup-plugin-simple-scss',
   },
   stats: {
     stars: 0,

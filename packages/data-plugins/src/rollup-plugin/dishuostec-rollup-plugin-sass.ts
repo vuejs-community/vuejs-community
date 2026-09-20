@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'dishuostec/rollup-plugin-sass',
-    npm: '@dishuostec/rollup-plugin-sass',
-  },
   links: {
     github: 'https://github.com/dishuostec/rollup-plugin-sass',
     npm: 'https://www.npmjs.com/package/@dishuostec/rollup-plugin-sass',
     website: 'https://github.com/differui/rollup-plugin-sass#readme',
+  },
+  source: {
+    github: 'dishuostec/rollup-plugin-sass',
+    npm: '@dishuostec/rollup-plugin-sass',
   },
   stats: {
     stars: 0,

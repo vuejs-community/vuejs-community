@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin-build-statistics',
     'build-statistics',
   ],
-  source: {
-    github: 'nemwiz/build-statistics-plugin',
-    npm: 'rollup-plugin-build-statistics',
-  },
   links: {
     github: 'https://github.com/nemwiz/build-statistics-plugin',
     npm: 'https://www.npmjs.com/package/rollup-plugin-build-statistics',
     website: 'https://github.com/nemwiz/build-statistics-plugin#readme',
+  },
+  source: {
+    github: 'nemwiz/build-statistics-plugin',
+    npm: 'rollup-plugin-build-statistics',
   },
   stats: {
     stars: 4,

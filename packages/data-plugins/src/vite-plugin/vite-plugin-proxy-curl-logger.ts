@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'debug',
     'api',
   ],
-  source: {
-    npm: 'vite-plugin-proxy-curl-logger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-proxy-curl-logger',
+  },
+  source: {
+    npm: 'vite-plugin-proxy-curl-logger',
   },
   stats: {
     stars: 0,

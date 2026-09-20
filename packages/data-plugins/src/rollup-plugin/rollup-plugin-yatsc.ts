@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'typescript',
     'tsc',
   ],
-  source: {
-    github: 'db-developer/rollup-plugin-yatsc',
-    npm: 'rollup-plugin-yatsc',
-  },
   links: {
     github: 'https://github.com/db-developer/rollup-plugin-yatsc',
     npm: 'https://www.npmjs.com/package/rollup-plugin-yatsc',
     website: 'https://github.com/db-developer/rollup-plugin-yatsc',
+  },
+  source: {
+    github: 'db-developer/rollup-plugin-yatsc',
+    npm: 'rollup-plugin-yatsc',
   },
   stats: {
     stars: 2,

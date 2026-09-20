@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'html',
     'compiler',
   ],
-  source: {
-    npm: 'vite-plugin-html-mila',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-html-mila',
     website: 'https://github.com/MilanovaSmile/vite-plugin-html-mila',
+  },
+  source: {
+    npm: 'vite-plugin-html-mila',
   },
   stats: {
     stars: 0,

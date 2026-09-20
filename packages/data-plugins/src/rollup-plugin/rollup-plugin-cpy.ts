@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup copy',
     'rollup plugin copy',
   ],
-  source: {
-    github: 'paulmelnikow/rollup-plugin-cpy',
-    npm: 'rollup-plugin-cpy',
-  },
   links: {
     github: 'https://github.com/paulmelnikow/rollup-plugin-cpy',
     npm: 'https://www.npmjs.com/package/rollup-plugin-cpy',
     website: 'https://github.com/paulmelnikow/rollup-plugin-cpy#readme',
+  },
+  source: {
+    github: 'paulmelnikow/rollup-plugin-cpy',
+    npm: 'rollup-plugin-cpy',
   },
   stats: {
     stars: 7,

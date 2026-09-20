@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'product-tour',
     'onboarding',
   ],
-  source: {
-    npm: '@brainfish-ai/wayfinder-vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@brainfish-ai/wayfinder-vite-plugin',
+  },
+  source: {
+    npm: '@brainfish-ai/wayfinder-vite-plugin',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'inject',
     'command',
   ],
-  source: {
-    github: 'byronogis/vite-plugin-html-inject-commands',
-    npm: 'nuxt-html-inject-commands',
-  },
   links: {
     github: 'https://github.com/byronogis/vite-plugin-html-inject-commands',
     npm: 'https://www.npmjs.com/package/nuxt-html-inject-commands',
     website: 'https://github.com/byronogis/vite-plugin-html-inject-commands#readme',
+  },
+  source: {
+    github: 'byronogis/vite-plugin-html-inject-commands',
+    npm: 'nuxt-html-inject-commands',
   },
   stats: {
     stars: 1,

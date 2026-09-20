@@ -40,14 +40,14 @@ export default defineProjectMeta({
     'responsive-design',
     'atomic-css',
   ],
-  source: {
-    github: 'Simon-He95/transformToTailwindcss',
-    npm: 'transform-to-tailwindcss',
-  },
   links: {
     github: 'https://github.com/Simon-He95/transformToTailwindcss',
     npm: 'https://www.npmjs.com/package/transform-to-tailwindcss',
     website: 'https://github.com/Simon-He95/transformToTailwindcss#readme',
+  },
+  source: {
+    github: 'Simon-He95/transformToTailwindcss',
+    npm: 'transform-to-tailwindcss',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'svg',
     'inline',
   ],
-  source: {
-    github: 'sionzee/rollup-plugin-inline-svg',
-    npm: 'rollup-plugin-inline-svg',
-  },
   links: {
     github: 'https://github.com/sionzee/rollup-plugin-inline-svg',
     npm: 'https://www.npmjs.com/package/rollup-plugin-inline-svg',
     website: 'https://github.com/sionzee/rollup-plugin-inline-svg#readme',
+  },
+  source: {
+    github: 'sionzee/rollup-plugin-inline-svg',
+    npm: 'rollup-plugin-inline-svg',
   },
   stats: {
     stars: 12,

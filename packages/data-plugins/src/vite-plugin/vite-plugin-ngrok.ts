@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'ngrok',
   ],
-  source: {
-    github: 'aphex/vite-plugin-ngrok',
-    npm: 'vite-plugin-ngrok',
-  },
   links: {
     github: 'https://github.com/aphex/vite-plugin-ngrok',
     npm: 'https://www.npmjs.com/package/vite-plugin-ngrok',
     website: 'https://github.com/aphex/vite-plugin-ngrok#readme',
+  },
+  source: {
+    github: 'aphex/vite-plugin-ngrok',
+    npm: 'vite-plugin-ngrok',
   },
   stats: {
     stars: 39,

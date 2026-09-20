@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'rspack',
     'farm',
   ],
-  source: {
-    github: 'unplugin/unplugin-lightningcss',
-    npm: 'unplugin-lightningcss',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-lightningcss',
     npm: 'https://www.npmjs.com/package/unplugin-lightningcss',
     website: 'https://github.com/unplugin/unplugin-lightningcss#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-lightningcss',
+    npm: 'unplugin-lightningcss',
   },
   stats: {
     stars: 29,

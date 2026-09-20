@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'notify',
     'notification',
   ],
-  source: {
-    github: 'roryduncan/rollup-plugin-notify',
-    npm: '@roryduncan/rollup-plugin-notify',
-  },
   links: {
     github: 'https://github.com/roryduncan/rollup-plugin-notify',
     npm: 'https://www.npmjs.com/package/@roryduncan/rollup-plugin-notify',
     website: 'https://github.com/roryduncan/rollup-plugin-notify#readme',
+  },
+  source: {
+    github: 'roryduncan/rollup-plugin-notify',
+    npm: '@roryduncan/rollup-plugin-notify',
   },
   stats: {
     stars: 0,

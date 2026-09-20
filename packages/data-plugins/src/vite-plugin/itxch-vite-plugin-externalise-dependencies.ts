@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'itxch/vite-plugin-externalise-dependencies',
-    npm: '@itxch/vite-plugin-externalise-dependencies',
-  },
   links: {
     github: 'https://github.com/itxch/vite-plugin-externalise-dependencies',
     npm: 'https://www.npmjs.com/package/@itxch/vite-plugin-externalise-dependencies',
     website: 'https://github.com/itxch/vite-plugin-externalise-dependencies#readme',
+  },
+  source: {
+    github: 'itxch/vite-plugin-externalise-dependencies',
+    npm: '@itxch/vite-plugin-externalise-dependencies',
   },
   stats: {
     stars: 0,

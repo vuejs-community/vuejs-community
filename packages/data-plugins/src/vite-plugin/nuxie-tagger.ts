@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'react',
     'component-tagging',
   ],
-  source: {
-    npm: '@nuxie/tagger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@nuxie/tagger',
+  },
+  source: {
+    npm: '@nuxie/tagger',
   },
   stats: {
     stars: 0,

@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'oscarmarina/vite-plugin-prevent-rewrite-imports-type-module',
-    npm: '@blockquote/vite-plugin-prevent-rewrite-imports-type-module',
-  },
   links: {
     github: 'https://github.com/oscarmarina/vite-plugin-prevent-rewrite-imports-type-module',
     npm: 'https://www.npmjs.com/package/@blockquote/vite-plugin-prevent-rewrite-imports-type-module',
     website: 'https://github.com/oscarmarina/vite-plugin-prevent-rewrite-imports-type-module',
+  },
+  source: {
+    github: 'oscarmarina/vite-plugin-prevent-rewrite-imports-type-module',
+    npm: '@blockquote/vite-plugin-prevent-rewrite-imports-type-module',
   },
   stats: {
     stars: 0,

@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://sanity.nuxtjs.org',
   },
   source: {
-    github: 'nuxt-modules/sanity#main',
+    github: 'nuxt-modules/sanity',
     npm: '@nuxtjs/sanity',
   },
 })

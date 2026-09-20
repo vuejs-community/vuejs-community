@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'webpack',
     'rollup',
   ],
-  source: {
-    github: 'rogerleung0411/unplugin-compress',
-    npm: 'unplugin-compress',
-  },
   links: {
     github: 'https://github.com/rogerleung0411/unplugin-compress',
     npm: 'https://www.npmjs.com/package/unplugin-compress',
     website: 'https://github.com/rogerleung0411/unplugin-compress#readme',
+  },
+  source: {
+    github: 'rogerleung0411/unplugin-compress',
+    npm: 'unplugin-compress',
   },
   stats: {
     stars: 2,

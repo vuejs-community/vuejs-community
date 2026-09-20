@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'html',
     'string',
   ],
-  source: {
-    github: 'cxres/rollup-plugin-html-string',
-    npm: 'rollup-plugin-html-string',
-  },
   links: {
     github: 'https://github.com/cxres/rollup-plugin-html-string',
     npm: 'https://www.npmjs.com/package/rollup-plugin-html-string',
     website: 'https://github.com/cxres/rollup-plugin-html-string',
+  },
+  source: {
+    github: 'cxres/rollup-plugin-html-string',
+    npm: 'rollup-plugin-html-string',
   },
   stats: {
     stars: 1,

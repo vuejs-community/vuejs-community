@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'css variable injection',
     'vue 2.x',
   ],
-  source: {
-    github: 'WJCHumble/vite-plugin-vue2-css-vars',
-    npm: 'vite-plugin-vue2-css-vars',
-  },
   links: {
     github: 'https://github.com/WJCHumble/vite-plugin-vue2-css-vars',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue2-css-vars',
     website: 'https://github.com/WJCHumble/vite-plugin-vue2-css-vars',
+  },
+  source: {
+    github: 'WJCHumble/vite-plugin-vue2-css-vars',
+    npm: 'vite-plugin-vue2-css-vars',
   },
   stats: {
     stars: 7,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'gzip',
     'manualchunks',
   ],
-  source: {
-    github: 'juwenzhang/lhx-kit',
-    npm: '@lhx-kit/vite-plugin',
-  },
   links: {
     github: 'https://github.com/juwenzhang/lhx-kit',
     npm: 'https://www.npmjs.com/package/@lhx-kit/vite-plugin',
     website: 'https://juwenzhang.github.io/lhx-kit/runtime/vite-plugin',
+  },
+  source: {
+    github: 'juwenzhang/lhx-kit',
+    npm: '@lhx-kit/vite-plugin',
   },
   stats: {
     stars: 4,

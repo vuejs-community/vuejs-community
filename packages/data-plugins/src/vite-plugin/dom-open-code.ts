@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    npm: 'dom-open-code',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/dom-open-code',
+  },
+  source: {
+    npm: 'dom-open-code',
   },
   stats: {
     stars: 0,

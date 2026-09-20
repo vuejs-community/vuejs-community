@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'env',
     'front-end',
   ],
-  source: {
-    github: 'd8corp/rollup-plugin-external-node-modules',
-    npm: 'rollup-plugin-external-node-modules',
-  },
   links: {
     github: 'https://github.com/d8corp/rollup-plugin-external-node-modules',
     npm: 'https://www.npmjs.com/package/rollup-plugin-external-node-modules',
     website: 'https://github.com/d8corp/rollup-plugin-external-node-modules',
+  },
+  source: {
+    github: 'd8corp/rollup-plugin-external-node-modules',
+    npm: 'rollup-plugin-external-node-modules',
   },
   stats: {
     stars: 0,

@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'timeline',
     'vite-plugin',
   ],
-  source: {
-    npm: 'motion-editor',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/motion-editor',
     website: 'https://motion.dev/plus',
+  },
+  source: {
+    npm: 'motion-editor',
   },
   stats: {
     stars: 0,

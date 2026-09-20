@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://content.nuxt.com',
   },
   source: {
-    github: 'nuxt/content#main',
+    github: 'nuxt/content',
     npm: '@nuxt/content',
   },
 })

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'sprite',
     'svgo',
   ],
-  source: {
-    github: 'YvonTre/vite-plugin-svg-icons',
-    npm: '@treve/vite-plugin-svg-icons-monorepo',
-  },
   links: {
     github: 'https://github.com/YvonTre/vite-plugin-svg-icons',
     npm: 'https://www.npmjs.com/package/@treve/vite-plugin-svg-icons-monorepo',
     website: 'https://github.com/YvonTre/vite-plugin-svg-icons/tree/main/#readme',
+  },
+  source: {
+    github: 'YvonTre/vite-plugin-svg-icons',
+    npm: '@treve/vite-plugin-svg-icons-monorepo',
   },
   stats: {
     stars: 0,

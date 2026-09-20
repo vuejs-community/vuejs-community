@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'mcp',
     'modelcontextprotocol',
   ],
-  source: {
-    github: 'situ2001/unplugin-mcp',
-    npm: 'unplugin-mcp',
-  },
   links: {
     github: 'https://github.com/situ2001/unplugin-mcp',
     npm: 'https://www.npmjs.com/package/unplugin-mcp',
     website: 'https://github.com/situ2001/unplugin-mcp#readme',
+  },
+  source: {
+    github: 'situ2001/unplugin-mcp',
+    npm: 'unplugin-mcp',
   },
   stats: {
     stars: 0,

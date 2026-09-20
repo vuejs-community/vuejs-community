@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'react-grab',
   ],
-  source: {
-    npm: 'vite-plugin-react-grab',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-react-grab',
+  },
+  source: {
+    npm: 'vite-plugin-react-grab',
   },
   stats: {
     stars: 0,

@@ -23,13 +23,13 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'fi3ework/rollup-plugin-fork-ts-checker',
-    npm: 'rollup-plugin-fork-ts-checker',
-  },
   links: {
     github: 'https://github.com/fi3ework/rollup-plugin-fork-ts-checker',
     npm: 'https://www.npmjs.com/package/rollup-plugin-fork-ts-checker',
+  },
+  source: {
+    github: 'fi3ework/rollup-plugin-fork-ts-checker',
+    npm: 'rollup-plugin-fork-ts-checker',
   },
   stats: {
     stars: 5,

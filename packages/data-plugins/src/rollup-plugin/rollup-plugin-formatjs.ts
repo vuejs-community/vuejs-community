@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'hummingbird-me/rollup-plugin-formatjs',
-    npm: 'rollup-plugin-formatjs',
-  },
   links: {
     github: 'https://github.com/hummingbird-me/rollup-plugin-formatjs',
     npm: 'https://www.npmjs.com/package/rollup-plugin-formatjs',
     website: 'https://github.com/hummingbird-me/rollup-plugin-formatjs#readme',
+  },
+  source: {
+    github: 'hummingbird-me/rollup-plugin-formatjs',
+    npm: 'rollup-plugin-formatjs',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin-tanexpo',
     'tanexpo',
   ],
-  source: {
-    github: 'nairvijays99/tanexpo',
-    npm: 'vite-plugin-tanexpo',
-  },
   links: {
     github: 'https://github.com/nairvijays99/tanexpo',
     npm: 'https://www.npmjs.com/package/vite-plugin-tanexpo',
     website: 'https://github.com/nairvijays99/tanexpo#readme',
+  },
+  source: {
+    github: 'nairvijays99/tanexpo',
+    npm: 'vite-plugin-tanexpo',
   },
   stats: {
     stars: 0,

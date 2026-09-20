@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'code-quality',
     'ai-assisted-development',
   ],
-  source: {
-    github: 'skrulling/vite-plugin-biome',
-    npm: 'vite-plugin-biome',
-  },
   links: {
     github: 'https://github.com/skrulling/vite-plugin-biome',
     npm: 'https://www.npmjs.com/package/vite-plugin-biome',
     website: 'https://github.com/skrulling/vite-plugin-biome',
+  },
+  source: {
+    github: 'skrulling/vite-plugin-biome',
+    npm: 'vite-plugin-biome',
   },
   stats: {
     stars: 74,

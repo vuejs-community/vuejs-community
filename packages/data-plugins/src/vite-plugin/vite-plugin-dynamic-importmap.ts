@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'single-spa',
     'root-config',
   ],
-  source: {
-    github: 'adamsondavid/vite-plugin-dynamic-importmap',
-    npm: 'vite-plugin-dynamic-importmap',
-  },
   links: {
     github: 'https://github.com/adamsondavid/vite-plugin-dynamic-importmap',
     npm: 'https://www.npmjs.com/package/vite-plugin-dynamic-importmap',
     website: 'https://github.com/adamsondavid/vite-plugin-dynamic-importmap#readme',
+  },
+  source: {
+    github: 'adamsondavid/vite-plugin-dynamic-importmap',
+    npm: 'vite-plugin-dynamic-importmap',
   },
   stats: {
     stars: 3,

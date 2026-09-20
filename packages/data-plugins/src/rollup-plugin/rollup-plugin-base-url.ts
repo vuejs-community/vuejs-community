@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'base-url',
     'prerender',
   ],
-  source: {
-    github: 'kim366/rollup-plugin-base-url',
-    npm: 'rollup-plugin-base-url',
-  },
   links: {
     github: 'https://github.com/kim366/rollup-plugin-base-url',
     npm: 'https://www.npmjs.com/package/rollup-plugin-base-url',
     website: 'https://github.com/kim366/rollup-plugin-base-url#readme',
+  },
+  source: {
+    github: 'kim366/rollup-plugin-base-url',
+    npm: 'rollup-plugin-base-url',
   },
   stats: {
     stars: 1,

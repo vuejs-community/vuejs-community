@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'react-refresh',
     'fast refresh',
   ],
-  source: {
-    github: 'vitejs/vite-plugin-react-swc',
-    npm: 'plugin-react-swc-emotion',
-  },
   links: {
     github: 'https://github.com/vitejs/vite-plugin-react-swc',
     npm: 'https://www.npmjs.com/package/plugin-react-swc-emotion',
     website: 'https://github.com/vitejs/vite-plugin-react-swc#readme',
+  },
+  source: {
+    github: 'vitejs/vite-plugin-react-swc',
+    npm: 'plugin-react-swc-emotion',
   },
   stats: {
     stars: 0,

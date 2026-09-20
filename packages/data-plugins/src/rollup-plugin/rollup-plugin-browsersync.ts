@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'static',
     'serve',
   ],
-  source: {
-    github: '4lejandrito/rollup-plugin-browsersync',
-    npm: 'rollup-plugin-browsersync',
-  },
   links: {
     github: 'https://github.com/4lejandrito/rollup-plugin-browsersync',
     npm: 'https://www.npmjs.com/package/rollup-plugin-browsersync',
     website: 'https://github.com/4lejandrito/rollup-plugin-browsersync',
+  },
+  source: {
+    github: '4lejandrito/rollup-plugin-browsersync',
+    npm: 'rollup-plugin-browsersync',
   },
   stats: {
     stars: 19,

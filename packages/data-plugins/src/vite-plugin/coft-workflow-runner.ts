@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'MrCoft/workflow-runner',
-    npm: '@coft/workflow-runner',
-  },
   links: {
     github: 'https://github.com/MrCoft/workflow-runner',
     npm: 'https://www.npmjs.com/package/@coft/workflow-runner',
     website: 'https://github.com/MrCoft/workflow-runner#readme',
+  },
+  source: {
+    github: 'MrCoft/workflow-runner',
+    npm: '@coft/workflow-runner',
   },
   stats: {
     stars: 0,

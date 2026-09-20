@@ -17,13 +17,13 @@ export default defineProjectMeta({
     'build',
     'performance',
   ],
-  source: {
-    github: 'binarynoir/vite-plugin-optimize-images',
-    npm: '@binarynoir/vite-plugin-optimize-images',
-  },
   links: {
     github: 'https://github.com/binarynoir/vite-plugin-optimize-images',
     npm: 'https://www.npmjs.com/package/@binarynoir/vite-plugin-optimize-images',
     website: 'https://github.com/binarynoir/vite-plugin-optimize-images#readme',
+  },
+  source: {
+    github: 'binarynoir/vite-plugin-optimize-images',
+    npm: '@binarynoir/vite-plugin-optimize-images',
   },
 })

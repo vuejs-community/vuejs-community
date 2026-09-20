@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'wat',
     'emscripten',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-wasm',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-wasm',
     website: 'https://github.com/rollup/plugins/tree/master/packages/wasm/#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-wasm',
   },
   stats: {
     stars: 0,

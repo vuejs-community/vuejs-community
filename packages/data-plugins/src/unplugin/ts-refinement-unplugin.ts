@@ -19,11 +19,11 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    npm: '@ts-refinement/unplugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ts-refinement/unplugin',
+  },
+  source: {
+    npm: '@ts-refinement/unplugin',
   },
   stats: {
     stars: 0,

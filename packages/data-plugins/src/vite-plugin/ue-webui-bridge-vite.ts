@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'ue',
     'webui',
   ],
-  source: {
-    npm: 'ue-webui-bridge-vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/ue-webui-bridge-vite',
+  },
+  source: {
+    npm: 'ue-webui-bridge-vite',
   },
   stats: {
     stars: 0,

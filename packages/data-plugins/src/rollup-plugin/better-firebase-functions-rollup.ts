@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'optimization',
     'tree-shaking',
   ],
-  source: {
-    github: 'george43g/better-firebase-functions',
-    npm: 'better-firebase-functions-rollup',
-  },
   links: {
     github: 'https://github.com/george43g/better-firebase-functions',
     npm: 'https://www.npmjs.com/package/better-firebase-functions-rollup',
     website: 'https://github.com/george43g/better-firebase-functions#readme',
+  },
+  source: {
+    github: 'george43g/better-firebase-functions',
+    npm: 'better-firebase-functions-rollup',
   },
   stats: {
     stars: 183,

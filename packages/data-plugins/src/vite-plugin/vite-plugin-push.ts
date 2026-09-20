@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'minglo/vite-plugin-push',
-    npm: 'vite-plugin-push',
-  },
   links: {
     github: 'https://github.com/minglo/vite-plugin-push',
     npm: 'https://www.npmjs.com/package/vite-plugin-push',
     website: 'https://github.com/minglo/vite-plugin-push#readme',
+  },
+  source: {
+    github: 'minglo/vite-plugin-push',
+    npm: 'vite-plugin-push',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'html',
   ],
-  source: {
-    github: 'modernweb-dev/web',
-    npm: '@web/rollup-plugin-html',
-  },
   links: {
     github: 'https://github.com/modernweb-dev/web',
     npm: 'https://www.npmjs.com/package/@web/rollup-plugin-html',
     website: 'https://github.com/modernweb-dev/web/tree/master/packages/rollup-plugin-html',
+  },
+  source: {
+    github: 'modernweb-dev/web',
+    npm: '@web/rollup-plugin-html',
   },
   stats: {
     stars: 2451,

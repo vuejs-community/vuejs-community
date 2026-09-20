@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'inspector',
     'debug',
   ],
-  source: {
-    github: 'DBSDs/vite-plugin-vue-inspector',
-    npm: '@op_chen/vite-plugin-vue-inspector',
-  },
   links: {
     github: 'https://github.com/DBSDs/vite-plugin-vue-inspector',
     npm: 'https://www.npmjs.com/package/@op_chen/vite-plugin-vue-inspector',
     website: 'https://github.com/DBSDs/vite-plugin-vue-inspector#readme',
+  },
+  source: {
+    github: 'DBSDs/vite-plugin-vue-inspector',
+    npm: '@op_chen/vite-plugin-vue-inspector',
   },
   stats: {
     stars: 2,

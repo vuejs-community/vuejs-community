@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'barefoot',
     'ssr',
   ],
-  source: {
-    github: 'piconic-ai/barefootjs',
-    npm: '@barefootjs/vite',
-  },
   links: {
     github: 'https://github.com/piconic-ai/barefootjs',
     npm: 'https://www.npmjs.com/package/@barefootjs/vite',
     website: 'https://github.com/piconic-ai/barefootjs#readme',
+  },
+  source: {
+    github: 'piconic-ai/barefootjs',
+    npm: '@barefootjs/vite',
   },
   stats: {
     stars: 23,

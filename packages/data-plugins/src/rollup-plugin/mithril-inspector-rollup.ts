@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'erikvullings/mithril-inspector',
-    npm: '@mithril-inspector/rollup',
-  },
   links: {
     github: 'https://github.com/erikvullings/mithril-inspector',
     npm: 'https://www.npmjs.com/package/@mithril-inspector/rollup',
     website: 'https://github.com/erikvullings/mithril-inspector#readme',
+  },
+  source: {
+    github: 'erikvullings/mithril-inspector',
+    npm: '@mithril-inspector/rollup',
   },
   stats: {
     stars: 0,

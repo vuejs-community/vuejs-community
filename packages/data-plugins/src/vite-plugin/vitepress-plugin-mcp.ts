@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'MCP',
   ],
-  source: {
-    github: 'Hal-Spidernight/vitepress-plugin-mcp',
-    npm: 'vitepress-plugin-mcp',
-  },
   links: {
     github: 'https://github.com/Hal-Spidernight/vitepress-plugin-mcp',
     npm: 'https://www.npmjs.com/package/vitepress-plugin-mcp',
     website: 'https://github.com/Hal-Spidernight/vitepress-plugin-mcp#readme',
+  },
+  source: {
+    github: 'Hal-Spidernight/vitepress-plugin-mcp',
+    npm: 'vitepress-plugin-mcp',
   },
   stats: {
     stars: 6,

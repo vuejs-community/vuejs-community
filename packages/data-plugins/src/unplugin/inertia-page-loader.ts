@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'ycs77/inertia-page-loader',
-    npm: 'inertia-page-loader',
-  },
   links: {
     github: 'https://github.com/ycs77/inertia-page-loader',
     npm: 'https://www.npmjs.com/package/inertia-page-loader',
     website: 'https://github.com/ycs77/inertia-page-loader#readme',
+  },
+  source: {
+    github: 'ycs77/inertia-page-loader',
+    npm: 'inertia-page-loader',
   },
   stats: {
     stars: 32,

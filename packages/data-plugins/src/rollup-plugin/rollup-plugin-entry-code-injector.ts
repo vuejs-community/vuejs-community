@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'mmirca/rollup-plugin-entry-code-injector',
-    npm: 'rollup-plugin-entry-code-injector',
-  },
   links: {
     github: 'https://github.com/mmirca/rollup-plugin-entry-code-injector',
     npm: 'https://www.npmjs.com/package/rollup-plugin-entry-code-injector',
     website: 'https://github.com/mmirca/rollup-plugin-entry-code-injector#readme',
+  },
+  source: {
+    github: 'mmirca/rollup-plugin-entry-code-injector',
+    npm: 'rollup-plugin-entry-code-injector',
   },
   stats: {
     stars: 2,

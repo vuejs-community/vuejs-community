@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'static',
     'vite-plugin',
   ],
-  source: {
-    github: 'arikw/vite-plugin-vue-static-sfc',
-    npm: 'vite-plugin-vue-static-sfc',
-  },
   links: {
     github: 'https://github.com/arikw/vite-plugin-vue-static-sfc',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-static-sfc',
     website: 'https://github.com/arikw/vite-plugin-vue-static-sfc#readme',
+  },
+  source: {
+    github: 'arikw/vite-plugin-vue-static-sfc',
+    npm: 'vite-plugin-vue-static-sfc',
   },
   stats: {
     stars: 1,

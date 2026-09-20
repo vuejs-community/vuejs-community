@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'tighten/jigsaw-vite-plugin',
-    npm: '@tighten/jigsaw-vite-plugin',
-  },
   links: {
     github: 'https://github.com/tighten/jigsaw-vite-plugin',
     npm: 'https://www.npmjs.com/package/@tighten/jigsaw-vite-plugin',
     website: 'https://github.com/tighten/jigsaw-vite-plugin',
+  },
+  source: {
+    github: 'tighten/jigsaw-vite-plugin',
+    npm: '@tighten/jigsaw-vite-plugin',
   },
   stats: {
     stars: 0,

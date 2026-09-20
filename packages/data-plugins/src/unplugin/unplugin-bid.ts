@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'bid-loader',
     'bid-file',
   ],
-  source: {
-    github: 'tonyketcham/unplugin-bid',
-    npm: 'unplugin-bid',
-  },
   links: {
     github: 'https://github.com/tonyketcham/unplugin-bid',
     npm: 'https://www.npmjs.com/package/unplugin-bid',
     website: 'https://github.com/tonyketcham/unplugin-bid#readme',
+  },
+  source: {
+    github: 'tonyketcham/unplugin-bid',
+    npm: 'unplugin-bid',
   },
   stats: {
     stars: 0,

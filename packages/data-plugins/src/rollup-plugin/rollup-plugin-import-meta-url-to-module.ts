@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite',
   ],
-  source: {
-    github: 'jiangfengming/rollup-plugin-import-meta-url-to-module',
-    npm: 'rollup-plugin-import-meta-url-to-module',
-  },
   links: {
     github: 'https://github.com/jiangfengming/rollup-plugin-import-meta-url-to-module',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-meta-url-to-module',
     website: 'https://github.com/jiangfengming/rollup-plugin-import-meta-url-to-module#readme',
+  },
+  source: {
+    github: 'jiangfengming/rollup-plugin-import-meta-url-to-module',
+    npm: 'rollup-plugin-import-meta-url-to-module',
   },
   stats: {
     stars: 0,

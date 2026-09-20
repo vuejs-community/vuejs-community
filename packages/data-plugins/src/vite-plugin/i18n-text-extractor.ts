@@ -19,11 +19,11 @@ export default defineProjectMeta({
     'hardcoded-text',
     'language-pack',
   ],
-  source: {
-    npm: 'i18n-text-extractor',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/i18n-text-extractor',
+  },
+  source: {
+    npm: 'i18n-text-extractor',
   },
   stats: {
     stars: 0,

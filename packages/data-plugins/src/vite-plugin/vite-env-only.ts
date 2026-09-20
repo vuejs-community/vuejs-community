@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'deny',
     'imports',
   ],
-  source: {
-    github: 'pcattori/vite-env-only',
-    npm: 'vite-env-only',
-  },
   links: {
     github: 'https://github.com/pcattori/vite-env-only',
     npm: 'https://www.npmjs.com/package/vite-env-only',
     website: 'https://github.com/pcattori/vite-env-only#readme',
+  },
+  source: {
+    github: 'pcattori/vite-env-only',
+    npm: 'vite-env-only',
   },
   stats: {
     stars: 167,

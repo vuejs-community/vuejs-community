@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'ppm',
     'typescript',
   ],
-  source: {
-    github: 'jackashton/vite-plugin-ppm',
-    npm: 'vite-plugin-ppm',
-  },
   links: {
     github: 'https://github.com/jackashton/vite-plugin-ppm',
     npm: 'https://www.npmjs.com/package/vite-plugin-ppm',
     website: 'https://github.com/jackashton/vite-plugin-ppm#readme',
+  },
+  source: {
+    github: 'jackashton/vite-plugin-ppm',
+    npm: 'vite-plugin-ppm',
   },
   stats: {
     stars: 0,

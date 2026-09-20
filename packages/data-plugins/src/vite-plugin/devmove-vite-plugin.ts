@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'drag-and-drop',
     'visual-editor',
   ],
-  source: {
-    npm: '@devmove/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@devmove/vite-plugin',
+  },
+  source: {
+    npm: '@devmove/vite-plugin',
   },
   stats: {
     stars: 0,

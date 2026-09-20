@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'i18n',
     'typescript',
   ],
-  source: {
-    github: 'vetledv/vite-use-intl-messages-declaration',
-    npm: '@dvries/vite-use-intl-messages-declaration',
-  },
   links: {
     github: 'https://github.com/vetledv/vite-use-intl-messages-declaration',
     npm: 'https://www.npmjs.com/package/@dvries/vite-use-intl-messages-declaration',
     website: 'https://github.com/vetledv/vite-use-intl-messages-declaration#readme',
+  },
+  source: {
+    github: 'vetledv/vite-use-intl-messages-declaration',
+    npm: '@dvries/vite-use-intl-messages-declaration',
   },
   stats: {
     stars: 1,

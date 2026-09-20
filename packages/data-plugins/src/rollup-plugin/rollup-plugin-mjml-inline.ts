@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'vite-plugin',
     'mjml',
   ],
-  source: {
-    npm: 'rollup-plugin-mjml-inline',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-mjml-inline',
     website: 'https://github.com/asyncbanana/rollup-plugin-mjml-inline',
+  },
+  source: {
+    npm: 'rollup-plugin-mjml-inline',
   },
   stats: {
     stars: 0,

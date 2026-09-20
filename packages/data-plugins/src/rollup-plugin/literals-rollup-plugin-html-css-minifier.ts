@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'compression',
     'lit-html',
   ],
-  source: {
-    github: 'gracile-web/gracile',
-    npm: '@literals/rollup-plugin-html-css-minifier',
-  },
   links: {
     github: 'https://github.com/gracile-web/gracile',
     npm: 'https://www.npmjs.com/package/@literals/rollup-plugin-html-css-minifier',
     website: 'https://github.com/gracile-web/gracile#readme',
+  },
+  source: {
+    github: 'gracile-web/gracile',
+    npm: '@literals/rollup-plugin-html-css-minifier',
   },
   stats: {
     stars: 0,

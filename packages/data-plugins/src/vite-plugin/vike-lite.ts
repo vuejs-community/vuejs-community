@@ -31,14 +31,14 @@ export default defineProjectMeta({
     'vue-ssr',
     'web-framework',
   ],
-  source: {
-    github: 'node-ecosystem/vike-lite',
-    npm: 'vike-lite',
-  },
   links: {
     github: 'https://github.com/node-ecosystem/vike-lite',
     npm: 'https://www.npmjs.com/package/vike-lite',
     website: 'https://github.com/node-ecosystem/vike-lite#readme',
+  },
+  source: {
+    github: 'node-ecosystem/vike-lite',
+    npm: 'vike-lite',
   },
   stats: {
     stars: 0,

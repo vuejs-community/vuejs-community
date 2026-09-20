@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'oxc',
     'rolldown',
   ],
-  source: {
-    npm: 'vite-plugin-solid-oxc',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-solid-oxc',
+  },
+  source: {
+    npm: 'vite-plugin-solid-oxc',
   },
   stats: {
     stars: 0,

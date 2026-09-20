@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'mjeanroy/rollup-plugin-strip-banner',
-    npm: 'rollup-plugin-strip-banner',
-  },
   links: {
     github: 'https://github.com/mjeanroy/rollup-plugin-strip-banner',
     npm: 'https://www.npmjs.com/package/rollup-plugin-strip-banner',
     website: 'https://github.com/mjeanroy/rollup-plugin-strip-banner#readme',
+  },
+  source: {
+    github: 'mjeanroy/rollup-plugin-strip-banner',
+    npm: 'rollup-plugin-strip-banner',
   },
   stats: {
     stars: 19,

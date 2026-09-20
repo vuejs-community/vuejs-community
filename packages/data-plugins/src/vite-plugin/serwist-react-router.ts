@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'web',
     'service-worker',
   ],
-  source: {
-    github: 'serwist/serwist',
-    npm: '@serwist/react-router',
-  },
   links: {
     github: 'https://github.com/serwist/serwist',
     npm: 'https://www.npmjs.com/package/@serwist/react-router',
     website: 'https://serwist.pages.dev',
+  },
+  source: {
+    github: 'serwist/serwist',
+    npm: '@serwist/react-router',
   },
   stats: {
     stars: 0,

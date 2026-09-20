@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'minify',
     'css',
   ],
-  source: {
-    npm: 'vite-console-debug',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-console-debug',
+  },
+  source: {
+    npm: 'vite-console-debug',
   },
   stats: {
     stars: 0,

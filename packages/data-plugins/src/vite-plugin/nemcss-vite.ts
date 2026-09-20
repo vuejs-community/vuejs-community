@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'liv7c/nemcss',
-    npm: '@nemcss/vite',
-  },
   links: {
     github: 'https://github.com/liv7c/nemcss',
     npm: 'https://www.npmjs.com/package/@nemcss/vite',
     website: 'https://github.com/liv7c/nemcss#readme',
+  },
+  source: {
+    github: 'liv7c/nemcss',
+    npm: '@nemcss/vite',
   },
   stats: {
     stars: 2,

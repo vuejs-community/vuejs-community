@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'copy',
     'inline',
   ],
-  source: {
-    github: 'yfwz100/rollup-plugin-smart-asset',
-    npm: '@yfwz100/rollup-plugin-smart-asset',
-  },
   links: {
     github: 'https://github.com/yfwz100/rollup-plugin-smart-asset',
     npm: 'https://www.npmjs.com/package/@yfwz100/rollup-plugin-smart-asset',
     website: 'https://github.com/yfwz100/rollup-plugin-smart-asset#readme',
+  },
+  source: {
+    github: 'yfwz100/rollup-plugin-smart-asset',
+    npm: '@yfwz100/rollup-plugin-smart-asset',
   },
   stats: {
     stars: 0,

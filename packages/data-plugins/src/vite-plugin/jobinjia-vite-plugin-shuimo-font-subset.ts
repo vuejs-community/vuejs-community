@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'woff2',
     'chinese',
   ],
-  source: {
-    npm: '@jobinjia/vite-plugin-shuimo-font-subset',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@jobinjia/vite-plugin-shuimo-font-subset',
+  },
+  source: {
+    npm: '@jobinjia/vite-plugin-shuimo-font-subset',
   },
   stats: {
     stars: 0,

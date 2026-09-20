@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'css',
     'static-extraction',
   ],
-  source: {
-    github: 'corysimmons/typewritingclass',
-    npm: 'typewritingclass-compiler',
-  },
   links: {
     github: 'https://github.com/corysimmons/typewritingclass',
     npm: 'https://www.npmjs.com/package/typewritingclass-compiler',
     website: 'https://github.com/corysimmons/typewritingclass',
+  },
+  source: {
+    github: 'corysimmons/typewritingclass',
+    npm: 'typewritingclass-compiler',
   },
   stats: {
     stars: 2,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-library',
     'vite-plugin',
   ],
-  source: {
-    github: 'ehubbell/vite-plugin-size',
-    npm: 'vite-plugin-size',
-  },
   links: {
     github: 'https://github.com/ehubbell/vite-plugin-size',
     npm: 'https://www.npmjs.com/package/vite-plugin-size',
     website: 'https://github.com/ehubbell/vite-plugin-size#readme',
+  },
+  source: {
+    github: 'ehubbell/vite-plugin-size',
+    npm: 'vite-plugin-size',
   },
   stats: {
     stars: 1,

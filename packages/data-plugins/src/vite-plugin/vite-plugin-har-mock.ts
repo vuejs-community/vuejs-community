@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'mock',
     'api',
   ],
-  source: {
-    npm: 'vite-plugin-har-mock',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-har-mock',
+  },
+  source: {
+    npm: 'vite-plugin-har-mock',
   },
   stats: {
     stars: 0,

@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'build',
     'fun',
   ],
-  source: {
-    npm: 'bundler-purr',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/bundler-purr',
+  },
+  source: {
+    npm: 'bundler-purr',
   },
   stats: {
     stars: 0,

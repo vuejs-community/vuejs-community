@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'ecma',
   ],
-  source: {
-    github: 'koba04/rollup-plugin-ecma-version-validator',
-    npm: 'rollup-plugin-ecma-version-validator',
-  },
   links: {
     github: 'https://github.com/koba04/rollup-plugin-ecma-version-validator',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ecma-version-validator',
     website: 'https://github.com/koba04/rollup-plugin-ecma-version-validator',
+  },
+  source: {
+    github: 'koba04/rollup-plugin-ecma-version-validator',
+    npm: 'rollup-plugin-ecma-version-validator',
   },
   stats: {
     stars: 1,

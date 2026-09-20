@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'plugin',
     'build',
   ],
-  source: {
-    npm: 'bundle-blaster',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/bundle-blaster',
+  },
+  source: {
+    npm: 'bundle-blaster',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'metro',
     'unplugin',
   ],
-  source: {
-    github: 'risevest/envault',
-    npm: '@risemaxi/envault',
-  },
   links: {
     github: 'https://github.com/risevest/envault',
     npm: 'https://www.npmjs.com/package/@risemaxi/envault',
     website: 'https://github.com/risevest/envault#readme',
+  },
+  source: {
+    github: 'risevest/envault',
+    npm: '@risemaxi/envault',
   },
   stats: {
     stars: 0,

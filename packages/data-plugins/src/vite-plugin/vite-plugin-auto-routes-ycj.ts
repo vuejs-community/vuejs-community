@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'auto-routes',
     'file-based-routing',
   ],
-  source: {
-    github: 'syuan903/vite-plugin-auto-routes-YCJ',
-    npm: 'vite-plugin-auto-routes-ycj',
-  },
   links: {
     github: 'https://github.com/syuan903/vite-plugin-auto-routes-YCJ',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-routes-ycj',
     website: 'https://github.com/syuan903/vite-plugin-auto-routes-YCJ#readme',
+  },
+  source: {
+    github: 'syuan903/vite-plugin-auto-routes-YCJ',
+    npm: 'vite-plugin-auto-routes-ycj',
   },
   stats: {
     stars: 0,

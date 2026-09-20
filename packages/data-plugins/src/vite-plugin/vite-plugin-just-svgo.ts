@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'optimize',
     'minify',
   ],
-  source: {
-    github: 'muturgan/vite-plugin-just-svgo',
-    npm: 'vite-plugin-just-svgo',
-  },
   links: {
     github: 'https://github.com/muturgan/vite-plugin-just-svgo',
     npm: 'https://www.npmjs.com/package/vite-plugin-just-svgo',
     website: 'https://github.com/muturgan/vite-plugin-just-svgo#readme',
+  },
+  source: {
+    github: 'muturgan/vite-plugin-just-svgo',
+    npm: 'vite-plugin-just-svgo',
   },
   stats: {
     stars: 1,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'nosql',
     'nebula',
   ],
-  source: {
-    github: 'Nom-nom-hub/NebulaDB',
-    npm: '@nebula-db/vite-plugin',
-  },
   links: {
     github: 'https://github.com/Nom-nom-hub/NebulaDB',
     npm: 'https://www.npmjs.com/package/@nebula-db/vite-plugin',
     website: 'https://github.com/Nom-nom-hub/NebulaDB#readme',
+  },
+  source: {
+    github: 'Nom-nom-hub/NebulaDB',
+    npm: '@nebula-db/vite-plugin',
   },
   stats: {
     stars: 8,

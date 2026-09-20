@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'image-compression',
     'compress-image',
   ],
-  source: {
-    github: 'bituq/vite-plugin-squoosh',
-    npm: 'vite-plugin-squoosh',
-  },
   links: {
     github: 'https://github.com/bituq/vite-plugin-squoosh',
     npm: 'https://www.npmjs.com/package/vite-plugin-squoosh',
     website: 'https://github.com/bituq/vite-plugin-squoosh/tree/master/#readme',
+  },
+  source: {
+    github: 'bituq/vite-plugin-squoosh',
+    npm: 'vite-plugin-squoosh',
   },
   stats: {
     stars: 19,

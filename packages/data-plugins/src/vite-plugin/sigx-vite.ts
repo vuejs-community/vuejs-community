@@ -21,13 +21,13 @@ export default defineProjectMeta({
     'signals',
     'framework',
   ],
-  source: {
-    github: 'signalxjs/core',
-    npm: '@sigx/vite',
-  },
   links: {
     github: 'https://github.com/signalxjs/core',
     npm: 'https://www.npmjs.com/package/@sigx/vite',
     website: 'https://sigx.dev/vite/',
+  },
+  source: {
+    github: 'signalxjs/core',
+    npm: '@sigx/vite',
   },
 })

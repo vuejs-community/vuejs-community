@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'icons',
     'font',
   ],
-  source: {
-    github: 're7r/rollup-plugin-mdi-fontmin',
-    npm: 'rollup-plugin-mdi-fontmin',
-  },
   links: {
     github: 'https://github.com/re7r/rollup-plugin-mdi-fontmin',
     npm: 'https://www.npmjs.com/package/rollup-plugin-mdi-fontmin',
     website: 'https://github.com/re7r/rollup-plugin-mdi-fontmin#readme',
+  },
+  source: {
+    github: 're7r/rollup-plugin-mdi-fontmin',
+    npm: 'rollup-plugin-mdi-fontmin',
   },
   stats: {
     stars: 0,

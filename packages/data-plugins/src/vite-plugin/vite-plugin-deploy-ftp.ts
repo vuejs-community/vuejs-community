@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'upload',
     'publish',
   ],
-  source: {
-    github: 'yulin96/vite-plugin-deploy-ftp',
-    npm: 'vite-plugin-deploy-ftp',
-  },
   links: {
     github: 'https://github.com/yulin96/vite-plugin-deploy-ftp',
     npm: 'https://www.npmjs.com/package/vite-plugin-deploy-ftp',
     website: 'https://github.com/yulin96/vite-plugin-deploy-ftp',
+  },
+  source: {
+    github: 'yulin96/vite-plugin-deploy-ftp',
+    npm: 'vite-plugin-deploy-ftp',
   },
   stats: {
     stars: 1,

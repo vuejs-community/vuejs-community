@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vue',
     'vui-rs',
   ],
-  source: {
-    github: 'open-ai-sdk/vui-rs',
-    npm: '@vui-rs/vite-plugin',
-  },
   links: {
     github: 'https://github.com/open-ai-sdk/vui-rs',
     npm: 'https://www.npmjs.com/package/@vui-rs/vite-plugin',
     website: 'https://github.com/open-ai-sdk/vui-rs#readme',
+  },
+  source: {
+    github: 'open-ai-sdk/vui-rs',
+    npm: '@vui-rs/vite-plugin',
   },
   stats: {
     stars: 1,

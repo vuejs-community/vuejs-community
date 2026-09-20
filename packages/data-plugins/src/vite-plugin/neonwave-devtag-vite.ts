@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    github: 'MyNameReallySux/chriscoppola.me',
-    npm: '@neonwave/devtag-vite',
-  },
   links: {
     github: 'https://github.com/MyNameReallySux/chriscoppola.me',
     npm: 'https://www.npmjs.com/package/@neonwave/devtag-vite',
     website: 'https://github.com/MyNameReallySux/chriscoppola.me/tree/main/packages/neonwave/devtag-vite#readme',
+  },
+  source: {
+    github: 'MyNameReallySux/chriscoppola.me',
+    npm: '@neonwave/devtag-vite',
   },
   stats: {
     stars: 0,

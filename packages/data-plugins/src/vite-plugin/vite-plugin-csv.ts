@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'csv',
   ],
-  source: {
-    github: 'SirwanAfifi/vite-plugin-csv',
-    npm: 'vite-plugin-csv',
-  },
   links: {
     github: 'https://github.com/SirwanAfifi/vite-plugin-csv',
     npm: 'https://www.npmjs.com/package/vite-plugin-csv',
     website: 'https://github.com/SirwanAfifi/vite-plugin-csv',
+  },
+  source: {
+    github: 'SirwanAfifi/vite-plugin-csv',
+    npm: 'vite-plugin-csv',
   },
   stats: {
     stars: 3,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-starter',
   ],
-  source: {
-    github: 'sudongyuer/vite-plugin-starter',
-    npm: 'vite-plugin-starter',
-  },
   links: {
     github: 'https://github.com/sudongyuer/vite-plugin-starter',
     npm: 'https://www.npmjs.com/package/vite-plugin-starter',
     website: 'https://github.com/sudongyuer/vite-plugin-starter#readme',
+  },
+  source: {
+    github: 'sudongyuer/vite-plugin-starter',
+    npm: 'vite-plugin-starter',
   },
   stats: {
     stars: 3,

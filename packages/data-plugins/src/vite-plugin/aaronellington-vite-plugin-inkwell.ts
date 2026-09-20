@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'frontmatter',
     'blog',
   ],
-  source: {
-    github: 'aaronellington/vite-plugin-inkwell',
-    npm: '@aaronellington/vite-plugin-inkwell',
-  },
   links: {
     github: 'https://github.com/aaronellington/vite-plugin-inkwell',
     npm: 'https://www.npmjs.com/package/@aaronellington/vite-plugin-inkwell',
     website: 'https://github.com/aaronellington/vite-plugin-inkwell#readme',
+  },
+  source: {
+    github: 'aaronellington/vite-plugin-inkwell',
+    npm: '@aaronellington/vite-plugin-inkwell',
   },
   stats: {
     stars: 0,

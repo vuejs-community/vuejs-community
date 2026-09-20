@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'llm',
     'dev-only',
   ],
-  source: {
-    github: 'Seungwoo321/agent-devtools',
-    npm: '@agent-devtools/vite',
-  },
   links: {
     github: 'https://github.com/Seungwoo321/agent-devtools',
     npm: 'https://www.npmjs.com/package/@agent-devtools/vite',
     website: 'https://github.com/Seungwoo321/agent-devtools/tree/main/packages/vite#readme',
+  },
+  source: {
+    github: 'Seungwoo321/agent-devtools',
+    npm: '@agent-devtools/vite',
   },
   stats: {
     stars: 1,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'preview',
     'preact',
   ],
-  source: {
-    github: 'nlemoine/packages',
-    npm: '@n5s/vite-plugin-mjml',
-  },
   links: {
     github: 'https://github.com/nlemoine/packages',
     npm: 'https://www.npmjs.com/package/@n5s/vite-plugin-mjml',
     website: 'https://github.com/nlemoine/packages/tree/main/packages/vite-plugin-mjml#readme',
+  },
+  source: {
+    github: 'nlemoine/packages',
+    npm: '@n5s/vite-plugin-mjml',
   },
   stats: {
     stars: 0,

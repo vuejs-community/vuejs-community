@@ -39,14 +39,14 @@ export default defineProjectMeta({
     'angular',
     'web-development',
   ],
-  source: {
-    github: 'NdombeRafa33/Quantcss',
-    npm: 'quantcss',
-  },
   links: {
     github: 'https://github.com/NdombeRafa33/Quantcss',
     npm: 'https://www.npmjs.com/package/quantcss',
     website: 'https://github.com/NdombeRafa33/Quantcss#readme',
+  },
+  source: {
+    github: 'NdombeRafa33/Quantcss',
+    npm: 'quantcss',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'local development',
     'SSL',
   ],
-  source: {
-    github: 'perki/backloop.dev-vite',
-    npm: 'vite-plugin-backloop.dev',
-  },
   links: {
     github: 'https://github.com/perki/backloop.dev-vite',
     npm: 'https://www.npmjs.com/package/vite-plugin-backloop.dev',
     website: 'https://github.com/perki/backloop.dev-vite',
+  },
+  source: {
+    github: 'perki/backloop.dev-vite',
+    npm: 'vite-plugin-backloop.dev',
   },
   stats: {
     stars: 0,

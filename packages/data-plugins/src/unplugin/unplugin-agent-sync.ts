@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'bee1an/unplugin-agent-sync',
-    npm: 'unplugin-agent-sync',
-  },
   links: {
     github: 'https://github.com/bee1an/unplugin-agent-sync',
     npm: 'https://www.npmjs.com/package/unplugin-agent-sync',
     website: 'https://github.com/bee1an/unplugin-agent-sync#readme',
+  },
+  source: {
+    github: 'bee1an/unplugin-agent-sync',
+    npm: 'unplugin-agent-sync',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'front-end',
     'node.js',
   ],
-  source: {
-    github: 'shijistar/vite-plugin-copy-assets',
-    npm: '@tiny-codes/vite-plugin-copy-assets',
-  },
   links: {
     github: 'https://github.com/shijistar/vite-plugin-copy-assets',
     npm: 'https://www.npmjs.com/package/@tiny-codes/vite-plugin-copy-assets',
     website: 'https://github.com/shijistar/vite-plugin-copy-assets',
+  },
+  source: {
+    github: 'shijistar/vite-plugin-copy-assets',
+    npm: '@tiny-codes/vite-plugin-copy-assets',
   },
   stats: {
     stars: 0,

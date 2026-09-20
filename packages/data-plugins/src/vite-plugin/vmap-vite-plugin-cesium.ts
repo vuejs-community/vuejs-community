@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'cesium',
     'cesium-vue',
   ],
-  source: {
-    github: 'parselife/vmap',
-    npm: '@vmap/vite-plugin-cesium',
-  },
   links: {
     github: 'https://github.com/parselife/vmap',
     npm: 'https://www.npmjs.com/package/@vmap/vite-plugin-cesium',
     website: 'https://github.com/parselife/vmap',
+  },
+  source: {
+    github: 'parselife/vmap',
+    npm: '@vmap/vite-plugin-cesium',
   },
   stats: {
     stars: 0,

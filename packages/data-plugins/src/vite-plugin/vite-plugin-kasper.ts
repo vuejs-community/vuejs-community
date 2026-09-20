@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'kasper-js',
     'sfc',
   ],
-  source: {
-    npm: 'vite-plugin-kasper',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-kasper',
+  },
+  source: {
+    npm: 'vite-plugin-kasper',
   },
   stats: {
     stars: 0,

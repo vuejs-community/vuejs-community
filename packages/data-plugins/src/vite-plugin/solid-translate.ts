@@ -30,14 +30,14 @@ export default defineProjectMeta({
     'currency',
     'datetime',
   ],
-  source: {
-    github: 'omniaura/solid-translate',
-    npm: 'solid-translate',
-  },
   links: {
     github: 'https://github.com/omniaura/solid-translate',
     npm: 'https://www.npmjs.com/package/solid-translate',
     website: 'https://github.com/omniaura/solid-translate#readme',
+  },
+  source: {
+    github: 'omniaura/solid-translate',
+    npm: 'solid-translate',
   },
   stats: {
     stars: 1,

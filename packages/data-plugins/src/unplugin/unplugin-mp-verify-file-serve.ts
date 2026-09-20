@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'webpack',
     'transform',
   ],
-  source: {
-    github: 'hackycy/unplugin-mp-verify-file-serve',
-    npm: 'unplugin-mp-verify-file-serve',
-  },
   links: {
     github: 'https://github.com/hackycy/unplugin-mp-verify-file-serve',
     npm: 'https://www.npmjs.com/package/unplugin-mp-verify-file-serve',
     website: 'https://github.com/hackycy/unplugin-mp-verify-file-serve#readme',
+  },
+  source: {
+    github: 'hackycy/unplugin-mp-verify-file-serve',
+    npm: 'unplugin-mp-verify-file-serve',
   },
   stats: {
     stars: 1,

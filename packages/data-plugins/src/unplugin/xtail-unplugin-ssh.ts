@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'xtail',
     'x-tail',
   ],
-  source: {
-    npm: '@xtail/unplugin-ssh',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xtail/unplugin-ssh',
+  },
+  source: {
+    npm: '@xtail/unplugin-ssh',
   },
   stats: {
     stars: 0,

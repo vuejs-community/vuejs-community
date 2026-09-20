@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'component-styles',
     'isolation',
   ],
-  source: {
-    github: 'cmseguin/rollup-plugin-react-scoped-css',
-    npm: 'rollup-plugin-react-scoped-css',
-  },
   links: {
     github: 'https://github.com/cmseguin/rollup-plugin-react-scoped-css',
     npm: 'https://www.npmjs.com/package/rollup-plugin-react-scoped-css',
     website: 'https://github.com/cmseguin/rollup-plugin-react-scoped-css#readme',
+  },
+  source: {
+    github: 'cmseguin/rollup-plugin-react-scoped-css',
+    npm: 'rollup-plugin-react-scoped-css',
   },
   stats: {
     stars: 46,

@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'inject',
     'inline',
   ],
-  source: {
-    github: 'emosheeep/vite-plugin-lib-inject-css',
-    npm: 'vite-plugin-lib-inject-css',
-  },
   links: {
     github: 'https://github.com/emosheeep/vite-plugin-lib-inject-css',
     npm: 'https://www.npmjs.com/package/vite-plugin-lib-inject-css',
     website: 'https://github.com/emosheeep/vite-plugin-lib-inject-css#readme',
+  },
+  source: {
+    github: 'emosheeep/vite-plugin-lib-inject-css',
+    npm: 'vite-plugin-lib-inject-css',
   },
   stats: {
     stars: 197,

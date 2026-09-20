@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vue',
     'vue3',
   ],
-  source: {
-    npm: 'vue3-vite-component-tagger-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vue3-vite-component-tagger-plugin',
+  },
+  source: {
+    npm: 'vue3-vite-component-tagger-plugin',
   },
   stats: {
     stars: 0,

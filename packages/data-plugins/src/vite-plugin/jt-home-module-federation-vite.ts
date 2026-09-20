@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'module federation',
     'microfrontend',
   ],
-  source: {
-    npm: '@jt-home/module-federation-vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@jt-home/module-federation-vite',
+  },
+  source: {
+    npm: '@jt-home/module-federation-vite',
   },
   stats: {
     stars: 0,

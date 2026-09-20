@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'webworker',
     'worker',
   ],
-  source: {
-    github: 'andyearnshaw/rollup-plugin-bundle-worker',
-    npm: '@gkatsev/rollup-plugin-bundle-worker',
-  },
   links: {
     github: 'https://github.com/andyearnshaw/rollup-plugin-bundle-worker',
     npm: 'https://www.npmjs.com/package/@gkatsev/rollup-plugin-bundle-worker',
     website: 'https://github.com/andyearnshaw/rollup-plugin-bundle-worker#readme',
+  },
+  source: {
+    github: 'andyearnshaw/rollup-plugin-bundle-worker',
+    npm: '@gkatsev/rollup-plugin-bundle-worker',
   },
   stats: {
     stars: 22,

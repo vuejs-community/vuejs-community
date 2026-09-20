@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'lumina',
     'internationalization',
   ],
-  source: {
-    github: 'Continuous-Labs/lumina-core',
-    npm: '@continuouslabs/unplugin-lumina',
-  },
   links: {
     github: 'https://github.com/Continuous-Labs/lumina-core',
     npm: 'https://www.npmjs.com/package/@continuouslabs/unplugin-lumina',
     website: 'https://lumina-i18n.dev',
+  },
+  source: {
+    github: 'Continuous-Labs/lumina-core',
+    npm: '@continuouslabs/unplugin-lumina',
   },
   stats: {
     stars: 1,

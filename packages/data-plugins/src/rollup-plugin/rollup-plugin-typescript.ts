@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'typescript',
     'es2015',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-typescript',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-typescript',
     website: 'https://github.com/rollup/plugins/tree/master/packages/typescript/#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-typescript',
   },
   stats: {
     stars: 0,

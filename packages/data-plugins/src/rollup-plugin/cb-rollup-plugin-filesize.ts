@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'ICodeMyOwnLife/cb-rollup-plugin-filesize',
-    npm: 'cb-rollup-plugin-filesize',
-  },
   links: {
     github: 'https://github.com/ICodeMyOwnLife/cb-rollup-plugin-filesize',
     npm: 'https://www.npmjs.com/package/cb-rollup-plugin-filesize',
     website: 'https://github.com/ritz078/rollup-plugin-filesize#readme',
+  },
+  source: {
+    github: 'ICodeMyOwnLife/cb-rollup-plugin-filesize',
+    npm: 'cb-rollup-plugin-filesize',
   },
   stats: {
     stars: 0,

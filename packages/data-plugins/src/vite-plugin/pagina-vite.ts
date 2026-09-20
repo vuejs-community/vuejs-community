@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'static-site',
     'pagina',
   ],
-  source: {
-    github: 'Nano112/pagina',
-    npm: '@pagina/vite',
-  },
   links: {
     github: 'https://github.com/Nano112/pagina',
     npm: 'https://www.npmjs.com/package/@pagina/vite',
     website: 'https://github.com/Nano112/pagina/tree/main/packages/vite#readme',
+  },
+  source: {
+    github: 'Nano112/pagina',
+    npm: '@pagina/vite',
   },
   stats: {
     stars: 1,

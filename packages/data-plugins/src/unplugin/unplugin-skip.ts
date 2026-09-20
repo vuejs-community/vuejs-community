@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'webpack',
     'unplugin',
   ],
-  source: {
-    github: 'markthree/unplugin-skip',
-    npm: 'unplugin-skip',
-  },
   links: {
     github: 'https://github.com/markthree/unplugin-skip',
     npm: 'https://www.npmjs.com/package/unplugin-skip',
     website: 'https://github.com/markthree/unplugin-skip#readme',
+  },
+  source: {
+    github: 'markthree/unplugin-skip',
+    npm: 'unplugin-skip',
   },
   stats: {
     stars: 0,

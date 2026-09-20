@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'diagram',
     'svg',
   ],
-  source: {
-    github: 'derafu/vite-plugin-d2',
-    npm: 'vite-plugin-d2',
-  },
   links: {
     github: 'https://github.com/derafu/vite-plugin-d2',
     npm: 'https://www.npmjs.com/package/vite-plugin-d2',
     website: 'https://www.derafu.dev/docs/ui/vite-plugin-d2',
+  },
+  source: {
+    github: 'derafu/vite-plugin-d2',
+    npm: 'vite-plugin-d2',
   },
   stats: {
     stars: 0,

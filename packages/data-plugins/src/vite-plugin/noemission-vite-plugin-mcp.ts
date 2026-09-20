@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'mcp',
     'modelcontextprotocol',
   ],
-  source: {
-    github: 'antfu/vite-plugin-mcp',
-    npm: '@noemission/vite-plugin-mcp',
-  },
   links: {
     github: 'https://github.com/antfu/vite-plugin-mcp',
     npm: 'https://www.npmjs.com/package/@noemission/vite-plugin-mcp',
     website: 'https://github.com/antfu/vite-plugin-mcp#readme',
+  },
+  source: {
+    github: 'antfu/vite-plugin-mcp',
+    npm: '@noemission/vite-plugin-mcp',
   },
   stats: {
     stars: 0,

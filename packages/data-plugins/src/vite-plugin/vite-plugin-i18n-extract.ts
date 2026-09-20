@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'translation-api',
     'vue-i18n',
   ],
-  source: {
-    github: 'yourusername/vite-plugin-i18n-extract',
-    npm: 'vite-plugin-i18n-extract',
-  },
   links: {
     github: 'https://github.com/yourusername/vite-plugin-i18n-extract',
     npm: 'https://www.npmjs.com/package/vite-plugin-i18n-extract',
     website: 'https://github.com/yourusername/vite-plugin-i18n-extract',
+  },
+  source: {
+    github: 'yourusername/vite-plugin-i18n-extract',
+    npm: 'vite-plugin-i18n-extract',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'html',
     'iconify',
   ],
-  source: {
-    github: 'tomjs/vite-plugin-iconify',
-    npm: '@tomjs/vite-plugin-iconify',
-  },
   links: {
     github: 'https://github.com/tomjs/vite-plugin-iconify',
     npm: 'https://www.npmjs.com/package/@tomjs/vite-plugin-iconify',
     website: 'https://github.com/tomjs/vite-plugin-iconify#readme',
+  },
+  source: {
+    github: 'tomjs/vite-plugin-iconify',
+    npm: '@tomjs/vite-plugin-iconify',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'es-project-template',
   ],
-  source: {
-    github: 'antfu/unplugin-starter',
-    npm: 'vite-test-server-plugin',
-  },
   links: {
     github: 'https://github.com/antfu/unplugin-starter',
     npm: 'https://www.npmjs.com/package/vite-test-server-plugin',
     website: 'https://github.com/antfu/unplugin-starter#readme',
+  },
+  source: {
+    github: 'antfu/unplugin-starter',
+    npm: 'vite-test-server-plugin',
   },
   stats: {
     stars: 0,

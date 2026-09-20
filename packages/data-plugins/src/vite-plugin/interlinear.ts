@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'react',
   ],
-  source: {
-    github: 'pascal910107/interlinear',
-    npm: 'interlinear',
-  },
   links: {
     github: 'https://github.com/pascal910107/interlinear',
     npm: 'https://www.npmjs.com/package/interlinear',
     website: 'https://github.com/pascal910107/interlinear#readme',
+  },
+  source: {
+    github: 'pascal910107/interlinear',
+    npm: 'interlinear',
   },
   stats: {
     stars: 1,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'cra',
     'proxy',
   ],
-  source: {
-    github: 'robertpanvip/plugin-proxy',
-    npm: '@plugin-cra-proxy/vite',
-  },
   links: {
     github: 'https://github.com/robertpanvip/plugin-proxy',
     npm: 'https://www.npmjs.com/package/@plugin-cra-proxy/vite',
     website: 'https://github.com/robertpanvip/plugin-proxy#readme',
+  },
+  source: {
+    github: 'robertpanvip/plugin-proxy',
+    npm: '@plugin-cra-proxy/vite',
   },
   stats: {
     stars: 2,

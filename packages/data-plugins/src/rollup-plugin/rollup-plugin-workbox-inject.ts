@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'workbox',
   ],
-  source: {
-    github: 'chromeos/static-site-scaffold-modules',
-    npm: 'rollup-plugin-workbox-inject',
-  },
   links: {
     github: 'https://github.com/chromeos/static-site-scaffold-modules',
     npm: 'https://www.npmjs.com/package/rollup-plugin-workbox-inject',
     website: 'https://github.com/chromeos/static-site-scaffold-modules#readme',
+  },
+  source: {
+    github: 'chromeos/static-site-scaffold-modules',
+    npm: 'rollup-plugin-workbox-inject',
   },
   stats: {
     stars: 0,

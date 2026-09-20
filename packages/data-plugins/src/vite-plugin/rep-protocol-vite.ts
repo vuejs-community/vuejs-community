@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'frontend',
     'rep',
   ],
-  source: {
-    github: 'RuachTech/rep',
-    npm: '@rep-protocol/vite',
-  },
   links: {
     github: 'https://github.com/RuachTech/rep',
     npm: 'https://www.npmjs.com/package/@rep-protocol/vite',
     website: 'https://github.com/RuachTech/rep#readme',
+  },
+  source: {
+    github: 'RuachTech/rep',
+    npm: '@rep-protocol/vite',
   },
   stats: {
     stars: 14,

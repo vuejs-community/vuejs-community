@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'storybook',
     'vitest',
   ],
-  source: {
-    npm: '@onlook/vite-plugin-storybook-nextjs',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@onlook/vite-plugin-storybook-nextjs',
+  },
+  source: {
+    npm: '@onlook/vite-plugin-storybook-nextjs',
   },
   stats: {
     stars: 0,

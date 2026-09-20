@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'reactivity-transform',
     'unplugin',
   ],
-  source: {
-    github: 'vue-macros/vue-macros',
-    npm: '@vue-macros/reactivity-transform',
-  },
   links: {
     github: 'https://github.com/vue-macros/vue-macros',
     npm: 'https://www.npmjs.com/package/@vue-macros/reactivity-transform',
     website: 'https://vue-macros.dev',
+  },
+  source: {
+    github: 'vue-macros/vue-macros',
+    npm: '@vue-macros/reactivity-transform',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'travistrue2008/vite-react-file-router',
-    npm: 'vite-react-file-router',
-  },
   links: {
     github: 'https://github.com/travistrue2008/vite-react-file-router',
     npm: 'https://www.npmjs.com/package/vite-react-file-router',
     website: 'https://github.com/travistrue2008/vite-react-file-router#readme',
+  },
+  source: {
+    github: 'travistrue2008/vite-react-file-router',
+    npm: 'vite-react-file-router',
   },
   stats: {
     stars: 0,

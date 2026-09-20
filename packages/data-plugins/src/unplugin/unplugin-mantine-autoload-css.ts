@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'unplugin',
     'mantine',
   ],
-  source: {
-    github: 'Grawl/unplugin-mantine-autoload-css',
-    npm: 'unplugin-mantine-autoload-css',
-  },
   links: {
     github: 'https://github.com/Grawl/unplugin-mantine-autoload-css',
     npm: 'https://www.npmjs.com/package/unplugin-mantine-autoload-css',
     website: 'https://github.com/Grawl/unplugin-mantine-autoload-css#readme',
+  },
+  source: {
+    github: 'Grawl/unplugin-mantine-autoload-css',
+    npm: 'unplugin-mantine-autoload-css',
   },
   stats: {
     stars: 2,

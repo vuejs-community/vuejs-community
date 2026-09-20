@@ -29,14 +29,14 @@ export default defineProjectMeta({
     'web-development',
     'modern-web',
   ],
-  source: {
-    github: 'prosanabani/vite-plugin-dynamic-sass-themes',
-    npm: 'vite-plugin-dynamic-sass-themes',
-  },
   links: {
     github: 'https://github.com/prosanabani/vite-plugin-dynamic-sass-themes',
     npm: 'https://www.npmjs.com/package/vite-plugin-dynamic-sass-themes',
     website: 'https://github.com/prosanabani/vite-plugin-dynamic-sass-themes#readme',
+  },
+  source: {
+    github: 'prosanabani/vite-plugin-dynamic-sass-themes',
+    npm: 'vite-plugin-dynamic-sass-themes',
   },
   stats: {
     stars: 0,

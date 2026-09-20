@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'styled-components',
   ],
-  source: {
-    github: 'callstack/linaria',
-    npm: '@linaria/rollup',
-  },
   links: {
     github: 'https://github.com/callstack/linaria',
     npm: 'https://www.npmjs.com/package/@linaria/rollup',
     website: 'https://github.com/callstack/linaria#readme',
+  },
+  source: {
+    github: 'callstack/linaria',
+    npm: '@linaria/rollup',
   },
   stats: {
     stars: 0,

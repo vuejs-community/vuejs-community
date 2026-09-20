@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'ssl',
     'tls',
   ],
-  source: {
-    github: 'idleberg/vite-plugin-devcert',
-    npm: '@idleberg/vite-plugin-devcert',
-  },
   links: {
     github: 'https://github.com/idleberg/vite-plugin-devcert',
     npm: 'https://www.npmjs.com/package/@idleberg/vite-plugin-devcert',
     website: 'https://github.com/idleberg/vite-plugin-devcert#readme',
+  },
+  source: {
+    github: 'idleberg/vite-plugin-devcert',
+    npm: '@idleberg/vite-plugin-devcert',
   },
   stats: {
     stars: 4,

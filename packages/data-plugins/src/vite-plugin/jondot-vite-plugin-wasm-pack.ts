@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'cargo',
   ],
-  source: {
-    github: 'nshen/vite-plugin-wasm-pack',
-    npm: '@jondot/vite-plugin-wasm-pack',
-  },
   links: {
     github: 'https://github.com/nshen/vite-plugin-wasm-pack',
     npm: 'https://www.npmjs.com/package/@jondot/vite-plugin-wasm-pack',
     website: 'https://github.com/nshen/vite-plugin-wasm-pack#readme',
+  },
+  source: {
+    github: 'nshen/vite-plugin-wasm-pack',
+    npm: '@jondot/vite-plugin-wasm-pack',
   },
   stats: {
     stars: 0,

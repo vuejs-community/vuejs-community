@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'unplugin',
   ],
-  source: {
-    github: 'gravity-ui/i18n',
-    npm: '@gravity-ui/i18n-optimize-plugin',
-  },
   links: {
     github: 'https://github.com/gravity-ui/i18n',
     npm: 'https://www.npmjs.com/package/@gravity-ui/i18n-optimize-plugin',
     website: 'https://github.com/gravity-ui/i18n#readme',
+  },
+  source: {
+    github: 'gravity-ui/i18n',
+    npm: '@gravity-ui/i18n-optimize-plugin',
   },
   stats: {
     stars: 16,

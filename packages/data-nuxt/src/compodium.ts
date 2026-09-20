@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/romhml/compodium',
   },
   source: {
-    github: 'romhml/compodium#main/packages/nuxt',
+    github: 'romhml/compodium',
     npm: '@compodium/nuxt',
   },
 })

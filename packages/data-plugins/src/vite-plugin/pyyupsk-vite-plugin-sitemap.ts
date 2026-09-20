@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'seo',
     'typescript',
   ],
-  source: {
-    github: 'pyyupsk/vite-plugin-sitemap',
-    npm: '@pyyupsk/vite-plugin-sitemap',
-  },
   links: {
     github: 'https://github.com/pyyupsk/vite-plugin-sitemap',
     npm: 'https://www.npmjs.com/package/@pyyupsk/vite-plugin-sitemap',
     website: 'https://github.com/pyyupsk/vite-plugin-sitemap#readme',
+  },
+  source: {
+    github: 'pyyupsk/vite-plugin-sitemap',
+    npm: '@pyyupsk/vite-plugin-sitemap',
   },
   stats: {
     stars: 0,

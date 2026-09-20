@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'sprite-generator',
     'zero-dependencies',
   ],
-  source: {
-    github: 'tavigos/vite-plugin-svg-sprite-generator',
-    npm: 'vite-plugin-svg-sprite-generator',
-  },
   links: {
     github: 'https://github.com/tavigos/vite-plugin-svg-sprite-generator',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-sprite-generator',
     website: 'https://github.com/tavigos/vite-plugin-svg-sprite-generator#readme',
+  },
+  source: {
+    github: 'tavigos/vite-plugin-svg-sprite-generator',
+    npm: 'vite-plugin-svg-sprite-generator',
   },
   stats: {
     stars: 0,

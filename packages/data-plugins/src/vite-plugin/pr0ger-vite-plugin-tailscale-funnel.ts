@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'tunnel',
     'dev-server',
   ],
-  source: {
-    github: 'Pr0Ger/vite-plugin-tailscale-funnel',
-    npm: '@pr0ger/vite-plugin-tailscale-funnel',
-  },
   links: {
     github: 'https://github.com/Pr0Ger/vite-plugin-tailscale-funnel',
     npm: 'https://www.npmjs.com/package/@pr0ger/vite-plugin-tailscale-funnel',
     website: 'https://github.com/Pr0Ger/vite-plugin-tailscale-funnel#readme',
+  },
+  source: {
+    github: 'Pr0Ger/vite-plugin-tailscale-funnel',
+    npm: '@pr0ger/vite-plugin-tailscale-funnel',
   },
   stats: {
     stars: 0,

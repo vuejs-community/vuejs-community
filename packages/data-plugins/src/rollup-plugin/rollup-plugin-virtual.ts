@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'modules',
     'virtual',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-virtual',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-virtual',
     website: 'https://github.com/rollup/plugins/tree/master/packages/virtual#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-virtual',
   },
   stats: {
     stars: 0,

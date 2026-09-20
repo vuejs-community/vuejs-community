@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'browser-pack',
     'rollup-plugin',
   ],
-  source: {
-    github: 'nikku/rollup-plugin-bpmnlint',
-    npm: 'rollup-plugin-bpmnlint',
-  },
   links: {
     github: 'https://github.com/nikku/rollup-plugin-bpmnlint',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bpmnlint',
     website: 'https://github.com/nikku/rollup-plugin-bpmnlint#readme',
+  },
+  source: {
+    github: 'nikku/rollup-plugin-bpmnlint',
+    npm: 'rollup-plugin-bpmnlint',
   },
   stats: {
     stars: 0,

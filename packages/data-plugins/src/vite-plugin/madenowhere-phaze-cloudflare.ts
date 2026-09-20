@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'ssr',
     'vite-plugin',
   ],
-  source: {
-    github: 'madenowhere/phaze',
-    npm: '@madenowhere/phaze-cloudflare',
-  },
   links: {
     github: 'https://github.com/madenowhere/phaze',
     npm: 'https://www.npmjs.com/package/@madenowhere/phaze-cloudflare',
     website: 'https://phaze.build',
+  },
+  source: {
+    github: 'madenowhere/phaze',
+    npm: '@madenowhere/phaze-cloudflare',
   },
   stats: {
     stars: 0,

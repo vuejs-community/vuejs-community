@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://storybook.nuxtjs.org',
   },
   source: {
-    github: 'nuxt-modules/storybook#main/packages/nuxt-module',
+    github: 'nuxt-modules/storybook',
     npm: '@nuxtjs/storybook',
   },
 })

@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'go-template',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-go-template',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-go-template',
+  },
+  source: {
+    npm: 'vite-plugin-go-template',
   },
   stats: {
     stars: 0,

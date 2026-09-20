@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'LucaNerlich/aem-vite',
-    npm: '@aemvite/vite-plugin-aem-resources',
-  },
   links: {
     github: 'https://github.com/LucaNerlich/aem-vite',
     npm: 'https://www.npmjs.com/package/@aemvite/vite-plugin-aem-resources',
     website: 'https://github.com/LucaNerlich/aem-vite#readme',
+  },
+  source: {
+    github: 'LucaNerlich/aem-vite',
+    npm: '@aemvite/vite-plugin-aem-resources',
   },
   stats: {
     stars: 0,

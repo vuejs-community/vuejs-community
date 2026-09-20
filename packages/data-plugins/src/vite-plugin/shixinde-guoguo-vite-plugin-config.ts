@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    npm: '@shixinde/guoguo-vite-plugin-config',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@shixinde/guoguo-vite-plugin-config',
+  },
+  source: {
+    npm: '@shixinde/guoguo-vite-plugin-config',
   },
   stats: {
     stars: 0,

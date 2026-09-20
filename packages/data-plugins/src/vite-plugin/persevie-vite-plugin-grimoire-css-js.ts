@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'rust',
     'styling',
   ],
-  source: {
-    github: 'persevie/grimoire-css-js',
-    npm: '@persevie/vite-plugin-grimoire-css-js',
-  },
   links: {
     github: 'https://github.com/persevie/grimoire-css-js',
     npm: 'https://www.npmjs.com/package/@persevie/vite-plugin-grimoire-css-js',
     website: 'https://github.com/persevie/grimoire-css-js#readme',
+  },
+  source: {
+    github: 'persevie/grimoire-css-js',
+    npm: '@persevie/vite-plugin-grimoire-css-js',
   },
   stats: {
     stars: 2,

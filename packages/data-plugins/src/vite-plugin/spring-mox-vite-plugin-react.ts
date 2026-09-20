@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'spring-boot',
     'spring',
   ],
-  source: {
-    npm: '@spring-mox/vite-plugin-react',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@spring-mox/vite-plugin-react',
+  },
+  source: {
+    npm: '@spring-mox/vite-plugin-react',
   },
   stats: {
     stars: 0,

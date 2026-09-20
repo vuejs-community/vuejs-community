@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'chunks',
     'modules',
   ],
-  source: {
-    github: 'relative-ci/agent',
-    npm: '@relative-ci/rollup-plugin',
-  },
   links: {
     github: 'https://github.com/relative-ci/agent',
     npm: 'https://www.npmjs.com/package/@relative-ci/rollup-plugin',
     website: 'https://relative-ci.com/documentation/setup/agent/rollup-plugin',
+  },
+  source: {
+    github: 'relative-ci/agent',
+    npm: '@relative-ci/rollup-plugin',
   },
   stats: {
     stars: 7,

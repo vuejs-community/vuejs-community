@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'monaco',
     'editor',
   ],
-  source: {
-    github: 'akarachen/vite-plugin-monaco-editor',
-    npm: '@akrc/vite-plugin-monaco-editor',
-  },
   links: {
     github: 'https://github.com/akarachen/vite-plugin-monaco-editor',
     npm: 'https://www.npmjs.com/package/@akrc/vite-plugin-monaco-editor',
     website: 'https://github.com/akarachen/vite-plugin-monaco-editor#readme',
+  },
+  source: {
+    github: 'akarachen/vite-plugin-monaco-editor',
+    npm: '@akrc/vite-plugin-monaco-editor',
   },
   stats: {
     stars: 1,

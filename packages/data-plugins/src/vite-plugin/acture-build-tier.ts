@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'deprecated',
     'internal',
   ],
-  source: {
-    github: 'thorwhalen/acture',
-    npm: 'acture-build-tier',
-  },
   links: {
     github: 'https://github.com/thorwhalen/acture',
     npm: 'https://www.npmjs.com/package/acture-build-tier',
     website: 'https://github.com/thorwhalen/acture#readme',
+  },
+  source: {
+    github: 'thorwhalen/acture',
+    npm: 'acture-build-tier',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'module injection',
     'dependency injection',
   ],
-  source: {
-    github: 'panoply/rollup-plugin-dep-inject',
-    npm: 'rollup-plugin-dep-inject',
-  },
   links: {
     github: 'https://github.com/panoply/rollup-plugin-dep-inject',
     npm: 'https://www.npmjs.com/package/rollup-plugin-dep-inject',
     website: 'https://github.com/panoply/rollup-plugin-dep-inject',
+  },
+  source: {
+    github: 'panoply/rollup-plugin-dep-inject',
+    npm: 'rollup-plugin-dep-inject',
   },
   stats: {
     stars: 1,

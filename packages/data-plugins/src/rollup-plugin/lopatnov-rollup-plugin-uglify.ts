@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'bundle',
     'typescript',
   ],
-  source: {
-    github: 'lopatnov/rollup-plugin-uglify',
-    npm: '@lopatnov/rollup-plugin-uglify',
-  },
   links: {
     github: 'https://github.com/lopatnov/rollup-plugin-uglify',
     npm: 'https://www.npmjs.com/package/@lopatnov/rollup-plugin-uglify',
     website: 'https://lopatnov.github.io/rollup-plugin-uglify/',
+  },
+  source: {
+    github: 'lopatnov/rollup-plugin-uglify',
+    npm: '@lopatnov/rollup-plugin-uglify',
   },
   stats: {
     stars: 7,

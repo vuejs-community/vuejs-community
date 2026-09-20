@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'webworker',
     'worker',
   ],
-  source: {
-    github: 'augusttty/rollup-plugin-webworkify',
-    npm: 'rollup-plugin-webworkify-fjo',
-  },
   links: {
     github: 'https://github.com/augusttty/rollup-plugin-webworkify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-webworkify-fjo',
     website: 'https://github.com/augusttty/rollup-plugin-webworkify#readme',
+  },
+  source: {
+    github: 'augusttty/rollup-plugin-webworkify',
+    npm: 'rollup-plugin-webworkify-fjo',
   },
   stats: {
     stars: 0,

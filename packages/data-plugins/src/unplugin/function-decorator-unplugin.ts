@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'Groupguanfang/function-decorator',
-    npm: '@function-decorator/unplugin',
-  },
   links: {
     github: 'https://github.com/Groupguanfang/function-decorator',
     npm: 'https://www.npmjs.com/package/@function-decorator/unplugin',
     website: 'https://github.com/Groupguanfang/function-decorator',
+  },
+  source: {
+    github: 'Groupguanfang/function-decorator',
+    npm: '@function-decorator/unplugin',
   },
   stats: {
     stars: 5,

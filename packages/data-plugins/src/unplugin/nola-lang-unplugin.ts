@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'esbuild',
     'rspack',
   ],
-  source: {
-    github: 'nola-lang/nola',
-    npm: '@nola-lang/unplugin',
-  },
   links: {
     github: 'https://github.com/nola-lang/nola',
     npm: 'https://www.npmjs.com/package/@nola-lang/unplugin',
     website: 'https://github.com/nola-lang/nola#readme',
+  },
+  source: {
+    github: 'nola-lang/nola',
+    npm: '@nola-lang/unplugin',
   },
   stats: {
     stars: 0,

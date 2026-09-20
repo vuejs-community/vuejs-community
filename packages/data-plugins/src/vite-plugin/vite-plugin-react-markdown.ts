@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'react',
     'markdown',
   ],
-  source: {
-    github: 'geekris1/vite-plugin-react-markdown',
-    npm: 'vite-plugin-react-markdown',
-  },
   links: {
     github: 'https://github.com/geekris1/vite-plugin-react-markdown',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-markdown',
     website: 'https://github.com/geekris1/vite-plugin-react-markdown#readme',
+  },
+  source: {
+    github: 'geekris1/vite-plugin-react-markdown',
+    npm: 'vite-plugin-react-markdown',
   },
   stats: {
     stars: 13,

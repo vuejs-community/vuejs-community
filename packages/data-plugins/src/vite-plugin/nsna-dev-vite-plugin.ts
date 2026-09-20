@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'ns',
     'compiler',
   ],
-  source: {
-    github: 'nsna-lang/nsna',
-    npm: '@nsna-dev/vite-plugin',
-  },
   links: {
     github: 'https://github.com/nsna-lang/nsna',
     npm: 'https://www.npmjs.com/package/@nsna-dev/vite-plugin',
     website: 'https://github.com/nsna-lang/nsna#readme',
+  },
+  source: {
+    github: 'nsna-lang/nsna',
+    npm: '@nsna-dev/vite-plugin',
   },
   stats: {
     stars: 0,

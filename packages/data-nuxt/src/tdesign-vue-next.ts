@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://tdesign.tencent.com/vue-next/overview-en',
   },
   source: {
-    github: 'Tencent/tdesign-vue-next#main/packages/tdesign-vue-next-nuxt',
+    github: 'Tencent/tdesign-vue-next',
     npm: '@tdesign-vue-next/nuxt',
   },
 })

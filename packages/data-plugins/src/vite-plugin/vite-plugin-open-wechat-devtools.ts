@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'miniprogram',
     'uni-app',
   ],
-  source: {
-    github: 'AnonymXXX/vite-plugin-open-wechat-devtools',
-    npm: 'vite-plugin-open-wechat-devtools',
-  },
   links: {
     github: 'https://github.com/AnonymXXX/vite-plugin-open-wechat-devtools',
     npm: 'https://www.npmjs.com/package/vite-plugin-open-wechat-devtools',
     website: 'https://github.com/AnonymXXX/vite-plugin-open-wechat-devtools#readme',
+  },
+  source: {
+    github: 'AnonymXXX/vite-plugin-open-wechat-devtools',
+    npm: 'vite-plugin-open-wechat-devtools',
   },
   stats: {
     stars: 0,

@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'sass',
     'scss',
   ],
-  source: {
-    github: 'prantlf/rollup-plugin-scss-lit',
-    npm: 'rollup-plugin-scss-lit',
-  },
   links: {
     github: 'https://github.com/prantlf/rollup-plugin-scss-lit',
     npm: 'https://www.npmjs.com/package/rollup-plugin-scss-lit',
     website: 'http://github.com/prantlf/rollup-plugin-scss-lit/',
+  },
+  source: {
+    github: 'prantlf/rollup-plugin-scss-lit',
+    npm: 'rollup-plugin-scss-lit',
   },
   stats: {
     stars: 7,

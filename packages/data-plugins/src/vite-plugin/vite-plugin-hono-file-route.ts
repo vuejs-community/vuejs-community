@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'cloudflare',
     'workers',
   ],
-  source: {
-    github: 'AkagiYui/vite-plugin-hono-file-route',
-    npm: 'vite-plugin-hono-file-route',
-  },
   links: {
     github: 'https://github.com/AkagiYui/vite-plugin-hono-file-route',
     npm: 'https://www.npmjs.com/package/vite-plugin-hono-file-route',
     website: 'https://github.com/AkagiYui/vite-plugin-hono-file-route',
+  },
+  source: {
+    github: 'AkagiYui/vite-plugin-hono-file-route',
+    npm: 'vite-plugin-hono-file-route',
   },
   stats: {
     stars: 0,

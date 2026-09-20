@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vue-devtools',
     'react-devtools',
   ],
-  source: {
-    github: 'zjxxxxxxxxx/open-editor',
-    npm: '@line-copy-open/vite',
-  },
   links: {
     github: 'https://github.com/zjxxxxxxxxx/open-editor',
     npm: 'https://www.npmjs.com/package/@line-copy-open/vite',
     website: 'https://github.com/zjxxxxxxxxx/open-editor#readme',
+  },
+  source: {
+    github: 'zjxxxxxxxxx/open-editor',
+    npm: '@line-copy-open/vite',
   },
   stats: {
     stars: 1,

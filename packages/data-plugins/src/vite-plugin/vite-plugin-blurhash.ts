@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'blurhash',
   ],
-  source: {
-    github: 'nickgraffis/vite-plugin-blurhash',
-    npm: 'vite-plugin-blurhash',
-  },
   links: {
     github: 'https://github.com/nickgraffis/vite-plugin-blurhash',
     npm: 'https://www.npmjs.com/package/vite-plugin-blurhash',
     website: 'https://github.com/nickgraffis/vite-plugin-blurhash#readme',
+  },
+  source: {
+    github: 'nickgraffis/vite-plugin-blurhash',
+    npm: 'vite-plugin-blurhash',
   },
   stats: {
     stars: 0,

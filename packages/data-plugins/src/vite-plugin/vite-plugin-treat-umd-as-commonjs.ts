@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'require-js',
     'amd',
   ],
-  source: {
-    github: 'pakholeung37/vite-plugin-treat-umd-as-commonjs',
-    npm: 'vite-plugin-treat-umd-as-commonjs',
-  },
   links: {
     github: 'https://github.com/pakholeung37/vite-plugin-treat-umd-as-commonjs',
     npm: 'https://www.npmjs.com/package/vite-plugin-treat-umd-as-commonjs',
     website: 'https://github.com/pakholeung37/vite-plugin-treat-umd-as-commonjs#readme',
+  },
+  source: {
+    github: 'pakholeung37/vite-plugin-treat-umd-as-commonjs',
+    npm: 'vite-plugin-treat-umd-as-commonjs',
   },
   stats: {
     stars: 4,

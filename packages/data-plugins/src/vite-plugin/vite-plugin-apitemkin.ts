@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'potemkin',
     'apitemkin',
   ],
-  source: {
-    github: 'jopavsky/vite-plugin-apitemkin',
-    npm: 'vite-plugin-apitemkin',
-  },
   links: {
     github: 'https://github.com/jopavsky/vite-plugin-apitemkin',
     npm: 'https://www.npmjs.com/package/vite-plugin-apitemkin',
     website: 'https://github.com/jopavsky/vite-plugin-apitemkin#readme',
+  },
+  source: {
+    github: 'jopavsky/vite-plugin-apitemkin',
+    npm: 'vite-plugin-apitemkin',
   },
   stats: {
     stars: 0,

@@ -26,14 +26,14 @@ export default defineProjectMeta({
     '短路由',
     '自定义路由',
   ],
-  source: {
-    github: 'refinist/vite-plugin-uni-custom-routes',
-    npm: 'vite-plugin-uni-custom-routes',
-  },
   links: {
     github: 'https://github.com/refinist/vite-plugin-uni-custom-routes',
     npm: 'https://www.npmjs.com/package/vite-plugin-uni-custom-routes',
     website: 'https://github.com/refinist/vite-plugin-uni-custom-routes#readme',
+  },
+  source: {
+    github: 'refinist/vite-plugin-uni-custom-routes',
+    npm: 'vite-plugin-uni-custom-routes',
   },
   stats: {
     stars: 2,

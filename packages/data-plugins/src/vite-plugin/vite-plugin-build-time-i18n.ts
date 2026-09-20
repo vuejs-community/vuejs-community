@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'aheissenberger/vite-plugin-build-time-i18n',
-    npm: 'vite-plugin-build-time-i18n',
-  },
   links: {
     github: 'https://github.com/aheissenberger/vite-plugin-build-time-i18n',
     npm: 'https://www.npmjs.com/package/vite-plugin-build-time-i18n',
     website: 'https://github.com/aheissenberger/vite-plugin-build-time-i18n',
+  },
+  source: {
+    github: 'aheissenberger/vite-plugin-build-time-i18n',
+    npm: 'vite-plugin-build-time-i18n',
   },
   stats: {
     stars: 0,

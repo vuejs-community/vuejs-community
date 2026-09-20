@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'unplugin',
     'vite',
   ],
-  source: {
-    github: 'ryuzcorp/oxide',
-    npm: 'oxidejs',
-  },
   links: {
     github: 'https://github.com/ryuzcorp/oxide',
     npm: 'https://www.npmjs.com/package/oxidejs',
     website: 'https://github.com/ryuzcorp/oxide/tree/main/packages/oxidejs#readme',
+  },
+  source: {
+    github: 'ryuzcorp/oxide',
+    npm: 'oxidejs',
   },
   stats: {
     stars: 9,

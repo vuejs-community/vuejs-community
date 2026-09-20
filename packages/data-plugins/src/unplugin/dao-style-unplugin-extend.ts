@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'esbuild',
     'plugin',
   ],
-  source: {
-    npm: '@dao-style/unplugin-extend',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@dao-style/unplugin-extend',
+  },
+  source: {
+    npm: '@dao-style/unplugin-extend',
   },
   stats: {
     stars: 0,

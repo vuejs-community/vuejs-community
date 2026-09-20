@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'development',
     'local-development',
   ],
-  source: {
-    github: 'eastlondoner/vite-plugin-cloudflare-tunnel',
-    npm: 'vite-plugin-cloudflare-tunnel',
-  },
   links: {
     github: 'https://github.com/eastlondoner/vite-plugin-cloudflare-tunnel',
     npm: 'https://www.npmjs.com/package/vite-plugin-cloudflare-tunnel',
     website: 'https://github.com/eastlondoner/vite-plugin-cloudflare-tunnel#readme',
+  },
+  source: {
+    github: 'eastlondoner/vite-plugin-cloudflare-tunnel',
+    npm: 'vite-plugin-cloudflare-tunnel',
   },
   stats: {
     stars: 36,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'mpa',
     'nav',
   ],
-  source: {
-    github: 'aliuq/unplugin-nav-entry',
-    npm: 'unplugin-nav-entry',
-  },
   links: {
     github: 'https://github.com/aliuq/unplugin-nav-entry',
     npm: 'https://www.npmjs.com/package/unplugin-nav-entry',
     website: 'https://github.com/aliuq/unplugin-nav-entry#readme',
+  },
+  source: {
+    github: 'aliuq/unplugin-nav-entry',
+    npm: 'unplugin-nav-entry',
   },
   stats: {
     stars: 0,

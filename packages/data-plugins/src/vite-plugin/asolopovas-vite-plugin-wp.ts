@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'blocks',
     'hmr',
   ],
-  source: {
-    github: 'asolopovas/vite-plugin-wp',
-    npm: '@asolopovas/vite-plugin-wp',
-  },
   links: {
     github: 'https://github.com/asolopovas/vite-plugin-wp',
     npm: 'https://www.npmjs.com/package/@asolopovas/vite-plugin-wp',
     website: 'https://github.com/asolopovas/vite-plugin-wp#readme',
+  },
+  source: {
+    github: 'asolopovas/vite-plugin-wp',
+    npm: '@asolopovas/vite-plugin-wp',
   },
   stats: {
     stars: 9,

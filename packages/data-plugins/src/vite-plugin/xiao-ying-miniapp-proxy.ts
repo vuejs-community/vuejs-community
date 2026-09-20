@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'dev-proxy',
     'xiaoying',
   ],
-  source: {
-    npm: '@xiao-ying/miniapp-proxy',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xiao-ying/miniapp-proxy',
+  },
+  source: {
+    npm: '@xiao-ying/miniapp-proxy',
   },
   stats: {
     stars: 0,

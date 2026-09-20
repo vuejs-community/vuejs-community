@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'xparcai/vite-plugin-node-browser',
-    npm: 'vite-plugin-node-browser',
-  },
   links: {
     github: 'https://github.com/xparcai/vite-plugin-node-browser',
     npm: 'https://www.npmjs.com/package/vite-plugin-node-browser',
     website: 'https://github.com/xparcai/vite-plugin-node-browser#readme',
+  },
+  source: {
+    github: 'xparcai/vite-plugin-node-browser',
+    npm: 'vite-plugin-node-browser',
   },
   stats: {
     stars: 1,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'directory',
     'vite',
   ],
-  source: {
-    github: 'charles-liang/vite-plugin-markdown-context',
-    npm: 'vite-plugin-markdown-content',
-  },
   links: {
     github: 'https://github.com/charles-liang/vite-plugin-markdown-context',
     npm: 'https://www.npmjs.com/package/vite-plugin-markdown-content',
     website: 'https://github.com/harles-liang/vite-plugin-markdown-context#readme',
+  },
+  source: {
+    github: 'charles-liang/vite-plugin-markdown-context',
+    npm: 'vite-plugin-markdown-content',
   },
   stats: {
     stars: 0,

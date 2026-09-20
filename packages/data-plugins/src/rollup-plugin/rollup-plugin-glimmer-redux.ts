@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'glimmer',
     'rollup-plugin',
   ],
-  source: {
-    npm: 'rollup-plugin-glimmer-redux',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-glimmer-redux',
+  },
+  source: {
+    npm: 'rollup-plugin-glimmer-redux',
   },
   stats: {
     stars: 0,

@@ -28,14 +28,14 @@ export default defineProjectMeta({
     'import',
     'npm-package',
   ],
-  source: {
-    github: 'kitschpatrol/unplugin-tldraw',
-    npm: '@kitschpatrol/unplugin-tldraw',
-  },
   links: {
     github: 'https://github.com/kitschpatrol/unplugin-tldraw',
     npm: 'https://www.npmjs.com/package/@kitschpatrol/unplugin-tldraw',
     website: 'https://github.com/kitschpatrol/unplugin-tldraw',
+  },
+  source: {
+    github: 'kitschpatrol/unplugin-tldraw',
+    npm: '@kitschpatrol/unplugin-tldraw',
   },
   stats: {
     stars: 3,

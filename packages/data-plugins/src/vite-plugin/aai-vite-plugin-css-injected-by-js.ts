@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'css',
     'js',
   ],
-  source: {
-    github: 'marco-prontera/vite-plugin-css-injected-by-js',
-    npm: 'aai-vite-plugin-css-injected-by-js',
-  },
   links: {
     github: 'https://github.com/marco-prontera/vite-plugin-css-injected-by-js',
     npm: 'https://www.npmjs.com/package/aai-vite-plugin-css-injected-by-js',
     website: 'https://github.com/marco-prontera/vite-plugin-css-injected-by-js#readme',
+  },
+  source: {
+    github: 'marco-prontera/vite-plugin-css-injected-by-js',
+    npm: 'aai-vite-plugin-css-injected-by-js',
   },
   stats: {
     stars: 506,

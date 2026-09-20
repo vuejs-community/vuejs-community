@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/daliborgogic/nuxt-interpolation/tree/master',
   },
   source: {
-    github: 'daliborgogic/nuxt-interpolation#master',
+    github: 'daliborgogic/nuxt-interpolation',
     npm: 'nuxt-interpolation',
   },
 })

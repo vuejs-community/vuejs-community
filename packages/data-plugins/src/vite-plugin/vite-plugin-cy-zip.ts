@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'zip',
   ],
-  source: {
-    npm: 'vite-plugin-cy-zip',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-cy-zip',
+  },
+  source: {
+    npm: 'vite-plugin-cy-zip',
   },
   stats: {
     stars: 0,

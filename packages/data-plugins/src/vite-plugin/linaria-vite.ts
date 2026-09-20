@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'callstack/linaria',
-    npm: '@linaria/vite',
-  },
   links: {
     github: 'https://github.com/callstack/linaria',
     npm: 'https://www.npmjs.com/package/@linaria/vite',
     website: 'https://github.com/callstack/linaria#readme',
+  },
+  source: {
+    github: 'callstack/linaria',
+    npm: '@linaria/vite',
   },
   stats: {
     stars: 12351,

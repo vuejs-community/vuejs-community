@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'dependencies',
     'module-federation',
   ],
-  source: {
-    github: 'remorses/importmap-vite-plugin',
-    npm: 'importmap-vite-plugin',
-  },
   links: {
     github: 'https://github.com/remorses/importmap-vite-plugin',
     npm: 'https://www.npmjs.com/package/importmap-vite-plugin',
     website: 'https://github.com/remorses/importmap-vite-plugin#readme',
+  },
+  source: {
+    github: 'remorses/importmap-vite-plugin',
+    npm: 'importmap-vite-plugin',
   },
   stats: {
     stars: 6,

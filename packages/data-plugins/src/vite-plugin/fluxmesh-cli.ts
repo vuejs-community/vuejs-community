@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'cli',
     'vite-plugin',
   ],
-  source: {
-    npm: '@fluxmesh/cli',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@fluxmesh/cli',
+  },
+  source: {
+    npm: '@fluxmesh/cli',
   },
   stats: {
     stars: 0,

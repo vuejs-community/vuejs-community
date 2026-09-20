@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'flippedround/uni-devtools',
-    npm: '@uni-helper/devtools',
-  },
   links: {
     github: 'https://github.com/flippedround/uni-devtools',
     npm: 'https://www.npmjs.com/package/@uni-helper/devtools',
     website: 'https://github.com/flippedround/uni-devtools#readme',
+  },
+  source: {
+    github: 'flippedround/uni-devtools',
+    npm: '@uni-helper/devtools',
   },
   stats: {
     stars: 18,

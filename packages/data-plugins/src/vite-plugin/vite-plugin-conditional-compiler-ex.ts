@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'KeJunMao/vite-plugin-conditional-compile',
-    npm: 'vite-plugin-conditional-compiler-ex',
-  },
   links: {
     github: 'https://github.com/KeJunMao/vite-plugin-conditional-compile',
     npm: 'https://www.npmjs.com/package/vite-plugin-conditional-compiler-ex',
     website: 'https://github.com/KeJunMao/vite-plugin-conditional-compile',
+  },
+  source: {
+    github: 'KeJunMao/vite-plugin-conditional-compile',
+    npm: 'vite-plugin-conditional-compiler-ex',
   },
   stats: {
     stars: 84,

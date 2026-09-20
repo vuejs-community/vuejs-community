@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'html',
   ],
-  source: {
-    github: 'Mistruth/misturth-rollup-html-plugin',
-    npm: 'omega-html-template',
-  },
   links: {
     github: 'https://github.com/Mistruth/misturth-rollup-html-plugin',
     npm: 'https://www.npmjs.com/package/omega-html-template',
     website: 'https://github.com/Mistruth/misturth-rollup-html-plugin#readme',
+  },
+  source: {
+    github: 'Mistruth/misturth-rollup-html-plugin',
+    npm: 'omega-html-template',
   },
   stats: {
     stars: 0,

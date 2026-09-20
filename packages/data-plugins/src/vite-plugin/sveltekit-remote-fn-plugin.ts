@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'sveltekit',
     'remote-functions',
   ],
-  source: {
-    github: 'jhubbardsf/sveltekit-remote-fn-plugin',
-    npm: 'sveltekit-remote-fn-plugin',
-  },
   links: {
     github: 'https://github.com/jhubbardsf/sveltekit-remote-fn-plugin',
     npm: 'https://www.npmjs.com/package/sveltekit-remote-fn-plugin',
     website: 'https://github.com/jhubbardsf/sveltekit-remote-fn-plugin#readme',
+  },
+  source: {
+    github: 'jhubbardsf/sveltekit-remote-fn-plugin',
+    npm: 'sveltekit-remote-fn-plugin',
   },
   stats: {
     stars: 0,

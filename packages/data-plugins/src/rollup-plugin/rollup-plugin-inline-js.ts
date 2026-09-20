@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'static',
     'assets',
   ],
-  source: {
-    github: 'eight04/rollup-plugin-inline-js',
-    npm: 'rollup-plugin-inline-js',
-  },
   links: {
     github: 'https://github.com/eight04/rollup-plugin-inline-js',
     npm: 'https://www.npmjs.com/package/rollup-plugin-inline-js',
     website: 'https://github.com/eight04/rollup-plugin-inline-js#readme',
+  },
+  source: {
+    github: 'eight04/rollup-plugin-inline-js',
+    npm: 'rollup-plugin-inline-js',
   },
   stats: {
     stars: 3,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'ben-lau/resource-fallback',
-    npm: '@resource-fallback/vite-plugin',
-  },
   links: {
     github: 'https://github.com/ben-lau/resource-fallback',
     npm: 'https://www.npmjs.com/package/@resource-fallback/vite-plugin',
     website: 'https://github.com/ben-lau/resource-fallback/tree/main/packages/vite-plugin#readme',
+  },
+  source: {
+    github: 'ben-lau/resource-fallback',
+    npm: '@resource-fallback/vite-plugin',
   },
   stats: {
     stars: 2,

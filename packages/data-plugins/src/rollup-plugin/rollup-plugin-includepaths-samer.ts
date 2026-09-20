@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup',
     'es6',
   ],
-  source: {
-    github: 'dot-build/rollup-plugin-includepaths',
-    npm: 'rollup-plugin-includepaths-samer',
-  },
   links: {
     github: 'https://github.com/dot-build/rollup-plugin-includepaths',
     npm: 'https://www.npmjs.com/package/rollup-plugin-includepaths-samer',
     website: 'https://github.com/dot-build/rollup-plugin-includepaths#readme',
+  },
+  source: {
+    github: 'dot-build/rollup-plugin-includepaths',
+    npm: 'rollup-plugin-includepaths-samer',
   },
   stats: {
     stars: 96,

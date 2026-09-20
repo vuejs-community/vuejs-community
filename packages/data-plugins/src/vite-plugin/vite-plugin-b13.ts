@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'typo3',
     'b13',
   ],
-  source: {
-    npm: 'vite-plugin-b13',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-b13',
+  },
+  source: {
+    npm: 'vite-plugin-b13',
   },
   stats: {
     stars: 0,

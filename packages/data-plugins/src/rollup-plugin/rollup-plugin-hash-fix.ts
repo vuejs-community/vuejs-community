@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'hash',
     'rev',
   ],
-  source: {
-    github: 'phamann/rollup-plugin-hash',
-    npm: 'rollup-plugin-hash-fix',
-  },
   links: {
     github: 'https://github.com/phamann/rollup-plugin-hash',
     npm: 'https://www.npmjs.com/package/rollup-plugin-hash-fix',
     website: 'https://github.com/phamann/rollup-plugin-hash#readme',
+  },
+  source: {
+    github: 'phamann/rollup-plugin-hash',
+    npm: 'rollup-plugin-hash-fix',
   },
   stats: {
     stars: 47,

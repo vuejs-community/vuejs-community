@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup',
     'zip',
   ],
-  source: {
-    github: 'gordonmleigh/rollup-plugin-zip',
-    npm: '@gordonmleigh/rollup-plugin-zip',
-  },
   links: {
     github: 'https://github.com/gordonmleigh/rollup-plugin-zip',
     npm: 'https://www.npmjs.com/package/@gordonmleigh/rollup-plugin-zip',
     website: 'https://github.com/gordonmleigh/rollup-plugin-zip#readme',
+  },
+  source: {
+    github: 'gordonmleigh/rollup-plugin-zip',
+    npm: '@gordonmleigh/rollup-plugin-zip',
   },
   stats: {
     stars: 0,

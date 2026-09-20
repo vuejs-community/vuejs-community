@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'build-info',
     'meta',
   ],
-  source: {
-    github: 'lazy-people-org/version-painter',
-    npm: 'version-painter',
-  },
   links: {
     github: 'https://github.com/lazy-people-org/version-painter',
     npm: 'https://www.npmjs.com/package/version-painter',
     website: 'https://github.com/lazy-people-org/version-painter#readme',
+  },
+  source: {
+    github: 'lazy-people-org/version-painter',
+    npm: 'version-painter',
   },
   stats: {
     stars: 0,

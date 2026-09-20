@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'export',
     'bind',
   ],
-  source: {
-    github: 'tehvgg/rollup-plugin-force-binding',
-    npm: 'rollup-plugin-force-binding',
-  },
   links: {
     github: 'https://github.com/tehvgg/rollup-plugin-force-binding',
     npm: 'https://www.npmjs.com/package/rollup-plugin-force-binding',
     website: 'https://github.com/tehvgg/rollup-plugin-force-binding#readme',
+  },
+  source: {
+    github: 'tehvgg/rollup-plugin-force-binding',
+    npm: 'rollup-plugin-force-binding',
   },
   stats: {
     stars: 3,

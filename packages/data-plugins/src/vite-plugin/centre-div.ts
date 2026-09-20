@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    npm: 'centre-div',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/centre-div',
+  },
+  source: {
+    npm: 'centre-div',
   },
   stats: {
     stars: 0,

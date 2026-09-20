@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'html-loader',
     'loader',
   ],
-  source: {
-    github: 'xqkeji/vite-plugin-xq-include',
-    npm: 'vite-plugin-xq-include',
-  },
   links: {
     github: 'https://github.com/xqkeji/vite-plugin-xq-include',
     npm: 'https://www.npmjs.com/package/vite-plugin-xq-include',
     website: 'http://xqkeji.cn/',
+  },
+  source: {
+    github: 'xqkeji/vite-plugin-xq-include',
+    npm: 'vite-plugin-xq-include',
   },
   stats: {
     stars: 2,

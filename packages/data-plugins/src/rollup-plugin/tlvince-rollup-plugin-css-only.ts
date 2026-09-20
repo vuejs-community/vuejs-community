@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'modules',
     'rollup-plugin-vue2',
   ],
-  source: {
-    github: 'thgh/rollup-plugin-css-only',
-    npm: 'tlvince-rollup-plugin-css-only',
-  },
   links: {
     github: 'https://github.com/thgh/rollup-plugin-css-only',
     npm: 'https://www.npmjs.com/package/tlvince-rollup-plugin-css-only',
     website: 'https://github.com/thgh/rollup-plugin-css-only',
+  },
+  source: {
+    github: 'thgh/rollup-plugin-css-only',
+    npm: 'tlvince-rollup-plugin-css-only',
   },
   stats: {
     stars: 0,

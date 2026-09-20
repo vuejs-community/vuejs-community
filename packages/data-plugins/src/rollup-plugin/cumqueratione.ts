@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'banner',
     'license',
   ],
-  source: {
-    github: 'KathlynBeatty/cumqueratione',
-    npm: 'cumqueratione',
-  },
   links: {
     github: 'https://github.com/KathlynBeatty/cumqueratione',
     npm: 'https://www.npmjs.com/package/cumqueratione',
     website: 'https://github.com/KathlynBeatty/cumqueratione#readme',
+  },
+  source: {
+    github: 'KathlynBeatty/cumqueratione',
+    npm: 'cumqueratione',
   },
   stats: {
     stars: 0,

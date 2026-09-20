@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'Dunqing/unplugin-moment-to-dayjs',
-    npm: 'unplugin-moment-to-dayjs',
-  },
   links: {
     github: 'https://github.com/Dunqing/unplugin-moment-to-dayjs',
     npm: 'https://www.npmjs.com/package/unplugin-moment-to-dayjs',
     website: 'https://github.com/Dunqing/unplugin-moment-to-dayjs#readme',
+  },
+  source: {
+    github: 'Dunqing/unplugin-moment-to-dayjs',
+    npm: 'unplugin-moment-to-dayjs',
   },
   stats: {
     stars: 18,

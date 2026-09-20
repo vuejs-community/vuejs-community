@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'development',
     'typescript',
   ],
-  source: {
-    npm: 'vite-plugin-better-console',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-better-console',
+  },
+  source: {
+    npm: 'vite-plugin-better-console',
   },
   stats: {
     stars: 0,

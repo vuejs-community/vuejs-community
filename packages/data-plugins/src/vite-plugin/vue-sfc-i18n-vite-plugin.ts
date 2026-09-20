@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vue',
     'vue3',
   ],
-  source: {
-    github: 'levchak0910/vue-sfc-i18n',
-    npm: '@vue-sfc-i18n/vite-plugin',
-  },
   links: {
     github: 'https://github.com/levchak0910/vue-sfc-i18n',
     npm: 'https://www.npmjs.com/package/@vue-sfc-i18n/vite-plugin',
-    website: 'https://github.com/levchak0910/vue-sfc-i18n#readme',
+    website: 'https://github.com/levchak0910/vue-sfc-i18n',
+  },
+  source: {
+    github: 'levchak0910/vue-sfc-i18n',
+    npm: '@vue-sfc-i18n/vite-plugin',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'ignore',
     'import',
   ],
-  source: {
-    github: 'yohangz/rollup-plugin-ignore-import',
-    npm: 'rollup-plugin-ignore-import',
-  },
   links: {
     github: 'https://github.com/yohangz/rollup-plugin-ignore-import',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ignore-import',
     website: 'https://github.com/yohangz/rollup-plugin-ignore-import#readme',
+  },
+  source: {
+    github: 'yohangz/rollup-plugin-ignore-import',
+    npm: 'rollup-plugin-ignore-import',
   },
   stats: {
     stars: 9,

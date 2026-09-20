@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'seo',
     'vite-plugin',
   ],
-  source: {
-    github: 'hughcube/uni-pretty-url',
-    npm: '@hughcube/uni-pretty-url',
-  },
   links: {
     github: 'https://github.com/hughcube/uni-pretty-url',
     npm: 'https://www.npmjs.com/package/@hughcube/uni-pretty-url',
     website: 'https://github.com/hughcube/uni-pretty-url#readme',
+  },
+  source: {
+    github: 'hughcube/uni-pretty-url',
+    npm: '@hughcube/uni-pretty-url',
   },
   stats: {
     stars: 1,

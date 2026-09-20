@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'unplugin',
     'vite',
   ],
-  source: {
-    github: 'utakotoba/unplugin-svelte-comps',
-    npm: 'unplugin-svelte-comps',
-  },
   links: {
     github: 'https://github.com/utakotoba/unplugin-svelte-comps',
     npm: 'https://www.npmjs.com/package/unplugin-svelte-comps',
     website: 'https://github.com/utakotoba/unplugin-svelte-comps#readme',
+  },
+  source: {
+    github: 'utakotoba/unplugin-svelte-comps',
+    npm: 'unplugin-svelte-comps',
   },
   stats: {
     stars: 0,

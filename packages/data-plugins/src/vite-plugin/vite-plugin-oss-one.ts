@@ -33,14 +33,14 @@ export default defineProjectMeta({
     'minio',
     'deploy',
   ],
-  source: {
-    github: 'zhouchengi/vite-plugin-oss-one',
-    npm: 'vite-plugin-oss-one',
-  },
   links: {
     github: 'https://github.com/zhouchengi/vite-plugin-oss-one',
     npm: 'https://www.npmjs.com/package/vite-plugin-oss-one',
     website: 'https://github.com/zhouchengi/vite-plugin-oss-one#readme',
+  },
+  source: {
+    github: 'zhouchengi/vite-plugin-oss-one',
+    npm: 'vite-plugin-oss-one',
   },
   stats: {
     stars: 0,

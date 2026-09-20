@@ -80,14 +80,14 @@ export default defineProjectMeta({
     'build-health',
     'quality-score',
   ],
-  source: {
-    github: 'yathink3/vite-plugins-library',
-    npm: 'vite-plugins-library',
-  },
   links: {
     github: 'https://github.com/yathink3/vite-plugins-library',
     npm: 'https://www.npmjs.com/package/vite-plugins-library',
     website: 'https://github.com/yathink3/vite-plugins-library#readme',
+  },
+  source: {
+    github: 'yathink3/vite-plugins-library',
+    npm: 'vite-plugins-library',
   },
   stats: {
     stars: 1,

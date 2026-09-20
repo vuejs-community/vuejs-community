@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'Amir-Abushanab/ascii-fx',
-    npm: '@ascii-fx/vite',
-  },
   links: {
     github: 'https://github.com/Amir-Abushanab/ascii-fx',
     npm: 'https://www.npmjs.com/package/@ascii-fx/vite',
     website: 'https://github.com/Amir-Abushanab/ascii-fx#readme',
+  },
+  source: {
+    github: 'Amir-Abushanab/ascii-fx',
+    npm: '@ascii-fx/vite',
   },
   stats: {
     stars: 0,

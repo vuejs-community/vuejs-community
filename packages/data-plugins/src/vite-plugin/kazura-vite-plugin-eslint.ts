@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'eslint',
     'vite-plugin',
   ],
-  source: {
-    github: 'kazura233/kazurajs',
-    npm: '@kazura/vite-plugin-eslint',
-  },
   links: {
     github: 'https://github.com/kazura233/kazurajs',
     npm: 'https://www.npmjs.com/package/@kazura/vite-plugin-eslint',
     website: 'https://github.com/kazura233/kazurajs/tree/master/packages/vite-plugin-eslint#readme',
+  },
+  source: {
+    github: 'kazura233/kazurajs',
+    npm: '@kazura/vite-plugin-eslint',
   },
   stats: {
     stars: 137,

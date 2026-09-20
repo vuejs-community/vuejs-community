@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'portable',
     'tamper-evident',
   ],
-  source: {
-    github: 'dynamicapplicationinterface/dai-core',
-    npm: 'dai-core',
-  },
   links: {
     github: 'https://github.com/dynamicapplicationinterface/dai-core',
     npm: 'https://www.npmjs.com/package/dai-core',
     website: 'https://github.com/dynamicapplicationinterface/dai-core#readme',
+  },
+  source: {
+    github: 'dynamicapplicationinterface/dai-core',
+    npm: 'dai-core',
   },
   stats: {
     stars: 0,

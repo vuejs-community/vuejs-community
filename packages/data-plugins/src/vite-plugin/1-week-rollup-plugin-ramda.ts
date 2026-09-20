@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'optimize',
     'minify',
   ],
-  source: {
-    github: 'kyle-johnson/rollup-plugin-optimize-lodash-imports',
-    npm: '@1-week/rollup-plugin-ramda',
-  },
   links: {
     github: 'https://github.com/kyle-johnson/rollup-plugin-optimize-lodash-imports',
     npm: 'https://www.npmjs.com/package/@1-week/rollup-plugin-ramda',
     website: 'https://github.com/kyle-johnson/rollup-plugin-optimize-lodash-imports/tree/main/packages/rollup-plugin',
+  },
+  source: {
+    github: 'kyle-johnson/rollup-plugin-optimize-lodash-imports',
+    npm: '@1-week/rollup-plugin-ramda',
   },
   stats: {
     stars: 11,

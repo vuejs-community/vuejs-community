@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'hunghg255/vite-start-qrcode',
-    npm: 'vite-host-qrcode',
-  },
   links: {
     github: 'https://github.com/hunghg255/vite-start-qrcode',
     npm: 'https://www.npmjs.com/package/vite-host-qrcode',
     website: 'https://github.com/hunghg255/vite-start-qrcode#readme',
+  },
+  source: {
+    github: 'hunghg255/vite-start-qrcode',
+    npm: 'vite-host-qrcode',
   },
   stats: {
     stars: 0,

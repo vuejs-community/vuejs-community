@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'MoritzLoewenstein/vite-wp-theme',
-    npm: '@moritzloewenstein/vite-wp-theme',
-  },
   links: {
     github: 'https://github.com/MoritzLoewenstein/vite-wp-theme',
     npm: 'https://www.npmjs.com/package/@moritzloewenstein/vite-wp-theme',
     website: 'https://github.com/MoritzLoewenstein/vite-wp-theme#readme',
+  },
+  source: {
+    github: 'MoritzLoewenstein/vite-wp-theme',
+    npm: '@moritzloewenstein/vite-wp-theme',
   },
   stats: {
     stars: 0,

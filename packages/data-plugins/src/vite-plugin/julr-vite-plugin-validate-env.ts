@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'zod',
   ],
-  source: {
-    github: 'Julien-R44/vite-plugin-validate-env',
-    npm: '@julr/vite-plugin-validate-env',
-  },
   links: {
     github: 'https://github.com/Julien-R44/vite-plugin-validate-env',
     npm: 'https://www.npmjs.com/package/@julr/vite-plugin-validate-env',
     website: 'https://github.com/Julien-R44/vite-plugin-validate-env#readme',
+  },
+  source: {
+    github: 'Julien-R44/vite-plugin-validate-env',
+    npm: '@julr/vite-plugin-validate-env',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'hmr',
     'typescript',
   ],
-  source: {
-    github: 'freebatteryfactory/LiteShip',
-    npm: '@czap/vite',
-  },
   links: {
     github: 'https://github.com/freebatteryfactory/LiteShip',
     npm: 'https://www.npmjs.com/package/@czap/vite',
     website: 'https://github.com/freebatteryfactory/LiteShip#readme',
+  },
+  source: {
+    github: 'freebatteryfactory/LiteShip',
+    npm: '@czap/vite',
   },
   stats: {
     stars: 1,

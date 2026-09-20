@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-source-map',
     'vite-plugin',
   ],
-  source: {
-    github: 'mobei01/eyes-sourcemap-vite',
-    npm: 'eyes-sourcemap-vite',
-  },
   links: {
     github: 'https://github.com/mobei01/eyes-sourcemap-vite',
     npm: 'https://www.npmjs.com/package/eyes-sourcemap-vite',
     website: 'https://github.com/mobei01/eyes-sourcemap-vite#readme',
+  },
+  source: {
+    github: 'mobei01/eyes-sourcemap-vite',
+    npm: 'eyes-sourcemap-vite',
   },
   stats: {
     stars: 0,

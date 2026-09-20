@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'source transform',
   ],
-  source: {
-    github: 'baleada/rollup-plugin-source-transform',
-    npm: '@baleada/rollup-plugin-source-transform',
-  },
   links: {
     github: 'https://github.com/baleada/rollup-plugin-source-transform',
     npm: 'https://www.npmjs.com/package/@baleada/rollup-plugin-source-transform',
     website: 'https://baleada.netlify.com',
+  },
+  source: {
+    github: 'baleada/rollup-plugin-source-transform',
+    npm: '@baleada/rollup-plugin-source-transform',
   },
   stats: {
     stars: 0,

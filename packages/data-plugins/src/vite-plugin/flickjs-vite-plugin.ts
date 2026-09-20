@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'compiler',
     'reactive',
   ],
-  source: {
-    github: 'jaymalave/flick',
-    npm: '@flickjs/vite-plugin',
-  },
   links: {
     github: 'https://github.com/jaymalave/flick',
     npm: 'https://www.npmjs.com/package/@flickjs/vite-plugin',
     website: 'https://github.com/jaymalave/flick#readme',
+  },
+  source: {
+    github: 'jaymalave/flick',
+    npm: '@flickjs/vite-plugin',
   },
   stats: {
     stars: 0,

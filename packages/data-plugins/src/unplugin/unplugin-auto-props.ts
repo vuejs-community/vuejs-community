@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'LoTwT/unplugin-auto-props',
-    npm: 'unplugin-auto-props',
-  },
   links: {
     github: 'https://github.com/LoTwT/unplugin-auto-props',
     npm: 'https://www.npmjs.com/package/unplugin-auto-props',
     website: 'https://github.com/LoTwT/unplugin-auto-props#readme',
+  },
+  source: {
+    github: 'LoTwT/unplugin-auto-props',
+    npm: 'unplugin-auto-props',
   },
   stats: {
     stars: 2,

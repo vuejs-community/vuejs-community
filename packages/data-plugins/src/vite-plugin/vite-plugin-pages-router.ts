@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'file-system-routing',
     'pages-router',
   ],
-  source: {
-    github: 'chickengir1/vite-plugin-pages-router',
-    npm: 'vite-plugin-pages-router',
-  },
   links: {
     github: 'https://github.com/chickengir1/vite-plugin-pages-router',
     npm: 'https://www.npmjs.com/package/vite-plugin-pages-router',
     website: 'https://github.com/chickengir1/vite-plugin-pages-router#readme',
+  },
+  source: {
+    github: 'chickengir1/vite-plugin-pages-router',
+    npm: 'vite-plugin-pages-router',
   },
   stats: {
     stars: 2,

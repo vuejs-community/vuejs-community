@@ -33,14 +33,14 @@ export default defineProjectMeta({
     'vue.js',
     'web-development',
   ],
-  source: {
-    github: 'Castlenine/vite-plugin-remove-attribute',
-    npm: '@castlenine/vite-plugin-remove-attribute',
-  },
   links: {
     github: 'https://github.com/Castlenine/vite-plugin-remove-attribute',
     npm: 'https://www.npmjs.com/package/@castlenine/vite-plugin-remove-attribute',
     website: 'https://github.com/Castlenine/vite-plugin-remove-attribute',
+  },
+  source: {
+    github: 'Castlenine/vite-plugin-remove-attribute',
+    npm: '@castlenine/vite-plugin-remove-attribute',
   },
   stats: {
     stars: 4,

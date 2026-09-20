@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'm-f2e/vite-plugin-import-antd',
-    npm: '@m-f2e/vite-plugin-import-antd',
-  },
   links: {
     github: 'https://github.com/m-f2e/vite-plugin-import-antd',
     npm: 'https://www.npmjs.com/package/@m-f2e/vite-plugin-import-antd',
     website: 'https://github.com/m-f2e/vite-plugin-import-antd#readme',
+  },
+  source: {
+    github: 'm-f2e/vite-plugin-import-antd',
+    npm: '@m-f2e/vite-plugin-import-antd',
   },
   stats: {
     stars: 1,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'farm',
     'astro',
   ],
-  source: {
-    github: 'o-az/unplugin-cloudflare-tunnel',
-    npm: 'unplugin-cloudflare-tunnel',
-  },
   links: {
     github: 'https://github.com/o-az/unplugin-cloudflare-tunnel',
     npm: 'https://www.npmjs.com/package/unplugin-cloudflare-tunnel',
     website: 'https://github.com/o-az/unplugin-cloudflare-tunnel#readme',
+  },
+  source: {
+    github: 'o-az/unplugin-cloudflare-tunnel',
+    npm: 'unplugin-cloudflare-tunnel',
   },
   stats: {
     stars: 0,

@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    npm: 'rollup-plugin-ephemeral',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-ephemeral',
+  },
+  source: {
+    npm: 'rollup-plugin-ephemeral',
   },
   stats: {
     stars: 0,

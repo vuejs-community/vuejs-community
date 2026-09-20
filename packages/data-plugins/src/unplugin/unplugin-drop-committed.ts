@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'committed',
     'staged',
   ],
-  source: {
-    github: 'KID-joker/unplugin-drop-committed',
-    npm: 'unplugin-drop-committed',
-  },
   links: {
     github: 'https://github.com/KID-joker/unplugin-drop-committed',
     npm: 'https://www.npmjs.com/package/unplugin-drop-committed',
     website: 'https://github.com/KID-joker/unplugin-drop-committed#readme',
+  },
+  source: {
+    github: 'KID-joker/unplugin-drop-committed',
+    npm: 'unplugin-drop-committed',
   },
   stats: {
     stars: 1,

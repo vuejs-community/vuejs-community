@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'npm',
     'rollup-plugin',
   ],
-  source: {
-    github: 'zeekay/rollup-plugin-node-resolve-magic',
-    npm: 'rollup-plugin-node-resolve-magic',
-  },
   links: {
     github: 'https://github.com/zeekay/rollup-plugin-node-resolve-magic',
     npm: 'https://www.npmjs.com/package/rollup-plugin-node-resolve-magic',
     website: 'https://github.com/zeekay/rollup-plugin-node-resolve-magic',
+  },
+  source: {
+    github: 'zeekay/rollup-plugin-node-resolve-magic',
+    npm: 'rollup-plugin-node-resolve-magic',
   },
   stats: {
     stars: 2,

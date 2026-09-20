@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rollup',
     'esbuild',
   ],
-  source: {
-    github: 'unplugin/unplugin-vue',
-    npm: 'unplugin-vue',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-vue',
     npm: 'https://www.npmjs.com/package/unplugin-vue',
     website: 'https://github.com/unplugin/unplugin-vue#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-vue',
+    npm: 'unplugin-vue',
   },
   stats: {
     stars: 0,

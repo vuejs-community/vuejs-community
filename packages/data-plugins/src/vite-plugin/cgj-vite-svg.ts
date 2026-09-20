@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'svgo',
     'vben',
   ],
-  source: {
-    github: 'anncwb/vite-plugin-svg-icons',
-    npm: 'cgj-vite-svg',
-  },
   links: {
     github: 'https://github.com/anncwb/vite-plugin-svg-icons',
     npm: 'https://www.npmjs.com/package/cgj-vite-svg',
     website: 'https://github.com/anncwb/vite-plugin-svg-icons/tree/master/#readme',
+  },
+  source: {
+    github: 'anncwb/vite-plugin-svg-icons',
+    npm: 'cgj-vite-svg',
   },
   stats: {
     stars: 0,

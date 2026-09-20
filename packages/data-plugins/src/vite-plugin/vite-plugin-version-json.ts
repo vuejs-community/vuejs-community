@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite plugin',
     'version',
   ],
-  source: {
-    npm: 'vite-plugin-version-json',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-version-json',
+  },
+  source: {
+    npm: 'vite-plugin-version-json',
   },
   stats: {
     stars: 0,

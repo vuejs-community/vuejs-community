@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'init',
   ],
-  source: {
-    github: 'shouston3/rollup-plugin-init',
-    npm: 'rollup-plugin-init',
-  },
   links: {
     github: 'https://github.com/shouston3/rollup-plugin-init',
     npm: 'https://www.npmjs.com/package/rollup-plugin-init',
     website: 'https://github.com/shouston3/rollup-plugin-init#readme',
+  },
+  source: {
+    github: 'shouston3/rollup-plugin-init',
+    npm: 'rollup-plugin-init',
   },
   stats: {
     stars: 0,

@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'build',
     'cli',
   ],
-  source: {
-    github: 'ireneo-cobarjr/vite-plugin-envka',
-    npm: 'vite-plugin-envka',
-  },
   links: {
     github: 'https://github.com/ireneo-cobarjr/vite-plugin-envka',
     npm: 'https://www.npmjs.com/package/vite-plugin-envka',
     website: 'https://github.com/ireneo-cobarjr/vite-plugin-envka',
+  },
+  source: {
+    github: 'ireneo-cobarjr/vite-plugin-envka',
+    npm: 'vite-plugin-envka',
   },
   stats: {
     stars: 0,

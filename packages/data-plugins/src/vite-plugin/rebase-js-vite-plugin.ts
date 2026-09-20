@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rust',
     'oxc',
   ],
-  source: {
-    github: 'thinkgrid-labs/rebase-js',
-    npm: '@rebase-js/vite-plugin',
-  },
   links: {
     github: 'https://github.com/thinkgrid-labs/rebase-js',
     npm: 'https://www.npmjs.com/package/@rebase-js/vite-plugin',
     website: 'https://github.com/thinkgrid-labs/rebase-js#readme',
+  },
+  source: {
+    github: 'thinkgrid-labs/rebase-js',
+    npm: '@rebase-js/vite-plugin',
   },
   stats: {
     stars: 0,

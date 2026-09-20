@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vue',
     'react',
   ],
-  source: {
-    github: 'Rupiong/vite-nanaSprite',
-    npm: 'vite-nana-sprite',
-  },
   links: {
     github: 'https://github.com/Rupiong/vite-nanaSprite',
     npm: 'https://www.npmjs.com/package/vite-nana-sprite',
     website: 'https://github.com/Rupiong/vite-nanaSprite#readme',
+  },
+  source: {
+    github: 'Rupiong/vite-nanaSprite',
+    npm: 'vite-nana-sprite',
   },
   stats: {
     stars: 0,

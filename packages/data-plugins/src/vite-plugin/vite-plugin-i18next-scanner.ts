@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'i18next-scanner',
     'react',
   ],
-  source: {
-    npm: 'vite-plugin-i18next-scanner',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-i18next-scanner',
+  },
+  source: {
+    npm: 'vite-plugin-i18next-scanner',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dotenv',
     'runtime-env',
   ],
-  source: {
-    github: 'DidacBA/vite-plugin-runtime-dotenv',
-    npm: 'vite-plugin-runtime-dotenv',
-  },
   links: {
     github: 'https://github.com/DidacBA/vite-plugin-runtime-dotenv',
     npm: 'https://www.npmjs.com/package/vite-plugin-runtime-dotenv',
     website: 'https://github.com/DidacBA/vite-plugin-runtime-dotenv',
+  },
+  source: {
+    github: 'DidacBA/vite-plugin-runtime-dotenv',
+    npm: 'vite-plugin-runtime-dotenv',
   },
   stats: {
     stars: 0,

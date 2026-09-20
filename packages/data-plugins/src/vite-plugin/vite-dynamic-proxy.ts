@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'api-proxy',
     'reverse-proxy',
   ],
-  source: {
-    github: 'imvad/vite-dynamic-proxy',
-    npm: 'vite-dynamic-proxy',
-  },
   links: {
     github: 'https://github.com/imvad/vite-dynamic-proxy',
     npm: 'https://www.npmjs.com/package/vite-dynamic-proxy',
     website: 'https://github.com/imvad/vite-dynamic-proxy#readme',
+  },
+  source: {
+    github: 'imvad/vite-dynamic-proxy',
+    npm: 'vite-dynamic-proxy',
   },
   stats: {
     stars: 0,

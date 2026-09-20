@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'source-location',
     'component-state',
   ],
-  source: {
-    github: 'bingquan040601/vite-plugin-vue-insight',
-    npm: 'vite-plugin-vue-insight',
-  },
   links: {
     github: 'https://github.com/bingquan040601/vite-plugin-vue-insight',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-insight',
     website: 'https://github.com/bingquan040601/vite-plugin-vue-insight#readme',
+  },
+  source: {
+    github: 'bingquan040601/vite-plugin-vue-insight',
+    npm: 'vite-plugin-vue-insight',
   },
   stats: {
     stars: 7,

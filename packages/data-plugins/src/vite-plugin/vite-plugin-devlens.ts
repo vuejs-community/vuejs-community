@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'ollama',
     'dx',
   ],
-  source: {
-    github: 'vetrivelanarsu/vite-plugin-devlens',
-    npm: 'vite-plugin-devlens',
-  },
   links: {
     github: 'https://github.com/vetrivelanarsu/vite-plugin-devlens',
     npm: 'https://www.npmjs.com/package/vite-plugin-devlens',
     website: 'https://github.com/vetrivelanarsu/vite-plugin-devlens#readme',
+  },
+  source: {
+    github: 'vetrivelanarsu/vite-plugin-devlens',
+    npm: 'vite-plugin-devlens',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'workers',
     'cloudflare-workers',
   ],
-  source: {
-    github: 'The-LukeZ/sveltekit-cloudflare-do',
-    npm: 'sveltekit-cloudflare-do',
-  },
   links: {
     github: 'https://github.com/The-LukeZ/sveltekit-cloudflare-do',
     npm: 'https://www.npmjs.com/package/sveltekit-cloudflare-do',
     website: 'https://github.com/The-LukeZ/sveltekit-cloudflare-do#readme',
+  },
+  source: {
+    github: 'The-LukeZ/sveltekit-cloudflare-do',
+    npm: 'sveltekit-cloudflare-do',
   },
   stats: {
     stars: 0,

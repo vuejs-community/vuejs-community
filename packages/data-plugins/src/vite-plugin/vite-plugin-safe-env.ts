@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'chicong065/vite-plugin-safe-env',
-    npm: 'vite-plugin-safe-env',
-  },
   links: {
     github: 'https://github.com/chicong065/vite-plugin-safe-env',
     npm: 'https://www.npmjs.com/package/vite-plugin-safe-env',
     website: 'https://github.com/chicong065/vite-plugin-safe-env#readme',
+  },
+  source: {
+    github: 'chicong065/vite-plugin-safe-env',
+    npm: 'vite-plugin-safe-env',
   },
   stats: {
     stars: 4,

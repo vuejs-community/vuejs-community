@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'remove-console',
     'plugin',
   ],
-  source: {
-    npm: '@slaykit/remove-console-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@slaykit/remove-console-plugin',
+  },
+  source: {
+    npm: '@slaykit/remove-console-plugin',
   },
   stats: {
     stars: 0,

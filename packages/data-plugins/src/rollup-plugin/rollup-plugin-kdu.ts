@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'kdu',
   ],
-  source: {
-    github: 'kdujs/rollup-plugin-kdu',
-    npm: 'rollup-plugin-kdu',
-  },
   links: {
     github: 'https://github.com/kdujs/rollup-plugin-kdu',
     npm: 'https://www.npmjs.com/package/rollup-plugin-kdu',
     website: 'https://github.com/kdujs/rollup-plugin-kdu#readme',
+  },
+  source: {
+    github: 'kdujs/rollup-plugin-kdu',
+    npm: 'rollup-plugin-kdu',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'frontend',
     'vite-plugin',
   ],
-  source: {
-    github: 'NotJustAnna/SeamStack',
-    npm: '@seamstack/vite',
-  },
   links: {
     github: 'https://github.com/NotJustAnna/SeamStack',
     npm: 'https://www.npmjs.com/package/@seamstack/vite',
     website: 'https://github.com/NotJustAnna/SeamStack#readme',
+  },
+  source: {
+    github: 'NotJustAnna/SeamStack',
+    npm: '@seamstack/vite',
   },
   stats: {
     stars: 0,

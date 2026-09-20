@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'dev-server',
     'urls',
   ],
-  source: {
-    github: 'transomdesign/vite-plugin-dev-urls',
-    npm: 'vite-plugin-dev-urls',
-  },
   links: {
     github: 'https://github.com/transomdesign/vite-plugin-dev-urls',
     npm: 'https://www.npmjs.com/package/vite-plugin-dev-urls',
     website: 'https://github.com/transomdesign/vite-plugin-dev-urls#readme',
+  },
+  source: {
+    github: 'transomdesign/vite-plugin-dev-urls',
+    npm: 'vite-plugin-dev-urls',
   },
   stats: {
     stars: 0,

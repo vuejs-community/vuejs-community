@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'typescript',
     'library',
   ],
-  source: {
-    github: 'Spencer17x/vite-plugin-sugar',
-    npm: 'vite-plugin-sugar',
-  },
   links: {
     github: 'https://github.com/Spencer17x/vite-plugin-sugar',
     npm: 'https://www.npmjs.com/package/vite-plugin-sugar',
     website: 'https://github.com/Spencer17x/vite-plugin-sugar#readme',
+  },
+  source: {
+    github: 'Spencer17x/vite-plugin-sugar',
+    npm: 'vite-plugin-sugar',
   },
   stats: {
     stars: 0,

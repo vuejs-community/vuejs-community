@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'tagged',
     'lit-html',
   ],
-  source: {
-    github: 'jleeson/rollup-plugin-html-literals',
-    npm: 'rollup-plugin-html-literals',
-  },
   links: {
     github: 'https://github.com/jleeson/rollup-plugin-html-literals',
     npm: 'https://www.npmjs.com/package/rollup-plugin-html-literals',
     website: 'https://github.com/jleeson/rollup-plugin-html-literals#readme',
+  },
+  source: {
+    github: 'jleeson/rollup-plugin-html-literals',
+    npm: 'rollup-plugin-html-literals',
   },
   stats: {
     stars: 8,

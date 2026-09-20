@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'vue',
     'ai',
   ],
-  source: {
-    npm: 'domagic-vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/domagic-vite-plugin',
+  },
+  source: {
+    npm: 'domagic-vite-plugin',
   },
   stats: {
     stars: 0,

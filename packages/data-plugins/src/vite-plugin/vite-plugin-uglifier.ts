@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'obfuscator',
     'css',
   ],
-  source: {
-    github: 'ValerioGc/vite-plugin-uglifier',
-    npm: 'vite-plugin-uglifier',
-  },
   links: {
     github: 'https://github.com/ValerioGc/vite-plugin-uglifier',
     npm: 'https://www.npmjs.com/package/vite-plugin-uglifier',
     website: 'https://github.com/ValerioGc/vite-plugin-uglifier#readme',
+  },
+  source: {
+    github: 'ValerioGc/vite-plugin-uglifier',
+    npm: 'vite-plugin-uglifier',
   },
   stats: {
     stars: 0,

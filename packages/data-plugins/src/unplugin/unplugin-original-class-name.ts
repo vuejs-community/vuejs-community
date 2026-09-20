@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'unplugin',
   ],
-  source: {
-    github: 'graphif/unplugin-original-class-name',
-    npm: 'unplugin-original-class-name',
-  },
   links: {
     github: 'https://github.com/graphif/unplugin-original-class-name',
     npm: 'https://www.npmjs.com/package/unplugin-original-class-name',
     website: 'https://github.com/graphif/unplugin-original-class-name#readme',
+  },
+  source: {
+    github: 'graphif/unplugin-original-class-name',
+    npm: 'unplugin-original-class-name',
   },
   stats: {
     stars: 1,

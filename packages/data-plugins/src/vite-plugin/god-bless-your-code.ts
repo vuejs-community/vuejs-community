@@ -31,14 +31,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'kiki-kanri/god-bless-your-code',
-    npm: 'god-bless-your-code',
-  },
   links: {
     github: 'https://github.com/kiki-kanri/god-bless-your-code',
     npm: 'https://www.npmjs.com/package/god-bless-your-code',
     website: 'https://github.com/kiki-kanri/god-bless-your-code#readme',
+  },
+  source: {
+    github: 'kiki-kanri/god-bless-your-code',
+    npm: 'god-bless-your-code',
   },
   stats: {
     stars: 4,

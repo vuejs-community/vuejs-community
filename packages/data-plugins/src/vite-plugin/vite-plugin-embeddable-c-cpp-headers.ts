@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'headers',
     'transformer',
   ],
-  source: {
-    github: 'bgenia/vite-plugin-embeddable-c-cpp-headers',
-    npm: 'vite-plugin-embeddable-c-cpp-headers',
-  },
   links: {
     github: 'https://github.com/bgenia/vite-plugin-embeddable-c-cpp-headers',
     npm: 'https://www.npmjs.com/package/vite-plugin-embeddable-c-cpp-headers',
     website: 'https://github.com/bgenia/vite-plugin-embeddable-c-cpp-headers#readme',
+  },
+  source: {
+    github: 'bgenia/vite-plugin-embeddable-c-cpp-headers',
+    npm: 'vite-plugin-embeddable-c-cpp-headers',
   },
   stats: {
     stars: 1,

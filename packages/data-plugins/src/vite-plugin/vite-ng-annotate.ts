@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'dependency-injection',
     'minification',
   ],
-  source: {
-    npm: 'vite-ng-annotate',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-ng-annotate',
+  },
+  source: {
+    npm: 'vite-ng-annotate',
   },
   stats: {
     stars: 0,

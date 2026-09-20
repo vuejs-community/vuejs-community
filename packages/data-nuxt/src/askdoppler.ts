@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://askdoppler.com',
   },
   source: {
-    github: 'askdoppler/doppler-js#main/nuxt',
+    github: 'askdoppler/doppler-js',
     npm: '@askdoppler/nuxt',
   },
 })

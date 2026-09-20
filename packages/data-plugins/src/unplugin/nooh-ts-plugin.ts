@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'rspack',
     'esbuild',
   ],
-  source: {
-    github: 'nehu3n/nooh',
-    npm: '@nooh-ts/plugin',
-  },
   links: {
     github: 'https://github.com/nehu3n/nooh',
     npm: 'https://www.npmjs.com/package/@nooh-ts/plugin',
     website: 'https://nooh-ts.pages.dev',
+  },
+  source: {
+    github: 'nehu3n/nooh',
+    npm: '@nooh-ts/plugin',
   },
   stats: {
     stars: 0,

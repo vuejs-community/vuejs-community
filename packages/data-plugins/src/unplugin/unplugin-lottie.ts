@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'lottie',
   ],
-  source: {
-    github: 'FairyScript/unplugin-lottie',
-    npm: 'unplugin-lottie',
-  },
   links: {
     github: 'https://github.com/FairyScript/unplugin-lottie',
     npm: 'https://www.npmjs.com/package/unplugin-lottie',
     website: 'https://github.com/FairyScript/unplugin-lottie#readme',
+  },
+  source: {
+    github: 'FairyScript/unplugin-lottie',
+    npm: 'unplugin-lottie',
   },
   stats: {
     stars: 0,

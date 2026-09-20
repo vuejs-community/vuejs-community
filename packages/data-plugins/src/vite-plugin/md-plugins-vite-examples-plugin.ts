@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    github: 'md-plugins/md-plugins',
-    npm: '@md-plugins/vite-examples-plugin',
-  },
   links: {
     github: 'https://github.com/md-plugins/md-plugins',
     npm: 'https://www.npmjs.com/package/@md-plugins/vite-examples-plugin',
     website: 'https://github.com/md-plugins',
+  },
+  source: {
+    github: 'md-plugins/md-plugins',
+    npm: '@md-plugins/vite-examples-plugin',
   },
   stats: {
     stars: 4,

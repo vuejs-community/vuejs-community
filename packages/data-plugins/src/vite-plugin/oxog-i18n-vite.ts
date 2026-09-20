@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'localization',
     'translation',
   ],
-  source: {
-    github: 'ersinkoc/i18n',
-    npm: '@oxog/i18n-vite',
-  },
   links: {
     github: 'https://github.com/ersinkoc/i18n',
     npm: 'https://www.npmjs.com/package/@oxog/i18n-vite',
     website: 'https://github.com/ersinkoc/i18n#readme',
+  },
+  source: {
+    github: 'ersinkoc/i18n',
+    npm: '@oxog/i18n-vite',
   },
   stats: {
     stars: 2,

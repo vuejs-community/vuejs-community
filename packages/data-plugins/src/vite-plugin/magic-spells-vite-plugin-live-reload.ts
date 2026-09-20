@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'watch',
     'dist',
   ],
-  source: {
-    github: 'magic-spells/vite-plugin-live-reload',
-    npm: '@magic-spells/vite-plugin-live-reload',
-  },
   links: {
     github: 'https://github.com/magic-spells/vite-plugin-live-reload',
     npm: 'https://www.npmjs.com/package/@magic-spells/vite-plugin-live-reload',
     website: 'https://github.com/magic-spells/vite-plugin-live-reload',
+  },
+  source: {
+    github: 'magic-spells/vite-plugin-live-reload',
+    npm: '@magic-spells/vite-plugin-live-reload',
   },
   stats: {
     stars: 0,

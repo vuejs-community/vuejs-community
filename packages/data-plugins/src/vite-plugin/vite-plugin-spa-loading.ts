@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'plugin',
     'loading',
   ],
-  source: {
-    npm: 'vite-plugin-spa-loading',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-spa-loading',
+  },
+  source: {
+    npm: 'vite-plugin-spa-loading',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'solid',
     'solidjs',
   ],
-  source: {
-    github: 'pekochan069/rolldown-plugin-dom-expressions-jsx-compiler',
-    npm: 'rolldown-plugin-dom-expressions-jsx-compiler',
-  },
   links: {
     github: 'https://github.com/pekochan069/rolldown-plugin-dom-expressions-jsx-compiler',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-dom-expressions-jsx-compiler',
     website: 'https://github.com/pekochan069/rolldown-plugin-dom-expressions-jsx-compiler#readme',
+  },
+  source: {
+    github: 'pekochan069/rolldown-plugin-dom-expressions-jsx-compiler',
+    npm: 'rolldown-plugin-dom-expressions-jsx-compiler',
   },
   stats: {
     stars: 0,

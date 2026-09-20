@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'web-update-notification',
   ],
-  source: {
-    github: 'GreatAuk/plugin-web-update-notification',
-    npm: '@plugin-web-update-notification/vite',
-  },
   links: {
     github: 'https://github.com/GreatAuk/plugin-web-update-notification',
     npm: 'https://www.npmjs.com/package/@plugin-web-update-notification/vite',
     website: 'https://github.com/GreatAuk/plugin-web-update-notification',
+  },
+  source: {
+    github: 'GreatAuk/plugin-web-update-notification',
+    npm: '@plugin-web-update-notification/vite',
   },
   stats: {
     stars: 657,

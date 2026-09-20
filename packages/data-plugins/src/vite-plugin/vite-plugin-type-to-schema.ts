@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'ts-json-schema-generator',
     'ts-to-json-schema',
   ],
-  source: {
-    github: 'TheLucifurry/vite-plugin-type-to-schema',
-    npm: 'vite-plugin-type-to-schema',
-  },
   links: {
     github: 'https://github.com/TheLucifurry/vite-plugin-type-to-schema',
     npm: 'https://www.npmjs.com/package/vite-plugin-type-to-schema',
     website: 'https://github.com/TheLucifurry/vite-plugin-type-to-schema#readme',
+  },
+  source: {
+    github: 'TheLucifurry/vite-plugin-type-to-schema',
+    npm: 'vite-plugin-type-to-schema',
   },
   stats: {
     stars: 2,

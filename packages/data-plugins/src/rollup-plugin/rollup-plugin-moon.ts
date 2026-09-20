@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'plugin',
     'rollup-plugin',
   ],
-  source: {
-    github: 'kbrsh/rollup-plugin-moon',
-    npm: 'rollup-plugin-moon',
-  },
   links: {
     github: 'https://github.com/kbrsh/rollup-plugin-moon',
     npm: 'https://www.npmjs.com/package/rollup-plugin-moon',
     website: 'https://github.com/kbrsh/rollup-plugin-moon#readme',
+  },
+  source: {
+    github: 'kbrsh/rollup-plugin-moon',
+    npm: 'rollup-plugin-moon',
   },
   stats: {
     stars: 3,

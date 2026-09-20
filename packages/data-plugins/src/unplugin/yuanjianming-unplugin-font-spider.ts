@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'webfont',
     'fontmin',
   ],
-  source: {
-    github: 'yuan66-hub/unplugin-font-spider',
-    npm: '@yuanjianming/unplugin-font-spider',
-  },
   links: {
     github: 'https://github.com/yuan66-hub/unplugin-font-spider',
     npm: 'https://www.npmjs.com/package/@yuanjianming/unplugin-font-spider',
     website: 'https://github.com/yuan66-hub/unplugin-font-spider#readme',
+  },
+  source: {
+    github: 'yuan66-hub/unplugin-font-spider',
+    npm: '@yuanjianming/unplugin-font-spider',
   },
   stats: {
     stars: 3,

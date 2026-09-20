@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'typescript',
     'definition',
   ],
-  source: {
-    npm: 'rollup-plugin-svelte-dts',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-svelte-dts',
+  },
+  source: {
+    npm: 'rollup-plugin-svelte-dts',
   },
   stats: {
     stars: 0,

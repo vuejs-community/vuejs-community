@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'deploy',
     'ssh',
   ],
-  source: {
-    github: 'donnyfe/vite-plugin-deploy-to-server',
-    npm: '@idonnyfe/vite-plugin-deploy-to-server',
-  },
   links: {
     github: 'https://github.com/donnyfe/vite-plugin-deploy-to-server',
     npm: 'https://www.npmjs.com/package/@idonnyfe/vite-plugin-deploy-to-server',
     website: 'https://github.com/donnyfe/vite-plugin-deploy-to-server/README.md',
+  },
+  source: {
+    github: 'donnyfe/vite-plugin-deploy-to-server',
+    npm: '@idonnyfe/vite-plugin-deploy-to-server',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'circular dependencies',
     'cyclic dependencies',
   ],
-  source: {
-    github: 'rushelex/rollup-plugin-circular-dependencies',
-    npm: 'rollup-plugin-circular-dependencies',
-  },
   links: {
     github: 'https://github.com/rushelex/rollup-plugin-circular-dependencies',
     npm: 'https://www.npmjs.com/package/rollup-plugin-circular-dependencies',
     website: 'https://github.com/rushelex/rollup-plugin-circular-dependencies#readme',
+  },
+  source: {
+    github: 'rushelex/rollup-plugin-circular-dependencies',
+    npm: 'rollup-plugin-circular-dependencies',
   },
   stats: {
     stars: 3,

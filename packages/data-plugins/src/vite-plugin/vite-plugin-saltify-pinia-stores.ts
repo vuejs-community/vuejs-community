@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'uniqueizer',
     'mfe',
   ],
-  source: {
-    github: 'khodakova/saltify-pinia-stores',
-    npm: 'vite-plugin-saltify-pinia-stores',
-  },
   links: {
     github: 'https://github.com/khodakova/saltify-pinia-stores',
     npm: 'https://www.npmjs.com/package/vite-plugin-saltify-pinia-stores',
     website: 'https://github.com/khodakova/saltify-pinia-stores#readme',
+  },
+  source: {
+    github: 'khodakova/saltify-pinia-stores',
+    npm: 'vite-plugin-saltify-pinia-stores',
   },
   stats: {
     stars: 2,

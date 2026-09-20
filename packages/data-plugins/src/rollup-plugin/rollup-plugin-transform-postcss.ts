@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup',
     'postcss',
   ],
-  source: {
-    github: 'aggre/rollup-plugin-transform-postcss',
-    npm: 'rollup-plugin-transform-postcss',
-  },
   links: {
     github: 'https://github.com/aggre/rollup-plugin-transform-postcss',
     npm: 'https://www.npmjs.com/package/rollup-plugin-transform-postcss',
     website: 'https://github.com/aggre/rollup-plugin-transform-postcss#readme',
+  },
+  source: {
+    github: 'aggre/rollup-plugin-transform-postcss',
+    npm: 'rollup-plugin-transform-postcss',
   },
   stats: {
     stars: 0,

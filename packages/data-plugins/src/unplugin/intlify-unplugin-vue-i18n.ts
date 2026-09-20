@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vue',
     'vue-i18n',
   ],
-  source: {
-    github: 'intlify/bundle-tools',
-    npm: '@intlify/unplugin-vue-i18n',
-  },
   links: {
     github: 'https://github.com/intlify/bundle-tools',
     npm: 'https://www.npmjs.com/package/@intlify/unplugin-vue-i18n',
     website: 'https://github.com/intlify/bundle-tools/blob/main/packages/unplugin-vue-i18n/README.md',
+  },
+  source: {
+    github: 'intlify/bundle-tools',
+    npm: '@intlify/unplugin-vue-i18n',
   },
   stats: {
     stars: 0,

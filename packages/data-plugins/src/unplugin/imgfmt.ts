@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'webp',
     'webpack',
   ],
-  source: {
-    github: 'rzzf/imgfmt',
-    npm: 'imgfmt',
-  },
   links: {
     github: 'https://github.com/rzzf/imgfmt',
     npm: 'https://www.npmjs.com/package/imgfmt',
     website: 'https://github.com/rzzf/imgfmt#readme',
+  },
+  source: {
+    github: 'rzzf/imgfmt',
+    npm: 'imgfmt',
   },
   stats: {
     stars: 1,

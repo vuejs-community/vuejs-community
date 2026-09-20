@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-react',
   ],
-  source: {
-    github: 'vitjs/vit',
-    npm: '@vitjs/vit',
-  },
   links: {
     github: 'https://github.com/vitjs/vit',
     npm: 'https://www.npmjs.com/package/@vitjs/vit',
     website: 'https://github.com/vitjs/vit#readme',
+  },
+  source: {
+    github: 'vitjs/vit',
+    npm: '@vitjs/vit',
   },
   stats: {
     stars: 98,

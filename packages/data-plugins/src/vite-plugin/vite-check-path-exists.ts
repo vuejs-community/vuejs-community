@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'check',
     'path',
   ],
-  source: {
-    npm: 'vite-check-path-exists',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-check-path-exists',
+  },
+  source: {
+    npm: 'vite-check-path-exists',
   },
   stats: {
     stars: 0,

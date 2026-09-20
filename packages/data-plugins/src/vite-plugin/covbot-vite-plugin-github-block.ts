@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: '@covbot/vite-plugin-github-block',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@covbot/vite-plugin-github-block',
+  },
+  source: {
+    npm: '@covbot/vite-plugin-github-block',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'webpack plugin',
     'module federation',
   ],
-  source: {
-    github: 'timekeeperjs/timekeeper-plugin',
-    npm: 'timekeeper-plugin',
-  },
   links: {
     github: 'https://github.com/timekeeperjs/timekeeper-plugin',
     npm: 'https://www.npmjs.com/package/timekeeper-plugin',
     website: 'https://github.com/timekeeperjs/timekeeper-plugin#readme',
+  },
+  source: {
+    github: 'timekeeperjs/timekeeper-plugin',
+    npm: 'timekeeper-plugin',
   },
   stats: {
     stars: 0,

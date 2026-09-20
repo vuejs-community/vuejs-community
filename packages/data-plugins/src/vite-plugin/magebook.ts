@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'librogamesland/magebook',
-    npm: 'magebook',
-  },
   links: {
     github: 'https://github.com/librogamesland/magebook',
     npm: 'https://www.npmjs.com/package/magebook',
     website: 'https://librogamesland.github.io/magebook',
+  },
+  source: {
+    github: 'librogamesland/magebook',
+    npm: 'magebook',
   },
   stats: {
     stars: 14,

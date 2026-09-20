@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'console',
     'debugger',
   ],
-  source: {
-    github: 'Talljack/unplugin-remove',
-    npm: 'unplugin-remove',
-  },
   links: {
     github: 'https://github.com/Talljack/unplugin-remove',
     npm: 'https://www.npmjs.com/package/unplugin-remove',
     website: 'https://github.com/Talljack/unplugin-remove#readme',
+  },
+  source: {
+    github: 'Talljack/unplugin-remove',
+    npm: 'unplugin-remove',
   },
   stats: {
     stars: 11,

@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-roo-import',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-roo-import',
+  },
+  source: {
+    npm: 'vite-plugin-roo-import',
   },
   stats: {
     stars: 0,

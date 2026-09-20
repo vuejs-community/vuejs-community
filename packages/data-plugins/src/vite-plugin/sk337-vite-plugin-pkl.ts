@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'sk337/vite-plugin-pkl',
-    npm: '@sk337/vite-plugin-pkl',
-  },
   links: {
     github: 'https://github.com/sk337/vite-plugin-pkl',
     npm: 'https://www.npmjs.com/package/@sk337/vite-plugin-pkl',
     website: 'https://github.com/sk337/vite-plugin-pkl#readme',
+  },
+  source: {
+    github: 'sk337/vite-plugin-pkl',
+    npm: '@sk337/vite-plugin-pkl',
   },
   stats: {
     stars: 0,

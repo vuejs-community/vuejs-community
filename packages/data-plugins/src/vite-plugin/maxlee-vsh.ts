@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite.sh',
     'agent',
   ],
-  source: {
-    npm: '@maxlee/vsh',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@maxlee/vsh',
+  },
+  source: {
+    npm: '@maxlee/vsh',
   },
   stats: {
     stars: 0,

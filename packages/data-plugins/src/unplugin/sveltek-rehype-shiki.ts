@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'unified',
     'rehype',
   ],
-  source: {
-    github: 'sveltek/markdown',
-    npm: '@sveltek/rehype-shiki',
-  },
   links: {
     github: 'https://github.com/sveltek/markdown',
     npm: 'https://www.npmjs.com/package/@sveltek/rehype-shiki',
     website: 'https://github.com/sveltek/markdown',
+  },
+  source: {
+    github: 'sveltek/markdown',
+    npm: '@sveltek/rehype-shiki',
   },
   stats: {
     stars: 0,

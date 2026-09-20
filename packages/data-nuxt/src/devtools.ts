@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://devtools.nuxt.com',
   },
   source: {
-    github: 'nuxt/devtools#main/packages/devtools',
+    github: 'nuxt/devtools',
     npm: '@nuxt/devtools',
   },
 })

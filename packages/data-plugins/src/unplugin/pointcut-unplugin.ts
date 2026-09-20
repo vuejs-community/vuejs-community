@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'ai-agent',
     'source-stamp',
   ],
-  source: {
-    github: 'geemeows/pointcut',
-    npm: '@pointcut/unplugin',
-  },
   links: {
     github: 'https://github.com/geemeows/pointcut',
     npm: 'https://www.npmjs.com/package/@pointcut/unplugin',
     website: 'https://github.com/geemeows/pointcut/tree/main/packages/unplugin#readme',
+  },
+  source: {
+    github: 'geemeows/pointcut',
+    npm: '@pointcut/unplugin',
   },
   stats: {
     stars: 0,

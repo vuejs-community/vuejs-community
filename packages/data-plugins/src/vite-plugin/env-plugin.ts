@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'lumos934/env-plugin',
-    npm: 'env-plugin',
-  },
   links: {
     github: 'https://github.com/lumos934/env-plugin',
     npm: 'https://www.npmjs.com/package/env-plugin',
     website: 'https://github.com/lumos934/env-plugin#readme',
+  },
+  source: {
+    github: 'lumos934/env-plugin',
+    npm: 'env-plugin',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'oss',
     'cos',
   ],
-  source: {
-    github: 'smile-alive/vite-plugin-cos-cdnizer',
-    npm: 'vite-plugin-cos-cdnizer',
-  },
   links: {
     github: 'https://github.com/smile-alive/vite-plugin-cos-cdnizer',
     npm: 'https://www.npmjs.com/package/vite-plugin-cos-cdnizer',
     website: 'https://github.com/smile-alive/vite-plugin-cos-cdnizer.git',
+  },
+  source: {
+    github: 'smile-alive/vite-plugin-cos-cdnizer',
+    npm: 'vite-plugin-cos-cdnizer',
   },
   stats: {
     stars: 1,

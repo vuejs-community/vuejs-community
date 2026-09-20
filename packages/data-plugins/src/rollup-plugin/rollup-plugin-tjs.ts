@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    npm: 'rollup-plugin-tjs',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-tjs',
+  },
+  source: {
+    npm: 'rollup-plugin-tjs',
   },
   stats: {
     stars: 0,

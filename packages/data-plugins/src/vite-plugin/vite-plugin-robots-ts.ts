@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'robots.txt',
     'typescript',
   ],
-  source: {
-    github: 'kyco/vite-plugin-robots-ts',
-    npm: 'vite-plugin-robots-ts',
-  },
   links: {
     github: 'https://github.com/kyco/vite-plugin-robots-ts',
     npm: 'https://www.npmjs.com/package/vite-plugin-robots-ts',
     website: 'https://github.com/kyco/vite-plugin-robots-ts',
+  },
+  source: {
+    github: 'kyco/vite-plugin-robots-ts',
+    npm: 'vite-plugin-robots-ts',
   },
   stats: {
     stars: 0,

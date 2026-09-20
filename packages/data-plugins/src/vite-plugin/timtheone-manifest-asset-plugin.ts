@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'manifest',
   ],
-  source: {
-    github: 'timtheone/manifest-asset-plugin',
-    npm: '@timtheone/manifest-asset-plugin',
-  },
   links: {
     github: 'https://github.com/timtheone/manifest-asset-plugin',
     npm: 'https://www.npmjs.com/package/@timtheone/manifest-asset-plugin',
     website: 'https://github.com/timtheone/manifest-asset-plugin',
+  },
+  source: {
+    github: 'timtheone/manifest-asset-plugin',
+    npm: '@timtheone/manifest-asset-plugin',
   },
   stats: {
     stars: 0,

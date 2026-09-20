@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'exports',
     'package.json',
   ],
-  source: {
-    github: 'breningham/vite-plugin-exports-updater',
-    npm: 'vite-plugin-exports-updater',
-  },
   links: {
     github: 'https://github.com/breningham/vite-plugin-exports-updater',
     npm: 'https://www.npmjs.com/package/vite-plugin-exports-updater',
     website: 'https://github.com/breningham/vite-plugin-exports-updater#readme',
+  },
+  source: {
+    github: 'breningham/vite-plugin-exports-updater',
+    npm: 'vite-plugin-exports-updater',
   },
   stats: {
     stars: 0,

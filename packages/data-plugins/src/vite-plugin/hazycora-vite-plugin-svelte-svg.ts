@@ -11,12 +11,12 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: '@hazycora/vite-plugin-svelte-svg',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@hazycora/vite-plugin-svelte-svg',
     website: 'https://git.gay/h/vite-plugin-svelte-svg#readme',
+  },
+  source: {
+    npm: '@hazycora/vite-plugin-svelte-svg',
   },
   stats: {
     stars: 0,

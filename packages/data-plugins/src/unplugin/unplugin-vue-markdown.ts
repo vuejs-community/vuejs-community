@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'unplugin',
     'markdown-exit',
   ],
-  source: {
-    github: 'unplugin/unplugin-vue-markdown',
-    npm: 'unplugin-vue-markdown',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-vue-markdown',
     npm: 'https://www.npmjs.com/package/unplugin-vue-markdown',
     website: 'https://github.com/unplugin/unplugin-vue-markdown',
+  },
+  source: {
+    github: 'unplugin/unplugin-vue-markdown',
+    npm: 'unplugin-vue-markdown',
   },
   stats: {
     stars: 625,

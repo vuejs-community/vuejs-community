@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'css',
     'css-modules',
   ],
-  source: {
-    github: 'blackcater/rollup-plugin-stylus-plus',
-    npm: 'rollup-plugin-stylus-plus',
-  },
   links: {
     github: 'https://github.com/blackcater/rollup-plugin-stylus-plus',
     npm: 'https://www.npmjs.com/package/rollup-plugin-stylus-plus',
     website: 'https://github.com/blackcater/rollup-plugin-stylus-plus.git',
+  },
+  source: {
+    github: 'blackcater/rollup-plugin-stylus-plus',
+    npm: 'rollup-plugin-stylus-plus',
   },
   stats: {
     stars: 0,

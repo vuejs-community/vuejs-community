@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'webpack',
     'yaml',
   ],
-  source: {
-    github: 'luxass/unplugin-yaml',
-    npm: 'unplugin-yaml',
-  },
   links: {
     github: 'https://github.com/luxass/unplugin-yaml',
     npm: 'https://www.npmjs.com/package/unplugin-yaml',
     website: 'https://github.com/luxass/unplugin-yaml#readme',
+  },
+  source: {
+    github: 'luxass/unplugin-yaml',
+    npm: 'unplugin-yaml',
   },
   stats: {
     stars: 6,

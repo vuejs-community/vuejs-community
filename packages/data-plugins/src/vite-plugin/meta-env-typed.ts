@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'rsbuild-plugin',
   ],
-  source: {
-    github: 'JsonLee12138/meta-env-typed',
-    npm: 'meta-env-typed',
-  },
   links: {
     github: 'https://github.com/JsonLee12138/meta-env-typed',
     npm: 'https://www.npmjs.com/package/meta-env-typed',
     website: 'https://github.com/JsonLee12138/meta-env-typed',
+  },
+  source: {
+    github: 'JsonLee12138/meta-env-typed',
+    npm: 'meta-env-typed',
   },
   stats: {
     stars: 6,

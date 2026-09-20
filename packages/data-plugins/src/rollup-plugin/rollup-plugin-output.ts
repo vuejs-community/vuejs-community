@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'npm',
     'modules',
   ],
-  source: {
-    github: 'gitaiQAQ/rollup-plugin-output',
-    npm: 'rollup-plugin-output',
-  },
   links: {
     github: 'https://github.com/gitaiQAQ/rollup-plugin-output',
     npm: 'https://www.npmjs.com/package/rollup-plugin-output',
     website: 'https://github.com/gitaiQAQ/rollup-plugin-output#readme',
+  },
+  source: {
+    github: 'gitaiQAQ/rollup-plugin-output',
+    npm: 'rollup-plugin-output',
   },
   stats: {
     stars: 3,

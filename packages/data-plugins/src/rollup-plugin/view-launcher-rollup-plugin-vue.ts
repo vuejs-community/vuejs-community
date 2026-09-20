@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'view-launcher',
     'rollup-plugin',
   ],
-  source: {
-    github: 'view-launcher/vue-view-launcher',
-    npm: '@view-launcher/rollup-plugin-vue',
-  },
   links: {
     github: 'https://github.com/view-launcher/vue-view-launcher',
     npm: 'https://www.npmjs.com/package/@view-launcher/rollup-plugin-vue',
     website: 'https://github.com/view-launcher/vue-view-launcher/master/packages/rollup-plugin#readme',
+  },
+  source: {
+    github: 'view-launcher/vue-view-launcher',
+    npm: '@view-launcher/rollup-plugin-vue',
   },
   stats: {
     stars: 0,

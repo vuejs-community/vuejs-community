@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'tampermonkey',
   ],
-  source: {
-    github: '7KiLL/rollup-plugin-userscript-metaheader',
-    npm: 'rollup-plugin-userscript-metaheader',
-  },
   links: {
     github: 'https://github.com/7KiLL/rollup-plugin-userscript-metaheader',
     npm: 'https://www.npmjs.com/package/rollup-plugin-userscript-metaheader',
     website: 'https://github.com/7KiLL/rollup-plugin-userscript-metaheader',
+  },
+  source: {
+    github: '7KiLL/rollup-plugin-userscript-metaheader',
+    npm: 'rollup-plugin-userscript-metaheader',
   },
   stats: {
     stars: 0,

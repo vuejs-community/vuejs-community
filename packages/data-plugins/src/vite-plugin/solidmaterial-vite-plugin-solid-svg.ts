@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'mprovok/solid-material',
-    npm: '@solidmaterial/vite-plugin-solid-svg',
-  },
   links: {
     github: 'https://github.com/mprovok/solid-material',
     npm: 'https://www.npmjs.com/package/@solidmaterial/vite-plugin-solid-svg',
     website: 'https://github.com/mprovok/solid-material#readme',
+  },
+  source: {
+    github: 'mprovok/solid-material',
+    npm: '@solidmaterial/vite-plugin-solid-svg',
   },
   stats: {
     stars: 1,

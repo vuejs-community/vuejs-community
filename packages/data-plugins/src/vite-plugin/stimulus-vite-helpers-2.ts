@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'thecodingbrew/stimulus-vite-helpers-2',
-    npm: 'stimulus-vite-helpers-2',
-  },
   links: {
     github: 'https://github.com/thecodingbrew/stimulus-vite-helpers-2',
     npm: 'https://www.npmjs.com/package/stimulus-vite-helpers-2',
     website: 'https://github.com/thecodingbrew/stimulus-vite-helpers-2',
+  },
+  source: {
+    github: 'thecodingbrew/stimulus-vite-helpers-2',
+    npm: 'stimulus-vite-helpers-2',
   },
   stats: {
     stars: 0,

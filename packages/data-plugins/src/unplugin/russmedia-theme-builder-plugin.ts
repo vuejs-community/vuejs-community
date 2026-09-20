@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'russmediadigital/theme-builder-plugin',
-    npm: '@russmedia/theme-builder-plugin',
-  },
   links: {
     github: 'https://github.com/russmediadigital/theme-builder-plugin',
     npm: 'https://www.npmjs.com/package/@russmedia/theme-builder-plugin',
     website: 'https://github.com/russmediadigital/theme-builder-plugin#readme',
+  },
+  source: {
+    github: 'russmediadigital/theme-builder-plugin',
+    npm: '@russmedia/theme-builder-plugin',
   },
   stats: {
     stars: 0,

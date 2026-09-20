@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'img-to-picture',
     'sharp',
   ],
-  source: {
-    github: 'atrocityz/vite-plugin-html-img-to-picture',
-    npm: '@atrocityz/vite-plugin-html-img-to-picture',
-  },
   links: {
     github: 'https://github.com/atrocityz/vite-plugin-html-img-to-picture',
     npm: 'https://www.npmjs.com/package/@atrocityz/vite-plugin-html-img-to-picture',
     website: 'https://github.com/atrocityz/vite-plugin-html-img-to-picture#readme',
+  },
+  source: {
+    github: 'atrocityz/vite-plugin-html-img-to-picture',
+    npm: '@atrocityz/vite-plugin-html-img-to-picture',
   },
   stats: {
     stars: 1,

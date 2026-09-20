@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'ciodc/vite-plugin-flexible-mobile-forever',
-    npm: 'vite-plugin-flexible-mobile-forever',
-  },
   links: {
     github: 'https://github.com/ciodc/vite-plugin-flexible-mobile-forever',
     npm: 'https://www.npmjs.com/package/vite-plugin-flexible-mobile-forever',
     website: 'https://github.com/ciodc/vite-plugin-flexible-mobile-forever#readme',
+  },
+  source: {
+    github: 'ciodc/vite-plugin-flexible-mobile-forever',
+    npm: 'vite-plugin-flexible-mobile-forever',
   },
   stats: {
     stars: 0,

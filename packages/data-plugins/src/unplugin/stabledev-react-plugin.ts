@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'webpack',
     'unplugin',
   ],
-  source: {
-    npm: '@stabledev/react-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@stabledev/react-plugin',
+  },
+  source: {
+    npm: '@stabledev/react-plugin',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'jason-rietzke/simple-worker-vite',
-    npm: 'simple-worker-vite',
-  },
   links: {
     github: 'https://github.com/jason-rietzke/simple-worker-vite',
     npm: 'https://www.npmjs.com/package/simple-worker-vite',
     website: 'https://jason-rietzke.github.io/simple-worker-vite/',
+  },
+  source: {
+    github: 'jason-rietzke/simple-worker-vite',
+    npm: 'simple-worker-vite',
   },
   stats: {
     stars: 3,

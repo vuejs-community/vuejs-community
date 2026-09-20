@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'multi',
     'multi-page',
   ],
-  source: {
-    github: 'emosheeep/vite-plugin-virtual-mpa',
-    npm: '@star_work/vite-plugin-virtual-mpa',
-  },
   links: {
     github: 'https://github.com/emosheeep/vite-plugin-virtual-mpa',
     npm: 'https://www.npmjs.com/package/@star_work/vite-plugin-virtual-mpa',
     website: 'https://github.com/emosheeep/vite-plugin-virtual-mpa#readme',
+  },
+  source: {
+    github: 'emosheeep/vite-plugin-virtual-mpa',
+    npm: '@star_work/vite-plugin-virtual-mpa',
   },
   stats: {
     stars: 0,

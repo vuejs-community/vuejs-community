@@ -34,11 +34,11 @@ export default defineProjectMeta({
     'shadcn',
     'ui',
   ],
-  source: {
-    npm: 'rewrapped',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rewrapped',
+  },
+  source: {
+    npm: 'rewrapped',
   },
   stats: {
     stars: 0,

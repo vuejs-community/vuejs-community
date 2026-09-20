@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'tobynguyen27/vite-plugin-opmage',
-    npm: 'vite-plugin-opmage',
-  },
   links: {
     github: 'https://github.com/tobynguyen27/vite-plugin-opmage',
     npm: 'https://www.npmjs.com/package/vite-plugin-opmage',
     website: 'https://github.com/tobynguyen27/vite-plugin-opmage#readme',
+  },
+  source: {
+    github: 'tobynguyen27/vite-plugin-opmage',
+    npm: 'vite-plugin-opmage',
   },
   stats: {
     stars: 2,

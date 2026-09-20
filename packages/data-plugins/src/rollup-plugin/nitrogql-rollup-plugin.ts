@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'nitrogql',
     'rollup-plugin',
   ],
-  source: {
-    github: 'uhyo/nitrogql',
-    npm: '@nitrogql/rollup-plugin',
-  },
   links: {
     github: 'https://github.com/uhyo/nitrogql',
     npm: 'https://www.npmjs.com/package/@nitrogql/rollup-plugin',
     website: 'https://github.com/uhyo/nitrogql#readme',
+  },
+  source: {
+    github: 'uhyo/nitrogql',
+    npm: '@nitrogql/rollup-plugin',
   },
   stats: {
     stars: 330,

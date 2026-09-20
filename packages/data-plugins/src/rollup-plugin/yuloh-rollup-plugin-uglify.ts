@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'matt-allan/rollup-plugin-uglify',
-    npm: '@yuloh/rollup-plugin-uglify',
-  },
   links: {
     github: 'https://github.com/matt-allan/rollup-plugin-uglify',
     npm: 'https://www.npmjs.com/package/@yuloh/rollup-plugin-uglify',
     website: 'https://github.com/matt-allan/rollup-plugin-uglify',
+  },
+  source: {
+    github: 'matt-allan/rollup-plugin-uglify',
+    npm: '@yuloh/rollup-plugin-uglify',
   },
   stats: {
     stars: 0,

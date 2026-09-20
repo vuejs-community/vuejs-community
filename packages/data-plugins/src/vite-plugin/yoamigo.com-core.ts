@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'preact',
     'website-builder',
   ],
-  source: {
-    github: 'yoamigo/sdk',
-    npm: '@yoamigo.com/core',
-  },
   links: {
     github: 'https://github.com/yoamigo/sdk',
     npm: 'https://www.npmjs.com/package/@yoamigo.com/core',
     website: 'https://yoamigo.com/developers',
+  },
+  source: {
+    github: 'yoamigo/sdk',
+    npm: '@yoamigo.com/core',
   },
   stats: {
     stars: 0,

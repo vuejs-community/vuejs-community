@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'npm',
     'modules',
   ],
-  source: {
-    github: 'fedorio/rollup-plugin-node-resolve',
-    npm: '@allex/rollup-plugin-node-resolve',
-  },
   links: {
     github: 'https://github.com/fedorio/rollup-plugin-node-resolve',
     npm: 'https://www.npmjs.com/package/@allex/rollup-plugin-node-resolve',
     website: 'https://github.com/fedorio/rollup-plugin-node-resolve#readme',
+  },
+  source: {
+    github: 'fedorio/rollup-plugin-node-resolve',
+    npm: '@allex/rollup-plugin-node-resolve',
   },
   stats: {
     stars: 0,

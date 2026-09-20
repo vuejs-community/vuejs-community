@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'yulin96/vite-plugin-meta-share',
-    npm: 'vite-plugin-meta-share',
-  },
   links: {
     github: 'https://github.com/yulin96/vite-plugin-meta-share',
     npm: 'https://www.npmjs.com/package/vite-plugin-meta-share',
     website: 'https://github.com/yulin96/vite-plugin-meta-share',
+  },
+  source: {
+    github: 'yulin96/vite-plugin-meta-share',
+    npm: 'vite-plugin-meta-share',
   },
   stats: {
     stars: 0,

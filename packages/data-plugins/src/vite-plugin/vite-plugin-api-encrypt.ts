@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'javascript',
     'vite-plugin',
   ],
-  source: {
-    github: 'renxindi/vite-plugin-api-encrypt',
-    npm: 'vite-plugin-api-encrypt',
-  },
   links: {
     github: 'https://github.com/renxindi/vite-plugin-api-encrypt',
     npm: 'https://www.npmjs.com/package/vite-plugin-api-encrypt',
     website: 'https://github.com/renxindi/vite-plugin-api-encrypt#readme',
+  },
+  source: {
+    github: 'renxindi/vite-plugin-api-encrypt',
+    npm: 'vite-plugin-api-encrypt',
   },
   stats: {
     stars: 0,

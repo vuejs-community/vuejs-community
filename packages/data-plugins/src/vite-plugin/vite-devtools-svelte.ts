@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-devtools',
     'vite-plugin',
   ],
-  source: {
-    github: 'baseballyama/vite-devtools-svelte',
-    npm: 'vite-devtools-svelte',
-  },
   links: {
     github: 'https://github.com/baseballyama/vite-devtools-svelte',
     npm: 'https://www.npmjs.com/package/vite-devtools-svelte',
     website: 'https://github.com/baseballyama/vite-devtools-svelte#readme',
+  },
+  source: {
+    github: 'baseballyama/vite-devtools-svelte',
+    npm: 'vite-devtools-svelte',
   },
   stats: {
     stars: 9,

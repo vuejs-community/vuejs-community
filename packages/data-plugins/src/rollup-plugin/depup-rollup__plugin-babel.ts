@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'es2015',
     'es6',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@depup/rollup__plugin-babel',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@depup/rollup__plugin-babel',
     website: 'https://github.com/rollup/plugins/tree/master/packages/babel#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@depup/rollup__plugin-babel',
   },
   stats: {
     stars: 3757,

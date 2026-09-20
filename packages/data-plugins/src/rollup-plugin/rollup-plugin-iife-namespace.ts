@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'iife',
     'namespace',
   ],
-  source: {
-    npm: 'rollup-plugin-iife-namespace',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-iife-namespace',
+  },
+  source: {
+    npm: 'rollup-plugin-iife-namespace',
   },
   stats: {
     stars: 0,

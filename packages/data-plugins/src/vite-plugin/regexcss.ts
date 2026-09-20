@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'utility',
     'vite-plugin',
   ],
-  source: {
-    github: 'maekoya/regexcss',
-    npm: 'regexcss',
-  },
   links: {
     github: 'https://github.com/maekoya/regexcss',
     npm: 'https://www.npmjs.com/package/regexcss',
     website: 'https://github.com/maekoya/regexcss#readme',
+  },
+  source: {
+    github: 'maekoya/regexcss',
+    npm: 'regexcss',
   },
   stats: {
     stars: 1,

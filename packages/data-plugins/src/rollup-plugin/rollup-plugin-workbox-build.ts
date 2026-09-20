@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'service-worker',
     'workbox',
   ],
-  source: {
-    github: 'Rainrider/rollup-plugin-workbox-build',
-    npm: 'rollup-plugin-workbox-build',
-  },
   links: {
     github: 'https://github.com/Rainrider/rollup-plugin-workbox-build',
     npm: 'https://www.npmjs.com/package/rollup-plugin-workbox-build',
     website: 'https://github.com/Rainrider/rollup-plugin-workbox-build/#readme',
+  },
+  source: {
+    github: 'Rainrider/rollup-plugin-workbox-build',
+    npm: 'rollup-plugin-workbox-build',
   },
   stats: {
     stars: 5,

@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'replace',
     'config',
   ],
-  source: {
-    npm: 'vite-plugin-env-html',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-env-html',
+  },
+  source: {
+    npm: 'vite-plugin-env-html',
   },
   stats: {
     stars: 0,

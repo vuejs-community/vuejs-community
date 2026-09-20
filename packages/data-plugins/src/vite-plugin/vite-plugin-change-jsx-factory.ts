@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'mendlero/rollup-vite-plugins',
-    npm: 'vite-plugin-change-jsx-factory',
-  },
   links: {
     github: 'https://github.com/mendlero/rollup-vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-change-jsx-factory',
     website: 'https://github.com/mendlero/rollup-vite-plugins#readme',
+  },
+  source: {
+    github: 'mendlero/rollup-vite-plugins',
+    npm: 'vite-plugin-change-jsx-factory',
   },
   stats: {
     stars: 1,

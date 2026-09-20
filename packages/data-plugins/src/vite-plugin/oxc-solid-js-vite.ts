@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'oxc',
     'rolldown',
   ],
-  source: {
-    github: 'taskylizard/oxc-solid-js',
-    npm: '@oxc-solid-js/vite',
-  },
   links: {
     github: 'https://github.com/taskylizard/oxc-solid-js',
     npm: 'https://www.npmjs.com/package/@oxc-solid-js/vite',
     website: 'https://github.com/taskylizard/oxc-solid-js#readme',
+  },
+  source: {
+    github: 'taskylizard/oxc-solid-js',
+    npm: '@oxc-solid-js/vite',
   },
   stats: {
     stars: 4,

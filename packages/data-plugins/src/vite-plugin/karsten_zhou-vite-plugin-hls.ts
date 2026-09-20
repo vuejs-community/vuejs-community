@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'streaming',
     'adaptive-bitrate',
   ],
-  source: {
-    github: 'Karsten-Zhou/vite-plugin-hls',
-    npm: '@karsten_zhou/vite-plugin-hls',
-  },
   links: {
     github: 'https://github.com/Karsten-Zhou/vite-plugin-hls',
     npm: 'https://www.npmjs.com/package/@karsten_zhou/vite-plugin-hls',
     website: 'https://github.com/Karsten-Zhou/vite-plugin-hls#readme',
+  },
+  source: {
+    github: 'Karsten-Zhou/vite-plugin-hls',
+    npm: '@karsten_zhou/vite-plugin-hls',
   },
   stats: {
     stars: 1,

@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'wsvaio/vite-plugin-asset',
-    npm: 'vite-plugin-asset',
-  },
   links: {
     github: 'https://github.com/wsvaio/vite-plugin-asset',
     npm: 'https://www.npmjs.com/package/vite-plugin-asset',
     website: 'https://github.com/wsvaio/vite-plugin-asset#readme',
+  },
+  source: {
+    github: 'wsvaio/vite-plugin-asset',
+    npm: 'vite-plugin-asset',
   },
   stats: {
     stars: 1,

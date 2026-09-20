@@ -28,14 +28,14 @@ export default defineProjectMeta({
     'production-base-url',
     'env-in-html',
   ],
-  source: {
-    github: 'hassanzohdy/mongez-vite',
-    npm: '@mongez/vite',
-  },
   links: {
     github: 'https://github.com/hassanzohdy/mongez-vite',
     npm: 'https://www.npmjs.com/package/@mongez/vite',
     website: 'https://github.com/hassanzohdy/mongez-vite#readme',
+  },
+  source: {
+    github: 'hassanzohdy/mongez-vite',
+    npm: '@mongez/vite',
   },
   stats: {
     stars: 4,

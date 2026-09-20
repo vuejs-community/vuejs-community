@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'mock-server',
     'h3',
   ],
-  source: {
-    github: 'coderking3/vite-plugin-better-mock-server',
-    npm: 'vite-plugin-better-mock-server',
-  },
   links: {
     github: 'https://github.com/coderking3/vite-plugin-better-mock-server',
     npm: 'https://www.npmjs.com/package/vite-plugin-better-mock-server',
     website: 'https://github.com/coderking3/vite-plugin-better-mock-server#readme',
+  },
+  source: {
+    github: 'coderking3/vite-plugin-better-mock-server',
+    npm: 'vite-plugin-better-mock-server',
   },
   stats: {
     stars: 0,

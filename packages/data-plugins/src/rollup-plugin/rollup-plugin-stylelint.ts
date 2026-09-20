@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'stylelint',
   ],
-  source: {
-    github: 'tanyaisinmybed/rollup-plugin-stylelint',
-    npm: 'rollup-plugin-stylelint',
-  },
   links: {
     github: 'https://github.com/tanyaisinmybed/rollup-plugin-stylelint',
     npm: 'https://www.npmjs.com/package/rollup-plugin-stylelint',
     website: 'https://github.com/tanyaisinmybed/rollup-plugin-stylelint#readme',
+  },
+  source: {
+    github: 'tanyaisinmybed/rollup-plugin-stylelint',
+    npm: 'rollup-plugin-stylelint',
   },
   stats: {
     stars: 4,

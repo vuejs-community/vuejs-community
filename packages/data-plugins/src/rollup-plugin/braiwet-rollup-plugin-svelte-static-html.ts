@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'ssr',
     'generate',
   ],
-  source: {
-    github: 'basileraiwet/rollup-plugin-svelte-static-html',
-    npm: '@braiwet/rollup-plugin-svelte-static-html',
-  },
   links: {
     github: 'https://github.com/basileraiwet/rollup-plugin-svelte-static-html',
     npm: 'https://www.npmjs.com/package/@braiwet/rollup-plugin-svelte-static-html',
     website: 'https://github.com/basileraiwet/rollup-plugin-svelte-static-html#readme',
+  },
+  source: {
+    github: 'basileraiwet/rollup-plugin-svelte-static-html',
+    npm: '@braiwet/rollup-plugin-svelte-static-html',
   },
   stats: {
     stars: 0,

@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'server',
     'ssr',
   ],
-  source: {
-    npm: 'vite-plugin-srvx',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-srvx',
+  },
+  source: {
+    npm: 'vite-plugin-srvx',
   },
   stats: {
     stars: 0,

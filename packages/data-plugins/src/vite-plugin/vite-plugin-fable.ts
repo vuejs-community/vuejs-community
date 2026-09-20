@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'fable-compiler/vite-plugin-fable',
-    npm: 'vite-plugin-fable',
-  },
   links: {
     github: 'https://github.com/fable-compiler/vite-plugin-fable',
     npm: 'https://www.npmjs.com/package/vite-plugin-fable',
     website: 'http://fable.io/vite-plugin-fable/',
+  },
+  source: {
+    github: 'fable-compiler/vite-plugin-fable',
+    npm: 'vite-plugin-fable',
   },
   stats: {
     stars: 45,

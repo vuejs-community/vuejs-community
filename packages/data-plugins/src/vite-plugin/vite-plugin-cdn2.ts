@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'cdn',
     'vite-plugin-cdn',
   ],
-  source: {
-    github: 'nonzzz/vite-plugin-cdn',
-    npm: 'vite-plugin-cdn2',
-  },
   links: {
     github: 'https://github.com/nonzzz/vite-plugin-cdn',
     npm: 'https://www.npmjs.com/package/vite-plugin-cdn2',
     website: 'https://github.com/nonzzz/vite-plugin-cdn',
+  },
+  source: {
+    github: 'nonzzz/vite-plugin-cdn',
+    npm: 'vite-plugin-cdn2',
   },
   stats: {
     stars: 80,

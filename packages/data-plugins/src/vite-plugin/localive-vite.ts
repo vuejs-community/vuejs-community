@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'live-editing',
     'localive',
   ],
-  source: {
-    github: 'Arigatouz/localive',
-    npm: '@localive/vite',
-  },
   links: {
     github: 'https://github.com/Arigatouz/localive',
     npm: 'https://www.npmjs.com/package/@localive/vite',
     website: 'https://localive.vercel.app/plugins/vite/',
+  },
+  source: {
+    github: 'Arigatouz/localive',
+    npm: '@localive/vite',
   },
   stats: {
     stars: 2,

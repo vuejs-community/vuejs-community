@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'virtual-modules',
   ],
-  source: {
-    github: 'windsonR/vite-plugin-virtual-modules',
-    npm: 'vite-plugin-virtual-modules',
-  },
   links: {
     github: 'https://github.com/windsonR/vite-plugin-virtual-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-virtual-modules',
     website: 'https://github.com/windsonR/vite-plugin-virtual-modules#readme',
+  },
+  source: {
+    github: 'windsonR/vite-plugin-virtual-modules',
+    npm: 'vite-plugin-virtual-modules',
   },
   stats: {
     stars: 1,

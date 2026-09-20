@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'ssr',
     'vite-plugin',
   ],
-  source: {
-    github: 'k35o/k8ordo',
-    npm: '@k8ordo/server',
-  },
   links: {
     github: 'https://github.com/k35o/k8ordo',
     npm: 'https://www.npmjs.com/package/@k8ordo/server',
     website: 'https://ordo.k8o.me',
+  },
+  source: {
+    github: 'k35o/k8ordo',
+    npm: '@k8ordo/server',
   },
   stats: {
     stars: 1,

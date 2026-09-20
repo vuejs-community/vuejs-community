@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'shanewholloway/rollup-plugin-web-build-events',
-    npm: 'rollup-plugin-web-build-events',
-  },
   links: {
     github: 'https://github.com/shanewholloway/rollup-plugin-web-build-events',
     npm: 'https://www.npmjs.com/package/rollup-plugin-web-build-events',
     website: 'https://github.com/shanewholloway/rollup-plugin-web-build-events#readme',
+  },
+  source: {
+    github: 'shanewholloway/rollup-plugin-web-build-events',
+    npm: 'rollup-plugin-web-build-events',
   },
   stats: {
     stars: 0,

@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'content-management',
     'image-versioning',
   ],
-  source: {
-    npm: 'saltcat-astro-editorial-imagesys',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/saltcat-astro-editorial-imagesys',
+  },
+  source: {
+    npm: 'saltcat-astro-editorial-imagesys',
   },
   stats: {
     stars: 0,

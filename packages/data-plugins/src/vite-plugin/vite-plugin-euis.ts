@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'codesandbox',
     'cloud-ide',
   ],
-  source: {
-    github: 'huxeinsatoru/Euis',
-    npm: 'vite-plugin-euis',
-  },
   links: {
     github: 'https://github.com/huxeinsatoru/Euis',
     npm: 'https://www.npmjs.com/package/vite-plugin-euis',
     website: 'https://github.com/huxeinsatoru/Euis#readme',
+  },
+  source: {
+    github: 'huxeinsatoru/Euis',
+    npm: 'vite-plugin-euis',
   },
   stats: {
     stars: 0,

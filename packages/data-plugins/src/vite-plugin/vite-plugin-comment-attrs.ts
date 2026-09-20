@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'babel',
     'tailwind',
   ],
-  source: {
-    github: 'thanhdatvo/vite-plugin-comment-attrs',
-    npm: 'vite-plugin-comment-attrs',
-  },
   links: {
     github: 'https://github.com/thanhdatvo/vite-plugin-comment-attrs',
     npm: 'https://www.npmjs.com/package/vite-plugin-comment-attrs',
     website: 'https://github.com/thanhdatvo/vite-plugin-comment-attrs#readme',
+  },
+  source: {
+    github: 'thanhdatvo/vite-plugin-comment-attrs',
+    npm: 'vite-plugin-comment-attrs',
   },
   stats: {
     stars: 1,

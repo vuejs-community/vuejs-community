@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'upload',
     'sharp.js',
   ],
-  source: {
-    github: 'qp91abc1234/vite-plugins',
-    npm: 'vite-img-upload',
-  },
   links: {
     github: 'https://github.com/qp91abc1234/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-img-upload',
     website: 'https://github.com/qp91abc1234/vite-plugins/tree/master/packages/viteImgUpload',
+  },
+  source: {
+    github: 'qp91abc1234/vite-plugins',
+    npm: 'vite-img-upload',
   },
   stats: {
     stars: 0,

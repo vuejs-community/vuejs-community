@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'linhuibin98/unplugin-vue-pages',
-    npm: 'unplugin-vue-pages',
-  },
   links: {
     github: 'https://github.com/linhuibin98/unplugin-vue-pages',
     npm: 'https://www.npmjs.com/package/unplugin-vue-pages',
     website: 'https://github.com/linhuibin98/unplugin-vue-pages#readme',
+  },
+  source: {
+    github: 'linhuibin98/unplugin-vue-pages',
+    npm: 'unplugin-vue-pages',
   },
   stats: {
     stars: 1,

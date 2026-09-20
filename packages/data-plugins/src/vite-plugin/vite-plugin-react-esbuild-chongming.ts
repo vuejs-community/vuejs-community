@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-react-esbuild-chongming',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-react-esbuild-chongming',
     website: 'https://github.com/Dunqing/vite-plugin-react-esbuild#readme',
+  },
+  source: {
+    npm: 'vite-plugin-react-esbuild-chongming',
   },
   stats: {
     stars: 0,

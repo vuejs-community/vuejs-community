@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: '@superblocksteam/vite-plugin-file-sync-ephemeral',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@superblocksteam/vite-plugin-file-sync-ephemeral',
+  },
+  source: {
+    npm: '@superblocksteam/vite-plugin-file-sync-ephemeral',
   },
   stats: {
     stars: 0,

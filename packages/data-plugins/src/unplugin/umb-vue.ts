@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'rolldown',
     'esbuild',
   ],
-  source: {
-    github: 'JoJk0/umb-vue',
-    npm: 'umb-vue',
-  },
   links: {
     github: 'https://github.com/JoJk0/umb-vue',
     npm: 'https://www.npmjs.com/package/umb-vue',
     website: 'https://github.com/JoJk0/umb-vue#readme',
+  },
+  source: {
+    github: 'JoJk0/umb-vue',
+    npm: 'umb-vue',
   },
   stats: {
     stars: 0,

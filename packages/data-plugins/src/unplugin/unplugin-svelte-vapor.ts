@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'kazupon/inclusion-vapor',
-    npm: 'unplugin-svelte-vapor',
-  },
   links: {
     github: 'https://github.com/kazupon/inclusion-vapor',
     npm: 'https://www.npmjs.com/package/unplugin-svelte-vapor',
     website: 'https://github.com/kazupon/inclusion-vapor#readme',
+  },
+  source: {
+    github: 'kazupon/inclusion-vapor',
+    npm: 'unplugin-svelte-vapor',
   },
   stats: {
     stars: 0,

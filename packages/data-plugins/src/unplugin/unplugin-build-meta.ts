@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'webpack',
   ],
-  source: {
-    github: 'luxass/unplugin-build-meta',
-    npm: 'unplugin-build-meta',
-  },
   links: {
     github: 'https://github.com/luxass/unplugin-build-meta',
     npm: 'https://www.npmjs.com/package/unplugin-build-meta',
     website: 'https://github.com/luxass/unplugin-build-meta#readme',
+  },
+  source: {
+    github: 'luxass/unplugin-build-meta',
+    npm: 'unplugin-build-meta',
   },
   stats: {
     stars: 1,

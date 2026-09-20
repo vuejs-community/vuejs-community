@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'scala',
     'scala-js',
   ],
-  source: {
-    github: 'scala-js/vite-plugin-scalajs',
-    npm: '@scala-js/vite-plugin-scalajs',
-  },
   links: {
     github: 'https://github.com/scala-js/vite-plugin-scalajs',
     npm: 'https://www.npmjs.com/package/@scala-js/vite-plugin-scalajs',
     website: 'https://github.com/scala-js/vite-plugin-scalajs#readme',
+  },
+  source: {
+    github: 'scala-js/vite-plugin-scalajs',
+    npm: '@scala-js/vite-plugin-scalajs',
   },
   stats: {
     stars: 63,

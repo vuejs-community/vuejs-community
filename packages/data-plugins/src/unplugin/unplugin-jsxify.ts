@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'tani/unplugin-jsxify',
-    npm: 'unplugin-jsxify',
-  },
   links: {
     github: 'https://github.com/tani/unplugin-jsxify',
     npm: 'https://www.npmjs.com/package/unplugin-jsxify',
     website: 'https://github.com/tani/unplugin-jsxify#readme',
+  },
+  source: {
+    github: 'tani/unplugin-jsxify',
+    npm: 'unplugin-jsxify',
   },
   stats: {
     stars: 1,

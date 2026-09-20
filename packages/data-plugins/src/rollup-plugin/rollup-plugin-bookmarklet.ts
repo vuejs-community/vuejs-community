@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'bookmarklet',
   ],
-  source: {
-    github: 'rollup-community/rollup-plugin-bookmarklet',
-    npm: 'rollup-plugin-bookmarklet',
-  },
   links: {
     github: 'https://github.com/rollup-community/rollup-plugin-bookmarklet',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bookmarklet',
     website: 'https://github.com/rollup-community/rollup-plugin-bookmarklet',
+  },
+  source: {
+    github: 'rollup-community/rollup-plugin-bookmarklet',
+    npm: 'rollup-plugin-bookmarklet',
   },
   stats: {
     stars: 3,

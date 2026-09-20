@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'compress',
     'archive',
   ],
-  source: {
-    github: 'lvzhenbo/vite-plugin-compress-dist',
-    npm: 'vite-plugin-compress-dist',
-  },
   links: {
     github: 'https://github.com/lvzhenbo/vite-plugin-compress-dist',
     npm: 'https://www.npmjs.com/package/vite-plugin-compress-dist',
     website: 'https://github.com/lvzhenbo/vite-plugin-compress-dist#readme',
+  },
+  source: {
+    github: 'lvzhenbo/vite-plugin-compress-dist',
+    npm: 'vite-plugin-compress-dist',
   },
   stats: {
     stars: 0,

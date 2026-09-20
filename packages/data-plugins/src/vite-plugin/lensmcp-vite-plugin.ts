@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'kiwiapps-ltd/lensmcp',
-    npm: '@lensmcp/vite-plugin',
-  },
   links: {
     github: 'https://github.com/kiwiapps-ltd/lensmcp',
     npm: 'https://www.npmjs.com/package/@lensmcp/vite-plugin',
     website: 'https://github.com/kiwiapps-ltd/lensmcp#readme',
+  },
+  source: {
+    github: 'kiwiapps-ltd/lensmcp',
+    npm: '@lensmcp/vite-plugin',
   },
   stats: {
     stars: 0,

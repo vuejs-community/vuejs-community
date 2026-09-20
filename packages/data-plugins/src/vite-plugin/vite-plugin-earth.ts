@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'cesium',
     'mars3d',
   ],
-  source: {
-    github: 'hfxtsk/vite-plugin-earth',
-    npm: 'vite-plugin-earth',
-  },
   links: {
     github: 'https://github.com/hfxtsk/vite-plugin-earth',
     npm: 'https://www.npmjs.com/package/vite-plugin-earth',
     website: 'https://github.com/hfxtsk/vite-plugin-earth#readme',
+  },
+  source: {
+    github: 'hfxtsk/vite-plugin-earth',
+    npm: 'vite-plugin-earth',
   },
   stats: {
     stars: 1,

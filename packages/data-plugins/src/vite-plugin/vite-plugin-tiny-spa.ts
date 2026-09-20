@@ -25,11 +25,11 @@ export default defineProjectMeta({
     'html',
     'inline-assets',
   ],
-  source: {
-    npm: 'vite-plugin-tiny-spa',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-tiny-spa',
+  },
+  source: {
+    npm: 'vite-plugin-tiny-spa',
   },
   stats: {
     stars: 0,

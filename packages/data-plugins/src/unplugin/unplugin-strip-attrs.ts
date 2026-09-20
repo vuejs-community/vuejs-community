@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'vue',
     'webpack-plugin',
   ],
-  source: {
-    github: 'ntnyq/unplugin-strip-attrs',
-    npm: 'unplugin-strip-attrs',
-  },
   links: {
     github: 'https://github.com/ntnyq/unplugin-strip-attrs',
     npm: 'https://www.npmjs.com/package/unplugin-strip-attrs',
     website: 'https://github.com/ntnyq/unplugin-strip-attrs#readme',
+  },
+  source: {
+    github: 'ntnyq/unplugin-strip-attrs',
+    npm: 'unplugin-strip-attrs',
   },
   stats: {
     stars: 0,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'browser',
     'browser-extension',
   ],
-  source: {
-    github: 'crxjs/chrome-extension-tools',
-    npm: '@crxjs/vite-plugin',
-  },
   links: {
     github: 'https://github.com/crxjs/chrome-extension-tools',
     npm: 'https://www.npmjs.com/package/@crxjs/vite-plugin',
     website: 'https://crxjs.dev/vite-plugin',
+  },
+  source: {
+    github: 'crxjs/chrome-extension-tools',
+    npm: '@crxjs/vite-plugin',
   },
   stats: {
     stars: 4170,

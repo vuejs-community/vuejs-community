@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vue',
     'vue-router',
   ],
-  source: {
-    github: 'awdr74100/vite-plugin-vue-middleware',
-    npm: 'vite-plugin-vue-middleware',
-  },
   links: {
     github: 'https://github.com/awdr74100/vite-plugin-vue-middleware',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-middleware',
     website: 'https://github.com/awdr74100/vite-plugin-vue-middleware#readme',
+  },
+  source: {
+    github: 'awdr74100/vite-plugin-vue-middleware',
+    npm: 'vite-plugin-vue-middleware',
   },
   stats: {
     stars: 13,

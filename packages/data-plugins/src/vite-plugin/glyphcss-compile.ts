@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'ssg',
     'cli',
   ],
-  source: {
-    github: 'apresmoi/glyphcss',
-    npm: '@glyphcss/compile',
-  },
   links: {
     github: 'https://github.com/apresmoi/glyphcss',
     npm: 'https://www.npmjs.com/package/@glyphcss/compile',
     website: 'https://github.com/apresmoi/glyphcss#readme',
+  },
+  source: {
+    github: 'apresmoi/glyphcss',
+    npm: '@glyphcss/compile',
   },
   stats: {
     stars: 211,

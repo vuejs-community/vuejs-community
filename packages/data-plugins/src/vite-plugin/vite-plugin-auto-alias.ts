@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'vite-plugin',
     'alias',
   ],
-  source: {
-    npm: 'vite-plugin-auto-alias',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-alias',
     website: 'https://github.com/jwyGithub/vite-plugin-auto-alias',
+  },
+  source: {
+    npm: 'vite-plugin-auto-alias',
   },
   stats: {
     stars: 0,

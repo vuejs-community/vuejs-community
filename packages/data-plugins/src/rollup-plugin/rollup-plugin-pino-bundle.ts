@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'logging',
     'pino-transport',
   ],
-  source: {
-    github: 'soul2eat/rollup-plugin-pino-bundle',
-    npm: 'rollup-plugin-pino-bundle',
-  },
   links: {
     github: 'https://github.com/soul2eat/rollup-plugin-pino-bundle',
     npm: 'https://www.npmjs.com/package/rollup-plugin-pino-bundle',
     website: 'https://github.com/soul2eat/rollup-plugin-pino-bundle',
+  },
+  source: {
+    github: 'soul2eat/rollup-plugin-pino-bundle',
+    npm: 'rollup-plugin-pino-bundle',
   },
   stats: {
     stars: 2,

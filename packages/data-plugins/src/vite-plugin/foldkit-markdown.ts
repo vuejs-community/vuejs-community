@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'islands',
     'mdast',
   ],
-  source: {
-    github: 'foldkit/foldkit',
-    npm: '@foldkit/markdown',
-  },
   links: {
     github: 'https://github.com/foldkit/foldkit',
     npm: 'https://www.npmjs.com/package/@foldkit/markdown',
     website: 'https://github.com/foldkit/foldkit#readme',
+  },
+  source: {
+    github: 'foldkit/foldkit',
+    npm: '@foldkit/markdown',
   },
   stats: {
     stars: 851,

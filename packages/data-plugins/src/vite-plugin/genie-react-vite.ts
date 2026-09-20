@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'y0u-0/genie-react',
-    npm: '@genie-react/vite',
-  },
   links: {
     github: 'https://github.com/y0u-0/genie-react',
     npm: 'https://www.npmjs.com/package/@genie-react/vite',
     website: 'https://github.com/y0u-0/genie-react-agent#readme',
+  },
+  source: {
+    github: 'y0u-0/genie-react',
+    npm: '@genie-react/vite',
   },
   stats: {
     stars: 33,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'xunlei',
     'miniapp',
   ],
-  source: {
-    github: 'xunlei-open/miniapp-devkit',
-    npm: '@xunlei-open/vite-plugin-miniapp',
-  },
   links: {
     github: 'https://github.com/xunlei-open/miniapp-devkit',
     npm: 'https://www.npmjs.com/package/@xunlei-open/vite-plugin-miniapp',
     website: 'https://github.com/xunlei-open/miniapp-devkit#readme',
+  },
+  source: {
+    github: 'xunlei-open/miniapp-devkit',
+    npm: '@xunlei-open/vite-plugin-miniapp',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'adapter',
     'cloudflare',
   ],
-  source: {
-    github: 'web-runes/vite-deploy',
-    npm: '@vite-deploy/cloudflare',
-  },
   links: {
     github: 'https://github.com/web-runes/vite-deploy',
     npm: 'https://www.npmjs.com/package/@vite-deploy/cloudflare',
     website: 'https://vite-deploy.web-runes.dev',
+  },
+  source: {
+    github: 'web-runes/vite-deploy',
+    npm: '@vite-deploy/cloudflare',
   },
   stats: {
     stars: 11,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'jade',
     '@mish.dev',
   ],
-  source: {
-    github: 'mish-design/vite-convert-pug-in-html',
-    npm: '@mish.dev/vite-convert-pug-in-html',
-  },
   links: {
     github: 'https://github.com/mish-design/vite-convert-pug-in-html',
     npm: 'https://www.npmjs.com/package/@mish.dev/vite-convert-pug-in-html',
     website: 'https://github.com/mish-design/vite-convert-pug-in-html#readme',
+  },
+  source: {
+    github: 'mish-design/vite-convert-pug-in-html',
+    npm: '@mish.dev/vite-convert-pug-in-html',
   },
   stats: {
     stars: 6,

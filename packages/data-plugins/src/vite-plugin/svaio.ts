@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'pigeonposse/svaio',
-    npm: 'svaio',
-  },
   links: {
     github: 'https://github.com/pigeonposse/svaio',
     npm: 'https://www.npmjs.com/package/svaio',
     website: 'https://svaio.pigeonposse.com/guide/core',
+  },
+  source: {
+    github: 'pigeonposse/svaio',
+    npm: 'svaio',
   },
   stats: {
     stars: 0,

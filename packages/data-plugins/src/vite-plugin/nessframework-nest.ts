@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'api-routes',
     'hot-reload',
   ],
-  source: {
-    github: 'leroyanders/Ness.js',
-    npm: '@nessframework/nest',
-  },
   links: {
     github: 'https://github.com/leroyanders/Ness.js',
     npm: 'https://www.npmjs.com/package/@nessframework/nest',
     website: 'https://nessjs.com/docs/plugins/nest',
+  },
+  source: {
+    github: 'leroyanders/Ness.js',
+    npm: '@nessframework/nest',
   },
   stats: {
     stars: 0,

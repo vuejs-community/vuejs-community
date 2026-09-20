@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: '@svelte-drama/vite-plugin-image-metadata',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@svelte-drama/vite-plugin-image-metadata',
+  },
+  source: {
+    npm: '@svelte-drama/vite-plugin-image-metadata',
   },
   stats: {
     stars: 0,

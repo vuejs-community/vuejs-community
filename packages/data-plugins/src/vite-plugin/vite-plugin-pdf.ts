@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'pdf',
   ],
-  source: {
-    github: 'yjl9903/vite-plugin-pdf',
-    npm: 'vite-plugin-pdf',
-  },
   links: {
     github: 'https://github.com/yjl9903/vite-plugin-pdf',
     npm: 'https://www.npmjs.com/package/vite-plugin-pdf',
     website: 'https://github.com/yjl9903/vite-plugin-pdf#readme',
+  },
+  source: {
+    github: 'yjl9903/vite-plugin-pdf',
+    npm: 'vite-plugin-pdf',
   },
   stats: {
     stars: 5,

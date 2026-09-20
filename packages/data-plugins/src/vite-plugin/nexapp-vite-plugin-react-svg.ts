@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'react',
   ],
-  source: {
-    github: 'visualfanatic/vite-svg',
-    npm: '@nexapp/vite-plugin-react-svg',
-  },
   links: {
     github: 'https://github.com/visualfanatic/vite-svg',
     npm: 'https://www.npmjs.com/package/@nexapp/vite-plugin-react-svg',
     website: 'https://github.com/visualfanatic/vite-svg#readme',
+  },
+  source: {
+    github: 'visualfanatic/vite-svg',
+    npm: '@nexapp/vite-plugin-react-svg',
   },
   stats: {
     stars: 104,

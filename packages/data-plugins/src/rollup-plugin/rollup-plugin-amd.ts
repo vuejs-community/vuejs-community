@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'requirejs',
     'amd',
   ],
-  source: {
-    github: 'piuccio/rollup-plugin-amd',
-    npm: 'rollup-plugin-amd',
-  },
   links: {
     github: 'https://github.com/piuccio/rollup-plugin-amd',
     npm: 'https://www.npmjs.com/package/rollup-plugin-amd',
     website: 'https://github.com/piuccio/rollup-plugin-amd#readme',
+  },
+  source: {
+    github: 'piuccio/rollup-plugin-amd',
+    npm: 'rollup-plugin-amd',
   },
   stats: {
     stars: 23,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'typescript',
     'path-mapping',
   ],
-  source: {
-    github: 'Mutefish0/rollup-plugin-typescript-path-mapping',
-    npm: 'rollup-plugin-typescript-path-mapping',
-  },
   links: {
     github: 'https://github.com/Mutefish0/rollup-plugin-typescript-path-mapping',
     npm: 'https://www.npmjs.com/package/rollup-plugin-typescript-path-mapping',
     website: 'https://github.com/Mutefish0/rollup-plugin-typescript-path-mapping#readme',
+  },
+  source: {
+    github: 'Mutefish0/rollup-plugin-typescript-path-mapping',
+    npm: 'rollup-plugin-typescript-path-mapping',
   },
   stats: {
     stars: 2,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'SpacesoulsL/vite-plugin-timelog',
-    npm: 'vite-plugin-timelog',
-  },
   links: {
     github: 'https://github.com/SpacesoulsL/vite-plugin-timelog',
     npm: 'https://www.npmjs.com/package/vite-plugin-timelog',
     website: 'https://github.com/SpacesoulsL/vite-plugin-timelog.git#readme',
+  },
+  source: {
+    github: 'SpacesoulsL/vite-plugin-timelog',
+    npm: 'vite-plugin-timelog',
   },
   stats: {
     stars: 2,

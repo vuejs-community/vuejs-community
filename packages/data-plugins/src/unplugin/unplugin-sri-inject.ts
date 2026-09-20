@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'Assone/unplugin-sri',
-    npm: 'unplugin-sri-inject',
-  },
   links: {
     github: 'https://github.com/Assone/unplugin-sri',
     npm: 'https://www.npmjs.com/package/unplugin-sri-inject',
     website: 'https://github.com/Assone/unplugin-sri#readme',
+  },
+  source: {
+    github: 'Assone/unplugin-sri',
+    npm: 'unplugin-sri-inject',
   },
   stats: {
     stars: 0,

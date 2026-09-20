@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'ungly',
   ],
-  source: {
-    github: 'FliPPeDround/vite-plugin-qwer',
-    npm: 'vite-plugin-qwer',
-  },
   links: {
     github: 'https://github.com/FliPPeDround/vite-plugin-qwer',
     npm: 'https://www.npmjs.com/package/vite-plugin-qwer',
     website: 'https://github.com/FliPPeDround/vite-plugin-qwer',
+  },
+  source: {
+    github: 'FliPPeDround/vite-plugin-qwer',
+    npm: 'vite-plugin-qwer',
   },
   stats: {
     stars: 9,

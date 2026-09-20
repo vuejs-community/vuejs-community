@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'yjl9903/naria2',
-    npm: 'vite-plugin-naria2',
-  },
   links: {
     github: 'https://github.com/yjl9903/naria2',
     npm: 'https://www.npmjs.com/package/vite-plugin-naria2',
     website: 'https://github.com/yjl9903/naria2#readme',
+  },
+  source: {
+    github: 'yjl9903/naria2',
+    npm: 'vite-plugin-naria2',
   },
   stats: {
     stars: 24,

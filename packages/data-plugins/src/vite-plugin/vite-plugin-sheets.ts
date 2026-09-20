@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'google-sheets',
     'sheets',
   ],
-  source: {
-    github: 'BlueFrog130/vite-plugin-sheets',
-    npm: 'vite-plugin-sheets',
-  },
   links: {
     github: 'https://github.com/BlueFrog130/vite-plugin-sheets',
     npm: 'https://www.npmjs.com/package/vite-plugin-sheets',
+  },
+  source: {
+    github: 'BlueFrog130/vite-plugin-sheets',
+    npm: 'vite-plugin-sheets',
   },
   stats: {
     stars: 0,

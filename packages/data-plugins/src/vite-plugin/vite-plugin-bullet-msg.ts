@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'bullet-chat',
   ],
-  source: {
-    github: 'PengBoUESTC/vite-plugin-bullet-msg',
-    npm: 'vite-plugin-bullet-msg',
-  },
   links: {
     github: 'https://github.com/PengBoUESTC/vite-plugin-bullet-msg',
     npm: 'https://www.npmjs.com/package/vite-plugin-bullet-msg',
     website: 'https://github.com/PengBoUESTC/vite-plugin-bullet-msg#readme',
+  },
+  source: {
+    github: 'PengBoUESTC/vite-plugin-bullet-msg',
+    npm: 'vite-plugin-bullet-msg',
   },
   stats: {
     stars: 4,

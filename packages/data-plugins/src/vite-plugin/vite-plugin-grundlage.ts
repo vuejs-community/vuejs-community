@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'declarative-shadow-dom',
     'grundlage',
   ],
-  source: {
-    github: 'copyandpaetow/grundlage',
-    npm: 'vite-plugin-grundlage',
-  },
   links: {
     github: 'https://github.com/copyandpaetow/grundlage',
     npm: 'https://www.npmjs.com/package/vite-plugin-grundlage',
     website: 'https://github.com/copyandpaetow/grundlage/tree/main/prerender-plugin#readme',
+  },
+  source: {
+    github: 'copyandpaetow/grundlage',
+    npm: 'vite-plugin-grundlage',
   },
   stats: {
     stars: 0,

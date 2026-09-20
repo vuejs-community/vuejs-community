@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rsc',
     'persisted-queries',
   ],
-  source: {
-    github: 'gleanql/gleanql',
-    npm: '@gleanql/vite',
-  },
   links: {
     github: 'https://github.com/gleanql/gleanql',
     npm: 'https://www.npmjs.com/package/@gleanql/vite',
     website: 'https://gleanql.com',
+  },
+  source: {
+    github: 'gleanql/gleanql',
+    npm: '@gleanql/vite',
   },
   stats: {
     stars: 4,

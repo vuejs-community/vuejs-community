@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'jsonc',
     'json',
   ],
-  source: {
-    github: 'sneakylenny/vite-plugin-json5',
-    npm: 'vite-plugin-json5',
-  },
   links: {
     github: 'https://github.com/sneakylenny/vite-plugin-json5',
     npm: 'https://www.npmjs.com/package/vite-plugin-json5',
     website: 'https://github.com/sneakylenny/vite-plugin-json5#readme',
+  },
+  source: {
+    github: 'sneakylenny/vite-plugin-json5',
+    npm: 'vite-plugin-json5',
   },
   stats: {
     stars: 16,

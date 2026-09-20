@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'typescript',
   ],
-  source: {
-    npm: 'rollup-plugin-clear-unusefile',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-clear-unusefile',
+  },
+  source: {
+    npm: 'rollup-plugin-clear-unusefile',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-css-modules',
   ],
-  source: {
-    github: 'wangzongming/vite-plugin-require',
-    npm: 'vite-plugin-css-modules',
-  },
   links: {
     github: 'https://github.com/wangzongming/vite-plugin-require',
     npm: 'https://www.npmjs.com/package/vite-plugin-css-modules',
     website: 'https://github.com/wangzongming/vite-plugin-require#readme',
+  },
+  source: {
+    github: 'wangzongming/vite-plugin-require',
+    npm: 'vite-plugin-css-modules',
   },
   stats: {
     stars: 87,

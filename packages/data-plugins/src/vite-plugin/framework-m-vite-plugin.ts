@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'plugin-discovery',
     'multi-app',
   ],
-  source: {
-    npm: '@framework-m/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@framework-m/vite-plugin',
     website: 'https://gitlab.com/castlecraft/framework-m#readme',
+  },
+  source: {
+    npm: '@framework-m/vite-plugin',
   },
   stats: {
     stars: 0,

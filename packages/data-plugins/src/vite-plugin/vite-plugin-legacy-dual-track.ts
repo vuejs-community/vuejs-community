@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'polyfill',
     'postcss',
   ],
-  source: {
-    github: 'zhaojiale/vite-plugin-legacy-dual-track',
-    npm: 'vite-plugin-legacy-dual-track',
-  },
   links: {
     github: 'https://github.com/zhaojiale/vite-plugin-legacy-dual-track',
     npm: 'https://www.npmjs.com/package/vite-plugin-legacy-dual-track',
     website: 'https://github.com/zhaojiale/vite-plugin-legacy-dual-track#readme',
+  },
+  source: {
+    github: 'zhaojiale/vite-plugin-legacy-dual-track',
+    npm: 'vite-plugin-legacy-dual-track',
   },
   stats: {
     stars: 0,

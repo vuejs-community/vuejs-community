@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'dev-server',
     'security',
   ],
-  source: {
-    github: 'yracnet/vite-plugin-auth',
-    npm: 'vite-plugin-auth',
-  },
   links: {
     github: 'https://github.com/yracnet/vite-plugin-auth',
     npm: 'https://www.npmjs.com/package/vite-plugin-auth',
     website: 'https://github.com/yracnet/vite-plugin-auth',
+  },
+  source: {
+    github: 'yracnet/vite-plugin-auth',
+    npm: 'vite-plugin-auth',
   },
   stats: {
     stars: 0,

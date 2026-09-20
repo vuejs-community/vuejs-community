@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'keller-mark/rollup-plugin-node-empty',
-    npm: 'rollup-plugin-node-empty',
-  },
   links: {
     github: 'https://github.com/keller-mark/rollup-plugin-node-empty',
     npm: 'https://www.npmjs.com/package/rollup-plugin-node-empty',
     website: 'https://github.com/keller-mark/rollup-plugin-node-empty#readme',
+  },
+  source: {
+    github: 'keller-mark/rollup-plugin-node-empty',
+    npm: 'rollup-plugin-node-empty',
   },
   stats: {
     stars: 0,

@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'watch',
     'development',
   ],
-  source: {
-    github: 'niceprototypes/nice-vite-watcher',
-    npm: 'nice-vite-watcher',
-  },
   links: {
     github: 'https://github.com/niceprototypes/nice-vite-watcher',
     npm: 'https://www.npmjs.com/package/nice-vite-watcher',
     website: 'https://github.com/niceprototypes/nice-vite-watcher#readme',
+  },
+  source: {
+    github: 'niceprototypes/nice-vite-watcher',
+    npm: 'nice-vite-watcher',
   },
   stats: {
     stars: 0,

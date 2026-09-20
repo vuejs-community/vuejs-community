@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'tsdown',
     'tsdown-plugin',
   ],
-  source: {
-    github: 'bosh-code/tsdown-plugin-inject-css',
-    npm: '@bosh-code/tsdown-plugin-inject-css',
-  },
   links: {
     github: 'https://github.com/bosh-code/tsdown-plugin-inject-css',
     npm: 'https://www.npmjs.com/package/@bosh-code/tsdown-plugin-inject-css',
     website: 'https://github.com/bosh-code/tsdown-plugin-inject-css',
+  },
+  source: {
+    github: 'bosh-code/tsdown-plugin-inject-css',
+    npm: '@bosh-code/tsdown-plugin-inject-css',
   },
   stats: {
     stars: 3,

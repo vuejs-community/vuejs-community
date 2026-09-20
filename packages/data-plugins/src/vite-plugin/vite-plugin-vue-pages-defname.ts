@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'vue-plugin',
     'vue3',
   ],
-  source: {
-    npm: 'vite-plugin-vue-pages-defname',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-pages-defname',
+  },
+  source: {
+    npm: 'vite-plugin-vue-pages-defname',
   },
   stats: {
     stars: 0,

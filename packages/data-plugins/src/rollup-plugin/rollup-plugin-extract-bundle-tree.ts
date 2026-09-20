@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'bundle',
   ],
-  source: {
-    github: 'domingues/rollup-plugin-extract-bundle-tree',
-    npm: 'rollup-plugin-extract-bundle-tree',
-  },
   links: {
     github: 'https://github.com/domingues/rollup-plugin-extract-bundle-tree',
     npm: 'https://www.npmjs.com/package/rollup-plugin-extract-bundle-tree',
     website: 'https://github.com/domingues/rollup-plugin-extract-bundle-tree',
+  },
+  source: {
+    github: 'domingues/rollup-plugin-extract-bundle-tree',
+    npm: 'rollup-plugin-extract-bundle-tree',
   },
   stats: {
     stars: 7,

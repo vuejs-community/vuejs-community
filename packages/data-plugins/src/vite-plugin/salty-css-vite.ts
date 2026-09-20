@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'css',
     'styling',
   ],
-  source: {
-    github: 'margarita-form/salty-css',
-    npm: '@salty-css/vite',
-  },
   links: {
     github: 'https://github.com/margarita-form/salty-css',
     npm: 'https://www.npmjs.com/package/@salty-css/vite',
     website: 'https://salty-css.dev/',
+  },
+  source: {
+    github: 'margarita-form/salty-css',
+    npm: '@salty-css/vite',
   },
   stats: {
     stars: 14,

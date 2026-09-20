@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup-plugin-esbuild',
     'rollup-plugin-esbuild-transform',
   ],
-  source: {
-    github: 'exuanbo/rollup-plugin-esbuild-transform',
-    npm: 'rollup-plugin-esbuild-transform',
-  },
   links: {
     github: 'https://github.com/exuanbo/rollup-plugin-esbuild-transform',
     npm: 'https://www.npmjs.com/package/rollup-plugin-esbuild-transform',
     website: 'https://github.com/exuanbo/rollup-plugin-esbuild-transform#readme',
+  },
+  source: {
+    github: 'exuanbo/rollup-plugin-esbuild-transform',
+    npm: 'rollup-plugin-esbuild-transform',
   },
   stats: {
     stars: 12,

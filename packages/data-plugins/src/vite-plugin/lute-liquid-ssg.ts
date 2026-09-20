@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'ssg',
     'ssr',
   ],
-  source: {
-    github: 'antfu/vite-ssg',
-    npm: '@lute/liquid-ssg',
-  },
   links: {
     github: 'https://github.com/antfu/vite-ssg',
     npm: 'https://www.npmjs.com/package/@lute/liquid-ssg',
     website: 'https://github.com/antfu/vite-ssg',
+  },
+  source: {
+    github: 'antfu/vite-ssg',
+    npm: '@lute/liquid-ssg',
   },
   stats: {
     stars: 0,

@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'image-optimizer',
     'bundle-size',
   ],
-  source: {
-    github: 'Cyran777/vite-plugin-image-audit',
-    npm: 'vite-plugin-image-audit',
-  },
   links: {
     github: 'https://github.com/Cyran777/vite-plugin-image-audit',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-audit',
     website: 'https://github.com/Cyran777/vite-plugin-image-audit#readme',
+  },
+  source: {
+    github: 'Cyran777/vite-plugin-image-audit',
+    npm: 'vite-plugin-image-audit',
   },
   stats: {
     stars: 0,

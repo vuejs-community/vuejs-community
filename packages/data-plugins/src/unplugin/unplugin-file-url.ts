@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'file url',
   ],
-  source: {
-    github: 'justin-schroeder/unplugin-file-url',
-    npm: 'unplugin-file-url',
-  },
   links: {
     github: 'https://github.com/justin-schroeder/unplugin-file-url',
     npm: 'https://www.npmjs.com/package/unplugin-file-url',
     website: 'https://github.com/justin-schroeder/unplugin-file-url#readme',
+  },
+  source: {
+    github: 'justin-schroeder/unplugin-file-url',
+    npm: 'unplugin-file-url',
   },
   stats: {
     stars: 3,

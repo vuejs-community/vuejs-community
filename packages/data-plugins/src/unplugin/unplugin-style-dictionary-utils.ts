@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    npm: 'unplugin-style-dictionary-utils',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-style-dictionary-utils',
+  },
+  source: {
+    npm: 'unplugin-style-dictionary-utils',
   },
   stats: {
     stars: 0,

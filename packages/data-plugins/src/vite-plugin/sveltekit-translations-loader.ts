@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'typescript',
     'vite-plugin',
   ],
-  source: {
-    github: 'AntonPavlenkov/sveltekit-translations-loader',
-    npm: 'sveltekit-translations-loader',
-  },
   links: {
     github: 'https://github.com/AntonPavlenkov/sveltekit-translations-loader',
     npm: 'https://www.npmjs.com/package/sveltekit-translations-loader',
     website: 'https://github.com/AntonPavlenkov/sveltekit-translations-loader#readme',
+  },
+  source: {
+    github: 'AntonPavlenkov/sveltekit-translations-loader',
+    npm: 'sveltekit-translations-loader',
   },
   stats: {
     stars: 0,

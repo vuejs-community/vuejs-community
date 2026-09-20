@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'nodecg/vite-plugin-nodecg',
-    npm: '@inkfarer/vite-plugin-nodecg',
-  },
   links: {
     github: 'https://github.com/nodecg/vite-plugin-nodecg',
     npm: 'https://www.npmjs.com/package/@inkfarer/vite-plugin-nodecg',
     website: 'https://github.com/nodecg/vite-plugin-nodecg#readme',
+  },
+  source: {
+    github: 'nodecg/vite-plugin-nodecg',
+    npm: '@inkfarer/vite-plugin-nodecg',
   },
   stats: {
     stars: 17,

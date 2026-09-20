@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'mock',
     'mock-server',
   ],
-  source: {
-    github: 'pengzhanbo/vite-plugin-mock-dev-server',
-    npm: '@yogibaba/vite-plugin-mock-dev-server',
-  },
   links: {
     github: 'https://github.com/pengzhanbo/vite-plugin-mock-dev-server',
     npm: 'https://www.npmjs.com/package/@yogibaba/vite-plugin-mock-dev-server',
     website: 'https://vite-plugin-mock-dev-server.netlify.app',
+  },
+  source: {
+    github: 'pengzhanbo/vite-plugin-mock-dev-server',
+    npm: '@yogibaba/vite-plugin-mock-dev-server',
   },
   stats: {
     stars: 0,

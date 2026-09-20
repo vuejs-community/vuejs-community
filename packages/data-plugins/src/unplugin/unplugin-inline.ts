@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'function',
     'macro',
   ],
-  source: {
-    github: 'unstoppablecarl/unplugin-inline',
-    npm: 'unplugin-inline',
-  },
   links: {
     github: 'https://github.com/unstoppablecarl/unplugin-inline',
     npm: 'https://www.npmjs.com/package/unplugin-inline',
     website: 'https://github.com/unstoppablecarl/unplugin-inline#readme',
+  },
+  source: {
+    github: 'unstoppablecarl/unplugin-inline',
+    npm: 'unplugin-inline',
   },
   stats: {
     stars: 1,

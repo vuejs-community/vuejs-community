@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'drupal',
     'twig',
   ],
-  source: {
-    github: 'dclause/vite-plugin-drupal-hmr',
-    npm: 'vite-plugin-drupal-hmr',
-  },
   links: {
     github: 'https://github.com/dclause/vite-plugin-drupal-hmr',
     npm: 'https://www.npmjs.com/package/vite-plugin-drupal-hmr',
     website: 'https://github.com/dclause/vite-plugin-drupal-hmr',
+  },
+  source: {
+    github: 'dclause/vite-plugin-drupal-hmr',
+    npm: 'vite-plugin-drupal-hmr',
   },
   stats: {
     stars: 0,

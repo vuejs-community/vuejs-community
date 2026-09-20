@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'cva',
     'build-time',
   ],
-  source: {
-    github: 'Gastonite/vite-plugin-static-classnames',
-    npm: 'vite-plugin-static-classnames',
-  },
   links: {
     github: 'https://github.com/Gastonite/vite-plugin-static-classnames',
     npm: 'https://www.npmjs.com/package/vite-plugin-static-classnames',
     website: 'https://github.com/Gastonite/vite-plugin-static-classnames#readme',
+  },
+  source: {
+    github: 'Gastonite/vite-plugin-static-classnames',
+    npm: 'vite-plugin-static-classnames',
   },
   stats: {
     stars: 0,

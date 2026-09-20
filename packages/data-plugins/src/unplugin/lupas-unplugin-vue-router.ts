@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'nuxt',
     'router',
   ],
-  source: {
-    github: 'posva/unplugin-vue-router',
-    npm: '@lupas/unplugin-vue-router',
-  },
   links: {
     github: 'https://github.com/posva/unplugin-vue-router',
     npm: 'https://www.npmjs.com/package/@lupas/unplugin-vue-router',
     website: 'https://uvr.esm.is',
+  },
+  source: {
+    github: 'posva/unplugin-vue-router',
+    npm: '@lupas/unplugin-vue-router',
   },
   stats: {
     stars: 2237,

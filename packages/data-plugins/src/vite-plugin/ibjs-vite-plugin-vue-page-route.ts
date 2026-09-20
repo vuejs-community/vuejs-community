@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'directory-route',
     'file-based-route',
   ],
-  source: {
-    github: 'ibjs/vite-plugin-vue-page-route',
-    npm: '@ibjs/vite-plugin-vue-page-route',
-  },
   links: {
     github: 'https://github.com/ibjs/vite-plugin-vue-page-route',
     npm: 'https://www.npmjs.com/package/@ibjs/vite-plugin-vue-page-route',
     website: 'https://github.com/ibjs/vite-plugin-vue-page-route',
+  },
+  source: {
+    github: 'ibjs/vite-plugin-vue-page-route',
+    npm: '@ibjs/vite-plugin-vue-page-route',
   },
   stats: {
     stars: 0,

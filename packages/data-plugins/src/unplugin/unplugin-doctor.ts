@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite',
     'analysis',
   ],
-  source: {
-    npm: 'unplugin-doctor',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-doctor',
+  },
+  source: {
+    npm: 'unplugin-doctor',
   },
   stats: {
     stars: 0,

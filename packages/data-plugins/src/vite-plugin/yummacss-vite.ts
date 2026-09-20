@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'yummacss',
   ],
-  source: {
-    github: 'yummacss/yummacss',
-    npm: '@yummacss/vite',
-  },
   links: {
     github: 'https://github.com/yummacss/yummacss',
     npm: 'https://www.npmjs.com/package/@yummacss/vite',
     website: 'https://yummacss.com',
+  },
+  source: {
+    github: 'yummacss/yummacss',
+    npm: '@yummacss/vite',
   },
   stats: {
     stars: 14,

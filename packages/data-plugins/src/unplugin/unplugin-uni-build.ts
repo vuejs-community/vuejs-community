@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'flippedround/unplugin-uni-build',
-    npm: 'unplugin-uni-build',
-  },
   links: {
     github: 'https://github.com/flippedround/unplugin-uni-build',
     npm: 'https://www.npmjs.com/package/unplugin-uni-build',
     website: 'https://github.com/flippedround/unplugin-uni-build#readme',
+  },
+  source: {
+    github: 'flippedround/unplugin-uni-build',
+    npm: 'unplugin-uni-build',
   },
   stats: {
     stars: 0,

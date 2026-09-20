@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'cargo',
   ],
-  source: {
-    github: 'slyedoc/vite-plugin-vue-bevy-wasm',
-    npm: 'vite-plugin-vue-bevy-wasm',
-  },
   links: {
     github: 'https://github.com/slyedoc/vite-plugin-vue-bevy-wasm',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-bevy-wasm',
     website: 'https://github.com/slyedoc/vite-plugin-vue-bevy-wasm',
+  },
+  source: {
+    github: 'slyedoc/vite-plugin-vue-bevy-wasm',
+    npm: 'vite-plugin-vue-bevy-wasm',
   },
   stats: {
     stars: 0,

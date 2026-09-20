@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'folder',
     'output',
   ],
-  source: {
-    github: 'elijaholmos/rollup-plugin-zipdir',
-    npm: 'rollup-plugin-zipdir',
-  },
   links: {
     github: 'https://github.com/elijaholmos/rollup-plugin-zipdir',
     npm: 'https://www.npmjs.com/package/rollup-plugin-zipdir',
     website: 'https://github.com/elijaholmos/rollup-plugin-zipdir',
+  },
+  source: {
+    github: 'elijaholmos/rollup-plugin-zipdir',
+    npm: 'rollup-plugin-zipdir',
   },
   stats: {
     stars: 0,

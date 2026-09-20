@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'figlet',
   ],
-  source: {
-    github: 'leifarriens/vite-plugin-figlet',
-    npm: 'vite-plugin-figlet',
-  },
   links: {
     github: 'https://github.com/leifarriens/vite-plugin-figlet',
     npm: 'https://www.npmjs.com/package/vite-plugin-figlet',
     website: 'https://github.com/leifarriens/vite-plugin-figlet',
+  },
+  source: {
+    github: 'leifarriens/vite-plugin-figlet',
+    npm: 'vite-plugin-figlet',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'jsx',
     'minify',
   ],
-  source: {
-    github: 'Sunny-117/vite-plugin-oxc',
-    npm: 'vite-plugin-oxc',
-  },
   links: {
     github: 'https://github.com/Sunny-117/vite-plugin-oxc',
     npm: 'https://www.npmjs.com/package/vite-plugin-oxc',
     website: 'https://github.com/Sunny-117/vite-plugin-oxc#readme',
+  },
+  source: {
+    github: 'Sunny-117/vite-plugin-oxc',
+    npm: 'vite-plugin-oxc',
   },
   stats: {
     stars: 5,

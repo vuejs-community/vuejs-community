@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'ssg',
     'ssr',
   ],
-  source: {
-    github: 'antfu/vite-ssg',
-    npm: 'mix-vite-ssg',
-  },
   links: {
     github: 'https://github.com/antfu/vite-ssg',
     npm: 'https://www.npmjs.com/package/mix-vite-ssg',
     website: 'https://github.com/antfu/vite-ssg',
+  },
+  source: {
+    github: 'antfu/vite-ssg',
+    npm: 'mix-vite-ssg',
   },
   stats: {
     stars: 0,

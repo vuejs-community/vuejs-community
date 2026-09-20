@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'svg',
     'typescript',
   ],
-  source: {
-    github: 'chunnamwong/vite-plugin-svg-ts',
-    npm: 'vite-plugin-svg-ts',
-  },
   links: {
     github: 'https://github.com/chunnamwong/vite-plugin-svg-ts',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-ts',
     website: 'https://github.com/chunnamwong/vite-plugin-svg-ts#readme',
+  },
+  source: {
+    github: 'chunnamwong/vite-plugin-svg-ts',
+    npm: 'vite-plugin-svg-ts',
   },
   stats: {
     stars: 1,

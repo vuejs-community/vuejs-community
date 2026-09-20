@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'ssr',
     'fancy',
   ],
-  source: {
-    github: 'Particle-Academy/fancy-pwa',
-    npm: '@particle-academy/fancy-pwa',
-  },
   links: {
     github: 'https://github.com/Particle-Academy/fancy-pwa',
     npm: 'https://www.npmjs.com/package/@particle-academy/fancy-pwa',
     website: 'https://github.com/Particle-Academy/fancy-pwa#readme',
+  },
+  source: {
+    github: 'Particle-Academy/fancy-pwa',
+    npm: '@particle-academy/fancy-pwa',
   },
   stats: {
     stars: 0,

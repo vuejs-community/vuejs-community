@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'mehranTaslimi/js-spawn',
-    npm: 'js-spawn',
-  },
   links: {
     github: 'https://github.com/mehranTaslimi/js-spawn',
     npm: 'https://www.npmjs.com/package/js-spawn',
     website: 'https://github.com/mehranTaslimi/js-spawn#readme',
+  },
+  source: {
+    github: 'mehranTaslimi/js-spawn',
+    npm: 'js-spawn',
   },
   stats: {
     stars: 4,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'leoboyerbx/vite-plugin-dev-guides',
-    npm: 'vite-plugin-dev-guides',
-  },
   links: {
     github: 'https://github.com/leoboyerbx/vite-plugin-dev-guides',
     npm: 'https://www.npmjs.com/package/vite-plugin-dev-guides',
     website: 'https://github.com/leoboyerbx/vite-plugin-dev-guides#readme',
+  },
+  source: {
+    github: 'leoboyerbx/vite-plugin-dev-guides',
+    npm: 'vite-plugin-dev-guides',
   },
   stats: {
     stars: 0,

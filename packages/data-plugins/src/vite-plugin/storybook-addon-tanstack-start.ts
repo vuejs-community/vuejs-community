@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'testing',
     'vite-plugin',
   ],
-  source: {
-    github: 'jonmumm/storybook-addon-tanstack-start',
-    npm: 'storybook-addon-tanstack-start',
-  },
   links: {
     github: 'https://github.com/jonmumm/storybook-addon-tanstack-start',
     npm: 'https://www.npmjs.com/package/storybook-addon-tanstack-start',
     website: 'https://github.com/jonmumm/storybook-addon-tanstack-start#readme',
+  },
+  source: {
+    github: 'jonmumm/storybook-addon-tanstack-start',
+    npm: 'storybook-addon-tanstack-start',
   },
   stats: {
     stars: 0,

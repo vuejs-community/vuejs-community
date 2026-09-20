@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'observer',
     'error',
   ],
-  source: {
-    npm: 'vite-plugin-observe',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-observe',
+  },
+  source: {
+    npm: 'vite-plugin-observe',
   },
   stats: {
     stars: 0,

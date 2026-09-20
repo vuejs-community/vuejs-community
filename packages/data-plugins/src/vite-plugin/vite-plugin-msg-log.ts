@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'PengBoUESTC/vite-plugin-msg-log',
-    npm: 'vite-plugin-msg-log',
-  },
   links: {
     github: 'https://github.com/PengBoUESTC/vite-plugin-msg-log',
     npm: 'https://www.npmjs.com/package/vite-plugin-msg-log',
     website: 'https://github.com/PengBoUESTC/vite-plugin-msg-log.git',
+  },
+  source: {
+    github: 'PengBoUESTC/vite-plugin-msg-log',
+    npm: 'vite-plugin-msg-log',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'yaml',
   ],
-  source: {
-    github: '426-330/pactor',
-    npm: '@pactor-app/vite-plugin',
-  },
   links: {
     github: 'https://github.com/426-330/pactor',
     npm: 'https://www.npmjs.com/package/@pactor-app/vite-plugin',
     website: 'https://github.com/426-330/pactor/tree/main/packages/vite-plugin',
+  },
+  source: {
+    github: '426-330/pactor',
+    npm: '@pactor-app/vite-plugin',
   },
   stats: {
     stars: 0,

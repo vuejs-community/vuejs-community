@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'bundler',
     'zero-config',
   ],
-  source: {
-    github: 'codetalcott/hyperfixi',
-    npm: '@hyperfixi/vite-plugin',
-  },
   links: {
     github: 'https://github.com/codetalcott/hyperfixi',
     npm: 'https://www.npmjs.com/package/@hyperfixi/vite-plugin',
     website: 'https://github.com/codetalcott/hyperfixi/tree/main/packages/vite-plugin#readme',
+  },
+  source: {
+    github: 'codetalcott/hyperfixi',
+    npm: '@hyperfixi/vite-plugin',
   },
   stats: {
     stars: 2,

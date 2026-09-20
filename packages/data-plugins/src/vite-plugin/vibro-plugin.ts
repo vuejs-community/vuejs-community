@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'mcp',
     'hmr',
   ],
-  source: {
-    npm: '@vibro/plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@vibro/plugin',
+  },
+  source: {
+    npm: '@vibro/plugin',
   },
   stats: {
     stars: 0,

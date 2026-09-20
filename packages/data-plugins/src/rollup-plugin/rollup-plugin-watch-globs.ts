@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'watch',
   ],
-  source: {
-    github: 'caleb531/rollup-plugin-watch-globs',
-    npm: 'rollup-plugin-watch-globs',
-  },
   links: {
     github: 'https://github.com/caleb531/rollup-plugin-watch-globs',
     npm: 'https://www.npmjs.com/package/rollup-plugin-watch-globs',
     website: 'https://github.com/caleb531/rollup-plugin-watch-globs#readme',
+  },
+  source: {
+    github: 'caleb531/rollup-plugin-watch-globs',
+    npm: 'rollup-plugin-watch-globs',
   },
   stats: {
     stars: 5,

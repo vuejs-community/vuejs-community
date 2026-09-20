@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://nuxt.vuetifyjs.com/',
   },
   source: {
-    github: 'vuetifyjs/nuxt-module#main/packages/vuetify-nuxt-module',
+    github: 'vuetifyjs/nuxt-module',
     npm: 'vuetify-nuxt-module',
   },
 })

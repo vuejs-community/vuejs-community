@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'sentry-cli',
     'sourcemap',
   ],
-  source: {
-    github: 'ikenfin/vite-plugin-sentry',
-    npm: '@allardy/vite-plugin-sentry',
-  },
   links: {
     github: 'https://github.com/ikenfin/vite-plugin-sentry',
     npm: 'https://www.npmjs.com/package/@allardy/vite-plugin-sentry',
     website: 'https://github.com/ikenfin/vite-plugin-sentry',
+  },
+  source: {
+    github: 'ikenfin/vite-plugin-sentry',
+    npm: '@allardy/vite-plugin-sentry',
   },
   stats: {
     stars: 166,

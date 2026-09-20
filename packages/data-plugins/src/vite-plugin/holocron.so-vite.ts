@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'mintlify',
     'react-server-components',
   ],
-  source: {
-    github: 'remorses/holocron',
-    npm: '@holocron.so/vite',
-  },
   links: {
     github: 'https://github.com/remorses/holocron',
     npm: 'https://www.npmjs.com/package/@holocron.so/vite',
     website: 'https://holocron.so',
+  },
+  source: {
+    github: 'remorses/holocron',
+    npm: '@holocron.so/vite',
   },
   stats: {
     stars: 774,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'svg icon',
     'super icon',
   ],
-  source: {
-    github: 'yue1123/vite-plugin-supericon',
-    npm: 'vite-plugin-supericon',
-  },
   links: {
     github: 'https://github.com/yue1123/vite-plugin-supericon',
     npm: 'https://www.npmjs.com/package/vite-plugin-supericon',
     website: 'https://github.com/yue1123/vite-plugin-supericon',
+  },
+  source: {
+    github: 'yue1123/vite-plugin-supericon',
+    npm: 'vite-plugin-supericon',
   },
   stats: {
     stars: 1,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'removing attributes',
     'vue-plugin',
   ],
-  source: {
-    github: 'cogor/vite-plugin-vue-remove-attributes',
-    npm: 'vite-plugin-vue-remove-attributes',
-  },
   links: {
     github: 'https://github.com/cogor/vite-plugin-vue-remove-attributes',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-remove-attributes',
     website: 'https://github.com/cogor/vite-plugin-vue-remove-attributes#readme',
+  },
+  source: {
+    github: 'cogor/vite-plugin-vue-remove-attributes',
+    npm: 'vite-plugin-vue-remove-attributes',
   },
   stats: {
     stars: 1,

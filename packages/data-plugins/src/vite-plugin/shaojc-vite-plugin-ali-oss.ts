@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'ali-oss',
     'aliyun',
   ],
-  source: {
-    github: 'shaojingchao/vite-plugin-ali-oss',
-    npm: '@shaojc/vite-plugin-ali-oss',
-  },
   links: {
     github: 'https://github.com/shaojingchao/vite-plugin-ali-oss',
     npm: 'https://www.npmjs.com/package/@shaojc/vite-plugin-ali-oss',
     website: 'https://github.com/shaojingchao/vite-plugin-ali-oss',
+  },
+  source: {
+    github: 'shaojingchao/vite-plugin-ali-oss',
+    npm: '@shaojc/vite-plugin-ali-oss',
   },
   stats: {
     stars: 1,

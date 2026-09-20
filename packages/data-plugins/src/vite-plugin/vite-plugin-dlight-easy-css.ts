@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'easy-css',
   ],
-  source: {
-    npm: 'vite-plugin-dlight-easy-css',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-dlight-easy-css',
+  },
+  source: {
+    npm: 'vite-plugin-dlight-easy-css',
   },
   stats: {
     stars: 0,

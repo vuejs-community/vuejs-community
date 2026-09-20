@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup',
     'concat',
   ],
-  source: {
-    github: 'mdownes/rollup-plugin-concat',
-    npm: 'rollup-plugin-concat',
-  },
   links: {
     github: 'https://github.com/mdownes/rollup-plugin-concat',
     npm: 'https://www.npmjs.com/package/rollup-plugin-concat',
     website: 'https://github.com/mdownes/rollup-plugin-concat#readme',
+  },
+  source: {
+    github: 'mdownes/rollup-plugin-concat',
+    npm: 'rollup-plugin-concat',
   },
   stats: {
     stars: 0,

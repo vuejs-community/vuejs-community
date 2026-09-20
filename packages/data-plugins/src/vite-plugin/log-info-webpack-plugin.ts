@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'log',
     'vite-plugin',
   ],
-  source: {
-    github: 'macheteHot/log-info-webpack-plugin',
-    npm: 'log-info-webpack-plugin',
-  },
   links: {
     github: 'https://github.com/macheteHot/log-info-webpack-plugin',
     npm: 'https://www.npmjs.com/package/log-info-webpack-plugin',
     website: 'https://github.com/macheteHot/log-info-webpack-plugin#readme',
+  },
+  source: {
+    github: 'macheteHot/log-info-webpack-plugin',
+    npm: 'log-info-webpack-plugin',
   },
   stats: {
     stars: 2,

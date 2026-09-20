@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'fink-lang',
     'fink',
   ],
-  source: {
-    github: 'fink-lang/rollup',
-    npm: '@fink/rollup',
-  },
   links: {
     github: 'https://github.com/fink-lang/rollup',
     npm: 'https://www.npmjs.com/package/@fink/rollup',
     website: 'https://github.com/fink-lang/rollup',
+  },
+  source: {
+    github: 'fink-lang/rollup',
+    npm: '@fink/rollup',
   },
   stats: {
     stars: 0,

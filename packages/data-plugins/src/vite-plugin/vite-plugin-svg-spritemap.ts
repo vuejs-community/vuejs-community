@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'icons',
     'typescript',
   ],
-  source: {
-    github: 'g-makarov/vite-plugin-svg-spritemap',
-    npm: 'vite-plugin-svg-spritemap',
-  },
   links: {
     github: 'https://github.com/g-makarov/vite-plugin-svg-spritemap',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-spritemap',
     website: 'https://github.com/g-makarov/vite-plugin-svg-spritemap',
+  },
+  source: {
+    github: 'g-makarov/vite-plugin-svg-spritemap',
+    npm: 'vite-plugin-svg-spritemap',
   },
   stats: {
     stars: 58,

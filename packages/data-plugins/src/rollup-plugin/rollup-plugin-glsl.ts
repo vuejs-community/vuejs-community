@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'glsl',
     'shader',
   ],
-  source: {
-    github: 'vwochnik/rollup-plugin-glsl',
-    npm: 'rollup-plugin-glsl',
-  },
   links: {
     github: 'https://github.com/vwochnik/rollup-plugin-glsl',
     npm: 'https://www.npmjs.com/package/rollup-plugin-glsl',
     website: 'https://github.com/vwochnik/rollup-plugin-glsl',
+  },
+  source: {
+    github: 'vwochnik/rollup-plugin-glsl',
+    npm: 'rollup-plugin-glsl',
   },
   stats: {
     stars: 23,

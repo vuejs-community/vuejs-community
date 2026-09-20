@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'next',
     'svelte',
   ],
-  source: {
-    github: 'jrmybtlr/useclassy',
-    npm: 'vite-plugin-useclassy',
-  },
   links: {
     github: 'https://github.com/jrmybtlr/useclassy',
     npm: 'https://www.npmjs.com/package/vite-plugin-useclassy',
     website: 'https://github.com/jrmybtlr/useclassy#readme',
+  },
+  source: {
+    github: 'jrmybtlr/useclassy',
+    npm: 'vite-plugin-useclassy',
   },
   stats: {
     stars: 28,

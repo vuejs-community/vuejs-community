@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     '@vitejs/plugin-legacy',
   ],
-  source: {
-    github: 'vitejs/vite',
-    npm: '@onerjs/plugin-legacy',
-  },
   links: {
     github: 'https://github.com/vitejs/vite',
     npm: 'https://www.npmjs.com/package/@onerjs/plugin-legacy',
     website: 'https://github.com/vitejs/vite/tree/main/packages/plugin-legacy#readme',
+  },
+  source: {
+    github: 'vitejs/vite',
+    npm: '@onerjs/plugin-legacy',
   },
   stats: {
     stars: 82851,

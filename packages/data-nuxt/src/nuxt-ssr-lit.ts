@@ -2,11 +2,11 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'ssr-lit',
-  description: '',
+  description: 'Server-Side Rendering for Lit Element components',
   icon: '',
   category: 'nuxt',
   types: [
-    'Devtools',
+    'Libraries',
   ],
   filter: [
     '3rd-party',

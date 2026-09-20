@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vuetify',
     'sass',
   ],
-  source: {
-    github: 'paro-paro/vite-plugin-vuetify-sass',
-    npm: '@paro-paro/vite-plugin-vuetify-sass',
-  },
   links: {
     github: 'https://github.com/paro-paro/vite-plugin-vuetify-sass',
     npm: 'https://www.npmjs.com/package/@paro-paro/vite-plugin-vuetify-sass',
     website: 'https://github.com/paro-paro/vite-plugin-vuetify-sass#readme',
+  },
+  source: {
+    github: 'paro-paro/vite-plugin-vuetify-sass',
+    npm: '@paro-paro/vite-plugin-vuetify-sass',
   },
   stats: {
     stars: 8,

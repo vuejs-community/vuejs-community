@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'iconfont',
     'fantasticon',
   ],
-  source: {
-    github: 'MaikoTan/unplugin-fantasticon',
-    npm: 'unplugin-fantasticon',
-  },
   links: {
     github: 'https://github.com/MaikoTan/unplugin-fantasticon',
     npm: 'https://www.npmjs.com/package/unplugin-fantasticon',
     website: 'https://github.com/MaikoTan/unplugin-fantasticon#readme',
+  },
+  source: {
+    github: 'MaikoTan/unplugin-fantasticon',
+    npm: 'unplugin-fantasticon',
   },
   stats: {
     stars: 0,

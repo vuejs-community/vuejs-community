@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'npm',
     'modules',
   ],
-  source: {
-    github: 'adriankremer/rollup-plugin-replacer',
-    npm: 'rollup-plugin-replacer',
-  },
   links: {
     github: 'https://github.com/adriankremer/rollup-plugin-replacer',
     npm: 'https://www.npmjs.com/package/rollup-plugin-replacer',
     website: 'https://github.com/adriankremer/rollup-plugin-replacer#readme',
+  },
+  source: {
+    github: 'adriankremer/rollup-plugin-replacer',
+    npm: 'rollup-plugin-replacer',
   },
   stats: {
     stars: 1,

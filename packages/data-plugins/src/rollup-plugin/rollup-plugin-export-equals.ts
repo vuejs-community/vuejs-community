@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'exports',
     'equals',
   ],
-  source: {
-    github: 'manferlo81/rollup-plugin-export-equals',
-    npm: 'rollup-plugin-export-equals',
-  },
   links: {
     github: 'https://github.com/manferlo81/rollup-plugin-export-equals',
     npm: 'https://www.npmjs.com/package/rollup-plugin-export-equals',
     website: 'https://github.com/manferlo81/rollup-plugin-export-equals#readme',
+  },
+  source: {
+    github: 'manferlo81/rollup-plugin-export-equals',
+    npm: 'rollup-plugin-export-equals',
   },
   stats: {
     stars: 1,

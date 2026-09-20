@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'developer-tools',
     'cli',
   ],
-  source: {
-    github: 'hamedb89/localghost',
-    npm: '@hamedb89/localghost',
-  },
   links: {
     github: 'https://github.com/hamedb89/localghost',
     npm: 'https://www.npmjs.com/package/@hamedb89/localghost',
     website: 'https://hamedb89.github.io/localghost/',
+  },
+  source: {
+    github: 'hamedb89/localghost',
+    npm: '@hamedb89/localghost',
   },
   stats: {
     stars: 0,

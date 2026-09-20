@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'claude',
     'mcp-alternative',
   ],
-  source: {
-    github: 'vikassandhu999/insider-axi',
-    npm: 'insider-axi',
-  },
   links: {
     github: 'https://github.com/vikassandhu999/insider-axi',
     npm: 'https://www.npmjs.com/package/insider-axi',
     website: 'https://github.com/vikassandhu999/insider-axi#readme',
+  },
+  source: {
+    github: 'vikassandhu999/insider-axi',
+    npm: 'insider-axi',
   },
   stats: {
     stars: 0,

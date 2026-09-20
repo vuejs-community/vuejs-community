@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'markdown',
   ],
-  source: {
-    github: 'The-Noah/vite-plugin-markd',
-    npm: 'vite-plugin-markd',
-  },
   links: {
     github: 'https://github.com/The-Noah/vite-plugin-markd',
     npm: 'https://www.npmjs.com/package/vite-plugin-markd',
     website: 'https://github.com/The-Noah/vite-plugin-markd#readme',
+  },
+  source: {
+    github: 'The-Noah/vite-plugin-markd',
+    npm: 'vite-plugin-markd',
   },
   stats: {
     stars: 0,

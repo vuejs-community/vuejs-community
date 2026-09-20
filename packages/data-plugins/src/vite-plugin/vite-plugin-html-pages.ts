@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'blog-generator',
     'sitelo',
   ],
-  source: {
-    github: 'paul-browne/vite-plugin-html-pages',
-    npm: 'vite-plugin-html-pages',
-  },
   links: {
     github: 'https://github.com/paul-browne/vite-plugin-html-pages',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-pages',
     website: 'https://github.com/paul-browne/vite-plugin-html-pages',
+  },
+  source: {
+    github: 'paul-browne/vite-plugin-html-pages',
+    npm: 'vite-plugin-html-pages',
   },
   stats: {
     stars: 0,

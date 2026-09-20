@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'designsystem',
     'switzerland',
   ],
-  source: {
-    github: 'kanton-basel-stadt/designsystem',
-    npm: '@kanton-basel-stadt/designsystem',
-  },
   links: {
     github: 'https://github.com/kanton-basel-stadt/designsystem',
     npm: 'https://www.npmjs.com/package/@kanton-basel-stadt/designsystem',
     website: 'https://kanton-basel-stadt.github.io/storybook',
+  },
+  source: {
+    github: 'kanton-basel-stadt/designsystem',
+    npm: '@kanton-basel-stadt/designsystem',
   },
   stats: {
     stars: 6,

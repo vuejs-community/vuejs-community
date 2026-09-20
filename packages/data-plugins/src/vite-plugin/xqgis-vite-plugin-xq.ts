@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'Cesium',
     'dc-sdk',
   ],
-  source: {
-    github: 'dvgis/vite-plugin-dc',
-    npm: '@xqgis/vite-plugin-xq',
-  },
   links: {
     github: 'https://github.com/dvgis/vite-plugin-dc',
     npm: 'https://www.npmjs.com/package/@xqgis/vite-plugin-xq',
     website: 'https://github.com/dvgis/vite-plugin-dc#readme',
+  },
+  source: {
+    github: 'dvgis/vite-plugin-dc',
+    npm: '@xqgis/vite-plugin-xq',
   },
   stats: {
     stars: 0,

@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'svg-icon',
     '@webxrd/vite-plugin-svg',
   ],
-  source: {
-    npm: 'vite-plugin-svg-qk-icon',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-qk-icon',
     website: 'https://gitee.com/xiangcaihua/vite-plugin-svg-icon',
+  },
+  source: {
+    npm: 'vite-plugin-svg-qk-icon',
   },
   stats: {
     stars: 0,

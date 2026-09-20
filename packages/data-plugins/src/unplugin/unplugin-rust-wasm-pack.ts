@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'webassembly',
     'wasm-bindgen',
   ],
-  source: {
-    github: 'Karolis2011/unplugin-rust-wasm-pack',
-    npm: 'unplugin-rust-wasm-pack',
-  },
   links: {
     github: 'https://github.com/Karolis2011/unplugin-rust-wasm-pack',
     npm: 'https://www.npmjs.com/package/unplugin-rust-wasm-pack',
     website: 'https://github.com/Karolis2011/unplugin-rust-wasm-pack#readme',
+  },
+  source: {
+    github: 'Karolis2011/unplugin-rust-wasm-pack',
+    npm: 'unplugin-rust-wasm-pack',
   },
   stats: {
     stars: 0,

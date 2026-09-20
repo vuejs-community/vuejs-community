@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vue3',
     'lorcan-store',
   ],
-  source: {
-    github: 'lorcan-cloud/vue-auto-router',
-    npm: '@lorcan-store/vue-auto-router',
-  },
   links: {
     github: 'https://github.com/lorcan-cloud/vue-auto-router',
     npm: 'https://www.npmjs.com/package/@lorcan-store/vue-auto-router',
     website: 'https://github.com/lorcan-cloud/vue-auto-router#readme',
+  },
+  source: {
+    github: 'lorcan-cloud/vue-auto-router',
+    npm: '@lorcan-store/vue-auto-router',
   },
   stats: {
     stars: 3,

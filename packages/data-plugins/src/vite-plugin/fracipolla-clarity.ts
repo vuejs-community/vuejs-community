@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'compiler',
     'vite-plugin',
   ],
-  source: {
-    npm: '@fracipolla/clarity',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@fracipolla/clarity',
+  },
+  source: {
+    npm: '@fracipolla/clarity',
   },
   stats: {
     stars: 0,

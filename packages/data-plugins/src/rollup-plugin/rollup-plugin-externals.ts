@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'magic-akari/rollup-plugin-externals',
-    npm: 'rollup-plugin-externals',
-  },
   links: {
     github: 'https://github.com/magic-akari/rollup-plugin-externals',
     npm: 'https://www.npmjs.com/package/rollup-plugin-externals',
     website: 'https://github.com/magic-akari/rollup-plugin-externals',
+  },
+  source: {
+    github: 'magic-akari/rollup-plugin-externals',
+    npm: 'rollup-plugin-externals',
   },
   stats: {
     stars: 0,

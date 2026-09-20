@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'css',
     'devtools',
   ],
-  source: {
-    github: 'AlexBoghh/Rspnse',
-    npm: '@rspnseapp/dev-inspector',
-  },
   links: {
     github: 'https://github.com/AlexBoghh/Rspnse',
     npm: 'https://www.npmjs.com/package/@rspnseapp/dev-inspector',
     website: 'https://rspnse.net',
+  },
+  source: {
+    github: 'AlexBoghh/Rspnse',
+    npm: '@rspnseapp/dev-inspector',
   },
   stats: {
     stars: 0,

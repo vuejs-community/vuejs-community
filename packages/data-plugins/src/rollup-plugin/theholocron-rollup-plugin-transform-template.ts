@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'template',
     'transform',
   ],
-  source: {
-    github: 'theholocron/holocron',
-    npm: '@theholocron/rollup-plugin-transform-template',
-  },
   links: {
     github: 'https://github.com/theholocron/holocron',
     npm: 'https://www.npmjs.com/package/@theholocron/rollup-plugin-transform-template',
     website: 'https://github.com/theholocron/holocron/tree/main/packages/rollup-plugin-transform-template#readme',
+  },
+  source: {
+    github: 'theholocron/holocron',
+    npm: '@theholocron/rollup-plugin-transform-template',
   },
   stats: {
     stars: 1,

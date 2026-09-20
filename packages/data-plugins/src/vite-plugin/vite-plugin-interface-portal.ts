@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'hello-hyh/vite-plugin-interface-portal',
-    npm: 'vite-plugin-interface-portal',
-  },
   links: {
     github: 'https://github.com/hello-hyh/vite-plugin-interface-portal',
     npm: 'https://www.npmjs.com/package/vite-plugin-interface-portal',
     website: 'https://github.com/hello-hyh/vite-plugin-interface-portal#readme',
+  },
+  source: {
+    github: 'hello-hyh/vite-plugin-interface-portal',
+    npm: 'vite-plugin-interface-portal',
   },
   stats: {
     stars: 0,

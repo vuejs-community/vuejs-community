@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'version',
     'update',
   ],
-  source: {
-    github: 'WX-DongXing/unplugin-detect-update',
-    npm: 'unplugin-detect-update',
-  },
   links: {
     github: 'https://github.com/WX-DongXing/unplugin-detect-update',
     npm: 'https://www.npmjs.com/package/unplugin-detect-update',
     website: 'https://github.com/WX-DongXing/unplugin-detect-update#readme',
+  },
+  source: {
+    github: 'WX-DongXing/unplugin-detect-update',
+    npm: 'unplugin-detect-update',
   },
   stats: {
     stars: 2,

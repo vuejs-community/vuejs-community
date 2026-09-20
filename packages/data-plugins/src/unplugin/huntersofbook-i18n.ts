@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite i18n',
     'nuxt i18n',
   ],
-  source: {
-    github: 'huntersofbook/i18n',
-    npm: '@huntersofbook/i18n',
-  },
   links: {
     github: 'https://github.com/huntersofbook/i18n',
     npm: 'https://www.npmjs.com/package/@huntersofbook/i18n',
     website: 'https://github.com/huntersofbook/i18n',
+  },
+  source: {
+    github: 'huntersofbook/i18n',
+    npm: '@huntersofbook/i18n',
   },
   stats: {
     stars: 0,

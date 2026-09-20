@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'console',
     'pipeline',
   ],
-  source: {
-    github: 'taosiqi/vite-plugin-gitlab-flow',
-    npm: 'vite-plugin-gitlab-flow',
-  },
   links: {
     github: 'https://github.com/taosiqi/vite-plugin-gitlab-flow',
     npm: 'https://www.npmjs.com/package/vite-plugin-gitlab-flow',
     website: 'https://github.com/taosiqi/vite-plugin-gitlab-flow#readme',
+  },
+  source: {
+    github: 'taosiqi/vite-plugin-gitlab-flow',
+    npm: 'vite-plugin-gitlab-flow',
   },
   stats: {
     stars: 5,

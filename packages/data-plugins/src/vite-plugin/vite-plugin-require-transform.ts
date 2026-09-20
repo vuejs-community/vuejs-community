@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'require',
   ],
-  source: {
-    github: 'WarrenJones/vite-plugin-require-transform',
-    npm: 'vite-plugin-require-transform',
-  },
   links: {
     github: 'https://github.com/WarrenJones/vite-plugin-require-transform',
     npm: 'https://www.npmjs.com/package/vite-plugin-require-transform',
     website: 'https://github.com/WarrenJones/vite-plugin-require-transform#readme',
+  },
+  source: {
+    github: 'WarrenJones/vite-plugin-require-transform',
+    npm: 'vite-plugin-require-transform',
   },
   stats: {
     stars: 0,

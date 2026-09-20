@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'vue',
     'svelte',
   ],
-  source: {
-    github: 'peetzweg/vite-plugin-offline-first',
-    npm: 'vite-plugin-offline',
-  },
   links: {
     github: 'https://github.com/peetzweg/vite-plugin-offline-first',
     npm: 'https://www.npmjs.com/package/vite-plugin-offline',
     website: 'https://github.com/peetzweg/vite-plugin-offline-first#readme',
+  },
+  source: {
+    github: 'peetzweg/vite-plugin-offline-first',
+    npm: 'vite-plugin-offline',
   },
   stats: {
     stars: 0,

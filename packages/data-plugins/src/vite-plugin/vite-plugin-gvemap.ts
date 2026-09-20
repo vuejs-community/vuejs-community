@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'cesium',
   ],
-  source: {
-    npm: 'vite-plugin-gvemap',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-gvemap',
+  },
+  source: {
+    npm: 'vite-plugin-gvemap',
   },
   stats: {
     stars: 0,

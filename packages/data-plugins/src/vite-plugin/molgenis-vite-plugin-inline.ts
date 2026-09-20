@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'molgenis/vite-plugin-inline',
-    npm: '@molgenis/vite-plugin-inline',
-  },
   links: {
     github: 'https://github.com/molgenis/vite-plugin-inline',
     npm: 'https://www.npmjs.com/package/@molgenis/vite-plugin-inline',
     website: 'https://github.com/molgenis/vite-plugin-inline#readme',
+  },
+  source: {
+    github: 'molgenis/vite-plugin-inline',
+    npm: '@molgenis/vite-plugin-inline',
   },
   stats: {
     stars: 11,

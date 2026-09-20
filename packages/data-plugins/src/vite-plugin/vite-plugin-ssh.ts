@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'ssh',
     'ssh2',
   ],
-  source: {
-    github: 'drizzlesconsin/vite-plugin-ssh',
-    npm: 'vite-plugin-ssh',
-  },
   links: {
     github: 'https://github.com/drizzlesconsin/vite-plugin-ssh',
     npm: 'https://www.npmjs.com/package/vite-plugin-ssh',
     website: 'https://github.com/drizzlesconsin/vite-plugin-ssh#README',
+  },
+  source: {
+    github: 'drizzlesconsin/vite-plugin-ssh',
+    npm: 'vite-plugin-ssh',
   },
   stats: {
     stars: 3,

@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'esbuild',
     'plugin',
   ],
-  source: {
-    npm: 'unplugin-wlb-ui',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-wlb-ui',
+  },
+  source: {
+    npm: 'unplugin-wlb-ui',
   },
   stats: {
     stars: 0,

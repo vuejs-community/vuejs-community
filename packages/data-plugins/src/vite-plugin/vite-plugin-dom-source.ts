@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'source-location',
     'vite-plugin',
   ],
-  source: {
-    github: 'lovetingyuan/vite-plugin-dom-source',
-    npm: 'vite-plugin-dom-source',
-  },
   links: {
     github: 'https://github.com/lovetingyuan/vite-plugin-dom-source',
     npm: 'https://www.npmjs.com/package/vite-plugin-dom-source',
     website: 'https://github.com/lovetingyuan/vite-plugin-dom-source#readme',
+  },
+  source: {
+    github: 'lovetingyuan/vite-plugin-dom-source',
+    npm: 'vite-plugin-dom-source',
   },
   stats: {
     stars: 1,

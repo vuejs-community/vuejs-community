@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'tailscale-serve',
     'tailscale-funnel',
   ],
-  source: {
-    github: 'Stupremee/vite-plugin-tailscale',
-    npm: 'vite-plugin-tailscale',
-  },
   links: {
     github: 'https://github.com/Stupremee/vite-plugin-tailscale',
     npm: 'https://www.npmjs.com/package/vite-plugin-tailscale',
     website: 'https://github.com/Stupremee/vite-plugin-tailscale#readme',
+  },
+  source: {
+    github: 'Stupremee/vite-plugin-tailscale',
+    npm: 'vite-plugin-tailscale',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'ESM',
   ],
-  source: {
-    github: 'uni-helper/plugin-uni',
-    npm: '@uni-helper/plugin-uni',
-  },
   links: {
     github: 'https://github.com/uni-helper/plugin-uni',
     npm: 'https://www.npmjs.com/package/@uni-helper/plugin-uni',
     website: 'https://github.com/uni-helper/plugin-uni#readme',
+  },
+  source: {
+    github: 'uni-helper/plugin-uni',
+    npm: '@uni-helper/plugin-uni',
   },
   stats: {
     stars: 11,

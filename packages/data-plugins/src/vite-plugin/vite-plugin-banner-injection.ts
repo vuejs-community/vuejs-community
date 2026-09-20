@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'banner',
     'vite-plugin',
   ],
-  source: {
-    github: 'LightAPIs/vite-plugin-banner-injection',
-    npm: 'vite-plugin-banner-injection',
-  },
   links: {
     github: 'https://github.com/LightAPIs/vite-plugin-banner-injection',
     npm: 'https://www.npmjs.com/package/vite-plugin-banner-injection',
     website: 'https://github.com/LightAPIs/vite-plugin-banner-injection',
+  },
+  source: {
+    github: 'LightAPIs/vite-plugin-banner-injection',
+    npm: 'vite-plugin-banner-injection',
   },
   stats: {
     stars: 0,

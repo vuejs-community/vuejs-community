@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'mokume3/vite-plugin-query-cache-busting',
-    npm: 'vite-plugin-query-cache-busting',
-  },
   links: {
     github: 'https://github.com/mokume3/vite-plugin-query-cache-busting',
     npm: 'https://www.npmjs.com/package/vite-plugin-query-cache-busting',
     website: 'https://github.com/mokume3/vite-plugin-query-cache-busting#readme',
+  },
+  source: {
+    github: 'mokume3/vite-plugin-query-cache-busting',
+    npm: 'vite-plugin-query-cache-busting',
   },
   stats: {
     stars: 0,

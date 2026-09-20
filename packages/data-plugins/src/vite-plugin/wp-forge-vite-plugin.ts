@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'block-editor',
     'typescript',
   ],
-  source: {
-    github: 'JonImmsWordpressDev/WP-Forge',
-    npm: '@wp-forge/vite-plugin',
-  },
   links: {
     github: 'https://github.com/JonImmsWordpressDev/WP-Forge',
     npm: 'https://www.npmjs.com/package/@wp-forge/vite-plugin',
     website: 'https://github.com/JonImmsWordpressDev/WP-Forge#readme',
+  },
+  source: {
+    github: 'JonImmsWordpressDev/WP-Forge',
+    npm: '@wp-forge/vite-plugin',
   },
   stats: {
     stars: 0,

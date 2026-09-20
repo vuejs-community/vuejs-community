@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'react',
     'layout',
   ],
-  source: {
-    github: 'notosleung/vite-plugin-react-mdx-layout',
-    npm: 'vite-plugin-react-mdx-layout',
-  },
   links: {
     github: 'https://github.com/notosleung/vite-plugin-react-mdx-layout',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-mdx-layout',
     website: 'https://github.com/notosleung/vite-plugin-react-mdx-layout#readme',
+  },
+  source: {
+    github: 'notosleung/vite-plugin-react-mdx-layout',
+    npm: 'vite-plugin-react-mdx-layout',
   },
   stats: {
     stars: 0,

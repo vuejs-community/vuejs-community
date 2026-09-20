@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'Dunqing/vite-plugin-import-css',
-    npm: 'vite-plugin-import-css',
-  },
   links: {
     github: 'https://github.com/Dunqing/vite-plugin-import-css',
     npm: 'https://www.npmjs.com/package/vite-plugin-import-css',
     website: 'https://github.com/Dunqing/vite-plugin-import-css#readme',
+  },
+  source: {
+    github: 'Dunqing/vite-plugin-import-css',
+    npm: 'vite-plugin-import-css',
   },
   stats: {
     stars: 1,

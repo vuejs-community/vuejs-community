@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'source',
     'locator',
   ],
-  source: {
-    npm: 'vite-plugin-dom-locator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-dom-locator',
+  },
+  source: {
+    npm: 'vite-plugin-dom-locator',
   },
   stats: {
     stars: 0,

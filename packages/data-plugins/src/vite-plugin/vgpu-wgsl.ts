@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'webpack-loader',
     'vite-plugin',
   ],
-  source: {
-    github: 'vercel-labs/vgpu',
-    npm: '@vgpu/wgsl',
-  },
   links: {
     github: 'https://github.com/vercel-labs/vgpu',
     npm: 'https://www.npmjs.com/package/@vgpu/wgsl',
     website: 'https://vgpu.sh',
+  },
+  source: {
+    github: 'vercel-labs/vgpu',
+    npm: '@vgpu/wgsl',
   },
   stats: {
     stars: 2157,

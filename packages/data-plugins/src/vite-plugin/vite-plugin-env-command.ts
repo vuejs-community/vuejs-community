@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'yaocoding007/vite-plugin-env-command',
-    npm: 'vite-plugin-env-command',
-  },
   links: {
     github: 'https://github.com/yaocoding007/vite-plugin-env-command',
     npm: 'https://www.npmjs.com/package/vite-plugin-env-command',
     website: 'https://github.com/yaocoding007/vite-plugin-env-command',
+  },
+  source: {
+    github: 'yaocoding007/vite-plugin-env-command',
+    npm: 'vite-plugin-env-command',
   },
   stats: {
     stars: 6,

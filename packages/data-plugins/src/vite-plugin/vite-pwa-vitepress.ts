@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'vite-pwa/vitepress',
-    npm: '@vite-pwa/vitepress',
-  },
   links: {
     github: 'https://github.com/vite-pwa/vitepress',
     npm: 'https://www.npmjs.com/package/@vite-pwa/vitepress',
     website: 'https://github.com/vite-pwa/vitepress#readme',
+  },
+  source: {
+    github: 'vite-pwa/vitepress',
+    npm: '@vite-pwa/vitepress',
   },
   stats: {
     stars: 50,

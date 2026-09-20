@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'react',
     'vue',
   ],
-  source: {
-    github: 'mendlero/rollup-vite-plugins',
-    npm: 'vite-plugin-react-plus-vue',
-  },
   links: {
     github: 'https://github.com/mendlero/rollup-vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-plus-vue',
     website: 'https://github.com/mendlero/rollup-vite-plugins#readme',
+  },
+  source: {
+    github: 'mendlero/rollup-vite-plugins',
+    npm: 'vite-plugin-react-plus-vue',
   },
   stats: {
     stars: 0,

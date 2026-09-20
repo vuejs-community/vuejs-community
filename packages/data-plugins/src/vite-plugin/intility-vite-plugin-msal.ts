@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'msal',
     'entra-id',
   ],
-  source: {
-    github: 'intility/vite-plugin-msal',
-    npm: '@intility/vite-plugin-msal',
-  },
   links: {
     github: 'https://github.com/intility/vite-plugin-msal',
     npm: 'https://www.npmjs.com/package/@intility/vite-plugin-msal',
     website: 'https://github.com/intility/vite-plugin-msal#readme',
+  },
+  source: {
+    github: 'intility/vite-plugin-msal',
+    npm: '@intility/vite-plugin-msal',
   },
   stats: {
     stars: 3,

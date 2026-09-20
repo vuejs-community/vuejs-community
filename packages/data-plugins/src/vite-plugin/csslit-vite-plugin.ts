@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'csslit/csslit',
-    npm: '@csslit/vite-plugin',
-  },
   links: {
     github: 'https://github.com/csslit/csslit',
     npm: 'https://www.npmjs.com/package/@csslit/vite-plugin',
     website: 'https://github.com/csslit/csslit#readme',
+  },
+  source: {
+    github: 'csslit/csslit',
+    npm: '@csslit/vite-plugin',
   },
   stats: {
     stars: 2,

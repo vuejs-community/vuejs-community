@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'json',
     'php',
   ],
-  source: {
-    github: 'dcodegroup/vite-plugin-laravel-translations',
-    npm: 'vite-plugin-laravel-translations',
-  },
   links: {
     github: 'https://github.com/dcodegroup/vite-plugin-laravel-translations',
     npm: 'https://www.npmjs.com/package/vite-plugin-laravel-translations',
     website: 'https://github.com/dcodegroup/vite-plugin-laravel-translations#readme',
+  },
+  source: {
+    github: 'dcodegroup/vite-plugin-laravel-translations',
+    npm: 'vite-plugin-laravel-translations',
   },
   stats: {
     stars: 11,

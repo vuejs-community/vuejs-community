@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-list-directory-contents',
   ],
-  source: {
-    github: 'jcbhmr/vite-plugin-directory-index',
-    npm: 'vite-plugin-directory-index',
-  },
   links: {
     github: 'https://github.com/jcbhmr/vite-plugin-directory-index',
     npm: 'https://www.npmjs.com/package/vite-plugin-directory-index',
     website: 'https://github.com/jcbhmr/vite-plugin-directory-index#readme',
+  },
+  source: {
+    github: 'jcbhmr/vite-plugin-directory-index',
+    npm: 'vite-plugin-directory-index',
   },
   stats: {
     stars: 2,

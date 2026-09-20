@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'frontend',
     'plugin',
   ],
-  source: {
-    npm: '@agent-anvil-platform/vite-plugin-anvil-frontend',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@agent-anvil-platform/vite-plugin-anvil-frontend',
     website: 'https://gitee.com/agent-anvil/agent-anvil-platform-sdk/tree/master/packages/vite-plugin-anvil-frontend',
+  },
+  source: {
+    npm: '@agent-anvil-platform/vite-plugin-anvil-frontend',
   },
   stats: {
     stars: 0,

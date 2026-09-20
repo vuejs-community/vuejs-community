@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: '@vite-libs/devtools',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@vite-libs/devtools',
+  },
+  source: {
+    npm: '@vite-libs/devtools',
   },
   stats: {
     stars: 0,

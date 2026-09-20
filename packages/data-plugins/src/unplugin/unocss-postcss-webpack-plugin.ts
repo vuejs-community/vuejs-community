@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'vue',
     'rollup',
   ],
-  source: {
-    npm: 'unocss-postcss-webpack-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unocss-postcss-webpack-plugin',
+  },
+  source: {
+    npm: 'unocss-postcss-webpack-plugin',
   },
   stats: {
     stars: 0,

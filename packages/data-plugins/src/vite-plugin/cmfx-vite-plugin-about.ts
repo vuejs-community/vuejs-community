@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'issue9/cmfx',
-    npm: '@cmfx/vite-plugin-about',
-  },
   links: {
     github: 'https://github.com/issue9/cmfx',
     npm: 'https://www.npmjs.com/package/@cmfx/vite-plugin-about',
     website: 'https://github.com/issue9/cmfx',
+  },
+  source: {
+    github: 'issue9/cmfx',
+    npm: '@cmfx/vite-plugin-about',
   },
   stats: {
     stars: 3,

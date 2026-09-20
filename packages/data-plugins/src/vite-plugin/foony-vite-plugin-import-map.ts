@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'build',
     'foony',
   ],
-  source: {
-    github: 'Foony-Limited/vite-plugin-import-map',
-    npm: '@foony/vite-plugin-import-map',
-  },
   links: {
     github: 'https://github.com/Foony-Limited/vite-plugin-import-map',
     npm: 'https://www.npmjs.com/package/@foony/vite-plugin-import-map',
     website: 'https://github.com/Foony-Limited/vite-plugin-import-map#readme',
+  },
+  source: {
+    github: 'Foony-Limited/vite-plugin-import-map',
+    npm: '@foony/vite-plugin-import-map',
   },
   stats: {
     stars: 2,

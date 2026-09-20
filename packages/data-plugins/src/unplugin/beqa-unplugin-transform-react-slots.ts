@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'react-slots',
   ],
-  source: {
-    github: 'Flammae/react-slots',
-    npm: '@beqa/unplugin-transform-react-slots',
-  },
   links: {
     github: 'https://github.com/Flammae/react-slots',
     npm: 'https://www.npmjs.com/package/@beqa/unplugin-transform-react-slots',
     website: 'https://github.com/Flammae/react-slots#readme',
+  },
+  source: {
+    github: 'Flammae/react-slots',
+    npm: '@beqa/unplugin-transform-react-slots',
   },
   stats: {
     stars: 38,

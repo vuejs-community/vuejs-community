@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'kubernetes',
     'net-appsettings',
   ],
-  source: {
-    github: 'cristiancastineiras/vite-plugin-appsettings',
-    npm: 'vite-plugin-appsettings',
-  },
   links: {
     github: 'https://github.com/cristiancastineiras/vite-plugin-appsettings',
     npm: 'https://www.npmjs.com/package/vite-plugin-appsettings',
     website: 'https://github.com/cristiancastineiras/vite-plugin-appsettings#readme',
+  },
+  source: {
+    github: 'cristiancastineiras/vite-plugin-appsettings',
+    npm: 'vite-plugin-appsettings',
   },
   stats: {
     stars: 2,

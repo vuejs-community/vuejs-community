@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'less',
     'stylus',
   ],
-  source: {
-    github: 'mlxiao93/rollup-plugin-lib-styles',
-    npm: 'rollup-plugin-lib-styles',
-  },
   links: {
     github: 'https://github.com/mlxiao93/rollup-plugin-lib-styles',
     npm: 'https://www.npmjs.com/package/rollup-plugin-lib-styles',
     website: 'https://github.com/mlxiao93/rollup-plugin-lib-styles#readme',
+  },
+  source: {
+    github: 'mlxiao93/rollup-plugin-lib-styles',
+    npm: 'rollup-plugin-lib-styles',
   },
   stats: {
     stars: 3,

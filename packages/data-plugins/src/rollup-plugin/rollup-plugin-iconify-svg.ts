@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'svg',
     'iconify',
   ],
-  source: {
-    github: 'Swiftaff/rollup-plugin-iconify-svg',
-    npm: 'rollup-plugin-iconify-svg',
-  },
   links: {
     github: 'https://github.com/Swiftaff/rollup-plugin-iconify-svg',
     npm: 'https://www.npmjs.com/package/rollup-plugin-iconify-svg',
     website: 'https://github.com/Swiftaff/rollup-plugin-iconify-svg#readme',
+  },
+  source: {
+    github: 'Swiftaff/rollup-plugin-iconify-svg',
+    npm: 'rollup-plugin-iconify-svg',
   },
   stats: {
     stars: 0,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'delete',
     'clean',
   ],
-  source: {
-    github: 'albertopfunk/rollup-plugin-fresh',
-    npm: 'rollup-plugin-fresh',
-  },
   links: {
     github: 'https://github.com/albertopfunk/rollup-plugin-fresh',
     npm: 'https://www.npmjs.com/package/rollup-plugin-fresh',
     website: 'https://github.com/albertopfunk/rollup-plugin-fresh#readme',
+  },
+  source: {
+    github: 'albertopfunk/rollup-plugin-fresh',
+    npm: 'rollup-plugin-fresh',
   },
   stats: {
     stars: 0,

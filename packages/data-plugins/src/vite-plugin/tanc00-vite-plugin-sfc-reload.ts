@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'sfc',
     'reload',
   ],
-  source: {
-    github: 'tanc/vite-plugin-sfc-reload',
-    npm: '@tanc00/vite-plugin-sfc-reload',
-  },
   links: {
     github: 'https://github.com/tanc/vite-plugin-sfc-reload',
     npm: 'https://www.npmjs.com/package/@tanc00/vite-plugin-sfc-reload',
     website: 'https://github.com/tanc/vite-plugin-sfc-reload',
+  },
+  source: {
+    github: 'tanc/vite-plugin-sfc-reload',
+    npm: '@tanc00/vite-plugin-sfc-reload',
   },
   stats: {
     stars: 0,

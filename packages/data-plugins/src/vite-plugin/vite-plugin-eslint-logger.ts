@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'eslint',
   ],
-  source: {
-    github: 'Joker/vite-plugin-eslint-logger',
-    npm: 'vite-plugin-eslint-logger',
-  },
   links: {
     github: 'https://github.com/Joker/vite-plugin-eslint-logger',
     npm: 'https://www.npmjs.com/package/vite-plugin-eslint-logger',
     website: 'https://github.com/Joker/vite-plugin-eslint-logger',
+  },
+  source: {
+    github: 'Joker/vite-plugin-eslint-logger',
+    npm: 'vite-plugin-eslint-logger',
   },
   stats: {
     stars: 1,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'gettext',
   ],
-  source: {
-    github: 'kemdict/gettext',
-    npm: 'rollup-plugin-gettext',
-  },
   links: {
     github: 'https://github.com/kemdict/gettext',
     npm: 'https://www.npmjs.com/package/rollup-plugin-gettext',
     website: 'https://github.com/kemdict/gettext#readme',
+  },
+  source: {
+    github: 'kemdict/gettext',
+    npm: 'rollup-plugin-gettext',
   },
   stats: {
     stars: 0,

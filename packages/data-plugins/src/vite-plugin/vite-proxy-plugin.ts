@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'development',
     'devtools',
   ],
-  source: {
-    github: 'yourusername/vite-proxy-plugin',
-    npm: 'vite-proxy-plugin',
-  },
   links: {
     github: 'https://github.com/yourusername/vite-proxy-plugin',
     npm: 'https://www.npmjs.com/package/vite-proxy-plugin',
     website: 'https://github.com/yourusername/vite-proxy-plugin#readme',
+  },
+  source: {
+    github: 'yourusername/vite-proxy-plugin',
+    npm: 'vite-proxy-plugin',
   },
   stats: {
     stars: 0,

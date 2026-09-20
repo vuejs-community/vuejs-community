@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'proxy-dynamic-import',
   ],
-  source: {
-    github: 'ydcjeff/rollup-plugin-proxy-dynamic-import',
-    npm: 'rollup-plugin-proxy-dynamic-import',
-  },
   links: {
     github: 'https://github.com/ydcjeff/rollup-plugin-proxy-dynamic-import',
     npm: 'https://www.npmjs.com/package/rollup-plugin-proxy-dynamic-import',
     website: 'https://github.com/ydcjeff/rollup-plugin-proxy-dynamic-import#readme',
+  },
+  source: {
+    github: 'ydcjeff/rollup-plugin-proxy-dynamic-import',
+    npm: 'rollup-plugin-proxy-dynamic-import',
   },
   stats: {
     stars: 1,

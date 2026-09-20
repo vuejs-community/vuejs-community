@@ -28,14 +28,14 @@ export default defineProjectMeta({
     'composition-api',
     'devwizard',
   ],
-  source: {
-    github: 'DevWizardHQ/laravel-localizer-vue',
-    npm: '@devwizard/laravel-localizer-vue',
-  },
   links: {
     github: 'https://github.com/DevWizardHQ/laravel-localizer-vue',
     npm: 'https://www.npmjs.com/package/@devwizard/laravel-localizer-vue',
     website: 'https://github.com/DevWizardHQ/laravel-localizer-vue#readme',
+  },
+  source: {
+    github: 'DevWizardHQ/laravel-localizer-vue',
+    npm: '@devwizard/laravel-localizer-vue',
   },
   stats: {
     stars: 7,

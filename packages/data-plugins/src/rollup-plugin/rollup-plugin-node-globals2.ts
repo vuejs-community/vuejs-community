@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'playcode/rollup-plugin-node-globals',
-    npm: 'rollup-plugin-node-globals2',
-  },
   links: {
     github: 'https://github.com/playcode/rollup-plugin-node-globals',
     npm: 'https://www.npmjs.com/package/rollup-plugin-node-globals2',
     website: 'https://github.com/playcode/rollup-plugin-node-globals#readme',
+  },
+  source: {
+    github: 'playcode/rollup-plugin-node-globals',
+    npm: 'rollup-plugin-node-globals2',
   },
   stats: {
     stars: 0,

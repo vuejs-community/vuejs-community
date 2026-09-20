@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'error-tracking',
     'symbolication',
   ],
-  source: {
-    github: 'wemuda/fixback',
-    npm: '@fixback/vite-plugin',
-  },
   links: {
     github: 'https://github.com/wemuda/fixback',
     npm: 'https://www.npmjs.com/package/@fixback/vite-plugin',
     website: 'https://fixback-docs.dev.wemuda.com/sdk/sourcemaps',
+  },
+  source: {
+    github: 'wemuda/fixback',
+    npm: '@fixback/vite-plugin',
   },
   stats: {
     stars: 0,

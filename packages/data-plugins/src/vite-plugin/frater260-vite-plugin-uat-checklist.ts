@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'testing',
     'qa',
   ],
-  source: {
-    npm: '@frater260/vite-plugin-uat-checklist',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@frater260/vite-plugin-uat-checklist',
+  },
+  source: {
+    npm: '@frater260/vite-plugin-uat-checklist',
   },
   stats: {
     stars: 0,

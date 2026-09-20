@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'react',
     'jsx',
   ],
-  source: {
-    github: 'abhishek4544/Redev',
-    npm: 'redev-vite-plugin',
-  },
   links: {
     github: 'https://github.com/abhishek4544/Redev',
     npm: 'https://www.npmjs.com/package/redev-vite-plugin',
     website: 'https://github.com/abhishek4544/Redev#readme',
+  },
+  source: {
+    github: 'abhishek4544/Redev',
+    npm: 'redev-vite-plugin',
   },
   stats: {
     stars: 0,

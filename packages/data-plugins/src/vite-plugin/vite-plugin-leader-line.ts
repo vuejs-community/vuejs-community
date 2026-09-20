@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'leader-line',
   ],
-  source: {
-    github: 'yehan68/vite-plugin-leader-line',
-    npm: 'vite-plugin-leader-line',
-  },
   links: {
     github: 'https://github.com/yehan68/vite-plugin-leader-line',
     npm: 'https://www.npmjs.com/package/vite-plugin-leader-line',
     website: 'https://github.com/yehan68/vite-plugin-leader-line',
+  },
+  source: {
+    github: 'yehan68/vite-plugin-leader-line',
+    npm: 'vite-plugin-leader-line',
   },
   stats: {
     stars: 1,

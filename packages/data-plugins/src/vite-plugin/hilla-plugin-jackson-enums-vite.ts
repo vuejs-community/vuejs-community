@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'json-property',
     'typescript',
   ],
-  source: {
-    npm: 'hilla-plugin-jackson-enums-vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/hilla-plugin-jackson-enums-vite',
+  },
+  source: {
+    npm: 'hilla-plugin-jackson-enums-vite',
   },
   stats: {
     stars: 0,

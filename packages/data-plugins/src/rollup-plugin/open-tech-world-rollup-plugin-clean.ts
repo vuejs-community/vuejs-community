@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'folders',
     'directory',
   ],
-  source: {
-    github: 'open-tech-world/rollup-plugin-clean',
-    npm: '@open-tech-world/rollup-plugin-clean',
-  },
   links: {
     github: 'https://github.com/open-tech-world/rollup-plugin-clean',
     npm: 'https://www.npmjs.com/package/@open-tech-world/rollup-plugin-clean',
     website: 'https://github.com/open-tech-world/rollup-plugin-clean#readme',
+  },
+  source: {
+    github: 'open-tech-world/rollup-plugin-clean',
+    npm: '@open-tech-world/rollup-plugin-clean',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'html-template',
     'virtual-html',
   ],
-  source: {
-    github: 'fe6/vite-plugin-html-mpa',
-    npm: 'vite-plugin-html-mpa',
-  },
   links: {
     github: 'https://github.com/fe6/vite-plugin-html-mpa',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-mpa',
     website: 'https://github.com/fe6/vite-plugin-html-mpa',
+  },
+  source: {
+    github: 'fe6/vite-plugin-html-mpa',
+    npm: 'vite-plugin-html-mpa',
   },
   stats: {
     stars: 6,

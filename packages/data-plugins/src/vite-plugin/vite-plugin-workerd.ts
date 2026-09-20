@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'workers',
     'cloudflare',
   ],
-  source: {
-    github: 'edmundhung/vite-plugin-workerd',
-    npm: 'vite-plugin-workerd',
-  },
   links: {
     github: 'https://github.com/edmundhung/vite-plugin-workerd',
     npm: 'https://www.npmjs.com/package/vite-plugin-workerd',
     website: 'https://github.com/edmundhung/vite-plugin-workerd',
+  },
+  source: {
+    github: 'edmundhung/vite-plugin-workerd',
+    npm: 'vite-plugin-workerd',
   },
   stats: {
     stars: 0,

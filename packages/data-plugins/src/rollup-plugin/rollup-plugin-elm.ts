@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'elm',
   ],
-  source: {
-    github: 'ulisses-alves/rollup-plugin-elm',
-    npm: 'rollup-plugin-elm',
-  },
   links: {
     github: 'https://github.com/ulisses-alves/rollup-plugin-elm',
     npm: 'https://www.npmjs.com/package/rollup-plugin-elm',
     website: 'https://github.com/ulisses-alves/rollup-plugin-elm#readme',
+  },
+  source: {
+    github: 'ulisses-alves/rollup-plugin-elm',
+    npm: 'rollup-plugin-elm',
   },
   stats: {
     stars: 16,

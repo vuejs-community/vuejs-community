@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'i18n',
     'language-auto-tool',
   ],
-  source: {
-    github: 'lwp2333/vite-plugin-i18n-auto',
-    npm: 'vite-plugin-i18n-auto',
-  },
   links: {
     github: 'https://github.com/lwp2333/vite-plugin-i18n-auto',
     npm: 'https://www.npmjs.com/package/vite-plugin-i18n-auto',
     website: 'https://github.com/lwp2333/vite-plugin-i18n-auto/tree/master/#readme',
+  },
+  source: {
+    github: 'lwp2333/vite-plugin-i18n-auto',
+    npm: 'vite-plugin-i18n-auto',
   },
   stats: {
     stars: 3,

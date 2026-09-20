@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'eslint',
   ],
-  source: {
-    github: 'nikolay-borzov/rollup-plugin-eslint-bundle',
-    npm: 'rollup-plugin-eslint-bundle',
-  },
   links: {
     github: 'https://github.com/nikolay-borzov/rollup-plugin-eslint-bundle',
     npm: 'https://www.npmjs.com/package/rollup-plugin-eslint-bundle',
     website: 'https://github.com/nikolay-borzov/rollup-plugin-eslint-bundle#readme',
+  },
+  source: {
+    github: 'nikolay-borzov/rollup-plugin-eslint-bundle',
+    npm: 'rollup-plugin-eslint-bundle',
   },
   stats: {
     stars: 4,

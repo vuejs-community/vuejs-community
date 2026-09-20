@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'ui',
     'vue3-ui',
   ],
-  source: {
-    github: 'pathscale/rollup-plugin-vue3-ui-css-purge',
-    npm: '@pathscale/rollup-plugin-vue3-ui-css-purge',
-  },
   links: {
     github: 'https://github.com/pathscale/rollup-plugin-vue3-ui-css-purge',
     npm: 'https://www.npmjs.com/package/@pathscale/rollup-plugin-vue3-ui-css-purge',
     website: 'https://github.com/pathscale/rollup-plugin-vue3-ui-css-purge#readme',
+  },
+  source: {
+    github: 'pathscale/rollup-plugin-vue3-ui-css-purge',
+    npm: '@pathscale/rollup-plugin-vue3-ui-css-purge',
   },
   stats: {
     stars: 0,

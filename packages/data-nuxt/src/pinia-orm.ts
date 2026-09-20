@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://pinia-orm.codedredd.de/',
   },
   source: {
-    github: 'CodeDredd/pinia-orm#main/packages/nuxt',
+    github: 'CodeDredd/pinia-orm',
     npm: '@pinia-orm/nuxt',
   },
 })

@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'Fryuni/inox-tools',
-    npm: '@inox-tools/inline-mod',
-  },
   links: {
     github: 'https://github.com/Fryuni/inox-tools',
     npm: 'https://www.npmjs.com/package/@inox-tools/inline-mod',
     website: 'https://github.com/Fryuni/inox-tools#readme',
+  },
+  source: {
+    github: 'Fryuni/inox-tools',
+    npm: '@inox-tools/inline-mod',
   },
   stats: {
     stars: 142,

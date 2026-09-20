@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'mock',
     'mock-server',
   ],
-  source: {
-    github: 'btmluiz/vite-plugin-mockoon',
-    npm: '@nardole/vite-plugin-mockoon',
-  },
   links: {
     github: 'https://github.com/btmluiz/vite-plugin-mockoon',
     npm: 'https://www.npmjs.com/package/@nardole/vite-plugin-mockoon',
     website: 'https://github.com/btmluiz/vite-plugin-mockoon#readme',
+  },
+  source: {
+    github: 'btmluiz/vite-plugin-mockoon',
+    npm: '@nardole/vite-plugin-mockoon',
   },
   stats: {
     stars: 0,

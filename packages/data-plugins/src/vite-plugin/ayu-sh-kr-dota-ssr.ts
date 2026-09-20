@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'web-components',
   ],
-  source: {
-    npm: '@ayu-sh-kr/dota-ssr',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ayu-sh-kr/dota-ssr',
+  },
+  source: {
+    npm: '@ayu-sh-kr/dota-ssr',
   },
   stats: {
     stars: 0,

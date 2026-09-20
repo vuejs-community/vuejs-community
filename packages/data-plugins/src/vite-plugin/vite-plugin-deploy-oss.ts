@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'deploy',
     'upload',
   ],
-  source: {
-    github: 'yulin96/vite-plugin-deploy-oss',
-    npm: 'vite-plugin-deploy-oss',
-  },
   links: {
     github: 'https://github.com/yulin96/vite-plugin-deploy-oss',
     npm: 'https://www.npmjs.com/package/vite-plugin-deploy-oss',
     website: 'https://github.com/yulin96/vite-plugin-deploy-oss',
+  },
+  source: {
+    github: 'yulin96/vite-plugin-deploy-oss',
+    npm: 'vite-plugin-deploy-oss',
   },
   stats: {
     stars: 1,

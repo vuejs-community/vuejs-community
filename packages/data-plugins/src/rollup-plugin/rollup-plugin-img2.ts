@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'image',
   ],
-  source: {
-    github: 'lisen6/rollup-plugin-img2',
-    npm: 'rollup-plugin-img2',
-  },
   links: {
     github: 'https://github.com/lisen6/rollup-plugin-img2',
     npm: 'https://www.npmjs.com/package/rollup-plugin-img2',
     website: 'https://github.com/lisen6/rollup-plugin-img2#readme',
+  },
+  source: {
+    github: 'lisen6/rollup-plugin-img2',
+    npm: 'rollup-plugin-img2',
   },
   stats: {
     stars: 2,

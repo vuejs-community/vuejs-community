@@ -19,11 +19,11 @@ export default defineProjectMeta({
     'typescript',
     'vite-plugin',
   ],
-  source: {
-    npm: '@tangmu1121/rvue-router',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@tangmu1121/rvue-router',
+  },
+  source: {
+    npm: '@tangmu1121/rvue-router',
   },
   stats: {
     stars: 0,

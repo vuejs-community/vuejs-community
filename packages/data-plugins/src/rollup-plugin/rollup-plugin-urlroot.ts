@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'url',
     'absolute',
   ],
-  source: {
-    github: 'shanewholloway/rollup-plugin-urlroot',
-    npm: 'rollup-plugin-urlroot',
-  },
   links: {
     github: 'https://github.com/shanewholloway/rollup-plugin-urlroot',
     npm: 'https://www.npmjs.com/package/rollup-plugin-urlroot',
     website: 'https://github.com/shanewholloway/rollup-plugin-urlroot#readme',
+  },
+  source: {
+    github: 'shanewholloway/rollup-plugin-urlroot',
+    npm: 'rollup-plugin-urlroot',
   },
   stats: {
     stars: 0,

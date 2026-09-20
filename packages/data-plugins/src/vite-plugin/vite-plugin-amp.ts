@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin-amp',
     'amp',
   ],
-  source: {
-    github: 'TomokiMiyauci/vite-plugin-amp',
-    npm: 'vite-plugin-amp',
-  },
   links: {
     github: 'https://github.com/TomokiMiyauci/vite-plugin-amp',
     npm: 'https://www.npmjs.com/package/vite-plugin-amp',
     website: 'https://github.com/TomokiMiyauci/vite-plugin-amp#readme',
+  },
+  source: {
+    github: 'TomokiMiyauci/vite-plugin-amp',
+    npm: 'vite-plugin-amp',
   },
   stats: {
     stars: 1,

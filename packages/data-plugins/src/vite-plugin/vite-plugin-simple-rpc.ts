@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-simple-rpc',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-simple-rpc',
+  },
+  source: {
+    npm: 'vite-plugin-simple-rpc',
   },
   stats: {
     stars: 0,

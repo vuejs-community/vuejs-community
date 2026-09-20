@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'pngquant',
     'svgo',
   ],
-  source: {
-    npm: '@crashmax/vite-plugin-compress',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@crashmax/vite-plugin-compress',
+  },
+  source: {
+    npm: '@crashmax/vite-plugin-compress',
   },
   stats: {
     stars: 0,

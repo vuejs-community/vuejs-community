@@ -20,13 +20,13 @@ export default defineProjectMeta({
     'rollup-plugin',
     'static-assets',
   ],
-  source: {
-    github: 'ajiho/rolldown-plugin-copy-files',
-    npm: 'rolldown-plugin-copy-files',
-  },
   links: {
     github: 'https://github.com/ajiho/rolldown-plugin-copy-files',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-copy-files',
+  },
+  source: {
+    github: 'ajiho/rolldown-plugin-copy-files',
+    npm: 'rolldown-plugin-copy-files',
   },
   stats: {
     stars: 0,

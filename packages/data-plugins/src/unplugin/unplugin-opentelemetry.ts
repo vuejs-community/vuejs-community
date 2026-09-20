@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'emattiza/unplugin-opentelemetry',
-    npm: 'unplugin-opentelemetry',
-  },
   links: {
     github: 'https://github.com/emattiza/unplugin-opentelemetry',
     npm: 'https://www.npmjs.com/package/unplugin-opentelemetry',
     website: 'https://github.com/emattiza/unplugin-opentelemetry#readme',
+  },
+  source: {
+    github: 'emattiza/unplugin-opentelemetry',
+    npm: 'unplugin-opentelemetry',
   },
   stats: {
     stars: 0,

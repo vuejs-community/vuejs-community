@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'config',
     'node-config',
   ],
-  source: {
-    npm: 'rollup-plugin-config',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-config',
+  },
+  source: {
+    npm: 'rollup-plugin-config',
   },
   stats: {
     stars: 0,

@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'sprite',
     'svgo',
   ],
-  source: {
-    npm: 'vite-plugin-svg-mix',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-mix',
     website: 'https://github.com/idrex/vite-plugin-svg-mix',
+  },
+  source: {
+    npm: 'vite-plugin-svg-mix',
   },
   stats: {
     stars: 0,

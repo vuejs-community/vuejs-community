@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'cache',
   ],
-  source: {
-    github: 'raegen/vitest-cache',
-    npm: '@raegen/vite-plugin-vitest-cache',
-  },
   links: {
     github: 'https://github.com/raegen/vitest-cache',
     npm: 'https://www.npmjs.com/package/@raegen/vite-plugin-vitest-cache',
     website: 'https://github.com/raegen/vitest-cache#readme',
+  },
+  source: {
+    github: 'raegen/vitest-cache',
+    npm: '@raegen/vite-plugin-vitest-cache',
   },
   stats: {
     stars: 32,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'modular',
     'libraries',
   ],
-  source: {
-    github: 'alfredosalzillo/rollup-plugin-multi-input',
-    npm: 'rollup-plugin-multi-input',
-  },
   links: {
     github: 'https://github.com/alfredosalzillo/rollup-plugin-multi-input',
     npm: 'https://www.npmjs.com/package/rollup-plugin-multi-input',
     website: 'https://github.com/alfredosalzillo/rollup-plugin-multi-input#readme',
+  },
+  source: {
+    github: 'alfredosalzillo/rollup-plugin-multi-input',
+    npm: 'rollup-plugin-multi-input',
   },
   stats: {
     stars: 135,

@@ -17,12 +17,12 @@ export default defineProjectMeta({
     '图片压缩',
     'vite插件',
   ],
-  source: {
-    npm: 'vite-plugin-imagemin-vv',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-imagemin-vv',
     website: 'https://github.com/llw-vv/vite-plugin-imagemin-vv',
+  },
+  source: {
+    npm: 'vite-plugin-imagemin-vv',
   },
   stats: {
     stars: 0,

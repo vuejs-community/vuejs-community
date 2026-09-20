@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'security',
     'build',
   ],
-  source: {
-    github: 'hasinhayder/tyro-obfuscator',
-    npm: 'tyro-obfuscator',
-  },
   links: {
     github: 'https://github.com/hasinhayder/tyro-obfuscator',
     npm: 'https://www.npmjs.com/package/tyro-obfuscator',
     website: 'https://github.com/hasinhayder/tyro-obfuscator#readme',
+  },
+  source: {
+    github: 'hasinhayder/tyro-obfuscator',
+    npm: 'tyro-obfuscator',
   },
   stats: {
     stars: 1,

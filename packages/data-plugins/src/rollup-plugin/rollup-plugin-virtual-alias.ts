@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'resolve',
     'alias',
   ],
-  source: {
-    github: 'shanewholloway/rollup-plugin-virtual-alias',
-    npm: 'rollup-plugin-virtual-alias',
-  },
   links: {
     github: 'https://github.com/shanewholloway/rollup-plugin-virtual-alias',
     npm: 'https://www.npmjs.com/package/rollup-plugin-virtual-alias',
     website: 'https://github.com/shanewholloway/rollup-plugin-virtual-alias#readme',
+  },
+  source: {
+    github: 'shanewholloway/rollup-plugin-virtual-alias',
+    npm: 'rollup-plugin-virtual-alias',
   },
   stats: {
     stars: 1,

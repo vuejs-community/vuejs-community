@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'debug',
     'console',
   ],
-  source: {
-    npm: 'vite-plugin-console-panel',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-console-panel',
+  },
+  source: {
+    npm: 'vite-plugin-console-panel',
   },
   stats: {
     stars: 0,

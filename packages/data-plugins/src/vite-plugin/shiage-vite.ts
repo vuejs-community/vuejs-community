@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'dx',
     'shiage',
   ],
-  source: {
-    github: 'horacechoi/shiage',
-    npm: '@shiage/vite',
-  },
   links: {
     github: 'https://github.com/horacechoi/shiage',
     npm: 'https://www.npmjs.com/package/@shiage/vite',
     website: 'https://shiage.dev',
+  },
+  source: {
+    github: 'horacechoi/shiage',
+    npm: '@shiage/vite',
   },
   stats: {
     stars: 2,

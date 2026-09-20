@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'vite',
     'vue-inspector',
   ],
-  source: {
-    npm: 'code-inspector-plugin-electron',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/code-inspector-plugin-electron',
+  },
+  source: {
+    npm: 'code-inspector-plugin-electron',
   },
   stats: {
     stars: 0,

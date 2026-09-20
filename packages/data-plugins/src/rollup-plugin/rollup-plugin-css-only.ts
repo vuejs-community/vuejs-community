@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'css',
   ],
-  source: {
-    github: 'thgh/rollup-plugin-css-only',
-    npm: 'rollup-plugin-css-only',
-  },
   links: {
     github: 'https://github.com/thgh/rollup-plugin-css-only',
     npm: 'https://www.npmjs.com/package/rollup-plugin-css-only',
     website: 'https://github.com/thgh/rollup-plugin-css-only',
+  },
+  source: {
+    github: 'thgh/rollup-plugin-css-only',
+    npm: 'rollup-plugin-css-only',
   },
   stats: {
     stars: 0,

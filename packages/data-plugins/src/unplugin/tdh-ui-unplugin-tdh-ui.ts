@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'esbuild',
     'plugin',
   ],
-  source: {
-    npm: '@tdh-ui/unplugin-tdh-ui',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@tdh-ui/unplugin-tdh-ui',
+  },
+  source: {
+    npm: '@tdh-ui/unplugin-tdh-ui',
   },
   stats: {
     stars: 0,

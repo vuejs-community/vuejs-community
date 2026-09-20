@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'inspector',
     'debug',
   ],
-  source: {
-    github: 'martinszeltins/vite-plugin-vue-inspector',
-    npm: 'vue-component-explorer',
-  },
   links: {
     github: 'https://github.com/martinszeltins/vite-plugin-vue-inspector',
     npm: 'https://www.npmjs.com/package/vue-component-explorer',
     website: 'https://github.com/martinszeltins/vite-plugin-vue-inspector',
+  },
+  source: {
+    github: 'martinszeltins/vite-plugin-vue-inspector',
+    npm: 'vue-component-explorer',
   },
   stats: {
     stars: 0,

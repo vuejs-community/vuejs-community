@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'codemod',
     'transform',
   ],
-  source: {
-    npm: 'rollup-plugin-jscodeshift',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-jscodeshift',
+  },
+  source: {
+    npm: 'rollup-plugin-jscodeshift',
   },
   stats: {
     stars: 0,

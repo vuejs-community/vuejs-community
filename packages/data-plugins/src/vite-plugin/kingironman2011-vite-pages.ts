@@ -19,14 +19,14 @@ export default defineProjectMeta({
     '404',
     'html-generation',
   ],
-  source: {
-    github: 'KingIronMan2011/vite-pages',
-    npm: '@kingironman2011/vite-pages',
-  },
   links: {
     github: 'https://github.com/KingIronMan2011/vite-pages',
     npm: 'https://www.npmjs.com/package/@kingironman2011/vite-pages',
     website: 'https://github.com/KingIronMan2011/vite-pages#readme',
+  },
+  source: {
+    github: 'KingIronMan2011/vite-pages',
+    npm: '@kingironman2011/vite-pages',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'llm',
     'debug',
   ],
-  source: {
-    github: 'jinjie0703/vite-plugin-copilot-dev-mcp',
-    npm: 'vite-plugin-copilot-dev-mcp',
-  },
   links: {
     github: 'https://github.com/jinjie0703/vite-plugin-copilot-dev-mcp',
     npm: 'https://www.npmjs.com/package/vite-plugin-copilot-dev-mcp',
     website: 'https://github.com/jinjie0703/vite-plugin-copilot-dev-mcp#readme',
+  },
+  source: {
+    github: 'jinjie0703/vite-plugin-copilot-dev-mcp',
+    npm: 'vite-plugin-copilot-dev-mcp',
   },
   stats: {
     stars: 1,

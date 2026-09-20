@@ -28,14 +28,14 @@ export default defineProjectMeta({
     'vite-pages',
     'custom router',
   ],
-  source: {
-    github: 'ShivpujanKr-NITJsr/yojan',
-    npm: 'yojan',
-  },
   links: {
     github: 'https://github.com/ShivpujanKr-NITJsr/yojan',
     npm: 'https://www.npmjs.com/package/yojan',
     website: 'https://github.com/ShivpujanKr-NITJsr/yojan#readme',
+  },
+  source: {
+    github: 'ShivpujanKr-NITJsr/yojan',
+    npm: 'yojan',
   },
   stats: {
     stars: 0,

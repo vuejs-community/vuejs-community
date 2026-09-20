@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'llm',
     'postcss',
   ],
-  source: {
-    github: 'blake2573/css-but-ai',
-    npm: 'css-but-ai',
-  },
   links: {
     github: 'https://github.com/blake2573/css-but-ai',
     npm: 'https://www.npmjs.com/package/css-but-ai',
     website: 'https://github.com/blake2573/css-but-ai#readme',
+  },
+  source: {
+    github: 'blake2573/css-but-ai',
+    npm: 'css-but-ai',
   },
   stats: {
     stars: 0,

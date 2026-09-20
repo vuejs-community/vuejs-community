@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'achmadk/vite-plugin-react-remove-devtools',
-    npm: '@achmadk/vite-plugin-react-remove-devtools',
-  },
   links: {
     github: 'https://github.com/achmadk/vite-plugin-react-remove-devtools',
     npm: 'https://www.npmjs.com/package/@achmadk/vite-plugin-react-remove-devtools',
     website: 'https://github.com/achmadk/vite-plugin-react-remove-devtools#readme',
+  },
+  source: {
+    github: 'achmadk/vite-plugin-react-remove-devtools',
+    npm: '@achmadk/vite-plugin-react-remove-devtools',
   },
   stats: {
     stars: 0,

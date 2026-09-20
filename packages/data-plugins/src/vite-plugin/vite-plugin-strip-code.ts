@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vite strip code',
     'vite remove blocks',
   ],
-  source: {
-    github: 'kudashevs/vite-plugin-strip-code',
-    npm: 'vite-plugin-strip-code',
-  },
   links: {
     github: 'https://github.com/kudashevs/vite-plugin-strip-code',
     npm: 'https://www.npmjs.com/package/vite-plugin-strip-code',
     website: 'https://github.com/kudashevs/vite-plugin-strip-code',
+  },
+  source: {
+    github: 'kudashevs/vite-plugin-strip-code',
+    npm: 'vite-plugin-strip-code',
   },
   stats: {
     stars: 5,

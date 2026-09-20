@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'svg',
     'vite-plugin',
   ],
-  source: {
-    github: 'ottomated/o7-favicon',
-    npm: '@o7/favicon',
-  },
   links: {
     github: 'https://github.com/ottomated/o7-favicon',
     npm: 'https://www.npmjs.com/package/@o7/favicon',
     website: 'https://github.com/ottomated/o7-favicon#readme',
+  },
+  source: {
+    github: 'ottomated/o7-favicon',
+    npm: '@o7/favicon',
   },
   stats: {
     stars: 2,

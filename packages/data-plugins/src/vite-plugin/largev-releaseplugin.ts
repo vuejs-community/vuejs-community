@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-release',
   ],
-  source: {
-    npm: '@largev/releaseplugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@largev/releaseplugin',
+  },
+  source: {
+    npm: '@largev/releaseplugin',
   },
   stats: {
     stars: 0,

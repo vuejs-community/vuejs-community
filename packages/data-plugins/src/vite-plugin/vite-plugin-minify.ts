@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-minify',
   ],
-  source: {
-    github: 'zhuweiyou/vite-plugin-minify',
-    npm: 'vite-plugin-minify',
-  },
   links: {
     github: 'https://github.com/zhuweiyou/vite-plugin-minify',
     npm: 'https://www.npmjs.com/package/vite-plugin-minify',
     website: 'https://github.com/zhuweiyou/vite-plugin-minify#readme',
+  },
+  source: {
+    github: 'zhuweiyou/vite-plugin-minify',
+    npm: 'vite-plugin-minify',
   },
   stats: {
     stars: 55,

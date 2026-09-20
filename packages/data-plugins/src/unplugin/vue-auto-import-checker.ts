@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'components.d.ts',
     'tags',
   ],
-  source: {
-    github: 'marcelwagner/vue-auto-import-checker',
-    npm: 'vue-auto-import-checker',
-  },
   links: {
     github: 'https://github.com/marcelwagner/vue-auto-import-checker',
     npm: 'https://www.npmjs.com/package/vue-auto-import-checker',
     website: 'https://www.npmjs.com/package/vue-auto-import-checker',
+  },
+  source: {
+    github: 'marcelwagner/vue-auto-import-checker',
+    npm: 'vue-auto-import-checker',
   },
   stats: {
     stars: 4,

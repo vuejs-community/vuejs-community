@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'router',
     'basename',
   ],
-  source: {
-    github: 'Foisalislambd/vite-basepath',
-    npm: 'vite-basepath',
-  },
   links: {
     github: 'https://github.com/Foisalislambd/vite-basepath',
     npm: 'https://www.npmjs.com/package/vite-basepath',
     website: 'https://github.com/Foisalislambd/vite-basepath#readme',
+  },
+  source: {
+    github: 'Foisalislambd/vite-basepath',
+    npm: 'vite-basepath',
   },
   stats: {
     stars: 0,

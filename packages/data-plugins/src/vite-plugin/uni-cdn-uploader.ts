@@ -18,10 +18,10 @@ export default defineProjectMeta({
     'vite-plugin',
     'tos',
   ],
-  source: {
-    npm: 'uni-cdn-uploader',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/uni-cdn-uploader',
+  },
+  source: {
+    npm: 'uni-cdn-uploader',
   },
 })

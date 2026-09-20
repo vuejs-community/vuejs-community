@@ -14,14 +14,14 @@ export default defineProjectMeta({
     's3',
     'deploy',
   ],
-  source: {
-    github: 'chenx/vite-plugin-deploy-s3',
-    npm: 'vite-plugin-deploy-to-s3',
-  },
   links: {
     github: 'https://github.com/chenx/vite-plugin-deploy-s3',
     npm: 'https://www.npmjs.com/package/vite-plugin-deploy-to-s3',
     website: 'https://github.com/chenx/vite-plugin-deploy-s3#readme',
+  },
+  source: {
+    github: 'chenx/vite-plugin-deploy-s3',
+    npm: 'vite-plugin-deploy-to-s3',
   },
   stats: {
     stars: 0,

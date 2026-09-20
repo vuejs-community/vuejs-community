@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'navigarejs/framework',
-    npm: '@navigare/vite',
-  },
   links: {
     github: 'https://github.com/navigarejs/framework',
     npm: 'https://www.npmjs.com/package/@navigare/vite',
     website: 'https://navigarejs.github.io/framework/',
+  },
+  source: {
+    github: 'navigarejs/framework',
+    npm: '@navigare/vite',
   },
   stats: {
     stars: 0,

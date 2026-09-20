@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin-react',
   ],
-  source: {
-    github: 'Roeefl/vite-plugin-react-css-modules',
-    npm: '@roeefl/vite-plugin-react-css-modules',
-  },
   links: {
     github: 'https://github.com/Roeefl/vite-plugin-react-css-modules',
     npm: 'https://www.npmjs.com/package/@roeefl/vite-plugin-react-css-modules',
     website: 'https://github.com/Roeefl/vite-plugin-react-css-modules#readme',
+  },
+  source: {
+    github: 'Roeefl/vite-plugin-react-css-modules',
+    npm: '@roeefl/vite-plugin-react-css-modules',
   },
   stats: {
     stars: 2,

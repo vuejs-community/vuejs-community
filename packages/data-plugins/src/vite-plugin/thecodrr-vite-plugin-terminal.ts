@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'patak-dev/vite-plugin-terminal',
-    npm: '@thecodrr/vite-plugin-terminal',
-  },
   links: {
     github: 'https://github.com/patak-dev/vite-plugin-terminal',
     npm: 'https://www.npmjs.com/package/@thecodrr/vite-plugin-terminal',
     website: 'https://github.com/patak-dev/vite-plugin-terminal#readme',
+  },
+  source: {
+    github: 'patak-dev/vite-plugin-terminal',
+    npm: '@thecodrr/vite-plugin-terminal',
   },
   stats: {
     stars: 331,

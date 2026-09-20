@@ -46,14 +46,14 @@ export default defineProjectMeta({
     'picture',
     'srcset',
   ],
-  source: {
-    github: 'ezitounioussama/vite-image-react',
-    npm: 'vite-image-react',
-  },
   links: {
     github: 'https://github.com/ezitounioussama/vite-image-react',
     npm: 'https://www.npmjs.com/package/vite-image-react',
     website: 'https://github.com/ezitounioussama/vite-image-react#readme',
+  },
+  source: {
+    github: 'ezitounioussama/vite-image-react',
+    npm: 'vite-image-react',
   },
   stats: {
     stars: 2,

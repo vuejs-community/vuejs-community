@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'claude',
   ],
-  source: {
-    github: 'ada-h/nativtongue',
-    npm: 'nativtongue-cli',
-  },
   links: {
     github: 'https://github.com/ada-h/nativtongue',
     npm: 'https://www.npmjs.com/package/nativtongue-cli',
     website: 'https://github.com/ada-h/nativtongue',
+  },
+  source: {
+    github: 'ada-h/nativtongue',
+    npm: 'nativtongue-cli',
   },
   stats: {
     stars: 0,

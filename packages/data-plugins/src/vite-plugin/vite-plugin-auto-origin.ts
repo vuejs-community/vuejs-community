@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 's2b/vite-plugin-auto-origin',
-    npm: 'vite-plugin-auto-origin',
-  },
   links: {
     github: 'https://github.com/s2b/vite-plugin-auto-origin',
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-origin',
     website: 'https://github.com/s2b/vite-plugin-auto-origin',
+  },
+  source: {
+    github: 's2b/vite-plugin-auto-origin',
+    npm: 'vite-plugin-auto-origin',
   },
   stats: {
     stars: 9,

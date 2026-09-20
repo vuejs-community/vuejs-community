@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'clarity',
     'facebook-pixel',
   ],
-  source: {
-    github: 'SeeMusic/vite-plugin-third-party-injector',
-    npm: '@kanjianmusic/vite-plugin-third-party-injector',
-  },
   links: {
     github: 'https://github.com/SeeMusic/vite-plugin-third-party-injector',
     npm: 'https://www.npmjs.com/package/@kanjianmusic/vite-plugin-third-party-injector',
     website: 'https://github.com/SeeMusic/vite-plugin-third-party-injector',
+  },
+  source: {
+    github: 'SeeMusic/vite-plugin-third-party-injector',
+    npm: '@kanjianmusic/vite-plugin-third-party-injector',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dotnetnuke',
     'ascx',
   ],
-  source: {
-    github: '6TELOIV/vite-plugin-dnn-ascx',
-    npm: '@violetrose/vite-plugin-dnn-ascx',
-  },
   links: {
     github: 'https://github.com/6TELOIV/vite-plugin-dnn-ascx',
     npm: 'https://www.npmjs.com/package/@violetrose/vite-plugin-dnn-ascx',
     website: 'https://github.com/6TELOIV/vite-plugin-dnn-ascx#readme',
+  },
+  source: {
+    github: '6TELOIV/vite-plugin-dnn-ascx',
+    npm: '@violetrose/vite-plugin-dnn-ascx',
   },
   stats: {
     stars: 0,

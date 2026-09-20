@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'steganography',
     'invisible-watermark',
   ],
-  source: {
-    github: 'NPSummers/vite-plugin-watermark',
-    npm: '@aureal/vite-plugin-watermark',
-  },
   links: {
     github: 'https://github.com/NPSummers/vite-plugin-watermark',
     npm: 'https://www.npmjs.com/package/@aureal/vite-plugin-watermark',
     website: 'https://github.com/NPSummers/vite-plugin-watermark#readme',
+  },
+  source: {
+    github: 'NPSummers/vite-plugin-watermark',
+    npm: '@aureal/vite-plugin-watermark',
   },
   stats: {
     stars: 0,

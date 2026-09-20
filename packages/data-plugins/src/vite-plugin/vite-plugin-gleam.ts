@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'bunup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'gleam-br/vite-plugin-gleam',
-    npm: 'vite-plugin-gleam',
-  },
   links: {
     github: 'https://github.com/gleam-br/vite-plugin-gleam',
     npm: 'https://www.npmjs.com/package/vite-plugin-gleam',
     website: 'https://github.com/gleam-br/vite-plugin-gleam#readme',
+  },
+  source: {
+    github: 'gleam-br/vite-plugin-gleam',
+    npm: 'vite-plugin-gleam',
   },
   stats: {
     stars: 1,

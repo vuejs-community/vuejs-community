@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'qiankun',
     'vite',
   ],
-  source: {
-    npm: '@phongthien/micro-fe-vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@phongthien/micro-fe-vite-plugin',
+  },
+  source: {
+    npm: '@phongthien/micro-fe-vite-plugin',
   },
   stats: {
     stars: 0,

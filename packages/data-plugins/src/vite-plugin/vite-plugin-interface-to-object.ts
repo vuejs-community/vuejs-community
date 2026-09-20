@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'typescript',
   ],
-  source: {
-    npm: 'vite-plugin-interface-to-object',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-interface-to-object',
+  },
+  source: {
+    npm: 'vite-plugin-interface-to-object',
   },
   stats: {
     stars: 0,

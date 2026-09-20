@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'deployment',
     'versioning',
   ],
-  source: {
-    github: 'Mica-Ma/vite-plugin-generate-version',
-    npm: 'vite-plugin-generate-version',
-  },
   links: {
     github: 'https://github.com/Mica-Ma/vite-plugin-generate-version',
     npm: 'https://www.npmjs.com/package/vite-plugin-generate-version',
     website: 'https://github.com/Mica-Ma/vite-plugin-generate-version#readme',
+  },
+  source: {
+    github: 'Mica-Ma/vite-plugin-generate-version',
+    npm: 'vite-plugin-generate-version',
   },
   stats: {
     stars: 0,

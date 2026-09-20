@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'ElMassimo/vite-plugin-stimulus-hmr',
-    npm: 'vite-plugin-stimulus-hmr',
-  },
   links: {
     github: 'https://github.com/ElMassimo/vite-plugin-stimulus-hmr',
     npm: 'https://www.npmjs.com/package/vite-plugin-stimulus-hmr',
     website: 'https://github.com/ElMassimo/vite-plugin-stimulus-hmr',
+  },
+  source: {
+    github: 'ElMassimo/vite-plugin-stimulus-hmr',
+    npm: 'vite-plugin-stimulus-hmr',
   },
   stats: {
     stars: 61,

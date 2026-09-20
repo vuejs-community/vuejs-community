@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'xiaohe0601/virtual-crypto-key',
-    npm: 'unplugin-crypto-key',
-  },
   links: {
     github: 'https://github.com/xiaohe0601/virtual-crypto-key',
     npm: 'https://www.npmjs.com/package/unplugin-crypto-key',
     website: 'https://github.com/xiaohe0601/virtual-crypto-key#readme',
+  },
+  source: {
+    github: 'xiaohe0601/virtual-crypto-key',
+    npm: 'unplugin-crypto-key',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'excape-string',
   ],
-  source: {
-    github: 'runmaxde/vite-plugin-singlefile-escaped',
-    npm: 'vite-plugin-singlefile-escaped',
-  },
   links: {
     github: 'https://github.com/runmaxde/vite-plugin-singlefile-escaped',
     npm: 'https://www.npmjs.com/package/vite-plugin-singlefile-escaped',
     website: 'https://github.com/runmaxde/vite-plugin-singlefile-escaped',
+  },
+  source: {
+    github: 'runmaxde/vite-plugin-singlefile-escaped',
+    npm: 'vite-plugin-singlefile-escaped',
   },
   stats: {
     stars: 0,

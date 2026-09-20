@@ -36,14 +36,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'withastro',
   ],
-  source: {
-    github: 'astro-community/config-to-alias',
-    npm: '@astropub/config-to-alias',
-  },
   links: {
     github: 'https://github.com/astro-community/config-to-alias',
     npm: 'https://www.npmjs.com/package/@astropub/config-to-alias',
     website: 'https://github.com/astro-community/config-to-alias/#readme',
+  },
+  source: {
+    github: 'astro-community/config-to-alias',
+    npm: '@astropub/config-to-alias',
   },
   stats: {
     stars: 0,

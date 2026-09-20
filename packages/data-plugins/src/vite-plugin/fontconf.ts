@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'rollup-plugin',
   ],
-  source: {
-    npm: 'fontconf',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/fontconf',
+  },
+  source: {
+    npm: 'fontconf',
   },
   stats: {
     stars: 0,

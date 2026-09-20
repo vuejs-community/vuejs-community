@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'watch',
     'zero-downtime',
   ],
-  source: {
-    github: 'joyzyy/rolldown-plugin-run',
-    npm: '@joylunow/rolldown-plugin-run',
-  },
   links: {
     github: 'https://github.com/joyzyy/rolldown-plugin-run',
     npm: 'https://www.npmjs.com/package/@joylunow/rolldown-plugin-run',
     website: 'https://github.com/joyzyy/rolldown-plugin-run#readme',
+  },
+  source: {
+    github: 'joyzyy/rolldown-plugin-run',
+    npm: '@joylunow/rolldown-plugin-run',
   },
   stats: {
     stars: 0,

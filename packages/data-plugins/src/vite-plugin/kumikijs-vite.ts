@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'ai-first',
     'build',
   ],
-  source: {
-    github: 'kumikijs/Kumiki',
-    npm: '@kumikijs/vite',
-  },
   links: {
     github: 'https://github.com/kumikijs/Kumiki',
     npm: 'https://www.npmjs.com/package/@kumikijs/vite',
     website: 'https://github.com/kumikijs/Kumiki/tree/main/packages/vite#readme',
+  },
+  source: {
+    github: 'kumikijs/Kumiki',
+    npm: '@kumikijs/vite',
   },
   stats: {
     stars: 1,

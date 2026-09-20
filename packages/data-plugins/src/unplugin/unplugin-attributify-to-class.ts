@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'attributify',
   ],
-  source: {
-    github: 'MellowCo/unplugin-attributify-to-class',
-    npm: 'unplugin-attributify-to-class',
-  },
   links: {
     github: 'https://github.com/MellowCo/unplugin-attributify-to-class',
     npm: 'https://www.npmjs.com/package/unplugin-attributify-to-class',
     website: 'https://github.com/MellowCo/unplugin-attributify-to-class#readme',
+  },
+  source: {
+    github: 'MellowCo/unplugin-attributify-to-class',
+    npm: 'unplugin-attributify-to-class',
   },
   stats: {
     stars: 19,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'compatibility',
     'check',
   ],
-  source: {
-    github: 'cklwblove/unplugin-check-syntax',
-    npm: '@winner-fed/unplugin-check-syntax',
-  },
   links: {
     github: 'https://github.com/cklwblove/unplugin-check-syntax',
     npm: 'https://www.npmjs.com/package/@winner-fed/unplugin-check-syntax',
     website: 'https://github.com/cklwblove/unplugin-check-syntax#readme',
+  },
+  source: {
+    github: 'cklwblove/unplugin-check-syntax',
+    npm: '@winner-fed/unplugin-check-syntax',
   },
   stats: {
     stars: 1,

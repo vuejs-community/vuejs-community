@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'polyfill.io',
     'es',
   ],
-  source: {
-    github: 'touchifyapp/rollup-plugin-polyfill-service',
-    npm: 'rollup-plugin-polyfill-service',
-  },
   links: {
     github: 'https://github.com/touchifyapp/rollup-plugin-polyfill-service',
     npm: 'https://www.npmjs.com/package/rollup-plugin-polyfill-service',
     website: 'https://github.com/touchifyapp/rollup-plugin-polyfill-service#readme',
+  },
+  source: {
+    github: 'touchifyapp/rollup-plugin-polyfill-service',
+    npm: 'rollup-plugin-polyfill-service',
   },
   stats: {
     stars: 0,

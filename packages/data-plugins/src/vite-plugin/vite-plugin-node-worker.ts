@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'development',
     'build',
   ],
-  source: {
-    github: 'aheissenberger/vite-plugin-node-worker',
-    npm: 'vite-plugin-node-worker',
-  },
   links: {
     github: 'https://github.com/aheissenberger/vite-plugin-node-worker',
     npm: 'https://www.npmjs.com/package/vite-plugin-node-worker',
     website: 'https://github.com/aheissenberger/vite-plugin-node-worker#readme',
+  },
+  source: {
+    github: 'aheissenberger/vite-plugin-node-worker',
+    npm: 'vite-plugin-node-worker',
   },
   stats: {
     stars: 4,

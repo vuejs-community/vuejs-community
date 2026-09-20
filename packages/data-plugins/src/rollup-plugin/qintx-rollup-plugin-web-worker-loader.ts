@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'web-worker',
     'worker',
   ],
-  source: {
-    github: 'lkiarest/rollup-plugin-web-worker-loader',
-    npm: '@qintx/rollup-plugin-web-worker-loader',
-  },
   links: {
     github: 'https://github.com/lkiarest/rollup-plugin-web-worker-loader',
     npm: 'https://www.npmjs.com/package/@qintx/rollup-plugin-web-worker-loader',
     website: 'https://github.com/lkiarest/rollup-plugin-web-worker-loader#readme',
+  },
+  source: {
+    github: 'lkiarest/rollup-plugin-web-worker-loader',
+    npm: '@qintx/rollup-plugin-web-worker-loader',
   },
   stats: {
     stars: 0,

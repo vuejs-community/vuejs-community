@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'tsup-plugin',
     'package.json',
   ],
-  source: {
-    github: 'bartholomej/rolldown-plugin-dist-package',
-    npm: 'rolldown-plugin-dist-package',
-  },
   links: {
     github: 'https://github.com/bartholomej/rolldown-plugin-dist-package',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-dist-package',
     website: 'https://github.com/bartholomej/rolldown-plugin-dist-package#readme',
+  },
+  source: {
+    github: 'bartholomej/rolldown-plugin-dist-package',
+    npm: 'rolldown-plugin-dist-package',
   },
   stats: {
     stars: 1,

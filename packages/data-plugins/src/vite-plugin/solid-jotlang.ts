@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'jsx',
     'compiler',
   ],
-  source: {
-    github: 'Thaumonaut/jotl-project',
-    npm: 'solid-jotlang',
-  },
   links: {
     github: 'https://github.com/Thaumonaut/jotl-project',
     npm: 'https://www.npmjs.com/package/solid-jotlang',
     website: 'https://github.com/Thaumonaut/jotl-project#readme',
+  },
+  source: {
+    github: 'Thaumonaut/jotl-project',
+    npm: 'solid-jotlang',
   },
   stats: {
     stars: 0,

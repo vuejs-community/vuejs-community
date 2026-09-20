@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'vtrbo/unplugin-vue-images',
-    npm: 'unplugin-vue-images',
-  },
   links: {
     github: 'https://github.com/vtrbo/unplugin-vue-images',
     npm: 'https://www.npmjs.com/package/unplugin-vue-images',
     website: 'https://github.com/vtrbo/unplugin-vue-images#readme',
+  },
+  source: {
+    github: 'vtrbo/unplugin-vue-images',
+    npm: 'unplugin-vue-images',
   },
   stats: {
     stars: 6,

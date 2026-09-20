@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'transpiled',
     'untranspiled',
   ],
-  source: {
-    github: 'vctqs1-vn/vite-plugin-resource-collector',
-    npm: '@vctqs1/vite-plugin-resource-collector',
-  },
   links: {
     github: 'https://github.com/vctqs1-vn/vite-plugin-resource-collector',
     npm: 'https://www.npmjs.com/package/@vctqs1/vite-plugin-resource-collector',
     website: 'https://github.com/vctqs1-vn/vite-plugin-resource-collector#readme',
+  },
+  source: {
+    github: 'vctqs1-vn/vite-plugin-resource-collector',
+    npm: '@vctqs1/vite-plugin-resource-collector',
   },
   stats: {
     stars: 0,

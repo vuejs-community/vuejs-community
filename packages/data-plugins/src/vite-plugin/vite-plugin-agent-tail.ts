@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'console',
     'logging',
   ],
-  source: {
-    github: 'gillkyle/agent-tail',
-    npm: 'vite-plugin-agent-tail',
-  },
   links: {
     github: 'https://github.com/gillkyle/agent-tail',
     npm: 'https://www.npmjs.com/package/vite-plugin-agent-tail',
     website: 'https://github.com/gillkyle/agent-tail#readme',
+  },
+  source: {
+    github: 'gillkyle/agent-tail',
+    npm: 'vite-plugin-agent-tail',
   },
   stats: {
     stars: 91,

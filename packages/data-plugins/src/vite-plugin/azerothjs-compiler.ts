@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'reactive',
     'dom',
   ],
-  source: {
-    github: 'AzerothJS/AzerothJS',
-    npm: '@azerothjs/compiler',
-  },
   links: {
     github: 'https://github.com/AzerothJS/AzerothJS',
     npm: 'https://www.npmjs.com/package/@azerothjs/compiler',
     website: 'https://github.com/AzerothJS/AzerothJS/tree/main/packages/compiler',
+  },
+  source: {
+    github: 'AzerothJS/AzerothJS',
+    npm: '@azerothjs/compiler',
   },
   stats: {
     stars: 4,

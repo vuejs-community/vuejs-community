@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dev-server',
     'static',
   ],
-  source: {
-    github: 'calebdwilliams/rollup-plugin-devserver',
-    npm: 'rollup-plugin-serve-proxy',
-  },
   links: {
     github: 'https://github.com/calebdwilliams/rollup-plugin-devserver',
     npm: 'https://www.npmjs.com/package/rollup-plugin-serve-proxy',
     website: 'https://github.com/calebdwilliams/rollup-plugin-devserver',
+  },
+  source: {
+    github: 'calebdwilliams/rollup-plugin-devserver',
+    npm: 'rollup-plugin-serve-proxy',
   },
   stats: {
     stars: 0,

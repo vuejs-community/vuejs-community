@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'imagetools',
     'responsive-images',
   ],
-  source: {
-    github: 'son426/vite-image',
-    npm: '@son426/vite-image',
-  },
   links: {
     github: 'https://github.com/son426/vite-image',
     npm: 'https://www.npmjs.com/package/@son426/vite-image',
     website: 'https://vite-image.web.app',
+  },
+  source: {
+    github: 'son426/vite-image',
+    npm: '@son426/vite-image',
   },
   stats: {
     stars: 3,

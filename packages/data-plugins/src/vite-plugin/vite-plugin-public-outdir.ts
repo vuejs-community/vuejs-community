@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'outdir',
     'copy',
   ],
-  source: {
-    github: 'wrapperup/vite-plugin-public-outdir',
-    npm: 'vite-plugin-public-outdir',
-  },
   links: {
     github: 'https://github.com/wrapperup/vite-plugin-public-outdir',
     npm: 'https://www.npmjs.com/package/vite-plugin-public-outdir',
     website: 'https://github.com/wrapperup/vite-plugin-public-outdir',
+  },
+  source: {
+    github: 'wrapperup/vite-plugin-public-outdir',
+    npm: 'vite-plugin-public-outdir',
   },
   stats: {
     stars: 0,

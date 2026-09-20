@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'ohbug',
   ],
-  source: {
-    github: 'ohbug-org/unplugin-ohbug',
-    npm: '@ohbug/unplugin',
-  },
   links: {
     github: 'https://github.com/ohbug-org/unplugin-ohbug',
     npm: 'https://www.npmjs.com/package/@ohbug/unplugin',
     website: 'https://github.com/ohbug-org/unplugin-ohbug',
+  },
+  source: {
+    github: 'ohbug-org/unplugin-ohbug',
+    npm: '@ohbug/unplugin',
   },
   stats: {
     stars: 0,

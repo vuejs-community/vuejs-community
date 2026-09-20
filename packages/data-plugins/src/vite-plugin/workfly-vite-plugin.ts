@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'wfapp',
   ],
-  source: {
-    npm: '@workfly/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@workfly/vite-plugin',
+  },
+  source: {
+    npm: '@workfly/vite-plugin',
   },
   stats: {
     stars: 0,

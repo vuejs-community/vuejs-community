@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'oveo',
     'vite-plugin',
   ],
-  source: {
-    github: 'localvoid/oveo',
-    npm: '@oveo/vite',
-  },
   links: {
     github: 'https://github.com/localvoid/oveo',
     npm: 'https://www.npmjs.com/package/@oveo/vite',
     website: 'https://github.com/localvoid/oveo',
+  },
+  source: {
+    github: 'localvoid/oveo',
+    npm: '@oveo/vite',
   },
   stats: {
     stars: 16,

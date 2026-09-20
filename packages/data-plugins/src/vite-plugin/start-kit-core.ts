@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'scss',
     'build-tool',
   ],
-  source: {
-    github: 'RNKuchin/start-kit',
-    npm: 'start-kit-core',
-  },
   links: {
     github: 'https://github.com/RNKuchin/start-kit',
     npm: 'https://www.npmjs.com/package/start-kit-core',
     website: 'https://github.com/RNKuchin/start-kit#readme',
+  },
+  source: {
+    github: 'RNKuchin/start-kit',
+    npm: 'start-kit-core',
   },
   stats: {
     stars: 0,

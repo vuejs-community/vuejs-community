@@ -29,14 +29,14 @@ export default defineProjectMeta({
     'optimization',
     'web-development',
   ],
-  source: {
-    github: 'mustafadalga/react-remove-attr',
-    npm: 'react-remove-attr',
-  },
   links: {
     github: 'https://github.com/mustafadalga/react-remove-attr',
     npm: 'https://www.npmjs.com/package/react-remove-attr',
     website: 'https://github.com/mustafadalga/react-remove-attr#readme',
+  },
+  source: {
+    github: 'mustafadalga/react-remove-attr',
+    npm: 'react-remove-attr',
   },
   stats: {
     stars: 1,

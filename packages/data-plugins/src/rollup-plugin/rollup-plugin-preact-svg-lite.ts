@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'svg',
     'preact-svg',
   ],
-  source: {
-    github: 'taochunyu/rollup-plugin-preact-svg-lite',
-    npm: 'rollup-plugin-preact-svg-lite',
-  },
   links: {
     github: 'https://github.com/taochunyu/rollup-plugin-preact-svg-lite',
     npm: 'https://www.npmjs.com/package/rollup-plugin-preact-svg-lite',
     website: 'https://github.com/taochunyu/rollup-plugin-preact-svg-lite.git',
+  },
+  source: {
+    github: 'taochunyu/rollup-plugin-preact-svg-lite',
+    npm: 'rollup-plugin-preact-svg-lite',
   },
   stats: {
     stars: 2,

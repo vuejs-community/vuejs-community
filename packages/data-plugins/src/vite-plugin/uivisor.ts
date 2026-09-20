@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'visual-editing',
     'tailwind',
   ],
-  source: {
-    github: 'kabdulov/uivisor',
-    npm: 'uivisor',
-  },
   links: {
     github: 'https://github.com/kabdulov/uivisor',
     npm: 'https://www.npmjs.com/package/uivisor',
     website: 'https://github.com/kabdulov/uivisor#readme',
+  },
+  source: {
+    github: 'kabdulov/uivisor',
+    npm: 'uivisor',
   },
   stats: {
     stars: 1,

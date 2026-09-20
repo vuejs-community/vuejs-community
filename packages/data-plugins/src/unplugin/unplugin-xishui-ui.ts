@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'esbuild',
     'plugin',
   ],
-  source: {
-    github: 'zhuiyue132/unplugin-xishui-ui',
-    npm: 'unplugin-xishui-ui',
-  },
   links: {
     github: 'https://github.com/zhuiyue132/unplugin-xishui-ui',
     npm: 'https://www.npmjs.com/package/unplugin-xishui-ui',
     website: 'https://github.com/zhuiyue132/unplugin-xishui-ui#readme',
+  },
+  source: {
+    github: 'zhuiyue132/unplugin-xishui-ui',
+    npm: 'unplugin-xishui-ui',
   },
   stats: {
     stars: 0,

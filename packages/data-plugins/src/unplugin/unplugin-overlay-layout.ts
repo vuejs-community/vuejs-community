@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'motea927/unplugin-overlay-layout',
-    npm: 'unplugin-overlay-layout',
-  },
   links: {
     github: 'https://github.com/motea927/unplugin-overlay-layout',
     npm: 'https://www.npmjs.com/package/unplugin-overlay-layout',
     website: 'https://github.com/motea927/unplugin-overlay-layout',
+  },
+  source: {
+    github: 'motea927/unplugin-overlay-layout',
+    npm: 'unplugin-overlay-layout',
   },
   stats: {
     stars: 4,

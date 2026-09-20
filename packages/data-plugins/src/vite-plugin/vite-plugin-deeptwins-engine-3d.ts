@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'deeptwins',
   ],
-  source: {
-    npm: 'vite-plugin-deeptwins-engine-3d',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-deeptwins-engine-3d',
+  },
+  source: {
+    npm: 'vite-plugin-deeptwins-engine-3d',
   },
   stats: {
     stars: 0,

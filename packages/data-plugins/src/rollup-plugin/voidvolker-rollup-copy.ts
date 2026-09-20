@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'rollup-copy',
   ],
-  source: {
-    github: 'VoidVolker/rollup-copy',
-    npm: '@voidvolker/rollup-copy',
-  },
   links: {
     github: 'https://github.com/VoidVolker/rollup-copy',
     npm: 'https://www.npmjs.com/package/@voidvolker/rollup-copy',
     website: 'https://github.com/VoidVolker/rollup-copy#readme',
+  },
+  source: {
+    github: 'VoidVolker/rollup-copy',
+    npm: '@voidvolker/rollup-copy',
   },
   stats: {
     stars: 0,

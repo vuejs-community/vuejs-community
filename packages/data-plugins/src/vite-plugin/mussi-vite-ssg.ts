@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'ssg',
     'ssr',
   ],
-  source: {
-    github: 'ElMassimo/vite-ssg',
-    npm: '@mussi/vite-ssg',
-  },
   links: {
     github: 'https://github.com/ElMassimo/vite-ssg',
     npm: 'https://www.npmjs.com/package/@mussi/vite-ssg',
     website: 'https://github.com/ElMassimo/vite-ssg',
+  },
+  source: {
+    github: 'ElMassimo/vite-ssg',
+    npm: '@mussi/vite-ssg',
   },
   stats: {
     stars: 1,

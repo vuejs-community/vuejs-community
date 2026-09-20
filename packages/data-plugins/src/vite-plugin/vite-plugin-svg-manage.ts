@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'svg',
   ],
-  source: {
-    github: 'Asaki-M/vite-plugin-svg-manage',
-    npm: 'vite-plugin-svg-manage',
-  },
   links: {
     github: 'https://github.com/Asaki-M/vite-plugin-svg-manage',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-manage',
     website: 'https://github.com/Asaki-M/vite-plugin-svg-manage#readme',
+  },
+  source: {
+    github: 'Asaki-M/vite-plugin-svg-manage',
+    npm: 'vite-plugin-svg-manage',
   },
   stats: {
     stars: 1,

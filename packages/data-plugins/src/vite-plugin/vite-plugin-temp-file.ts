@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'temp',
     'tmp',
   ],
-  source: {
-    npm: 'vite-plugin-temp-file',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-temp-file',
+  },
+  source: {
+    npm: 'vite-plugin-temp-file',
   },
   stats: {
     stars: 0,

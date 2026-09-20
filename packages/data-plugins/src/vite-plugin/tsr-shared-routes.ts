@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'tanstack-start',
     'vite-plugin',
   ],
-  source: {
-    github: 'wallpants/tsr-shared-routes',
-    npm: 'tsr-shared-routes',
-  },
   links: {
     github: 'https://github.com/wallpants/tsr-shared-routes',
     npm: 'https://www.npmjs.com/package/tsr-shared-routes',
     website: 'https://github.com/wallpants/tsr-shared-routes#readme',
+  },
+  source: {
+    github: 'wallpants/tsr-shared-routes',
+    npm: 'tsr-shared-routes',
   },
   stats: {
     stars: 0,

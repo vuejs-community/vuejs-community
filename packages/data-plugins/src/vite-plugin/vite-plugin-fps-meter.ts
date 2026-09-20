@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'longtask',
     'devtools',
   ],
-  source: {
-    github: 'ux-ui-pro/vite-plugin-fps-meter',
-    npm: 'vite-plugin-fps-meter',
-  },
   links: {
     github: 'https://github.com/ux-ui-pro/vite-plugin-fps-meter',
     npm: 'https://www.npmjs.com/package/vite-plugin-fps-meter',
     website: 'https://github.com/ux-ui-pro/vite-plugin-fps-meter',
+  },
+  source: {
+    github: 'ux-ui-pro/vite-plugin-fps-meter',
+    npm: 'vite-plugin-fps-meter',
   },
   stats: {
     stars: 0,

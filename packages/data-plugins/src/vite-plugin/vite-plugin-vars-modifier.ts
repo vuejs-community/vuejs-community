@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vars',
     'variables',
   ],
-  source: {
-    github: 'fanhaoyuan/vite-plugin-vars-modifier',
-    npm: 'vite-plugin-vars-modifier',
-  },
   links: {
     github: 'https://github.com/fanhaoyuan/vite-plugin-vars-modifier',
     npm: 'https://www.npmjs.com/package/vite-plugin-vars-modifier',
     website: 'https://github.com/fanhaoyuan/vite-plugin-vars-modifier#readme',
+  },
+  source: {
+    github: 'fanhaoyuan/vite-plugin-vars-modifier',
+    npm: 'vite-plugin-vars-modifier',
   },
   stats: {
     stars: 3,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'html',
     'version',
   ],
-  source: {
-    github: 'liuxiaojun666/vite-plugin-html-version',
-    npm: 'vite-plugin-html-version',
-  },
   links: {
     github: 'https://github.com/liuxiaojun666/vite-plugin-html-version',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-version',
     website: 'https://github.com/liuxiaojun666/vite-plugin-html-version',
+  },
+  source: {
+    github: 'liuxiaojun666/vite-plugin-html-version',
+    npm: 'vite-plugin-html-version',
   },
   stats: {
     stars: 1,

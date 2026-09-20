@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'mock-server',
     'unplugin-mock',
   ],
-  source: {
-    github: 'tangdaoyuan/unplugin-mock',
-    npm: 'unplugin-mock',
-  },
   links: {
     github: 'https://github.com/tangdaoyuan/unplugin-mock',
     npm: 'https://www.npmjs.com/package/unplugin-mock',
     website: 'https://github.com/tangdaoyuan/unplugin-mock#readme',
+  },
+  source: {
+    github: 'tangdaoyuan/unplugin-mock',
+    npm: 'unplugin-mock',
   },
   stats: {
     stars: 2,

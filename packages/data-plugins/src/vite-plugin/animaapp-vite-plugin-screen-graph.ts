@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'screen-graph',
     'visualization',
   ],
-  source: {
-    github: 'AnimaApp/vite-plugin-screen-graph',
-    npm: '@animaapp/vite-plugin-screen-graph',
-  },
   links: {
     github: 'https://github.com/AnimaApp/vite-plugin-screen-graph',
     npm: 'https://www.npmjs.com/package/@animaapp/vite-plugin-screen-graph',
     website: 'https://github.com/AnimaApp/vite-plugin-screen-graph#readme',
+  },
+  source: {
+    github: 'AnimaApp/vite-plugin-screen-graph',
+    npm: '@animaapp/vite-plugin-screen-graph',
   },
   stats: {
     stars: 0,

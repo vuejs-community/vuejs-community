@@ -14,14 +14,14 @@ export default defineProjectMeta({
     '@plugin-web-update-notify/vite',
     'web-update-notify',
   ],
-  source: {
-    github: 'kjhy/plugin-web-update-notify',
-    npm: '@plugin-web-update-notify/vite',
-  },
   links: {
     github: 'https://github.com/kjhy/plugin-web-update-notify',
     npm: 'https://www.npmjs.com/package/@plugin-web-update-notify/vite',
     website: 'https://github.com/kjhy/plugin-web-update-notify',
+  },
+  source: {
+    github: 'kjhy/plugin-web-update-notify',
+    npm: '@plugin-web-update-notify/vite',
   },
   stats: {
     stars: 11,

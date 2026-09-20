@@ -15,14 +15,14 @@ export default defineProjectMeta({
     '@cesium/engine',
     '3d',
   ],
-  source: {
-    github: 'jfayot/vite-plugin-cesium-engine',
-    npm: 'vite-plugin-cesium-engine',
-  },
   links: {
     github: 'https://github.com/jfayot/vite-plugin-cesium-engine',
     npm: 'https://www.npmjs.com/package/vite-plugin-cesium-engine',
     website: 'https://github.com/jfayot/vite-plugin-cesium-engine',
+  },
+  source: {
+    github: 'jfayot/vite-plugin-cesium-engine',
+    npm: 'vite-plugin-cesium-engine',
   },
   stats: {
     stars: 1,

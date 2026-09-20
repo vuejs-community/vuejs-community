@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'network',
     'mock',
   ],
-  source: {
-    npm: 'vite-plugin-network-mock',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-network-mock',
+  },
+  source: {
+    npm: 'vite-plugin-network-mock',
   },
   stats: {
     stars: 0,

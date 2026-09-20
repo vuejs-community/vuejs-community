@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'node',
     'commonjs',
   ],
-  source: {
-    github: 'shannonmoeller/rollup-preset-isomorphic',
-    npm: 'rollup-preset-isomorphic',
-  },
   links: {
     github: 'https://github.com/shannonmoeller/rollup-preset-isomorphic',
     npm: 'https://www.npmjs.com/package/rollup-preset-isomorphic',
     website: 'https://github.com/shannonmoeller/rollup-preset-isomorphic#readme',
+  },
+  source: {
+    github: 'shannonmoeller/rollup-preset-isomorphic',
+    npm: 'rollup-preset-isomorphic',
   },
   stats: {
     stars: 4,

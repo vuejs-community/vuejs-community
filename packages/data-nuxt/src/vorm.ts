@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://vorm.fh-softdev.de',
   },
   source: {
-    github: 'Flo0806/vorm#main/packages/vorm-nuxt',
+    github: 'Flo0806/vorm',
     npm: 'vorm-nuxt',
   },
 })

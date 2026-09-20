@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dev-server',
     'static',
   ],
-  source: {
-    github: 'GGICE/rollup-plugin-serve',
-    npm: 'rollup-plugin-serve2',
-  },
   links: {
     github: 'https://github.com/GGICE/rollup-plugin-serve',
     npm: 'https://www.npmjs.com/package/rollup-plugin-serve2',
     website: 'https://github.com/GGICE/rollup-plugin-serve',
+  },
+  source: {
+    github: 'GGICE/rollup-plugin-serve',
+    npm: 'rollup-plugin-serve2',
   },
   stats: {
     stars: 0,

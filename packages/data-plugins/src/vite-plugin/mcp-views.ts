@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'vue',
     'mcp-views',
   ],
-  source: {
-    github: 'jagreehal/mcp-views',
-    npm: 'mcp-views',
-  },
   links: {
     github: 'https://github.com/jagreehal/mcp-views',
     npm: 'https://www.npmjs.com/package/mcp-views',
     website: 'https://github.com/jagreehal/mcp-views#readme',
+  },
+  source: {
+    github: 'jagreehal/mcp-views',
+    npm: 'mcp-views',
   },
   stats: {
     stars: 0,

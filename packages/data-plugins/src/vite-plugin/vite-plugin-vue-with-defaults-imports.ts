@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'Zolyn/vite-plugin-vue-with-defaults-imports',
-    npm: 'vite-plugin-vue-with-defaults-imports',
-  },
   links: {
     github: 'https://github.com/Zolyn/vite-plugin-vue-with-defaults-imports',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-with-defaults-imports',
     website: 'https://github.com/Zolyn/vite-plugin-vue-with-defaults-imports#readme',
+  },
+  source: {
+    github: 'Zolyn/vite-plugin-vue-with-defaults-imports',
+    npm: 'vite-plugin-vue-with-defaults-imports',
   },
   stats: {
     stars: 4,

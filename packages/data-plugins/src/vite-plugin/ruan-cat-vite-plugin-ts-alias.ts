@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'tsconfig paths',
     'alias',
   ],
-  source: {
-    github: 'ruan-cat/monorepo',
-    npm: '@ruan-cat/vite-plugin-ts-alias',
-  },
   links: {
     github: 'https://github.com/ruan-cat/monorepo',
     npm: 'https://www.npmjs.com/package/@ruan-cat/vite-plugin-ts-alias',
     website: 'https://github.com/ruan-cat/monorepo/tree/dev/vite-plugins/vite-plugin-ts-alias',
+  },
+  source: {
+    github: 'ruan-cat/monorepo',
+    npm: '@ruan-cat/vite-plugin-ts-alias',
   },
   stats: {
     stars: 5,

@@ -28,14 +28,14 @@ export default defineProjectMeta({
     'heatmap',
     'touch',
   ],
-  source: {
-    github: 'samosa-code/dev-mirror',
-    npm: '@samosa-code/dev-mirror',
-  },
   links: {
     github: 'https://github.com/samosa-code/dev-mirror',
     npm: 'https://www.npmjs.com/package/@samosa-code/dev-mirror',
     website: 'https://github.com/samosa-code/dev-mirror#readme',
+  },
+  source: {
+    github: 'samosa-code/dev-mirror',
+    npm: '@samosa-code/dev-mirror',
   },
   stats: {
     stars: 2,

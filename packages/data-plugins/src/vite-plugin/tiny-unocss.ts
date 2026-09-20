@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'tiny-unocss',
   ],
-  source: {
-    github: 'sudongyuer/tiny-unocss',
-    npm: 'tiny-unocss',
-  },
   links: {
     github: 'https://github.com/sudongyuer/tiny-unocss',
     npm: 'https://www.npmjs.com/package/tiny-unocss',
     website: 'https://github.com/sudongyuer/tiny-unocss#readme',
+  },
+  source: {
+    github: 'sudongyuer/tiny-unocss',
+    npm: 'tiny-unocss',
   },
   stats: {
     stars: 0,

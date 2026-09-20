@@ -23,11 +23,11 @@ export default defineProjectMeta({
     'svelte',
     'vue',
   ],
-  source: {
-    npm: 'vite-plugin-layer',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-layer',
+  },
+  source: {
+    npm: 'vite-plugin-layer',
   },
   stats: {
     stars: 0,

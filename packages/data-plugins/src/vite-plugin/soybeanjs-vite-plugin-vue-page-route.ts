@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'directory-route',
     'file-based-route',
   ],
-  source: {
-    github: 'soybeanjs/vite-plugin-vue-page-route',
-    npm: '@soybeanjs/vite-plugin-vue-page-route',
-  },
   links: {
     github: 'https://github.com/soybeanjs/vite-plugin-vue-page-route',
     npm: 'https://www.npmjs.com/package/@soybeanjs/vite-plugin-vue-page-route',
     website: 'https://github.com/soybeanjs/vite-plugin-vue-page-route',
+  },
+  source: {
+    github: 'soybeanjs/vite-plugin-vue-page-route',
+    npm: '@soybeanjs/vite-plugin-vue-page-route',
   },
   stats: {
     stars: 16,

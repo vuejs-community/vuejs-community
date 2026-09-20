@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'devtools',
     'dx',
   ],
-  source: {
-    github: 'carboni-rob/carbon8r',
-    npm: 'vite-plugin-carbon8r',
-  },
   links: {
     github: 'https://github.com/carboni-rob/carbon8r',
     npm: 'https://www.npmjs.com/package/vite-plugin-carbon8r',
     website: 'https://github.com/carboni-rob/carbon8r#readme',
+  },
+  source: {
+    github: 'carboni-rob/carbon8r',
+    npm: 'vite-plugin-carbon8r',
   },
   stats: {
     stars: 0,

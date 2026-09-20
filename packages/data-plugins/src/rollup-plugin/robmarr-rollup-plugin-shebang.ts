@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'shebang',
     'cli',
   ],
-  source: {
-    npm: '@robmarr/rollup-plugin-shebang',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@robmarr/rollup-plugin-shebang',
     website: 'https://bitbucket.org/robmarr/rollup-plugin-shebang#readme',
+  },
+  source: {
+    npm: '@robmarr/rollup-plugin-shebang',
   },
   stats: {
     stars: 0,

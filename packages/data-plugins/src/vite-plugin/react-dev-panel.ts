@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'nextjs',
   ],
-  source: {
-    npm: 'react-dev-panel',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/react-dev-panel',
+  },
+  source: {
+    npm: 'react-dev-panel',
   },
   stats: {
     stars: 0,

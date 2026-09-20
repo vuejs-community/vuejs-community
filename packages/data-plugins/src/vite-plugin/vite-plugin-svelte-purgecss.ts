@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'skeleton',
     'vite-plugin',
   ],
-  source: {
-    github: 'AdrianGonz97/vite-plugin-svelte-purgecss',
-    npm: 'vite-plugin-svelte-purgecss',
-  },
   links: {
     github: 'https://github.com/AdrianGonz97/vite-plugin-svelte-purgecss',
     npm: 'https://www.npmjs.com/package/vite-plugin-svelte-purgecss',
     website: 'https://github.com/AdrianGonz97/vite-plugin-svelte-purgecss#readme',
+  },
+  source: {
+    github: 'AdrianGonz97/vite-plugin-svelte-purgecss',
+    npm: 'vite-plugin-svelte-purgecss',
   },
   stats: {
     stars: 4,

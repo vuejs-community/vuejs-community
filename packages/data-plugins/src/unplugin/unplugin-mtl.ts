@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'mtl-loader',
     'mtl-file',
   ],
-  source: {
-    github: 'cryptodeal/unplugin-mtl',
-    npm: 'unplugin-mtl',
-  },
   links: {
     github: 'https://github.com/cryptodeal/unplugin-mtl',
     npm: 'https://www.npmjs.com/package/unplugin-mtl',
     website: 'https://github.com/cryptodeal/unplugin-mtl#readme',
+  },
+  source: {
+    github: 'cryptodeal/unplugin-mtl',
+    npm: 'unplugin-mtl',
   },
   stats: {
     stars: 1,

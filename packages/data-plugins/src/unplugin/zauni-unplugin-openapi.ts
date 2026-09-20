@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'plugin',
     'astro',
   ],
-  source: {
-    github: 'zauni/unplugin-openapi',
-    npm: '@zauni/unplugin-openapi',
-  },
   links: {
     github: 'https://github.com/zauni/unplugin-openapi',
     npm: 'https://www.npmjs.com/package/@zauni/unplugin-openapi',
     website: 'https://github.com/zauni/unplugin-openapi#readme',
+  },
+  source: {
+    github: 'zauni/unplugin-openapi',
+    npm: '@zauni/unplugin-openapi',
   },
   stats: {
     stars: 0,

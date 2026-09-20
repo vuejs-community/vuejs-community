@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'patch',
     'overlay',
   ],
-  source: {
-    npm: 'uipatchkit',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/uipatchkit',
+  },
+  source: {
+    npm: 'uipatchkit',
   },
   stats: {
     stars: 0,

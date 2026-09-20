@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'glob',
     'sync',
   ],
-  source: {
-    npm: 'rollup-plugin-globsync',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-globsync',
+  },
+  source: {
+    npm: 'rollup-plugin-globsync',
   },
   stats: {
     stars: 0,

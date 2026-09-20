@@ -33,14 +33,14 @@ export default defineProjectMeta({
     'laravel-herd',
     'laravel-valet',
   ],
-  source: {
-    github: 'lysari/devdomain',
-    npm: 'devdomain',
-  },
   links: {
     github: 'https://github.com/lysari/devdomain',
     npm: 'https://www.npmjs.com/package/devdomain',
     website: 'https://github.com/lysari/devdomain#readme',
+  },
+  source: {
+    github: 'lysari/devdomain',
+    npm: 'devdomain',
   },
   stats: {
     stars: 0,

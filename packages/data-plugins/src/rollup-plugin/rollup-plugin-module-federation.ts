@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup',
     'plugin',
   ],
-  source: {
-    github: 'MadaraUchiha-314/rollup-plugin-module-federation',
-    npm: 'rollup-plugin-module-federation',
-  },
   links: {
     github: 'https://github.com/MadaraUchiha-314/rollup-plugin-module-federation',
     npm: 'https://www.npmjs.com/package/rollup-plugin-module-federation',
     website: 'https://github.com/MadaraUchiha-314/rollup-plugin-module-federation#readme',
+  },
+  source: {
+    github: 'MadaraUchiha-314/rollup-plugin-module-federation',
+    npm: 'rollup-plugin-module-federation',
   },
   stats: {
     stars: 20,

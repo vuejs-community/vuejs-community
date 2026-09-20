@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'solobot',
     'agent',
   ],
-  source: {
-    npm: 'solobot',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/solobot',
+  },
+  source: {
+    npm: 'solobot',
   },
   stats: {
     stars: 0,

@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'react-vite-plugin',
     'babel',
   ],
-  source: {
-    github: 'denievkhalid/react-vfor',
-    npm: 'react-vfor',
-  },
   links: {
     github: 'https://github.com/denievkhalid/react-vfor',
     npm: 'https://www.npmjs.com/package/react-vfor',
     website: 'https://github.com/denievkhalid/react-vfor#readme',
+  },
+  source: {
+    github: 'denievkhalid/react-vfor',
+    npm: 'react-vfor',
   },
   stats: {
     stars: 0,

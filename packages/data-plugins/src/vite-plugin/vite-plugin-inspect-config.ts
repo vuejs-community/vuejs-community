@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'tjx666/vite-plugin-inspect-config',
-    npm: 'vite-plugin-inspect-config',
-  },
   links: {
     github: 'https://github.com/tjx666/vite-plugin-inspect-config',
     npm: 'https://www.npmjs.com/package/vite-plugin-inspect-config',
     website: 'https://github.com/tjx666/vite-plugin-inspect-config#readme',
+  },
+  source: {
+    github: 'tjx666/vite-plugin-inspect-config',
+    npm: 'vite-plugin-inspect-config',
   },
   stats: {
     stars: 2,

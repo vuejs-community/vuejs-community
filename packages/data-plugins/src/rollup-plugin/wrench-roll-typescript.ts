@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'treeshaking',
     'typescript',
   ],
-  source: {
-    github: 'gavar/wrench',
-    npm: '@wrench/roll-typescript',
-  },
   links: {
     github: 'https://github.com/gavar/wrench',
     npm: 'https://www.npmjs.com/package/@wrench/roll-typescript',
     website: 'https://github.com/gavar/wrench/tree/master/packages/roll-typescript#readme',
+  },
+  source: {
+    github: 'gavar/wrench',
+    npm: '@wrench/roll-typescript',
   },
   stats: {
     stars: 0,

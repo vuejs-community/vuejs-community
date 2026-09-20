@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'import',
     'modules',
   ],
-  source: {
-    github: 'ernstc/rollup-plugin-import-contents',
-    npm: 'rollup-plugin-import-contents',
-  },
   links: {
     github: 'https://github.com/ernstc/rollup-plugin-import-contents',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-contents',
     website: 'https://github.com/ernstc/rollup-plugin-import-contents#readme',
+  },
+  source: {
+    github: 'ernstc/rollup-plugin-import-contents',
+    npm: 'rollup-plugin-import-contents',
   },
   stats: {
     stars: 0,

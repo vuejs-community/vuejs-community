@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'es2015',
   ],
-  source: {
-    npm: 'rollup-plugin-optional',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-optional',
+  },
+  source: {
+    npm: 'rollup-plugin-optional',
   },
   stats: {
     stars: 0,

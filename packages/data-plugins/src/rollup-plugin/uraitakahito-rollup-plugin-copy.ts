@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'folders',
     'glob',
   ],
-  source: {
-    github: 'uraitakahito/rollup-plugin-copy',
-    npm: '@uraitakahito/rollup-plugin-copy',
-  },
   links: {
     github: 'https://github.com/uraitakahito/rollup-plugin-copy',
     npm: 'https://www.npmjs.com/package/@uraitakahito/rollup-plugin-copy',
     website: 'https://github.com/uraitakahito/rollup-plugin-copy#readme',
+  },
+  source: {
+    github: 'uraitakahito/rollup-plugin-copy',
+    npm: '@uraitakahito/rollup-plugin-copy',
   },
   stats: {
     stars: 0,

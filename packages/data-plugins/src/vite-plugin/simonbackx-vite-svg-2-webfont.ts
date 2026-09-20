@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'webfont',
     'webfont-loader',
   ],
-  source: {
-    github: 'atlowChemi/vite-svg-2-webfont',
-    npm: '@simonbackx/vite-svg-2-webfont',
-  },
   links: {
     github: 'https://github.com/atlowChemi/vite-svg-2-webfont',
     npm: 'https://www.npmjs.com/package/@simonbackx/vite-svg-2-webfont',
     website: 'https://github.com/chemiAtlow/vite-svg-2-webfont#readme',
+  },
+  source: {
+    github: 'atlowChemi/vite-svg-2-webfont',
+    npm: '@simonbackx/vite-svg-2-webfont',
   },
   stats: {
     stars: 43,

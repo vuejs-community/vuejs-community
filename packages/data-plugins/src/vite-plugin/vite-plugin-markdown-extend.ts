@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vue',
     'react',
   ],
-  source: {
-    github: 'tangxiangmin/vite-plugin-markdown-extend',
-    npm: 'vite-plugin-markdown-extend',
-  },
   links: {
     github: 'https://github.com/tangxiangmin/vite-plugin-markdown-extend',
     npm: 'https://www.npmjs.com/package/vite-plugin-markdown-extend',
     website: 'https://github.com/tangxiangmin/vite-plugin-markdown-extend#readme',
+  },
+  source: {
+    github: 'tangxiangmin/vite-plugin-markdown-extend',
+    npm: 'vite-plugin-markdown-extend',
   },
   stats: {
     stars: 1,

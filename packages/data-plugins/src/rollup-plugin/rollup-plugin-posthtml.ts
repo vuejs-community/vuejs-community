@@ -20,13 +20,13 @@ export default defineProjectMeta({
     'tool',
     'util',
   ],
-  source: {
-    github: 'tunnckoCore/rollup-plugin-posthtml',
-    npm: 'rollup-plugin-posthtml',
-  },
   links: {
     github: 'https://github.com/tunnckoCore/rollup-plugin-posthtml',
     npm: 'https://www.npmjs.com/package/rollup-plugin-posthtml',
+  },
+  source: {
+    github: 'tunnckoCore/rollup-plugin-posthtml',
+    npm: 'rollup-plugin-posthtml',
   },
   stats: {
     stars: 5,

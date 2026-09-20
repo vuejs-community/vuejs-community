@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'history',
     'router',
   ],
-  source: {
-    github: 'liuxiaojun666/vite-plugin-404-redirect',
-    npm: 'vite-plugin-404-redirect',
-  },
   links: {
     github: 'https://github.com/liuxiaojun666/vite-plugin-404-redirect',
     npm: 'https://www.npmjs.com/package/vite-plugin-404-redirect',
     website: 'https://github.com/liuxiaojun666/vite-plugin-404-redirect',
+  },
+  source: {
+    github: 'liuxiaojun666/vite-plugin-404-redirect',
+    npm: 'vite-plugin-404-redirect',
   },
   stats: {
     stars: 0,

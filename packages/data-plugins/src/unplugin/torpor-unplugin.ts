@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'torpor',
     'unplugin',
   ],
-  source: {
-    npm: '@torpor/unplugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@torpor/unplugin',
+  },
+  source: {
+    npm: '@torpor/unplugin',
   },
   stats: {
     stars: 0,

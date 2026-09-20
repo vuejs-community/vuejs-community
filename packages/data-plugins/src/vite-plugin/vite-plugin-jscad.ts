@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'jscad',
     'tscad',
   ],
-  source: {
-    npm: 'vite-plugin-jscad',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-jscad',
+  },
+  source: {
+    npm: 'vite-plugin-jscad',
   },
   stats: {
     stars: 0,

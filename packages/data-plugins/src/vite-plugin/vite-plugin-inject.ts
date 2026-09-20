@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'MomsFriendlyDevCo/vite-plugin-inject',
-    npm: 'vite-plugin-inject',
-  },
   links: {
     github: 'https://github.com/MomsFriendlyDevCo/vite-plugin-inject',
     npm: 'https://www.npmjs.com/package/vite-plugin-inject',
     website: 'https://github.com/MomsFriendlyDevCo/vite-plugin-inject#readme',
+  },
+  source: {
+    github: 'MomsFriendlyDevCo/vite-plugin-inject',
+    npm: 'vite-plugin-inject',
   },
   stats: {
     stars: 0,

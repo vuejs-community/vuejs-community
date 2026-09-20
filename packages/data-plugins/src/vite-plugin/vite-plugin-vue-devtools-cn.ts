@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dx',
     'vite-plugin-vue-devtools-cn',
   ],
-  source: {
-    github: 'zjqzwh/vite-plugin-vue-devtools-chinese',
-    npm: 'vite-plugin-vue-devtools-cn',
-  },
   links: {
     github: 'https://github.com/zjqzwh/vite-plugin-vue-devtools-chinese',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-devtools-cn',
     website: 'https://github.com/zjqzwh/vite-plugin-vue-devtools-chinese#readme',
+  },
+  source: {
+    github: 'zjqzwh/vite-plugin-vue-devtools-chinese',
+    npm: 'vite-plugin-vue-devtools-cn',
   },
   stats: {
     stars: 3,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'zero-downtime',
     'deployment',
   ],
-  source: {
-    github: 'HasanQQ/vite-plugin-zero-downtime',
-    npm: 'vite-plugin-zero-downtime',
-  },
   links: {
     github: 'https://github.com/HasanQQ/vite-plugin-zero-downtime',
     npm: 'https://www.npmjs.com/package/vite-plugin-zero-downtime',
     website: 'https://github.com/HasanQQ/vite-plugin-zero-downtime#readme',
+  },
+  source: {
+    github: 'HasanQQ/vite-plugin-zero-downtime',
+    npm: 'vite-plugin-zero-downtime',
   },
   stats: {
     stars: 0,

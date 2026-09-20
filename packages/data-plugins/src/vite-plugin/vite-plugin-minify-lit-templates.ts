@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'templates',
     'vite-plugin',
   ],
-  source: {
-    github: 'femincan/vite-plugin-minify-lit-templates',
-    npm: 'vite-plugin-minify-lit-templates',
-  },
   links: {
     github: 'https://github.com/femincan/vite-plugin-minify-lit-templates',
     npm: 'https://www.npmjs.com/package/vite-plugin-minify-lit-templates',
     website: 'https://github.com/femincan/vite-plugin-minify-lit-templates#readme',
+  },
+  source: {
+    github: 'femincan/vite-plugin-minify-lit-templates',
+    npm: 'vite-plugin-minify-lit-templates',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'unplugin/unplugin-macros',
-    npm: 'unplugin-macros',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-macros',
     npm: 'https://www.npmjs.com/package/unplugin-macros',
     website: 'https://github.com/unplugin/unplugin-macros#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-macros',
+    npm: 'unplugin-macros',
   },
   stats: {
     stars: 281,

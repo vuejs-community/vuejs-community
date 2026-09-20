@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'demand',
     'pro',
   ],
-  source: {
-    github: 'yixianzi/vue-pro-components',
-    npm: 'gxy-vue-pro-components',
-  },
   links: {
     github: 'https://github.com/yixianzi/vue-pro-components',
     npm: 'https://www.npmjs.com/package/gxy-vue-pro-components',
     website: 'https://github.com/yixianzi/vue-pro-components#readme',
+  },
+  source: {
+    github: 'yixianzi/vue-pro-components',
+    npm: 'gxy-vue-pro-components',
   },
   stats: {
     stars: 0,

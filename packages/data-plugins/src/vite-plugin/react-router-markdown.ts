@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'react-router',
     'vite-plugin',
   ],
-  source: {
-    github: 'itsjavi/react-router-markdown',
-    npm: 'react-router-markdown',
-  },
   links: {
     github: 'https://github.com/itsjavi/react-router-markdown',
     npm: 'https://www.npmjs.com/package/react-router-markdown',
     website: 'https://github.com/itsjavi/react-router-markdown#readme',
+  },
+  source: {
+    github: 'itsjavi/react-router-markdown',
+    npm: 'react-router-markdown',
   },
   stats: {
     stars: 0,

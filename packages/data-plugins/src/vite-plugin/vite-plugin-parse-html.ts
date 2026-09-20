@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-parse-html',
   ],
-  source: {
-    npm: 'vite-plugin-parse-html',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-parse-html',
     website: 'https://github.com/KanadeHu/vite-plugin-parse-html/tree/master',
+  },
+  source: {
+    npm: 'vite-plugin-parse-html',
   },
   stats: {
     stars: 0,

@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'eslint',
     'lint',
   ],
-  source: {
-    github: 'TrySound/rollup-plugin-eslint',
-    npm: 'rollup-plugin-eslint',
-  },
   links: {
     github: 'https://github.com/TrySound/rollup-plugin-eslint',
     npm: 'https://www.npmjs.com/package/rollup-plugin-eslint',
+  },
+  source: {
+    github: 'TrySound/rollup-plugin-eslint',
+    npm: 'rollup-plugin-eslint',
   },
   stats: {
     stars: 60,

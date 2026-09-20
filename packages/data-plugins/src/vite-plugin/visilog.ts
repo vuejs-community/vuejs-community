@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'typescript',
     'developer-experience',
   ],
-  source: {
-    github: 'ineffably/visilog',
-    npm: 'visilog',
-  },
   links: {
     github: 'https://github.com/ineffably/visilog',
     npm: 'https://www.npmjs.com/package/visilog',
     website: 'https://github.com/ineffably/visilog#readme',
+  },
+  source: {
+    github: 'ineffably/visilog',
+    npm: 'visilog',
   },
   stats: {
     stars: 0,

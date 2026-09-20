@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vue',
     'scaffold',
   ],
-  source: {
-    github: 'mt-shihab26/vite-plugin-boilerplate',
-    npm: 'vite-plugin-boilerplate',
-  },
   links: {
     github: 'https://github.com/mt-shihab26/vite-plugin-boilerplate',
     npm: 'https://www.npmjs.com/package/vite-plugin-boilerplate',
     website: 'https://github.com/mt-shihab26/vite-plugin-boilerplate#readme',
+  },
+  source: {
+    github: 'mt-shihab26/vite-plugin-boilerplate',
+    npm: 'vite-plugin-boilerplate',
   },
   stats: {
     stars: 0,

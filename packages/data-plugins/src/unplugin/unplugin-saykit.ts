@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'k0d13/saykit',
-    npm: 'unplugin-saykit',
-  },
   links: {
     github: 'https://github.com/k0d13/saykit',
     npm: 'https://www.npmjs.com/package/unplugin-saykit',
     website: 'https://github.com/k0d13/saykit#readme',
+  },
+  source: {
+    github: 'k0d13/saykit',
+    npm: 'unplugin-saykit',
   },
   stats: {
     stars: 0,

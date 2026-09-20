@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'react',
     'preact',
   ],
-  source: {
-    github: 'TomokiMiyauci/vite-plugin-ssr-ssg',
-    npm: 'vite-plugin-ssr-ssg',
-  },
   links: {
     github: 'https://github.com/TomokiMiyauci/vite-plugin-ssr-ssg',
     npm: 'https://www.npmjs.com/package/vite-plugin-ssr-ssg',
     website: 'https://github.com/TomokiMiyauci/vite-plugin-ssr-ssg#readme',
+  },
+  source: {
+    github: 'TomokiMiyauci/vite-plugin-ssr-ssg',
+    npm: 'vite-plugin-ssr-ssg',
   },
   stats: {
     stars: 28,

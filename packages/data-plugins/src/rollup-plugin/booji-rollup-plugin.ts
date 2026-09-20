@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'booji',
   ],
-  source: {
-    npm: '@booji/rollup-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@booji/rollup-plugin',
+  },
+  source: {
+    npm: '@booji/rollup-plugin',
   },
   stats: {
     stars: 0,

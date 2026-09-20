@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'zwapp',
   ],
-  source: {
-    npm: 'vite-plugin-zwapp',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-zwapp',
+  },
+  source: {
+    npm: 'vite-plugin-zwapp',
   },
   stats: {
     stars: 0,

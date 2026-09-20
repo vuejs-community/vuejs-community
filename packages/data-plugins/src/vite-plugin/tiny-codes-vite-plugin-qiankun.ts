@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'micro-frontend',
     'SPA',
   ],
-  source: {
-    github: 'shijistar/vite-plugin-qiankun',
-    npm: '@tiny-codes/vite-plugin-qiankun',
-  },
   links: {
     github: 'https://github.com/shijistar/vite-plugin-qiankun',
     npm: 'https://www.npmjs.com/package/@tiny-codes/vite-plugin-qiankun',
     website: 'https://github.com/shijistar/vite-plugin-qiankun',
+  },
+  source: {
+    github: 'shijistar/vite-plugin-qiankun',
+    npm: '@tiny-codes/vite-plugin-qiankun',
   },
   stats: {
     stars: 0,

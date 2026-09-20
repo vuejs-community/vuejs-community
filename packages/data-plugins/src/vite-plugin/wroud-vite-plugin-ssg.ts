@@ -20,11 +20,11 @@ export default defineProjectMeta({
     'pre-rendering',
     'SEO',
   ],
-  source: {
-    npm: '@wroud/vite-plugin-ssg',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@wroud/vite-plugin-ssg',
+  },
+  source: {
+    npm: '@wroud/vite-plugin-ssg',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'resolve',
     'alias',
   ],
-  source: {
-    github: 'frostney/rollup-plugin-alias',
-    npm: '@newwwton/rollup-plugin-alias',
-  },
   links: {
     github: 'https://github.com/frostney/rollup-plugin-alias',
     npm: 'https://www.npmjs.com/package/@newwwton/rollup-plugin-alias',
     website: 'https://github.com/frostney/rollup-plugin-alias#readme',
+  },
+  source: {
+    github: 'frostney/rollup-plugin-alias',
+    npm: '@newwwton/rollup-plugin-alias',
   },
   stats: {
     stars: 171,

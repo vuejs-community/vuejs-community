@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'wzc520pyfm/unplugin-data-uri',
-    npm: 'unplugin-data-uri',
-  },
   links: {
     github: 'https://github.com/wzc520pyfm/unplugin-data-uri',
     npm: 'https://www.npmjs.com/package/unplugin-data-uri',
     website: 'https://github.com/wzc520pyfm/unplugin-data-uri#readme',
+  },
+  source: {
+    github: 'wzc520pyfm/unplugin-data-uri',
+    npm: 'unplugin-data-uri',
   },
   stats: {
     stars: 1,

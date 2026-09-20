@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'define-options',
     'unplugin',
   ],
-  source: {
-    github: 'vue-macros/vue-macros',
-    npm: '@94ai/unplugin-vue-define-options',
-  },
   links: {
     github: 'https://github.com/vue-macros/vue-macros',
     npm: 'https://www.npmjs.com/package/@94ai/unplugin-vue-define-options',
     website: 'https://github.com/vue-macros/vue-macros#readme',
+  },
+  source: {
+    github: 'vue-macros/vue-macros',
+    npm: '@94ai/unplugin-vue-define-options',
   },
   stats: {
     stars: 1985,

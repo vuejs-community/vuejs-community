@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'markdown',
     'unified',
   ],
-  source: {
-    github: 'cclinet/vite-plugin-unified-compiler',
-    npm: 'vite-plugin-unified-compiler',
-  },
   links: {
     github: 'https://github.com/cclinet/vite-plugin-unified-compiler',
     npm: 'https://www.npmjs.com/package/vite-plugin-unified-compiler',
     website: 'https://github.com/cclinet/vite-plugin-unified-compiler',
+  },
+  source: {
+    github: 'cclinet/vite-plugin-unified-compiler',
+    npm: 'vite-plugin-unified-compiler',
   },
   stats: {
     stars: 0,

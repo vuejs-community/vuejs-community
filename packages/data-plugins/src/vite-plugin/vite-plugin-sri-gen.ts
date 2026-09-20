@@ -36,14 +36,14 @@ export default defineProjectMeta({
     'web-security',
     'content-security-policy',
   ],
-  source: {
-    github: 'rbonestell/vite-plugin-sri-gen',
-    npm: 'vite-plugin-sri-gen',
-  },
   links: {
     github: 'https://github.com/rbonestell/vite-plugin-sri-gen',
     npm: 'https://www.npmjs.com/package/vite-plugin-sri-gen',
     website: 'https://rbonestell.com/vite-plugin-sri-gen/',
+  },
+  source: {
+    github: 'rbonestell/vite-plugin-sri-gen',
+    npm: 'vite-plugin-sri-gen',
   },
   stats: {
     stars: 24,

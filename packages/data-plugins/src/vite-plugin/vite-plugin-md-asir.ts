@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'markdown-it',
   ],
-  source: {
-    github: 'dwzkit/vite-plugin-md-asir',
-    npm: 'vite-plugin-md-asir',
-  },
   links: {
     github: 'https://github.com/dwzkit/vite-plugin-md-asir',
     npm: 'https://www.npmjs.com/package/vite-plugin-md-asir',
     website: 'https://github.com/dwzkit/vite-plugin-md-asir',
+  },
+  source: {
+    github: 'dwzkit/vite-plugin-md-asir',
+    npm: 'vite-plugin-md-asir',
   },
   stats: {
     stars: 0,

@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'hmr',
     'proxy',
   ],
-  source: {
-    npm: '@kendordev/vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@kendordev/vite',
+  },
+  source: {
+    npm: '@kendordev/vite',
   },
   stats: {
     stars: 0,

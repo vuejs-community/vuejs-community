@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'plugin',
     'rollup-plugin',
   ],
-  source: {
-    github: 'toxic-johann/rollup-plugin-fse-copy',
-    npm: 'rollup-plugin-fse-copy',
-  },
   links: {
     github: 'https://github.com/toxic-johann/rollup-plugin-fse-copy',
     npm: 'https://www.npmjs.com/package/rollup-plugin-fse-copy',
     website: 'https://github.com/toxic-johann/rollup-plugin-fse-copy#readme',
+  },
+  source: {
+    github: 'toxic-johann/rollup-plugin-fse-copy',
+    npm: 'rollup-plugin-fse-copy',
   },
   stats: {
     stars: 1,

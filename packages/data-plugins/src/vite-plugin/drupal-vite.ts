@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'drupal',
     'decoupled',
   ],
-  source: {
-    github: 'octahedroid/drupal-decoupled',
-    npm: 'drupal-vite',
-  },
   links: {
     github: 'https://github.com/octahedroid/drupal-decoupled',
     npm: 'https://www.npmjs.com/package/drupal-vite',
     website: 'https://github.com/octahedroid/drupal-decoupled/tree/main#readme',
+  },
+  source: {
+    github: 'octahedroid/drupal-decoupled',
+    npm: 'drupal-vite',
   },
   stats: {
     stars: 55,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'yml',
     'modyfi',
   ],
-  source: {
-    github: 'Modyfi/vite-plugin-yaml',
-    npm: '@modyfi/vite-plugin-yaml',
-  },
   links: {
     github: 'https://github.com/Modyfi/vite-plugin-yaml',
     npm: 'https://www.npmjs.com/package/@modyfi/vite-plugin-yaml',
     website: 'https://github.com/Modyfi/vite-plugin-yaml/tree/main/#readme',
+  },
+  source: {
+    github: 'Modyfi/vite-plugin-yaml',
+    npm: '@modyfi/vite-plugin-yaml',
   },
   stats: {
     stars: 0,

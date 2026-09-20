@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'uniapp',
     'manifest',
   ],
-  source: {
-    github: 'uni-helper/vite-plugin-uni-manifest',
-    npm: '@uni-helper/vite-plugin-uni-manifest',
-  },
   links: {
     github: 'https://github.com/uni-helper/vite-plugin-uni-manifest',
     npm: 'https://www.npmjs.com/package/@uni-helper/vite-plugin-uni-manifest',
     website: 'https://github.com/uni-helper/vite-plugin-uni-manifest#readme',
+  },
+  source: {
+    github: 'uni-helper/vite-plugin-uni-manifest',
+    npm: '@uni-helper/vite-plugin-uni-manifest',
   },
   stats: {
     stars: 32,

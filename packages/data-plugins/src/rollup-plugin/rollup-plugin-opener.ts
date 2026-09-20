@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dev-server',
     'static',
   ],
-  source: {
-    github: 'aarsteinmedia/rollup-plugin-opener',
-    npm: 'rollup-plugin-opener',
-  },
   links: {
     github: 'https://github.com/aarsteinmedia/rollup-plugin-opener',
     npm: 'https://www.npmjs.com/package/rollup-plugin-opener',
     website: 'https://github.com/aarsteinmedia/rollup-plugin-opener',
+  },
+  source: {
+    github: 'aarsteinmedia/rollup-plugin-opener',
+    npm: 'rollup-plugin-opener',
   },
   stats: {
     stars: 0,

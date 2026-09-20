@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'watch-mode',
     'development-tools',
   ],
-  source: {
-    github: 'scr2em/vite-plugin-validate-json',
-    npm: 'vite-plugin-validate-json',
-  },
   links: {
     github: 'https://github.com/scr2em/vite-plugin-validate-json',
     npm: 'https://www.npmjs.com/package/vite-plugin-validate-json',
     website: 'https://github.com/scr2em/vite-plugin-validate-json#readme',
+  },
+  source: {
+    github: 'scr2em/vite-plugin-validate-json',
+    npm: 'vite-plugin-validate-json',
   },
   stats: {
     stars: 1,

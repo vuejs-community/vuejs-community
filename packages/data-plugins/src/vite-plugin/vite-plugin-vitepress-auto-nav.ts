@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'auto-sidebar',
     'auto-menu',
   ],
-  source: {
-    github: 'Xaviw/vite-plugin-vitepress-auto-nav',
-    npm: 'vite-plugin-vitepress-auto-nav',
-  },
   links: {
     github: 'https://github.com/Xaviw/vite-plugin-vitepress-auto-nav',
     npm: 'https://www.npmjs.com/package/vite-plugin-vitepress-auto-nav',
     website: 'https://xaviw.github.io/XaviDocs/',
+  },
+  source: {
+    github: 'Xaviw/vite-plugin-vitepress-auto-nav',
+    npm: 'vite-plugin-vitepress-auto-nav',
   },
   stats: {
     stars: 27,

@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'ssr',
     'virtual-modules',
   ],
-  source: {
-    github: 'forinda/kick-js',
-    npm: '@forinda/kickjs-vite',
-  },
   links: {
     github: 'https://github.com/forinda/kick-js',
     npm: 'https://www.npmjs.com/package/@forinda/kickjs-vite',
     website: 'https://kickjs.app/',
+  },
+  source: {
+    github: 'forinda/kick-js',
+    npm: '@forinda/kickjs-vite',
   },
   stats: {
     stars: 15,

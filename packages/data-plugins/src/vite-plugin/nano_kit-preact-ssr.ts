@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'nano_kit',
     'preact',
   ],
-  source: {
-    github: 'TrigenSoftware/nano_kit',
-    npm: '@nano_kit/preact-ssr',
-  },
   links: {
     github: 'https://github.com/TrigenSoftware/nano_kit',
     npm: 'https://www.npmjs.com/package/@nano_kit/preact-ssr',
     website: 'https://nano-kit.js.org/integrations/preact-ssr',
+  },
+  source: {
+    github: 'TrigenSoftware/nano_kit',
+    npm: '@nano_kit/preact-ssr',
   },
   stats: {
     stars: 42,

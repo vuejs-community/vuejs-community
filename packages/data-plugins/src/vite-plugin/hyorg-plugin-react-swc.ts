@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'react-refresh',
     'fast refresh',
   ],
-  source: {
-    github: 'huyingx/vite-plugin-react-swc',
-    npm: '@hyorg/plugin-react-swc',
-  },
   links: {
     github: 'https://github.com/huyingx/vite-plugin-react-swc',
     npm: 'https://www.npmjs.com/package/@hyorg/plugin-react-swc',
     website: 'https://github.com/huyingx/vite-plugin-react-swc#readme',
+  },
+  source: {
+    github: 'huyingx/vite-plugin-react-swc',
+    npm: '@hyorg/plugin-react-swc',
   },
   stats: {
     stars: 0,

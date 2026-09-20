@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'node-notifier',
     'notification',
   ],
-  source: {
-    github: 'kejunmao/unplugin-notifier',
-    npm: 'unplugin-notifier',
-  },
   links: {
     github: 'https://github.com/kejunmao/unplugin-notifier',
     npm: 'https://www.npmjs.com/package/unplugin-notifier',
     website: 'https://github.com/kejunmao/unplugin-notifier#readme',
+  },
+  source: {
+    github: 'kejunmao/unplugin-notifier',
+    npm: 'unplugin-notifier',
   },
   stats: {
     stars: 1,

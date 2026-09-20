@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'typescript',
   ],
-  source: {
-    github: 'layermint/layermint-packages',
-    npm: '@layermint/sdk-vite',
-  },
   links: {
     github: 'https://github.com/layermint/layermint-packages',
     npm: 'https://www.npmjs.com/package/@layermint/sdk-vite',
     website: 'https://github.com/layermint/layermint-packages#readme',
+  },
+  source: {
+    github: 'layermint/layermint-packages',
+    npm: '@layermint/sdk-vite',
   },
   stats: {
     stars: 0,

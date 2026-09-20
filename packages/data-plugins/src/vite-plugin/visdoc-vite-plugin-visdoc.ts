@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'md',
     'markdown',
   ],
-  source: {
-    npm: '@visdoc/vite-plugin-visdoc',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@visdoc/vite-plugin-visdoc',
+  },
+  source: {
+    npm: '@visdoc/vite-plugin-visdoc',
   },
   stats: {
     stars: 0,

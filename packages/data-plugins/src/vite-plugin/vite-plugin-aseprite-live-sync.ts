@@ -21,11 +21,11 @@ export default defineProjectMeta({
     'hot-reload',
     'ase',
   ],
-  source: {
-    npm: 'vite-plugin-aseprite-live-sync',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-aseprite-live-sync',
+  },
+  source: {
+    npm: 'vite-plugin-aseprite-live-sync',
   },
   stats: {
     stars: 0,

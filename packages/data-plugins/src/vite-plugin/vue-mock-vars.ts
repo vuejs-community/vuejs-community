@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'reactive',
     'data-generation',
   ],
-  source: {
-    github: 'HugStars/vue-mock-vars',
-    npm: 'vue-mock-vars',
-  },
   links: {
     github: 'https://github.com/HugStars/vue-mock-vars',
     npm: 'https://www.npmjs.com/package/vue-mock-vars',
     website: 'https://github.com/HugStars/vue-mock-vars#readme',
+  },
+  source: {
+    github: 'HugStars/vue-mock-vars',
+    npm: 'vue-mock-vars',
   },
   stats: {
     stars: 1,

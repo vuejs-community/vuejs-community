@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'postcss',
   ],
-  source: {
-    github: 'Updater/rollup-plugin-postcss-config',
-    npm: 'rollup-plugin-postcss-config',
-  },
   links: {
     github: 'https://github.com/Updater/rollup-plugin-postcss-config',
     npm: 'https://www.npmjs.com/package/rollup-plugin-postcss-config',
     website: 'https://github.com/Updater/rollup-plugin-postcss-config#readme',
+  },
+  source: {
+    github: 'Updater/rollup-plugin-postcss-config',
+    npm: 'rollup-plugin-postcss-config',
   },
   stats: {
     stars: 1,

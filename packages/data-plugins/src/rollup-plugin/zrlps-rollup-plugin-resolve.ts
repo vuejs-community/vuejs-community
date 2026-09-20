@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'resolve',
   ],
-  source: {
-    github: 'zrlps/rollup-plugin-resolve',
-    npm: '@zrlps/rollup-plugin-resolve',
-  },
   links: {
     github: 'https://github.com/zrlps/rollup-plugin-resolve',
     npm: 'https://www.npmjs.com/package/@zrlps/rollup-plugin-resolve',
     website: 'https://github.com/zrlps/rollup-plugin-resolve#readme',
+  },
+  source: {
+    github: 'zrlps/rollup-plugin-resolve',
+    npm: '@zrlps/rollup-plugin-resolve',
   },
   stats: {
     stars: 1,

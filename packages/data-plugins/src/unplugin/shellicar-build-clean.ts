@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'unplugin',
     'rolldown',
   ],
-  source: {
-    github: 'shellicar/ecosystem',
-    npm: '@shellicar/build-clean',
-  },
   links: {
     github: 'https://github.com/shellicar/ecosystem',
     npm: 'https://www.npmjs.com/package/@shellicar/build-clean',
     website: 'https://github.com/shellicar/ecosystem/tree/main/packages/build-clean#readme',
+  },
+  source: {
+    github: 'shellicar/ecosystem',
+    npm: '@shellicar/build-clean',
   },
   stats: {
     stars: 0,

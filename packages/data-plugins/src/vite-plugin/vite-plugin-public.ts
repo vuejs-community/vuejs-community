@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'alloc/vite-plugin-public',
-    npm: 'vite-plugin-public',
-  },
   links: {
     github: 'https://github.com/alloc/vite-plugin-public',
     npm: 'https://www.npmjs.com/package/vite-plugin-public',
     website: 'https://github.com/alloc/vite-plugin-public#readme',
+  },
+  source: {
+    github: 'alloc/vite-plugin-public',
+    npm: 'vite-plugin-public',
   },
   stats: {
     stars: 3,

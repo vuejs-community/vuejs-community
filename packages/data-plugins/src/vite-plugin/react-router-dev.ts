@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'remix-run/react-router',
-    npm: '@react-router/dev',
-  },
   links: {
     github: 'https://github.com/remix-run/react-router',
     npm: 'https://www.npmjs.com/package/@react-router/dev',
     website: 'https://reactrouter.com',
+  },
+  source: {
+    github: 'remix-run/react-router',
+    npm: '@react-router/dev',
   },
   stats: {
     stars: 56572,

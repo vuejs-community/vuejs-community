@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'manifest',
     'vite-plugin-manifest-dev',
   ],
-  source: {
-    npm: '@gd-uikit/vite-plugin-manifest-dev',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@gd-uikit/vite-plugin-manifest-dev',
+  },
+  source: {
+    npm: '@gd-uikit/vite-plugin-manifest-dev',
   },
   stats: {
     stars: 0,

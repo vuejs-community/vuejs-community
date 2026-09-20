@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'wasi',
     'webassembly',
   ],
-  source: {
-    github: 'rioam2/rollup-plugin-jco',
-    npm: 'rollup-plugin-jco',
-  },
   links: {
     github: 'https://github.com/rioam2/rollup-plugin-jco',
     npm: 'https://www.npmjs.com/package/rollup-plugin-jco',
     website: 'https://github.com/rioam2/rollup-plugin-jco',
+  },
+  source: {
+    github: 'rioam2/rollup-plugin-jco',
+    npm: 'rollup-plugin-jco',
   },
   stats: {
     stars: 0,

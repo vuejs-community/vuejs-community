@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'wordpress',
     'wp-headers',
   ],
-  source: {
-    github: 'artkrsk/vite-plugin-wp-headers',
-    npm: '@artemsemkin/vite-plugin-wp-headers',
-  },
   links: {
     github: 'https://github.com/artkrsk/vite-plugin-wp-headers',
     npm: 'https://www.npmjs.com/package/@artemsemkin/vite-plugin-wp-headers',
     website: 'https://github.com/artkrsk/vite-plugin-wp-headers#readme',
+  },
+  source: {
+    github: 'artkrsk/vite-plugin-wp-headers',
+    npm: '@artemsemkin/vite-plugin-wp-headers',
   },
   stats: {
     stars: 0,

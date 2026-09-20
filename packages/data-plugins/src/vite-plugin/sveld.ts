@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'carbon-design-system/sveld',
-    npm: 'sveld',
-  },
   links: {
     github: 'https://github.com/carbon-design-system/sveld',
     npm: 'https://www.npmjs.com/package/sveld',
     website: 'https://github.com/carbon-design-system/sveld',
+  },
+  source: {
+    github: 'carbon-design-system/sveld',
+    npm: 'sveld',
   },
   stats: {
     stars: 452,

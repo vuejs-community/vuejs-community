@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'drawer',
     'vue3',
   ],
-  source: {
-    npm: '@anfo/vite-dialogs-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@anfo/vite-dialogs-plugin',
+  },
+  source: {
+    npm: '@anfo/vite-dialogs-plugin',
   },
   stats: {
     stars: 0,

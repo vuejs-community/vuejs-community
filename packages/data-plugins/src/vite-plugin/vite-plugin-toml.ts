@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'toml',
     'vite',
   ],
-  source: {
-    github: 'sapphi-red/vite-plugin-toml',
-    npm: 'vite-plugin-toml',
-  },
   links: {
     github: 'https://github.com/sapphi-red/vite-plugin-toml',
     npm: 'https://www.npmjs.com/package/vite-plugin-toml',
     website: 'https://github.com/sapphi-red/vite-plugin-toml#readme',
+  },
+  source: {
+    github: 'sapphi-red/vite-plugin-toml',
+    npm: 'vite-plugin-toml',
   },
   stats: {
     stars: 9,

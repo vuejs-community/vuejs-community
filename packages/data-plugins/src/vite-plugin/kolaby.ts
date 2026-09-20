@@ -19,11 +19,11 @@ export default defineProjectMeta({
     'element-picker',
     'inspector',
   ],
-  source: {
-    npm: 'kolaby',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/kolaby',
+  },
+  source: {
+    npm: 'kolaby',
   },
   stats: {
     stars: 0,

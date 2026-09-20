@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'static-analysis',
     'build-performance',
   ],
-  source: {
-    github: 'eddiesr93/unstave',
-    npm: '@unstave/vite-plugin',
-  },
   links: {
     github: 'https://github.com/eddiesr93/unstave',
     npm: 'https://www.npmjs.com/package/@unstave/vite-plugin',
     website: 'https://eddiesr93.github.io/unstave/',
+  },
+  source: {
+    github: 'eddiesr93/unstave',
+    npm: '@unstave/vite-plugin',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'dev-server',
   ],
-  source: {
-    github: 'juhyeonni/gws-emul',
-    npm: '@gws-emul/vite',
-  },
   links: {
     github: 'https://github.com/juhyeonni/gws-emul',
     npm: 'https://www.npmjs.com/package/@gws-emul/vite',
     website: 'https://github.com/juhyeonni/gws-emul#readme',
+  },
+  source: {
+    github: 'juhyeonni/gws-emul',
+    npm: '@gws-emul/vite',
   },
   stats: {
     stars: 0,

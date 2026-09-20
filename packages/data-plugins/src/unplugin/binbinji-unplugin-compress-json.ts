@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'json',
     'compress',
   ],
-  source: {
-    github: 'chouchouji/unplugin-compress-json',
-    npm: '@binbinji/unplugin-compress-json',
-  },
   links: {
     github: 'https://github.com/chouchouji/unplugin-compress-json',
     npm: 'https://www.npmjs.com/package/@binbinji/unplugin-compress-json',
     website: 'https://github.com/chouchouji/unplugin-compress-json#readme',
+  },
+  source: {
+    github: 'chouchouji/unplugin-compress-json',
+    npm: '@binbinji/unplugin-compress-json',
   },
   stats: {
     stars: 2,

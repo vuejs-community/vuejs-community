@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'sitemap',
     'robots',
   ],
-  source: {
-    npm: '@rk-web/vite-plugin-seo',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@rk-web/vite-plugin-seo',
+  },
+  source: {
+    npm: '@rk-web/vite-plugin-seo',
   },
   stats: {
     stars: 0,

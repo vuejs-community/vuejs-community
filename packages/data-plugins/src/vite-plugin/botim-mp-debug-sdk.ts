@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'ai-agent',
     'vite-plugin',
   ],
-  source: {
-    github: 'botim/mp-debug-sdk',
-    npm: '@botim/mp-debug-sdk',
-  },
   links: {
     github: 'https://github.com/botim/mp-debug-sdk',
     npm: 'https://www.npmjs.com/package/@botim/mp-debug-sdk',
     website: 'https://github.com/botim/mp-debug-sdk#readme',
+  },
+  source: {
+    github: 'botim/mp-debug-sdk',
+    npm: '@botim/mp-debug-sdk',
   },
   stats: {
     stars: 0,

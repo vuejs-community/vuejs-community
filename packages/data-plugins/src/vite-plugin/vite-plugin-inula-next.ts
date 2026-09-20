@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'dlight.js',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-inula-next',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-inula-next',
+  },
+  source: {
+    npm: 'vite-plugin-inula-next',
   },
   stats: {
     stars: 0,

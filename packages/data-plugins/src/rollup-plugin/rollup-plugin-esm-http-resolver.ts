@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'esm',
   ],
-  source: {
-    github: 'trygve-lie/rollup-plugin-esm-http-resolver',
-    npm: 'rollup-plugin-esm-http-resolver',
-  },
   links: {
     github: 'https://github.com/trygve-lie/rollup-plugin-esm-http-resolver',
     npm: 'https://www.npmjs.com/package/rollup-plugin-esm-http-resolver',
     website: 'https://github.com/trygve-lie/rollup-plugin-esm-http-resolver#readme',
+  },
+  source: {
+    github: 'trygve-lie/rollup-plugin-esm-http-resolver',
+    npm: 'rollup-plugin-esm-http-resolver',
   },
   stats: {
     stars: 4,

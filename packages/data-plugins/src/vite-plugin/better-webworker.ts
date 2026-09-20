@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'typescript',
   ],
-  source: {
-    github: 'mchao123/better-webworker',
-    npm: 'better-webworker',
-  },
   links: {
     github: 'https://github.com/mchao123/better-webworker',
     npm: 'https://www.npmjs.com/package/better-webworker',
     website: 'https://github.com/mchao123/better-webworker#readme',
+  },
+  source: {
+    github: 'mchao123/better-webworker',
+    npm: 'better-webworker',
   },
   stats: {
     stars: 2,

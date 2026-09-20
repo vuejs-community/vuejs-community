@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-dsv',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-dsv',
     website: 'https://github.com/rollup/plugins/tree/master/packages/dsv#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-dsv',
   },
   stats: {
     stars: 0,

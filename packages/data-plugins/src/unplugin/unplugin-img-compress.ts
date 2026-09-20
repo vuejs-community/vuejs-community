@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'unplugin',
     'compression-img',
   ],
-  source: {
-    github: 'baiwusanyu-c/unplugin-img-compress',
-    npm: 'unplugin-img-compress',
-  },
   links: {
     github: 'https://github.com/baiwusanyu-c/unplugin-img-compress',
     npm: 'https://www.npmjs.com/package/unplugin-img-compress',
     website: 'https://github.com/baiwusanyu-c/unplugin-img-compress#README',
+  },
+  source: {
+    github: 'baiwusanyu-c/unplugin-img-compress',
+    npm: 'unplugin-img-compress',
   },
   stats: {
     stars: 54,

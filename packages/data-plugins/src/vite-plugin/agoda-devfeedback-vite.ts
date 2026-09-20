@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'hmr',
     'performance',
   ],
-  source: {
-    github: 'agoda-com/devfeedback-vite',
-    npm: 'agoda-devfeedback-vite',
-  },
   links: {
     github: 'https://github.com/agoda-com/devfeedback-vite',
     npm: 'https://www.npmjs.com/package/agoda-devfeedback-vite',
     website: 'https://github.com/agoda-com/devfeedback-vite#readme',
+  },
+  source: {
+    github: 'agoda-com/devfeedback-vite',
+    npm: 'agoda-devfeedback-vite',
   },
   stats: {
     stars: 0,

@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'intrinsics',
     'paranoia',
   ],
-  source: {
-    npm: 'rollup-plugin-realm-uri',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-realm-uri',
+  },
+  source: {
+    npm: 'rollup-plugin-realm-uri',
   },
   stats: {
     stars: 0,

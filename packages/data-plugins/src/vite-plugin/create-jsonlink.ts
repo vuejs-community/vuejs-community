@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'scaffold',
     'myanmar',
   ],
-  source: {
-    github: 'pyaephyomaungdev/json-link',
-    npm: 'create-jsonlink',
-  },
   links: {
     github: 'https://github.com/pyaephyomaungdev/json-link',
     npm: 'https://www.npmjs.com/package/create-jsonlink',
     website: 'https://github.com/pyaephyomaungdev/json-link#readme',
+  },
+  source: {
+    github: 'pyaephyomaungdev/json-link',
+    npm: 'create-jsonlink',
   },
   stats: {
     stars: 3,

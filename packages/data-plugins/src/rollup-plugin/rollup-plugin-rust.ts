@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rust',
     'webassembly',
   ],
-  source: {
-    github: 'DrSensor/rollup-plugin-rust',
-    npm: 'rollup-plugin-rust',
-  },
   links: {
     github: 'https://github.com/DrSensor/rollup-plugin-rust',
     npm: 'https://www.npmjs.com/package/rollup-plugin-rust',
     website: 'https://github.com/DrSensor/rollup-plugin-rust#readme',
+  },
+  source: {
+    github: 'DrSensor/rollup-plugin-rust',
+    npm: 'rollup-plugin-rust',
   },
   stats: {
     stars: 41,

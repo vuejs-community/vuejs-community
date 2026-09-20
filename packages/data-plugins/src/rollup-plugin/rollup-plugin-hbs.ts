@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'hbs',
     'templating',
   ],
-  source: {
-    github: 'yohangz/rollup-plugin-hbs',
-    npm: 'rollup-plugin-hbs',
-  },
   links: {
     github: 'https://github.com/yohangz/rollup-plugin-hbs',
     npm: 'https://www.npmjs.com/package/rollup-plugin-hbs',
     website: 'https://github.com/yohangz/rollup-plugin-hbs#readme',
+  },
+  source: {
+    github: 'yohangz/rollup-plugin-hbs',
+    npm: 'rollup-plugin-hbs',
   },
   stats: {
     stars: 1,

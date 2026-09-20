@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'rolldown',
     'bun',
   ],
-  source: {
-    github: 'zss-in-js/plumeria',
-    npm: '@plumeria/unplugin',
-  },
   links: {
     github: 'https://github.com/zss-in-js/plumeria',
     npm: 'https://www.npmjs.com/package/@plumeria/unplugin',
     website: 'https://plumeria.dev',
+  },
+  source: {
+    github: 'zss-in-js/plumeria',
+    npm: '@plumeria/unplugin',
   },
   stats: {
     stars: 23,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin-restart',
     'vite-plugin-watch-restart',
   ],
-  source: {
-    github: 'kathirr007/vite-plugin-restart-2',
-    npm: 'vite-plugin-restart-2',
-  },
   links: {
     github: 'https://github.com/kathirr007/vite-plugin-restart-2',
     npm: 'https://www.npmjs.com/package/vite-plugin-restart-2',
     website: 'https://github.com/kathirr007/vite-plugin-restart-2',
+  },
+  source: {
+    github: 'kathirr007/vite-plugin-restart-2',
+    npm: 'vite-plugin-restart-2',
   },
   stats: {
     stars: 0,

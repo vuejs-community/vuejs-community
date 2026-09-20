@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'image types',
     'typescript',
   ],
-  source: {
-    github: 'RobertOstermann/vite-plugin-image-types',
-    npm: 'vite-plugin-image-types',
-  },
   links: {
     github: 'https://github.com/RobertOstermann/vite-plugin-image-types',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-types',
     website: 'https://github.com/RobertOstermann/vite-plugin-image-types',
+  },
+  source: {
+    github: 'RobertOstermann/vite-plugin-image-types',
+    npm: 'vite-plugin-image-types',
   },
   stats: {
     stars: 0,

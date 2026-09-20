@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'markdown',
     'inspector',
   ],
-  source: {
-    github: 'JianJroh/vue-cite',
-    npm: 'vite-plugin-vue-cite',
-  },
   links: {
     github: 'https://github.com/JianJroh/vue-cite',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-cite',
     website: 'https://github.com/JianJroh/vue-cite#readme',
+  },
+  source: {
+    github: 'JianJroh/vue-cite',
+    npm: 'vite-plugin-vue-cite',
   },
   stats: {
     stars: 1,

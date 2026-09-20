@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'bundler',
   ],
-  source: {
-    github: 'playforge-coding/scratch4js',
-    npm: 'tw-plugin-rollup',
-  },
   links: {
     github: 'https://github.com/playforge-coding/scratch4js',
     npm: 'https://www.npmjs.com/package/tw-plugin-rollup',
     website: 'https://github.com/playforge-coding/scratch4js/tree/main/packages/tw-plugin-rollup#readme',
+  },
+  source: {
+    github: 'playforge-coding/scratch4js',
+    npm: 'tw-plugin-rollup',
   },
   stats: {
     stars: 0,

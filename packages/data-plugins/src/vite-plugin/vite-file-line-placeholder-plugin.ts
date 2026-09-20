@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'placeholder',
     'typescript',
   ],
-  source: {
-    github: 'freewind/vite-file-line-placeholder-plugin',
-    npm: 'vite-file-line-placeholder-plugin',
-  },
   links: {
     github: 'https://github.com/freewind/vite-file-line-placeholder-plugin',
     npm: 'https://www.npmjs.com/package/vite-file-line-placeholder-plugin',
     website: 'https://github.com/freewind/vite-file-line-placeholder-plugin#readme',
+  },
+  source: {
+    github: 'freewind/vite-file-line-placeholder-plugin',
+    npm: 'vite-file-line-placeholder-plugin',
   },
   stats: {
     stars: 0,

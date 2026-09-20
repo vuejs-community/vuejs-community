@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'resolve',
   ],
-  source: {
-    npm: 'rollup-plugin-enhanced-resolve',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-enhanced-resolve',
+  },
+  source: {
+    npm: 'rollup-plugin-enhanced-resolve',
   },
   stats: {
     stars: 0,

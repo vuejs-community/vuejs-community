@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'head',
     'spa',
   ],
-  source: {
-    npm: '@jinkefeng_home/vite-plugin-meta-inject',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@jinkefeng_home/vite-plugin-meta-inject',
+  },
+  source: {
+    npm: '@jinkefeng_home/vite-plugin-meta-inject',
   },
   stats: {
     stars: 0,

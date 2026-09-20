@@ -40,14 +40,14 @@ export default defineProjectMeta({
     '静态资源',
     '云存储',
   ],
-  source: {
-    github: 'zhangnuli/vite-upload-assets-oss',
-    npm: 'vite-upload-assets-oss',
-  },
   links: {
     github: 'https://github.com/zhangnuli/vite-upload-assets-oss',
     npm: 'https://www.npmjs.com/package/vite-upload-assets-oss',
     website: 'https://github.com/zhangnuli/vite-upload-assets-oss#readme',
+  },
+  source: {
+    github: 'zhangnuli/vite-upload-assets-oss',
+    npm: 'vite-upload-assets-oss',
   },
   stats: {
     stars: 2,

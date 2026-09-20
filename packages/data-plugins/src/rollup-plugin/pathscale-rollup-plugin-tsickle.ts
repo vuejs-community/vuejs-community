@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'typescript',
     'tsickle',
   ],
-  source: {
-    github: 'pathscale/rollup-plugin-tsickle',
-    npm: '@pathscale/rollup-plugin-tsickle',
-  },
   links: {
     github: 'https://github.com/pathscale/rollup-plugin-tsickle',
     npm: 'https://www.npmjs.com/package/@pathscale/rollup-plugin-tsickle',
     website: 'https://github.com/pathscale/rollup-plugin-tsickle#readme',
+  },
+  source: {
+    github: 'pathscale/rollup-plugin-tsickle',
+    npm: '@pathscale/rollup-plugin-tsickle',
   },
   stats: {
     stars: 0,

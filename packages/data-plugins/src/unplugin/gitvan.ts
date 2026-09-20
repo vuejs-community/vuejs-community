@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'unplugin',
     'build-tools',
   ],
-  source: {
-    github: 'seanchatmangpt/gitvan',
-    npm: 'gitvan',
-  },
   links: {
     github: 'https://github.com/seanchatmangpt/gitvan',
     npm: 'https://www.npmjs.com/package/gitvan',
     website: 'https://github.com/seanchatmangpt/gitvan',
+  },
+  source: {
+    github: 'seanchatmangpt/gitvan',
+    npm: 'gitvan',
   },
   stats: {
     stars: 3,

@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'CzechCyberTeam/vite-plugin-http-auth',
-    npm: 'vite-plugin-http-basic-auth',
-  },
   links: {
     github: 'https://github.com/CzechCyberTeam/vite-plugin-http-auth',
     npm: 'https://www.npmjs.com/package/vite-plugin-http-basic-auth',
     website: 'https://github.com/CzechCyberTeam/vite-plugin-http-auth#readme',
+  },
+  source: {
+    github: 'CzechCyberTeam/vite-plugin-http-auth',
+    npm: 'vite-plugin-http-basic-auth',
   },
   stats: {
     stars: 2,

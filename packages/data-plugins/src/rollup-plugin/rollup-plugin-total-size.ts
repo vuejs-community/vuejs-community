@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'halo951/rollup-plugin-total-size',
-    npm: 'rollup-plugin-total-size',
-  },
   links: {
     github: 'https://github.com/halo951/rollup-plugin-total-size',
     npm: 'https://www.npmjs.com/package/rollup-plugin-total-size',
     website: 'https://github.com/halo951/rollup-plugin-total-size#readme',
+  },
+  source: {
+    github: 'halo951/rollup-plugin-total-size',
+    npm: 'rollup-plugin-total-size',
   },
   stats: {
     stars: 0,

@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'typescript',
     'javascript',
   ],
-  source: {
-    github: 'wrapperup/vite-plugin-bundle-scripts',
-    npm: 'vite-plugin-bundle-scripts',
-  },
   links: {
     github: 'https://github.com/wrapperup/vite-plugin-bundle-scripts',
     npm: 'https://www.npmjs.com/package/vite-plugin-bundle-scripts',
     website: 'https://github.com/wrapperup/vite-plugin-bundle-scripts',
+  },
+  source: {
+    github: 'wrapperup/vite-plugin-bundle-scripts',
+    npm: 'vite-plugin-bundle-scripts',
   },
   stats: {
     stars: 0,

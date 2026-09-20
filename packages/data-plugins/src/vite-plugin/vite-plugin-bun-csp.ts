@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'bun',
     'spa',
   ],
-  source: {
-    github: 'maccuaa/vite-plugin-csp',
-    npm: 'vite-plugin-bun-csp',
-  },
   links: {
     github: 'https://github.com/maccuaa/vite-plugin-csp',
     npm: 'https://www.npmjs.com/package/vite-plugin-bun-csp',
     website: 'https://github.com/maccuaa/vite-plugin-csp#readme',
+  },
+  source: {
+    github: 'maccuaa/vite-plugin-csp',
+    npm: 'vite-plugin-bun-csp',
   },
   stats: {
     stars: 12,

@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'bundler',
     'compressing',
   ],
-  source: {
-    github: '7th-Cyborg/vite-plugin-zip-pack',
-    npm: 'vite-plugin-zip-pack',
-  },
   links: {
     github: 'https://github.com/7th-Cyborg/vite-plugin-zip-pack',
     npm: 'https://www.npmjs.com/package/vite-plugin-zip-pack',
     website: 'https://github.com/7th-Cyborg/vite-plugin-zip-pack#readme',
+  },
+  source: {
+    github: '7th-Cyborg/vite-plugin-zip-pack',
+    npm: 'vite-plugin-zip-pack',
   },
   stats: {
     stars: 42,

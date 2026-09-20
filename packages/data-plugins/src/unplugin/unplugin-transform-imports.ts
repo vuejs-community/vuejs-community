@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'lodash',
     'icon',
   ],
-  source: {
-    github: 'VdustR/unplugin-transform-imports',
-    npm: 'unplugin-transform-imports',
-  },
   links: {
     github: 'https://github.com/VdustR/unplugin-transform-imports',
     npm: 'https://www.npmjs.com/package/unplugin-transform-imports',
     website: 'https://github.com/VdustR/unplugin-transform-imports',
+  },
+  source: {
+    github: 'VdustR/unplugin-transform-imports',
+    npm: 'unplugin-transform-imports',
   },
   stats: {
     stars: 8,

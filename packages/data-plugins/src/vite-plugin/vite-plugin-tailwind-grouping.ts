@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'rollup-plugin',
   ],
-  source: {
-    github: 'rschristian/tailwind-grouping',
-    npm: 'vite-plugin-tailwind-grouping',
-  },
   links: {
     github: 'https://github.com/rschristian/tailwind-grouping',
     npm: 'https://www.npmjs.com/package/vite-plugin-tailwind-grouping',
     website: 'https://github.com/rschristian/tailwind-grouping#readme',
+  },
+  source: {
+    github: 'rschristian/tailwind-grouping',
+    npm: 'vite-plugin-tailwind-grouping',
   },
   stats: {
     stars: 7,

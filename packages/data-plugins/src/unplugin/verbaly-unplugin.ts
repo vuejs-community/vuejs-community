@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rspack',
     'verbaly',
   ],
-  source: {
-    github: 'AronSoto/verbaly',
-    npm: '@verbaly/unplugin',
-  },
   links: {
     github: 'https://github.com/AronSoto/verbaly',
     npm: 'https://www.npmjs.com/package/@verbaly/unplugin',
     website: 'https://verbaly-web.vercel.app/docs/frameworks/vite#unplugin',
+  },
+  source: {
+    github: 'AronSoto/verbaly',
+    npm: '@verbaly/unplugin',
   },
   stats: {
     stars: 0,

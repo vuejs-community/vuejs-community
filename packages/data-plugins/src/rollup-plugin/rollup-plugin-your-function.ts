@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'replace',
     'rollup-plugin',
   ],
-  source: {
-    github: 'UmamiAppearance/rollup-plugin-your-function',
-    npm: 'rollup-plugin-your-function',
-  },
   links: {
     github: 'https://github.com/UmamiAppearance/rollup-plugin-your-function',
     npm: 'https://www.npmjs.com/package/rollup-plugin-your-function',
     website: 'https://github.com/UmamiAppearance/rollup-plugin-your-function#readme',
+  },
+  source: {
+    github: 'UmamiAppearance/rollup-plugin-your-function',
+    npm: 'rollup-plugin-your-function',
   },
   stats: {
     stars: 2,

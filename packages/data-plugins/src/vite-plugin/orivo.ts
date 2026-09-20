@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'static-html',
     'blog-generator',
   ],
-  source: {
-    github: 'paul-browne/orivo',
-    npm: 'orivo',
-  },
   links: {
     github: 'https://github.com/paul-browne/orivo',
     npm: 'https://www.npmjs.com/package/orivo',
     website: 'https://github.com/paul-browne/orivo',
+  },
+  source: {
+    github: 'paul-browne/orivo',
+    npm: 'orivo',
   },
   stats: {
     stars: 0,

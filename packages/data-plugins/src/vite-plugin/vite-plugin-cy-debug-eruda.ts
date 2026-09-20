@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'eruda',
     'debug',
   ],
-  source: {
-    npm: 'vite-plugin-cy-debug-eruda',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-cy-debug-eruda',
+  },
+  source: {
+    npm: 'vite-plugin-cy-debug-eruda',
   },
   stats: {
     stars: 0,

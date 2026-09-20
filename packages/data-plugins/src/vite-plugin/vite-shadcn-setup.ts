@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'tooling',
     'boilerplate',
   ],
-  source: {
-    github: 'zaid-commits/vite-shadcn-setup',
-    npm: 'vite-shadcn-setup',
-  },
   links: {
     github: 'https://github.com/zaid-commits/vite-shadcn-setup',
     npm: 'https://www.npmjs.com/package/vite-shadcn-setup',
     website: 'https://github.com/zaid-commits/vite-shadcn-setup#readme',
+  },
+  source: {
+    github: 'zaid-commits/vite-shadcn-setup',
+    npm: 'vite-shadcn-setup',
   },
   stats: {
     stars: 1,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'sfc',
     'js',
   ],
-  source: {
-    github: 'Arakmar/vite-plugin-vue-facing-decorator-hmr',
-    npm: 'vite-plugin-vue-facing-decorator-hmr',
-  },
   links: {
     github: 'https://github.com/Arakmar/vite-plugin-vue-facing-decorator-hmr',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-facing-decorator-hmr',
     website: 'https://github.com/Arakmar/vite-plugin-vue-facing-decorator-hmr#readme',
+  },
+  source: {
+    github: 'Arakmar/vite-plugin-vue-facing-decorator-hmr',
+    npm: 'vite-plugin-vue-facing-decorator-hmr',
   },
   stats: {
     stars: 0,

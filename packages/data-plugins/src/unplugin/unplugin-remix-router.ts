@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'webpack',
     'transform',
   ],
-  source: {
-    github: 'ws-rush/unplugin-remix-router',
-    npm: 'unplugin-remix-router',
-  },
   links: {
     github: 'https://github.com/ws-rush/unplugin-remix-router',
     npm: 'https://www.npmjs.com/package/unplugin-remix-router',
     website: 'https://github.com/ws-rush/unplugin-remix-router#readme',
+  },
+  source: {
+    github: 'ws-rush/unplugin-remix-router',
+    npm: 'unplugin-remix-router',
   },
   stats: {
     stars: 12,

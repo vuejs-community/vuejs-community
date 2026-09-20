@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'typescript',
     'types',
   ],
-  source: {
-    github: 'pentacore/laravel-typefinder',
-    npm: '@pentacore/vite-plugin-laravel-typefinder',
-  },
   links: {
     github: 'https://github.com/pentacore/laravel-typefinder',
     npm: 'https://www.npmjs.com/package/@pentacore/vite-plugin-laravel-typefinder',
     website: 'https://github.com/pentacore/laravel-typefinder',
+  },
+  source: {
+    github: 'pentacore/laravel-typefinder',
+    npm: '@pentacore/vite-plugin-laravel-typefinder',
   },
   stats: {
     stars: 2,

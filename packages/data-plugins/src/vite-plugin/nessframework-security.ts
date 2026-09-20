@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'permissions-policy',
     'x-frame-options',
   ],
-  source: {
-    github: 'leroyanders/Ness.js',
-    npm: '@nessframework/security',
-  },
   links: {
     github: 'https://github.com/leroyanders/Ness.js',
     npm: 'https://www.npmjs.com/package/@nessframework/security',
     website: 'https://nessjs.com/docs/plugins/security',
+  },
+  source: {
+    github: 'leroyanders/Ness.js',
+    npm: '@nessframework/security',
   },
   stats: {
     stars: 0,

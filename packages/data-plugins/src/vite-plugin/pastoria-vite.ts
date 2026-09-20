@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: '@pastoria/vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@pastoria/vite',
+  },
+  source: {
+    npm: '@pastoria/vite',
   },
   stats: {
     stars: 0,

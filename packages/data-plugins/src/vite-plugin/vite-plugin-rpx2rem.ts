@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'converts',
     'vite-plugin',
   ],
-  source: {
-    github: 'jiqishoubi/vite-plugin-rpx2rem',
-    npm: 'vite-plugin-rpx2rem',
-  },
   links: {
     github: 'https://github.com/jiqishoubi/vite-plugin-rpx2rem',
     npm: 'https://www.npmjs.com/package/vite-plugin-rpx2rem',
     website: 'https://github.com/jiqishoubi/vite-plugin-rpx2rem#readme',
+  },
+  source: {
+    github: 'jiqishoubi/vite-plugin-rpx2rem',
+    npm: 'vite-plugin-rpx2rem',
   },
   stats: {
     stars: 0,

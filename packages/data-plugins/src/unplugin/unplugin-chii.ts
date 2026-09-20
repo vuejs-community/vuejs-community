@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'Binbiubiubiu/unplugin-chii',
-    npm: 'unplugin-chii',
-  },
   links: {
     github: 'https://github.com/Binbiubiubiu/unplugin-chii',
     npm: 'https://www.npmjs.com/package/unplugin-chii',
     website: 'https://github.com/Binbiubiubiu/unplugin-chii#readme',
+  },
+  source: {
+    github: 'Binbiubiubiu/unplugin-chii',
+    npm: 'unplugin-chii',
   },
   stats: {
     stars: 1,

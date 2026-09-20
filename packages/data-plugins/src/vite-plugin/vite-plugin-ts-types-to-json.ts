@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'i18n',
     'labels',
   ],
-  source: {
-    github: 'amirrr1987/vite-plugin-ts-types-to-json',
-    npm: 'vite-plugin-ts-types-to-json',
-  },
   links: {
     github: 'https://github.com/amirrr1987/vite-plugin-ts-types-to-json',
     npm: 'https://www.npmjs.com/package/vite-plugin-ts-types-to-json',
     website: 'https://github.com/amirrr1987/vite-plugin-ts-types-to-json#readme',
+  },
+  source: {
+    github: 'amirrr1987/vite-plugin-ts-types-to-json',
+    npm: 'vite-plugin-ts-types-to-json',
   },
   stats: {
     stars: 0,

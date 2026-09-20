@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'codecs',
     'astropub',
   ],
-  source: {
-    github: 'RafidMuhymin/astro-imagetools',
-    npm: 'astro-imagetools',
-  },
   links: {
     github: 'https://github.com/RafidMuhymin/astro-imagetools',
     npm: 'https://www.npmjs.com/package/astro-imagetools',
     website: 'https://github.com/RafidMuhymin/astro-imagetools#readme',
+  },
+  source: {
+    github: 'RafidMuhymin/astro-imagetools',
+    npm: 'astro-imagetools',
   },
   stats: {
     stars: 432,

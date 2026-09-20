@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'velocitykode',
     'inertia',
   ],
-  source: {
-    github: 'velocitykode/velocity-vite-plugin',
-    npm: '@velocitykode/velocity-vite-plugin',
-  },
   links: {
     github: 'https://github.com/velocitykode/velocity-vite-plugin',
     npm: 'https://www.npmjs.com/package/@velocitykode/velocity-vite-plugin',
     website: 'https://github.com/velocitykode/velocity-vite-plugin',
+  },
+  source: {
+    github: 'velocitykode/velocity-vite-plugin',
+    npm: '@velocitykode/velocity-vite-plugin',
   },
   stats: {
     stars: 0,

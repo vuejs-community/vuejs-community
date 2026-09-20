@@ -18,13 +18,13 @@ export default defineProjectMeta({
     'code-generation',
     'typescript',
   ],
-  source: {
-    github: 'Swiftx/component',
-    npm: '@swiftx.top/slot-router-vite',
-  },
   links: {
     github: 'https://github.com/Swiftx/component',
     npm: 'https://www.npmjs.com/package/@swiftx.top/slot-router-vite',
     website: 'https://github.com/Swiftx/component/tree/main/packages/slot-router-vite#readme',
+  },
+  source: {
+    github: 'Swiftx/component',
+    npm: '@swiftx.top/slot-router-vite',
   },
 })

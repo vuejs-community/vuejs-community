@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'svelte',
     'editor',
   ],
-  source: {
-    github: 'Michael-Obele/vite-plugin-lingo',
-    npm: 'vite-plugin-lingo',
-  },
   links: {
     github: 'https://github.com/Michael-Obele/vite-plugin-lingo',
     npm: 'https://www.npmjs.com/package/vite-plugin-lingo',
     website: 'https://github.com/Michael-Obele/vite-plugin-lingo#readme',
+  },
+  source: {
+    github: 'Michael-Obele/vite-plugin-lingo',
+    npm: 'vite-plugin-lingo',
   },
   stats: {
     stars: 7,

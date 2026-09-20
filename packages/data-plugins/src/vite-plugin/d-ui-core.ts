@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'd-ui',
     'd-form',
   ],
-  source: {
-    github: 'QZD233/D-UI',
-    npm: '@d-ui/core',
-  },
   links: {
     github: 'https://github.com/QZD233/D-UI',
     npm: 'https://www.npmjs.com/package/@d-ui/core',
     website: 'https://github.com/QZD233/D-UI',
+  },
+  source: {
+    github: 'QZD233/D-UI',
+    npm: '@d-ui/core',
   },
   stats: {
     stars: 0,

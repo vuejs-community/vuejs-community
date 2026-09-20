@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'localization',
     'routes',
   ],
-  source: {
-    github: 'veltix/vite-wayfinder-i18n',
-    npm: '@veltixjs/vite-wayfinder-i18n',
-  },
   links: {
     github: 'https://github.com/veltix/vite-wayfinder-i18n',
     npm: 'https://www.npmjs.com/package/@veltixjs/vite-wayfinder-i18n',
     website: 'https://github.com/veltix/vite-wayfinder-i18n#readme',
+  },
+  source: {
+    github: 'veltix/vite-wayfinder-i18n',
+    npm: '@veltixjs/vite-wayfinder-i18n',
   },
   stats: {
     stars: 0,

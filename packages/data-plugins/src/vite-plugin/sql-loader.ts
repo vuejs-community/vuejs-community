@@ -31,14 +31,14 @@ export default defineProjectMeta({
     'commonjs',
     'serverless',
   ],
-  source: {
-    github: 'lostcode7/node-sql-loader',
-    npm: 'sql-loader',
-  },
   links: {
     github: 'https://github.com/lostcode7/node-sql-loader',
     npm: 'https://www.npmjs.com/package/sql-loader',
     website: 'https://github.com/lostcode7/node-sql-loader#readme',
+  },
+  source: {
+    github: 'lostcode7/node-sql-loader',
+    npm: 'sql-loader',
   },
   stats: {
     stars: 2,

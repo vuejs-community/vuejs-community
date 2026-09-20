@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vue-tsc',
     'volar',
   ],
-  source: {
-    github: 'qmhc/unplugin-dts',
-    npm: 'vite-plugin-dts',
-  },
   links: {
     github: 'https://github.com/qmhc/unplugin-dts',
     npm: 'https://www.npmjs.com/package/vite-plugin-dts',
     website: 'https://github.com/qmhc/unplugin-dts#readme',
+  },
+  source: {
+    github: 'qmhc/unplugin-dts',
+    npm: 'vite-plugin-dts',
   },
   stats: {
     stars: 1526,

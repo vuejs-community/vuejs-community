@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup',
     'tree-shake',
   ],
-  source: {
-    github: 'logotip4ik/unplugin-ltsdi',
-    npm: 'unplugin-ltsdi',
-  },
   links: {
     github: 'https://github.com/logotip4ik/unplugin-ltsdi',
     npm: 'https://www.npmjs.com/package/unplugin-ltsdi',
     website: 'https://github.com/logotip4ik/unplugin-ltsdi#readme',
+  },
+  source: {
+    github: 'logotip4ik/unplugin-ltsdi',
+    npm: 'unplugin-ltsdi',
   },
   stats: {
     stars: 2,

@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'cross-platform',
     'synthia',
   ],
-  source: {
-    npm: 'synthia-unplugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/synthia-unplugin',
+  },
+  source: {
+    npm: 'synthia-unplugin',
   },
   stats: {
     stars: 0,

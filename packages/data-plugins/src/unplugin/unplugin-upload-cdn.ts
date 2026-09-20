@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'cos',
     'oss',
   ],
-  source: {
-    github: 'zenotsai/unplugin-upload-cdn',
-    npm: 'unplugin-upload-cdn',
-  },
   links: {
     github: 'https://github.com/zenotsai/unplugin-upload-cdn',
     npm: 'https://www.npmjs.com/package/unplugin-upload-cdn',
     website: 'https://github.com/zenotsai/unplugin-upload-cdn',
+  },
+  source: {
+    github: 'zenotsai/unplugin-upload-cdn',
+    npm: 'unplugin-upload-cdn',
   },
   stats: {
     stars: 4,

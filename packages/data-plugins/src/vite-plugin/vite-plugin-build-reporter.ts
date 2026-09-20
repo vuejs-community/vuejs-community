@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'pohoc/vite-plugin-build-reporter',
-    npm: 'vite-plugin-build-reporter',
-  },
   links: {
     github: 'https://github.com/pohoc/vite-plugin-build-reporter',
     npm: 'https://www.npmjs.com/package/vite-plugin-build-reporter',
     website: 'https://github.com/pohoc/vite-plugin-build-reporter#readme',
+  },
+  source: {
+    github: 'pohoc/vite-plugin-build-reporter',
+    npm: 'vite-plugin-build-reporter',
   },
   stats: {
     stars: 1,

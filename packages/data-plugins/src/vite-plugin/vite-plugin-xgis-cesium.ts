@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'cesium',
     'xgis-cesium',
   ],
-  source: {
-    github: 'zorrowm/vite-plugin-earth',
-    npm: 'vite-plugin-xgis-cesium',
-  },
   links: {
     github: 'https://github.com/zorrowm/vite-plugin-earth',
     npm: 'https://www.npmjs.com/package/vite-plugin-xgis-cesium',
     website: 'https://github.com/zorrowm/vite-plugin-earth#readme',
+  },
+  source: {
+    github: 'zorrowm/vite-plugin-earth',
+    npm: 'vite-plugin-xgis-cesium',
   },
   stats: {
     stars: 0,

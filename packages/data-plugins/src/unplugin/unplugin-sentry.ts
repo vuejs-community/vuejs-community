@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'sentry',
     'sourcemap',
   ],
-  source: {
-    github: 'kricsleo/unplugin-sentry',
-    npm: 'unplugin-sentry',
-  },
   links: {
     github: 'https://github.com/kricsleo/unplugin-sentry',
     npm: 'https://www.npmjs.com/package/unplugin-sentry',
     website: 'https://github.com/kricsleo/unplugin-sentry#readme',
+  },
+  source: {
+    github: 'kricsleo/unplugin-sentry',
+    npm: 'unplugin-sentry',
   },
   stats: {
     stars: 8,

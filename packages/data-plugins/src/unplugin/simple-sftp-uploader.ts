@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'rspack',
     'esbuild',
   ],
-  source: {
-    github: 'imba97/simple-sftp-uploader',
-    npm: 'simple-sftp-uploader',
-  },
   links: {
     github: 'https://github.com/imba97/simple-sftp-uploader',
     npm: 'https://www.npmjs.com/package/simple-sftp-uploader',
     website: 'https://github.com/imba97/simple-sftp-uploader#readme',
+  },
+  source: {
+    github: 'imba97/simple-sftp-uploader',
+    npm: 'simple-sftp-uploader',
   },
   stats: {
     stars: 3,

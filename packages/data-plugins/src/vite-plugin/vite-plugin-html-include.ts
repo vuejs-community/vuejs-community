@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'partial',
     'static',
   ],
-  source: {
-    github: 'Tilty-io/vite-plugin-html-include',
-    npm: 'vite-plugin-html-include',
-  },
   links: {
     github: 'https://github.com/Tilty-io/vite-plugin-html-include',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-include',
     website: 'https://github.com/Tilty-io/vite-plugin-html-include#readme',
+  },
+  source: {
+    github: 'Tilty-io/vite-plugin-html-include',
+    npm: 'vite-plugin-html-include',
   },
   stats: {
     stars: 3,

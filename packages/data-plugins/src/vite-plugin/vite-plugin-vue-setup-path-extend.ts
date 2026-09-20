@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'stup',
     'vite-plugin',
   ],
-  source: {
-    github: 'RenLoong/vite-plugin-vue-setup-extend',
-    npm: 'vite-plugin-vue-setup-path-extend',
-  },
   links: {
     github: 'https://github.com/RenLoong/vite-plugin-vue-setup-extend',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-setup-path-extend',
     website: 'https://github.com/RenLoong/vite-plugin-vue-setup-extend/tree/master/#readme',
+  },
+  source: {
+    github: 'RenLoong/vite-plugin-vue-setup-extend',
+    npm: 'vite-plugin-vue-setup-path-extend',
   },
   stats: {
     stars: 3,

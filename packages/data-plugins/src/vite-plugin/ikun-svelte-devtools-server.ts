@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'vite-plugin-svelte-devtools',
     'dx',
   ],
-  source: {
-    npm: '@ikun-svelte-devtools/server',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ikun-svelte-devtools/server',
+  },
+  source: {
+    npm: '@ikun-svelte-devtools/server',
   },
   stats: {
     stars: 0,

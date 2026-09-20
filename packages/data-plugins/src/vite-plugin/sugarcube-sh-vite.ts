@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'sugarcube-sh/sugarcube',
-    npm: '@sugarcube-sh/vite',
-  },
   links: {
     github: 'https://github.com/sugarcube-sh/sugarcube',
     npm: 'https://www.npmjs.com/package/@sugarcube-sh/vite',
     website: 'https://github.com/sugarcube-sh/sugarcube#readme',
+  },
+  source: {
+    github: 'sugarcube-sh/sugarcube',
+    npm: '@sugarcube-sh/vite',
   },
   stats: {
     stars: 124,

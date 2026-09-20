@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'office-addin',
     'vite-plugin-office-addin',
   ],
-  source: {
-    github: 'sebastianjg/bun-vite-plugin-office-addin',
-    npm: 'vite-plugin-office-addin-bun',
-  },
   links: {
     github: 'https://github.com/sebastianjg/bun-vite-plugin-office-addin',
     npm: 'https://www.npmjs.com/package/vite-plugin-office-addin-bun',
     website: 'https://github.com/sebastianjg/bun-vite-plugin-office-addin#readme',
+  },
+  source: {
+    github: 'sebastianjg/bun-vite-plugin-office-addin',
+    npm: 'vite-plugin-office-addin-bun',
   },
   stats: {
     stars: 0,

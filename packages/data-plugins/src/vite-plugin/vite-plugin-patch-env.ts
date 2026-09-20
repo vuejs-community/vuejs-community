@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'runtimeEnv',
     'vite-plugin',
   ],
-  source: {
-    github: 'KeJunMao/vite-plugin-patch-env',
-    npm: 'vite-plugin-patch-env',
-  },
   links: {
     github: 'https://github.com/KeJunMao/vite-plugin-patch-env',
     npm: 'https://www.npmjs.com/package/vite-plugin-patch-env',
     website: 'https://github.com/KeJunMao/vite-plugin-patch-env',
+  },
+  source: {
+    github: 'KeJunMao/vite-plugin-patch-env',
+    npm: 'vite-plugin-patch-env',
   },
   stats: {
     stars: 9,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'alias checker',
     'vite-plugin',
   ],
-  source: {
-    github: 'baozouai/vite-plugin-alias-import-checker',
-    npm: 'vite-plugin-alias-import-checker',
-  },
   links: {
     github: 'https://github.com/baozouai/vite-plugin-alias-import-checker',
     npm: 'https://www.npmjs.com/package/vite-plugin-alias-import-checker',
     website: 'https://github.com/baozouai/vite-plugin-alias-import-checker',
+  },
+  source: {
+    github: 'baozouai/vite-plugin-alias-import-checker',
+    npm: 'vite-plugin-alias-import-checker',
   },
   stats: {
     stars: 3,

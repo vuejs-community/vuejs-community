@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'vite',
     'dx',
   ],
-  source: {
-    npm: '@ui-organized/ui-inspect-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ui-organized/ui-inspect-plugin',
+  },
+  source: {
+    npm: '@ui-organized/ui-inspect-plugin',
   },
   stats: {
     stars: 0,

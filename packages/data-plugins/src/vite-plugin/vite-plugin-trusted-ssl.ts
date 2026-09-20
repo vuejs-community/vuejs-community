@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'reverse-proxy',
     'mkcert',
   ],
-  source: {
-    github: 'wengmaodong/vite-plugin-trusted-ssl',
-    npm: 'vite-plugin-trusted-ssl',
-  },
   links: {
     github: 'https://github.com/wengmaodong/vite-plugin-trusted-ssl',
     npm: 'https://www.npmjs.com/package/vite-plugin-trusted-ssl',
     website: 'https://github.com/wengmaodong/vite-plugin-trusted-ssl#readme',
+  },
+  source: {
+    github: 'wengmaodong/vite-plugin-trusted-ssl',
+    npm: 'vite-plugin-trusted-ssl',
   },
   stats: {
     stars: 0,

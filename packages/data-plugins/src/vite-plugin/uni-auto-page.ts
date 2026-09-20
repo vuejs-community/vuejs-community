@@ -20,11 +20,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'pages',
   ],
-  source: {
-    npm: 'uni-auto-page',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/uni-auto-page',
+  },
+  source: {
+    npm: 'uni-auto-page',
   },
   stats: {
     stars: 0,

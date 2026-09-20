@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'esbuild',
     'plugin',
   ],
-  source: {
-    github: 'element-plus/unplugin-element-plus',
-    npm: 'unplugin-dby-element-plus',
-  },
   links: {
     github: 'https://github.com/element-plus/unplugin-element-plus',
     npm: 'https://www.npmjs.com/package/unplugin-dby-element-plus',
     website: 'https://github.com/element-plus/unplugin-element-plus/tree/main/#readme',
+  },
+  source: {
+    github: 'element-plus/unplugin-element-plus',
+    npm: 'unplugin-dby-element-plus',
   },
   stats: {
     stars: 252,

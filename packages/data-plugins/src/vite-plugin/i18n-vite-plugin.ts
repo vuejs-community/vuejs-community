@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-i18n',
   ],
-  source: {
-    github: 'ivanhofer/i18n-vite-plugin',
-    npm: 'i18n-vite-plugin',
-  },
   links: {
     github: 'https://github.com/ivanhofer/i18n-vite-plugin',
     npm: 'https://www.npmjs.com/package/i18n-vite-plugin',
     website: 'https://github.com/ivanhofer/i18n-vite-plugin#readme',
+  },
+  source: {
+    github: 'ivanhofer/i18n-vite-plugin',
+    npm: 'i18n-vite-plugin',
   },
   stats: {
     stars: 0,

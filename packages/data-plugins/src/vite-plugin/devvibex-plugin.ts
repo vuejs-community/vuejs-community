@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'visual-edit',
     'babel',
   ],
-  source: {
-    github: 'METACREW-COMPANY/lh-vibex-frontend-plugin',
-    npm: '@devvibex/plugin',
-  },
   links: {
     github: 'https://github.com/METACREW-COMPANY/lh-vibex-frontend-plugin',
     npm: 'https://www.npmjs.com/package/@devvibex/plugin',
     website: 'https://github.com/METACREW-COMPANY/lh-vibex-frontend-plugin#readme',
+  },
+  source: {
+    github: 'METACREW-COMPANY/lh-vibex-frontend-plugin',
+    npm: '@devvibex/plugin',
   },
   stats: {
     stars: 0,

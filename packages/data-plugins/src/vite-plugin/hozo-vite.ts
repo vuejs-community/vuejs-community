@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'react-native',
     'react-native-web',
   ],
-  source: {
-    github: 'iray-tno/hozo',
-    npm: '@hozo/vite',
-  },
   links: {
     github: 'https://github.com/iray-tno/hozo',
     npm: 'https://www.npmjs.com/package/@hozo/vite',
     website: 'https://iray-tno.github.io/hozo/',
+  },
+  source: {
+    github: 'iray-tno/hozo',
+    npm: '@hozo/vite',
   },
   stats: {
     stars: 1,

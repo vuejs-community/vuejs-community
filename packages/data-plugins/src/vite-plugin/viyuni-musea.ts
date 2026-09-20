@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vue',
     'vue3',
   ],
-  source: {
-    github: 'viyuni/musea',
-    npm: '@viyuni/musea',
-  },
   links: {
     github: 'https://github.com/viyuni/musea',
     npm: 'https://www.npmjs.com/package/@viyuni/musea',
     website: 'https://github.com/viyuni/musea#readme',
+  },
+  source: {
+    github: 'viyuni/musea',
+    npm: '@viyuni/musea',
   },
   stats: {
     stars: 1,

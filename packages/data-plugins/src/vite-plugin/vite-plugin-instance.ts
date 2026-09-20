@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'signals',
     'no-build',
   ],
-  source: {
-    npm: 'vite-plugin-instance',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-instance',
+  },
+  source: {
+    npm: 'vite-plugin-instance',
   },
   stats: {
     stars: 0,

@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'wouter-fs-routes',
     'wouter',
   ],
-  source: {
-    npm: 'wouter-fs-routes',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/wouter-fs-routes',
+  },
+  source: {
+    npm: 'wouter-fs-routes',
   },
   stats: {
     stars: 0,

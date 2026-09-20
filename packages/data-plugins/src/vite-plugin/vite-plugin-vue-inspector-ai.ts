@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'inspector',
     'debug',
   ],
-  source: {
-    github: 'aifuqiang02/vite-plugin-vue-inspector-ai',
-    npm: 'vite-plugin-vue-inspector-ai',
-  },
   links: {
     github: 'https://github.com/aifuqiang02/vite-plugin-vue-inspector-ai',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-inspector-ai',
     website: 'https://github.com/aifuqiang02/vite-plugin-vue-inspector-ai#readme',
+  },
+  source: {
+    github: 'aifuqiang02/vite-plugin-vue-inspector-ai',
+    npm: 'vite-plugin-vue-inspector-ai',
   },
   stats: {
     stars: 0,

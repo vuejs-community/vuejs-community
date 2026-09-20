@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'style',
     'shadow-dom',
   ],
-  source: {
-    github: 'hood/vite-plugin-shadow-style',
-    npm: 'vite-plugin-shadow-style',
-  },
   links: {
     github: 'https://github.com/hood/vite-plugin-shadow-style',
     npm: 'https://www.npmjs.com/package/vite-plugin-shadow-style',
     website: 'https://github.com/hood/vite-plugin-shadow-style#readme',
+  },
+  source: {
+    github: 'hood/vite-plugin-shadow-style',
+    npm: 'vite-plugin-shadow-style',
   },
   stats: {
     stars: 27,

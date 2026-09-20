@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dependencies',
     'circular-dependencies',
   ],
-  source: {
-    github: 'threedayAAAAA/vite-plugin-circular-dependency',
-    npm: '@cicctencent/vite-plugin-circular-dependency',
-  },
   links: {
     github: 'https://github.com/threedayAAAAA/vite-plugin-circular-dependency',
     npm: 'https://www.npmjs.com/package/@cicctencent/vite-plugin-circular-dependency',
     website: 'https://github.com/threedayAAAAA/vite-plugin-circular-dependency#readme',
+  },
+  source: {
+    github: 'threedayAAAAA/vite-plugin-circular-dependency',
+    npm: '@cicctencent/vite-plugin-circular-dependency',
   },
   stats: {
     stars: 51,

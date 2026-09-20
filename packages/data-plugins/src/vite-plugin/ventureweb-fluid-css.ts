@@ -21,11 +21,11 @@ export default defineProjectMeta({
     'custom-properties',
     'cli',
   ],
-  source: {
-    npm: '@ventureweb/fluid-css',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ventureweb/fluid-css',
+  },
+  source: {
+    npm: '@ventureweb/fluid-css',
   },
   stats: {
     stars: 0,

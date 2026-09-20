@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'optimized import',
     'typescript',
   ],
-  source: {
-    npm: 'rollup-plugin-import-fallback',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-fallback',
+  },
+  source: {
+    npm: 'rollup-plugin-import-fallback',
   },
   stats: {
     stars: 0,

@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'component',
     'override',
   ],
-  source: {
-    npm: 'vite-plugin-vue-component-override',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-component-override',
     website: 'https://github.com/asika32764/vite-plugin-vue-component-override',
+  },
+  source: {
+    npm: 'vite-plugin-vue-component-override',
   },
   stats: {
     stars: 0,

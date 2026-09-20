@@ -32,14 +32,14 @@ export default defineProjectMeta({
     'webpack-plugin',
     'x-ray',
   ],
-  source: {
-    github: 'loogle18/xray-react',
-    npm: 'xray-react',
-  },
   links: {
     github: 'https://github.com/loogle18/xray-react',
     npm: 'https://www.npmjs.com/package/xray-react',
     website: 'https://github.com/loogle18/xray-react#readme',
+  },
+  source: {
+    github: 'loogle18/xray-react',
+    npm: 'xray-react',
   },
   stats: {
     stars: 189,

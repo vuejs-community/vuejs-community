@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'chrome extension',
   ],
-  source: {
-    github: 'StarkShang/vite-plugin-chrome-extension',
-    npm: 'vite-plugin-wave-extension',
-  },
   links: {
     github: 'https://github.com/StarkShang/vite-plugin-chrome-extension',
     npm: 'https://www.npmjs.com/package/vite-plugin-wave-extension',
     website: 'https://github.com/StarkShang/vite-plugin-chrome-extension#readme',
+  },
+  source: {
+    github: 'StarkShang/vite-plugin-chrome-extension',
+    npm: 'vite-plugin-wave-extension',
   },
   stats: {
     stars: 0,

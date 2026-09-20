@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vue-router',
     'vue',
   ],
-  source: {
-    npm: '@dream-uikit/vite-plugin-vue-layouts',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@dream-uikit/vite-plugin-vue-layouts',
+  },
+  source: {
+    npm: '@dream-uikit/vite-plugin-vue-layouts',
   },
   stats: {
     stars: 0,

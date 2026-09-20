@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'luzhuang/rollup-plugin-xtpl',
-    npm: 'rollup-plugin-xtpl',
-  },
   links: {
     github: 'https://github.com/luzhuang/rollup-plugin-xtpl',
     npm: 'https://www.npmjs.com/package/rollup-plugin-xtpl',
     website: 'https://github.com/luzhuang/rollup-plugin-xtpl#readme',
+  },
+  source: {
+    github: 'luzhuang/rollup-plugin-xtpl',
+    npm: 'rollup-plugin-xtpl',
   },
   stats: {
     stars: 0,

@@ -18,12 +18,12 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-fastly',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-fastly',
     website: 'https://github.com/cyco130/vite-plugin-fastly#readme',
+  },
+  source: {
+    npm: 'vite-plugin-fastly',
   },
   stats: {
     stars: 0,

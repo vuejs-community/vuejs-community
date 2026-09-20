@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'web-devtools',
     'devtools',
   ],
-  source: {
-    github: 'zjxxxxxxxxx/open-editor',
-    npm: '@open-editor/vite',
-  },
   links: {
     github: 'https://github.com/zjxxxxxxxxx/open-editor',
     npm: 'https://www.npmjs.com/package/@open-editor/vite',
     website: 'https://github.com/zjxxxxxxxxx/open-editor#readme',
+  },
+  source: {
+    github: 'zjxxxxxxxxx/open-editor',
+    npm: '@open-editor/vite',
   },
   stats: {
     stars: 0,

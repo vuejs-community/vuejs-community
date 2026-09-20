@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'xaios/vite-plugin-archiver',
-    npm: '@xaios/vite-plugin-archiver',
-  },
   links: {
     github: 'https://github.com/xaios/vite-plugin-archiver',
     npm: 'https://www.npmjs.com/package/@xaios/vite-plugin-archiver',
     website: 'https://github.com/xaios/vite-plugin-archiver#readme',
+  },
+  source: {
+    github: 'xaios/vite-plugin-archiver',
+    npm: '@xaios/vite-plugin-archiver',
   },
   stats: {
     stars: 0,

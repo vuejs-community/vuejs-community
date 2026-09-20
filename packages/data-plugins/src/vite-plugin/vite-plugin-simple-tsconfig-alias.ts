@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'alias',
     'path-mapping',
   ],
-  source: {
-    github: 'so1ve/vite-plugin-simple-tsconfig-alias',
-    npm: 'vite-plugin-simple-tsconfig-alias',
-  },
   links: {
     github: 'https://github.com/so1ve/vite-plugin-simple-tsconfig-alias',
     npm: 'https://www.npmjs.com/package/vite-plugin-simple-tsconfig-alias',
     website: 'https://github.com/so1ve/vite-plugin-simple-tsconfig-alias#readme',
+  },
+  source: {
+    github: 'so1ve/vite-plugin-simple-tsconfig-alias',
+    npm: 'vite-plugin-simple-tsconfig-alias',
   },
   stats: {
     stars: 2,

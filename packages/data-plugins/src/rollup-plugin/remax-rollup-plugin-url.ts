@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'inline',
     'copy',
   ],
-  source: {
-    github: 'Swatinem/rollup-plugin-url',
-    npm: '@remax/rollup-plugin-url',
-  },
   links: {
     github: 'https://github.com/Swatinem/rollup-plugin-url',
     npm: 'https://www.npmjs.com/package/@remax/rollup-plugin-url',
     website: 'https://github.com/Swatinem/rollup-plugin-url#readme',
+  },
+  source: {
+    github: 'Swatinem/rollup-plugin-url',
+    npm: '@remax/rollup-plugin-url',
   },
   stats: {
     stars: 75,

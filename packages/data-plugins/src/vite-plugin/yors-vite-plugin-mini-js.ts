@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'mini-js',
   ],
-  source: {
-    github: 'ymc-github/vite-ci',
-    npm: '@yors/vite-plugin-mini-js',
-  },
   links: {
     github: 'https://github.com/ymc-github/vite-ci',
     npm: 'https://www.npmjs.com/package/@yors/vite-plugin-mini-js',
     website: 'https://github.com/ymc-github/vite-ci/blob/main/vite-plugin/mini-js#readme',
+  },
+  source: {
+    github: 'ymc-github/vite-ci',
+    npm: '@yors/vite-plugin-mini-js',
   },
   stats: {
     stars: 0,

@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'datauri',
   ],
-  source: {
-    npm: '@thinke/rollup-plugin-datauri-pro',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@thinke/rollup-plugin-datauri-pro',
+  },
+  source: {
+    npm: '@thinke/rollup-plugin-datauri-pro',
   },
   stats: {
     stars: 0,

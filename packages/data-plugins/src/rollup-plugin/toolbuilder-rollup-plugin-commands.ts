@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'command',
     'shell',
   ],
-  source: {
-    github: 'toolbuilder/rollup-plugin-commands',
-    npm: '@toolbuilder/rollup-plugin-commands',
-  },
   links: {
     github: 'https://github.com/toolbuilder/rollup-plugin-commands',
     npm: 'https://www.npmjs.com/package/@toolbuilder/rollup-plugin-commands',
     website: 'https://github.com/toolbuilder/rollup-plugin-commands#readme',
+  },
+  source: {
+    github: 'toolbuilder/rollup-plugin-commands',
+    npm: '@toolbuilder/rollup-plugin-commands',
   },
   stats: {
     stars: 0,

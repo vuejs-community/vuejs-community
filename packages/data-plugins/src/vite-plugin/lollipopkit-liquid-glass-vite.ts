@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'virtual-module',
     'visual-effects',
   ],
-  source: {
-    github: 'lollipopkit/liquid-glass',
-    npm: '@lollipopkit/liquid-glass-vite',
-  },
   links: {
     github: 'https://github.com/lollipopkit/liquid-glass',
     npm: 'https://www.npmjs.com/package/@lollipopkit/liquid-glass-vite',
     website: 'https://github.com/lollipopkit/liquid-glass#readme',
+  },
+  source: {
+    github: 'lollipopkit/liquid-glass',
+    npm: '@lollipopkit/liquid-glass-vite',
   },
   stats: {
     stars: 0,

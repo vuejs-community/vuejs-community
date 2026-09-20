@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'dreamcli',
     'ansispeck',
   ],
-  source: {
-    github: 'kjanat/vite-svg-to-ico',
-    npm: 'vite-svg-to-ico',
-  },
   links: {
     github: 'https://github.com/kjanat/vite-svg-to-ico',
     npm: 'https://www.npmjs.com/package/vite-svg-to-ico',
     website: 'https://github.com/kjanat/vite-svg-to-ico#readme',
+  },
+  source: {
+    github: 'kjanat/vite-svg-to-ico',
+    npm: 'vite-svg-to-ico',
   },
   stats: {
     stars: 0,

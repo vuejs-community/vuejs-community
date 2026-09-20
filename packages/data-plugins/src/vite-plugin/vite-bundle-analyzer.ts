@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'bundle-analyzer',
     'rollup-bundle-analyzer',
   ],
-  source: {
-    github: 'nonzzz/vite-bundle-analyzer',
-    npm: 'vite-bundle-analyzer',
-  },
   links: {
     github: 'https://github.com/nonzzz/vite-bundle-analyzer',
     npm: 'https://www.npmjs.com/package/vite-bundle-analyzer',
     website: 'https://github.com/nonzzz/vite-bundle-analyzer#readme',
+  },
+  source: {
+    github: 'nonzzz/vite-bundle-analyzer',
+    npm: 'vite-bundle-analyzer',
   },
   stats: {
     stars: 465,

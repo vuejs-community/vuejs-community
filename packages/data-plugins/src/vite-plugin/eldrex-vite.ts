@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'changelog',
     'devdiff',
   ],
-  source: {
-    github: 'EldrexDelosReyesBula/devdiff',
-    npm: '@eldrex/vite',
-  },
   links: {
     github: 'https://github.com/EldrexDelosReyesBula/devdiff',
     npm: 'https://www.npmjs.com/package/@eldrex/vite',
     website: 'https://github.com/EldrexDelosReyesBula/devdiff#readme',
+  },
+  source: {
+    github: 'EldrexDelosReyesBula/devdiff',
+    npm: '@eldrex/vite',
   },
   stats: {
     stars: 8,

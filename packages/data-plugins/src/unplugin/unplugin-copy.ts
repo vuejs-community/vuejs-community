@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'copy',
     'moveFiles',
   ],
-  source: {
-    github: 'xiankq/unplugin-copy',
-    npm: 'unplugin-copy',
-  },
   links: {
     github: 'https://github.com/xiankq/unplugin-copy',
     npm: 'https://www.npmjs.com/package/unplugin-copy',
     website: 'https://github.com/xiankq/unplugin-copy#readme',
+  },
+  source: {
+    github: 'xiankq/unplugin-copy',
+    npm: 'unplugin-copy',
   },
   stats: {
     stars: 2,

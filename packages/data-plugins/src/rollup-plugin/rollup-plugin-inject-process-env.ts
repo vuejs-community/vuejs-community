@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'inject',
     'browser',
   ],
-  source: {
-    github: 'badcafe/rollup-plugin-inject-process-env',
-    npm: 'rollup-plugin-inject-process-env',
-  },
   links: {
     github: 'https://github.com/badcafe/rollup-plugin-inject-process-env',
     npm: 'https://www.npmjs.com/package/rollup-plugin-inject-process-env',
     website: 'https://github.com/badcafe/rollup-plugin-inject-process-env#readme',
+  },
+  source: {
+    github: 'badcafe/rollup-plugin-inject-process-env',
+    npm: 'rollup-plugin-inject-process-env',
   },
   stats: {
     stars: 51,

@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'debug',
   ],
-  source: {
-    npm: 'vite-plugin-online-debug',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-online-debug',
+  },
+  source: {
+    npm: 'vite-plugin-online-debug',
   },
   stats: {
     stars: 0,

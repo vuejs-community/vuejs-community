@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'conditional-imports',
     'tree-shake',
   ],
-  source: {
-    npm: 'vite-plugin-conditional-imports',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-conditional-imports',
     website: 'https://github.com/EveToolsHQ/vite-plugin-conditional-imports#readme',
+  },
+  source: {
+    npm: 'vite-plugin-conditional-imports',
   },
   stats: {
     stars: 0,

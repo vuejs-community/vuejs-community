@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'avif',
     'vite-plugin',
   ],
-  source: {
-    github: 'elringus/imgit',
-    npm: 'imgit',
-  },
   links: {
     github: 'https://github.com/elringus/imgit',
     npm: 'https://www.npmjs.com/package/imgit',
     website: 'https://imgit.dev',
+  },
+  source: {
+    github: 'elringus/imgit',
+    npm: 'imgit',
   },
   stats: {
     stars: 24,

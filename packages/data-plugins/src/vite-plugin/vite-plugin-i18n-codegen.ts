@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-i18n-codegen',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-i18n-codegen',
+  },
+  source: {
+    npm: 'vite-plugin-i18n-codegen',
   },
   stats: {
     stars: 0,

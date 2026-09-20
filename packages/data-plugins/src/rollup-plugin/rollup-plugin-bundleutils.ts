@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'utils',
     'bundleutils',
   ],
-  source: {
-    github: 'pschroen/rollup-plugin-bundleutils',
-    npm: 'rollup-plugin-bundleutils',
-  },
   links: {
     github: 'https://github.com/pschroen/rollup-plugin-bundleutils',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bundleutils',
     website: 'https://github.com/pschroen/rollup-plugin-bundleutils#readme',
+  },
+  source: {
+    github: 'pschroen/rollup-plugin-bundleutils',
+    npm: 'rollup-plugin-bundleutils',
   },
   stats: {
     stars: 14,

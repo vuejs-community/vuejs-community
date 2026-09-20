@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'templates',
     'ssg',
   ],
-  source: {
-    github: 'vinyardrip/vite-njk-trace',
-    npm: 'vite-njk-trace',
-  },
   links: {
     github: 'https://github.com/vinyardrip/vite-njk-trace',
     npm: 'https://www.npmjs.com/package/vite-njk-trace',
     website: 'https://github.com/vinyardrip/vite-njk-trace#readme',
+  },
+  source: {
+    github: 'vinyardrip/vite-njk-trace',
+    npm: 'vite-njk-trace',
   },
   stats: {
     stars: 0,

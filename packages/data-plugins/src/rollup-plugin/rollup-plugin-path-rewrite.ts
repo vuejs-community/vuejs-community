@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'file',
     'path rewrite',
   ],
-  source: {
-    github: 'Grumaks/rollup-plugin-path-rewrite',
-    npm: 'rollup-plugin-path-rewrite',
-  },
   links: {
     github: 'https://github.com/Grumaks/rollup-plugin-path-rewrite',
     npm: 'https://www.npmjs.com/package/rollup-plugin-path-rewrite',
     website: 'https://github.com/Grumaks/rollup-plugin-path-rewrite#readme',
+  },
+  source: {
+    github: 'Grumaks/rollup-plugin-path-rewrite',
+    npm: 'rollup-plugin-path-rewrite',
   },
   stats: {
     stars: 0,

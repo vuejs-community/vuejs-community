@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'feathers-studio/comptime.ts',
-    npm: 'comptime.ts',
-  },
   links: {
     github: 'https://github.com/feathers-studio/comptime.ts',
     npm: 'https://www.npmjs.com/package/comptime.ts',
     website: 'https://github.com/feathers-studio/comptime.ts#readme',
+  },
+  source: {
+    github: 'feathers-studio/comptime.ts',
+    npm: 'comptime.ts',
   },
   stats: {
     stars: 432,

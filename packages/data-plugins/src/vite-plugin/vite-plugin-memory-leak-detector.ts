@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'svelte',
     'solid',
   ],
-  source: {
-    github: 'unknownman/vite-plugin-memory-leak-detector',
-    npm: 'vite-plugin-memory-leak-detector',
-  },
   links: {
     github: 'https://github.com/unknownman/vite-plugin-memory-leak-detector',
     npm: 'https://www.npmjs.com/package/vite-plugin-memory-leak-detector',
     website: 'https://github.com/unknownman/vite-plugin-memory-leak-detector#readme',
+  },
+  source: {
+    github: 'unknownman/vite-plugin-memory-leak-detector',
+    npm: 'vite-plugin-memory-leak-detector',
   },
   stats: {
     stars: 0,

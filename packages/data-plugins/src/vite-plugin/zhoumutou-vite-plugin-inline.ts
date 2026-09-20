@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'zhoumutou/vite-plugin-inline',
-    npm: '@zhoumutou/vite-plugin-inline',
-  },
   links: {
     github: 'https://github.com/zhoumutou/vite-plugin-inline',
     npm: 'https://www.npmjs.com/package/@zhoumutou/vite-plugin-inline',
     website: 'https://github.com/zhoumutou/vite-plugin-inline#readme',
+  },
+  source: {
+    github: 'zhoumutou/vite-plugin-inline',
+    npm: '@zhoumutou/vite-plugin-inline',
   },
   stats: {
     stars: 2,

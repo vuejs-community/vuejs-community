@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vue',
     'internationalization',
   ],
-  source: {
-    github: 'zhuoqi-chen/vite-plugin-i18n-inspector',
-    npm: 'vite-plugin-i18n-inspector',
-  },
   links: {
     github: 'https://github.com/zhuoqi-chen/vite-plugin-i18n-inspector',
     npm: 'https://www.npmjs.com/package/vite-plugin-i18n-inspector',
     website: 'https://github.com/zhuoqi-chen/vite-plugin-i18n-inspector#readme',
+  },
+  source: {
+    github: 'zhuoqi-chen/vite-plugin-i18n-inspector',
+    npm: 'vite-plugin-i18n-inspector',
   },
   stats: {
     stars: 2,

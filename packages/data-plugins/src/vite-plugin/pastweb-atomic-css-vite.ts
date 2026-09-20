@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'modules',
     'utility',
   ],
-  source: {
-    github: 'pastweb/atomic-css',
-    npm: '@pastweb/atomic-css-vite',
-  },
   links: {
     github: 'https://github.com/pastweb/atomic-css',
     npm: 'https://www.npmjs.com/package/@pastweb/atomic-css-vite',
     website: 'https://github.com/pastweb/atomic-css/tree/master/packages/vite#readme',
+  },
+  source: {
+    github: 'pastweb/atomic-css',
+    npm: '@pastweb/atomic-css-vite',
   },
   stats: {
     stars: 10,

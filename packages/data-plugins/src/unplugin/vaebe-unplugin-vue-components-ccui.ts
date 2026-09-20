@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vue3',
     'vue3-ccui',
   ],
-  source: {
-    github: 'vaebe/ccui',
-    npm: '@vaebe/unplugin-vue-components-ccui',
-  },
   links: {
     github: 'https://github.com/vaebe/ccui',
     npm: 'https://www.npmjs.com/package/@vaebe/unplugin-vue-components-ccui',
     website: 'https://github.com/vaebe/ccui/tree/main/packages/resolver#readme',
+  },
+  source: {
+    github: 'vaebe/ccui',
+    npm: '@vaebe/unplugin-vue-components-ccui',
   },
   stats: {
     stars: 8,

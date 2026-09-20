@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'site',
     'generator',
   ],
-  source: {
-    github: 'reedhewitt/vite-plugin-squirrelly',
-    npm: 'vite-plugin-squirrelly',
-  },
   links: {
     github: 'https://github.com/reedhewitt/vite-plugin-squirrelly',
     npm: 'https://www.npmjs.com/package/vite-plugin-squirrelly',
     website: 'https://github.com/reedhewitt/vite-plugin-squirrelly#readme',
+  },
+  source: {
+    github: 'reedhewitt/vite-plugin-squirrelly',
+    npm: 'vite-plugin-squirrelly',
   },
   stats: {
     stars: 0,

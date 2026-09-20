@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'terminal',
     'ai',
   ],
-  source: {
-    github: 'kiwina/vite-plugin-terminal-mcp',
-    npm: 'vite-plugin-terminal-mcp',
-  },
   links: {
     github: 'https://github.com/kiwina/vite-plugin-terminal-mcp',
     npm: 'https://www.npmjs.com/package/vite-plugin-terminal-mcp',
     website: 'https://github.com/kiwina/vite-plugin-terminal-mcp#readme',
+  },
+  source: {
+    github: 'kiwina/vite-plugin-terminal-mcp',
+    npm: 'vite-plugin-terminal-mcp',
   },
   stats: {
     stars: 0,

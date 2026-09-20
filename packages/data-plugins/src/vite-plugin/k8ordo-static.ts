@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'static-site-generator',
     'vite-plugin',
   ],
-  source: {
-    github: 'k35o/k8ordo',
-    npm: '@k8ordo/static',
-  },
   links: {
     github: 'https://github.com/k35o/k8ordo',
     npm: 'https://www.npmjs.com/package/@k8ordo/static',
     website: 'https://ordo.k8o.me',
+  },
+  source: {
+    github: 'k35o/k8ordo',
+    npm: '@k8ordo/static',
   },
   stats: {
     stars: 0,

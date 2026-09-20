@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'hubspot',
     'upload',
   ],
-  source: {
-    github: 'kingpoststudio/vite-plugin-upload-to-hubspot',
-    npm: 'vite-plugin-upload-to-hubspot',
-  },
   links: {
     github: 'https://github.com/kingpoststudio/vite-plugin-upload-to-hubspot',
     npm: 'https://www.npmjs.com/package/vite-plugin-upload-to-hubspot',
     website: 'https://github.com/kingpoststudio/vite-plugin-upload-to-hubspot#readme',
+  },
+  source: {
+    github: 'kingpoststudio/vite-plugin-upload-to-hubspot',
+    npm: 'vite-plugin-upload-to-hubspot',
   },
   stats: {
     stars: 4,

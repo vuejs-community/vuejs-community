@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'design-system',
     'vite-plugin',
   ],
-  source: {
-    github: 'everything-dies/flesh-cage',
-    npm: '@everything-dies/flesh-cage',
-  },
   links: {
     github: 'https://github.com/everything-dies/flesh-cage',
     npm: 'https://www.npmjs.com/package/@everything-dies/flesh-cage',
     website: 'https://github.com/everything-dies/flesh-cage#readme',
+  },
+  source: {
+    github: 'everything-dies/flesh-cage',
+    npm: '@everything-dies/flesh-cage',
   },
   stats: {
     stars: 0,

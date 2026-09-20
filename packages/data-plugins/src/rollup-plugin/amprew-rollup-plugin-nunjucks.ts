@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'templating',
     'mozilla',
   ],
-  source: {
-    github: 'amprew/rollup-plugin-nunjucks',
-    npm: '@amprew/rollup-plugin-nunjucks',
-  },
   links: {
     github: 'https://github.com/amprew/rollup-plugin-nunjucks',
     npm: 'https://www.npmjs.com/package/@amprew/rollup-plugin-nunjucks',
     website: 'https://github.com/amprew/rollup-plugin-nunjucks#readme',
+  },
+  source: {
+    github: 'amprew/rollup-plugin-nunjucks',
+    npm: '@amprew/rollup-plugin-nunjucks',
   },
   stats: {
     stars: 3,

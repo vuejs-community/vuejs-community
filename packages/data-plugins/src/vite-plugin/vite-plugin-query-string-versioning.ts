@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    npm: 'vite-plugin-query-string-versioning',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-query-string-versioning',
+  },
+  source: {
+    npm: 'vite-plugin-query-string-versioning',
   },
   stats: {
     stars: 0,

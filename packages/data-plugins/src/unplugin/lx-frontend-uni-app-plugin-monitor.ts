@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    npm: '@lx-frontend/uni-app-plugin-monitor',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@lx-frontend/uni-app-plugin-monitor',
+  },
+  source: {
+    npm: '@lx-frontend/uni-app-plugin-monitor',
   },
   stats: {
     stars: 0,

@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vue3-setup',
     'vite-plugin',
   ],
-  source: {
-    npm: '@cnyyc-vite-plugin/vue3-setup-externals',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@cnyyc-vite-plugin/vue3-setup-externals',
+  },
+  source: {
+    npm: '@cnyyc-vite-plugin/vue3-setup-externals',
   },
   stats: {
     stars: 0,

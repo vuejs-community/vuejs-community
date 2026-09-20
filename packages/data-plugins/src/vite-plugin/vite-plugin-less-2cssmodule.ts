@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-less',
   ],
-  source: {
-    github: 'weeeei-bin/vite-plugin-less-2cssmodule',
-    npm: 'vite-plugin-less-2cssmodule',
-  },
   links: {
     github: 'https://github.com/weeeei-bin/vite-plugin-less-2cssmodule',
     npm: 'https://www.npmjs.com/package/vite-plugin-less-2cssmodule',
     website: 'https://github.com/weeeei-bin/vite-plugin-less-2cssmodule#readme',
+  },
+  source: {
+    github: 'weeeei-bin/vite-plugin-less-2cssmodule',
+    npm: 'vite-plugin-less-2cssmodule',
   },
   stats: {
     stars: 2,

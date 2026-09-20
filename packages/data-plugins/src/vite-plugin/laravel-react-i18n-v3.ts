@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'i18n',
     'inertiajs',
   ],
-  source: {
-    github: 'pristavu/laravel-react-i18n',
-    npm: 'laravel-react-i18n-v3',
-  },
   links: {
     github: 'https://github.com/pristavu/laravel-react-i18n',
     npm: 'https://www.npmjs.com/package/laravel-react-i18n-v3',
     website: 'https://github.com/pristavu/laravel-react-i18n#readme',
+  },
+  source: {
+    github: 'pristavu/laravel-react-i18n',
+    npm: 'laravel-react-i18n-v3',
   },
   stats: {
     stars: 0,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'dx',
     'devtools',
   ],
-  source: {
-    github: 'optikalefx/vite-plugin-svelte-inline-edit',
-    npm: 'vite-plugin-svelte-inline-edit',
-  },
   links: {
     github: 'https://github.com/optikalefx/vite-plugin-svelte-inline-edit',
     npm: 'https://www.npmjs.com/package/vite-plugin-svelte-inline-edit',
     website: 'https://github.com/optikalefx/vite-plugin-svelte-inline-edit#readme',
+  },
+  source: {
+    github: 'optikalefx/vite-plugin-svelte-inline-edit',
+    npm: 'vite-plugin-svelte-inline-edit',
   },
   stats: {
     stars: 0,

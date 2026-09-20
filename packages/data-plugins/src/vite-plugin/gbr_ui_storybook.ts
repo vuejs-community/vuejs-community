@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'vite-plugin',
     'javascript',
   ],
-  source: {
-    github: 'salespaulo/gbr_ui_storybook',
-    npm: 'gbr_ui_storybook',
-  },
   links: {
     github: 'https://github.com/salespaulo/gbr_ui_storybook',
     npm: 'https://www.npmjs.com/package/gbr_ui_storybook',
     website: 'https://github.com/salespaulo/gbr_ui_storybook#readme',
+  },
+  source: {
+    github: 'salespaulo/gbr_ui_storybook',
+    npm: 'gbr_ui_storybook',
   },
 })

@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'next',
     'router',
   ],
-  source: {
-    github: 'SuperZ3/unplugin-vue-router',
-    npm: 'unplugin-fs-router',
-  },
   links: {
     github: 'https://github.com/SuperZ3/unplugin-vue-router',
     npm: 'https://www.npmjs.com/package/unplugin-fs-router',
     website: 'https://github.com/SuperZ3/unplugin-fs-router#readme',
+  },
+  source: {
+    github: 'SuperZ3/unplugin-vue-router',
+    npm: 'unplugin-fs-router',
   },
   stats: {
     stars: 0,

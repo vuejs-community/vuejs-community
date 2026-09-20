@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'assets',
     'manifest',
   ],
-  source: {
-    github: 'hasinhayder/tyro-camo',
-    npm: 'vite-plugin-tyro-camo',
-  },
   links: {
     github: 'https://github.com/hasinhayder/tyro-camo',
     npm: 'https://www.npmjs.com/package/vite-plugin-tyro-camo',
     website: 'https://github.com/hasinhayder/tyro-camo#readme',
+  },
+  source: {
+    github: 'hasinhayder/tyro-camo',
+    npm: 'vite-plugin-tyro-camo',
   },
   stats: {
     stars: 4,

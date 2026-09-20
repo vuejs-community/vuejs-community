@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'local-mock-plugin',
     'local-mock-plugin-vite',
   ],
-  source: {
-    github: 'jiang025/vite-plugin-local-mock',
-    npm: 'vite-plugin-local-mock',
-  },
   links: {
     github: 'https://github.com/jiang025/vite-plugin-local-mock',
     npm: 'https://www.npmjs.com/package/vite-plugin-local-mock',
     website: 'https://github.com/jiang025/vite-plugin-local-mock#readme',
+  },
+  source: {
+    github: 'jiang025/vite-plugin-local-mock',
+    npm: 'vite-plugin-local-mock',
   },
   stats: {
     stars: 1,

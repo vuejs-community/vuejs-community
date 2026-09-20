@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'node',
     'hmr',
   ],
-  source: {
-    github: 'capitnflam/vite-plugin-node',
-    npm: '@flaminc/vite-plugin-node',
-  },
   links: {
     github: 'https://github.com/capitnflam/vite-plugin-node',
     npm: 'https://www.npmjs.com/package/@flaminc/vite-plugin-node',
     website: 'https://github.com/capitnflam/vite-plugin-node#readme',
+  },
+  source: {
+    github: 'capitnflam/vite-plugin-node',
+    npm: '@flaminc/vite-plugin-node',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'comparison',
     'synchronization',
   ],
-  source: {
-    github: 'dmitriy-borisov/vite-plugin-env-comparison',
-    npm: 'vite-plugin-env-comparison',
-  },
   links: {
     github: 'https://github.com/dmitriy-borisov/vite-plugin-env-comparison',
     npm: 'https://www.npmjs.com/package/vite-plugin-env-comparison',
     website: 'https://github.com/dmitriy-borisov/vite-plugin-env-comparison',
+  },
+  source: {
+    github: 'dmitriy-borisov/vite-plugin-env-comparison',
+    npm: 'vite-plugin-env-comparison',
   },
   stats: {
     stars: 0,

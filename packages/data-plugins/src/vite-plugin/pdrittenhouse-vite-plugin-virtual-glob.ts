@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'dynamic-import',
     'storybook',
   ],
-  source: {
-    github: 'pdrittenhouse/vite-plugin-virtual-glob',
-    npm: '@pdrittenhouse/vite-plugin-virtual-glob',
-  },
   links: {
     github: 'https://github.com/pdrittenhouse/vite-plugin-virtual-glob',
     npm: 'https://www.npmjs.com/package/@pdrittenhouse/vite-plugin-virtual-glob',
     website: 'https://github.com/pdrittenhouse/vite-plugin-virtual-glob#readme',
+  },
+  source: {
+    github: 'pdrittenhouse/vite-plugin-virtual-glob',
+    npm: '@pdrittenhouse/vite-plugin-virtual-glob',
   },
   stats: {
     stars: 0,

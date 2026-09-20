@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'ai-agent',
     'developer-tools',
   ],
-  source: {
-    github: 'pokefang/design-mode',
-    npm: 'claude-design-mode',
-  },
   links: {
     github: 'https://github.com/pokefang/design-mode',
     npm: 'https://www.npmjs.com/package/claude-design-mode',
     website: 'https://github.com/pokefang/design-mode#readme',
+  },
+  source: {
+    github: 'pokefang/design-mode',
+    npm: 'claude-design-mode',
   },
   stats: {
     stars: 1,

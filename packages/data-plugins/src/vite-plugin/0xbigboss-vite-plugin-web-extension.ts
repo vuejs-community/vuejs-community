@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'manifest V2',
     'manifest V3',
   ],
-  source: {
-    github: '0xBigBoss/vite-plugin-web-extension',
-    npm: '@0xbigboss/vite-plugin-web-extension',
-  },
   links: {
     github: 'https://github.com/0xBigBoss/vite-plugin-web-extension',
     npm: 'https://www.npmjs.com/package/@0xbigboss/vite-plugin-web-extension',
     website: 'https://github.com/0xBigBoss/vite-plugin-web-extension#readme',
+  },
+  source: {
+    github: '0xBigBoss/vite-plugin-web-extension',
+    npm: '@0xbigboss/vite-plugin-web-extension',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'rquanx/rollup-plugin-sp-rest-proxy',
-    npm: 'rollup-plugin-sp-rest-proxy',
-  },
   links: {
     github: 'https://github.com/rquanx/rollup-plugin-sp-rest-proxy',
     npm: 'https://www.npmjs.com/package/rollup-plugin-sp-rest-proxy',
     website: 'https://github.com/rquanx/rollup-plugin-sp-rest-proxy#readme',
+  },
+  source: {
+    github: 'rquanx/rollup-plugin-sp-rest-proxy',
+    npm: 'rollup-plugin-sp-rest-proxy',
   },
   stats: {
     stars: 4,

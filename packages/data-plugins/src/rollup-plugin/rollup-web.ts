@@ -18,13 +18,13 @@ export default defineProjectMeta({
     'playground',
     'compiler',
   ],
-  source: {
-    github: 'KonghaYao/rollup-web',
-    npm: 'rollup-web',
-  },
   links: {
     github: 'https://github.com/KonghaYao/rollup-web',
     npm: 'https://www.npmjs.com/package/rollup-web',
+  },
+  source: {
+    github: 'KonghaYao/rollup-web',
+    npm: 'rollup-web',
   },
   stats: {
     stars: 3,

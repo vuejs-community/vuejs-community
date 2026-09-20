@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'adobe',
     'cep',
   ],
-  source: {
-    npm: 'rollup-plugin-jsxbin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-jsxbin',
+  },
+  source: {
+    npm: 'rollup-plugin-jsxbin',
   },
   stats: {
     stars: 0,

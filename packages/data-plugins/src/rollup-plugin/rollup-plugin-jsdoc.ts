@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'jsdoc',
   ],
-  source: {
-    github: 'fralonra/rollup-plugin-jsdoc',
-    npm: 'rollup-plugin-jsdoc',
-  },
   links: {
     github: 'https://github.com/fralonra/rollup-plugin-jsdoc',
     npm: 'https://www.npmjs.com/package/rollup-plugin-jsdoc',
     website: 'https://github.com/fralonra/rollup-plugin-jsdoc',
+  },
+  source: {
+    github: 'fralonra/rollup-plugin-jsdoc',
+    npm: 'rollup-plugin-jsdoc',
   },
   stats: {
     stars: 1,

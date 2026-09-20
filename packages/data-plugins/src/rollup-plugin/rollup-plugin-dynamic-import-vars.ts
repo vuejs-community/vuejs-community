@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'concatenation',
     'interpolation',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-dynamic-import-vars',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-dynamic-import-vars',
     website: 'https://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-dynamic-import-vars',
   },
   stats: {
     stars: 0,

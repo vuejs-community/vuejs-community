@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'aria',
     'validation',
   ],
-  source: {
-    github: 'tinyland-inc/tinyland.dev',
-    npm: '@tummycrypt/vite-plugin-a11y',
-  },
   links: {
     github: 'https://github.com/tinyland-inc/tinyland.dev',
     npm: 'https://www.npmjs.com/package/@tummycrypt/vite-plugin-a11y',
     website: 'https://github.com/tinyland-inc/tinyland.dev#readme',
+  },
+  source: {
+    github: 'tinyland-inc/tinyland.dev',
+    npm: '@tummycrypt/vite-plugin-a11y',
   },
   stats: {
     stars: 0,

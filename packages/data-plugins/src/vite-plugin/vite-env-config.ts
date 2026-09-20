@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'env',
     'config',
   ],
-  source: {
-    npm: 'vite-env-config',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-env-config',
     website: 'https://github.com/hiship/vite-plugin-env-config',
+  },
+  source: {
+    npm: 'vite-env-config',
   },
   stats: {
     stars: 0,

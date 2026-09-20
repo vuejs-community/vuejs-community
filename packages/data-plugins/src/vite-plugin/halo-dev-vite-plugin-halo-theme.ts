@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'halo-sigs/vite-plugin-halo-theme',
-    npm: '@halo-dev/vite-plugin-halo-theme',
-  },
   links: {
     github: 'https://github.com/halo-sigs/vite-plugin-halo-theme',
     npm: 'https://www.npmjs.com/package/@halo-dev/vite-plugin-halo-theme',
     website: 'https://github.com/halo-sigs/vite-plugin-halo-theme#readme',
+  },
+  source: {
+    github: 'halo-sigs/vite-plugin-halo-theme',
+    npm: '@halo-dev/vite-plugin-halo-theme',
   },
   stats: {
     stars: 2,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'gas',
     'clasp',
   ],
-  source: {
-    github: 'wakita181009/gas-vite-plugin',
-    npm: 'gas-vite-plugin',
-  },
   links: {
     github: 'https://github.com/wakita181009/gas-vite-plugin',
     npm: 'https://www.npmjs.com/package/gas-vite-plugin',
     website: 'https://github.com/wakita181009/gas-vite-plugin#readme',
+  },
+  source: {
+    github: 'wakita181009/gas-vite-plugin',
+    npm: 'gas-vite-plugin',
   },
   stats: {
     stars: 2,

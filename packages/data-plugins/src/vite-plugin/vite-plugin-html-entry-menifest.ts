@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'cdn',
     'html',
   ],
-  source: {
-    npm: 'vite-plugin-html-entry-menifest',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-html-entry-menifest',
+  },
+  source: {
+    npm: 'vite-plugin-html-entry-menifest',
   },
   stats: {
     stars: 0,

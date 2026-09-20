@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'twada/power-assert-monorepo',
-    npm: 'rollup-plugin-power-assert',
-  },
   links: {
     github: 'https://github.com/twada/power-assert-monorepo',
     npm: 'https://www.npmjs.com/package/rollup-plugin-power-assert',
     website: 'https://github.com/twada/power-assert-monorepo',
+  },
+  source: {
+    github: 'twada/power-assert-monorepo',
+    npm: 'rollup-plugin-power-assert',
   },
   stats: {
     stars: 78,

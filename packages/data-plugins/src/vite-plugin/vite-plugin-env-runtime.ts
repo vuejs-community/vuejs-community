@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'runtime',
     'config',
   ],
-  source: {
-    github: 'werheng/vite-plugin-env-runtime',
-    npm: 'vite-plugin-env-runtime',
-  },
   links: {
     github: 'https://github.com/werheng/vite-plugin-env-runtime',
     npm: 'https://www.npmjs.com/package/vite-plugin-env-runtime',
     website: 'https://github.com/werheng/vite-plugin-env-runtime#readme',
+  },
+  source: {
+    github: 'werheng/vite-plugin-env-runtime',
+    npm: 'vite-plugin-env-runtime',
   },
   stats: {
     stars: 1,

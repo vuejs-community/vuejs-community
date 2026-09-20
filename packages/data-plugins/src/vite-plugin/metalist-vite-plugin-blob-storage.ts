@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'azure',
     'blob',
   ],
-  source: {
-    github: 'chang0022/vite-plugin-blob-storage',
-    npm: '@metalist/vite-plugin-blob-storage',
-  },
   links: {
     github: 'https://github.com/chang0022/vite-plugin-blob-storage',
     npm: 'https://www.npmjs.com/package/@metalist/vite-plugin-blob-storage',
     website: 'https://github.com/chang0022/vite-plugin-blob-storage',
+  },
+  source: {
+    github: 'chang0022/vite-plugin-blob-storage',
+    npm: '@metalist/vite-plugin-blob-storage',
   },
   stats: {
     stars: 0,

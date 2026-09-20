@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'commonjs',
   ],
-  source: {
-    github: 'xiaoxiangmoe/vite-plugin-commonjs-externals',
-    npm: '@xzdarcy/vite-plugin-commonjs-externals',
-  },
   links: {
     github: 'https://github.com/xiaoxiangmoe/vite-plugin-commonjs-externals',
     npm: 'https://www.npmjs.com/package/@xzdarcy/vite-plugin-commonjs-externals',
     website: 'https://github.com/xiaoxiangmoe/vite-plugin-commonjs-externals#readme',
+  },
+  source: {
+    github: 'xiaoxiangmoe/vite-plugin-commonjs-externals',
+    npm: '@xzdarcy/vite-plugin-commonjs-externals',
   },
   stats: {
     stars: 0,

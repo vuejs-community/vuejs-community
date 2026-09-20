@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'imagemin',
     'vben',
   ],
-  source: {
-    github: 'anncwb/vite-plugin-compression',
-    npm: 'vite-plugin-compression',
-  },
   links: {
     github: 'https://github.com/anncwb/vite-plugin-compression',
     npm: 'https://www.npmjs.com/package/vite-plugin-compression',
     website: 'https://github.com/anncwb/vite-plugin-compression/tree/master/#readme',
+  },
+  source: {
+    github: 'anncwb/vite-plugin-compression',
+    npm: 'vite-plugin-compression',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'solid',
   ],
-  source: {
-    github: 'solidjs/filesystem-routing',
-    npm: 'filesystem-routing',
-  },
   links: {
     github: 'https://github.com/solidjs/filesystem-routing',
     npm: 'https://www.npmjs.com/package/filesystem-routing',
     website: 'https://github.com/solidjs/filesystem-routing#readme',
+  },
+  source: {
+    github: 'solidjs/filesystem-routing',
+    npm: 'filesystem-routing',
   },
   stats: {
     stars: 19,

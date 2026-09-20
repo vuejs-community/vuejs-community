@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'scss',
     'less',
   ],
-  source: {
-    github: 'kieranwv/vite-plugin-bundle-styles',
-    npm: 'vite-plugin-bundle-styles',
-  },
   links: {
     github: 'https://github.com/kieranwv/vite-plugin-bundle-styles',
     npm: 'https://www.npmjs.com/package/vite-plugin-bundle-styles',
     website: 'https://github.com/kieranwv/vite-plugin-bundle-styles#readme',
+  },
+  source: {
+    github: 'kieranwv/vite-plugin-bundle-styles',
+    npm: 'vite-plugin-bundle-styles',
   },
   stats: {
     stars: 1,

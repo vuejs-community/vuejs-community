@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'jsx',
     'react',
   ],
-  source: {
-    github: 'konsumer/rollup-plugin-jsx',
-    npm: 'rollup-plugin-jsx',
-  },
   links: {
     github: 'https://github.com/konsumer/rollup-plugin-jsx',
     npm: 'https://www.npmjs.com/package/rollup-plugin-jsx',
     website: 'https://github.com/konsumer/rollup-plugin-jsx#readme',
+  },
+  source: {
+    github: 'konsumer/rollup-plugin-jsx',
+    npm: 'rollup-plugin-jsx',
   },
   stats: {
     stars: 12,

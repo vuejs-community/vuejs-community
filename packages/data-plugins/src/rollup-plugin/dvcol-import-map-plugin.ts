@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'esm',
     'micro-frontend',
   ],
-  source: {
-    github: 'dvcol/vite-plugin-import-map',
-    npm: '@dvcol/import-map-plugin',
-  },
   links: {
     github: 'https://github.com/dvcol/vite-plugin-import-map',
     npm: 'https://www.npmjs.com/package/@dvcol/import-map-plugin',
     website: 'https://github.com/dvcol/vite-plugin-import-map',
+  },
+  source: {
+    github: 'dvcol/vite-plugin-import-map',
+    npm: '@dvcol/import-map-plugin',
   },
   stats: {
     stars: 0,

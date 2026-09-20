@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'css',
     'sourcemap',
   ],
-  source: {
-    github: 'MarioCadenas/vite-plugin-css-sourcemap',
-    npm: 'vite-plugin-css-sourcemap',
-  },
   links: {
     github: 'https://github.com/MarioCadenas/vite-plugin-css-sourcemap',
     npm: 'https://www.npmjs.com/package/vite-plugin-css-sourcemap',
     website: 'https://github.com/MarioCadenas/vite-plugin-css-sourcemap#readme',
+  },
+  source: {
+    github: 'MarioCadenas/vite-plugin-css-sourcemap',
+    npm: 'vite-plugin-css-sourcemap',
   },
   stats: {
     stars: 12,

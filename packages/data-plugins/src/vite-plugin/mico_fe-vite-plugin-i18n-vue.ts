@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'i18n',
     'auto-translate',
   ],
-  source: {
-    npm: '@mico_fe/vite-plugin-i18n-vue',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@mico_fe/vite-plugin-i18n-vue',
+  },
+  source: {
+    npm: '@mico_fe/vite-plugin-i18n-vue',
   },
   stats: {
     stars: 0,

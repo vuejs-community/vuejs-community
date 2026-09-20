@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'types',
     'typescript',
   ],
-  source: {
-    github: 'omnysecurity/rollup-plugin-typed-gql',
-    npm: 'rollup-plugin-typed-gql',
-  },
   links: {
     github: 'https://github.com/omnysecurity/rollup-plugin-typed-gql',
     npm: 'https://www.npmjs.com/package/rollup-plugin-typed-gql',
     website: 'https://github.com/omnysecurity/rollup-plugin-typed-gql#readme',
+  },
+  source: {
+    github: 'omnysecurity/rollup-plugin-typed-gql',
+    npm: 'rollup-plugin-typed-gql',
   },
   stats: {
     stars: 3,

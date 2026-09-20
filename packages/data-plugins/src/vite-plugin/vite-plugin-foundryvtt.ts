@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    npm: 'vite-plugin-foundryvtt',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-foundryvtt',
+  },
+  source: {
+    npm: 'vite-plugin-foundryvtt',
   },
   stats: {
     stars: 0,

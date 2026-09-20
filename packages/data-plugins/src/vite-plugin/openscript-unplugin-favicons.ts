@@ -28,14 +28,14 @@ export default defineProjectMeta({
     'generating-favicons',
     'favicons-generator',
   ],
-  source: {
-    github: 'openscript/unplugin-favicons',
-    npm: '@openscript/unplugin-favicons',
-  },
   links: {
     github: 'https://github.com/openscript/unplugin-favicons',
     npm: 'https://www.npmjs.com/package/@openscript/unplugin-favicons',
     website: 'https://github.com/anolilab/unplugin-favicons',
+  },
+  source: {
+    github: 'openscript/unplugin-favicons',
+    npm: '@openscript/unplugin-favicons',
   },
   stats: {
     stars: 0,

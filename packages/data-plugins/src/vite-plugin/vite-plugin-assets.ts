@@ -13,13 +13,13 @@ export default defineProjectMeta({
     'vite-plugin',
     'assets',
   ],
-  source: {
-    github: 'edersoares/vite-plugin-assets',
-    npm: 'vite-plugin-assets',
-  },
   links: {
     github: 'https://github.com/edersoares/vite-plugin-assets',
     npm: 'https://www.npmjs.com/package/vite-plugin-assets',
+  },
+  source: {
+    github: 'edersoares/vite-plugin-assets',
+    npm: 'vite-plugin-assets',
   },
   stats: {
     stars: 0,

@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'offline',
     'pwa',
   ],
-  source: {
-    github: 'tinloof/tanstack-wsr',
-    npm: '@tinloof/tanstack-wsr',
-  },
   links: {
     github: 'https://github.com/tinloof/tanstack-wsr',
     npm: 'https://www.npmjs.com/package/@tinloof/tanstack-wsr',
     website: 'https://github.com/tinloof/tanstack-wsr#readme',
+  },
+  source: {
+    github: 'tinloof/tanstack-wsr',
+    npm: '@tinloof/tanstack-wsr',
   },
   stats: {
     stars: 0,

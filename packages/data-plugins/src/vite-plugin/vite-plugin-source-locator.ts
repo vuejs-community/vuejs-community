@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'cursor',
     'vscode',
   ],
-  source: {
-    github: 'amir1824/UI-Locator',
-    npm: 'vite-plugin-source-locator',
-  },
   links: {
     github: 'https://github.com/amir1824/UI-Locator',
     npm: 'https://www.npmjs.com/package/vite-plugin-source-locator',
     website: 'https://github.com/amir1824/UI-Locator#readme',
+  },
+  source: {
+    github: 'amir1824/UI-Locator',
+    npm: 'vite-plugin-source-locator',
   },
   stats: {
     stars: 0,

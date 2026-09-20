@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin-directory',
     'vite-plugin-folders',
   ],
-  source: {
-    github: 'amihhs/vite-plugin-dirs',
-    npm: 'vite-plugin-dirs',
-  },
   links: {
     github: 'https://github.com/amihhs/vite-plugin-dirs',
     npm: 'https://www.npmjs.com/package/vite-plugin-dirs',
     website: 'https://github.com/amihhs/vite-plugin-dirs#readme',
+  },
+  source: {
+    github: 'amihhs/vite-plugin-dirs',
+    npm: 'vite-plugin-dirs',
   },
   stats: {
     stars: 0,

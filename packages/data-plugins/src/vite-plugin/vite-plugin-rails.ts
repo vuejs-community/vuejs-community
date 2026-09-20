@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'ElMassimo/vite_ruby',
-    npm: 'vite-plugin-rails',
-  },
   links: {
     github: 'https://github.com/ElMassimo/vite_ruby',
     npm: 'https://www.npmjs.com/package/vite-plugin-rails',
     website: 'https://github.com/ElMassimo/vite_ruby/blob/main/vite-plugin-rails',
+  },
+  source: {
+    github: 'ElMassimo/vite_ruby',
+    npm: 'vite-plugin-rails',
   },
   stats: {
     stars: 1592,

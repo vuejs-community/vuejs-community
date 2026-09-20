@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'kvoon3/unplugin-dist-zip',
-    npm: 'unplugin-dist-zip',
-  },
   links: {
     github: 'https://github.com/kvoon3/unplugin-dist-zip',
     npm: 'https://www.npmjs.com/package/unplugin-dist-zip',
     website: 'https://github.com/kvoon3/unplugin-dist-zip#readme',
+  },
+  source: {
+    github: 'kvoon3/unplugin-dist-zip',
+    npm: 'unplugin-dist-zip',
   },
   stats: {
     stars: 0,

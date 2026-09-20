@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'ssg',
     'ssr',
   ],
-  source: {
-    github: 'vuetifyjs/vite-ssg',
-    npm: '@vuetify/vite-ssg',
-  },
   links: {
     github: 'https://github.com/vuetifyjs/vite-ssg',
     npm: 'https://www.npmjs.com/package/@vuetify/vite-ssg',
     website: 'https://github.com/vuetifyjs/vite-ssg',
+  },
+  source: {
+    github: 'vuetifyjs/vite-ssg',
+    npm: '@vuetify/vite-ssg',
   },
   stats: {
     stars: 1,

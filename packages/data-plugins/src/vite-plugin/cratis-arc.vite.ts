@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'proxy',
     'aspnetcore',
   ],
-  source: {
-    github: 'Cratis/Arc',
-    npm: '@cratis/arc.vite',
-  },
   links: {
     github: 'https://github.com/Cratis/Arc',
     npm: 'https://www.npmjs.com/package/@cratis/arc.vite',
     website: 'https://www.cratis.io/arc/',
+  },
+  source: {
+    github: 'Cratis/Arc',
+    npm: '@cratis/arc.vite',
   },
   stats: {
     stars: 11,

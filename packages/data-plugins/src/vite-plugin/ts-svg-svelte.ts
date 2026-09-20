@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'typescript',
     'svelte',
   ],
-  source: {
-    github: 'raycnwong/ts-svg',
-    npm: '@ts-svg/svelte',
-  },
   links: {
     github: 'https://github.com/raycnwong/ts-svg',
     npm: 'https://www.npmjs.com/package/@ts-svg/svelte',
     website: 'https://github.com/raycnwong/ts-svg#readme',
+  },
+  source: {
+    github: 'raycnwong/ts-svg',
+    npm: '@ts-svg/svelte',
   },
   stats: {
     stars: 0,

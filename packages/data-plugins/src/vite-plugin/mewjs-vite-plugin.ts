@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'lint',
     'vite-plugin',
   ],
-  source: {
-    github: 'mewjs/mew',
-    npm: '@mewjs/vite-plugin',
-  },
   links: {
     github: 'https://github.com/mewjs/mew',
     npm: 'https://www.npmjs.com/package/@mewjs/vite-plugin',
     website: 'https://github.com/mewjs/mew#readme',
+  },
+  source: {
+    github: 'mewjs/mew',
+    npm: '@mewjs/vite-plugin',
   },
   stats: {
     stars: 1,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'rollup-babel',
   ],
-  source: {
-    github: 'vovkabelov/rollup-plugin-simple-babel',
-    npm: 'rollup-plugin-simple-babel',
-  },
   links: {
     github: 'https://github.com/vovkabelov/rollup-plugin-simple-babel',
     npm: 'https://www.npmjs.com/package/rollup-plugin-simple-babel',
     website: 'https://github.com/vovkabelov/rollup-plugin-simple-babel#readme',
+  },
+  source: {
+    github: 'vovkabelov/rollup-plugin-simple-babel',
+    npm: 'rollup-plugin-simple-babel',
   },
   stats: {
     stars: 0,

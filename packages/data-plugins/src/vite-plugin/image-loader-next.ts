@@ -33,14 +33,14 @@ export default defineProjectMeta({
     'vitest',
     'webp',
   ],
-  source: {
-    github: 'remcohaszing/image-loader-next',
-    npm: 'image-loader-next',
-  },
   links: {
     github: 'https://github.com/remcohaszing/image-loader-next',
     npm: 'https://www.npmjs.com/package/image-loader-next',
     website: 'https://github.com/remcohaszing/image-loader-next#readme',
+  },
+  source: {
+    github: 'remcohaszing/image-loader-next',
+    npm: 'image-loader-next',
   },
   stats: {
     stars: 1,

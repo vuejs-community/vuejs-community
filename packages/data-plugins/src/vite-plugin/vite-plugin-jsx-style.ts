@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'css in js',
     'jsx-style',
   ],
-  source: {
-    npm: 'vite-plugin-jsx-style',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-jsx-style',
+  },
+  source: {
+    npm: 'vite-plugin-jsx-style',
   },
   stats: {
     stars: 0,

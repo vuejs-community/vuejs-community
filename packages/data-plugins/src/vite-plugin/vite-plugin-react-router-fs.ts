@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'file-based-routing',
     'react',
   ],
-  source: {
-    npm: 'vite-plugin-react-router-fs',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-react-router-fs',
+  },
+  source: {
+    npm: 'vite-plugin-react-router-fs',
   },
   stats: {
     stars: 0,

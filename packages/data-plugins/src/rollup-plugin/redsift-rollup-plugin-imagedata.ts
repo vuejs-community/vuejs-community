@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'image',
     'metadata',
   ],
-  source: {
-    github: 'redsift/rollup-plugin-imagedata',
-    npm: '@redsift/rollup-plugin-imagedata',
-  },
   links: {
     github: 'https://github.com/redsift/rollup-plugin-imagedata',
     npm: 'https://www.npmjs.com/package/@redsift/rollup-plugin-imagedata',
     website: 'https://github.com/redsift/rollup-plugin-imagedata',
+  },
+  source: {
+    github: 'redsift/rollup-plugin-imagedata',
+    npm: '@redsift/rollup-plugin-imagedata',
   },
   stats: {
     stars: 1,

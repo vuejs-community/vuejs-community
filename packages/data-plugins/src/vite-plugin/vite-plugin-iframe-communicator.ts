@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-iframe-communicator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-iframe-communicator',
+  },
+  source: {
+    npm: 'vite-plugin-iframe-communicator',
   },
   stats: {
     stars: 0,

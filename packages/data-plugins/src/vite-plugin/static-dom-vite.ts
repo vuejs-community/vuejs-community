@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'jsx',
     'jsx-runtime',
   ],
-  source: {
-    github: 'joshburgess/static-dom',
-    npm: '@static-dom/vite',
-  },
   links: {
     github: 'https://github.com/joshburgess/static-dom',
     npm: 'https://www.npmjs.com/package/@static-dom/vite',
     website: 'https://github.com/joshburgess/static-dom#readme',
+  },
+  source: {
+    github: 'joshburgess/static-dom',
+    npm: '@static-dom/vite',
   },
   stats: {
     stars: 0,

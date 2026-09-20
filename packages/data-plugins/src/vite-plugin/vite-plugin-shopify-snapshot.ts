@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'shopify',
     'vite-plugin',
   ],
-  source: {
-    github: 'montalvomiguelo/shopify-vite',
-    npm: 'vite-plugin-shopify-snapshot',
-  },
   links: {
     github: 'https://github.com/montalvomiguelo/shopify-vite',
     npm: 'https://www.npmjs.com/package/vite-plugin-shopify-snapshot',
     website: 'https://github.com/montalvomiguelo/shopify-vite#readme',
+  },
+  source: {
+    github: 'montalvomiguelo/shopify-vite',
+    npm: 'vite-plugin-shopify-snapshot',
   },
   stats: {
     stars: 0,

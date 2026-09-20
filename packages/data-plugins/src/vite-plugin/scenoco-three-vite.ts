@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'components',
     'gamedev',
   ],
-  source: {
-    github: 'RomaRogov/scenoco-three',
-    npm: '@scenoco-three/vite',
-  },
   links: {
     github: 'https://github.com/RomaRogov/scenoco-three',
     npm: 'https://www.npmjs.com/package/@scenoco-three/vite',
     website: 'https://github.com/RomaRogov/scenoco-three/tree/main/packages/vite#readme',
+  },
+  source: {
+    github: 'RomaRogov/scenoco-three',
+    npm: '@scenoco-three/vite',
   },
   stats: {
     stars: 0,

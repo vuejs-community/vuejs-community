@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'extensions',
     'resolve',
   ],
-  source: {
-    github: 'zelzen/rollup-plugin-extensions',
-    npm: 'rollup-plugin-extensions',
-  },
   links: {
     github: 'https://github.com/zelzen/rollup-plugin-extensions',
     npm: 'https://www.npmjs.com/package/rollup-plugin-extensions',
+  },
+  source: {
+    github: 'zelzen/rollup-plugin-extensions',
+    npm: 'rollup-plugin-extensions',
   },
   stats: {
     stars: 5,

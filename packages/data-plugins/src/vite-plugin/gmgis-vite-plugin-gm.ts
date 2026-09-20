@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'Cesium',
     'dc-sdk',
   ],
-  source: {
-    npm: '@gmgis/vite-plugin-gm',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@gmgis/vite-plugin-gm',
+  },
+  source: {
+    npm: '@gmgis/vite-plugin-gm',
   },
   stats: {
     stars: 0,

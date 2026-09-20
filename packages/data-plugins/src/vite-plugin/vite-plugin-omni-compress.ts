@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'build-tool',
     'asset-optimization',
   ],
-  source: {
-    github: 'dharanish-v/omni-compress',
-    npm: 'vite-plugin-omni-compress',
-  },
   links: {
     github: 'https://github.com/dharanish-v/omni-compress',
     npm: 'https://www.npmjs.com/package/vite-plugin-omni-compress',
     website: 'https://github.com/dharanish-v/omni-compress/tree/master/packages/vite-plugin-omni-compress#readme',
+  },
+  source: {
+    github: 'dharanish-v/omni-compress',
+    npm: 'vite-plugin-omni-compress',
   },
   stats: {
     stars: 2,

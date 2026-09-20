@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'embeddable',
     'vite-plugin',
   ],
-  source: {
-    github: 'conciv-dev/conciv',
-    npm: '@conciv/it',
-  },
   links: {
     github: 'https://github.com/conciv-dev/conciv',
     npm: 'https://www.npmjs.com/package/@conciv/it',
     website: 'https://conciv.dev',
+  },
+  source: {
+    github: 'conciv-dev/conciv',
+    npm: '@conciv/it',
   },
   stats: {
     stars: 6,

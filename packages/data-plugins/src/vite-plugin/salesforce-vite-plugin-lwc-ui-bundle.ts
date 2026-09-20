@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'off-platform',
     'compiler',
   ],
-  source: {
-    github: 'salesforce-experience-platform-emu/webapps',
-    npm: '@salesforce/vite-plugin-lwc-ui-bundle',
-  },
   links: {
     github: 'https://github.com/salesforce-experience-platform-emu/webapps',
     npm: 'https://www.npmjs.com/package/@salesforce/vite-plugin-lwc-ui-bundle',
     website: 'https://github.com/salesforce-experience-platform-emu/webapps#readme',
+  },
+  source: {
+    github: 'salesforce-experience-platform-emu/webapps',
+    npm: '@salesforce/vite-plugin-lwc-ui-bundle',
   },
   stats: {
     stars: 0,

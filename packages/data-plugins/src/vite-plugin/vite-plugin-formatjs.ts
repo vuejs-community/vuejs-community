@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'intl',
     'typescript',
   ],
-  source: {
-    github: 'asfamilybank/vite-plugin-formatjs',
-    npm: 'vite-plugin-formatjs',
-  },
   links: {
     github: 'https://github.com/asfamilybank/vite-plugin-formatjs',
     npm: 'https://www.npmjs.com/package/vite-plugin-formatjs',
     website: 'https://github.com/asfamilybank/vite-plugin-formatjs#readme',
+  },
+  source: {
+    github: 'asfamilybank/vite-plugin-formatjs',
+    npm: 'vite-plugin-formatjs',
   },
   stats: {
     stars: 0,

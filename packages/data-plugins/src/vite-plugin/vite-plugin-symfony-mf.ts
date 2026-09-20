@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'symfony',
   ],
-  source: {
-    github: 'lhapaipai/vite-plugin-symfony',
-    npm: 'vite-plugin-symfony-mf',
-  },
   links: {
     github: 'https://github.com/lhapaipai/vite-plugin-symfony',
     npm: 'https://www.npmjs.com/package/vite-plugin-symfony-mf',
     website: 'https://github.com/lhapaipai/vite-plugin-symfony#readme',
+  },
+  source: {
+    github: 'lhapaipai/vite-plugin-symfony',
+    npm: 'vite-plugin-symfony-mf',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'open-graph',
     'open-graph-protocol',
   ],
-  source: {
-    github: 'Lmmmmmm-bb/vite-plugin-open-graph',
-    npm: 'vite-plugin-open-graph',
-  },
   links: {
     github: 'https://github.com/Lmmmmmm-bb/vite-plugin-open-graph',
     npm: 'https://www.npmjs.com/package/vite-plugin-open-graph',
     website: 'https://github.com/Lmmmmmm-bb/vite-plugin-open-graph#readme',
+  },
+  source: {
+    github: 'Lmmmmmm-bb/vite-plugin-open-graph',
+    npm: 'vite-plugin-open-graph',
   },
   stats: {
     stars: 7,

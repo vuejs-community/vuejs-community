@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'xparcai/vite-plugin-meta-env-dts',
-    npm: 'vite-plugin-meta-env-dts',
-  },
   links: {
     github: 'https://github.com/xparcai/vite-plugin-meta-env-dts',
     npm: 'https://www.npmjs.com/package/vite-plugin-meta-env-dts',
     website: 'https://github.com/xparcai/vite-plugin-meta-env-dts#readme',
+  },
+  source: {
+    github: 'xparcai/vite-plugin-meta-env-dts',
+    npm: 'vite-plugin-meta-env-dts',
   },
   stats: {
     stars: 2,

@@ -21,11 +21,11 @@ export default defineProjectMeta({
     'screenshot',
     'development',
   ],
-  source: {
-    npm: '@vibro/bro',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@vibro/bro',
+  },
+  source: {
+    npm: '@vibro/bro',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'clddup/unplugin-iconfiy',
-    npm: 'unplugin-offline-iconify',
-  },
   links: {
     github: 'https://github.com/clddup/unplugin-iconfiy',
     npm: 'https://www.npmjs.com/package/unplugin-offline-iconify',
     website: 'https://github.com/clddup/unplugin-iconfiy#readme',
+  },
+  source: {
+    github: 'clddup/unplugin-iconfiy',
+    npm: 'unplugin-offline-iconify',
   },
   stats: {
     stars: 1,

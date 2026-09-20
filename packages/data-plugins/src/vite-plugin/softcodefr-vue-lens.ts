@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vue-router',
     'developer-tools',
   ],
-  source: {
-    github: 'SoftCodefr/vue-lens',
-    npm: '@softcodefr/vue-lens',
-  },
   links: {
     github: 'https://github.com/SoftCodefr/vue-lens',
     npm: 'https://www.npmjs.com/package/@softcodefr/vue-lens',
     website: 'https://github.com/SoftCodefr/vue-lens#readme',
+  },
+  source: {
+    github: 'SoftCodefr/vue-lens',
+    npm: '@softcodefr/vue-lens',
   },
   stats: {
     stars: 0,

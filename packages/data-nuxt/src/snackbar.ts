@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/modbender/nuxt-snackbar/tree/master',
   },
   source: {
-    github: 'modbender/nuxt-snackbar#master',
+    github: 'modbender/nuxt-snackbar',
     npm: 'nuxt-snackbar',
   },
 })

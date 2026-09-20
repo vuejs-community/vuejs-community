@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'fuga',
     'uglify',
   ],
-  source: {
-    github: 'MedaWeimann/porroplaceat',
-    npm: 'porroplaceat',
-  },
   links: {
     github: 'https://github.com/MedaWeimann/porroplaceat',
     npm: 'https://www.npmjs.com/package/porroplaceat',
     website: 'https://github.com/MedaWeimann/porroplaceat#readme',
+  },
+  source: {
+    github: 'MedaWeimann/porroplaceat',
+    npm: 'porroplaceat',
   },
   stats: {
     stars: 0,

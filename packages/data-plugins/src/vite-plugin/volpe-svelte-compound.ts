@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'svelte',
     'compound-components',
   ],
-  source: {
-    npm: '@volpe/svelte-compound',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@volpe/svelte-compound',
+  },
+  source: {
+    npm: '@volpe/svelte-compound',
   },
   stats: {
     stars: 0,

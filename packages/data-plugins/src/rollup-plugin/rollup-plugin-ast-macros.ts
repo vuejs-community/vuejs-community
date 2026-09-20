@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'macro',
     'ast',
   ],
-  source: {
-    github: 'shanewholloway/rollup-plugin-ast-macros',
-    npm: 'rollup-plugin-ast-macros',
-  },
   links: {
     github: 'https://github.com/shanewholloway/rollup-plugin-ast-macros',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ast-macros',
     website: 'https://github.com/shanewholloway/rollup-plugin-ast-macros#readme',
+  },
+  source: {
+    github: 'shanewholloway/rollup-plugin-ast-macros',
+    npm: 'rollup-plugin-ast-macros',
   },
   stats: {
     stars: 5,

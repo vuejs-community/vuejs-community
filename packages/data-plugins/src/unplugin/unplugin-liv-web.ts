@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'liv-web',
     'unplugin',
   ],
-  source: {
-    npm: 'unplugin-liv-web',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-liv-web',
+  },
+  source: {
+    npm: 'unplugin-liv-web',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'againstah-rgb/tailwindcss-source',
-    npm: 'tailwindcss-source',
-  },
   links: {
     github: 'https://github.com/againstah-rgb/tailwindcss-source',
     npm: 'https://www.npmjs.com/package/tailwindcss-source',
     website: 'https://github.com/againstah-rgb/tailwindcss-source#readme',
+  },
+  source: {
+    github: 'againstah-rgb/tailwindcss-source',
+    npm: 'tailwindcss-source',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'image-optimization',
     'duplicates',
   ],
-  source: {
-    github: 'p4avinash/dev-asset-inspector',
-    npm: 'dev-asset-inspector',
-  },
   links: {
     github: 'https://github.com/p4avinash/dev-asset-inspector',
     npm: 'https://www.npmjs.com/package/dev-asset-inspector',
     website: 'https://github.com/p4avinash/dev-asset-inspector#readme',
+  },
+  source: {
+    github: 'p4avinash/dev-asset-inspector',
+    npm: 'dev-asset-inspector',
   },
   stats: {
     stars: 0,

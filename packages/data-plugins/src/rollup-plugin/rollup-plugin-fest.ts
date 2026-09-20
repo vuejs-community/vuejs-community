@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'dmitryshimkin/rollup-plugin-fest',
-    npm: 'rollup-plugin-fest',
-  },
   links: {
     github: 'https://github.com/dmitryshimkin/rollup-plugin-fest',
     npm: 'https://www.npmjs.com/package/rollup-plugin-fest',
     website: 'https://github.com/dmitryshimkin/rollup-plugin-fest#readme',
+  },
+  source: {
+    github: 'dmitryshimkin/rollup-plugin-fest',
+    npm: 'rollup-plugin-fest',
   },
   stats: {
     stars: 0,

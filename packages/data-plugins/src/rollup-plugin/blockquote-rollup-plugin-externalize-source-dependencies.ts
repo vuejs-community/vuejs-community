@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'source',
     'rollup-plugin',
   ],
-  source: {
-    github: 'oscarmarina/rollup-plugin-externalize-source-dependencies',
-    npm: '@blockquote/rollup-plugin-externalize-source-dependencies',
-  },
   links: {
     github: 'https://github.com/oscarmarina/rollup-plugin-externalize-source-dependencies',
     npm: 'https://www.npmjs.com/package/@blockquote/rollup-plugin-externalize-source-dependencies',
     website: 'https://github.com/oscarmarina/rollup-plugin-externalize-source-dependencies',
+  },
+  source: {
+    github: 'oscarmarina/rollup-plugin-externalize-source-dependencies',
+    npm: '@blockquote/rollup-plugin-externalize-source-dependencies',
   },
   stats: {
     stars: 0,

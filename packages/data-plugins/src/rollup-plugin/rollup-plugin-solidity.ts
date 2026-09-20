@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'solidity',
   ],
-  source: {
-    github: 'hrntknr/rollup-plugin-solidity',
-    npm: 'rollup-plugin-solidity',
-  },
   links: {
     github: 'https://github.com/hrntknr/rollup-plugin-solidity',
     npm: 'https://www.npmjs.com/package/rollup-plugin-solidity',
     website: 'https://github.com/hrntknr/rollup-plugin-solidity#readme',
+  },
+  source: {
+    github: 'hrntknr/rollup-plugin-solidity',
+    npm: 'rollup-plugin-solidity',
   },
   stats: {
     stars: 1,

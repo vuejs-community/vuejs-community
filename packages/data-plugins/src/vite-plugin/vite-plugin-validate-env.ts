@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'validation',
     'standard-schema',
   ],
-  source: {
-    github: 'handtrix/vite-plugin-validate-env',
-    npm: 'vite-plugin-validate-env',
-  },
   links: {
     github: 'https://github.com/handtrix/vite-plugin-validate-env',
     npm: 'https://www.npmjs.com/package/vite-plugin-validate-env',
     website: 'https://github.com/handtrix/vite-plugin-validate-env#readme',
+  },
+  source: {
+    github: 'handtrix/vite-plugin-validate-env',
+    npm: 'vite-plugin-validate-env',
   },
   stats: {
     stars: 1,

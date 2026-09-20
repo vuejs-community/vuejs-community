@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'secure',
     'rollup-plugin',
   ],
-  source: {
-    npm: '@jay-framework/rollup-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@jay-framework/rollup-plugin',
+  },
+  source: {
+    npm: '@jay-framework/rollup-plugin',
   },
   stats: {
     stars: 0,

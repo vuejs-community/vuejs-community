@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'runtime-api',
     'vite-plugin',
   ],
-  source: {
-    npm: '@mf-cloud-component/helper',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@mf-cloud-component/helper',
+  },
+  source: {
+    npm: '@mf-cloud-component/helper',
   },
   stats: {
     stars: 0,

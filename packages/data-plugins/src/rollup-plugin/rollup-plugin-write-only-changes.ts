@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'changes',
     'write',
   ],
-  source: {
-    github: 'prantlf/rollup-plugin-write-only-changes',
-    npm: 'rollup-plugin-write-only-changes',
-  },
   links: {
     github: 'https://github.com/prantlf/rollup-plugin-write-only-changes',
     npm: 'https://www.npmjs.com/package/rollup-plugin-write-only-changes',
     website: 'http://prantlf.github.com/rollup-plugin-write-only-changes/',
+  },
+  source: {
+    github: 'prantlf/rollup-plugin-write-only-changes',
+    npm: 'rollup-plugin-write-only-changes',
   },
   stats: {
     stars: 2,

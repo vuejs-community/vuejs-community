@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'ssr',
     'ssg',
   ],
-  source: {
-    github: 'amojs-dev/amojs',
-    npm: '@amojs.dev/vite',
-  },
   links: {
     github: 'https://github.com/amojs-dev/amojs',
     npm: 'https://www.npmjs.com/package/@amojs.dev/vite',
     website: 'https://amojs.dev',
+  },
+  source: {
+    github: 'amojs-dev/amojs',
+    npm: '@amojs.dev/vite',
   },
   stats: {
     stars: 7,

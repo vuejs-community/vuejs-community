@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'placeholder',
     'image-placeholder',
   ],
-  source: {
-    github: 'pengzhanbo/vite-plugin-image-placeholder',
-    npm: 'vite-plugin-image-placeholder',
-  },
   links: {
     github: 'https://github.com/pengzhanbo/vite-plugin-image-placeholder',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-placeholder',
     website: 'https://github.com/pengzhanbo/vite-plugin-image-placeholder#readme',
+  },
+  source: {
+    github: 'pengzhanbo/vite-plugin-image-placeholder',
+    npm: 'vite-plugin-image-placeholder',
   },
   stats: {
     stars: 12,

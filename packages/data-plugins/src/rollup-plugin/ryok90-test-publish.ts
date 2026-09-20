@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'zephyr',
     'deploy',
   ],
-  source: {
-    npm: 'ryok90-test-publish',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/ryok90-test-publish',
+  },
+  source: {
+    npm: 'ryok90-test-publish',
   },
   stats: {
     stars: 0,

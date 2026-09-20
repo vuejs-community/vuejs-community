@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'nqdy666/vite-plugin-hot-target',
-    npm: 'vite-plugin-hot-target',
-  },
   links: {
     github: 'https://github.com/nqdy666/vite-plugin-hot-target',
     npm: 'https://www.npmjs.com/package/vite-plugin-hot-target',
     website: 'https://github.com/nqdy666/vite-plugin-hot-target',
+  },
+  source: {
+    github: 'nqdy666/vite-plugin-hot-target',
+    npm: 'vite-plugin-hot-target',
   },
   stats: {
     stars: 0,

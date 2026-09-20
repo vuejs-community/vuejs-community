@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'nunjucks',
   ],
-  source: {
-    github: 'Jax-p/vite-plugin-nunjucks',
-    npm: 'vite-plugin-nunjucks',
-  },
   links: {
     github: 'https://github.com/Jax-p/vite-plugin-nunjucks',
     npm: 'https://www.npmjs.com/package/vite-plugin-nunjucks',
     website: 'https://github.com/Jax-p/vite-plugin-nunjucks#readme',
+  },
+  source: {
+    github: 'Jax-p/vite-plugin-nunjucks',
+    npm: 'vite-plugin-nunjucks',
   },
   stats: {
     stars: 0,

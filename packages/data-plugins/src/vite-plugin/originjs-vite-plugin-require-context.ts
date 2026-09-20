@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'require.context',
   ],
-  source: {
-    github: 'originjs/vite-plugins',
-    npm: '@originjs/vite-plugin-require-context',
-  },
   links: {
     github: 'https://github.com/originjs/vite-plugins',
     npm: 'https://www.npmjs.com/package/@originjs/vite-plugin-require-context',
     website: 'https://github.com/originjs/vite-plugins/tree/main/packages/vite-plugin-require-context#readme',
+  },
+  source: {
+    github: 'originjs/vite-plugins',
+    npm: '@originjs/vite-plugin-require-context',
   },
   stats: {
     stars: 0,

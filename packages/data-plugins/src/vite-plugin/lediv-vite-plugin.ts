@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'html',
     'build',
   ],
-  source: {
-    npm: '@lediv/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@lediv/vite-plugin',
     website: 'https://lediv.com',
+  },
+  source: {
+    npm: '@lediv/vite-plugin',
   },
   stats: {
     stars: 0,

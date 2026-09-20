@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'monaco',
     'editor',
   ],
-  source: {
-    github: 'vdesjs/vite-plugin-monaco-editor',
-    npm: 'vite-plugin-monaco-editor-new',
-  },
   links: {
     github: 'https://github.com/vdesjs/vite-plugin-monaco-editor',
     npm: 'https://www.npmjs.com/package/vite-plugin-monaco-editor-new',
     website: 'https://github.com/vdesjs/vite-plugin-monaco-editor#readme',
+  },
+  source: {
+    github: 'vdesjs/vite-plugin-monaco-editor',
+    npm: 'vite-plugin-monaco-editor-new',
   },
   stats: {
     stars: 234,

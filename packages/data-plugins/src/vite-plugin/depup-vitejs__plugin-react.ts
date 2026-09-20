@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'vitejs/vite-plugin-react',
-    npm: '@depup/vitejs__plugin-react',
-  },
   links: {
     github: 'https://github.com/vitejs/vite-plugin-react',
     npm: 'https://www.npmjs.com/package/@depup/vitejs__plugin-react',
     website: 'https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#readme',
+  },
+  source: {
+    github: 'vitejs/vite-plugin-react',
+    npm: '@depup/vitejs__plugin-react',
   },
   stats: {
     stars: 0,

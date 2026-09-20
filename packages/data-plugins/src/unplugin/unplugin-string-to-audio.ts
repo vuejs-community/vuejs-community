@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'audio',
     '文字转语音',
   ],
-  source: {
-    npm: 'unplugin-string-to-audio',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-string-to-audio',
+  },
+  source: {
+    npm: 'unplugin-string-to-audio',
   },
   stats: {
     stars: 0,

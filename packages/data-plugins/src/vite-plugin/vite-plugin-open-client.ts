@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-open-client',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-open-client',
+  },
+  source: {
+    npm: 'vite-plugin-open-client',
   },
   stats: {
     stars: 0,

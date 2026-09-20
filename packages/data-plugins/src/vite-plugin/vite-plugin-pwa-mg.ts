@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'markgregg/vite-plugin-pwa-mg',
-    npm: 'vite-plugin-pwa-mg',
-  },
   links: {
     github: 'https://github.com/markgregg/vite-plugin-pwa-mg',
     npm: 'https://www.npmjs.com/package/vite-plugin-pwa-mg',
     website: 'https://github.com/markgregg/vite-plugin-pwa-mg',
+  },
+  source: {
+    github: 'markgregg/vite-plugin-pwa-mg',
+    npm: 'vite-plugin-pwa-mg',
   },
   stats: {
     stars: 0,

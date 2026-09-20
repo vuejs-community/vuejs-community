@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'imagemin',
     'vben',
   ],
-  source: {
-    github: 'madguy/vite-plugin-imagemin',
-    npm: '@madogai/vite-plugin-imagemin',
-  },
   links: {
     github: 'https://github.com/madguy/vite-plugin-imagemin',
     npm: 'https://www.npmjs.com/package/@madogai/vite-plugin-imagemin',
     website: 'https://github.com/madguy/vite-plugin-imagemin/tree/master/#readme',
+  },
+  source: {
+    github: 'madguy/vite-plugin-imagemin',
+    npm: '@madogai/vite-plugin-imagemin',
   },
   stats: {
     stars: 0,

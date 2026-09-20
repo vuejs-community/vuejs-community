@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite plugin',
     'module federation',
   ],
-  source: {
-    github: 'ThanatWongsamut/vite-manifest-plugin',
-    npm: 'vite-manifest-plugin',
-  },
   links: {
     github: 'https://github.com/ThanatWongsamut/vite-manifest-plugin',
     npm: 'https://www.npmjs.com/package/vite-manifest-plugin',
     website: 'https://github.com/ThanatWongsamut/vite-manifest-plugin#readme',
+  },
+  source: {
+    github: 'ThanatWongsamut/vite-manifest-plugin',
+    npm: 'vite-manifest-plugin',
   },
   stats: {
     stars: 0,

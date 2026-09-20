@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'minify',
     'vite-plugin',
   ],
-  source: {
-    github: 'ryomahan/vite-plugin-html',
-    npm: 'ryomahan-vite-plugin-html',
-  },
   links: {
     github: 'https://github.com/ryomahan/vite-plugin-html',
     npm: 'https://www.npmjs.com/package/ryomahan-vite-plugin-html',
     website: 'https://github.com/ryomahan/vite-plugin-html/tree/master/#readme',
+  },
+  source: {
+    github: 'ryomahan/vite-plugin-html',
+    npm: 'ryomahan-vite-plugin-html',
   },
   stats: {
     stars: 0,

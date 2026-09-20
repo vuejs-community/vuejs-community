@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'ritz078/rollup-plugin-filesize',
-    npm: 'rollup-plugin-filesize',
-  },
   links: {
     github: 'https://github.com/ritz078/rollup-plugin-filesize',
     npm: 'https://www.npmjs.com/package/rollup-plugin-filesize',
     website: 'https://github.com/ritz078/rollup-plugin-filesize#readme',
+  },
+  source: {
+    github: 'ritz078/rollup-plugin-filesize',
+    npm: 'rollup-plugin-filesize',
   },
   stats: {
     stars: 128,

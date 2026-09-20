@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite plugin',
     'module federation',
   ],
-  source: {
-    npm: 'mf-timekeeper',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/mf-timekeeper',
+  },
+  source: {
+    npm: 'mf-timekeeper',
   },
   stats: {
     stars: 0,

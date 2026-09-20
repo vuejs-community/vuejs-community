@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'Hashgraph',
     'Smart Contracts',
   ],
-  source: {
-    github: 'buidler-labs/hashgraph-venin-rollup',
-    npm: '@buidlerlabs/rollup-plugin-hashgraph-venin',
-  },
   links: {
     github: 'https://github.com/buidler-labs/hashgraph-venin-rollup',
     npm: 'https://www.npmjs.com/package/@buidlerlabs/rollup-plugin-hashgraph-venin',
     website: 'https://github.com/buidler-labs/hashgraph-venin-rollup#readme',
+  },
+  source: {
+    github: 'buidler-labs/hashgraph-venin-rollup',
+    npm: '@buidlerlabs/rollup-plugin-hashgraph-venin',
   },
   stats: {
     stars: 0,

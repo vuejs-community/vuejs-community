@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'adapter',
     'ssr',
   ],
-  source: {
-    npm: '@chuckcchen/vite-adapter-tanstack-start',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@chuckcchen/vite-adapter-tanstack-start',
+  },
+  source: {
+    npm: '@chuckcchen/vite-adapter-tanstack-start',
   },
   stats: {
     stars: 0,

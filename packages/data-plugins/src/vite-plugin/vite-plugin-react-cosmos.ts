@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-react-cosmos',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-react-cosmos',
+  },
+  source: {
+    npm: 'vite-plugin-react-cosmos',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'google-apps-script',
   ],
-  source: {
-    github: 'jo12bar/rollup-plugin-hoist-entry-exports-to-global-scope',
-    npm: '@jo12bar/rollup-plugin-hoist-entry-exports-to-global-scope',
-  },
   links: {
     github: 'https://github.com/jo12bar/rollup-plugin-hoist-entry-exports-to-global-scope',
     npm: 'https://www.npmjs.com/package/@jo12bar/rollup-plugin-hoist-entry-exports-to-global-scope',
     website: 'https://github.com/jo12bar/rollup-plugin-hoist-entry-exports-to-global-scope#readme',
+  },
+  source: {
+    github: 'jo12bar/rollup-plugin-hoist-entry-exports-to-global-scope',
+    npm: '@jo12bar/rollup-plugin-hoist-entry-exports-to-global-scope',
   },
   stats: {
     stars: 2,

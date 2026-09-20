@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'devtools',
     'myanmar',
   ],
-  source: {
-    github: 'pyaephyomaungdev/json-link',
-    npm: '@jsonlink/vite-plugin',
-  },
   links: {
     github: 'https://github.com/pyaephyomaungdev/json-link',
     npm: 'https://www.npmjs.com/package/@jsonlink/vite-plugin',
     website: 'https://github.com/pyaephyomaungdev/json-link#readme',
+  },
+  source: {
+    github: 'pyaephyomaungdev/json-link',
+    npm: '@jsonlink/vite-plugin',
   },
   stats: {
     stars: 0,

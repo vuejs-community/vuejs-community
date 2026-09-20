@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'loader',
     'rollup-plugin',
   ],
-  source: {
-    github: 'TheNeuronProject/rollup-plugin-eft',
-    npm: 'rollup-plugin-eft',
-  },
   links: {
     github: 'https://github.com/TheNeuronProject/rollup-plugin-eft',
     npm: 'https://www.npmjs.com/package/rollup-plugin-eft',
     website: 'https://github.com/TheNeuronProject/rollup-plugin-eft#readme',
+  },
+  source: {
+    github: 'TheNeuronProject/rollup-plugin-eft',
+    npm: 'rollup-plugin-eft',
   },
   stats: {
     stars: 1,

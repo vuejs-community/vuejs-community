@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'visual-editing',
     'react',
   ],
-  source: {
-    github: 'DivinPrince/insy',
-    npm: '@insy/vite',
-  },
   links: {
     github: 'https://github.com/DivinPrince/insy',
     npm: 'https://www.npmjs.com/package/@insy/vite',
     website: 'https://github.com/DivinPrince/insy#readme',
+  },
+  source: {
+    github: 'DivinPrince/insy',
+    npm: '@insy/vite',
   },
   stats: {
     stars: 0,

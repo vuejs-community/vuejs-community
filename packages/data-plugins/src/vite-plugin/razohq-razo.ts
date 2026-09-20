@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'testid',
   ],
-  source: {
-    github: 'razohq/razo',
-    npm: '@razohq/razo',
-  },
   links: {
     github: 'https://github.com/razohq/razo',
     npm: 'https://www.npmjs.com/package/@razohq/razo',
     website: 'https://github.com/razohq/razo/tree/main/packages/razo#readme',
+  },
+  source: {
+    github: 'razohq/razo',
+    npm: '@razohq/razo',
   },
   stats: {
     stars: 0,

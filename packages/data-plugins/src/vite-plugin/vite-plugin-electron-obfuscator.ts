@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'javascript-obfuscator',
     'code-protection',
   ],
-  source: {
-    npm: 'vite-plugin-electron-obfuscator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-electron-obfuscator',
+  },
+  source: {
+    npm: 'vite-plugin-electron-obfuscator',
   },
   stats: {
     stars: 0,

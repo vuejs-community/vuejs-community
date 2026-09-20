@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    npm: '@union-design/vite-lhjf-generate-json',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@union-design/vite-lhjf-generate-json',
+  },
+  source: {
+    npm: '@union-design/vite-lhjf-generate-json',
   },
   stats: {
     stars: 0,

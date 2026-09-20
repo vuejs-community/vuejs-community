@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'i18n-merger',
     'i18n-template',
   ],
-  source: {
-    github: 'productdevbookcom/unplugin-i18n-merger',
-    npm: 'unplugin-i18n-merger',
-  },
   links: {
     github: 'https://github.com/productdevbookcom/unplugin-i18n-merger',
     npm: 'https://www.npmjs.com/package/unplugin-i18n-merger',
     website: 'https://github.com/productdevbookcom/unplugin-i18n-merger',
+  },
+  source: {
+    github: 'productdevbookcom/unplugin-i18n-merger',
+    npm: 'unplugin-i18n-merger',
   },
   stats: {
     stars: 1,

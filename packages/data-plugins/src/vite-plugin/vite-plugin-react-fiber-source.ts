@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'jsx-dev-runtime',
     'debuginfo',
   ],
-  source: {
-    npm: 'vite-plugin-react-fiber-source',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-react-fiber-source',
+  },
+  source: {
+    npm: 'vite-plugin-react-fiber-source',
   },
   stats: {
     stars: 0,

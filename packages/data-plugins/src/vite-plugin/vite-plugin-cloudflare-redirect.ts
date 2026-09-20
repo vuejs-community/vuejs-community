@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'cloudflare',
     'redirect',
   ],
-  source: {
-    github: 'bluwy/vite-plugin-cloudflare-redirect',
-    npm: 'vite-plugin-cloudflare-redirect',
-  },
   links: {
     github: 'https://github.com/bluwy/vite-plugin-cloudflare-redirect',
     npm: 'https://www.npmjs.com/package/vite-plugin-cloudflare-redirect',
     website: 'https://github.com/bluwy/vite-plugin-cloudflare-redirect',
+  },
+  source: {
+    github: 'bluwy/vite-plugin-cloudflare-redirect',
+    npm: 'vite-plugin-cloudflare-redirect',
   },
   stats: {
     stars: 8,

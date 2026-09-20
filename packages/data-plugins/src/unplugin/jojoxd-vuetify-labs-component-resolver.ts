@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'resolver',
     'vuetify',
   ],
-  source: {
-    npm: '@jojoxd/vuetify-labs-component-resolver',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@jojoxd/vuetify-labs-component-resolver',
+  },
+  source: {
+    npm: '@jojoxd/vuetify-labs-component-resolver',
   },
   stats: {
     stars: 0,

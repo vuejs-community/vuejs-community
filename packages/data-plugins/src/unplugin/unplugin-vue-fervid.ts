@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rollup',
     'esbuild',
   ],
-  source: {
-    github: 'unplugin/unplugin-vue-fervid',
-    npm: 'unplugin-vue-fervid',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-vue-fervid',
     npm: 'https://www.npmjs.com/package/unplugin-vue-fervid',
     website: 'https://github.com/unplugin/unplugin-vue-fervid#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-vue-fervid',
+    npm: 'unplugin-vue-fervid',
   },
   stats: {
     stars: 41,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'source-map',
     'sourceMappingURL',
   ],
-  source: {
-    github: 'maxdavidson/rollup-plugin-sourcemaps',
-    npm: '@edugis/rollup-plugin-sourcemaps',
-  },
   links: {
     github: 'https://github.com/maxdavidson/rollup-plugin-sourcemaps',
     npm: 'https://www.npmjs.com/package/@edugis/rollup-plugin-sourcemaps',
     website: 'https://github.com/maxdavidson/rollup-plugin-sourcemaps#readme',
+  },
+  source: {
+    github: 'maxdavidson/rollup-plugin-sourcemaps',
+    npm: '@edugis/rollup-plugin-sourcemaps',
   },
   stats: {
     stars: 68,

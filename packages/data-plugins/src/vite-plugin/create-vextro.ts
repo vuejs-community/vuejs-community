@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'generator',
     'starter-kit',
   ],
-  source: {
-    github: 'CodeCanvasCollective/vextro',
-    npm: 'create-vextro',
-  },
   links: {
     github: 'https://github.com/CodeCanvasCollective/vextro',
     npm: 'https://www.npmjs.com/package/create-vextro',
     website: 'https://github.com/CodeCanvasCollective/vextro#readme',
+  },
+  source: {
+    github: 'CodeCanvasCollective/vextro',
+    npm: 'create-vextro',
   },
   stats: {
     stars: 1,

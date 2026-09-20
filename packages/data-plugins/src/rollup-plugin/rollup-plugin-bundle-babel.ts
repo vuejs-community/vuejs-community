@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'npm',
     'modules',
   ],
-  source: {
-    github: 'rollup/rollup-plugin-node-resolve',
-    npm: 'rollup-plugin-bundle-babel',
-  },
   links: {
     github: 'https://github.com/rollup/rollup-plugin-node-resolve',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bundle-babel',
     website: 'https://github.com/rollup/rollup-plugin-node-resolve#readme',
+  },
+  source: {
+    github: 'rollup/rollup-plugin-node-resolve',
+    npm: 'rollup-plugin-bundle-babel',
   },
   stats: {
     stars: 0,

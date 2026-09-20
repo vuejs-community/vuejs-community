@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'source-maps',
     'sourcemap',
   ],
-  source: {
-    github: 'Telemetry-Tracker/telemetry-tracker',
-    npm: '@telemetry-tracker/vite-plugin',
-  },
   links: {
     github: 'https://github.com/Telemetry-Tracker/telemetry-tracker',
     npm: 'https://www.npmjs.com/package/@telemetry-tracker/vite-plugin',
     website: 'https://github.com/Telemetry-Tracker/telemetry-tracker#readme',
+  },
+  source: {
+    github: 'Telemetry-Tracker/telemetry-tracker',
+    npm: '@telemetry-tracker/vite-plugin',
   },
   stats: {
     stars: 0,

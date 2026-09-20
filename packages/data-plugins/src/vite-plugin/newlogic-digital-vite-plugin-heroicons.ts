@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'newlogic-digital/vite-plugin-heroicons',
-    npm: '@newlogic-digital/vite-plugin-heroicons',
-  },
   links: {
     github: 'https://github.com/newlogic-digital/vite-plugin-heroicons',
     npm: 'https://www.npmjs.com/package/@newlogic-digital/vite-plugin-heroicons',
     website: 'https://github.com/newlogic-digital/vite-plugin-heroicons#readme',
+  },
+  source: {
+    github: 'newlogic-digital/vite-plugin-heroicons',
+    npm: '@newlogic-digital/vite-plugin-heroicons',
   },
   stats: {
     stars: 0,

@@ -24,11 +24,11 @@ export default defineProjectMeta({
     'dx',
     'development-tools',
   ],
-  source: {
-    npm: 'vite-plugin-debug-meta',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-debug-meta',
+  },
+  source: {
+    npm: 'vite-plugin-debug-meta',
   },
   stats: {
     stars: 0,

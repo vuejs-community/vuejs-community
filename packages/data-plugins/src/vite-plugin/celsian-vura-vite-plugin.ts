@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'full-stack',
     'typescript',
   ],
-  source: {
-    github: 'CelsianJs/vura',
-    npm: '@celsian/vura-vite-plugin',
-  },
   links: {
     github: 'https://github.com/CelsianJs/vura',
     npm: 'https://www.npmjs.com/package/@celsian/vura-vite-plugin',
     website: 'https://github.com/CelsianJs/vura#readme',
+  },
+  source: {
+    github: 'CelsianJs/vura',
+    npm: '@celsian/vura-vite-plugin',
   },
   stats: {
     stars: 0,

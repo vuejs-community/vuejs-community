@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'wzc520pyfm/unplugin-legacy',
-    npm: 'unplugin-legacy',
-  },
   links: {
     github: 'https://github.com/wzc520pyfm/unplugin-legacy',
     npm: 'https://www.npmjs.com/package/unplugin-legacy',
     website: 'https://github.com/wzc520pyfm/unplugin-legacy#readme',
+  },
+  source: {
+    github: 'wzc520pyfm/unplugin-legacy',
+    npm: 'unplugin-legacy',
   },
   stats: {
     stars: 1,

@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'generate',
     'minify',
   ],
-  source: {
-    npm: 'rollup-plugin-svgsprite-generator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-svgsprite-generator',
+  },
+  source: {
+    npm: 'rollup-plugin-svgsprite-generator',
   },
   stats: {
     stars: 0,

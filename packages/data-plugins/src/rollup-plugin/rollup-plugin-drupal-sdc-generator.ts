@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'drupal',
   ],
-  source: {
-    github: 'Exploratorium/rollup-plugin-drupal-sdc-generator',
-    npm: 'rollup-plugin-drupal-sdc-generator',
-  },
   links: {
     github: 'https://github.com/Exploratorium/rollup-plugin-drupal-sdc-generator',
     npm: 'https://www.npmjs.com/package/rollup-plugin-drupal-sdc-generator',
     website: 'https://github.com/Exploratorium/rollup-plugin-drupal-sdc-generator/issues#readme',
+  },
+  source: {
+    github: 'Exploratorium/rollup-plugin-drupal-sdc-generator',
+    npm: 'rollup-plugin-drupal-sdc-generator',
   },
   stats: {
     stars: 0,

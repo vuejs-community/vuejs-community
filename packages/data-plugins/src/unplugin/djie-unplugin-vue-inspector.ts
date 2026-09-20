@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'inspector',
     'debug',
   ],
-  source: {
-    github: 'laihaojie/vite-plugin-vue-inspector',
-    npm: '@djie/unplugin-vue-inspector',
-  },
   links: {
     github: 'https://github.com/laihaojie/vite-plugin-vue-inspector',
     npm: 'https://www.npmjs.com/package/@djie/unplugin-vue-inspector',
     website: 'https://github.com/laihaojie/vite-plugin-vue-inspector#readme',
+  },
+  source: {
+    github: 'laihaojie/vite-plugin-vue-inspector',
+    npm: '@djie/unplugin-vue-inspector',
   },
   stats: {
     stars: 0,

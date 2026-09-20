@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'less',
     'css',
   ],
-  source: {
-    github: 'katrotz/rollup-plugin-less-modules',
-    npm: 'rollup-plugin-less-modules',
-  },
   links: {
     github: 'https://github.com/katrotz/rollup-plugin-less-modules',
     npm: 'https://www.npmjs.com/package/rollup-plugin-less-modules',
     website: 'https://github.com/katrotz/rollup-plugin-less-modules#readme',
+  },
+  source: {
+    github: 'katrotz/rollup-plugin-less-modules',
+    npm: 'rollup-plugin-less-modules',
   },
   stats: {
     stars: 5,

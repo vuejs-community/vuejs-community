@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'node',
     'rolldown',
   ],
-  source: {
-    github: 'timi137137/vite-plugin-env-inject',
-    npm: 'vite-plugin-env-inject',
-  },
   links: {
     github: 'https://github.com/timi137137/vite-plugin-env-inject',
     npm: 'https://www.npmjs.com/package/vite-plugin-env-inject',
     website: 'https://github.com/timi137137/vite-plugin-env-inject#readme',
+  },
+  source: {
+    github: 'timi137137/vite-plugin-env-inject',
+    npm: 'vite-plugin-env-inject',
   },
   stats: {
     stars: 0,

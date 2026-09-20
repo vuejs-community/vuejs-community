@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'devtools',
     'icon-picker',
   ],
-  source: {
-    github: 'adoin/unocss-iconify-helper',
-    npm: 'unocss-iconify-helper',
-  },
   links: {
     github: 'https://github.com/adoin/unocss-iconify-helper',
     npm: 'https://www.npmjs.com/package/unocss-iconify-helper',
     website: 'https://github.com/adoin/unocss-iconify-helper#readme',
+  },
+  source: {
+    github: 'adoin/unocss-iconify-helper',
+    npm: 'unocss-iconify-helper',
   },
   stats: {
     stars: 0,

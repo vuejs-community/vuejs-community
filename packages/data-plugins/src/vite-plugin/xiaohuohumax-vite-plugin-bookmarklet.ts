@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'bookmarklet',
   ],
-  source: {
-    github: 'xiaohuohumax/vite-plugin-bookmarklet',
-    npm: '@xiaohuohumax/vite-plugin-bookmarklet',
-  },
   links: {
     github: 'https://github.com/xiaohuohumax/vite-plugin-bookmarklet',
     npm: 'https://www.npmjs.com/package/@xiaohuohumax/vite-plugin-bookmarklet',
     website: 'https://github.com/xiaohuohumax/vite-plugin-bookmarklet/tree/main/packages/vite-plugin-bookmarklet#readme',
+  },
+  source: {
+    github: 'xiaohuohumax/vite-plugin-bookmarklet',
+    npm: '@xiaohuohumax/vite-plugin-bookmarklet',
   },
   stats: {
     stars: 0,

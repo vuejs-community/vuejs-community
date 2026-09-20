@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rolldown-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 're-utils/runtime-compiler',
-    npm: 'runtime-compiler',
-  },
   links: {
     github: 'https://github.com/re-utils/runtime-compiler',
     npm: 'https://www.npmjs.com/package/runtime-compiler',
     website: 'https://github.com/re-utils/runtime-compiler#readme',
+  },
+  source: {
+    github: 're-utils/runtime-compiler',
+    npm: 'runtime-compiler',
   },
   stats: {
     stars: 0,

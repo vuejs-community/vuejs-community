@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'i18n',
     'rollup',
   ],
-  source: {
-    github: 'phamtm/rollup-plugin-i18n',
-    npm: 'rollup-plugin-i18n',
-  },
   links: {
     github: 'https://github.com/phamtm/rollup-plugin-i18n',
     npm: 'https://www.npmjs.com/package/rollup-plugin-i18n',
     website: 'https://github.com/phamtm/rollup-plugin-i18n#readme',
+  },
+  source: {
+    github: 'phamtm/rollup-plugin-i18n',
+    npm: 'rollup-plugin-i18n',
   },
   stats: {
     stars: 0,

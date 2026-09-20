@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'brandonocasey/rollup-plugin-data-files',
-    npm: 'rollup-plugin-data-files',
-  },
   links: {
     github: 'https://github.com/brandonocasey/rollup-plugin-data-files',
     npm: 'https://www.npmjs.com/package/rollup-plugin-data-files',
     website: 'https://github.com/brandonocasey/rollup-plugin-data-files',
+  },
+  source: {
+    github: 'brandonocasey/rollup-plugin-data-files',
+    npm: 'rollup-plugin-data-files',
   },
   stats: {
     stars: 1,

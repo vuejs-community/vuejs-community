@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'performance',
     'stats',
   ],
-  source: {
-    github: 'kazupon/unplugin-time-stat',
-    npm: 'unplugin-time-stat-nightly',
-  },
   links: {
     github: 'https://github.com/kazupon/unplugin-time-stat',
     npm: 'https://www.npmjs.com/package/unplugin-time-stat-nightly',
     website: 'https://github.com/kazupon/unplugin-time-stat#readme',
+  },
+  source: {
+    github: 'kazupon/unplugin-time-stat',
+    npm: 'unplugin-time-stat-nightly',
   },
   stats: {
     stars: 13,

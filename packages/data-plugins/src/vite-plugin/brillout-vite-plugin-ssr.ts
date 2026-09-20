@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'ssr',
   ],
-  source: {
-    github: 'brillout/vite-plugin-ssr',
-    npm: '@brillout/vite-plugin-ssr',
-  },
   links: {
     github: 'https://github.com/brillout/vite-plugin-ssr',
     npm: 'https://www.npmjs.com/package/@brillout/vite-plugin-ssr',
     website: 'https://github.com/brillout/vite-plugin-ssr#readme',
+  },
+  source: {
+    github: 'brillout/vite-plugin-ssr',
+    npm: '@brillout/vite-plugin-ssr',
   },
   stats: {
     stars: 18,

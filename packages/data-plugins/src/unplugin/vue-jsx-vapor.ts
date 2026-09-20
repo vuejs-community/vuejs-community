@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'volar',
     'vapor',
   ],
-  source: {
-    github: 'vuejs/vue-jsx-vapor',
-    npm: 'vue-jsx-vapor',
-  },
   links: {
     github: 'https://github.com/vuejs/vue-jsx-vapor',
     npm: 'https://www.npmjs.com/package/vue-jsx-vapor',
     website: 'https://github.com/vuejs/vue-jsx-vapor#readme',
+  },
+  source: {
+    github: 'vuejs/vue-jsx-vapor',
+    npm: 'vue-jsx-vapor',
   },
   stats: {
     stars: 311,

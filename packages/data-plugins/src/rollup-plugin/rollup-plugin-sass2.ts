@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'sass',
     'scss',
   ],
-  source: {
-    github: 'FulgaSer/rollup-plugin-sass2',
-    npm: 'rollup-plugin-sass2',
-  },
   links: {
     github: 'https://github.com/FulgaSer/rollup-plugin-sass2',
     npm: 'https://www.npmjs.com/package/rollup-plugin-sass2',
     website: 'https://github.com/FulgaSer/rollup-plugin-sass2',
+  },
+  source: {
+    github: 'FulgaSer/rollup-plugin-sass2',
+    npm: 'rollup-plugin-sass2',
   },
   stats: {
     stars: 0,

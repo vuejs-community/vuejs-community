@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'rollup',
   ],
-  source: {
-    github: 'lukeed/rollup-route-manifest',
-    npm: 'rollup-route-manifest',
-  },
   links: {
     github: 'https://github.com/lukeed/rollup-route-manifest',
     npm: 'https://www.npmjs.com/package/rollup-route-manifest',
     website: 'https://github.com/lukeed/rollup-route-manifest#readme',
+  },
+  source: {
+    github: 'lukeed/rollup-route-manifest',
+    npm: 'rollup-route-manifest',
   },
   stats: {
     stars: 42,

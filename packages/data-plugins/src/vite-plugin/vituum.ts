@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'vituum/vituum',
-    npm: 'vituum',
-  },
   links: {
     github: 'https://github.com/vituum/vituum',
     npm: 'https://www.npmjs.com/package/vituum',
     website: 'https://github.com/vituum/vituum#readme',
+  },
+  source: {
+    github: 'vituum/vituum',
+    npm: 'vituum',
   },
   stats: {
     stars: 366,

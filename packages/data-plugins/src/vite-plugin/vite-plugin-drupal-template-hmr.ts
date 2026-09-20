@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'drupal',
     'hmr',
   ],
-  source: {
-    github: 'kokoal/vite-plugin-drupal-template-hmr',
-    npm: 'vite-plugin-drupal-template-hmr',
-  },
   links: {
     github: 'https://github.com/kokoal/vite-plugin-drupal-template-hmr',
     npm: 'https://www.npmjs.com/package/vite-plugin-drupal-template-hmr',
     website: 'https://github.com/kokoal/vite-plugin-drupal-template-hmr',
+  },
+  source: {
+    github: 'kokoal/vite-plugin-drupal-template-hmr',
+    npm: 'vite-plugin-drupal-template-hmr',
   },
   stats: {
     stars: 4,

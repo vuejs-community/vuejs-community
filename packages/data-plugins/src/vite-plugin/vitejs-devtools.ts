@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'devtools',
     'rpc',
   ],
-  source: {
-    github: 'vitejs/devtools',
-    npm: '@vitejs/devtools',
-  },
   links: {
     github: 'https://github.com/vitejs/devtools',
     npm: 'https://www.npmjs.com/package/@vitejs/devtools',
     website: 'https://github.com/vitejs/devtools#readme',
+  },
+  source: {
+    github: 'vitejs/devtools',
+    npm: '@vitejs/devtools',
   },
   stats: {
     stars: 1193,

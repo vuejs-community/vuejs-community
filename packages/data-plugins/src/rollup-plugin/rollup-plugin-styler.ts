@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'less',
     'stylus',
   ],
-  source: {
-    github: 'plumelo/rollup-plugin-styler',
-    npm: 'rollup-plugin-styler',
-  },
   links: {
     github: 'https://github.com/plumelo/rollup-plugin-styler',
     npm: 'https://www.npmjs.com/package/rollup-plugin-styler',
     website: 'https://github.com/plumelo/rollup-plugin-styler#readme',
+  },
+  source: {
+    github: 'plumelo/rollup-plugin-styler',
+    npm: 'rollup-plugin-styler',
   },
   stats: {
     stars: 62,

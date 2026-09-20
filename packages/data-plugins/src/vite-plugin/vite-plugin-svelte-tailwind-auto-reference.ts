@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'reference',
     'apply',
   ],
-  source: {
-    github: 'awaiden/vite-plugin-svelte-tailwind-auto-reference',
-    npm: 'vite-plugin-svelte-tailwind-auto-reference',
-  },
   links: {
     github: 'https://github.com/awaiden/vite-plugin-svelte-tailwind-auto-reference',
     npm: 'https://www.npmjs.com/package/vite-plugin-svelte-tailwind-auto-reference',
     website: 'https://github.com/awaiden/vite-plugin-svelte-tailwind-auto-reference#readme',
+  },
+  source: {
+    github: 'awaiden/vite-plugin-svelte-tailwind-auto-reference',
+    npm: 'vite-plugin-svelte-tailwind-auto-reference',
   },
   stats: {
     stars: 10,

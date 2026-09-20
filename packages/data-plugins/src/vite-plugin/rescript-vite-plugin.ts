@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'rescript-lang/rescript-vite-plugin',
-    npm: '@rescript/vite-plugin',
-  },
   links: {
     github: 'https://github.com/rescript-lang/rescript-vite-plugin',
     npm: 'https://www.npmjs.com/package/@rescript/vite-plugin',
     website: 'https://github.com/rescript-lang/rescript-vite-plugin#readme',
+  },
+  source: {
+    github: 'rescript-lang/rescript-vite-plugin',
+    npm: '@rescript/vite-plugin',
   },
   stats: {
     stars: 0,

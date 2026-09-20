@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'manifest',
     'share-manifest',
   ],
-  source: {
-    github: 'kuoruan/rollup-plugin-share-manifest',
-    npm: 'rollup-plugin-share-manifest',
-  },
   links: {
     github: 'https://github.com/kuoruan/rollup-plugin-share-manifest',
     npm: 'https://www.npmjs.com/package/rollup-plugin-share-manifest',
     website: 'https://github.com/kuoruan/rollup-plugin-share-manifest#readme',
+  },
+  source: {
+    github: 'kuoruan/rollup-plugin-share-manifest',
+    npm: 'rollup-plugin-share-manifest',
   },
   stats: {
     stars: 0,

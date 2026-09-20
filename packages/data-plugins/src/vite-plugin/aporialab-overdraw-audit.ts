@@ -30,14 +30,14 @@ export default defineProjectMeta({
     'aporia-labs',
     'aporia',
   ],
-  source: {
-    github: 'aporia-labs/overdraw-audit',
-    npm: '@aporialab/overdraw-audit',
-  },
   links: {
     github: 'https://github.com/aporia-labs/overdraw-audit',
     npm: 'https://www.npmjs.com/package/@aporialab/overdraw-audit',
     website: 'https://overdraw.v2app.ru',
+  },
+  source: {
+    github: 'aporia-labs/overdraw-audit',
+    npm: '@aporialab/overdraw-audit',
   },
   stats: {
     stars: 0,

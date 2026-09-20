@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'env',
     'build',
   ],
-  source: {
-    npm: '@ireneliaoliao/vite-plugin-html-inject',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ireneliaoliao/vite-plugin-html-inject',
+  },
+  source: {
+    npm: '@ireneliaoliao/vite-plugin-html-inject',
   },
   stats: {
     stars: 0,

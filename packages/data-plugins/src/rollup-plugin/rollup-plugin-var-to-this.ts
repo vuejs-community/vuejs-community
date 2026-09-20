@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'varToThis',
     'var-to-this',
   ],
-  source: {
-    github: 'andreasmcdermott/rollup-plugin-varToThis',
-    npm: 'rollup-plugin-var-to-this',
-  },
   links: {
     github: 'https://github.com/andreasmcdermott/rollup-plugin-varToThis',
     npm: 'https://www.npmjs.com/package/rollup-plugin-var-to-this',
     website: 'https://github.com/andreasmcdermott/rollup-plugin-varToThis#readme',
+  },
+  source: {
+    github: 'andreasmcdermott/rollup-plugin-varToThis',
+    npm: 'rollup-plugin-var-to-this',
   },
   stats: {
     stars: 0,

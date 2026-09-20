@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'laravel',
     'full-bundle',
   ],
-  source: {
-    github: 'ElMassimo/vite-plugin-backend-full-bundle',
-    npm: 'vite-plugin-backend-full-bundle',
-  },
   links: {
     github: 'https://github.com/ElMassimo/vite-plugin-backend-full-bundle',
     npm: 'https://www.npmjs.com/package/vite-plugin-backend-full-bundle',
     website: 'https://github.com/ElMassimo/vite-plugin-backend-full-bundle',
+  },
+  source: {
+    github: 'ElMassimo/vite-plugin-backend-full-bundle',
+    npm: 'vite-plugin-backend-full-bundle',
   },
   stats: {
     stars: 0,

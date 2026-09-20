@@ -66,14 +66,14 @@ export default defineProjectMeta({
     'npm',
     'library',
   ],
-  source: {
-    github: 'xandertreat/solid-iconify',
-    npm: '@xtreat/solid-iconify',
-  },
   links: {
     github: 'https://github.com/xandertreat/solid-iconify',
     npm: 'https://www.npmjs.com/package/@xtreat/solid-iconify',
     website: 'https://github.com/xandertreat/solid-iconify#readme',
+  },
+  source: {
+    github: 'xandertreat/solid-iconify',
+    npm: '@xtreat/solid-iconify',
   },
   stats: {
     stars: 2,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'hrc',
     'hrc-config',
   ],
-  source: {
-    github: 'Hdoc1509/hrc',
-    npm: 'vite-plugin-hrc-import',
-  },
   links: {
     github: 'https://github.com/Hdoc1509/hrc',
     npm: 'https://www.npmjs.com/package/vite-plugin-hrc-import',
     website: 'https://hdoc1509.github.io/hrc/packages/vite-plugin-hrc-import',
+  },
+  source: {
+    github: 'Hdoc1509/hrc',
+    npm: 'vite-plugin-hrc-import',
   },
   stats: {
     stars: 1,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'mocha',
   ],
-  source: {
-    github: 'Arnesfield/rollup-plugin-mocha',
-    npm: 'rollup-plugin-mocha',
-  },
   links: {
     github: 'https://github.com/Arnesfield/rollup-plugin-mocha',
     npm: 'https://www.npmjs.com/package/rollup-plugin-mocha',
     website: 'https://github.com/Arnesfield/rollup-plugin-mocha#readme',
+  },
+  source: {
+    github: 'Arnesfield/rollup-plugin-mocha',
+    npm: 'rollup-plugin-mocha',
   },
   stats: {
     stars: 0,

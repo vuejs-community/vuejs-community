@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'wheatjs/unocss-directives',
-    npm: 'unocss-directives',
-  },
   links: {
     github: 'https://github.com/wheatjs/unocss-directives',
     npm: 'https://www.npmjs.com/package/unocss-directives',
     website: 'https://github.com/wheatjs/unocss-directives#readme',
+  },
+  source: {
+    github: 'wheatjs/unocss-directives',
+    npm: 'unocss-directives',
   },
   stats: {
     stars: 30,

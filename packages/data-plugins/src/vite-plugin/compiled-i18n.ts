@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'wmertens/compiled-i18n',
-    npm: 'compiled-i18n',
-  },
   links: {
     github: 'https://github.com/wmertens/compiled-i18n',
     npm: 'https://www.npmjs.com/package/compiled-i18n',
     website: 'https://github.com/wmertens/compiled-i18n',
+  },
+  source: {
+    github: 'wmertens/compiled-i18n',
+    npm: 'compiled-i18n',
   },
   stats: {
     stars: 34,

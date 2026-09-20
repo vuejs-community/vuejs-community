@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'auto-import',
     'vue-components',
   ],
-  source: {
-    npm: '@frameui/fui-plugin-unplugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@frameui/fui-plugin-unplugin',
+  },
+  source: {
+    npm: '@frameui/fui-plugin-unplugin',
   },
   stats: {
     stars: 0,

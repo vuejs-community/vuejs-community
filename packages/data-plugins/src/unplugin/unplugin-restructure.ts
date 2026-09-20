@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'esbuild',
     'farm',
   ],
-  source: {
-    github: 'zhiyuanzmj/unplugin-restructure',
-    npm: 'unplugin-restructure',
-  },
   links: {
     github: 'https://github.com/zhiyuanzmj/unplugin-restructure',
     npm: 'https://www.npmjs.com/package/unplugin-restructure',
     website: 'https://github.com/zhiyuanzmj/unplugin-restructure#readme',
+  },
+  source: {
+    github: 'zhiyuanzmj/unplugin-restructure',
+    npm: 'unplugin-restructure',
   },
   stats: {
     stars: 0,

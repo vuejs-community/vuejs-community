@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'service-worker',
     'nuxt-module',
   ],
-  source: {
-    github: 'serwist/serwist',
-    npm: '@serwist/nuxt',
-  },
   links: {
     github: 'https://github.com/serwist/serwist',
     npm: 'https://www.npmjs.com/package/@serwist/nuxt',
     website: 'https://serwist.pages.dev',
+  },
+  source: {
+    github: 'serwist/serwist',
+    npm: '@serwist/nuxt',
   },
   stats: {
     stars: 1481,

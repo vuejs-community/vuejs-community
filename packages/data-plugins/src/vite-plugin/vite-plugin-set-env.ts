@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'gxs114',
     'usagisah',
   ],
-  source: {
-    github: 'gxs114/vite-plugin-set-env',
-    npm: 'vite-plugin-set-env',
-  },
   links: {
     github: 'https://github.com/gxs114/vite-plugin-set-env',
     npm: 'https://www.npmjs.com/package/vite-plugin-set-env',
     website: 'https://github.com/gxs114/vite-plugin-set-env#readme',
+  },
+  source: {
+    github: 'gxs114/vite-plugin-set-env',
+    npm: 'vite-plugin-set-env',
   },
   stats: {
     stars: 1,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'dark-mode',
   ],
-  source: {
-    github: 'kevinmarrec/vite-plugin-dark-mode',
-    npm: '@kevinmarrec/vite-plugin-dark-mode',
-  },
   links: {
     github: 'https://github.com/kevinmarrec/vite-plugin-dark-mode',
     npm: 'https://www.npmjs.com/package/@kevinmarrec/vite-plugin-dark-mode',
     website: 'https://github.com/kevinmarrec/vite-plugin-dark-mode#readme',
+  },
+  source: {
+    github: 'kevinmarrec/vite-plugin-dark-mode',
+    npm: '@kevinmarrec/vite-plugin-dark-mode',
   },
   stats: {
     stars: 1,

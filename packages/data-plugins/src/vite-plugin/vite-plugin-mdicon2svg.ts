@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'mwc',
     'optimization',
   ],
-  source: {
-    github: 'vdegenne/vite-plugin-mdicon2svg',
-    npm: 'vite-plugin-mdicon2svg',
-  },
   links: {
     github: 'https://github.com/vdegenne/vite-plugin-mdicon2svg',
     npm: 'https://www.npmjs.com/package/vite-plugin-mdicon2svg',
     website: 'https://github.com/vdegenne/vite-plugin-mdicon2svg#readme',
+  },
+  source: {
+    github: 'vdegenne/vite-plugin-mdicon2svg',
+    npm: 'vite-plugin-mdicon2svg',
   },
   stats: {
     stars: 0,

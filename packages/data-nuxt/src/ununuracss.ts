@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/betterwrite/ununuracss',
   },
   source: {
-    github: 'betterwrite/ununuracss#main/packages/nuxt',
+    github: 'betterwrite/ununuracss',
     npm: 'nuxt-ununura',
   },
 })

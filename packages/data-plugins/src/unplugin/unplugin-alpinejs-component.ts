@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'rspack',
     'esbuild',
   ],
-  source: {
-    github: 'lovetingyuan/alpinejs-component',
-    npm: 'unplugin-alpinejs-component',
-  },
   links: {
     github: 'https://github.com/lovetingyuan/alpinejs-component',
     npm: 'https://www.npmjs.com/package/unplugin-alpinejs-component',
     website: 'https://github.com/lovetingyuan/alpinejs-component#readme',
+  },
+  source: {
+    github: 'lovetingyuan/alpinejs-component',
+    npm: 'unplugin-alpinejs-component',
   },
   stats: {
     stars: 0,

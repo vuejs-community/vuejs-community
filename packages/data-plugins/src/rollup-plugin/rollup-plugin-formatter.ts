@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'rollup-plugin-fmtcomment',
     'rollup-plugin-beautify',
   ],
-  source: {
-    github: 'CN-Tower/rollup-plugin-formatter',
-    npm: 'rollup-plugin-formatter',
-  },
   links: {
     github: 'https://github.com/CN-Tower/rollup-plugin-formatter',
     npm: 'https://www.npmjs.com/package/rollup-plugin-formatter',
     website: 'https://github.com/CN-Tower/rollup-plugin-formatter#readme',
+  },
+  source: {
+    github: 'CN-Tower/rollup-plugin-formatter',
+    npm: 'rollup-plugin-formatter',
   },
   stats: {
     stars: 1,

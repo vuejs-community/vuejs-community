@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    github: 'mistjs/vite-plugin-copy-files',
-    npm: 'vite-plugin-copy-files',
-  },
   links: {
     github: 'https://github.com/mistjs/vite-plugin-copy-files',
     npm: 'https://www.npmjs.com/package/vite-plugin-copy-files',
     website: 'https://github.com/mistjs/vite-plugin-copy-files#readme',
+  },
+  source: {
+    github: 'mistjs/vite-plugin-copy-files',
+    npm: 'vite-plugin-copy-files',
   },
   stats: {
     stars: 11,

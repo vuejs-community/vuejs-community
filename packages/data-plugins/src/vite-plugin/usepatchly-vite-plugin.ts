@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'visual-editor',
     'jsx',
   ],
-  source: {
-    github: 'linusbjorklund/PatchlyDev',
-    npm: '@usepatchly/vite-plugin',
-  },
   links: {
     github: 'https://github.com/linusbjorklund/PatchlyDev',
     npm: 'https://www.npmjs.com/package/@usepatchly/vite-plugin',
     website: 'https://github.com/linusbjorklund/PatchlyDev/tree/main/packages/vite-plugin',
+  },
+  source: {
+    github: 'linusbjorklund/PatchlyDev',
+    npm: '@usepatchly/vite-plugin',
   },
   stats: {
     stars: 0,

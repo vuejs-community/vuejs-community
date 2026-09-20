@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'sfc',
     'tailwind',
   ],
-  source: {
-    github: 'M1CK431/vite-plugin-vue-tailwind-auto-reference',
-    npm: 'vite-plugin-vue-tailwind-auto-reference',
-  },
   links: {
     github: 'https://github.com/M1CK431/vite-plugin-vue-tailwind-auto-reference',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-tailwind-auto-reference',
     website: 'https://github.com/M1CK431/vite-plugin-vue-tailwind-auto-reference#readme',
+  },
+  source: {
+    github: 'M1CK431/vite-plugin-vue-tailwind-auto-reference',
+    npm: 'vite-plugin-vue-tailwind-auto-reference',
   },
   stats: {
     stars: 34,

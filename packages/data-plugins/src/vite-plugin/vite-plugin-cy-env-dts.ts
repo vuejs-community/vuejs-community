@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'env',
     'dts',
   ],
-  source: {
-    npm: 'vite-plugin-cy-env-dts',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-cy-env-dts',
+  },
+  source: {
+    npm: 'vite-plugin-cy-env-dts',
   },
   stats: {
     stars: 0,

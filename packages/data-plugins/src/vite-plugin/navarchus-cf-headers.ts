@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'typescript',
   ],
-  source: {
-    github: 'InvictusNavarchus/cf-headers',
-    npm: '@navarchus/cf-headers',
-  },
   links: {
     github: 'https://github.com/InvictusNavarchus/cf-headers',
     npm: 'https://www.npmjs.com/package/@navarchus/cf-headers',
     website: 'https://github.com/InvictusNavarchus/cf-headers#readme',
+  },
+  source: {
+    github: 'InvictusNavarchus/cf-headers',
+    npm: '@navarchus/cf-headers',
   },
   stats: {
     stars: 0,

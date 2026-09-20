@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vitarx',
     'vite-plugin',
   ],
-  source: {
-    github: 'vitarx-lib/plugin-vite',
-    npm: '@vitarx/plugin-vite',
-  },
   links: {
     github: 'https://github.com/vitarx-lib/plugin-vite',
     npm: 'https://www.npmjs.com/package/@vitarx/plugin-vite',
     website: 'https://github.com/vitarx-lib/plugin-vite#readme',
+  },
+  source: {
+    github: 'vitarx-lib/plugin-vite',
+    npm: '@vitarx/plugin-vite',
   },
   stats: {
     stars: 0,

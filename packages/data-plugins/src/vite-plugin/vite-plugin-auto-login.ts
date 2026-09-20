@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'auto-login',
     'authentication',
   ],
-  source: {
-    npm: 'vite-plugin-auto-login',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-login',
+  },
+  source: {
+    npm: 'vite-plugin-auto-login',
   },
   stats: {
     stars: 0,

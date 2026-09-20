@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'node_modules',
     'rename',
   ],
-  source: {
-    github: 'pixijs/rollup-plugin-rename-node-modules',
-    npm: '@pixi/rollup-plugin-rename-node-modules',
-  },
   links: {
     github: 'https://github.com/pixijs/rollup-plugin-rename-node-modules',
     npm: 'https://www.npmjs.com/package/@pixi/rollup-plugin-rename-node-modules',
     website: 'https://github.com/pixijs/rollup-plugin-rename-node-modules#readme',
+  },
+  source: {
+    github: 'pixijs/rollup-plugin-rename-node-modules',
+    npm: '@pixi/rollup-plugin-rename-node-modules',
   },
   stats: {
     stars: 0,

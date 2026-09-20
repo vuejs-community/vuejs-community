@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'git',
     'build-info',
   ],
-  source: {
-    npm: '@helloliang/vite-plugin-version-json',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@helloliang/vite-plugin-version-json',
+  },
+  source: {
+    npm: '@helloliang/vite-plugin-version-json',
   },
   stats: {
     stars: 0,

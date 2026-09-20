@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'senoteam/vite-plugin',
-    npm: '@senojs/rollup-plugin-style-inject',
-  },
   links: {
     github: 'https://github.com/senoteam/vite-plugin',
     npm: 'https://www.npmjs.com/package/@senojs/rollup-plugin-style-inject',
     website: 'https://github.com/senoteam/vite-plugin/tree/main/packages/style-inject',
+  },
+  source: {
+    github: 'senoteam/vite-plugin',
+    npm: '@senojs/rollup-plugin-style-inject',
   },
   stats: {
     stars: 1,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'minimize',
     'minify',
   ],
-  source: {
-    github: 'sergeymakinen/vite-plugin-html-minimize',
-    npm: '@sergeymakinen/vite-plugin-html-minimize',
-  },
   links: {
     github: 'https://github.com/sergeymakinen/vite-plugin-html-minimize',
     npm: 'https://www.npmjs.com/package/@sergeymakinen/vite-plugin-html-minimize',
     website: 'https://github.com/sergeymakinen/vite-plugin-html-minimize',
+  },
+  source: {
+    github: 'sergeymakinen/vite-plugin-html-minimize',
+    npm: '@sergeymakinen/vite-plugin-html-minimize',
   },
   stats: {
     stars: 6,

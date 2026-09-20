@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'soybean',
     'soybeanjs',
   ],
-  source: {
-    github: 'honghuangdc/router-page',
-    npm: 'wjcroutes',
-  },
   links: {
     github: 'https://github.com/honghuangdc/router-page',
     npm: 'https://www.npmjs.com/package/wjcroutes',
     website: 'https://github.com/honghuangdc/router-page',
+  },
+  source: {
+    github: 'honghuangdc/router-page',
+    npm: 'wjcroutes',
   },
   stats: {
     stars: 16,

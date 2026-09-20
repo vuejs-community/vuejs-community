@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'less',
   ],
-  source: {
-    github: 'shamin/vite-plugin-less-glob-import',
-    npm: 'vite-plugin-less-glob-import',
-  },
   links: {
     github: 'https://github.com/shamin/vite-plugin-less-glob-import',
     npm: 'https://www.npmjs.com/package/vite-plugin-less-glob-import',
     website: 'https://github.com/shamin/vite-plugin-less-glob-import#readme',
+  },
+  source: {
+    github: 'shamin/vite-plugin-less-glob-import',
+    npm: 'vite-plugin-less-glob-import',
   },
   stats: {
     stars: 1,

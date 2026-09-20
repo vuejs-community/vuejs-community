@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rehype',
     'html',
   ],
-  source: {
-    github: 'keplersj/vite-plugin-rehype',
-    npm: 'vite-plugin-rehype',
-  },
   links: {
     github: 'https://github.com/keplersj/vite-plugin-rehype',
     npm: 'https://www.npmjs.com/package/vite-plugin-rehype',
     website: 'https://github.com/keplersj/vite-plugin-rehype#readme',
+  },
+  source: {
+    github: 'keplersj/vite-plugin-rehype',
+    npm: 'vite-plugin-rehype',
   },
   stats: {
     stars: 0,

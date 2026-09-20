@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'unplugin/unplugin-ast',
-    npm: 'unplugin-ast',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-ast',
     npm: 'https://www.npmjs.com/package/unplugin-ast',
     website: 'https://github.com/unplugin/unplugin-ast#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-ast',
+    npm: 'unplugin-ast',
   },
   stats: {
     stars: 100,

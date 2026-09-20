@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'nodejs',
     'compatibility',
   ],
-  source: {
-    github: 'idleberg/ponte-nova',
-    npm: 'ponte-nova',
-  },
   links: {
     github: 'https://github.com/idleberg/ponte-nova',
     npm: 'https://www.npmjs.com/package/ponte-nova',
+  },
+  source: {
+    github: 'idleberg/ponte-nova',
+    npm: 'ponte-nova',
   },
   stats: {
     stars: 0,

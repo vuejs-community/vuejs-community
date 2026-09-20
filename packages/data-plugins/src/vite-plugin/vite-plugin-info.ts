@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'git',
     'CI',
   ],
-  source: {
-    github: 'yjl9903/vite-plugin-info',
-    npm: 'vite-plugin-info',
-  },
   links: {
     github: 'https://github.com/yjl9903/vite-plugin-info',
     npm: 'https://www.npmjs.com/package/vite-plugin-info',
     website: 'https://github.com/yjl9903/vite-plugin-info#readme',
+  },
+  source: {
+    github: 'yjl9903/vite-plugin-info',
+    npm: 'vite-plugin-info',
   },
   stats: {
     stars: 112,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'cesium',
     'cesiumjs',
   ],
-  source: {
-    github: 'yelingkong/vite-plugin-cesium',
-    npm: 'vite-plugin-cesium-change',
-  },
   links: {
     github: 'https://github.com/yelingkong/vite-plugin-cesium',
     npm: 'https://www.npmjs.com/package/vite-plugin-cesium-change',
     website: 'https://github.com/yelingkong/vite-plugin-cesium#readme',
+  },
+  source: {
+    github: 'yelingkong/vite-plugin-cesium',
+    npm: 'vite-plugin-cesium-change',
   },
   stats: {
     stars: 0,

@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'resource-processing',
     'style-processing',
   ],
-  source: {
-    github: 'xcon-studio/vite-plugin',
-    npm: '@xcons/vite-plugin',
-  },
   links: {
     github: 'https://github.com/xcon-studio/vite-plugin',
     npm: 'https://www.npmjs.com/package/@xcons/vite-plugin',
     website: 'https://xcon.studio',
+  },
+  source: {
+    github: 'xcon-studio/vite-plugin',
+    npm: '@xcons/vite-plugin',
   },
   stats: {
     stars: 0,

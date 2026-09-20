@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'react',
     'vite-plugin',
   ],
-  source: {
-    github: 'fdevaibhavpal/react-tailwind-config',
-    npm: 'react-tailwind-config',
-  },
   links: {
     github: 'https://github.com/fdevaibhavpal/react-tailwind-config',
     npm: 'https://www.npmjs.com/package/react-tailwind-config',
     website: 'https://github.com/fdevaibhavpal/react-tailwind-config#readme',
+  },
+  source: {
+    github: 'fdevaibhavpal/react-tailwind-config',
+    npm: 'react-tailwind-config',
   },
   stats: {
     stars: 0,

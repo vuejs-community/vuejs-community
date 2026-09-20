@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'svgo',
     'vben',
   ],
-  source: {
-    github: 'michael20102013/vite-plugin-svg-icons',
-    npm: 'cloudnineinfo-vite-plugin-svg-icons',
-  },
   links: {
     github: 'https://github.com/michael20102013/vite-plugin-svg-icons',
     npm: 'https://www.npmjs.com/package/cloudnineinfo-vite-plugin-svg-icons',
     website: 'https://github.com/michael20102013/vite-plugin-svg-icons/tree/master/#readme',
+  },
+  source: {
+    github: 'michael20102013/vite-plugin-svg-icons',
+    npm: 'cloudnineinfo-vite-plugin-svg-icons',
   },
   stats: {
     stars: 0,

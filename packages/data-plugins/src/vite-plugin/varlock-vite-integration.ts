@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'varlock-integration',
   ],
-  source: {
-    github: 'dmno-dev/varlock',
-    npm: '@varlock/vite-integration',
-  },
   links: {
     github: 'https://github.com/dmno-dev/varlock',
     npm: 'https://www.npmjs.com/package/@varlock/vite-integration',
     website: 'https://github.com/dmno-dev/varlock#readme',
+  },
+  source: {
+    github: 'dmno-dev/varlock',
+    npm: '@varlock/vite-integration',
   },
   stats: {
     stars: 4527,

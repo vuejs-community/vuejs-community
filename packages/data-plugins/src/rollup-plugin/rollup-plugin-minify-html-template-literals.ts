@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'template-literals',
     'lit-html',
   ],
-  source: {
-    github: 'exuanbo/rollup-plugin-minify-html-template-literals',
-    npm: 'rollup-plugin-minify-html-template-literals',
-  },
   links: {
     github: 'https://github.com/exuanbo/rollup-plugin-minify-html-template-literals',
     npm: 'https://www.npmjs.com/package/rollup-plugin-minify-html-template-literals',
     website: 'https://github.com/exuanbo/rollup-plugin-minify-html-template-literals#readme',
+  },
+  source: {
+    github: 'exuanbo/rollup-plugin-minify-html-template-literals',
+    npm: 'rollup-plugin-minify-html-template-literals',
   },
   stats: {
     stars: 1,

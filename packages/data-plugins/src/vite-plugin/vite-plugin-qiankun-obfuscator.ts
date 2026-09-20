@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'javascript-obfuscator',
     'code-protection',
   ],
-  source: {
-    npm: 'vite-plugin-qiankun-obfuscator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-qiankun-obfuscator',
+  },
+  source: {
+    npm: 'vite-plugin-qiankun-obfuscator',
   },
   stats: {
     stars: 0,

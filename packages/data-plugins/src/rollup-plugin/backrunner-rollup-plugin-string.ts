@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'string',
     'template',
   ],
-  source: {
-    github: 'TrySound/rollup-plugin-string',
-    npm: '@backrunner/rollup-plugin-string',
-  },
   links: {
     github: 'https://github.com/TrySound/rollup-plugin-string',
     npm: 'https://www.npmjs.com/package/@backrunner/rollup-plugin-string',
     website: 'https://github.com/TrySound/rollup-plugin-string',
+  },
+  source: {
+    github: 'TrySound/rollup-plugin-string',
+    npm: '@backrunner/rollup-plugin-string',
   },
   stats: {
     stars: 88,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'assemblyscript',
   ],
-  source: {
-    github: 'zmx0142857/vite-plugin-asc',
-    npm: 'vite-plugin-asc',
-  },
   links: {
     github: 'https://github.com/zmx0142857/vite-plugin-asc',
     npm: 'https://www.npmjs.com/package/vite-plugin-asc',
     website: 'https://github.com/zmx0142857/vite-plugin-asc',
+  },
+  source: {
+    github: 'zmx0142857/vite-plugin-asc',
+    npm: 'vite-plugin-asc',
   },
   stats: {
     stars: 0,

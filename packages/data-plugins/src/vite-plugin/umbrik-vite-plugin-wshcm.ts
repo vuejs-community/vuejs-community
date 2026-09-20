@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'wshcm',
     'webtutor',
   ],
-  source: {
-    npm: '@umbrik/vite-plugin-wshcm',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@umbrik/vite-plugin-wshcm',
+  },
+  source: {
+    npm: '@umbrik/vite-plugin-wshcm',
   },
   stats: {
     stars: 0,

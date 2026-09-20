@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'webpack-plugin',
   ],
-  source: {
-    github: 'mylofi/webauthn-local-client',
-    npm: '@lo-fi/webauthn-local-client',
-  },
   links: {
     github: 'https://github.com/mylofi/webauthn-local-client',
     npm: 'https://www.npmjs.com/package/@lo-fi/webauthn-local-client',
     website: 'https://github.com/mylofi/webauthn-local-client',
+  },
+  source: {
+    github: 'mylofi/webauthn-local-client',
+    npm: '@lo-fi/webauthn-local-client',
   },
   stats: {
     stars: 179,

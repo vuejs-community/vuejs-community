@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'hmr',
   ],
-  source: {
-    github: 'BillyNoyes/Easel',
-    npm: 'vite-plugin-shopify-easel',
-  },
   links: {
     github: 'https://github.com/BillyNoyes/Easel',
     npm: 'https://www.npmjs.com/package/vite-plugin-shopify-easel',
     website: 'https://easel.billynoyes.co.uk/',
+  },
+  source: {
+    github: 'BillyNoyes/Easel',
+    npm: 'vite-plugin-shopify-easel',
   },
   stats: {
     stars: 0,

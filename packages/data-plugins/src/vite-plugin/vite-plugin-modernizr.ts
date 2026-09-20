@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'custom-modernizr',
   ],
-  source: {
-    github: 'karlvr/vite-plugin-modernizr',
-    npm: 'vite-plugin-modernizr',
-  },
   links: {
     github: 'https://github.com/karlvr/vite-plugin-modernizr',
     npm: 'https://www.npmjs.com/package/vite-plugin-modernizr',
     website: 'https://github.com/karlvr/vite-plugin-modernizr#readme',
+  },
+  source: {
+    github: 'karlvr/vite-plugin-modernizr',
+    npm: 'vite-plugin-modernizr',
   },
   stats: {
     stars: 1,

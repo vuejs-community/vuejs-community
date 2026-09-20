@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'typescript',
     'minify',
   ],
-  source: {
-    github: 'RashingPro/rollup-plugin-dts-minify',
-    npm: 'rollup-plugin-dts-minify',
-  },
   links: {
     github: 'https://github.com/RashingPro/rollup-plugin-dts-minify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-dts-minify',
     website: 'https://github.com/RashingPro/rollup-plugin-dts-minify#readme',
+  },
+  source: {
+    github: 'RashingPro/rollup-plugin-dts-minify',
+    npm: 'rollup-plugin-dts-minify',
   },
   stats: {
     stars: 0,

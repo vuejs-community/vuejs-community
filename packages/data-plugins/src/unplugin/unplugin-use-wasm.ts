@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'typescript',
     'directive',
   ],
-  source: {
-    github: 'LuanRoger/unplugin-use-wasm',
-    npm: 'unplugin-use-wasm',
-  },
   links: {
     github: 'https://github.com/LuanRoger/unplugin-use-wasm',
     npm: 'https://www.npmjs.com/package/unplugin-use-wasm',
     website: 'https://github.com/LuanRoger/unplugin-use-wasm',
+  },
+  source: {
+    github: 'LuanRoger/unplugin-use-wasm',
+    npm: 'unplugin-use-wasm',
   },
   stats: {
     stars: 2,

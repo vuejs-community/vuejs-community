@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'svell',
     'vw',
   ],
-  source: {
-    github: 'svell/svell',
-    npm: 'vite-plugin-svell',
-  },
   links: {
     github: 'https://github.com/svell/svell',
     npm: 'https://www.npmjs.com/package/vite-plugin-svell',
     website: 'https://github.com/svell/svell/tree/main/packages/vite-plugin-svell#readme',
+  },
+  source: {
+    github: 'svell/svell',
+    npm: 'vite-plugin-svell',
   },
   stats: {
     stars: 0,

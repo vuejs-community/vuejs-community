@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://lavolpecheprogramma.github.io/vue-gsap-flip/',
   },
   source: {
-    github: 'lavolpecheprogramma/vue-gsap-flip#master/packages/nuxt',
+    github: 'lavolpecheprogramma/vue-gsap-flip',
     npm: '@vue-gsap-flip/nuxt',
   },
 })

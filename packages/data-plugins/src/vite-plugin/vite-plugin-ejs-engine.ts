@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'engine',
     'node',
   ],
-  source: {
-    github: '11joselu/vite-plugin-ejs-engine',
-    npm: 'vite-plugin-ejs-engine',
-  },
   links: {
     github: 'https://github.com/11joselu/vite-plugin-ejs-engine',
     npm: 'https://www.npmjs.com/package/vite-plugin-ejs-engine',
     website: 'https://github.com/11joselu/vite-plugin-ejs-engine#readme',
+  },
+  source: {
+    github: '11joselu/vite-plugin-ejs-engine',
+    npm: 'vite-plugin-ejs-engine',
   },
   stats: {
     stars: 0,

@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'zctocm/rollup-plugin-polyfill-node',
-    npm: '@cztocm/rollup-plugin-polyfill-node',
-  },
   links: {
     github: 'https://github.com/zctocm/rollup-plugin-polyfill-node',
     npm: 'https://www.npmjs.com/package/@cztocm/rollup-plugin-polyfill-node',
     website: 'https://github.com/zctocm/rollup-plugin-polyfill-node#readme',
+  },
+  source: {
+    github: 'zctocm/rollup-plugin-polyfill-node',
+    npm: '@cztocm/rollup-plugin-polyfill-node',
   },
   stats: {
     stars: 0,

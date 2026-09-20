@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vue',
     'router',
   ],
-  source: {
-    github: 'pot-code/unplugin-vue-gen-routes',
-    npm: 'unplugin-vue-gen-routes',
-  },
   links: {
     github: 'https://github.com/pot-code/unplugin-vue-gen-routes',
     npm: 'https://www.npmjs.com/package/unplugin-vue-gen-routes',
     website: 'https://github.com/pot-code/unplugin-vue-gen-routes#readme',
+  },
+  source: {
+    github: 'pot-code/unplugin-vue-gen-routes',
+    npm: 'unplugin-vue-gen-routes',
   },
   stats: {
     stars: 0,

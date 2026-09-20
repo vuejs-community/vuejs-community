@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'template',
     'templating',
   ],
-  source: {
-    npm: 'rollup-plugin-wontache',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-wontache',
     website: 'https://jgonggrijp.gitlab.io/wontache/',
+  },
+  source: {
+    npm: 'rollup-plugin-wontache',
   },
   stats: {
     stars: 0,

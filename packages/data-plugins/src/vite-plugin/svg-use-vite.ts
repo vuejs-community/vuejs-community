@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'fpapado/svg-use',
-    npm: '@svg-use/vite',
-  },
   links: {
     github: 'https://github.com/fpapado/svg-use',
     npm: 'https://www.npmjs.com/package/@svg-use/vite',
     website: 'https://github.com/fpapado/svg-use#readme',
+  },
+  source: {
+    github: 'fpapado/svg-use',
+    npm: '@svg-use/vite',
   },
   stats: {
     stars: 0,

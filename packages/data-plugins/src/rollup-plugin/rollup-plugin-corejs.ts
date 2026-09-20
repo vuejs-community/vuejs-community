@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'browserslist',
   ],
-  source: {
-    github: 'susnux/rollup-plugin-corejs',
-    npm: 'rollup-plugin-corejs',
-  },
   links: {
     github: 'https://github.com/susnux/rollup-plugin-corejs',
     npm: 'https://www.npmjs.com/package/rollup-plugin-corejs',
     website: 'https://github.com/susnux/rollup-plugin-corejs#readme',
+  },
+  source: {
+    github: 'susnux/rollup-plugin-corejs',
+    npm: 'rollup-plugin-corejs',
   },
   stats: {
     stars: 4,

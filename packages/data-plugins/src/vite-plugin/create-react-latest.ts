@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'create-react-app',
     'vite-plugin',
   ],
-  source: {
-    github: 'harshverma-25/create-react-latest',
-    npm: 'create-react-latest',
-  },
   links: {
     github: 'https://github.com/harshverma-25/create-react-latest',
     npm: 'https://www.npmjs.com/package/create-react-latest',
     website: 'https://github.com/harshverma-25/create-react-latest#readme',
+  },
+  source: {
+    github: 'harshverma-25/create-react-latest',
+    npm: 'create-react-latest',
   },
   stats: {
     stars: 0,

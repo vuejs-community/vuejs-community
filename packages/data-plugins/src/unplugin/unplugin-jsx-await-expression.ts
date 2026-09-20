@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'zhiyuanzmj/unplugin-jsx-await-expression',
-    npm: 'unplugin-jsx-await-expression',
-  },
   links: {
     github: 'https://github.com/zhiyuanzmj/unplugin-jsx-await-expression',
     npm: 'https://www.npmjs.com/package/unplugin-jsx-await-expression',
     website: 'https://github.com/zhiyuanzmj/unplugin-jsx-await-expression#readme',
+  },
+  source: {
+    github: 'zhiyuanzmj/unplugin-jsx-await-expression',
+    npm: 'unplugin-jsx-await-expression',
   },
   stats: {
     stars: 1,

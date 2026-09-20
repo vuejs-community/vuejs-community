@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'c3c',
     'c3 compiler',
   ],
-  source: {
-    github: 'Hema2-official/vite-plugin-c3',
-    npm: 'vite-plugin-c3',
-  },
   links: {
     github: 'https://github.com/Hema2-official/vite-plugin-c3',
     npm: 'https://www.npmjs.com/package/vite-plugin-c3',
     website: 'https://github.com/Hema2-official/vite-plugin-c3',
+  },
+  source: {
+    github: 'Hema2-official/vite-plugin-c3',
+    npm: 'vite-plugin-c3',
   },
   stats: {
     stars: 1,

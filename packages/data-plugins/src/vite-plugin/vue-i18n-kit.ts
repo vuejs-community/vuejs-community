@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'cli',
     'typescript',
   ],
-  source: {
-    github: 'macrulezru/vue-i18n-kit',
-    npm: 'vue-i18n-kit',
-  },
   links: {
     github: 'https://github.com/macrulezru/vue-i18n-kit',
     npm: 'https://www.npmjs.com/package/vue-i18n-kit',
     website: 'https://npm.vuecraft.ru/en/packages/vue-i18n-kit/',
+  },
+  source: {
+    github: 'macrulezru/vue-i18n-kit',
+    npm: 'vue-i18n-kit',
   },
   stats: {
     stars: 0,

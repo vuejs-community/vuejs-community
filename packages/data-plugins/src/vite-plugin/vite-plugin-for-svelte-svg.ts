@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'svelte',
     'svg',
   ],
-  source: {
-    github: 'meiseayoung/vite-plugin-svelte-svg',
-    npm: 'vite-plugin-for-svelte-svg',
-  },
   links: {
     github: 'https://github.com/meiseayoung/vite-plugin-svelte-svg',
     npm: 'https://www.npmjs.com/package/vite-plugin-for-svelte-svg',
     website: 'https://github.com/meiseayoung/vite-plugin-svelte-svg#readme',
+  },
+  source: {
+    github: 'meiseayoung/vite-plugin-svelte-svg',
+    npm: 'vite-plugin-for-svelte-svg',
   },
   stats: {
     stars: 2,

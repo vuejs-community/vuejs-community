@@ -20,11 +20,11 @@ export default defineProjectMeta({
     'unplugin',
     'vite',
   ],
-  source: {
-    npm: '@codehz/preeval',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@codehz/preeval',
+  },
+  source: {
+    npm: '@codehz/preeval',
   },
   stats: {
     stars: 0,

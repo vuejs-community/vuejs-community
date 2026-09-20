@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'malina',
     'malinajs',
   ],
-  source: {
-    github: 'Artemis69/malinajs-unplugin',
-    npm: 'malinajs-unplugin',
-  },
   links: {
     github: 'https://github.com/Artemis69/malinajs-unplugin',
     npm: 'https://www.npmjs.com/package/malinajs-unplugin',
     website: 'https://github.com/Artemis69/malinajs-unplugin#readme',
+  },
+  source: {
+    github: 'Artemis69/malinajs-unplugin',
+    npm: 'malinajs-unplugin',
   },
   stats: {
     stars: 7,

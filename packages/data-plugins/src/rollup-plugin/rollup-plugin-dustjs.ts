@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'templates',
   ],
-  source: {
-    github: 'chrisdothtml/rollup-plugin-dustjs',
-    npm: 'rollup-plugin-dustjs',
-  },
   links: {
     github: 'https://github.com/chrisdothtml/rollup-plugin-dustjs',
     npm: 'https://www.npmjs.com/package/rollup-plugin-dustjs',
     website: 'https://github.com/chrisdothtml/rollup-plugin-dustjs#readme',
+  },
+  source: {
+    github: 'chrisdothtml/rollup-plugin-dustjs',
+    npm: 'rollup-plugin-dustjs',
   },
   stats: {
     stars: 4,

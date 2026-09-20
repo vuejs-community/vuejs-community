@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup',
     'coverage',
   ],
-  source: {
-    github: 'artberri/rollup-plugin-istanbul',
-    npm: 'rollup-plugin-istanbul',
-  },
   links: {
     github: 'https://github.com/artberri/rollup-plugin-istanbul',
     npm: 'https://www.npmjs.com/package/rollup-plugin-istanbul',
     website: 'https://github.com/artberri/rollup-plugin-istanbul',
+  },
+  source: {
+    github: 'artberri/rollup-plugin-istanbul',
+    npm: 'rollup-plugin-istanbul',
   },
   stats: {
     stars: 46,

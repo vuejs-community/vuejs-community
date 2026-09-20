@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'esbuild',
     'transform',
   ],
-  source: {
-    github: 'astahmer/pandabox',
-    npm: '@pandabox/unplugin',
-  },
   links: {
     github: 'https://github.com/astahmer/pandabox',
     npm: 'https://www.npmjs.com/package/@pandabox/unplugin',
     website: 'https://astahmer.dev',
+  },
+  source: {
+    github: 'astahmer/pandabox',
+    npm: '@pandabox/unplugin',
   },
   stats: {
     stars: 0,

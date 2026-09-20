@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'askalice/vite-plugin-windicss-theme',
-    npm: 'vite-plugin-windicss-theme',
-  },
   links: {
     github: 'https://github.com/askalice/vite-plugin-windicss-theme',
     npm: 'https://www.npmjs.com/package/vite-plugin-windicss-theme',
     website: 'https://github.com/askalice/vite-plugin-windicss-theme#readme',
+  },
+  source: {
+    github: 'askalice/vite-plugin-windicss-theme',
+    npm: 'vite-plugin-windicss-theme',
   },
   stats: {
     stars: 0,

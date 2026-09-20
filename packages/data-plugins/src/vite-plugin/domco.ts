@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'SSR',
     'SSG',
   ],
-  source: {
-    github: 'rossrobino/domco',
-    npm: 'domco',
-  },
   links: {
     github: 'https://github.com/rossrobino/domco',
     npm: 'https://www.npmjs.com/package/domco',
     website: 'https://domco.robino.dev',
+  },
+  source: {
+    github: 'rossrobino/domco',
+    npm: 'domco',
   },
   stats: {
     stars: 82,

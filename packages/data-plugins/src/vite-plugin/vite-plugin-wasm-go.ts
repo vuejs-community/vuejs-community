@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'wasm-go',
     'go-wasm',
   ],
-  source: {
-    github: 'm-Ryan/vite-plugin-wasm-go',
-    npm: 'vite-plugin-wasm-go',
-  },
   links: {
     github: 'https://github.com/m-Ryan/vite-plugin-wasm-go',
     npm: 'https://www.npmjs.com/package/vite-plugin-wasm-go',
     website: 'https://github.com/m-Ryan/vite-plugin-wasm-go#readme',
+  },
+  source: {
+    github: 'm-Ryan/vite-plugin-wasm-go',
+    npm: 'vite-plugin-wasm-go',
   },
   stats: {
     stars: 4,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'felixtrz/aperture',
-    npm: '@aperture-engine/vite-plugin',
-  },
   links: {
     github: 'https://github.com/felixtrz/aperture',
     npm: 'https://www.npmjs.com/package/@aperture-engine/vite-plugin',
     website: 'https://github.com/felixtrz/aperture/tree/main/packages/vite-plugin#readme',
+  },
+  source: {
+    github: 'felixtrz/aperture',
+    npm: '@aperture-engine/vite-plugin',
   },
   stats: {
     stars: 53,

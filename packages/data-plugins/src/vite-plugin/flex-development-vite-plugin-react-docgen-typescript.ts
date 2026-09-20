@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'flex-development/vite-plugin-react-docgen-typescript',
-    npm: '@flex-development/vite-plugin-react-docgen-typescript',
-  },
   links: {
     github: 'https://github.com/flex-development/vite-plugin-react-docgen-typescript',
     npm: 'https://www.npmjs.com/package/@flex-development/vite-plugin-react-docgen-typescript',
     website: 'https://github.com/flex-development/vite-plugin-react-docgen-typescript#readme',
+  },
+  source: {
+    github: 'flex-development/vite-plugin-react-docgen-typescript',
+    npm: '@flex-development/vite-plugin-react-docgen-typescript',
   },
   stats: {
     stars: 0,

@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'vite-import-plugin',
     'vite-import',
   ],
-  source: {
-    npm: 'vite-import-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-import-plugin',
+  },
+  source: {
+    npm: 'vite-import-plugin',
   },
   stats: {
     stars: 0,

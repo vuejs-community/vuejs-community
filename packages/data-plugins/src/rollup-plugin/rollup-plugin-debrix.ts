@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'debrix',
     'debrixc',
   ],
-  source: {
-    npm: 'rollup-plugin-debrix',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-debrix',
+  },
+  source: {
+    npm: 'rollup-plugin-debrix',
   },
   stats: {
     stars: 0,

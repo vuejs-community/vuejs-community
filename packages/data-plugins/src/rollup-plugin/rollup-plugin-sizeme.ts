@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'brotli',
     'gzip',
   ],
-  source: {
-    github: 'osdevisnot/rollup-plugin-sizeme',
-    npm: 'rollup-plugin-sizeme',
-  },
   links: {
     github: 'https://github.com/osdevisnot/rollup-plugin-sizeme',
     npm: 'https://www.npmjs.com/package/rollup-plugin-sizeme',
     website: 'https://github.com/osdevisnot/rollup-plugin-sizeme#readme',
+  },
+  source: {
+    github: 'osdevisnot/rollup-plugin-sizeme',
+    npm: 'rollup-plugin-sizeme',
   },
   stats: {
     stars: 1,

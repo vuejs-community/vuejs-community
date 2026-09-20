@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'fine-grained-reactivity',
     'vite-plugin',
   ],
-  source: {
-    npm: 'jetshake',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/jetshake',
+  },
+  source: {
+    npm: 'jetshake',
   },
   stats: {
     stars: 0,

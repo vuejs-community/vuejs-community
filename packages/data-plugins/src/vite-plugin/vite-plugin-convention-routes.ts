@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'route-meta',
     'meta-data',
   ],
-  source: {
-    github: 'zhourusheng/vite-plugin-convention-routes',
-    npm: 'vite-plugin-convention-routes',
-  },
   links: {
     github: 'https://github.com/zhourusheng/vite-plugin-convention-routes',
     npm: 'https://www.npmjs.com/package/vite-plugin-convention-routes',
     website: 'https://github.com/zhourusheng/vite-plugin-convention-routes',
+  },
+  source: {
+    github: 'zhourusheng/vite-plugin-convention-routes',
+    npm: 'vite-plugin-convention-routes',
   },
   stats: {
     stars: 160,

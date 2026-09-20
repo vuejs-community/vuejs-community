@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'markdown',
     'shiki',
   ],
-  source: {
-    github: 'kricsleo/unplugin-markdown-2-html',
-    npm: 'unplugin-markdown-2-html',
-  },
   links: {
     github: 'https://github.com/kricsleo/unplugin-markdown-2-html',
     npm: 'https://www.npmjs.com/package/unplugin-markdown-2-html',
     website: 'https://github.com/kricsleo/unplugin-markdown-2-html#readme',
+  },
+  source: {
+    github: 'kricsleo/unplugin-markdown-2-html',
+    npm: 'unplugin-markdown-2-html',
   },
   stats: {
     stars: 0,

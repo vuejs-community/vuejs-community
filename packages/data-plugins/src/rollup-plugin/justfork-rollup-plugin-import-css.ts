@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'import',
     'modules',
   ],
-  source: {
-    github: 'jleeson/rollup-plugin-import-css',
-    npm: '@justfork/rollup-plugin-import-css',
-  },
   links: {
     github: 'https://github.com/jleeson/rollup-plugin-import-css',
     npm: 'https://www.npmjs.com/package/@justfork/rollup-plugin-import-css',
     website: 'https://github.com/jleeson/rollup-plugin-import-css#readme',
+  },
+  source: {
+    github: 'jleeson/rollup-plugin-import-css',
+    npm: '@justfork/rollup-plugin-import-css',
   },
   stats: {
     stars: 61,

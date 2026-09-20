@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'gql',
     'graphql-tag',
   ],
-  source: {
-    github: 'timhall/rollup-plugin-graphql',
-    npm: 'rollup-plugin-graphql-tag',
-  },
   links: {
     github: 'https://github.com/timhall/rollup-plugin-graphql',
     npm: 'https://www.npmjs.com/package/rollup-plugin-graphql-tag',
     website: 'https://github.com/timhall/rollup-plugin-graphql#readme',
+  },
+  source: {
+    github: 'timhall/rollup-plugin-graphql',
+    npm: 'rollup-plugin-graphql-tag',
   },
   stats: {
     stars: 0,

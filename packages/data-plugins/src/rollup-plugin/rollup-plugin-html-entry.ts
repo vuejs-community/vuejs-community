@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'leogr/rollup-plugin-html-entry',
-    npm: 'rollup-plugin-html-entry',
-  },
   links: {
     github: 'https://github.com/leogr/rollup-plugin-html-entry',
     npm: 'https://www.npmjs.com/package/rollup-plugin-html-entry',
     website: 'https://github.com/leogr/rollup-plugin-html-entry',
+  },
+  source: {
+    github: 'leogr/rollup-plugin-html-entry',
+    npm: 'rollup-plugin-html-entry',
   },
   stats: {
     stars: 13,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'jsx',
     'typescript',
   ],
-  source: {
-    github: 'sanchedev/fraxel',
-    npm: '@fraxel/vite-plugin',
-  },
   links: {
     github: 'https://github.com/sanchedev/fraxel',
     npm: 'https://www.npmjs.com/package/@fraxel/vite-plugin',
     website: 'https://github.com/sanchedev/fraxel#readme',
+  },
+  source: {
+    github: 'sanchedev/fraxel',
+    npm: '@fraxel/vite-plugin',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vue',
     'tar',
   ],
-  source: {
-    github: 'WindWilliam/wind-plugin-tar',
-    npm: 'wind-plugin-tar',
-  },
   links: {
     github: 'https://github.com/WindWilliam/wind-plugin-tar',
     npm: 'https://www.npmjs.com/package/wind-plugin-tar',
     website: 'https://github.com/WindWilliam/wind-plugin-tar#readme',
+  },
+  source: {
+    github: 'WindWilliam/wind-plugin-tar',
+    npm: 'wind-plugin-tar',
   },
   stats: {
     stars: 2,

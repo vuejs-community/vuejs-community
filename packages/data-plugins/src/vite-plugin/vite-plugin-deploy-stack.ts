@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'terraform',
     'deploy-stack',
   ],
-  source: {
-    npm: 'vite-plugin-deploy-stack',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-deploy-stack',
+  },
+  source: {
+    npm: 'vite-plugin-deploy-stack',
   },
   stats: {
     stars: 0,

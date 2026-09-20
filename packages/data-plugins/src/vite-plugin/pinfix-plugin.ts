@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'ai-coding',
     'devtools',
   ],
-  source: {
-    github: 'ForeverSc/pinfix',
-    npm: '@pinfix/plugin',
-  },
   links: {
     github: 'https://github.com/ForeverSc/pinfix',
     npm: 'https://www.npmjs.com/package/@pinfix/plugin',
     website: 'https://github.com/ForeverSc/pinfix#readme',
+  },
+  source: {
+    github: 'ForeverSc/pinfix',
+    npm: '@pinfix/plugin',
   },
   stats: {
     stars: 10,

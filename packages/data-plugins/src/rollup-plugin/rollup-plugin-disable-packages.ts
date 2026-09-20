@@ -13,13 +13,13 @@ export default defineProjectMeta({
     'disable',
     'fsevents',
   ],
-  source: {
-    github: 'TeleworkInc/rollup-plugin-disable-packages',
-    npm: 'rollup-plugin-disable-packages',
-  },
   links: {
     github: 'https://github.com/TeleworkInc/rollup-plugin-disable-packages',
     npm: 'https://www.npmjs.com/package/rollup-plugin-disable-packages',
+  },
+  source: {
+    github: 'TeleworkInc/rollup-plugin-disable-packages',
+    npm: 'rollup-plugin-disable-packages',
   },
   stats: {
     stars: 0,

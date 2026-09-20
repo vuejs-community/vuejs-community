@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'images',
     'dts',
   ],
-  source: {
-    github: 'dusionlike/unplugin-import-assets',
-    npm: 'unplugin-import-assets',
-  },
   links: {
     github: 'https://github.com/dusionlike/unplugin-import-assets',
     npm: 'https://www.npmjs.com/package/unplugin-import-assets',
     website: 'https://github.com/dusionlike/unplugin-import-assets#readme',
+  },
+  source: {
+    github: 'dusionlike/unplugin-import-assets',
+    npm: 'unplugin-import-assets',
   },
   stats: {
     stars: 0,

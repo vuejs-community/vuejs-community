@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'entry',
     'entries',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-multi-entry',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-multi-entry',
     website: 'https://github.com/rollup/plugins/tree/master/packages/multi-entry/#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-multi-entry',
   },
   stats: {
     stars: 0,

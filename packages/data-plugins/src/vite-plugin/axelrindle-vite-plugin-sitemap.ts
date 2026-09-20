@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'sitemap',
     'sitemap-generator',
   ],
-  source: {
-    github: 'axelrindle/vite-plugin-sitemap',
-    npm: '@axelrindle/vite-plugin-sitemap',
-  },
   links: {
     github: 'https://github.com/axelrindle/vite-plugin-sitemap',
     npm: 'https://www.npmjs.com/package/@axelrindle/vite-plugin-sitemap',
     website: 'https://github.com/axelrindle/vite-plugin-sitemap#readme',
+  },
+  source: {
+    github: 'axelrindle/vite-plugin-sitemap',
+    npm: '@axelrindle/vite-plugin-sitemap',
   },
   stats: {
     stars: 1,

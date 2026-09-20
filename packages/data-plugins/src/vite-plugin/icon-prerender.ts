@@ -31,14 +31,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'webpack-plugin',
   ],
-  source: {
-    github: 'Ernxst/icon-prerender',
-    npm: 'icon-prerender',
-  },
   links: {
     github: 'https://github.com/Ernxst/icon-prerender',
     npm: 'https://www.npmjs.com/package/icon-prerender',
     website: 'https://github.com/Ernxst/icon-prerender/packages/core',
+  },
+  source: {
+    github: 'Ernxst/icon-prerender',
+    npm: 'icon-prerender',
   },
   stats: {
     stars: 0,

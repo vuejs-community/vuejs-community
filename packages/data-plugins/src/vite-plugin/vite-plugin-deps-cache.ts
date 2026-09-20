@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'pre-bundle',
     'optimize',
   ],
-  source: {
-    npm: 'vite-plugin-deps-cache',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-deps-cache',
+  },
+  source: {
+    npm: 'vite-plugin-deps-cache',
   },
   stats: {
     stars: 0,

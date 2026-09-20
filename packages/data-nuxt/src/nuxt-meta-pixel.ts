@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/tanukijs/meta-pixel',
   },
   source: {
-    github: 'tanukijs/meta-pixel#dev/packages/nuxt-meta-pixel',
+    github: 'tanukijs/meta-pixel',
     npm: 'nuxt-meta-pixel',
   },
 })

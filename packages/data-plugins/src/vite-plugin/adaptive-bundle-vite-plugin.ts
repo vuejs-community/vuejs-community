@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'ci-budgets',
     'preload-hints',
   ],
-  source: {
-    github: 'Pizanjavier/adaptive',
-    npm: '@adaptive-bundle/vite-plugin',
-  },
   links: {
     github: 'https://github.com/Pizanjavier/adaptive',
     npm: 'https://www.npmjs.com/package/@adaptive-bundle/vite-plugin',
     website: 'https://github.com/Pizanjavier/adaptive/tree/main/packages/vite-plugin',
+  },
+  source: {
+    github: 'Pizanjavier/adaptive',
+    npm: '@adaptive-bundle/vite-plugin',
   },
   stats: {
     stars: 0,

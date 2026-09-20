@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'cloud-component',
     'module-federation',
   ],
-  source: {
-    npm: '@mf-cloud-component/vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@mf-cloud-component/vite',
+  },
+  source: {
+    npm: '@mf-cloud-component/vite',
   },
   stats: {
     stars: 0,

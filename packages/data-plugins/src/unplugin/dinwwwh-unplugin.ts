@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'dinwwwh-unplugin',
     'unplugin',
   ],
-  source: {
-    github: 'dinwwwh/dinwwwh',
-    npm: '@dinwwwh/unplugin',
-  },
   links: {
     github: 'https://github.com/dinwwwh/dinwwwh',
     npm: 'https://www.npmjs.com/package/@dinwwwh/unplugin',
     website: 'https://github.com/dinwwwh/dinwwwh',
+  },
+  source: {
+    github: 'dinwwwh/dinwwwh',
+    npm: '@dinwwwh/unplugin',
   },
   stats: {
     stars: 1,

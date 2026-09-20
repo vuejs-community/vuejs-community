@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'ui-debugging',
     'ai',
   ],
-  source: {
-    github: 'codersguru-hub/askew',
-    npm: 'vite-plugin-askew',
-  },
   links: {
     github: 'https://github.com/codersguru-hub/askew',
     npm: 'https://www.npmjs.com/package/vite-plugin-askew',
     website: 'https://github.com/codersguru-hub/askew#readme',
+  },
+  source: {
+    github: 'codersguru-hub/askew',
+    npm: 'vite-plugin-askew',
   },
   stats: {
     stars: 0,

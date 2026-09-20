@@ -129,14 +129,14 @@ export default defineProjectMeta({
     'tree-shaking',
     'dead-code-elimination',
   ],
-  source: {
-    github: 'kitium-ai/cyclic-dependency-fixer',
-    npm: '@kitiumai/cyclic-dependency-fixer',
-  },
   links: {
     github: 'https://github.com/kitium-ai/cyclic-dependency-fixer',
     npm: 'https://www.npmjs.com/package/@kitiumai/cyclic-dependency-fixer',
     website: 'https://github.com/kitium-ai/cyclic-dependency-fixer#readme',
+  },
+  source: {
+    github: 'kitium-ai/cyclic-dependency-fixer',
+    npm: '@kitiumai/cyclic-dependency-fixer',
   },
   stats: {
     stars: 1,

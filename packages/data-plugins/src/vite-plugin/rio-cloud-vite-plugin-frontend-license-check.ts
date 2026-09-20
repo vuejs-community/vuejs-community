@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    npm: '@rio-cloud/vite-plugin-frontend-license-check',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@rio-cloud/vite-plugin-frontend-license-check',
     website: 'https://bitbucket.collaboration-man.com/projects/RIOFRONT/repos/vite-plugin-frontend-license-check',
+  },
+  source: {
+    npm: '@rio-cloud/vite-plugin-frontend-license-check',
   },
   stats: {
     stars: 0,

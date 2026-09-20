@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'telemetry',
     'observability',
   ],
-  source: {
-    npm: '@runtimescope/vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@runtimescope/vite',
+  },
+  source: {
+    npm: '@runtimescope/vite',
   },
   stats: {
     stars: 0,

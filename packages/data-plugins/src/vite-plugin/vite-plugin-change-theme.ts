@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'stylus',
     'preprocessor',
   ],
-  source: {
-    npm: 'vite-plugin-change-theme',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-change-theme',
+  },
+  source: {
+    npm: 'vite-plugin-change-theme',
   },
   stats: {
     stars: 0,

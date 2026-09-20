@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'rollup',
   ],
-  source: {
-    github: 'zekunjin/unplugin-modify',
-    npm: 'unplugin-modify',
-  },
   links: {
     github: 'https://github.com/zekunjin/unplugin-modify',
     npm: 'https://www.npmjs.com/package/unplugin-modify',
     website: 'https://github.com/zekunjin/unplugin-modify#readme',
+  },
+  source: {
+    github: 'zekunjin/unplugin-modify',
+    npm: 'unplugin-modify',
   },
   stats: {
     stars: 0,

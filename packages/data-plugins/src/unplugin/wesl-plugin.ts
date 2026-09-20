@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'wesl',
     'wgsl',
   ],
-  source: {
-    npm: 'wesl-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/wesl-plugin',
     website: 'https://github.com/webgpu-tools/wesl-js#readme',
+  },
+  source: {
+    npm: 'wesl-plugin',
   },
   stats: {
     stars: 0,

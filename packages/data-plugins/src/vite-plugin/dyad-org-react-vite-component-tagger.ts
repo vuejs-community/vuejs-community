@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: '@dyad-org/react-vite-component-tagger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@dyad-org/react-vite-component-tagger',
+  },
+  source: {
+    npm: '@dyad-org/react-vite-component-tagger',
   },
   stats: {
     stars: 0,

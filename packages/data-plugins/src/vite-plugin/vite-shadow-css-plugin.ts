@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-shadow-css-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-shadow-css-plugin',
+  },
+  source: {
+    npm: 'vite-shadow-css-plugin',
   },
   stats: {
     stars: 0,

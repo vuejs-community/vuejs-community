@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'cep',
     'brasil',
   ],
-  source: {
-    npm: 'vite-plugin-viacep',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-viacep',
+  },
+  source: {
+    npm: 'vite-plugin-viacep',
   },
   stats: {
     stars: 0,

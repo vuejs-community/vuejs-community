@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'tailor-platform/app-shell',
-    npm: '@tailor-platform/vite-plugin-app-shell',
-  },
   links: {
     github: 'https://github.com/tailor-platform/app-shell',
     npm: 'https://www.npmjs.com/package/@tailor-platform/vite-plugin-app-shell',
     website: 'https://github.com/tailor-platform/app-shell/tree/main/packages/vite-plugin#readme',
+  },
+  source: {
+    github: 'tailor-platform/app-shell',
+    npm: '@tailor-platform/vite-plugin-app-shell',
   },
   stats: {
     stars: 0,

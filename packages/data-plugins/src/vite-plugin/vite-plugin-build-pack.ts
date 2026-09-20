@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'clean-output',
     'glob',
   ],
-  source: {
-    npm: 'vite-plugin-build-pack',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-build-pack',
+  },
+  source: {
+    npm: 'vite-plugin-build-pack',
   },
   stats: {
     stars: 0,

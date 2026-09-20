@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'bundle',
     'virtual',
   ],
-  source: {
-    github: 'wq/wq.create',
-    npm: '@wq/rollup-plugin',
-  },
   links: {
     github: 'https://github.com/wq/wq.create',
     npm: 'https://www.npmjs.com/package/@wq/rollup-plugin',
     website: 'https://wq.io/@wq/rollup-plugin',
+  },
+  source: {
+    github: 'wq/wq.create',
+    npm: '@wq/rollup-plugin',
   },
   stats: {
     stars: 6,

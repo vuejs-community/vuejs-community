@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'webpack-plugin',
   ],
-  source: {
-    github: 'apps-in-toss-community/devtools',
-    npm: '@ait-co/devtools',
-  },
   links: {
     github: 'https://github.com/apps-in-toss-community/devtools',
     npm: 'https://www.npmjs.com/package/@ait-co/devtools',
     website: 'https://github.com/apps-in-toss-community/devtools',
+  },
+  source: {
+    github: 'apps-in-toss-community/devtools',
+    npm: '@ait-co/devtools',
   },
   stats: {
     stars: 4,

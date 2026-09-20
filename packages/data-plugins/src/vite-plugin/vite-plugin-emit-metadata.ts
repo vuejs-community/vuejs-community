@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'typescript',
     'emitDecoratorMetadata',
   ],
-  source: {
-    github: 'arjendeblok/vite-plugin-emit-metadata',
-    npm: 'vite-plugin-emit-metadata',
-  },
   links: {
     github: 'https://github.com/arjendeblok/vite-plugin-emit-metadata',
     npm: 'https://www.npmjs.com/package/vite-plugin-emit-metadata',
     website: 'https://github.com/arjendeblok/vite-plugin-emit-metadata#readme',
+  },
+  source: {
+    github: 'arjendeblok/vite-plugin-emit-metadata',
+    npm: 'vite-plugin-emit-metadata',
   },
   stats: {
     stars: 1,

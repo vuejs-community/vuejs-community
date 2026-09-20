@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'webpack-loader',
     'babel-plugin',
   ],
-  source: {
-    github: 'Starkyv/react-specter',
-    npm: 'react-specter',
-  },
   links: {
     github: 'https://github.com/Starkyv/react-specter',
     npm: 'https://www.npmjs.com/package/react-specter',
     website: 'https://github.com/Starkyv/react-specter#readme',
+  },
+  source: {
+    github: 'Starkyv/react-specter',
+    npm: 'react-specter',
   },
   stats: {
     stars: 0,

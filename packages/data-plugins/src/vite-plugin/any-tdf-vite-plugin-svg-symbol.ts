@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'svg',
     'icon',
   ],
-  source: {
-    github: 'any-tdf/vite-plugin-svg-symbol',
-    npm: '@any-tdf/vite-plugin-svg-symbol',
-  },
   links: {
     github: 'https://github.com/any-tdf/vite-plugin-svg-symbol',
     npm: 'https://www.npmjs.com/package/@any-tdf/vite-plugin-svg-symbol',
     website: 'https://github.com/any-tdf/vite-plugin-svg-symbol',
+  },
+  source: {
+    github: 'any-tdf/vite-plugin-svg-symbol',
+    npm: '@any-tdf/vite-plugin-svg-symbol',
   },
   stats: {
     stars: 0,

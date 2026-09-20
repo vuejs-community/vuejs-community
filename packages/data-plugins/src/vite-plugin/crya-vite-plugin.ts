@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'crya',
   ],
-  source: {
-    npm: 'crya-vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/crya-vite-plugin',
+  },
+  source: {
+    npm: 'crya-vite-plugin',
   },
   stats: {
     stars: 0,

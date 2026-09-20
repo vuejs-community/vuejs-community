@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'kijv/next-font',
-    npm: 'vite-plugin-next-font',
-  },
   links: {
     github: 'https://github.com/kijv/next-font',
     npm: 'https://www.npmjs.com/package/vite-plugin-next-font',
     website: 'https://github.com/kijv/next-font#readme',
+  },
+  source: {
+    github: 'kijv/next-font',
+    npm: 'vite-plugin-next-font',
   },
   stats: {
     stars: 3,

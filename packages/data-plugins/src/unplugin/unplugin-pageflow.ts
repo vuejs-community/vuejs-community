@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'leaferjs',
     'visualization',
   ],
-  source: {
-    github: 'fitoe/unplugin-pageflow',
-    npm: 'unplugin-pageflow',
-  },
   links: {
     github: 'https://github.com/fitoe/unplugin-pageflow',
     npm: 'https://www.npmjs.com/package/unplugin-pageflow',
     website: 'https://github.com/fitoe/unplugin-pageflow#readme',
+  },
+  source: {
+    github: 'fitoe/unplugin-pageflow',
+    npm: 'unplugin-pageflow',
   },
   stats: {
     stars: 9,

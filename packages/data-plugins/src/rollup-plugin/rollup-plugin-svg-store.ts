@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'icons',
     'sprite',
   ],
-  source: {
-    github: 'meh/rollup-plugin-svg-store',
-    npm: 'rollup-plugin-svg-store',
-  },
   links: {
     github: 'https://github.com/meh/rollup-plugin-svg-store',
     npm: 'https://www.npmjs.com/package/rollup-plugin-svg-store',
     website: 'https://github.com/meh/rollup-plugin-svg-store',
+  },
+  source: {
+    github: 'meh/rollup-plugin-svg-store',
+    npm: 'rollup-plugin-svg-store',
   },
   stats: {
     stars: 0,

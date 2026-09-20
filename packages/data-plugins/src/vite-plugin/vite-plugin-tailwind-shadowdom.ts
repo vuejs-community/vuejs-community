@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'web-components',
     'css',
   ],
-  source: {
-    github: 'Alletkla/vite-plugin-tailwind-shadowdom',
-    npm: 'vite-plugin-tailwind-shadowdom',
-  },
   links: {
     github: 'https://github.com/Alletkla/vite-plugin-tailwind-shadowdom',
     npm: 'https://www.npmjs.com/package/vite-plugin-tailwind-shadowdom',
     website: 'https://github.com/Alletkla/vite-plugin-tailwind-shadowdom#readme',
+  },
+  source: {
+    github: 'Alletkla/vite-plugin-tailwind-shadowdom',
+    npm: 'vite-plugin-tailwind-shadowdom',
   },
   stats: {
     stars: 16,

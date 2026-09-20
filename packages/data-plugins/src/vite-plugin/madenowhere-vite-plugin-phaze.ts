@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'report',
     'brotli',
   ],
-  source: {
-    github: 'madenowhere/phaze',
-    npm: '@madenowhere/vite-plugin-phaze',
-  },
   links: {
     github: 'https://github.com/madenowhere/phaze',
     npm: 'https://www.npmjs.com/package/@madenowhere/vite-plugin-phaze',
     website: 'https://phaze.build',
+  },
+  source: {
+    github: 'madenowhere/phaze',
+    npm: '@madenowhere/vite-plugin-phaze',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'webassembly',
     'wasm',
   ],
-  source: {
-    github: 'channyeintun/kite-lang',
-    npm: 'vite-plugin-kite',
-  },
   links: {
     github: 'https://github.com/channyeintun/kite-lang',
     npm: 'https://www.npmjs.com/package/vite-plugin-kite',
     website: 'https://kite-lang.dev',
+  },
+  source: {
+    github: 'channyeintun/kite-lang',
+    npm: 'vite-plugin-kite',
   },
   stats: {
     stars: 0,

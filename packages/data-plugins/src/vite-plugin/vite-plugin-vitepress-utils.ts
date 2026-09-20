@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vitepress',
     'vitepress utils',
   ],
-  source: {
-    github: 'lijiayuan365/vite-plugin-vitepress-utils',
-    npm: 'vite-plugin-vitepress-utils',
-  },
   links: {
     github: 'https://github.com/lijiayuan365/vite-plugin-vitepress-utils',
     npm: 'https://www.npmjs.com/package/vite-plugin-vitepress-utils',
     website: 'https://github.com/lijiayuan365/vite-plugin-vitepress-utils#readme',
+  },
+  source: {
+    github: 'lijiayuan365/vite-plugin-vitepress-utils',
+    npm: 'vite-plugin-vitepress-utils',
   },
   stats: {
     stars: 2,

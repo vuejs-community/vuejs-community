@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'emit lib assets',
   ],
-  source: {
-    github: 'GcsSloop/vite-plugin-lib-emit-assets',
-    npm: 'vite-plugin-lib-emit-assets',
-  },
   links: {
     github: 'https://github.com/GcsSloop/vite-plugin-lib-emit-assets',
     npm: 'https://www.npmjs.com/package/vite-plugin-lib-emit-assets',
     website: 'https://github.com/GcsSloop/vite-plugin-lib-emit-assets',
+  },
+  source: {
+    github: 'GcsSloop/vite-plugin-lib-emit-assets',
+    npm: 'vite-plugin-lib-emit-assets',
   },
   stats: {
     stars: 1,

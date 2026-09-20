@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'metanas/vite-plugin-webp-generator',
-    npm: 'vite-plugin-webp-generator',
-  },
   links: {
     github: 'https://github.com/metanas/vite-plugin-webp-generator',
     npm: 'https://www.npmjs.com/package/vite-plugin-webp-generator',
     website: 'https://github.com/metanas/vite-plugin-webp-generator',
+  },
+  source: {
+    github: 'metanas/vite-plugin-webp-generator',
+    npm: 'vite-plugin-webp-generator',
   },
   stats: {
     stars: 10,

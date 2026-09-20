@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'jsx',
     'lit-html',
   ],
-  source: {
-    github: 'IngloriousCoderz/inglorious-forge',
-    npm: '@inglorious/vite-plugin-jsx',
-  },
   links: {
     github: 'https://github.com/IngloriousCoderz/inglorious-forge',
     npm: 'https://www.npmjs.com/package/@inglorious/vite-plugin-jsx',
     website: 'https://github.com/IngloriousCoderz/inglorious-forge/tree/main/packages/vite-plugin-jsx#readme',
+  },
+  source: {
+    github: 'IngloriousCoderz/inglorious-forge',
+    npm: '@inglorious/vite-plugin-jsx',
   },
   stats: {
     stars: 0,

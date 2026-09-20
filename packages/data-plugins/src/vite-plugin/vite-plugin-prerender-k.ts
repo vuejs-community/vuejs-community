@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'prerender',
   ],
-  source: {
-    npm: 'vite-plugin-prerender-k',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-prerender-k',
+  },
+  source: {
+    npm: 'vite-plugin-prerender-k',
   },
   stats: {
     stars: 0,

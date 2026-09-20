@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'dom',
     'context',
   ],
-  source: {
-    github: 'XinChou16/ui-context-grab',
-    npm: 'ui-context-grab',
-  },
   links: {
     github: 'https://github.com/XinChou16/ui-context-grab',
     npm: 'https://www.npmjs.com/package/ui-context-grab',
     website: 'https://github.com/XinChou16/ui-context-grab#readme',
+  },
+  source: {
+    github: 'XinChou16/ui-context-grab',
+    npm: 'ui-context-grab',
   },
   stats: {
     stars: 0,

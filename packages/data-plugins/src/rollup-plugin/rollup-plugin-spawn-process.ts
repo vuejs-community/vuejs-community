@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'run',
     'process',
   ],
-  source: {
-    github: 'manferlo81/rollup-plugin-spawn-process',
-    npm: 'rollup-plugin-spawn-process',
-  },
   links: {
     github: 'https://github.com/manferlo81/rollup-plugin-spawn-process',
     npm: 'https://www.npmjs.com/package/rollup-plugin-spawn-process',
     website: 'https://github.com/manferlo81/rollup-plugin-spawn-process#readme',
+  },
+  source: {
+    github: 'manferlo81/rollup-plugin-spawn-process',
+    npm: 'rollup-plugin-spawn-process',
   },
   stats: {
     stars: 0,

@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'golang',
     'typescript',
   ],
-  source: {
-    npm: '@tygor/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@tygor/vite-plugin',
     website: 'https://github.com/broady/tygor#readme',
+  },
+  source: {
+    npm: '@tygor/vite-plugin',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'mahoushoujoarale/unplugin-locator',
-    npm: 'unplugin-locator',
-  },
   links: {
     github: 'https://github.com/mahoushoujoarale/unplugin-locator',
     npm: 'https://www.npmjs.com/package/unplugin-locator',
     website: 'https://github.com/mahoushoujoarale/unplugin-locator#readme',
+  },
+  source: {
+    github: 'mahoushoujoarale/unplugin-locator',
+    npm: 'unplugin-locator',
   },
   stats: {
     stars: 0,

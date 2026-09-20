@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'react',
     'vue',
   ],
-  source: {
-    github: 'rntgspr/gringow',
-    npm: '@gringow/gringow-vite',
-  },
   links: {
     github: 'https://github.com/rntgspr/gringow',
     npm: 'https://www.npmjs.com/package/@gringow/gringow-vite',
     website: 'https://github.com/rntgspr/gringow#readme',
+  },
+  source: {
+    github: 'rntgspr/gringow',
+    npm: '@gringow/gringow-vite',
   },
   stats: {
     stars: 0,

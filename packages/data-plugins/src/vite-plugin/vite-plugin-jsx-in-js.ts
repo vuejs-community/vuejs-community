@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'react-refresh',
     'jsx',
   ],
-  source: {
-    github: 'EnixCoda/vite-plugin-jsx-in-js',
-    npm: 'vite-plugin-jsx-in-js',
-  },
   links: {
     github: 'https://github.com/EnixCoda/vite-plugin-jsx-in-js',
     npm: 'https://www.npmjs.com/package/vite-plugin-jsx-in-js',
     website: 'https://github.com/EnixCoda/vite-plugin-jsx-in-js#readme',
+  },
+  source: {
+    github: 'EnixCoda/vite-plugin-jsx-in-js',
+    npm: 'vite-plugin-jsx-in-js',
   },
   stats: {
     stars: 1,

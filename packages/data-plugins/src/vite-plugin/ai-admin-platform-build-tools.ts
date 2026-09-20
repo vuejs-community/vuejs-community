@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'build-tools',
     'plugin',
   ],
-  source: {
-    npm: '@ai-admin-platform/build-tools',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ai-admin-platform/build-tools',
     website: 'https://gitee.com/XimfengYao/ai-admin-platform/tree/master/ai-admin-frontend/packages/build-tools',
+  },
+  source: {
+    npm: '@ai-admin-platform/build-tools',
   },
   stats: {
     stars: 0,

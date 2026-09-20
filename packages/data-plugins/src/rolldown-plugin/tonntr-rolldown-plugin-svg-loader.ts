@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'svg',
     'package',
   ],
-  source: {
-    github: 'toNNtr/rolldown-plugin-svg-loader',
-    npm: '@tonntr/rolldown-plugin-svg-loader',
-  },
   links: {
     github: 'https://github.com/toNNtr/rolldown-plugin-svg-loader',
     npm: 'https://www.npmjs.com/package/@tonntr/rolldown-plugin-svg-loader',
     website: 'https://github.com/toNNtr/rolldown-plugin-svg-loader#readme',
+  },
+  source: {
+    github: 'toNNtr/rolldown-plugin-svg-loader',
+    npm: '@tonntr/rolldown-plugin-svg-loader',
   },
   stats: {
     stars: 0,

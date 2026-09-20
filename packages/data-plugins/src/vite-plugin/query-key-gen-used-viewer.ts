@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'react-debugger',
     'query-analyzer',
   ],
-  source: {
-    github: 'Codezzzz/gen-query-key',
-    npm: '@query-key-gen/used-viewer',
-  },
   links: {
     github: 'https://github.com/Codezzzz/gen-query-key',
     npm: 'https://www.npmjs.com/package/@query-key-gen/used-viewer',
     website: 'https://github.com/Codezzzz/gen-query-key#readme',
+  },
+  source: {
+    github: 'Codezzzz/gen-query-key',
+    npm: '@query-key-gen/used-viewer',
   },
   stats: {
     stars: 0,

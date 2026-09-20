@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rolldown',
     'rolldown-plugin',
   ],
-  source: {
-    github: 'justforuse/rolldown-plugin-visualizer',
-    npm: 'rolldown-plugin-visualizer',
-  },
   links: {
     github: 'https://github.com/justforuse/rolldown-plugin-visualizer',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-visualizer',
     website: 'https://github.com/justforuse/rolldown-plugin-visualizer#readme',
+  },
+  source: {
+    github: 'justforuse/rolldown-plugin-visualizer',
+    npm: 'rolldown-plugin-visualizer',
   },
   stats: {
     stars: 0,

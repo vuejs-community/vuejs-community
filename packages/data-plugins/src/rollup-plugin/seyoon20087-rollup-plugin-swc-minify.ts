@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'swc',
   ],
-  source: {
-    github: 'seyoon20087/rollup-plugin-swc-minify',
-    npm: '@seyoon20087/rollup-plugin-swc-minify',
-  },
   links: {
     github: 'https://github.com/seyoon20087/rollup-plugin-swc-minify',
     npm: 'https://www.npmjs.com/package/@seyoon20087/rollup-plugin-swc-minify',
     website: 'http://github.com/seyoon20087/rollup-plugin-swc-minify/',
+  },
+  source: {
+    github: 'seyoon20087/rollup-plugin-swc-minify',
+    npm: '@seyoon20087/rollup-plugin-swc-minify',
   },
   stats: {
     stars: 0,

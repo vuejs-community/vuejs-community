@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'playwright',
     'cypress',
   ],
-  source: {
-    github: 'techmefr/env-attr-cleaner',
-    npm: 'env-attr-cleaner',
-  },
   links: {
     github: 'https://github.com/techmefr/env-attr-cleaner',
     npm: 'https://www.npmjs.com/package/env-attr-cleaner',
     website: 'https://github.com/techmefr/env-attr-cleaner/tree/main/packages/unplugin#readme',
+  },
+  source: {
+    github: 'techmefr/env-attr-cleaner',
+    npm: 'env-attr-cleaner',
   },
   stats: {
     stars: 0,

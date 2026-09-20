@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'tagged',
     'lit-html',
   ],
-  source: {
-    github: 'ouweiya/rollup-plugin-minify-html-literals-v3',
-    npm: 'rollup-plugin-minify-html-literals-v3',
-  },
   links: {
     github: 'https://github.com/ouweiya/rollup-plugin-minify-html-literals-v3',
     npm: 'https://www.npmjs.com/package/rollup-plugin-minify-html-literals-v3',
     website: 'https://github.com/ouweiya/rollup-plugin-minify-html-literals-v3#readme',
+  },
+  source: {
+    github: 'ouweiya/rollup-plugin-minify-html-literals-v3',
+    npm: 'rollup-plugin-minify-html-literals-v3',
   },
   stats: {
     stars: 6,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'linhuibin98/unplugin-pages',
-    npm: 'unplugin-pages',
-  },
   links: {
     github: 'https://github.com/linhuibin98/unplugin-pages',
     npm: 'https://www.npmjs.com/package/unplugin-pages',
     website: 'https://github.com/linhuibin98/unplugin-pages#readme',
+  },
+  source: {
+    github: 'linhuibin98/unplugin-pages',
+    npm: 'unplugin-pages',
   },
   stats: {
     stars: 1,

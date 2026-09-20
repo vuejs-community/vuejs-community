@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'debugging',
     'javascript',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-strip',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-strip',
     website: 'https://github.com/rollup/plugins/tree/master/packages/strip#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-strip',
   },
   stats: {
     stars: 0,

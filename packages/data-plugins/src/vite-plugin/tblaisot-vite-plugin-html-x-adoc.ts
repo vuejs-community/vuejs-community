@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'hmr',
     'hot-module-replacement',
   ],
-  source: {
-    github: 'tblaisot/vite-plugin-html-x-adoc',
-    npm: '@tblaisot/vite-plugin-html-x-adoc',
-  },
   links: {
     github: 'https://github.com/tblaisot/vite-plugin-html-x-adoc',
     npm: 'https://www.npmjs.com/package/@tblaisot/vite-plugin-html-x-adoc',
     website: 'https://github.com/tblaisot/vite-plugin-html-x-adoc#readme',
+  },
+  source: {
+    github: 'tblaisot/vite-plugin-html-x-adoc',
+    npm: '@tblaisot/vite-plugin-html-x-adoc',
   },
   stats: {
     stars: 0,

@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'local-development',
     'middleware',
   ],
-  source: {
-    github: 'childrentime/vite-plugin-https',
-    npm: 'vite-plugin-https',
-  },
   links: {
     github: 'https://github.com/childrentime/vite-plugin-https',
     npm: 'https://www.npmjs.com/package/vite-plugin-https',
     website: 'https://github.com/childrentime/vite-plugin-https/#readme',
+  },
+  source: {
+    github: 'childrentime/vite-plugin-https',
+    npm: 'vite-plugin-https',
   },
   stats: {
     stars: 0,

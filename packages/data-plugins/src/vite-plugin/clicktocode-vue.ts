@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'ai',
     'vite-plugin',
   ],
-  source: {
-    github: 'aminarshadinia/clicktocode',
-    npm: '@clicktocode/vue',
-  },
   links: {
     github: 'https://github.com/aminarshadinia/clicktocode',
     npm: 'https://www.npmjs.com/package/@clicktocode/vue',
     website: 'https://github.com/aminarshadinia/clicktocode/tree/main/packages/vue#readme',
+  },
+  source: {
+    github: 'aminarshadinia/clicktocode',
+    npm: '@clicktocode/vue',
   },
   stats: {
     stars: 0,

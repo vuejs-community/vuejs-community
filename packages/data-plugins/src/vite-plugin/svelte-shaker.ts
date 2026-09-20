@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'tree-shaking',
     'vite-plugin',
   ],
-  source: {
-    github: 'baseballyama/svelte-shaker',
-    npm: 'svelte-shaker',
-  },
   links: {
     github: 'https://github.com/baseballyama/svelte-shaker',
     npm: 'https://www.npmjs.com/package/svelte-shaker',
     website: 'https://github.com/baseballyama/svelte-shaker#readme',
+  },
+  source: {
+    github: 'baseballyama/svelte-shaker',
+    npm: 'svelte-shaker',
   },
   stats: {
     stars: 25,

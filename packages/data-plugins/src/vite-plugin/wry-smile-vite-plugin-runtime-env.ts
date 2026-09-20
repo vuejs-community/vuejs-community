@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'environment',
     'global variable',
   ],
-  source: {
-    npm: '@wry-smile/vite-plugin-runtime-env',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@wry-smile/vite-plugin-runtime-env',
+  },
+  source: {
+    npm: '@wry-smile/vite-plugin-runtime-env',
   },
   stats: {
     stars: 0,

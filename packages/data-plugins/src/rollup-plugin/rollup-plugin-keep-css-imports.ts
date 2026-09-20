@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'preserve',
     'imports',
   ],
-  source: {
-    github: 'SLTKA/rollup-plugin-keep-css-imports',
-    npm: 'rollup-plugin-keep-css-imports',
-  },
   links: {
     github: 'https://github.com/SLTKA/rollup-plugin-keep-css-imports',
     npm: 'https://www.npmjs.com/package/rollup-plugin-keep-css-imports',
     website: 'https://github.com/SLTKA/rollup-plugin-keep-css-imports',
+  },
+  source: {
+    github: 'SLTKA/rollup-plugin-keep-css-imports',
+    npm: 'rollup-plugin-keep-css-imports',
   },
   stats: {
     stars: 0,

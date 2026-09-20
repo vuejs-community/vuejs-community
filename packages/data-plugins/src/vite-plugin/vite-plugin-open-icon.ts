@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'svg',
     'open-icon',
   ],
-  source: {
-    github: 'silvandiepen/open-icon-libs',
-    npm: 'vite-plugin-open-icon',
-  },
   links: {
     github: 'https://github.com/silvandiepen/open-icon-libs',
     npm: 'https://www.npmjs.com/package/vite-plugin-open-icon',
     website: 'https://github.com/silvandiepen/open-icon-libs#readme',
+  },
+  source: {
+    github: 'silvandiepen/open-icon-libs',
+    npm: 'vite-plugin-open-icon',
   },
   stats: {
     stars: 0,

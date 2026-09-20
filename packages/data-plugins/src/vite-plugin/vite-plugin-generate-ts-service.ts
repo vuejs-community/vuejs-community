@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'plugin',
   ],
-  source: {
-    npm: 'vite-plugin-generate-ts-service',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-generate-ts-service',
+  },
+  source: {
+    npm: 'vite-plugin-generate-ts-service',
   },
   stats: {
     stars: 0,

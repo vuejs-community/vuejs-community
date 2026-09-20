@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'scss',
     'postcss',
   ],
-  source: {
-    github: 'koffeine/rollup-plugin-sass-postcss',
-    npm: '@koffeine/rollup-plugin-sass-postcss',
-  },
   links: {
     github: 'https://github.com/koffeine/rollup-plugin-sass-postcss',
     npm: 'https://www.npmjs.com/package/@koffeine/rollup-plugin-sass-postcss',
     website: 'https://github.com/koffeine/rollup-plugin-sass-postcss',
+  },
+  source: {
+    github: 'koffeine/rollup-plugin-sass-postcss',
+    npm: '@koffeine/rollup-plugin-sass-postcss',
   },
   stats: {
     stars: 0,

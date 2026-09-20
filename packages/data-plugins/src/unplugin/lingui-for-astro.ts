@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'SegaraRai/lingui-for',
-    npm: 'lingui-for-astro',
-  },
   links: {
     github: 'https://github.com/SegaraRai/lingui-for',
     npm: 'https://www.npmjs.com/package/lingui-for-astro',
     website: 'https://lingui-for.roundtrip.dev/frameworks/astro/getting-started',
+  },
+  source: {
+    github: 'SegaraRai/lingui-for',
+    npm: 'lingui-for-astro',
   },
   stats: {
     stars: 6,

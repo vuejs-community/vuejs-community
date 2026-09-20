@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'sxzz/unplugin-glob',
-    npm: 'unplugin-glob',
-  },
   links: {
     github: 'https://github.com/sxzz/unplugin-glob',
     npm: 'https://www.npmjs.com/package/unplugin-glob',
     website: 'https://github.com/sxzz/unplugin-glob#readme',
+  },
+  source: {
+    github: 'sxzz/unplugin-glob',
+    npm: 'unplugin-glob',
   },
   stats: {
     stars: 0,

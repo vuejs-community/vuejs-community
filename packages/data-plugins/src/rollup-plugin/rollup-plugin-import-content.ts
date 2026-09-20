@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup-plugin-import-json',
     'json',
   ],
-  source: {
-    github: 'hgztask/rollup-plugin-import-content',
-    npm: 'rollup-plugin-import-content',
-  },
   links: {
     github: 'https://github.com/hgztask/rollup-plugin-import-content',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-content',
     website: 'https://space.bilibili.com/473239155',
+  },
+  source: {
+    github: 'hgztask/rollup-plugin-import-content',
+    npm: 'rollup-plugin-import-content',
   },
   stats: {
     stars: 0,

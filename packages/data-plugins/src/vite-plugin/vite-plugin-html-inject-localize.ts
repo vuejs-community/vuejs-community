@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'html-loader',
     'loader',
   ],
-  source: {
-    github: 'DmitriiNazimov/vite-plugin-html-inject-localize',
-    npm: 'vite-plugin-html-inject-localize',
-  },
   links: {
     github: 'https://github.com/DmitriiNazimov/vite-plugin-html-inject-localize',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-inject-localize',
     website: 'https://github.com/DmitriiNazimov/vite-plugin-html-inject-localize',
+  },
+  source: {
+    github: 'DmitriiNazimov/vite-plugin-html-inject-localize',
+    npm: 'vite-plugin-html-inject-localize',
   },
   stats: {
     stars: 0,

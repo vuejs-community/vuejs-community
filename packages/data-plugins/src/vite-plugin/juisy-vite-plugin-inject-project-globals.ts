@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'project',
     'globals',
   ],
-  source: {
-    npm: '@juisy/vite-plugin-inject-project-globals',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@juisy/vite-plugin-inject-project-globals',
     website: 'https://hperchec.gitlab.io/juisy',
+  },
+  source: {
+    npm: '@juisy/vite-plugin-inject-project-globals',
   },
   stats: {
     stars: 0,

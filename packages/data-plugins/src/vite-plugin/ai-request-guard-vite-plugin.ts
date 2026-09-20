@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'fetch-interceptor',
     'typescript',
   ],
-  source: {
-    github: 'jipengju-GitHub/ai-request-guard',
-    npm: '@ai-request-guard/vite-plugin',
-  },
   links: {
     github: 'https://github.com/jipengju-GitHub/ai-request-guard',
     npm: 'https://www.npmjs.com/package/@ai-request-guard/vite-plugin',
     website: 'https://guard.pennji.cn/api/webpack-plugin.html',
+  },
+  source: {
+    github: 'jipengju-GitHub/ai-request-guard',
+    npm: '@ai-request-guard/vite-plugin',
   },
   stats: {
     stars: 2,

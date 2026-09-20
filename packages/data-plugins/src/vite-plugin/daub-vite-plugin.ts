@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'claude',
     'ui',
   ],
-  source: {
-    npm: '@daub/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@daub/vite-plugin',
+  },
+  source: {
+    npm: '@daub/vite-plugin',
   },
   stats: {
     stars: 0,

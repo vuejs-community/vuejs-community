@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'rollup',
     'precompress',
   ],
-  source: {
-    github: 'leroyanders/Ness.js',
-    npm: '@nessframework/compression',
-  },
   links: {
     github: 'https://github.com/leroyanders/Ness.js',
     npm: 'https://www.npmjs.com/package/@nessframework/compression',
     website: 'https://nessjs.com/docs/plugins/compression',
+  },
+  source: {
+    github: 'leroyanders/Ness.js',
+    npm: '@nessframework/compression',
   },
   stats: {
     stars: 0,

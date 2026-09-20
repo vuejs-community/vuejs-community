@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'duowb/unplugin-ha-code-auth',
-    npm: 'unplugin-ha-code-auth',
-  },
   links: {
     github: 'https://github.com/duowb/unplugin-ha-code-auth',
     npm: 'https://www.npmjs.com/package/unplugin-ha-code-auth',
     website: 'https://github.com/duowb/unplugin-ha-code-auth#readme',
+  },
+  source: {
+    github: 'duowb/unplugin-ha-code-auth',
+    npm: 'unplugin-ha-code-auth',
   },
   stats: {
     stars: 0,

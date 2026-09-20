@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'symlink',
     'vite-plugin-rolling-release',
   ],
-  source: {
-    github: 'aboul/vite-plugin-rolling-release',
-    npm: '@aboulbox/vite-plugin-rolling-release',
-  },
   links: {
     github: 'https://github.com/aboul/vite-plugin-rolling-release',
     npm: 'https://www.npmjs.com/package/@aboulbox/vite-plugin-rolling-release',
     website: 'https://github.com/aboul/vite-plugin-rolling-release#readme',
+  },
+  source: {
+    github: 'aboul/vite-plugin-rolling-release',
+    npm: '@aboulbox/vite-plugin-rolling-release',
   },
   stats: {
     stars: 0,

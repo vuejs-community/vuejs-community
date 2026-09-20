@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'devtools',
     'ai',
   ],
-  source: {
-    github: 'scaccogatto/vite-plugin-herdr',
-    npm: 'vite-plugin-herdr',
-  },
   links: {
     github: 'https://github.com/scaccogatto/vite-plugin-herdr',
     npm: 'https://www.npmjs.com/package/vite-plugin-herdr',
     website: 'https://github.com/scaccogatto/vite-plugin-herdr#readme',
+  },
+  source: {
+    github: 'scaccogatto/vite-plugin-herdr',
+    npm: 'vite-plugin-herdr',
   },
   stats: {
     stars: 0,

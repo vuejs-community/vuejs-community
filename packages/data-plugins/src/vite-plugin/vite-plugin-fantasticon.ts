@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'icon',
     'font',
   ],
-  source: {
-    npm: 'vite-plugin-fantasticon',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-fantasticon',
+  },
+  source: {
+    npm: 'vite-plugin-fantasticon',
   },
   stats: {
     stars: 0,

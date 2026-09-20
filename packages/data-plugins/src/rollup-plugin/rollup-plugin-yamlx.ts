@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'yaml',
   ],
-  source: {
-    github: 'unbyte/rollup-plugin-yamlx',
-    npm: 'rollup-plugin-yamlx',
-  },
   links: {
     github: 'https://github.com/unbyte/rollup-plugin-yamlx',
     npm: 'https://www.npmjs.com/package/rollup-plugin-yamlx',
     website: 'https://github.com/unbyte/rollup-plugin-yamlx',
+  },
+  source: {
+    github: 'unbyte/rollup-plugin-yamlx',
+    npm: 'rollup-plugin-yamlx',
   },
   stats: {
     stars: 0,

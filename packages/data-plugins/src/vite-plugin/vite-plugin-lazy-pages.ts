@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'file-system-based',
     'routing',
   ],
-  source: {
-    github: 'alternativniy/vite-plugin-lazy-pages',
-    npm: 'vite-plugin-lazy-pages',
-  },
   links: {
     github: 'https://github.com/alternativniy/vite-plugin-lazy-pages',
     npm: 'https://www.npmjs.com/package/vite-plugin-lazy-pages',
     website: 'https://github.com/alternativniy/vite-plugin-lazy-pages',
+  },
+  source: {
+    github: 'alternativniy/vite-plugin-lazy-pages',
+    npm: 'vite-plugin-lazy-pages',
   },
   stats: {
     stars: 0,

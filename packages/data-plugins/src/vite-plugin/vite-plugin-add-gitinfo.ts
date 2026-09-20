@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'git',
     'vcs',
   ],
-  source: {
-    npm: 'vite-plugin-add-gitinfo',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-add-gitinfo',
+  },
+  source: {
+    npm: 'vite-plugin-add-gitinfo',
   },
   stats: {
     stars: 0,

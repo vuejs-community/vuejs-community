@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'unplugin/unplugin-vue-jsx',
-    npm: 'unplugin-vue-jsx-plus',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-vue-jsx',
     npm: 'https://www.npmjs.com/package/unplugin-vue-jsx-plus',
     website: 'https://github.com/unplugin/unplugin-vue-jsx#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-vue-jsx',
+    npm: 'unplugin-vue-jsx-plus',
   },
   stats: {
     stars: 32,

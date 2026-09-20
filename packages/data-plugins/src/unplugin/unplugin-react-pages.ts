@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'react-router',
     'pages',
   ],
-  source: {
-    github: 'FrontEndDev-org/unplugin-react-pages',
-    npm: 'unplugin-react-pages',
-  },
   links: {
     github: 'https://github.com/FrontEndDev-org/unplugin-react-pages',
     npm: 'https://www.npmjs.com/package/unplugin-react-pages',
     website: 'https://github.com/FrontEndDev-org/unplugin-react-pages',
+  },
+  source: {
+    github: 'FrontEndDev-org/unplugin-react-pages',
+    npm: 'unplugin-react-pages',
   },
   stats: {
     stars: 1,

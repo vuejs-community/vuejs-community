@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'banner',
     'license',
   ],
-  source: {
-    github: 'yingye/rollup-plugin-banner',
-    npm: 'rollup-plugin-banner',
-  },
   links: {
     github: 'https://github.com/yingye/rollup-plugin-banner',
     npm: 'https://www.npmjs.com/package/rollup-plugin-banner',
     website: 'https://github.com/yingye/rollup-plugin-banner#readme',
+  },
+  source: {
+    github: 'yingye/rollup-plugin-banner',
+    npm: 'rollup-plugin-banner',
   },
   stats: {
     stars: 16,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'unplugin',
     'unplugin-jsx-class-transform',
   ],
-  source: {
-    github: 'tangdaoyuan/unplugin-jsx-class-transform',
-    npm: 'unplugin-jsx-class-transform',
-  },
   links: {
     github: 'https://github.com/tangdaoyuan/unplugin-jsx-class-transform',
     npm: 'https://www.npmjs.com/package/unplugin-jsx-class-transform',
     website: 'https://github.com/tangdaoyuan/unplugin-jsx-class-transform#readme',
+  },
+  source: {
+    github: 'tangdaoyuan/unplugin-jsx-class-transform',
+    npm: 'unplugin-jsx-class-transform',
   },
   stats: {
     stars: 1,

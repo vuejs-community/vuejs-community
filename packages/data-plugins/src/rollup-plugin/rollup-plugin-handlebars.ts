@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'hbs',
     'template',
   ],
-  source: {
-    github: 'jibhaine/rollup-plugin-handlebars',
-    npm: 'rollup-plugin-handlebars',
-  },
   links: {
     github: 'https://github.com/jibhaine/rollup-plugin-handlebars',
     npm: 'https://www.npmjs.com/package/rollup-plugin-handlebars',
     website: 'https://github.com/jibhaine/rollup-plugin-handlebars#readme',
+  },
+  source: {
+    github: 'jibhaine/rollup-plugin-handlebars',
+    npm: 'rollup-plugin-handlebars',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'db-ux',
     'design-system',
   ],
-  source: {
-    github: 'db-ux-design-system/core-web',
-    npm: '@db-ux/core-vite-plugin',
-  },
   links: {
     github: 'https://github.com/db-ux-design-system/core-web',
     npm: 'https://www.npmjs.com/package/@db-ux/core-vite-plugin',
     website: 'https://github.com/db-ux-design-system/core-web#readme',
+  },
+  source: {
+    github: 'db-ux-design-system/core-web',
+    npm: '@db-ux/core-vite-plugin',
   },
   stats: {
     stars: 131,

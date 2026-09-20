@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'modular-css',
     'postcss',
   ],
-  source: {
-    github: 'tivac/modular-css',
-    npm: '@modular-css/rollup',
-  },
   links: {
     github: 'https://github.com/tivac/modular-css',
     npm: 'https://www.npmjs.com/package/@modular-css/rollup',
     website: 'https://m-css.com',
+  },
+  source: {
+    github: 'tivac/modular-css',
+    npm: '@modular-css/rollup',
   },
   stats: {
     stars: 0,

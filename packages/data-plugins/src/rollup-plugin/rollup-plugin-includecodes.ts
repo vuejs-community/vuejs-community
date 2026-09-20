@@ -12,12 +12,12 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    npm: 'rollup-plugin-includecodes',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-includecodes',
     website: 'https://github.com/lisaShen91/rollup-plugin-includecodes.git',
+  },
+  source: {
+    npm: 'rollup-plugin-includecodes',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'string',
     'html',
   ],
-  source: {
-    github: 'hyhappy/rollup-plugin-string-html',
-    npm: 'rollup-plugin-string-html',
-  },
   links: {
     github: 'https://github.com/hyhappy/rollup-plugin-string-html',
     npm: 'https://www.npmjs.com/package/rollup-plugin-string-html',
     website: 'https://github.com/hyhappy/rollup-plugin-string-html',
+  },
+  source: {
+    github: 'hyhappy/rollup-plugin-string-html',
+    npm: 'rollup-plugin-string-html',
   },
   stats: {
     stars: 1,

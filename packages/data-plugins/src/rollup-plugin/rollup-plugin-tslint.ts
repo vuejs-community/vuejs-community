@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'tslint',
     'lint',
   ],
-  source: {
-    github: 'minocoko/rollup-plugin-tslint',
-    npm: 'rollup-plugin-tslint',
-  },
   links: {
     github: 'https://github.com/minocoko/rollup-plugin-tslint',
     npm: 'https://www.npmjs.com/package/rollup-plugin-tslint',
     website: 'https://github.com/minocoko/rollup-plugin-tslint#readme',
+  },
+  source: {
+    github: 'minocoko/rollup-plugin-tslint',
+    npm: 'rollup-plugin-tslint',
   },
   stats: {
     stars: 0,

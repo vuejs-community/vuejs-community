@@ -21,11 +21,11 @@ export default defineProjectMeta({
     'astro',
     'converter',
   ],
-  source: {
-    npm: 'oklchtohex',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/oklchtohex',
+  },
+  source: {
+    npm: 'oklchtohex',
   },
   stats: {
     stars: 0,

@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'schema-inference',
   ],
-  source: {
-    github: 'ehdrms785/wiretype',
-    npm: 'wiretype',
-  },
   links: {
     github: 'https://github.com/ehdrms785/wiretype',
     npm: 'https://www.npmjs.com/package/wiretype',
     website: 'https://github.com/ehdrms785/wiretype#readme',
+  },
+  source: {
+    github: 'ehdrms785/wiretype',
+    npm: 'wiretype',
   },
   stats: {
     stars: 0,

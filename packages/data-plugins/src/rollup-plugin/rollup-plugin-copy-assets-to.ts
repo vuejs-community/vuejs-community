@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'assets',
   ],
-  source: {
-    github: 'JonShort/rollup-plugin-copy-assets-to',
-    npm: 'rollup-plugin-copy-assets-to',
-  },
   links: {
     github: 'https://github.com/JonShort/rollup-plugin-copy-assets-to',
     npm: 'https://www.npmjs.com/package/rollup-plugin-copy-assets-to',
     website: 'https://github.com/JonShort/rollup-plugin-copy-assets-to#readme',
+  },
+  source: {
+    github: 'JonShort/rollup-plugin-copy-assets-to',
+    npm: 'rollup-plugin-copy-assets-to',
   },
   stats: {
     stars: 0,

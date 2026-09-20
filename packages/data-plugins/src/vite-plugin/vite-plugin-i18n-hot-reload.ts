@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'i18n',
     'hot-reload',
   ],
-  source: {
-    github: 'jdaoliveiraprograming/vite-plugin-i18n-hot-reload',
-    npm: 'vite-plugin-i18n-hot-reload',
-  },
   links: {
     github: 'https://github.com/jdaoliveiraprograming/vite-plugin-i18n-hot-reload',
     npm: 'https://www.npmjs.com/package/vite-plugin-i18n-hot-reload',
     website: 'https://github.com/jdaoliveiraprograming/vite-plugin-i18n-hot-reload#readme',
+  },
+  source: {
+    github: 'jdaoliveiraprograming/vite-plugin-i18n-hot-reload',
+    npm: 'vite-plugin-i18n-hot-reload',
   },
   stats: {
     stars: 0,

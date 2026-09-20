@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin-svelte-devtools',
     'dx',
   ],
-  source: {
-    github: 'baiwusanyu-c/svelte-devtools',
-    npm: 'svelte-devtools-bwsy',
-  },
   links: {
     github: 'https://github.com/baiwusanyu-c/svelte-devtools',
     npm: 'https://www.npmjs.com/package/svelte-devtools-bwsy',
     website: 'https://github.com/baiwusanyu-c/svelte-devtools#readme',
+  },
+  source: {
+    github: 'baiwusanyu-c/svelte-devtools',
+    npm: 'svelte-devtools-bwsy',
   },
   stats: {
     stars: 0,

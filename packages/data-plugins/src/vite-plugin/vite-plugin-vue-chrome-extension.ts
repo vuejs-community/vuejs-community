@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'chrome extension',
   ],
-  source: {
-    npm: 'vite-plugin-vue-chrome-extension',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-chrome-extension',
+  },
+  source: {
+    npm: 'vite-plugin-vue-chrome-extension',
   },
   stats: {
     stars: 0,

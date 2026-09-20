@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-fluidcube',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-fluidcube',
+  },
+  source: {
+    npm: 'vite-plugin-fluidcube',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'plugin-alias',
   ],
-  source: {
-    github: 'code-ManL/vite-plugin-alias',
-    npm: 'vite-plugin-alias2',
-  },
   links: {
     github: 'https://github.com/code-ManL/vite-plugin-alias',
     npm: 'https://www.npmjs.com/package/vite-plugin-alias2',
     website: 'https://github.com/code-ManL/vite-plugin-alias#readme',
+  },
+  source: {
+    github: 'code-ManL/vite-plugin-alias',
+    npm: 'vite-plugin-alias2',
   },
   stats: {
     stars: 0,

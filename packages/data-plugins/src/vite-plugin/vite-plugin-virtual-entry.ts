@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'vite pug',
     'vite multi html',
   ],
-  source: {
-    github: 'Fi2zz/vite-plugin-virtual-entry',
-    npm: 'vite-plugin-virtual-entry',
-  },
   links: {
     github: 'https://github.com/Fi2zz/vite-plugin-virtual-entry',
     npm: 'https://www.npmjs.com/package/vite-plugin-virtual-entry',
     website: 'https://github.com/Fi2zz/vite-plugin-virtual-entry#readme',
+  },
+  source: {
+    github: 'Fi2zz/vite-plugin-virtual-entry',
+    npm: 'vite-plugin-virtual-entry',
   },
   stats: {
     stars: 3,

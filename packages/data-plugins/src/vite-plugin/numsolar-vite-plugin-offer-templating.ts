@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: '@numsolar/vite-plugin-offer-templating',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@numsolar/vite-plugin-offer-templating',
+  },
+  source: {
+    npm: '@numsolar/vite-plugin-offer-templating',
   },
   stats: {
     stars: 0,

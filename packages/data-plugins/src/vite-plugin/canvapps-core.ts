@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'svelte-like',
     'cvs',
   ],
-  source: {
-    github: 'Erickgiber/CanvApps',
-    npm: '@canvapps/core',
-  },
   links: {
     github: 'https://github.com/Erickgiber/CanvApps',
     npm: 'https://www.npmjs.com/package/@canvapps/core',
     website: 'https://erickgiber.github.io/CanvApps',
+  },
+  source: {
+    github: 'Erickgiber/CanvApps',
+    npm: '@canvapps/core',
   },
   stats: {
     stars: 5,

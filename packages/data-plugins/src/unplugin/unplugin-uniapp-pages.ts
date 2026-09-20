@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'routes',
     'unplugin',
   ],
-  source: {
-    github: 'Enside/unplugin-uniapp-pages',
-    npm: 'unplugin-uniapp-pages',
-  },
   links: {
     github: 'https://github.com/Enside/unplugin-uniapp-pages',
     npm: 'https://www.npmjs.com/package/unplugin-uniapp-pages',
     website: 'https://github.com/Enside/unplugin-uniapp-pages#readme',
+  },
+  source: {
+    github: 'Enside/unplugin-uniapp-pages',
+    npm: 'unplugin-uniapp-pages',
   },
   stats: {
     stars: 5,

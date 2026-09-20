@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'ssr',
     'rollup-plugin',
   ],
-  source: {
-    github: 'akaSybe/rollup-plugin-svelte-ssr',
-    npm: 'rollup-plugin-svelte-ssr',
-  },
   links: {
     github: 'https://github.com/akaSybe/rollup-plugin-svelte-ssr',
     npm: 'https://www.npmjs.com/package/rollup-plugin-svelte-ssr',
     website: 'https://github.com/akaSybe/rollup-plugin-svelte-ssr#readme',
+  },
+  source: {
+    github: 'akaSybe/rollup-plugin-svelte-ssr',
+    npm: 'rollup-plugin-svelte-ssr',
   },
   stats: {
     stars: 35,

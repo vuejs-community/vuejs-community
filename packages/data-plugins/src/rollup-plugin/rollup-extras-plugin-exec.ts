@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'exec',
   ],
-  source: {
-    github: 'kshutkin/rollup-extras',
-    npm: '@rollup-extras/plugin-exec',
-  },
   links: {
     github: 'https://github.com/kshutkin/rollup-extras',
     npm: 'https://www.npmjs.com/package/@rollup-extras/plugin-exec',
     website: 'https://github.com/kshutkin/rollup-extras/blob/main/plugin-exec/README.md',
+  },
+  source: {
+    github: 'kshutkin/rollup-extras',
+    npm: '@rollup-extras/plugin-exec',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'icons',
     'generator',
   ],
-  source: {
-    github: 'infrasym/laravel-favicon-vite-plugin',
-    npm: '@infrasym/laravel-favicon-vite-plugin',
-  },
   links: {
     github: 'https://github.com/infrasym/laravel-favicon-vite-plugin',
     npm: 'https://www.npmjs.com/package/@infrasym/laravel-favicon-vite-plugin',
     website: 'https://github.com/infrasym/laravel-favicon-vite-plugin#readme',
+  },
+  source: {
+    github: 'infrasym/laravel-favicon-vite-plugin',
+    npm: '@infrasym/laravel-favicon-vite-plugin',
   },
   stats: {
     stars: 3,

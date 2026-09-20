@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'sfc',
     'js',
   ],
-  source: {
-    github: 'iosamuel/vite-plugin-vue-sfc-in-js',
-    npm: 'vite-plugin-vue-sfc-in-js',
-  },
   links: {
     github: 'https://github.com/iosamuel/vite-plugin-vue-sfc-in-js',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-sfc-in-js',
     website: 'https://github.com/iosamuel/vite-plugin-vue-sfc-in-js#readme',
+  },
+  source: {
+    github: 'iosamuel/vite-plugin-vue-sfc-in-js',
+    npm: 'vite-plugin-vue-sfc-in-js',
   },
   stats: {
     stars: 28,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'console.log',
     'vite-plugin',
   ],
-  source: {
-    github: 'lq9958/vite-plugin-console-line',
-    npm: 'vite-plugin-console-line',
-  },
   links: {
     github: 'https://github.com/lq9958/vite-plugin-console-line',
     npm: 'https://www.npmjs.com/package/vite-plugin-console-line',
     website: 'https://github.com/lq9958/vite-plugin-console-line#readme',
+  },
+  source: {
+    github: 'lq9958/vite-plugin-console-line',
+    npm: 'vite-plugin-console-line',
   },
   stats: {
     stars: 7,

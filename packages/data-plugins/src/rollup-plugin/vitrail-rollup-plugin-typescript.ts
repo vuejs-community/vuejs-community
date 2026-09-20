@@ -12,12 +12,12 @@ export default defineProjectMeta({
     'rollup-plugin',
     'typescript',
   ],
-  source: {
-    npm: '@vitrail/rollup-plugin-typescript',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@vitrail/rollup-plugin-typescript',
     website: 'https://rollup-plugin-typescript.nightlycommit.com',
+  },
+  source: {
+    npm: '@vitrail/rollup-plugin-typescript',
   },
   stats: {
     stars: 0,

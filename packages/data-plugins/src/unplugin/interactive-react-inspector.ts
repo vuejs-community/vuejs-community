@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'unplugin',
     'nextjs',
   ],
-  source: {
-    npm: 'interactive-react-inspector',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/interactive-react-inspector',
+  },
+  source: {
+    npm: 'interactive-react-inspector',
   },
   stats: {
     stars: 0,

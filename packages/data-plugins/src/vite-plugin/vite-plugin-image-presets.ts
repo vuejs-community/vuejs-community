@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'ElMassimo/vite-plugin-image-presets',
-    npm: 'vite-plugin-image-presets',
-  },
   links: {
     github: 'https://github.com/ElMassimo/vite-plugin-image-presets',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-presets',
     website: 'https://github.com/ElMassimo/vite-plugin-image-presets',
+  },
+  source: {
+    github: 'ElMassimo/vite-plugin-image-presets',
+    npm: 'vite-plugin-image-presets',
   },
   stats: {
     stars: 0,

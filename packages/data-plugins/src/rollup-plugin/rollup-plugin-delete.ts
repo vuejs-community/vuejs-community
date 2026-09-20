@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'folder',
     'directory',
   ],
-  source: {
-    github: 'vladshcherbin/rollup-plugin-delete',
-    npm: 'rollup-plugin-delete',
-  },
   links: {
     github: 'https://github.com/vladshcherbin/rollup-plugin-delete',
     npm: 'https://www.npmjs.com/package/rollup-plugin-delete',
     website: 'https://github.com/vladshcherbin/rollup-plugin-delete#readme',
+  },
+  source: {
+    github: 'vladshcherbin/rollup-plugin-delete',
+    npm: 'rollup-plugin-delete',
   },
   stats: {
     stars: 70,

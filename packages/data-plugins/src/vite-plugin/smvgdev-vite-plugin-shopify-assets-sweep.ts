@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'manifest',
     'theme',
   ],
-  source: {
-    github: 'StuartMVG/vite-plugin-shopify-assets-sweep',
-    npm: '@smvgdev/vite-plugin-shopify-assets-sweep',
-  },
   links: {
     github: 'https://github.com/StuartMVG/vite-plugin-shopify-assets-sweep',
     npm: 'https://www.npmjs.com/package/@smvgdev/vite-plugin-shopify-assets-sweep',
     website: 'https://github.com/StuartMVG/vite-plugin-shopify-assets-sweep#readme',
+  },
+  source: {
+    github: 'StuartMVG/vite-plugin-shopify-assets-sweep',
+    npm: '@smvgdev/vite-plugin-shopify-assets-sweep',
   },
   stats: {
     stars: 0,

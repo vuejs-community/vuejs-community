@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'performance',
     'webdev',
   ],
-  source: {
-    github: 'rohenha/vite-plugin-critical-css',
-    npm: '@rohenha/vite-plugin-critical-css',
-  },
   links: {
     github: 'https://github.com/rohenha/vite-plugin-critical-css',
     npm: 'https://www.npmjs.com/package/@rohenha/vite-plugin-critical-css',
     website: 'https://github.com/rohenha/vite-plugin-critical-css#readme',
+  },
+  source: {
+    github: 'rohenha/vite-plugin-critical-css',
+    npm: '@rohenha/vite-plugin-critical-css',
   },
   stats: {
     stars: 0,

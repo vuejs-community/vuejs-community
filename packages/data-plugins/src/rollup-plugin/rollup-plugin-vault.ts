@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'corrodedHash/rollup-plugin-vault',
-    npm: 'rollup-plugin-vault',
-  },
   links: {
     github: 'https://github.com/corrodedHash/rollup-plugin-vault',
     npm: 'https://www.npmjs.com/package/rollup-plugin-vault',
     website: 'https://github.com/corrodedHash/rollup-plugin-vault#readme',
+  },
+  source: {
+    github: 'corrodedHash/rollup-plugin-vault',
+    npm: 'rollup-plugin-vault',
   },
   stats: {
     stars: 0,

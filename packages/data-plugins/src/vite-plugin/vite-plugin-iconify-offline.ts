@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vue',
     'react',
   ],
-  source: {
-    github: 'AkagiYui/vite-plugin-iconify-offline',
-    npm: 'vite-plugin-iconify-offline',
-  },
   links: {
     github: 'https://github.com/AkagiYui/vite-plugin-iconify-offline',
     npm: 'https://www.npmjs.com/package/vite-plugin-iconify-offline',
     website: 'https://github.com/AkagiYui/vite-plugin-iconify-offline',
+  },
+  source: {
+    github: 'AkagiYui/vite-plugin-iconify-offline',
+    npm: 'vite-plugin-iconify-offline',
   },
   stats: {
     stars: 2,

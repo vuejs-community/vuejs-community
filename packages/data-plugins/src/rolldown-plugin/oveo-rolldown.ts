@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rolldown-plugin',
   ],
-  source: {
-    github: 'localvoid/oveo',
-    npm: '@oveo/rolldown',
-  },
   links: {
     github: 'https://github.com/localvoid/oveo',
     npm: 'https://www.npmjs.com/package/@oveo/rolldown',
     website: 'https://github.com/localvoid/oveo',
+  },
+  source: {
+    github: 'localvoid/oveo',
+    npm: '@oveo/rolldown',
   },
   stats: {
     stars: 0,

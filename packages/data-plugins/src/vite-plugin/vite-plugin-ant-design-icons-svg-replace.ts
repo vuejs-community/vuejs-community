@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'nqdy666/vite-plugin-ant-design-icons-svg-replace',
-    npm: 'vite-plugin-ant-design-icons-svg-replace',
-  },
   links: {
     github: 'https://github.com/nqdy666/vite-plugin-ant-design-icons-svg-replace',
     npm: 'https://www.npmjs.com/package/vite-plugin-ant-design-icons-svg-replace',
     website: 'https://github.com/nqdy666/vite-plugin-ant-design-icons-svg-replace',
+  },
+  source: {
+    github: 'nqdy666/vite-plugin-ant-design-icons-svg-replace',
+    npm: 'vite-plugin-ant-design-icons-svg-replace',
   },
   stats: {
     stars: 0,

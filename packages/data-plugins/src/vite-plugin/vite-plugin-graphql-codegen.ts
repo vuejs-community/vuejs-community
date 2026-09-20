@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-graphql-codegen',
   ],
-  source: {
-    github: 'danielwaltz/vite-plugin-graphql-codegen',
-    npm: 'vite-plugin-graphql-codegen',
-  },
   links: {
     github: 'https://github.com/danielwaltz/vite-plugin-graphql-codegen',
     npm: 'https://www.npmjs.com/package/vite-plugin-graphql-codegen',
     website: 'https://github.com/danielwaltz/vite-plugin-graphql-codegen#readme',
+  },
+  source: {
+    github: 'danielwaltz/vite-plugin-graphql-codegen',
+    npm: 'vite-plugin-graphql-codegen',
   },
   stats: {
     stars: 91,

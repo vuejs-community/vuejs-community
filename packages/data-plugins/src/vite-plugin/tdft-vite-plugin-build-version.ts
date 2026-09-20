@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: 'tdft-vite-plugin-build-version',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/tdft-vite-plugin-build-version',
     website: 'https://gitlab.tdft.cn/npm/td-vite-plugin-build-version#readme',
+  },
+  source: {
+    npm: 'tdft-vite-plugin-build-version',
   },
   stats: {
     stars: 0,

@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'side-effects',
     'module-graph',
   ],
-  source: {
-    github: 'abdalkadir/rollup-plugin-why',
-    npm: 'rollup-plugin-why',
-  },
   links: {
     github: 'https://github.com/abdalkadir/rollup-plugin-why',
     npm: 'https://www.npmjs.com/package/rollup-plugin-why',
     website: 'https://github.com/abdalkadir/rollup-plugin-why#readme',
+  },
+  source: {
+    github: 'abdalkadir/rollup-plugin-why',
+    npm: 'rollup-plugin-why',
   },
   stats: {
     stars: 0,

@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'manifest.json',
     'backend integration',
   ],
-  source: {
-    npm: '@timberstack/vite-plugin-better-manifest',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@timberstack/vite-plugin-better-manifest',
+  },
+  source: {
+    npm: '@timberstack/vite-plugin-better-manifest',
   },
   stats: {
     stars: 0,

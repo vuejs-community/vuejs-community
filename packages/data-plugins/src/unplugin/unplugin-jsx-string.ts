@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'convert',
     'react',
   ],
-  source: {
-    github: 'unplugin/unplugin-jsx-string',
-    npm: 'unplugin-jsx-string',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-jsx-string',
     npm: 'https://www.npmjs.com/package/unplugin-jsx-string',
     website: 'https://github.com/unplugin/unplugin-jsx-string#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-jsx-string',
+    npm: 'unplugin-jsx-string',
   },
   stats: {
     stars: 0,

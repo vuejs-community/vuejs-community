@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-separate-importer',
   ],
-  source: {
-    github: 'fengxinming/vite-plugins',
-    npm: 'vite-plugin-separate-importer',
-  },
   links: {
     github: 'https://github.com/fengxinming/vite-plugins',
     npm: 'https://www.npmjs.com/package/vite-plugin-separate-importer',
     website: 'https://fengxinming.github.io/vite-plugins/plugins/vite-plugin-separate-importer/quick-start',
+  },
+  source: {
+    github: 'fengxinming/vite-plugins',
+    npm: 'vite-plugin-separate-importer',
   },
   stats: {
     stars: 0,

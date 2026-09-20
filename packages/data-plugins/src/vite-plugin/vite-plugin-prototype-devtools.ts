@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'devtools',
   ],
-  source: {
-    github: 'NguyenTuDong/vite-prototype',
-    npm: 'vite-plugin-prototype-devtools',
-  },
   links: {
     github: 'https://github.com/NguyenTuDong/vite-prototype',
     npm: 'https://www.npmjs.com/package/vite-plugin-prototype-devtools',
     website: 'https://github.com/NguyenTuDong/vite-prototype#readme',
+  },
+  source: {
+    github: 'NguyenTuDong/vite-prototype',
+    npm: 'vite-plugin-prototype-devtools',
   },
   stats: {
     stars: 1,

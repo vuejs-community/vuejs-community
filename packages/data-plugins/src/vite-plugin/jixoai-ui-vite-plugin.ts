@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'terminal',
     'icons',
   ],
-  source: {
-    github: 'jixoai/ui',
-    npm: '@jixoai/ui-vite-plugin',
-  },
   links: {
     github: 'https://github.com/jixoai/ui',
     npm: 'https://www.npmjs.com/package/@jixoai/ui-vite-plugin',
     website: 'https://github.com/jixoai/ui#readme',
+  },
+  source: {
+    github: 'jixoai/ui',
+    npm: '@jixoai/ui-vite-plugin',
   },
   stats: {
     stars: 0,

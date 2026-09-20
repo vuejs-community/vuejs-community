@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'xyl66/rollup-plugin-sentry',
-    npm: 'rollup-plugin-sentry',
-  },
   links: {
     github: 'https://github.com/xyl66/rollup-plugin-sentry',
     npm: 'https://www.npmjs.com/package/rollup-plugin-sentry',
     website: 'https://github.com/xyl66/rollup-plugin-sentry',
+  },
+  source: {
+    github: 'xyl66/rollup-plugin-sentry',
+    npm: 'rollup-plugin-sentry',
   },
   stats: {
     stars: 2,

@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'abbrlink',
     'astro',
   ],
-  source: {
-    npm: 'vite-plugin-abbrlink',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-abbrlink',
     website: 'https://github.com/tangerball/abbrlink/tree/master/packages/vite-plugin-abbrlink#readme',
+  },
+  source: {
+    npm: 'vite-plugin-abbrlink',
   },
   stats: {
     stars: 0,

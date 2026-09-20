@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'check-env',
     'env',
   ],
-  source: {
-    github: 'nitra/vite-check-env',
-    npm: '@nitra/vite-check-env',
-  },
   links: {
     github: 'https://github.com/nitra/vite-check-env',
     npm: 'https://www.npmjs.com/package/@nitra/vite-check-env',
     website: 'https://github.com/nitra/vite-check-env',
+  },
+  source: {
+    github: 'nitra/vite-check-env',
+    npm: '@nitra/vite-check-env',
   },
   stats: {
     stars: 0,

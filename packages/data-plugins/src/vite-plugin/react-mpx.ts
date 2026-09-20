@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'monorepo',
   ],
-  source: {
-    github: 'ObaidQatan/react-mpx',
-    npm: 'react-mpx',
-  },
   links: {
     github: 'https://github.com/ObaidQatan/react-mpx',
     npm: 'https://www.npmjs.com/package/react-mpx',
     website: 'https://github.com/ObaidQatan/react-mpx',
+  },
+  source: {
+    github: 'ObaidQatan/react-mpx',
+    npm: 'react-mpx',
   },
   stats: {
     stars: 0,

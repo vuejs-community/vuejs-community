@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'webpack',
     'maxax',
   ],
-  source: {
-    npm: '@maxax/elegant-router',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@maxax/elegant-router',
+  },
+  source: {
+    npm: '@maxax/elegant-router',
   },
   stats: {
     stars: 0,

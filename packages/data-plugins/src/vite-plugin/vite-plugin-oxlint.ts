@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: '52-entertainment/vite-plugin-oxlint',
-    npm: 'vite-plugin-oxlint',
-  },
   links: {
     github: 'https://github.com/52-entertainment/vite-plugin-oxlint',
     npm: 'https://www.npmjs.com/package/vite-plugin-oxlint',
     website: 'https://github.com/52-entertainment/vite-plugin-oxlint',
+  },
+  source: {
+    github: '52-entertainment/vite-plugin-oxlint',
+    npm: 'vite-plugin-oxlint',
   },
   stats: {
     stars: 55,

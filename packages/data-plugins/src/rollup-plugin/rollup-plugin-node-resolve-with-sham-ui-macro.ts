@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'sham-ui',
   ],
-  source: {
-    github: 'sham-ui/rollup-plugin-node-resolve-with-sham-ui-macro',
-    npm: 'rollup-plugin-node-resolve-with-sham-ui-macro',
-  },
   links: {
     github: 'https://github.com/sham-ui/rollup-plugin-node-resolve-with-sham-ui-macro',
     npm: 'https://www.npmjs.com/package/rollup-plugin-node-resolve-with-sham-ui-macro',
     website: 'https://github.com/sham-ui/rollup-plugin-node-resolve-with-sham-ui-macro#readme',
+  },
+  source: {
+    github: 'sham-ui/rollup-plugin-node-resolve-with-sham-ui-macro',
+    npm: 'rollup-plugin-node-resolve-with-sham-ui-macro',
   },
   stats: {
     stars: 0,

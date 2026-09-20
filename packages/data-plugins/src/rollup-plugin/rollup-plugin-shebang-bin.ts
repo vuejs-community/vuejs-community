@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'bin',
     'executable',
   ],
-  source: {
-    github: 'prantlf/rollup-plugin-shebang-bin',
-    npm: 'rollup-plugin-shebang-bin',
-  },
   links: {
     github: 'https://github.com/prantlf/rollup-plugin-shebang-bin',
     npm: 'https://www.npmjs.com/package/rollup-plugin-shebang-bin',
     website: 'http://github.com/prantlf/rollup-plugin-shebang-bin/',
+  },
+  source: {
+    github: 'prantlf/rollup-plugin-shebang-bin',
+    npm: 'rollup-plugin-shebang-bin',
   },
   stats: {
     stars: 3,

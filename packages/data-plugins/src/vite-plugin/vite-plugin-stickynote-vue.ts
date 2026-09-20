@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vue',
     'vue3',
   ],
-  source: {
-    github: 'FujishigeTemma/vite-plugin-stickynote',
-    npm: '@vite-plugin-stickynote/vue',
-  },
   links: {
     github: 'https://github.com/FujishigeTemma/vite-plugin-stickynote',
     npm: 'https://www.npmjs.com/package/@vite-plugin-stickynote/vue',
     website: 'https://github.com/FujishigeTemma/vite-plugin-stickynote#readme',
+  },
+  source: {
+    github: 'FujishigeTemma/vite-plugin-stickynote',
+    npm: '@vite-plugin-stickynote/vue',
   },
   stats: {
     stars: 0,

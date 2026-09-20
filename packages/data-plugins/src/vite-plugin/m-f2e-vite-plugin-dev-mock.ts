@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: '@m-f2e/vite-plugin-dev-mock',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@m-f2e/vite-plugin-dev-mock',
+  },
+  source: {
+    npm: '@m-f2e/vite-plugin-dev-mock',
   },
   stats: {
     stars: 0,

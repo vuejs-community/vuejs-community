@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'image',
     'duplicates',
   ],
-  source: {
-    github: 'wgbx/vite-plugin-image-duplicates',
-    npm: 'vite-plugin-image-duplicates',
-  },
   links: {
     github: 'https://github.com/wgbx/vite-plugin-image-duplicates',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-duplicates',
     website: 'https://github.com/wgbx/vite-plugin-image-duplicates',
+  },
+  source: {
+    github: 'wgbx/vite-plugin-image-duplicates',
+    npm: 'vite-plugin-image-duplicates',
   },
   stats: {
     stars: 0,

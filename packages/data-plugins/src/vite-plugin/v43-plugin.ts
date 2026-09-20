@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'threejs',
     'vite-plugin',
   ],
-  source: {
-    github: 'drawcall-ai/v43',
-    npm: '@v43/plugin',
-  },
   links: {
     github: 'https://github.com/drawcall-ai/v43',
     npm: 'https://www.npmjs.com/package/@v43/plugin',
     website: 'https://github.com/drawcall-ai/v43#readme',
+  },
+  source: {
+    github: 'drawcall-ai/v43',
+    npm: '@v43/plugin',
   },
   stats: {
     stars: 0,

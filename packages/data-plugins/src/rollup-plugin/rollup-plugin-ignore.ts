@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'proteriax/rollup-plugin-ignore',
-    npm: 'rollup-plugin-ignore',
-  },
   links: {
     github: 'https://github.com/proteriax/rollup-plugin-ignore',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ignore',
     website: 'https://github.com/proteriax/rollup-plugin-ignore#readme',
+  },
+  source: {
+    github: 'proteriax/rollup-plugin-ignore',
+    npm: 'rollup-plugin-ignore',
   },
   stats: {
     stars: 28,

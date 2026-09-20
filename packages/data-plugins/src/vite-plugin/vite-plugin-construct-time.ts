@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'construct',
     'time',
   ],
-  source: {
-    github: 'Webming19/vite-plugin-construct-time',
-    npm: 'vite-plugin-construct-time',
-  },
   links: {
     github: 'https://github.com/Webming19/vite-plugin-construct-time',
     npm: 'https://www.npmjs.com/package/vite-plugin-construct-time',
     website: 'https://github.com/Webming19/vite-plugin-construct-time',
+  },
+  source: {
+    github: 'Webming19/vite-plugin-construct-time',
+    npm: 'vite-plugin-construct-time',
   },
   stats: {
     stars: 0,

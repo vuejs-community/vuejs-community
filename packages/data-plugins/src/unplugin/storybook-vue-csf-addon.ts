@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vue',
     'vue3',
   ],
-  source: {
-    github: 'floroz/storybook-vue-csf-addon',
-    npm: 'storybook-vue-csf-addon',
-  },
   links: {
     github: 'https://github.com/floroz/storybook-vue-csf-addon',
     npm: 'https://www.npmjs.com/package/storybook-vue-csf-addon',
     website: 'https://github.com/floroz/storybook-vue-csf-addon#readme',
+  },
+  source: {
+    github: 'floroz/storybook-vue-csf-addon',
+    npm: 'storybook-vue-csf-addon',
   },
   stats: {
     stars: 1,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'TinyVue',
     'vite',
   ],
-  source: {
-    github: 'opentiny/tiny-vue',
-    npm: '@opentiny/vue-vite-import',
-  },
   links: {
     github: 'https://github.com/opentiny/tiny-vue',
     npm: 'https://www.npmjs.com/package/@opentiny/vue-vite-import',
     website: 'https://github.com/opentiny/tiny-vue#readme',
+  },
+  source: {
+    github: 'opentiny/tiny-vue',
+    npm: '@opentiny/vue-vite-import',
   },
   stats: {
     stars: 2273,

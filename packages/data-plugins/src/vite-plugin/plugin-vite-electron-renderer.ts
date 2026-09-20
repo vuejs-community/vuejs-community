@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'esm',
     'cjs',
   ],
-  source: {
-    github: 'dmazzella/plugin-vite-electron-renderer',
-    npm: 'plugin-vite-electron-renderer',
-  },
   links: {
     github: 'https://github.com/dmazzella/plugin-vite-electron-renderer',
     npm: 'https://www.npmjs.com/package/plugin-vite-electron-renderer',
     website: 'https://github.com/dmazzella/plugin-vite-electron-renderer#readme',
+  },
+  source: {
+    github: 'dmazzella/plugin-vite-electron-renderer',
+    npm: 'plugin-vite-electron-renderer',
   },
   stats: {
     stars: 0,

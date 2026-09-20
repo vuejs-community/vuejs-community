@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'unplugin',
     'webpack',
   ],
-  source: {
-    github: 'codecaaron/animus',
-    npm: '@animus-ui/unplugin',
-  },
   links: {
     github: 'https://github.com/codecaaron/animus',
     npm: 'https://www.npmjs.com/package/@animus-ui/unplugin',
     website: 'https://github.com/codecaaron/animus/tree/main/packages/unplugin#readme',
+  },
+  source: {
+    github: 'codecaaron/animus',
+    npm: '@animus-ui/unplugin',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'markpro-code/vite-plugin-class-context-binding',
-    npm: 'vite-plugin-class-context-binding',
-  },
   links: {
     github: 'https://github.com/markpro-code/vite-plugin-class-context-binding',
     npm: 'https://www.npmjs.com/package/vite-plugin-class-context-binding',
     website: 'https://github.com/markpro-code/vite-plugin-class-context-binding#readme',
+  },
+  source: {
+    github: 'markpro-code/vite-plugin-class-context-binding',
+    npm: 'vite-plugin-class-context-binding',
   },
   stats: {
     stars: 0,

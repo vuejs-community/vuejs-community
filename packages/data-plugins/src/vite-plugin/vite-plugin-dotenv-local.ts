@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'env',
     'import.meta.env',
   ],
-  source: {
-    github: 'yracnet/dotenv-local',
-    npm: 'vite-plugin-dotenv-local',
-  },
   links: {
     github: 'https://github.com/yracnet/dotenv-local',
     npm: 'https://www.npmjs.com/package/vite-plugin-dotenv-local',
     website: 'https://github.com/yracnet/dotenv-local',
+  },
+  source: {
+    github: 'yracnet/dotenv-local',
+    npm: 'vite-plugin-dotenv-local',
   },
   stats: {
     stars: 0,

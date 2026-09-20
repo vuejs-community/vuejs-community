@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'cesium',
   ],
-  source: {
-    github: '4Nameless4/vite-plugin-cesium-mini',
-    npm: 'vite-plugin-cesium-mini',
-  },
   links: {
     github: 'https://github.com/4Nameless4/vite-plugin-cesium-mini',
     npm: 'https://www.npmjs.com/package/vite-plugin-cesium-mini',
     website: 'https://github.com/4Nameless4/vite-plugin-cesium-mini#readme',
+  },
+  source: {
+    github: '4Nameless4/vite-plugin-cesium-mini',
+    npm: 'vite-plugin-cesium-mini',
   },
   stats: {
     stars: 0,

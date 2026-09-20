@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'accessibility',
     'lighthouse',
   ],
-  source: {
-    npm: '@rk-web/vite-plugin-validate',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@rk-web/vite-plugin-validate',
+  },
+  source: {
+    npm: '@rk-web/vite-plugin-validate',
   },
   stats: {
     stars: 0,

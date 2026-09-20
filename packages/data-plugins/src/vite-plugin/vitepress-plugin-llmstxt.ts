@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'vitepress',
     'vitepress-plugin',
   ],
-  source: {
-    github: 'angelespejo/vitepress-plugin-llmstxt',
-    npm: 'vitepress-plugin-llmstxt',
-  },
   links: {
     github: 'https://github.com/angelespejo/vitepress-plugin-llmstxt',
     npm: 'https://www.npmjs.com/package/vitepress-plugin-llmstxt',
     website: 'https://www.npmjs.com/package/vitepress-plugin-llmstxt',
+  },
+  source: {
+    github: 'angelespejo/vitepress-plugin-llmstxt',
+    npm: 'vitepress-plugin-llmstxt',
   },
   stats: {
     stars: 6,

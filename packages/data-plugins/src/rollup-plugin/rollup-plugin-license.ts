@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'mjeanroy/rollup-plugin-license',
-    npm: 'rollup-plugin-license',
-  },
   links: {
     github: 'https://github.com/mjeanroy/rollup-plugin-license',
     npm: 'https://www.npmjs.com/package/rollup-plugin-license',
     website: 'https://github.com/mjeanroy/rollup-plugin-license',
+  },
+  source: {
+    github: 'mjeanroy/rollup-plugin-license',
+    npm: 'rollup-plugin-license',
   },
   stats: {
     stars: 140,

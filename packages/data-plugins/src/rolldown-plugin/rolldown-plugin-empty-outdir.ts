@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rolldown',
     'rolldown-plugin',
   ],
-  source: {
-    github: 'aprosail/rolldown-enhance',
-    npm: 'rolldown-plugin-empty-outdir',
-  },
   links: {
     github: 'https://github.com/aprosail/rolldown-enhance',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-empty-outdir',
     website: 'https://github.com/aprosail/rolldown-enhance#readme',
+  },
+  source: {
+    github: 'aprosail/rolldown-enhance',
+    npm: 'rolldown-plugin-empty-outdir',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'webpack-loader',
   ],
-  source: {
-    github: 'leepule/monaco-editor-nls-adapter',
-    npm: 'monaco-editor-nls-adapter',
-  },
   links: {
     github: 'https://github.com/leepule/monaco-editor-nls-adapter',
     npm: 'https://www.npmjs.com/package/monaco-editor-nls-adapter',
     website: 'https://github.com/leepule/monaco-editor-nls-adapter#readme',
+  },
+  source: {
+    github: 'leepule/monaco-editor-nls-adapter',
+    npm: 'monaco-editor-nls-adapter',
   },
   stats: {
     stars: 1,

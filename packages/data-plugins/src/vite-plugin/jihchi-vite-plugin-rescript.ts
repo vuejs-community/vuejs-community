@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'ReasonML',
     'BuckleScript',
   ],
-  source: {
-    github: 'jihchi/vite-plugin-rescript',
-    npm: '@jihchi/vite-plugin-rescript',
-  },
   links: {
     github: 'https://github.com/jihchi/vite-plugin-rescript',
     npm: 'https://www.npmjs.com/package/@jihchi/vite-plugin-rescript',
     website: 'https://github.com/jihchi/vite-plugin-rescript',
+  },
+  source: {
+    github: 'jihchi/vite-plugin-rescript',
+    npm: '@jihchi/vite-plugin-rescript',
   },
   stats: {
     stars: 116,

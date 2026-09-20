@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'svg-icon',
     'component',
   ],
-  source: {
-    npm: '@dumplings/vite-plugin-svg-icon',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@dumplings/vite-plugin-svg-icon',
     website: 'https://github.com/dumplings/vite-plugin-svg-icon',
+  },
+  source: {
+    npm: '@dumplings/vite-plugin-svg-icon',
   },
   stats: {
     stars: 0,

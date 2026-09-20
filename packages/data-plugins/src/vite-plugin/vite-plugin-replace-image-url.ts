@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'replace-url',
     'cdn-url',
   ],
-  source: {
-    github: 'oyjt/vite-plugin-replace-image-url',
-    npm: 'vite-plugin-replace-image-url',
-  },
   links: {
     github: 'https://github.com/oyjt/vite-plugin-replace-image-url',
     npm: 'https://www.npmjs.com/package/vite-plugin-replace-image-url',
     website: 'https://github.com/oyjt/vite-plugin-replace-image-url',
+  },
+  source: {
+    github: 'oyjt/vite-plugin-replace-image-url',
+    npm: 'vite-plugin-replace-image-url',
   },
   stats: {
     stars: 1,

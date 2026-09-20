@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'synchronize',
     'sync',
   ],
-  source: {
-    github: 'apppro123/vite-plugin-shadow-on-dev',
-    npm: 'vite-plugin-shadow-on-dev',
-  },
   links: {
     github: 'https://github.com/apppro123/vite-plugin-shadow-on-dev',
     npm: 'https://www.npmjs.com/package/vite-plugin-shadow-on-dev',
     website: 'https://github.com/apppro123/vite-plugin-shadow-on-dev',
+  },
+  source: {
+    github: 'apppro123/vite-plugin-shadow-on-dev',
+    npm: 'vite-plugin-shadow-on-dev',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'auto-import',
     'transform',
   ],
-  source: {
-    github: 'unplugin/unplugin-auto-import',
-    npm: 'fg-unplugin-auto-import',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-auto-import',
     npm: 'https://www.npmjs.com/package/fg-unplugin-auto-import',
     website: 'https://github.com/unplugin/unplugin-auto-import#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-auto-import',
+    npm: 'fg-unplugin-auto-import',
   },
   stats: {
     stars: 3797,

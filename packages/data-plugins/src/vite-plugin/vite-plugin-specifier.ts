@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'writeBundle',
     'transform',
   ],
-  source: {
-    github: 'morganney/vite-plugin-specifier',
-    npm: 'vite-plugin-specifier',
-  },
   links: {
     github: 'https://github.com/morganney/vite-plugin-specifier',
     npm: 'https://www.npmjs.com/package/vite-plugin-specifier',
     website: 'https://github.com/morganney/vite-plugin-specifier#readme',
+  },
+  source: {
+    github: 'morganney/vite-plugin-specifier',
+    npm: 'vite-plugin-specifier',
   },
   stats: {
     stars: 0,

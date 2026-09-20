@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'vue',
     'solidjs',
   ],
-  source: {
-    github: 'sigtrace-dev/sigtrace',
-    npm: '@sigtrace/vite',
-  },
   links: {
     github: 'https://github.com/sigtrace-dev/sigtrace',
     npm: 'https://www.npmjs.com/package/@sigtrace/vite',
     website: 'https://sigtrace.dev',
+  },
+  source: {
+    github: 'sigtrace-dev/sigtrace',
+    npm: '@sigtrace/vite',
   },
   stats: {
     stars: 3,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'cycle',
     'dependency',
   ],
-  source: {
-    github: 'wqhui/vite-plugin-chunk-cycle-detector',
-    npm: 'vite-plugin-chunk-cycle-detector',
-  },
   links: {
     github: 'https://github.com/wqhui/vite-plugin-chunk-cycle-detector',
     npm: 'https://www.npmjs.com/package/vite-plugin-chunk-cycle-detector',
     website: 'https://github.com/wqhui/vite-plugin-chunk-cycle-detector#readme',
+  },
+  source: {
+    github: 'wqhui/vite-plugin-chunk-cycle-detector',
+    npm: 'vite-plugin-chunk-cycle-detector',
   },
   stats: {
     stars: 0,

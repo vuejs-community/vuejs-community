@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'development-tools',
     'debugging',
   ],
-  source: {
-    github: 'AJCastello/jay-js',
-    npm: '@jay-js/inspector',
-  },
   links: {
     github: 'https://github.com/AJCastello/jay-js',
     npm: 'https://www.npmjs.com/package/@jay-js/inspector',
     website: 'https://github.com/AJCastello/jay-js#readme',
+  },
+  source: {
+    github: 'AJCastello/jay-js',
+    npm: '@jay-js/inspector',
   },
   stats: {
     stars: 15,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'coffee-script',
     'rollup-plugin',
   ],
-  source: {
-    github: 'zeekay/rollup-plugin-coffee2',
-    npm: 'rollup-plugin-coffee2',
-  },
   links: {
     github: 'https://github.com/zeekay/rollup-plugin-coffee2',
     npm: 'https://www.npmjs.com/package/rollup-plugin-coffee2',
     website: 'https://github.com/zeekay/rollup-plugin-coffee2',
+  },
+  source: {
+    github: 'zeekay/rollup-plugin-coffee2',
+    npm: 'rollup-plugin-coffee2',
   },
   stats: {
     stars: 9,

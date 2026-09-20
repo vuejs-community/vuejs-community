@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'sass',
     'css',
   ],
-  source: {
-    github: 'dolsem/vite-plugin-qwik-css-extras',
-    npm: 'vite-plugin-qwik-css-extras',
-  },
   links: {
     github: 'https://github.com/dolsem/vite-plugin-qwik-css-extras',
     npm: 'https://www.npmjs.com/package/vite-plugin-qwik-css-extras',
     website: 'https://github.com/dolsem/vite-plugin-qwik-css-extras#readme',
+  },
+  source: {
+    github: 'dolsem/vite-plugin-qwik-css-extras',
+    npm: 'vite-plugin-qwik-css-extras',
   },
   stats: {
     stars: 0,

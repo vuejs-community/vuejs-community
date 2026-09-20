@@ -30,14 +30,14 @@ export default defineProjectMeta({
     'tailwindcss',
     'cli',
   ],
-  source: {
-    github: 'rainbowindex/rainbowindex',
-    npm: 'rainbowindex',
-  },
   links: {
     github: 'https://github.com/rainbowindex/rainbowindex',
     npm: 'https://www.npmjs.com/package/rainbowindex',
     website: 'https://rainbowindex.dev',
+  },
+  source: {
+    github: 'rainbowindex/rainbowindex',
+    npm: 'rainbowindex',
   },
   stats: {
     stars: 1,

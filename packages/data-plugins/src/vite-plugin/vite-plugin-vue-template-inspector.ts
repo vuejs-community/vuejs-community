@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'inspector',
     'devtools',
   ],
-  source: {
-    github: 'Leadgq/vite-plugin-vue-template-inspector',
-    npm: 'vite-plugin-vue-template-inspector',
-  },
   links: {
     github: 'https://github.com/Leadgq/vite-plugin-vue-template-inspector',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-template-inspector',
     website: 'https://github.com/Leadgq/vite-plugin-vue-template-inspector#readme',
+  },
+  source: {
+    github: 'Leadgq/vite-plugin-vue-template-inspector',
+    npm: 'vite-plugin-vue-template-inspector',
   },
   stats: {
     stars: 0,

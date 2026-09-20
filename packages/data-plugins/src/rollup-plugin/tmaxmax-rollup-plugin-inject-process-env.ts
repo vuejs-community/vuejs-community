@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'inject',
     'browser',
   ],
-  source: {
-    github: 'tmaxmax/rollup-plugin-inject-process-env',
-    npm: '@tmaxmax/rollup-plugin-inject-process-env',
-  },
   links: {
     github: 'https://github.com/tmaxmax/rollup-plugin-inject-process-env',
     npm: 'https://www.npmjs.com/package/@tmaxmax/rollup-plugin-inject-process-env',
     website: 'https://github.com/tmaxmax/rollup-plugin-inject-process-env#readme',
+  },
+  source: {
+    github: 'tmaxmax/rollup-plugin-inject-process-env',
+    npm: '@tmaxmax/rollup-plugin-inject-process-env',
   },
   stats: {
     stars: 0,

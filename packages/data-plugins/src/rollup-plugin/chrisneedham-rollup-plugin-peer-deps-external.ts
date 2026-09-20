@@ -17,13 +17,13 @@ export default defineProjectMeta({
     'optimize',
     'exclude',
   ],
-  source: {
-    github: 'chrisn/rollup-plugin-peer-deps-external',
-    npm: '@chrisneedham/rollup-plugin-peer-deps-external',
-  },
   links: {
     github: 'https://github.com/chrisn/rollup-plugin-peer-deps-external',
     npm: 'https://www.npmjs.com/package/@chrisneedham/rollup-plugin-peer-deps-external',
+  },
+  source: {
+    github: 'chrisn/rollup-plugin-peer-deps-external',
+    npm: '@chrisneedham/rollup-plugin-peer-deps-external',
   },
   stats: {
     stars: 2,

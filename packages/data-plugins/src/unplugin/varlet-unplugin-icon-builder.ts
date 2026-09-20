@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'icon',
     'unplugin',
   ],
-  source: {
-    npm: '@varlet/unplugin-icon-builder',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@varlet/unplugin-icon-builder',
+  },
+  source: {
+    npm: '@varlet/unplugin-icon-builder',
   },
   stats: {
     stars: 0,

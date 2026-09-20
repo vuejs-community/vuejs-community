@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'jsbundling-rails',
     'vite-plugin',
   ],
-  source: {
-    github: 'skryukov/rails_vite',
-    npm: 'rails-vite-plugin',
-  },
   links: {
     github: 'https://github.com/skryukov/rails_vite',
     npm: 'https://www.npmjs.com/package/rails-vite-plugin',
     website: 'https://github.com/skryukov/rails_vite',
+  },
+  source: {
+    github: 'skryukov/rails_vite',
+    npm: 'rails-vite-plugin',
   },
   stats: {
     stars: 89,

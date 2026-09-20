@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    npm: 'rollup-plugin-puppeteer',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-puppeteer',
+  },
+  source: {
+    npm: 'rollup-plugin-puppeteer',
   },
   stats: {
     stars: 0,

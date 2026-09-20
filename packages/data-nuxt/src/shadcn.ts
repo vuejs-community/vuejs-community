@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://www.shadcn-vue.com',
   },
   source: {
-    github: 'unovue/shadcn-vue#dev/packages/module',
+    github: 'unovue/shadcn-vue',
     npm: 'shadcn-nuxt',
   },
 })

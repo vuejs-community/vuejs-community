@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'hmr',
     'lattish',
   ],
-  source: {
-    github: 'tishlang/tish',
-    npm: '@tishlang/vite-plugin-tish',
-  },
   links: {
     github: 'https://github.com/tishlang/tish',
     npm: 'https://www.npmjs.com/package/@tishlang/vite-plugin-tish',
     website: 'https://github.com/tishlang/tish#readme',
+  },
+  source: {
+    github: 'tishlang/tish',
+    npm: '@tishlang/vite-plugin-tish',
   },
   stats: {
     stars: 0,

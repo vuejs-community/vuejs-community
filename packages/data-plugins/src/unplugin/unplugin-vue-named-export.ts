@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'unplugin/unplugin-vue-named-export',
-    npm: 'unplugin-vue-named-export',
-  },
   links: {
     github: 'https://github.com/unplugin/unplugin-vue-named-export',
     npm: 'https://www.npmjs.com/package/unplugin-vue-named-export',
     website: 'https://github.com/unplugin/unplugin-vue-named-export#readme',
+  },
+  source: {
+    github: 'unplugin/unplugin-vue-named-export',
+    npm: 'unplugin-vue-named-export',
   },
   stats: {
     stars: 22,

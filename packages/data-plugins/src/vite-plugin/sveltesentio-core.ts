@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'sveltekit',
     'vite-plugin',
   ],
-  source: {
-    npm: '@sveltesentio/core',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@sveltesentio/core',
+  },
+  source: {
+    npm: '@sveltesentio/core',
   },
   stats: {
     stars: 0,

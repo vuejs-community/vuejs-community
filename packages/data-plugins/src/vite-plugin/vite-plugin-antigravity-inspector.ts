@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'react',
     'click-to-component',
   ],
-  source: {
-    npm: 'vite-plugin-antigravity-inspector',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-antigravity-inspector',
+  },
+  source: {
+    npm: 'vite-plugin-antigravity-inspector',
   },
   stats: {
     stars: 0,

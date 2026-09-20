@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'obfuscate',
     'obfuscation',
   ],
-  source: {
-    github: 'getkey/rollup-plugin-obfuscator',
-    npm: 'rollup-plugin-obfuscator',
-  },
   links: {
     github: 'https://github.com/getkey/rollup-plugin-obfuscator',
     npm: 'https://www.npmjs.com/package/rollup-plugin-obfuscator',
     website: 'https://github.com/getkey/rollup-plugin-obfuscator#readme',
+  },
+  source: {
+    github: 'getkey/rollup-plugin-obfuscator',
+    npm: 'rollup-plugin-obfuscator',
   },
   stats: {
     stars: 146,

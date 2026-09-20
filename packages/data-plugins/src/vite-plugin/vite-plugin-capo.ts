@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'hsimpson270/vite-plugin-capo',
-    npm: 'vite-plugin-capo',
-  },
   links: {
     github: 'https://github.com/hsimpson270/vite-plugin-capo',
     npm: 'https://www.npmjs.com/package/vite-plugin-capo',
     website: 'https://github.com/hsimpson270/vite-plugin-capo',
+  },
+  source: {
+    github: 'hsimpson270/vite-plugin-capo',
+    npm: 'vite-plugin-capo',
   },
   stats: {
     stars: 1,

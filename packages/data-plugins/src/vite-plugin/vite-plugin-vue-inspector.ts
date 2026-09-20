@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vscode',
     'vue',
   ],
-  source: {
-    github: 'webfansplz/vite-plugin-vue-inspector',
-    npm: 'vite-plugin-vue-inspector',
-  },
   links: {
     github: 'https://github.com/webfansplz/vite-plugin-vue-inspector',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-inspector',
     website: 'https://github.com/webfansplz/vite-plugin-vue-inspector#readme',
+  },
+  source: {
+    github: 'webfansplz/vite-plugin-vue-inspector',
+    npm: 'vite-plugin-vue-inspector',
   },
   stats: {
     stars: 0,

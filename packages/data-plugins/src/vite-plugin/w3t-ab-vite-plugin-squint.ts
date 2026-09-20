@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'clojurescript',
     'squint-cljs',
   ],
-  source: {
-    github: 'w3t-se/vite-plugin-squint',
-    npm: '@w3t-ab/vite-plugin-squint',
-  },
   links: {
     github: 'https://github.com/w3t-se/vite-plugin-squint',
     npm: 'https://www.npmjs.com/package/@w3t-ab/vite-plugin-squint',
     website: 'https://github.com/w3t-se/vite-plugin-squint#readme',
+  },
+  source: {
+    github: 'w3t-se/vite-plugin-squint',
+    npm: '@w3t-ab/vite-plugin-squint',
   },
   stats: {
     stars: 0,

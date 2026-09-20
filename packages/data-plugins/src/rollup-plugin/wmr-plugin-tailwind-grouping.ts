@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'wmr-plugin',
     'rollup-plugin',
   ],
-  source: {
-    github: 'rschristian/tailwind-grouping',
-    npm: 'wmr-plugin-tailwind-grouping',
-  },
   links: {
     github: 'https://github.com/rschristian/tailwind-grouping',
     npm: 'https://www.npmjs.com/package/wmr-plugin-tailwind-grouping',
     website: 'https://github.com/rschristian/tailwind-grouping#readme',
+  },
+  source: {
+    github: 'rschristian/tailwind-grouping',
+    npm: 'wmr-plugin-tailwind-grouping',
   },
   stats: {
     stars: 0,

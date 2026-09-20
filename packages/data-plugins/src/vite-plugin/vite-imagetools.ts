@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'image',
     'vite-plugin',
   ],
-  source: {
-    github: 'JonasKruckenberg/imagetools',
-    npm: 'vite-imagetools',
-  },
   links: {
     github: 'https://github.com/JonasKruckenberg/imagetools',
     npm: 'https://www.npmjs.com/package/vite-imagetools',
     website: 'https://github.com/JonasKruckenberg/imagetools/tree/main/packages/vite',
+  },
+  source: {
+    github: 'JonasKruckenberg/imagetools',
+    npm: 'vite-imagetools',
   },
   stats: {
     stars: 0,

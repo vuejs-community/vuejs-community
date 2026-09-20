@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'simple',
     'json',
   ],
-  source: {
-    github: 'buddywang/vite-plugin-dir2json',
-    npm: 'vite-plugin-dir2json',
-  },
   links: {
     github: 'https://github.com/buddywang/vite-plugin-dir2json',
     npm: 'https://www.npmjs.com/package/vite-plugin-dir2json',
     website: 'https://github.com/buddywang/vite-plugin-dir2json#readme',
+  },
+  source: {
+    github: 'buddywang/vite-plugin-dir2json',
+    npm: 'vite-plugin-dir2json',
   },
   stats: {
     stars: 18,

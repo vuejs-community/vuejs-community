@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'azoth',
     'azoth plugins',
   ],
-  source: {
-    github: 'azothjs/azoth',
-    npm: '@azothjs/vite-plugin',
-  },
   links: {
     github: 'https://github.com/azothjs/azoth',
     npm: 'https://www.npmjs.com/package/@azothjs/vite-plugin',
     website: 'https://github.com/azothjs/azoth#readme',
+  },
+  source: {
+    github: 'azothjs/azoth',
+    npm: '@azothjs/vite-plugin',
   },
   stats: {
     stars: 43,

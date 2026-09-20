@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'yapyak',
   ],
-  source: {
-    github: 'yapyak/yapyak',
-    npm: '@yapyak/vite',
-  },
   links: {
     github: 'https://github.com/yapyak/yapyak',
     npm: 'https://www.npmjs.com/package/@yapyak/vite',
     website: 'https://yapyak.dev',
+  },
+  source: {
+    github: 'yapyak/yapyak',
+    npm: '@yapyak/vite',
   },
   stats: {
     stars: 28,

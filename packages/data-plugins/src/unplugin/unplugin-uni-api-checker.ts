@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'Nibblerrr/unplugin-uni-api-checker',
-    npm: 'unplugin-uni-api-checker',
-  },
   links: {
     github: 'https://github.com/Nibblerrr/unplugin-uni-api-checker',
     npm: 'https://www.npmjs.com/package/unplugin-uni-api-checker',
     website: 'https://github.com/Nibblerrr/unplugin-uni-api-checker#readme',
+  },
+  source: {
+    github: 'Nibblerrr/unplugin-uni-api-checker',
+    npm: 'unplugin-uni-api-checker',
   },
   stats: {
     stars: 1,

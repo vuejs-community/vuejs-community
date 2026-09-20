@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'update',
     'notice',
   ],
-  source: {
-    github: 'xiaobailong007/web-update-notice-plugin',
-    npm: '@xiaobailong/web-update-notice-plugin',
-  },
   links: {
     github: 'https://github.com/xiaobailong007/web-update-notice-plugin',
     npm: 'https://www.npmjs.com/package/@xiaobailong/web-update-notice-plugin',
     website: 'https://github.com/xiaobailong007/web-update-notice-plugin#readme',
+  },
+  source: {
+    github: 'xiaobailong007/web-update-notice-plugin',
+    npm: '@xiaobailong/web-update-notice-plugin',
   },
   stats: {
     stars: 5,

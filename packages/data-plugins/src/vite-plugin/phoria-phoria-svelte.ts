@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'svelte',
   ],
-  source: {
-    github: 'CMeeg/phoria',
-    npm: '@phoria/phoria-svelte',
-  },
   links: {
     github: 'https://github.com/CMeeg/phoria',
     npm: 'https://www.npmjs.com/package/@phoria/phoria-svelte',
     website: 'https://github.com/CMeeg/phoria#readme',
+  },
+  source: {
+    github: 'CMeeg/phoria',
+    npm: '@phoria/phoria-svelte',
   },
   stats: {
     stars: 0,

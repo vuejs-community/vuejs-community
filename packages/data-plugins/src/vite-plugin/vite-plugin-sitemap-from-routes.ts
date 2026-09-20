@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'seo',
     'xml',
   ],
-  source: {
-    github: 'hebertcisco/vite-plugin-sitemap-from-routes',
-    npm: 'vite-plugin-sitemap-from-routes',
-  },
   links: {
     github: 'https://github.com/hebertcisco/vite-plugin-sitemap-from-routes',
     npm: 'https://www.npmjs.com/package/vite-plugin-sitemap-from-routes',
     website: 'https://github.com/hebertcisco/vite-plugin-sitemap-from-routes#readme',
+  },
+  source: {
+    github: 'hebertcisco/vite-plugin-sitemap-from-routes',
+    npm: 'vite-plugin-sitemap-from-routes',
   },
   stats: {
     stars: 0,

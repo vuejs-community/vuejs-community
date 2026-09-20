@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'web-fonts',
   ],
-  source: {
-    github: 'pyyupsk/vite-fonts',
-    npm: '@pyyupsk/vite-fonts',
-  },
   links: {
     github: 'https://github.com/pyyupsk/vite-fonts',
     npm: 'https://www.npmjs.com/package/@pyyupsk/vite-fonts',
     website: 'https://github.com/pyyupsk/vite-fonts#readme',
+  },
+  source: {
+    github: 'pyyupsk/vite-fonts',
+    npm: '@pyyupsk/vite-fonts',
   },
   stats: {
     stars: 0,

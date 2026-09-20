@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'output',
     'rollup-plugin',
   ],
-  source: {
-    github: 'salmanm/rollup-plugin-named-output',
-    npm: 'rollup-plugin-named-output',
-  },
   links: {
     github: 'https://github.com/salmanm/rollup-plugin-named-output',
     npm: 'https://www.npmjs.com/package/rollup-plugin-named-output',
     website: 'https://github.com/salmanm/rollup-plugin-named-output#readme',
+  },
+  source: {
+    github: 'salmanm/rollup-plugin-named-output',
+    npm: 'rollup-plugin-named-output',
   },
   stats: {
     stars: 2,

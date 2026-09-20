@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'svgo',
     'vben',
   ],
-  source: {
-    github: 'vbenjs/vite-plugin-svg-icons',
-    npm: '@cn-xufei/vite-plugin-svg-icons',
-  },
   links: {
     github: 'https://github.com/vbenjs/vite-plugin-svg-icons',
     npm: 'https://www.npmjs.com/package/@cn-xufei/vite-plugin-svg-icons',
     website: 'https://github.com/cn-xufei/vite-plugin-svg-icons/tree/main#readme',
+  },
+  source: {
+    github: 'vbenjs/vite-plugin-svg-icons',
+    npm: '@cn-xufei/vite-plugin-svg-icons',
   },
   stats: {
     stars: 948,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'npm',
     'modules',
   ],
-  source: {
-    github: 'idler8/rollup-plugin-qiniu',
-    npm: 'rollup-plugin-qiniu',
-  },
   links: {
     github: 'https://github.com/idler8/rollup-plugin-qiniu',
     npm: 'https://www.npmjs.com/package/rollup-plugin-qiniu',
     website: 'https://github.com/idler8/rollup-plugin-qiniu',
+  },
+  source: {
+    github: 'idler8/rollup-plugin-qiniu',
+    npm: 'rollup-plugin-qiniu',
   },
   stats: {
     stars: 1,

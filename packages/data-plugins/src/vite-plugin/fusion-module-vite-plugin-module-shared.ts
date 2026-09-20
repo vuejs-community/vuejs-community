@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'fusion-module',
     'importmap',
   ],
-  source: {
-    npm: '@fusion-module/vite-plugin-module-shared',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@fusion-module/vite-plugin-module-shared',
+  },
+  source: {
+    npm: '@fusion-module/vite-plugin-module-shared',
   },
   stats: {
     stars: 0,

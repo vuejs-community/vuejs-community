@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'plugin',
   ],
-  source: {
-    github: 'mmj8000/mmjs-core',
-    npm: 'mmjs-plugin',
-  },
   links: {
     github: 'https://github.com/mmj8000/mmjs-core',
     npm: 'https://www.npmjs.com/package/mmjs-plugin',
     website: 'https://github.com/mmj8000/mmjs-core/tree/dev/packages/mmjs-plugin',
+  },
+  source: {
+    github: 'mmj8000/mmjs-core',
+    npm: 'mmjs-plugin',
   },
   stats: {
     stars: 2,

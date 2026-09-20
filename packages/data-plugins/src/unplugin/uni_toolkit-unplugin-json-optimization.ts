@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'json',
     'optimization',
   ],
-  source: {
-    github: 'uni-toolkit/uni-toolkit',
-    npm: '@uni_toolkit/unplugin-json-optimization',
-  },
   links: {
     github: 'https://github.com/uni-toolkit/uni-toolkit',
     npm: 'https://www.npmjs.com/package/@uni_toolkit/unplugin-json-optimization',
     website: 'https://github.com/uni-toolkit/uni-toolkit/tree/main/packages/unplugin-json-optimization',
+  },
+  source: {
+    github: 'uni-toolkit/uni-toolkit',
+    npm: '@uni_toolkit/unplugin-json-optimization',
   },
   stats: {
     stars: 0,

@@ -20,12 +20,12 @@ export default defineProjectMeta({
     'obfuscation',
     'minifier',
   ],
-  source: {
-    npm: '@yworks/optimizer',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@yworks/optimizer',
     website: 'https://www.yfiles.com/the-yfiles-sdk/web/yfiles-for-html',
+  },
+  source: {
+    npm: '@yworks/optimizer',
   },
   stats: {
     stars: 0,

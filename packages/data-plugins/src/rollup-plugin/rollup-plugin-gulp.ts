@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'gulp',
   ],
-  source: {
-    github: 'Permutatrix/rollup-plugin-gulp',
-    npm: 'rollup-plugin-gulp',
-  },
   links: {
     github: 'https://github.com/Permutatrix/rollup-plugin-gulp',
     npm: 'https://www.npmjs.com/package/rollup-plugin-gulp',
     website: 'https://github.com/Permutatrix/rollup-plugin-gulp#readme',
+  },
+  source: {
+    github: 'Permutatrix/rollup-plugin-gulp',
+    npm: 'rollup-plugin-gulp',
   },
   stats: {
     stars: 5,

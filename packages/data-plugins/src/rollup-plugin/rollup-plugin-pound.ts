@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'penalosa/rollup-plugin-pound',
-    npm: 'rollup-plugin-pound',
-  },
   links: {
     github: 'https://github.com/penalosa/rollup-plugin-pound',
     npm: 'https://www.npmjs.com/package/rollup-plugin-pound',
     website: 'https://github.com/penalosa/rollup-plugin-pound',
+  },
+  source: {
+    github: 'penalosa/rollup-plugin-pound',
+    npm: 'rollup-plugin-pound',
   },
   stats: {
     stars: 1,

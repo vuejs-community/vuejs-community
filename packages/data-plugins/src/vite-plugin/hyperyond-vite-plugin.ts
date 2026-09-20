@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'browser-testing',
     'claude',
   ],
-  source: {
-    github: 'Hyperyond/Hover',
-    npm: '@hyperyond/vite-plugin',
-  },
   links: {
     github: 'https://github.com/Hyperyond/Hover',
     npm: 'https://www.npmjs.com/package/@hyperyond/vite-plugin',
     website: 'https://github.com/Hyperyond/Hover#readme',
+  },
+  source: {
+    github: 'Hyperyond/Hover',
+    npm: '@hyperyond/vite-plugin',
   },
   stats: {
     stars: 11,

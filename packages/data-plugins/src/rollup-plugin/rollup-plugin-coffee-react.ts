@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'cjsx',
     'coffeescript',
   ],
-  source: {
-    github: 'N1kto/rollup-plugin-coffee-react',
-    npm: 'rollup-plugin-coffee-react',
-  },
   links: {
     github: 'https://github.com/N1kto/rollup-plugin-coffee-react',
     npm: 'https://www.npmjs.com/package/rollup-plugin-coffee-react',
     website: 'https://github.com/N1kto/rollup-plugin-coffee-react#readme',
+  },
+  source: {
+    github: 'N1kto/rollup-plugin-coffee-react',
+    npm: 'rollup-plugin-coffee-react',
   },
   stats: {
     stars: 7,

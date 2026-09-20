@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'transform',
     'console',
   ],
-  source: {
-    github: 'chouchouji/rollup-plugin-drop-console',
-    npm: 'rollup-plugin-drop-console',
-  },
   links: {
     github: 'https://github.com/chouchouji/rollup-plugin-drop-console',
     npm: 'https://www.npmjs.com/package/rollup-plugin-drop-console',
     website: 'https://github.com/chouchouji/rollup-plugin-drop-console',
+  },
+  source: {
+    github: 'chouchouji/rollup-plugin-drop-console',
+    npm: 'rollup-plugin-drop-console',
   },
   stats: {
     stars: 3,

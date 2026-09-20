@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'optimizer',
     'woff2',
   ],
-  source: {
-    npm: '@rk-web/vite-plugin-font-optimizer',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@rk-web/vite-plugin-font-optimizer',
+  },
+  source: {
+    npm: '@rk-web/vite-plugin-font-optimizer',
   },
   stats: {
     stars: 0,

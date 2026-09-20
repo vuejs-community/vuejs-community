@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'plugin',
     'build',
   ],
-  source: {
-    github: 'qianyongdong/vite-plugin-remote-copy',
-    npm: 'vite-plugin-remote-copy',
-  },
   links: {
     github: 'https://github.com/qianyongdong/vite-plugin-remote-copy',
     npm: 'https://www.npmjs.com/package/vite-plugin-remote-copy',
     website: 'https://github.com/qianyongdong/vite-plugin-remote-copy.git#readme',
+  },
+  source: {
+    github: 'qianyongdong/vite-plugin-remote-copy',
+    npm: 'vite-plugin-remote-copy',
   },
   stats: {
     stars: 1,

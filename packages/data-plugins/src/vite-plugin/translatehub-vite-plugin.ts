@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'i18n',
     'translatehub',
   ],
-  source: {
-    npm: '@translatehub/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@translatehub/vite-plugin',
     website: 'https://translate-hub.ru',
+  },
+  source: {
+    npm: '@translatehub/vite-plugin',
   },
   stats: {
     stars: 0,

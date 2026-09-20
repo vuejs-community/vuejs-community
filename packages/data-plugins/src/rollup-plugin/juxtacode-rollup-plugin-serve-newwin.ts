@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'static',
     'newwin',
   ],
-  source: {
-    github: 'JuxtaCode/rollup-plugin-serve-newwin',
-    npm: '@juxtacode/rollup-plugin-serve-newwin',
-  },
   links: {
     github: 'https://github.com/JuxtaCode/rollup-plugin-serve-newwin',
     npm: 'https://www.npmjs.com/package/@juxtacode/rollup-plugin-serve-newwin',
     website: 'https://github.com/JuxtaCode/rollup-plugin-serve-newwin',
+  },
+  source: {
+    github: 'JuxtaCode/rollup-plugin-serve-newwin',
+    npm: '@juxtacode/rollup-plugin-serve-newwin',
   },
   stats: {
     stars: 0,

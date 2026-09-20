@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'og-image',
     'pwa',
   ],
-  source: {
-    github: 'aussieljk/vite-icon-zen',
-    npm: 'vite-icon-zen',
-  },
   links: {
     github: 'https://github.com/aussieljk/vite-icon-zen',
     npm: 'https://www.npmjs.com/package/vite-icon-zen',
     website: 'https://github.com/aussieljk/vite-icon-zen#readme',
+  },
+  source: {
+    github: 'aussieljk/vite-icon-zen',
+    npm: 'vite-icon-zen',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'jsx',
     'front-end',
   ],
-  source: {
-    github: 'd8corp/rollup-plugin-innet-jsx',
-    npm: 'rollup-plugin-innet-jsx',
-  },
   links: {
     github: 'https://github.com/d8corp/rollup-plugin-innet-jsx',
     npm: 'https://www.npmjs.com/package/rollup-plugin-innet-jsx',
     website: 'https://github.com/d8corp/rollup-plugin-innet-jsx',
+  },
+  source: {
+    github: 'd8corp/rollup-plugin-innet-jsx',
+    npm: 'rollup-plugin-innet-jsx',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'eposlabs/epos',
-    npm: 'vite-plugin-rebundle',
-  },
   links: {
     github: 'https://github.com/eposlabs/epos',
     npm: 'https://www.npmjs.com/package/vite-plugin-rebundle',
     website: 'https://github.com/eposlabs/epos/tree/main/packages/vite-plugin-rebundle',
+  },
+  source: {
+    github: 'eposlabs/epos',
+    npm: 'vite-plugin-rebundle',
   },
   stats: {
     stars: 3,

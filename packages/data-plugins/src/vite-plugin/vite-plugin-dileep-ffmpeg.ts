@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'dileep',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-dileep-ffmpeg',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-dileep-ffmpeg',
+  },
+  source: {
+    npm: 'vite-plugin-dileep-ffmpeg',
   },
   stats: {
     stars: 0,

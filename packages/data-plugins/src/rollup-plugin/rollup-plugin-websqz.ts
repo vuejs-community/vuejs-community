@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'websqz',
     'compression',
   ],
-  source: {
-    github: 'r00tkids/rollup-plugin-websqz',
-    npm: 'rollup-plugin-websqz',
-  },
   links: {
     github: 'https://github.com/r00tkids/rollup-plugin-websqz',
     npm: 'https://www.npmjs.com/package/rollup-plugin-websqz',
     website: 'https://github.com/r00tkids/rollup-plugin-websqz#readme',
+  },
+  source: {
+    github: 'r00tkids/rollup-plugin-websqz',
+    npm: 'rollup-plugin-websqz',
   },
   stats: {
     stars: 0,

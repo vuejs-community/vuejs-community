@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'walle-cos',
     'tencent',
   ],
-  source: {
-    github: 'choukin/vite-plugin-walle-cos',
-    npm: 'vite-plugin-walle-cos',
-  },
   links: {
     github: 'https://github.com/choukin/vite-plugin-walle-cos',
     npm: 'https://www.npmjs.com/package/vite-plugin-walle-cos',
     website: 'https://github.com/choukin/vite-plugin-walle-cos',
+  },
+  source: {
+    github: 'choukin/vite-plugin-walle-cos',
+    npm: 'vite-plugin-walle-cos',
   },
   stats: {
     stars: 0,

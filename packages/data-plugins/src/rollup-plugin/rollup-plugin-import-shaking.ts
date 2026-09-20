@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'import-shaking',
     'rollup-plugin-import',
   ],
-  source: {
-    github: 'fengxinming/rollup-plugins',
-    npm: 'rollup-plugin-import-shaking',
-  },
   links: {
     github: 'https://github.com/fengxinming/rollup-plugins',
     npm: 'https://www.npmjs.com/package/rollup-plugin-import-shaking',
     website: 'https://github.com/fengxinming/rollup-plugins#readme',
+  },
+  source: {
+    github: 'fengxinming/rollup-plugins',
+    npm: 'rollup-plugin-import-shaking',
   },
   stats: {
     stars: 0,

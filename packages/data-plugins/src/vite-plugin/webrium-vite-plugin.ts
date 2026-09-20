@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'framework',
     'live-reload',
   ],
-  source: {
-    github: 'webrium/vite-plugin',
-    npm: '@webrium/vite-plugin',
-  },
   links: {
     github: 'https://github.com/webrium/vite-plugin',
     npm: 'https://www.npmjs.com/package/@webrium/vite-plugin',
     website: 'https://github.com/webrium/vite-plugin#readme',
+  },
+  source: {
+    github: 'webrium/vite-plugin',
+    npm: '@webrium/vite-plugin',
   },
   stats: {
     stars: 0,

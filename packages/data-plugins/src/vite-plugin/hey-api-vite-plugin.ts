@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'hey-api/hey-api',
-    npm: '@hey-api/vite-plugin',
-  },
   links: {
     github: 'https://github.com/hey-api/hey-api',
     npm: 'https://www.npmjs.com/package/@hey-api/vite-plugin',
     website: 'https://heyapi.dev/',
+  },
+  source: {
+    github: 'hey-api/hey-api',
+    npm: '@hey-api/vite-plugin',
   },
   stats: {
     stars: 5412,

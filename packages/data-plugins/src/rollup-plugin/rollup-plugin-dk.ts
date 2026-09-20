@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'es2015',
     'es6',
   ],
-  source: {
-    github: 'Nigiss/rollup-plugin-dk',
-    npm: 'rollup-plugin-dk',
-  },
   links: {
     github: 'https://github.com/Nigiss/rollup-plugin-dk',
     npm: 'https://www.npmjs.com/package/rollup-plugin-dk',
     website: 'https://github.com/Nigiss/rollup-plugin-dk',
+  },
+  source: {
+    github: 'Nigiss/rollup-plugin-dk',
+    npm: 'rollup-plugin-dk',
   },
   stats: {
     stars: 0,

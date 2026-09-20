@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'flow',
     'jsx',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-sucrase',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-sucrase',
     website: 'https://github.com/rollup/plugins/tree/master/packages/sucrase/#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-sucrase',
   },
   stats: {
     stars: 0,

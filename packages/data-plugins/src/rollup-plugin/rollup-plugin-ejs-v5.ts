@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'ejs',
     'template',
   ],
-  source: {
-    github: 'trofima/rollup-plugin-ejs',
-    npm: 'rollup-plugin-ejs-v5',
-  },
   links: {
     github: 'https://github.com/trofima/rollup-plugin-ejs',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ejs-v5',
     website: 'https://github.com/trofima/rollup-plugin-ejs',
+  },
+  source: {
+    github: 'trofima/rollup-plugin-ejs',
+    npm: 'rollup-plugin-ejs-v5',
   },
   stats: {
     stars: 8,

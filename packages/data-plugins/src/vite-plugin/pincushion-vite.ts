@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'ai-agents',
     'review',
   ],
-  source: {
-    github: 'jcooley8/pincushion',
-    npm: 'pincushion-vite',
-  },
   links: {
     github: 'https://github.com/jcooley8/pincushion',
     npm: 'https://www.npmjs.com/package/pincushion-vite',
     website: 'https://pincushion.io/for/vite',
+  },
+  source: {
+    github: 'jcooley8/pincushion',
+    npm: 'pincushion-vite',
   },
   stats: {
     stars: 0,

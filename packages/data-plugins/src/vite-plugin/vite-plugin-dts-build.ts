@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'declaration',
     'types',
   ],
-  source: {
-    github: 'black7375/vite-plugin-dts-build',
-    npm: 'vite-plugin-dts-build',
-  },
   links: {
     github: 'https://github.com/black7375/vite-plugin-dts-build',
     npm: 'https://www.npmjs.com/package/vite-plugin-dts-build',
     website: 'https://github.com/black7375/vite-plugin-dts-build#readme',
+  },
+  source: {
+    github: 'black7375/vite-plugin-dts-build',
+    npm: 'vite-plugin-dts-build',
   },
   stats: {
     stars: 23,

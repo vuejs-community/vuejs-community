@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'resolver',
     'components',
   ],
-  source: {
-    github: 'antdv-next/auto-import-resolver-x',
-    npm: '@antdv-next/auto-import-resolver-x',
-  },
   links: {
     github: 'https://github.com/antdv-next/auto-import-resolver-x',
     npm: 'https://www.npmjs.com/package/@antdv-next/auto-import-resolver-x',
     website: 'https://github.com/antdv-next/auto-import-resolver-x#readme',
+  },
+  source: {
+    github: 'antdv-next/auto-import-resolver-x',
+    npm: '@antdv-next/auto-import-resolver-x',
   },
   stats: {
     stars: 0,

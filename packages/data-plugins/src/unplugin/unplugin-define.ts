@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'esbuild',
     'farm',
   ],
-  source: {
-    github: 'xiankq/unplugin-define',
-    npm: 'unplugin-define',
-  },
   links: {
     github: 'https://github.com/xiankq/unplugin-define',
     npm: 'https://www.npmjs.com/package/unplugin-define',
     website: 'https://github.com/xiankq/unplugin-define#readme',
+  },
+  source: {
+    github: 'xiankq/unplugin-define',
+    npm: 'unplugin-define',
   },
   stats: {
     stars: 0,

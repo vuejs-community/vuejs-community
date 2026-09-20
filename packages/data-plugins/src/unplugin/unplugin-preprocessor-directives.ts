@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'directives',
     'preprocessor',
   ],
-  source: {
-    github: 'kejunmao/unplugin-preprocessor-directives',
-    npm: 'unplugin-preprocessor-directives',
-  },
   links: {
     github: 'https://github.com/kejunmao/unplugin-preprocessor-directives',
     npm: 'https://www.npmjs.com/package/unplugin-preprocessor-directives',
     website: 'https://github.com/kejunmao/unplugin-preprocessor-directives#readme',
+  },
+  source: {
+    github: 'kejunmao/unplugin-preprocessor-directives',
+    npm: 'unplugin-preprocessor-directives',
   },
   stats: {
     stars: 0,

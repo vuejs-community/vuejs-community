@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'element',
     'selector',
   ],
-  source: {
-    npm: 'easypick',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/easypick',
+  },
+  source: {
+    npm: 'easypick',
   },
   stats: {
     stars: 0,

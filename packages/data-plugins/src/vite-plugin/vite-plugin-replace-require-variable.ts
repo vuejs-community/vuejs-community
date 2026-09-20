@@ -13,13 +13,13 @@ export default defineProjectMeta({
     'vite',
     'vue2',
   ],
-  source: {
-    github: 'yangyanhui1217/vite-plugins-related',
-    npm: 'vite-plugin-replace-require-variable',
-  },
   links: {
     github: 'https://github.com/yangyanhui1217/vite-plugins-related',
     npm: 'https://www.npmjs.com/package/vite-plugin-replace-require-variable',
+  },
+  source: {
+    github: 'yangyanhui1217/vite-plugins-related',
+    npm: 'vite-plugin-replace-require-variable',
   },
   stats: {
     stars: 0,

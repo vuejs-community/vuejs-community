@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'automation',
     'robots-txt',
   ],
-  source: {
-    github: 'mvp-kit/vite-sitemap-plugin',
-    npm: '@mvp-kit/vite-sitemap-plugin',
-  },
   links: {
     github: 'https://github.com/mvp-kit/vite-sitemap-plugin',
     npm: 'https://www.npmjs.com/package/@mvp-kit/vite-sitemap-plugin',
     website: 'https://github.com/mvp-kit/vite-sitemap-plugin#readme',
+  },
+  source: {
+    github: 'mvp-kit/vite-sitemap-plugin',
+    npm: '@mvp-kit/vite-sitemap-plugin',
   },
   stats: {
     stars: 1,

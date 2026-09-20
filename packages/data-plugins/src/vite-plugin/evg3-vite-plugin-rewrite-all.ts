@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'Ev3/vite-plugin-rewrite-all',
-    npm: '@evg3/vite-plugin-rewrite-all',
-  },
   links: {
     github: 'https://github.com/Ev3/vite-plugin-rewrite-all',
     npm: 'https://www.npmjs.com/package/@evg3/vite-plugin-rewrite-all',
     website: 'https://github.com/Ev3/vite-plugin-rewrite-all',
+  },
+  source: {
+    github: 'Ev3/vite-plugin-rewrite-all',
+    npm: '@evg3/vite-plugin-rewrite-all',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite dev mode hmr hotupdate javascript module',
     'no refresh html preserve input',
   ],
-  source: {
-    github: 'windwiny/vite-plugin-no-refresh-html',
-    npm: 'vite-plugin-no-refresh-html',
-  },
   links: {
     github: 'https://github.com/windwiny/vite-plugin-no-refresh-html',
     npm: 'https://www.npmjs.com/package/vite-plugin-no-refresh-html',
     website: 'https://github.com/windwiny/vite-plugin-no-refresh-html#readme',
+  },
+  source: {
+    github: 'windwiny/vite-plugin-no-refresh-html',
+    npm: 'vite-plugin-no-refresh-html',
   },
   stats: {
     stars: 0,

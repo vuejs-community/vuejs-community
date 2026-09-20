@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vue',
     'react',
   ],
-  source: {
-    github: 'webkubor/vite-plugin-refresh-guard',
-    npm: 'vite-plugin-refresh-guard',
-  },
   links: {
     github: 'https://github.com/webkubor/vite-plugin-refresh-guard',
     npm: 'https://www.npmjs.com/package/vite-plugin-refresh-guard',
     website: 'https://github.com/webkubor/vite-plugin-refresh-guard#readme',
+  },
+  source: {
+    github: 'webkubor/vite-plugin-refresh-guard',
+    npm: 'vite-plugin-refresh-guard',
   },
   stats: {
     stars: 7,

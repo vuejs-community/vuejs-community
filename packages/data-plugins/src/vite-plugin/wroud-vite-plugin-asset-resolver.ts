@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'module-alias',
     'file-alias',
   ],
-  source: {
-    github: 'Wroud/foundation',
-    npm: '@wroud/vite-plugin-asset-resolver',
-  },
   links: {
     github: 'https://github.com/Wroud/foundation',
     npm: 'https://www.npmjs.com/package/@wroud/vite-plugin-asset-resolver',
     website: 'https://wroud.dev',
+  },
+  source: {
+    github: 'Wroud/foundation',
+    npm: '@wroud/vite-plugin-asset-resolver',
   },
   stats: {
     stars: 27,

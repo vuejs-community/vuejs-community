@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'sharp',
     'dev-tools',
   ],
-  source: {
-    github: 'gkarev/vite-webp-avif-generator-plugin',
-    npm: 'vite-webp-avif-generator-plugin',
-  },
   links: {
     github: 'https://github.com/gkarev/vite-webp-avif-generator-plugin',
     npm: 'https://www.npmjs.com/package/vite-webp-avif-generator-plugin',
     website: 'https://github.com/gkarev/vite-webp-avif-generator-plugin#readme',
+  },
+  source: {
+    github: 'gkarev/vite-webp-avif-generator-plugin',
+    npm: 'vite-webp-avif-generator-plugin',
   },
   stats: {
     stars: 1,

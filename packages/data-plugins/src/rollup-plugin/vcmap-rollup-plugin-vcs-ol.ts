@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vcmap',
   ],
-  source: {
-    npm: '@vcmap/rollup-plugin-vcs-ol',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@vcmap/rollup-plugin-vcs-ol',
+  },
+  source: {
+    npm: '@vcmap/rollup-plugin-vcs-ol',
   },
   stats: {
     stars: 0,

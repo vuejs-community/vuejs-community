@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'tailwindcss',
     'windicss',
   ],
-  source: {
-    github: 'zephracss/zephracss',
-    npm: '@zephracss/vite',
-  },
   links: {
     github: 'https://github.com/zephracss/zephracss',
     npm: 'https://www.npmjs.com/package/@zephracss/vite',
     website: 'https://github.com/zephracss/zephracss#readme',
+  },
+  source: {
+    github: 'zephracss/zephracss',
+    npm: '@zephracss/vite',
   },
   stats: {
     stars: 0,

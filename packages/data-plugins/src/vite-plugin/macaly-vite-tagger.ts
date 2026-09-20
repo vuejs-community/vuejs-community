@@ -20,11 +20,11 @@ export default defineProjectMeta({
     'typescript',
     'babel',
   ],
-  source: {
-    npm: 'macaly-vite-tagger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/macaly-vite-tagger',
+  },
+  source: {
+    npm: 'macaly-vite-tagger',
   },
   stats: {
     stars: 0,

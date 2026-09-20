@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'awaiden/vite-plugin-tw-auto-reference',
-    npm: 'vite-plugin-tw-auto-reference',
-  },
   links: {
     github: 'https://github.com/awaiden/vite-plugin-tw-auto-reference',
     npm: 'https://www.npmjs.com/package/vite-plugin-tw-auto-reference',
     website: 'https://github.com/awaiden/vite-plugin-tw-auto-reference#readme',
+  },
+  source: {
+    github: 'awaiden/vite-plugin-tw-auto-reference',
+    npm: 'vite-plugin-tw-auto-reference',
   },
   stats: {
     stars: 1,

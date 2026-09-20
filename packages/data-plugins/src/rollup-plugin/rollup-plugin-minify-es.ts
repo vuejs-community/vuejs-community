@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'minify',
     'uglify',
   ],
-  source: {
-    github: 'edgemesh/rollup-plugin-minify-es',
-    npm: 'rollup-plugin-minify-es',
-  },
   links: {
     github: 'https://github.com/edgemesh/rollup-plugin-minify-es',
     npm: 'https://www.npmjs.com/package/rollup-plugin-minify-es',
     website: 'https://github.com/edgemesh/rollup-plugin-minify-es#readme',
+  },
+  source: {
+    github: 'edgemesh/rollup-plugin-minify-es',
+    npm: 'rollup-plugin-minify-es',
   },
   stats: {
     stars: 1,

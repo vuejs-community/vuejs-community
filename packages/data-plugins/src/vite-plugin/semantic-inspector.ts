@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'screenshot',
     'clipboard',
   ],
-  source: {
-    github: 'ghost-vk/semantic-inspector',
-    npm: 'semantic-inspector',
-  },
   links: {
     github: 'https://github.com/ghost-vk/semantic-inspector',
     npm: 'https://www.npmjs.com/package/semantic-inspector',
     website: 'https://github.com/ghost-vk/semantic-inspector#readme',
+  },
+  source: {
+    github: 'ghost-vk/semantic-inspector',
+    npm: 'semantic-inspector',
   },
   stats: {
     stars: 0,

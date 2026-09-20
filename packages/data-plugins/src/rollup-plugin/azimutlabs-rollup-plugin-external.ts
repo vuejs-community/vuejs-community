@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'alabs',
     'azimutlabs',
   ],
-  source: {
-    github: 'azimutlabs/rollup',
-    npm: '@azimutlabs/rollup-plugin-external',
-  },
   links: {
     github: 'https://github.com/azimutlabs/rollup',
     npm: 'https://www.npmjs.com/package/@azimutlabs/rollup-plugin-external',
     website: 'https://github.com/azimutlabs/rollup#readme',
+  },
+  source: {
+    github: 'azimutlabs/rollup',
+    npm: '@azimutlabs/rollup-plugin-external',
   },
   stats: {
     stars: 0,

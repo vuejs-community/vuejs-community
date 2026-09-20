@@ -31,14 +31,14 @@ export default defineProjectMeta({
     'lightweight',
     'svelte-plugin',
   ],
-  source: {
-    github: 'wuchalejs/wuchale',
-    npm: '@wuchale/svelte',
-  },
   links: {
     github: 'https://github.com/wuchalejs/wuchale',
     npm: 'https://www.npmjs.com/package/@wuchale/svelte',
     website: 'https://wuchale.dev',
+  },
+  source: {
+    github: 'wuchalejs/wuchale',
+    npm: '@wuchale/svelte',
   },
   stats: {
     stars: 0,

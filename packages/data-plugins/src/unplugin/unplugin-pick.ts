@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'code-splitting',
     'server-components',
   ],
-  source: {
-    github: 'RanolP/npm-packages',
-    npm: 'unplugin-pick',
-  },
   links: {
     github: 'https://github.com/RanolP/npm-packages',
     npm: 'https://www.npmjs.com/package/unplugin-pick',
     website: 'https://github.com/RanolP/npm-packages#readme',
+  },
+  source: {
+    github: 'RanolP/npm-packages',
+    npm: 'unplugin-pick',
   },
   stats: {
     stars: 7,

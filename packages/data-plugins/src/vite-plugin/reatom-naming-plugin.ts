@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'naming',
     'state-manager',
   ],
-  source: {
-    github: 'matpaul/reatom-naming-plugin',
-    npm: 'reatom-naming-plugin',
-  },
   links: {
     github: 'https://github.com/matpaul/reatom-naming-plugin',
     npm: 'https://www.npmjs.com/package/reatom-naming-plugin',
     website: 'https://github.com/matpaul/reatom-naming-plugin#readme',
+  },
+  source: {
+    github: 'matpaul/reatom-naming-plugin',
+    npm: 'reatom-naming-plugin',
   },
   stats: {
     stars: 0,

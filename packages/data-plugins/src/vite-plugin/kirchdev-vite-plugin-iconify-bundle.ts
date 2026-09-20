@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'kirchDev/vite-plugin-iconify-bundle',
-    npm: '@kirchdev/vite-plugin-iconify-bundle',
-  },
   links: {
     github: 'https://github.com/kirchDev/vite-plugin-iconify-bundle',
     npm: 'https://www.npmjs.com/package/@kirchdev/vite-plugin-iconify-bundle',
     website: 'https://github.com/kirchDev/vite-plugin-iconify-bundle#readme',
+  },
+  source: {
+    github: 'kirchDev/vite-plugin-iconify-bundle',
+    npm: '@kirchdev/vite-plugin-iconify-bundle',
   },
   stats: {
     stars: 0,

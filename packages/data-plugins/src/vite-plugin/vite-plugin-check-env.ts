@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'build-time-validation',
     'development-tools',
   ],
-  source: {
-    github: 'iloveitaly/vite-plugin-check-env',
-    npm: 'vite-plugin-check-env',
-  },
   links: {
     github: 'https://github.com/iloveitaly/vite-plugin-check-env',
     npm: 'https://www.npmjs.com/package/vite-plugin-check-env',
     website: 'https://github.com/iloveitaly/vite-plugin-check-env#readme',
+  },
+  source: {
+    github: 'iloveitaly/vite-plugin-check-env',
+    npm: 'vite-plugin-check-env',
   },
   stats: {
     stars: 0,

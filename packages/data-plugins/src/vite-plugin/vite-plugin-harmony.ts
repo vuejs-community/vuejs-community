@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'rollup-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-harmony',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-harmony',
+  },
+  source: {
+    npm: 'vite-plugin-harmony',
   },
   stats: {
     stars: 0,

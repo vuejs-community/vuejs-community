@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'es2015',
     'es6',
   ],
-  source: {
-    github: 'zaygraveyard/rollup-plugin-babel',
-    npm: '@zaygraveyard/rollup-plugin-babel',
-  },
   links: {
     github: 'https://github.com/zaygraveyard/rollup-plugin-babel',
     npm: 'https://www.npmjs.com/package/@zaygraveyard/rollup-plugin-babel',
     website: 'https://github.com/zaygraveyard/rollup-plugin-babel/tree/scoped',
+  },
+  source: {
+    github: 'zaygraveyard/rollup-plugin-babel',
+    npm: '@zaygraveyard/rollup-plugin-babel',
   },
   stats: {
     stars: 0,

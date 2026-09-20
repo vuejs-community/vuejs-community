@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'esbuild',
     'webpack',
   ],
-  source: {
-    github: 'YieldRay/unplugin-import-external-cdn',
-    npm: 'unplugin-import-external-cdn',
-  },
   links: {
     github: 'https://github.com/YieldRay/unplugin-import-external-cdn',
     npm: 'https://www.npmjs.com/package/unplugin-import-external-cdn',
     website: 'https://github.com/YieldRay/unplugin-import-external-cdn#readme',
+  },
+  source: {
+    github: 'YieldRay/unplugin-import-external-cdn',
+    npm: 'unplugin-import-external-cdn',
   },
   stats: {
     stars: 0,

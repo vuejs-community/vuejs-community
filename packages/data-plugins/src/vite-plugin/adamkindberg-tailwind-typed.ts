@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'codegen',
   ],
-  source: {
-    github: 'WeeWee/tailwind-typed',
-    npm: '@adamkindberg/tailwind-typed',
-  },
   links: {
     github: 'https://github.com/WeeWee/tailwind-typed',
     npm: 'https://www.npmjs.com/package/@adamkindberg/tailwind-typed',
     website: 'https://github.com/WeeWee/tailwind-typed#readme',
+  },
+  source: {
+    github: 'WeeWee/tailwind-typed',
+    npm: '@adamkindberg/tailwind-typed',
   },
   stats: {
     stars: 0,

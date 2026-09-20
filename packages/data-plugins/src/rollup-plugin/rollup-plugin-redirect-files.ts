@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'file',
     'files',
   ],
-  source: {
-    github: 'blake-mealey/rollup-plugin-redirect-files',
-    npm: 'rollup-plugin-redirect-files',
-  },
   links: {
     github: 'https://github.com/blake-mealey/rollup-plugin-redirect-files',
     npm: 'https://www.npmjs.com/package/rollup-plugin-redirect-files',
     website: 'https://github.com/blake-mealey/rollup-plugin-redirect-files#readme',
+  },
+  source: {
+    github: 'blake-mealey/rollup-plugin-redirect-files',
+    npm: 'rollup-plugin-redirect-files',
   },
   stats: {
     stars: 1,

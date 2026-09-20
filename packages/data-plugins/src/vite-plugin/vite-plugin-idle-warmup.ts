@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin-warmup',
     'idle-warmup',
   ],
-  source: {
-    github: 'jh-leong/vite-plugin-idle-warmup',
-    npm: 'vite-plugin-idle-warmup',
-  },
   links: {
     github: 'https://github.com/jh-leong/vite-plugin-idle-warmup',
     npm: 'https://www.npmjs.com/package/vite-plugin-idle-warmup',
     website: 'https://github.com/jh-leong/vite-plugin-idle-warmup#readme',
+  },
+  source: {
+    github: 'jh-leong/vite-plugin-idle-warmup',
+    npm: 'vite-plugin-idle-warmup',
   },
   stats: {
     stars: 2,

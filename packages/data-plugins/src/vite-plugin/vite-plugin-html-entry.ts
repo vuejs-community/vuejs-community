@@ -28,14 +28,14 @@ export default defineProjectMeta({
     'extension',
     'typescript',
   ],
-  source: {
-    github: 'SheikhAminul/vite-plugin-html-entry',
-    npm: 'vite-plugin-html-entry',
-  },
   links: {
     github: 'https://github.com/SheikhAminul/vite-plugin-html-entry',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-entry',
     website: 'https://github.com/SheikhAminul/vite-plugin-html-entry#readme',
+  },
+  source: {
+    github: 'SheikhAminul/vite-plugin-html-entry',
+    npm: 'vite-plugin-html-entry',
   },
   stats: {
     stars: 0,

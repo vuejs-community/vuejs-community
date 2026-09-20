@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'justforuse/vite-plugin-transform-imports',
-    npm: 'vite-plugin-transform-imports',
-  },
   links: {
     github: 'https://github.com/justforuse/vite-plugin-transform-imports',
     npm: 'https://www.npmjs.com/package/vite-plugin-transform-imports',
     website: 'https://github.com/justforuse/vite-plugin-transform-imports#readme',
+  },
+  source: {
+    github: 'justforuse/vite-plugin-transform-imports',
+    npm: 'vite-plugin-transform-imports',
   },
   stats: {
     stars: 0,

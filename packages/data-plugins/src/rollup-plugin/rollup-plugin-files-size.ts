@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'summary',
     'gzip',
   ],
-  source: {
-    github: 'vladshcherbin/rollup-plugin-files-size',
-    npm: 'rollup-plugin-files-size',
-  },
   links: {
     github: 'https://github.com/vladshcherbin/rollup-plugin-files-size',
     npm: 'https://www.npmjs.com/package/rollup-plugin-files-size',
     website: 'https://github.com/vladshcherbin/rollup-plugin-files-size#readme',
+  },
+  source: {
+    github: 'vladshcherbin/rollup-plugin-files-size',
+    npm: 'rollup-plugin-files-size',
   },
   stats: {
     stars: 0,

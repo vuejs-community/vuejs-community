@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'fetch',
     'dts',
   ],
-  source: {
-    npm: 'vite-plugin-fetch-dts',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-fetch-dts',
+  },
+  source: {
+    npm: 'vite-plugin-fetch-dts',
   },
   stats: {
     stars: 0,

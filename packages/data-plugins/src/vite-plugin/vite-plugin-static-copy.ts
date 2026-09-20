@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'sapphi-red/vite-plugin-static-copy',
-    npm: 'vite-plugin-static-copy',
-  },
   links: {
     github: 'https://github.com/sapphi-red/vite-plugin-static-copy',
     npm: 'https://www.npmjs.com/package/vite-plugin-static-copy',
     website: 'https://github.com/sapphi-red/vite-plugin-static-copy#readme',
+  },
+  source: {
+    github: 'sapphi-red/vite-plugin-static-copy',
+    npm: 'vite-plugin-static-copy',
   },
   stats: {
     stars: 0,

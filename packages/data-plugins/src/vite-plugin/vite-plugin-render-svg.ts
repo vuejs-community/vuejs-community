@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'vite-plugin',
     'svg',
   ],
-  source: {
-    npm: 'vite-plugin-render-svg',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-render-svg',
     website: 'https://github.com/russss/vite-plugin-render-svg#readme',
+  },
+  source: {
+    npm: 'vite-plugin-render-svg',
   },
   stats: {
     stars: 0,

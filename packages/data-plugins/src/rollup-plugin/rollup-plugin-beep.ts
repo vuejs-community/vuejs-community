@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'plugin',
     'rollup',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-beep',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-beep',
     website: 'https://github.com/rollup/plugins/tree/master/packages/beep',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-beep',
   },
   stats: {
     stars: 0,

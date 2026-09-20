@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'ssr',
     'olova',
   ],
-  source: {
-    npm: 'olovaplugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/olovaplugin',
+  },
+  source: {
+    npm: 'olovaplugin',
   },
   stats: {
     stars: 0,

@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'codegen',
     'developer-experience',
   ],
-  source: {
-    github: 'andrydharmawan/react-i18n',
-    npm: '@bgscore/react-i18n',
-  },
   links: {
     github: 'https://github.com/andrydharmawan/react-i18n',
     npm: 'https://www.npmjs.com/package/@bgscore/react-i18n',
     website: 'https://github.com/andrydharmawan/react-i18n#readme',
+  },
+  source: {
+    github: 'andrydharmawan/react-i18n',
+    npm: '@bgscore/react-i18n',
   },
   stats: {
     stars: 0,

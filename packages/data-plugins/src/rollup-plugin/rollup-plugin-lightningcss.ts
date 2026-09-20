@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'plugin',
     'minify',
   ],
-  source: {
-    github: 'thearchitector/rollup-plugin-lightningcss',
-    npm: 'rollup-plugin-lightningcss',
-  },
   links: {
     github: 'https://github.com/thearchitector/rollup-plugin-lightningcss',
     npm: 'https://www.npmjs.com/package/rollup-plugin-lightningcss',
     website: 'https://github.com/thearchitector/rollup-plugin-lightningcss',
+  },
+  source: {
+    github: 'thearchitector/rollup-plugin-lightningcss',
+    npm: 'rollup-plugin-lightningcss',
   },
   stats: {
     stars: 3,

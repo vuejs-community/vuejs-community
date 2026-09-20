@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dev-server',
     'static',
   ],
-  source: {
-    github: 'thgh/rollup-plugin-serve',
-    npm: 'jtfell-rollup-plugin-serve',
-  },
   links: {
     github: 'https://github.com/thgh/rollup-plugin-serve',
     npm: 'https://www.npmjs.com/package/jtfell-rollup-plugin-serve',
     website: 'https://github.com/thgh/rollup-plugin-serve',
+  },
+  source: {
+    github: 'thgh/rollup-plugin-serve',
+    npm: 'jtfell-rollup-plugin-serve',
   },
   stats: {
     stars: 248,

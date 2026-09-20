@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'closure-compiler',
     'closure-compiler-js',
   ],
-  source: {
-    github: 'rikuayanokozy/rollup-plugin-closure-compiler',
-    npm: 'rollup-plugin-closure-compiler',
-  },
   links: {
     github: 'https://github.com/rikuayanokozy/rollup-plugin-closure-compiler',
     npm: 'https://www.npmjs.com/package/rollup-plugin-closure-compiler',
     website: 'https://github.com/rikuayanokozy/rollup-plugin-closure-compiler#readme',
+  },
+  source: {
+    github: 'rikuayanokozy/rollup-plugin-closure-compiler',
+    npm: 'rollup-plugin-closure-compiler',
   },
   stats: {
     stars: 0,

@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'sw-yx/rollup-plugin-react-sfc',
-    npm: 'rollup-plugin-react-sfc',
-  },
   links: {
     github: 'https://github.com/sw-yx/rollup-plugin-react-sfc',
     npm: 'https://www.npmjs.com/package/rollup-plugin-react-sfc',
     website: 'https://github.com/sw-yx/rollup-plugin-react-sfc#readme',
+  },
+  source: {
+    github: 'sw-yx/rollup-plugin-react-sfc',
+    npm: 'rollup-plugin-react-sfc',
   },
   stats: {
     stars: 3,

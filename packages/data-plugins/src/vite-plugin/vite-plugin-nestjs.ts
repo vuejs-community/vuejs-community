@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'Alan-Gomes/vite-plugin-nestjs',
-    npm: 'vite-plugin-nestjs',
-  },
   links: {
     github: 'https://github.com/Alan-Gomes/vite-plugin-nestjs',
     npm: 'https://www.npmjs.com/package/vite-plugin-nestjs',
     website: 'https://github.com/Alan-Gomes/vite-plugin-nestjs#readme',
+  },
+  source: {
+    github: 'Alan-Gomes/vite-plugin-nestjs',
+    npm: 'vite-plugin-nestjs',
   },
   stats: {
     stars: 15,

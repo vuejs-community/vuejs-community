@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'tree-shaking',
     'vite-plugin',
   ],
-  source: {
-    github: 'best-i18n/best-i18n',
-    npm: 'best-i18n',
-  },
   links: {
     github: 'https://github.com/best-i18n/best-i18n',
     npm: 'https://www.npmjs.com/package/best-i18n',
     website: 'https://github.com/best-i18n/best-i18n#readme',
+  },
+  source: {
+    github: 'best-i18n/best-i18n',
+    npm: 'best-i18n',
   },
   stats: {
     stars: 1,

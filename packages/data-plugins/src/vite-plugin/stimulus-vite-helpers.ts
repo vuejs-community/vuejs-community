@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'ElMassimo/stimulus-vite-helpers',
-    npm: 'stimulus-vite-helpers',
-  },
   links: {
     github: 'https://github.com/ElMassimo/stimulus-vite-helpers',
     npm: 'https://www.npmjs.com/package/stimulus-vite-helpers',
     website: 'https://github.com/ElMassimo/stimulus-vite-helpers',
+  },
+  source: {
+    github: 'ElMassimo/stimulus-vite-helpers',
+    npm: 'stimulus-vite-helpers',
   },
   stats: {
     stars: 54,

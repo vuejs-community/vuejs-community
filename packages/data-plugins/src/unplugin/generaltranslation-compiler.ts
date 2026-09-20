@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'translation',
     'i18n',
   ],
-  source: {
-    github: 'generaltranslation/gt',
-    npm: '@generaltranslation/compiler',
-  },
   links: {
     github: 'https://github.com/generaltranslation/gt',
     npm: 'https://www.npmjs.com/package/@generaltranslation/compiler',
     website: 'https://github.com/generaltranslation/gt#readme',
+  },
+  source: {
+    github: 'generaltranslation/gt',
+    npm: '@generaltranslation/compiler',
   },
   stats: {
     stars: 1058,

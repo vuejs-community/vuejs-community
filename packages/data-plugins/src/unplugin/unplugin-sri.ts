@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'shengxj1/unplugin-sri',
-    npm: 'unplugin-sri',
-  },
   links: {
     github: 'https://github.com/shengxj1/unplugin-sri',
     npm: 'https://www.npmjs.com/package/unplugin-sri',
     website: 'https://github.com/shengxj1/unplugin-sri#readme',
+  },
+  source: {
+    github: 'shengxj1/unplugin-sri',
+    npm: 'unplugin-sri',
   },
   stats: {
     stars: 21,

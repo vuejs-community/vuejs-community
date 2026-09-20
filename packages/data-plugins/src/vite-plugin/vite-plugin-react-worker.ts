@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'fast-refresh',
     'webworker',
   ],
-  source: {
-    github: 'tobiasmelen/vite-plugin-react-worker',
-    npm: 'vite-plugin-react-worker',
-  },
   links: {
     github: 'https://github.com/tobiasmelen/vite-plugin-react-worker',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-worker',
     website: 'https://github.com/tobiasmelen/vite-plugin-react-worker#readme',
+  },
+  source: {
+    github: 'tobiasmelen/vite-plugin-react-worker',
+    npm: 'vite-plugin-react-worker',
   },
   stats: {
     stars: 1,

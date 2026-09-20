@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'fvxe-table',
     'id-check',
   ],
-  source: {
-    npm: 'feima-vite-plugins',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/feima-vite-plugins',
+  },
+  source: {
+    npm: 'feima-vite-plugins',
   },
   stats: {
     stars: 0,

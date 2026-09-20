@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'wordpress',
     'themeplate',
   ],
-  source: {
-    github: 'ThemePlate/Vite',
-    npm: 'vite-plugin-themeplate',
-  },
   links: {
     github: 'https://github.com/ThemePlate/Vite',
     npm: 'https://www.npmjs.com/package/vite-plugin-themeplate',
     website: 'https://github.com/ThemePlate/Vite#readme',
+  },
+  source: {
+    github: 'ThemePlate/Vite',
+    npm: 'vite-plugin-themeplate',
   },
   stats: {
     stars: 1,

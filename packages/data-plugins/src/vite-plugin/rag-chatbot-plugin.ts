@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'nextjs',
     'lead-capture',
   ],
-  source: {
-    github: 'acetrumtech/rag-chatbot-plugin',
-    npm: 'rag-chatbot-plugin',
-  },
   links: {
     github: 'https://github.com/acetrumtech/rag-chatbot-plugin',
     npm: 'https://www.npmjs.com/package/rag-chatbot-plugin',
     website: 'https://acetrum.com',
+  },
+  source: {
+    github: 'acetrumtech/rag-chatbot-plugin',
+    npm: 'rag-chatbot-plugin',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'hosts',
     'switch',
   ],
-  source: {
-    github: 'lisonge/vite-plugin-switch-hosts',
-    npm: 'vite-plugin-switch-hosts',
-  },
   links: {
     github: 'https://github.com/lisonge/vite-plugin-switch-hosts',
     npm: 'https://www.npmjs.com/package/vite-plugin-switch-hosts',
     website: 'https://github.com/lisonge/vite-plugin-switch-hosts#readme',
+  },
+  source: {
+    github: 'lisonge/vite-plugin-switch-hosts',
+    npm: 'vite-plugin-switch-hosts',
   },
   stats: {
     stars: 11,

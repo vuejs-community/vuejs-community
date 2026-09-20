@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'cloudfront',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-aws3',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-aws3',
     website: 'https://gitea.treelet.net/Treelet/vite-plugin-aws',
+  },
+  source: {
+    npm: 'vite-plugin-aws3',
   },
   stats: {
     stars: 0,

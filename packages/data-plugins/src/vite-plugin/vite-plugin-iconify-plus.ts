@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'html',
     'iconify',
   ],
-  source: {
-    github: 'cMing1997/vite-plugin-iconify-plus',
-    npm: 'vite-plugin-iconify-plus',
-  },
   links: {
     github: 'https://github.com/cMing1997/vite-plugin-iconify-plus',
     npm: 'https://www.npmjs.com/package/vite-plugin-iconify-plus',
     website: 'https://github.com/cMing1997/vite-plugin-iconify-plus#readme',
+  },
+  source: {
+    github: 'cMing1997/vite-plugin-iconify-plus',
+    npm: 'vite-plugin-iconify-plus',
   },
   stats: {
     stars: 0,

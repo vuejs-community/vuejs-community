@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'kvoon3/unplugin-limit-files',
-    npm: 'unplugin-limit-files',
-  },
   links: {
     github: 'https://github.com/kvoon3/unplugin-limit-files',
     npm: 'https://www.npmjs.com/package/unplugin-limit-files',
     website: 'https://github.com/kvoon3/unplugin-limit-files#readme',
+  },
+  source: {
+    github: 'kvoon3/unplugin-limit-files',
+    npm: 'unplugin-limit-files',
   },
   stats: {
     stars: 0,

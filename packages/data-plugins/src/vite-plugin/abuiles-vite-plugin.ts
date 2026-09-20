@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'cloudflare/workers-sdk',
-    npm: '@abuiles/vite-plugin',
-  },
   links: {
     github: 'https://github.com/cloudflare/workers-sdk',
     npm: 'https://www.npmjs.com/package/@abuiles/vite-plugin',
     website: 'https://github.com/cloudflare/workers-sdk/tree/main/packages/vite-plugin-cloudflare#readme',
+  },
+  source: {
+    github: 'cloudflare/workers-sdk',
+    npm: '@abuiles/vite-plugin',
   },
   stats: {
     stars: 4536,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'context',
     'capture',
   ],
-  source: {
-    github: 'XinChou16/ui-context-capture',
-    npm: 'ui-context-capture',
-  },
   links: {
     github: 'https://github.com/XinChou16/ui-context-capture',
     npm: 'https://www.npmjs.com/package/ui-context-capture',
     website: 'https://github.com/XinChou16/ui-context-capture#readme',
+  },
+  source: {
+    github: 'XinChou16/ui-context-capture',
+    npm: 'ui-context-capture',
   },
   stats: {
     stars: 0,

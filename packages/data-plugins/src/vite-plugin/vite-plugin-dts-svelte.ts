@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dts',
     'typescript',
   ],
-  source: {
-    github: 'yoshida-valuesccg/vite-plugin-dts-svelte',
-    npm: 'vite-plugin-dts-svelte',
-  },
   links: {
     github: 'https://github.com/yoshida-valuesccg/vite-plugin-dts-svelte',
     npm: 'https://www.npmjs.com/package/vite-plugin-dts-svelte',
     website: 'https://github.com/yoshida-valuesccg/vite-plugin-dts-svelte#readme',
+  },
+  source: {
+    github: 'yoshida-valuesccg/vite-plugin-dts-svelte',
+    npm: 'vite-plugin-dts-svelte',
   },
   stats: {
     stars: 0,

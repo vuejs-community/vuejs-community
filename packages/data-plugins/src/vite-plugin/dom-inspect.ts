@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'devtools',
     'babel',
   ],
-  source: {
-    npm: 'dom-inspect',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/dom-inspect',
+  },
+  source: {
+    npm: 'dom-inspect',
   },
   stats: {
     stars: 0,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'inline-javascript',
     'insert-javascript',
   ],
-  source: {
-    github: 'denisstasyev/rollup-plugin-inline-code',
-    npm: 'rollup-plugin-inline-code',
-  },
   links: {
     github: 'https://github.com/denisstasyev/rollup-plugin-inline-code',
     npm: 'https://www.npmjs.com/package/rollup-plugin-inline-code',
     website: 'https://github.com/denisstasyev/rollup-plugin-inline-code#readme',
+  },
+  source: {
+    github: 'denisstasyev/rollup-plugin-inline-code',
+    npm: 'rollup-plugin-inline-code',
   },
   stats: {
     stars: 6,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'imagemin',
     'vben',
   ],
-  source: {
-    github: 'anncwb/vite-plugin-imagemin',
-    npm: 'vite-plugin-bituq-imagemin',
-  },
   links: {
     github: 'https://github.com/anncwb/vite-plugin-imagemin',
     npm: 'https://www.npmjs.com/package/vite-plugin-bituq-imagemin',
     website: 'https://github.com/anncwb/vite-plugin-imagemin/tree/master/#readme',
+  },
+  source: {
+    github: 'anncwb/vite-plugin-imagemin',
+    npm: 'vite-plugin-bituq-imagemin',
   },
   stats: {
     stars: 0,

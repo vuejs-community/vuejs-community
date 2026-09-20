@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'Lazy-work/unplugin-unison',
-    npm: 'unplugin-unisonjs',
-  },
   links: {
     github: 'https://github.com/Lazy-work/unplugin-unison',
     npm: 'https://www.npmjs.com/package/unplugin-unisonjs',
     website: 'https://github.com/Lazy-work/unplugin-unison#readme',
+  },
+  source: {
+    github: 'Lazy-work/unplugin-unison',
+    npm: 'unplugin-unisonjs',
   },
   stats: {
     stars: 0,

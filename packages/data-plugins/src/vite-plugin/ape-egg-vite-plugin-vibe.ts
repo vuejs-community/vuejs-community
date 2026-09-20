@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'preview',
     'gallery',
   ],
-  source: {
-    npm: '@ape-egg/vite-plugin-vibe',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ape-egg/vite-plugin-vibe',
     website: 'https://vibe.korte.kim',
+  },
+  source: {
+    npm: '@ape-egg/vite-plugin-vibe',
   },
   stats: {
     stars: 0,

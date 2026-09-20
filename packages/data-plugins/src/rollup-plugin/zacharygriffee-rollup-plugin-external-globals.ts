@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'external',
     'globals',
   ],
-  source: {
-    npm: '@zacharygriffee/rollup-plugin-external-globals',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@zacharygriffee/rollup-plugin-external-globals',
+  },
+  source: {
+    npm: '@zacharygriffee/rollup-plugin-external-globals',
   },
   stats: {
     stars: 0,

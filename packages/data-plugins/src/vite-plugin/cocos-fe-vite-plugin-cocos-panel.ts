@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'cocos-plugin',
     'cocos-extend',
   ],
-  source: {
-    npm: '@cocos-fe/vite-plugin-cocos-panel',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@cocos-fe/vite-plugin-cocos-panel',
+  },
+  source: {
+    npm: '@cocos-fe/vite-plugin-cocos-panel',
   },
   stats: {
     stars: 0,

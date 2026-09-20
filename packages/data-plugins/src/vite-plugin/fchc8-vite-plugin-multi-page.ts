@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'file-based',
     'typescript',
   ],
-  source: {
-    github: 'fchc7/vite-plugin-multi-page',
-    npm: '@fchc8/vite-plugin-multi-page',
-  },
   links: {
     github: 'https://github.com/fchc7/vite-plugin-multi-page',
     npm: 'https://www.npmjs.com/package/@fchc8/vite-plugin-multi-page',
     website: 'https://github.com/fchc7/vite-plugin-multi-page#readme',
+  },
+  source: {
+    github: 'fchc7/vite-plugin-multi-page',
+    npm: '@fchc8/vite-plugin-multi-page',
   },
   stats: {
     stars: 2,

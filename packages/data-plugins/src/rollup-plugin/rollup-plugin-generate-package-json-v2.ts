@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'generate',
     'package.json',
   ],
-  source: {
-    github: 'hockor/rollup-plugin-generate-package-json',
-    npm: 'rollup-plugin-generate-package-json-v2',
-  },
   links: {
     github: 'https://github.com/hockor/rollup-plugin-generate-package-json',
     npm: 'https://www.npmjs.com/package/rollup-plugin-generate-package-json-v2',
     website: 'https://github.com/hockor/rollup-plugin-generate-package-json#readme',
+  },
+  source: {
+    github: 'hockor/rollup-plugin-generate-package-json',
+    npm: 'rollup-plugin-generate-package-json-v2',
   },
   stats: {
     stars: 0,

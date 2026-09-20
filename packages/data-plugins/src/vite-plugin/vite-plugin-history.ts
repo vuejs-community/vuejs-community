@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin-history',
     'multi-page-history',
   ],
-  source: {
-    github: 'wuyaoxing/vite-plugin-history',
-    npm: 'vite-plugin-history',
-  },
   links: {
     github: 'https://github.com/wuyaoxing/vite-plugin-history',
     npm: 'https://www.npmjs.com/package/vite-plugin-history',
     website: 'https://github.com/wuyaoxing/vite-plugin-history',
+  },
+  source: {
+    github: 'wuyaoxing/vite-plugin-history',
+    npm: 'vite-plugin-history',
   },
   stats: {
     stars: 3,

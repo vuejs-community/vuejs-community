@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'phosphor-icons/unplugin',
-    npm: '@phosphor-icons/unplugin',
-  },
   links: {
     github: 'https://github.com/phosphor-icons/unplugin',
     npm: 'https://www.npmjs.com/package/@phosphor-icons/unplugin',
     website: 'https://github.com/phosphor-icons/unplugin#readme',
+  },
+  source: {
+    github: 'phosphor-icons/unplugin',
+    npm: '@phosphor-icons/unplugin',
   },
   stats: {
     stars: 5,

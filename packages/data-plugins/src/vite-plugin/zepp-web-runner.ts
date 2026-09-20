@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'react',
   ],
-  source: {
-    github: 'AntonLapshin/zepp-web-runner',
-    npm: 'zepp-web-runner',
-  },
   links: {
     github: 'https://github.com/AntonLapshin/zepp-web-runner',
     npm: 'https://www.npmjs.com/package/zepp-web-runner',
     website: 'https://github.com/AntonLapshin/zepp-web-runner#readme',
+  },
+  source: {
+    github: 'AntonLapshin/zepp-web-runner',
+    npm: 'zepp-web-runner',
   },
   stats: {
     stars: 2,

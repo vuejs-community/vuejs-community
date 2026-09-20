@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'svgo',
     'vite',
   ],
-  source: {
-    github: 'mrfoxpro/vite-plugin-svg-jsx',
-    npm: 'vite-plugin-svg-jsx',
-  },
   links: {
     github: 'https://github.com/mrfoxpro/vite-plugin-svg-jsx',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-jsx',
     website: 'https://github.com/mrfoxpro/vite-plugin-svg-jsx#readme',
+  },
+  source: {
+    github: 'mrfoxpro/vite-plugin-svg-jsx',
+    npm: 'vite-plugin-svg-jsx',
   },
   stats: {
     stars: 0,

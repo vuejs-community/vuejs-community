@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'stormory/react-router-server',
-    npm: '@stormory/react-router-server',
-  },
   links: {
     github: 'https://github.com/stormory/react-router-server',
     npm: 'https://www.npmjs.com/package/@stormory/react-router-server',
     website: 'https://github.com/stormory/react-router-server#readme',
+  },
+  source: {
+    github: 'stormory/react-router-server',
+    npm: '@stormory/react-router-server',
   },
   stats: {
     stars: 0,

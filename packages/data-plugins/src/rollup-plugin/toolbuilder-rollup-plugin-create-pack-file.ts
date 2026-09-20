@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'pack',
   ],
-  source: {
-    github: 'toolbuilder/rollup-plugin-create-pack-file',
-    npm: '@toolbuilder/rollup-plugin-create-pack-file',
-  },
   links: {
     github: 'https://github.com/toolbuilder/rollup-plugin-create-pack-file',
     npm: 'https://www.npmjs.com/package/@toolbuilder/rollup-plugin-create-pack-file',
     website: 'https://github.com/toolbuilder/rollup-plugin-create-pack-file#readme',
+  },
+  source: {
+    github: 'toolbuilder/rollup-plugin-create-pack-file',
+    npm: '@toolbuilder/rollup-plugin-create-pack-file',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'jison',
     'rollup-plugin',
   ],
-  source: {
-    github: 'lujun2/rollup-plugin-jison',
-    npm: 'rollup-plugin-jison',
-  },
   links: {
     github: 'https://github.com/lujun2/rollup-plugin-jison',
     npm: 'https://www.npmjs.com/package/rollup-plugin-jison',
     website: 'https://github.com/lujun2/rollup-plugin-jison#readme',
+  },
+  source: {
+    github: 'lujun2/rollup-plugin-jison',
+    npm: 'rollup-plugin-jison',
   },
   stats: {
     stars: 1,

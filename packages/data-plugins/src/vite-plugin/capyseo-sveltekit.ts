@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'accessibility',
     'web-vitals',
   ],
-  source: {
-    github: 'Capyseo/capyseo-sveltekit',
-    npm: '@capyseo/sveltekit',
-  },
   links: {
     github: 'https://github.com/Capyseo/capyseo-sveltekit',
     npm: 'https://www.npmjs.com/package/@capyseo/sveltekit',
     website: 'https://capyseo.dev',
+  },
+  source: {
+    github: 'Capyseo/capyseo-sveltekit',
+    npm: '@capyseo/sveltekit',
   },
   stats: {
     stars: 1,

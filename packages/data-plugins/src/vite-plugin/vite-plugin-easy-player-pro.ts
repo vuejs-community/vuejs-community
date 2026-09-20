@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'easy-player-pro',
   ],
-  source: {
-    github: 'meterXu/easy-player',
-    npm: 'vite-plugin-easy-player-pro',
-  },
   links: {
     github: 'https://github.com/meterXu/easy-player',
     npm: 'https://www.npmjs.com/package/vite-plugin-easy-player-pro',
     website: 'https://github.com/meterXu/easy-player#readme',
+  },
+  source: {
+    github: 'meterXu/easy-player',
+    npm: 'vite-plugin-easy-player-pro',
   },
   stats: {
     stars: 0,

@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://samuelreichor.at/libraries/nuxt-craftcms',
   },
   source: {
-    github: 'samuelreichor/query-api#HEAD/packages/nuxt',
+    github: 'samuelreichor/query-api',
     npm: '@query-api/nuxt',
   },
 })

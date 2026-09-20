@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'template',
     'dev-tools',
   ],
-  source: {
-    github: 'posva/auto-scaffold',
-    npm: 'auto-scaffold',
-  },
   links: {
     github: 'https://github.com/posva/auto-scaffold',
     npm: 'https://www.npmjs.com/package/auto-scaffold',
     website: 'https://github.com/posva/auto-scaffold#readme',
+  },
+  source: {
+    github: 'posva/auto-scaffold',
+    npm: 'auto-scaffold',
   },
   stats: {
     stars: 30,

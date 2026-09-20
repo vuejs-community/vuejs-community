@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    npm: '@fleet-frontend/unplugin-azure-blobs',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@fleet-frontend/unplugin-azure-blobs',
+  },
+  source: {
+    npm: '@fleet-frontend/unplugin-azure-blobs',
   },
   stats: {
     stars: 0,

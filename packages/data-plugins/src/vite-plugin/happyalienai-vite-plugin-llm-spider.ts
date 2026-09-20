@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'spider',
     'crawler',
   ],
-  source: {
-    github: 'onEnterFrame/vite-plugin-llm-spider',
-    npm: '@happyalienai/vite-plugin-llm-spider',
-  },
   links: {
     github: 'https://github.com/onEnterFrame/vite-plugin-llm-spider',
     npm: 'https://www.npmjs.com/package/@happyalienai/vite-plugin-llm-spider',
     website: 'https://github.com/onEnterFrame/vite-plugin-llm-spider#readme',
+  },
+  source: {
+    github: 'onEnterFrame/vite-plugin-llm-spider',
+    npm: '@happyalienai/vite-plugin-llm-spider',
   },
   stats: {
     stars: 1,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'h5easy/vite-plugin-upload',
-    npm: '@h5easy/vite-plugin-upload',
-  },
   links: {
     github: 'https://github.com/h5easy/vite-plugin-upload',
     npm: 'https://www.npmjs.com/package/@h5easy/vite-plugin-upload',
     website: 'https://github.com/h5easy/vite-plugin-upload#readme',
+  },
+  source: {
+    github: 'h5easy/vite-plugin-upload',
+    npm: '@h5easy/vite-plugin-upload',
   },
   stats: {
     stars: 0,

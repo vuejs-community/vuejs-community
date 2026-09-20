@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'auto-register',
     'local-registration',
   ],
-  source: {
-    github: 'your-org/vite-plugin-ovit-delivery',
-    npm: 'vite-plugin-ovit-delivery',
-  },
   links: {
     github: 'https://github.com/your-org/vite-plugin-ovit-delivery',
     npm: 'https://www.npmjs.com/package/vite-plugin-ovit-delivery',
     website: 'https://github.com/your-org/vite-plugin-ovit-delivery#readme',
+  },
+  source: {
+    github: 'your-org/vite-plugin-ovit-delivery',
+    npm: 'vite-plugin-ovit-delivery',
   },
   stats: {
     stars: 0,

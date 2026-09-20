@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'external',
     'externals',
   ],
-  source: {
-    github: 's3xysteak/vite-plugin-externals',
-    npm: '@s3xysteak/vite-plugin-externals',
-  },
   links: {
     github: 'https://github.com/s3xysteak/vite-plugin-externals',
     npm: 'https://www.npmjs.com/package/@s3xysteak/vite-plugin-externals',
     website: 'https://github.com/s3xysteak/vite-plugin-externals',
+  },
+  source: {
+    github: 's3xysteak/vite-plugin-externals',
+    npm: '@s3xysteak/vite-plugin-externals',
   },
   stats: {
     stars: 0,

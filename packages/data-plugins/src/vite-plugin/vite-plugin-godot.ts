@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'itsKaynine/vite-plugin-godot',
-    npm: 'vite-plugin-godot',
-  },
   links: {
     github: 'https://github.com/itsKaynine/vite-plugin-godot',
     npm: 'https://www.npmjs.com/package/vite-plugin-godot',
     website: 'https://github.com/itsKaynine/vite-plugin-godot',
+  },
+  source: {
+    github: 'itsKaynine/vite-plugin-godot',
+    npm: 'vite-plugin-godot',
   },
   stats: {
     stars: 5,

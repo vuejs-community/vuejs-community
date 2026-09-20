@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'dotenv',
     'te-env',
   ],
-  source: {
-    github: 'r17x/js',
-    npm: 'unplugin-environment',
-  },
   links: {
     github: 'https://github.com/r17x/js',
     npm: 'https://www.npmjs.com/package/unplugin-environment',
     website: 'https://github.com/r17x/js/tree/main/packages/unplugin-environment#readme',
+  },
+  source: {
+    github: 'r17x/js',
+    npm: 'unplugin-environment',
   },
   stats: {
     stars: 17,

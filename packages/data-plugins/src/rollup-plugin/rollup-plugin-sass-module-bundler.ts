@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'css',
     'rollup',
   ],
-  source: {
-    github: 'roberekson/rollup-plugin-sass-module-bundler',
-    npm: 'rollup-plugin-sass-module-bundler',
-  },
   links: {
     github: 'https://github.com/roberekson/rollup-plugin-sass-module-bundler',
     npm: 'https://www.npmjs.com/package/rollup-plugin-sass-module-bundler',
     website: 'https://github.com/roberekson/rollup-plugin-sass-module-bundler#readme',
+  },
+  source: {
+    github: 'roberekson/rollup-plugin-sass-module-bundler',
+    npm: 'rollup-plugin-sass-module-bundler',
   },
   stats: {
     stars: 0,

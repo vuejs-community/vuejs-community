@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'CaoMeiYouRen/unplugin-dynamic-import',
-    npm: 'unplugin-dynamic-import',
-  },
   links: {
     github: 'https://github.com/CaoMeiYouRen/unplugin-dynamic-import',
     npm: 'https://www.npmjs.com/package/unplugin-dynamic-import',
     website: 'https://github.com/CaoMeiYouRen/unplugin-dynamic-import#readme',
+  },
+  source: {
+    github: 'CaoMeiYouRen/unplugin-dynamic-import',
+    npm: 'unplugin-dynamic-import',
   },
   stats: {
     stars: 0,

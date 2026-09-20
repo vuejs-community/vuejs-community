@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'tauri',
     'tauri-plugin',
   ],
-  source: {
-    github: 'amrbashir/vite-plugin-tauri',
-    npm: 'vite-plugin-tauri',
-  },
   links: {
     github: 'https://github.com/amrbashir/vite-plugin-tauri',
     npm: 'https://www.npmjs.com/package/vite-plugin-tauri',
     website: 'https://github.com/amrbashir/vite-plugin-tauri#readme',
+  },
+  source: {
+    github: 'amrbashir/vite-plugin-tauri',
+    npm: 'vite-plugin-tauri',
   },
   stats: {
     stars: 293,

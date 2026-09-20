@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'element3',
     'webgl',
   ],
-  source: {
-    npm: 'rollup-plugin-element3-webgl',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-element3-webgl',
     website: 'https://github.com/hug-sun/rollup-plugin-element3-webgl',
+  },
+  source: {
+    npm: 'rollup-plugin-element3-webgl',
   },
   stats: {
     stars: 0,

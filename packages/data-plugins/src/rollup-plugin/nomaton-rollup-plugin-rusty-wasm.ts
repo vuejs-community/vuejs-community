@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'wasm',
   ],
-  source: {
-    github: 'nomaton/rollup-plugin-rusty-wasm',
-    npm: '@nomaton/rollup-plugin-rusty-wasm',
-  },
   links: {
     github: 'https://github.com/nomaton/rollup-plugin-rusty-wasm',
     npm: 'https://www.npmjs.com/package/@nomaton/rollup-plugin-rusty-wasm',
     website: 'https://github.com/nomaton/rollup-plugin-rusty-wasm#readme',
+  },
+  source: {
+    github: 'nomaton/rollup-plugin-rusty-wasm',
+    npm: '@nomaton/rollup-plugin-rusty-wasm',
   },
   stats: {
     stars: 0,

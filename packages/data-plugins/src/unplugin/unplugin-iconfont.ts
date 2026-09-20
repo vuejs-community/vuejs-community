@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'imal1/unplugin-iconfont',
-    npm: 'unplugin-iconfont',
-  },
   links: {
     github: 'https://github.com/imal1/unplugin-iconfont',
     npm: 'https://www.npmjs.com/package/unplugin-iconfont',
     website: 'https://github.com/imal1/unplugin-iconfont#readme',
+  },
+  source: {
+    github: 'imal1/unplugin-iconfont',
+    npm: 'unplugin-iconfont',
   },
   stats: {
     stars: 5,

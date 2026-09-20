@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'rollup',
   ],
-  source: {
-    github: 'gordonmleigh/rollup-plugin-npm',
-    npm: '@gordonmleigh/rollup-plugin-npm',
-  },
   links: {
     github: 'https://github.com/gordonmleigh/rollup-plugin-npm',
     npm: 'https://www.npmjs.com/package/@gordonmleigh/rollup-plugin-npm',
     website: 'https://github.com/gordonmleigh/rollup-plugin-npm#readme',
+  },
+  source: {
+    github: 'gordonmleigh/rollup-plugin-npm',
+    npm: '@gordonmleigh/rollup-plugin-npm',
   },
   stats: {
     stars: 0,

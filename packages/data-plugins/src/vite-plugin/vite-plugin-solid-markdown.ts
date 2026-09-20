@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'solid-js',
     'mdx',
   ],
-  source: {
-    github: 'xbmlz/vite-plugin-solid-markdown',
-    npm: 'vite-plugin-solid-markdown',
-  },
   links: {
     github: 'https://github.com/xbmlz/vite-plugin-solid-markdown',
     npm: 'https://www.npmjs.com/package/vite-plugin-solid-markdown',
     website: 'https://github.com/xbmlz/vite-plugin-solid-markdown',
+  },
+  source: {
+    github: 'xbmlz/vite-plugin-solid-markdown',
+    npm: 'vite-plugin-solid-markdown',
   },
   stats: {
     stars: 16,

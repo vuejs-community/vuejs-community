@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'lsdsjy/rollup-plugin-filter-dep-graph',
-    npm: 'rollup-plugin-filter-dep-graph',
-  },
   links: {
     github: 'https://github.com/lsdsjy/rollup-plugin-filter-dep-graph',
     npm: 'https://www.npmjs.com/package/rollup-plugin-filter-dep-graph',
     website: 'https://github.com/lsdsjy/rollup-plugin-filter-dep-graph#readme',
+  },
+  source: {
+    github: 'lsdsjy/rollup-plugin-filter-dep-graph',
+    npm: 'rollup-plugin-filter-dep-graph',
   },
   stats: {
     stars: 1,

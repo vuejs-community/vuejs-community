@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'browser',
     'browser-extension',
   ],
-  source: {
-    github: 'extend-chrome/rollup-plugin-chrome-extension',
-    npm: '@gedhean/rollup-plugin-chrome-extension',
-  },
   links: {
     github: 'https://github.com/extend-chrome/rollup-plugin-chrome-extension',
     npm: 'https://www.npmjs.com/package/@gedhean/rollup-plugin-chrome-extension',
     website: 'https://github.com/extend-chrome/rollup-plugin-chrome-extension#readme',
+  },
+  source: {
+    github: 'extend-chrome/rollup-plugin-chrome-extension',
+    npm: '@gedhean/rollup-plugin-chrome-extension',
   },
   stats: {
     stars: 4170,

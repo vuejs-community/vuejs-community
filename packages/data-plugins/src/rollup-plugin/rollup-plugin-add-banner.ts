@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite',
     'typescript',
   ],
-  source: {
-    github: 'saqqdy/rollup-plugin-add-banner',
-    npm: 'rollup-plugin-add-banner',
-  },
   links: {
     github: 'https://github.com/saqqdy/rollup-plugin-add-banner',
     npm: 'https://www.npmjs.com/package/rollup-plugin-add-banner',
     website: 'https://github.com/saqqdy/rollup-plugin-add-banner#readme',
+  },
+  source: {
+    github: 'saqqdy/rollup-plugin-add-banner',
+    npm: 'rollup-plugin-add-banner',
   },
   stats: {
     stars: 3,

@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    npm: 'rollup-plugin-typesync',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-typesync',
+  },
+  source: {
+    npm: 'rollup-plugin-typesync',
   },
   stats: {
     stars: 0,

@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://formkit.com',
   },
   source: {
-    github: 'formkit/formkit#master/packages/nuxt',
+    github: 'formkit/formkit',
     npm: '@formkit/nuxt',
   },
 })

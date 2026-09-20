@@ -38,14 +38,14 @@ export default defineProjectMeta({
     'heic',
     'svg',
   ],
-  source: {
-    github: 'ghaschel/squeezit',
-    npm: 'squeezit',
-  },
   links: {
     github: 'https://github.com/ghaschel/squeezit',
     npm: 'https://www.npmjs.com/package/squeezit',
     website: 'https://github.com/ghaschel/squeezit#readme',
+  },
+  source: {
+    github: 'ghaschel/squeezit',
+    npm: 'squeezit',
   },
   stats: {
     stars: 1,

@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'sharp',
   ],
-  source: {
-    npm: 'vite-plugin-sharp',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-sharp',
+  },
+  source: {
+    npm: 'vite-plugin-sharp',
   },
   stats: {
     stars: 0,

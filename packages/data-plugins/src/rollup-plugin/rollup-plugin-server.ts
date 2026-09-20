@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'dev-server',
     'static',
   ],
-  source: {
-    github: 'fkei/rollup-plugin-server',
-    npm: 'rollup-plugin-server',
-  },
   links: {
     github: 'https://github.com/fkei/rollup-plugin-server',
     npm: 'https://www.npmjs.com/package/rollup-plugin-server',
     website: 'https://github.com/fkei/rollup-plugin-server',
+  },
+  source: {
+    github: 'fkei/rollup-plugin-server',
+    npm: 'rollup-plugin-server',
   },
   stats: {
     stars: 3,

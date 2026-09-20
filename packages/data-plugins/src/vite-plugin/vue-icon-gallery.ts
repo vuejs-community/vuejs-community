@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'preview',
     'svg viewer',
   ],
-  source: {
-    github: 'MaksimovEgor/vue-icon-gallery',
-    npm: 'vue-icon-gallery',
-  },
   links: {
     github: 'https://github.com/MaksimovEgor/vue-icon-gallery',
     npm: 'https://www.npmjs.com/package/vue-icon-gallery',
     website: 'https://github.com/MaksimovEgor/vue-icon-gallery#readme',
+  },
+  source: {
+    github: 'MaksimovEgor/vue-icon-gallery',
+    npm: 'vue-icon-gallery',
   },
   stats: {
     stars: 0,

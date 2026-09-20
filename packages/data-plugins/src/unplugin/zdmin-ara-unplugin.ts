@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'openapi',
     'codegen',
   ],
-  source: {
-    github: 'zdminjs/ara',
-    npm: '@zdmin/ara-unplugin',
-  },
   links: {
     github: 'https://github.com/zdminjs/ara',
     npm: 'https://www.npmjs.com/package/@zdmin/ara-unplugin',
     website: 'https://github.com/zdminjs/ara#readme',
+  },
+  source: {
+    github: 'zdminjs/ara',
+    npm: '@zdmin/ara-unplugin',
   },
   stats: {
     stars: 2,

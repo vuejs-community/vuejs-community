@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'setup',
     'name',
   ],
-  source: {
-    github: 'cklwblove/unplugin-vue-setup-extend',
-    npm: '@winner-fed/unplugin-vue-setup-extend',
-  },
   links: {
     github: 'https://github.com/cklwblove/unplugin-vue-setup-extend',
     npm: 'https://www.npmjs.com/package/@winner-fed/unplugin-vue-setup-extend',
     website: 'https://github.com/cklwblove/unplugin-vue-setup-extend#readme',
+  },
+  source: {
+    github: 'cklwblove/unplugin-vue-setup-extend',
+    npm: '@winner-fed/unplugin-vue-setup-extend',
   },
   stats: {
     stars: 0,

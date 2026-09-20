@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rspack-plugin',
     'esbuild-plugin',
   ],
-  source: {
-    github: 'wzc520pyfm/open-probe',
-    npm: '@open-probe/unplugin',
-  },
   links: {
     github: 'https://github.com/wzc520pyfm/open-probe',
     npm: 'https://www.npmjs.com/package/@open-probe/unplugin',
     website: 'https://github.com/wzc520pyfm/open-probe/tree/main/packages/unplugin#readme',
+  },
+  source: {
+    github: 'wzc520pyfm/open-probe',
+    npm: '@open-probe/unplugin',
   },
   stats: {
     stars: 0,

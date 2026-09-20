@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'vue',
     'react',
   ],
-  source: {
-    npm: 'vite-plugin-native-sw',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-native-sw',
+  },
+  source: {
+    npm: 'vite-plugin-native-sw',
   },
   stats: {
     stars: 0,

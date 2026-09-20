@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'yjl9903/unplugin-analytics',
-    npm: 'unplugin-analytics',
-  },
   links: {
     github: 'https://github.com/yjl9903/unplugin-analytics',
     npm: 'https://www.npmjs.com/package/unplugin-analytics',
     website: 'https://github.com/yjl9903/unplugin-analytics#readme',
+  },
+  source: {
+    github: 'yjl9903/unplugin-analytics',
+    npm: 'unplugin-analytics',
   },
   stats: {
     stars: 0,

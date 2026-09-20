@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'alloc/vite-plugin-rehost',
-    npm: 'vite-plugin-rehost',
-  },
   links: {
     github: 'https://github.com/alloc/vite-plugin-rehost',
     npm: 'https://www.npmjs.com/package/vite-plugin-rehost',
     website: 'https://github.com/alloc/vite-plugin-rehost#readme',
+  },
+  source: {
+    github: 'alloc/vite-plugin-rehost',
+    npm: 'vite-plugin-rehost',
   },
   stats: {
     stars: 5,

@@ -25,11 +25,11 @@ export default defineProjectMeta({
     'woff',
     'woff2',
   ],
-  source: {
-    npm: '@wemt/fontawesome-toolkit',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@wemt/fontawesome-toolkit',
+  },
+  source: {
+    npm: '@wemt/fontawesome-toolkit',
   },
   stats: {
     stars: 0,

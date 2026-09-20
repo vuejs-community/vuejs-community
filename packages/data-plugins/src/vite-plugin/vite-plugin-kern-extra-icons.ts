@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'KERN',
     'vite-plugin',
   ],
-  source: {
-    github: 'Dataport/vite-plugin-kern-extra-icons',
-    npm: 'vite-plugin-kern-extra-icons',
-  },
   links: {
     github: 'https://github.com/Dataport/vite-plugin-kern-extra-icons',
     npm: 'https://www.npmjs.com/package/vite-plugin-kern-extra-icons',
     website: 'https://github.com/Dataport/vite-plugin-kern-extra-icons#readme',
+  },
+  source: {
+    github: 'Dataport/vite-plugin-kern-extra-icons',
+    npm: 'vite-plugin-kern-extra-icons',
   },
   stats: {
     stars: 1,

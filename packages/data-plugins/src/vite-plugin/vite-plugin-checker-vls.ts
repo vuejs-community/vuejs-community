@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'typescript',
   ],
-  source: {
-    github: 'fi3ework/vite-plugin-checker',
-    npm: 'vite-plugin-checker-vls',
-  },
   links: {
     github: 'https://github.com/fi3ework/vite-plugin-checker',
     npm: 'https://www.npmjs.com/package/vite-plugin-checker-vls',
     website: 'https://github.com/fi3ework/vite-plugin-checker',
+  },
+  source: {
+    github: 'fi3ework/vite-plugin-checker',
+    npm: 'vite-plugin-checker-vls',
   },
   stats: {
     stars: 0,

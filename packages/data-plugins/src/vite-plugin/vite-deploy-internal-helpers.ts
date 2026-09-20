@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'web-runes/vite-deploy',
-    npm: '@vite-deploy/internal-helpers',
-  },
   links: {
     github: 'https://github.com/web-runes/vite-deploy',
     npm: 'https://www.npmjs.com/package/@vite-deploy/internal-helpers',
     website: 'https://vite-deploy.web-runes.dev',
+  },
+  source: {
+    github: 'web-runes/vite-deploy',
+    npm: '@vite-deploy/internal-helpers',
   },
   stats: {
     stars: 0,

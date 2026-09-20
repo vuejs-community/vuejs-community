@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'SpiriitLabs/vite-plugin-svg-spritemap',
-    npm: '@spiriit/vite-plugin-svg-spritemap',
-  },
   links: {
     github: 'https://github.com/SpiriitLabs/vite-plugin-svg-spritemap',
     npm: 'https://www.npmjs.com/package/@spiriit/vite-plugin-svg-spritemap',
     website: 'https://github.com/SpiriitLabs/vite-plugin-svg-spritemap',
+  },
+  source: {
+    github: 'SpiriitLabs/vite-plugin-svg-spritemap',
+    npm: '@spiriit/vite-plugin-svg-spritemap',
   },
   stats: {
     stars: 0,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'lightningcss',
     'sass-embedded',
   ],
-  source: {
-    github: 'AnterraGG/scss-dts',
-    npm: '@anterra/scss-dts',
-  },
   links: {
     github: 'https://github.com/AnterraGG/scss-dts',
     npm: 'https://www.npmjs.com/package/@anterra/scss-dts',
     website: 'https://github.com/AnterraGG/scss-dts/tree/main/packages/scss-dts#readme',
+  },
+  source: {
+    github: 'AnterraGG/scss-dts',
+    npm: '@anterra/scss-dts',
   },
   stats: {
     stars: 1,

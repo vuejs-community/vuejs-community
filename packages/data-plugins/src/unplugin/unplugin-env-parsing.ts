@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'hairyf/unplugin-env-parsing',
-    npm: 'unplugin-env-parsing',
-  },
   links: {
     github: 'https://github.com/hairyf/unplugin-env-parsing',
     npm: 'https://www.npmjs.com/package/unplugin-env-parsing',
     website: 'https://github.com/hairyf/unplugin-env-parsing#readme',
+  },
+  source: {
+    github: 'hairyf/unplugin-env-parsing',
+    npm: 'unplugin-env-parsing',
   },
   stats: {
     stars: 0,

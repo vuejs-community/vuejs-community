@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-tunnel',
     'vite',
   ],
-  source: {
-    github: 'MyraxByte/vite-tunnel',
-    npm: '@vite-libs/tunnel',
-  },
   links: {
     github: 'https://github.com/MyraxByte/vite-tunnel',
     npm: 'https://www.npmjs.com/package/@vite-libs/tunnel',
     website: 'https://github.com/MyraxByte/vite-tunnel#readme',
+  },
+  source: {
+    github: 'MyraxByte/vite-tunnel',
+    npm: '@vite-libs/tunnel',
   },
   stats: {
     stars: 0,

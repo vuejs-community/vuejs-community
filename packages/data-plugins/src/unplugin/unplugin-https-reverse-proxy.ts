@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'zcf0508/unplugin-https-reverse-proxy',
-    npm: 'unplugin-https-reverse-proxy',
-  },
   links: {
     github: 'https://github.com/zcf0508/unplugin-https-reverse-proxy',
     npm: 'https://www.npmjs.com/package/unplugin-https-reverse-proxy',
     website: 'https://github.com/zcf0508/unplugin-https-reverse-proxy#readme',
+  },
+  source: {
+    github: 'zcf0508/unplugin-https-reverse-proxy',
+    npm: 'unplugin-https-reverse-proxy',
   },
   stats: {
     stars: 12,

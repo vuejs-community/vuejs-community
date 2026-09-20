@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'watch',
     'hot-reload',
   ],
-  source: {
-    github: 'ozanturksever/vite-plugin-go-watch',
-    npm: 'vite-plugin-go-watch',
-  },
   links: {
     github: 'https://github.com/ozanturksever/vite-plugin-go-watch',
     npm: 'https://www.npmjs.com/package/vite-plugin-go-watch',
     website: 'https://github.com/ozanturksever/vite-plugin-go-watch#readme',
+  },
+  source: {
+    github: 'ozanturksever/vite-plugin-go-watch',
+    npm: 'vite-plugin-go-watch',
   },
   stats: {
     stars: 0,

@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'suspense',
     'unplugin',
   ],
-  source: {
-    github: 'Phoenixrr2113/phantom',
-    npm: 'phantom-build',
-  },
   links: {
     github: 'https://github.com/Phoenixrr2113/phantom',
     npm: 'https://www.npmjs.com/package/phantom-build',
     website: 'https://github.com/Phoenixrr2113/phantom#readme',
+  },
+  source: {
+    github: 'Phoenixrr2113/phantom',
+    npm: 'phantom-build',
   },
   stats: {
     stars: 2,

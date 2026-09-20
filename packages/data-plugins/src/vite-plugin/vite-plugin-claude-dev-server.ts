@@ -19,11 +19,11 @@ export default defineProjectMeta({
     'terminal',
     'ttyd',
   ],
-  source: {
-    npm: 'vite-plugin-claude-dev-server',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-claude-dev-server',
+  },
+  source: {
+    npm: 'vite-plugin-claude-dev-server',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'template',
   ],
-  source: {
-    github: 'ph1p/rollup-plugin-template-postcss',
-    npm: 'rollup-plugin-template-postcss',
-  },
   links: {
     github: 'https://github.com/ph1p/rollup-plugin-template-postcss',
     npm: 'https://www.npmjs.com/package/rollup-plugin-template-postcss',
     website: 'https://github.com/ph1p/rollup-plugin-template-postcss',
+  },
+  source: {
+    github: 'ph1p/rollup-plugin-template-postcss',
+    npm: 'rollup-plugin-template-postcss',
   },
   stats: {
     stars: 0,

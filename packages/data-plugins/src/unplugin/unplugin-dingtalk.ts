@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'zcf0508/unplugin-dingtalk',
-    npm: 'unplugin-dingtalk',
-  },
   links: {
     github: 'https://github.com/zcf0508/unplugin-dingtalk',
     npm: 'https://www.npmjs.com/package/unplugin-dingtalk',
     website: 'https://github.com/zcf0508/unplugin-dingtalk#readme',
+  },
+  source: {
+    github: 'zcf0508/unplugin-dingtalk',
+    npm: 'unplugin-dingtalk',
   },
   stats: {
     stars: 3,

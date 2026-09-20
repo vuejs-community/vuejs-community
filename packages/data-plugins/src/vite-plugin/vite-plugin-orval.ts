@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'mees-/vite-plugin-orval',
-    npm: 'vite-plugin-orval',
-  },
   links: {
     github: 'https://github.com/mees-/vite-plugin-orval',
     npm: 'https://www.npmjs.com/package/vite-plugin-orval',
     website: 'https://github.com/mees-/vite-plugin-orval#readme',
+  },
+  source: {
+    github: 'mees-/vite-plugin-orval',
+    npm: 'vite-plugin-orval',
   },
   stats: {
     stars: 0,

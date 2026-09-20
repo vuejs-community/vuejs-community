@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'typescript',
     'babel',
   ],
-  source: {
-    github: 'langtail/macaly-static-tagger',
-    npm: '@macaly/static-tagger',
-  },
   links: {
     github: 'https://github.com/langtail/macaly-static-tagger',
     npm: 'https://www.npmjs.com/package/@macaly/static-tagger',
     website: 'https://github.com/langtail/macaly-static-tagger#readme',
+  },
+  source: {
+    github: 'langtail/macaly-static-tagger',
+    npm: '@macaly/static-tagger',
   },
   stats: {
     stars: 0,

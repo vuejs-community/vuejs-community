@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'beekeeper-studio',
   ],
-  source: {
-    github: 'beekeeper-studio/vite-plugin',
-    npm: '@beekeeperstudio/vite-plugin',
-  },
   links: {
     github: 'https://github.com/beekeeper-studio/vite-plugin',
     npm: 'https://www.npmjs.com/package/@beekeeperstudio/vite-plugin',
     website: 'https://github.com/beekeeper-studio/vite-plugin#readme',
+  },
+  source: {
+    github: 'beekeeper-studio/vite-plugin',
+    npm: '@beekeeperstudio/vite-plugin',
   },
   stats: {
     stars: 0,

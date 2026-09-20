@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vite-plugin-clean',
     'vite-plugin-clean-pattern',
   ],
-  source: {
-    github: 'JasonHassold/vite-plugin-clean-pattern',
-    npm: 'vite-plugin-clean-pattern',
-  },
   links: {
     github: 'https://github.com/JasonHassold/vite-plugin-clean-pattern',
     npm: 'https://www.npmjs.com/package/vite-plugin-clean-pattern',
     website: 'https://github.com/JasonHassold/vite-plugin-clean-pattern',
+  },
+  source: {
+    github: 'JasonHassold/vite-plugin-clean-pattern',
+    npm: 'vite-plugin-clean-pattern',
   },
   stats: {
     stars: 2,

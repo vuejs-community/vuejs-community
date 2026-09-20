@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'es2015',
     'es6',
   ],
-  source: {
-    github: 'rollup/rollup-plugin-babel',
-    npm: '@gerhobbelt/rollup-plugin-babel',
-  },
   links: {
     github: 'https://github.com/rollup/rollup-plugin-babel',
     npm: 'https://www.npmjs.com/package/@gerhobbelt/rollup-plugin-babel',
     website: 'https://github.com/rollup/rollup-plugin-babel',
+  },
+  source: {
+    github: 'rollup/rollup-plugin-babel',
+    npm: '@gerhobbelt/rollup-plugin-babel',
   },
   stats: {
     stars: 701,

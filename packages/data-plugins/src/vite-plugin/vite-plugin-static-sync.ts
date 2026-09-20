@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'sync',
     'watch',
   ],
-  source: {
-    github: 'transomdesign/vite-plugin-static-sync',
-    npm: 'vite-plugin-static-sync',
-  },
   links: {
     github: 'https://github.com/transomdesign/vite-plugin-static-sync',
     npm: 'https://www.npmjs.com/package/vite-plugin-static-sync',
     website: 'https://github.com/transomdesign/vite-plugin-static-sync#readme',
+  },
+  source: {
+    github: 'transomdesign/vite-plugin-static-sync',
+    npm: 'vite-plugin-static-sync',
   },
   stats: {
     stars: 0,

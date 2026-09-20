@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'dileep',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-dileep-git',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-dileep-git',
+  },
+  source: {
+    npm: 'vite-plugin-dileep-git',
   },
   stats: {
     stars: 0,

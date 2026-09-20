@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'await',
     'async-to-gen',
   ],
-  source: {
-    github: 'leebyron/rollup-plugin-async',
-    npm: 'rollup-plugin-async',
-  },
   links: {
     github: 'https://github.com/leebyron/rollup-plugin-async',
     npm: 'https://www.npmjs.com/package/rollup-plugin-async',
     website: 'https://github.com/leebyron/rollup-plugin-async',
+  },
+  source: {
+    github: 'leebyron/rollup-plugin-async',
+    npm: 'rollup-plugin-async',
   },
   stats: {
     stars: 40,

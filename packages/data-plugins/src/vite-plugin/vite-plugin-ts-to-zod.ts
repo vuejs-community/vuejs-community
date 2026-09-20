@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'zod',
   ],
-  source: {
-    github: 'gzzhanghao/vite-plugin-ts-to-zod',
-    npm: 'vite-plugin-ts-to-zod',
-  },
   links: {
     github: 'https://github.com/gzzhanghao/vite-plugin-ts-to-zod',
     npm: 'https://www.npmjs.com/package/vite-plugin-ts-to-zod',
     website: 'https://github.com/gzzhanghao/vite-plugin-ts-to-zod#readme',
+  },
+  source: {
+    github: 'gzzhanghao/vite-plugin-ts-to-zod',
+    npm: 'vite-plugin-ts-to-zod',
   },
   stats: {
     stars: 0,

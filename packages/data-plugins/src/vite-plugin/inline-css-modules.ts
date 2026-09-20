@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'esbuild-plugin',
   ],
-  source: {
-    npm: 'inline-css-modules',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/inline-css-modules',
+  },
+  source: {
+    npm: 'inline-css-modules',
   },
   stats: {
     stars: 0,

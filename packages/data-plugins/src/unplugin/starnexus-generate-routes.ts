@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'auto-import',
     'transform',
   ],
-  source: {
-    npm: '@starnexus/generate-routes',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@starnexus/generate-routes',
+  },
+  source: {
+    npm: '@starnexus/generate-routes',
   },
   stats: {
     stars: 0,

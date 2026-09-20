@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'import',
     'prettier',
   ],
-  source: {
-    github: 'iGoodie/vite-plugin-react-rich-svg',
-    npm: 'vite-plugin-react-rich-svg',
-  },
   links: {
     github: 'https://github.com/iGoodie/vite-plugin-react-rich-svg',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-rich-svg',
     website: 'https://github.com/iGoodie/vite-plugin-react-rich-svg#readme',
+  },
+  source: {
+    github: 'iGoodie/vite-plugin-react-rich-svg',
+    npm: 'vite-plugin-react-rich-svg',
   },
   stats: {
     stars: 19,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'database',
     'unplugin',
   ],
-  source: {
-    github: 'subframe7536/kysely-unplugin',
-    npm: 'kysely-unplugin-sqlite',
-  },
   links: {
     github: 'https://github.com/subframe7536/kysely-unplugin',
     npm: 'https://www.npmjs.com/package/kysely-unplugin-sqlite',
     website: 'https://github.com/subframe7536/kysely-unplugin#readme',
+  },
+  source: {
+    github: 'subframe7536/kysely-unplugin',
+    npm: 'kysely-unplugin-sqlite',
   },
   stats: {
     stars: 3,

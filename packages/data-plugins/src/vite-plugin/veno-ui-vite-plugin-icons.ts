@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin-icons',
     'veno-ui icons',
   ],
-  source: {
-    github: 'qq15725/veno-ui',
-    npm: '@veno-ui/vite-plugin-icons',
-  },
   links: {
     github: 'https://github.com/qq15725/veno-ui',
     npm: 'https://www.npmjs.com/package/@veno-ui/vite-plugin-icons',
     website: 'https://github.com/qq15725/veno-ui/blob/master/packages/vite-plugin-icons',
+  },
+  source: {
+    github: 'qq15725/veno-ui',
+    npm: '@veno-ui/vite-plugin-icons',
   },
   stats: {
     stars: 19,

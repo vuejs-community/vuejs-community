@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'browser',
     'browser-extension',
   ],
-  source: {
-    github: 'crxjs/rollup-plugin-chrome-extension',
-    npm: 'howdygo-rollup-plugin-chrome-extension',
-  },
   links: {
     github: 'https://github.com/crxjs/rollup-plugin-chrome-extension',
     npm: 'https://www.npmjs.com/package/howdygo-rollup-plugin-chrome-extension',
     website: 'https://github.com/crxjs/rollup-plugin-chrome-extension#readme',
+  },
+  source: {
+    github: 'crxjs/rollup-plugin-chrome-extension',
+    npm: 'howdygo-rollup-plugin-chrome-extension',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vscode',
   ],
-  source: {
-    github: 'ovensi/vite-plugin-openinvscode',
-    npm: 'vite-plugin-openinvscode',
-  },
   links: {
     github: 'https://github.com/ovensi/vite-plugin-openinvscode',
     npm: 'https://www.npmjs.com/package/vite-plugin-openinvscode',
     website: 'https://github.com/ovensi/vite-plugin-openinvscode',
+  },
+  source: {
+    github: 'ovensi/vite-plugin-openinvscode',
+    npm: 'vite-plugin-openinvscode',
   },
   stats: {
     stars: 0,

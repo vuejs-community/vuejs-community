@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'tanstack-intent',
   ],
-  source: {
-    github: 'jamiedavenport/openpolicy',
-    npm: '@openpolicy/vite-auto-collect',
-  },
   links: {
     github: 'https://github.com/jamiedavenport/openpolicy',
     npm: 'https://www.npmjs.com/package/@openpolicy/vite-auto-collect',
     website: 'https://github.com/jamiedavenport/openpolicy#readme',
+  },
+  source: {
+    github: 'jamiedavenport/openpolicy',
+    npm: '@openpolicy/vite-auto-collect',
   },
   stats: {
     stars: 163,

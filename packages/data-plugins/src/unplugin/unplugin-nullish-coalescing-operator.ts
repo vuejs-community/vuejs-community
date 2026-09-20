@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    npm: 'unplugin-nullish-coalescing-operator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-nullish-coalescing-operator',
+  },
+  source: {
+    npm: 'unplugin-nullish-coalescing-operator',
   },
   stats: {
     stars: 0,

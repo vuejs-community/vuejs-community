@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://www.evlog.dev/',
   },
   source: {
-    github: 'evloghq/evlog#main/packages/evlog',
+    github: 'evloghq/evlog',
     npm: 'evlog',
   },
 })

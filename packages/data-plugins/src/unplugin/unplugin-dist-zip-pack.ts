@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'nuxt',
     'rspack',
   ],
-  source: {
-    github: 'zengjunlin2022/unplugin-dist-zip-pack',
-    npm: 'unplugin-dist-zip-pack',
-  },
   links: {
     github: 'https://github.com/zengjunlin2022/unplugin-dist-zip-pack',
     npm: 'https://www.npmjs.com/package/unplugin-dist-zip-pack',
     website: 'https://github.com/zengjunlin2022/unplugin-dist-zip-pack#readme',
+  },
+  source: {
+    github: 'zengjunlin2022/unplugin-dist-zip-pack',
+    npm: 'unplugin-dist-zip-pack',
   },
   stats: {
     stars: 0,

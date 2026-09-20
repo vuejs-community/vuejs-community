@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'ziomagic/rollup-plugin-unity-jslib',
-    npm: 'rollup-plugin-unity-jslib',
-  },
   links: {
     github: 'https://github.com/ziomagic/rollup-plugin-unity-jslib',
     npm: 'https://www.npmjs.com/package/rollup-plugin-unity-jslib',
     website: 'https://github.com/ziomagic/rollup-plugin-unity-jslib#readme',
+  },
+  source: {
+    github: 'ziomagic/rollup-plugin-unity-jslib',
+    npm: 'rollup-plugin-unity-jslib',
   },
   stats: {
     stars: 1,

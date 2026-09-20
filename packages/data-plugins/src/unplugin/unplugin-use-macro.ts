@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'unplugin',
     'macro',
   ],
-  source: {
-    github: 'alexzhang1030/unplugin-use-macro',
-    npm: 'unplugin-use-macro',
-  },
   links: {
     github: 'https://github.com/alexzhang1030/unplugin-use-macro',
     npm: 'https://www.npmjs.com/package/unplugin-use-macro',
     website: 'https://github.com/alexzhang1030/unplugin-use-macro#readme',
+  },
+  source: {
+    github: 'alexzhang1030/unplugin-use-macro',
+    npm: 'unplugin-use-macro',
   },
   stats: {
     stars: 2,

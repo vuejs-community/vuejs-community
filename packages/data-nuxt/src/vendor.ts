@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/nuxt-community/legacy-modules/tree/master/packages/vendor',
   },
   source: {
-    github: 'nuxt-community/legacy-modules#master/packages/vendor',
+    github: 'nuxt-community/legacy-modules',
     npm: '@nuxtjs/vendor',
   },
 })

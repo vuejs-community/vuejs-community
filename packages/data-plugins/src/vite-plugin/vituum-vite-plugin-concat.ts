@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'vituum/vite-plugin-concat',
-    npm: '@vituum/vite-plugin-concat',
-  },
   links: {
     github: 'https://github.com/vituum/vite-plugin-concat',
     npm: 'https://www.npmjs.com/package/@vituum/vite-plugin-concat',
     website: 'https://github.com/vituum/vite-plugin-concat#readme',
+  },
+  source: {
+    github: 'vituum/vite-plugin-concat',
+    npm: '@vituum/vite-plugin-concat',
   },
   stats: {
     stars: 2,

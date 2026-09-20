@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'tagged',
     'lit-html',
   ],
-  source: {
-    github: 'lit/lit',
-    npm: '@koddsson/rollup-plugin-minify-html-literals',
-  },
   links: {
     github: 'https://github.com/lit/lit',
     npm: 'https://www.npmjs.com/package/@koddsson/rollup-plugin-minify-html-literals',
     website: 'https://github.com/lit/lit#readme',
+  },
+  source: {
+    github: 'lit/lit',
+    npm: '@koddsson/rollup-plugin-minify-html-literals',
   },
   stats: {
     stars: 21822,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'easyfe/vite-plugin-upload',
-    npm: '@easyfe/vite-plugin-upload',
-  },
   links: {
     github: 'https://github.com/easyfe/vite-plugin-upload',
     npm: 'https://www.npmjs.com/package/@easyfe/vite-plugin-upload',
     website: 'https://github.com/easyfe/vite-plugin-upload#readme',
+  },
+  source: {
+    github: 'easyfe/vite-plugin-upload',
+    npm: '@easyfe/vite-plugin-upload',
   },
   stats: {
     stars: 1,

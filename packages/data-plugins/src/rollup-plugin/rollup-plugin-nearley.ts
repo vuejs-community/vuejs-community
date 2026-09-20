@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'aln8/rollup-plugin-nearley',
-    npm: 'rollup-plugin-nearley',
-  },
   links: {
     github: 'https://github.com/aln8/rollup-plugin-nearley',
     npm: 'https://www.npmjs.com/package/rollup-plugin-nearley',
     website: 'https://github.com/aln8/rollup-plugin-nearley#readme',
+  },
+  source: {
+    github: 'aln8/rollup-plugin-nearley',
+    npm: 'rollup-plugin-nearley',
   },
   stats: {
     stars: 1,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'partials',
   ],
-  source: {
-    github: 'LorisSigrist/vite-plugin-partial',
-    npm: 'vite-plugin-partial',
-  },
   links: {
     github: 'https://github.com/LorisSigrist/vite-plugin-partial',
     npm: 'https://www.npmjs.com/package/vite-plugin-partial',
     website: 'https://github.com/LorisSigrist/vite-plugin-partial#readme',
+  },
+  source: {
+    github: 'LorisSigrist/vite-plugin-partial',
+    npm: 'vite-plugin-partial',
   },
   stats: {
     stars: 0,

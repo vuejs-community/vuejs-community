@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'cccnobody/vite-plugin-watch-and-restart',
-    npm: 'vite-plugin-watch-and-restart',
-  },
   links: {
     github: 'https://github.com/cccnobody/vite-plugin-watch-and-restart',
     npm: 'https://www.npmjs.com/package/vite-plugin-watch-and-restart',
     website: 'https://github.com/cccnobody/vite-plugin-watch-and-restart',
+  },
+  source: {
+    github: 'cccnobody/vite-plugin-watch-and-restart',
+    npm: 'vite-plugin-watch-and-restart',
   },
   stats: {
     stars: 0,

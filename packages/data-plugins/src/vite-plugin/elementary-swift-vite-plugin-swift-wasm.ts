@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'wasm',
     'webassembly',
   ],
-  source: {
-    github: 'elementary-swift/vite-plugin-swift-wasm',
-    npm: '@elementary-swift/vite-plugin-swift-wasm',
-  },
   links: {
     github: 'https://github.com/elementary-swift/vite-plugin-swift-wasm',
     npm: 'https://www.npmjs.com/package/@elementary-swift/vite-plugin-swift-wasm',
     website: 'https://github.com/elementary-swift/vite-plugin-swift-wasm',
+  },
+  source: {
+    github: 'elementary-swift/vite-plugin-swift-wasm',
+    npm: '@elementary-swift/vite-plugin-swift-wasm',
   },
   stats: {
     stars: 13,

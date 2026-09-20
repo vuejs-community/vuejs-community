@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://ui.vuestic.dev',
   },
   source: {
-    github: 'epicmaxco/vuestic-ui#develop/packages/nuxt',
+    github: 'epicmaxco/vuestic-ui',
     npm: '@vuestic/nuxt',
   },
 })

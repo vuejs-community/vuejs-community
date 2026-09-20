@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'posthtml',
   ],
-  source: {
-    github: 'kingkongdevs/vite-plugin-posthtml',
-    npm: '@kingkongdevs/vite-plugin-posthtml',
-  },
   links: {
     github: 'https://github.com/kingkongdevs/vite-plugin-posthtml',
     npm: 'https://www.npmjs.com/package/@kingkongdevs/vite-plugin-posthtml',
     website: 'https://github.com/kingkongdevs/vite-plugin-posthtml/#readme',
+  },
+  source: {
+    github: 'kingkongdevs/vite-plugin-posthtml',
+    npm: '@kingkongdevs/vite-plugin-posthtml',
   },
   stats: {
     stars: 0,

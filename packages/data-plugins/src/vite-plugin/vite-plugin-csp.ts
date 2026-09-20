@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'security',
     'generate',
   ],
-  source: {
-    github: 'josh-hemphill/vite-plugin-csp',
-    npm: 'vite-plugin-csp',
-  },
   links: {
     github: 'https://github.com/josh-hemphill/vite-plugin-csp',
     npm: 'https://www.npmjs.com/package/vite-plugin-csp',
     website: 'https://github.com/josh-hemphill/vite-plugin-csp#readme',
+  },
+  source: {
+    github: 'josh-hemphill/vite-plugin-csp',
+    npm: 'vite-plugin-csp',
   },
   stats: {
     stars: 24,

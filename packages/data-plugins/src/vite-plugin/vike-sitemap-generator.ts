@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vike-plugin',
     'vike-vite-plugin',
   ],
-  source: {
-    github: 'welpie21/vike-sitemap-generator',
-    npm: 'vike-sitemap-generator',
-  },
   links: {
     github: 'https://github.com/welpie21/vike-sitemap-generator',
     npm: 'https://www.npmjs.com/package/vike-sitemap-generator',
     website: 'https://github.com/welpie21/vike-sitemap-generator#readme',
+  },
+  source: {
+    github: 'welpie21/vike-sitemap-generator',
+    npm: 'vike-sitemap-generator',
   },
   stats: {
     stars: 0,

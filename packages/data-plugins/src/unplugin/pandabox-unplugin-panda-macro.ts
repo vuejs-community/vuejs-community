@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'astahmer/pandabox',
-    npm: '@pandabox/unplugin-panda-macro',
-  },
   links: {
     github: 'https://github.com/astahmer/pandabox',
     npm: 'https://www.npmjs.com/package/@pandabox/unplugin-panda-macro',
     website: 'https://astahmer.dev',
+  },
+  source: {
+    github: 'astahmer/pandabox',
+    npm: '@pandabox/unplugin-panda-macro',
   },
   stats: {
     stars: 82,

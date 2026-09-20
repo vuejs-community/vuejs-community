@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'webassembly',
     'tinygo',
   ],
-  source: {
-    github: 'yarlson/vite-plugin-use-golang',
-    npm: 'vite-plugin-use-golang',
-  },
   links: {
     github: 'https://github.com/yarlson/vite-plugin-use-golang',
     npm: 'https://www.npmjs.com/package/vite-plugin-use-golang',
     website: 'https://github.com/yarlson/vite-plugin-use-golang#readme',
+  },
+  source: {
+    github: 'yarlson/vite-plugin-use-golang',
+    npm: 'vite-plugin-use-golang',
   },
   stats: {
     stars: 235,

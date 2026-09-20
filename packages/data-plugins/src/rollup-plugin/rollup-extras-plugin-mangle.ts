@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'minify',
     'properties',
   ],
-  source: {
-    github: 'kshutkin/rollup-extras',
-    npm: '@rollup-extras/plugin-mangle',
-  },
   links: {
     github: 'https://github.com/kshutkin/rollup-extras',
     npm: 'https://www.npmjs.com/package/@rollup-extras/plugin-mangle',
     website: 'https://github.com/kshutkin/rollup-extras/blob/main/plugin-mangle/README.md',
+  },
+  source: {
+    github: 'kshutkin/rollup-extras',
+    npm: '@rollup-extras/plugin-mangle',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'mdx',
     'raw',
   ],
-  source: {
-    github: 'Mikaleb/vite-mdx-raw-plugin',
-    npm: 'vite-mdx-raw-plugin',
-  },
   links: {
     github: 'https://github.com/Mikaleb/vite-mdx-raw-plugin',
     npm: 'https://www.npmjs.com/package/vite-mdx-raw-plugin',
     website: 'https://github.com/Mikaleb/vite-mdx-raw-plugin#readme',
+  },
+  source: {
+    github: 'Mikaleb/vite-mdx-raw-plugin',
+    npm: 'vite-mdx-raw-plugin',
   },
   stats: {
     stars: 1,

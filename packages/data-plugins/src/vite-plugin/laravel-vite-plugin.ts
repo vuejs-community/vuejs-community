@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'laravel/vite-plugin',
-    npm: 'laravel-vite-plugin',
-  },
   links: {
     github: 'https://github.com/laravel/vite-plugin',
     npm: 'https://www.npmjs.com/package/laravel-vite-plugin',
     website: 'https://github.com/laravel/vite-plugin',
+  },
+  source: {
+    github: 'laravel/vite-plugin',
+    npm: 'laravel-vite-plugin',
   },
   stats: {
     stars: 0,

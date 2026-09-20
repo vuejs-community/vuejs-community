@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'inspector',
     'vue',
   ],
-  source: {
-    github: 'forever-chen/vite-plugin-tolgee-i18n',
-    npm: 'vite-plugin-tolgee-i18n',
-  },
   links: {
     github: 'https://github.com/forever-chen/vite-plugin-tolgee-i18n',
     npm: 'https://www.npmjs.com/package/vite-plugin-tolgee-i18n',
     website: 'https://github.com/forever-chen/vite-plugin-tolgee-i18n#readme',
+  },
+  source: {
+    github: 'forever-chen/vite-plugin-tolgee-i18n',
+    npm: 'vite-plugin-tolgee-i18n',
   },
   stats: {
     stars: 0,

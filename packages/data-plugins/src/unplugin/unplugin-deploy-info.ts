@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'elonehoo/unplugin-deploy-info',
-    npm: 'unplugin-deploy-info',
-  },
   links: {
     github: 'https://github.com/elonehoo/unplugin-deploy-info',
     npm: 'https://www.npmjs.com/package/unplugin-deploy-info',
     website: 'https://github.com/elonehoo/unplugin-deploy-info#readme',
+  },
+  source: {
+    github: 'elonehoo/unplugin-deploy-info',
+    npm: 'unplugin-deploy-info',
   },
   stats: {
     stars: 1,

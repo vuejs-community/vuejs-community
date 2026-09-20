@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'cdn',
   ],
-  source: {
-    github: 'Half-A-Turnip/vite-plugin-cdn3',
-    npm: 'vite-plugin-cdn3',
-  },
   links: {
     github: 'https://github.com/Half-A-Turnip/vite-plugin-cdn3',
     npm: 'https://www.npmjs.com/package/vite-plugin-cdn3',
     website: 'https://github.com/Half-A-Turnip/vite-plugin-cdn3#readme',
+  },
+  source: {
+    github: 'Half-A-Turnip/vite-plugin-cdn3',
+    npm: 'vite-plugin-cdn3',
   },
   stats: {
     stars: 0,

@@ -13,13 +13,13 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    github: 'ohos-ports/ohos-ports',
-    npm: '@ohos-ports/vitejs-plugin-vue-jsx',
-  },
   links: {
     github: 'https://github.com/ohos-ports/ohos-ports',
     npm: 'https://www.npmjs.com/package/@ohos-ports/vitejs-plugin-vue-jsx',
     website: 'https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue-jsx#readme',
+  },
+  source: {
+    github: 'ohos-ports/ohos-ports',
+    npm: '@ohos-ports/vitejs-plugin-vue-jsx',
   },
 })

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'wzc520pyfm/unplugin-image',
-    npm: 'unplugin-image',
-  },
   links: {
     github: 'https://github.com/wzc520pyfm/unplugin-image',
     npm: 'https://www.npmjs.com/package/unplugin-image',
     website: 'https://github.com/wzc520pyfm/unplugin-image#readme',
+  },
+  source: {
+    github: 'wzc520pyfm/unplugin-image',
+    npm: 'unplugin-image',
   },
   stats: {
     stars: 1,

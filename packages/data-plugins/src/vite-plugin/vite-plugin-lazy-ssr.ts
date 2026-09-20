@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'puppeteer',
     'vite',
   ],
-  source: {
-    github: 'keplersj/vite-plugin-lazy-ssr',
-    npm: 'vite-plugin-lazy-ssr',
-  },
   links: {
     github: 'https://github.com/keplersj/vite-plugin-lazy-ssr',
     npm: 'https://www.npmjs.com/package/vite-plugin-lazy-ssr',
     website: 'https://github.com/keplersj/vite-plugin-lazy-ssr#readme',
+  },
+  source: {
+    github: 'keplersj/vite-plugin-lazy-ssr',
+    npm: 'vite-plugin-lazy-ssr',
   },
   stats: {
     stars: 0,

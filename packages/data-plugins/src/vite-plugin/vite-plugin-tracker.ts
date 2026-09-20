@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'tracker',
   ],
-  source: {
-    npm: 'vite-plugin-tracker',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-tracker',
+  },
+  source: {
+    npm: 'vite-plugin-tracker',
   },
   stats: {
     stars: 0,

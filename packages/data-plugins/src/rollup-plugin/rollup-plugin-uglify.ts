@@ -14,13 +14,13 @@ export default defineProjectMeta({
     'uglify',
     'minify',
   ],
-  source: {
-    github: 'TrySound/rollup-plugin-uglify',
-    npm: 'rollup-plugin-uglify',
-  },
   links: {
     github: 'https://github.com/TrySound/rollup-plugin-uglify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-uglify',
+  },
+  source: {
+    github: 'TrySound/rollup-plugin-uglify',
+    npm: 'rollup-plugin-uglify',
   },
   stats: {
     stars: 260,

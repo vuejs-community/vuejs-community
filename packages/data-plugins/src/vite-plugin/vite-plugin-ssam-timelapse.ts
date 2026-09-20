@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'ssam',
     'vite-plugin',
   ],
-  source: {
-    github: 'cdaein/vite-plugin-ssam-timelapse',
-    npm: 'vite-plugin-ssam-timelapse',
-  },
   links: {
     github: 'https://github.com/cdaein/vite-plugin-ssam-timelapse',
     npm: 'https://www.npmjs.com/package/vite-plugin-ssam-timelapse',
     website: 'https://github.com/cdaein/vite-plugin-ssam-timelapse#readme',
+  },
+  source: {
+    github: 'cdaein/vite-plugin-ssam-timelapse',
+    npm: 'vite-plugin-ssam-timelapse',
   },
   stats: {
     stars: 1,

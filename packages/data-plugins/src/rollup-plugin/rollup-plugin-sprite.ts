@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'spritesmith',
     'sprite',
   ],
-  source: {
-    github: 'linjinying/rollup-plugin-sprite',
-    npm: 'rollup-plugin-sprite',
-  },
   links: {
     github: 'https://github.com/linjinying/rollup-plugin-sprite',
     npm: 'https://www.npmjs.com/package/rollup-plugin-sprite',
     website: 'https://github.com/linjinying/rollup-plugin-sprite#readme',
+  },
+  source: {
+    github: 'linjinying/rollup-plugin-sprite',
+    npm: 'rollup-plugin-sprite',
   },
   stats: {
     stars: 9,

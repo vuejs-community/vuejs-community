@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'dx',
     'boilerplate-free',
   ],
-  source: {
-    github: 'JulesWinnfield22/modal-x',
-    npm: '@customizer/modal-x',
-  },
   links: {
     github: 'https://github.com/JulesWinnfield22/modal-x',
     npm: 'https://www.npmjs.com/package/@customizer/modal-x',
     website: 'https://github.com/JulesWinnfield22/modal-x#readme',
+  },
+  source: {
+    github: 'JulesWinnfield22/modal-x',
+    npm: '@customizer/modal-x',
   },
   stats: {
     stars: 1,

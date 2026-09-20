@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'lezer',
     'grammar',
   ],
-  source: {
-    github: 'illright/unplugin-lezer',
-    npm: 'unplugin-lezer',
-  },
   links: {
     github: 'https://github.com/illright/unplugin-lezer',
     npm: 'https://www.npmjs.com/package/unplugin-lezer',
     website: 'https://github.com/illright/unplugin-lezer#readme',
+  },
+  source: {
+    github: 'illright/unplugin-lezer',
+    npm: 'unplugin-lezer',
   },
   stats: {
     stars: 0,

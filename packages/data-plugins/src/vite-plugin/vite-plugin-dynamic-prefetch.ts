@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'dynamic-import',
     'prefetch',
   ],
-  source: {
-    github: 'Linh-Tran-0312/vite-plugin-dynamic-prefetch',
-    npm: 'vite-plugin-dynamic-prefetch',
-  },
   links: {
     github: 'https://github.com/Linh-Tran-0312/vite-plugin-dynamic-prefetch',
     npm: 'https://www.npmjs.com/package/vite-plugin-dynamic-prefetch',
     website: 'https://github.com/Linh-Tran-0312/vite-plugin-dynamic-prefetch#readme',
+  },
+  source: {
+    github: 'Linh-Tran-0312/vite-plugin-dynamic-prefetch',
+    npm: 'vite-plugin-dynamic-prefetch',
   },
   stats: {
     stars: 4,

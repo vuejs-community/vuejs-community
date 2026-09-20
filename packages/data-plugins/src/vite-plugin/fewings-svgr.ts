@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'svg',
     'fewings',
   ],
-  source: {
-    github: 'livemehere/fewings',
-    npm: '@fewings/svgr',
-  },
   links: {
     github: 'https://github.com/livemehere/fewings',
     npm: 'https://www.npmjs.com/package/@fewings/svgr',
     website: 'https://github.com/livemehere/fewings/tree/master/packages/svgr',
+  },
+  source: {
+    github: 'livemehere/fewings',
+    npm: '@fewings/svgr',
   },
   stats: {
     stars: 0,

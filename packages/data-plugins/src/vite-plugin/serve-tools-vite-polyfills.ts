@@ -39,14 +39,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'web-platform',
   ],
-  source: {
-    github: 'serve-tools/web-tools',
-    npm: '@serve-tools/vite-polyfills',
-  },
   links: {
     github: 'https://github.com/serve-tools/web-tools',
     npm: 'https://www.npmjs.com/package/@serve-tools/vite-polyfills',
     website: 'https://github.com/serve-tools/web-tools/tree/main/vite/polyfills#readme',
+  },
+  source: {
+    github: 'serve-tools/web-tools',
+    npm: '@serve-tools/vite-polyfills',
   },
   stats: {
     stars: 0,

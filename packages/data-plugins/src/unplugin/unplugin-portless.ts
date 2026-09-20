@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin-portless',
   ],
-  source: {
-    github: 'typed-sigterm/unplugin-portless',
-    npm: 'unplugin-portless',
-  },
   links: {
     github: 'https://github.com/typed-sigterm/unplugin-portless',
     npm: 'https://www.npmjs.com/package/unplugin-portless',
     website: 'https://github.com/typed-sigterm/unplugin-portless#readme',
+  },
+  source: {
+    github: 'typed-sigterm/unplugin-portless',
+    npm: 'unplugin-portless',
   },
   stats: {
     stars: 1,

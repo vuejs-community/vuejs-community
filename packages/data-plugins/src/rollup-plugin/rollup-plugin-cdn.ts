@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'resolve',
     'cdn',
   ],
-  source: {
-    github: 'WebReflection/rollup-plugin-cdn',
-    npm: 'rollup-plugin-cdn',
-  },
   links: {
     github: 'https://github.com/WebReflection/rollup-plugin-cdn',
     npm: 'https://www.npmjs.com/package/rollup-plugin-cdn',
     website: 'https://github.com/WebReflection/rollup-plugin-aliar#readme',
+  },
+  source: {
+    github: 'WebReflection/rollup-plugin-cdn',
+    npm: 'rollup-plugin-cdn',
   },
   stats: {
     stars: 12,

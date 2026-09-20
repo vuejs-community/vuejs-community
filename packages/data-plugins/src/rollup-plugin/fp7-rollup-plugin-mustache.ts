@@ -12,12 +12,12 @@ export default defineProjectMeta({
     'rollup-plugin',
     'mustache',
   ],
-  source: {
-    npm: '@fp7/rollup-plugin-mustache',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@fp7/rollup-plugin-mustache',
     website: 'https://codeberg.org/fp7/rollup-plugin-mustache',
+  },
+  source: {
+    npm: '@fp7/rollup-plugin-mustache',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'Sahilm416/extro',
-    npm: '@extrojs/vite-plugin',
-  },
   links: {
     github: 'https://github.com/Sahilm416/extro',
     npm: 'https://www.npmjs.com/package/@extrojs/vite-plugin',
     website: 'https://github.com/Sahilm416/extro#readme',
+  },
+  source: {
+    github: 'Sahilm416/extro',
+    npm: '@extrojs/vite-plugin',
   },
   stats: {
     stars: 10,

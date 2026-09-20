@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'sweetroll/vite-plugin-assethash',
-    npm: '@sweetroll/vite-plugin-assethash',
-  },
   links: {
     github: 'https://github.com/sweetroll/vite-plugin-assethash',
     npm: 'https://www.npmjs.com/package/@sweetroll/vite-plugin-assethash',
     website: 'https://github.com/sweetroll/vite-plugin-assethash#readme',
+  },
+  source: {
+    github: 'sweetroll/vite-plugin-assethash',
+    npm: '@sweetroll/vite-plugin-assethash',
   },
   stats: {
     stars: 0,

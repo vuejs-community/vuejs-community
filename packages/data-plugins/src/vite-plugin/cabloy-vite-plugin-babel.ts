@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'owlsdepartment/vite-plugin-babel',
-    npm: '@cabloy/vite-plugin-babel',
-  },
   links: {
     github: 'https://github.com/owlsdepartment/vite-plugin-babel',
     npm: 'https://www.npmjs.com/package/@cabloy/vite-plugin-babel',
     website: 'https://github.com/owlsdepartment/vite-plugin-babel#readme',
+  },
+  source: {
+    github: 'owlsdepartment/vite-plugin-babel',
+    npm: '@cabloy/vite-plugin-babel',
   },
   stats: {
     stars: 68,

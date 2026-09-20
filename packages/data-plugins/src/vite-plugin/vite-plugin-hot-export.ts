@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-hot-export',
   ],
-  source: {
-    github: 'sudongyuer/vite-plugin-hot-export',
-    npm: 'vite-plugin-hot-export',
-  },
   links: {
     github: 'https://github.com/sudongyuer/vite-plugin-hot-export',
     npm: 'https://www.npmjs.com/package/vite-plugin-hot-export',
     website: 'https://github.com/sudongyuer/vite-plugin-hot-export#readme',
+  },
+  source: {
+    github: 'sudongyuer/vite-plugin-hot-export',
+    npm: 'vite-plugin-hot-export',
   },
   stats: {
     stars: 55,

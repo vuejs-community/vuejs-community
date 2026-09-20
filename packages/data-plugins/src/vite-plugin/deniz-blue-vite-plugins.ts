@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: '@deniz-blue/vite-plugins',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@deniz-blue/vite-plugins',
+  },
+  source: {
+    npm: '@deniz-blue/vite-plugins',
   },
   stats: {
     stars: 0,

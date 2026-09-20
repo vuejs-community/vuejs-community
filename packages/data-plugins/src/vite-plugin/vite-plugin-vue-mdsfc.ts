@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vue use .md',
     'vue import .md',
   ],
-  source: {
-    github: 'hileez/vite-plugin-vue-mdsfc',
-    npm: 'vite-plugin-vue-mdsfc',
-  },
   links: {
     github: 'https://github.com/hileez/vite-plugin-vue-mdsfc',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-mdsfc',
     website: 'https://github.com/hileez/vite-plugin-vue-mdsfc',
+  },
+  source: {
+    github: 'hileez/vite-plugin-vue-mdsfc',
+    npm: 'vite-plugin-vue-mdsfc',
   },
   stats: {
     stars: 1,

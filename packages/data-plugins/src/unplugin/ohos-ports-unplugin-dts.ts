@@ -25,13 +25,13 @@ export default defineProjectMeta({
     'vue',
     'svelte',
   ],
-  source: {
-    github: 'ohos-ports/ohos-ports',
-    npm: '@ohos-ports/unplugin-dts',
-  },
   links: {
     github: 'https://github.com/ohos-ports/ohos-ports',
     npm: 'https://www.npmjs.com/package/@ohos-ports/unplugin-dts',
     website: 'https://github.com/ohos-ports/ohos-ports#readme',
+  },
+  source: {
+    github: 'ohos-ports/ohos-ports',
+    npm: '@ohos-ports/unplugin-dts',
   },
 })

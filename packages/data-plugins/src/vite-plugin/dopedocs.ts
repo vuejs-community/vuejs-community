@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'static-site',
     'llms-txt',
   ],
-  source: {
-    github: 'junovhs/dopedocs',
-    npm: 'dopedocs',
-  },
   links: {
     github: 'https://github.com/junovhs/dopedocs',
     npm: 'https://www.npmjs.com/package/dopedocs',
     website: 'https://github.com/junovhs/dopedocs#readme',
+  },
+  source: {
+    github: 'junovhs/dopedocs',
+    npm: 'dopedocs',
   },
   stats: {
     stars: 0,

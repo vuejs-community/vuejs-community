@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'redirect',
   ],
-  source: {
-    github: 'dragomano/vite-plugin-redirects',
-    npm: 'vite-plugin-redirects',
-  },
   links: {
     github: 'https://github.com/dragomano/vite-plugin-redirects',
     npm: 'https://www.npmjs.com/package/vite-plugin-redirects',
     website: 'https://github.com/dragomano/vite-plugin-redirects',
+  },
+  source: {
+    github: 'dragomano/vite-plugin-redirects',
+    npm: 'vite-plugin-redirects',
   },
   stats: {
     stars: 0,

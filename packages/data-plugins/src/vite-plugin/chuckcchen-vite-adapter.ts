@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'spa',
     'ssr',
   ],
-  source: {
-    npm: '@chuckcchen/vite-adapter',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@chuckcchen/vite-adapter',
+  },
+  source: {
+    npm: '@chuckcchen/vite-adapter',
   },
   stats: {
     stars: 0,

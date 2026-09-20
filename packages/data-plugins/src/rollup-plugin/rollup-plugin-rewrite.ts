@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'regexp',
     'transform',
   ],
-  source: {
-    github: 'armujahid/rollup-plugin-rewrite',
-    npm: 'rollup-plugin-rewrite',
-  },
   links: {
     github: 'https://github.com/armujahid/rollup-plugin-rewrite',
     npm: 'https://www.npmjs.com/package/rollup-plugin-rewrite',
     website: 'https://github.com/armujahid/rollup-plugin-rewrite#readme',
+  },
+  source: {
+    github: 'armujahid/rollup-plugin-rewrite',
+    npm: 'rollup-plugin-rewrite',
   },
   stats: {
     stars: 1,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'crawlers',
     'ai-crawlers',
   ],
-  source: {
-    github: 'kjanat/vite-robots-txt',
-    npm: 'vite-robots-txt',
-  },
   links: {
     github: 'https://github.com/kjanat/vite-robots-txt',
     npm: 'https://www.npmjs.com/package/vite-robots-txt',
     website: 'https://github.com/kjanat/vite-robots-txt#readme',
+  },
+  source: {
+    github: 'kjanat/vite-robots-txt',
+    npm: 'vite-robots-txt',
   },
   stats: {
     stars: 0,

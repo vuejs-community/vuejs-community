@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'minify',
     'vite-plugin',
   ],
-  source: {
-    github: 'vbenjs/vite-plugin-html',
-    npm: '@orca-studio/vite-plugin-html',
-  },
   links: {
     github: 'https://github.com/vbenjs/vite-plugin-html',
     npm: 'https://www.npmjs.com/package/@orca-studio/vite-plugin-html',
     website: 'https://github.com/vbenjs/vite-plugin-html/tree/master/#readme',
+  },
+  source: {
+    github: 'vbenjs/vite-plugin-html',
+    npm: '@orca-studio/vite-plugin-html',
   },
   stats: {
     stars: 0,

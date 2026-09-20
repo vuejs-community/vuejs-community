@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'use-server',
     'use-client',
   ],
-  source: {
-    github: 'nikuscs/unplugin-deny-imports',
-    npm: 'unplugin-deny-imports',
-  },
   links: {
     github: 'https://github.com/nikuscs/unplugin-deny-imports',
     npm: 'https://www.npmjs.com/package/unplugin-deny-imports',
     website: 'https://github.com/nikuscs/unplugin-deny-imports#readme',
+  },
+  source: {
+    github: 'nikuscs/unplugin-deny-imports',
+    npm: 'unplugin-deny-imports',
   },
   stats: {
     stars: 9,

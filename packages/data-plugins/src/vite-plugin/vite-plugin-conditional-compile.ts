@@ -20,14 +20,14 @@ export default defineProjectMeta({
     '#else',
     '#endif',
   ],
-  source: {
-    github: 'LZS911/vite-plugin-conditional-compile',
-    npm: 'vite-plugin-conditional-compile',
-  },
   links: {
     github: 'https://github.com/LZS911/vite-plugin-conditional-compile',
     npm: 'https://www.npmjs.com/package/vite-plugin-conditional-compile',
     website: 'https://github.com/LZS911/vite-plugin-conditional-compile#readme',
+  },
+  source: {
+    github: 'LZS911/vite-plugin-conditional-compile',
+    npm: 'vite-plugin-conditional-compile',
   },
   stats: {
     stars: 9,

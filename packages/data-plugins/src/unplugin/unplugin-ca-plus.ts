@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'esbuild',
     'plugin',
   ],
-  source: {
-    npm: 'unplugin-ca-plus',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-ca-plus',
+  },
+  source: {
+    npm: 'unplugin-ca-plus',
   },
   stats: {
     stars: 0,

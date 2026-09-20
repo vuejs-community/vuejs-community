@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'ts',
     'typescript',
   ],
-  source: {
-    github: 'leesama/rollup-plugin-common-path-resolver',
-    npm: 'rollup-plugin-common-path-resolver',
-  },
   links: {
     github: 'https://github.com/leesama/rollup-plugin-common-path-resolver',
     npm: 'https://www.npmjs.com/package/rollup-plugin-common-path-resolver',
     website: 'https://github.com/leesama/rollup-plugin-common-path-resolver#readme',
+  },
+  source: {
+    github: 'leesama/rollup-plugin-common-path-resolver',
+    npm: 'rollup-plugin-common-path-resolver',
   },
   stats: {
     stars: 0,

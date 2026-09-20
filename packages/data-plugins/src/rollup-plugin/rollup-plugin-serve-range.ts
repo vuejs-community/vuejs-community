@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'dev-server',
     'static',
   ],
-  source: {
-    github: 'huzunjie/rollup-plugin-serve',
-    npm: 'rollup-plugin-serve-range',
-  },
   links: {
     github: 'https://github.com/huzunjie/rollup-plugin-serve',
     npm: 'https://www.npmjs.com/package/rollup-plugin-serve-range',
     website: 'https://github.com/huzunjie/rollup-plugin-serve',
+  },
+  source: {
+    github: 'huzunjie/rollup-plugin-serve',
+    npm: 'rollup-plugin-serve-range',
   },
   stats: {
     stars: 1,

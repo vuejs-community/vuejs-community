@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'wout/vite-plugin-lucky',
-    npm: 'vite-plugin-lucky',
-  },
   links: {
     github: 'https://github.com/wout/vite-plugin-lucky',
     npm: 'https://www.npmjs.com/package/vite-plugin-lucky',
     website: 'https://github.com/wout/vite-plugin-lucky#readme',
+  },
+  source: {
+    github: 'wout/vite-plugin-lucky',
+    npm: 'vite-plugin-lucky',
   },
   stats: {
     stars: 2,

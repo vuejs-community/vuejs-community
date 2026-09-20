@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'less',
     'rollup-plugin',
   ],
-  source: {
-    github: 'aptivator/rollup-plugin-lessify',
-    npm: 'rollup-plugin-lessify',
-  },
   links: {
     github: 'https://github.com/aptivator/rollup-plugin-lessify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-lessify',
     website: 'https://github.com/aptivator/rollup-plugin-lessify#readme',
+  },
+  source: {
+    github: 'aptivator/rollup-plugin-lessify',
+    npm: 'rollup-plugin-lessify',
   },
   stats: {
     stars: 1,

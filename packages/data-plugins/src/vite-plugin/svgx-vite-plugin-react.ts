@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'rollup',
     'webpack',
   ],
-  source: {
-    github: 'salihbenlalla/svgx',
-    npm: '@svgx/vite-plugin-react',
-  },
   links: {
     github: 'https://github.com/salihbenlalla/svgx',
     npm: 'https://www.npmjs.com/package/@svgx/vite-plugin-react',
     website: 'https://github.com/salihbenlalla/svgx/blob/main/packages/vite-plugin-react',
+  },
+  source: {
+    github: 'salihbenlalla/svgx',
+    npm: '@svgx/vite-plugin-react',
   },
   stats: {
     stars: 0,

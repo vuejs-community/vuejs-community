@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'directory-removed',
     'vite-plugin-clean',
   ],
-  source: {
-    github: 'oyjt/vite-plugin-clean-build',
-    npm: 'vite-plugin-clean-build',
-  },
   links: {
     github: 'https://github.com/oyjt/vite-plugin-clean-build',
     npm: 'https://www.npmjs.com/package/vite-plugin-clean-build',
     website: 'https://github.com/oyjt/vite-plugin-clean-build',
+  },
+  source: {
+    github: 'oyjt/vite-plugin-clean-build',
+    npm: 'vite-plugin-clean-build',
   },
   stats: {
     stars: 1,

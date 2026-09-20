@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'plugin',
     'unplugin',
   ],
-  source: {
-    npm: 'unplugin-rsc',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-rsc',
+  },
+  source: {
+    npm: 'unplugin-rsc',
   },
   stats: {
     stars: 0,

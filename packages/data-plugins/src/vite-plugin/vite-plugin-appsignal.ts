@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'appsignal',
     'sourcemap',
   ],
-  source: {
-    github: 'pantajoe/vite-plugin-appsignal',
-    npm: 'vite-plugin-appsignal',
-  },
   links: {
     github: 'https://github.com/pantajoe/vite-plugin-appsignal',
     npm: 'https://www.npmjs.com/package/vite-plugin-appsignal',
     website: 'https://github.com/pantajoe/vite-plugin-appsignal#readme',
+  },
+  source: {
+    github: 'pantajoe/vite-plugin-appsignal',
+    npm: 'vite-plugin-appsignal',
   },
   stats: {
     stars: 0,

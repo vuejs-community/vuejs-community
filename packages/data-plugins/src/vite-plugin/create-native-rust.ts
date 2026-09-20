@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'addon',
     'ssr',
   ],
-  source: {
-    github: 'kadeangell/vite-plugin-native-rust',
-    npm: 'create-native-rust',
-  },
   links: {
     github: 'https://github.com/kadeangell/vite-plugin-native-rust',
     npm: 'https://www.npmjs.com/package/create-native-rust',
     website: 'https://github.com/kadeangell/vite-plugin-native-rust/tree/main/packages/create-native-rust#readme',
+  },
+  source: {
+    github: 'kadeangell/vite-plugin-native-rust',
+    npm: 'create-native-rust',
   },
   stats: {
     stars: 0,

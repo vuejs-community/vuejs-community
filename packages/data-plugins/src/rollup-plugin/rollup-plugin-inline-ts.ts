@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'html',
     'templates',
   ],
-  source: {
-    github: 're7r/rollup-plugin-inline-ts',
-    npm: 'rollup-plugin-inline-ts',
-  },
   links: {
     github: 'https://github.com/re7r/rollup-plugin-inline-ts',
     npm: 'https://www.npmjs.com/package/rollup-plugin-inline-ts',
     website: 'https://github.com/re7r/rollup-plugin-inline-ts#readme',
+  },
+  source: {
+    github: 're7r/rollup-plugin-inline-ts',
+    npm: 'rollup-plugin-inline-ts',
   },
   stats: {
     stars: 0,

@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'aliyun',
     'oss',
   ],
-  source: {
-    npm: 'vite-plugin-aliyun-oss',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-aliyun-oss',
+  },
+  source: {
+    npm: 'vite-plugin-aliyun-oss',
   },
   stats: {
     stars: 0,

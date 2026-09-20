@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'router',
     'react-router',
   ],
-  source: {
-    npm: 'vite-plugin-react-views',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-react-views',
     website: 'https://github.com/KAROTT7/vite-plugin-react-views',
+  },
+  source: {
+    npm: 'vite-plugin-react-views',
   },
   stats: {
     stars: 0,

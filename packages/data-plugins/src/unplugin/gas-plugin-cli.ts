@@ -16,13 +16,13 @@ export default defineProjectMeta({
     'create',
     'unplugin',
   ],
-  source: {
-    github: 'wakita181009/gas-plugin',
-    npm: '@gas-plugin/cli',
-  },
   links: {
     github: 'https://github.com/wakita181009/gas-plugin',
     npm: 'https://www.npmjs.com/package/@gas-plugin/cli',
+  },
+  source: {
+    github: 'wakita181009/gas-plugin',
+    npm: '@gas-plugin/cli',
   },
   stats: {
     stars: 2,

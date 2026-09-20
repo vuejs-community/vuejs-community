@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'env',
     'dts',
   ],
-  source: {
-    npm: 'vite-plugin-cy-ban',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-cy-ban',
+  },
+  source: {
+    npm: 'vite-plugin-cy-ban',
   },
   stats: {
     stars: 0,

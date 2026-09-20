@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'lord007tn/keenpix',
-    npm: '@keenpix/vite',
-  },
   links: {
     github: 'https://github.com/lord007tn/keenpix',
     npm: 'https://www.npmjs.com/package/@keenpix/vite',
     website: 'https://keenpix.com',
+  },
+  source: {
+    github: 'lord007tn/keenpix',
+    npm: '@keenpix/vite',
   },
   stats: {
     stars: 9,

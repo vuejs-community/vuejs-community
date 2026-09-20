@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'vitepress',
     'vitepress-plugin',
   ],
-  source: {
-    github: 'angelespejo/vitepress-plugin-size',
-    npm: 'vitepress-plugin-size',
-  },
   links: {
     github: 'https://github.com/angelespejo/vitepress-plugin-size',
     npm: 'https://www.npmjs.com/package/vitepress-plugin-size',
     website: 'https://www.npmjs.com/package/vitepress-plugin-size',
+  },
+  source: {
+    github: 'angelespejo/vitepress-plugin-size',
+    npm: 'vitepress-plugin-size',
   },
   stats: {
     stars: 2,

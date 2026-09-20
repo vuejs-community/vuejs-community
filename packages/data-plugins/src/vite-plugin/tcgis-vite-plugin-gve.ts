@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'Cesium',
     'gve-sdk',
   ],
-  source: {
-    npm: '@tcgis/vite-plugin-gve',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@tcgis/vite-plugin-gve',
+  },
+  source: {
+    npm: '@tcgis/vite-plugin-gve',
   },
   stats: {
     stars: 0,

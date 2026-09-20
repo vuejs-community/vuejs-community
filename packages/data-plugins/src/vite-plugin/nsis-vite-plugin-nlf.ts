@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'nsis language file',
     'nlf',
   ],
-  source: {
-    github: 'idleberg/nsis-org',
-    npm: '@nsis/vite-plugin-nlf',
-  },
   links: {
     github: 'https://github.com/idleberg/nsis-org',
     npm: 'https://www.npmjs.com/package/@nsis/vite-plugin-nlf',
     website: 'https://github.com/idleberg/nsis-org/tree/main/packages/vite-plugin-nlf#readme',
+  },
+  source: {
+    github: 'idleberg/nsis-org',
+    npm: '@nsis/vite-plugin-nlf',
   },
   stats: {
     stars: 0,

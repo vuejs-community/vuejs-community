@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'hybridly/hybridly',
-    npm: '@tofandel/hybridly-vite',
-  },
   links: {
     github: 'https://github.com/hybridly/hybridly',
     npm: 'https://www.npmjs.com/package/@tofandel/hybridly-vite',
     website: 'https://github.com/hybridly/hybridly/tree/main/packages/vite#readme',
+  },
+  source: {
+    github: 'hybridly/hybridly',
+    npm: '@tofandel/hybridly-vite',
   },
   stats: {
     stars: 0,

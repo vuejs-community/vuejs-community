@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'wepack',
     'unplugin',
   ],
-  source: {
-    github: 'vintl-dev/unplugin',
-    npm: '@vintl/unplugin',
-  },
   links: {
     github: 'https://github.com/vintl-dev/unplugin',
     npm: 'https://www.npmjs.com/package/@vintl/unplugin',
     website: 'https://github.com/vintl-dev/unplugin#readme',
+  },
+  source: {
+    github: 'vintl-dev/unplugin',
+    npm: '@vintl/unplugin',
   },
   stats: {
     stars: 0,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'external',
     'globals',
   ],
-  source: {
-    github: 'eight04/rollup-plugin-external-globals',
-    npm: 'rollup-plugin-external-globals-fork',
-  },
   links: {
     github: 'https://github.com/eight04/rollup-plugin-external-globals',
     npm: 'https://www.npmjs.com/package/rollup-plugin-external-globals-fork',
     website: 'https://github.com/eight04/rollup-plugin-external-globals#readme',
+  },
+  source: {
+    github: 'eight04/rollup-plugin-external-globals',
+    npm: 'rollup-plugin-external-globals-fork',
   },
   stats: {
     stars: 127,

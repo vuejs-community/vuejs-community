@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'bluskript/vite-plugin-inline-css-modules',
-    npm: 'vite-plugin-inline-css-modules',
-  },
   links: {
     github: 'https://github.com/bluskript/vite-plugin-inline-css-modules',
     npm: 'https://www.npmjs.com/package/vite-plugin-inline-css-modules',
     website: 'https://github.com/bluskript/vite-plugin-inline-css-modules#readme',
+  },
+  source: {
+    github: 'bluskript/vite-plugin-inline-css-modules',
+    npm: 'vite-plugin-inline-css-modules',
   },
   stats: {
     stars: 76,

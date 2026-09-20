@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'html-pdf',
     'puppeteer',
   ],
-  source: {
-    github: 'davidjbng/vite-plugin-pdf-preview',
-    npm: 'vite-plugin-pdf-preview',
-  },
   links: {
     github: 'https://github.com/davidjbng/vite-plugin-pdf-preview',
     npm: 'https://www.npmjs.com/package/vite-plugin-pdf-preview',
     website: 'https://github.com/davidjbng/vite-plugin-pdf-preview#readme',
+  },
+  source: {
+    github: 'davidjbng/vite-plugin-pdf-preview',
+    npm: 'vite-plugin-pdf-preview',
   },
   stats: {
     stars: 1,

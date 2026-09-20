@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'browser',
     'extension',
   ],
-  source: {
-    github: 'jamen/rollup-plugin-browser-extension',
-    npm: 'rollup-plugin-browser-extension',
-  },
   links: {
     github: 'https://github.com/jamen/rollup-plugin-browser-extension',
     npm: 'https://www.npmjs.com/package/rollup-plugin-browser-extension',
     website: 'https://github.com/jamen/rollup-plugin-browser-extension#readme',
+  },
+  source: {
+    github: 'jamen/rollup-plugin-browser-extension',
+    npm: 'rollup-plugin-browser-extension',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup',
     'plugin',
   ],
-  source: {
-    github: 'rollup/plugins',
-    npm: '@rollup/plugin-legacy',
-  },
   links: {
     github: 'https://github.com/rollup/plugins',
     npm: 'https://www.npmjs.com/package/@rollup/plugin-legacy',
     website: 'https://github.com/rollup/plugins/tree/master/packages/legacy/#readme',
+  },
+  source: {
+    github: 'rollup/plugins',
+    npm: '@rollup/plugin-legacy',
   },
   stats: {
     stars: 0,

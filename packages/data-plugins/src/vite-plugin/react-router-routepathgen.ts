@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'cli',
     'vite-plugin',
   ],
-  source: {
-    github: 'agionoja/react-router-routepathgen',
-    npm: 'react-router-routepathgen',
-  },
   links: {
     github: 'https://github.com/agionoja/react-router-routepathgen',
     npm: 'https://www.npmjs.com/package/react-router-routepathgen',
     website: 'https://github.com/agionoja/react-router-routepathgen#readme',
+  },
+  source: {
+    github: 'agionoja/react-router-routepathgen',
+    npm: 'react-router-routepathgen',
   },
   stats: {
     stars: 0,

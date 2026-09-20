@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'diagnostics',
     'model-context-protocol',
   ],
-  source: {
-    github: 'maxlee/vite-plugin-agent',
-    npm: 'vite-plugin-agent',
-  },
   links: {
     github: 'https://github.com/maxlee/vite-plugin-agent',
     npm: 'https://www.npmjs.com/package/vite-plugin-agent',
     website: 'https://github.com/maxlee/vite-plugin-agent#readme',
+  },
+  source: {
+    github: 'maxlee/vite-plugin-agent',
+    npm: 'vite-plugin-agent',
   },
   stats: {
     stars: 0,

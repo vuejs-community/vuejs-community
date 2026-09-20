@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'qingkuai-js/vite-plugin',
-    npm: 'vite-plugin-qingkuai',
-  },
   links: {
     github: 'https://github.com/qingkuai-js/vite-plugin',
     npm: 'https://www.npmjs.com/package/vite-plugin-qingkuai',
     website: 'https://github.com/qingkuai-js/vite-plugin#readme',
+  },
+  source: {
+    github: 'qingkuai-js/vite-plugin',
+    npm: 'vite-plugin-qingkuai',
   },
   stats: {
     stars: 0,

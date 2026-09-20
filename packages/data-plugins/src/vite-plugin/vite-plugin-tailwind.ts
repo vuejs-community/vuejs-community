@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'tailwind',
     'tailwind-jit',
   ],
-  source: {
-    github: 'axe-me/vite-plugin-tailwind',
-    npm: 'vite-plugin-tailwind',
-  },
   links: {
     github: 'https://github.com/axe-me/vite-plugin-tailwind',
     npm: 'https://www.npmjs.com/package/vite-plugin-tailwind',
     website: 'https://github.com/axe-me/vite-plugin-tailwind#readme',
+  },
+  source: {
+    github: 'axe-me/vite-plugin-tailwind',
+    npm: 'vite-plugin-tailwind',
   },
   stats: {
     stars: 15,

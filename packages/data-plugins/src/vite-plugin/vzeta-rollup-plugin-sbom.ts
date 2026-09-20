@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'sbom',
     'cyclonedx',
   ],
-  source: {
-    github: 'janbiasi/rollup-plugin-sbom',
-    npm: '@vzeta/rollup-plugin-sbom',
-  },
   links: {
     github: 'https://github.com/janbiasi/rollup-plugin-sbom',
     npm: 'https://www.npmjs.com/package/@vzeta/rollup-plugin-sbom',
     website: 'https://github.com/janbiasi/rollup-plugin-sbom#readme',
+  },
+  source: {
+    github: 'janbiasi/rollup-plugin-sbom',
+    npm: '@vzeta/rollup-plugin-sbom',
   },
   stats: {
     stars: 25,

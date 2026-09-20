@@ -17,10 +17,10 @@ export default defineProjectMeta({
     '9-slice',
     'performance',
   ],
-  source: {
-    npm: 'vite-gameface-rasterize',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-gameface-rasterize',
+  },
+  source: {
+    npm: 'vite-gameface-rasterize',
   },
 })

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'brandonocasey/rollup-plugin-worker-factory',
-    npm: 'rollup-plugin-worker-factory',
-  },
   links: {
     github: 'https://github.com/brandonocasey/rollup-plugin-worker-factory',
     npm: 'https://www.npmjs.com/package/rollup-plugin-worker-factory',
     website: 'https://github.com/brandonocasey/rollup-plugin-worker-factory',
+  },
+  source: {
+    github: 'brandonocasey/rollup-plugin-worker-factory',
+    npm: 'rollup-plugin-worker-factory',
   },
   stats: {
     stars: 2,

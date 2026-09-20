@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'esbuild',
     'plugin',
   ],
-  source: {
-    github: 'cz-v3/unplugin-cz-v3',
-    npm: 'unplugin-cz-v3',
-  },
   links: {
     github: 'https://github.com/cz-v3/unplugin-cz-v3',
     npm: 'https://www.npmjs.com/package/unplugin-cz-v3',
     website: 'https://github.com/cz-v3/unplugin-cz-v3/tree/main/#readme',
+  },
+  source: {
+    github: 'cz-v3/unplugin-cz-v3',
+    npm: 'unplugin-cz-v3',
   },
   stats: {
     stars: 0,

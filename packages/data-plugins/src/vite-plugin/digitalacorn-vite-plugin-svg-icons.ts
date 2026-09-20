@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'svgo',
     'vben',
   ],
-  source: {
-    github: 'digitalacorn/vite-plugin-svg-icons',
-    npm: '@digitalacorn/vite-plugin-svg-icons',
-  },
   links: {
     github: 'https://github.com/digitalacorn/vite-plugin-svg-icons',
     npm: 'https://www.npmjs.com/package/@digitalacorn/vite-plugin-svg-icons',
     website: 'https://github.com/digitalacorn/vite-plugin-svg-icons/tree/master/#readme',
+  },
+  source: {
+    github: 'digitalacorn/vite-plugin-svg-icons',
+    npm: '@digitalacorn/vite-plugin-svg-icons',
   },
   stats: {
     stars: 5,

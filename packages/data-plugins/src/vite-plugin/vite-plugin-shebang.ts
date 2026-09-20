@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-shebang',
   ],
-  source: {
-    npm: 'vite-plugin-shebang',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-shebang',
     website: 'https://github.com/mkbabb/vite-plugin-shebang',
+  },
+  source: {
+    npm: 'vite-plugin-shebang',
   },
   stats: {
     stars: 0,

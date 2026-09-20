@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'logging',
     'data-attributes',
   ],
-  source: {
-    github: 'Shimsuyeon/figlog',
-    npm: '@figlog/vite-plugin',
-  },
   links: {
     github: 'https://github.com/Shimsuyeon/figlog',
     npm: 'https://www.npmjs.com/package/@figlog/vite-plugin',
     website: 'https://github.com/Shimsuyeon/figlog#readme',
+  },
+  source: {
+    github: 'Shimsuyeon/figlog',
+    npm: '@figlog/vite-plugin',
   },
   stats: {
     stars: 1,

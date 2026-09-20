@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'bundler',
     'plugin',
   ],
-  source: {
-    npm: 'vite-plugin-imba1',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-imba1',
     website: 'https://gitverse.ru/qwars/vite-plugin-imba1#readme',
+  },
+  source: {
+    npm: 'vite-plugin-imba1',
   },
   stats: {
     stars: 0,

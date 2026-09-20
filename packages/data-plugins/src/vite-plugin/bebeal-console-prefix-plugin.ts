@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'prefix',
     'debug',
   ],
-  source: {
-    github: 'bebeal/console-prefix-plugin',
-    npm: '@bebeal/console-prefix-plugin',
-  },
   links: {
     github: 'https://github.com/bebeal/console-prefix-plugin',
     npm: 'https://www.npmjs.com/package/@bebeal/console-prefix-plugin',
     website: 'https://github.com/bebeal/console-prefix-plugin#readme',
+  },
+  source: {
+    github: 'bebeal/console-prefix-plugin',
+    npm: '@bebeal/console-prefix-plugin',
   },
   stats: {
     stars: 1,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'staging',
     'preview',
   ],
-  source: {
-    github: 'Erasmus001/envstyle',
-    npm: 'styleenv',
-  },
   links: {
     github: 'https://github.com/Erasmus001/envstyle',
     npm: 'https://www.npmjs.com/package/styleenv',
     website: 'https://github.com/Erasmus001/envstyle#readme',
+  },
+  source: {
+    github: 'Erasmus001/envstyle',
+    npm: 'styleenv',
   },
   stats: {
     stars: 0,

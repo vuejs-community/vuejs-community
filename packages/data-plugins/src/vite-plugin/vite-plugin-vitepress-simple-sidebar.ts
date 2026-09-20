@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vitepress',
     'vitepress sidebar',
   ],
-  source: {
-    github: 'lijiayuan365/vite-plugin-vitepress-sidebar',
-    npm: 'vite-plugin-vitepress-simple-sidebar',
-  },
   links: {
     github: 'https://github.com/lijiayuan365/vite-plugin-vitepress-sidebar',
     npm: 'https://www.npmjs.com/package/vite-plugin-vitepress-simple-sidebar',
     website: 'https://github.com/lijiayuan365/vite-plugin-vitepress-sidebar#readme',
+  },
+  source: {
+    github: 'lijiayuan365/vite-plugin-vitepress-sidebar',
+    npm: 'vite-plugin-vitepress-simple-sidebar',
   },
   stats: {
     stars: 4,

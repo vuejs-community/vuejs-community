@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'imba',
   ],
-  source: {
-    github: 'imba/imba',
-    npm: 'vite-plugin-imba',
-  },
   links: {
     github: 'https://github.com/imba/imba',
     npm: 'https://www.npmjs.com/package/vite-plugin-imba',
     website: 'https://imba.io',
+  },
+  source: {
+    github: 'imba/imba',
+    npm: 'vite-plugin-imba',
   },
   stats: {
     stars: 6508,

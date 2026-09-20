@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'modules',
     'image',
   ],
-  source: {
-    github: 'WilkeoCom/rollup-plugin-images',
-    npm: 'rollup-plugin-images',
-  },
   links: {
     github: 'https://github.com/WilkeoCom/rollup-plugin-images',
     npm: 'https://www.npmjs.com/package/rollup-plugin-images',
     website: 'https://github.com/WilkeoCom/rollup-plugin-images#readme',
+  },
+  source: {
+    github: 'WilkeoCom/rollup-plugin-images',
+    npm: 'rollup-plugin-images',
   },
   stats: {
     stars: 0,

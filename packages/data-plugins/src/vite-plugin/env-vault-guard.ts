@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'webpack-plugin',
     'auditor',
   ],
-  source: {
-    npm: 'env-vault-guard',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/env-vault-guard',
+  },
+  source: {
+    npm: 'env-vault-guard',
   },
   stats: {
     stars: 0,

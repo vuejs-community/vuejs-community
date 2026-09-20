@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'claude-code',
     'vite-plugin',
   ],
-  source: {
-    github: 'themankindproject/riff',
-    npm: '@riffjs/core',
-  },
   links: {
     github: 'https://github.com/themankindproject/riff',
     npm: 'https://www.npmjs.com/package/@riffjs/core',
     website: 'https://github.com/themankindproject/riff#readme',
+  },
+  source: {
+    github: 'themankindproject/riff',
+    npm: '@riffjs/core',
   },
   stats: {
     stars: 0,

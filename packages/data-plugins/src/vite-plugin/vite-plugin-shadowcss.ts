@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'chrome',
     'content-script',
   ],
-  source: {
-    github: 'kinfuy/vite-plugin-shadowcss',
-    npm: 'vite-plugin-shadowcss',
-  },
   links: {
     github: 'https://github.com/kinfuy/vite-plugin-shadowcss',
     npm: 'https://www.npmjs.com/package/vite-plugin-shadowcss',
     website: 'https://github.com/kinfuy/vite-plugin-shadowcss#readme',
+  },
+  source: {
+    github: 'kinfuy/vite-plugin-shadowcss',
+    npm: 'vite-plugin-shadowcss',
   },
   stats: {
     stars: 0,

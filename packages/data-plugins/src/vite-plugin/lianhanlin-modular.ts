@@ -28,11 +28,11 @@ export default defineProjectMeta({
     'hono',
     'architecture',
   ],
-  source: {
-    npm: 'lianhanlin-modular',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/lianhanlin-modular',
+  },
+  source: {
+    npm: 'lianhanlin-modular',
   },
   stats: {
     stars: 0,

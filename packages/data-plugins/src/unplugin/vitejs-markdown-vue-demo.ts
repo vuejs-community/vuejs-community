@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vue-markdown',
     'vue-demo',
   ],
-  source: {
-    github: 'zys8119/vitejs-markdown-vue-demo',
-    npm: 'vitejs-markdown-vue-demo',
-  },
   links: {
     github: 'https://github.com/zys8119/vitejs-markdown-vue-demo',
     npm: 'https://www.npmjs.com/package/vitejs-markdown-vue-demo',
     website: 'https://github.com/zys8119/vitejs-markdown-vue-demo#readme',
+  },
+  source: {
+    github: 'zys8119/vitejs-markdown-vue-demo',
+    npm: 'vitejs-markdown-vue-demo',
   },
   stats: {
     stars: 0,

@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'islands',
     'react',
   ],
-  source: {
-    npm: 'vite-plugin-mira',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-mira',
+  },
+  source: {
+    npm: 'vite-plugin-mira',
   },
   stats: {
     stars: 0,

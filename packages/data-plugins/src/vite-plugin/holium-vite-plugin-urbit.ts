@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'holium/vite-plugin-urbit',
-    npm: '@holium/vite-plugin-urbit',
-  },
   links: {
     github: 'https://github.com/holium/vite-plugin-urbit',
     npm: 'https://www.npmjs.com/package/@holium/vite-plugin-urbit',
     website: 'https://github.com/liam-fitzgerald/vite-plugin-urbit#readme',
+  },
+  source: {
+    github: 'holium/vite-plugin-urbit',
+    npm: '@holium/vite-plugin-urbit',
   },
   stats: {
     stars: 2,

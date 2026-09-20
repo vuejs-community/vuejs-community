@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'plain text',
   ],
-  source: {
-    github: 'zheeeng/vite-plugin-plain-text',
-    npm: 'vite-plugin-plain-text',
-  },
   links: {
     github: 'https://github.com/zheeeng/vite-plugin-plain-text',
     npm: 'https://www.npmjs.com/package/vite-plugin-plain-text',
     website: 'https://github.com/zheeeng/vite-plugin-plain-text#readme',
+  },
+  source: {
+    github: 'zheeeng/vite-plugin-plain-text',
+    npm: 'vite-plugin-plain-text',
   },
   stats: {
     stars: 24,

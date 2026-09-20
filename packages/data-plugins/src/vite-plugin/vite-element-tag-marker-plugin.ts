@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'marker',
     'vite-plugin',
   ],
-  source: {
-    github: 'wenps/element-tag-marker',
-    npm: 'vite-element-tag-marker-plugin',
-  },
   links: {
     github: 'https://github.com/wenps/element-tag-marker',
     npm: 'https://www.npmjs.com/package/vite-element-tag-marker-plugin',
     website: 'https://github.com/wenps/element-tag-marker#readme',
+  },
+  source: {
+    github: 'wenps/element-tag-marker',
+    npm: 'vite-element-tag-marker-plugin',
   },
   stats: {
     stars: 6,

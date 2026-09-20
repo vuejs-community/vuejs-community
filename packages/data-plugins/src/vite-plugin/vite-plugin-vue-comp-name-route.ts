@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'component',
     'filter',
   ],
-  source: {
-    npm: 'vite-plugin-vue-comp-name-route',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-comp-name-route',
+  },
+  source: {
+    npm: 'vite-plugin-vue-comp-name-route',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'stylelint',
     'vite-plugin',
   ],
-  source: {
-    github: 'ModyQyW/vite-plugin-stylelint',
-    npm: 'vite-plugin-stylelint',
-  },
   links: {
     github: 'https://github.com/ModyQyW/vite-plugin-stylelint',
     npm: 'https://www.npmjs.com/package/vite-plugin-stylelint',
     website: 'https://github.com/ModyQyW/vite-plugin-stylelint',
+  },
+  source: {
+    github: 'ModyQyW/vite-plugin-stylelint',
+    npm: 'vite-plugin-stylelint',
   },
   stats: {
     stars: 32,

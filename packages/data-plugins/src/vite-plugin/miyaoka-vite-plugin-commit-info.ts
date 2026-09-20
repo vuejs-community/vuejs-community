@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'version',
     'build-info',
   ],
-  source: {
-    github: 'miyaoka/vite-plugin-commit-info',
-    npm: '@miyaoka/vite-plugin-commit-info',
-  },
   links: {
     github: 'https://github.com/miyaoka/vite-plugin-commit-info',
     npm: 'https://www.npmjs.com/package/@miyaoka/vite-plugin-commit-info',
     website: 'https://github.com/miyaoka/vite-plugin-commit-info#readme',
+  },
+  source: {
+    github: 'miyaoka/vite-plugin-commit-info',
+    npm: '@miyaoka/vite-plugin-commit-info',
   },
   stats: {
     stars: 1,

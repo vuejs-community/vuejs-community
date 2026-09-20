@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'ElMassimo/vite-plugin-environment',
-    npm: 'vite-plugin-environment',
-  },
   links: {
     github: 'https://github.com/ElMassimo/vite-plugin-environment',
     npm: 'https://www.npmjs.com/package/vite-plugin-environment',
     website: 'https://github.com/ElMassimo/vite-plugin-environment',
+  },
+  source: {
+    github: 'ElMassimo/vite-plugin-environment',
+    npm: 'vite-plugin-environment',
   },
   stats: {
     stars: 160,

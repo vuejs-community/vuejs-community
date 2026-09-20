@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'stup',
     'vite-plugin',
   ],
-  source: {
-    github: 'zhanglp520/vite-plugin-vue-extend',
-    npm: '@ainiteam/vite-plugin-vue3-extend',
-  },
   links: {
     github: 'https://github.com/zhanglp520/vite-plugin-vue-extend',
     npm: 'https://www.npmjs.com/package/@ainiteam/vite-plugin-vue3-extend',
     website: 'https://github.com/zhanglp520/vite-plugin-vue-extend#readme',
+  },
+  source: {
+    github: 'zhanglp520/vite-plugin-vue-extend',
+    npm: '@ainiteam/vite-plugin-vue3-extend',
   },
   stats: {
     stars: 1,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'image-require',
   ],
-  source: {
-    github: 'hujinbin/vite-plugin-image-require',
-    npm: 'vite-plugin-image-require',
-  },
   links: {
     github: 'https://github.com/hujinbin/vite-plugin-image-require',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-require',
     website: 'https://github.com/hujinbin/vite-plugin-image-require#readme',
+  },
+  source: {
+    github: 'hujinbin/vite-plugin-image-require',
+    npm: 'vite-plugin-image-require',
   },
   stats: {
     stars: 4,

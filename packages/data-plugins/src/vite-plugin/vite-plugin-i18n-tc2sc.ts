@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'traditional chinese',
     'simplified chinese',
   ],
-  source: {
-    github: 'mathsgod/vite-plugin-i18n-tc2sc',
-    npm: 'vite-plugin-i18n-tc2sc',
-  },
   links: {
     github: 'https://github.com/mathsgod/vite-plugin-i18n-tc2sc',
     npm: 'https://www.npmjs.com/package/vite-plugin-i18n-tc2sc',
     website: 'https://github.com/mathsgod/vite-plugin-i18n-tc2sc',
+  },
+  source: {
+    github: 'mathsgod/vite-plugin-i18n-tc2sc',
+    npm: 'vite-plugin-i18n-tc2sc',
   },
   stats: {
     stars: 0,

@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://reglejs.dev/',
   },
   source: {
-    github: 'victorgarciaesgi/regle#main/packages/nuxt',
+    github: 'victorgarciaesgi/regle',
     npm: '@regle/nuxt',
   },
 })

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'phecda-server',
     'unplugin',
   ],
-  source: {
-    github: 'fgsreally/unplugin-phecda-server',
-    npm: 'unplugin-phecda-server',
-  },
   links: {
     github: 'https://github.com/fgsreally/unplugin-phecda-server',
     npm: 'https://www.npmjs.com/package/unplugin-phecda-server',
     website: 'https://github.com/fgsreally/unplugin-phecda-server#readme',
+  },
+  source: {
+    github: 'fgsreally/unplugin-phecda-server',
+    npm: 'unplugin-phecda-server',
   },
   stats: {
     stars: 0,

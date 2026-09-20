@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'spa',
     'meta-tags',
   ],
-  source: {
-    github: 'rahulsushilsharma/vite-plugin-prerender-static',
-    npm: 'vite-plugin-prerender-static',
-  },
   links: {
     github: 'https://github.com/rahulsushilsharma/vite-plugin-prerender-static',
     npm: 'https://www.npmjs.com/package/vite-plugin-prerender-static',
     website: 'https://github.com/rahulsushilsharma/vite-plugin-prerender-static#readme',
+  },
+  source: {
+    github: 'rahulsushilsharma/vite-plugin-prerender-static',
+    npm: 'vite-plugin-prerender-static',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'resolve',
     'bundle',
   ],
-  source: {
-    github: 'Silksofthesoul/vite-plugin-transform',
-    npm: 'vite-plugin-transform',
-  },
   links: {
     github: 'https://github.com/Silksofthesoul/vite-plugin-transform',
     npm: 'https://www.npmjs.com/package/vite-plugin-transform',
     website: 'https://github.com/Silksofthesoul/vite-plugin-transform#readme',
+  },
+  source: {
+    github: 'Silksofthesoul/vite-plugin-transform',
+    npm: 'vite-plugin-transform',
   },
   stats: {
     stars: 10,

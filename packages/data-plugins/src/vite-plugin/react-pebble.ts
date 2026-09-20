@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'compiler',
     'vite-plugin',
   ],
-  source: {
-    github: 'eddiemoore/react-pebble',
-    npm: 'react-pebble',
-  },
   links: {
     github: 'https://github.com/eddiemoore/react-pebble',
     npm: 'https://www.npmjs.com/package/react-pebble',
     website: 'https://github.com/eddiemoore/react-pebble#readme',
+  },
+  source: {
+    github: 'eddiemoore/react-pebble',
+    npm: 'react-pebble',
   },
   stats: {
     stars: 3,

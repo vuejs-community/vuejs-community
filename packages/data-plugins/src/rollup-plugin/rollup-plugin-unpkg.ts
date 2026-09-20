@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    npm: 'rollup-plugin-unpkg',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-unpkg',
+  },
+  source: {
+    npm: 'rollup-plugin-unpkg',
   },
   stats: {
     stars: 0,

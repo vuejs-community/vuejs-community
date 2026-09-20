@@ -20,11 +20,11 @@ export default defineProjectMeta({
     'hmr',
     'aot',
   ],
-  source: {
-    npm: '@ivanheral/vite-plugin-angular',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ivanheral/vite-plugin-angular',
+  },
+  source: {
+    npm: '@ivanheral/vite-plugin-angular',
   },
   stats: {
     stars: 0,

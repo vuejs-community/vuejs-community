@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'commit',
     'build',
   ],
-  source: {
-    github: 'royashbrook/gitlog1',
-    npm: 'gitlog1',
-  },
   links: {
     github: 'https://github.com/royashbrook/gitlog1',
     npm: 'https://www.npmjs.com/package/gitlog1',
     website: 'https://github.com/royashbrook/gitlog1',
+  },
+  source: {
+    github: 'royashbrook/gitlog1',
+    npm: 'gitlog1',
   },
   stats: {
     stars: 0,

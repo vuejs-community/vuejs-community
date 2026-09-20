@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'fchengjin/vite-plugin-react-css-module',
-    npm: 'vite-plugin-react-css-modules',
-  },
   links: {
     github: 'https://github.com/fchengjin/vite-plugin-react-css-module',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-css-modules',
     website: 'https://github.com/fchengjin/vite-plugin-react-css-module/tree/master#readme',
+  },
+  source: {
+    github: 'fchengjin/vite-plugin-react-css-module',
+    npm: 'vite-plugin-react-css-modules',
   },
   stats: {
     stars: 14,

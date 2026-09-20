@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: '0x31/vite-plugin-graphql-loader',
-    npm: 'vite-plugin-graphql-loader',
-  },
   links: {
     github: 'https://github.com/0x31/vite-plugin-graphql-loader',
     npm: 'https://www.npmjs.com/package/vite-plugin-graphql-loader',
     website: 'https://github.com/0x31/vite-plugin-graphql-loader#readme',
+  },
+  source: {
+    github: '0x31/vite-plugin-graphql-loader',
+    npm: 'vite-plugin-graphql-loader',
   },
   stats: {
     stars: 25,

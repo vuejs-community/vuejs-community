@@ -18,11 +18,11 @@ export default defineProjectMeta({
     'cookie',
     'redirect',
   ],
-  source: {
-    npm: '@xysfe/vite-plugin-dev-proxy',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xysfe/vite-plugin-dev-proxy',
+  },
+  source: {
+    npm: '@xysfe/vite-plugin-dev-proxy',
   },
   stats: {
     stars: 0,

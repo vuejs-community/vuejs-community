@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'child-process',
     'hotreload',
   ],
-  source: {
-    npm: 'vite-plugin-child-process',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-child-process',
+  },
+  source: {
+    npm: 'vite-plugin-child-process',
   },
   stats: {
     stars: 0,

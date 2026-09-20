@@ -12,13 +12,13 @@ export default defineProjectMeta({
     'vite-fullstack',
     'vite-plugin',
   ],
-  source: {
-    github: 'detarkende/vite-fullstack',
-    npm: '@vite-fullstack/plugin',
-  },
   links: {
     github: 'https://github.com/detarkende/vite-fullstack',
     npm: 'https://www.npmjs.com/package/@vite-fullstack/plugin',
+  },
+  source: {
+    github: 'detarkende/vite-fullstack',
+    npm: '@vite-fullstack/plugin',
   },
   stats: {
     stars: 2,

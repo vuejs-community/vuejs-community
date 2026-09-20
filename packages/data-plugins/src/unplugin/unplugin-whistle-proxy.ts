@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'proxy',
     'whistle',
   ],
-  source: {
-    github: 'allenhush/unplugin-whistle-proxy',
-    npm: 'unplugin-whistle-proxy',
-  },
   links: {
     github: 'https://github.com/allenhush/unplugin-whistle-proxy',
     npm: 'https://www.npmjs.com/package/unplugin-whistle-proxy',
     website: 'https://github.com/allenhush/unplugin-whistle-proxy#readme',
+  },
+  source: {
+    github: 'allenhush/unplugin-whistle-proxy',
+    npm: 'unplugin-whistle-proxy',
   },
   stats: {
     stars: 4,

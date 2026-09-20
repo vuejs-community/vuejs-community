@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin-chmod',
     'chmod',
   ],
-  source: {
-    github: 'mnrendra/rollup-plugin-chmod',
-    npm: '@mnrendra/rollup-plugin-chmod',
-  },
   links: {
     github: 'https://github.com/mnrendra/rollup-plugin-chmod',
     npm: 'https://www.npmjs.com/package/@mnrendra/rollup-plugin-chmod',
     website: 'https://github.com/mnrendra/rollup-plugin-chmod#readme',
+  },
+  source: {
+    github: 'mnrendra/rollup-plugin-chmod',
+    npm: '@mnrendra/rollup-plugin-chmod',
   },
   stats: {
     stars: 3,

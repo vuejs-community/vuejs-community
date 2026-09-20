@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'mvromer/rollup-plugin-tagged-template-postcss',
-    npm: 'rollup-plugin-tagged-template-postcss',
-  },
   links: {
     github: 'https://github.com/mvromer/rollup-plugin-tagged-template-postcss',
     npm: 'https://www.npmjs.com/package/rollup-plugin-tagged-template-postcss',
     website: 'https://github.com/mvromer/rollup-plugin-tagged-template-postcss#readme',
+  },
+  source: {
+    github: 'mvromer/rollup-plugin-tagged-template-postcss',
+    npm: 'rollup-plugin-tagged-template-postcss',
   },
   stats: {
     stars: 0,

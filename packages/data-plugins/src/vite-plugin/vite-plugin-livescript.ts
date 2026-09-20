@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'livescript',
   ],
-  source: {
-    github: 'idleberg/vite-plugin-livescript',
-    npm: 'vite-plugin-livescript',
-  },
   links: {
     github: 'https://github.com/idleberg/vite-plugin-livescript',
     npm: 'https://www.npmjs.com/package/vite-plugin-livescript',
     website: 'https://github.com/idleberg/vite-plugin-livescript#readme',
+  },
+  source: {
+    github: 'idleberg/vite-plugin-livescript',
+    npm: 'vite-plugin-livescript',
   },
   stats: {
     stars: 1,

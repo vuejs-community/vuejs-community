@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'dom-inspector',
     'anthropic',
   ],
-  source: {
-    github: 'hentaicracker/vite-plugin-koyi',
-    npm: 'vite-plugin-koyi',
-  },
   links: {
     github: 'https://github.com/hentaicracker/vite-plugin-koyi',
     npm: 'https://www.npmjs.com/package/vite-plugin-koyi',
     website: 'https://github.com/hentaicracker/vite-plugin-koyi#readme',
+  },
+  source: {
+    github: 'hentaicracker/vite-plugin-koyi',
+    npm: 'vite-plugin-koyi',
   },
   stats: {
     stars: 2,

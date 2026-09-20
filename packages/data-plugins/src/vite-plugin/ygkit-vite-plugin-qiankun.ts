@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'qiankun',
     'vite',
   ],
-  source: {
-    npm: '@ygkit/vite-plugin-qiankun',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@ygkit/vite-plugin-qiankun',
+  },
+  source: {
+    npm: '@ygkit/vite-plugin-qiankun',
   },
   stats: {
     stars: 0,

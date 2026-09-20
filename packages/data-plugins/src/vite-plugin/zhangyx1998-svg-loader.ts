@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'scoped',
     'currentColor',
   ],
-  source: {
-    github: 'zhangyx1998/svg-loader',
-    npm: '@zhangyx1998/svg-loader',
-  },
   links: {
     github: 'https://github.com/zhangyx1998/svg-loader',
     npm: 'https://www.npmjs.com/package/@zhangyx1998/svg-loader',
     website: 'https://github.com/zhangyx1998/svg-loader#readme',
+  },
+  source: {
+    github: 'zhangyx1998/svg-loader',
+    npm: '@zhangyx1998/svg-loader',
   },
   stats: {
     stars: 0,

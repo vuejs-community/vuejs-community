@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'wp',
   ],
-  source: {
-    github: 'midkard/vite-plugin-wp-assetize',
-    npm: '@midkard/vite-plugin-wp-assetize',
-  },
   links: {
     github: 'https://github.com/midkard/vite-plugin-wp-assetize',
     npm: 'https://www.npmjs.com/package/@midkard/vite-plugin-wp-assetize',
     website: 'https://github.com/midkard/vite-plugin-wp-assetize#readme',
+  },
+  source: {
+    github: 'midkard/vite-plugin-wp-assetize',
+    npm: '@midkard/vite-plugin-wp-assetize',
   },
   stats: {
     stars: 0,

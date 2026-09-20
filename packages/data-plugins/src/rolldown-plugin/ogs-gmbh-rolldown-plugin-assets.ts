@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rolldown-plugin',
     'static-assets',
   ],
-  source: {
-    github: 'OGS-GmbH/rolldown-plugin-assets',
-    npm: '@ogs-gmbh/rolldown-plugin-assets',
-  },
   links: {
     github: 'https://github.com/OGS-GmbH/rolldown-plugin-assets',
     npm: 'https://www.npmjs.com/package/@ogs-gmbh/rolldown-plugin-assets',
     website: 'https://ogs-gmbh.github.io/rolldown-plugin-assets',
+  },
+  source: {
+    github: 'OGS-GmbH/rolldown-plugin-assets',
+    npm: '@ogs-gmbh/rolldown-plugin-assets',
   },
   stats: {
     stars: 0,

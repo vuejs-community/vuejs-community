@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'wechat',
     'miniprogram',
   ],
-  source: {
-    github: 'AlamHubb/uni-render',
-    npm: 'vite-plugin-uni-render',
-  },
   links: {
     github: 'https://github.com/AlamHubb/uni-render',
     npm: 'https://www.npmjs.com/package/vite-plugin-uni-render',
     website: 'https://github.com/AlamHubb/uni-render/tree/main/vite-plugin-uni-render#readme',
+  },
+  source: {
+    github: 'AlamHubb/uni-render',
+    npm: 'vite-plugin-uni-render',
   },
   stats: {
     stars: 0,

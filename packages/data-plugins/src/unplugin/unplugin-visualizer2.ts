@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'wzc520pyfm/unplugin-visualizer2',
-    npm: 'unplugin-visualizer2',
-  },
   links: {
     github: 'https://github.com/wzc520pyfm/unplugin-visualizer2',
     npm: 'https://www.npmjs.com/package/unplugin-visualizer2',
     website: 'https://github.com/wzc520pyfm/unplugin-visualizer2#readme',
+  },
+  source: {
+    github: 'wzc520pyfm/unplugin-visualizer2',
+    npm: 'unplugin-visualizer2',
   },
   stats: {
     stars: 0,

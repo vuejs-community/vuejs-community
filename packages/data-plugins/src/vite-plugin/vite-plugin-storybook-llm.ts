@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'documentation',
     'markdown',
   ],
-  source: {
-    npm: 'vite-plugin-storybook-llm',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-storybook-llm',
+  },
+  source: {
+    npm: 'vite-plugin-storybook-llm',
   },
   stats: {
     stars: 0,

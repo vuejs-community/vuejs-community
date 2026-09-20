@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'reverse',
     'proxy',
   ],
-  source: {
-    github: 'fabrykowski/vite-plugin-ssh-tunnel',
-    npm: 'vite-plugin-ssh-tunnel',
-  },
   links: {
     github: 'https://github.com/fabrykowski/vite-plugin-ssh-tunnel',
     npm: 'https://www.npmjs.com/package/vite-plugin-ssh-tunnel',
     website: 'https://github.com/fabrykowski/vite-plugin-ssh-tunnel#readme',
+  },
+  source: {
+    github: 'fabrykowski/vite-plugin-ssh-tunnel',
+    npm: 'vite-plugin-ssh-tunnel',
   },
   stats: {
     stars: 0,

@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'components',
     'vdom',
   ],
-  source: {
-    github: 'ZimNovich/rollup-plugin-mxn-svg',
-    npm: 'rollup-plugin-mxn-svg',
-  },
   links: {
     github: 'https://github.com/ZimNovich/rollup-plugin-mxn-svg',
     npm: 'https://www.npmjs.com/package/rollup-plugin-mxn-svg',
     website: 'https://github.com/ZimNovich/rollup-plugin-mxn-svg',
+  },
+  source: {
+    github: 'ZimNovich/rollup-plugin-mxn-svg',
+    npm: 'rollup-plugin-mxn-svg',
   },
   stats: {
     stars: 0,

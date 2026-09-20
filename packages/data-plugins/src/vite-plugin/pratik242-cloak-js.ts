@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'tamper-protection',
     'domain-lock',
   ],
-  source: {
-    github: 'pratikacharya1234/cloak-js',
-    npm: '@pratik242/cloak-js',
-  },
   links: {
     github: 'https://github.com/pratikacharya1234/cloak-js',
     npm: 'https://www.npmjs.com/package/@pratik242/cloak-js',
     website: 'https://github.com/pratikacharya1234/cloak-js#readme',
+  },
+  source: {
+    github: 'pratikacharya1234/cloak-js',
+    npm: '@pratik242/cloak-js',
   },
   stats: {
     stars: 0,

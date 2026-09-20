@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'design-review',
     'vite-plugin',
   ],
-  source: {
-    github: 'mrosseel/page-comments',
-    npm: '@mrosseel/page-comments',
-  },
   links: {
     github: 'https://github.com/mrosseel/page-comments',
     npm: 'https://www.npmjs.com/package/@mrosseel/page-comments',
     website: 'https://github.com/mrosseel/page-comments#readme',
+  },
+  source: {
+    github: 'mrosseel/page-comments',
+    npm: '@mrosseel/page-comments',
   },
   stats: {
     stars: 0,

@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'guangzan/vite-plugin-ignore-public',
-    npm: 'vite-plugin-ignore-public',
-  },
   links: {
     github: 'https://github.com/guangzan/vite-plugin-ignore-public',
     npm: 'https://www.npmjs.com/package/vite-plugin-ignore-public',
     website: 'https://github.com/guangzan/vite-plugin-ignore-public#readme',
+  },
+  source: {
+    github: 'guangzan/vite-plugin-ignore-public',
+    npm: 'vite-plugin-ignore-public',
   },
   stats: {
     stars: 3,

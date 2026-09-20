@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'react',
     'evoro',
   ],
-  source: {
-    npm: '@evoro-sh/react-vite-component-tagger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@evoro-sh/react-vite-component-tagger',
+  },
+  source: {
+    npm: '@evoro-sh/react-vite-component-tagger',
   },
   stats: {
     stars: 0,

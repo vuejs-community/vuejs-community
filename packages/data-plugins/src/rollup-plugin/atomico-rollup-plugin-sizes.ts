@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'gzip',
     'brotli',
   ],
-  source: {
-    github: 'atomicojs/rollup-plugin-sizes',
-    npm: '@atomico/rollup-plugin-sizes',
-  },
   links: {
     github: 'https://github.com/atomicojs/rollup-plugin-sizes',
     npm: 'https://www.npmjs.com/package/@atomico/rollup-plugin-sizes',
     website: 'https://github.com/atomicojs/rollup-plugin-sizes#readme',
+  },
+  source: {
+    github: 'atomicojs/rollup-plugin-sizes',
+    npm: '@atomico/rollup-plugin-sizes',
   },
   stats: {
     stars: 8,

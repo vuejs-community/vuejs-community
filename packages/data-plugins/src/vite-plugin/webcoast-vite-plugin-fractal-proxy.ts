@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'proxy',
     'styleguide',
   ],
-  source: {
-    npm: '@webcoast/vite-plugin-fractal-proxy',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@webcoast/vite-plugin-fractal-proxy',
+  },
+  source: {
+    npm: '@webcoast/vite-plugin-fractal-proxy',
   },
   stats: {
     stars: 0,

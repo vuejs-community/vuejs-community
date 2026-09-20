@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'typescript',
     'tsc',
   ],
-  source: {
-    github: 'jeanbarriere/vite-plugin-dts',
-    npm: '@pkges/vite-plugin-dts',
-  },
   links: {
     github: 'https://github.com/jeanbarriere/vite-plugin-dts',
     npm: 'https://www.npmjs.com/package/@pkges/vite-plugin-dts',
     website: 'https://github.com/jeanbarriere/vite-plugin-dts#readme',
+  },
+  source: {
+    github: 'jeanbarriere/vite-plugin-dts',
+    npm: '@pkges/vite-plugin-dts',
   },
   stats: {
     stars: 0,

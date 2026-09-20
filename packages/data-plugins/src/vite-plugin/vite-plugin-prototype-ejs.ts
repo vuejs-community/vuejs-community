@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'ejs',
   ],
-  source: {
-    github: 'NguyenTuDong/vite-prototype',
-    npm: 'vite-plugin-prototype-ejs',
-  },
   links: {
     github: 'https://github.com/NguyenTuDong/vite-prototype',
     npm: 'https://www.npmjs.com/package/vite-plugin-prototype-ejs',
     website: 'https://github.com/NguyenTuDong/vite-prototype#readme',
+  },
+  source: {
+    github: 'NguyenTuDong/vite-prototype',
+    npm: 'vite-plugin-prototype-ejs',
   },
   stats: {
     stars: 0,

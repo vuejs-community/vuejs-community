@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'freemarker',
   ],
-  source: {
-    npm: 'vite-plugin-freemarker',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-freemarker',
+  },
+  source: {
+    npm: 'vite-plugin-freemarker',
   },
   stats: {
     stars: 0,

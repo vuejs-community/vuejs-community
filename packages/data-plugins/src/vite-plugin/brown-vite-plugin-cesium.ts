@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'cesium',
   ],
-  source: {
-    github: 'nshen/vite-plugin-cesium',
-    npm: 'brown-vite-plugin-cesium',
-  },
   links: {
     github: 'https://github.com/nshen/vite-plugin-cesium',
     npm: 'https://www.npmjs.com/package/brown-vite-plugin-cesium',
     website: 'https://github.com/nshen/vite-plugin-cesium#readme',
+  },
+  source: {
+    github: 'nshen/vite-plugin-cesium',
+    npm: 'brown-vite-plugin-cesium',
   },
   stats: {
     stars: 280,

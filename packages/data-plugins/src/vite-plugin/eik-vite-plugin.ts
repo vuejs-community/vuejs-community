@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'eik-lib/vite-plugin',
-    npm: '@eik/vite-plugin',
-  },
   links: {
     github: 'https://github.com/eik-lib/vite-plugin',
     npm: 'https://www.npmjs.com/package/@eik/vite-plugin',
     website: 'https://github.com/eik-lib/vite-plugin#readme',
+  },
+  source: {
+    github: 'eik-lib/vite-plugin',
+    npm: '@eik/vite-plugin',
   },
   stats: {
     stars: 0,

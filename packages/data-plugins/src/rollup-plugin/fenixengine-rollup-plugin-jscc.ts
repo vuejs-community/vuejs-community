@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'jspreproc',
     'jscc',
   ],
-  source: {
-    github: 'aMarCruz/rollup-plugin-jscc',
-    npm: '@fenixengine/rollup-plugin-jscc',
-  },
   links: {
     github: 'https://github.com/aMarCruz/rollup-plugin-jscc',
     npm: 'https://www.npmjs.com/package/@fenixengine/rollup-plugin-jscc',
     website: 'https://github.com/aMarCruz/rollup-plugin-jscc',
+  },
+  source: {
+    github: 'aMarCruz/rollup-plugin-jscc',
+    npm: '@fenixengine/rollup-plugin-jscc',
   },
   stats: {
     stars: 60,

@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'markdown',
     'jsdoc',
   ],
-  source: {
-    npm: 'rollup-plugin-markdown-jsdoc',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-markdown-jsdoc',
+  },
+  source: {
+    npm: 'rollup-plugin-markdown-jsdoc',
   },
   stats: {
     stars: 0,

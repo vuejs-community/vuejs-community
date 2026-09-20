@@ -28,14 +28,14 @@ export default defineProjectMeta({
     'angular cli',
     'angular-cli',
   ],
-  source: {
-    github: 'huibizhang/vitawind',
-    npm: 'create-vitawind',
-  },
   links: {
     github: 'https://github.com/huibizhang/vitawind',
     npm: 'https://www.npmjs.com/package/create-vitawind',
     website: 'https://vitawind.vercel.app/scaffolding/',
+  },
+  source: {
+    github: 'huibizhang/vitawind',
+    npm: 'create-vitawind',
   },
   stats: {
     stars: 0,

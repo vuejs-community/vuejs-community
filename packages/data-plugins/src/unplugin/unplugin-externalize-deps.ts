@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'external',
   ],
-  source: {
-    github: 'tjx666/unplugin-externalize-deps',
-    npm: 'unplugin-externalize-deps',
-  },
   links: {
     github: 'https://github.com/tjx666/unplugin-externalize-deps',
     npm: 'https://www.npmjs.com/package/unplugin-externalize-deps',
     website: 'https://github.com/tjx666/unplugin-externalize-deps#readme',
+  },
+  source: {
+    github: 'tjx666/unplugin-externalize-deps',
+    npm: 'unplugin-externalize-deps',
   },
   stats: {
     stars: 3,

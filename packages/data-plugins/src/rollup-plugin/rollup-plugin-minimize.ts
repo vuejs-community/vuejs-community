@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'minimize',
     'checksum',
   ],
-  source: {
-    github: 'allex/rollup-plugin-minimize',
-    npm: 'rollup-plugin-minimize',
-  },
   links: {
     github: 'https://github.com/allex/rollup-plugin-minimize',
     npm: 'https://www.npmjs.com/package/rollup-plugin-minimize',
     website: 'https://github.com/allex/rollup-plugin-minimize#readme',
+  },
+  source: {
+    github: 'allex/rollup-plugin-minimize',
+    npm: 'rollup-plugin-minimize',
   },
   stats: {
     stars: 0,

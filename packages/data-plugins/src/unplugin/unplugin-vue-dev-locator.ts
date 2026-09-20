@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'inspector',
     'debug',
   ],
-  source: {
-    npm: 'unplugin-vue-dev-locator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-vue-dev-locator',
+  },
+  source: {
+    npm: 'unplugin-vue-dev-locator',
   },
   stats: {
     stars: 0,

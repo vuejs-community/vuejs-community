@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'zero-runtime',
     'catom',
   ],
-  source: {
-    github: 'Hydrophobefireman/catom',
-    npm: 'catom',
-  },
   links: {
     github: 'https://github.com/Hydrophobefireman/catom',
     npm: 'https://www.npmjs.com/package/catom',
     website: 'https://github.com/Hydrophobefireman/catom#readme',
+  },
+  source: {
+    github: 'Hydrophobefireman/catom',
+    npm: 'catom',
   },
   stats: {
     stars: 86,

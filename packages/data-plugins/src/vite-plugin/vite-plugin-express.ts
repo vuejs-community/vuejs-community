@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'mock',
     'express',
   ],
-  source: {
-    github: 'zation/vite-plugin-express',
-    npm: 'vite-plugin-express',
-  },
   links: {
     github: 'https://github.com/zation/vite-plugin-express',
     npm: 'https://www.npmjs.com/package/vite-plugin-express',
     website: 'https://github.com/zation/vite-plugin-express#readme',
+  },
+  source: {
+    github: 'zation/vite-plugin-express',
+    npm: 'vite-plugin-express',
   },
   stats: {
     stars: 1,

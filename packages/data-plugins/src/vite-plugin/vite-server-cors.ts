@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'plugin',
   ],
-  source: {
-    github: 'mmj8000/mmjs-core',
-    npm: 'vite-server-cors',
-  },
   links: {
     github: 'https://github.com/mmj8000/mmjs-core',
     npm: 'https://www.npmjs.com/package/vite-server-cors',
     website: 'https://github.com/mmj8000/mmjs-core/tree/dev/packages/mmjs-plugin',
+  },
+  source: {
+    github: 'mmj8000/mmjs-core',
+    npm: 'vite-server-cors',
   },
   stats: {
     stars: 0,

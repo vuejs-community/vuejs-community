@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin-demand-import',
     'vite plugin demand import',
   ],
-  source: {
-    github: 'liuweiGL/vite-plugin-demand-import',
-    npm: 'vite-plugin-demand-import',
-  },
   links: {
     github: 'https://github.com/liuweiGL/vite-plugin-demand-import',
     npm: 'https://www.npmjs.com/package/vite-plugin-demand-import',
     website: 'https://github.com/liuweiGL/vite-plugin-demand-import#readme',
+  },
+  source: {
+    github: 'liuweiGL/vite-plugin-demand-import',
+    npm: 'vite-plugin-demand-import',
   },
   stats: {
     stars: 8,

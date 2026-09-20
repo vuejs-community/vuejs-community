@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'build-plugin',
     'jsx-transform',
   ],
-  source: {
-    github: 'pradeepmouli/zod-to-form',
-    npm: '@zod-to-form/vite',
-  },
   links: {
     github: 'https://github.com/pradeepmouli/zod-to-form',
     npm: 'https://www.npmjs.com/package/@zod-to-form/vite',
     website: 'https://github.com/pradeepmouli/zod-to-form#readme',
+  },
+  source: {
+    github: 'pradeepmouli/zod-to-form',
+    npm: '@zod-to-form/vite',
   },
   stats: {
     stars: 1,

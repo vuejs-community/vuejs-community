@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vscode',
     'source',
   ],
-  source: {
-    github: 'avoidray/click-to-source',
-    npm: '@avoidray/click-to-source',
-  },
   links: {
     github: 'https://github.com/avoidray/click-to-source',
     npm: 'https://www.npmjs.com/package/@avoidray/click-to-source',
     website: 'https://github.com/avoidray/click-to-source#readme',
+  },
+  source: {
+    github: 'avoidray/click-to-source',
+    npm: '@avoidray/click-to-source',
   },
   stats: {
     stars: 0,

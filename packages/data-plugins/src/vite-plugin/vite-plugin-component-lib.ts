@@ -19,11 +19,11 @@ export default defineProjectMeta({
     'qwik-component-library',
     'angular-component-library',
   ],
-  source: {
-    npm: 'vite-plugin-component-lib',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-component-lib',
+  },
+  source: {
+    npm: 'vite-plugin-component-lib',
   },
   stats: {
     stars: 0,

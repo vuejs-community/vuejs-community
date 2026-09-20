@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'cheezone/unplugin-singleton',
-    npm: 'unplugin-singleton',
-  },
   links: {
     github: 'https://github.com/cheezone/unplugin-singleton',
     npm: 'https://www.npmjs.com/package/unplugin-singleton',
     website: 'https://github.com/cheezone/unplugin-singleton#readme',
+  },
+  source: {
+    github: 'cheezone/unplugin-singleton',
+    npm: 'unplugin-singleton',
   },
   stats: {
     stars: 0,

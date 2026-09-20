@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'css',
     'gsap',
   ],
-  source: {
-    github: 'Mizumi25/MizumiPackage',
-    npm: '@mizumi25/vite-plugin',
-  },
   links: {
     github: 'https://github.com/Mizumi25/MizumiPackage',
     npm: 'https://www.npmjs.com/package/@mizumi25/vite-plugin',
     website: 'https://github.com/Mizumi25/MizumiPackage#readme',
+  },
+  source: {
+    github: 'Mizumi25/MizumiPackage',
+    npm: '@mizumi25/vite-plugin',
   },
   stats: {
     stars: 0,

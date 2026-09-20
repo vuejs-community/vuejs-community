@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'lit-html',
     'unplugin',
   ],
-  source: {
-    github: 'takuma-ru/unplugin-lit-sass',
-    npm: 'unplugin-lit-sass',
-  },
   links: {
     github: 'https://github.com/takuma-ru/unplugin-lit-sass',
     npm: 'https://www.npmjs.com/package/unplugin-lit-sass',
     website: 'https://github.com/takuma-ru/unplugin-lit-sass',
+  },
+  source: {
+    github: 'takuma-ru/unplugin-lit-sass',
+    npm: 'unplugin-lit-sass',
   },
   stats: {
     stars: 0,

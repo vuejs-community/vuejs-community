@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'css-in-js',
     'vite-plugin',
   ],
-  source: {
-    github: 'nonzzz/vite-plugin-stylex',
-    npm: 'vite-plugin-stylex-dev',
-  },
   links: {
     github: 'https://github.com/nonzzz/vite-plugin-stylex',
     npm: 'https://www.npmjs.com/package/vite-plugin-stylex-dev',
     website: 'https://github.com/nonzzz/vite-plugin-stylex',
+  },
+  source: {
+    github: 'nonzzz/vite-plugin-stylex',
+    npm: 'vite-plugin-stylex-dev',
   },
   stats: {
     stars: 51,

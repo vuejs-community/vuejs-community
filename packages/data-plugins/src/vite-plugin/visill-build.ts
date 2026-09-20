@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'claude-skill',
     'widget',
   ],
-  source: {
-    npm: '@visill/build',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@visill/build',
+  },
+  source: {
+    npm: '@visill/build',
   },
   stats: {
     stars: 0,

@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'zod',
     'env',
   ],
-  source: {
-    npm: '@kevbook/vite-plugin-zod-validate-envs',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@kevbook/vite-plugin-zod-validate-envs',
+  },
+  source: {
+    npm: '@kevbook/vite-plugin-zod-validate-envs',
   },
   stats: {
     stars: 0,

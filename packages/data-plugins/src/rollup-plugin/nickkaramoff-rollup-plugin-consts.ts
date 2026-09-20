@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'consts',
     'constant',
   ],
-  source: {
-    github: 'NickKaramoff/rollup-plugin-consts',
-    npm: '@nickkaramoff/rollup-plugin-consts',
-  },
   links: {
     github: 'https://github.com/NickKaramoff/rollup-plugin-consts',
     npm: 'https://www.npmjs.com/package/@nickkaramoff/rollup-plugin-consts',
     website: 'https://github.com/NickKaramoff/rollup-plugin-consts#readme',
+  },
+  source: {
+    github: 'NickKaramoff/rollup-plugin-consts',
+    npm: '@nickkaramoff/rollup-plugin-consts',
   },
   stats: {
     stars: 2,

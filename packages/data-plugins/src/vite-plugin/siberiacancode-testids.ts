@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'codegen',
     'vite-plugin',
   ],
-  source: {
-    github: 'siberiacancode/core',
-    npm: '@siberiacancode/testids',
-  },
   links: {
     github: 'https://github.com/siberiacancode/core',
     npm: 'https://www.npmjs.com/package/@siberiacancode/testids',
     website: 'https://github.com/siberiacancode/core',
+  },
+  source: {
+    github: 'siberiacancode/core',
+    npm: '@siberiacancode/testids',
   },
   stats: {
     stars: 34,

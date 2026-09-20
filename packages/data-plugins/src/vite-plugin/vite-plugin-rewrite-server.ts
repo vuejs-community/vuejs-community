@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'serve',
     'rewrite',
   ],
-  source: {
-    github: 'okayasu/vite-plugin-rewrite-server',
-    npm: 'vite-plugin-rewrite-server',
-  },
   links: {
     github: 'https://github.com/okayasu/vite-plugin-rewrite-server',
     npm: 'https://www.npmjs.com/package/vite-plugin-rewrite-server',
     website: 'https://github.com/okayasu/vite-plugin-rewrite-server#readme',
+  },
+  source: {
+    github: 'okayasu/vite-plugin-rewrite-server',
+    npm: 'vite-plugin-rewrite-server',
   },
   stats: {
     stars: 0,

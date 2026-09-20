@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'cdn-upload',
   ],
-  source: {
-    npm: 'vite-plugin-sun-test-xyz',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-sun-test-xyz',
+  },
+  source: {
+    npm: 'vite-plugin-sun-test-xyz',
   },
   stats: {
     stars: 0,

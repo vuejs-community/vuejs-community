@@ -28,14 +28,14 @@ export default defineProjectMeta({
     'logging',
     'sourcemaps',
   ],
-  source: {
-    github: 'wilsonmdrs/sentinel-cx-vite',
-    npm: '@sentineljs/cx-vite',
-  },
   links: {
     github: 'https://github.com/wilsonmdrs/sentinel-cx-vite',
     npm: 'https://www.npmjs.com/package/@sentineljs/cx-vite',
     website: 'https://github.com/wilsonmdrs/sentinel-cx-vite#readme',
+  },
+  source: {
+    github: 'wilsonmdrs/sentinel-cx-vite',
+    npm: '@sentineljs/cx-vite',
   },
   stats: {
     stars: 0,

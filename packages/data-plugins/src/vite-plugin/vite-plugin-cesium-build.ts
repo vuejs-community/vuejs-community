@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'cesium',
     'CesiumJS',
   ],
-  source: {
-    github: 's3xysteak/vite-plugin-cesium-build',
-    npm: 'vite-plugin-cesium-build',
-  },
   links: {
     github: 'https://github.com/s3xysteak/vite-plugin-cesium-build',
     npm: 'https://www.npmjs.com/package/vite-plugin-cesium-build',
     website: 'https://github.com/s3xysteak/vite-plugin-cesium-build',
+  },
+  source: {
+    github: 's3xysteak/vite-plugin-cesium-build',
+    npm: 'vite-plugin-cesium-build',
   },
   stats: {
     stars: 29,

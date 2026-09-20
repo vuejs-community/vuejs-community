@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup-plugin-html',
     'rollup-plugin-generate',
   ],
-  source: {
-    github: 'aminnairi/rollup-plugin-generate-html',
-    npm: '@aminnairi/rollup-plugin-generate-html',
-  },
   links: {
     github: 'https://github.com/aminnairi/rollup-plugin-generate-html',
     npm: 'https://www.npmjs.com/package/@aminnairi/rollup-plugin-generate-html',
     website: 'https://github.com/aminnairi/rollup-plugin-generate-html#readme',
+  },
+  source: {
+    github: 'aminnairi/rollup-plugin-generate-html',
+    npm: '@aminnairi/rollup-plugin-generate-html',
   },
   stats: {
     stars: 0,

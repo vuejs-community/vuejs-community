@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-preprocess-debug-info',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-preprocess-debug-info',
+  },
+  source: {
+    npm: 'vite-plugin-preprocess-debug-info',
   },
   stats: {
     stars: 0,

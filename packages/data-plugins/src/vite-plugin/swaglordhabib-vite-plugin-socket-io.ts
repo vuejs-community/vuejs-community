@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'socketio',
     'vite',
   ],
-  source: {
-    github: 'SwaglordHabib/vite-plugin-socket-io',
-    npm: '@swaglordhabib/vite-plugin-socket-io',
-  },
   links: {
     github: 'https://github.com/SwaglordHabib/vite-plugin-socket-io',
     npm: 'https://www.npmjs.com/package/@swaglordhabib/vite-plugin-socket-io',
     website: 'https://github.com/SwaglordHabib/vite-plugin-socket-io.git#readme',
+  },
+  source: {
+    github: 'SwaglordHabib/vite-plugin-socket-io',
+    npm: '@swaglordhabib/vite-plugin-socket-io',
   },
   stats: {
     stars: 0,

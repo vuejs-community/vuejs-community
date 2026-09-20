@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'unplugin',
     'ondemand',
   ],
-  source: {
-    github: 'cumt-robin/vue-pro-components',
-    npm: 'vue-pro-components',
-  },
   links: {
     github: 'https://github.com/cumt-robin/vue-pro-components',
     npm: 'https://www.npmjs.com/package/vue-pro-components',
     website: 'https://github.com/cumt-robin/vue-pro-components#readme',
+  },
+  source: {
+    github: 'cumt-robin/vue-pro-components',
+    npm: 'vue-pro-components',
   },
   stats: {
     stars: 17,

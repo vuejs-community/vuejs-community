@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'tushy',
   ],
-  source: {
-    github: 'sh-sabbir/tushy-vite-plugin',
-    npm: 'tushy-vite-plugin',
-  },
   links: {
     github: 'https://github.com/sh-sabbir/tushy-vite-plugin',
     npm: 'https://www.npmjs.com/package/tushy-vite-plugin',
     website: 'https://github.com/sh-sabbir/tushy-vite-plugin#readme',
+  },
+  source: {
+    github: 'sh-sabbir/tushy-vite-plugin',
+    npm: 'tushy-vite-plugin',
   },
   stats: {
     stars: 0,

@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'unplugin',
   ],
-  source: {
-    npm: 'unplugin-resource',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/unplugin-resource',
+  },
+  source: {
+    npm: 'unplugin-resource',
   },
   stats: {
     stars: 0,

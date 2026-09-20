@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vue',
     'webpack',
   ],
-  source: {
-    github: 'tobiasdiez/storybook-vue-addon',
-    npm: 'storybook-vue-addon',
-  },
   links: {
     github: 'https://github.com/tobiasdiez/storybook-vue-addon',
     npm: 'https://www.npmjs.com/package/storybook-vue-addon',
     website: 'https://github.com/tobiasdiez/storybook-vue-addon#readme',
+  },
+  source: {
+    github: 'tobiasdiez/storybook-vue-addon',
+    npm: 'storybook-vue-addon',
   },
   stats: {
     stars: 62,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'css-in-js',
   ],
-  source: {
-    github: 'cyco130/en-vogue',
-    npm: 'en-vogue',
-  },
   links: {
     github: 'https://github.com/cyco130/en-vogue',
     npm: 'https://www.npmjs.com/package/en-vogue',
     website: 'https://github.com/cyco130/en-vogue#readme',
+  },
+  source: {
+    github: 'cyco130/en-vogue',
+    npm: 'en-vogue',
   },
   stats: {
     stars: 14,

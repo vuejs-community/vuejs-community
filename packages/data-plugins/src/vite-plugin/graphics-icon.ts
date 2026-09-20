@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'sharp',
     'svgo',
   ],
-  source: {
-    github: 'icodejoo/graphics-icon',
-    npm: 'graphics-icon',
-  },
   links: {
     github: 'https://github.com/icodejoo/graphics-icon',
     npm: 'https://www.npmjs.com/package/graphics-icon',
     website: 'https://github.com/icodejoo/graphics-icon/tree/main/packages/exports',
+  },
+  source: {
+    github: 'icodejoo/graphics-icon',
+    npm: 'graphics-icon',
   },
   stats: {
     stars: 0,

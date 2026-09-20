@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'webpack-plugin',
   ],
-  source: {
-    github: 'kiwitap001/yunji-tagger',
-    npm: 'yunji-tagger',
-  },
   links: {
     github: 'https://github.com/kiwitap001/yunji-tagger',
     npm: 'https://www.npmjs.com/package/yunji-tagger',
     website: 'https://github.com/kiwitap001/yunji-tagger#readme',
+  },
+  source: {
+    github: 'kiwitap001/yunji-tagger',
+    npm: 'yunji-tagger',
   },
   stats: {
     stars: 0,

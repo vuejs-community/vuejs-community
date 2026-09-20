@@ -25,14 +25,14 @@ export default defineProjectMeta({
     '手势返回',
     '页面返回拦截',
   ],
-  source: {
-    github: 'DBAAZzz/mp-weixin-back',
-    npm: 'mp-weixin-back',
-  },
   links: {
     github: 'https://github.com/DBAAZzz/mp-weixin-back',
     npm: 'https://www.npmjs.com/package/mp-weixin-back',
     website: 'https://github.com/DBAAZzz/mp-weixin-back#readme',
+  },
+  source: {
+    github: 'DBAAZzz/mp-weixin-back',
+    npm: 'mp-weixin-back',
   },
   stats: {
     stars: 12,

@@ -29,11 +29,11 @@ export default defineProjectMeta({
     'testing',
     'typescript',
   ],
-  source: {
-    npm: 'vite-api-routes-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-api-routes-plugin',
+  },
+  source: {
+    npm: 'vite-api-routes-plugin',
   },
   stats: {
     stars: 0,

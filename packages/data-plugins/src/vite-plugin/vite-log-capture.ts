@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'hmr',
     'vite-plugin',
   ],
-  source: {
-    github: 'Posterior-AI/vite-log-capture',
-    npm: 'vite-log-capture',
-  },
   links: {
     github: 'https://github.com/Posterior-AI/vite-log-capture',
     npm: 'https://www.npmjs.com/package/vite-log-capture',
     website: 'https://github.com/Posterior-AI/vite-log-capture#readme',
+  },
+  source: {
+    github: 'Posterior-AI/vite-log-capture',
+    npm: 'vite-log-capture',
   },
   stats: {
     stars: 0,

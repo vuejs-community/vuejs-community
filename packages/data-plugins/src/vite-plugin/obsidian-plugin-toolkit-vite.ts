@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'react',
     'fast-refresh',
   ],
-  source: {
-    github: 'jon-dez/obsidian-plugin-toolkit',
-    npm: '@obsidian-plugin-toolkit/vite',
-  },
   links: {
     github: 'https://github.com/jon-dez/obsidian-plugin-toolkit',
     npm: 'https://www.npmjs.com/package/@obsidian-plugin-toolkit/vite',
     website: 'https://github.com/jon-dez/obsidian-plugin-toolkit/tree/main/packages/vite#readme',
+  },
+  source: {
+    github: 'jon-dez/obsidian-plugin-toolkit',
+    npm: '@obsidian-plugin-toolkit/vite',
   },
   stats: {
     stars: 0,

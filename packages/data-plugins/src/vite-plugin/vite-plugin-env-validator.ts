@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'schema-validation',
     'vite-plugin',
   ],
-  source: {
-    github: 'ramonxm/vite-env-validator',
-    npm: 'vite-plugin-env-validator',
-  },
   links: {
     github: 'https://github.com/ramonxm/vite-env-validator',
     npm: 'https://www.npmjs.com/package/vite-plugin-env-validator',
     website: 'https://github.com/ramonxm/vite-env-validator#readme',
+  },
+  source: {
+    github: 'ramonxm/vite-env-validator',
+    npm: 'vite-plugin-env-validator',
   },
   stats: {
     stars: 1,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'webpack',
     'plugins',
   ],
-  source: {
-    github: 'jpapini/shared-packages',
-    npm: '@jpapini/unplugin-deepkit-type',
-  },
   links: {
     github: 'https://github.com/jpapini/shared-packages',
     npm: 'https://www.npmjs.com/package/@jpapini/unplugin-deepkit-type',
     website: 'https://github.com/jpapini/shared-packages/tree/main/packages/unplugin-deepkit-type#readme',
+  },
+  source: {
+    github: 'jpapini/shared-packages',
+    npm: '@jpapini/unplugin-deepkit-type',
   },
   stats: {
     stars: 0,

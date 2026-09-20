@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'qurafi/ajv-tools',
-    npm: 'ajv-build-tools',
-  },
   links: {
     github: 'https://github.com/qurafi/ajv-tools',
     npm: 'https://www.npmjs.com/package/ajv-build-tools',
     website: 'https://github.com/qurafi/ajv-tools#readme',
+  },
+  source: {
+    github: 'qurafi/ajv-tools',
+    npm: 'ajv-build-tools',
   },
   stats: {
     stars: 0,

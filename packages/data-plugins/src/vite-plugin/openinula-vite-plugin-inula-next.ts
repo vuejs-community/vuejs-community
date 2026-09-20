@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'Inula-Next',
     'vite-plugin',
   ],
-  source: {
-    npm: '@openinula/vite-plugin-inula-next',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@openinula/vite-plugin-inula-next',
+  },
+  source: {
+    npm: '@openinula/vite-plugin-inula-next',
   },
   stats: {
     stars: 0,

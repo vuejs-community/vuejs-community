@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'stats',
     'rollup-plugin',
   ],
-  source: {
-    github: 'HongqingCao/vite-plugin-stats-html',
-    npm: 'vite-plugin-stats-html',
-  },
   links: {
     github: 'https://github.com/HongqingCao/vite-plugin-stats-html',
     npm: 'https://www.npmjs.com/package/vite-plugin-stats-html',
     website: 'https://github.com/HongqingCao/vite-plugin-stats-html',
+  },
+  source: {
+    github: 'HongqingCao/vite-plugin-stats-html',
+    npm: 'vite-plugin-stats-html',
   },
   stats: {
     stars: 10,

@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'unplugin',
   ],
-  source: {
-    github: 'jview-design/jview',
-    npm: '@jview/unplugin',
-  },
   links: {
     github: 'https://github.com/jview-design/jview',
     npm: 'https://www.npmjs.com/package/@jview/unplugin',
     website: 'https://github.com/jview-design/jview#readme',
+  },
+  source: {
+    github: 'jview-design/jview',
+    npm: '@jview/unplugin',
   },
   stats: {
     stars: 0,

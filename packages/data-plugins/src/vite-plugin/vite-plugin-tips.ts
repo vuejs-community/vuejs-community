@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'yingpengsha/vite-plugin-tips',
-    npm: 'vite-plugin-tips',
-  },
   links: {
     github: 'https://github.com/yingpengsha/vite-plugin-tips',
     npm: 'https://www.npmjs.com/package/vite-plugin-tips',
     website: 'https://github.com/yingpengsha/vite-plugin-tips#readme',
+  },
+  source: {
+    github: 'yingpengsha/vite-plugin-tips',
+    npm: 'vite-plugin-tips',
   },
   stats: {
     stars: 61,

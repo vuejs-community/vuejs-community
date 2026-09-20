@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'project',
     'vite-plugin',
   ],
-  source: {
-    github: 'Posterior-AI/vite-zipper',
-    npm: 'vite-zipper',
-  },
   links: {
     github: 'https://github.com/Posterior-AI/vite-zipper',
     npm: 'https://www.npmjs.com/package/vite-zipper',
     website: 'https://github.com/Posterior-AI/vite-zipper#readme',
+  },
+  source: {
+    github: 'Posterior-AI/vite-zipper',
+    npm: 'vite-zipper',
   },
   stats: {
     stars: 0,

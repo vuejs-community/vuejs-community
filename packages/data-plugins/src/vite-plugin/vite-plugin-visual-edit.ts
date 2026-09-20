@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'hot-reload',
     'babel',
   ],
-  source: {
-    github: 'Joinguyen/vite-plugin-visual-edit',
-    npm: 'vite-plugin-visual-edit',
-  },
   links: {
     github: 'https://github.com/Joinguyen/vite-plugin-visual-edit',
     npm: 'https://www.npmjs.com/package/vite-plugin-visual-edit',
     website: 'https://github.com/Joinguyen/vite-plugin-visual-edit#readme',
+  },
+  source: {
+    github: 'Joinguyen/vite-plugin-visual-edit',
+    npm: 'vite-plugin-visual-edit',
   },
   stats: {
     stars: 0,

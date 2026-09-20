@@ -19,11 +19,11 @@ export default defineProjectMeta({
     'module-federation',
     'antd',
   ],
-  source: {
-    npm: '@jiayouzuo/css-scope-vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@jiayouzuo/css-scope-vite',
+  },
+  source: {
+    npm: '@jiayouzuo/css-scope-vite',
   },
   stats: {
     stars: 0,

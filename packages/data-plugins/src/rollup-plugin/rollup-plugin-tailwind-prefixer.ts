@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'tailwind',
   ],
-  source: {
-    npm: 'rollup-plugin-tailwind-prefixer',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-tailwind-prefixer',
+  },
+  source: {
+    npm: 'rollup-plugin-tailwind-prefixer',
   },
   stats: {
     stars: 0,

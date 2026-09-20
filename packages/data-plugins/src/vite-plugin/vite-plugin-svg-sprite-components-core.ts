@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'svg',
     'sprites',
   ],
-  source: {
-    github: 'knpwrs/vite-plugin-svg-sprite-components',
-    npm: 'vite-plugin-svg-sprite-components-core',
-  },
   links: {
     github: 'https://github.com/knpwrs/vite-plugin-svg-sprite-components',
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-sprite-components-core',
     website: 'https://github.com/knpwrs/vite-plugin-svg-sprite-components/',
+  },
+  source: {
+    github: 'knpwrs/vite-plugin-svg-sprite-components',
+    npm: 'vite-plugin-svg-sprite-components-core',
   },
   stats: {
     stars: 2,

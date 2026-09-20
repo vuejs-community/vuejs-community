@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'assets',
   ],
-  source: {
-    github: 'SebastianSpeitel/rollup-plugin-assemblyscript-loader',
-    npm: '@sebastianspeitel/rollup-plugin-assemblyscript-loader',
-  },
   links: {
     github: 'https://github.com/SebastianSpeitel/rollup-plugin-assemblyscript-loader',
     npm: 'https://www.npmjs.com/package/@sebastianspeitel/rollup-plugin-assemblyscript-loader',
     website: 'https://github.com/SebastianSpeitel/rrollup-plugin-assemblyscript-loader#readme',
+  },
+  source: {
+    github: 'SebastianSpeitel/rollup-plugin-assemblyscript-loader',
+    npm: '@sebastianspeitel/rollup-plugin-assemblyscript-loader',
   },
   stats: {
     stars: 1,

@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'ai',
     'dx',
   ],
-  source: {
-    github: 'setugk/vite-plugin-specter',
-    npm: 'vite-plugin-specter',
-  },
   links: {
     github: 'https://github.com/setugk/vite-plugin-specter',
     npm: 'https://www.npmjs.com/package/vite-plugin-specter',
     website: 'https://github.com/setugk/vite-plugin-specter#readme',
+  },
+  source: {
+    github: 'setugk/vite-plugin-specter',
+    npm: 'vite-plugin-specter',
   },
   stats: {
     stars: 1,

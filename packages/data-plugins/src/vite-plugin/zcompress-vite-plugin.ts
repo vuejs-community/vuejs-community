@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'performance',
     'multi-threaded',
   ],
-  source: {
-    github: 'luochuan2008/zcompress',
-    npm: 'zcompress-vite-plugin',
-  },
   links: {
     github: 'https://github.com/luochuan2008/zcompress',
     npm: 'https://www.npmjs.com/package/zcompress-vite-plugin',
     website: 'https://github.com/luochuan2008/zcompress#readme',
+  },
+  source: {
+    github: 'luochuan2008/zcompress',
+    npm: 'zcompress-vite-plugin',
   },
   stats: {
     stars: 3,

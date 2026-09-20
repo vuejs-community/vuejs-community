@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-react-inspector',
   ],
-  source: {
-    github: 'sudongyuer/vite-plugin-react-inspector',
-    npm: 'vite-plugin-react-inspector',
-  },
   links: {
     github: 'https://github.com/sudongyuer/vite-plugin-react-inspector',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-inspector',
     website: 'https://github.com/sudongyuer/vite-plugin-react-inspector#readme',
+  },
+  source: {
+    github: 'sudongyuer/vite-plugin-react-inspector',
+    npm: 'vite-plugin-react-inspector',
   },
   stats: {
     stars: 157,

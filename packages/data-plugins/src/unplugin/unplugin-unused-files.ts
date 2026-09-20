@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'fightwithtiger/unplugin-unused-files',
-    npm: 'unplugin-unused-files',
-  },
   links: {
     github: 'https://github.com/fightwithtiger/unplugin-unused-files',
     npm: 'https://www.npmjs.com/package/unplugin-unused-files',
     website: 'https://github.com/fightwithtiger/unplugin-unused-files#readme',
+  },
+  source: {
+    github: 'fightwithtiger/unplugin-unused-files',
+    npm: 'unplugin-unused-files',
   },
   stats: {
     stars: 0,

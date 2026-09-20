@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'webpack',
     'transform',
   ],
-  source: {
-    github: 'coderhyh/unplugin-auto-export',
-    npm: 'unplugin-auto-export',
-  },
   links: {
     github: 'https://github.com/coderhyh/unplugin-auto-export',
     npm: 'https://www.npmjs.com/package/unplugin-auto-export',
     website: 'https://github.com/coderhyh/unplugin-auto-export#readme',
+  },
+  source: {
+    github: 'coderhyh/unplugin-auto-export',
+    npm: 'unplugin-auto-export',
   },
   stats: {
     stars: 37,

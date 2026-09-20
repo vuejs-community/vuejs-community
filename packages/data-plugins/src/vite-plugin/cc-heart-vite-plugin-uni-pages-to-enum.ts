@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'uni-app',
     'pages-to-enum',
   ],
-  source: {
-    npm: '@cc-heart/vite-plugin-uni-pages-to-enum',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@cc-heart/vite-plugin-uni-pages-to-enum',
+  },
+  source: {
+    npm: '@cc-heart/vite-plugin-uni-pages-to-enum',
   },
   stats: {
     stars: 0,

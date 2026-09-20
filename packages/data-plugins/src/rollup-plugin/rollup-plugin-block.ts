@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'block',
     'import',
   ],
-  source: {
-    github: 'tjenkinson/rollup-plugin-block',
-    npm: 'rollup-plugin-block',
-  },
   links: {
     github: 'https://github.com/tjenkinson/rollup-plugin-block',
     npm: 'https://www.npmjs.com/package/rollup-plugin-block',
     website: 'https://github.com/tjenkinson/rollup-plugin-block#readme',
+  },
+  source: {
+    github: 'tjenkinson/rollup-plugin-block',
+    npm: 'rollup-plugin-block',
   },
   stats: {
     stars: 1,

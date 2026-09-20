@@ -26,11 +26,11 @@ export default defineProjectMeta({
     'icon-system',
     'ui-kit',
   ],
-  source: {
-    npm: 'vite-plugin-svg-sprite-smart',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-svg-sprite-smart',
+  },
+  source: {
+    npm: 'vite-plugin-svg-sprite-smart',
   },
   stats: {
     stars: 0,

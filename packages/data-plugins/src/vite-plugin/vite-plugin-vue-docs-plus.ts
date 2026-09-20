@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'wangshaojie1995/vite-plugin-vue-docs-plus',
-    npm: 'vite-plugin-vue-docs-plus',
-  },
   links: {
     github: 'https://github.com/wangshaojie1995/vite-plugin-vue-docs-plus',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-docs-plus',
     website: 'https://github.com/wangshaojie1995/vite-plugin-vue-docs-plus#readme',
+  },
+  source: {
+    github: 'wangshaojie1995/vite-plugin-vue-docs-plus',
+    npm: 'vite-plugin-vue-docs-plus',
   },
   stats: {
     stars: 3,

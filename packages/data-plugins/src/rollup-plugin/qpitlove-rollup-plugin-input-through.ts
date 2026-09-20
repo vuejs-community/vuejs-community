@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'input-output-through',
     'rollup-plugin-input-through',
   ],
-  source: {
-    github: 'qpitlove/rollup-plugin-input-through',
-    npm: '@qpitlove/rollup-plugin-input-through',
-  },
   links: {
     github: 'https://github.com/qpitlove/rollup-plugin-input-through',
     npm: 'https://www.npmjs.com/package/@qpitlove/rollup-plugin-input-through',
     website: 'https://github.com/qpitlove/rollup-plugin-input-through#readme',
+  },
+  source: {
+    github: 'qpitlove/rollup-plugin-input-through',
+    npm: '@qpitlove/rollup-plugin-input-through',
   },
   stats: {
     stars: 0,

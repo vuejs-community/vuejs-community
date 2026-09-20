@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'console.log',
     'vite-plugin',
   ],
-  source: {
-    github: 'jacoby3210/vite-plugin-console-pro',
-    npm: 'vite-plugin-console-pro',
-  },
   links: {
     github: 'https://github.com/jacoby3210/vite-plugin-console-pro',
     npm: 'https://www.npmjs.com/package/vite-plugin-console-pro',
     website: 'https://github.com/jacoby3210/vite-plugin-console-pro#readme',
+  },
+  source: {
+    github: 'jacoby3210/vite-plugin-console-pro',
+    npm: 'vite-plugin-console-pro',
   },
   stats: {
     stars: 0,

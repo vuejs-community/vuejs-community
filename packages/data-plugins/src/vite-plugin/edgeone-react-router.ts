@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'adapter',
     'ssr',
   ],
-  source: {
-    npm: '@edgeone/react-router',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@edgeone/react-router',
+  },
+  source: {
+    npm: '@edgeone/react-router',
   },
   stats: {
     stars: 0,

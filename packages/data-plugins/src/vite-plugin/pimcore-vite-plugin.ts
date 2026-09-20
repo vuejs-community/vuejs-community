@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vitejs',
     'hot-reload',
   ],
-  source: {
-    github: 'Carbdrox/pimcore-vite-plugin',
-    npm: 'pimcore-vite-plugin',
-  },
   links: {
     github: 'https://github.com/Carbdrox/pimcore-vite-plugin',
     npm: 'https://www.npmjs.com/package/pimcore-vite-plugin',
     website: 'https://github.com/Carbdrox/pimcore-vite-plugin',
+  },
+  source: {
+    github: 'Carbdrox/pimcore-vite-plugin',
+    npm: 'pimcore-vite-plugin',
   },
   stats: {
     stars: 3,

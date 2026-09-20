@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'semi-ui',
   ],
-  source: {
-    github: 'snowflk/vite-plugin-semi-theme',
-    npm: '@necrobits/vite-plugin-semi-theme',
-  },
   links: {
     github: 'https://github.com/snowflk/vite-plugin-semi-theme',
     npm: 'https://www.npmjs.com/package/@necrobits/vite-plugin-semi-theme',
     website: 'https://github.com/snowflk/vite-plugin-semi-theme#readme',
+  },
+  source: {
+    github: 'snowflk/vite-plugin-semi-theme',
+    npm: '@necrobits/vite-plugin-semi-theme',
   },
   stats: {
     stars: 0,

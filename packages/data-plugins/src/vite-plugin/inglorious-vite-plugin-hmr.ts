@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'state-preservation',
     'inglorious-web',
   ],
-  source: {
-    github: 'IngloriousCoderz/inglorious-forge',
-    npm: '@inglorious/vite-plugin-hmr',
-  },
   links: {
     github: 'https://github.com/IngloriousCoderz/inglorious-forge',
     npm: 'https://www.npmjs.com/package/@inglorious/vite-plugin-hmr',
     website: 'https://github.com/IngloriousCoderz/inglorious-forge/tree/main/packages/vite-plugin-hmr#readme',
+  },
+  source: {
+    github: 'IngloriousCoderz/inglorious-forge',
+    npm: '@inglorious/vite-plugin-hmr',
   },
   stats: {
     stars: 22,

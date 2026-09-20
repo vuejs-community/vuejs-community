@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'chrome-extension',
     'chrome',
   ],
-  source: {
-    github: 'guocaoyi/vite-plugin-crx',
-    npm: 'vite-plugin-crx',
-  },
   links: {
     github: 'https://github.com/guocaoyi/vite-plugin-crx',
     npm: 'https://www.npmjs.com/package/vite-plugin-crx',
     website: 'https://github.com/guocaoyi/vite-plugin-crx#readme',
+  },
+  source: {
+    github: 'guocaoyi/vite-plugin-crx',
+    npm: 'vite-plugin-crx',
   },
   stats: {
     stars: 0,

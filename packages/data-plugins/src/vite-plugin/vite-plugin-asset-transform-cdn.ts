@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'asset',
     'cdn',
   ],
-  source: {
-    github: 'Abunuo/vite-plugin-asset-transform-CDN',
-    npm: 'vite-plugin-asset-transform-cdn',
-  },
   links: {
     github: 'https://github.com/Abunuo/vite-plugin-asset-transform-CDN',
     npm: 'https://www.npmjs.com/package/vite-plugin-asset-transform-cdn',
     website: 'https://github.com/Abunuo/vite-plugin-asset-transform-CDN#readme',
+  },
+  source: {
+    github: 'Abunuo/vite-plugin-asset-transform-CDN',
+    npm: 'vite-plugin-asset-transform-cdn',
   },
   stats: {
     stars: 0,

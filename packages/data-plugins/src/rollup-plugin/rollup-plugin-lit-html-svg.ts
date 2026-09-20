@@ -17,13 +17,13 @@ export default defineProjectMeta({
     'svgo',
     'literal',
   ],
-  source: {
-    github: 'odinr/rollup',
-    npm: 'rollup-plugin-lit-html-svg',
-  },
   links: {
     github: 'https://github.com/odinr/rollup',
     npm: 'https://www.npmjs.com/package/rollup-plugin-lit-html-svg',
+  },
+  source: {
+    github: 'odinr/rollup',
+    npm: 'rollup-plugin-lit-html-svg',
   },
   stats: {
     stars: 0,

@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'i18n',
     'check-keys',
   ],
-  source: {
-    github: 'hmydgz/vite-plugin-i18n-check-keys',
-    npm: 'vite-plugin-i18n-check-keys',
-  },
   links: {
     github: 'https://github.com/hmydgz/vite-plugin-i18n-check-keys',
     npm: 'https://www.npmjs.com/package/vite-plugin-i18n-check-keys',
     website: 'https://github.com/hmydgz/vite-plugin-i18n-check-keys#readme',
+  },
+  source: {
+    github: 'hmydgz/vite-plugin-i18n-check-keys',
+    npm: 'vite-plugin-i18n-check-keys',
   },
   stats: {
     stars: 1,

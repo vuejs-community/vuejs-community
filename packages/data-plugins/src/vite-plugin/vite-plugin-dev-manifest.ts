@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'wordpress',
     'backend integration',
   ],
-  source: {
-    github: 'owlsdepartment/vite-plugin-dev-manifest',
-    npm: 'vite-plugin-dev-manifest',
-  },
   links: {
     github: 'https://github.com/owlsdepartment/vite-plugin-dev-manifest',
     npm: 'https://www.npmjs.com/package/vite-plugin-dev-manifest',
     website: 'https://github.com/owlsdepartment/vite-plugin-dev-manifest#readme',
+  },
+  source: {
+    github: 'owlsdepartment/vite-plugin-dev-manifest',
+    npm: 'vite-plugin-dev-manifest',
   },
   stats: {
     stars: 28,

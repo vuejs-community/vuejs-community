@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rate',
     'stream',
   ],
-  source: {
-    github: 'ArcherGu/vite-plugin-rate-limiter',
-    npm: 'vite-plugin-rate-limiter',
-  },
   links: {
     github: 'https://github.com/ArcherGu/vite-plugin-rate-limiter',
     npm: 'https://www.npmjs.com/package/vite-plugin-rate-limiter',
     website: 'https://github.com/ArcherGu/vite-plugin-rate-limiter#readme',
+  },
+  source: {
+    github: 'ArcherGu/vite-plugin-rate-limiter',
+    npm: 'vite-plugin-rate-limiter',
   },
   stats: {
     stars: 6,

@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'fouc',
     'render-blocking',
   ],
-  source: {
-    github: 'semirbabajic/vite-plugin-vue-critical-css',
-    npm: 'vite-plugin-vue-critical-css',
-  },
   links: {
     github: 'https://github.com/semirbabajic/vite-plugin-vue-critical-css',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-critical-css',
     website: 'https://github.com/semirbabajic/vite-plugin-vue-critical-css#readme',
+  },
+  source: {
+    github: 'semirbabajic/vite-plugin-vue-critical-css',
+    npm: 'vite-plugin-vue-critical-css',
   },
   stats: {
     stars: 2,

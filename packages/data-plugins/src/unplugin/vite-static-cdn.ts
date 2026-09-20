@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'Alex-Programer/vite-static-cdn',
-    npm: 'vite-static-cdn',
-  },
   links: {
     github: 'https://github.com/Alex-Programer/vite-static-cdn',
     npm: 'https://www.npmjs.com/package/vite-static-cdn',
     website: 'https://github.com/Alex-Programer/vite-static-cdn#readme',
+  },
+  source: {
+    github: 'Alex-Programer/vite-static-cdn',
+    npm: 'vite-static-cdn',
   },
   stats: {
     stars: 0,

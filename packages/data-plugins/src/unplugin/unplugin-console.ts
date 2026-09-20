@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'webpack',
     'transform',
   ],
-  source: {
-    github: 'Sunny-117/unplugin-console',
-    npm: 'unplugin-console',
-  },
   links: {
     github: 'https://github.com/Sunny-117/unplugin-console',
     npm: 'https://www.npmjs.com/package/unplugin-console',
     website: 'https://github.com/Sunny-117/unplugin-console#readme',
+  },
+  source: {
+    github: 'Sunny-117/unplugin-console',
+    npm: 'unplugin-console',
   },
   stats: {
     stars: 1,

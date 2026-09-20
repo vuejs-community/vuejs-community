@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-api-mockjs',
   ],
-  source: {
-    npm: 'vite-plugin-api-mockjs',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-api-mockjs',
+  },
+  source: {
+    npm: 'vite-plugin-api-mockjs',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'Cesium',
     'map3d-dc-sdk',
   ],
-  source: {
-    github: 'dailiwei/vite-plugin-dc',
-    npm: '@narutogis/vite-plugin-dc',
-  },
   links: {
     github: 'https://github.com/dailiwei/vite-plugin-dc',
     npm: 'https://www.npmjs.com/package/@narutogis/vite-plugin-dc',
     website: 'https://github.com/dailiwei/vite-plugin-dc#readme',
+  },
+  source: {
+    github: 'dailiwei/vite-plugin-dc',
+    npm: '@narutogis/vite-plugin-dc',
   },
   stats: {
     stars: 0,

@@ -14,13 +14,13 @@ export default defineProjectMeta({
     'terser',
     'minify',
   ],
-  source: {
-    github: 'TrySound/rollup-plugin-terser',
-    npm: '@salimify/rollup-plugin-terser',
-  },
   links: {
     github: 'https://github.com/TrySound/rollup-plugin-terser',
     npm: 'https://www.npmjs.com/package/@salimify/rollup-plugin-terser',
+  },
+  source: {
+    github: 'TrySound/rollup-plugin-terser',
+    npm: '@salimify/rollup-plugin-terser',
   },
   stats: {
     stars: 606,

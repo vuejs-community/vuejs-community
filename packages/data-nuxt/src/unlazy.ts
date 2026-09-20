@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://unlazy.byjohann.dev/',
   },
   source: {
-    github: 'johannschopplich/unlazy#main/packages/nuxt',
+    github: 'johannschopplich/unlazy',
     npm: '@unlazy/nuxt',
   },
 })

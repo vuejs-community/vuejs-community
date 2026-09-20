@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'addon',
     'browser',
   ],
-  source: {
-    github: 'aklinker1/vite-plugin-web-extension',
-    npm: '@truecarry/vite-plugin-web-extension',
-  },
   links: {
     github: 'https://github.com/aklinker1/vite-plugin-web-extension',
     npm: 'https://www.npmjs.com/package/@truecarry/vite-plugin-web-extension',
     website: 'https://vite-plugin-web-extension.aklinker1.io',
+  },
+  source: {
+    github: 'aklinker1/vite-plugin-web-extension',
+    npm: '@truecarry/vite-plugin-web-extension',
   },
   stats: {
     stars: 843,

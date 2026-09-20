@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'vite-plugin',
     'digital-signage',
   ],
-  source: {
-    npm: '@kaptive/cli',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@kaptive/cli',
     website: 'https://kaptive.ch',
+  },
+  source: {
+    npm: '@kaptive/cli',
   },
   stats: {
     stars: 0,

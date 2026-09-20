@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'html',
     'template',
   ],
-  source: {
-    github: 'harrisoff/vite-plugin-template',
-    npm: 'vite-plugin-template',
-  },
   links: {
     github: 'https://github.com/harrisoff/vite-plugin-template',
     npm: 'https://www.npmjs.com/package/vite-plugin-template',
     website: 'https://github.com/harrisoff/vite-plugin-template/tree/master/#readme',
+  },
+  source: {
+    github: 'harrisoff/vite-plugin-template',
+    npm: 'vite-plugin-template',
   },
   stats: {
     stars: 1,

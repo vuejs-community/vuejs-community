@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'webmanifest',
   ],
-  source: {
-    github: 'budarin/vite-plugin-webmanifest',
-    npm: '@budarin/vite-plugin-webmanifest',
-  },
   links: {
     github: 'https://github.com/budarin/vite-plugin-webmanifest',
     npm: 'https://www.npmjs.com/package/@budarin/vite-plugin-webmanifest',
     website: 'https://github.com/budarin/vite-plugin-webmanifest#readme',
+  },
+  source: {
+    github: 'budarin/vite-plugin-webmanifest',
+    npm: '@budarin/vite-plugin-webmanifest',
   },
   stats: {
     stars: 0,

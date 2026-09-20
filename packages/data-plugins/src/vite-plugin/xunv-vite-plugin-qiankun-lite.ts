@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'vite-plugin-qiankun',
     'vite-plugin-qiankun-lite',
   ],
-  source: {
-    github: 'xunv/vite-plugin-qiankun-lite',
-    npm: '@xunv/vite-plugin-qiankun-lite',
-  },
   links: {
     github: 'https://github.com/xunv/vite-plugin-qiankun-lite',
     npm: 'https://www.npmjs.com/package/@xunv/vite-plugin-qiankun-lite',
     website: 'https://github.com/xunv/vite-plugin-qiankun-lite#readme',
+  },
+  source: {
+    github: 'xunv/vite-plugin-qiankun-lite',
+    npm: '@xunv/vite-plugin-qiankun-lite',
   },
   stats: {
     stars: 0,

@@ -25,14 +25,14 @@ export default defineProjectMeta({
     'chunks',
     'modules',
   ],
-  source: {
-    github: 'relative-ci/bundle-stats',
-    npm: 'rollup-plugin-bundle-stats',
-  },
   links: {
     github: 'https://github.com/relative-ci/bundle-stats',
     npm: 'https://www.npmjs.com/package/rollup-plugin-bundle-stats',
     website: 'https://github.com/relative-ci/bundle-stats/blob/master/packages/rollup-plugin#readme',
+  },
+  source: {
+    github: 'relative-ci/bundle-stats',
+    npm: 'rollup-plugin-bundle-stats',
   },
   stats: {
     stars: 672,

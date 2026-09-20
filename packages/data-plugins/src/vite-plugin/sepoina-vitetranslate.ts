@@ -31,14 +31,14 @@ export default defineProjectMeta({
     'llm',
     'machine-translation',
   ],
-  source: {
-    github: 'sepoina/viteTranslate',
-    npm: '@sepoina/vitetranslate',
-  },
   links: {
     github: 'https://github.com/sepoina/viteTranslate',
     npm: 'https://www.npmjs.com/package/@sepoina/vitetranslate',
     website: 'https://github.com/sepoina/viteTranslate#readme',
+  },
+  source: {
+    github: 'sepoina/viteTranslate',
+    npm: '@sepoina/vitetranslate',
   },
   stats: {
     stars: 0,

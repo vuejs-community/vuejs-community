@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'theme',
     'rollup-plugin',
   ],
-  source: {
-    github: 'creativestyle/kombinator',
-    npm: '@creativestyle/kombinator',
-  },
   links: {
     github: 'https://github.com/creativestyle/kombinator',
     npm: 'https://www.npmjs.com/package/@creativestyle/kombinator',
     website: 'https://github.com/creativestyle/kombinator#readme',
+  },
+  source: {
+    github: 'creativestyle/kombinator',
+    npm: '@creativestyle/kombinator',
   },
   stats: {
     stars: 0,

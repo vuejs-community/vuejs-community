@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'condition compile',
     'rollup typescript',
   ],
-  source: {
-    github: 'wesmile2020/rollup-plugin-tsnew',
-    npm: 'rollup-plugin-tsnew',
-  },
   links: {
     github: 'https://github.com/wesmile2020/rollup-plugin-tsnew',
     npm: 'https://www.npmjs.com/package/rollup-plugin-tsnew',
     website: 'https://github.com/wesmile2020/rollup-plugin-tsnew#readme',
+  },
+  source: {
+    github: 'wesmile2020/rollup-plugin-tsnew',
+    npm: 'rollup-plugin-tsnew',
   },
   stats: {
     stars: 0,

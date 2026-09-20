@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'Enderchief/gleam-tools',
-    npm: 'vite-gleam',
-  },
   links: {
     github: 'https://github.com/Enderchief/gleam-tools',
     npm: 'https://www.npmjs.com/package/vite-gleam',
     website: 'https://github.com/Enderchief/gleam-tools/tree/master#readme',
+  },
+  source: {
+    github: 'Enderchief/gleam-tools',
+    npm: 'vite-gleam',
   },
   stats: {
     stars: 83,

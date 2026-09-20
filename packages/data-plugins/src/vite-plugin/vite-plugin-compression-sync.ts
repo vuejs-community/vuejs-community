@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'imagemin',
     'vben',
   ],
-  source: {
-    github: 'hn-failte/vite-plugin-compression',
-    npm: 'vite-plugin-compression-sync',
-  },
   links: {
     github: 'https://github.com/hn-failte/vite-plugin-compression',
     npm: 'https://www.npmjs.com/package/vite-plugin-compression-sync',
     website: 'https://github.com/hn-failte/vite-plugin-compression/tree/master/#readme',
+  },
+  source: {
+    github: 'hn-failte/vite-plugin-compression',
+    npm: 'vite-plugin-compression-sync',
   },
   stats: {
     stars: 1,

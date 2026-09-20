@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'types',
     'codegen',
   ],
-  source: {
-    github: 'Yquian/vite-plugin-api-types-gen',
-    npm: 'vite-plugin-api-types-gen',
-  },
   links: {
     github: 'https://github.com/Yquian/vite-plugin-api-types-gen',
     npm: 'https://www.npmjs.com/package/vite-plugin-api-types-gen',
     website: 'https://github.com/Yquian/vite-plugin-api-types-gen#readme',
+  },
+  source: {
+    github: 'Yquian/vite-plugin-api-types-gen',
+    npm: 'vite-plugin-api-types-gen',
   },
   stats: {
     stars: 2,

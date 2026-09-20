@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'doberkofler/vite-plugin-merge-css',
-    npm: 'vite-plugin-backend-html',
-  },
   links: {
     github: 'https://github.com/doberkofler/vite-plugin-merge-css',
     npm: 'https://www.npmjs.com/package/vite-plugin-backend-html',
     website: 'https://github.com/doberkofler/vite-plugin-merge-css#readme',
+  },
+  source: {
+    github: 'doberkofler/vite-plugin-merge-css',
+    npm: 'vite-plugin-backend-html',
   },
   stats: {
     stars: 0,

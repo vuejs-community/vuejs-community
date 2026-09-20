@@ -17,13 +17,13 @@ export default defineProjectMeta({
     'multi-tenant',
     'multi-brand',
   ],
-  source: {
-    github: 'evanz1215/vite-plugin-white-label',
-    npm: 'vite-plugin-white-label',
-  },
   links: {
     github: 'https://github.com/evanz1215/vite-plugin-white-label',
     npm: 'https://www.npmjs.com/package/vite-plugin-white-label',
+  },
+  source: {
+    github: 'evanz1215/vite-plugin-white-label',
+    npm: 'vite-plugin-white-label',
   },
   stats: {
     stars: 0,

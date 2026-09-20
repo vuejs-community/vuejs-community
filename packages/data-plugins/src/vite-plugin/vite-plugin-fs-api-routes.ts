@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'filesystem',
     'nextjs',
   ],
-  source: {
-    npm: 'vite-plugin-fs-api-routes',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-fs-api-routes',
+  },
+  source: {
+    npm: 'vite-plugin-fs-api-routes',
   },
   stats: {
     stars: 0,

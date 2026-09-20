@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'css',
     'babel',
   ],
-  source: {
-    github: 'naaa-G/react-responsive-easy',
-    npm: '@yaseratiar/react-responsive-easy-vite-plugin',
-  },
   links: {
     github: 'https://github.com/naaa-G/react-responsive-easy',
     npm: 'https://www.npmjs.com/package/@yaseratiar/react-responsive-easy-vite-plugin',
     website: 'https://github.com/naaa-G/react-responsive-easy#readme',
+  },
+  source: {
+    github: 'naaa-G/react-responsive-easy',
+    npm: '@yaseratiar/react-responsive-easy-vite-plugin',
   },
   stats: {
     stars: 0,

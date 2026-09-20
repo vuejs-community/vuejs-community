@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'importmap',
   ],
-  source: {
-    github: 'CJWbiu/vite-plugin-hash-importmap',
-    npm: 'vite-plugin-hash-importmap',
-  },
   links: {
     github: 'https://github.com/CJWbiu/vite-plugin-hash-importmap',
     npm: 'https://www.npmjs.com/package/vite-plugin-hash-importmap',
     website: 'https://github.com/CJWbiu/vite-plugin-hash-importmap',
+  },
+  source: {
+    github: 'CJWbiu/vite-plugin-hash-importmap',
+    npm: 'vite-plugin-hash-importmap',
   },
   stats: {
     stars: 0,

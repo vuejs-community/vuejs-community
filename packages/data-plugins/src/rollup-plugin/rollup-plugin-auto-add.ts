@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'rollup-auto-add',
   ],
-  source: {
-    github: 'qlly0630/rollup-plugin-auto-add',
-    npm: 'rollup-plugin-auto-add',
-  },
   links: {
     github: 'https://github.com/qlly0630/rollup-plugin-auto-add',
     npm: 'https://www.npmjs.com/package/rollup-plugin-auto-add',
     website: 'https://github.com/qlly0630/rollup-plugin-auto-add#readme',
+  },
+  source: {
+    github: 'qlly0630/rollup-plugin-auto-add',
+    npm: 'rollup-plugin-auto-add',
   },
   stats: {
     stars: 0,

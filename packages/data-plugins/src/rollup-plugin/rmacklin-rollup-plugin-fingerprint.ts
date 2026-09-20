@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rev',
     'fingerprint',
   ],
-  source: {
-    github: 'rmacklin/rollup-plugin-fingerprint',
-    npm: '@rmacklin/rollup-plugin-fingerprint',
-  },
   links: {
     github: 'https://github.com/rmacklin/rollup-plugin-fingerprint',
     npm: 'https://www.npmjs.com/package/@rmacklin/rollup-plugin-fingerprint',
     website: 'https://github.com/rmacklin/rollup-plugin-fingerprint#readme',
+  },
+  source: {
+    github: 'rmacklin/rollup-plugin-fingerprint',
+    npm: '@rmacklin/rollup-plugin-fingerprint',
   },
   stats: {
     stars: 1,

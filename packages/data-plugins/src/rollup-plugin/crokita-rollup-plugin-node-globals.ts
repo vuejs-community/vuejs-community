@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'calvinmetcalf/rollup-plugin-node-globals',
-    npm: '@crokita/rollup-plugin-node-globals',
-  },
   links: {
     github: 'https://github.com/calvinmetcalf/rollup-plugin-node-globals',
     npm: 'https://www.npmjs.com/package/@crokita/rollup-plugin-node-globals',
     website: 'https://github.com/calvinmetcalf/rollup-plugin-node-globals#readme',
+  },
+  source: {
+    github: 'calvinmetcalf/rollup-plugin-node-globals',
+    npm: '@crokita/rollup-plugin-node-globals',
   },
   stats: {
     stars: 0,

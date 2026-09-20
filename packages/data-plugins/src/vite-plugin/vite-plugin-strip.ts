@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'debug',
   ],
-  source: {
-    github: 'YaroED/vite-plugin-strip',
-    npm: 'vite-plugin-strip',
-  },
   links: {
     github: 'https://github.com/YaroED/vite-plugin-strip',
     npm: 'https://www.npmjs.com/package/vite-plugin-strip',
     website: 'https://github.com/YaroED/vite-plugin-strip#readme',
+  },
+  source: {
+    github: 'YaroED/vite-plugin-strip',
+    npm: 'vite-plugin-strip',
   },
   stats: {
     stars: 1,

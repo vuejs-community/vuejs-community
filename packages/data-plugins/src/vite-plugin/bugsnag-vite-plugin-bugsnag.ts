@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'bugsnag',
     'sourcemaps',
   ],
-  source: {
-    github: 'bugsnag/vite-plugin-bugsnag',
-    npm: '@bugsnag/vite-plugin-bugsnag',
-  },
   links: {
     github: 'https://github.com/bugsnag/vite-plugin-bugsnag',
     npm: 'https://www.npmjs.com/package/@bugsnag/vite-plugin-bugsnag',
     website: 'https://github.com/bugsnag/vite-plugin-bugsnag#readme',
+  },
+  source: {
+    github: 'bugsnag/vite-plugin-bugsnag',
+    npm: '@bugsnag/vite-plugin-bugsnag',
   },
   stats: {
     stars: 3,

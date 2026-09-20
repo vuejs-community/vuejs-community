@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'react',
   ],
-  source: {
-    github: 'CMeeg/phoria',
-    npm: '@phoria/phoria-react',
-  },
   links: {
     github: 'https://github.com/CMeeg/phoria',
     npm: 'https://www.npmjs.com/package/@phoria/phoria-react',
     website: 'https://github.com/CMeeg/phoria#readme',
+  },
+  source: {
+    github: 'CMeeg/phoria',
+    npm: '@phoria/phoria-react',
   },
   stats: {
     stars: 9,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-hyperlog',
   ],
-  source: {
-    github: 'kiyors/vite-plugin-hyperlog',
-    npm: 'vite-plugin-hyperlog',
-  },
   links: {
     github: 'https://github.com/kiyors/vite-plugin-hyperlog',
     npm: 'https://www.npmjs.com/package/vite-plugin-hyperlog',
     website: 'https://github.com/kiyors/vite-plugin-hyperlog#readme',
+  },
+  source: {
+    github: 'kiyors/vite-plugin-hyperlog',
+    npm: 'vite-plugin-hyperlog',
   },
   stats: {
     stars: 0,

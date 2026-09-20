@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'webpack',
   ],
-  source: {
-    github: 'ubugeeei-prod/ox-content',
-    npm: '@ox-content/unplugin',
-  },
   links: {
     github: 'https://github.com/ubugeeei-prod/ox-content',
     npm: 'https://www.npmjs.com/package/@ox-content/unplugin',
     website: 'https://github.com/ubugeeei-prod/ox-content#readme',
+  },
+  source: {
+    github: 'ubugeeei-prod/ox-content',
+    npm: '@ox-content/unplugin',
   },
   stats: {
     stars: 0,

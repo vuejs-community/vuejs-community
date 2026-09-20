@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'merge',
     'inject',
   ],
-  source: {
-    github: 'Norserium/rollup-plugin-merge-and-inject-css',
-    npm: 'rollup-plugin-merge-and-inject-css',
-  },
   links: {
     github: 'https://github.com/Norserium/rollup-plugin-merge-and-inject-css',
     npm: 'https://www.npmjs.com/package/rollup-plugin-merge-and-inject-css',
     website: 'https://github.com/Norserium/rollup-plugin-merge-and-inject-css',
+  },
+  source: {
+    github: 'Norserium/rollup-plugin-merge-and-inject-css',
+    npm: 'rollup-plugin-merge-and-inject-css',
   },
   stats: {
     stars: 4,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'multi-pages',
   ],
-  source: {
-    github: 'just-ads/vite-plugin-multi-page',
-    npm: 'vite-plugin-mpg',
-  },
   links: {
     github: 'https://github.com/just-ads/vite-plugin-multi-page',
     npm: 'https://www.npmjs.com/package/vite-plugin-mpg',
     website: 'https://github.com/just-ads/vite-plugin-multi-page#readme',
+  },
+  source: {
+    github: 'just-ads/vite-plugin-multi-page',
+    npm: 'vite-plugin-mpg',
   },
   stats: {
     stars: 0,

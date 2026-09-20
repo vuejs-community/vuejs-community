@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'elysia',
     'cloudflare-workers',
   ],
-  source: {
-    github: 'rsc-kit/rsc-kit',
-    npm: '@rsc-kit/core',
-  },
   links: {
     github: 'https://github.com/rsc-kit/rsc-kit',
     npm: 'https://www.npmjs.com/package/@rsc-kit/core',
     website: 'https://rsc-kit.dev',
+  },
+  source: {
+    github: 'rsc-kit/rsc-kit',
+    npm: '@rsc-kit/core',
   },
   stats: {
     stars: 1,

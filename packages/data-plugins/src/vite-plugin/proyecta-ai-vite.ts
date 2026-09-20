@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'react',
     'component-tagger',
   ],
-  source: {
-    github: 'nicepkg/proyecta',
-    npm: '@proyecta-ai/vite',
-  },
   links: {
     github: 'https://github.com/nicepkg/proyecta',
     npm: 'https://www.npmjs.com/package/@proyecta-ai/vite',
     website: 'https://proyecta.dev',
+  },
+  source: {
+    github: 'nicepkg/proyecta',
+    npm: '@proyecta-ai/vite',
   },
   stats: {
     stars: 0,

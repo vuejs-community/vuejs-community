@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://maz-ui.com/',
   },
   source: {
-    github: 'louismazel/maz-ui#master/packages/nuxt',
+    github: 'louismazel/maz-ui',
     npm: '@maz-ui/nuxt',
   },
 })

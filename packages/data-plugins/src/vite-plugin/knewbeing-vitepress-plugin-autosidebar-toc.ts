@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vue3',
     'typescript',
   ],
-  source: {
-    github: 'VitepressAwesome/vitepress-plugin-blogs',
-    npm: '@knewbeing/vitepress-plugin-autosidebar-toc',
-  },
   links: {
     github: 'https://github.com/VitepressAwesome/vitepress-plugin-blogs',
     npm: 'https://www.npmjs.com/package/@knewbeing/vitepress-plugin-autosidebar-toc',
     website: 'https://github.com/VitepressAwesome/vitepress-plugin-blogs#readme',
+  },
+  source: {
+    github: 'VitepressAwesome/vitepress-plugin-blogs',
+    npm: '@knewbeing/vitepress-plugin-autosidebar-toc',
   },
   stats: {
     stars: 0,

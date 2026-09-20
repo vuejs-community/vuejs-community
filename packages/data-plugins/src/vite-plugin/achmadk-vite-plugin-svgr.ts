@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'achmadk/vite-plugin-svgr',
-    npm: '@achmadk/vite-plugin-svgr',
-  },
   links: {
     github: 'https://github.com/achmadk/vite-plugin-svgr',
     npm: 'https://www.npmjs.com/package/@achmadk/vite-plugin-svgr',
     website: 'https://github.com/achmadk/vite-plugin-svgr#readme',
+  },
+  source: {
+    github: 'achmadk/vite-plugin-svgr',
+    npm: '@achmadk/vite-plugin-svgr',
   },
   stats: {
     stars: 0,

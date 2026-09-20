@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'screeny05/unplugin-zod-jsdoc',
-    npm: 'unplugin-zod-jsdoc',
-  },
   links: {
     github: 'https://github.com/screeny05/unplugin-zod-jsdoc',
     npm: 'https://www.npmjs.com/package/unplugin-zod-jsdoc',
     website: 'https://github.com/screeny05/unplugin-zod-jsdoc#readme',
+  },
+  source: {
+    github: 'screeny05/unplugin-zod-jsdoc',
+    npm: 'unplugin-zod-jsdoc',
   },
   stats: {
     stars: 2,

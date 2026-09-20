@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vitejs',
     'color',
   ],
-  source: {
-    github: 'QuackQuackQuack/vite-plugin-env-color',
-    npm: 'vite-plugin-env-color',
-  },
   links: {
     github: 'https://github.com/QuackQuackQuack/vite-plugin-env-color',
     npm: 'https://www.npmjs.com/package/vite-plugin-env-color',
     website: 'https://github.com/QuackQuackQuack/vite-plugin-env-color',
+  },
+  source: {
+    github: 'QuackQuackQuack/vite-plugin-env-color',
+    npm: 'vite-plugin-env-color',
   },
   stats: {
     stars: 0,

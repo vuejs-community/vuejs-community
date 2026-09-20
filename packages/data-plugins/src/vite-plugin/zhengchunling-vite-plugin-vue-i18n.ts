@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vue2',
     'vue-i18n',
   ],
-  source: {
-    github: 'zhengcling/vite-plugin-vue-i18n',
-    npm: '@zhengchunling/vite-plugin-vue-i18n',
-  },
   links: {
     github: 'https://github.com/zhengcling/vite-plugin-vue-i18n',
     npm: 'https://www.npmjs.com/package/@zhengchunling/vite-plugin-vue-i18n',
     website: 'https://github.com/zhengcling/vite-plugin-vue-i18n#readme',
+  },
+  source: {
+    github: 'zhengcling/vite-plugin-vue-i18n',
+    npm: '@zhengchunling/vite-plugin-vue-i18n',
   },
   stats: {
     stars: 0,

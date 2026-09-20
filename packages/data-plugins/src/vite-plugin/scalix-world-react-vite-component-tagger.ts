@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'react',
     'scalix',
   ],
-  source: {
-    npm: '@scalix-world/react-vite-component-tagger',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@scalix-world/react-vite-component-tagger',
+  },
+  source: {
+    npm: '@scalix-world/react-vite-component-tagger',
   },
   stats: {
     stars: 0,

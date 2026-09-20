@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'lazy',
     'thumbnail',
   ],
-  source: {
-    github: 'lixianbin1/vite-plugin-lazy-thumbnails',
-    npm: 'vite-plugin-lazy-thumbnails',
-  },
   links: {
     github: 'https://github.com/lixianbin1/vite-plugin-lazy-thumbnails',
     npm: 'https://www.npmjs.com/package/vite-plugin-lazy-thumbnails',
     website: 'https://github.com/lixianbin1/vite-plugin-lazy-thumbnails#readme',
+  },
+  source: {
+    github: 'lixianbin1/vite-plugin-lazy-thumbnails',
+    npm: 'vite-plugin-lazy-thumbnails',
   },
   stats: {
     stars: 0,

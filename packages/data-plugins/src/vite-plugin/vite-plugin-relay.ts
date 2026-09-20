@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-relay',
   ],
-  source: {
-    github: 'oscartbeaumont/vite-plugin-relay',
-    npm: 'vite-plugin-relay',
-  },
   links: {
     github: 'https://github.com/oscartbeaumont/vite-plugin-relay',
     npm: 'https://www.npmjs.com/package/vite-plugin-relay',
     website: 'https://github.com/oscartbeaumont/vite-plugin-relay#readme',
+  },
+  source: {
+    github: 'oscartbeaumont/vite-plugin-relay',
+    npm: 'vite-plugin-relay',
   },
   stats: {
     stars: 0,

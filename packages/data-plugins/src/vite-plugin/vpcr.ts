@@ -19,12 +19,12 @@ export default defineProjectMeta({
     'antigravity',
     'cursor',
   ],
-  source: {
-    npm: 'vpcr',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vpcr',
     website: 'https://vpcr.vercel.app',
+  },
+  source: {
+    npm: 'vpcr',
   },
   stats: {
     stars: 0,

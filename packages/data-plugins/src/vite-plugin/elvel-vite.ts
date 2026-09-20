@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'ufhy/elvel',
-    npm: '@elvel/vite',
-  },
   links: {
     github: 'https://github.com/ufhy/elvel',
     npm: 'https://www.npmjs.com/package/@elvel/vite',
     website: 'https://github.com/ufhy/elvel#readme',
+  },
+  source: {
+    github: 'ufhy/elvel',
+    npm: '@elvel/vite',
   },
   stats: {
     stars: 0,

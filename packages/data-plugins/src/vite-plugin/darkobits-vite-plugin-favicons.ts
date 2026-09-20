@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    github: 'darkobits/vite-plugin-favicons',
-    npm: '@darkobits/vite-plugin-favicons',
-  },
   links: {
     github: 'https://github.com/darkobits/vite-plugin-favicons',
     npm: 'https://www.npmjs.com/package/@darkobits/vite-plugin-favicons',
     website: 'https://github.com/darkobits/vite-plugin-favicons#readme',
+  },
+  source: {
+    github: 'darkobits/vite-plugin-favicons',
+    npm: '@darkobits/vite-plugin-favicons',
   },
   stats: {
     stars: 9,

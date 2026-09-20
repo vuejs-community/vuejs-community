@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'webpack-plugin',
   ],
-  source: {
-    github: 'saiashirwad/tsover',
-    npm: 'tsover-generic-overloads',
-  },
   links: {
     github: 'https://github.com/saiashirwad/tsover',
     npm: 'https://www.npmjs.com/package/tsover-generic-overloads',
     website: 'https://tsover.swmansion.com',
+  },
+  source: {
+    github: 'saiashirwad/tsover',
+    npm: 'tsover-generic-overloads',
   },
   stats: {
     stars: 0,

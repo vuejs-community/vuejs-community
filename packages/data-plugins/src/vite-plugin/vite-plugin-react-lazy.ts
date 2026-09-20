@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'imports',
     'suspense',
   ],
-  source: {
-    github: 'alloc/vite-plugin-react-lazy',
-    npm: 'vite-plugin-react-lazy',
-  },
   links: {
     github: 'https://github.com/alloc/vite-plugin-react-lazy',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-lazy',
     website: 'https://github.com/alloc/vite-plugin-react-lazy#readme',
+  },
+  source: {
+    github: 'alloc/vite-plugin-react-lazy',
+    npm: 'vite-plugin-react-lazy',
   },
   stats: {
     stars: 4,

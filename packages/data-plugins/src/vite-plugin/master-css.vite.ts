@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'mastercss',
     'vite-plugin',
   ],
-  source: {
-    github: 'master-co/css',
-    npm: '@master/css.vite',
-  },
   links: {
     github: 'https://github.com/master-co/css',
     npm: 'https://www.npmjs.com/package/@master/css.vite',
     website: 'https://css.master.co',
+  },
+  source: {
+    github: 'master-co/css',
+    npm: '@master/css.vite',
   },
   stats: {
     stars: 1949,

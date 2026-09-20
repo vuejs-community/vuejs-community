@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'llm',
     'ai',
   ],
-  source: {
-    github: 'nola-lang/nola',
-    npm: '@nola-lang/rolldown',
-  },
   links: {
     github: 'https://github.com/nola-lang/nola',
     npm: 'https://www.npmjs.com/package/@nola-lang/rolldown',
     website: 'https://github.com/nola-lang/nola#readme',
+  },
+  source: {
+    github: 'nola-lang/nola',
+    npm: '@nola-lang/rolldown',
   },
   stats: {
     stars: 0,

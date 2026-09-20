@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'rollup-plugin-copier',
     'rollup-plugin-copy',
   ],
-  source: {
-    github: 'marverix/rollup-plugin-copier',
-    npm: 'rollup-plugin-copier',
-  },
   links: {
     github: 'https://github.com/marverix/rollup-plugin-copier',
     npm: 'https://www.npmjs.com/package/rollup-plugin-copier',
     website: 'https://github.com/marverix/rollup-plugin-copier#readme',
+  },
+  source: {
+    github: 'marverix/rollup-plugin-copier',
+    npm: 'rollup-plugin-copier',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'gherrink/ui-doc',
-    npm: '@ui-doc/vite',
-  },
   links: {
     github: 'https://github.com/gherrink/ui-doc',
     npm: 'https://www.npmjs.com/package/@ui-doc/vite',
     website: 'https://github.com/gherrink/ui-doc/tree/master/packages/vite#readme',
+  },
+  source: {
+    github: 'gherrink/ui-doc',
+    npm: '@ui-doc/vite',
   },
   stats: {
     stars: 0,

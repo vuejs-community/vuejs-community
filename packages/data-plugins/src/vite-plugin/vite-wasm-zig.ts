@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'wasm',
     'zig',
   ],
-  source: {
-    github: 'langbamit/vite-wasm-zig',
-    npm: 'vite-wasm-zig',
-  },
   links: {
     github: 'https://github.com/langbamit/vite-wasm-zig',
     npm: 'https://www.npmjs.com/package/vite-wasm-zig',
     website: 'https://github.com/langbamit/vite-wasm-zig/tree/main/#readme',
+  },
+  source: {
+    github: 'langbamit/vite-wasm-zig',
+    npm: 'vite-wasm-zig',
   },
   stats: {
     stars: 1,

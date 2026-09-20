@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'side-effects',
     'tree-shaking',
   ],
-  source: {
-    github: 'parischap/rolldown-plugin-pure',
-    npm: '@parischap/rolldown-plugin-pure',
-  },
   links: {
     github: 'https://github.com/parischap/rolldown-plugin-pure',
     npm: 'https://www.npmjs.com/package/@parischap/rolldown-plugin-pure',
     website: 'https://github.com/parischap/rolldown-plugin-pure',
+  },
+  source: {
+    github: 'parischap/rolldown-plugin-pure',
+    npm: '@parischap/rolldown-plugin-pure',
   },
   stats: {
     stars: 0,

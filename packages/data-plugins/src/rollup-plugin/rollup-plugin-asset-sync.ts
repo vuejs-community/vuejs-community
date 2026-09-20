@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'sync',
     'copy',
   ],
-  source: {
-    github: 'rosenbjerg/rollup-plugin-asset-sync',
-    npm: 'rollup-plugin-asset-sync',
-  },
   links: {
     github: 'https://github.com/rosenbjerg/rollup-plugin-asset-sync',
     npm: 'https://www.npmjs.com/package/rollup-plugin-asset-sync',
     website: 'https://github.com/rosenbjerg/rollup-plugin-asset-sync',
+  },
+  source: {
+    github: 'rosenbjerg/rollup-plugin-asset-sync',
+    npm: 'rollup-plugin-asset-sync',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'router',
     'react',
   ],
-  source: {
-    github: 'zoubingwu/vite-plugin-next-react-router',
-    npm: 'vite-plugin-next-react-router',
-  },
   links: {
     github: 'https://github.com/zoubingwu/vite-plugin-next-react-router',
     npm: 'https://www.npmjs.com/package/vite-plugin-next-react-router',
     website: 'https://github.com/zoubingwu/vite-plugin-next-react-router',
+  },
+  source: {
+    github: 'zoubingwu/vite-plugin-next-react-router',
+    npm: 'vite-plugin-next-react-router',
   },
   stats: {
     stars: 18,

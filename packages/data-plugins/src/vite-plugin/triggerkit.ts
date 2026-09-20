@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'trigger.dev',
     'functions',
   ],
-  source: {
-    github: 'EnoughXP/vite-plugin-triggerkit',
-    npm: 'triggerkit',
-  },
   links: {
     github: 'https://github.com/EnoughXP/vite-plugin-triggerkit',
     npm: 'https://www.npmjs.com/package/triggerkit',
     website: 'http://triggerkit.pages.dev',
+  },
+  source: {
+    github: 'EnoughXP/vite-plugin-triggerkit',
+    npm: 'triggerkit',
   },
   stats: {
     stars: 0,

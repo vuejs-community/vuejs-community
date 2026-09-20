@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'js',
     'javascript',
   ],
-  source: {
-    github: 'alpheusday/rolldown-plugin-copy',
-    npm: 'rolldown-plugin-copy',
-  },
   links: {
     github: 'https://github.com/alpheusday/rolldown-plugin-copy',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-copy',
     website: 'https://github.com/alpheusday/rolldown-plugin-copy',
+  },
+  source: {
+    github: 'alpheusday/rolldown-plugin-copy',
+    npm: 'rolldown-plugin-copy',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vue',
     'vue3',
   ],
-  source: {
-    github: 'visualfanatic/vite-svg',
-    npm: 'vite-plugin-vue-svg',
-  },
   links: {
     github: 'https://github.com/visualfanatic/vite-svg',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-svg',
     website: 'https://github.com/visualfanatic/vite-svg#readme',
+  },
+  source: {
+    github: 'visualfanatic/vite-svg',
+    npm: 'vite-plugin-vue-svg',
   },
   stats: {
     stars: 0,

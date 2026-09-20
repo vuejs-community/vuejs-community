@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'unplugin',
     'json-schema',
   ],
-  source: {
-    npm: '@playableintelligence/template-vite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@playableintelligence/template-vite',
+  },
+  source: {
+    npm: '@playableintelligence/template-vite',
   },
   stats: {
     stars: 0,

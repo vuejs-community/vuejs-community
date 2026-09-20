@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'svg-sprite',
   ],
-  source: {
-    github: 'nyanyani/rollup-plugin-svg-sprite-loader',
-    npm: 'rollup-plugin-svg-sprite-loader',
-  },
   links: {
     github: 'https://github.com/nyanyani/rollup-plugin-svg-sprite-loader',
     npm: 'https://www.npmjs.com/package/rollup-plugin-svg-sprite-loader',
     website: 'https://github.com/nyanyani/rollup-plugin-svg-sprite-loader#readme',
+  },
+  source: {
+    github: 'nyanyani/rollup-plugin-svg-sprite-loader',
+    npm: 'rollup-plugin-svg-sprite-loader',
   },
   stats: {
     stars: 3,

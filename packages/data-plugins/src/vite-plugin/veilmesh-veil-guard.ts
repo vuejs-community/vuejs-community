@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'veilmesh/veil-guard-node',
-    npm: '@veilmesh/veil-guard',
-  },
   links: {
     github: 'https://github.com/veilmesh/veil-guard-node',
     npm: 'https://www.npmjs.com/package/@veilmesh/veil-guard',
     website: 'https://github.com/veilmesh/veil-guard-node#readme',
+  },
+  source: {
+    github: 'veilmesh/veil-guard-node',
+    npm: '@veilmesh/veil-guard',
   },
   stats: {
     stars: 0,

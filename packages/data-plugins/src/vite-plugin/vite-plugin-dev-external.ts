@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'dependencies',
     'utils',
   ],
-  source: {
-    github: 'PunchlY/vite-plugin-dev-external',
-    npm: 'vite-plugin-dev-external',
-  },
   links: {
     github: 'https://github.com/PunchlY/vite-plugin-dev-external',
     npm: 'https://www.npmjs.com/package/vite-plugin-dev-external',
     website: 'https://github.com/PunchlY/vite-plugin-dev-external#readme',
+  },
+  source: {
+    github: 'PunchlY/vite-plugin-dev-external',
+    npm: 'vite-plugin-dev-external',
   },
   stats: {
     stars: 1,

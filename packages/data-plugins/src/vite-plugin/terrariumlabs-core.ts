@@ -23,14 +23,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'uniswap',
   ],
-  source: {
-    github: 'damarnez/terrarium',
-    npm: '@terrariumlabs/core',
-  },
   links: {
     github: 'https://github.com/damarnez/terrarium',
     npm: 'https://www.npmjs.com/package/@terrariumlabs/core',
     website: 'https://github.com/damarnez/terrarium#readme',
+  },
+  source: {
+    github: 'damarnez/terrarium',
+    npm: '@terrariumlabs/core',
   },
   stats: {
     stars: 0,

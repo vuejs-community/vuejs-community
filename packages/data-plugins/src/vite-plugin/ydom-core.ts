@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'ui-engine',
   ],
-  source: {
-    npm: 'ydom-core',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/ydom-core',
+  },
+  source: {
+    npm: 'ydom-core',
   },
   stats: {
     stars: 0,

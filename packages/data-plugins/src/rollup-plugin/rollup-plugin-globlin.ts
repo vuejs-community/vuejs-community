@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'globs',
     'file transforms',
   ],
-  source: {
-    github: 'panoply/rollup-plugin-globlin',
-    npm: 'rollup-plugin-globlin',
-  },
   links: {
     github: 'https://github.com/panoply/rollup-plugin-globlin',
     npm: 'https://www.npmjs.com/package/rollup-plugin-globlin',
     website: 'https://github.com/panoply/rollup-plugin-globlin#readme',
+  },
+  source: {
+    github: 'panoply/rollup-plugin-globlin',
+    npm: 'rollup-plugin-globlin',
   },
   stats: {
     stars: 1,

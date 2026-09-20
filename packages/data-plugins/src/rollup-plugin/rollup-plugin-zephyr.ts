@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'zephyr',
   ],
-  source: {
-    github: 'ZephyrCloudIO/zephyr-packages',
-    npm: 'rollup-plugin-zephyr',
-  },
   links: {
     github: 'https://github.com/ZephyrCloudIO/zephyr-packages',
     npm: 'https://www.npmjs.com/package/rollup-plugin-zephyr',
     website: 'https://github.com/ZephyrCloudIO/zephyr-packages#readme',
+  },
+  source: {
+    github: 'ZephyrCloudIO/zephyr-packages',
+    npm: 'rollup-plugin-zephyr',
   },
   stats: {
     stars: 0,

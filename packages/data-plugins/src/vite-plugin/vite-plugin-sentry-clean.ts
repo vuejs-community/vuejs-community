@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'sentry-cli',
     'sourcemap',
   ],
-  source: {
-    github: 'zhihaogit/vite-plugin-sentry-clean',
-    npm: 'vite-plugin-sentry-clean',
-  },
   links: {
     github: 'https://github.com/zhihaogit/vite-plugin-sentry-clean',
     npm: 'https://www.npmjs.com/package/vite-plugin-sentry-clean',
     website: 'https://github.com/zhihaogit/vite-plugin-sentry-clean',
+  },
+  source: {
+    github: 'zhihaogit/vite-plugin-sentry-clean',
+    npm: 'vite-plugin-sentry-clean',
   },
   stats: {
     stars: 0,

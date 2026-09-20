@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'folder',
     'index',
   ],
-  source: {
-    github: 'lakebeach/rollup-plugin-local-resolve',
-    npm: 'rollup-plugin-local-resolving',
-  },
   links: {
     github: 'https://github.com/lakebeach/rollup-plugin-local-resolve',
     npm: 'https://www.npmjs.com/package/rollup-plugin-local-resolving',
     website: 'https://github.com/lakebeach/rollup-plugin-local-resolving#readme',
+  },
+  source: {
+    github: 'lakebeach/rollup-plugin-local-resolve',
+    npm: 'rollup-plugin-local-resolving',
   },
   stats: {
     stars: 1,

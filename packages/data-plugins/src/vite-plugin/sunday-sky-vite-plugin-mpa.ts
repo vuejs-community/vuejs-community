@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin-multi-page',
     'vite-plugin-multi-entry',
   ],
-  source: {
-    github: 'moonlitusun/vite-plugin-mpa',
-    npm: '@sunday-sky/vite-plugin-mpa',
-  },
   links: {
     github: 'https://github.com/moonlitusun/vite-plugin-mpa',
     npm: 'https://www.npmjs.com/package/@sunday-sky/vite-plugin-mpa',
     website: 'https://github.com/moonlitusun/vite-plugin-mpa#readme',
+  },
+  source: {
+    github: 'moonlitusun/vite-plugin-mpa',
+    npm: '@sunday-sky/vite-plugin-mpa',
   },
   stats: {
     stars: 86,

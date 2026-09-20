@@ -40,14 +40,14 @@ export default defineProjectMeta({
     'farm-plugin',
     'unplugin',
   ],
-  source: {
-    github: 'jayf0x/byte-snap',
-    npm: 'byte-snap',
-  },
   links: {
     github: 'https://github.com/jayf0x/byte-snap',
     npm: 'https://www.npmjs.com/package/byte-snap',
     website: 'https://github.com/jayf0x/byte-snap#readme',
+  },
+  source: {
+    github: 'jayf0x/byte-snap',
+    npm: 'byte-snap',
   },
   stats: {
     stars: 0,

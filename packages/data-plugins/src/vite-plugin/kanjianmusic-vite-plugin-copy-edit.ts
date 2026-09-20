@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'copy-edit',
     'runtime',
   ],
-  source: {
-    github: 'SeeMusic/vite-plugin-copy-edit',
-    npm: '@kanjianmusic/vite-plugin-copy-edit',
-  },
   links: {
     github: 'https://github.com/SeeMusic/vite-plugin-copy-edit',
     npm: 'https://www.npmjs.com/package/@kanjianmusic/vite-plugin-copy-edit',
     website: 'https://github.com/SeeMusic/vite-plugin-copy-edit#readme',
+  },
+  source: {
+    github: 'SeeMusic/vite-plugin-copy-edit',
+    npm: '@kanjianmusic/vite-plugin-copy-edit',
   },
   stats: {
     stars: 0,

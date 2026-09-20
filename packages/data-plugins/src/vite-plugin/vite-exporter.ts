@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'dev-pengi/vite-exporter',
-    npm: 'vite-exporter',
-  },
   links: {
     github: 'https://github.com/dev-pengi/vite-exporter',
     npm: 'https://www.npmjs.com/package/vite-exporter',
     website: 'https://github.com/dev-pengi/vite-exporter#readme',
+  },
+  source: {
+    github: 'dev-pengi/vite-exporter',
+    npm: 'vite-exporter',
   },
   stats: {
     stars: 2,

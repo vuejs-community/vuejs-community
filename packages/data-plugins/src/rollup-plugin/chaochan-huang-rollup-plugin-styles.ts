@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'less',
     'stylus',
   ],
-  source: {
-    github: 'danhuang1202/rollup-plugin-styles',
-    npm: '@chaochan-huang/rollup-plugin-styles',
-  },
   links: {
     github: 'https://github.com/danhuang1202/rollup-plugin-styles',
     npm: 'https://www.npmjs.com/package/@chaochan-huang/rollup-plugin-styles',
     website: 'https://github.com/danhuang1202/rollup-plugin-styles#readme',
+  },
+  source: {
+    github: 'danhuang1202/rollup-plugin-styles',
+    npm: '@chaochan-huang/rollup-plugin-styles',
   },
   stats: {
     stars: 1,

@@ -28,14 +28,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'namesmt/spreadsheet-i18n--mono',
-    npm: 'unplugin-spreadsheet-i18n',
-  },
   links: {
     github: 'https://github.com/namesmt/spreadsheet-i18n--mono',
     npm: 'https://www.npmjs.com/package/unplugin-spreadsheet-i18n',
     website: 'https://github.com/namesmt/spreadsheet-i18n--mono#readme',
+  },
+  source: {
+    github: 'namesmt/spreadsheet-i18n--mono',
+    npm: 'unplugin-spreadsheet-i18n',
   },
   stats: {
     stars: 5,

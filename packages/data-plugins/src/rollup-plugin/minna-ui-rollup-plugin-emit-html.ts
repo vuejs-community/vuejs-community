@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'wearegenki',
   ],
-  source: {
-    github: 'WeAreGenki/minna-ui',
-    npm: '@minna-ui/rollup-plugin-emit-html',
-  },
   links: {
     github: 'https://github.com/WeAreGenki/minna-ui',
     npm: 'https://www.npmjs.com/package/@minna-ui/rollup-plugin-emit-html',
     website: 'https://wearegenki.github.io/minna-ui',
+  },
+  source: {
+    github: 'WeAreGenki/minna-ui',
+    npm: '@minna-ui/rollup-plugin-emit-html',
   },
   stats: {
     stars: 0,

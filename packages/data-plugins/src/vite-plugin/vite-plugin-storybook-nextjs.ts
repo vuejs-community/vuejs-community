@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'storybook',
     'vitest',
   ],
-  source: {
-    github: 'storybookjs/storybook',
-    npm: 'vite-plugin-storybook-nextjs',
-  },
   links: {
     github: 'https://github.com/storybookjs/storybook',
     npm: 'https://www.npmjs.com/package/vite-plugin-storybook-nextjs',
     website: 'https://github.com/storybookjs/storybook/tree/next/code/lib/vite-plugin-storybook-nextjs',
+  },
+  source: {
+    github: 'storybookjs/storybook',
+    npm: 'vite-plugin-storybook-nextjs',
   },
   stats: {
     stars: 91070,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'oxc',
     'esbuild',
   ],
-  source: {
-    github: 'DeJy/vite-plugin-mithril-jsx',
-    npm: 'vite-plugin-mithril-jsx',
-  },
   links: {
     github: 'https://github.com/DeJy/vite-plugin-mithril-jsx',
     npm: 'https://www.npmjs.com/package/vite-plugin-mithril-jsx',
     website: 'https://github.com/DeJy/vite-plugin-mithril-jsx#readme',
+  },
+  source: {
+    github: 'DeJy/vite-plugin-mithril-jsx',
+    npm: 'vite-plugin-mithril-jsx',
   },
   stats: {
     stars: 0,

@@ -12,12 +12,12 @@ export default defineProjectMeta({
     'rollup-plugin',
     'asset',
   ],
-  source: {
-    npm: '@xyh19/rollup-plugin-assets',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@xyh19/rollup-plugin-assets',
     website: 'https://gitee.com/xxXyh1908/rollup-plugin-assets/#readme',
+  },
+  source: {
+    npm: '@xyh19/rollup-plugin-assets',
   },
   stats: {
     stars: 0,

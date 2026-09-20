@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'rollup-plugin-commonjs',
   ],
-  source: {
-    github: 'rx-ts/pkgr',
-    npm: '@pkgr/named-exports',
-  },
   links: {
     github: 'https://github.com/rx-ts/pkgr',
     npm: 'https://www.npmjs.com/package/@pkgr/named-exports',
     website: 'https://github.com/rx-ts/pkgr/blob/master/packages/named-exports',
+  },
+  source: {
+    github: 'rx-ts/pkgr',
+    npm: '@pkgr/named-exports',
   },
   stats: {
     stars: 13,

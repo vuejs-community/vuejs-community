@@ -20,12 +20,12 @@ export default defineProjectMeta({
     'vite',
     'rollup',
   ],
-  source: {
-    npm: 'vite-index-resolver',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-index-resolver',
     website: 'https://gitlab.com/reinaven/vite-index-resolver#readme',
+  },
+  source: {
+    npm: 'vite-index-resolver',
   },
   stats: {
     stars: 0,

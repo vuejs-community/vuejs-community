@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'UI',
     'framework',
   ],
-  source: {
-    github: 'alamhubb/ovs',
-    npm: 'vite-plugin-ovs',
-  },
   links: {
     github: 'https://github.com/alamhubb/ovs',
     npm: 'https://www.npmjs.com/package/vite-plugin-ovs',
     website: 'https://github.com/alamhubb/ovs',
+  },
+  source: {
+    github: 'alamhubb/ovs',
+    npm: 'vite-plugin-ovs',
   },
   stats: {
     stars: 0,

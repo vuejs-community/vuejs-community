@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'react',
     'components',
   ],
-  source: {
-    github: 'snowingfox/unplugin-react-components',
-    npm: 'unplugin-react-components',
-  },
   links: {
     github: 'https://github.com/snowingfox/unplugin-react-components',
     npm: 'https://www.npmjs.com/package/unplugin-react-components',
     website: 'https://github.com/snowingfox/unplugin-react-components#readme',
+  },
+  source: {
+    github: 'snowingfox/unplugin-react-components',
+    npm: 'unplugin-react-components',
   },
   stats: {
     stars: 0,

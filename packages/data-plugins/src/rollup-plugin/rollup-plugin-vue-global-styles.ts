@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'scss',
     'sass',
   ],
-  source: {
-    github: 'SohoHouse/rollup-plugin-vue-global-styles',
-    npm: 'rollup-plugin-vue-global-styles',
-  },
   links: {
     github: 'https://github.com/SohoHouse/rollup-plugin-vue-global-styles',
     npm: 'https://www.npmjs.com/package/rollup-plugin-vue-global-styles',
     website: 'https://github.com/SohoHouse/rollup-plugin-vue-global-styles#readme',
+  },
+  source: {
+    github: 'SohoHouse/rollup-plugin-vue-global-styles',
+    npm: 'rollup-plugin-vue-global-styles',
   },
   stats: {
     stars: 0,

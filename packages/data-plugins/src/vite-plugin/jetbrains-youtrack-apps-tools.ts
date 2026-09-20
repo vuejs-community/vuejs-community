@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'cli',
     'scaffolding',
   ],
-  source: {
-    github: 'JetBrains/youtrack-apps',
-    npm: '@jetbrains/youtrack-apps-tools',
-  },
   links: {
     github: 'https://github.com/JetBrains/youtrack-apps',
     npm: 'https://www.npmjs.com/package/@jetbrains/youtrack-apps-tools',
     website: 'https://github.com/JetBrains/youtrack-apps/tree/main/packages/apps-tools',
+  },
+  source: {
+    github: 'JetBrains/youtrack-apps',
+    npm: '@jetbrains/youtrack-apps-tools',
   },
   stats: {
     stars: 21,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'svg',
     'dark-mode',
   ],
-  source: {
-    github: 'AkagiYui/vite-plugin-iconify-favicon',
-    npm: 'vite-plugin-iconify-favicon',
-  },
   links: {
     github: 'https://github.com/AkagiYui/vite-plugin-iconify-favicon',
     npm: 'https://www.npmjs.com/package/vite-plugin-iconify-favicon',
     website: 'https://github.com/AkagiYui/vite-plugin-iconify-favicon',
+  },
+  source: {
+    github: 'AkagiYui/vite-plugin-iconify-favicon',
+    npm: 'vite-plugin-iconify-favicon',
   },
   stats: {
     stars: 0,

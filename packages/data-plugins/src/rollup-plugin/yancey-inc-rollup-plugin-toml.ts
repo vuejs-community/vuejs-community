@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'toml',
   ],
-  source: {
-    github: 'YanceyOfficial/rollup-plugin-toml',
-    npm: '@yancey-inc/rollup-plugin-toml',
-  },
   links: {
     github: 'https://github.com/YanceyOfficial/rollup-plugin-toml',
     npm: 'https://www.npmjs.com/package/@yancey-inc/rollup-plugin-toml',
     website: 'https://github.com/YanceyOfficial/rollup-plugin-toml#readme',
+  },
+  source: {
+    github: 'YanceyOfficial/rollup-plugin-toml',
+    npm: '@yancey-inc/rollup-plugin-toml',
   },
   stats: {
     stars: 4,

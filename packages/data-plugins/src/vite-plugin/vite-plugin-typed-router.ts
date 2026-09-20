@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite-plugin vue',
     'vite-plugin',
   ],
-  source: {
-    github: 'victorgarciaesgi/vite-plugin-typed-router',
-    npm: 'vite-plugin-typed-router',
-  },
   links: {
     github: 'https://github.com/victorgarciaesgi/vite-plugin-typed-router',
     npm: 'https://www.npmjs.com/package/vite-plugin-typed-router',
     website: 'https://github.com/victorgarciaesgi/vite-plugin-typed-router#readme',
+  },
+  source: {
+    github: 'victorgarciaesgi/vite-plugin-typed-router',
+    npm: 'vite-plugin-typed-router',
   },
   stats: {
     stars: 3,

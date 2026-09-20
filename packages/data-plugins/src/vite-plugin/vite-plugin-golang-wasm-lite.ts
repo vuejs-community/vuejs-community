@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'wasm',
     'vite-plugin',
   ],
-  source: {
-    github: 'bearsh/vite-plugin-golang-wasm-lite',
-    npm: 'vite-plugin-golang-wasm-lite',
-  },
   links: {
     github: 'https://github.com/bearsh/vite-plugin-golang-wasm-lite',
     npm: 'https://www.npmjs.com/package/vite-plugin-golang-wasm-lite',
     website: 'https://github.com/bearsh/vite-plugin-golang-wasm-lite#readme',
+  },
+  source: {
+    github: 'bearsh/vite-plugin-golang-wasm-lite',
+    npm: 'vite-plugin-golang-wasm-lite',
   },
   stats: {
     stars: 0,

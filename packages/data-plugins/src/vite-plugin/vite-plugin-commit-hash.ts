@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    github: 'Exponential-Workload/vite-plugin-commit-hash',
-    npm: 'vite-plugin-commit-hash',
-  },
   links: {
     github: 'https://github.com/Exponential-Workload/vite-plugin-commit-hash',
     npm: 'https://www.npmjs.com/package/vite-plugin-commit-hash',
     website: 'https://github.com/Exponential-Workload/vite-plugin-commit-hash',
+  },
+  source: {
+    github: 'Exponential-Workload/vite-plugin-commit-hash',
+    npm: 'vite-plugin-commit-hash',
   },
   stats: {
     stars: 0,

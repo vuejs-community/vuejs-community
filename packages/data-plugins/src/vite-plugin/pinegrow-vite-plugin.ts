@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'vite-plugin',
     '@pinegrow/vite-plugin',
   ],
-  source: {
-    npm: '@pinegrow/vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@pinegrow/vite-plugin',
+  },
+  source: {
+    npm: '@pinegrow/vite-plugin',
   },
   stats: {
     stars: 0,

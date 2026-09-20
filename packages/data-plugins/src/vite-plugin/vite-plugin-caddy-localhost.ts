@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'https',
     'reverse-proxy',
   ],
-  source: {
-    npm: 'vite-plugin-caddy-localhost',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-caddy-localhost',
+  },
+  source: {
+    npm: 'vite-plugin-caddy-localhost',
   },
   stats: {
     stars: 0,

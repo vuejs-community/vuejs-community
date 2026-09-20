@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'mock',
     'testing',
   ],
-  source: {
-    github: 'chrisboakes/vitest-plugin-module-federation',
-    npm: 'vitest-plugin-module-federation',
-  },
   links: {
     github: 'https://github.com/chrisboakes/vitest-plugin-module-federation',
     npm: 'https://www.npmjs.com/package/vitest-plugin-module-federation',
     website: 'https://github.com/chrisboakes/vitest-plugin-module-federation#readme',
+  },
+  source: {
+    github: 'chrisboakes/vitest-plugin-module-federation',
+    npm: 'vitest-plugin-module-federation',
   },
   stats: {
     stars: 1,

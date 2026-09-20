@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'devv-code',
     'visual-editor',
   ],
-  source: {
-    github: 'devvai/devv-code-vite-plugin',
-    npm: 'devv-code-vite-plugin',
-  },
   links: {
     github: 'https://github.com/devvai/devv-code-vite-plugin',
     npm: 'https://www.npmjs.com/package/devv-code-vite-plugin',
     website: 'https://github.com/devvai/devv-code-vite-plugin#readme',
+  },
+  source: {
+    github: 'devvai/devv-code-vite-plugin',
+    npm: 'devv-code-vite-plugin',
   },
   stats: {
     stars: 0,

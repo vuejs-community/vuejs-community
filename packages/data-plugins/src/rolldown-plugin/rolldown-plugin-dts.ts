@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'jsdoc',
     'volar',
   ],
-  source: {
-    github: 'sxzz/rolldown-plugin-dts',
-    npm: 'rolldown-plugin-dts',
-  },
   links: {
     github: 'https://github.com/sxzz/rolldown-plugin-dts',
     npm: 'https://www.npmjs.com/package/rolldown-plugin-dts',
     website: 'https://github.com/sxzz/rolldown-plugin-dts#readme',
+  },
+  source: {
+    github: 'sxzz/rolldown-plugin-dts',
+    npm: 'rolldown-plugin-dts',
   },
   stats: {
     stars: 249,

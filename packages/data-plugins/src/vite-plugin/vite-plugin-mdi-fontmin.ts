@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'icons',
     'font',
   ],
-  source: {
-    github: 're7r/vite-plugin-mdi-fontmin',
-    npm: 'vite-plugin-mdi-fontmin',
-  },
   links: {
     github: 'https://github.com/re7r/vite-plugin-mdi-fontmin',
     npm: 'https://www.npmjs.com/package/vite-plugin-mdi-fontmin',
     website: 'https://github.com/re7r/vite-plugin-mdi-fontmin#readme',
+  },
+  source: {
+    github: 're7r/vite-plugin-mdi-fontmin',
+    npm: 'vite-plugin-mdi-fontmin',
   },
   stats: {
     stars: 0,

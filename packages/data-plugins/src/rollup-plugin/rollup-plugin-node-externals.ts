@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'modules',
     'monorepo',
   ],
-  source: {
-    github: 'Septh/rollup-plugin-node-externals',
-    npm: 'rollup-plugin-node-externals',
-  },
   links: {
     github: 'https://github.com/Septh/rollup-plugin-node-externals',
     npm: 'https://www.npmjs.com/package/rollup-plugin-node-externals',
     website: 'https://github.com/Septh/rollup-plugin-node-externals#readme',
+  },
+  source: {
+    github: 'Septh/rollup-plugin-node-externals',
+    npm: 'rollup-plugin-node-externals',
   },
   stats: {
     stars: 101,

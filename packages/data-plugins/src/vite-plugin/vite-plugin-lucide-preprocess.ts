@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'imports',
     'preprocessor',
   ],
-  source: {
-    github: 'WarningImHack3r/vite-plugin-lucide-preprocess',
-    npm: 'vite-plugin-lucide-preprocess',
-  },
   links: {
     github: 'https://github.com/WarningImHack3r/vite-plugin-lucide-preprocess',
     npm: 'https://www.npmjs.com/package/vite-plugin-lucide-preprocess',
     website: 'https://github.com/WarningImHack3r/vite-plugin-lucide-preprocess',
+  },
+  source: {
+    github: 'WarningImHack3r/vite-plugin-lucide-preprocess',
+    npm: 'vite-plugin-lucide-preprocess',
   },
   stats: {
     stars: 39,

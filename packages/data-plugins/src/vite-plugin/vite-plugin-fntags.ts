@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'hmr',
     'hot-module-reloading',
   ],
-  source: {
-    github: 'srfnstack/fntags',
-    npm: 'vite-plugin-fntags',
-  },
   links: {
     github: 'https://github.com/srfnstack/fntags',
     npm: 'https://www.npmjs.com/package/vite-plugin-fntags',
     website: 'https://github.com/srfnstack/fntags/tree/master/packages/vite-plugin-fntags',
+  },
+  source: {
+    github: 'srfnstack/fntags',
+    npm: 'vite-plugin-fntags',
   },
   stats: {
     stars: 18,

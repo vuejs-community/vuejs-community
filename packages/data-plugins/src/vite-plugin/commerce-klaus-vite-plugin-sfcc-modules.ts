@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'commerce-klaus/commerce-klaus',
-    npm: '@commerce-klaus/vite-plugin-sfcc-modules',
-  },
   links: {
     github: 'https://github.com/commerce-klaus/commerce-klaus',
     npm: 'https://www.npmjs.com/package/@commerce-klaus/vite-plugin-sfcc-modules',
     website: 'https://commerce-klaus.github.io/commerce-klaus/packages/vite-plugin-sfcc-modules/',
+  },
+  source: {
+    github: 'commerce-klaus/commerce-klaus',
+    npm: '@commerce-klaus/vite-plugin-sfcc-modules',
   },
   stats: {
     stars: 0,

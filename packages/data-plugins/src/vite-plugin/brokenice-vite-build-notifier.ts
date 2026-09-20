@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'notifier',
   ],
-  source: {
-    github: 'brokenicedev/vite-build-notifier',
-    npm: '@brokenice/vite-build-notifier',
-  },
   links: {
     github: 'https://github.com/brokenicedev/vite-build-notifier',
     npm: 'https://www.npmjs.com/package/@brokenice/vite-build-notifier',
     website: 'https://github.com/brokenicedev/vite-build-notifier#readme',
+  },
+  source: {
+    github: 'brokenicedev/vite-build-notifier',
+    npm: '@brokenice/vite-build-notifier',
   },
   stats: {
     stars: 1,

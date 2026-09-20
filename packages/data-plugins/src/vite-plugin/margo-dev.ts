@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'comments',
     'review',
   ],
-  source: {
-    github: 'margolabs/margo',
-    npm: 'margo-dev',
-  },
   links: {
     github: 'https://github.com/margolabs/margo',
     npm: 'https://www.npmjs.com/package/margo-dev',
     website: 'https://github.com/margolabs/margo#readme',
+  },
+  source: {
+    github: 'margolabs/margo',
+    npm: 'margo-dev',
   },
   stats: {
     stars: 1,

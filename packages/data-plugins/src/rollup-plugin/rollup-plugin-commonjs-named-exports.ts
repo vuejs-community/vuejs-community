@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'cjs',
     'named-exports',
   ],
-  source: {
-    github: 'dmnsgn/rollup-plugin-commonjs-named-exports',
-    npm: 'rollup-plugin-commonjs-named-exports',
-  },
   links: {
     github: 'https://github.com/dmnsgn/rollup-plugin-commonjs-named-exports',
     npm: 'https://www.npmjs.com/package/rollup-plugin-commonjs-named-exports',
     website: 'https://github.com/dmnsgn/rollup-plugin-commonjs-named-exports',
+  },
+  source: {
+    github: 'dmnsgn/rollup-plugin-commonjs-named-exports',
+    npm: 'rollup-plugin-commonjs-named-exports',
   },
   stats: {
     stars: 3,

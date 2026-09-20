@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'unified',
     'remark',
   ],
-  source: {
-    github: 'sveltek/markdown',
-    npm: '@sveltek/remark-reading-stats',
-  },
   links: {
     github: 'https://github.com/sveltek/markdown',
     npm: 'https://www.npmjs.com/package/@sveltek/remark-reading-stats',
     website: 'https://github.com/sveltek/markdown',
+  },
+  source: {
+    github: 'sveltek/markdown',
+    npm: '@sveltek/remark-reading-stats',
   },
   stats: {
     stars: 0,

@@ -16,11 +16,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'xray',
   ],
-  source: {
-    npm: '@p0u4a/react-xray',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@p0u4a/react-xray',
+  },
+  source: {
+    npm: '@p0u4a/react-xray',
   },
   stats: {
     stars: 0,

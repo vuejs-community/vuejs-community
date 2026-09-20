@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'antfu/unplugin-preset-vue',
-    npm: 'unplugin-preset-vue',
-  },
   links: {
     github: 'https://github.com/antfu/unplugin-preset-vue',
     npm: 'https://www.npmjs.com/package/unplugin-preset-vue',
     website: 'https://github.com/antfu/unplugin-preset-vue#readme',
+  },
+  source: {
+    github: 'antfu/unplugin-preset-vue',
+    npm: 'unplugin-preset-vue',
   },
   stats: {
     stars: 0,

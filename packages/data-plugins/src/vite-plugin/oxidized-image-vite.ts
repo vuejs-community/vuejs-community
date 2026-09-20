@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'tobynguyen-works/oxidized-image',
-    npm: '@oxidized-image/vite',
-  },
   links: {
     github: 'https://github.com/tobynguyen-works/oxidized-image',
     npm: 'https://www.npmjs.com/package/@oxidized-image/vite',
     website: 'https://github.com/tobynguyen-works/oxidized-image#readme',
+  },
+  source: {
+    github: 'tobynguyen-works/oxidized-image',
+    npm: '@oxidized-image/vite',
   },
   stats: {
     stars: 2,

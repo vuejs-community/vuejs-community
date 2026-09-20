@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'ssr',
   ],
-  source: {
-    github: 'marbemac/ssrx',
-    npm: '@ssrx/vite',
-  },
   links: {
     github: 'https://github.com/marbemac/ssrx',
     npm: 'https://www.npmjs.com/package/@ssrx/vite',
     website: 'https://github.com/marbemac/ssrx#readme',
+  },
+  source: {
+    github: 'marbemac/ssrx',
+    npm: '@ssrx/vite',
   },
   stats: {
     stars: 155,

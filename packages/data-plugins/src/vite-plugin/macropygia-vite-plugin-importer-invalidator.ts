@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'sass',
     'scss',
   ],
-  source: {
-    github: 'macropygia/static-site-stack',
-    npm: '@macropygia/vite-plugin-importer-invalidator',
-  },
   links: {
     github: 'https://github.com/macropygia/static-site-stack',
     npm: 'https://www.npmjs.com/package/@macropygia/vite-plugin-importer-invalidator',
     website: 'https://github.com/macropygia/static-site-stack/tree/main/packages/vite-plugin-importer-invalidator#readme',
+  },
+  source: {
+    github: 'macropygia/static-site-stack',
+    npm: '@macropygia/vite-plugin-importer-invalidator',
   },
   stats: {
     stars: 0,

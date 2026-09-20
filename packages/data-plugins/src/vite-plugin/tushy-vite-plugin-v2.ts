@@ -14,13 +14,13 @@ export default defineProjectMeta({
     'vite-plugin',
     'tushy',
   ],
-  source: {
-    github: 'allanhal/tushy-vite-plugin-v2',
-    npm: 'tushy-vite-plugin-v2',
-  },
   links: {
     github: 'https://github.com/allanhal/tushy-vite-plugin-v2',
     npm: 'https://www.npmjs.com/package/tushy-vite-plugin-v2',
+  },
+  source: {
+    github: 'allanhal/tushy-vite-plugin-v2',
+    npm: 'tushy-vite-plugin-v2',
   },
   stats: {
     stars: 0,

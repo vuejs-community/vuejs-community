@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'css',
     'variables',
   ],
-  source: {
-    npm: '@juisy/vite-plugin-inject-css-variables',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@juisy/vite-plugin-inject-css-variables',
     website: 'https://hperchec.gitlab.io/juisy',
+  },
+  source: {
+    npm: '@juisy/vite-plugin-inject-css-variables',
   },
   stats: {
     stars: 0,

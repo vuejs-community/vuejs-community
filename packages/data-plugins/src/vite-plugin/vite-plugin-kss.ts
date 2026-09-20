@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'kss',
     'kss-node',
   ],
-  source: {
-    github: 'pixeldesu/vite-plugin-kss',
-    npm: 'vite-plugin-kss',
-  },
   links: {
     github: 'https://github.com/pixeldesu/vite-plugin-kss',
     npm: 'https://www.npmjs.com/package/vite-plugin-kss',
     website: 'https://github.com/pixeldesu/vite-plugin-kss#readme',
+  },
+  source: {
+    github: 'pixeldesu/vite-plugin-kss',
+    npm: 'vite-plugin-kss',
   },
   stats: {
     stars: 1,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'ai',
     'vite-plugin',
   ],
-  source: {
-    github: 'aminarshadinia/clicktocode',
-    npm: '@clicktocode/angular',
-  },
   links: {
     github: 'https://github.com/aminarshadinia/clicktocode',
     npm: 'https://www.npmjs.com/package/@clicktocode/angular',
     website: 'https://github.com/aminarshadinia/clicktocode/tree/main/packages/angular#readme',
+  },
+  source: {
+    github: 'aminarshadinia/clicktocode',
+    npm: '@clicktocode/angular',
   },
   stats: {
     stars: 0,

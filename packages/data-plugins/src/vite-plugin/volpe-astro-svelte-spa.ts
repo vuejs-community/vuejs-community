@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'spa',
     'file-based-routing',
   ],
-  source: {
-    npm: '@volpe/astro-svelte-spa',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@volpe/astro-svelte-spa',
+  },
+  source: {
+    npm: '@volpe/astro-svelte-spa',
   },
   stats: {
     stars: 0,

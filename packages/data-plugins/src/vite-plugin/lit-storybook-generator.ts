@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'storybook',
     'web-components',
   ],
-  source: {
-    npm: 'lit-storybook-generator',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/lit-storybook-generator',
+  },
+  source: {
+    npm: 'lit-storybook-generator',
   },
   stats: {
     stars: 0,

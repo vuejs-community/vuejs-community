@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'jamiedavenport/stet',
-    npm: '@stetcms/vite',
-  },
   links: {
     github: 'https://github.com/jamiedavenport/stet',
     npm: 'https://www.npmjs.com/package/@stetcms/vite',
     website: 'https://docs.stetcms.com/reference/codegen',
+  },
+  source: {
+    github: 'jamiedavenport/stet',
+    npm: '@stetcms/vite',
   },
   stats: {
     stars: 4,

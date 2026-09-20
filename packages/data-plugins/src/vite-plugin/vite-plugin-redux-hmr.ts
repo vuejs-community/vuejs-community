@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'hmr',
     'reload',
   ],
-  source: {
-    github: 'wdev-io/vite-plugin-redux-hmr',
-    npm: 'vite-plugin-redux-hmr',
-  },
   links: {
     github: 'https://github.com/wdev-io/vite-plugin-redux-hmr',
     npm: 'https://www.npmjs.com/package/vite-plugin-redux-hmr',
     website: 'https://github.com/wdev-io/vite-plugin-redux-hmr/',
+  },
+  source: {
+    github: 'wdev-io/vite-plugin-redux-hmr',
+    npm: 'vite-plugin-redux-hmr',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vw',
     'vite-plugin',
   ],
-  source: {
-    github: 'Chersquwn/vite-plugin-style-px-to-vw',
-    npm: 'vite-plugin-style-px-to-vw',
-  },
   links: {
     github: 'https://github.com/Chersquwn/vite-plugin-style-px-to-vw',
     npm: 'https://www.npmjs.com/package/vite-plugin-style-px-to-vw',
     website: 'https://github.com/Chersquwn/vite-plugin-style-px-to-vw#readme',
+  },
+  source: {
+    github: 'Chersquwn/vite-plugin-style-px-to-vw',
+    npm: 'vite-plugin-style-px-to-vw',
   },
   stats: {
     stars: 0,

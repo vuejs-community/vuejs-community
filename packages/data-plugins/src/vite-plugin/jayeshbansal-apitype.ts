@@ -27,14 +27,14 @@ export default defineProjectMeta({
     'schema',
     'openapi',
   ],
-  source: {
-    github: 'jayesh-bansal/apitype',
-    npm: '@jayeshbansal/apitype',
-  },
   links: {
     github: 'https://github.com/jayesh-bansal/apitype',
     npm: 'https://www.npmjs.com/package/@jayeshbansal/apitype',
     website: 'https://github.com/jayesh-bansal/apitype',
+  },
+  source: {
+    github: 'jayesh-bansal/apitype',
+    npm: '@jayeshbansal/apitype',
   },
   stats: {
     stars: 0,

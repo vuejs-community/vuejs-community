@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'SepVeneto/mp-plugin',
-    npm: '@sepveneto/plugin-uni-dispatch-comp',
-  },
   links: {
     github: 'https://github.com/SepVeneto/mp-plugin',
     npm: 'https://www.npmjs.com/package/@sepveneto/plugin-uni-dispatch-comp',
     website: 'https://github.com/SepVeneto/mp-plugin#readme',
+  },
+  source: {
+    github: 'SepVeneto/mp-plugin',
+    npm: '@sepveneto/plugin-uni-dispatch-comp',
   },
   stats: {
     stars: 0,

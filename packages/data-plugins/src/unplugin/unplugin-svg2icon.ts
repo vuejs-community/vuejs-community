@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'font',
     'icon',
   ],
-  source: {
-    github: 'duowb/unplugin-svg2icon',
-    npm: 'unplugin-svg2icon',
-  },
   links: {
     github: 'https://github.com/duowb/unplugin-svg2icon',
     npm: 'https://www.npmjs.com/package/unplugin-svg2icon',
     website: 'https://github.com/duowb/unplugin-svg2icon#readme',
+  },
+  source: {
+    github: 'duowb/unplugin-svg2icon',
+    npm: 'unplugin-svg2icon',
   },
   stats: {
     stars: 0,

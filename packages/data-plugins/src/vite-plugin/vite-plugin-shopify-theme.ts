@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'woodawn/vite-plugin-shopify-theme',
-    npm: 'vite-plugin-shopify-theme',
-  },
   links: {
     github: 'https://github.com/woodawn/vite-plugin-shopify-theme',
     npm: 'https://www.npmjs.com/package/vite-plugin-shopify-theme',
     website: 'https://github.com/woodawn/vite-plugin-shopify-theme#readme',
+  },
+  source: {
+    github: 'woodawn/vite-plugin-shopify-theme',
+    npm: 'vite-plugin-shopify-theme',
   },
   stats: {
     stars: 2,

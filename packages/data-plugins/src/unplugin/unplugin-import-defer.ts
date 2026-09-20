@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'transform',
     'import-defer',
   ],
-  source: {
-    github: 'lisonge/unplugin-import-defer',
-    npm: 'unplugin-import-defer',
-  },
   links: {
     github: 'https://github.com/lisonge/unplugin-import-defer',
     npm: 'https://www.npmjs.com/package/unplugin-import-defer',
     website: 'https://github.com/lisonge/unplugin-import-defer#readme',
+  },
+  source: {
+    github: 'lisonge/unplugin-import-defer',
+    npm: 'unplugin-import-defer',
   },
   stats: {
     stars: 1,

@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'wasm',
     'webassembly',
   ],
-  source: {
-    github: 'wahnsinn-design/rollup-base64-fonts',
-    npm: 'rollup-base64-fonts',
-  },
   links: {
     github: 'https://github.com/wahnsinn-design/rollup-base64-fonts',
     npm: 'https://www.npmjs.com/package/rollup-base64-fonts',
     website: 'https://github.com/wahnsinn-design/rollup-base64-fonts',
+  },
+  source: {
+    github: 'wahnsinn-design/rollup-base64-fonts',
+    npm: 'rollup-base64-fonts',
   },
   stats: {
     stars: 0,

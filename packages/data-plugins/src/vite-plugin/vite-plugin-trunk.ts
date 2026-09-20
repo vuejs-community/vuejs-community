@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'wasm',
     'leptos',
   ],
-  source: {
-    github: 'chenhunghan/vite-plugin-trunk',
-    npm: 'vite-plugin-trunk',
-  },
   links: {
     github: 'https://github.com/chenhunghan/vite-plugin-trunk',
     npm: 'https://www.npmjs.com/package/vite-plugin-trunk',
     website: 'https://github.com/chenhunghan/vite-plugin-trunk#readme',
+  },
+  source: {
+    github: 'chenhunghan/vite-plugin-trunk',
+    npm: 'vite-plugin-trunk',
   },
   stats: {
     stars: 7,

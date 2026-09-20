@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'custom-template',
   ],
-  source: {
-    npm: 'vite-plugin-template-custom',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-template-custom',
+  },
+  source: {
+    npm: 'vite-plugin-template-custom',
   },
   stats: {
     stars: 0,

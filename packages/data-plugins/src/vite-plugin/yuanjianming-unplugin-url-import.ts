@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'unplugin',
   ],
-  source: {
-    github: 'yuan66-hub/unplugin-url-import',
-    npm: '@yuanjianming/unplugin-url-import',
-  },
   links: {
     github: 'https://github.com/yuan66-hub/unplugin-url-import',
     npm: 'https://www.npmjs.com/package/@yuanjianming/unplugin-url-import',
     website: 'https://github.com/yuan66-hub/unplugin-url-import#readme',
+  },
+  source: {
+    github: 'yuan66-hub/unplugin-url-import',
+    npm: '@yuanjianming/unplugin-url-import',
   },
   stats: {
     stars: 0,

@@ -20,11 +20,11 @@ export default defineProjectMeta({
     'non-esm',
     'legacy',
   ],
-  source: {
-    npm: 'vite-plugin-raw-asset-uprooter',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-raw-asset-uprooter',
+  },
+  source: {
+    npm: 'vite-plugin-raw-asset-uprooter',
   },
   stats: {
     stars: 0,

@@ -21,13 +21,13 @@ export default defineProjectMeta({
     'folders',
     'glob',
   ],
-  source: {
-    github: 'jonathanmoore/rollup-plugin-copy',
-    npm: '@jonathanmoore/rollup-plugin-copy',
-  },
   links: {
     github: 'https://github.com/jonathanmoore/rollup-plugin-copy',
     npm: 'https://www.npmjs.com/package/@jonathanmoore/rollup-plugin-copy',
+  },
+  source: {
+    github: 'jonathanmoore/rollup-plugin-copy',
+    npm: '@jonathanmoore/rollup-plugin-copy',
   },
   stats: {
     stars: 0,

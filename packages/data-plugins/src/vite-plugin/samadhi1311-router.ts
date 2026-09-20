@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'router',
     'nextjs',
   ],
-  source: {
-    npm: '@samadhi1311/router',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@samadhi1311/router',
+  },
+  source: {
+    npm: '@samadhi1311/router',
   },
   stats: {
     stars: 0,

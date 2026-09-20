@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'librogame',
     'librogamesland',
   ],
-  source: {
-    github: 'librogamesland/rollup-plugin-lgcjs',
-    npm: 'rollup-plugin-lgcjs',
-  },
   links: {
     github: 'https://github.com/librogamesland/rollup-plugin-lgcjs',
     npm: 'https://www.npmjs.com/package/rollup-plugin-lgcjs',
     website: 'https://github.com/librogamesland/rollup-plugin-lgcjs#readme',
+  },
+  source: {
+    github: 'librogamesland/rollup-plugin-lgcjs',
+    npm: 'rollup-plugin-lgcjs',
   },
   stats: {
     stars: 1,

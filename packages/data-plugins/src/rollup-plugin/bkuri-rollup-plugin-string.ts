@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'string',
     'template',
   ],
-  source: {
-    github: 'bkuri/rollup-plugin-string',
-    npm: '@bkuri/rollup-plugin-string',
-  },
   links: {
     github: 'https://github.com/bkuri/rollup-plugin-string',
     npm: 'https://www.npmjs.com/package/@bkuri/rollup-plugin-string',
     website: 'https://github.com/bkuri/rollup-plugin-string',
+  },
+  source: {
+    github: 'bkuri/rollup-plugin-string',
+    npm: '@bkuri/rollup-plugin-string',
   },
   stats: {
     stars: 1,

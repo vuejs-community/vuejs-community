@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vue',
     'mcp',
   ],
-  source: {
-    github: 'xiaou66/vite-plugin-vue-mcp-next',
-    npm: '@xiaou66/vite-plugin-vue-mcp-next',
-  },
   links: {
     github: 'https://github.com/xiaou66/vite-plugin-vue-mcp-next',
     npm: 'https://www.npmjs.com/package/@xiaou66/vite-plugin-vue-mcp-next',
     website: 'https://github.com/xiaou66/vite-plugin-vue-mcp-next#readme',
+  },
+  source: {
+    github: 'xiaou66/vite-plugin-vue-mcp-next',
+    npm: '@xiaou66/vite-plugin-vue-mcp-next',
   },
   stats: {
     stars: 19,

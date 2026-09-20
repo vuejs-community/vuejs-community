@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'plugin-utils',
     'build-tools',
   ],
-  source: {
-    github: 'jsxtools/rollup-utils',
-    npm: '@jsxtools/rollup-plugin-utils',
-  },
   links: {
     github: 'https://github.com/jsxtools/rollup-utils',
     npm: 'https://www.npmjs.com/package/@jsxtools/rollup-plugin-utils',
     website: 'https://github.com/jsxtools/rollup-utils/tree/main/packages/rollup-plugin-utils',
+  },
+  source: {
+    github: 'jsxtools/rollup-utils',
+    npm: '@jsxtools/rollup-plugin-utils',
   },
   stats: {
     stars: 0,

@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'markdown',
     'code-block',
   ],
-  source: {
-    github: 'haocheng6/rollup-plugin-github-code-import',
-    npm: 'rollup-plugin-github-code-import',
-  },
   links: {
     github: 'https://github.com/haocheng6/rollup-plugin-github-code-import',
     npm: 'https://www.npmjs.com/package/rollup-plugin-github-code-import',
     website: 'https://github.com/haocheng6/rollup-plugin-github-code-import#readme',
+  },
+  source: {
+    github: 'haocheng6/rollup-plugin-github-code-import',
+    npm: 'rollup-plugin-github-code-import',
   },
   stats: {
     stars: 0,

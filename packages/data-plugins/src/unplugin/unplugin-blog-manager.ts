@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'jic999/unplugin-blog-manager',
-    npm: 'unplugin-blog-manager',
-  },
   links: {
     github: 'https://github.com/jic999/unplugin-blog-manager',
     npm: 'https://www.npmjs.com/package/unplugin-blog-manager',
     website: 'https://github.com/jic999/unplugin-blog-manager#readme',
+  },
+  source: {
+    github: 'jic999/unplugin-blog-manager',
+    npm: 'unplugin-blog-manager',
   },
   stats: {
     stars: 0,

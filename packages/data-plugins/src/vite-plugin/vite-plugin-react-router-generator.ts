@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vitejs',
   ],
-  source: {
-    github: 'kongyijilafumi/vite-plugin-react-router-generator',
-    npm: 'vite-plugin-react-router-generator',
-  },
   links: {
     github: 'https://github.com/kongyijilafumi/vite-plugin-react-router-generator',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-router-generator',
     website: 'https://github.com/kongyijilafumi/vite-plugin-react-router-generator#readme',
+  },
+  source: {
+    github: 'kongyijilafumi/vite-plugin-react-router-generator',
+    npm: 'vite-plugin-react-router-generator',
   },
   stats: {
     stars: 4,

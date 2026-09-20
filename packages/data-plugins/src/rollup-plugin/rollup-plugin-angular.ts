@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'inliner',
     'rollup-plugin',
   ],
-  source: {
-    github: 'cebor/rollup-plugin-angular',
-    npm: 'rollup-plugin-angular',
-  },
   links: {
     github: 'https://github.com/cebor/rollup-plugin-angular',
     npm: 'https://www.npmjs.com/package/rollup-plugin-angular',
     website: 'https://github.com/cebor/rollup-plugin-angular#readme',
+  },
+  source: {
+    github: 'cebor/rollup-plugin-angular',
+    npm: 'rollup-plugin-angular',
   },
   stats: {
     stars: 15,

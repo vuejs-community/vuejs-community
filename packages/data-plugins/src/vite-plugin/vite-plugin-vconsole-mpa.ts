@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vconsole',
     'mpa',
   ],
-  source: {
-    github: 'Miofly/vite-plugin-vconsole-mpa',
-    npm: 'vite-plugin-vconsole-mpa',
-  },
   links: {
     github: 'https://github.com/Miofly/vite-plugin-vconsole-mpa',
     npm: 'https://www.npmjs.com/package/vite-plugin-vconsole-mpa',
     website: 'https://github.com/Miofly/vite-plugin-vconsole-mpa',
+  },
+  source: {
+    github: 'Miofly/vite-plugin-vconsole-mpa',
+    npm: 'vite-plugin-vconsole-mpa',
   },
   stats: {
     stars: 6,

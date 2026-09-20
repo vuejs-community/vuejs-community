@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'cloudflare',
     'redirect',
   ],
-  source: {
-    github: 'ryoppippi/vite-plugin-cloudflare-redirect',
-    npm: '@ryoppippi/vite-plugin-cloudflare-redirect',
-  },
   links: {
     github: 'https://github.com/ryoppippi/vite-plugin-cloudflare-redirect',
     npm: 'https://www.npmjs.com/package/@ryoppippi/vite-plugin-cloudflare-redirect',
     website: 'https://github.com/ryoppippi/vite-plugin-cloudflare-redirect#readme',
+  },
+  source: {
+    github: 'ryoppippi/vite-plugin-cloudflare-redirect',
+    npm: '@ryoppippi/vite-plugin-cloudflare-redirect',
   },
   stats: {
     stars: 0,

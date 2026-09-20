@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'https',
     'devcert',
   ],
-  source: {
-    github: 'xinup/vite-plugin-devcert',
-    npm: 'vite-plugin-devcert',
-  },
   links: {
     github: 'https://github.com/xinup/vite-plugin-devcert',
     npm: 'https://www.npmjs.com/package/vite-plugin-devcert',
     website: 'https://github.com/xinup/vite-plugin-devcert#readme',
+  },
+  source: {
+    github: 'xinup/vite-plugin-devcert',
+    npm: 'vite-plugin-devcert',
   },
   stats: {
     stars: 0,

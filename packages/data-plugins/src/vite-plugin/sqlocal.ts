@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'drizzle',
     'kysely',
   ],
-  source: {
-    github: 'DallasHoff/sqlocal',
-    npm: 'sqlocal',
-  },
   links: {
     github: 'https://github.com/DallasHoff/sqlocal',
     npm: 'https://www.npmjs.com/package/sqlocal',
     website: 'https://sqlocal.dev',
+  },
+  source: {
+    github: 'DallasHoff/sqlocal',
+    npm: 'sqlocal',
   },
   stats: {
     stars: 743,

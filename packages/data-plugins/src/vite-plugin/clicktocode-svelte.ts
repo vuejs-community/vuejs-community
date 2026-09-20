@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'ai',
     'vite-plugin',
   ],
-  source: {
-    github: 'aminarshadinia/clicktocode',
-    npm: '@clicktocode/svelte',
-  },
   links: {
     github: 'https://github.com/aminarshadinia/clicktocode',
     npm: 'https://www.npmjs.com/package/@clicktocode/svelte',
     website: 'https://github.com/aminarshadinia/clicktocode/tree/main/packages/svelte#readme',
+  },
+  source: {
+    github: 'aminarshadinia/clicktocode',
+    npm: '@clicktocode/svelte',
   },
   stats: {
     stars: 0,

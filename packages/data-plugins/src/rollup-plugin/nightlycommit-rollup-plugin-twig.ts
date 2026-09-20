@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'twig',
     'twing',
   ],
-  source: {
-    npm: '@nightlycommit/rollup-plugin-twig',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@nightlycommit/rollup-plugin-twig',
     website: 'https://rollup-plugin-twig.nightlycommit.com',
+  },
+  source: {
+    npm: '@nightlycommit/rollup-plugin-twig',
   },
   stats: {
     stars: 0,

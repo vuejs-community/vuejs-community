@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'rollup-plugin',
     'rescript',
   ],
-  source: {
-    npm: '@nojaf/vite-plugin-rescript',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@nojaf/vite-plugin-rescript',
+  },
+  source: {
+    npm: '@nojaf/vite-plugin-rescript',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'stylelint',
   ],
-  source: {
-    github: 'AMatlash/vite-plugin-stylelint',
-    npm: '@amatlash/vite-plugin-stylelint',
-  },
   links: {
     github: 'https://github.com/AMatlash/vite-plugin-stylelint',
     npm: 'https://www.npmjs.com/package/@amatlash/vite-plugin-stylelint',
     website: 'https://github.com/AMatlash/vite-plugin-stylelint#readme',
+  },
+  source: {
+    github: 'AMatlash/vite-plugin-stylelint',
+    npm: '@amatlash/vite-plugin-stylelint',
   },
   stats: {
     stars: 12,

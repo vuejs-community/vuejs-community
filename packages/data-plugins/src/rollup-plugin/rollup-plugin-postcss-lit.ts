@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'umbopepato/rollup-plugin-postcss-lit',
-    npm: 'rollup-plugin-postcss-lit',
-  },
   links: {
     github: 'https://github.com/umbopepato/rollup-plugin-postcss-lit',
     npm: 'https://www.npmjs.com/package/rollup-plugin-postcss-lit',
     website: 'https://github.com/umbopepato/rollup-plugin-postcss-lit#readme',
+  },
+  source: {
+    github: 'umbopepato/rollup-plugin-postcss-lit',
+    npm: 'rollup-plugin-postcss-lit',
   },
   stats: {
     stars: 34,

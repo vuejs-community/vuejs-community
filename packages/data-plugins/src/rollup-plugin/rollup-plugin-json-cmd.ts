@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'rollup-plugin',
   ],
-  source: {
-    github: 'hhucqian/rollup-plugin-json-cmd',
-    npm: 'rollup-plugin-json-cmd',
-  },
   links: {
     github: 'https://github.com/hhucqian/rollup-plugin-json-cmd',
     npm: 'https://www.npmjs.com/package/rollup-plugin-json-cmd',
     website: 'https://github.com/hhucqian/rollup-plugin-json-cmd#readme',
+  },
+  source: {
+    github: 'hhucqian/rollup-plugin-json-cmd',
+    npm: 'rollup-plugin-json-cmd',
   },
   stats: {
     stars: 0,

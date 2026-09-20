@@ -11,12 +11,12 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    npm: 'rollup-plugin-flow-entry',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-flow-entry',
     website: 'https://github.com/swansontec/rollup-plugin-flow-entry',
+  },
+  source: {
+    npm: 'rollup-plugin-flow-entry',
   },
   stats: {
     stars: 0,

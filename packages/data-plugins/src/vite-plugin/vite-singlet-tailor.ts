@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'embed',
     'source',
   ],
-  source: {
-    github: 'aussieljk/vite-singlet-tailor',
-    npm: 'vite-singlet-tailor',
-  },
   links: {
     github: 'https://github.com/aussieljk/vite-singlet-tailor',
     npm: 'https://www.npmjs.com/package/vite-singlet-tailor',
     website: 'https://github.com/aussieljk/vite-singlet-tailor#readme',
+  },
+  source: {
+    github: 'aussieljk/vite-singlet-tailor',
+    npm: 'vite-singlet-tailor',
   },
   stats: {
     stars: 0,

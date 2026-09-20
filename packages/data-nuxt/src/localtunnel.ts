@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://github.com/nuxt-community/legacy-modules/tree/master/packages/localtunnel',
   },
   source: {
-    github: 'nuxt-community/legacy-modules#master/packages/localtunnel',
+    github: 'nuxt-community/legacy-modules',
     npm: '@nuxtjs/localtunnel',
   },
 })

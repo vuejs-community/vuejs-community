@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'plugin',
   ],
-  source: {
-    github: 'MengXi-Studio/vite-plugin',
-    npm: '@meng-xi/vite-plugin',
-  },
   links: {
     github: 'https://github.com/MengXi-Studio/vite-plugin',
     npm: 'https://www.npmjs.com/package/@meng-xi/vite-plugin',
     website: 'https://github.com/MengXi-Studio/vite-plugin#readme',
+  },
+  source: {
+    github: 'MengXi-Studio/vite-plugin',
+    npm: '@meng-xi/vite-plugin',
   },
   stats: {
     stars: 4,

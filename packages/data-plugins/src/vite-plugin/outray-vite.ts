@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'localhost',
     'development',
   ],
-  source: {
-    github: 'akinloluwami/outray',
-    npm: '@outray/vite',
-  },
   links: {
     github: 'https://github.com/akinloluwami/outray',
     npm: 'https://www.npmjs.com/package/@outray/vite',
     website: 'https://outray.dev',
+  },
+  source: {
+    github: 'akinloluwami/outray',
+    npm: '@outray/vite',
   },
   stats: {
     stars: 1143,

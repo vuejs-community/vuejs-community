@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'internationalization',
     'localization',
   ],
-  source: {
-    npm: '@raypx/i18n',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@raypx/i18n',
+  },
+  source: {
+    npm: '@raypx/i18n',
   },
   stats: {
     stars: 0,

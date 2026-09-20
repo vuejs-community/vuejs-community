@@ -19,11 +19,11 @@ export default defineProjectMeta({
     'debugging',
     'inspector',
   ],
-  source: {
-    npm: 'react-dev-bot',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/react-dev-bot',
+  },
+  source: {
+    npm: 'react-dev-bot',
   },
   stats: {
     stars: 0,

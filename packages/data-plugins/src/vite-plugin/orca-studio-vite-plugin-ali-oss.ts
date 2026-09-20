@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'ali-oss',
     'aliyun',
   ],
-  source: {
-    github: 'xiaweiss/vite-plugin-ali-oss',
-    npm: '@orca-studio/vite-plugin-ali-oss',
-  },
   links: {
     github: 'https://github.com/xiaweiss/vite-plugin-ali-oss',
     npm: 'https://www.npmjs.com/package/@orca-studio/vite-plugin-ali-oss',
     website: 'https://github.com/xiaweiss/vite-plugin-ali-oss',
+  },
+  source: {
+    github: 'xiaweiss/vite-plugin-ali-oss',
+    npm: '@orca-studio/vite-plugin-ali-oss',
   },
   stats: {
     stars: 43,

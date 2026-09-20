@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'live-reload',
     'state-preservation',
   ],
-  source: {
-    github: 'foldkit/foldkit',
-    npm: '@foldkit/vite-plugin',
-  },
   links: {
     github: 'https://github.com/foldkit/foldkit',
     npm: 'https://www.npmjs.com/package/@foldkit/vite-plugin',
     website: 'https://github.com/foldkit/foldkit#readme',
+  },
+  source: {
+    github: 'foldkit/foldkit',
+    npm: '@foldkit/vite-plugin',
   },
   stats: {
     stars: 0,

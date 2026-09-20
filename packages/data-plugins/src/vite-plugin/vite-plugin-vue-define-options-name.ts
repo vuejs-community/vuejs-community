@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vue',
   ],
-  source: {
-    github: 'yingzhi0808/vite-plugin-vue-define-options-name',
-    npm: 'vite-plugin-vue-define-options-name',
-  },
   links: {
     github: 'https://github.com/yingzhi0808/vite-plugin-vue-define-options-name',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-define-options-name',
     website: 'https://github.com/yingzhi0808/vite-plugin-vue-define-options-name',
+  },
+  source: {
+    github: 'yingzhi0808/vite-plugin-vue-define-options-name',
+    npm: 'vite-plugin-vue-define-options-name',
   },
   stats: {
     stars: 1,

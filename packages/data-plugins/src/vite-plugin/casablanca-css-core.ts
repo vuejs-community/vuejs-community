@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'tkamenoko/casablanca-css',
-    npm: '@casablanca-css/core',
-  },
   links: {
     github: 'https://github.com/tkamenoko/casablanca-css',
     npm: 'https://www.npmjs.com/package/@casablanca-css/core',
     website: 'https://github.com/tkamenoko/casablanca-css#readme',
+  },
+  source: {
+    github: 'tkamenoko/casablanca-css',
+    npm: '@casablanca-css/core',
   },
   stats: {
     stars: 0,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'tagged-template',
   ],
-  source: {
-    github: 'yunsii/unplugin-polish-tagged-templates',
-    npm: 'unplugin-polish-tagged-templates',
-  },
   links: {
     github: 'https://github.com/yunsii/unplugin-polish-tagged-templates',
     npm: 'https://www.npmjs.com/package/unplugin-polish-tagged-templates',
     website: 'https://github.com/yunsii/unplugin-polish-tagged-templates#readme',
+  },
+  source: {
+    github: 'yunsii/unplugin-polish-tagged-templates',
+    npm: 'unplugin-polish-tagged-templates',
   },
   stats: {
     stars: 4,

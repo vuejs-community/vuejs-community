@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite',
   ],
-  source: {
-    github: 'martinkruusement/vite-plugin-pkl',
-    npm: 'vite-plugin-pkl',
-  },
   links: {
     github: 'https://github.com/martinkruusement/vite-plugin-pkl',
     npm: 'https://www.npmjs.com/package/vite-plugin-pkl',
     website: 'https://github.com/martinkruusement/vite-plugin-pkl#readme',
+  },
+  source: {
+    github: 'martinkruusement/vite-plugin-pkl',
+    npm: 'vite-plugin-pkl',
   },
   stats: {
     stars: 1,

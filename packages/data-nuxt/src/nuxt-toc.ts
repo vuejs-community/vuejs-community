@@ -14,7 +14,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/thaikolja/nuxt-toc',
     npm: 'https://npmjs.com/package/nuxt-toc',
-    website: 'https://github.com/thaikolja/nuxt-toc',
+    website: 'https://thaikolja.github.io/nuxt-toc',
   },
   source: {
     github: 'thaikolja/nuxt-toc',

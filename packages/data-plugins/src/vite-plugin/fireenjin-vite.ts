@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'mpa',
     'MPA',
   ],
-  source: {
-    github: 'fireenjin/vite',
-    npm: '@fireenjin/vite',
-  },
   links: {
     github: 'https://github.com/fireenjin/vite',
     npm: 'https://www.npmjs.com/package/@fireenjin/vite',
     website: 'https://github.com/fireenjin/vite',
+  },
+  source: {
+    github: 'fireenjin/vite',
+    npm: '@fireenjin/vite',
   },
   stats: {
     stars: 0,

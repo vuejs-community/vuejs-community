@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'postcss-go/postcss-go',
-    npm: '@postcss-go/vite-loader',
-  },
   links: {
     github: 'https://github.com/postcss-go/postcss-go',
     npm: 'https://www.npmjs.com/package/@postcss-go/vite-loader',
     website: 'https://postcss-go.github.io/',
+  },
+  source: {
+    github: 'postcss-go/postcss-go',
+    npm: '@postcss-go/vite-loader',
   },
   stats: {
     stars: 5,

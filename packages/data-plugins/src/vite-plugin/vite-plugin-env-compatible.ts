@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'dot-env',
   ],
-  source: {
-    github: 'IndexXuan/vite-plugin-env-compatible',
-    npm: 'vite-plugin-env-compatible',
-  },
   links: {
     github: 'https://github.com/IndexXuan/vite-plugin-env-compatible',
     npm: 'https://www.npmjs.com/package/vite-plugin-env-compatible',
     website: 'https://github.com/IndexXuan/vite-plugin-env-compatible',
+  },
+  source: {
+    github: 'IndexXuan/vite-plugin-env-compatible',
+    npm: 'vite-plugin-env-compatible',
   },
   stats: {
     stars: 74,

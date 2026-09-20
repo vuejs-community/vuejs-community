@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'diagnostics',
   ],
-  source: {
-    github: 'vercel-labs/nostics',
-    npm: '@nostics/unplugin',
-  },
   links: {
     github: 'https://github.com/vercel-labs/nostics',
     npm: 'https://www.npmjs.com/package/@nostics/unplugin',
     website: 'https://github.com/vercel-labs/nostics#readme',
+  },
+  source: {
+    github: 'vercel-labs/nostics',
+    npm: '@nostics/unplugin',
   },
   stats: {
     stars: 230,

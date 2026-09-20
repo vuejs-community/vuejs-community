@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'js',
     'text',
   ],
-  source: {
-    github: 'amjedomar/rollup-plugin-css-text',
-    npm: 'rollup-plugin-css-text',
-  },
   links: {
     github: 'https://github.com/amjedomar/rollup-plugin-css-text',
     npm: 'https://www.npmjs.com/package/rollup-plugin-css-text',
+  },
+  source: {
+    github: 'amjedomar/rollup-plugin-css-text',
+    npm: 'rollup-plugin-css-text',
   },
   stats: {
     stars: 1,

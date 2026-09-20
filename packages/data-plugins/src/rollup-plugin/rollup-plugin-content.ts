@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'rollup',
   ],
-  source: {
-    github: 'stalniy/rollup-plugin-content',
-    npm: 'rollup-plugin-content',
-  },
   links: {
     github: 'https://github.com/stalniy/rollup-plugin-content',
     npm: 'https://www.npmjs.com/package/rollup-plugin-content',
     website: 'https://github.com/stalniy/rollup-plugin-content#readme',
+  },
+  source: {
+    github: 'stalniy/rollup-plugin-content',
+    npm: 'rollup-plugin-content',
   },
   stats: {
     stars: 2,

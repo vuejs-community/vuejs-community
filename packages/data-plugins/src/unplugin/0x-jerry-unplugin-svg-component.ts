@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'jevon617/unplugin-svg-component',
-    npm: '@0x-jerry/unplugin-svg-component',
-  },
   links: {
     github: 'https://github.com/jevon617/unplugin-svg-component',
     npm: 'https://www.npmjs.com/package/@0x-jerry/unplugin-svg-component',
     website: 'https://github.com/jevon617/unplugin-svg-component#readme',
+  },
+  source: {
+    github: 'jevon617/unplugin-svg-component',
+    npm: '@0x-jerry/unplugin-svg-component',
   },
   stats: {
     stars: 75,

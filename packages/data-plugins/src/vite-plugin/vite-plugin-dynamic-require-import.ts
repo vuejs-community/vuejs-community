@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'import',
     'dynamic',
   ],
-  source: {
-    github: 'yangyanhui1217/vite-plugins-related',
-    npm: 'vite-plugin-dynamic-require-import',
-  },
   links: {
     github: 'https://github.com/yangyanhui1217/vite-plugins-related',
     npm: 'https://www.npmjs.com/package/vite-plugin-dynamic-require-import',
+  },
+  source: {
+    github: 'yangyanhui1217/vite-plugins-related',
+    npm: 'vite-plugin-dynamic-require-import',
   },
   stats: {
     stars: 1,

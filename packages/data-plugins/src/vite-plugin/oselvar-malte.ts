@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'content',
     'i18n',
   ],
-  source: {
-    github: 'oselvar/malte',
-    npm: '@oselvar/malte',
-  },
   links: {
     github: 'https://github.com/oselvar/malte',
     npm: 'https://www.npmjs.com/package/@oselvar/malte',
     website: 'https://github.com/oselvar/malte#readme',
+  },
+  source: {
+    github: 'oselvar/malte',
+    npm: '@oselvar/malte',
   },
   stats: {
     stars: 0,

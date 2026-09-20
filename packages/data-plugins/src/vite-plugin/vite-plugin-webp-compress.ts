@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'frontend',
     'development',
   ],
-  source: {
-    github: 'filway/vite-plugin-webp-compress',
-    npm: 'vite-plugin-webp-compress',
-  },
   links: {
     github: 'https://github.com/filway/vite-plugin-webp-compress',
     npm: 'https://www.npmjs.com/package/vite-plugin-webp-compress',
     website: 'https://github.com/filway/vite-plugin-webp-compress#readme',
+  },
+  source: {
+    github: 'filway/vite-plugin-webp-compress',
+    npm: 'vite-plugin-webp-compress',
   },
   stats: {
     stars: 1,

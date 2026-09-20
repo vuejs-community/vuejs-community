@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'wordpress',
     'rollup',
   ],
-  source: {
-    github: 'lunapress/npm-packages',
-    npm: '@lunapress/rollup-plugin-wp',
-  },
   links: {
     github: 'https://github.com/lunapress/npm-packages',
     npm: 'https://www.npmjs.com/package/@lunapress/rollup-plugin-wp',
     website: 'https://github.com/lunapress/npm-packages#readme',
+  },
+  source: {
+    github: 'lunapress/npm-packages',
+    npm: '@lunapress/rollup-plugin-wp',
   },
   stats: {
     stars: 0,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'mtl',
     'textures',
   ],
-  source: {
-    github: 'm0ksem/unplugin-object-3d',
-    npm: 'unplugin-object-3d',
-  },
   links: {
     github: 'https://github.com/m0ksem/unplugin-object-3d',
     npm: 'https://www.npmjs.com/package/unplugin-object-3d',
     website: 'https://github.com/m0ksem/unplugin-object-3d',
+  },
+  source: {
+    github: 'm0ksem/unplugin-object-3d',
+    npm: 'unplugin-object-3d',
   },
   stats: {
     stars: 3,

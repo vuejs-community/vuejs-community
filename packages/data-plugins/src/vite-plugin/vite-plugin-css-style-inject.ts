@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'css',
     'js',
   ],
-  source: {
-    github: 'kurnia-dev/vite-plugin-css-style-inject',
-    npm: 'vite-plugin-css-style-inject',
-  },
   links: {
     github: 'https://github.com/kurnia-dev/vite-plugin-css-style-inject',
     npm: 'https://www.npmjs.com/package/vite-plugin-css-style-inject',
     website: 'https://github.com/kurnia-dev/vite-plugin-css-style-inject#readme',
+  },
+  source: {
+    github: 'kurnia-dev/vite-plugin-css-style-inject',
+    npm: 'vite-plugin-css-style-inject',
   },
   stats: {
     stars: 0,

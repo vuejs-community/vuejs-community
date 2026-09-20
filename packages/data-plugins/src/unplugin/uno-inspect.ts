@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'unocss',
     'scan',
   ],
-  source: {
-    github: 'unpreset/uno-inspect',
-    npm: 'uno-inspect',
-  },
   links: {
     github: 'https://github.com/unpreset/uno-inspect',
     npm: 'https://www.npmjs.com/package/uno-inspect',
     website: 'https://github.com/unpreset/uno-inspect#readme',
+  },
+  source: {
+    github: 'unpreset/uno-inspect',
+    npm: 'uno-inspect',
   },
   stats: {
     stars: 0,

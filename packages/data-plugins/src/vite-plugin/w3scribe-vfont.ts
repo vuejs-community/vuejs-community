@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'woff2',
     'zero-runtime',
   ],
-  source: {
-    github: 'w3Scribe/vfont',
-    npm: '@w3scribe/vfont',
-  },
   links: {
     github: 'https://github.com/w3Scribe/vfont',
     npm: 'https://www.npmjs.com/package/@w3scribe/vfont',
     website: 'https://github.com/w3Scribe/vfont#readme',
+  },
+  source: {
+    github: 'w3Scribe/vfont',
+    npm: '@w3scribe/vfont',
   },
   stats: {
     stars: 0,

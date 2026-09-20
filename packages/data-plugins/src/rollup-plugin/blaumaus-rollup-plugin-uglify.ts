@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'uglify',
     'minify',
   ],
-  source: {
-    github: 'Blaumaus/rollup-plugin-uglify',
-    npm: '@blaumaus/rollup-plugin-uglify',
-  },
   links: {
     github: 'https://github.com/Blaumaus/rollup-plugin-uglify',
     npm: 'https://www.npmjs.com/package/@blaumaus/rollup-plugin-uglify',
     website: 'https://github.com/Blaumaus/rollup-plugin-uglify#readme',
+  },
+  source: {
+    github: 'Blaumaus/rollup-plugin-uglify',
+    npm: '@blaumaus/rollup-plugin-uglify',
   },
   stats: {
     stars: 1,

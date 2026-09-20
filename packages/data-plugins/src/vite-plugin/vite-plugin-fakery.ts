@@ -30,14 +30,14 @@ export default defineProjectMeta({
     'test api',
     'vite plugin fakery',
   ],
-  source: {
-    github: 'ridgehkr/vite-plugin-fakery',
-    npm: 'vite-plugin-fakery',
-  },
   links: {
     github: 'https://github.com/ridgehkr/vite-plugin-fakery',
     npm: 'https://www.npmjs.com/package/vite-plugin-fakery',
     website: 'https://vite-plugin-fakery.netlify.app',
+  },
+  source: {
+    github: 'ridgehkr/vite-plugin-fakery',
+    npm: 'vite-plugin-fakery',
   },
   stats: {
     stars: 0,

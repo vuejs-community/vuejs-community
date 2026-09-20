@@ -13,13 +13,13 @@ export default defineProjectMeta({
     'html',
     'django',
   ],
-  source: {
-    github: 'madchester/vite-plugin-html-django',
-    npm: 'vite-plugin-html-django',
-  },
   links: {
     github: 'https://github.com/madchester/vite-plugin-html-django',
     npm: 'https://www.npmjs.com/package/vite-plugin-html-django',
+  },
+  source: {
+    github: 'madchester/vite-plugin-html-django',
+    npm: 'vite-plugin-html-django',
   },
   stats: {
     stars: 0,

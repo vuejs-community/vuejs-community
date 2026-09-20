@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'semi-ui',
   ],
-  source: {
-    github: 'JacobZyy/vite-plugin-semi-theme',
-    npm: '@jacob-z/vite-plugin-semi-theme-loader',
-  },
   links: {
     github: 'https://github.com/JacobZyy/vite-plugin-semi-theme',
     npm: 'https://www.npmjs.com/package/@jacob-z/vite-plugin-semi-theme-loader',
     website: 'https://github.com/JacobZyy/vite-plugin-semi-theme#readme',
+  },
+  source: {
+    github: 'JacobZyy/vite-plugin-semi-theme',
+    npm: '@jacob-z/vite-plugin-semi-theme-loader',
   },
   stats: {
     stars: 2,

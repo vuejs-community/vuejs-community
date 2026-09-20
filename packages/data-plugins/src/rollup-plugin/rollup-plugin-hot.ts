@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'rollup-plugin',
     'hmr',
   ],
-  source: {
-    github: 'rixo/rollup-plugin-hot',
-    npm: 'rollup-plugin-hot',
-  },
   links: {
     github: 'https://github.com/rixo/rollup-plugin-hot',
     npm: 'https://www.npmjs.com/package/rollup-plugin-hot',
     website: 'https://github.com/rixo/rollup-plugin-hot',
+  },
+  source: {
+    github: 'rixo/rollup-plugin-hot',
+    npm: 'rollup-plugin-hot',
   },
   stats: {
     stars: 50,

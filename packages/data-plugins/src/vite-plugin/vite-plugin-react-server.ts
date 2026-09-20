@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rsc',
     'server-components',
   ],
-  source: {
-    github: 'nicobrinkkemper/vite-plugin-react-server',
-    npm: 'vite-plugin-react-server',
-  },
   links: {
     github: 'https://github.com/nicobrinkkemper/vite-plugin-react-server',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-server',
     website: 'https://github.com/nicobrinkkemper/vite-plugin-react-server#readme',
+  },
+  source: {
+    github: 'nicobrinkkemper/vite-plugin-react-server',
+    npm: 'vite-plugin-react-server',
   },
   stats: {
     stars: 51,

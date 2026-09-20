@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'wasm',
     'staticwebassets',
   ],
-  source: {
-    github: 'ArcadeMode/unplugin-dotnet-wasm',
-    npm: 'unplugin-dotnet-wasm',
-  },
   links: {
     github: 'https://github.com/ArcadeMode/unplugin-dotnet-wasm',
     npm: 'https://www.npmjs.com/package/unplugin-dotnet-wasm',
     website: 'https://github.com/ArcadeMode/unplugin-dotnet-wasm#readme',
+  },
+  source: {
+    github: 'ArcadeMode/unplugin-dotnet-wasm',
+    npm: 'unplugin-dotnet-wasm',
   },
   stats: {
     stars: 2,

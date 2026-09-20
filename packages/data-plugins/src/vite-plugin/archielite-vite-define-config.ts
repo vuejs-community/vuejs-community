@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'archielite/vite-define-config',
-    npm: '@archielite/vite-define-config',
-  },
   links: {
     github: 'https://github.com/archielite/vite-define-config',
     npm: 'https://www.npmjs.com/package/@archielite/vite-define-config',
     website: 'https://github.com/archielite/vite-define-config',
+  },
+  source: {
+    github: 'archielite/vite-define-config',
+    npm: '@archielite/vite-define-config',
   },
   stats: {
     stars: 0,

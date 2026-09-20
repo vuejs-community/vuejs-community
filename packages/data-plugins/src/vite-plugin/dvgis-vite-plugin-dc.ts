@@ -17,13 +17,13 @@ export default defineProjectMeta({
     'Cesium',
     'dc-sdk',
   ],
-  source: {
-    github: 'dvgis/vite-plugin-dc',
-    npm: '@dvgis/vite-plugin-dc',
-  },
   links: {
     github: 'https://github.com/dvgis/vite-plugin-dc',
     npm: 'https://www.npmjs.com/package/@dvgis/vite-plugin-dc',
+  },
+  source: {
+    github: 'dvgis/vite-plugin-dc',
+    npm: '@dvgis/vite-plugin-dc',
   },
   stats: {
     stars: 5,

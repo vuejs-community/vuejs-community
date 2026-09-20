@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'string',
     'template',
   ],
-  source: {
-    github: 'sanand0/rollup-plugin-htmlparts',
-    npm: 'rollup-plugin-htmlparts',
-  },
   links: {
     github: 'https://github.com/sanand0/rollup-plugin-htmlparts',
     npm: 'https://www.npmjs.com/package/rollup-plugin-htmlparts',
     website: 'https://github.com/sanand0/rollup-plugin-htmlparts#readme',
+  },
+  source: {
+    github: 'sanand0/rollup-plugin-htmlparts',
+    npm: 'rollup-plugin-htmlparts',
   },
   stats: {
     stars: 2,

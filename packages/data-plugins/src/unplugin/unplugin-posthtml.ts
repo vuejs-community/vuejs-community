@@ -21,14 +21,14 @@ export default defineProjectMeta({
     'transform',
     'html',
   ],
-  source: {
-    github: '7TeamApp/unplugin-posthtml',
-    npm: 'unplugin-posthtml',
-  },
   links: {
     github: 'https://github.com/7TeamApp/unplugin-posthtml',
     npm: 'https://www.npmjs.com/package/unplugin-posthtml',
     website: 'https://github.com/7TeamApp/unplugin-posthtml#readme',
+  },
+  source: {
+    github: '7TeamApp/unplugin-posthtml',
+    npm: 'unplugin-posthtml',
   },
   stats: {
     stars: 0,

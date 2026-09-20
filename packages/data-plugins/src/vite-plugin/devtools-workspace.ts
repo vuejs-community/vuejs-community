@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'universal',
     'all-projects',
   ],
-  source: {
-    github: 'QINGYUAI/devtools-workspace',
-    npm: 'devtools-workspace',
-  },
   links: {
     github: 'https://github.com/QINGYUAI/devtools-workspace',
     npm: 'https://www.npmjs.com/package/devtools-workspace',
     website: 'https://github.com/QINGYUAI/devtools-workspace#readme',
+  },
+  source: {
+    github: 'QINGYUAI/devtools-workspace',
+    npm: 'devtools-workspace',
   },
   stats: {
     stars: 0,

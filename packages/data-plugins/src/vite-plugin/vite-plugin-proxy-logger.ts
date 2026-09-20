@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'logger',
     'debug',
   ],
-  source: {
-    github: 'huangmingfu/vite-plugin-proxy-logger',
-    npm: 'vite-plugin-proxy-logger',
-  },
   links: {
     github: 'https://github.com/huangmingfu/vite-plugin-proxy-logger',
     npm: 'https://www.npmjs.com/package/vite-plugin-proxy-logger',
     website: 'https://github.com/huangmingfu/vite-plugin-proxy-logger#readme',
+  },
+  source: {
+    github: 'huangmingfu/vite-plugin-proxy-logger',
+    npm: 'vite-plugin-proxy-logger',
   },
   stats: {
     stars: 2,

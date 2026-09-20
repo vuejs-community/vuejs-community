@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'minify',
     'uglify',
   ],
-  source: {
-    github: 'futurist/rollup-plugin-minify',
-    npm: 'rollup-plugin-minify',
-  },
   links: {
     github: 'https://github.com/futurist/rollup-plugin-minify',
     npm: 'https://www.npmjs.com/package/rollup-plugin-minify',
     website: 'https://github.com/futurist/rollup-plugin-minify#readme',
+  },
+  source: {
+    github: 'futurist/rollup-plugin-minify',
+    npm: 'rollup-plugin-minify',
   },
   stats: {
     stars: 2,

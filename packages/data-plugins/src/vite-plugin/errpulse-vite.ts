@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'sentry-alternative',
     'zero-config',
   ],
-  source: {
-    github: 'Meghshyams/ErrPulse',
-    npm: '@errpulse/vite',
-  },
   links: {
     github: 'https://github.com/Meghshyams/ErrPulse',
     npm: 'https://www.npmjs.com/package/@errpulse/vite',
     website: 'https://github.com/Meghshyams/ErrPulse#readme',
+  },
+  source: {
+    github: 'Meghshyams/ErrPulse',
+    npm: '@errpulse/vite',
   },
   stats: {
     stars: 3,

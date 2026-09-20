@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'typescript',
     'rollup-plugin',
   ],
-  source: {
-    github: 'NDA-Software/rollup-plugin-indexer',
-    npm: 'rollup-plugin-indexer',
-  },
   links: {
     github: 'https://github.com/NDA-Software/rollup-plugin-indexer',
     npm: 'https://www.npmjs.com/package/rollup-plugin-indexer',
     website: 'https://github.com/NDA-Software/rollup-plugin-indexer#readme',
+  },
+  source: {
+    github: 'NDA-Software/rollup-plugin-indexer',
+    npm: 'rollup-plugin-indexer',
   },
   stats: {
     stars: 0,

@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'jsbundling-rails',
     'vite-plugin',
   ],
-  source: {
-    npm: 'jsbundling-vite-plugin',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/jsbundling-vite-plugin',
+  },
+  source: {
+    npm: 'jsbundling-vite-plugin',
   },
   stats: {
     stars: 0,

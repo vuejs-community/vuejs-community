@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'overlay',
     'plugin',
   ],
-  source: {
-    github: 'alexdotpink/confkit',
-    npm: '@confkit/vite',
-  },
   links: {
     github: 'https://github.com/alexdotpink/confkit',
     npm: 'https://www.npmjs.com/package/@confkit/vite',
     website: 'https://github.com/alexdotpink/confkit/tree/main/packages/confkit-vite#readme',
+  },
+  source: {
+    github: 'alexdotpink/confkit',
+    npm: '@confkit/vite',
   },
   stats: {
     stars: 5,

@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'html',
     'components',
   ],
-  source: {
-    github: 'slotherinee/vite-plugin-bake-alpine-components',
-    npm: 'vite-plugin-bake-alpine-components',
-  },
   links: {
     github: 'https://github.com/slotherinee/vite-plugin-bake-alpine-components',
     npm: 'https://www.npmjs.com/package/vite-plugin-bake-alpine-components',
     website: 'https://github.com/slotherinee/vite-plugin-bake-alpine-components#readme',
+  },
+  source: {
+    github: 'slotherinee/vite-plugin-bake-alpine-components',
+    npm: 'vite-plugin-bake-alpine-components',
   },
   stats: {
     stars: 0,

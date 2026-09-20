@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'file-based-route',
     'vite-plugin',
   ],
-  source: {
-    github: 'HM-Suiji/hono-filebased-route',
-    npm: '@hono-filebased-route/vite-plugin',
-  },
   links: {
     github: 'https://github.com/HM-Suiji/hono-filebased-route',
     npm: 'https://www.npmjs.com/package/@hono-filebased-route/vite-plugin',
     website: 'https://github.com/HM-Suiji/hono-filebased-route#readme',
+  },
+  source: {
+    github: 'HM-Suiji/hono-filebased-route',
+    npm: '@hono-filebased-route/vite-plugin',
   },
   stats: {
     stars: 4,

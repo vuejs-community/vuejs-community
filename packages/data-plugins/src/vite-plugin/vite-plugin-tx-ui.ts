@@ -17,11 +17,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'component-library',
   ],
-  source: {
-    npm: 'vite-plugin-tx-ui',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-tx-ui',
+  },
+  source: {
+    npm: 'vite-plugin-tx-ui',
   },
   stats: {
     stars: 0,

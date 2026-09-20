@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'formatjs',
   ],
-  source: {
-    github: 'ArnoSaine/postinumero',
-    npm: '@postinumero/unplugin-formatjs',
-  },
   links: {
     github: 'https://github.com/ArnoSaine/postinumero',
     npm: 'https://www.npmjs.com/package/@postinumero/unplugin-formatjs',
     website: 'https://github.com/ArnoSaine/postinumero/tree/main/packages/unplugin-formatjs',
+  },
+  source: {
+    github: 'ArnoSaine/postinumero',
+    npm: '@postinumero/unplugin-formatjs',
   },
   stats: {
     stars: 0,

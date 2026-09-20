@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'css-icons',
     'css-generators',
   ],
-  source: {
-    github: 'yunsii/unplugin-iconify',
-    npm: 'unplugin-iconify',
-  },
   links: {
     github: 'https://github.com/yunsii/unplugin-iconify',
     npm: 'https://www.npmjs.com/package/unplugin-iconify',
     website: 'https://github.com/yunsii/unplugin-iconify#readme',
+  },
+  source: {
+    github: 'yunsii/unplugin-iconify',
+    npm: 'unplugin-iconify',
   },
   stats: {
     stars: 2,

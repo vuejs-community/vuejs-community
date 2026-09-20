@@ -28,14 +28,14 @@ export default defineProjectMeta({
     'hmr',
     'hot-reload',
   ],
-  source: {
-    github: 'gcwioro/vite-plugin-vue-i18n-types',
-    npm: 'vite-plugin-vue-i18n-types',
-  },
   links: {
     github: 'https://github.com/gcwioro/vite-plugin-vue-i18n-types',
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-i18n-types',
     website: 'https://github.com/gcwioro/vite-plugin-vue-i18n-types#readme',
+  },
+  source: {
+    github: 'gcwioro/vite-plugin-vue-i18n-types',
+    npm: 'vite-plugin-vue-i18n-types',
   },
   stats: {
     stars: 1,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'router',
     'vite',
   ],
-  source: {
-    github: 'mammadataei/vite-plugin-remix-router',
-    npm: 'vite-plugin-remix-router',
-  },
   links: {
     github: 'https://github.com/mammadataei/vite-plugin-remix-router',
     npm: 'https://www.npmjs.com/package/vite-plugin-remix-router',
     website: 'https://vite-remix-router.vercel.app/',
+  },
+  source: {
+    github: 'mammadataei/vite-plugin-remix-router',
+    npm: 'vite-plugin-remix-router',
   },
   stats: {
     stars: 0,

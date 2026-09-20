@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'rspack',
     'transform',
   ],
-  source: {
-    github: 'styleframe-dev/styleframe',
-    npm: '@styleframe/plugin',
-  },
   links: {
     github: 'https://github.com/styleframe-dev/styleframe',
     npm: 'https://www.npmjs.com/package/@styleframe/plugin',
     website: 'https://github.com/styleframe-dev/styleframe#readme',
+  },
+  source: {
+    github: 'styleframe-dev/styleframe',
+    npm: '@styleframe/plugin',
   },
   stats: {
     stars: 91,

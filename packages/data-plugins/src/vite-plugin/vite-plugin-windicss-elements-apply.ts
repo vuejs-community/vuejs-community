@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'apply',
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-windicss-elements-apply',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-windicss-elements-apply',
+  },
+  source: {
+    npm: 'vite-plugin-windicss-elements-apply',
   },
   stats: {
     stars: 0,

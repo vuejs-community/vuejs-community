@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'css',
     'css-modules',
   ],
-  source: {
-    github: 'jonkwheeler/minwind',
-    npm: 'minwind',
-  },
   links: {
     github: 'https://github.com/jonkwheeler/minwind',
     npm: 'https://www.npmjs.com/package/minwind',
     website: 'https://github.com/jonkwheeler/minwind#readme',
+  },
+  source: {
+    github: 'jonkwheeler/minwind',
+    npm: 'minwind',
   },
   stats: {
     stars: 7,

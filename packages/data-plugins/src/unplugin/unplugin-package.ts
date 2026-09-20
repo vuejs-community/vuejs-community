@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'publish',
     'pack',
   ],
-  source: {
-    github: 'aprosail/unplugin-package',
-    npm: 'unplugin-package',
-  },
   links: {
     github: 'https://github.com/aprosail/unplugin-package',
     npm: 'https://www.npmjs.com/package/unplugin-package',
     website: 'https://github.com/aprosail/unplugin-package#readme',
+  },
+  source: {
+    github: 'aprosail/unplugin-package',
+    npm: 'unplugin-package',
   },
   stats: {
     stars: 0,

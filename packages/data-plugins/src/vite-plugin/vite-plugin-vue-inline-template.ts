@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'inline-template',
     'template',
   ],
-  source: {
-    npm: 'vite-plugin-vue-inline-template',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-inline-template',
     website: 'https://gitee.com/gonlyk/vite-plugin-vue-inline-template',
+  },
+  source: {
+    npm: 'vite-plugin-vue-inline-template',
   },
   stats: {
     stars: 0,

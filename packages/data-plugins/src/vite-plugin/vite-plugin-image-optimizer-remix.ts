@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'svgo',
     'sharp.js',
   ],
-  source: {
-    github: 'ePotok22/vite-plugin-image-optimizer-remix',
-    npm: 'vite-plugin-image-optimizer-remix',
-  },
   links: {
     github: 'https://github.com/ePotok22/vite-plugin-image-optimizer-remix',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-optimizer-remix',
     website: 'https://github.com/ePotok22/vite-plugin-image-optimizer-remix#readme',
+  },
+  source: {
+    github: 'ePotok22/vite-plugin-image-optimizer-remix',
+    npm: 'vite-plugin-image-optimizer-remix',
   },
   stats: {
     stars: 0,

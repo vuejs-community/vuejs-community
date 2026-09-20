@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'arguments',
     'optimize',
   ],
-  source: {
-    github: 'nolanlawson/rollup-plugin-optimize-arguments',
-    npm: 'rollup-plugin-optimize-arguments',
-  },
   links: {
     github: 'https://github.com/nolanlawson/rollup-plugin-optimize-arguments',
     npm: 'https://www.npmjs.com/package/rollup-plugin-optimize-arguments',
     website: 'https://github.com/nolanlawson/rollup-plugin-optimize-arguments#readme',
+  },
+  source: {
+    github: 'nolanlawson/rollup-plugin-optimize-arguments',
+    npm: 'rollup-plugin-optimize-arguments',
   },
   stats: {
     stars: 0,

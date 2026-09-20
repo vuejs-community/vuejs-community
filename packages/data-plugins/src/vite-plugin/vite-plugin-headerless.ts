@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'capacitor',
     'electron',
   ],
-  source: {
-    github: 'firejune/headerless',
-    npm: 'vite-plugin-headerless',
-  },
   links: {
     github: 'https://github.com/firejune/headerless',
     npm: 'https://www.npmjs.com/package/vite-plugin-headerless',
     website: 'https://github.com/firejune/headerless#readme',
+  },
+  source: {
+    github: 'firejune/headerless',
+    npm: 'vite-plugin-headerless',
   },
   stats: {
     stars: 2,

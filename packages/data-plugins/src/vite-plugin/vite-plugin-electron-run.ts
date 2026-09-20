@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'watch',
   ],
-  source: {
-    github: 'antelm-dev/electron-run',
-    npm: 'vite-plugin-electron-run',
-  },
   links: {
     github: 'https://github.com/antelm-dev/electron-run',
     npm: 'https://www.npmjs.com/package/vite-plugin-electron-run',
     website: 'https://antelm-dev.github.io/electron-run/',
+  },
+  source: {
+    github: 'antelm-dev/electron-run',
+    npm: 'vite-plugin-electron-run',
   },
   stats: {
     stars: 0,

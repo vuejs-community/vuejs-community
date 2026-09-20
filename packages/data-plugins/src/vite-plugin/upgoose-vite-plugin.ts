@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'upgoose',
   ],
-  source: {
-    github: 'randell/upgoose',
-    npm: '@upgoose/vite-plugin',
-  },
   links: {
     github: 'https://github.com/randell/upgoose',
     npm: 'https://www.npmjs.com/package/@upgoose/vite-plugin',
     website: 'https://upgoose.app/docs#source-maps',
+  },
+  source: {
+    github: 'randell/upgoose',
+    npm: '@upgoose/vite-plugin',
   },
   stats: {
     stars: 0,

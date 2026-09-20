@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'server',
     'traefik',
   ],
-  source: {
-    github: 'psyirius/vite-plugin-secure-now',
-    npm: 'vite-plugin-secure-now',
-  },
   links: {
     github: 'https://github.com/psyirius/vite-plugin-secure-now',
     npm: 'https://www.npmjs.com/package/vite-plugin-secure-now',
     website: 'https://github.com/psyirius/vite-plugin-secure-now#readme',
+  },
+  source: {
+    github: 'psyirius/vite-plugin-secure-now',
+    npm: 'vite-plugin-secure-now',
   },
   stats: {
     stars: 0,

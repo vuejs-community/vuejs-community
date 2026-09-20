@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'pug',
     'vite-plugin',
   ],
-  source: {
-    github: 'marlonmarcello/vite-plugin-pug',
-    npm: '@marlonmarcello/vite-plugin-pug',
-  },
   links: {
     github: 'https://github.com/marlonmarcello/vite-plugin-pug',
     npm: 'https://www.npmjs.com/package/@marlonmarcello/vite-plugin-pug',
     website: 'https://github.com/marlonmarcello/vite-plugin-pug/blob/main/README.md',
+  },
+  source: {
+    github: 'marlonmarcello/vite-plugin-pug',
+    npm: '@marlonmarcello/vite-plugin-pug',
   },
   stats: {
     stars: 1,

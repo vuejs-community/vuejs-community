@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'dts',
     '@types',
   ],
-  source: {
-    github: 'martinadamec/rollup-plugin-dts',
-    npm: '@martinadamec/rollup-plugin-dts',
-  },
   links: {
     github: 'https://github.com/martinadamec/rollup-plugin-dts',
     npm: 'https://www.npmjs.com/package/@martinadamec/rollup-plugin-dts',
     website: 'https://github.com/Swatinem/rollup-plugin-dts#readme',
+  },
+  source: {
+    github: 'martinadamec/rollup-plugin-dts',
+    npm: '@martinadamec/rollup-plugin-dts',
   },
   stats: {
     stars: 0,

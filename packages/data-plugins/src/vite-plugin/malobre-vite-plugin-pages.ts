@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: '@malobre/vite-plugin-pages',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@malobre/vite-plugin-pages',
+  },
+  source: {
+    npm: '@malobre/vite-plugin-pages',
   },
   stats: {
     stars: 0,

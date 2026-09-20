@@ -17,13 +17,13 @@ export default defineProjectMeta({
     'testing-library',
     'playwright',
   ],
-  source: {
-    github: 'aleo-it/testable-ui',
-    npm: '@testable-ui/vite',
-  },
   links: {
     github: 'https://github.com/aleo-it/testable-ui',
     npm: 'https://www.npmjs.com/package/@testable-ui/vite',
     website: 'https://github.com/aleo-it/testable-ui#readme',
+  },
+  source: {
+    github: 'aleo-it/testable-ui',
+    npm: '@testable-ui/vite',
   },
 })

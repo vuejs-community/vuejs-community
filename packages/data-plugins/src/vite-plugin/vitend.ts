@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'js',
     'javascript',
   ],
-  source: {
-    github: 'alpheusday/vitend',
-    npm: 'vitend',
-  },
   links: {
     github: 'https://github.com/alpheusday/vitend',
     npm: 'https://www.npmjs.com/package/vitend',
     website: 'https://github.com/alpheusday/vitend',
+  },
+  source: {
+    github: 'alpheusday/vitend',
+    npm: 'vitend',
   },
   stats: {
     stars: 1,

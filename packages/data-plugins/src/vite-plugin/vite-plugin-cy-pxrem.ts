@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'px to rem',
     'postcss',
   ],
-  source: {
-    npm: 'vite-plugin-cy-pxrem',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-cy-pxrem',
+  },
+  source: {
+    npm: 'vite-plugin-cy-pxrem',
   },
   stats: {
     stars: 0,

@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'rollup',
     'rollup-plugin',
   ],
-  source: {
-    github: 'shanewholloway/rollup-plugin-hash-n-gzip',
-    npm: 'rollup-plugin-hash-n-gzip',
-  },
   links: {
     github: 'https://github.com/shanewholloway/rollup-plugin-hash-n-gzip',
     npm: 'https://www.npmjs.com/package/rollup-plugin-hash-n-gzip',
     website: 'https://github.com/shanewholloway/rollup-plugin-hash-n-gzip#readme',
+  },
+  source: {
+    github: 'shanewholloway/rollup-plugin-hash-n-gzip',
+    npm: 'rollup-plugin-hash-n-gzip',
   },
   stats: {
     stars: 0,

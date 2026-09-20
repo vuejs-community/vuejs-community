@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    npm: '@zenphp/zenvite',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@zenphp/zenvite',
     website: 'https://gitlab.com/zenphp/zenvite',
+  },
+  source: {
+    npm: '@zenphp/zenvite',
   },
   stats: {
     stars: 0,

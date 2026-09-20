@@ -12,11 +12,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'auto-export',
   ],
-  source: {
-    npm: 'vite-plugin-auto-export',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-export',
+  },
+  source: {
+    npm: 'vite-plugin-auto-export',
   },
   stats: {
     stars: 0,

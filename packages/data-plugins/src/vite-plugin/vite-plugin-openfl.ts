@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'OpenFL',
     'haxe',
   ],
-  source: {
-    github: 'feathersui/vite-plugin-openfl',
-    npm: 'vite-plugin-openfl',
-  },
   links: {
     github: 'https://github.com/feathersui/vite-plugin-openfl',
     npm: 'https://www.npmjs.com/package/vite-plugin-openfl',
     website: 'https://github.com/feathersui/vite-plugin-openfl#readme',
+  },
+  source: {
+    github: 'feathersui/vite-plugin-openfl',
+    npm: 'vite-plugin-openfl',
   },
   stats: {
     stars: 3,

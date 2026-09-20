@@ -22,14 +22,14 @@ export default defineProjectMeta({
     'build-info',
     'version-info',
   ],
-  source: {
-    github: 'Drswith/unplugin-auto-git-info',
-    npm: 'unplugin-auto-git-info',
-  },
   links: {
     github: 'https://github.com/Drswith/unplugin-auto-git-info',
     npm: 'https://www.npmjs.com/package/unplugin-auto-git-info',
     website: 'https://github.com/Drswith/unplugin-auto-git-info#readme',
+  },
+  source: {
+    github: 'Drswith/unplugin-auto-git-info',
+    npm: 'unplugin-auto-git-info',
   },
   stats: {
     stars: 1,

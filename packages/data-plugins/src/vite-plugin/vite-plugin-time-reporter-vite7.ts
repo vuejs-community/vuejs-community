@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vitejs',
     'awesome',
   ],
-  source: {
-    github: 'benjamin-tw/vite-plugin-time-reporter',
-    npm: 'vite-plugin-time-reporter-vite7',
-  },
   links: {
     github: 'https://github.com/benjamin-tw/vite-plugin-time-reporter',
     npm: 'https://www.npmjs.com/package/vite-plugin-time-reporter-vite7',
     website: 'https://github.com/benjamin-tw/vite-plugin-time-reporter#readme',
+  },
+  source: {
+    github: 'benjamin-tw/vite-plugin-time-reporter',
+    npm: 'vite-plugin-time-reporter-vite7',
   },
   stats: {
     stars: 0,

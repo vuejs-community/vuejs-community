@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'astro',
     'remix',
   ],
-  source: {
-    github: 'Sebas-DV/shadcn-theme-editor',
-    npm: '@sebas-dv/shadcn-theme-editor-vite',
-  },
   links: {
     github: 'https://github.com/Sebas-DV/shadcn-theme-editor',
     npm: 'https://www.npmjs.com/package/@sebas-dv/shadcn-theme-editor-vite',
     website: 'https://github.com/Sebas-DV/shadcn-theme-editor#readme',
+  },
+  source: {
+    github: 'Sebas-DV/shadcn-theme-editor',
+    npm: '@sebas-dv/shadcn-theme-editor-vite',
   },
   stats: {
     stars: 1,

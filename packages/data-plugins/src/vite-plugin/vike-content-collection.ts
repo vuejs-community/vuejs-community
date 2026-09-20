@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'frontmatter',
     'zod',
   ],
-  source: {
-    github: 'welpie21/vike-content-collection',
-    npm: 'vike-content-collection',
-  },
   links: {
     github: 'https://github.com/welpie21/vike-content-collection',
     npm: 'https://www.npmjs.com/package/vike-content-collection',
     website: 'https://github.com/welpie21/vike-content-collection#readme',
+  },
+  source: {
+    github: 'welpie21/vike-content-collection',
+    npm: 'vike-content-collection',
   },
   stats: {
     stars: 0,

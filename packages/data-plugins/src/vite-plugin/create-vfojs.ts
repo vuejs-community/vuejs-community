@@ -14,11 +14,11 @@ export default defineProjectMeta({
     '5ho7',
     'vite-plugin',
   ],
-  source: {
-    npm: 'create-vfojs',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/create-vfojs',
+  },
+  source: {
+    npm: 'create-vfojs',
   },
   stats: {
     stars: 0,

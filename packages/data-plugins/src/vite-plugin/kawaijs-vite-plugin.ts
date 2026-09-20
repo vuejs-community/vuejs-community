@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'visual-novel',
   ],
-  source: {
-    github: 'biagio-scaglia/KawaiJS',
-    npm: '@kawaijs/vite-plugin',
-  },
   links: {
     github: 'https://github.com/biagio-scaglia/KawaiJS',
     npm: 'https://www.npmjs.com/package/@kawaijs/vite-plugin',
     website: 'https://github.com/biagio-scaglia/KawaiJS#readme',
+  },
+  source: {
+    github: 'biagio-scaglia/KawaiJS',
+    npm: '@kawaijs/vite-plugin',
   },
   stats: {
     stars: 0,

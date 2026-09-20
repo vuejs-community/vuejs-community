@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'translation',
     'multilingual',
   ],
-  source: {
-    github: 'Azq2/js-lingui-solid',
-    npm: '@lingui-solid/vite-plugin',
-  },
   links: {
     github: 'https://github.com/Azq2/js-lingui-solid',
     npm: 'https://www.npmjs.com/package/@lingui-solid/vite-plugin',
     website: 'https://github.com/Azq2/js-lingui-solid#readme',
+  },
+  source: {
+    github: 'Azq2/js-lingui-solid',
+    npm: '@lingui-solid/vite-plugin',
   },
   stats: {
     stars: 3,

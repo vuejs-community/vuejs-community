@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'analytics',
     'telemetry',
   ],
-  source: {
-    npm: 'acme-vite-analytics',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/acme-vite-analytics',
+  },
+  source: {
+    npm: 'acme-vite-analytics',
   },
   stats: {
     stars: 0,

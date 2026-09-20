@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'annotation',
     'llm',
   ],
-  source: {
-    github: 'jozef/vite-plugin-react-feedback',
-    npm: 'vite-plugin-react-feedback',
-  },
   links: {
     github: 'https://github.com/jozef/vite-plugin-react-feedback',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-feedback',
     website: 'https://github.com/jozef/vite-plugin-react-feedback#readme',
+  },
+  source: {
+    github: 'jozef/vite-plugin-react-feedback',
+    npm: 'vite-plugin-react-feedback',
   },
   stats: {
     stars: 0,

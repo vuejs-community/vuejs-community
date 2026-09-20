@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'obj-loader',
     'obj-file',
   ],
-  source: {
-    github: 'tonyketcham/unplugin-obj',
-    npm: 'unplugin-obj',
-  },
   links: {
     github: 'https://github.com/tonyketcham/unplugin-obj',
     npm: 'https://www.npmjs.com/package/unplugin-obj',
     website: 'https://github.com/tonyketcham/unplugin-obj#readme',
+  },
+  source: {
+    github: 'tonyketcham/unplugin-obj',
+    npm: 'unplugin-obj',
   },
   stats: {
     stars: 5,

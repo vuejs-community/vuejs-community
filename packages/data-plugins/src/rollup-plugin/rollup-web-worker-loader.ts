@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'web-worker',
     'worker',
   ],
-  source: {
-    github: 'keshav-bohr/rollup-web-worker-loader',
-    npm: 'rollup-web-worker-loader',
-  },
   links: {
     github: 'https://github.com/keshav-bohr/rollup-web-worker-loader',
     npm: 'https://www.npmjs.com/package/rollup-web-worker-loader',
     website: 'https://github.com/keshav-bohr/rollup-web-worker-loader#readme',
+  },
+  source: {
+    github: 'keshav-bohr/rollup-web-worker-loader',
+    npm: 'rollup-web-worker-loader',
   },
   stats: {
     stars: 0,

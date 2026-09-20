@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'vitepress-code-block-demo',
     'vitepress-demo',
   ],
-  source: {
-    npm: '@pzy915/vite-plugin-vitepress-demo',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@pzy915/vite-plugin-vitepress-demo',
     website: 'https://gitee.com/free_pan/pzy915-vite-plugin-vitepress-demo',
+  },
+  source: {
+    npm: '@pzy915/vite-plugin-vitepress-demo',
   },
   stats: {
     stars: 0,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'component-library',
     'vite-plugin',
   ],
-  source: {
-    github: 'devclib/jogak',
-    npm: '@jogak/core',
-  },
   links: {
     github: 'https://github.com/devclib/jogak',
     npm: 'https://www.npmjs.com/package/@jogak/core',
     website: 'https://github.com/devclib/jogak#readme',
+  },
+  source: {
+    github: 'devclib/jogak',
+    npm: '@jogak/core',
   },
   stats: {
     stars: 0,

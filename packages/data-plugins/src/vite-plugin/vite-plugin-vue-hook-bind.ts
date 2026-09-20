@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'hook-binding',
     'directive',
   ],
-  source: {
-    npm: 'vite-plugin-vue-hook-bind',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vue-hook-bind',
+  },
+  source: {
+    npm: 'vite-plugin-vue-hook-bind',
   },
   stats: {
     stars: 0,

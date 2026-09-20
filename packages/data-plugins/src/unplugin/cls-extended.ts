@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'esbuild',
     'farm',
   ],
-  source: {
-    github: 'yeasin2002/cls-extended',
-    npm: 'cls-extended',
-  },
   links: {
     github: 'https://github.com/yeasin2002/cls-extended',
     npm: 'https://www.npmjs.com/package/cls-extended',
     website: 'https://github.com/yeasin2002/cls-extended#readme',
+  },
+  source: {
+    github: 'yeasin2002/cls-extended',
+    npm: 'cls-extended',
   },
   stats: {
     stars: 1,

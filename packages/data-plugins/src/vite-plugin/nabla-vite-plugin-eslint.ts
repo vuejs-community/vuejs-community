@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'eslint',
     'vite-plugin',
   ],
-  source: {
-    github: 'nabla/vite-plugin-eslint',
-    npm: '@nabla/vite-plugin-eslint',
-  },
   links: {
     github: 'https://github.com/nabla/vite-plugin-eslint',
     npm: 'https://www.npmjs.com/package/@nabla/vite-plugin-eslint',
     website: 'https://github.com/nabla/vite-plugin-eslint#readme',
+  },
+  source: {
+    github: 'nabla/vite-plugin-eslint',
+    npm: '@nabla/vite-plugin-eslint',
   },
   stats: {
     stars: 143,

@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'transform',
     'generate-version',
   ],
-  source: {
-    github: 'liujiayii/unplugin-generate-version',
-    npm: 'unplugin-generate-version',
-  },
   links: {
     github: 'https://github.com/liujiayii/unplugin-generate-version',
     npm: 'https://www.npmjs.com/package/unplugin-generate-version',
     website: 'https://github.com/liujiayii/unplugin-generate-version',
+  },
+  source: {
+    github: 'liujiayii/unplugin-generate-version',
+    npm: 'unplugin-generate-version',
   },
   stats: {
     stars: 0,

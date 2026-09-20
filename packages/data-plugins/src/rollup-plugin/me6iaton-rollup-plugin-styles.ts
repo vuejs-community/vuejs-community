@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'less',
     'stylus',
   ],
-  source: {
-    github: '@me6iaton/rollup-plugin-styles',
-    npm: '@me6iaton/rollup-plugin-styles',
-  },
   links: {
     github: 'https://github.com/@me6iaton/rollup-plugin-styles',
     npm: 'https://www.npmjs.com/package/@me6iaton/rollup-plugin-styles',
     website: 'https://github.com/@me6iaton/rollup-plugin-styles#readme',
+  },
+  source: {
+    github: '@me6iaton/rollup-plugin-styles',
+    npm: '@me6iaton/rollup-plugin-styles',
   },
   stats: {
     stars: 0,

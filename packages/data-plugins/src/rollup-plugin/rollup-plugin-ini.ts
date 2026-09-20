@@ -11,14 +11,14 @@ export default defineProjectMeta({
   tags: [
     'rollup-plugin',
   ],
-  source: {
-    github: 'thesebas/rollup-plugin-ini',
-    npm: 'rollup-plugin-ini',
-  },
   links: {
     github: 'https://github.com/thesebas/rollup-plugin-ini',
     npm: 'https://www.npmjs.com/package/rollup-plugin-ini',
     website: 'https://github.com/thesebas/rollup-plugin-ini#readme',
+  },
+  source: {
+    github: 'thesebas/rollup-plugin-ini',
+    npm: 'rollup-plugin-ini',
   },
   stats: {
     stars: 0,

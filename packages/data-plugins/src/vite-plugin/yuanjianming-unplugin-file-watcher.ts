@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'unplugin',
   ],
-  source: {
-    github: 'yuan66-hub/unplugin-file-watcher',
-    npm: '@yuanjianming/unplugin-file-watcher',
-  },
   links: {
     github: 'https://github.com/yuan66-hub/unplugin-file-watcher',
     npm: 'https://www.npmjs.com/package/@yuanjianming/unplugin-file-watcher',
     website: 'https://github.com/yuan66-hub/unplugin-file-watcher#readme',
+  },
+  source: {
+    github: 'yuan66-hub/unplugin-file-watcher',
+    npm: '@yuanjianming/unplugin-file-watcher',
   },
   stats: {
     stars: 0,

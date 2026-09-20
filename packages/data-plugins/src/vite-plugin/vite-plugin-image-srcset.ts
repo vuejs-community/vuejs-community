@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'retina',
     'hdpi',
   ],
-  source: {
-    github: 'nbarinov/vite-plugin-image-srcset',
-    npm: 'vite-plugin-image-srcset',
-  },
   links: {
     github: 'https://github.com/nbarinov/vite-plugin-image-srcset',
     npm: 'https://www.npmjs.com/package/vite-plugin-image-srcset',
     website: 'https://github.com/nbarinov/vite-plugin-image-srcset#readme',
+  },
+  source: {
+    github: 'nbarinov/vite-plugin-image-srcset',
+    npm: 'vite-plugin-image-srcset',
   },
   stats: {
     stars: 1,

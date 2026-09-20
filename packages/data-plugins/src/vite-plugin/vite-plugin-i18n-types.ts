@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'types',
     'json',
   ],
-  source: {
-    github: 'vadimpashkov/vite-plugin-i18n-types',
-    npm: 'vite-plugin-i18n-types',
-  },
   links: {
     github: 'https://github.com/vadimpashkov/vite-plugin-i18n-types',
     npm: 'https://www.npmjs.com/package/vite-plugin-i18n-types',
     website: 'https://github.com/vadimpashkov/vite-plugin-i18n-types/tree/main/#readme',
+  },
+  source: {
+    github: 'vadimpashkov/vite-plugin-i18n-types',
+    npm: 'vite-plugin-i18n-types',
   },
   stats: {
     stars: 1,

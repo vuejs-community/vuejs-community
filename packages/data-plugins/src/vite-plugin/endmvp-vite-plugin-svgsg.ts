@@ -26,14 +26,14 @@ export default defineProjectMeta({
     'vite-plugin-svg',
     'vite-plugin-svg-sprite',
   ],
-  source: {
-    github: 'Kristalkill/vite-plugin-svgsg',
-    npm: '@endmvp/vite-plugin-svgsg',
-  },
   links: {
     github: 'https://github.com/Kristalkill/vite-plugin-svgsg',
     npm: 'https://www.npmjs.com/package/@endmvp/vite-plugin-svgsg',
     website: 'https://github.com/Kristalkill/vite-plugin-svgsg#readme',
+  },
+  source: {
+    github: 'Kristalkill/vite-plugin-svgsg',
+    npm: '@endmvp/vite-plugin-svgsg',
   },
   stats: {
     stars: 1,

@@ -15,11 +15,11 @@ export default defineProjectMeta({
     'enter',
     'enter.pro',
   ],
-  source: {
-    npm: 'vite-plugin-enter-dev',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-enter-dev',
+  },
+  source: {
+    npm: 'vite-plugin-enter-dev',
   },
   stats: {
     stars: 0,

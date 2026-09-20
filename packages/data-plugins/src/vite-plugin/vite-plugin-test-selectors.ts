@@ -12,13 +12,13 @@ export default defineProjectMeta({
     'vite-plugin',
     'test selectors',
   ],
-  source: {
-    github: 'kiosion/vite-plugin-test-selectors',
-    npm: 'vite-plugin-test-selectors',
-  },
   links: {
     github: 'https://github.com/kiosion/vite-plugin-test-selectors',
     npm: 'https://www.npmjs.com/package/vite-plugin-test-selectors',
+  },
+  source: {
+    github: 'kiosion/vite-plugin-test-selectors',
+    npm: 'vite-plugin-test-selectors',
   },
   stats: {
     stars: 2,

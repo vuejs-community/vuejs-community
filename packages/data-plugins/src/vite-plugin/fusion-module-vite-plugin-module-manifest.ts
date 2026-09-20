@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'fusion-module',
     'manifest',
   ],
-  source: {
-    npm: '@fusion-module/vite-plugin-module-manifest',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/@fusion-module/vite-plugin-module-manifest',
+  },
+  source: {
+    npm: '@fusion-module/vite-plugin-module-manifest',
   },
   stats: {
     stars: 0,

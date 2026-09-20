@@ -46,14 +46,14 @@ export default defineProjectMeta({
     'spritesheet',
     'icon-sprite',
   ],
-  source: {
-    github: 'jurerotar/react-icons-sprite',
-    npm: 'react-icons-sprite',
-  },
   links: {
     github: 'https://github.com/jurerotar/react-icons-sprite',
     npm: 'https://www.npmjs.com/package/react-icons-sprite',
     website: 'https://github.com/jurerotar/react-icons-sprite#readme',
+  },
+  source: {
+    github: 'jurerotar/react-icons-sprite',
+    npm: 'react-icons-sprite',
   },
   stats: {
     stars: 10,

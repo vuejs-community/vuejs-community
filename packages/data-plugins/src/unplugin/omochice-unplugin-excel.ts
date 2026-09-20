@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'Omochice/unplugin-excel',
-    npm: '@omochice/unplugin-excel',
-  },
   links: {
     github: 'https://github.com/Omochice/unplugin-excel',
     npm: 'https://www.npmjs.com/package/@omochice/unplugin-excel',
     website: 'https://github.com/Omochice/unplugin-excel#readme',
+  },
+  source: {
+    github: 'Omochice/unplugin-excel',
+    npm: '@omochice/unplugin-excel',
   },
   stats: {
     stars: 0,

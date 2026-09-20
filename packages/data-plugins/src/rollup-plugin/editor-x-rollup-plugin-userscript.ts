@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'tampermonkey',
     'violentmonkey',
   ],
-  source: {
-    github: 'TheEditorX/rollup-plugin-userscript',
-    npm: '@editor-x/rollup-plugin-userscript',
-  },
   links: {
     github: 'https://github.com/TheEditorX/rollup-plugin-userscript',
     npm: 'https://www.npmjs.com/package/@editor-x/rollup-plugin-userscript',
     website: 'https://github.com/TheEditorX/rollup-plugin-userscript#readme',
+  },
+  source: {
+    github: 'TheEditorX/rollup-plugin-userscript',
+    npm: '@editor-x/rollup-plugin-userscript',
   },
   stats: {
     stars: 1,

@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'less',
     'stylus',
   ],
-  source: {
-    github: 'Anidetrix/rollup-plugin-styles',
-    npm: 'rollup-plugin-styles-import',
-  },
   links: {
     github: 'https://github.com/Anidetrix/rollup-plugin-styles',
     npm: 'https://www.npmjs.com/package/rollup-plugin-styles-import',
     website: 'https://github.com/Anidetrix/rollup-plugin-styles#readme',
+  },
+  source: {
+    github: 'Anidetrix/rollup-plugin-styles',
+    npm: 'rollup-plugin-styles-import',
   },
   stats: {
     stars: 0,

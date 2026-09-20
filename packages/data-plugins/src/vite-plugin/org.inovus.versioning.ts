@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'react',
     'inovus',
   ],
-  source: {
-    github: 'inovus/org.inovus.versioning',
-    npm: 'org.inovus.versioning',
-  },
   links: {
     github: 'https://github.com/inovus/org.inovus.versioning',
     npm: 'https://www.npmjs.com/package/org.inovus.versioning',
     website: 'https://github.com/inovus/org.inovus.versioning#readme',
+  },
+  source: {
+    github: 'inovus/org.inovus.versioning',
+    npm: 'org.inovus.versioning',
   },
   stats: {
     stars: 0,

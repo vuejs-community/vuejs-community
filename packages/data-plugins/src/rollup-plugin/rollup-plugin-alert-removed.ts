@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'alert-remove',
     'remove alert',
   ],
-  source: {
-    npm: 'rollup-plugin-alert-removed',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-alert-removed',
     website: 'https://github.com/fuqqnl/rollup-plugin-alert-removed#readme',
+  },
+  source: {
+    npm: 'rollup-plugin-alert-removed',
   },
   stats: {
     stars: 0,

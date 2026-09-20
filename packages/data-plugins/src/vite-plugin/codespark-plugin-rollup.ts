@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'codespark',
   ],
-  source: {
-    github: 'codesparkjs/codespark',
-    npm: '@codespark/plugin-rollup',
-  },
   links: {
     github: 'https://github.com/codesparkjs/codespark',
     npm: 'https://www.npmjs.com/package/@codespark/plugin-rollup',
     website: 'https://codesparkjs.com',
+  },
+  source: {
+    github: 'codesparkjs/codespark',
+    npm: '@codespark/plugin-rollup',
   },
   stats: {
     stars: 2,

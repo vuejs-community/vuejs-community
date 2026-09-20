@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'docker',
     'build',
   ],
-  source: {
-    github: 'mvpkx/vite-runtime-env-script-plugin',
-    npm: 'vite-runtime-env-script-plugin',
-  },
   links: {
     github: 'https://github.com/mvpkx/vite-runtime-env-script-plugin',
     npm: 'https://www.npmjs.com/package/vite-runtime-env-script-plugin',
     website: 'https://github.com/mvpkx/vite-runtime-env-script-plugin#readme',
+  },
+  source: {
+    github: 'mvpkx/vite-runtime-env-script-plugin',
+    npm: 'vite-runtime-env-script-plugin',
   },
   stats: {
     stars: 3,

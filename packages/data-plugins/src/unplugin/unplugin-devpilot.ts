@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'esbuild',
     'farm',
   ],
-  source: {
-    github: 'zcf0508/unplugin-devpilot',
-    npm: 'unplugin-devpilot',
-  },
   links: {
     github: 'https://github.com/zcf0508/unplugin-devpilot',
     npm: 'https://www.npmjs.com/package/unplugin-devpilot',
     website: 'https://github.com/zcf0508/unplugin-devpilot#readme',
+  },
+  source: {
+    github: 'zcf0508/unplugin-devpilot',
+    npm: 'unplugin-devpilot',
   },
   stats: {
     stars: 34,

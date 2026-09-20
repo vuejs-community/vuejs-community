@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'CatBraaain/vite-plugin-md2svelte',
-    npm: 'vite-plugin-md2svelte',
-  },
   links: {
     github: 'https://github.com/CatBraaain/vite-plugin-md2svelte',
     npm: 'https://www.npmjs.com/package/vite-plugin-md2svelte',
     website: 'https://github.com/CatBraaain/vite-plugin-md2svelte#readme',
+  },
+  source: {
+    github: 'CatBraaain/vite-plugin-md2svelte',
+    npm: 'vite-plugin-md2svelte',
   },
   stats: {
     stars: 0,

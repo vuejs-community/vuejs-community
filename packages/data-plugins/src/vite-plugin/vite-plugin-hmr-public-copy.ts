@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'hmr',
   ],
-  source: {
-    github: 'davidwebca/vite-plugin-hmr-public-copy',
-    npm: 'vite-plugin-hmr-public-copy',
-  },
   links: {
     github: 'https://github.com/davidwebca/vite-plugin-hmr-public-copy',
     npm: 'https://www.npmjs.com/package/vite-plugin-hmr-public-copy',
     website: 'https://github.com/davidwebca/vite-plugin-hmr-public-copy',
+  },
+  source: {
+    github: 'davidwebca/vite-plugin-hmr-public-copy',
+    npm: 'vite-plugin-hmr-public-copy',
   },
   stats: {
     stars: 6,

@@ -33,12 +33,12 @@ export default defineProjectMeta({
     'website-deployment',
     'web-deployment',
   ],
-  source: {
-    npm: 'vite-plugin-auto-deployer',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-auto-deployer',
     website: 'http://www.baiyuezhongcheng.com',
+  },
+  source: {
+    npm: 'vite-plugin-auto-deployer',
   },
   stats: {
     stars: 0,

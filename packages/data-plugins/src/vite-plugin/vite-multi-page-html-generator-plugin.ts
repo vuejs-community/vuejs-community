@@ -24,14 +24,14 @@ export default defineProjectMeta({
     'pages',
     'build-tool',
   ],
-  source: {
-    github: 'gkarev/vite-multi-page-html-generator-plugin',
-    npm: 'vite-multi-page-html-generator-plugin',
-  },
   links: {
     github: 'https://github.com/gkarev/vite-multi-page-html-generator-plugin',
     npm: 'https://www.npmjs.com/package/vite-multi-page-html-generator-plugin',
     website: 'https://github.com/gkarev/vite-multi-page-html-generator-plugin#readme',
+  },
+  source: {
+    github: 'gkarev/vite-multi-page-html-generator-plugin',
+    npm: 'vite-multi-page-html-generator-plugin',
   },
   stats: {
     stars: 0,

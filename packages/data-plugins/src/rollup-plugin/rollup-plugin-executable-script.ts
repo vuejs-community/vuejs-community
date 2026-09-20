@@ -13,12 +13,12 @@ export default defineProjectMeta({
     'executable',
     'script',
   ],
-  source: {
-    npm: 'rollup-plugin-executable-script',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-executable-script',
     website: 'https://github.com/Thejus-Paul/rollup-plugin-executable-script',
+  },
+  source: {
+    npm: 'rollup-plugin-executable-script',
   },
   stats: {
     stars: 0,

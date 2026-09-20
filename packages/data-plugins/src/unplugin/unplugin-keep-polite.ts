@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'polite',
     'unplugin-keep-polite',
   ],
-  source: {
-    github: 'tangdaoyuan/unplugin-keep-polite',
-    npm: 'unplugin-keep-polite',
-  },
   links: {
     github: 'https://github.com/tangdaoyuan/unplugin-keep-polite',
     npm: 'https://www.npmjs.com/package/unplugin-keep-polite',
     website: 'https://github.com/tangdaoyuan/unplugin-keep-polite#readme',
+  },
+  source: {
+    github: 'tangdaoyuan/unplugin-keep-polite',
+    npm: 'unplugin-keep-polite',
   },
   stats: {
     stars: 0,

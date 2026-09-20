@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'leoboyerbx/vite-plugin-devtools-columns',
-    npm: 'vite-plugin-devtools-columns',
-  },
   links: {
     github: 'https://github.com/leoboyerbx/vite-plugin-devtools-columns',
     npm: 'https://www.npmjs.com/package/vite-plugin-devtools-columns',
     website: 'https://github.com/leoboyerbx/vite-plugin-devtools-columns#readme',
+  },
+  source: {
+    github: 'leoboyerbx/vite-plugin-devtools-columns',
+    npm: 'vite-plugin-devtools-columns',
   },
   stats: {
     stars: 0,

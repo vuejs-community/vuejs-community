@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'spinner',
     'build',
   ],
-  source: {
-    github: 'doums/rollup-plugin-loading',
-    npm: 'rollup-plugin-loading',
-  },
   links: {
     github: 'https://github.com/doums/rollup-plugin-loading',
     npm: 'https://www.npmjs.com/package/rollup-plugin-loading',
     website: 'https://github.com/doums/rollup-plugin-loading#readme',
+  },
+  source: {
+    github: 'doums/rollup-plugin-loading',
+    npm: 'rollup-plugin-loading',
   },
   stats: {
     stars: 0,

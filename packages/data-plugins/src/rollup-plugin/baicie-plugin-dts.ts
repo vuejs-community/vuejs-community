@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'dts',
     '@types',
   ],
-  source: {
-    github: 'baicie/rollup-plugin-dts',
-    npm: '@baicie/plugin-dts',
-  },
   links: {
     github: 'https://github.com/baicie/rollup-plugin-dts',
     npm: 'https://www.npmjs.com/package/@baicie/plugin-dts',
     website: 'https://github.com/baicie/rollup-plugin-dts#readme',
+  },
+  source: {
+    github: 'baicie/rollup-plugin-dts',
+    npm: '@baicie/plugin-dts',
   },
   stats: {
     stars: 0,

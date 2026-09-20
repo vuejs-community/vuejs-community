@@ -14,11 +14,11 @@ export default defineProjectMeta({
     'toon',
     'toon-format',
   ],
-  source: {
-    npm: 'vite-plugin-toon',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-toon',
+  },
+  source: {
+    npm: 'vite-plugin-toon',
   },
   stats: {
     stars: 0,

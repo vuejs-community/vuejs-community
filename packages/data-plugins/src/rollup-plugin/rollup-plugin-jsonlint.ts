@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'npm',
     'modules',
   ],
-  source: {
-    github: 'prantlf/rollup-plugin-jsonlint',
-    npm: 'rollup-plugin-jsonlint',
-  },
   links: {
     github: 'https://github.com/prantlf/rollup-plugin-jsonlint',
     npm: 'https://www.npmjs.com/package/rollup-plugin-jsonlint',
     website: 'http://prantlf.github.com/rollup-plugin-jsonlint/',
+  },
+  source: {
+    github: 'prantlf/rollup-plugin-jsonlint',
+    npm: 'rollup-plugin-jsonlint',
   },
   stats: {
     stars: 1,

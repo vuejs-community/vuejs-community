@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'html',
     'location',
   ],
-  source: {
-    github: 'LightAPIs/rollup-plugin-html-location',
-    npm: 'rollup-plugin-html-location',
-  },
   links: {
     github: 'https://github.com/LightAPIs/rollup-plugin-html-location',
     npm: 'https://www.npmjs.com/package/rollup-plugin-html-location',
     website: 'https://github.com/LightAPIs/rollup-plugin-html-location',
+  },
+  source: {
+    github: 'LightAPIs/rollup-plugin-html-location',
+    npm: 'rollup-plugin-html-location',
   },
   stats: {
     stars: 0,

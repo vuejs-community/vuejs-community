@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'es',
     'transform',
   ],
-  source: {
-    github: 'eight04/rollup-plugin-cjs-es',
-    npm: 'rollup-plugin-cjs-es',
-  },
   links: {
     github: 'https://github.com/eight04/rollup-plugin-cjs-es',
     npm: 'https://www.npmjs.com/package/rollup-plugin-cjs-es',
     website: 'https://github.com/eight04/rollup-plugin-cjs-es#readme',
+  },
+  source: {
+    github: 'eight04/rollup-plugin-cjs-es',
+    npm: 'rollup-plugin-cjs-es',
   },
   stats: {
     stars: 21,

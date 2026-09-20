@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'integration',
     'server',
   ],
-  source: {
-    github: 'mocky-balboa/mocky-balboa',
-    npm: '@mocky-balboa/vite',
-  },
   links: {
     github: 'https://github.com/mocky-balboa/mocky-balboa',
     npm: 'https://www.npmjs.com/package/@mocky-balboa/vite',
     website: 'https://docs.mockybalboa.com',
+  },
+  source: {
+    github: 'mocky-balboa/mocky-balboa',
+    npm: '@mocky-balboa/vite',
   },
   stats: {
     stars: 32,

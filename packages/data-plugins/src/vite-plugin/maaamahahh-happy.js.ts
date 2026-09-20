@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'babel-plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'maaamahahh/happy.js',
-    npm: '@maaamahahh/happy.js',
-  },
   links: {
     github: 'https://github.com/maaamahahh/happy.js',
     npm: 'https://www.npmjs.com/package/@maaamahahh/happy.js',
     website: 'https://github.com/maaamahahh/happy.js#readme',
+  },
+  source: {
+    github: 'maaamahahh/happy.js',
+    npm: '@maaamahahh/happy.js',
   },
   stats: {
     stars: 0,

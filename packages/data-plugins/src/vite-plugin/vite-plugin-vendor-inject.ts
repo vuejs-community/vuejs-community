@@ -11,11 +11,11 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
   ],
-  source: {
-    npm: 'vite-plugin-vendor-inject',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-vendor-inject',
+  },
+  source: {
+    npm: 'vite-plugin-vendor-inject',
   },
   stats: {
     stars: 0,

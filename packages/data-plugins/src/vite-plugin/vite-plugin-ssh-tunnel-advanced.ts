@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'dev-server',
     'remote-access',
   ],
-  source: {
-    github: 'longpoll/vite-plugin-ssh-tunnel-advanced',
-    npm: 'vite-plugin-ssh-tunnel-advanced',
-  },
   links: {
     github: 'https://github.com/longpoll/vite-plugin-ssh-tunnel-advanced',
     npm: 'https://www.npmjs.com/package/vite-plugin-ssh-tunnel-advanced',
     website: 'https://github.com/longpoll/vite-plugin-ssh-tunnel-advanced#readme',
+  },
+  source: {
+    github: 'longpoll/vite-plugin-ssh-tunnel-advanced',
+    npm: 'vite-plugin-ssh-tunnel-advanced',
   },
   stats: {
     stars: 0,

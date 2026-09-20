@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'react',
     'islands',
   ],
-  source: {
-    github: 'dcza/live-react-islands',
-    npm: '@live-react-islands/vite-plugin-ssr',
-  },
   links: {
     github: 'https://github.com/dcza/live-react-islands',
     npm: 'https://www.npmjs.com/package/@live-react-islands/vite-plugin-ssr',
     website: 'https://github.com/dcza/live-react-islands#readme',
+  },
+  source: {
+    github: 'dcza/live-react-islands',
+    npm: '@live-react-islands/vite-plugin-ssr',
   },
   stats: {
     stars: 0,

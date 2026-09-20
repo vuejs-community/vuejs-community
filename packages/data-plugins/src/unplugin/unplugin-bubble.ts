@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'wzc520pyfm/unplugin-bubble',
-    npm: 'unplugin-bubble',
-  },
   links: {
     github: 'https://github.com/wzc520pyfm/unplugin-bubble',
     npm: 'https://www.npmjs.com/package/unplugin-bubble',
     website: 'https://github.com/wzc520pyfm/unplugin-bubble#readme',
+  },
+  source: {
+    github: 'wzc520pyfm/unplugin-bubble',
+    npm: 'unplugin-bubble',
   },
   stats: {
     stars: 0,

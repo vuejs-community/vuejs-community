@@ -13,14 +13,14 @@ export default defineProjectMeta({
     's3',
     'vite-plugin',
   ],
-  source: {
-    github: 'sportsrecruits/vite-plugin-s3',
-    npm: 'vite-plugin-s3',
-  },
   links: {
     github: 'https://github.com/sportsrecruits/vite-plugin-s3',
     npm: 'https://www.npmjs.com/package/vite-plugin-s3',
     website: 'https://github.com/sportsrecruits/vite-plugin-s3',
+  },
+  source: {
+    github: 'sportsrecruits/vite-plugin-s3',
+    npm: 'vite-plugin-s3',
   },
   stats: {
     stars: 6,

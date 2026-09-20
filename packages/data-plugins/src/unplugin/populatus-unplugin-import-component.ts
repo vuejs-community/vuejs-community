@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'unplugin-import',
     'import-component',
   ],
-  source: {
-    github: 'populatus/unplugin-import-component',
-    npm: '@populatus/unplugin-import-component',
-  },
   links: {
     github: 'https://github.com/populatus/unplugin-import-component',
     npm: 'https://www.npmjs.com/package/@populatus/unplugin-import-component',
     website: 'https://github.com/populatus/unplugin-import-component#readme',
+  },
+  source: {
+    github: 'populatus/unplugin-import-component',
+    npm: '@populatus/unplugin-import-component',
   },
   stats: {
     stars: 2,

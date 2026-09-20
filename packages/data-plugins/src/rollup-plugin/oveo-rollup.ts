@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'oveo',
     'rollup-plugin',
   ],
-  source: {
-    github: 'localvoid/oveo',
-    npm: '@oveo/rollup',
-  },
   links: {
     github: 'https://github.com/localvoid/oveo',
     npm: 'https://www.npmjs.com/package/@oveo/rollup',
     website: 'https://github.com/localvoid/oveo',
+  },
+  source: {
+    github: 'localvoid/oveo',
+    npm: '@oveo/rollup',
   },
   stats: {
     stars: 0,

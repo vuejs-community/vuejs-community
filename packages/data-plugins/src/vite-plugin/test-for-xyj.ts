@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'inspector',
     'debug',
   ],
-  source: {
-    github: 'webfansplz/vite-plugin-vue-inspector',
-    npm: 'test-for-xyj',
-  },
   links: {
     github: 'https://github.com/webfansplz/vite-plugin-vue-inspector',
     npm: 'https://www.npmjs.com/package/test-for-xyj',
     website: 'https://github.com/webfansplz/vite-plugin-vue-inspector#readme',
+  },
+  source: {
+    github: 'webfansplz/vite-plugin-vue-inspector',
+    npm: 'test-for-xyj',
   },
   stats: {
     stars: 0,

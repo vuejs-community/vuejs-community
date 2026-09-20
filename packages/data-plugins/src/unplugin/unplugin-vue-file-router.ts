@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'rollup',
     'transform',
   ],
-  source: {
-    github: 'Cheng-DX/plugins',
-    npm: 'unplugin-vue-file-router',
-  },
   links: {
     github: 'https://github.com/Cheng-DX/plugins',
     npm: 'https://www.npmjs.com/package/unplugin-vue-file-router',
     website: 'https://github.com/Cheng-DX/plugins/tree/main/packages/unplugin-vue-file-router#readme',
+  },
+  source: {
+    github: 'Cheng-DX/plugins',
+    npm: 'unplugin-vue-file-router',
   },
   stats: {
     stars: 0,

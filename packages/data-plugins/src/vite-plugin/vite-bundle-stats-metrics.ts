@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'stats',
     'metrics',
   ],
-  source: {
-    github: 'alii13/vite-bundle-stats-metrics',
-    npm: 'vite-bundle-stats-metrics',
-  },
   links: {
     github: 'https://github.com/alii13/vite-bundle-stats-metrics',
     npm: 'https://www.npmjs.com/package/vite-bundle-stats-metrics',
     website: 'https://github.com/alii13/vite-bundle-stats-metrics#readme',
+  },
+  source: {
+    github: 'alii13/vite-bundle-stats-metrics',
+    npm: 'vite-bundle-stats-metrics',
   },
   stats: {
     stars: 0,

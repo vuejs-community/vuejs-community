@@ -19,14 +19,14 @@ export default defineProjectMeta({
     'assets',
     'optimization',
   ],
-  source: {
-    github: 'ouweiya/rollup-plugin-copy-enhanced',
-    npm: 'rollup-plugin-copy-enhanced',
-  },
   links: {
     github: 'https://github.com/ouweiya/rollup-plugin-copy-enhanced',
     npm: 'https://www.npmjs.com/package/rollup-plugin-copy-enhanced',
     website: 'https://github.com/ouweiya/rollup-plugin-copy-enhanced#readme',
+  },
+  source: {
+    github: 'ouweiya/rollup-plugin-copy-enhanced',
+    npm: 'rollup-plugin-copy-enhanced',
   },
   stats: {
     stars: 0,

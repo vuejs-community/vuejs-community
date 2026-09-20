@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'which-worktree',
-  description: 'Vite plugin that fixes dev-server fs.allow for symlinked node_modules (git worktrees, cow pastures) and shows a badge with the current branch/worktree name.',
+  description: 'Dev-server helpers for worktree-based development: Vite plugin that fixes fs.allow for symlinked node_modules, plus a worktree/branch badge for Svelte, React, Next.js and other frameworks.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -13,17 +13,19 @@ export default defineProjectMeta({
     'vite-plugin',
     'svelte',
     'svelte5',
+    'react',
+    'nextjs',
     'git-worktree',
     'worktree',
     'dev-server',
   ],
-  source: {
-    github: 'ahrorbeksoft/which-worktree',
-    npm: 'which-worktree',
-  },
   links: {
     github: 'https://github.com/ahrorbeksoft/which-worktree',
     npm: 'https://www.npmjs.com/package/which-worktree',
     website: 'https://github.com/ahrorbeksoft/which-worktree#readme',
+  },
+  source: {
+    github: 'ahrorbeksoft/which-worktree',
+    npm: 'which-worktree',
   },
 })

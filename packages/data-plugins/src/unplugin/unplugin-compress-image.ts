@@ -20,14 +20,14 @@ export default defineProjectMeta({
     'svgo',
     'image',
   ],
-  source: {
-    github: 'pzehrel/unplugin-compress-image',
-    npm: 'unplugin-compress-image',
-  },
   links: {
     github: 'https://github.com/pzehrel/unplugin-compress-image',
     npm: 'https://www.npmjs.com/package/unplugin-compress-image',
     website: 'https://github.com/pzehrel/unplugin-compress-image#readme',
+  },
+  source: {
+    github: 'pzehrel/unplugin-compress-image',
+    npm: 'unplugin-compress-image',
   },
   stats: {
     stars: 0,

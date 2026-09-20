@@ -13,11 +13,11 @@ export default defineProjectMeta({
     'React',
     'Svelte',
   ],
-  source: {
-    npm: 'rollup-plugin-react2svelte',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/rollup-plugin-react2svelte',
+  },
+  source: {
+    npm: 'rollup-plugin-react2svelte',
   },
   stats: {
     stars: 0,

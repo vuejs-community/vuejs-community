@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'router',
     'vite-plugin',
   ],
-  source: {
-    github: 'yusuke99/vite-plugin-cloudflare-router',
-    npm: 'vite-plugin-cloudflare-router',
-  },
   links: {
     github: 'https://github.com/yusuke99/vite-plugin-cloudflare-router',
     npm: 'https://www.npmjs.com/package/vite-plugin-cloudflare-router',
+  },
+  source: {
+    github: 'yusuke99/vite-plugin-cloudflare-router',
+    npm: 'vite-plugin-cloudflare-router',
   },
   stats: {
     stars: 3,

@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'vue',
     'setup',
   ],
-  source: {
-    github: 'chenxch/unplugin-vue-setup-extend-plus',
-    npm: 'unplugin-vue-setup-extend-plus',
-  },
   links: {
     github: 'https://github.com/chenxch/unplugin-vue-setup-extend-plus',
     npm: 'https://www.npmjs.com/package/unplugin-vue-setup-extend-plus',
     website: 'https://github.com/chenxch/unplugin-vue-setup-extend-plus#readme',
+  },
+  source: {
+    github: 'chenxch/unplugin-vue-setup-extend-plus',
+    npm: 'unplugin-vue-setup-extend-plus',
   },
   stats: {
     stars: 44,

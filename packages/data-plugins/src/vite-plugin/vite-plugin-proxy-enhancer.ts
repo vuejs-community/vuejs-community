@@ -22,13 +22,13 @@ export default defineProjectMeta({
     'websocket',
     'logging',
   ],
-  source: {
-    github: 'unknownman/vite-plugin-proxy-enhancer',
-    npm: 'vite-plugin-proxy-enhancer',
-  },
   links: {
     github: 'https://github.com/unknownman/vite-plugin-proxy-enhancer',
     npm: 'https://www.npmjs.com/package/vite-plugin-proxy-enhancer',
     website: 'https://github.com/unknownman/vite-plugin-proxy-enhancer#readme',
+  },
+  source: {
+    github: 'unknownman/vite-plugin-proxy-enhancer',
+    npm: 'vite-plugin-proxy-enhancer',
   },
 })

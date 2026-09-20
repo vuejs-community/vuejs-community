@@ -16,14 +16,14 @@ export default defineProjectMeta({
     'moment',
     'antd',
   ],
-  source: {
-    github: 'nekocode/antd-dayjs-vite-plugin',
-    npm: 'antd-dayjs-vite-plugin',
-  },
   links: {
     github: 'https://github.com/nekocode/antd-dayjs-vite-plugin',
     npm: 'https://www.npmjs.com/package/antd-dayjs-vite-plugin',
     website: 'https://github.com/nekocode/antd-dayjs-vite-plugin',
+  },
+  source: {
+    github: 'nekocode/antd-dayjs-vite-plugin',
+    npm: 'antd-dayjs-vite-plugin',
   },
   stats: {
     stars: 19,

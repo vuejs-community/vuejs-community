@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'assemblyscript',
   ],
-  source: {
-    github: 'olivierchatry/vite-plugin-assemblyscript',
-    npm: 'vite-plugin-assemblyscript',
-  },
   links: {
     github: 'https://github.com/olivierchatry/vite-plugin-assemblyscript',
     npm: 'https://www.npmjs.com/package/vite-plugin-assemblyscript',
     website: 'https://github.com/olivierchatry/vite-plugin-assemblyscript#readme',
+  },
+  source: {
+    github: 'olivierchatry/vite-plugin-assemblyscript',
+    npm: 'vite-plugin-assemblyscript',
   },
   stats: {
     stars: 0,

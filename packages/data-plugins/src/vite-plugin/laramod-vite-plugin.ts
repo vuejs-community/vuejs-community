@@ -15,13 +15,13 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
   ],
-  source: {
-    github: 'protibimbok/laramod-vite-plugin',
-    npm: 'laramod-vite-plugin',
-  },
   links: {
     github: 'https://github.com/protibimbok/laramod-vite-plugin',
     npm: 'https://www.npmjs.com/package/laramod-vite-plugin',
     website: 'https://github.com/protibimbok/laramod-vite-plugin#readme',
+  },
+  source: {
+    github: 'protibimbok/laramod-vite-plugin',
+    npm: 'laramod-vite-plugin',
   },
 })

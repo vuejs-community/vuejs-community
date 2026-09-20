@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'api',
     'vite',
   ],
-  source: {
-    github: 'pangyunchuan/vite-plugin-mockjs-server',
-    npm: 'vite-plugin-mockjs-server',
-  },
   links: {
     github: 'https://github.com/pangyunchuan/vite-plugin-mockjs-server',
     npm: 'https://www.npmjs.com/package/vite-plugin-mockjs-server',
     website: 'https://github.com/pangyunchuan/vite-plugin-mockjs-server#readme',
+  },
+  source: {
+    github: 'pangyunchuan/vite-plugin-mockjs-server',
+    npm: 'vite-plugin-mockjs-server',
   },
   stats: {
     stars: 2,

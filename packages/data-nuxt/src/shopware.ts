@@ -17,7 +17,7 @@ export default defineProjectMeta({
     website: 'https://developer.shopware.com/frontends/packages/nuxt-module.html',
   },
   source: {
-    github: 'shopware/frontends#main/packages/nuxt-module',
+    github: 'shopware/frontends',
     npm: '@shopware/nuxt-module',
   },
 })

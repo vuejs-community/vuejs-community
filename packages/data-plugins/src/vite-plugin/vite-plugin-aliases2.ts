@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'plugin',
     'vite-plugin',
   ],
-  source: {
-    github: 'antfu/vite-plugin-aliases2',
-    npm: 'vite-plugin-aliases2',
-  },
   links: {
     github: 'https://github.com/antfu/vite-plugin-aliases2',
     npm: 'https://www.npmjs.com/package/vite-plugin-aliases2',
     website: 'https://github.com/antfu/vite-plugin-aliases2#readme',
+  },
+  source: {
+    github: 'antfu/vite-plugin-aliases2',
+    npm: 'vite-plugin-aliases2',
   },
   stats: {
     stars: 0,

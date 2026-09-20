@@ -20,11 +20,11 @@ export default defineProjectMeta({
     'folders',
     'glob',
   ],
-  source: {
-    npm: 'vite-plugin-copy',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/vite-plugin-copy',
+  },
+  source: {
+    npm: 'vite-plugin-copy',
   },
   stats: {
     stars: 0,

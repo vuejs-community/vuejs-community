@@ -15,14 +15,14 @@ export default defineProjectMeta({
     'web-worker',
     'worker',
   ],
-  source: {
-    github: 'pyrologic/rollup-plugin-web-worker-loader',
-    npm: '@pyrologic/rollup-plugin-web-worker-loader',
-  },
   links: {
     github: 'https://github.com/pyrologic/rollup-plugin-web-worker-loader',
     npm: 'https://www.npmjs.com/package/@pyrologic/rollup-plugin-web-worker-loader',
     website: 'https://github.com/pyrologic/rollup-plugin-web-worker-loader#readme',
+  },
+  source: {
+    github: 'pyrologic/rollup-plugin-web-worker-loader',
+    npm: '@pyrologic/rollup-plugin-web-worker-loader',
   },
   stats: {
     stars: 0,

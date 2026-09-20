@@ -14,14 +14,14 @@ export default defineProjectMeta({
     'cookie',
     'set-cookie',
   ],
-  source: {
-    github: 'tyange/vite-plugin-set-initial-cookie',
-    npm: 'vite-plugin-set-initial-cookie',
-  },
   links: {
     github: 'https://github.com/tyange/vite-plugin-set-initial-cookie',
     npm: 'https://www.npmjs.com/package/vite-plugin-set-initial-cookie',
     website: 'https://github.com/tyange/vite-plugin-set-initial-cookie',
+  },
+  source: {
+    github: 'tyange/vite-plugin-set-initial-cookie',
+    npm: 'vite-plugin-set-initial-cookie',
   },
   stats: {
     stars: 0,

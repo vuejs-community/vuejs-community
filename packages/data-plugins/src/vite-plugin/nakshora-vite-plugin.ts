@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'utility-first',
     'hmr',
   ],
-  source: {
-    github: 'nakshora/nakshora',
-    npm: '@nakshora/vite-plugin',
-  },
   links: {
     github: 'https://github.com/nakshora/nakshora',
     npm: 'https://www.npmjs.com/package/@nakshora/vite-plugin',
     website: 'https://nakshora.bsdc.info.bd',
+  },
+  source: {
+    github: 'nakshora/nakshora',
+    npm: '@nakshora/vite-plugin',
   },
   stats: {
     stars: 0,

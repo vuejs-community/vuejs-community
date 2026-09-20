@@ -12,14 +12,14 @@ export default defineProjectMeta({
     'vite-plugin',
     'electron',
   ],
-  source: {
-    github: 'livemehere/electron-buddy',
-    npm: '@electron-buddy/vite-plugin',
-  },
   links: {
     github: 'https://github.com/livemehere/electron-buddy',
     npm: 'https://www.npmjs.com/package/@electron-buddy/vite-plugin',
     website: 'https://github.com/livemehere/electron-buddy',
+  },
+  source: {
+    github: 'livemehere/electron-buddy',
+    npm: '@electron-buddy/vite-plugin',
   },
   stats: {
     stars: 0,

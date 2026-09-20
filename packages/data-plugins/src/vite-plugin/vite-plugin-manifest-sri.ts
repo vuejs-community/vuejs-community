@@ -18,14 +18,14 @@ export default defineProjectMeta({
     'vitejs',
     'plugin',
   ],
-  source: {
-    github: 'ElMassimo/vite-plugin-manifest-sri',
-    npm: 'vite-plugin-manifest-sri',
-  },
   links: {
     github: 'https://github.com/ElMassimo/vite-plugin-manifest-sri',
     npm: 'https://www.npmjs.com/package/vite-plugin-manifest-sri',
     website: 'https://github.com/ElMassimo/vite-plugin-manifest-sri',
+  },
+  source: {
+    github: 'ElMassimo/vite-plugin-manifest-sri',
+    npm: 'vite-plugin-manifest-sri',
   },
   stats: {
     stars: 29,

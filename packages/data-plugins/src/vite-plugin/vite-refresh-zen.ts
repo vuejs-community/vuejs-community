@@ -17,14 +17,14 @@ export default defineProjectMeta({
     'pause',
     'refresh',
   ],
-  source: {
-    github: 'aussieljk/vite-refresh-zen',
-    npm: 'vite-refresh-zen',
-  },
   links: {
     github: 'https://github.com/aussieljk/vite-refresh-zen',
     npm: 'https://www.npmjs.com/package/vite-refresh-zen',
     website: 'https://github.com/aussieljk/vite-refresh-zen#readme',
+  },
+  source: {
+    github: 'aussieljk/vite-refresh-zen',
+    npm: 'vite-refresh-zen',
   },
   stats: {
     stars: 0,

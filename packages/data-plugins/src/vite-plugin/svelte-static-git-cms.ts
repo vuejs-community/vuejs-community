@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'git',
     'vite-plugin',
   ],
-  source: {
-    npm: 'svelte-static-git-cms',
-  },
   links: {
     npm: 'https://www.npmjs.com/package/svelte-static-git-cms',
     website: 'https://codeberg.org/svelte-static-git-cms/plugin',
+  },
+  source: {
+    npm: 'svelte-static-git-cms',
   },
   stats: {
     stars: 0,

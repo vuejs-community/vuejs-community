@@ -13,14 +13,14 @@ export default defineProjectMeta({
     'fluent',
     'i18n',
   ],
-  source: {
-    github: 'junlarsen/vite-plugin-fluent',
-    npm: 'vite-plugin-fluent',
-  },
   links: {
     github: 'https://github.com/junlarsen/vite-plugin-fluent',
     npm: 'https://www.npmjs.com/package/vite-plugin-fluent',
     website: 'https://github.com/junlarsen/vite-plugin-fluent',
+  },
+  source: {
+    github: 'junlarsen/vite-plugin-fluent',
+    npm: 'vite-plugin-fluent',
   },
   stats: {
     stars: 5,
