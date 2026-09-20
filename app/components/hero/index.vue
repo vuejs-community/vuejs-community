@@ -1,3 +1,29 @@
+<script setup lang="ts">
+defineOptions({
+  name: 'HeroIndex',
+})
+
+const { app } = useAppConfig()
+const [DefineTemplate, ReuseTemplate] = createReusableTemplate()
+
+const items = [
+  { label: 'vue', icon: 'logos:vue' },
+  { label: 'element-plus', icon: 'icon:element-plus' },
+  { label: 'naiveui', icon: 'icon:naiveui' },
+  { label: 'ant-design', icon: 'logos:ant-design' },
+  { label: 'vueuse', icon: 'logos:vueuse' },
+  { label: 'nuxt', icon: 'logos:nuxt-icon' },
+  { label: 'ant-design-vue', icon: 'icon:ant-design-vue' },
+  { label: 'reka-ui', icon: 'icon:reka-ui' },
+  { label: 'arco-vue', icon: 'icon:arco' },
+  { label: 'daisyui', icon: 'icon:daisyui' },
+  { label: 'vite', icon: 'logos:vite-icon' },
+  { label: 'vite-devtools', icon: 'icon:vite-devtools' },
+  { label: 'vue-pinia', icon: 'logos:pinia' },
+  { label: 'inspira-ui', icon: 'icon:inspira-ui' },
+]
+</script>
+
 <template>
   <section class="relative container isolate flex w-full flex-1 flex-col px-8 py-32 border-x">
     <div class="flex-1 flex flex-col justify-between">
@@ -29,16 +55,18 @@
         </div>
 
         <div class="relative mt-10 flex flex-col items-start gap-3 md:flex-row">
-          <Button class="flex h-auto gap-3 rounded-none font-medium md:py-3 md:text-base">
-            <Icon name="lucide:chevron-right" />
+          <Button as-child class="flex h-auto gap-3 rounded-none font-medium md:py-3 md:text-base">
             <NuxtLink to="/ui">
+              <Icon name="lucide:chevron-right" />
               Explore Ecosystem
               <Icon name="lucide:chevron-right" />
             </NuxtLink>
           </Button>
           <div class="flex gap-4">
-            <Button class="flex h-auto gap-3 rounded-none font-medium md:px-5 md:py-3 md:text-base" variant="outline">
-              Contributing
+            <Button as-child class="flex h-auto gap-3 rounded-none font-medium md:px-5 md:py-3 md:text-base" variant="outline">
+              <NuxtLink :to="`${app.github}/blob/main/CONTRIBUTING.md`" target="_blank" rel="noopener noreferrer">
+                Contributing
+              </NuxtLink>
             </Button>
           </div>
 
@@ -110,70 +138,3 @@
     </div>
   </section>
 </template>
-
-<script setup lang="ts">
-defineOptions({
-  name: 'HeroIndex',
-})
-
-const [DefineTemplate, ReuseTemplate] = createReusableTemplate()
-
-const items = [
-  {
-    label: 'vue',
-    icon: 'logos:vue',
-  },
-  {
-    label: 'element-plus',
-    icon: 'icon:element-plus',
-  },
-  {
-    label: 'naiveui',
-    icon: 'icon:naiveui',
-  },
-  {
-    label: 'ant-design',
-    icon: 'logos:ant-design',
-  },
-  {
-    label: 'vueuse',
-    icon: 'logos:vueuse',
-  },
-  {
-    label: 'nuxt',
-    icon: 'logos:nuxt-icon',
-  },
-  {
-    label: 'ant-design-vue',
-    icon: 'icon:ant-design-vue',
-  },
-  {
-    label: 'reka-ui',
-    icon: 'icon:reka-ui',
-  },
-  {
-    label: 'arco-vue',
-    icon: 'icon:arco',
-  },
-  {
-    label: 'daisyui',
-    icon: 'icon:daisyui',
-  },
-  {
-    label: 'vite',
-    icon: 'logos:vite-icon',
-  },
-  {
-    label: 'vite-devtools',
-    icon: 'icon:vite-devtools',
-  },
-  {
-    label: 'vue-pinia',
-    icon: 'logos:pinia',
-  },
-  {
-    label: 'inspira-ui',
-    icon: 'icon:inspira-ui',
-  },
-]
-</script>

@@ -1,3 +1,21 @@
+<script lang="ts" setup>
+defineOptions({
+  name: 'SiteHeader',
+})
+
+const navs = [
+  { label: 'UI', to: '/ui' },
+  { label: 'components', to: '/component' },
+  { label: 'hooks', to: '/hooks' },
+  { label: 'plugins', to: '/plugin' },
+  { label: 'modules', to: '/nuxt' },
+  { label: 'admin', to: '/admin' },
+  { label: 'uniapp', to: '/uniapp' },
+]
+
+const { app } = useAppConfig()
+</script>
+
 <template>
   <!-- Header -->
   <header class="border-b">
@@ -32,19 +50,19 @@
       <!-- Right -->
       <div class="flex shrink-0 items-center gap-2">
         <Button as-child size="icon-sm" variant="ghost">
-          <NuxtLink to="/llms.txt" target="_blank">
+          <NuxtLink to="/llms.txt" target="_blank" aria-label="Open the LLM-friendly project index">
             <Icon name="bi:robot" />
           </NuxtLink>
         </Button>
 
         <Button as-child size="icon-sm" variant="ghost">
-          <NuxtLink :to="app.github" target="_blank">
+          <NuxtLink :to="app.github" target="_blank" rel="noopener noreferrer" aria-label="Vue Community on GitHub">
             <Icon name="codicon:github-alt" />
           </NuxtLink>
         </Button>
 
         <Button as-child size="icon-sm" variant="ghost">
-          <NuxtLink :to="app.discord" target="_blank">
+          <NuxtLink :to="app.discord" target="_blank" rel="noopener noreferrer" aria-label="Join the Vue Community Discord">
             <Icon name="akar-icons:discord-fill" />
           </NuxtLink>
         </Button>
@@ -52,42 +70,3 @@
     </div>
   </header>
 </template>
-
-<script lang="ts" setup>
-defineOptions({
-  name: 'SiteHeader',
-})
-
-const navs = [
-  {
-    label: 'UI',
-    to: '/ui',
-  },
-  {
-    label: 'components',
-    to: '/component',
-  },
-  {
-    label: 'hooks',
-    to: '/hooks',
-  },
-  {
-    label: 'plugins',
-    to: '/plugin',
-  },
-  {
-    label: 'modules',
-    to: '/nuxt',
-  },
-  {
-    label: 'admin',
-    to: '/admin',
-  },
-  {
-    label: 'uniapp',
-    to: '/uniapp',
-  },
-]
-
-const { app } = useAppConfig()
-</script>
