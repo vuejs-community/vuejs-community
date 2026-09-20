@@ -1,21 +1,3 @@
-<script lang="ts" setup>
-defineOptions({
-  name: 'SiteHeader',
-})
-
-const navs = [
-  { label: 'UI', to: '/ui' },
-  { label: 'components', to: '/component' },
-  { label: 'hooks', to: '/hooks' },
-  { label: 'plugins', to: '/plugin' },
-  { label: 'modules', to: '/nuxt' },
-  { label: 'admin', to: '/admin' },
-  { label: 'uniapp', to: '/uniapp' },
-]
-
-const { app } = useAppConfig()
-</script>
-
 <template>
   <!-- Header -->
   <header class="border-b">
@@ -70,3 +52,21 @@ const { app } = useAppConfig()
     </div>
   </header>
 </template>
+
+<script lang="ts" setup>
+defineOptions({
+  name: 'SiteHeader',
+})
+
+const navs = [
+  { label: 'UI', to: '/ui' },
+  { label: 'components', to: '/component' },
+  { label: 'hooks', to: '/hooks' },
+  { label: 'plugins', to: '/plugin' },
+  { label: 'modules', to: '/nuxt' },
+  { label: 'admin', to: '/admin' },
+  { label: 'uniapp', to: '/uniapp' },
+]
+
+const { app } = useAppConfig()
+</script>

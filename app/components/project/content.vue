@@ -1,26 +1,3 @@
-<script setup lang="ts">
-import { cn } from '~/lib/utils'
-import { useProjectResourceContext } from '.'
-
-defineOptions({
-  name: 'ProjectContent',
-})
-
-const {
-  projects,
-  total,
-  hasMore,
-  isLoadingMore,
-  status,
-  error,
-  loadMore,
-  refresh,
-} = useProjectResourceContext()
-
-const isInitialLoading = computed(() => status.value === 'pending' && projects.value.length === 0)
-const isEmpty = computed(() => status.value === 'success' && projects.value.length === 0 && !error.value)
-</script>
-
 <template>
   <div
     v-if="status === 'success'"
@@ -99,3 +76,26 @@ const isEmpty = computed(() => status.value === 'success' && projects.value.leng
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { cn } from '~/lib/utils'
+import { useProjectResourceContext } from '.'
+
+defineOptions({
+  name: 'ProjectContent',
+})
+
+const {
+  projects,
+  total,
+  hasMore,
+  isLoadingMore,
+  status,
+  error,
+  loadMore,
+  refresh,
+} = useProjectResourceContext()
+
+const isInitialLoading = computed(() => status.value === 'pending' && projects.value.length === 0)
+const isEmpty = computed(() => status.value === 'success' && projects.value.length === 0 && !error.value)
+</script>

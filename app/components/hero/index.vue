@@ -1,29 +1,3 @@
-<script setup lang="ts">
-defineOptions({
-  name: 'HeroIndex',
-})
-
-const { app } = useAppConfig()
-const [DefineTemplate, ReuseTemplate] = createReusableTemplate()
-
-const items = [
-  { label: 'vue', icon: 'logos:vue' },
-  { label: 'element-plus', icon: 'icon:element-plus' },
-  { label: 'naiveui', icon: 'icon:naiveui' },
-  { label: 'ant-design', icon: 'logos:ant-design' },
-  { label: 'vueuse', icon: 'logos:vueuse' },
-  { label: 'nuxt', icon: 'logos:nuxt-icon' },
-  { label: 'ant-design-vue', icon: 'icon:ant-design-vue' },
-  { label: 'reka-ui', icon: 'icon:reka-ui' },
-  { label: 'arco-vue', icon: 'icon:arco' },
-  { label: 'daisyui', icon: 'icon:daisyui' },
-  { label: 'vite', icon: 'logos:vite-icon' },
-  { label: 'vite-devtools', icon: 'icon:vite-devtools' },
-  { label: 'vue-pinia', icon: 'logos:pinia' },
-  { label: 'inspira-ui', icon: 'icon:inspira-ui' },
-]
-</script>
-
 <template>
   <section class="relative container isolate flex w-full flex-1 flex-col px-8 py-32 border-x">
     <div class="flex-1 flex flex-col justify-between">
@@ -138,3 +112,29 @@ const items = [
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+defineOptions({
+  name: 'HeroIndex',
+})
+
+const { app } = useAppConfig()
+const [DefineTemplate, ReuseTemplate] = createReusableTemplate()
+
+const items = [
+  { label: 'vue', icon: 'logos:vue' },
+  { label: 'element-plus', icon: 'icon:element-plus' },
+  { label: 'naiveui', icon: 'icon:naiveui' },
+  { label: 'ant-design', icon: 'logos:ant-design' },
+  { label: 'vueuse', icon: 'logos:vueuse' },
+  { label: 'nuxt', icon: 'logos:nuxt-icon' },
+  { label: 'ant-design-vue', icon: 'icon:ant-design-vue' },
+  { label: 'reka-ui', icon: 'icon:reka-ui' },
+  { label: 'arco-vue', icon: 'icon:arco' },
+  { label: 'daisyui', icon: 'icon:daisyui' },
+  { label: 'vite', icon: 'logos:vite-icon' },
+  { label: 'vite-devtools', icon: 'icon:vite-devtools' },
+  { label: 'vue-pinia', icon: 'logos:pinia' },
+  { label: 'inspira-ui', icon: 'icon:inspira-ui' },
+]
+</script>

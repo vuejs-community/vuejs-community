@@ -1,3 +1,7 @@
+<template>
+  <slot />
+</template>
+
 <script setup lang="ts">
 import type { ProjectCategory } from '@vuejs-community/schema'
 import { provideProjectResourceContext } from '.'
@@ -85,7 +89,3 @@ provideProjectResourceContext({
   refresh,
 })
 </script>
-
-<template>
-  <slot />
-</template>
