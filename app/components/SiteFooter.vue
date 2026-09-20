@@ -1,3 +1,21 @@
+<script setup lang="ts">
+import { cn } from '~/lib/utils.ts'
+
+defineOptions({
+  name: 'SiteFooter',
+})
+
+const { app } = useAppConfig()
+const footerLinks = [
+  { label: 'UI Libraries', to: '/ui' },
+  { label: 'Components', to: '/component' },
+  { label: 'Composables', to: '/hooks' },
+  { label: 'Nuxt Modules', to: '/nuxt' },
+  { label: 'Plugins', to: '/plugin' },
+  { label: 'GitHub', to: app.github, external: true },
+]
+</script>
+
 <template>
   <footer class="relative border-t">
     <div class="container flex w-full flex-col border-x">
@@ -20,7 +38,7 @@
           'text-center sm:px-6 lg:px-8 px-4 py-8',
         ])"
       >
-        <a href="#" class="flex items-center gap-2.5">
+        <NuxtLink to="/" class="flex items-center gap-2.5" aria-label="Vue Community home">
           <div
             :class="cn([
               'bg-foreground text-primary-foreground',
@@ -31,18 +49,21 @@
             <Icon name="logos:vue" />
           </div>
           <span class="text-lg font-medium tracking-tight">Community</span>
-        </a>
+        </NuxtLink>
         <span class="max-w-xl text-2xl font-medium tracking-tight sm:text-3xl">
           Explore, connect, and build the open ecosystem of Vue.
         </span>
         <nav class="text-muted-foreground flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm font-medium">
-          <a href="#" class="hover:text-foreground transition-colors capitalize">UI Library</a>
-          <a href="#" class="hover:text-foreground transition-colors capitalize">Component</a>
-          <a href="#" class="hover:text-foreground transition-colors capitalize">Features</a>
-          <a href="#" class="hover:text-foreground transition-colors capitalize">Modules</a>
-          <a href="#" class="hover:text-foreground transition-colors capitalize">Vite</a>
-          <a href="#" class="hover:text-foreground transition-colors capitalize">Plugin</a>
-          <a href="#" class="hover:text-foreground transition-colors capitalize">Github</a>
+          <NuxtLink
+            v-for="link in footerLinks"
+            :key="link.label"
+            :to="link.to"
+            :target="link.external ? '_blank' : undefined"
+            :rel="link.external ? 'noopener noreferrer' : undefined"
+            class="hover:text-foreground transition-colors capitalize"
+          >
+            {{ link.label }}
+          </NuxtLink>
         </nav>
         <p class="text-muted-foreground w-full border-t pt-6 text-xs font-normal">
           Constructed based on Nuxt & Shadcn/Vue & Tailwindcss
@@ -57,11 +78,3 @@
     </div>
   </footer>
 </template>
-
-<script setup lang="ts">
-import { cn } from '~/lib/utils.ts'
-
-defineOptions({
-  name: 'SiteFooter',
-})
-</script>
