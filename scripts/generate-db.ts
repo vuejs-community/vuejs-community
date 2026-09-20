@@ -335,7 +335,8 @@ async function createSchema(database: Database): Promise<void> {
       github_repository TEXT,
       npm TEXT,
       npm_package TEXT,
-      website TEXT
+      website TEXT,
+      UNIQUE (category, name)
     ) STRICT;
 
     CREATE INDEX projects_name_idx ON projects (name);

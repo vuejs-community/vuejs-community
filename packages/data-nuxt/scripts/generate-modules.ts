@@ -1,6 +1,6 @@
 import type { CommunityProject } from '@vuejs-community/schema'
 import { existsSync } from 'node:fs'
-import { copyFile, mkdir, readFile, rm } from 'node:fs/promises'
+import { copyFile, mkdir, readFile, rename, rm } from 'node:fs/promises'
 import { dirname, parse as ParseFile, resolve } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { writeProjectMetaIfChanged } from '@vuejs-community/shared'
@@ -120,11 +120,27 @@ async function collectModules(dir: string): Promise<ModuleEntry[]> {
   return entries
 }
 
-async function writeModules(entries: ModuleEntry[], repoDir: string) {
+async function replaceDirectory(currentPath: string, stagedPath: string): Promise<void> {
+  const backupPath = `${currentPath}.previous`
+  await rm(backupPath, { recursive: true, force: true })
+  await rename(currentPath, backupPath)
+
+  try {
+    await rename(stagedPath, currentPath)
+  }
+  catch (error) {
+    await rename(backupPath, currentPath)
+    throw error
+  }
+
+  await rm(backupPath, { recursive: true, force: true })
+}
+
+async function writeModules(entries: ModuleEntry[], repoDir: string, outputDir: string) {
   const results = { updated: 0, unchanged: 0, failed: 0 }
 
   for (const { fileName, module } of entries) {
-    const modulePath = resolve(packageRoot, `src/${fileName}.ts`)
+    const modulePath = resolve(outputDir, `${fileName}.ts`)
 
     try {
       const icon = await syncModuleIcon(repoDir, module.icon)
@@ -166,7 +182,18 @@ async function generateModules() {
     await mkdir(appIconDir, { recursive: true })
 
     const entries = await collectModules(dir)
-    const results = await writeModules(entries, dir)
+    const outputDir = resolve(packageRoot, 'src')
+    const stagedOutputDir = `${outputDir}.next`
+    await rm(stagedOutputDir, { recursive: true, force: true })
+    await mkdir(stagedOutputDir, { recursive: true })
+
+    const results = await writeModules(entries, dir, stagedOutputDir)
+    if (results.failed > 0) {
+      await rm(stagedOutputDir, { recursive: true, force: true })
+      throw new Error(`Failed to generate ${results.failed} Nuxt module files.`)
+    }
+
+    await replaceDirectory(outputDir, stagedOutputDir)
 
     console.log(`All done! modules: ${entries.length}, updated: ${results.updated}, unchanged: ${results.unchanged}, failed: ${results.failed}`)
   }

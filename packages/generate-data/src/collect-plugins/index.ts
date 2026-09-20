@@ -1,7 +1,7 @@
 import type { CommunityProject } from '@vuejs-community/schema'
 import type { NpmSearchObject, PluginDefinition, PluginType } from './types.js'
 import { existsSync } from 'node:fs'
-import { mkdir, writeFile } from 'node:fs/promises'
+import { mkdir, rename, rm, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import {
@@ -119,28 +119,55 @@ export async function collectPlugins(npmClient: NpmClient): Promise<CollectedPlu
 }
 
 export async function savePlugins(plugins: CollectedPlugin[], directory = DATA_DIR): Promise<void> {
-  await Promise.all(PLUGIN_DEFINITIONS.map(({ type }) => mkdir(join(directory, type), { recursive: true })))
+  const stagedDirectory = `${directory}.next`
+  const backupDirectory = `${directory}.previous`
+  await rm(stagedDirectory, { recursive: true, force: true })
+  await Promise.all(PLUGIN_DEFINITIONS.map(({ type }) => mkdir(join(stagedDirectory, type), { recursive: true })))
 
   const queue = new PQueue({ concurrency: 32 })
-  await Promise.all(plugins.map(plugin => queue.add(async () => {
-    const { project, type } = plugin
-    const outputPath = join(directory, type, `${toFileName(project.name)}.ts`)
+  try {
+    await Promise.all(plugins.map(plugin => queue.add(async () => {
+      const { project, type } = plugin
+      const fileName = `${toFileName(project.name)}.ts`
+      const existingPath = join(directory, type, fileName)
+      const outputPath = join(stagedDirectory, type, fileName)
 
-    // Existing generated files may still contain the legacy stats snapshot. Keep
-    // it untouched during the transition so the first metrics-only run does not
-    // produce a several-thousand-file diff. The database is the source of truth.
-    const existingProject = existsSync(outputPath)
-      ? await readProjectMeta(outputPath)
-      : undefined
-    const existingStats = existingProject?.stats
-    const nextProject = {
-      ...project,
-      ...(existingStats ? { stats: existingStats } : {}),
+      // Existing generated files may still contain the legacy stats snapshot. Keep
+      // it untouched during the transition so the first metrics-only run does not
+      // produce a several-thousand-file diff. The database is the source of truth.
+      const existingProject = existsSync(existingPath)
+        ? await readProjectMeta(existingPath)
+        : undefined
+      const existingStats = existingProject?.stats
+      const nextProject = {
+        ...project,
+        ...(existingStats ? { stats: existingStats } : {}),
+      }
+      const outputProject = existingProject
+        && stableStringify(existingProject) === stableStringify(nextProject)
+        ? existingProject
+        : nextProject
+
+      await writeFile(outputPath, renderProjectMetaSource(outputProject), 'utf8')
+    })))
+
+    await rm(backupDirectory, { recursive: true, force: true })
+    await rename(directory, backupDirectory)
+
+    try {
+      await rename(stagedDirectory, directory)
+    }
+    catch (error) {
+      await rename(backupDirectory, directory)
+      throw error
     }
 
-    if (!existingProject || stableStringify(existingProject) !== stableStringify(nextProject))
-      await writeFile(outputPath, renderProjectMetaSource(nextProject), 'utf8')
-  })))
+    await rm(backupDirectory, { recursive: true, force: true })
+  }
+  catch (error) {
+    await rm(stagedDirectory, { recursive: true, force: true })
+    throw error
+  }
 
   console.log(`Saved ${plugins.length} plugin files to ${directory}`)
 }
