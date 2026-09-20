@@ -4,7 +4,7 @@ on:
   pull_request:
 
 jobs:
-  lint:
+  quality:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -23,3 +23,15 @@ jobs:
 
       - name: Lint
         run: pnpm run lint
+
+      - name: Type check
+        run: pnpm run typecheck
+
+      - name: Test
+        run: pnpm run test
+
+      - name: Validate database
+        run: pnpm run validate:db
+
+      - name: Build
+        run: pnpm run build
