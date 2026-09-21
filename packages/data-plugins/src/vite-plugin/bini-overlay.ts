@@ -14,6 +14,7 @@ export default defineProjectMeta({
     'bini',
     'bini-js',
     'bini.js',
+    'bini-router',
     'overlay',
     'error-overlay',
     'hmr',

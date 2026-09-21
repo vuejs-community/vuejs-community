@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@pitlane/dev',
-  description: 'remix() — the Remix 3 Vite plugin: build orchestration, clientEntry() hydration transform, dev server with component and server-data HMR, SPA mode, build-time prerendering, and preview for any Vite or Vite+ project.',
+  description: 'Vite plugin for Remix development and production builds.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
