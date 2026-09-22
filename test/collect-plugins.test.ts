@@ -1,5 +1,9 @@
 import assert from 'node:assert/strict'
-import { normalizeHttpUrl, transformToCommunityProject } from '../packages/generate-data/src/collect-plugins/index.ts'
+import {
+  normalizeHttpUrl,
+  resolvePluginFileNames,
+  transformToCommunityProject,
+} from '../packages/generate-data/src/collect-plugins/index.ts'
 import { PLUGIN_DEFINITIONS } from '../packages/generate-data/src/collect-plugins/types.ts'
 
 assert.equal(
@@ -47,4 +51,23 @@ assert.equal(
   collected.project.links?.website,
   'https://github.com/chang0022/vite-plugin-blob-storage',
   'an invalid homepage should fall back to the package GitHub repository',
+)
+
+const collidingProjects = [
+  '@rollup/plugin-eslint',
+  'rollup-plugin-eslint',
+  '@rollup-plugin/eslint',
+].map(name => ({
+  type: 'rollup-plugin' as const,
+  project: { name },
+}))
+
+assert.deepEqual(
+  resolvePluginFileNames(collidingProjects),
+  [
+    '%40rollup%2Fplugin-eslint.ts',
+    'rollup-plugin-eslint.ts',
+    '%40rollup-plugin%2Feslint.ts',
+  ],
+  'scoped and unscoped packages that share a legacy filename should get unique paths',
 )
