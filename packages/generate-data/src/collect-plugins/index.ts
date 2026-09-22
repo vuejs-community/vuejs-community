@@ -49,6 +49,33 @@ function toFileName(packageName: string): string {
     .replaceAll('/', '-')
 }
 
+/**
+ * Keep the established readable filenames, but preserve the npm scope when two
+ * package names collapse to the same path (for example, @rollup/plugin-eslint
+ * and rollup-plugin-eslint). encodeURIComponent is reversible and npm package
+ * names cannot contain the percent escapes it introduces.
+ */
+export function resolvePluginFileNames(
+  plugins: Array<{ project: Pick<CommunityProject, 'name'>, type: PluginType }>,
+): string[] {
+  const pathCounts = new Map<string, number>()
+
+  for (const { project, type } of plugins) {
+    const path = `${type}/${toFileName(project.name)}`
+    pathCounts.set(path, (pathCounts.get(path) ?? 0) + 1)
+  }
+
+  return plugins.map(({ project, type }) => {
+    const baseName = toFileName(project.name)
+    const hasCollision = (pathCounts.get(`${type}/${baseName}`) ?? 0) > 1
+    const fileName = hasCollision && project.name.startsWith('@')
+      ? encodeURIComponent(project.name)
+      : baseName
+
+    return `${fileName}.ts`
+  })
+}
+
 export function normalizeHttpUrl(value: string | undefined): string | undefined {
   if (!value)
     return undefined
@@ -140,14 +167,15 @@ export async function collectPlugins(npmClient: NpmClient): Promise<CollectedPlu
 export async function savePlugins(plugins: CollectedPlugin[], directory = DATA_DIR): Promise<void> {
   const stagedDirectory = `${directory}.next`
   const backupDirectory = `${directory}.previous`
+  const fileNames = resolvePluginFileNames(plugins)
   await rm(stagedDirectory, { recursive: true, force: true })
   await Promise.all(PLUGIN_DEFINITIONS.map(({ type }) => mkdir(join(stagedDirectory, type), { recursive: true })))
 
   const queue = new PQueue({ concurrency: 32 })
   try {
-    await Promise.all(plugins.map(plugin => queue.add(async () => {
+    await Promise.all(plugins.map((plugin, index) => queue.add(async () => {
       const { project, type } = plugin
-      const fileName = `${toFileName(project.name)}.ts`
+      const fileName = fileNames[index]!
       const existingPath = join(directory, type, fileName)
       const outputPath = join(stagedDirectory, type, fileName)
 
@@ -157,12 +185,13 @@ export async function savePlugins(plugins: CollectedPlugin[], directory = DATA_D
       const existingProject = existsSync(existingPath)
         ? await readProjectMeta(existingPath)
         : undefined
-      const existingStats = existingProject?.stats
+      const isSameProject = existingProject?.name === project.name
+      const existingStats = isSameProject ? existingProject.stats : undefined
       const nextProject = {
         ...project,
         ...(existingStats ? { stats: existingStats } : {}),
       }
-      const outputProject = existingProject
+      const outputProject = isSameProject
         && stableStringify(existingProject) === stableStringify(nextProject)
         ? existingProject
         : nextProject
