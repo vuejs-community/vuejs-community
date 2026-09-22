@@ -5,7 +5,9 @@
         <h1 class="flex flex-col items-center text-5xl leading-tight tracking-tighter md:text-7xl">
           <span class="flex items-center gap-4">
             <span class="font-semibold">Discover the</span>
-            <span class="font-playfair italic">Vue Ecosystem</span>
+            <HeroSelectionBox>
+              <span class="font-playfair italic">Vue Ecosystem</span>
+            </HeroSelectionBox>
           </span>
           <span class="font-semibold text-4xl tracking-tight">Explore, connect, and build the open ecosystem of Vue.</span>
         </h1>
