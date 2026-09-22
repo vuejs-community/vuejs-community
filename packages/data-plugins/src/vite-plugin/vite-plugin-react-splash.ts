@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-react-splash',
-  description: 'Vite plugin + React hook for splash screens and loading screens in React apps and PWAs. Light/dark themes, animations, show-once, and standalone mode.',
+  description: 'Fast Vite splash screen plugin for React PWAs — critical CSS for better FCP/LCP, progress API, prefers-reduced-motion, waitUntilReady, light/dark themes.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -12,6 +12,7 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
     'vite plugin',
+    'vite-plugin-splash',
     'react',
     'reactjs',
     'splash',
@@ -21,6 +22,7 @@ export default defineProjectMeta({
     'loading-screen',
     'loading screen',
     'boot-screen',
+    'bootloader',
     'launch-screen',
     'intro-screen',
     'pwa',
@@ -37,6 +39,14 @@ export default defineProjectMeta({
     'vite-react',
     'frontend',
     'ui',
+    'fcp',
+    'lcp',
+    'core-web-vitals',
+    'critical-css',
+    'prefers-reduced-motion',
+    'progress-bar',
+    'waitUntilReady',
+    'minDuration',
   ],
   links: {
     github: 'https://github.com/mohamadgarmabi/vite-plugin-react-splash',
