@@ -16,7 +16,7 @@ export default defineProjectMeta({
   ],
   links: {
     npm: 'https://www.npmjs.com/package/fast-vite-plugins',
-    website: 'https://fastdotnet.com',
+    website: 'http://fastdotnet.com',
   },
   source: {
     npm: 'fast-vite-plugins',

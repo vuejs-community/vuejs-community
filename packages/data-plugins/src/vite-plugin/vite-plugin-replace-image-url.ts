@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-replace-image-url',
-  description: 'A vite plugin which replace images url.',
+  description: 'A Vite plugin that replaces imported image URLs with external URLs at build time.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
