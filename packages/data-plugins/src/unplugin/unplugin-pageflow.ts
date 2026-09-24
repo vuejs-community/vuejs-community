@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'unplugin-pageflow',
-  description: '> 在一张无限画布上，看清应用的页面、跳转、接口、测试与问题。',
+  description: '> 在一张无限画布上，查看应用页面、追踪跳转，并检查接口、测试与诊断结果。',
   icon: 'icon:dark-unplugin',
   category: 'plugin',
   types: [

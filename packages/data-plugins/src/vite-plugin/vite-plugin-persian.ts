@@ -17,6 +17,7 @@ export default defineProjectMeta({
     'rtl',
     'react',
     'vue',
+    'svelte',
     'typescript',
   ],
   links: {

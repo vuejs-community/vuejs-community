@@ -1,0 +1,47 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: '@denkwerk/unplugin-favicon-generator',
+  description: 'Vite, Rollup, Rolldown, webpack and Rspack plugin that generates favicons, touch icons and a web app manifest from an SVG or a Figma node, and adds the head tags',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'favicon',
+    'favicon-generator',
+    'favicons',
+    'favicon.ico',
+    'apple-touch-icon',
+    'web-app-manifest',
+    'manifest',
+    'pwa',
+    'svg',
+    'figma',
+    'icons',
+    'unplugin',
+    'vite',
+    'vite-plugin',
+    'rollup',
+    'rollup-plugin',
+    'rolldown',
+    'rolldown-plugin',
+    'tsdown',
+    'webpack',
+    'webpack-plugin',
+    'rspack',
+    'rspack-plugin',
+    'nuxt',
+    'nuxt-module',
+  ],
+  links: {
+    github: 'https://github.com/denkwerk/favicon-generator',
+    npm: 'https://www.npmjs.com/package/@denkwerk/unplugin-favicon-generator',
+    website: 'https://github.com/denkwerk/favicon-generator/tree/main/packages/unplugin-favicon-generator#readme',
+  },
+  source: {
+    github: 'denkwerk/favicon-generator',
+    npm: '@denkwerk/unplugin-favicon-generator',
+  },
+})

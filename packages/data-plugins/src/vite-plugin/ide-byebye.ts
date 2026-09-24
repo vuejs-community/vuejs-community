@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'ide-byebye',
-  description: 'Dev plugin for Vite / webpack / rspack / rsbuild / esbuild / Farm (and Turbopack/Mako path injection): ⌘-click any rendered element, describe the change in plain words, and hand the element\'s source + your intent to Codex App / Claude App / Cursor / Grok ',
+  description: 'Dev plugin for Vite / webpack / rspack / rsbuild / esbuild / Farm, Next.js (Turbopack + webpack) and the Angular CLI: ⌘-click any rendered element (React, Vue, Svelte, Solid, Angular; Next.js, Nuxt, SvelteKit), describe the change in plain words, and hand',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -32,6 +32,15 @@ export default defineProjectMeta({
     'intent',
     'deeplink',
     'rrweb',
+    'nextjs',
+    'next',
+    'nuxt',
+    'svelte',
+    'sveltekit',
+    'solid',
+    'solid-js',
+    'angular',
+    'preact',
   ],
   links: {
     github: 'https://github.com/bo-516/ide-byebye',

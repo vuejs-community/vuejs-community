@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'quantum-forge',
-  description: 'Quantum Forge WASM loader, property manager, and Vite plugin for quantum game development (Qutrit Edition d3n12 + Qubit Edition d2n20).',
+  description: 'Quantum Forge WASM loader, quantum() handle API, and Vite plugin for quantum game development (Qutrit Edition d3n12 + Qubit Edition d2n20).',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
