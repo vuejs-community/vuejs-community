@@ -16,9 +16,12 @@ export default defineProjectMeta({
     'inspector',
   ],
   links: {
+    github: 'https://github.com/shuoshubao/vite-plugin-vue2-devtools',
     npm: 'https://www.npmjs.com/package/vite-plugin-devtools-vue2',
+    website: 'https://github.com/shuoshubao/vite-plugin-vue2-devtools#readme',
   },
   source: {
+    github: 'shuoshubao/vite-plugin-vue2-devtools',
     npm: 'vite-plugin-devtools-vue2',
   },
 })
