@@ -22,7 +22,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/Ahmadastics/froam-studio',
     npm: 'https://www.npmjs.com/package/@ahmadastic/froam',
-    website: 'https://github.com/Ahmadastics/froam-studio#readme',
+    website: 'https://froam.vercel.app',
   },
   source: {
     github: 'Ahmadastics/froam-studio',

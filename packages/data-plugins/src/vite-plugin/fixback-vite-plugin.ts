@@ -20,7 +20,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/wemuda/fixback',
     npm: 'https://www.npmjs.com/package/@fixback/vite-plugin',
-    website: 'https://fixback-docs.dev.wemuda.com/sdk/sourcemaps',
+    website: 'https://docs.fixback.dev/sdk/sourcemaps',
   },
   source: {
     github: 'wemuda/fixback',

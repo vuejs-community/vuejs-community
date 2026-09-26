@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@xingwangzhe/cjk-font-split-native',
-  description: 'Native Rust CJK font subsetting and persistent cache for Vite builds',
+  description: 'Native Rust multilingual font subsetting and persistent cache for Vite builds',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

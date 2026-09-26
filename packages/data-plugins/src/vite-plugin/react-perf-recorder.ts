@@ -11,6 +11,7 @@ export default defineProjectMeta({
   tags: [
     'react',
     're-render',
+    'renders',
     'performance',
     'profiler',
     'vite',

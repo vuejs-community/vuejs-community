@@ -17,10 +17,12 @@ export default defineProjectMeta({
     'loader',
   ],
   links: {
+    github: 'https://github.com/silverwind/vite-string-plugin',
     npm: 'https://www.npmjs.com/package/vite-string-plugin',
     website: 'https://github.com/silverwind/vite-string-plugin#readme',
   },
   source: {
+    github: 'silverwind/vite-string-plugin',
     npm: 'vite-string-plugin',
   },
   stats: {
