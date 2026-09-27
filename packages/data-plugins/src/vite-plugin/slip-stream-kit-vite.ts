@@ -16,9 +16,12 @@ export default defineProjectMeta({
     'monorepo',
   ],
   links: {
+    github: 'https://github.com/ArthurSaenz/infra-kit',
     npm: 'https://www.npmjs.com/package/@slip-stream-kit/vite',
+    website: 'https://github.com/ArthurSaenz/infra-kit#readme',
   },
   source: {
+    github: 'ArthurSaenz/infra-kit',
     npm: '@slip-stream-kit/vite',
   },
   stats: {

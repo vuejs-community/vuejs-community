@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@stephansama/astro-iconify-svgmap',
-  description: 'Astro integration for generating iconify svgmaps for ssg sites',
+  description: '[Deprecated] Astro integration for generating iconify svgmaps for ssg sites',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
