@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'twl',
-  description: 'A TailwindCSS class name utility with a build-time compiler',
+  description: 'The cn API with macro compilation for Tailwind class names',
   icon: 'icon:dark-unplugin',
   category: 'plugin',
   types: [

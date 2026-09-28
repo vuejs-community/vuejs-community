@@ -23,12 +23,12 @@ export default defineProjectMeta({
     'unplugin',
   ],
   links: {
-    github: 'https://github.com/freb97/discofetch',
+    github: 'https://github.com/bussmann-io/discofetch',
     npm: 'https://www.npmjs.com/package/discofetch',
-    website: 'https://github.com/freb97/discofetch#readme',
+    website: 'https://github.com/bussmann-io/discofetch#readme',
   },
   source: {
-    github: 'freb97/discofetch',
+    github: 'bussmann-io/discofetch',
     npm: 'discofetch',
   },
   stats: {

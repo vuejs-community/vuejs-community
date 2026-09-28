@@ -19,6 +19,7 @@ export default defineProjectMeta({
     'mcp',
     'claude',
     'zustand',
+    'redux',
     'react-query',
     'devtools',
   ],

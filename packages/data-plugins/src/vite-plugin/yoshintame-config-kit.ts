@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@yoshintame/config-kit',
-  description: 'Lazy, Zod-validated configuration with pluggable sources and a Vite plugin for runtime config injection',
+  description: 'Lazy, Standard Schema-validated configuration with pluggable sources and a Vite plugin for runtime config injection',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -11,7 +11,10 @@ export default defineProjectMeta({
   tags: [
     'config',
     'configuration',
+    'standard-schema',
     'zod',
+    'valibot',
+    'arktype',
     'vite',
     'vite-plugin',
     'runtime-config',
