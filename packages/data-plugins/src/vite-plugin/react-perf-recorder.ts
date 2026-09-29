@@ -21,6 +21,7 @@ export default defineProjectMeta({
     'zustand',
     'redux',
     'react-query',
+    'memory-leak',
     'devtools',
   ],
   links: {
