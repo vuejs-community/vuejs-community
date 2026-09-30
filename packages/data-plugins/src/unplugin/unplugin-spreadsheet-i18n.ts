@@ -29,12 +29,12 @@ export default defineProjectMeta({
     'transform',
   ],
   links: {
-    github: 'https://github.com/namesmt/spreadsheet-i18n--mono',
+    github: 'https://github.com/NamesMT/spreadsheet-i18n--mono',
     npm: 'https://www.npmjs.com/package/unplugin-spreadsheet-i18n',
-    website: 'https://github.com/namesmt/spreadsheet-i18n--mono#readme',
+    website: 'https://github.com/NamesMT/spreadsheet-i18n--mono#readme',
   },
   source: {
-    github: 'namesmt/spreadsheet-i18n--mono',
+    github: 'NamesMT/spreadsheet-i18n--mono',
     npm: 'unplugin-spreadsheet-i18n',
   },
   stats: {

@@ -1,7 +1,7 @@
 import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
-  name: '@mailaika1985/design-mode',
+  name: '@malaika1985/design-mode',
   description: 'Click a UI element in your dev server, leave a comment, let your coding agent implement it. Nuxt module, Vite plugin and standalone collector.',
   icon: 'logos:vite-icon',
   category: 'plugin',
@@ -22,11 +22,11 @@ export default defineProjectMeta({
   ],
   links: {
     github: 'https://github.com/Malaika1985/design-mode',
-    npm: 'https://www.npmjs.com/package/@mailaika1985/design-mode',
+    npm: 'https://www.npmjs.com/package/@malaika1985/design-mode',
     website: 'https://github.com/Malaika1985/design-mode#readme',
   },
   source: {
     github: 'Malaika1985/design-mode',
-    npm: '@mailaika1985/design-mode',
+    npm: '@malaika1985/design-mode',
   },
 })

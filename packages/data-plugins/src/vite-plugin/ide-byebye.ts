@@ -27,6 +27,8 @@ export default defineProjectMeta({
     'cursor',
     'grok',
     'grok-build',
+    'antigravity',
+    'antigravity-ide',
     'ai',
     'devtools',
     'intent',
