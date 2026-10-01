@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@ata-project/unplugin',
-  description: 'Compile JSON, JS and TS schema files to ata-validator standalone modules at build time, in Vite, Webpack, Rollup, Rolldown, esbuild and Rspack.',
+  description: 'Build-time JSON Schema for Vite, Webpack, Rollup, Rolldown, esbuild and Rspack. compileAway takes the runtime compiler out of the bundle.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

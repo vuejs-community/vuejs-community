@@ -9,13 +9,13 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   tags: [
-    'react',
-    'react19',
     'css',
     'css-in-js',
-    'vite-plugin',
     'lightningcss',
+    'react',
+    'react19',
     'vite',
+    'vite-plugin',
   ],
   links: {
     github: 'https://github.com/jk2908/cxx',

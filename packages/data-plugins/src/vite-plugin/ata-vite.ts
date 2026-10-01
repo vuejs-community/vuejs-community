@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'ata-vite',
-  description: 'Vite plugin that compiles JSON, JS, and TS schema files to ata-validator standalone modules with TypeScript types. The Vite entry of @ata-project/unplugin.',
+  description: 'Vite plugin for ata-validator: schemas become validators and TypeScript types at build time, with no compiler in the bundle.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
