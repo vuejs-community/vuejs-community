@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@arponascension/express-inertia',
-  description: 'Inertia.js adapter and middleware for Express.js — build SPAs with Vue 3, React, or Svelte using classic server-side routing, Blade EJS templates, Vite, and server-side rendering (SSR).',
+  description: 'Inertia.js adapter and middleware for Express.js — build SPAs with Vue 3, React, or Svelte using classic server-side routing, EJS templates, Vite, and server-side rendering (SSR).',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -15,7 +15,6 @@ export default defineProjectMeta({
     'express-inertia',
     'middleware',
     'express-middleware',
-    'blade',
     'ejs',
     'vite',
     'vite-plugin',

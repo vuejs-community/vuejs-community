@@ -2,32 +2,30 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@any-tdf/vite-plugin-svg-symbol',
-  description: 'A Vite plugin that combines a series of SVG files into one symbol',
+  description: 'A Vite and Rollup plugin that combines SVG files into symbol sprites.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
     'vite-plugin',
   ],
   tags: [
-    'stdf',
-    'vtdf',
-    'rtdf',
-    'symbol',
-    'sprite',
-    'vite',
-    'vite-plugin',
+    'icon',
     'rollup',
     'rollup-plugin',
+    'sprite',
+    'stdf',
     'svg',
-    'icon',
+    'symbol',
+    'vite',
+    'vite-plugin',
   ],
   links: {
-    github: 'https://github.com/any-tdf/vite-plugin-svg-symbol',
+    github: 'https://github.com/any-tdf/any-tdf',
     npm: 'https://www.npmjs.com/package/@any-tdf/vite-plugin-svg-symbol',
-    website: 'https://github.com/any-tdf/vite-plugin-svg-symbol',
+    website: 'https://github.com/any-tdf/any-tdf/tree/main/packages/vite-plugin-svg-symbol#readme',
   },
   source: {
-    github: 'any-tdf/vite-plugin-svg-symbol',
+    github: 'any-tdf/any-tdf',
     npm: '@any-tdf/vite-plugin-svg-symbol',
   },
   stats: {

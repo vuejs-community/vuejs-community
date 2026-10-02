@@ -2,32 +2,29 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@any-tdf/vite-plugin-md-ts',
-  description: 'a Vite plugin for markdown files',
+  description: 'A Vite and Rollup plugin that transforms Markdown files into JavaScript modules.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
     'vite-plugin',
   ],
   tags: [
-    'vite',
-    'vite-plugin',
+    'markdown',
+    'md',
+    'plugin',
     'rollup',
     'rollup-plugin',
-    'plugin',
-    'md',
-    'markdown',
     'typescript',
-    'stdf',
-    'vtdf',
-    'rtdf',
+    'vite',
+    'vite-plugin',
   ],
   links: {
-    github: 'https://github.com/any-tdf/vite-plugin-md-ts',
+    github: 'https://github.com/any-tdf/any-tdf',
     npm: 'https://www.npmjs.com/package/@any-tdf/vite-plugin-md-ts',
-    website: 'https://github.com/any-tdf/vite-plugin-md-ts',
+    website: 'https://github.com/any-tdf/any-tdf/tree/main/packages/vite-plugin-md-ts#readme',
   },
   source: {
-    github: 'any-tdf/vite-plugin-md-ts',
+    github: 'any-tdf/any-tdf',
     npm: '@any-tdf/vite-plugin-md-ts',
   },
   stats: {
