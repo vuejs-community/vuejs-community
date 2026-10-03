@@ -10,6 +10,7 @@ export default defineProjectMeta({
   ],
   tags: [
     'deploy',
+    'tanstack-intent',
     'tanstack-start',
     'vite',
     'vite-plugin',

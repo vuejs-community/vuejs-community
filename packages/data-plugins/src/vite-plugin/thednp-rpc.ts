@@ -12,6 +12,8 @@ export default defineProjectMeta({
     'rpc',
     'vite',
     'vite-plugin',
+    'standard-schema',
+    'validation',
     'express',
     'fastify',
     'hono',

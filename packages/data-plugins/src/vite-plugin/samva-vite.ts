@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@samva/vite',
-  description: 'Unified Vite editor for Samva email, SMS, and WhatsApp templates',
+  description: 'Local editor, dev server and build for Samva email, SMS and WhatsApp templates',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
