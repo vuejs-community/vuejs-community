@@ -15,7 +15,6 @@ export default defineProjectMeta({
     'ai-agent',
     'mcp',
     'devtools',
-    'vibe-coding',
   ],
   links: {
     github: 'https://github.com/Arc-coder07/agent-hover',

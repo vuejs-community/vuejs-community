@@ -20,7 +20,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/yuntaengtaeng/vitrine',
     npm: 'https://www.npmjs.com/package/vite-plugin-react-vitrine',
-    website: 'https://github.com/yuntaengtaeng/vitrine/tree/main/packages/vite-plugin#readme',
+    website: 'https://vitrine-4kr.pages.dev/',
   },
   source: {
     github: 'yuntaengtaeng/vitrine',

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@fulgurjs/federation',
-  description: 'Vite Module Federation with full Webpack MF parity. Dev & production, no compromise.',
+  description: 'Vite Module Federation for Vue and React: remote modules, shared dependencies and app bridges.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

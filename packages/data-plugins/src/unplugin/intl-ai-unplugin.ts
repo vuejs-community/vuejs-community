@@ -22,7 +22,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/sigilco/intl-ai',
     npm: 'https://www.npmjs.com/package/@intl-ai/unplugin',
-    website: 'https://intl-ai.pages.dev',
+    website: 'https://intl-ai.illo.fyi',
   },
   source: {
     github: 'sigilco/intl-ai',

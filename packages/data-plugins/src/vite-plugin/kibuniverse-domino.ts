@@ -17,6 +17,8 @@ export default defineProjectMeta({
     'agent',
     'coding-agent',
     'dx',
+    'webpack',
+    'rspack',
   ],
   links: {
     github: 'https://github.com/kibuniverse/domino',
