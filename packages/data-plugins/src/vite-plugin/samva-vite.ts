@@ -19,12 +19,12 @@ export default defineProjectMeta({
     'whatsapp',
   ],
   links: {
-    github: 'https://github.com/AryaLabsHQ/samva',
+    github: 'https://github.com/SamvaHQ/SML',
     npm: 'https://www.npmjs.com/package/@samva/vite',
     website: 'https://samva.dev',
   },
   source: {
-    github: 'AryaLabsHQ/samva',
+    github: 'SamvaHQ/SML',
     npm: '@samva/vite',
   },
   stats: {

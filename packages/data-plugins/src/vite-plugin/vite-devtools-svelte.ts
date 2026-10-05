@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-devtools-svelte',
-  description: 'Svelte DevTools plugin for Vite DevTools',
+  description: 'Svelte DevTools for Vite: standalone on your dev server or inside the Vite DevTools dock',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
