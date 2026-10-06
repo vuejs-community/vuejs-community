@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   links: {
-    github: 'https://github.com/trafargarlaw/react-slides',
+    github: 'https://github.com/trafargarlaw/slidewright',
     npm: 'https://www.npmjs.com/package/@slidewright/vite',
-    website: 'https://github.com/trafargarlaw/react-slides/tree/master/packages/vite#readme',
+    website: 'https://github.com/trafargarlaw/slidewright/tree/master/packages/vite#readme',
   },
   source: {
-    github: 'trafargarlaw/react-slides',
+    github: 'trafargarlaw/slidewright',
     npm: '@slidewright/vite',
   },
 })

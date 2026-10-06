@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@embroider/vite',
-  description: '',
+  description: 'Vite plugins that build Ember apps with Embroider.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

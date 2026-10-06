@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   links: {
-    github: 'https://github.com/woodawn/vite-plugin-shopify-theme',
+    github: 'https://github.com/shopzend/vite-plugin-shopify-theme',
     npm: 'https://www.npmjs.com/package/vite-plugin-shopify-theme',
-    website: 'https://github.com/woodawn/vite-plugin-shopify-theme#readme',
+    website: 'https://github.com/shopzend/vite-plugin-shopify-theme#readme',
   },
   source: {
-    github: 'woodawn/vite-plugin-shopify-theme',
+    github: 'shopzend/vite-plugin-shopify-theme',
     npm: 'vite-plugin-shopify-theme',
   },
   stats: {

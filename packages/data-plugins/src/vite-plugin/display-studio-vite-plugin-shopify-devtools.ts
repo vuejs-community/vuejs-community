@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@display-studio/vite-plugin-shopify-devtools',
-  description: 'Source-aware Shopify theme devtools for Vite',
+  description: 'Vite DevTools panel for inspecting Shopify Liquid sections, blocks and snippets',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -13,8 +13,9 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
     'devtools',
+    'inspector',
     'liquid',
-    'theme',
+    'shopify-theme',
   ],
   links: {
     github: 'https://github.com/display-design-studio/vite-plugin-shopify-devtools',

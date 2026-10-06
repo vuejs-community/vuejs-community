@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@makoai/app-sdk',
-  description: 'Mako app SDK: data bindings (useQuery/useDuckDB), URL state, theme.',
+  description: 'Mako app SDK: data bindings (useQuery/useDuckDB), URL state, theme, and the house dashboard kit (/ui).',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
