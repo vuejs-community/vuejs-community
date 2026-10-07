@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'minista',
-  description: '- https://minista.qranoko.jp',
+  description: '- https://minista.dev',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -18,7 +18,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/qrac/minista',
     npm: 'https://www.npmjs.com/package/minista',
-    website: 'https://minista.qranoko.jp',
+    website: 'https://minista.dev',
   },
   source: {
     github: 'qrac/minista',

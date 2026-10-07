@@ -18,7 +18,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/display-design-studio/vite-plugin-shopify-theme',
     npm: 'https://www.npmjs.com/package/@display-studio/vite-plugin-shopify-theme',
-    website: 'https://github.com/display-design-studio/vite-plugin-shopify-theme#readme',
+    website: 'https://display-design-studio.github.io/vite-plugin-shopify-theme/',
   },
   source: {
     github: 'display-design-studio/vite-plugin-shopify-theme',

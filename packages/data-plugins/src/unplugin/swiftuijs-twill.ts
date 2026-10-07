@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@swiftuijs/twill',
-  description: 'Twill: a JS/TS syntax-sugar language with trailing closures, guards, block-scoped defer, build plugins, type checking, and editor support.',
+  description: 'Twill extends TypeScript with Swift-inspired syntax: trailing closures, guards, defer and checked switch expressions. Compiles to ordinary JavaScript.',
   icon: 'icon:dark-unplugin',
   category: 'plugin',
   types: [

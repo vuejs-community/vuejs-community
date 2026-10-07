@@ -12,6 +12,7 @@ export default defineProjectMeta({
     'browser-compatibility',
     'cancel-idle-callback',
     'composite',
+    'custom-element-registry',
     'explicit-resource-management',
     'feature-detection',
     'get-or-insert',

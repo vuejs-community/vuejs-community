@@ -9,9 +9,9 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   tags: [
+    'foundryvtt',
     'vite',
     'vite-plugin',
-    'foundryvtt',
   ],
   links: {
     github: 'https://github.com/MatyeusM/vite-plugin-fvtt',

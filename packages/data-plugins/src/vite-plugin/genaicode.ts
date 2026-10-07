@@ -18,6 +18,7 @@ export default defineProjectMeta({
     'coding-agent',
     'cli',
     'vite-plugin',
+    'react',
   ],
   links: {
     github: 'https://github.com/gtanczyk/genaicode',
