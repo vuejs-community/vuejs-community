@@ -1,7 +1,7 @@
 import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
-  name: '@pitlane/dev',
+  name: '@pitlane/vite-plugin-remix',
   description: 'Vite plugin for Remix development and production builds.',
   icon: 'logos:vite-icon',
   category: 'plugin',
@@ -16,18 +16,11 @@ export default defineProjectMeta({
   ],
   links: {
     github: 'https://github.com/pitlane-tools/pitlane',
-    npm: 'https://www.npmjs.com/package/@pitlane/dev',
-    website: 'https://pitlane.tools/package/dev/',
+    npm: 'https://www.npmjs.com/package/@pitlane/vite-plugin-remix',
+    website: 'https://pitlane.tools/package/vite-plugin-remix/',
   },
   source: {
     github: 'pitlane-tools/pitlane',
-    npm: '@pitlane/dev',
-  },
-  stats: {
-    stars: 8,
-    downloads: {
-      monthly: 1401,
-      weekly: 289,
-    },
+    npm: '@pitlane/vite-plugin-remix',
   },
 })

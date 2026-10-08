@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@kanso-labs/unplugin-style-dictionary',
-  description: 'Compile Style Dictionary design tokens ahead of your bundler (Vite, Rolldown, Rollup, or Webpack) from a single unplugin-based plugin, with automatic watching and rebuilding under Vite',
+  description: 'Compile Style Dictionary design tokens ahead of your bundler (Vite, Rolldown, Rollup, Webpack or Rspack) from a single unplugin-based plugin, rebuilding on a token change under Vite\'s dev server and each bundler\'s watch mode',
   icon: 'icon:dark-unplugin',
   category: 'plugin',
   types: [
@@ -14,6 +14,7 @@ export default defineProjectMeta({
     'rolldown',
     'rollup',
     'webpack',
+    'rspack',
     'style-dictionary',
     'design-tokens',
     'tokens',

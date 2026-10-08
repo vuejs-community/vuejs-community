@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@sepoina/vitetranslate',
-  description: 'Extract translatable strings straight from your JSX — a Vite plugin that auto-generates and syncs your translation tables, with zero runtime dependencies.',
+  description: 'Keyless i18n for React and Vite: write the sentence in JSX, values and tags included, and get YAML tables kept in sync, LLM auto-translation and ICU, compiled at build time into a tiny runtime with zero dependencies.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

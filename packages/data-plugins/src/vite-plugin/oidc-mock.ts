@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   links: {
-    github: 'https://github.com/strehk/oidc-mock',
+    github: 'https://github.com/Strehk/oidc-mock',
     npm: 'https://www.npmjs.com/package/oidc-mock',
-    website: 'https://github.com/strehk/oidc-mock#readme',
+    website: 'https://github.com/Strehk/oidc-mock#readme',
   },
   source: {
-    github: 'strehk/oidc-mock',
+    github: 'Strehk/oidc-mock',
     npm: 'oidc-mock',
   },
 })

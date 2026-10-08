@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'react-legacy-compat',
-  description: 'Vite and webpack 5 plugin restoring findDOMNode for legacy React dependencies (react-transition-group, react-quill, ...) under React 19+, without modifying their source.',
+  description: 'Restore ReactDOM.findDOMNode under React 19 for legacy dependencies (react-transition-group, react-quill, react-draggable, ...) without patching node_modules. Works with Next.js (Turbopack + webpack), Vite and webpack 5.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -11,16 +11,22 @@ export default defineProjectMeta({
   tags: [
     'react',
     'react19',
+    'react-19',
+    'findDOMNode',
+    'finddomnode',
+    'find-dom-node',
+    'nextjs',
+    'next',
+    'turbopack',
     'vite',
     'vite-plugin',
     'webpack',
     'webpack-plugin',
-    'finddomnode',
-    'find-dom-node',
     'compatibility',
     'migration',
     'react-transition-group',
     'react-quill',
+    'react-draggable',
   ],
   links: {
     github: 'https://github.com/infinitybuddha29/react-legacy-compat',
