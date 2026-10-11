@@ -1,7 +1,7 @@
 import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
-  name: 'vite-plugin-html-mila',
+  name: 'vite-plugin-html-bramfoxie',
   description: 'Vite plugin to copy and minify HTML',
   icon: 'logos:vite-icon',
   category: 'plugin',
@@ -15,17 +15,10 @@ export default defineProjectMeta({
     'compiler',
   ],
   links: {
-    npm: 'https://www.npmjs.com/package/vite-plugin-html-mila',
-    website: 'https://github.com/MilanovaSmile/vite-plugin-html-mila',
+    npm: 'https://www.npmjs.com/package/vite-plugin-html-bramfoxie',
+    website: 'https://github.com/Bramfoxie/vite-plugin-html-bramfoxie',
   },
   source: {
-    npm: 'vite-plugin-html-mila',
-  },
-  stats: {
-    stars: 0,
-    downloads: {
-      monthly: 129,
-      weekly: 30,
-    },
+    npm: 'vite-plugin-html-bramfoxie',
   },
 })

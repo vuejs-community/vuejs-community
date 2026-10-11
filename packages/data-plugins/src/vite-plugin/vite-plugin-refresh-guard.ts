@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-refresh-guard',
-  description: 'Vite 应用的可配置版本更新检测+刷新方案：静默自动刷新 / 提示后自动刷新 / 弹窗阻断，按产品需要选档位，核心逻辑框架无关，附 Vue/React 适配层。Configurable new-version detection + refresh for Vite apps — silent / toast-auto / modal-blocking, framework-agnostic core with Vue and React adapters.',
+  description: 'Vite plugin for web update notification — detect a new version on every page load and prompt users to reload: silent auto reload, force refresh, toast prompt, or blocking modal. Framework-agnostic core with Vue and React adapters. Vite 应用版本更新检测与自动刷新方案。',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -11,14 +11,21 @@ export default defineProjectMeta({
   tags: [
     'vite',
     'vite-plugin',
+    'web-update-notification',
+    'update-notification',
+    'new-version',
     'version-check',
     'app-update',
+    'auto-reload',
+    'auto-refresh',
+    'force-refresh',
+    'refresh',
     'service-worker',
     'pwa',
-    'refresh',
     'changelog',
     'vue',
     'react',
+    '更新提示',
   ],
   links: {
     github: 'https://github.com/webkubor/vite-plugin-refresh-guard',

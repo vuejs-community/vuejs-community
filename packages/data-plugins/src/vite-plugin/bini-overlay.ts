@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'bini-overlay',
-  description: 'Next.js-style error overlay and animated loading badge for Bini.js',
+  description: 'Next.js style error overlay and animated loading badge for Bini.js',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

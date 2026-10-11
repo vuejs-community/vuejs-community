@@ -1,7 +1,7 @@
 import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
-  name: 'vite-plugin-css-mila',
+  name: 'vite-plugin-css-bramfoxie',
   description: 'Vite plugin to minify CSS',
   icon: 'logos:vite-icon',
   category: 'plugin',
@@ -15,17 +15,10 @@ export default defineProjectMeta({
     'compiler',
   ],
   links: {
-    npm: 'https://www.npmjs.com/package/vite-plugin-css-mila',
-    website: 'https://github.com/MilanovaSmile/vite-plugin-css-mila',
+    npm: 'https://www.npmjs.com/package/vite-plugin-css-bramfoxie',
+    website: 'https://github.com/Bramfoxie/vite-plugin-css-bramfoxie',
   },
   source: {
-    npm: 'vite-plugin-css-mila',
-  },
-  stats: {
-    stars: 0,
-    downloads: {
-      monthly: 140,
-      weekly: 29,
-    },
+    npm: 'vite-plugin-css-bramfoxie',
   },
 })

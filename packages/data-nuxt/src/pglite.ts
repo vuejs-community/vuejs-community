@@ -14,7 +14,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/sandros94/nuxt-pglite',
     npm: 'https://npmjs.com/package/nuxt-pglite',
-    website: 'https://github.com/sandros94/nuxt-pglite',
+    website: 'https://nuxt-pglite.s94.dev',
   },
   source: {
     github: 'sandros94/nuxt-pglite',
