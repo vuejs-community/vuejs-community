@@ -10,7 +10,6 @@ export default defineProjectMeta({
   ],
   tags: [
     'graphql',
-    'graphql-tag',
     'vite',
     'vite-plugin',
   ],

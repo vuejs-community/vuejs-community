@@ -23,12 +23,12 @@ export default defineProjectMeta({
     'members',
   ],
   links: {
-    github: 'https://github.com/baendlorel/kt-packages',
+    github: 'https://github.com/baendlorel/tsumugi-lib',
     npm: 'https://www.npmjs.com/package/unplugin-real-private',
-    website: 'https://github.com/baendlorel/kt-packages/tree/main/packages/unplugin-real-private#readme',
+    website: 'https://github.com/baendlorel/tsumugi-lib/tree/main/packages/unplugin-real-private#readme',
   },
   source: {
-    github: 'baendlorel/kt-packages',
+    github: 'baendlorel/tsumugi-lib',
     npm: 'unplugin-real-private',
   },
 })
