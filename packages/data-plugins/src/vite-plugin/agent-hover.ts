@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'agent-hover',
-  description: 'Setup guide for Agent Hover: point at your running React UI and send precise context to Claude Code, Cursor, Codex, and other MCP agents.',
+  description: 'Set up and check Agent Hover: npx agent-hover init, doctor, and MCP config for each agent.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

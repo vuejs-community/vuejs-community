@@ -13,11 +13,11 @@ export default defineProjectMeta({
   ],
   links: {
     github: 'https://github.com/dennisadriaans/vue-chrts',
-    npm: 'https://npmjs.com/package/nuxt-charts-legacy',
+    npm: 'https://npmjs.com/package/nuxt-charts',
     website: 'https://nuxtcharts.com/',
   },
   source: {
     github: 'dennisadriaans/vue-chrts',
-    npm: 'nuxt-charts-legacy',
+    npm: 'nuxt-charts',
   },
 })

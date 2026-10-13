@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-notify',
-  description: 'Advanced toast notifications for Nuxt 3/4 with Tailwind CSS + Nuxt Icon (actions, avatars, progress, themes, UI overrides).',
+  description: 'Toast notifications for Nuxt 3/4. Tailwind CSS + Nuxt Icon with actions, avatars, progress bars, themes, and per-toast UI overrides. Lightweight (~1.6 kB gzipped), type-safe, and SSR-friendly.',
   icon: '',
   category: 'nuxt',
   types: [

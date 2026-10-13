@@ -14,7 +14,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/nuxt-modules/robots',
     npm: 'https://npmjs.com/package/@nuxtjs/robots',
-    website: 'https://github.com/nuxt-modules/robots',
+    website: 'https://nuxtseo.com/docs/robots/getting-started/installation',
   },
   source: {
     github: 'nuxt-modules/robots',

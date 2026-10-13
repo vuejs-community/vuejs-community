@@ -13,11 +13,11 @@ export default defineProjectMeta({
   ],
   links: {
     github: 'https://github.com/onmax/nuxt-convex',
-    npm: 'https://npmjs.com/package/convex-monorepo',
+    npm: 'https://npmjs.com/package/nuxt-convex',
     website: 'https://nuxt-convex.onmax.me',
   },
   source: {
     github: 'onmax/nuxt-convex',
-    npm: 'convex-monorepo',
+    npm: 'nuxt-convex',
   },
 })

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@agent-hover/vite',
-  description: 'Point at your UI. Your agent understands it. Vite dev plugin + local bridge server.',
+  description: 'Point at your UI, your agent understands it. Dev-only Vite plugin for React: click any element and send precise context to Claude Code, Cursor, Codex or any MCP agent.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

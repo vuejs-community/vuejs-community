@@ -9,6 +9,7 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   tags: [
+    'backgrounds',
     'pdf',
     'react-pdf',
     'print',
