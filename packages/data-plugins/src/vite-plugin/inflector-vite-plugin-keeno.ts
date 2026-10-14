@@ -17,7 +17,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/iliesw/Keeno',
     npm: 'https://www.npmjs.com/package/@inflector/vite-plugin-keeno',
-    website: 'https://github.com/iliesw/Keeno/tree/main/packages/vite-plugin-keeno#readme',
+    website: 'https://keeno.inflector.io',
   },
   source: {
     github: 'iliesw/Keeno',

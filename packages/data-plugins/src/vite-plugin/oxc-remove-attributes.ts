@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'oxc-remove-attributes',
-  description: 'Vite/Rolldown plugin that strips JSX attributes (e.g. data-testid) from production builds using oxc + magic-string. Drop-in replacement for @swc/plugin-react-remove-properties on Vite 8 / @vitejs/plugin-react (oxc).',
+  description: 'Vite/Rolldown plugin that strips JSX attributes (e.g. data-testid) from production builds using oxc + magic-string. Covers the @swc/plugin-react-remove-properties use case on Vite 8 / @vitejs/plugin-react (oxc), with exact attribute names instead of regex',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

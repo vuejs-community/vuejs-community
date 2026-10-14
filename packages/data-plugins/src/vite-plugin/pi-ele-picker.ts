@@ -19,9 +19,12 @@ export default defineProjectMeta({
     'ai',
   ],
   links: {
+    github: 'https://github.com/Himangguo/pi-ele-picker',
     npm: 'https://www.npmjs.com/package/pi-ele-picker',
+    website: 'https://github.com/Himangguo/pi-ele-picker#readme',
   },
   source: {
+    github: 'Himangguo/pi-ele-picker',
     npm: 'pi-ele-picker',
   },
 })

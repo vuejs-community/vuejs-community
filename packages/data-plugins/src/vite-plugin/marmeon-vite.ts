@@ -16,7 +16,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/marmeon/marmeon',
     npm: 'https://www.npmjs.com/package/@marmeon/vite',
-    website: 'https://github.com/marmeon/marmeon/tree/main/packages/vite#readme',
+    website: 'https://marmeon.com/docs/vite',
   },
   source: {
     github: 'marmeon/marmeon',

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@vite-electron-simple/plugin',
-  description: '#### 贡献',
+  description: '1.  Fork 本仓库 2.  新建 feat/xxx 分支 3.  Push代码，并提交 Merge Request, 作者欢迎各位为此开源工具贡献一份力量~',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

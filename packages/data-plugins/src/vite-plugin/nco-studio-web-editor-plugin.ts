@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@nco-studio/web-editor-plugin',
-  description: 'Vite and Babel plugin for Visual Web Editor for AI Agents — injects source location metadata for in-browser editing',
+  description: 'Vite and Babel plugin for AI Agent Visual Editor — injects source location metadata for in-browser editing',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

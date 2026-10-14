@@ -14,9 +14,11 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   links: {
+    github: 'https://github.com/golusoris/sveltesentio',
     npm: 'https://www.npmjs.com/package/@sveltesentio/core',
   },
   source: {
+    github: 'golusoris/sveltesentio',
     npm: '@sveltesentio/core',
   },
   stats: {

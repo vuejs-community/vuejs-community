@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'isotone',
-  description: 'Local feedback and design variants for your running web app. Pin elements, leave notes, and give your coding agent the context to make the change.',
+  description: 'Design variants and feedback for your running web app. Switch between variants your coding agent builds, pin elements, and give the agent the context to make the change.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
