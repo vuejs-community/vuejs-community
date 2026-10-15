@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-hue',
-  description: 'Enlighten your Nuxt experience',
+  description: 'Sync Philips Hue lights with your dev server\'s build and error status.',
   icon: 'icon:nuxt-hue',
   category: 'nuxt',
   types: [

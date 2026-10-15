@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-yup',
-  description: 'Yup integration for Nuxt 4 with a simple composable.',
+  description: 'Yup integration with a simple composable.',
   icon: '',
   category: 'nuxt',
   types: [

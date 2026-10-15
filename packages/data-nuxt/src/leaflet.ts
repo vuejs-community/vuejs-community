@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'leaflet',
-  description: 'Leaflet integration with Nuxt',
+  description: 'Leaflet integration',
   icon: '',
   category: 'nuxt',
   types: [

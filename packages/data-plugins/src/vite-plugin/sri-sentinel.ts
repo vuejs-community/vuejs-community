@@ -32,7 +32,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/MrLouisWright/sri-sentinel',
     npm: 'https://www.npmjs.com/package/sri-sentinel',
-    website: 'https://github.com/MrLouisWright/sri-sentinel#readme',
+    website: 'https://mrlouiswright.github.io/sri-sentinel/',
   },
   source: {
     github: 'MrLouisWright/sri-sentinel',

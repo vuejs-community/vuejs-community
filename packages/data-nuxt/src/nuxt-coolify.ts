@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-coolify',
-  description: 'Integrate Nuxt and Nitro With Coolify\'s API using nuxt-coolify.',
+  description: 'Integrate Nuxt and Nitro with Coolify\'s API.',
   icon: 'icon:nuxt-coolify',
   category: 'nuxt',
   types: [

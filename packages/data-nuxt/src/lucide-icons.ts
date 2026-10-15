@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'lucide-icons',
-  description: 'Nuxt module to integrate Lucide icons',
+  description: 'Integrate Lucide icons',
   icon: 'icon:lucide-icons',
   category: 'nuxt',
   types: [

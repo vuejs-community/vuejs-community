@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'drop',
-  description: 'Opt-in browser behaviors for server-rendered Nuxt routes',
+  description: 'Opt-in browser behaviors for server-rendered routes',
   icon: '',
   category: 'nuxt',
   types: [

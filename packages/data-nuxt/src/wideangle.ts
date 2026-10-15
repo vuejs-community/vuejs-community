@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'wideangle',
-  description: 'Nuxt module to integrate Wide Angle Analytics',
+  description: 'Integrate Wide Angle Analytics',
   icon: '',
   category: 'nuxt',
   types: [

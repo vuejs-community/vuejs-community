@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'twa',
-  description: 'Nuxt module for generating Trusted Web App from Nuxt app',
+  description: 'Generate a Trusted Web App',
   icon: '',
   category: 'nuxt',
   types: [

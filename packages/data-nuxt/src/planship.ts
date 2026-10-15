@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'planship',
-  description: 'Entitlements, metering, plan packaging, and subscription management for Nuxt apps.',
+  description: 'Entitlements, metering, plan packaging, and subscription management.',
   icon: 'icon:planship',
   category: 'nuxt',
   types: [

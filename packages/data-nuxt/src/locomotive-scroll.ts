@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'locomotive-scroll',
-  description: 'A Nuxt module to easily integrate Locomotive Scroll into your Nuxt application.',
+  description: 'Easily integrate Locomotive Scroll.',
   icon: '',
   category: 'nuxt',
   types: [

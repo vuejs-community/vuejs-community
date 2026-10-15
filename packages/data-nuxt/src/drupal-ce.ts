@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'drupal-ce',
-  description: 'Connects Nuxt with Drupal via the Lupus Custom Elements Renderer',
+  description: 'Drupal integration via the Lupus Custom Elements Renderer',
   icon: '',
   category: 'nuxt',
   types: [

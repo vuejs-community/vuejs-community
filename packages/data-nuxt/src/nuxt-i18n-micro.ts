@@ -14,7 +14,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/s00d/nuxt-i18n-micro',
     npm: 'https://npmjs.com/package/nuxt-i18n-micro',
-    website: 'https://github.com/s00d/nuxt-i18n-micro',
+    website: 'https://s00d.github.io/nuxt-i18n-micro/',
   },
   source: {
     github: 's00d/nuxt-i18n-micro',

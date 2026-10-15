@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'svg-sprite',
-  description: 'Optimized and Easy way to use svg files in Nuxt',
+  description: 'Optimized and easy way to use SVG files',
   icon: '',
   category: 'nuxt',
   types: [

@@ -2,11 +2,11 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-chatgpt',
-  description: 'ChatGPT integration for Nuxt',
+  description: 'ChatGPT integration',
   icon: 'icon:chatgpt',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'AI',
   ],
   filter: [
     '3rd-party',

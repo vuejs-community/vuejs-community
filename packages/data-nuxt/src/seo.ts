@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'seo',
-  description: 'The complete SEO solution for Nuxt.',
+  description: 'The complete SEO solution.',
   icon: 'icon:nuxt-seo',
   category: 'nuxt',
   types: [

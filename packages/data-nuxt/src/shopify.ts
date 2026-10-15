@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'shopify',
-  description: 'Easily integrate Shopify into your Nuxt app.',
+  description: 'Easily integrate Shopify.',
   icon: '',
   category: 'nuxt',
   types: [

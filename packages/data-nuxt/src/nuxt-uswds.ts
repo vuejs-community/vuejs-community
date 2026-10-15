@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-uswds',
-  description: 'Vue USWDS (United States Web Design System) integration for Nuxt.js',
+  description: 'Vue USWDS (United States Web Design System) integration',
   icon: 'icon:nuxt-uswds',
   category: 'nuxt',
   types: [

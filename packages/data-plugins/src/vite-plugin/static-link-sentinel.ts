@@ -34,7 +34,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/MrLouisWright/static-link-sentinel',
     npm: 'https://www.npmjs.com/package/static-link-sentinel',
-    website: 'https://github.com/MrLouisWright/static-link-sentinel#readme',
+    website: 'https://mrlouiswright.github.io/static-link-sentinel/',
   },
   source: {
     github: 'MrLouisWright/static-link-sentinel',

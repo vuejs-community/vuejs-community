@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-local-model',
-  description: 'A Nuxt module for local in-app Hugging Face transformer models.',
+  description: 'Local in-app Hugging Face transformer models.',
   icon: '',
   category: 'nuxt',
   types: [

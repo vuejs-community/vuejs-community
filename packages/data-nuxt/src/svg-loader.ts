@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'svg-loader',
-  description: 'Nuxt SVG Loader - SVGs as components, also on the server side!',
+  description: 'SVGs as components, also on the server side!',
   icon: '',
   category: 'nuxt',
   types: [

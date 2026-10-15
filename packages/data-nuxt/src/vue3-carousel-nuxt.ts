@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vue3-carousel-nuxt',
-  description: 'This module seamlessly integrates the Vue 3 Carousel module of ismail9k into Nuxt applications.',
+  description: 'Seamlessly integrates the Vue 3 Carousel module of ismail9k.',
   icon: '',
   category: 'nuxt',
   types: [

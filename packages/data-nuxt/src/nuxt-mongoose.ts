@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-mongoose',
-  description: 'A Nuxt module for simplifying the use of Mongoose in your project.',
+  description: 'Simplify the use of Mongoose.',
   icon: 'icon:nuxt-mongoose',
   category: 'nuxt',
   types: [
@@ -14,7 +14,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/nuxtaid/nuxt-mongoose',
     npm: 'https://npmjs.com/package/nuxt-mongoose',
-    website: 'https://nuxt-mongoose.nuxt.space',
+    website: 'https://docs.arashsheyda.me/nuxt-mongoose',
   },
   source: {
     github: 'nuxtaid/nuxt-mongoose',

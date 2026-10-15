@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-smartlook',
-  description: 'Integrate Smartlook in your Nuxt apps using nuxt-smartlook.',
+  description: 'Smartlook integration',
   icon: '',
   category: 'nuxt',
   types: [

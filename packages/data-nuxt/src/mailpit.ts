@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'mailpit',
-  description: 'Integrates Mailpit web UI in Nuxt devtools',
+  description: 'Integrates Mailpit web UI in Nuxt DevTools',
   icon: 'icon:mailpit',
   category: 'nuxt',
   types: [

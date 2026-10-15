@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-codemirror',
-  description: 'Nuxt codemirror module',
+  description: 'CodeMirror integration',
   icon: 'icon:nuxt-codemirror',
   category: 'nuxt',
   types: [

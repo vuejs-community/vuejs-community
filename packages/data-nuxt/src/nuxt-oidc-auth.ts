@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-oidc-auth',
-  description: 'Seamless modern authentication for Nuxt applications.',
+  description: 'OpenID Connect (OIDC) authentication with presets for common providers.',
   icon: '',
   category: 'nuxt',
   types: [

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-glaze',
-  description: 'Glaze.dev module for Nuxt',
+  description: 'Glaze.dev integration',
   icon: '',
   category: 'nuxt',
   types: [

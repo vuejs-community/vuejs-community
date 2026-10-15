@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'es-toolkit',
-  description: 'Es-toolkit auto import module for Nuxt',
+  description: 'Auto-imports for es-toolkit',
   icon: '',
   category: 'nuxt',
   types: [

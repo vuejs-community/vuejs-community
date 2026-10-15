@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'web-vitals',
-  description: 'Web Vitals for Nuxt',
+  description: 'Web Vitals integration',
   icon: '',
   category: 'nuxt',
   types: [

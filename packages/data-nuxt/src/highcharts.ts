@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'highcharts',
-  description: 'Highcharts for Nuxt',
+  description: 'Highcharts integration',
   icon: '',
   category: 'nuxt',
   types: [

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'device',
-  description: 'Device detection module for Nuxt',
+  description: 'Device detection',
   icon: '',
   category: 'nuxt',
   types: [

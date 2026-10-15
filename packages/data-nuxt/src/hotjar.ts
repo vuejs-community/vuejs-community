@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'hotjar',
-  description: 'Add HotJar to your Nuxt application',
+  description: 'Add Hotjar to your app',
   icon: '',
   category: 'nuxt',
   types: [

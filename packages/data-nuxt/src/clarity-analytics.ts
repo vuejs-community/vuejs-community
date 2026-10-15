@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'clarity-analytics',
-  description: 'Clarity Analytics Module for Nuxt',
+  description: 'Clarity Analytics integration',
   icon: '',
   category: 'nuxt',
   types: [

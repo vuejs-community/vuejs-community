@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-plotly',
-  description: 'nuxt-plotly is a thin Nuxt wrapper for plotly.js',
+  description: 'Thin wrapper for plotly.js',
   icon: 'icon:nuxt-plotly',
   category: 'nuxt',
   types: [

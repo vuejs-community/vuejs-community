@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'socket-io',
-  description: 'Socket.io client and server module for Nuxt. Just plug it in and GO',
+  description: 'Socket.io client and server integration. Just plug it in and go',
   icon: '',
   category: 'nuxt',
   types: [

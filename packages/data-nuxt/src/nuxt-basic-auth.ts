@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-basic-auth',
-  description: 'Nuxt Module for Basic Authentication',
+  description: 'HTTP Basic Authentication',
   icon: '',
   category: 'nuxt',
   types: [

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'stories',
-  description: 'Nuxt stories module -- Painless storybooking for Nuxt',
+  description: 'Painless storybooking',
   icon: '',
   category: 'nuxt',
   types: [

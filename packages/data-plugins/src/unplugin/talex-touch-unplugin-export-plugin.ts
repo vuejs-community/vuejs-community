@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'talex-tuff',
   ],
   links: {
-    github: 'https://github.com/talex-touch/unplugin-export-plugin',
+    github: 'https://github.com/talex-touch/tuff',
     npm: 'https://www.npmjs.com/package/@talex-touch/unplugin-export-plugin',
-    website: 'https://github.com/talex-touch/unplugin-export-plugin#readme',
+    website: 'https://tuff.tagzxia.com',
   },
   source: {
-    github: 'talex-touch/unplugin-export-plugin',
+    github: 'talex-touch/tuff',
     npm: '@talex-touch/unplugin-export-plugin',
   },
   stats: {

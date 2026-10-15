@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'rollbar',
-  description: 'Nuxt 3 module to integrate Rollbar.',
+  description: 'Rollbar integration.',
   icon: '',
   category: 'nuxt',
   types: [

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'freeform',
-  description: 'Desktop-like drag & drop for Nuxt. Lasso selection, reorder, drop into containers - zero dependencies, pure Vue magic.',
+  description: 'Desktop-like drag & drop. Lasso selection, reorder, drop into containers. Zero dependencies, pure Vue magic.',
   icon: '',
   category: 'nuxt',
   types: [

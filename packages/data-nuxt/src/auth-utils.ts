@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'auth-utils',
-  description: 'Add Authentication to Nuxt applications with secured & sealed cookies sessions.',
+  description: 'Add authentication with secured & sealed cookie sessions.',
   icon: '',
   category: 'nuxt',
   types: [

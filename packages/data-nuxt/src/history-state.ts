@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'history-state',
-  description: 'Nuxt module to backup or restore historical states',
+  description: 'Back up or restore historical states',
   icon: '',
   category: 'nuxt',
   types: [

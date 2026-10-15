@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'aos',
-  description: 'A Nuxt module that adds Animate On Scroll',
+  description: 'Animate On Scroll integration',
   icon: '',
   category: 'nuxt',
   types: [

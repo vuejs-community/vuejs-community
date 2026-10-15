@@ -2,11 +2,11 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'well-known',
-  description: 'A Nuxt module to add well-known URIs using middlewares',
+  description: 'Serve .well-known URIs (security.txt, change-password and custom content) from your server.',
   icon: 'icon:well-known',
   category: 'nuxt',
   types: [
-    'SEO',
+    'Security',
   ],
   filter: [
     '3rd-party',

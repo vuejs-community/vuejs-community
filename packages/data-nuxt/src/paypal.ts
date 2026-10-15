@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'paypal',
-  description: 'A Nuxt module for simplifying the use of Paypal in your project.',
+  description: 'Simplify the use of PayPal.',
   icon: 'icon:paypal',
   category: 'nuxt',
   types: [

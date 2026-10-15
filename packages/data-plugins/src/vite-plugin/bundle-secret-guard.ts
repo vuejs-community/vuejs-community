@@ -34,7 +34,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/MrLouisWright/bundle-secret-guard',
     npm: 'https://www.npmjs.com/package/bundle-secret-guard',
-    website: 'https://github.com/MrLouisWright/bundle-secret-guard#readme',
+    website: 'https://mrlouiswright.github.io/bundle-secret-guard/',
   },
   source: {
     github: 'MrLouisWright/bundle-secret-guard',

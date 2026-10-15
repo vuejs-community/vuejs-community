@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-pinecone',
-  description: 'Pinecone integration for Nuxt: realtime video, audio, and data with client composables and server utilities',
+  description: 'Pinecone vector database integration',
   icon: 'icon:nuxt-pinecone',
   category: 'nuxt',
   types: [

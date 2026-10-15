@@ -40,7 +40,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/MrLouisWright/form-honeypot-guard',
     npm: 'https://www.npmjs.com/package/form-honeypot-guard',
-    website: 'https://github.com/MrLouisWright/form-honeypot-guard#readme',
+    website: 'https://mrlouiswright.github.io/form-honeypot-guard/',
   },
   source: {
     github: 'MrLouisWright/form-honeypot-guard',

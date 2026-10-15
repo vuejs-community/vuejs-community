@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'webpackdashboard',
-  description: 'Webpack Dashboard module for Nuxt. A CLI dashboard for your webpack dev server.',
+  description: 'Webpack Dashboard integration. A CLI dashboard for your webpack dev server.',
   icon: '',
   category: 'nuxt',
   types: [

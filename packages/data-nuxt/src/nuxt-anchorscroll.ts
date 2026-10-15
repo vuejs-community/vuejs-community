@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-anchorscroll',
-  description: 'Scroll to top and to anchor support for Nuxt',
+  description: 'Scroll to top and to anchor support',
   icon: '',
   category: 'nuxt',
   types: [

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-google-auth',
-  description: 'Google Identity Services integration for Nuxt 3 & 4 with a simple composable and button component.',
+  description: 'Google Identity Services integration with a composable and a login button component.',
   icon: '',
   category: 'nuxt',
   types: [

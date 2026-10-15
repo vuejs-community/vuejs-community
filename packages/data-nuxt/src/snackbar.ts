@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'snackbar',
-  description: 'Nuxt Snackbar module using vue3-snackbar',
+  description: 'Snackbar integration using vue3-snackbar',
   icon: '',
   category: 'nuxt',
   types: [

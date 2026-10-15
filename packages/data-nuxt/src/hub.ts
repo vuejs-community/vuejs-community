@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'hub',
-  description: 'Add database, KV, blob storage, and cache to your Nuxt application. NuxtHub works on Vercel, Cloudflare, Netlify, and more.',
+  description: 'Add database, KV, blob storage, and cache to your app. NuxtHub works on Vercel, Cloudflare, Netlify, and more.',
   icon: 'icon:nuxthub',
   category: 'nuxt',
   types: [

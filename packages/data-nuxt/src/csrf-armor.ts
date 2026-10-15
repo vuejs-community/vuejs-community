@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'csrf-armor',
-  description: 'Nuxt module for CSRF protection powered by csrf-armor',
+  description: 'CSRF protection powered by csrf-armor',
   icon: '',
   category: 'nuxt',
   types: [

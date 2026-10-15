@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'dragon-editor',
-  description: 'Javascript WYSIWYG editor in Nuxt!',
+  description: 'JavaScript WYSIWYG editor',
   icon: '',
   category: 'nuxt',
   types: [

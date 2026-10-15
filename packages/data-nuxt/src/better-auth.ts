@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'better-auth',
-  description: 'Nuxt module for Better Auth integration with NuxtHub, route protection, session management, and role-based access',
+  description: 'Better Auth integration with NuxtHub, route protection, session management, and role-based access',
   icon: 'icon:better-auth',
   category: 'nuxt',
   types: [

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-pdfmake',
-  description: 'Easily generate PDFs in Nuxt using pdfmake',
+  description: 'Easily generate PDFs using pdfmake',
   icon: '',
   category: 'nuxt',
   types: [

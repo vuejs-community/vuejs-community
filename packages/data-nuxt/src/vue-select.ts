@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vue-select',
-  description: 'Nuxt module for vue-select, a feature rich select/dropdown/typeahead component.',
+  description: 'Integration for vue-select, a feature-rich select/dropdown/typeahead component.',
   icon: '',
   category: 'nuxt',
   types: [

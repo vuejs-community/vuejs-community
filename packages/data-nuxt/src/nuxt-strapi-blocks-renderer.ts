@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-strapi-blocks-renderer',
-  description: 'Render the Strapi CMS blocks text element easily in Nuxt.',
+  description: 'Easily render the Strapi CMS blocks text element.',
   icon: '',
   category: 'nuxt',
   types: [

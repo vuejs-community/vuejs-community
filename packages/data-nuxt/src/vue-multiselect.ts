@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vue-multiselect',
-  description: 'Single / multiple select plugin for Nuxt using vue-multiselect.',
+  description: 'Single / multiple select plugin using vue-multiselect.',
   icon: '',
   category: 'nuxt',
   types: [

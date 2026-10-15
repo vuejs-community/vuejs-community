@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'auto-skeleton',
-  description: 'Auto-generated Vue 3 & Nuxt skeleton loaders that mirror a component\'s real rendered layout — zero authoring, always in sync.',
+  description: 'Auto-generated skeleton loaders that mirror a component\'s real rendered layout. Zero authoring, always in sync.',
   icon: 'icon:auto-skeleton',
   category: 'nuxt',
   types: [

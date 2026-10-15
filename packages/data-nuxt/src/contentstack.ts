@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'contentstack',
-  description: 'Contentstack integration for Nuxt',
+  description: 'Contentstack integration',
   icon: '',
   category: 'nuxt',
   types: [

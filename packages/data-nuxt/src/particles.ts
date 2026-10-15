@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'particles',
-  description: 'Easily add particle animations to your Nuxt projects using tsParticles',
+  description: 'Easily add particle animations using tsParticles',
   icon: '',
   category: 'nuxt',
   types: [

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'link-checker',
-  description: 'Find and magically fix links that may be negatively effecting your SEO.',
+  description: 'Find and magically fix links that may be negatively affecting your SEO.',
   icon: 'icon:link-checker',
   category: 'nuxt',
   types: [

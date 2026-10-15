@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@johnmorrisdotca/rest-in-pieces',
-  description: 'A mock REST API and test data generator with realistic, seeded fake data for building and testing frontends: related datasets with referential integrity, paging, sorting, filters, errors and delays on demand, safe values, SVG avatars, real country and reg',
+  description: 'REST in Pieces — Fake REST API data for testing: seeded related datasets, paging, filters, latency and error drills, safe values, CSV/NDJSON/SQL, OpenAPI mocks, browser fetch, MSW and Vite.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -120,6 +120,7 @@ export default defineProjectMeta({
     'zip-codes',
     'csv-api',
     'google-sheets',
+    'api-mock',
   ],
   links: {
     github: 'https://github.com/spxis/rest-in-pieces',

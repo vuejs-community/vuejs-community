@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'use-bootstrap',
-  description: 'This module is a wrapper to front-end framework based on Nuxt3 and Bootstrap5',
+  description: 'A wrapper for the Bootstrap 5 front-end framework',
   icon: 'icon:use-bootstrap',
   category: 'nuxt',
   types: [

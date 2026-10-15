@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'purgecss',
-  description: 'Drop superfluous CSS! A neat PurgeCSS wrapper for Nuxt',
+  description: 'Drop superfluous CSS! A neat PurgeCSS wrapper',
   icon: '',
   category: 'nuxt',
   types: [

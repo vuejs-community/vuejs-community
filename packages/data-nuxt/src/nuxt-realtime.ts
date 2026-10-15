@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-realtime',
-  description: 'Real-time state synchronization for Nuxt applications. Share reactive state across clients, broadcast events, and manage connections.',
+  description: 'Real-time state synchronization. Share reactive state across clients, broadcast events, and manage connections.',
   icon: 'icon:nuxt-realtime',
   category: 'nuxt',
   types: [

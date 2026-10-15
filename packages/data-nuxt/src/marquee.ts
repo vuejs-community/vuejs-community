@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'marquee',
-  description: 'A lightweight Nuxt 3 module that harnesses the power of CSS animations to create silky smooth marquees.',
+  description: 'A lightweight module that harnesses the power of CSS animations to create silky smooth marquees.',
   icon: '',
   category: 'nuxt',
   types: [

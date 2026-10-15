@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-feather-icons',
-  description: 'The Feather Icons in Nuxt 3.',
+  description: 'Feather Icons integration',
   icon: '',
   category: 'nuxt',
   types: [

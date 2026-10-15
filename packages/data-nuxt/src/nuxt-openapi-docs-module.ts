@@ -14,7 +14,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/on-org/nuxt-openapi-docs-module',
     npm: 'https://npmjs.com/package/nuxt-openapi-docs-module',
-    website: 'https://github.com/on-org/nuxt-openapi-docs-module',
+    website: 'https://on-org.github.io/nuxt-openapi-docs-module/',
   },
   source: {
     github: 'on-org/nuxt-openapi-docs-module',

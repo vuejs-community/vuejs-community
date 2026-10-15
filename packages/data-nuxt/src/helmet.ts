@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'helmet',
-  description: 'Easy Helmet module with Nuxt\'',
+  description: 'Easy Helmet integration',
   icon: '',
   category: 'nuxt',
   types: [

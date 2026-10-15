@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'stonecrop',
-  description: 'Stonecrop for Nuxt',
+  description: 'Stonecrop integration',
   icon: 'icon:stonecrop',
   category: 'nuxt',
   types: [

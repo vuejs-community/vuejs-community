@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'askdoppler',
-  description: 'Monitor impressions coming from ChatGPT, Perplexity and others in your Nuxt app with this integration of Doppler.',
+  description: 'Monitor impressions coming from ChatGPT, Perplexity and others with this integration of Doppler.',
   icon: '',
   category: 'nuxt',
   types: [

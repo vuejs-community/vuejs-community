@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'kinde',
-  description: 'Kinde authentication integration for Nuxt',
+  description: 'Kinde authentication integration',
   icon: 'icon:kinde',
   category: 'nuxt',
   types: [

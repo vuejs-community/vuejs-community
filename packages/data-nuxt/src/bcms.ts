@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'bcms',
-  description: 'Nuxt BCMS module',
+  description: 'BCMS integration',
   icon: '',
   category: 'nuxt',
   types: [

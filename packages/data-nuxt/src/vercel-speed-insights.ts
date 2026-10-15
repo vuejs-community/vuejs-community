@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vercel-speed-insights',
-  description: 'Real user performance metrics and suggestions for your Nuxt app',
+  description: 'Real user performance metrics and suggestions',
   icon: 'icon:vercel',
   category: 'nuxt',
   types: [

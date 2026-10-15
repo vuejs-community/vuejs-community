@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'fullpage',
-  description: 'Nuxt module for fullpage-vue plugin',
+  description: 'Integration for the fullpage-vue plugin',
   icon: '',
   category: 'nuxt',
   types: [

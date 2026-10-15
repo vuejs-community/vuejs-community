@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'icon-tw',
-  description: 'Extended Icon module with Tailwind CSS Icons for Nuxt',
+  description: 'Extended Nuxt Icon module with Tailwind CSS icons',
   icon: '',
   category: 'nuxt',
   types: [

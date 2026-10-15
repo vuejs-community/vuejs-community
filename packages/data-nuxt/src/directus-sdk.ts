@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'directus-sdk',
-  description: 'A Nuxt module for Directus with built-in authentication, realtime, file management, type generation, and visual editor support.',
+  description: 'Directus integration with built-in authentication, realtime, file management, type generation, and visual editor support.',
   icon: 'icon:directus-sdk',
   category: 'nuxt',
   types: [

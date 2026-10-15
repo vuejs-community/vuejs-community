@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'github-api',
-  description: 'Nuxt module for GitHub v4 API',
+  description: 'GitHub v4 API integration',
   icon: 'icon:github',
   category: 'nuxt',
   types: [

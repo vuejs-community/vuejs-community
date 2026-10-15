@@ -14,7 +14,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/unocss/unocss',
     npm: 'https://npmjs.com/package/@unocss/nuxt',
-    website: 'https://github.com/unocss/unocss',
+    website: 'https://unocss.dev/integrations/nuxt',
   },
   source: {
     github: 'unocss/unocss',

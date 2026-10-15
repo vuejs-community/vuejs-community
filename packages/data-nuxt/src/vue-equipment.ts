@@ -14,7 +14,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/magicasaservice/vue-equipment',
     npm: 'https://npmjs.com/package/@maas/vue-equipment',
-    website: 'https://vue.equipment',
+    website: 'https://www.vue.equipment/',
   },
   source: {
     github: 'magicasaservice/vue-equipment',

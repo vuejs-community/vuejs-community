@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'auto-animate',
-  description: 'Automatic animations for your Nuxt app with a single line of code.',
+  description: 'Automatic animations with a single line of code.',
   icon: 'icon:auto-animate',
   category: 'nuxt',
   types: [

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-telegram-auth',
-  description: 'Telegram login widget integration for Nuxt 3',
+  description: 'Telegram login widget integration',
   icon: '',
   category: 'nuxt',
   types: [

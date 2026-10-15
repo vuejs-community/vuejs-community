@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'apollo',
-  description: 'Integrate GraphQL in your Nuxt apps using vue-apollo.',
+  description: 'Integrate GraphQL using vue-apollo.',
   icon: '',
   category: 'nuxt',
   types: [

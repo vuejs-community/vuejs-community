@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'qrcode',
-  description: 'A Nuxt module that provides support for generating and reading QRCodes.',
+  description: 'Support for generating and reading QR codes.',
   icon: 'icon:qrcode',
   category: 'nuxt',
   types: [

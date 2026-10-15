@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'tiptap',
-  description: 'Essentials to Quickly Integrate TipTap Editor into your Nuxt App',
+  description: 'TipTap editor with auto-imported components, extensions and an image upload extension.',
   icon: '',
   category: 'nuxt',
   types: [

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'intercom',
-  description: 'Conversational, messenger-based experiences with Intercom Module for Nuxt',
+  description: 'Conversational, messenger-based experiences with Intercom',
   icon: '',
   category: 'nuxt',
   types: [

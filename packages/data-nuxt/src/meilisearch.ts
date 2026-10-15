@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'meilisearch',
-  description: 'Meilisearch Instant Search module for Nuxt',
+  description: 'Meilisearch Instant Search integration',
   icon: 'icon:meilisearch',
   category: 'nuxt',
   types: [
@@ -14,7 +14,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/xlanex6/nuxt-meilisearch',
     npm: 'https://npmjs.com/package/nuxt-meilisearch',
-    website: 'https://github.com/xlanex6/nuxt-meilisearch',
+    website: 'https://nuxt-meilisearch.vercel.app',
   },
   source: {
     github: 'xlanex6/nuxt-meilisearch',

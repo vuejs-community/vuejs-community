@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'jsonapi',
-  description: 'Easy JSON:API client integration for Nuxt',
+  description: 'Easy JSON:API client integration',
   icon: 'icon:jsonapi',
   category: 'nuxt',
   types: [

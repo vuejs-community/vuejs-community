@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-pdf-frame',
-  description: 'Nuxt module for template based PDF and Canvas rendering, powered by I2djs.',
+  description: 'Template-based PDF and Canvas rendering, powered by I2djs.',
   icon: 'icon:pdf-frame',
   category: 'nuxt',
   types: [

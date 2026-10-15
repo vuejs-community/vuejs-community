@@ -2,11 +2,11 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-aidbase',
-  description: 'Easily integrate Aidbase into your Nuxt app.',
+  description: 'Embed the Aidbase AI chatbot and fetch Aidbase FAQ items.',
   icon: '',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'AI',
   ],
   filter: [
     '3rd-party',

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'prismic',
-  description: 'Easily connect your Nuxt application to your content hosted on Prismic',
+  description: 'Easily connect your app to your content hosted on Prismic',
   icon: '',
   category: 'nuxt',
   types: [

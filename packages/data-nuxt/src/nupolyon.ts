@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nupolyon',
-  description: 'Inject polyfill from polyfill.io to nuxt project, auto detect based on browserslist config',
+  description: 'Inject polyfills based on your browserslist config, from a CDN or self-hosted.',
   icon: '',
   category: 'nuxt',
   types: [

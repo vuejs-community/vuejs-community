@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-file-storage',
-  description: 'Easy solution to store files in your nuxt apps. Upload files from the frontend and recieve them from the backend to save the files in your project.',
+  description: 'Easy solution to store files. Upload files from the frontend and receive them from the backend to save the files in your project.',
   icon: 'icon:nuxt-file-storage',
   category: 'nuxt',
   types: [

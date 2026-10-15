@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-zod-i18n',
-  description: 'A Nuxt Module for localizing zod error messages.',
+  description: 'Localize Zod error messages.',
   icon: 'icon:nuxt-zod-i18n',
   category: 'nuxt',
   types: [

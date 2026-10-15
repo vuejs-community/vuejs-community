@@ -2,11 +2,11 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-signupgate',
-  description: 'Easily integrate SignupGate into your Nuxt app.',
+  description: 'Check signup emails, domains and IPs against the SignupGate risk API.',
   icon: '',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'Security',
   ],
   filter: [
     '3rd-party',

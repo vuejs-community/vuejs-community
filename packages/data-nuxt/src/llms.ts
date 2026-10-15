@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'llms',
-  description: 'Generate llms.txt documentation for your Nuxt application',
+  description: 'Generate llms.txt documentation for your application',
   icon: '',
   category: 'nuxt',
   types: [

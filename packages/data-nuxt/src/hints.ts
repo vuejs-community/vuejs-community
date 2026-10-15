@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'hints',
-  description: 'Nuxt module that shows hints for aspects of your application such as Performance, Security, and more!',
+  description: 'Shows hints for aspects of your application such as performance, security, and more!',
   icon: 'icon:nuxt',
   category: 'nuxt',
   types: [

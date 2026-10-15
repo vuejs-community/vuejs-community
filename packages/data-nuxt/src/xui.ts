@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'xui',
-  description: 'Light module to help design websites with Nuxt.',
+  description: 'Light module to help design websites.',
   icon: '',
   category: 'nuxt',
   types: [

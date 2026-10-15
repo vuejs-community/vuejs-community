@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'partytown',
-  description: 'Partytown integration for Nuxt - relocate resource intensive scripts into a web worker, and off of the main thread.',
+  description: 'Partytown integration: relocate resource-intensive scripts into a web worker, and off of the main thread.',
   icon: 'icon:partytown',
   category: 'nuxt',
   types: [

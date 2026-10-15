@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'dayjs',
-  description: 'Day.js module for Nuxt',
+  description: 'Day.js integration',
   icon: '',
   category: 'nuxt',
   types: [

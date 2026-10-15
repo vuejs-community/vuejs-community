@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'google-adsense',
-  description: 'Google Adsense Module for Nuxt',
+  description: 'Google AdSense integration',
   icon: '',
   category: 'nuxt',
   types: [

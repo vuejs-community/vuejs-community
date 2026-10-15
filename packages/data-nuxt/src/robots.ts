@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'robots',
-  description: 'Tame the robots crawling and indexing your Nuxt site.',
+  description: 'Tame the robots crawling and indexing your site.',
   icon: 'icon:simple-robots',
   category: 'nuxt',
   types: [

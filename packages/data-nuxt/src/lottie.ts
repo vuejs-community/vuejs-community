@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'lottie',
-  description: 'Easily integrate Lottie animations into your Nuxt App.',
+  description: 'Easily integrate Lottie animations.',
   icon: '',
   category: 'nuxt',
   types: [

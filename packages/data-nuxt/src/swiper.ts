@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'swiper',
-  description: 'Nuxt module for Swiper.js - Most modern mobile touch slider with hardware accelerated transitions.',
+  description: 'Swiper.js integration: the most modern mobile touch slider with hardware accelerated transitions.',
   icon: 'icon:swiper',
   category: 'nuxt',
   types: [

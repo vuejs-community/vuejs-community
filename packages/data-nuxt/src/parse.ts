@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'parse',
-  description: 'Parse package for Nuxt',
+  description: 'Parse integration',
   icon: '',
   category: 'nuxt',
   types: [

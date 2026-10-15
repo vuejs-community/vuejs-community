@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'skew-protection',
-  description: 'Solve Nuxt version skews with persistent assets and instant updates.',
+  description: 'Solve version skew with persistent assets and instant updates.',
   icon: 'icon:skew-protection',
   category: 'nuxt',
   types: [

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'ai-ready',
-  description: 'Best practice AI & LLM discoverability for Nuxt sites.',
+  description: 'Best practice AI & LLM discoverability.',
   icon: 'icon:ai-ready',
   category: 'nuxt',
   types: [

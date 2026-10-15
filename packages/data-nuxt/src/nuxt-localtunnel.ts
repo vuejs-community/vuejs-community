@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-localtunnel',
-  description: 'Exposes your Nuxt localhost to the world automatically.',
+  description: 'Exposes your localhost to the world automatically.',
   icon: 'icon:nuxt-localtunnel',
   category: 'nuxt',
   types: [

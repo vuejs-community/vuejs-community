@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vcalendar',
-  description: 'VCalendar module for Nuxt',
+  description: 'VCalendar integration',
   icon: '',
   category: 'nuxt',
   types: [

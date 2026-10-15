@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'nuxt-maplibre',
-  description: 'Maplibre integration with Nuxt',
+  description: 'MapLibre integration',
   icon: '',
   category: 'nuxt',
   types: [
