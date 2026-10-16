@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'plugin',
   ],
   links: {
-    github: 'https://github.com/getsentry/sentry-javascript-bundler-plugins',
+    github: 'https://github.com/getsentry/sentry-javascript',
     npm: 'https://www.npmjs.com/package/@sentry/rollup-plugin',
-    website: 'https://github.com/getsentry/sentry-javascript-bundler-plugins/tree/main/packages/rollup-plugin',
+    website: 'https://github.com/getsentry/sentry-javascript/tree/develop/packages/rollup-plugin',
   },
   source: {
-    github: 'getsentry/sentry-javascript-bundler-plugins',
+    github: 'getsentry/sentry-javascript',
     npm: '@sentry/rollup-plugin',
   },
   stats: {

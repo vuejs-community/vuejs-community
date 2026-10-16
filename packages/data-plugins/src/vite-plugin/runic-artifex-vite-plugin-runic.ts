@@ -18,7 +18,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/Runic-Artifex/runic-sdk',
     npm: 'https://www.npmjs.com/package/@runic-artifex/vite-plugin-runic',
-    website: 'https://github.com/Runic-Artifex/runic-sdk/tree/v0.8.0-preview.1/packages/web/vite-plugin-runic#readme',
+    website: 'https://github.com/Runic-Artifex/runic-sdk/tree/v0.8.0-preview.3/packages/web/vite-plugin-runic#readme',
   },
   source: {
     github: 'Runic-Artifex/runic-sdk',

@@ -12,12 +12,12 @@ export default defineProjectMeta({
     '3rd-party',
   ],
   links: {
-    github: 'https://github.com/freb97/nuxt-strapi-blocks-renderer',
+    github: 'https://github.com/bussmann-io/nuxt-strapi-blocks-renderer',
     npm: 'https://npmjs.com/package/nuxt-strapi-blocks-renderer',
-    website: 'https://github.com/freb97/nuxt-strapi-blocks-renderer',
+    website: 'https://github.com/bussmann-io/nuxt-strapi-blocks-renderer',
   },
   source: {
-    github: 'freb97/nuxt-strapi-blocks-renderer',
+    github: 'bussmann-io/nuxt-strapi-blocks-renderer',
     npm: 'nuxt-strapi-blocks-renderer',
   },
 })

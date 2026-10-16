@@ -19,6 +19,12 @@ export default defineProjectMeta({
     'overlay',
     'ai-agent',
     'claude',
+    'codex',
+    'cursor',
+    'copilot',
+    'gemini',
+    'agents-md',
+    'agent-skills',
   ],
   links: {
     github: 'https://github.com/umage-ai/redline',
