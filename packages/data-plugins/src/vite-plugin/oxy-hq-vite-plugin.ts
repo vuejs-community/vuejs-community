@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'customer-apps',
   ],
   links: {
-    github: 'https://github.com/oxy-hq/oxy-internal',
+    github: 'https://github.com/oxy-hq/oxygen-internal',
     npm: 'https://www.npmjs.com/package/@oxy-hq/vite-plugin',
-    website: 'https://github.com/oxy-hq/oxy-internal#readme',
+    website: 'https://github.com/oxy-hq/oxygen-internal#readme',
   },
   source: {
-    github: 'oxy-hq/oxy-internal',
+    github: 'oxy-hq/oxygen-internal',
     npm: '@oxy-hq/vite-plugin',
   },
   stats: {

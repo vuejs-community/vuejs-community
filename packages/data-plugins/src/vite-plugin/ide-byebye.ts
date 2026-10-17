@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'ide-byebye',
-  description: 'Dev plugin for Vite / webpack / rspack / rsbuild / esbuild / Farm, Next.js (Turbopack + webpack) and the Angular CLI: ⌘-click any rendered element (React, Vue, Svelte, Solid, Angular; Next.js, Nuxt, SvelteKit), describe the change in plain words, and hand',
+  description: 'Dev plugin for Vite, webpack, rspack, Rsbuild, esbuild, Farm, Next.js and the Angular CLI: ⌘-click an element in your running app, describe the change, and Claude, Codex, Cursor or another AI agent opens with the exact source file and lines already in the',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

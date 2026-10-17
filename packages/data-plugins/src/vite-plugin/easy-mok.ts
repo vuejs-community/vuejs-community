@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'easy-mok',
-  description: '开发期 mock 中间件: mock 写一次, 场景, 延迟, 状态码在浏览器里切, 真实响应一键存成 mock; 支持 vite, webpack-dev-server, express, fastify 与独立运行',
+  description: 'Write each API mock once, then switch scenes, delays, and status codes in your browser and save real responses as mocks, with no code edits or dev server restarts.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

@@ -9,12 +9,12 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   tags: [
-    'vite',
-    'plugin',
-    'vite-plugin',
+    'development',
     'mock',
     'mock-server',
-    'development',
+    'plugin',
+    'vite',
+    'vite-plugin',
   ],
   links: {
     github: 'https://github.com/pengzhanbo/vite-plugin-mock-dev-server',
