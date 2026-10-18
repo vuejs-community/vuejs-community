@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@xcwds/sveltekit',
-  description: 'Binds the @xcwds kernel to SvelteKit: a Vite plugin, svelte.config and server hooks, the <App> component, Svelte 5 persist() and reactive settings, and a route registry.',
+  description: 'Binds the @xcwds kernel to SvelteKit: a Vite plugin that sets up SvelteKit, server hooks, the <App> component, Svelte 5 persist() and reactive settings, and a route registry.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

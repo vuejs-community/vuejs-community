@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@seedprotocol/vite',
-  description: 'Vite plugin for browser apps using @seedprotocol/sdk: Node polyfills, ZenFS aliases, CJS interop fixes and cross-origin isolation headers',
+  description: 'Vite plugin for browser apps using @seedprotocol/sdk: cross-origin isolation headers, ES module workers, linked-install support, and opt-in Node polyfills',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -15,7 +15,6 @@ export default defineProjectMeta({
     'zenfs',
     'opfs',
     'sqlite-wasm',
-    'polyfills',
     'cross-origin-isolation',
   ],
   links: {

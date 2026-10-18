@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'zero-vdom',
   ],
   links: {
-    github: 'https://github.com/rbm3267/sola-air',
+    github: 'https://github.com/Rbm3267/sola-air',
     npm: 'https://www.npmjs.com/package/@sola-air-ui/vite-plugin-sola',
     website: 'https://sola-air.dev',
   },
   source: {
-    github: 'rbm3267/sola-air',
+    github: 'Rbm3267/sola-air',
     npm: '@sola-air-ui/vite-plugin-sola',
   },
   stats: {

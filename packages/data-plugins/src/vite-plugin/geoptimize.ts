@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'geoptimize',
-  description: 'Deterministic content-readiness lint for static websites and documentation',
+  description: 'Deterministic content quality lint for CI and pre-commit in documentation and static sites',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -19,6 +19,11 @@ export default defineProjectMeta({
     'claude-code-skill',
     'vite-plugin',
     'nextjs-plugin',
+    'content-lint',
+    'docs',
+    'documentation',
+    'ci',
+    'static-site',
   ],
   links: {
     github: 'https://github.com/cucuwang/geoptimize',

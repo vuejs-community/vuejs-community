@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@ui-guide-agent/web',
-  description: 'Preview — not ready for use yet. UiGuide Agent for web applications: an AI help agent that guides your users through your UI.',
+  description: 'UiGuide Agent for web applications: an AI help agent that guides your users through your UI.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

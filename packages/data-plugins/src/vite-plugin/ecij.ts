@@ -2,16 +2,20 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'ecij',
-  description: 'Rolldown and Vite plugin to Extract CSS-in-JS',
+  description: 'Zero-runtime CSS-in-JS for Rolldown and Vite: statically extracts css tagged template literals',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
     'vite-plugin',
   ],
   tags: [
+    'css',
     'css-in-js',
+    'rolldown',
     'rolldown-plugin',
+    'vite',
     'vite-plugin',
+    'zero-runtime',
   ],
   links: {
     github: 'https://github.com/nstepien/ecij',

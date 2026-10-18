@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@oddsquad/vite-plugin-lit',
-  description: 'Vite plugin providing true HMR for Lit components, plus CSS helpers and a DevTools panel',
+  description: 'True HMR for Lit components, plus CSS helpers and a DevTools panel',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -19,7 +19,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/oddcelot/vite-plugin-lit',
     npm: 'https://www.npmjs.com/package/@oddsquad/vite-plugin-lit',
-    website: 'https://github.com/oddcelot/vite-plugin-lit#readme',
+    website: 'https://oddcelot.github.io/vite-plugin-lit/',
   },
   source: {
     github: 'oddcelot/vite-plugin-lit',
