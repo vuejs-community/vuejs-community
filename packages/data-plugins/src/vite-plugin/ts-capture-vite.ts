@@ -20,7 +20,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/lelle/ts-capture',
     npm: 'https://www.npmjs.com/package/@ts-capture/vite',
-    website: 'https://github.com/lelle/ts-capture#readme',
+    website: 'https://lelle.github.io/ts-capture/',
   },
   source: {
     github: 'lelle/ts-capture',

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@oddsquad/vite-plugin-lit',
-  description: 'True HMR for Lit components, plus CSS helpers and a DevTools panel',
+  description: 'Lit for Vite and Astro: true HMR, server rendering and a DevTools panel',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -15,6 +15,8 @@ export default defineProjectMeta({
     'hmr',
     'web-components',
     'devtools',
+    'withastro',
+    'renderer',
   ],
   links: {
     github: 'https://github.com/oddcelot/vite-plugin-lit',
