@@ -17,6 +17,7 @@ export default defineProjectMeta({
     'schema.org',
     'json-ld',
     'vite-plugin',
+    'astro-integration',
     'static-site',
     'llms-txt',
   ],

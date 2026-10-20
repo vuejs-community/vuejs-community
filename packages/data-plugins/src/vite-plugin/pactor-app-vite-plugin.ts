@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'yaml',
   ],
   links: {
-    github: 'https://github.com/426-330/pactor',
+    github: 'https://github.com/innospots/pactor',
     npm: 'https://www.npmjs.com/package/@pactor-app/vite-plugin',
-    website: 'https://github.com/426-330/pactor/tree/main/packages/vite-plugin',
+    website: 'https://github.com/innospots/pactor/tree/main/packages/vite-plugin',
   },
   source: {
-    github: '426-330/pactor',
+    github: 'innospots/pactor',
     npm: '@pactor-app/vite-plugin',
   },
   stats: {

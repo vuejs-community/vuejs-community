@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-nuikit',
-  description: 'Make shadcn/ui and Tailwind v4 render in FiveM\'s Chromium 103 NUI, plus in-game hot reload.',
+  description: 'Make stock shadcn/ui and Tailwind v4 render right in FiveM\'s Chromium 103 NUI. Part of nuikit, one design system for your whole FiveM server.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
