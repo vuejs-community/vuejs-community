@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vitral',
-  description: 'Micro-frontends sem burocracia: um contrato mount/unmount, carregamento em runtime e adaptadores para React, Next, Vue, Nuxt, Angular, Svelte, Solid, Preact, Lit e JS/TS puro.',
+  description: 'Micro-frontends de qualquer framework numa página só, sem configuração de build no host. React, Next, Vue, Nuxt, Angular, Svelte, Solid, Preact, Lit e JS puro.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -38,7 +38,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/joaogabriel15/vitral',
     npm: 'https://www.npmjs.com/package/vitral',
-    website: 'https://github.com/joaogabriel15/vitral#readme',
+    website: 'https://joaogabriel15.github.io/vitral/',
   },
   source: {
     github: 'joaogabriel15/vitral',

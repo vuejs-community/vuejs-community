@@ -1,9 +1,9 @@
 import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
-  name: 'kql',
-  description: 'Kirby\'s Query Language API integration',
-  icon: 'icon:kql',
+  name: 'kirby',
+  description: 'Fetch Kirby CMS data via KQL or the REST API',
+  icon: 'icon:kirby',
   category: 'nuxt',
   types: [
     'CMS',
