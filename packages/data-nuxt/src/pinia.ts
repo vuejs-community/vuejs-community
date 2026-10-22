@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:pinia',
   category: 'nuxt',
   types: [
-    'Extensions',
+    'State Management',
   ],
   filter: [
     '3rd-party',

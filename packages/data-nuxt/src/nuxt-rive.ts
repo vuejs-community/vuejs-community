@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:rive',
   category: 'nuxt',
   types: [
-    'UI',
+    'Animation',
   ],
   filter: [
     '3rd-party',

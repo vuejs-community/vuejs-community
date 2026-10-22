@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:http-client-hints',
   category: 'nuxt',
   types: [
-    'Extensions',
+    'Utilities',
   ],
   filter: [
     '3rd-party',

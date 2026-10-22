@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: '',
   category: 'nuxt',
   types: [
-    'Extensions',
+    'i18n',
   ],
   filter: [
     'community',

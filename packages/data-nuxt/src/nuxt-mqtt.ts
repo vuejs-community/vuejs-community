@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: '',
   category: 'nuxt',
   types: [
-    'Extensions',
+    'Realtime',
   ],
   filter: [
     '3rd-party',

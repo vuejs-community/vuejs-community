@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:electron',
   category: 'nuxt',
   types: [
-    'Extensions',
+    'Mobile & Desktop',
   ],
   filter: [
     '3rd-party',

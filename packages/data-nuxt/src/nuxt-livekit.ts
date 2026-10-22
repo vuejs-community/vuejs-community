@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:nuxt-livekit',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'Realtime',
   ],
   filter: [
     '3rd-party',

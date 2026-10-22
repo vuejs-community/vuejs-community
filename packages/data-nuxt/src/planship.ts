@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:planship',
   category: 'nuxt',
   types: [
-    'Payment',
+    'Ecommerce & Payments',
   ],
   filter: [
     '3rd-party',

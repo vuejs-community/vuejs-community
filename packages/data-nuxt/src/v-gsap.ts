@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:v-gsap',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'Animation',
   ],
   filter: [
     '3rd-party',

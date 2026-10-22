@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:scalar',
   category: 'nuxt',
   types: [
-    'Devtools',
+    'API & Data Fetching',
   ],
   filter: [
     '3rd-party',

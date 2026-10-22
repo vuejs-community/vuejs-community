@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:harlem',
   category: 'nuxt',
   types: [
-    'Extensions',
+    'State Management',
   ],
   filter: [
     'community',

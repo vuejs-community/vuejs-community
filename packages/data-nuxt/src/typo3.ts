@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:typo3',
   category: 'nuxt',
   types: [
-    'CMS',
+    'CMS & Content',
   ],
   filter: [
     '3rd-party',

@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:persian-datepicker',
   category: 'nuxt',
   types: [
-    'Date',
+    'UI Components',
   ],
   filter: [
     '3rd-party',

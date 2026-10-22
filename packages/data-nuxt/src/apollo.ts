@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: '',
   category: 'nuxt',
   types: [
-    'Request',
+    'API & Data Fetching',
   ],
   filter: [
     'community',

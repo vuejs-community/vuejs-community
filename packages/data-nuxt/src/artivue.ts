@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:artivue',
   category: 'nuxt',
   types: [
-    'UI',
+    'CSS & Theming',
   ],
   filter: [
     '3rd-party',

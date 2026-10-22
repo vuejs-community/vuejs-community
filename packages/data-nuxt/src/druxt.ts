@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:druxt',
   category: 'nuxt',
   types: [
-    'CMS',
+    'CMS & Content',
   ],
   filter: [
     '3rd-party',

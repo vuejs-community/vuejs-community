@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:workflow',
   category: 'nuxt',
   types: [
-    'Devtools',
+    'Backend & Database',
   ],
   filter: [
     '3rd-party',

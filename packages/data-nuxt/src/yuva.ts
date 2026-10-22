@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:yuva',
   category: 'nuxt',
   types: [
-    'UI',
+    'Widgets & Embeds',
   ],
   filter: [
     '3rd-party',

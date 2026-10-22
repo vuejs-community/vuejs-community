@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:nuxt-charts',
   category: 'nuxt',
   types: [
-    'UI',
+    'Charts & Maps',
   ],
   filter: [
     '3rd-party',

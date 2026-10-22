@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:laravel',
   category: 'nuxt',
   types: [
-    'Security',
+    'Authentication',
   ],
   filter: [
     '3rd-party',

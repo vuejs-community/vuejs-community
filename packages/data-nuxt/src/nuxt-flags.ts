@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: '',
   category: 'nuxt',
   types: [
-    'Devtools',
+    'Deployment',
   ],
   filter: [
     '3rd-party',

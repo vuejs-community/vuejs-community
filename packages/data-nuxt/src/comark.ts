@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:comark',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'CMS & Content',
   ],
   filter: [
     '3rd-party',

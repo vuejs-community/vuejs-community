@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:nvcalendar',
   category: 'nuxt',
   types: [
-    'UI',
+    'UI Components',
   ],
   filter: [
     '3rd-party',

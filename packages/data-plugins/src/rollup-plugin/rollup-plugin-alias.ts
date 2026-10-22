@@ -13,6 +13,7 @@ export default defineProjectMeta({
     'plugin',
     'resolve',
     'alias',
+    'rollup-plugin',
   ],
   links: {
     github: 'https://github.com/rollup/plugins',

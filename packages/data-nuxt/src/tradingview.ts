@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:tradingview',
   category: 'nuxt',
   types: [
-    'Extensions',
+    'Charts & Maps',
   ],
   filter: [
     '3rd-party',

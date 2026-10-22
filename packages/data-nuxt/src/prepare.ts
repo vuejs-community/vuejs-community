@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:prepare',
   category: 'nuxt',
   types: [
-    'Devtools',
+    'Utilities',
   ],
   filter: [
     '3rd-party',

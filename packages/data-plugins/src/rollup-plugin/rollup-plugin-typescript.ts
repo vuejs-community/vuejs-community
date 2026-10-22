@@ -13,6 +13,7 @@ export default defineProjectMeta({
     'plugin',
     'typescript',
     'es2015',
+    'rollup-plugin',
   ],
   links: {
     github: 'https://github.com/rollup/plugins',

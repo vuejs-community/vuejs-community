@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:vue-transitions',
   category: 'nuxt',
   types: [
-    'UI',
+    'Animation',
   ],
   filter: [
     '3rd-party',

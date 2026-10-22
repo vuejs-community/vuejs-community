@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: '',
   category: 'nuxt',
   types: [
-    'Performance',
+    'Mobile & Desktop',
   ],
   filter: [
     '3rd-party',

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'devlens-ai',
-  description: 'Visual control layer for AI coding agents: point at any element in your running app, describe a change, and Claude Code edits your source.',
+  description: 'Chat with Claude Code inside your running app: click an element, say what to change, and DevLens edits your code. Works with Vite, webpack, Rspack and Next.js.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

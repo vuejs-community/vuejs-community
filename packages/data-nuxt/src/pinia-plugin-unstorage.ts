@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:pinia-plugin-unstorage',
   category: 'nuxt',
   types: [
-    'Extensions',
+    'State Management',
   ],
   filter: [
     '3rd-party',

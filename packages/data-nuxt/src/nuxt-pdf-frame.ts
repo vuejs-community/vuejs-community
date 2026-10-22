@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:pdf-frame',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'Utilities',
   ],
   filter: [
     '3rd-party',

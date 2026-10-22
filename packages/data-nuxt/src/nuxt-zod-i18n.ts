@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:nuxt-zod-i18n',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'i18n',
   ],
   filter: [
     '3rd-party',

@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:algolia',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'Utilities',
   ],
   filter: [
     'community',

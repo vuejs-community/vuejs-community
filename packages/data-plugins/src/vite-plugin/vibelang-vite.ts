@@ -16,10 +16,12 @@ export default defineProjectMeta({
     'vitest',
   ],
   links: {
+    github: 'https://github.com/smithersai/vibelang',
     npm: 'https://www.npmjs.com/package/vibelang-vite',
-    website: 'https://effeck.dev',
+    website: 'https://vibelang.sh',
   },
   source: {
+    github: 'smithersai/vibelang',
     npm: 'vibelang-vite',
   },
 })

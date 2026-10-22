@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:nuxt-coolify',
   category: 'nuxt',
   types: [
-    'Request',
+    'Deployment',
   ],
   filter: [
     '3rd-party',

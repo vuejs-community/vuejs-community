@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: '',
   category: 'nuxt',
   types: [
-    'Security',
+    'Authentication',
   ],
   filter: [
     '3rd-party',

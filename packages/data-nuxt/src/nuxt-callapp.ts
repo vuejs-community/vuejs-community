@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:callapp',
   category: 'nuxt',
   types: [
-    'Extensions',
+    'Mobile & Desktop',
   ],
   filter: [
     '3rd-party',

@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:stonecrop',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'Utilities',
   ],
   filter: [
     '3rd-party',

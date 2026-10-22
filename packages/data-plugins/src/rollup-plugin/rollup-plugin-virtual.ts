@@ -15,6 +15,7 @@ export default defineProjectMeta({
     'module',
     'modules',
     'virtual',
+    'rollup-plugin',
   ],
   links: {
     github: 'https://github.com/rollup/plugins',

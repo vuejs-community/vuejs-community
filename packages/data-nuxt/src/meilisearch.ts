@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:meilisearch',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'Utilities',
   ],
   filter: [
     '3rd-party',

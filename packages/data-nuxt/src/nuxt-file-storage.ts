@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:nuxt-file-storage',
   category: 'nuxt',
   types: [
-    'Database',
+    'Backend & Database',
   ],
   filter: [
     '3rd-party',

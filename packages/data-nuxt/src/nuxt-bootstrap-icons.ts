@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:bootstrap-icons',
   category: 'nuxt',
   types: [
-    'UI',
+    'Icons & Fonts',
   ],
   filter: [
     '3rd-party',

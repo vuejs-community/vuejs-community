@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:nuxt-facebook-chat',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'Widgets & Embeds',
   ],
   filter: [
     '3rd-party',

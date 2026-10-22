@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:yapyak',
   category: 'nuxt',
   types: [
-    'Extensions',
+    'i18n',
   ],
   filter: [
     '3rd-party',

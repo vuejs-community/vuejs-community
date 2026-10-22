@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:medusa',
   category: 'nuxt',
   types: [
-    'Ecommerce',
+    'Ecommerce & Payments',
   ],
   filter: [
     'community',

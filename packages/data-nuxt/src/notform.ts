@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:notform',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'Forms & Validation',
   ],
   filter: [
     '3rd-party',

@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:vue-macros',
   category: 'nuxt',
   types: [
-    'Extensions',
+    'Utilities',
   ],
   filter: [
     '3rd-party',

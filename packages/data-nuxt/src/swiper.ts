@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:swiper',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'UI Components',
   ],
   filter: [
     '3rd-party',

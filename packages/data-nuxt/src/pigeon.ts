@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:pigeon',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'Email & Notifications',
   ],
   filter: [
     '3rd-party',

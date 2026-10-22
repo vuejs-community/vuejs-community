@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:directus-sdk',
   category: 'nuxt',
   types: [
-    'CMS',
+    'CMS & Content',
   ],
   filter: [
     '3rd-party',

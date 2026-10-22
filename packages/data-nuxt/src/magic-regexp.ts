@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:magic-regexp',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'Utilities',
   ],
   filter: [
     '3rd-party',

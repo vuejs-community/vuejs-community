@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-theme-css',
-  description: 'Vite 插件：用一份主题配置生成 CSS 变量、SCSS helper 与 JS 运行时，支持多主题切换与热更新',
+  description: 'Vite 插件：theme.config → 编译期 SCSS（CSS 变量 + helper）+ 运行时 globalThis.__THEME_CSS__ 深合并',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:calendly',
   category: 'nuxt',
   types: [
-    'Extensions',
+    'Widgets & Embeds',
   ],
   filter: [
     '3rd-party',

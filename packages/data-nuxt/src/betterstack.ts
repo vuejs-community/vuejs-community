@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:betterstack',
   category: 'nuxt',
   types: [
-    'Extensions',
+    'Monitoring & Logging',
   ],
   filter: [
     '3rd-party',

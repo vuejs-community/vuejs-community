@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:lettermint',
   category: 'nuxt',
   types: [
-    'Extensions',
+    'Email & Notifications',
   ],
   filter: [
     '3rd-party',

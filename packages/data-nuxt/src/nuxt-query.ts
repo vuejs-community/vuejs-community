@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:nuxt-query',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'API & Data Fetching',
   ],
   filter: [
     '3rd-party',

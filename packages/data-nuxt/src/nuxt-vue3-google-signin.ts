@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:vue3-google-signin',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'Authentication',
   ],
   filter: [
     '3rd-party',

@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:nuxt-asciidoc',
   category: 'nuxt',
   types: [
-    'Extensions',
+    'CMS & Content',
   ],
   filter: [
     '3rd-party',

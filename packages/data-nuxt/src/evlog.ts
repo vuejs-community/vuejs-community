@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:evlog',
   category: 'nuxt',
   types: [
-    'Monitoring',
+    'Monitoring & Logging',
   ],
   filter: [
     '3rd-party',

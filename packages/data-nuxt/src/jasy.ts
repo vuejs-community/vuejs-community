@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:jasy',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'Utilities',
   ],
   filter: [
     '3rd-party',

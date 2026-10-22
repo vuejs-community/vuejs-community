@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:element-plus',
   category: 'nuxt',
   types: [
-    'UI',
+    'UI Frameworks',
   ],
   filter: [
     '3rd-party',

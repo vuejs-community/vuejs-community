@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:vitalizer',
   category: 'nuxt',
   types: [
-    'SEO',
+    'Performance',
   ],
   filter: [
     '3rd-party',

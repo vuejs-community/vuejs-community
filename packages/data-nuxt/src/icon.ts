@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:nuxt',
   category: 'nuxt',
   types: [
-    'UI',
+    'Icons & Fonts',
   ],
   filter: [
     'official',

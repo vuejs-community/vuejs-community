@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:simple-donation',
   category: 'nuxt',
   types: [
-    'Payment',
+    'Ecommerce & Payments',
   ],
   filter: [
     '3rd-party',

@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:notion',
   category: 'nuxt',
   types: [
-    'CMS',
+    'CMS & Content',
   ],
   filter: [
     '3rd-party',

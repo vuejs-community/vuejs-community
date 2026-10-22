@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'env-parity-plugin',
-  description: 'Fail your Webpack, Rspack, Rollup, Rolldown, Astro or Next.js build when a variable from .env.example is missing or empty. The bundler-agnostic sibling of vite-plugin-env-parity. Zero dependencies.',
+  description: 'Fail your Webpack, Rspack, Rollup, Rolldown, Astro or Next.js build when a variable from .env.example is missing or empty, or when your code reads one the example doesn\'t list. Catches server secrets in Next.js client components. Zero dependencies.',
   icon: 'logos:rollupjs',
   category: 'plugin',
   types: [
@@ -25,6 +25,9 @@ export default defineProjectMeta({
     'astro-integration',
     'nextjs',
     'next',
+    'process.env',
+    'client-components',
+    'lint',
   ],
   links: {
     github: 'https://github.com/acus9345/env-parity-plugin',

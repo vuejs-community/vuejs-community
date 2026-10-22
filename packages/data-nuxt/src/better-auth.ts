@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:better-auth',
   category: 'nuxt',
   types: [
-    'Security',
+    'Authentication',
   ],
   filter: [
     'community',

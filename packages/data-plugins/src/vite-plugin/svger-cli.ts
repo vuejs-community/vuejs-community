@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'svger-cli',
-  description: 'Enterprise-grade SVG to component converter with advanced plugin system, visual diff testing, and official framework integrations. Supporting React, React Native, Vue, Angular, Svelte, Solid, Lit, Preact & Vanilla. Features TypeScript, HMR, optimization p',
+  description: 'Generate React, React Native, Vue, Angular, Svelte, Solid, Preact, Lit, and vanilla components from SVG files.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

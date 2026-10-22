@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:auto-animate',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'Animation',
   ],
   filter: [
     '3rd-party',

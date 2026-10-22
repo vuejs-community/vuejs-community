@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:ionic',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'Mobile & Desktop',
   ],
   filter: [
     'community',

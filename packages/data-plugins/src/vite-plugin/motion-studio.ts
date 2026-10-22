@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'motion-studio',
-  description: 'Motion Studio: a timeline editor for Motion animations in your running app. Free to install, inspect and edit. Saving to source and agent edits need a Motion Studio subscription.',
+  description: 'Motion Studio: a timeline editor for Motion animations in your running app. Free to install, inspect and edit. Saving to source and agent edits need Motion+ or Motion+ Pro.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

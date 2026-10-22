@@ -20,10 +20,12 @@ export default defineProjectMeta({
     'bun-plugin',
   ],
   links: {
+    github: 'https://github.com/smithersai/vibelang',
     npm: 'https://www.npmjs.com/package/vibelang-unplugin',
-    website: 'https://effeck.dev',
+    website: 'https://vibelang.sh',
   },
   source: {
+    github: 'smithersai/vibelang',
     npm: 'vibelang-unplugin',
   },
 })

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-preloader',
-  description: '🚀 Vite plugin for intelligent route preloading - 智能路由预加载插件',
+  description: 'Vite 智能路由预加载插件 - dev 注入 modulepreload，build 运行时注入 prefetch',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -12,15 +12,11 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
     'preload',
-    'vue',
-    'vue3',
-    'performance',
-    'route',
+    'prefetch',
+    'modulepreload',
     'lazy-loading',
-    'optimization',
-    'build-tool',
-    'intelligent',
-    'preloading',
+    'routes',
+    'performance',
   ],
   links: {
     github: 'https://github.com/ChenyCHENYU/vite-plugin-preloader',

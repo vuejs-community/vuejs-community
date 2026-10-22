@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:lucide-icons',
   category: 'nuxt',
   types: [
-    'UI',
+    'Icons & Fonts',
   ],
   filter: [
     '3rd-party',

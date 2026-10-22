@@ -15,6 +15,7 @@ export default defineProjectMeta({
     'minify',
     'npm',
     'modules',
+    'rollup-plugin',
   ],
   links: {
     github: 'https://github.com/rollup/plugins',

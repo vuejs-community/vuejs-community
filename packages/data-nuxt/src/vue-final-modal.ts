@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:vue-final-modal',
   category: 'nuxt',
   types: [
-    'UI',
+    'UI Components',
   ],
   filter: [
     '3rd-party',

@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:nuxt-mapbox',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'Charts & Maps',
   ],
   filter: [
     '3rd-party',

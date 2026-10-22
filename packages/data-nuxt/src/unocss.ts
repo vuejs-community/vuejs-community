@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:unocss',
   category: 'nuxt',
   types: [
-    'CSS',
+    'CSS & Theming',
   ],
   filter: [
     '3rd-party',

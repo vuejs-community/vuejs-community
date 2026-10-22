@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:nuxt-simple-cookie-consent',
   category: 'nuxt',
   types: [
-    'Extensions',
+    'Security',
   ],
   filter: [
     '3rd-party',

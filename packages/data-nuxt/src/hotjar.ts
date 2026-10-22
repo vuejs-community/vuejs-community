@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: '',
   category: 'nuxt',
   types: [
-    'SEO',
+    'Analytics',
   ],
   filter: [
     '3rd-party',

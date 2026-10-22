@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:form-actions',
   category: 'nuxt',
   types: [
-    'Request',
+    'Forms & Validation',
   ],
   filter: [
     '3rd-party',

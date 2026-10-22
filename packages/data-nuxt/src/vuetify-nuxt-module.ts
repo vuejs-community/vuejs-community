@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:vuetify-logo-v3-dark',
   category: 'nuxt',
   types: [
-    'UI',
+    'UI Frameworks',
   ],
   filter: [
     '3rd-party',

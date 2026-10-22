@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:vite-pwa-nuxt',
   category: 'nuxt',
   types: [
-    'Performance',
+    'Mobile & Desktop',
   ],
   filter: [
     '3rd-party',

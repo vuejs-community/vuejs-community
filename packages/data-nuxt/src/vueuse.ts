@@ -6,7 +6,7 @@ export default defineProjectMeta({
   icon: 'icon:vueuse',
   category: 'nuxt',
   types: [
-    'Libraries',
+    'Utilities',
   ],
   filter: [
     '3rd-party',
