@@ -14,7 +14,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/xlanex6/nuxt-meilisearch',
     npm: 'https://npmjs.com/package/nuxt-meilisearch',
-    website: 'https://nuxt-meilisearch.vercel.app',
+    website: 'https://nuxt-meilisearch.vercel.app/getting-started/',
   },
   source: {
     github: 'xlanex6/nuxt-meilisearch',

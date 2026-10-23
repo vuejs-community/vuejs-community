@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'css-in-js',
   ],
   links: {
-    github: 'https://github.com/type-styles/typestyles',
+    github: 'https://github.com/phthalo-dev/typestyles',
     npm: 'https://www.npmjs.com/package/@typestyles/vite',
-    website: 'https://github.com/type-styles/typestyles#readme',
+    website: 'https://github.com/phthalo-dev/typestyles#readme',
   },
   source: {
-    github: 'type-styles/typestyles',
+    github: 'phthalo-dev/typestyles',
     npm: '@typestyles/vite',
   },
   stats: {

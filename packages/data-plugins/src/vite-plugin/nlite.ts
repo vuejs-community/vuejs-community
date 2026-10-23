@@ -1,0 +1,48 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'nlite',
+  description: 'Lightweight React 19 framework on Vite with Next.js-style app/ routing: React Server Components, streaming SSR, SSG, Partial Prerendering, route handlers, and adapters for Vercel, Cloudflare, and Netlify',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'app-router',
+    'cloudflare',
+    'cloudflare-workers',
+    'file-based-routing',
+    'framework',
+    'layouts',
+    'mdx',
+    'meta-framework',
+    'netlify',
+    'nextjs',
+    'nextjs-alternative',
+    'partial-prerendering',
+    'ppr',
+    'react',
+    'react-19',
+    'react-framework',
+    'react-server-components',
+    'route-handlers',
+    'rsc',
+    'server-components',
+    'ssg',
+    'ssr',
+    'streaming',
+    'vercel',
+    'vite',
+    'vite-plugin',
+  ],
+  links: {
+    github: 'https://github.com/shamilkotta/nlite',
+    npm: 'https://www.npmjs.com/package/nlite',
+    website: 'https://shamilkotta.com/projects/nlite',
+  },
+  source: {
+    github: 'shamilkotta/nlite',
+    npm: 'nlite',
+  },
+})

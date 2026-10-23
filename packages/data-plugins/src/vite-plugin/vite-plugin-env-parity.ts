@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-env-parity',
-  description: 'Vite plugin that fails your build when a variable from .env.example is missing or empty. Zero config, zero dependencies.',
+  description: 'Vite plugin that fails your build or dev server start when a variable from .env.example is missing or empty. Zero config. Built on @acus9345/env-parity.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

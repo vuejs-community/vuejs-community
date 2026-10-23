@@ -19,7 +19,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/thomasfosterau/effect-svelte',
     npm: 'https://www.npmjs.com/package/@thomasfosterau/effect-sveltekit',
-    website: 'https://github.com/thomasfosterau/effect-svelte/tree/main/packages/sveltekit#readme',
+    website: 'https://github.com/thomasfosterau/effect-svelte/tree/trunk/packages/sveltekit#readme',
   },
   source: {
     github: 'thomasfosterau/effect-svelte',

@@ -10,6 +10,8 @@ export default defineProjectMeta({
   ],
   tags: [
     'backgrounds',
+    'drawing',
+    'svg',
     'pdf',
     'react-pdf',
     'print',

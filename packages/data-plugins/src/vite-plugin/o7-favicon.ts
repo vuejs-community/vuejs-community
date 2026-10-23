@@ -9,12 +9,12 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   tags: [
-    'svelte',
     'favicon',
     'favicons',
-    'webmanifest',
+    'svelte',
     'svg',
     'vite-plugin',
+    'webmanifest',
   ],
   links: {
     github: 'https://github.com/ottomated/o7-favicon',

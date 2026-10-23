@@ -16,9 +16,12 @@ export default defineProjectMeta({
     'unplugin',
   ],
   links: {
+    github: 'https://github.com/foxford/frontend-platform',
     npm: 'https://www.npmjs.com/package/@foxford/den-plugin',
+    website: 'https://github.com/foxford/frontend-platform',
   },
   source: {
+    github: 'foxford/frontend-platform',
     npm: '@foxford/den-plugin',
   },
   stats: {
