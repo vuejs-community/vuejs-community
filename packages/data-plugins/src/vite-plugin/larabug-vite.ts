@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@larabug/vite',
-  description: 'Vite plugin that uploads source maps to LaraBug and stamps every error with the build\'s release',
+  description: 'Vite plugin that uploads source maps to LaraBug, stamps every error with the build\'s release, and sends the lockfile for vulnerability scanning',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

@@ -19,7 +19,7 @@ export default defineProjectMeta({
   ],
   links: {
     npm: 'https://www.npmjs.com/package/@mars-tech/vite-debug-plugin',
-    website: 'https://gitlab.com/mars-tech/vite-debug-plugin#readme',
+    website: 'https://vite-debug-plugin.mars-tech.dev/',
   },
   source: {
     npm: '@mars-tech/vite-debug-plugin',

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'bini-ssg',
-  description: 'True SSG for Bini.js with zero code changes — auto-discovers dynamic routes and pre-renders them to static HTML during vite build',
+  description: 'True SSG for Bini.js with zero code changes - auto-discovers dynamic routes and pre-renders them to static HTML during vite build',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
