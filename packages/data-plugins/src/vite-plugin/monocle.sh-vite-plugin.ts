@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@monocle.sh/vite-plugin',
-  description: 'Vite plugin that injects your release into the Monocle Browser SDK at build time',
+  description: 'Vite plugin that injects your release into the Monocle Browser SDK and uploads source maps at build time',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -13,6 +13,7 @@ export default defineProjectMeta({
     'observability',
     'opentelemetry',
     'release',
+    'sourcemaps',
     'vite',
     'vite-plugin',
   ],

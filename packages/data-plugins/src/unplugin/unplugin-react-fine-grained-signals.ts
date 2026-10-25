@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'unplugin-react-fine-grained-signals',
-  description: 'Universal useSignalTracking transform for react-fine-grained-signals.',
+  description: 'Universal managed signal tracking transform for React.',
   icon: 'icon:dark-unplugin',
   category: 'plugin',
   types: [

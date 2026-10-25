@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'genaicode',
-  description: 'A small, provider-neutral TypeScript toolkit for calling LLMs from backend code.',
+  description: 'Drive the coding-agent CLIs you already have (Claude Code, Codex, Copilot, Cursor, Gemini, opencode...) behind one API and one CLI, plus a thin provider-neutral LLM layer.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

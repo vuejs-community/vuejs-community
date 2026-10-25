@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@specrig/vite',
-  description: 'specrig for an app built with Vite: the plugin that serves its runtime settings, the checks that every setting it reads is answered, and init.',
+  description: 'specrig for an app built with Vite: the plugin that serves its runtime settings, the checks that every setting it reads is answered, init, and the rules of its Rule #11 modes.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

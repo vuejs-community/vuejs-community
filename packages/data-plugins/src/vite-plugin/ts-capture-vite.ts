@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@ts-capture/vite',
-  description: 'ts-capture Vite plugin — instrument modules in browser + Vitest for click-for-types and test-driven type collection. (0.x — API may change between minor versions.)',
+  description: 'Vite plugin for ts-capture — collects the types your code is called with, in Vitest and the dev server. (0.x — API may change between minor versions.)',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
