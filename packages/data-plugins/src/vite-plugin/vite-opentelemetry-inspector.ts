@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-opentelemetry-inspector',
-  description: 'OpenTelemetry traces & logs inspector as a standalone Vite DevTools devframe',
+  description: 'OpenTelemetry traces, logs & metrics inspector as a standalone Vite DevTools devframe',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

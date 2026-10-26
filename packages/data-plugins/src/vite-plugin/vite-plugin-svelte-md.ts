@@ -15,6 +15,7 @@ export default defineProjectMeta({
     'markdown',
     'markdown-it',
     'markdown-exit',
+    'sv-add',
   ],
   links: {
     github: 'https://github.com/ota-meshi/vite-plugin-svelte-md',

@@ -18,12 +18,12 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   links: {
-    github: 'https://github.com/menapo/vite-plugins',
+    github: 'https://github.com/menapo/kit',
     npm: 'https://www.npmjs.com/package/@menapo/vi18n',
-    website: 'https://github.com/menapo/vite-plugins/blob/main/packages/vi18n/docs/guide/README.md',
+    website: 'https://github.com/menapo/kit/blob/main/packages/vi18n/docs/guide/README.md',
   },
   source: {
-    github: 'menapo/vite-plugins',
+    github: 'menapo/kit',
     npm: '@menapo/vi18n',
   },
 })

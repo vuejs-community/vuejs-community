@@ -9,13 +9,13 @@ export default defineProjectMeta({
     'rollup-plugin',
   ],
   tags: [
-    'rollup',
-    'plugin',
-    'rollup-plugin',
-    'transform',
-    'sourcemap',
     'path',
+    'plugin',
+    'rollup',
+    'rollup-plugin',
+    'sourcemap',
     'sourcemapPathTransform',
+    'transform',
   ],
   links: {
     github: 'https://github.com/prantlf/rollup-sourcemap-path-transform',

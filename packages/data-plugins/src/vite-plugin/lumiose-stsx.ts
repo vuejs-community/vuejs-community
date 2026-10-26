@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@lumiose/stsx',
-  description: 'A Vite plugin for .stsx files (TSX plus raw-CSS <style> blocks, scoped by placement) in React, Solid and other JSX frameworks.',
+  description: 'STSX (Styled TSX) for React, Solid and other JSX frameworks: a Vite plugin for .stsx files, TSX plus raw-CSS <style> blocks scoped by placement.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

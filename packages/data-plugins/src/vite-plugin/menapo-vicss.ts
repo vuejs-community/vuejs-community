@@ -21,12 +21,12 @@ export default defineProjectMeta({
     'zero-runtime',
   ],
   links: {
-    github: 'https://github.com/menapo/vite-plugins',
+    github: 'https://github.com/menapo/kit',
     npm: 'https://www.npmjs.com/package/@menapo/vicss',
-    website: 'https://github.com/menapo/vite-plugins/blob/main/packages/vicss/README.md',
+    website: 'https://github.com/menapo/kit/blob/main/packages/vicss/README.md',
   },
   source: {
-    github: 'menapo/vite-plugins',
+    github: 'menapo/kit',
     npm: '@menapo/vicss',
   },
 })

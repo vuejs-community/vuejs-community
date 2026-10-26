@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'tab-to-components',
-  description: 'Alt+click a React element in your dev server to open its JSX source in your editor. Dev-only Vite plugin with first-class React Router v7/v8 framework-mode (SSR) support, React 19, Vite 7 and 8. Choose your IDE inline: VS Code, Cursor, Trae, JetBrains, or',
+  description: 'Alt+click a React element in your dev server to open its JSX source in your editor or copy the file name to the clipboard. Dev-only Vite plugin with first-class React Router v6/v7/v8, TanStack Start and Remix v2 support, React 18 and 19, Vite 6-8. Choose ',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -13,8 +13,11 @@ export default defineProjectMeta({
     'vite-plugin',
     'vite-plugin-react',
     'react',
+    'react-18',
     'react-19',
     'react-router',
+    'tanstack-start',
+    'remix',
     'react-router-dom',
     'react-router-v7',
     'react-router-v8',
@@ -22,6 +25,8 @@ export default defineProjectMeta({
     'click-to-source',
     'open-in-editor',
     'open-in-ide',
+    'clipboard',
+    'copy-file-name',
     'custom-editor',
     'cursor',
     'trae',

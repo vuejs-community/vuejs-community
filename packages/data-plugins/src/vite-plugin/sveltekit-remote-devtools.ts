@@ -18,6 +18,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/mastermakrela/sveltekit-remote-devtools',
     npm: 'https://www.npmjs.com/package/sveltekit-remote-devtools',
+    website: 'https://github.com/mastermakrela/sveltekit-remote-devtools#readme',
   },
   source: {
     github: 'mastermakrela/sveltekit-remote-devtools',
