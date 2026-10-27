@@ -19,12 +19,12 @@ export default defineProjectMeta({
     'renderer',
   ],
   links: {
-    github: 'https://github.com/oddcelot/vite-plugin-lit',
+    github: 'https://github.com/oddcelot/lit-devtools',
     npm: 'https://www.npmjs.com/package/@oddsquad/vite-plugin-lit',
-    website: 'https://vite-plugin-lit.oddsquad.dev/',
+    website: 'https://lit-devtools.oddsquad.dev/',
   },
   source: {
-    github: 'oddcelot/vite-plugin-lit',
+    github: 'oddcelot/lit-devtools',
     npm: '@oddsquad/vite-plugin-lit',
   },
 })

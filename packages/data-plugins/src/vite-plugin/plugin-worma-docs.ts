@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'plugin-worma-docs',
-  description: 'Vite/Webpack plugin: generate a local OpenAPI handbook (method, path, request, response) via wormajs.',
+  description: 'Vite/Webpack OpenAPI handbook generator and read-only MCP server for API discovery and request/response schemas.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
