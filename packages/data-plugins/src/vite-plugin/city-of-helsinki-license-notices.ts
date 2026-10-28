@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@city-of-helsinki/license-notices',
-  description: 'Third-party license notices for the production build of a Vite application',
+  description: 'Third-party license notices for the production build of a Vite, Next.js, webpack or Rsbuild application',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -10,6 +10,9 @@ export default defineProjectMeta({
   ],
   tags: [
     'vite-plugin',
+    'nextjs',
+    'webpack-plugin',
+    'rsbuild-plugin',
     'license',
     'third-party-notices',
     'open-source-compliance',

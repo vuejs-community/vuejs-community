@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@vibe-visual-editor/vite-plugin',
-  description: 'Dev-only Vite plugin for Vibe Visual Editor, with React (JSX) support: maps rendered text back to the literals in your source, so the VS Code preview can edit it in place.',
+  description: 'Dev-only Vite plugin for Vibe Visual Editor, with React (JSX) and plain HTML support: maps rendered text back to the literals and page text in your source, so the VS Code preview can edit it in place.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -13,6 +13,7 @@ export default defineProjectMeta({
     'vite-plugin',
     'react',
     'jsx',
+    'html',
     'visual editor',
     'live edit',
     'vscode',
@@ -21,12 +22,12 @@ export default defineProjectMeta({
     'mcp',
   ],
   links: {
-    github: 'https://github.com/andreykats/vibe-visual-editor',
+    github: 'https://github.com/andreykats/vscode-visual-editor',
     npm: 'https://www.npmjs.com/package/@vibe-visual-editor/vite-plugin',
-    website: 'https://github.com/andreykats/vibe-visual-editor#readme',
+    website: 'https://github.com/andreykats/vscode-visual-editor#readme',
   },
   source: {
-    github: 'andreykats/vibe-visual-editor',
+    github: 'andreykats/vscode-visual-editor',
     npm: '@vibe-visual-editor/vite-plugin',
   },
 })

@@ -15,6 +15,7 @@ export default defineProjectMeta({
     'react',
     'vue',
     'angular',
+    'nextjs',
     'solid-js',
     'preact',
     'feedback',

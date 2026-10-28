@@ -3,7 +3,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 export default defineProjectMeta({
   name: 'vue-neshan-maps',
   description: 'Typed Vue 3 maps with Neshan traffic and POI using Leaflet and MapLibre',
-  icon: '',
+  icon: 'icon:neshan',
   category: 'nuxt',
   types: [
     'Charts & Maps',
