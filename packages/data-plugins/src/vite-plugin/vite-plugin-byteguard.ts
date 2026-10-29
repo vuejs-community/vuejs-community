@@ -21,12 +21,12 @@ export default defineProjectMeta({
     'electron',
   ],
   links: {
-    github: 'https://github.com/firejune/byteguard',
+    github: 'https://github.com/Blosharper/byteguard',
     npm: 'https://www.npmjs.com/package/vite-plugin-byteguard',
-    website: 'https://github.com/firejune/byteguard#readme',
+    website: 'https://github.com/Blosharper/byteguard#readme',
   },
   source: {
-    github: 'firejune/byteguard',
+    github: 'Blosharper/byteguard',
     npm: 'vite-plugin-byteguard',
   },
   stats: {

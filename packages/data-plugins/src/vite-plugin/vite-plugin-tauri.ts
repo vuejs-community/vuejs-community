@@ -9,10 +9,10 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   tags: [
-    'vite',
-    'vite-plugin',
     'tauri',
     'tauri-plugin',
+    'vite',
+    'vite-plugin',
   ],
   links: {
     github: 'https://github.com/amrbashir/vite-plugin-tauri',

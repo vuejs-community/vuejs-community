@@ -19,12 +19,12 @@ export default defineProjectMeta({
     'electron',
   ],
   links: {
-    github: 'https://github.com/firejune/headerless',
+    github: 'https://github.com/Blosharper/headerless',
     npm: 'https://www.npmjs.com/package/vite-plugin-headerless',
-    website: 'https://github.com/firejune/headerless#readme',
+    website: 'https://github.com/Blosharper/headerless#readme',
   },
   source: {
-    github: 'firejune/headerless',
+    github: 'Blosharper/headerless',
     npm: 'vite-plugin-headerless',
   },
   stats: {

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@unterberg/vite-beasties-output',
-  description: 'Post-build vite plugin that runs beasties against already generated HTML output.',
+  description: 'Post-build vite / astro plugin that runs beasties against already generated HTML output.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -12,6 +12,7 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
     'vike',
+    'astro',
     'beasties',
     'critical-css',
     'ssg',

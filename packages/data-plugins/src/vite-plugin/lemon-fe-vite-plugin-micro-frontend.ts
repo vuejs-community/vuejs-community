@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@lemon-fe/vite-plugin-micro-frontend',
-  description: 'Vite 微前端插件集合，包含路由自动生成、模块联邦、qiankun 集成等功能',
+  description: '基于 Module Federation Runtime 与 React 组件的 Vite 微前端插件集合',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -13,7 +13,7 @@ export default defineProjectMeta({
     'vite-plugin',
     'micro-frontend',
     'module-federation',
-    'qiankun',
+    'react',
     'routes',
   ],
   links: {

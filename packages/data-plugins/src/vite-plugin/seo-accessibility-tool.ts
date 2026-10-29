@@ -18,8 +18,6 @@ export default defineProjectMeta({
     'accessibility-testing',
     'devtools',
     'debugger',
-    'react',
-    'vue',
     'svelte',
     'vite',
     'vite-plugin',
@@ -29,12 +27,11 @@ export default defineProjectMeta({
     'mcp-server',
     'ai-agent',
     'ci',
-    'browser-extension',
   ],
   links: {
     github: 'https://github.com/flgisimone/SAT',
     npm: 'https://www.npmjs.com/package/seo-accessibility-tool',
-    website: 'https://flgisimone.github.io/SAT/',
+    website: 'https://github.com/flgisimone/SAT#readme',
   },
   source: {
     github: 'flgisimone/SAT',
