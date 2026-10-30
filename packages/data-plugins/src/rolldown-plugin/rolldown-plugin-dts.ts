@@ -15,6 +15,7 @@ export default defineProjectMeta({
     'vite-plugin',
     'dts',
     'typescript',
+    'tsrs',
     'vue',
     'jsdoc',
     'volar',

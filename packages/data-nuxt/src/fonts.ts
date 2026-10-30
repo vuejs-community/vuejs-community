@@ -14,7 +14,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/nuxt/fonts',
     npm: 'https://npmjs.com/package/@nuxt/fonts',
-    website: 'https://fonts.nuxt.com',
+    website: 'https://nuxt.com/modules/fonts',
   },
   source: {
     github: 'nuxt/fonts',

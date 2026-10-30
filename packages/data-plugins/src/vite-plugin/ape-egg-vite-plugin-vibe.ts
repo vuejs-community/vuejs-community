@@ -18,10 +18,12 @@ export default defineProjectMeta({
     'gallery',
   ],
   links: {
+    github: 'https://github.com/kkortes/ape-egg',
     npm: 'https://www.npmjs.com/package/@ape-egg/vite-plugin-vibe',
     website: 'https://vibe.korte.kim',
   },
   source: {
+    github: 'kkortes/ape-egg',
     npm: '@ape-egg/vite-plugin-vibe',
   },
   stats: {

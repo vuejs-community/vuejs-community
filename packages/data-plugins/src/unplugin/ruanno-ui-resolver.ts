@@ -17,7 +17,7 @@ export default defineProjectMeta({
   ],
   links: {
     npm: 'https://www.npmjs.com/package/@ruanno-ui/resolver',
-    website: 'https://gitee.com/edms/ruanno-ui',
+    website: 'https://ui.ruanno.top',
   },
   source: {
     npm: '@ruanno-ui/resolver',

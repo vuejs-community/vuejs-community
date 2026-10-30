@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@glyphcss/compile',
-  description: 'Compile 3D meshes to static glyphcss ASCII at build time — a Vite plugin, a CLI, and a Node API. Zero-runtime <pre> output for any static pipeline.',
+  description: 'Compile 3D meshes, Mermaid diagrams and data charts to text or HTML with the glyphcss CLI, Node API and Vite plugin.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -18,11 +18,14 @@ export default defineProjectMeta({
     'static',
     'ssg',
     'cli',
+    'diagram',
+    'chart',
+    'mermaid',
   ],
   links: {
     github: 'https://github.com/apresmoi/glyphcss',
     npm: 'https://www.npmjs.com/package/@glyphcss/compile',
-    website: 'https://github.com/apresmoi/glyphcss#readme',
+    website: 'https://glyphcss.com/',
   },
   source: {
     github: 'apresmoi/glyphcss',

@@ -13,11 +13,11 @@ export default defineProjectMeta({
   ],
   links: {
     github: 'https://github.com/vue-final/vue-final-modal',
-    npm: 'https://npmjs.com/package/@vue-final-modal/nuxt',
+    npm: 'https://npmjs.com/package/vue-final-modal',
     website: 'https://vue-final-modal.org/',
   },
   source: {
     github: 'vue-final/vue-final-modal',
-    npm: '@vue-final-modal/nuxt',
+    npm: 'vue-final-modal',
   },
 })

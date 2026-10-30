@@ -11,8 +11,14 @@ export default defineProjectMeta({
   tags: [
     'atomic-css',
     'css-modules',
+    'nextjs',
+    'postcss',
+    'rspack',
+    'rspack-plugin',
     'vite',
     'vite-plugin',
+    'webpack',
+    'webpack-plugin',
   ],
   links: {
     github: 'https://github.com/zslabs/atomic-css-modules',
