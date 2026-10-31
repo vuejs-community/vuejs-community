@@ -14,7 +14,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/nuxt/hints',
     npm: 'https://npmjs.com/package/@nuxt/hints',
-    website: 'https://github.com/nuxt/hints',
+    website: 'https://nuxt.com/modules/hints',
   },
   source: {
     github: 'nuxt/hints',

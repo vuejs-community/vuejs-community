@@ -14,7 +14,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/nuxt/eslint',
     npm: 'https://npmjs.com/package/@nuxt/eslint',
-    website: 'https://eslint.nuxt.com',
+    website: 'https://nuxt.com/modules/eslint',
   },
   source: {
     github: 'nuxt/eslint',

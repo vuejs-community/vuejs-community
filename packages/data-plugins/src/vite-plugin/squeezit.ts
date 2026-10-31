@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'squeezit',
-  description: 'Lossless image optimizer CLI, JS/TS API, and bundler plugins for PNG, JPEG, GIF, WebP, SVG, AVIF, HEIC, JXL, ICO, BMP, and more.',
+  description: 'Lossless image and PDF optimizer CLI, JS/TS API, and bundler plugins for PNG, JPEG, GIF, WebP, SVG, AVIF, HEIC, JXL, ICO, BMP, and more.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

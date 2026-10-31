@@ -21,12 +21,12 @@ export default defineProjectMeta({
     'mcp',
   ],
   links: {
-    github: 'https://github.com/Chandraprakash-Darji/brick',
+    github: 'https://github.com/get-brickkit/brick',
     npm: 'https://www.npmjs.com/package/@brickkit/cli',
     website: 'https://brickkit.dev',
   },
   source: {
-    github: 'Chandraprakash-Darji/brick',
+    github: 'get-brickkit/brick',
     npm: '@brickkit/cli',
   },
 })

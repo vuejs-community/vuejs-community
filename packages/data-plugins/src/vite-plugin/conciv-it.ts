@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@conciv/it',
-  description: 'Conceive it. The conciv dev agent, one install. Plugin for vite, webpack, rspack, rollup, esbuild, nextjs.',
+  description: 'Conceive it. Claude Code, living inside your running app. Plugin for vite, webpack, rspack, rollup, esbuild, nextjs.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

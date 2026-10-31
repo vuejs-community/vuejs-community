@@ -9,7 +9,6 @@ export default defineProjectMeta({
     'unplugin',
   ],
   tags: [
-    'babel',
     'compiler',
     'reactivity',
     'rollup',

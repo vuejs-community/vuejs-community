@@ -14,9 +14,12 @@ export default defineProjectMeta({
     'rollup-plugin',
   ],
   links: {
+    github: 'https://github.com/jackfranklin/rollup-plugin-markdown',
     npm: 'https://www.npmjs.com/package/@jackfranklin/rollup-plugin-markdown',
+    website: 'https://github.com/jackfranklin/rollup-plugin-markdown#readme',
   },
   source: {
+    github: 'jackfranklin/rollup-plugin-markdown',
     npm: '@jackfranklin/rollup-plugin-markdown',
   },
   stats: {

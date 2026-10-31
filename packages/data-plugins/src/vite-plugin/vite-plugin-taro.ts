@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-taro',
-  description: 'Vite 8 plugin for building one React/Taro codebase for WeChat, Alipay, TikTok, and H5 targets.',
+  description: 'Vite 8 plugin for building one React/Taro codebase for WeChat, Alipay, Taobao, TikTok, and H5 targets.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -15,6 +15,7 @@ export default defineProjectMeta({
     'taro',
     'wechat',
     'alipay',
+    'taobao',
     'tiktok',
     'mini-program',
     'react',

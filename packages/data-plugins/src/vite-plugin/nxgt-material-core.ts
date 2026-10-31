@@ -10,6 +10,7 @@ export default defineProjectMeta({
   ],
   tags: [
     'backgrounds',
+    'calculator',
     'drawing',
     'svg',
     'pdf',
