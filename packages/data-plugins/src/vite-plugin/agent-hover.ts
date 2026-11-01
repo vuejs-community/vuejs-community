@@ -20,12 +20,12 @@ export default defineProjectMeta({
     'cli',
   ],
   links: {
-    github: 'https://github.com/Arc-coder07/agent-hover',
+    github: 'https://github.com/amrnadh/agent-hover',
     npm: 'https://www.npmjs.com/package/agent-hover',
-    website: 'https://github.com/Arc-coder07/agent-hover#readme',
+    website: 'https://github.com/amrnadh/agent-hover#readme',
   },
   source: {
-    github: 'Arc-coder07/agent-hover',
+    github: 'amrnadh/agent-hover',
     npm: 'agent-hover',
   },
 })

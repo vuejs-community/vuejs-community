@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@agent-hover/vite',
-  description: 'Point at your UI, your agent understands it. Dev-only Vite plugin for React: click any element and send precise context to Claude Code, Cursor, Codex or any MCP agent.',
+  description: 'See every UI change your agent makes, right on the page. Dev-only Vite plugin for React: ask for a change on any element, track it there while Claude Code, Cursor, Codex or any MCP agent works, then compare, keep, undo or follow up.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'devtools',
   ],
   links: {
-    github: 'https://github.com/Arc-coder07/agent-hover',
+    github: 'https://github.com/amrnadh/agent-hover',
     npm: 'https://www.npmjs.com/package/@agent-hover/vite',
-    website: 'https://github.com/Arc-coder07/agent-hover#readme',
+    website: 'https://github.com/amrnadh/agent-hover#readme',
   },
   source: {
-    github: 'Arc-coder07/agent-hover',
+    github: 'amrnadh/agent-hover',
     npm: '@agent-hover/vite',
   },
 })

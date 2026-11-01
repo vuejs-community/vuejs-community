@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'znaki',
-  description: 'Typesafe SVG icons for Vite — collects the icons you actually use at build time, ships them as a sprite, and generates a union type of every icon name.',
+  description: 'Compiler-first, typesafe SVG icons for Vite and custom frameworks.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

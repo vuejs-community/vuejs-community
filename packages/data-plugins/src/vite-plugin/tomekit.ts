@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'tomekit',
-  description: 'Fully typed content collections for Markdown.',
+  description: 'Fully typed content collections for Markdown and MDX.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
