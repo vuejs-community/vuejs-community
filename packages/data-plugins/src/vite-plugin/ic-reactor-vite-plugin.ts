@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@ic-reactor/vite-plugin',
-  description: 'Vite plugin that generates candid-core modules from .did files with candid-core-cli and injects the local IC environment (ic_env cookie and /api proxy) in development',
+  description: 'Vite plugin that generates modules from .did files with @meantjs/cli and injects the local IC environment (ic_env cookie and /api proxy) in development',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

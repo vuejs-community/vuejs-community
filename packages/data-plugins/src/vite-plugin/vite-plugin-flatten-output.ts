@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-flatten-output',
-  description: 'A Vite plugin to remove specific directory paths from file outputs during build.',
+  description: 'Flatten nested HTML build output while preserving asset URLs.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-mock-data',
-  description: 'Provides a simple way to mock data.',
+  description: 'Mocks API routes on the Vite dev server from a mock directory or inline route config, and can expose file-based routes to the browser for built static pages.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

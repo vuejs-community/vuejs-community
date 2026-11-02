@@ -15,7 +15,6 @@ export default defineProjectMeta({
     'file-based-routing',
     'framework',
     'layouts',
-    'mdx',
     'meta-framework',
     'netlify',
     'nextjs',
