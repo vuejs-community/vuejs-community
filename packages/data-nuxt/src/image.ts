@@ -14,7 +14,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/nuxt/image',
     npm: 'https://npmjs.com/package/@nuxt/image',
-    website: 'https://image.nuxt.com',
+    website: 'https://nuxt.com/modules/image',
   },
   source: {
     github: 'nuxt/image',

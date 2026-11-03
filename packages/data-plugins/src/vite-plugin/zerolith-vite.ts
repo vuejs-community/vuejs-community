@@ -17,7 +17,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/molexxxx/zerolith',
     npm: 'https://www.npmjs.com/package/@zerolith/vite',
-    website: 'https://github.com/molexxxx/zerolith#readme',
+    website: 'https://zerolith.dev/',
   },
   source: {
     github: 'molexxxx/zerolith',
