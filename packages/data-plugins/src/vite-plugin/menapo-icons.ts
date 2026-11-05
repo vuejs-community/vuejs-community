@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@menapo/icons',
-  description: 'Icons as one typed call: icon("lucide:x") compiles to attributes and per-module CSS, with zero runtime JavaScript, in every framework',
+  description: 'Icons as one typed call: icon("lucide:x") compiles to its class string and per-module CSS, with zero runtime JavaScript, in every framework',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

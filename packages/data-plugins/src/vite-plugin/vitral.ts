@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vitral',
-  description: 'Micro-frontends de qualquer framework numa página só, sem configuração de build no host. React, Next, Vue, Nuxt, Angular, Svelte, Solid, Preact, Lit e JS puro.',
+  description: 'Micro-frontends com qualquer framework, sem configurar build no host. React, Next.js, Vue, Nuxt, Angular, Svelte e outros na mesma página.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -34,6 +34,10 @@ export default defineProjectMeta({
     'lit',
     'web-components',
     'typescript',
+    'micro-frontend-framework',
+    'module-federation-alternative',
+    'nextjs-multi-zones',
+    'multi-zones',
   ],
   links: {
     github: 'https://github.com/joaogabriel15/vitral',

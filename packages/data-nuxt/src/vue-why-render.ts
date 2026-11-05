@@ -14,7 +14,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/dadashi44/vue-why-render',
     npm: 'https://npmjs.com/package/vue-why-render',
-    website: 'https://dadashi44.github.io/vue-why-render/',
+    website: 'https://vue-why-render.js.org/',
   },
   source: {
     github: 'dadashi44/vue-why-render',
