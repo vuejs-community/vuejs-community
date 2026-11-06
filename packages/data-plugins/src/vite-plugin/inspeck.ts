@@ -21,7 +21,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/pulkitmittal19/inspeck-claude',
     npm: 'https://www.npmjs.com/package/inspeck',
-    website: 'https://github.com/pulkitmittal19/inspeck-claude#readme',
+    website: 'https://www.inspeck.in',
   },
   source: {
     github: 'pulkitmittal19/inspeck-claude',

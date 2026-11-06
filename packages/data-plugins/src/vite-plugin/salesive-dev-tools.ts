@@ -15,6 +15,7 @@ export default defineProjectMeta({
     'salesive-app',
     'app-bridge',
     'permissions',
+    'app-blocks',
     'configuration',
   ],
   links: {

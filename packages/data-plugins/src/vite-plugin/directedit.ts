@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'directedit',
-  description: 'Edit the copy of your running site in the browser and write it straight back to source. Vite plugin + Astro integration.',
+  description: 'Edit the copy of your running site in the browser and write it back to source. Works on localhost and on preview deploys. Vite plugin + Astro integration.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

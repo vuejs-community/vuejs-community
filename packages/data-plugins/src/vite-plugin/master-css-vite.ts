@@ -1,8 +1,8 @@
 import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
-  name: '@master/css.vite',
-  description: 'Integrate Master CSS in Vite way',
+  name: '@master/css-vite',
+  description: 'Vite plugin for Master CSS',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -13,7 +13,7 @@ export default defineProjectMeta({
     'integration',
     'vite',
     'build tools',
-    'static extraction',
+    'static rendering',
     'static',
     'runtime',
     'css runtime',
@@ -23,18 +23,11 @@ export default defineProjectMeta({
   ],
   links: {
     github: 'https://github.com/master-co/css',
-    npm: 'https://www.npmjs.com/package/@master/css.vite',
+    npm: 'https://www.npmjs.com/package/@master/css-vite',
     website: 'https://css.master.co',
   },
   source: {
     github: 'master-co/css',
-    npm: '@master/css.vite',
-  },
-  stats: {
-    stars: 1949,
-    downloads: {
-      monthly: 792,
-      weekly: 53,
-    },
+    npm: '@master/css-vite',
   },
 })

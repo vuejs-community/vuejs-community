@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'rollup-plugin-import-cdn',
-  description: 'Rollup and Vite plugin that bundles bare and URL imports from esm.sh, jsDelivr or Skypack, with tree-shaking, pinning, SRI and an offline cache',
+  description: 'Rollup, Vite and Rolldown plugin that bundles bare and URL imports from esm.sh, jsDelivr or Skypack, with tree-shaking, pinning, SRI and an offline cache',
   icon: 'logos:rollupjs',
   category: 'plugin',
   types: [
@@ -13,6 +13,8 @@ export default defineProjectMeta({
     'rollup-plugin',
     'vite',
     'vite-plugin',
+    'rolldown',
+    'rolldown-plugin',
     'plugin',
     'cdn',
     'esm',
