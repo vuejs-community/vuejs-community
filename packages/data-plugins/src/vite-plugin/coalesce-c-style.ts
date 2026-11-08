@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   links: {
-    github: 'https://github.com/twofingerrightclick/c-style',
+    github: 'https://github.com/twofingerrightclick/coalesce-c-style',
     npm: 'https://www.npmjs.com/package/coalesce-c-style',
-    website: 'https://github.com/twofingerrightclick/c-style#readme',
+    website: 'https://github.com/twofingerrightclick/coalesce-c-style#readme',
   },
   source: {
-    github: 'twofingerrightclick/c-style',
+    github: 'twofingerrightclick/coalesce-c-style',
     npm: 'coalesce-c-style',
   },
 })

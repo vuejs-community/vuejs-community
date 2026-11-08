@@ -24,7 +24,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/abetwothree/tolki',
     npm: 'https://www.npmjs.com/package/@tolki/enum',
-    website: 'https://tolki.abe.dev/enums/',
+    website: 'https://tolki.abe.dev/ts/enums.html',
   },
   source: {
     github: 'abetwothree/tolki',

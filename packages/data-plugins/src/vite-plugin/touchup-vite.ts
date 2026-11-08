@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@touchup/vite',
-  description: 'Vite plugin that stamps JSX elements with the source file and line they came from, for Touchup',
+  description: 'Vite plugin that tells Touchup where a site\'s elements and text come from: the JSX file and line they were written at, and the data file value they show',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

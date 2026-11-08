@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'auto-import',
   ],
   links: {
-    github: 'https://github.com/54356/frontend-business-kit',
+    github: 'https://github.com/socalledPF/fbkworks',
     npm: 'https://www.npmjs.com/package/@fbkworks/resolver',
-    website: 'https://github.com/54356/frontend-business-kit#readme',
+    website: 'https://github.com/socalledPF/fbkworks#readme',
   },
   source: {
-    github: '54356/frontend-business-kit',
+    github: 'socalledPF/fbkworks',
     npm: '@fbkworks/resolver',
   },
 })

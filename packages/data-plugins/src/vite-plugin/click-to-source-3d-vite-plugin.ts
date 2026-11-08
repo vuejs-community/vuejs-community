@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@click-to-source-3d/vite-plugin',
-  description: 'Inspect any object in a React Three Fiber scene: see the line that created it and edit its values. Vite plugin for Click-to-Source 3D.',
+  description: 'Click any mesh in a three.js or React Three Fiber scene to see the line of code that made it, the calls that led there, the helpers it used, and edit its values live. A Vite plugin with nothing to add to your code.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -10,12 +10,20 @@ export default defineProjectMeta({
   ],
   tags: [
     'threejs',
+    'three.js',
     'react-three-fiber',
     'r3f',
+    'webgl',
+    '3d',
     'vite',
     'vite-plugin',
     'devtools',
     'inspector',
+    'debugging',
+    'developer-tools',
+    'click-to-source',
+    'hot-reload',
+    'mcp',
   ],
   links: {
     github: 'https://github.com/pun1th01/click-to-source-3d',

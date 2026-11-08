@@ -17,7 +17,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/fiberfx/mercury',
     npm: 'https://www.npmjs.com/package/@fiberfx/vite-plugin-mhs',
-    website: 'https://github.com/fiberfx/mercury/tree/main/vite-plugin-mhs#readme',
+    website: 'https://github.com/fiberfx/mercury/tree/master/vite-plugin-mhs#readme',
   },
   source: {
     github: 'fiberfx/mercury',

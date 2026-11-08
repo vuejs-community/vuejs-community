@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'bini-env',
-  description: 'Universal environment variable loader and Vite plugin for Bini.js — powered by Hono, works across Node.js, Bun, Deno, Vercel Edge, Netlify Edge, and Cloudflare Workers',
+  description: 'Universal environment variable loader and Vite plugin for Bini.js',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

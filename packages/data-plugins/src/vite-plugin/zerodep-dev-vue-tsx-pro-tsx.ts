@@ -20,7 +20,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/kenconnet666/vue-tsx-pro',
     npm: 'https://www.npmjs.com/package/@zerodep-dev/vue-tsx-pro-tsx',
-    website: 'https://github.com/kenconnet666/vue-tsx-pro#readme',
+    website: 'https://vue-tsx-pro.zerodep.dpdns.org',
   },
   source: {
     github: 'kenconnet666/vue-tsx-pro',

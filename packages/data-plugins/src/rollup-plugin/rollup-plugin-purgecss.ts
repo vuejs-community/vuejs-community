@@ -10,6 +10,8 @@ export default defineProjectMeta({
   ],
   tags: [
     'rollup-plugin',
+    'rolldown-plugin',
+    'vite-plugin',
     'purgecss',
     'remove',
     'unused',
