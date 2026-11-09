@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'zapwebp-vite',
-  description: 'Official first-party Vite plugin for Zapwebp â€” zero-config SVG-to-WebP conversion with transparency safety and multipliers.',
+  description: 'Official first-party Vite plugin for Zapwebp - zero-config image and vector asset conversion with transparency safety, retina multipliers, and modern picture markup.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

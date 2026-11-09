@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@vizejs/unplugin',
-  description: 'Experimental Vue SFC integrations for Rollup, Rolldown, Webpack, esbuild, and Babel powered by Vize',
+  description: 'Experimental Vue SFC integrations for Rollup, Rolldown, Webpack, esbuild, Bun, and Babel powered by Vize',
   icon: 'icon:dark-unplugin',
   category: 'plugin',
   types: [
@@ -10,6 +10,7 @@ export default defineProjectMeta({
   ],
   tags: [
     'babel',
+    'bun',
     'compiler',
     'esbuild',
     'fast',

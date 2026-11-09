@@ -9,12 +9,12 @@ export default defineProjectMeta({
     'rollup-plugin',
   ],
   tags: [
-    'rollup-plugin',
-    'istanbul',
+    'coverage',
     'es2015',
     'es6',
+    'istanbul',
     'rollup',
-    'coverage',
+    'rollup-plugin',
   ],
   links: {
     github: 'https://github.com/artberri/rollup-plugin-istanbul',

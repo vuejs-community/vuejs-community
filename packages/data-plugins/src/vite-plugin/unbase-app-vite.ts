@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@unbase-app/vite',
-  description: 'Unbase in a Vite + React Router site: draft pages kept out of production builds, and comments on the live site with ?comment.',
+  description: 'Unbase in a Vite + React Router site: draft pages kept out of production builds, comments on the live site with ?comment, and Unbase\'s cookieless analytics.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -15,6 +15,7 @@ export default defineProjectMeta({
     'react-router',
     'drafts',
     'comments',
+    'analytics',
     'unbase',
   ],
   links: {

@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'schemas',
   ],
   links: {
-    github: 'https://github.com/modelschemas/modelschemas',
+    github: 'https://github.com/TanStack/modelschemas',
     npm: 'https://www.npmjs.com/package/@modelschemas/vite',
     website: 'https://modelschemas.com',
   },
   source: {
-    github: 'modelschemas/modelschemas',
+    github: 'TanStack/modelschemas',
     npm: '@modelschemas/vite',
   },
   stats: {

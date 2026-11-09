@@ -16,6 +16,7 @@ export default defineProjectMeta({
     'app-bridge',
     'permissions',
     'app-blocks',
+    'events',
     'configuration',
   ],
   links: {
