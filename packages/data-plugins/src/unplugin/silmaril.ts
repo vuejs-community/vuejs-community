@@ -18,7 +18,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/lxsmnsyc/silmaril',
     npm: 'https://www.npmjs.com/package/silmaril',
-    website: 'https://github.com/lxsmnsyc/silmaril/tree/main/packages/silmaril',
+    website: 'https://silmaril-docs.vercel.app/',
   },
   source: {
     github: 'lxsmnsyc/silmaril',

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@unbase-app/pages',
-  description: 'Keeps draft pages out of a site\'s production build: an Astro integration and a Vite plugin, for Unbase.',
+  description: 'Keeps draft pages out of a site\'s production build and applies the redirects a moved page leaves: an Astro integration and a Vite plugin, for Unbase.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -14,6 +14,7 @@ export default defineProjectMeta({
     'vite-plugin',
     'react-router',
     'drafts',
+    'redirects',
     'unbase',
   ],
   links: {

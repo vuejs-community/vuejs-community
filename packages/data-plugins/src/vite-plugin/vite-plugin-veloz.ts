@@ -19,7 +19,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/juliocarneiro/veloz',
     npm: 'https://www.npmjs.com/package/vite-plugin-veloz',
-    website: 'https://github.com/juliocarneiro/veloz#readme',
+    website: 'https://veloz-site.vercel.app',
   },
   source: {
     github: 'juliocarneiro/veloz',
