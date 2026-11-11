@@ -16,9 +16,12 @@ export default defineProjectMeta({
     'collector',
   ],
   links: {
+    github: 'https://github.com/chrom-ar/collector-js',
     npm: 'https://www.npmjs.com/package/@chrom-ar/collector-cli',
+    website: 'https://github.com/chrom-ar/collector-js#readme',
   },
   source: {
+    github: 'chrom-ar/collector-js',
     npm: '@chrom-ar/collector-cli',
   },
 })

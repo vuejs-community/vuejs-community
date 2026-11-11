@@ -2,15 +2,14 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@plinthjs/vite-plugin',
-  description: 'Mason Vite plugin: the laravel-vite-plugin equivalent: input entries, build manifest, dev hot file, and full-reload refresh. Pairs with @plinthjs/vite.',
+  description: 'Plinth Vite plugin: input entries, build manifest, dev hot file, and full reload.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
     'vite-plugin',
   ],
   tags: [
-    'mason',
-    'laravel',
+    'plinth',
     'framework',
     'typescript',
     'vite-plugin',

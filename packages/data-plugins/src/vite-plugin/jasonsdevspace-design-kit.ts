@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@jasonsdevspace/design-kit',
-  description: 'Design tokens, base styles, a theme script, page chrome, buttons, fields, callouts and an explainer layout for the demos on jasonsdevspace.com.',
+  description: 'Design tokens, base styles, a theme script, page chrome, buttons, fields, callouts, tabs, pills, a theme switch, a copy button and an explainer layout for the demos on jasonsdevspace.com.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@visulima/vite-overlay',
-  description: 'Improved vite overlay',
+  description: 'Improved Vite error overlay that shows readable, source-mapped errors in the browser for React, Vue and Svelte.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

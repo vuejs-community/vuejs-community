@@ -20,7 +20,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/sebastian-software/ferrolink',
     npm: 'https://www.npmjs.com/package/ferrolink',
-    website: 'https://github.com/sebastian-software/ferrolink/tree/main/node#readme',
+    website: 'https://sebastian-software.github.io/ferrolink/',
   },
   source: {
     github: 'sebastian-software/ferrolink',

@@ -23,7 +23,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/JoviDeCroock/pracht',
     npm: 'https://www.npmjs.com/package/@pracht/vite-plugin',
-    website: 'https://github.com/JoviDeCroock/pracht/tree/main/packages/vite-plugin',
+    website: 'https://pracht.resynapse.dev/docs/reference/config',
   },
   source: {
     github: 'JoviDeCroock/pracht',

@@ -21,7 +21,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/znight-org/znight',
     npm: 'https://www.npmjs.com/package/@znight/compiler',
-    website: 'https://github.com/znight-org/znight/tree/main/packages/compiler#readme',
+    website: 'https://znight-org.github.io/znight/packages/compiler',
   },
   source: {
     github: 'znight-org/znight',
