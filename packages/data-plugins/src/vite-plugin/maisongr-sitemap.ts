@@ -26,18 +26,20 @@ export default defineProjectMeta({
     'xslt',
     'xml-sitemap',
     'sitemap-generator',
+    'astro-integration',
+    'nuxt-module',
     'vite-plugin',
     'llms-txt',
     'mcp',
     'agent-skill',
   ],
   links: {
-    github: 'https://github.com/maison-gr/sitemap',
+    github: 'https://github.com/maison-gr/maisongr-sitemap',
     npm: 'https://www.npmjs.com/package/maisongr-sitemap',
-    website: 'https://github.com/maison-gr/sitemap#readme',
+    website: 'https://github.com/maison-gr/maisongr-sitemap#readme',
   },
   source: {
-    github: 'maison-gr/sitemap',
+    github: 'maison-gr/maisongr-sitemap',
     npm: 'maisongr-sitemap',
   },
 })

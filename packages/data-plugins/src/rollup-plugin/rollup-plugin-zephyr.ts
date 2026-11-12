@@ -12,7 +12,6 @@ export default defineProjectMeta({
     'deploy',
     'rollup',
     'rollup-plugin',
-    'tanstack-intent',
     'zephyr',
   ],
   links: {

@@ -23,7 +23,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/gtanczyk/genaicode',
     npm: 'https://www.npmjs.com/package/genaicode',
-    website: 'https://github.com/gtanczyk/genaicode#readme',
+    website: 'https://grzegorz.tanczyk.pl/genaicode/',
   },
   source: {
     github: 'gtanczyk/genaicode',

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@onoxm/auto-router-preset-react',
-  description: 'a vite plugin for automatically generating react or vue route files',
+  description: 'Typed routes for React Router, generated from your file-based routes by @onoxm/vite-plugin-auto-router',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -11,13 +11,12 @@ export default defineProjectMeta({
   tags: [
     'auto-router',
     'file-based-routing',
-    'plugin',
     'react',
     'react-router',
+    'typed-routes',
+    'typescript',
     'vite',
     'vite-plugin',
-    'vue',
-    'vue-router',
   ],
   links: {
     npm: 'https://www.npmjs.com/package/@onoxm/auto-router-preset-react',

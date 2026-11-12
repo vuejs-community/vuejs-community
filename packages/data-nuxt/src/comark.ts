@@ -13,11 +13,11 @@ export default defineProjectMeta({
   ],
   links: {
     github: 'https://github.com/comarkdown/comark',
-    npm: 'https://npmjs.com/package/@comark/nuxt',
+    npm: 'https://npmjs.com/package/@comark/vue',
     website: 'https://comark.dev/',
   },
   source: {
     github: 'comarkdown/comark',
-    npm: '@comark/nuxt',
+    npm: '@comark/vue',
   },
 })

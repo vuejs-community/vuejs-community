@@ -13,11 +13,11 @@ export default defineProjectMeta({
   ],
   links: {
     github: 'https://github.com/favorodera/notform',
-    npm: 'https://npmjs.com/package/notform-nuxt',
-    website: 'https://notformdocs.vercel.app',
+    npm: 'https://npmjs.com/package/@notform/nuxt',
+    website: 'https://notform.favorodera.dev/',
   },
   source: {
     github: 'favorodera/notform',
-    npm: 'notform-nuxt',
+    npm: '@notform/nuxt',
   },
 })

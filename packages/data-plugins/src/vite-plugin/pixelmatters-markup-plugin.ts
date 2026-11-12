@@ -17,6 +17,7 @@ export default defineProjectMeta({
     'react',
     'rspack',
     'rspack-plugin',
+    'tanstack-intent',
     'turbopack',
     'unplugin',
     'vite',

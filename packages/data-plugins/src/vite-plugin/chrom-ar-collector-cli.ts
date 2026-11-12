@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@chrom-ar/collector-cli',
-  description: 'Uploads your build\'s source maps to Collector. CLI and Vite plugin.',
+  description: 'Manage Collector from the terminal (issues, projects, setup) and upload source maps. CLI and Vite plugin.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -14,6 +14,8 @@ export default defineProjectMeta({
     'error-tracking',
     'vite-plugin',
     'collector',
+    'cli',
+    'issues',
   ],
   links: {
     github: 'https://github.com/chrom-ar/collector-js',

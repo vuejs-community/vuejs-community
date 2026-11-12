@@ -11,7 +11,6 @@ export default defineProjectMeta({
   tags: [
     'deploy',
     'module-federation',
-    'tanstack-intent',
     'vite',
     'vite-plugin',
     'zephyr',

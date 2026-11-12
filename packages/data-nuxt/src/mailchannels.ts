@@ -12,12 +12,12 @@ export default defineProjectMeta({
     '3rd-party',
   ],
   links: {
-    github: 'https://github.com/yizack/nuxt-mailchannels',
+    github: 'https://github.com/mailchannels/nuxt-mailchannels',
     npm: 'https://npmjs.com/package/nuxt-mailchannels',
-    website: 'https://github.com/Yizack/nuxt-mailchannels',
+    website: 'https://github.com/mailchannels/nuxt-mailchannels',
   },
   source: {
-    github: 'yizack/nuxt-mailchannels',
+    github: 'mailchannels/nuxt-mailchannels',
     npm: 'nuxt-mailchannels',
   },
 })
