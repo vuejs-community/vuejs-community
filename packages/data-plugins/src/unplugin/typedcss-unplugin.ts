@@ -24,7 +24,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/zss-labs/typedcss',
     npm: 'https://www.npmjs.com/package/@typedcss/unplugin',
-    website: 'https://github.com/zss-labs/typedcss/tree/main/packages/css',
+    website: 'https://typedcss.dev',
   },
   source: {
     github: 'zss-labs/typedcss',

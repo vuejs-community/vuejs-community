@@ -19,12 +19,12 @@ export default defineProjectMeta({
     'hmr',
   ],
   links: {
-    github: 'https://github.com/ir-kit/ir-kit',
+    github: 'https://github.com/ahmedrowaihi/ir-kit',
     npm: 'https://www.npmjs.com/package/@ir-kit/fn-schema-unplugin',
-    website: 'https://github.com/ir-kit/ir-kit/tree/main/packages/fn-schema/unplugin',
+    website: 'https://github.com/ahmedrowaihi/ir-kit/tree/main/packages/fn-schema/unplugin',
   },
   source: {
-    github: 'ir-kit/ir-kit',
+    github: 'ahmedrowaihi/ir-kit',
     npm: '@ir-kit/fn-schema-unplugin',
   },
   stats: {

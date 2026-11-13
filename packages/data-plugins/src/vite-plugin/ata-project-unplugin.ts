@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@ata-project/unplugin',
-  description: 'Build-time JSON Schema for Vite, Webpack, Rollup, Rolldown, esbuild and Rspack. compileAway takes the runtime compiler out of the bundle.',
+  description: 'Build-time JSON Schema for Vite, Webpack, Rollup, Rolldown, esbuild, Rspack and Bun: compileAway takes the runtime compiler out of the bundle, and zod, valibot and TypeBox modules are compiled at build time.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
