@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-geo',
-  description: 'Vite plugin to generate sitemap.xml, llms.txt, robots.txt, and optional GEO companion files.',
+  description: 'Vite, Vite+, and Astro plugin to generate sitemap.xml, llms.txt, robots.txt, and optional GEO companion files.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -11,6 +11,8 @@ export default defineProjectMeta({
   tags: [
     'vite',
     'vite-plugin',
+    'vite-plus',
+    'viteplus',
     'geo',
     'seo',
     'sitemap',

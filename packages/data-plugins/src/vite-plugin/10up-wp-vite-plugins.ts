@@ -17,12 +17,12 @@ export default defineProjectMeta({
     '10up',
   ],
   links: {
-    github: 'https://github.com/10up/wp-vite-plugins',
+    github: 'https://github.com/10up/wp-tooling',
     npm: 'https://www.npmjs.com/package/@10up/wp-vite-plugins',
-    website: 'https://github.com/10up/wp-vite-plugins#readme',
+    website: 'https://github.com/10up/wp-tooling/tree/trunk/packages/wp-vite-plugins#readme',
   },
   source: {
-    github: '10up/wp-vite-plugins',
+    github: '10up/wp-tooling',
     npm: '@10up/wp-vite-plugins',
   },
   stats: {

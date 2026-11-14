@@ -9,10 +9,10 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   tags: [
-    'vite-plugin',
-    'react',
     'devtools',
+    'react',
     'react-layout',
+    'vite-plugin',
   ],
   links: {
     github: 'https://github.com/jfdevelops/react-layout',

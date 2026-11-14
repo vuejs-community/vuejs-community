@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@hakubase/cli',
-  description: 'Link, type, develop and deploy Hakubase code sites; Vite and Astro plugins for development with real data.',
+  description: 'Link, type, develop and deploy Hakubase code sites; Vite, Astro and Next.js helpers for development with real data.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

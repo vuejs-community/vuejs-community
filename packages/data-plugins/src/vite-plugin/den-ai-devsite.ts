@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@den-ai/devsite',
-  description: 'Port-less dev URLs: one stable https://<name>.internal per project, with self-registered Caddy routes and phone access over Tailscale.',
+  description: 'Port-less dev URLs: one stable https://<name>.internal and https://<name>.localhost per project, with self-registered Caddy routes and phone access over Tailscale.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
