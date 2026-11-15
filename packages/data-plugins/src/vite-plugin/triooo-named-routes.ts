@@ -29,9 +29,12 @@ export default defineProjectMeta({
     'triooo',
   ],
   links: {
+    github: 'https://github.com/trbros/named-routes',
     npm: 'https://www.npmjs.com/package/@triooo/named-routes',
+    website: 'https://github.com/trbros/named-routes#readme',
   },
   source: {
+    github: 'trbros/named-routes',
     npm: '@triooo/named-routes',
   },
 })
