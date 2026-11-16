@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'auditor',
   ],
   links: {
-    github: 'https://github.com/samrey-framework/samrey',
+    github: 'https://github.com/vis6ky/Samrey',
     npm: 'https://www.npmjs.com/package/@samrey/cli',
-    website: 'https://samrey.dev',
+    website: 'https://github.com/vis6ky/Samrey#readme',
   },
   source: {
-    github: 'samrey-framework/samrey',
+    github: 'vis6ky/Samrey',
     npm: '@samrey/cli',
   },
   stats: {

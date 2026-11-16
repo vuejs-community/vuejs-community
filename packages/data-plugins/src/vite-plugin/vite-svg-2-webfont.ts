@@ -18,7 +18,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/atlowChemi/vite-svg-2-webfont',
     npm: 'https://www.npmjs.com/package/vite-svg-2-webfont',
-    website: 'https://atlowChemi.github.io/vite-svg-2-webfont/',
+    website: 'https://fonte.atlow.dev/vite/',
   },
   source: {
     github: 'atlowChemi/vite-svg-2-webfont',

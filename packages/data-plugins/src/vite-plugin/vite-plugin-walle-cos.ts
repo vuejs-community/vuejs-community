@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-walle-cos',
-  description: 'Upload the production files bundled in the project to Tencent COS, except for html',
+  description: 'Upload Vite or Webpack production assets to Tencent COS',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -10,6 +10,7 @@ export default defineProjectMeta({
   ],
   tags: [
     'vite-plugin',
+    'webpack-plugin',
     'walle-cos',
     'tencent',
   ],

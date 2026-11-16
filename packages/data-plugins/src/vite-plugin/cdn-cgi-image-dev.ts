@@ -20,7 +20,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/TigersWay/cdn-cgi-image-dev',
     npm: 'https://www.npmjs.com/package/cdn-cgi-image-dev',
-    website: 'https://github.com/TigersWay/cdn-cgi-image-dev/packages/cdn-cgi-image-dev/#readme',
+    website: 'https://github.com/TigersWay/cdn-cgi-image-dev/tree/main/packages/cdn-cgi-image-dev',
   },
   source: {
     github: 'TigersWay/cdn-cgi-image-dev',

@@ -19,7 +19,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/comp-markdown/compmd',
     npm: 'https://www.npmjs.com/package/@compmd/vite',
-    website: 'https://compmd.hakanserce.com/',
+    website: 'https://compmd.dev/',
   },
   source: {
     github: 'comp-markdown/compmd',
