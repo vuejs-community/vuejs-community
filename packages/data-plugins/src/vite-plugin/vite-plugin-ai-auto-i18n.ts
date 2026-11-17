@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-ai-auto-i18n',
-  description: 'Implicit, build-time AI localization for JSX applications',
+  description: 'Build-time AI localization for strings marked with t() in Vite applications',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -11,7 +11,6 @@ export default defineProjectMeta({
   tags: [
     'ai',
     'i18n',
-    'jsx',
     'localization',
     'react',
     'translation',

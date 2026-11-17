@@ -22,7 +22,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/tyfoster/swatch',
     npm: 'https://www.npmjs.com/package/swatch-token',
-    website: 'https://github.com/tyfoster/swatch#readme',
+    website: 'https://swatchtoken.com',
   },
   source: {
     github: 'tyfoster/swatch',

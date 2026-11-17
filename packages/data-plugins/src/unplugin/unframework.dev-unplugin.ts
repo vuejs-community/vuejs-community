@@ -20,7 +20,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/uxfront-com/unframework',
     npm: 'https://www.npmjs.com/package/@unframework.dev/unplugin',
-    website: 'https://github.com/uxfront-com/unframework/tree/main/packages/unplugin#readme',
+    website: 'https://unframework.dev',
   },
   source: {
     github: 'uxfront-com/unframework',

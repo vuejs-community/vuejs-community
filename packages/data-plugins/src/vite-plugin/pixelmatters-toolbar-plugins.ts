@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@pixelmatters/toolbar-plugins',
-  description: 'Built-in plugins for @pixelmatters/toolbar: Layout Shifts, Interaction Timing, an Accessibility Audit and the design QA Inspector, with a Vite plugin that hands the Inspector your design tokens. One subpath per plugin.',
+  description: 'Built-in plugins for @pixelmatters/toolbar: Layout Shifts, Interaction Timing, Runtime Errors, an Accessibility Audit, the design QA Inspector, PII Guard and Preview Identity, with Vite plugins for the build data they read. One subpath per plugin.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -14,6 +14,7 @@ export default defineProjectMeta({
     'cls',
     'design-qa',
     'devtools',
+    'errors',
     'inp',
     'inspector',
     'layout-shift',

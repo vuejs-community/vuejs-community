@@ -15,6 +15,8 @@ export default defineProjectMeta({
     'nextjs',
     'pixelmatters',
     'react',
+    'rsbuild',
+    'rsbuild-plugin',
     'rspack',
     'rspack-plugin',
     'tanstack-intent',
