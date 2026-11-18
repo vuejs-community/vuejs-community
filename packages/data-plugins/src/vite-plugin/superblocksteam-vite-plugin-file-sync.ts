@@ -12,9 +12,12 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   links: {
+    github: 'https://github.com/superblocksteam/superblocks',
     npm: 'https://www.npmjs.com/package/@superblocksteam/vite-plugin-file-sync',
+    website: 'https://github.com/superblocksteam/superblocks#readme',
   },
   source: {
+    github: 'superblocksteam/superblocks',
     npm: '@superblocksteam/vite-plugin-file-sync',
   },
   stats: {

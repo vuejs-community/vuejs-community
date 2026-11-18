@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@multiplatform.one/vite-plugin-gnome',
-  description: 'Vite plugin that makes Tamagui render under react-gnome (GTK4/GJS) — bundle patches for @tamagui/core\'s native lazy-init chains, the sheet/portal native builds, the hover/animation gates, plus the Tamagui-specific resolver aliases. Pairs with @react-gnome',
+  description: 'Vite plugin that makes Tamagui render under react-gnome (GTK4/GJS) — bundle patches for @tamagui/core\'s native lazy-init chains, the sheet/portal native builds, the hover gates, plus the Tamagui-specific resolver aliases. Pairs with @react-gnome/vite-plug',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

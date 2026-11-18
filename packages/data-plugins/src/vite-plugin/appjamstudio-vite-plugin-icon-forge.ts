@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@appjamstudio/vite-plugin-icon-forge',
-  description: 'A Vite plugin that automatically transforms SVG files into React components with TypeScript support, allowing easy import and use of SVG icons in your React applications',
+  description: 'A Vite plugin that automatically transforms SVG files into React components with TypeScript support, allowing easy import and use of SVG icons in your React applications.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
