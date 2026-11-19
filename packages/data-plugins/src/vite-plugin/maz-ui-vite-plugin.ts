@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@maz-ui/vite-plugin',
-  description: 'Vite plugins for Maz-UI: purge the CSS of the components and utilities your app does not use',
+  description: 'Vite plugins for Maz-UI: icons by name, purge of the CSS of the components and utilities your app does not use, and only the theme presets it loads',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -12,6 +12,8 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
     'maz-ui',
+    'icons',
+    'svg',
     'purge',
     'css',
     'tree-shaking',

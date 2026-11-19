@@ -18,7 +18,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/RaananW/underglass',
     npm: 'https://www.npmjs.com/package/@underglass/css-compiler',
-    website: 'https://github.com/RaananW/underglass/tree/main/packages/css-compiler#readme',
+    website: 'https://underglass.dev',
   },
   source: {
     github: 'RaananW/underglass',

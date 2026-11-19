@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@cohorly/cli',
-  description: 'Cohorly command line and build plugins: inject debug ids, upload source map indexes, R8 mappings and dSYM symcaches so Cohorly can symbolicate errors. Includes Vite, Next.js and Expo (React Native) plugins.',
+  description: 'Cohorly command line and build plugins: inject debug ids, upload source map indexes, R8 mappings and dSYM symcaches so Cohorly can symbolicate errors. Includes Vite, Next.js and Expo (React Native) plugins, and imports Mixpanel event history.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -26,6 +26,8 @@ export default defineProjectMeta({
     'vite-plugin',
     'nextjs',
     'cli',
+    'mixpanel',
+    'import',
   ],
   links: {
     github: 'https://github.com/Gitarcitano/cohorly-js',

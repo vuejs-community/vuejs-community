@@ -20,12 +20,12 @@ export default defineProjectMeta({
     'nuxt-module',
   ],
   links: {
-    github: 'https://github.com/AndrewBogdanovTSS/mask-icons',
+    github: 'https://github.com/AndrewBogdanovTSS/svg-mask-icons',
     npm: 'https://www.npmjs.com/package/svg-mask-icons',
-    website: 'https://github.com/AndrewBogdanovTSS/mask-icons#readme',
+    website: 'https://github.com/AndrewBogdanovTSS/svg-mask-icons#readme',
   },
   source: {
-    github: 'AndrewBogdanovTSS/mask-icons',
+    github: 'AndrewBogdanovTSS/svg-mask-icons',
     npm: 'svg-mask-icons',
   },
 })
