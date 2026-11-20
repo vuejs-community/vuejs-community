@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   links: {
-    github: 'https://github.com/anilkumarthakur60/js-framework',
+    github: 'https://github.com/anilkumarthakur60/plinthjs',
     npm: 'https://www.npmjs.com/package/@plinthjs/vite-plugin',
-    website: 'https://github.com/anilkumarthakur60/js-framework/tree/main/packages/vite-plugin#readme',
+    website: 'https://github.com/anilkumarthakur60/plinthjs/tree/main/packages/vite-plugin#readme',
   },
   source: {
-    github: 'anilkumarthakur60/js-framework',
+    github: 'anilkumarthakur60/plinthjs',
     npm: '@plinthjs/vite-plugin',
   },
 })

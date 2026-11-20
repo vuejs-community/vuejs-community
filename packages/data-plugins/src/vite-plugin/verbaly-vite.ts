@@ -16,7 +16,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/AronSoto/verbaly',
     npm: 'https://www.npmjs.com/package/@verbaly/vite',
-    website: 'https://verbaly-web.vercel.app/docs/frameworks/vite',
+    website: 'https://verbaly.dev/docs/frameworks/vite',
   },
   source: {
     github: 'AronSoto/verbaly',

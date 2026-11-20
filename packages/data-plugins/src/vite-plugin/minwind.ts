@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'minwind',
-  description: 'Build-time CSS name compression for Tailwind and CSS Modules: renames and consolidates classes across JS/TS, SFC, HTML, and CSS, with optional custom-property aliases. Vite and webpack/rspack plugins plus a post-build CLI.',
+  description: 'Build-time CSS name compression for Tailwind and CSS Modules: renames and consolidates classes across JS/TS, SFC, HTML, and CSS, with optional custom-property aliases. Vite and webpack/rspack plugins, an Astro integration, and a post-build CLI.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -19,6 +19,7 @@ export default defineProjectMeta({
     'vite-plugin',
     'css',
     'css-modules',
+    'astro',
   ],
   links: {
     github: 'https://github.com/jonkwheeler/minwind',

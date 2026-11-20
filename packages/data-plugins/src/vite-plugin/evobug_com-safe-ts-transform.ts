@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@evobug_com/safe-ts-transform',
-  description: 'SAFE-TS build-time transform: a Vite/Rolldown/Rollup plugin and a Node loader that rewrite q(), match(), parseJson<T>(), loops and @inline, and run the SAFE-TS checks.',
+  description: 'SAFE-TS build-time transform: a Vite/Rolldown/Rollup plugin, a Node loader and a Bun plugin that rewrite q(), match(), parseJson<T>(), loops and @inline, and run the SAFE-TS checks.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -16,6 +16,7 @@ export default defineProjectMeta({
     'rollup-plugin',
     'rolldown',
     'node-loader',
+    'bun-plugin',
     'transform',
     'result',
     'pattern-matching',

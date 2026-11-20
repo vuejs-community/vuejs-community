@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-view',
-  description: 'Dynamically render pages using custom template engines instead of the static `index.html` entry file.',
+  description: 'Dynamically render pages using custom template engines instead of the static `.html` entry file.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
