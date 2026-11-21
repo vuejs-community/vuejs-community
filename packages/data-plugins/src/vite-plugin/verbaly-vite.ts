@@ -14,12 +14,12 @@ export default defineProjectMeta({
     'verbaly',
   ],
   links: {
-    github: 'https://github.com/AronSoto/verbaly',
+    github: 'https://github.com/verbaly-i18n/verbaly',
     npm: 'https://www.npmjs.com/package/@verbaly/vite',
     website: 'https://verbaly.dev/docs/frameworks/vite',
   },
   source: {
-    github: 'AronSoto/verbaly',
+    github: 'verbaly-i18n/verbaly',
     npm: '@verbaly/vite',
   },
   stats: {

@@ -26,7 +26,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/forinda/clarusjs',
     npm: 'https://www.npmjs.com/package/clarusjs',
-    website: 'https://github.com/forinda/clarusjs#readme',
+    website: 'https://clarusjs.com',
   },
   source: {
     github: 'forinda/clarusjs',

@@ -10,9 +10,12 @@ export default defineProjectMeta({
   ],
   tags: [
     'ai-agent',
+    'astro',
     'claude-code',
     'design-review',
     'mcp',
+    'opencode',
+    'opencode-plugin',
     'react',
     'ui',
     'vite',

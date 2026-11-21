@@ -14,9 +14,12 @@ export default defineProjectMeta({
     'splash-screen',
   ],
   links: {
+    github: 'https://github.com/Temzasse/vite-plugin-splash-screen',
     npm: 'https://www.npmjs.com/package/vite-plugin-splash-screen',
+    website: 'https://temzasse.github.io/vite-plugin-splash-screen/',
   },
   source: {
+    github: 'Temzasse/vite-plugin-splash-screen',
     npm: 'vite-plugin-splash-screen',
   },
   stats: {

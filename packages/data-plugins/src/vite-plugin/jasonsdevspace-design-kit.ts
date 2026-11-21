@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@jasonsdevspace/design-kit',
-  description: 'Design tokens, also in the Design Tokens Community Group format, base styles, a theme script, and the pieces of the demos on jasonsdevspace.com: page chrome and a site header, a content page, bands and a group of sections for a landing page, an explainer,',
+  description: 'Design tokens, light and dark themes, and CSS components, with plain JavaScript functions or React hooks that make them work, from the demos on jasonsdevspace.com. Built to work by keyboard, screen reader and forced colors, with no flash of the wrong them',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -18,6 +18,9 @@ export default defineProjectMeta({
     'theme',
     'vite-plugin',
     'react',
+    'react-hooks',
+    'accessibility',
+    'wcag',
   ],
   links: {
     github: 'https://github.com/jasonsdevspace/design-kit',
