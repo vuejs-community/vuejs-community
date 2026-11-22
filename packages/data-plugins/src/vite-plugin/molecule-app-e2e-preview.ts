@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@molecule/app-e2e-preview',
-  description: 'E2E bond that drives the LIVE IDE preview as a Playwright-shaped page — the page the person is already looking at, in their own browser — over a same-origin WebSocket through the dev server. Fails fast, naming the alternative, when no tab is attached.',
+  description: 'Drives the live IDE preview page as a Playwright-shaped page over a same-origin WebSocket through the dev server — no browser binary in the sandbox',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

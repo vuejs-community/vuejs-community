@@ -10,6 +10,8 @@ export default defineProjectMeta({
   ],
   tags: [
     'vite-plugin',
+    'rollup-plugin',
+    'rolldown-plugin',
     'vite',
     'google-apps-script',
     'gas',

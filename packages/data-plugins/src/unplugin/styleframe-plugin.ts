@@ -20,12 +20,12 @@ export default defineProjectMeta({
     'transform',
   ],
   links: {
-    github: 'https://github.com/styleframe-dev/styleframe',
+    github: 'https://github.com/uxfront-com/styleframe',
     npm: 'https://www.npmjs.com/package/@styleframe/plugin',
-    website: 'https://github.com/styleframe-dev/styleframe#readme',
+    website: 'https://styleframe.dev',
   },
   source: {
-    github: 'styleframe-dev/styleframe',
+    github: 'uxfront-com/styleframe',
     npm: '@styleframe/plugin',
   },
   stats: {
