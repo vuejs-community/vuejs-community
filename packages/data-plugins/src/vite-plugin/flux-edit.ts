@@ -24,7 +24,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/Dinesh2112/flux-edit',
     npm: 'https://www.npmjs.com/package/flux-edit',
-    website: 'https://github.com/Dinesh2112/flux-edit#readme',
+    website: 'https://flux-edit.vercel.app/',
   },
   source: {
     github: 'Dinesh2112/flux-edit',

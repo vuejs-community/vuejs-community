@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'bugwatch-cli',
-  description: 'Upload source maps to Bugwatch from CI (CLI and Vite plugin)',
+  description: 'Set up Bugwatch in your app and upload source maps from CI (CLI and Vite plugin)',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

@@ -1,0 +1,48 @@
+import { defineProjectMeta } from '@vuejs-community/schema'
+
+export default defineProjectMeta({
+  name: 'zod-config',
+  description: 'Load configuration variables from multiple sources with flexible adapters, ensuring type safety with Zod.',
+  icon: 'logos:vite-icon',
+  category: 'plugin',
+  types: [
+    'vite-plugin',
+  ],
+  tags: [
+    'zod',
+    'config',
+    'env',
+    'json',
+    'json5',
+    'yaml',
+    'toml',
+    'dotenv',
+    'typescript',
+    'nextjs',
+    'vite',
+    'vite-plugin',
+    'astro',
+    'tanstack-start',
+    'environment-variables',
+    'secrets',
+    'adapters',
+    'typesafe',
+    'aws',
+    'secrets-manager',
+    'ssm',
+    'parameter-store',
+    'env-validation',
+    'type-safe',
+    'validation',
+    'runtime-config',
+  ],
+  links: {
+    github: 'https://github.com/alexmarqs/zod-config',
+    npm: 'https://www.npmjs.com/package/zod-config',
+    website: 'https://github.com/alexmarqs/zod-config#readme',
+  },
+  source: {
+    github: 'alexmarqs/zod-config',
+    npm: 'zod-config',
+  },
+})
