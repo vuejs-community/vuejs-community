@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'genaicode',
-  description: 'Drive the coding-agent CLIs you already have (Claude Code, Codex, Copilot, Cursor, Gemini, opencode...) behind one API and one CLI, plus a thin provider-neutral LLM layer.',
+  description: 'Run your coding agents together: Claude Code, Codex, Antigravity and six more, on the logins you already have. A desktop app, a CLI with terminal and browser chat, and a TypeScript API.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

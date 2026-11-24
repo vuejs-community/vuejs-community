@@ -17,12 +17,12 @@ export default defineProjectMeta({
     'component-model',
   ],
   links: {
-    github: 'https://github.com/Game4Freak/vite-wasm',
+    github: 'https://github.com/levyercom/vite-wasm',
     npm: 'https://www.npmjs.com/package/@levyer/vite-wasm',
-    website: 'https://github.com/Game4Freak/vite-wasm#readme',
+    website: 'https://github.com/levyercom/vite-wasm#readme',
   },
   source: {
-    github: 'Game4Freak/vite-wasm',
+    github: 'levyercom/vite-wasm',
     npm: '@levyer/vite-wasm',
   },
 })

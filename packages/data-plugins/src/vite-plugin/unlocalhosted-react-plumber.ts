@@ -29,7 +29,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/unlocalhosted/plumb',
     npm: 'https://www.npmjs.com/package/@unlocalhosted/react-plumber',
-    website: 'https://github.com/unlocalhosted/plumb#readme',
+    website: 'https://react-plumber.com',
   },
   source: {
     github: 'unlocalhosted/plumb',

@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@dk949/site-theme',
-  description: 'Silicon + Copper design tokens and favicon shared by david-katz.dev and its business card',
+  description: 'Silicon + Copper design tokens and icons shared by david-katz.dev and its business card',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
