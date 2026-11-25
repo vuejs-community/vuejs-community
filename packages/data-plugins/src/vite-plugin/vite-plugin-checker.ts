@@ -12,6 +12,7 @@ export default defineProjectMeta({
     'vite',
     'vite-plugin',
     'typescript',
+    'sv-add',
   ],
   links: {
     github: 'https://github.com/fi3ework/vite-plugin-checker',

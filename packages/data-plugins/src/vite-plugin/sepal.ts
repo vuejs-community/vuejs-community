@@ -17,7 +17,6 @@ export default defineProjectMeta({
     'gui',
     'vite',
     'vite-plugin',
-    'router',
     'svelte-blitz',
   ],
   links: {

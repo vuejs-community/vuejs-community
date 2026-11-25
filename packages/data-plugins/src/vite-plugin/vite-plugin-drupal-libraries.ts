@@ -1,7 +1,7 @@
 import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
-  name: '@vite-plugin-drupal/libraries',
+  name: 'vite-plugin-drupal-libraries',
   description: 'Builds Vite entries from Drupal *.libraries.yml and *.component.yml files.',
   icon: 'logos:vite-icon',
   category: 'plugin',
@@ -18,11 +18,11 @@ export default defineProjectMeta({
   ],
   links: {
     github: 'https://github.com/heydon-consulting/vite-plugin-drupal',
-    npm: 'https://www.npmjs.com/package/@vite-plugin-drupal/libraries',
+    npm: 'https://www.npmjs.com/package/vite-plugin-drupal-libraries',
     website: 'https://github.com/heydon-consulting/vite-plugin-drupal/tree/main/packages/libraries#readme',
   },
   source: {
     github: 'heydon-consulting/vite-plugin-drupal',
-    npm: '@vite-plugin-drupal/libraries',
+    npm: 'vite-plugin-drupal-libraries',
   },
 })

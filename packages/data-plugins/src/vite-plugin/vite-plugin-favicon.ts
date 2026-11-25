@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vite-plugin-favicon',
-  description: 'Create and manage favicons for vite bundles, mostily compatible with the config of favicons-webpack-plugin',
+  description: 'Generate browser and app icons from source artwork in Vite.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -11,9 +11,9 @@ export default defineProjectMeta({
   tags: [
     'vite-plugin',
     'favicon',
-    'favicons',
-    'image',
-    'generate',
+    'icons',
+    'pwa',
+    'webmanifest',
   ],
   links: {
     github: 'https://github.com/josh-hemphill/vite-plugin-favicon',

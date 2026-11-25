@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'rollup-plugin-visualizer',
-  description: 'Visualize and analyze your bundle to quickly see which modules are taking up space.',
+  description: 'Visualize and analyze bundle sizes and module dependencies in Rollup, Rolldown, and Vite.',
   icon: 'logos:rollupjs',
   category: 'plugin',
   types: [
@@ -10,6 +10,12 @@ export default defineProjectMeta({
   ],
   tags: [
     'rollup-plugin',
+    'rolldown-plugin',
+    'vite-plugin',
+    'bundle-analyzer',
+    'bundle-analysis',
+    'bundle-size',
+    'dependency-graph',
     'visualizer',
     'network',
     'treemap',
