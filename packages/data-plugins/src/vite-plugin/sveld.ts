@@ -22,7 +22,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/carbon-design-system/sveld',
     npm: 'https://www.npmjs.com/package/sveld',
-    website: 'https://github.com/carbon-design-system/sveld',
+    website: 'https://github.com/carbon-design-system/sveld#readme',
   },
   source: {
     github: 'carbon-design-system/sveld',

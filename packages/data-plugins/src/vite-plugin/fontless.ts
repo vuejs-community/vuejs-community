@@ -16,12 +16,12 @@ export default defineProjectMeta({
     'javascript',
   ],
   links: {
-    github: 'https://github.com/unjs/fontaine',
+    github: 'https://github.com/made-in-common/fontaine',
     npm: 'https://www.npmjs.com/package/fontless',
-    website: 'https://github.com/unjs/fontaine#readme',
+    website: 'https://github.com/made-in-common/fontaine#readme',
   },
   source: {
-    github: 'unjs/fontaine',
+    github: 'made-in-common/fontaine',
     npm: 'fontless',
   },
   stats: {

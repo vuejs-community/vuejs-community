@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@triooo/named-routes',
-  description: 'Typed, automatically discovered named routes for Next.js, Nuxt, Vue, SvelteKit, Astro, React Router and TanStack Router',
+  description: 'The type-safe toolkit for routes, URLs and assets in Next.js, Nuxt, Vue, SvelteKit, Astro, React Router and TanStack Router',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

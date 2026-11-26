@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@ui-organized/react-vite',
-  description: 'Vite plugin for the ui-organized design system: validates a theme config, runs the token pipeline, and injects CSS variables at build time and during dev with HMR.',
+  description: 'Vite plugin for the ui-organized design system: builds a Theme Builder theme.json into your app\'s CSS, checks it against the token contract, and updates it in place during dev.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

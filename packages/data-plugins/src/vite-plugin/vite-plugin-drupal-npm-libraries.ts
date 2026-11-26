@@ -18,7 +18,7 @@ export default defineProjectMeta({
   links: {
     github: 'https://github.com/heydon-consulting/vite-plugin-drupal',
     npm: 'https://www.npmjs.com/package/vite-plugin-drupal-npm-libraries',
-    website: 'https://github.com/heydon-consulting/vite-plugin-drupal/tree/main/packages/vite-plugin-drupal-npm-libraries#readme',
+    website: 'https://github.com/heydon-consulting/vite-plugin-drupal/tree/main/packages/npm-libraries#readme',
   },
   source: {
     github: 'heydon-consulting/vite-plugin-drupal',

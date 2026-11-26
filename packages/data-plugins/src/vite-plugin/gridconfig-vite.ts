@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@gridconfig/vite',
-  description: 'The Vite plugin for GridConfig: compiles layout files and static grid calls at build time.',
+  description: 'The old name of gridconfig/vite. Use the gridconfig package.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
