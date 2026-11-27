@@ -2,13 +2,14 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vibelang-unplugin',
-  description: 'Compile VibeLang source modules with vibelang in webpack, Rollup, Rolldown, esbuild, Rspack, and Bun',
+  description: 'Compile Vibe (VibeLang) source modules in webpack, Rollup, Rolldown, esbuild, Rspack, and Bun',
   icon: 'logos:rollupjs',
   category: 'plugin',
   types: [
     'rollup-plugin',
   ],
   tags: [
+    'vibe',
     'vibelang',
     'effect',
     'unplugin',

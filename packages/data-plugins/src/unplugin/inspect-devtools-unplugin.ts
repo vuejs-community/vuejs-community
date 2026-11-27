@@ -17,6 +17,9 @@ export default defineProjectMeta({
     'devtools',
     'inspector',
     'source-location',
+    'cursor',
+    'claude-code',
+    'ai-coding',
   ],
   links: {
     github: 'https://github.com/reeswell/inspect-devtools',

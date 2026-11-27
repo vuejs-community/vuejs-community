@@ -2,13 +2,14 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: 'vibelang-vite',
-  description: 'Compile VibeLang source modules with vibelang in Vite and Vitest',
+  description: 'Compile Vibe (VibeLang) source modules in Vite and Vitest',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
     'vite-plugin',
   ],
   tags: [
+    'vibe',
     'vibelang',
     'effect',
     'vite',

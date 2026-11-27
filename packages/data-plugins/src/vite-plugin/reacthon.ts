@@ -15,12 +15,12 @@ export default defineProjectMeta({
     'vite-plugin',
   ],
   links: {
-    github: 'https://github.com/svelthon/reacthon',
+    github: 'https://github.com/fronthon/reacthon',
     npm: 'https://www.npmjs.com/package/reacthon',
-    website: 'https://github.com/svelthon/reacthon#readme',
+    website: 'https://github.com/fronthon/reacthon#readme',
   },
   source: {
-    github: 'svelthon/reacthon',
+    github: 'fronthon/reacthon',
     npm: 'reacthon',
   },
 })

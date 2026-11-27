@@ -12,9 +12,12 @@ export default defineProjectMeta({
     'rolldown-plugin',
   ],
   links: {
+    github: 'https://github.com/re-utils/runtime-compiler',
     npm: 'https://www.npmjs.com/package/runtime-compiler',
+    website: 'https://github.com/re-utils/runtime-compiler#readme',
   },
   source: {
+    github: 're-utils/runtime-compiler',
     npm: 'runtime-compiler',
   },
 })
