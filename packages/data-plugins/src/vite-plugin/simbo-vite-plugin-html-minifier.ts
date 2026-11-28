@@ -16,10 +16,12 @@ export default defineProjectMeta({
     'html-minifier-terser',
   ],
   links: {
+    github: 'https://github.com/simbo/packages',
     npm: 'https://www.npmjs.com/package/@simbo/vite-plugin-html-minifier',
     website: 'https://github.com/simbo/packages/tree/main/packages/vite-plugin-html-minifier',
   },
   source: {
+    github: 'simbo/packages',
     npm: '@simbo/vite-plugin-html-minifier',
   },
 })

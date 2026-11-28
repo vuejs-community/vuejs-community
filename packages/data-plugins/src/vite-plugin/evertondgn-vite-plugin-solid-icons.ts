@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@evertondgn/vite-plugin-solid-icons',
-  description: 'Vite plugin that turns Iconify collections and folders of SVG files into SolidJS 2 components.',
+  description: 'Iconify collections and your own SVG folders as typed SolidJS 2 components, with only the icons you use in the bundle.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [

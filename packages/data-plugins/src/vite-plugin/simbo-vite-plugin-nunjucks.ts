@@ -16,10 +16,12 @@ export default defineProjectMeta({
     'templates',
   ],
   links: {
+    github: 'https://github.com/simbo/packages',
     npm: 'https://www.npmjs.com/package/@simbo/vite-plugin-nunjucks',
     website: 'https://github.com/simbo/packages/tree/main/packages/vite-plugin-nunjucks',
   },
   source: {
+    github: 'simbo/packages',
     npm: '@simbo/vite-plugin-nunjucks',
   },
 })

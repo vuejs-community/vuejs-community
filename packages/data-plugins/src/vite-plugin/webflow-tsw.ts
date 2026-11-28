@@ -2,7 +2,7 @@ import { defineProjectMeta } from '@vuejs-community/schema'
 
 export default defineProjectMeta({
   name: '@webflow/tsw',
-  description: 'The .tsw toolchain in one package: the authoring API and runtime, the element library, the language engine and compiler, framework adapters for Astro, Next.js, and React, and editor plugins for TypeScript and ESLint.',
+  description: 'The .tsw toolchain in one package: the authoring API and runtime, the element library, the language engine and compiler, framework adapters for Astro, Next.js, and React, and the TypeScript editor plugin.',
   icon: 'logos:vite-icon',
   category: 'plugin',
   types: [
@@ -12,7 +12,6 @@ export default defineProjectMeta({
     'astro',
     'cms',
     'compiler',
-    'eslint-plugin',
     'nextjs',
     'react',
     'tsw',

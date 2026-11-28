@@ -18,9 +18,12 @@ export default defineProjectMeta({
     'ui',
   ],
   links: {
+    github: 'https://github.com/crisweb1994/pinsight',
     npm: 'https://www.npmjs.com/package/@pinsight/vite',
+    website: 'https://github.com/crisweb1994/pinsight#readme',
   },
   source: {
+    github: 'crisweb1994/pinsight',
     npm: '@pinsight/vite',
   },
 })
